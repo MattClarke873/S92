@@ -638,13 +638,13 @@ const questionBank = [
         options: { a: 'One', b: 'Two', c: 'Three' },
         correct: 'b',
       },
-/*       {
+      {
         id: 92,
         category: 'ATA 28',
-        question: 'What does the Fuel Quantity Gauging System BIT detect?',
-        options: { a: 'Weather conditions', b: 'Fuel density variations', c: 'Air traffic' },
-        correct: 'b',
-      }, */
+        question: 'What does the FCU use the fuel temperature data for?',
+        options: { a: 'Low-level compensation', b: 'Voltage measurements', c: 'Fuel mass correction' },
+        correct: 'c',
+      },
       {
         id: 93,
         category: 'ATA 28',
@@ -694,13 +694,13 @@ const questionBank = [
         options: { a: 'Full tank', b: '1 hour of fuel remaining', c: 'Empty tank' },
         correct: 'b',
       },
-/*       {
+       {
         id: 100,
         category: 'ATA 28',
-        question: 'When does the PRIME PUMP FAIL caution illuminate during engine start?',
-        options: { a: 'During normal operation', b: 'After the starter cuts out', c: 'At shutdown' },
-        correct: 'b',
-      }, */
+        question: 'Where are the breakaway valves located?',
+        options: { a: 'Sponson to aircraft racetrack', b: 'transfer point to the upper deck for both engine and APU supply', c: 'Both' },
+        correct: 'c',
+      }, 
       {
         id: 101,
         category: 'ATA 28',
@@ -748,14 +748,14 @@ const questionBank = [
         id: 107,
         category: 'ATA 28',
         question: 'In normal operation what component decides which prime pump is used?',
-        options: { a: 'Maintenance Data Computer  ', b: 'Fuel conditioning unit  ', c: 'Data concentrators unit  ' },
+        options: { a: 'Maintenance Data Computer ', b: 'Fuel conditioning unit', c: 'Data concentrators unit' },
         correct: 'a',
       },
       {
         id: 108,
         category: 'ATA 28',
         question: 'How are the bag tanks attached to the sponson?',
-        options: { a: 'Nuts and Bolts  ', b: 'Velcro and Cord  ', c: 'Gravity ' },
+        options: { a: 'Nuts and Bolts', b: 'Velcro and Cord', c: 'Interference fit' },
         correct: 'b',
       },
       {
@@ -768,22 +768,22 @@ const questionBank = [
       {
         id: 110,
         category: 'ATA 28',
-        question: 'How are the bag tanks attached to the sponson?',
-        options: { a: 'Nuts and Bolts  ', b: 'Velcro and Cord  ', c: 'Gravity ' },
+        question: 'How are the breakaway valves operated?',
+        options: { a: 'Electrically', b: 'Actuate when side loading causes a low shear frangible fitting in the valve to break.', c: 'aircraft integrated inertia switches' },
         correct: 'b',
-      },
+      }, 
       {
         id: 111,
         category: 'ATA 28',
         question: 'When is the prime pump needed?',
-        options: { a: 'APU start and Engine Cross feed start', b: 'Normal engine operation', c: 'APU start ONLY' },
+        options: { a: 'engine fuel boost pumps for start, and to the APU continuously, while the APU is running', b: 'Normal engine operation', c: 'APU start ONLY' },
         correct: 'a',
       },
       {
         id: 112,
         category: 'ATA 28',
         question: 'Where are the prime pumps located?',
-        options: { a: 'Engine bay', b: 'within the fuel tank', c: 'Left hand cabin wall' },
+        options: { a: 'Engine bay', b: 'within the fuel tank', c: 'Left hand mid-cabin wall' },
         correct: 'c',
       },
       {
@@ -810,7 +810,7 @@ const questionBank = [
       {
         id: 116,
         category: 'ATA 28',
-        question: 'What components can be found one the fuel sensor probe',
+        question: 'What components can be found on the fuel sensor probe',
         options: { a: 'fuel sensor only', b: 'Fuel sensor, Low level sensor and High Level sensor ', c: 'Fuel sensor, Low Level sensor and temperature compensating' },
         correct: 'c',
       },
@@ -824,8 +824,8 @@ const questionBank = [
       {
         id: 118,
         category: 'ATA 28',
-        question: 'Where is the fuel prime pressure switch located?',
-        options: { a: 'LH cabin roof', b: 'LH Sponson tank', c: 'LH avionic rack' },
+        question: 'Where is the fuel prime low pressure switch located?',
+        options: { a: 'LH mid-cabin ', b: 'LH Sponson tank', c: 'LH avionic rack' },
         correct: 'a',
       },
       {
@@ -838,9 +838,9 @@ const questionBank = [
       {
         id: 120,
         category: 'ATA 28',
-        question: 'At what level will the fuel low level ',
-        options: { a: 'LH cabin roof', b: 'LH Sponson tank', c: 'LH avionic rack' },
-        correct: 'a',
+        question: 'Where are fuel flow indications derived from?',
+        options: { a: 'EICAS page', b: 'Fuel Metering Unit', c: 'Low-level sensors' },
+        correct: 'b',
       },
       {
         id: 121,
@@ -852,10 +852,10 @@ const questionBank = [
       {
         id: 122,
         category: 'ATA 34',
-        question: 'What is the frequency range of the ADF462 system?',
-        options: { a: '190 kHz to 1799.50 kHz', b: '2179 kHz to 2185 kHz', c: '0.5 kHz to 2182 kHz' },
+        question: 'What does the ADF system consist of?',
+        options: { a: 'Receiver and Antenna.', b: 'Receiver / Transceiver module', c: 'integrated in to the DCU' },
         correct: 'a',
-      },
+      }, 
       
       {
         id: 123,
@@ -973,7 +973,7 @@ const questionBank = [
         id: 137,
         category: 'ATA 34',
         question: 'When should the RADALT system be zeroed?',
-        options: { a: 'Every flight', b: 'If IBIT reading is more than 5 ft above or below 100 ft', c: 'Only during maintenance' },
+        options: { a: 'Every flight', b: 'If IBIT reading is more than 5 ft above or below 100 ft', c: 'During pre-flight inspection' },
         correct: 'b',
       },
       
@@ -1000,13 +1000,13 @@ const questionBank = [
         correct: 'b',
       },
       
-      {
+/*       {
         id: 141,
         category: 'ATA 34',
         question: 'Which components make up the ADC System?',
         options: { a: 'Air Data Computer 1, Outside Air Temperature Probe 1', b: 'Air Data Computer 1, Air Data Computer 2', c: 'Air Data Computer 1, Left Pitot Static Probe' },
         correct: 'b',
-      },
+      }, */
       
       {
         id: 142,
@@ -1020,7 +1020,7 @@ const questionBank = [
         id: 143,
         category: 'ATA 34',
         question: 'Where are the ADCs located?',
-        options: { a: 'On the wings', b: 'Under the nose of the aircraft', c: 'On the tail' },
+        options: { a: 'Left hand avionics rack', b: 'Under the nose of the aircraft', c: 'On the tail' },
         correct: 'b',
       },
       
@@ -1036,7 +1036,7 @@ const questionBank = [
         id: 145,
         category: 'ATA 34',
         question: 'Where are the Outside Air Temperature (OAT) Probes located?',
-        options: { a: 'On the wings', b: 'Under the nose Landing Bay', c: 'On the tail' },
+        options: { a: 'Engine inlets', b: 'Under the nose Landing Bay', c: 'Within the Pitot head' },
         correct: 'b',
       },
       
@@ -1044,7 +1044,7 @@ const questionBank = [
         id: 146,
         category: 'ATA 34',
         question: 'From which Pitot Static Probe does ADC 1 receive pitot pressure?',
-        options: { a: 'Left Pitot Probe', b: 'Right Pitot Probe', c: 'Upper left Pitot Probe' },
+        options: { a: 'Lower Left Pitot Probe', b: 'Right Pitot Probe', c: 'Upper left Pitot Probe' },
         correct: 'a',
       },
       
@@ -1076,23 +1076,23 @@ const questionBank = [
         id: 150,
         category: 'ATA 34',
         question: 'How does the system indicate a miscompare in IAS?',
-        options: { a: 'Audible alert', b: 'Flashing lights', c: 'Fail flag' },
+        options: { a: 'Audible alert', b: 'Flashing lights', c: 'IAS miscompare flag' },
         correct: 'c',
       },
       
       {
         id: 151,
         category: 'ATA 34',
-        question: 'What is the consequence of an ADC IAS failure?',
-        options: { a: 'VSI is affected', b: 'IAS indication is removed', c: 'BARO ALT indication is removed' },
+        question: 'At what IAS will a miscompare display?',
+        options: { a: '70 KIAS', b: '7 KIAS', c: '70 feet' },
         correct: 'b',
       },
       
       {
         id: 152,
         category: 'ATA 34',
-        question: 'Which selection is made to recover the display following a miscompare or failure?',
-        options: { a: 'AFCS Reference', b: 'NORM', c: 'Reversionary' },
+        question: 'At what altitude will a miscompare display?',
+        options: { a: '7 feet', b: '70 feet', c: '7 KIAS' },
         correct: 'b',
       },
       
@@ -1120,13 +1120,13 @@ const questionBank = [
         correct: 'c',
       },
       
-      {
+/*       {
         id: 156,
         category: 'ATA 34',
         question: 'Where is the remote control panel located for the ADC Test Set?',
         options: { a: 'In the cockpit', b: 'In the nose Landing Bay', c: 'Under the aircraft' },
         correct: 'a',
-      },
+      }, */
       
       {
         id: 157,
