@@ -327,7 +327,7 @@ const questionBank = [
         id: 47,
         category: 'ATA 28',
         question: 'What triggers the FUEL 1/2 LOW CAUTION?',
-        options: { a: '440 nautical miles', b: '98kg ± 20kg', c: 'Low-level fuel sensors' },
+        options: { a: '440 nautical miles', b: '215 lbs ± 45 lbs', c: 'Low-level fuel sensors' },
         correct: 'b',
       },
       {
@@ -337,13 +337,13 @@ const questionBank = [
         options: { a: 'Engine mounts', b: 'Landing gear', c: 'Quantity probe, low-level fuel sensor, refuel/defuel valve' },
         correct: 'c',
       },
-      {
+/*       {
         id: 49,
         category: 'ATA 28',
         question: 'What color is the main body of breakaway valves?',
         options: { a: 'Blue', b: 'Red', c: 'Yellow' },
         correct: 'b',
-      },
+      }, */
       {
         id: 50,
         category: 'ATA 28',
@@ -355,7 +355,7 @@ const questionBank = [
         id: 51,
         category: 'ATA 28',
         question: 'Where is the aircraft pressure refuelled / defuelled from?',
-        options: { a: 'Cockpit', b: 'LH sponson', c: 'Wingtip' },
+        options: { a: 'RH sponson', b: 'LH sponson', c: 'Gravity fill port' },
         correct: 'b',
       },
       {
@@ -372,18 +372,18 @@ const questionBank = [
         options: { a: 'Prevent fuel spills', b: 'Increase fuel flow', c: 'Maintain atmospheric pressure' },
         correct: 'a',
       },
-      {
+/*       {
         id: 54,
         category: 'ATA 28',
         question: 'What is the purpose of the Auxiliary Tank - Fuel Management Panel?',
         options: { a: 'Engine control', b: 'Fuel quantity measurement', c: 'Aircraft navigation' },
         correct: 'b',
-      },
+      }, */
       {
         id: 55,
         category: 'ATA 28',
         question: 'How much usable fuel does each Internal Auxiliary Fuel System (IAFS) tank hold?',
-        options: { a: '210 USG', b: '382 gallons', c: '440 nautical miles' },
+        options: { a: '1384 lbs', b: '382 gallons', c: '440 nautical miles' },
         correct: 'a',
       },
       {
@@ -391,7 +391,7 @@ const questionBank = [
         category: 'ATA 28',
         question: 'What pressure if fuel delivered during pressure refuel?',
         options: { a: '55 psi', b: '-3 psi', c: '20 gpm' },
-        correct: 'b',
+        correct: 'a',
       },
       {
         id: 57,
