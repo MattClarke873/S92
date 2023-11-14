@@ -448,7 +448,148 @@ const questionBank = [
         question: 'What is the total fuel capacity (pressure Refuel)',
         options: { a: '5175lbs', b: '1000lbs', c: '7700lbs' },
         correct: 'a',
+      },
+/*       {
+        id: 65,
+        category: 'ATA 28',
+        question: 'Where are the fuel select valve switches located?',
+        options: { a: 'Throttle quadrant', b: 'Overhead switch panel', c: 'Engine Control Quadrant' },
+        correct: 'a',
+      }, */
+      {
+        id: 66,
+        category: 'ATA 28',
+        question: 'What are the three positions of the fuel select valve switches?',
+        options: { a: 'DIR, XFD, OFF', b: 'AUTO, PUMP 1, PUMP 2', c: 'ON, OFF, AUTO' },
+        correct: 'a',
+      },
+      {
+        id: 67,
+        category: 'ATA 28',
+        question: 'How is the fuel valve selection displayed on the EICAS when in the CROSSFEED position?',
+        options: { a: 'Fuel line connected directly to engine pod', b: 'Fuel line cross-connected to engine pod', c: 'Fuel line disconnected from the engine pod' },
+        correct: 'b',
+      },
+/*       {
+        id: 68,
+        category: 'ATA 28',
+        question: 'Where is the fuel prime switch located?',
+        options: { a: 'Throttle quadrant', b: 'Central overhead switch panel', c: 'Engine Control Quadrant' },
+        correct: 'b',
+      }, */
+/*       {
+        id: 69,
+        category: 'ATA 28',
+        question: 'In which position will the prime pumps alternate their use when in AUTO?',
+        options: { a: 'PUMP 1', b: 'PUMP 2', c: 'AUTO' },
+        correct: 'c',
+      }, */
+/*       {
+        id: 70,
+        category: 'ATA 28',
+        question: 'How are the engine fuel selector valves powered?',
+        options: { a: 'Aircraft power', b: 'Battery Utility bus', c: 'APU power' },
+        correct: 'b',
+      }, */
+      {
+        id: 71,
+        category: 'ATA 28',
+        question: 'What controls the OFF selection of the engine fuel selector valves?',
+        options: { a: 'Fire Control Panel', b: 'Maintenance Data Computer', c: 'Engine Control Quadrant' },
+        correct: 'a',
+      },
+      {
+        id: 72,
+        category: 'ATA 28',
+        question: 'Where are the fuel prime pumps located?',
+        options: { a: 'Engine pod', b: 'Mid-cabin section', c: 'Throttle quadrant' },
+        correct: 'b',
+      },
+      {
+        id: 73,
+        category: 'ATA 28',
+        question: 'What is the normal pressure provided by the fuel prime pumps?',
+        options: { a: '>5 psi', b: '11-16.5 psi', c: '3 psi' },
+        correct: 'b',
+      },
+      {
+        id: 74,
+        category: 'ATA 28',
+        question: 'When does the MDC automatically control the operation of the prime pumps in AUTO position?',
+        options: { a: 'During maintenance', b: 'After PBIT', c: 'During a normal start' },
+        correct: 'c',
+      },
+      {
+        id: 75,
+        category: 'ATA 28',
+        question: 'What happens if the MDC fails during prime pump operation?',
+        options: { a: 'Pump No.1 operates by default', b: 'Pump No.2 operates by default', c: 'Both pumps stop' },
+        correct: 'a',
+      },
+      {
+        id: 76,
+        category: 'ATA 28',
+        question: 'When can manual fuel prime be selected?',
+        options: { a: 'During flight', b: 'During APU operation', c: 'After maintenance on the fuel system' },
+        correct: 'c',
+      },
+      {
+        id: 77,
+        category: 'ATA 28',
+        question: 'Where is the prime pump pressure switch located?',
+        options: { a: 'Engine pod', b: 'Mid-cabin section', c: 'Throttle quadrant' },
+        correct: 'b',
+      },
+      {
+        id: 78,
+        category: 'ATA 28',
+        question: 'What does the prime pump pressure switch detect?',
+        options: { a: 'High pressure', b: 'Low pressure (<5 psi)', c: 'Temperature' },
+        correct: 'b',
+      },
+      {
+        id: 79,
+        category: 'ATA 28',
+        question: 'What caution is initiated if the prime pump pressure switch detects low pressure?',
+        options: { a: 'APU FAIL', b: 'PRIME PUMP FAIL', c: 'FUEL LEAK' },
+        correct: 'b',
+      },
+      {
+        id: 80,
+        category: 'ATA 28',
+        question: 'What is the maximum fuel imbalance between LH & RH tanks?',
+        options: { a: '500 lbs', b: '700 lbs', c: '1000 lbs' },
+        correct: 'b',
+      },
+      {
+        id: 81,
+        category: 'ATA 28',
+        question: 'What is the Fuel Cell Sump Drain Valve Wrench used for?',
+        options: { a: 'Fuel pressure test', b: 'Fuel cell installation', c: 'Fuel tank drain valve' },
+        correct: 'c',
+      },
+      {
+        id: 82,
+        category: 'ATA 28',
+        question: 'What does the SK2000FIT Fuel Integrity Tester detect?',
+        options: { a: 'Fuel temperature', b: 'Fuel leaks', c: 'Fuel pressure' },
+        correct: 'b',
+      },
+      {
+        id: 83,
+        category: 'ATA 28',
+        question: 'What critical maintenance function does the SK2000FIT perform?',
+        options: { a: 'Engine start', b: 'Fuel leakage testing', c: 'Fuel cell installation' },
+        correct: 'b',
+      },
+      {
+        id: 84,
+        category: 'ATA 28',
+        question: 'What is the purpose of the Fuel Feed System Vacuum Test?',
+        options: { a: 'Check fuel temperature', b: 'Check fuel pressure', c: 'Check fuel system integrity' },
+        correct: 'c',
       }
+      
       
       
     
