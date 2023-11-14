@@ -1142,6 +1142,7 @@ const questionBank = [
         question: 'Which system uses an average of both ADCs for its calculations?',
         options: { a: 'AFCS', b: 'ADC', c: 'Standby System' },
         correct: 'a',
+        
       }
       
       
