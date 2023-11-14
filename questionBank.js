@@ -690,7 +690,7 @@ const questionBank = [
       {
         id: 99,
         category: 'ATA 28',
-        question: 'What does the barber pole on the fuel quantity symbology indicate?',
+        question: 'What does the yellow/green coloured barber pole on the fuel quantity symbology indicate?',
         options: { a: 'Full tank', b: '1 hour of fuel remaining', c: 'Empty tank' },
         correct: 'b',
       },
@@ -714,8 +714,14 @@ const questionBank = [
         question: 'What happens if no data is being received from the FCU?',
         options: { a: 'Green tapes', b: 'Yellow tapes', c: 'Red dashes and black text' },
         correct: 'c',
+      },
+      {
+        id: 102,
+        category: 'ATA 28',
+        question: 'Where are the fuel quantity probes and low-level sensors inputs sent?',
+        options: { a: 'Fuel Conditioning Unit', b: 'Fuel Control Unit', c: 'Data Concentrator Units' },
+        correct: 'a',
       }
-      
       
       
       
