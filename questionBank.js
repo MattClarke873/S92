@@ -396,7 +396,7 @@ const questionBank = [
       {
         id: 57,
         category: 'ATA 28',
-        question: 'Where is the fuel management panel located?',
+        question: 'Where is the Pressure Refuel Control Panel (PRCP) located?',
         options: { a: 'Pressure refuel point', b: 'Cockpit central pedestal', c: 'Fuel bowser' },
         correct: 'b',
       },
@@ -404,16 +404,16 @@ const questionBank = [
         id: 58,
         category: 'ATA 28',
         question: 'What is the function of the Pressure Refuel Control switches during refuelling?',
-        options: { a: 'Stop refuelling', b: 'Increase fuel flow', c: 'Manage cockpit pressure' },
+        options: { a: 'control of left and right sponson fuel delivery', b: 'Increase fuel flow', c: 'Manage cockpit pressure' },
         correct: 'a',
       },
-      {
+/*       {
         id: 59,
         category: 'ATA 28',
         question: 'How are the aux tanks refuelled during pressure refuel operations?',
         options: { a: 'Simultaneously with main tanks', b: 'After main tanks are full', c: 'Independently of main tanks' },
         correct: 'a',
-      },
+      }, */
       {
         id: 60,
         category: 'ATA 28',
@@ -491,18 +491,18 @@ const questionBank = [
         options: { a: 'Aircraft power', b: 'Battery Utility bus', c: 'APU power' },
         correct: 'b',
       }, */
-      {
-        id: 71,
+/*      {
+         id: 71,
         category: 'ATA 28',
         question: 'What controls the OFF selection of the engine fuel selector valves?',
-        options: { a: 'Fire Control Panel', b: 'Maintenance Data Computer', c: 'Engine Control Quadrant' },
+        options: { a: 'Fire Control Panel', b: 'Maintenance Data Computer', c: 'Cockpit engine Control Quadrant' },
         correct: 'a',
-      },
+      }, */
       {
         id: 72,
         category: 'ATA 28',
         question: 'Where are the fuel prime pumps located?',
-        options: { a: 'Engine pod', b: 'Mid-cabin section', c: 'Throttle quadrant' },
+        options: { a: 'Left and right sponsons', b: 'Left side mid-cabin section', c: 'Engine Bay' },
         correct: 'b',
       },
       {
@@ -526,17 +526,17 @@ const questionBank = [
         options: { a: 'Pump No.1 operates by default', b: 'Pump No.2 operates by default', c: 'Both pumps stop' },
         correct: 'a',
       },
-      {
+/*       {
         id: 76,
         category: 'ATA 28',
         question: 'When can manual fuel prime be selected?',
         options: { a: 'During flight', b: 'During APU operation', c: 'After maintenance on the fuel system' },
         correct: 'c',
-      },
+      }, */
       {
         id: 77,
         category: 'ATA 28',
-        question: 'Where is the prime pump pressure switch located?',
+        question: 'Where is the prime pump pressure low pressure switch located?',
         options: { a: 'Engine pod', b: 'Mid-cabin section', c: 'Throttle quadrant' },
         correct: 'b',
       },
