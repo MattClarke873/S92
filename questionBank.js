@@ -983,7 +983,167 @@ const questionBank = [
         question: 'How can the RADALT AGL be displayed in 0.1 foot increments on the MFDs?',
         options: { a: 'Pressing IBIT', b: 'Pressing + and – together on the CONT buttons', c: 'Selecting TDP on the PFD' },
         correct: 'b',
+      },
+      {
+        id: 139,
+        category: 'ATA 34',
+        question: 'What does the Air Data Systems (ADS) consist of?',
+        options: { a: 'Two ADC systems and a Standby system', b: 'Three ADC systems', c: 'Two Standby systems' },
+        correct: 'a',
+      },
+      
+      {
+        id: 140,
+        category: 'ATA 34',
+        question: 'How many ADC systems are there in the Air Data Systems?',
+        options: { a: 'One', b: 'Two', c: 'Three' },
+        correct: 'b',
+      },
+      
+      {
+        id: 141,
+        category: 'ATA 34',
+        question: 'Which components make up the ADC System?',
+        options: { a: 'Air Data Computer 1, Outside Air Temperature Probe 1', b: 'Air Data Computer 1, Air Data Computer 2', c: 'Air Data Computer 1, Left Pitot Static Probe' },
+        correct: 'b',
+      },
+      
+      {
+        id: 142,
+        category: 'ATA 34',
+        question: 'What is the purpose of the Standby System?',
+        options: { a: 'To calculate Vne', b: 'To provide indications only', c: 'To send data to the MFDs' },
+        correct: 'b',
+      },
+      
+      {
+        id: 143,
+        category: 'ATA 34',
+        question: 'Where are the ADCs located?',
+        options: { a: 'On the wings', b: 'Under the nose of the aircraft', c: 'On the tail' },
+        correct: 'b',
+      },
+      
+      {
+        id: 144,
+        category: 'ATA 34',
+        question: 'What information do the ADCs use for their calculations?',
+        options: { a: 'Weight and engine status', b: 'Pitot pressure, static pressure, and outside air temperature', c: 'Barometric setting and AFCS data' },
+        correct: 'b',
+      },
+      
+      {
+        id: 145,
+        category: 'ATA 34',
+        question: 'Where are the Outside Air Temperature (OAT) Probes located?',
+        options: { a: 'On the wings', b: 'Under the nose Landing Bay', c: 'On the tail' },
+        correct: 'b',
+      },
+      
+      {
+        id: 146,
+        category: 'ATA 34',
+        question: 'From which Pitot Static Probe does ADC 1 receive pitot pressure?',
+        options: { a: 'Left Pitot Probe', b: 'Right Pitot Probe', c: 'Upper left Pitot Probe' },
+        correct: 'a',
+      },
+      
+      {
+        id: 147,
+        category: 'ATA 34',
+        question: 'How many screw cap drain points are used to release water build-up in the pitot and static lines?',
+        options: { a: '5', b: '10', c: '15' },
+        correct: 'b',
+      },
+      
+      {
+        id: 148,
+        category: 'ATA 34',
+        question: 'What does the BARALT Bug MIN setting control?',
+        options: { a: 'Vne calculation', b: 'BARALT Decision Height', c: 'AFCS Reference Altitude' },
+        correct: 'b',
+      },
+      
+      {
+        id: 149,
+        category: 'ATA 34',
+        question: 'What does the white ALTP bug setting control?',
+        options: { a: 'BARALT Decision Height', b: 'Altitude Pre-select', c: 'AFCS Reference Altitude' },
+        correct: 'b',
+      },
+      
+      {
+        id: 150,
+        category: 'ATA 34',
+        question: 'How does the system indicate a miscompare in IAS?',
+        options: { a: 'Audible alert', b: 'Flashing lights', c: 'Fail flag' },
+        correct: 'c',
+      },
+      
+      {
+        id: 151,
+        category: 'ATA 34',
+        question: 'What is the consequence of an ADC IAS failure?',
+        options: { a: 'VSI is affected', b: 'IAS indication is removed', c: 'BARO ALT indication is removed' },
+        correct: 'b',
+      },
+      
+      {
+        id: 152,
+        category: 'ATA 34',
+        question: 'Which selection is made to recover the display following a miscompare or failure?',
+        options: { a: 'AFCS Reference', b: 'NORM', c: 'Reversionary' },
+        correct: 'b',
+      },
+      
+      {
+        id: 153,
+        category: 'ATA 34',
+        question: 'What does ADC to AFCS data use for its calculations?',
+        options: { a: 'Only offside ADC', b: 'Average of both ADCs', c: 'AHRS data' },
+        correct: 'b',
+      },
+      
+      {
+        id: 154,
+        category: 'ATA 34',
+        question: 'What happens if a pitot probe becomes blocked during coupled pitch movement?',
+        options: { a: 'Uncommanded pitch movement', b: 'No effect', c: 'AFCS disengagement' },
+        correct: 'a',
+      },
+      
+      {
+        id: 155,
+        category: 'ATA 34',
+        question: 'How is the Pitot Static leak check and accuracy checks carried out?',
+        options: { a: 'Using the ADC Test Set', b: 'Manually', c: 'Using the Air Data System Test Set 405F' },
+        correct: 'c',
+      },
+      
+      {
+        id: 156,
+        category: 'ATA 34',
+        question: 'Where is the remote control panel located for the ADC Test Set?',
+        options: { a: 'In the cockpit', b: 'In the nose Landing Bay', c: 'Under the aircraft' },
+        correct: 'a',
+      },
+      
+      {
+        id: 157,
+        category: 'ATA 34',
+        question: 'Is there an interrupted test of the ADC system?',
+        options: { a: 'Yes', b: 'No', c: 'Only during flight' },
+        correct: 'b',
+      },
+      
+      {
+        id: 158,
+        category: 'ATA 34',
+        question: 'Which system uses an average of both ADCs for its calculations?',
+        options: { a: 'AFCS', b: 'ADC', c: 'Standby System' },
+        correct: 'a',
       }
+      
       
      
     
