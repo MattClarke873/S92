@@ -606,8 +606,8 @@ const questionBank = [
       {
         id: 87,
         category: 'ATA 28',
-        question: 'Where are the fuel probes located in each main sponson tank?',
-        options: { a: 'At the bottom', b: 'On the sides', c: 'In the top section' },
+        question: 'Where are the fuel probes attached in each main sponson tank?',
+        options: { a: 'The rear', b: 'On the sides', c: 'Between the bridge and to fittings in the top of the tank' },
         correct: 'c',
       },
       {
@@ -628,7 +628,7 @@ const questionBank = [
         id: 90,
         category: 'ATA 28',
         question: 'Where is the Fuel Conditioning Unit (FCU) located?',
-        options: { a: 'Cockpit', b: 'Mid-cabin bulkhead', c: 'Wingtip' },
+        options: { a: 'Cockpit', b: 'Lower Left mid-cabin bulkhead', c: 'LH Avionic cabinet' },
         correct: 'b',
       },
       {
@@ -638,13 +638,13 @@ const questionBank = [
         options: { a: 'One', b: 'Two', c: 'Three' },
         correct: 'b',
       },
-      {
+/*       {
         id: 92,
         category: 'ATA 28',
         question: 'What does the Fuel Quantity Gauging System BIT detect?',
         options: { a: 'Weather conditions', b: 'Fuel density variations', c: 'Air traffic' },
         correct: 'b',
-      },
+      }, */
       {
         id: 93,
         category: 'ATA 28',
@@ -705,7 +705,7 @@ const questionBank = [
         id: 101,
         category: 'ATA 28',
         question: 'What does the SOV1 WRNG POSN or SOV2 WRNG POSN indication mean?',
-        options: { a: 'Fuel tank full', b: 'Valve in wrong position depending on demanded postion', c: 'Normal operation' },
+        options: { a: 'Fuel tank full', b: 'Valve in wrong position depending on demanded position', c: 'Normal operation' },
         correct: 'b',
       },
       {
@@ -726,15 +726,15 @@ const questionBank = [
         id: 104,
         category: 'ATA 28',
         question: 'If PUMP 1 is shown in green on the Aircraft Status page? ',
-        options: { a: 'Pump 1 was the last prime pump to be used', b: 'Prime pump 1 BIT test passed', c: ' Prime pump 1 is on' },
+        options: { a: 'Pump 1 was the last prime pump to be used or is in use', b: 'Prime pump 1 BIT test passed', c: 'Prime pump 1 is faulty' },
         correct: 'a',
       },
       {
         id: 105,
         category: 'ATA 28',
         question: 'Where does the APU take its supply?  ',
-        options: { a: 'Supply Tank  ', b: 'Right Hand Sponson Tank', c: 'Left Hand Sponson Tank  ' },
-        correct: 'a',
+        options: { a: 'Supply Tank  ', b: 'Right Hand Sponson Tank', c: 'Left Hand Sponson Tank' },
+        correct: 'c',
       },
       ,
       {
