@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const selectedOption = selectedOptionBtn.getAttribute('data-option');
             resultText.innerHTML = `
 
-            ${question.category} - ${question.question} 
+            ${question.category}-${question.id} - ${question.question} 
             <br>
             <br> - Your Answer: ${question.options[selectedOption]},
             <br> - Correct Answer: ${question.options[question.correct]}
@@ -84,7 +84,13 @@ document.addEventListener('DOMContentLoaded', function () {
               resultText.style.color = 'red';
             }
           } else {
-            resultText.innerHTML = `${question.category} - ${question.question} - Your Answer: Not attempted, Correct Answer: ${question.options[question.correct]}`;
+            resultText.innerHTML = `${question.category}-${question.id} - ${question.question} 
+            <br>
+            <br> - Your Answer: Not attempted, 
+            <br> - Correct Answer: ${question.options[question.correct]}
+            <br>
+            <br>`;
+            
             resultText.style.color = 'red';
           }
       
