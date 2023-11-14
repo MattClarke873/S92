@@ -67,7 +67,10 @@ document.addEventListener('DOMContentLoaded', function () {
       
           if (selectedOptionBtn) {
             const selectedOption = selectedOptionBtn.getAttribute('data-option');
-            resultText.innerHTML = `${question.category} - ${question.question} 
+            resultText.innerHTML = `
+            This is a training aid, PLEASE CHECK ALL QUESTIONS if unsure.
+            <br>
+            ${question.category} - ${question.question} 
             <br>
             <br> - Your Answer: ${question.options[selectedOption]},
             <br> - Correct Answer: ${question.options[question.correct]}
