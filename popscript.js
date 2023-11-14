@@ -1,14 +1,14 @@
-document.addEventListener("DOMContentLoaded", function() {
-    // Display the pop-up when the page loads
-    openPopup();
+document.addEventListener('DOMContentLoaded', function () {
+    // Show the pop-up when the page loads
+    showPopup();
 });
 
-function openPopup() {
-    var popup = document.getElementById("popup-container");
-    popup.style.display = "flex"; // Use flex to center the content
+function showPopup() {
+    var popupContainer = document.getElementById('popup-container');
+    popupContainer.style.display = 'flex';
 }
 
 function closePopup() {
-    var popup = document.getElementById("popup-container");
-    popup.style.display = "none";
+    var popupContainer = document.getElementById('popup-container');
+    popupContainer.style.display = 'none';
 }
