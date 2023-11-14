@@ -389,8 +389,8 @@ const questionBank = [
       {
         id: 56,
         category: 'ATA 28',
-        question: 'What is the maximum defuel pressure allowed for the IAFS?',
-        options: { a: '55 psig', b: '-3 psig', c: '20 gpm' },
+        question: 'What pressure if fuel delivered during pressure refuel?',
+        options: { a: '55 psi', b: '-3 psi', c: '20 gpm' },
         correct: 'b',
       },
       {
@@ -446,7 +446,7 @@ const questionBank = [
         id: 64,
         category: 'ATA 28',
         question: 'What is the total fuel capacity (pressure Refuel)',
-        options: { a: '5175lbs', b: '1000lbs', c: '7700lbs' },
+        options: { a: '5175lbs', b: '3086lbs', c: '7700lbs' },
         correct: 'a',
       },
 /*       {
@@ -694,18 +694,18 @@ const questionBank = [
         options: { a: 'Full tank', b: '1 hour of fuel remaining', c: 'Empty tank' },
         correct: 'b',
       },
-      {
+/*       {
         id: 100,
         category: 'ATA 28',
         question: 'When does the PRIME PUMP FAIL caution illuminate during engine start?',
         options: { a: 'During normal operation', b: 'After the starter cuts out', c: 'At shutdown' },
         correct: 'b',
-      },
+      }, */
       {
         id: 101,
         category: 'ATA 28',
         question: 'What does the SOV1 WRNG POSN or SOV2 WRNG POSN indication mean?',
-        options: { a: 'Fuel tank full', b: 'Valve in wrong position depending on current operation', c: 'Normal operation' },
+        options: { a: 'Fuel tank full', b: 'Valve in wrong position depending on demanded postion', c: 'Normal operation' },
         correct: 'b',
       },
       {
@@ -716,24 +716,140 @@ const questionBank = [
         correct: 'c',
       },
       {
-        id: 102,
+        id: 103,
         category: 'ATA 28',
         question: 'Where are the fuel quantity probes and low-level sensors inputs sent?',
         options: { a: 'Fuel Conditioning Unit onto the DCU', b: 'Fuel Control Unit onto the DCU', c: ' Directly to the Data Concentrator Units' },
         correct: 'a',
         },
       {
-        id: 102,
+        id: 104,
         category: 'ATA 28',
         question: 'If PUMP 1 is shown in green on the Aircraft Status page? ',
         options: { a: 'Pump 1 was the last prime pump to be used', b: 'Prime pump 1 BIT test passed', c: ' Prime pump 1 is on' },
         correct: 'a',
-      }
-      
-      
-    
-
-  
+      },
+      {
+        id: 105,
+        category: 'ATA 28',
+        question: 'Where does the APU take its supply?  ',
+        options: { a: 'Supply Tank  ', b: 'Right Hand Sponson Tank', c: 'Left Hand Sponson Tank  ' },
+        correct: 'a',
+      },
+      ,
+      {
+        id: 106,
+        category: 'ATA 28',
+        question: 'What are the three positions of the prime pump select valve switches?',
+        options: { a: 'DIR, XFD, OFF', b: 'AUTO, PUMP 1, PUMP 2', c: 'ON, OFF, AUTO' },
+        correct: 'c',
+      },
+      {
+        id: 107,
+        category: 'ATA 28',
+        question: 'In normal operation what component decides which prime pump is used?',
+        options: { a: 'Maintenance Data Computer  ', b: 'Fuel conditioning unit  ', c: 'Data concentrators unit  ' },
+        correct: 'a',
+      },
+      {
+        id: 108,
+        category: 'ATA 28',
+        question: 'How are the bag tanks attached to the sponson?',
+        options: { a: 'Nuts and Bolts  ', b: 'Velcro and Cord  ', c: 'Gravity ' },
+        correct: 'b',
+      },
+      {
+        id: 109,
+        category: 'ATA 28',
+        question: 'What position can the gravity fuel filler cap be fitted?',
+        options: { a: 'Any position', b: 'Arrow pointing up', c: 'View window at top' },
+        correct: 'b',
+      },
+      {
+        id: 110,
+        category: 'ATA 28',
+        question: 'How are the bag tanks attached to the sponson?',
+        options: { a: 'Nuts and Bolts  ', b: 'Velcro and Cord  ', c: 'Gravity ' },
+        correct: 'b',
+      },
+      {
+        id: 111,
+        category: 'ATA 28',
+        question: 'When is the prime pump needed?',
+        options: { a: 'APU start and Engine Cross feed start', b: 'Normal engine operation', c: 'APU start ONLY' },
+        correct: 'a',
+      },
+      {
+        id: 112,
+        category: 'ATA 28',
+        question: 'Where are the prime pumps located?',
+        options: { a: 'Engine bay', b: 'within the fuel tank', c: 'Left hand cabin wall' },
+        correct: 'c',
+      },
+      {
+        id: 113,
+        category: 'ATA 28',
+        question: 'How are the fuel tank high level switches tested?',
+        options: { a: 'BIT during power up', b: 'high level pre check switch', c: 'IBIT on STATUS PAGE' },
+        correct: 'b',
+      },
+      {
+        id: 114,
+        category: 'ATA 28',
+        question: 'Where is the pressure refuel/defuel valves located',
+        options: { a: 'LH mid-cabin', b: 'Fuel Tank bridge support', c: 'Top deck' },
+        correct: 'b',
+      },
+      {
+        id: 115,
+        category: 'ATA 28',
+        question: 'How many fuel quantity sensor are located in each tank?',
+        options: { a: '1', b: '3', c: '2' },
+        correct: 'c',
+      },
+      {
+        id: 116,
+        category: 'ATA 28',
+        question: 'What components can be found one the fuel sensor probe',
+        options: { a: 'fuel sensor only', b: 'Fuel sensor, Low level sensor and High Level sensor ', c: 'Fuel sensor, Low Level sensor and temperature compensating' },
+        correct: 'c',
+      },
+      {
+        id: 117,
+        category: 'ATA 28',
+        question: 'How many channels does the FCU have?',
+        options: { a: '1', b: '2', c: '3' },
+        correct: 'b',
+      },
+      {
+        id: 118,
+        category: 'ATA 28',
+        question: 'Where is the fuel prime pressure switch located?',
+        options: { a: 'LH cabin roof', b: 'LH Sponson tank', c: 'LH avionic rack' },
+        correct: 'a',
+      },
+      {
+        id: 119,
+        category: 'ATA 28',
+        question: 'Where do the fuel selector valves get their power?',
+        options: { a: 'Battery Utility bus', b: 'AC 2 Bus', c: 'DC Gen converter' },
+        correct: 'a',
+      },
+      {
+        id: 120,
+        category: 'ATA 28',
+        question: 'At what level will the fuel low level ',
+        options: { a: 'LH cabin roof', b: 'LH Sponson tank', c: 'LH avionic rack' },
+        correct: 'a',
+      },
+      {
+        id: 121,
+        category: 'ATA 28',
+        question: 'At what level will Fuel 1/2 LOW caution display?',
+        options: { a: '215 ± 45 lbs', b: '32 lbs', c: '1 hours fuel remaining' },
+        correct: 'a',
+      },
+     
     
     // Add more questions as needed
   ];
