@@ -307,7 +307,7 @@ const questionBank = [
         category: 'ATA 28',
         question: 'Where are the fuel tanks located in the aircraft?',
         options: { a: 'Sponsons', b: 'Fuselage', c: 'Tail' },
-        correct: 'b',
+        correct: 'a',
       },
       {
         id: 45,
