@@ -51,9 +51,9 @@ const questionBank = [
     {
         id: 8,
         category: 'ATA 18',
-        question: 'Which material is NOT used for making set screws for balancing the High-Speed Shaft flange?',
-        options: { a: 'Steel', b: 'Titanium', c: 'Brass' },
-        correct: 'c',
+        question: 'Which material is used for screws for balancing the High-Speed Shaft flange?',
+        options: { a: 'Steel, Aluminum, Titanium', b: 'Steel, Brass, Titanium', c: 'Steel, Aluminum, Nickle' },
+        correct: 'a',
     },
     {
         id: 9,
@@ -75,7 +75,7 @@ const questionBank = [
         id: 11,
         category: 'ATA 18',
         question: 'Where is the AVCC located in the aircraft?',
-        options: { a: 'Nose wheel well', b: 'Bottom of the RH avionics cabinet', c: 'Forward cabin floor' },
+        options: { a: 'Nose wheel well', b: 'RH avionics cabinet', c: 'Forward cabin floor' },
         correct: 'b',
     },
     {
@@ -110,8 +110,8 @@ const questionBank = [
         id: 16,
         category: 'ATA 18',
         question: 'Where should personnel be during the IBIT test?',
-        options: { a: 'In the cockpit', b: 'In the avionic compartment', c: 'Outside the aircraft' },
-        correct: 'c',
+        options: { a: 'In the cockpit', b: 'Passenger compartment', c: 'Top Deck' },
+        correct: 'a',
     },
     {
         id: 17,
@@ -131,7 +131,7 @@ const questionBank = [
         id: 19,
         category: 'ATA 18',
         question: 'What happens if the IBIT test fails?',
-        options: { a: 'The AVC system resets automatically', b: 'Maintenance status will be displayed', c: 'The airframe vibration level becomes noticeably smoother' },
+        options: { a: 'The AVC system resets automatically', b: 'MAINTENANCE status will be displayed', c: 'The airframe vibration level becomes noticeably smoother' },
         correct: 'b',
     },
     {
@@ -155,18 +155,18 @@ const questionBank = [
         options: { a: 'When the digit to the right of the decimal is an even number', b: 'When the digit to the right of the decimal is an odd number', c: 'All frequencies in this range are VOR frequencies' },
         correct: 'a',
       },
-      {
+/*       {
         id: 23,
         category: 'ATA 34',
         question: 'What is the default frequency for ILS within the range of 108.00 to 112.00 MHz?',
         options: { a: '108.65', b: '109.50', c: '110.15' },
         correct: 'c',
-      },
+      }, */
       {
         id: 24,
         category: 'ATA 34',
         question: 'Where is the Marker Beacon antenna located?',
-        options: { a: 'Under the fuselage, level with the main entrance door', b: 'Fuselage below the co-pilot’s seat', c: 'In the nose compartment' },
+        options: { a: 'Under the fuselage, level with the main entrance door', b: 'Under the fuselage, below the co-pilot’s seat', c: 'In the nose compartment' },
         correct: 'b',
       },
       {
@@ -176,13 +176,13 @@ const questionBank = [
         options: { a: 'Through a coupler in the seat well under the co-pilot’s seat', b: 'Through a coupler below the floor of the forward Cabin area', c: 'They are not connected' },
         correct: 'b',
       },
-      {
+/*       {
         id: 26,
         category: 'ATA 34',
         question: 'How is VOR information displayed on the MFDs controlled?',
         options: { a: 'Through the Display Control Panel (DCP)', b: 'Via the Remote Instrument Controller (RIC)', c: 'Automatically on the NAV display' },
         correct: 'a',
-      },
+      }, */
       {
         id: 27,
         category: 'ATA 34',
@@ -223,7 +223,7 @@ const questionBank = [
         category: 'ATA 34',
         question: 'During an ILS approach, what does a full-scale lateral indication result in?',
         options: { a: 'Yellow diamond', b: 'Magenta diamond', c: 'White arrow' },
-        correct: 'b',
+        correct: 'a',
       },
       {
         id: 33,
@@ -239,13 +239,13 @@ const questionBank = [
         options: { a: '1', b: '2', c: '3' },
         correct: 'c',
       },
-      {
+/*       {
         id: 35,
         category: 'ATA 34',
         question: 'What is Channel 3 used for in the scanning DME receiver?',
         options: { a: 'Auto-tune from FMS', b: 'Range calculation for VOR 2', c: 'Range calculation for ILS 2' },
         correct: 'a',
-      },
+      }, */
       {
         id: 36,
         category: 'ATA 34',
@@ -256,7 +256,7 @@ const questionBank = [
       {
         id: 37,
         category: 'ATA 34',
-        question: 'How is the DME frequency tuned?',
+        question: 'In normal operation how is the DME frequency tuned?',
         options: { a: 'Independently on the DME Main Page', b: 'Paired with the NAV frequencies', c: 'Through the Display Control Panel (DCP)' },
         correct: 'b',
       },
@@ -285,7 +285,7 @@ const questionBank = [
         id: 41,
         category: 'ATA 34',
         question: 'When testing the DME from RTU 1, what indicates a serviceable system?',
-        options: { a: 'A yellow H on the MFDs', b: '100 NM under the VOR 1/ILS 1 blue indication', c: 'A green marker on the PFD' },
+        options: { a: 'A yellow H on the MFDs', b: '100 NM displayed under the VOR/ILS  indication', c: 'A green marker on the PFD' },
         correct: 'b',
       },
       {
@@ -293,7 +293,7 @@ const questionBank = [
         category: 'ATA 34',
         question: 'How are VOR 1 and ILS 1 diagnostics accessed?',
         options: { a: 'From the NAV Main Page', b: 'RTU 1 Diagnostic Menu', c: 'HLTH >> AVIONICS Page 2' },
-        correct: 'c',
+        correct: 'b',
       },
       {
         id: 43,
