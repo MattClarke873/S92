@@ -8,8 +8,10 @@
 </head>
 <body>
 
+
+
   <div class="container">
-    <h6>update 1411231307</h6>
+    <h6>update 1411231540</h6>
     <h1>Week 3 Quiz</h1>
     <h2>ATA 18, 26, 28, 34, 49, 70, 71, 78</h2>
     <label for="questionCount">Select Number of Questions:</label>
@@ -32,11 +34,21 @@
     <div id="result-container"></div>
 
 
-    <h4>This is a training aid, PLEASE CHECK ALL QUESTIONS if unsure.
-      </h4>
+   
+
+      <div id="popup-container" class="popup">
+        <div class="popup-content">
+            <p>This is a training aid, <u>PLEASE CHECK ALL QUESTIONS</u> if unsure.
+              <br>
+              <br>If you find any incorrect questions/answers please let me know.
+            </p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
   </div>
 
   <script src="questionBank.js"></script>
   <script src="script.js"></script>
+  <script src="popscript.js"></script>
 </body>
 </html>
