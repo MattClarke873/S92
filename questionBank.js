@@ -719,7 +719,7 @@ const questionBank = [
         id: 102,
         category: 'ATA 28',
         question: 'Where are the fuel quantity probes and low-level sensors inputs sent?',
-        options: { a: 'Fuel Conditioning Unit', b: 'Fuel Control Unit', c: 'Data Concentrator Units' },
+        options: { a: 'Fuel Conditioning Unit onto the DCU', b: 'Fuel Control Unit onto the DCU', c: ' Directly to the Data Concentrator Units' },
         correct: 'a',
       }
       
