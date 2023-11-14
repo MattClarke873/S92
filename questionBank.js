@@ -509,7 +509,7 @@ const questionBank = [
         id: 73,
         category: 'ATA 28',
         question: 'What is the normal pressure provided by the fuel prime pumps?',
-        options: { a: '>5 psi', b: '11-16.5 psi', c: '3 psi' },
+        options: { a: '<5 psi', b: '11-16.5 psi', c: '3 psi' },
         correct: 'b',
       },
       {
@@ -617,13 +617,13 @@ const questionBank = [
         options: { a: 'Two', b: 'Four', c: 'Six' },
         correct: 'b',
       },
-      {
+/*       {
         id: 89,
         category: 'ATA 28',
         question: 'What type of data interlink is used for fuel quantity information?',
         options: { a: 'SPI bus', b: 'I2C bus', c: 'USB connection' },
         correct: 'a',
-      },
+      }, */
       {
         id: 90,
         category: 'ATA 28',
@@ -705,7 +705,7 @@ const questionBank = [
         id: 101,
         category: 'ATA 28',
         question: 'What does the SOV1 WRNG POSN or SOV2 WRNG POSN indication mean?',
-        options: { a: 'Fuel tank full', b: 'Valve failure during engine start', c: 'Normal operation' },
+        options: { a: 'Fuel tank full', b: 'Valve in wrong position depending on current operation', c: 'Normal operation' },
         correct: 'b',
       },
       {
@@ -721,8 +721,14 @@ const questionBank = [
         question: 'Where are the fuel quantity probes and low-level sensors inputs sent?',
         options: { a: 'Fuel Conditioning Unit onto the DCU', b: 'Fuel Control Unit onto the DCU', c: ' Directly to the Data Concentrator Units' },
         correct: 'a',
+        },
+      {
+        id: 102,
+        category: 'ATA 28',
+        question: 'If PUMP 1 is shown in green on the Aircraft Status page? ',
+        options: { a: 'Pump 1 was the last prime pump to be used', b: 'Prime pump 1 BIT test passed', c: ' Prime pump 1 is on' },
+        correct: 'a',
       }
-      
       
       
     
