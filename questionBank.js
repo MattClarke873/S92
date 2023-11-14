@@ -166,7 +166,7 @@ const questionBank = [
         id: 24,
         category: 'ATA 34',
         question: 'Where is the Marker Beacon antenna located?',
-        options: { a: 'Under the fuselage, level with the main entrance door', b: 'Below the co-pilot’s seat', c: 'In the nose compartment' },
+        options: { a: 'Under the fuselage, level with the main entrance door', b: 'Fuselage below the co-pilot’s seat', c: 'In the nose compartment' },
         correct: 'b',
       },
       {
@@ -849,6 +849,142 @@ const questionBank = [
         options: { a: '215 ± 45 lbs', b: '32 lbs', c: '1 hours fuel remaining' },
         correct: 'a',
       },
+      {
+        id: 122,
+        category: 'ATA 34',
+        question: 'What is the frequency range of the ADF462 system?',
+        options: { a: '190 kHz to 1799.50 kHz', b: '2179 kHz to 2185 kHz', c: '0.5 kHz to 2182 kHz' },
+        correct: 'a',
+      },
+      
+      {
+        id: 123,
+        category: 'ATA 34',
+        question: 'Where is the ADF receiver located?',
+        options: { a: 'Right avionics rack', b: 'Top of the left avionics rack', c: 'Bottom of the left avionics rack' },
+        correct: 'b',
+      },
+      
+      {
+        id: 124,
+        category: 'ATA 34',
+        question: 'How many loop antennae does the ADF antenna have for direction finding?',
+        options: { a: '1', b: '2', c: '3' },
+        correct: 'b',
+      },
+      
+      {
+        id: 125,
+        category: 'ATA 34',
+        question: 'Which button on the Audio Controller selects the sense antenna for listening to the beacon IDENT?',
+        options: { a: 'L2', b: 'R2', c: 'L3' },
+        correct: 'a',
+      },
+      
+      {
+        id: 126,
+        category: 'ATA 34',
+        question: 'How is the ADF Main Page accessed?',
+        options: { a: 'Pressing R3 once', b: 'Pressing L4 twice', c: 'Pressing R3 twice from the Top Level Page' },
+        correct: 'c',
+      },
+      
+      {
+        id: 127,
+        category: 'ATA 34',
+        question: 'What does the ADF Test on the Main Page display if the system is serviceable?',
+        options: { a: 'A code of 00', b: 'A code of 01', c: 'No code' },
+        correct: 'a',
+      },
+      
+      {
+        id: 128,
+        category: 'ATA 34',
+        question: 'Where is the status of the ADF displayed?',
+        options: { a: 'HLTH >> AVIONICS Page 2', b: 'HLTH >> AVIONICS Page 1', c: 'Top Level Page' },
+        correct: 'b',
+      },
+      
+      {
+        id: 129,
+        category: 'ATA 34',
+        question: 'How many RADALT systems does the aircraft have?',
+        options: { a: 'Two', b: 'Three', c: 'One' },
+        correct: 'c',
+      },
+      
+      {
+        id: 130,
+        category: 'ATA 34',
+        question: 'What is the altitude range of the RADALT system?',
+        options: { a: '0 to 1000 feet', b: '0 to 2500 feet', c: '0 to 5000 feet' },
+        correct: 'b',
+      },
+      
+      {
+        id: 131,
+        category: 'ATA 34',
+        question: 'Where is the RAD ALT Receiver/Transmitter located?',
+        options: { a: 'Bottom of the left avionics rack', b: 'Top of the left avionics rack', c: 'Right avionics rack' },
+        correct: 'b',
+      },
+      
+      {
+        id: 132,
+        category: 'ATA 34',
+        question: 'How many Decision Height Bugs can be set?',
+        options: { a: 'One', b: 'Two', c: 'Three' },
+        correct: 'b',
+      },
+      
+      {
+        id: 133,
+        category: 'ATA 34',
+        question: 'When does the digital RADALT AGL indication and pointer change to yellow?',
+        options: { a: 'Above the RA setting', b: 'Below the RA setting', c: 'At the RA setting' },
+        correct: 'b',
+      },
+      
+      {
+        id: 134,
+        category: 'ATA 34',
+        question: 'What does the CAT A RADALT indicator show above the TDP setting?',
+        options: { a: 'Digital Text in white, arc in green', b: 'Digital Text in yellow, arc in yellow', c: 'Digital Text in yellow, arc in green' },
+        correct: 'a',
+      },
+      
+      {
+        id: 135,
+        category: 'ATA 34',
+        question: 'What does the red AGL fails flag indicate?',
+        options: { a: 'System under test', b: 'RADALT failure', c: 'Normal operation' },
+        correct: 'b',
+      },
+      
+      {
+        id: 136,
+        category: 'ATA 34',
+        question: 'How is the RADALT system tested for serviceability?',
+        options: { a: 'Using a test set', b: 'Pressing RAD ALT 2 on HLTH >> AVIONICS Page 2', c: 'Pressing IBIT on RAD ALT 1 on HLTH >> AVIONICS Page 2' },
+        correct: 'c',
+      },
+      
+      {
+        id: 137,
+        category: 'ATA 34',
+        question: 'When should the RADALT system be zeroed?',
+        options: { a: 'Every flight', b: 'If IBIT reading is more than 5 ft above or below 100 ft', c: 'Only during maintenance' },
+        correct: 'b',
+      },
+      
+      {
+        id: 138,
+        category: 'ATA 34',
+        question: 'How can the RADALT AGL be displayed in 0.1 foot increments on the MFDs?',
+        options: { a: 'Pressing IBIT', b: 'Pressing + and – together on the CONT buttons', c: 'Selecting TDP on the PFD' },
+        correct: 'b',
+      }
+      
      
     
     // Add more questions as needed
