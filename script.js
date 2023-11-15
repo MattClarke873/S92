@@ -27,15 +27,17 @@ document.addEventListener('DOMContentLoaded', function () {
       optionsList.classList.add('options-list');
 
       for (const option in question.options) {
-        const optionBtn = document.createElement('button');
-        optionBtn.innerText = question.options[option];
-        optionBtn.setAttribute('data-question', question.id);
-        optionBtn.setAttribute('data-option', option);
-        optionBtn.addEventListener('click', handleOptionClick);
+        if (question.options.hasOwnProperty(option)) {
+          const optionBtn = document.createElement('button');
+          optionBtn.innerText = question.options[option];
+          optionBtn.setAttribute('data-question', question.id);
+          optionBtn.setAttribute('data-option', option);
+          optionBtn.addEventListener('click', handleOptionClick);
 
-        const optionListItem = document.createElement('li');
-        optionListItem.appendChild(optionBtn);
-        optionsList.appendChild(optionListItem);
+          const optionListItem = document.createElement('li');
+          optionListItem.appendChild(optionBtn);
+          optionsList.appendChild(optionListItem);
+        }
       }
 
       questionElement.appendChild(optionsList);
@@ -77,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
           <br> - Correct Answer: ${question.options[question.correct]}
           <br>
           <br> ------- `;
-        
+
         if (selectedOption === question.correct) {
           resultText.style.color = 'green';
           correctCount++;
@@ -92,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function () {
           <br> - Correct Answer: ${question.options[question.correct]}
           <br>
           <br> ------- `;
-        
+
         resultText.style.color = 'red';
       }
 
@@ -174,4 +176,3 @@ document.addEventListener('DOMContentLoaded', function () {
     resetQuiz();
   });
 });
-
