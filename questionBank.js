@@ -2076,7 +2076,7 @@ const questionBank = [
           id: 283,
           category: 'Engine Manuals',
           question: 'When is a part listed as NO NUMBER in the Detailed Parts List?',
-          options: { a: 'When it\'s a spare part', b: 'When it has no part number assigned', c: 'When it\'s not illustrated' },
+          options: { a: 'When it\'s a spare part', b: 'When it has not procurable', c: 'When it\'s not illustrated' },
           correct: 'b'
         },
         {
