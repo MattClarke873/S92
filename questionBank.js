@@ -1806,6 +1806,20 @@ const questionBank = [
           options: { a: "To protect against fire in the engine compartment", b: "To prevent fuel leaks/vapour from entering the cabin", c: "To reduce cabin noise" },
           correct: "b",
         },
+
+
+        // --------------- from 245 to 290 checked OK-----------
+
+        // --------------- from 245 to 290 checked OK-----------
+
+        // --------------- from 245 to 290 checked OK-----------
+
+        // --------------- from 245 to 290 checked OK-----------
+
+        // --------------- from 245 to 290 checked OK-----------
+
+        // --------------- from 245 to 290 checked OK-----------
+        
         {
           id: 245,
           category: "ATA 49",
