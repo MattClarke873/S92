@@ -116,7 +116,7 @@ const questionBank = [
     {
         id: 17,
         category: 'ATA 18',
-        question: 'How is the IBIT test initiated?',
+        question: 'How is the AVC IBIT test initiated?',
         options: { a: 'By turning off the VIB CTRL switch', b: 'By pressing the IBIT soft-key on the MFD screen', c: 'By disconnecting the force generators' },
         correct: 'b',
     },
@@ -1647,7 +1647,340 @@ const questionBank = [
           question: "In ground mapping mode, what color represents the highest returns on the P700 WXR?",
           options: { a: "Blue", b: "Yellow", c: "Red" },
           correct: "c"
-        }
+        },
+        {
+          id: 225,
+          category: "ATA 26",
+          question: "What is the primary purpose of the five infrared flame detectors in the S-92A?",
+          options: { a: "To detect smoke in the baggage compartment", b: "To extinguish engine fires", c: "To provide warning of flames and hot gas leaks" },
+          correct: "c",
+        },
+        
+        {
+          id: 226,
+          category: "ATA 26",
+          question: "Where is the APU compartment flame detector located?",
+          options: { a: "#1 ENG Forward", b: "#2 ENG Aft (OUTBOARD system)", c: "APU Compartment (INBOARD system)" },
+          correct: "c",
+        },
+        
+        {
+          id: 227,
+          category: "ATA 26",
+          question: "Which infrared band does the flame detector utilize to sense fires?",
+          options: { a: "2.7-micrometer (μ)", b: "4.3-micrometer (μ)", c: "5.8-micrometer (μ)" },
+          correct: "b",
+        },
+        
+        {
+          id: 228,
+          category: "ATA 26",
+          question: "How is the built-in-test (BIT) functionality initiated in the flame detectors?",
+          options: { a: "By pressing the FIRE/ARM pushbutton", b: "By applying a 28 VDC signal to the test input", c: "Automatically during each flight" },
+          correct: "b",
+        },
+        
+        {
+          id: 229,
+          category: "ATA 26",
+          question: "Which bus supplies power to the flame detectors in the event of a complete loss of electrical power?",
+          options: { a: "DC BATTERY bus", b: "DC PRIMARY bus", c: "AC MAIN bus" },
+          correct: "a",
+        },
+        
+        {
+          id: 230,
+          category: "ATA 26",
+          question: "What is the function of the baggage compartment smoke detector?",
+          options: { a: "Detecting flames in the baggage compartment", b: "Monitoring the baggage compartment temperature", c: "Detecting smoke in the baggage compartment" },
+          correct: "c",
+        },
+        
+        {
+          id: 231,
+          category: "ATA 26",
+          question: "How often is the baggage compartment smoke detector inspected?",
+          options: { a: "6 months", b: "12 months", c: "24 months" },
+          correct: "b",
+        },
+        
+        {
+          id: 232,
+          category: "ATA 26",
+          question: "What is the purpose of the two master warning panels?",
+          options: { a: "To display engine parameters", b: "To provide visual warning of detected fires", c: "To control the fire extinguishing system" },
+          correct: "b",
+        },
+        
+        {
+          id: 233,
+          category: "ATA 26",
+          question: "Where is the fire control panel located?",
+          options: { a: "Under the cabin floor", b: "On the glareshield under the instrument panel", c: "In the APU compartment" },
+          correct: "b",
+        },
+        
+        {
+          id: 234,
+          category: "ATA 26",
+          question: "How is the fire extinguisher circuit armed on the fire control panel?",
+          options: { a: "By pressing the FIRE EXTG switch", b: "By lifting the protective cover and pressing the push-button switch", c: "Automatically when a fire is detected" },
+          correct: "b",
+        },
+        
+        {
+          id: 235,
+          category: "ATA 26",
+          question: "What does the SMOKE IN BAGGAGE warning on the MFD indicate?",
+          options: { a: "Engine fire", b: "Smoke in the baggage compartment", c: "Faulty smoke detector" },
+          correct: "b",
+        },
+        
+        {
+          id: 236,
+          category: "ATA 26",
+          question: "Which position on the fire detector test panel tests the baggage compartment smoke detector?",
+          options: { a: "INBD", b: "OUTBD", c: "SMOKE" },
+          correct: "c",
+        },
+        
+        {
+          id: 237,
+          category: "ATA 26",
+          question: "What modification did CSN 92-060A make to the Fire Detector BIT wiring?",
+          options: { a: "Added more flame detectors", b: "Grounded the test switch in all positions", c: "Increased the sensitivity of flame detectors" },
+          correct: "b",
+        },
+        
+        {
+          id: 238,
+          category: "ATA 26",
+          question: "How is the fire extinguisher system controlled in the cockpit?",
+          options: { a: "Via the MFDs", b: "Through the fire control panel and extinguisher switch", c: "Automatically when a fire is detected" },
+          correct: "b",
+        },
+        
+        {
+          id: 239,
+          category: "ATA 26",
+          question: "Where are the two fire extinguisher bottles located?",
+          options: { a: "In the baggage compartment", b: "Behind the APU compartment", c: "In the cockpit" },
+          correct: "b",
+        },
+        
+        {
+          id: 240,
+          category: "ATA 26",
+          question: "What is the purpose of the pressure relief valve in each fire extinguisher bottle?",
+          options: { a: "To release the extinguishing agent", b: "To check the nitrogen charge", c: "To release pressure in case of over pressurization" },
+          correct: "c",
+        },
+        
+        {
+          id: 241,
+          category: "ATA 26",
+          question: "How are the extinguishant pipelines conveyed to the engine and APU bays?",
+          options: { a: "Through the cabin floor", b: "Via a dedicated panel in the top surface of the strongback", c: "Through the main fuel lines" },
+          correct: "b",
+        },
+        
+        {
+          id: 242,
+          category: "ATA 26",
+          question: "What is the purpose of the fire extinguisher inertia switches?",
+          options: { a: "To arm the extinguisher system", b: "To release both main bottles' contents in a crash", c: "To test the fire detection circuits" },
+          correct: "b",
+        },
+        
+        {
+          id: 243,
+          category: "ATA 26",
+          question: "Where are the handheld Halon 1211 fire extinguishers located?",
+          options: { a: "One is the Cabin, one in the cockpit", b: "In the baggage compartment", c: "One on each side of the cockpit" },
+          correct: "a",
+        },
+        {
+          id: 244,
+          category: "ATA 26",
+          question: "What is the purpose of the Kevlar fuel vapour barriers in the cabin sidewall?",
+          options: { a: "To protect against fire in the engine compartment", b: "To prevent fuel leaks/vapour from entering the cabin", c: "To reduce cabin noise" },
+          correct: "b",
+        },
+        {
+          id: 245,
+          category: "ATA 49",
+          question: "What component controls the APU?",
+          options: { a: "Fuel conditioning unit", b: "Electronic sequencing unit", c: "DCU" },
+          correct: "b",
+        },
+        {
+          id: 246,
+          category: "ATA 49",
+          question: "Where is the Electronic sequencing unit?",
+          options: { a: "LH Avionic bay", b: "APU bay", c: "Tail Transition" },
+          correct: "c",
+        },
+        {
+          id: 247,
+          category: "ATA 49",
+          question: "How many fuel nozzles are there?",
+          options: { a: "3 Primary and 3 Secondary", b: "3", c: "1 Starting and 5 Main" },
+          correct: "a",
+        },
+        {
+          id: 248,
+          category: "ATA 49",
+          question: "How is the APU starter Power?",
+          options: { a: "Air Starter", b: "Hydraulic Starter", c: "Electrical Starter" },
+          correct: "b",
+        },
+        {
+          id: 249,
+          category: "ATA 49",
+          question: "During normal operation how is the APU accumulator charged on the ground?",
+          options: { a: "Hand pump", b: "Ground check out pump", c: "Secondary accumulator" },
+          correct: "b",
+        },
+        {
+          id: 250,
+          category: "ATA 49",
+          question: "During normal operation how is the APU accumulator charged in flight?",
+          options: { a: "#3 Mechanical Hydraulic pump", b: "Hand Pump", c: "Secondary accumulator" },
+          correct: "a",
+        },
+        {
+          id: 251,
+          category: "ATA 49",
+          question: "How can we ensure complete discharge of the APU accumulator?",
+          options: { a: "Piston visible in accumulator sight glass", b: "Pressure gauge ", c: "MFD Status page" },
+          correct: "a",
+        },
+        {
+          id: 252,
+          category: "ATA 49",
+          question: "Where is the APU start valve located?",
+          options: { a: "in the APU bay", b: "LH Engine bay", c: "Piggy backed on the APU accumulator" },
+          correct: "c",
+        },
+        {
+          id: 253,
+          category: "ATA 49",
+          question: "What is the fully charge pressure of the APU accumulator?",
+          options: { a: "4000 psi", b: "2000 psi", c: "400 psi" },
+          correct: "a",
+        },
+        {
+          id: 254,
+          category: "ATA 49",
+          question: "What is the nitrogen base charge of the APU accumulator?",
+          options: { a: "2000 psi", b: "4000 psi", c: "400 psi" },
+          correct: "a",
+        },
+        {
+          id: 255,
+          category: "ATA 49",
+          question: "At what pressure will the APU accumulator charge be initiated?",
+          options: { a: "3450 psi", b: "3000 psi", c: "0 psi" },
+          correct: "a",
+        },
+        {
+          id: 256,
+          category: "ATA 49",
+          question: "What fault categories are associated with the APU?",
+          options: { a: "Critical", b: "Primary and Secondary", c: "Safety and Protective" },
+          correct: "c",
+        },
+        {
+          id: 257,
+          category: "ATA 49",
+          question: "How many temperature probes are fitted in the APU exhaust?",
+          options: { a: "One", b: "Two", c: "Three" },
+          correct: "a",
+        },
+        {
+          id: 258,
+          category: "ATA 49",
+          question: "How many ignitors are fitted to the APU?",
+          options: { a: "1 Starter and 1 Main", b: "One", c: "Two" },
+          correct: "b",
+        },
+        {
+          id: 259,
+          category: "ATA 49",
+          question: "What services are provided to the aircraft by the APU?",
+          options: { a: "Electical", b: "Air", c: "Both" },
+          correct: "c",
+        },
+        {
+          id: 260,
+          category: "ATA 49",
+          question: "How is the APU mounted to the airframe?",
+          options: { a: "Racetrack fitting", b: "Two forward struts and a sliding rear fitting", c: "Dog bones links" },
+          correct: "b",
+        },
+        {
+          id: 261,
+          category: "ATA 49",
+          question: "Where does the APU get its fuel supply?",
+          options: { a: "LH Sponson only", b: "RH Sponson only", c: "Both" },
+          correct: "a",
+        },
+        {
+          id: 262,
+          category: "ATA 49",
+          question: "How is the APU oil level checked?",
+          options: { a: "MFD Status page", b: "Sight Glass", c: "Dip Stick" },
+          correct: "c",
+        },
+        {
+          id: 263,
+          category: "ATA 26",
+          question: "Where is the fire control panel?",
+          options: { a: "Overhead Panel", b: "Center pedestal", c: "Central glareshield" },
+          correct: "c",
+        },
+        {
+          id: 264,
+          category: "ATA 26",
+          question: "What type of flame detectors are used?",
+          options: { a: "Ion detectors", b: "Fire Wire", c: "Optical infrared sensors" },
+          correct: "c",
+        },
+        {
+          id: 265,
+          category: "ATA 26",
+          question: "During a crash how are the fire bottles initiated?",
+          options: { a: "Pilot operation", b: "Inertia switch", c: "The fire bottles are not operated during a crash event" },
+          correct: "b",
+        },
+        {
+          id: 266,
+          category: "ATA 26",
+          question: "What type of smoke detector is fitted in the baggage bay?",
+          options: { a: "Light Sensing", b: "Ion detector", c: "Heat detector" },
+          correct: "",
+        },
+        {
+          id: 267,
+          category: "ATA 26",
+          question: "How many flame detectors are fitted to the S-92?",
+          options: { a: "3", b: "5", c: "6" },
+          correct: "b",
+        },
+        {
+          id: 268,
+          category: "ATA 26",
+          question: "When the flame detector knob is turned to inboard, what sensors are tested?",
+          options: { a: "Engine 1 Inboard, Engine 2 inboard and APU", b: "Engine 1 Inboard, Engine 2 inboard", c: "APU" },
+          correct: "a",
+        },
+        {
+          id: 269,
+          category: "ATA 26",
+          question: "When the flame detector knob is turned to outboard, what sensors are tested?",
+          options: { a: "Engine 1 Inboard, Engine 2 inboard and APU", b: "Engine 1 Inboard, Engine 2 inboard", c: "APU" },
+          correct: "b",
+        },
         
       
      
