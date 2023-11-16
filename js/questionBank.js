@@ -1144,27 +1144,13 @@ const questionBank = [
         correct: 'a',
         
       },
-
-
-/* 
-      --------------------------------------------------
-
-      --------------------------------------------------
-
-      --------------------------------------------------
-
-      --------------------------------------------------
-
-      --------------------------------------------------
-
-      -------------------------------------------------- */
       
 
       {
         id: 159,
         category: 'ATA 49',
         question: 'What is the primary function of the Honeywell Model 150 APU?',
-        options: { a: 'Provide hydraulic power', b: 'Supply cabin heat', c: 'Drive the main rotor' },
+        options: { a: 'Provide hydraulic power', b: 'Supply cabin heat and Electrical power', c: 'Drive the main rotor' },
         correct: 'b',
       },
       {
@@ -1174,13 +1160,13 @@ const questionBank = [
         options: { a: 'Bottom of the aircraft', b: 'From the left sponson fuel tank', c: 'Top of the aircraft' },
         correct: 'c',
       },
-      {
+/*       {
         id: 161,
         category: 'ATA 49',
         question: 'What is the purpose of the Electronic Sequencing Unit (ESU) in the APU?',
         options: { a: 'Control the aircraft\'s electrical system', b: 'Initiate prime pump operation', c: 'Drive the APU AC generator' },
         correct: 'b',
-      },
+      }, */
       {
         id: 162,
         category: 'ATA 49',
@@ -1216,18 +1202,18 @@ const questionBank = [
         options: { a: 'Cool the APU exhaust gases', b: 'Contain a fire', c: 'Filter the air entering the APU' },
         correct: 'b',
       },
-      {
+/*       {
         id: 167,
         category: 'ATA 49',
         question: 'How is fuel supplied to the APU Fuel Control Unit (FCU)?',
         options: { a: 'From the main engine fuel tank', b: 'From the left sponson fuel tank', c: 'Via the aircraft fuel prime pumps' },
         correct: 'c',
-      },
+      }, */
       {
         id: 168,
         category: 'ATA 49',
-        question: 'What happens if the oil pressure is too low in the APU?',
-        options: { a: 'ESU initiates prime pump operation', b: 'Oil filter is bypassed', c: 'High oil temperature switch closes' },
+        question: 'What happens if the oil pressure is too low in the APU on the grounf?',
+        options: { a: 'ESU initiates APU shutdown', b: 'Oil filter is bypassed', c: 'High oil temperature switch closes' },
         correct: 'a',
       },
       {
@@ -1251,13 +1237,13 @@ const questionBank = [
         options: { a: 'Fuel contamination', b: 'FOD (Foreign Object Debris)', c: 'Oil foaming' },
         correct: 'b',
       },
-      {
+/*       {
         id: 172,
         category: 'ATA 49',
         question: 'How is the APU started on the ground or inflight?',
         options: { a: 'Speeds up to 150 Kts', b: 'By the aircraft\'s main engines', c: 'By the Electronic Sequencing Unit (ESU)' },
         correct: 'a',
-      },
+      }, */
       {
         id: 173,
         category: 'ATA 49',
@@ -1293,13 +1279,13 @@ const questionBank = [
         options: { a: 'Provide backup AC power', b: 'Gather ferrous metal particles', c: 'Control the APU speed' },
         correct: 'b',
       },
-      {
+/*       {
         id: 178,
         category: 'ATA 49',
         question: 'How is the APU fuel shutoff valve controlled during normal operations?',
         options: { a: 'Manually by the pilot', b: 'By the differential pressure regulator', c: 'Energised open by the Electronic Sequencing Unit (ESU)' },
         correct: 'c',
-      },
+      }, */
         {
           id: 179,
           category: "ATA 49",
@@ -1311,37 +1297,37 @@ const questionBank = [
           id: 180,
           category: "ATA 49",
           question: "What diverts bleed air when it is not required by the APU?",
-          options: { a: "Bleed air check valve", b: "Hydraulic starter motor", c: "ESU" },
+          options: { a: "DCU", b: "Hydraulic starter motor", c: "ESU" },
           correct: "c"
         },
         {
           id: 181,
           category: "ATA 49",
-          question: "Which section of the APU provides hydraulic pressure for normal accumulator recharging?",
+          question: "Which system provides hydraulic pressure for normal accumulator recharging?",
           options: { a: "Accessory section", b: "Hydraulic starter motor", c: "No.3 hydraulic system" },
           correct: "c"
         },
-        {
+/*         {
           id: 182,
           category: "ATA 49",
           question: "What powers the hydraulic starter motor for APU starting?",
           options: { a: "Nitrogen pressure", b: "Engine oil", c: "Electricity" },
           correct: "a"
-        },
+        }, */
         {
           id: 183,
           category: "ATA 49",
           question: "What is the purpose of the accumulator in the APU system?",
-          options: { a: "Cooling the engine", b: "Providing hydraulic pre-charge", c: "Fuel regulation" },
+          options: { a: "Cooling the engine", b: "Providing hydraulic pre-charge for start", c: "Fuel regulation" },
           correct: "b"
         },
-        {
+/*         {
           id: 184,
           category: "ATA 49",
           question: "What pressure is considered necessary for a successful APU start?",
           options: { a: "2,000 PSI", b: "3,450 PSI", c: "5,200 PSI" },
           correct: "b"
-        },
+        }, */
         {
           id: 185,
           category: "ATA 49",
@@ -1356,13 +1342,13 @@ const questionBank = [
           options: { a: "Oil flow", b: "Hydraulic pressure to starter motor", c: "Fuel shut-off" },
           correct: "b"
         },
-        {
+/*         {
           id: 187,
           category: "ATA 49",
           question: "When is the accumulator hand pump used?",
           options: { a: "Normal operation", b: "Ground checkout", c: "In flight" },
           correct: "c"
-        },
+        }, */
         {
           id: 188,
           category: "ATA 49",
@@ -1370,19 +1356,19 @@ const questionBank = [
           options: { a: "Oil pump, FCU", b: "Igniter unit, ignition lead", c: "Start valve, starter motor" },
           correct: "b"
         },
-        {
+/*         {
           id: 189,
           category: "ATA 49",
           question: "What initiates the APU start sequence?",
           options: { a: "ESU, ignition unit", b: "APU CTRL switch", c: "Low oil pressure" },
           correct: "b"
-        },
+        }, */
         {
           id: 190,
           category: "ATA 49",
           question: "At what Ng percentage does the APU start valve close?",
           options: { a: "10%", b: "50%", c: "94.5%" },
-          correct: "c"
+          correct: "b"
         },
         {
           id: 191,
@@ -1391,20 +1377,20 @@ const questionBank = [
           options: { a: "Electrical buses", b: "Engine speed", c: "APU operations" },
           correct: "c"
         },
-        {
+/*         {
           id: 192,
           category: "ATA 49",
           question: "What controls the APU CTRL switch in the cockpit?",
           options: { a: "Motional speed sensor", b: "Low oil pressure switch", c: "ESU" },
           correct: "c"
-        },
-        {
+        }, */
+/*         {
           id: 193,
           category: "ATA 49",
           question: "What does the APU CTRL switch OFF position do?",
           options: { a: "Turns on the APU", b: "Shuts down the APU", c: "Arms the fire extinguisher" },
           correct: "b"
-        },
+        }, */
         {
           id: 194,
           category: "ATA 49",
@@ -1447,6 +1433,11 @@ const questionBank = [
           options: { a: "Fuel consumption", b: "Total operating hours", c: "Oil temperature" },
           correct: "b"
         },
+
+/* 
+        -----------------------------
+        -----------------------------
+        ----------------------------- */ keep checking
         {
           id: 200,
           category: "ATA 49",
