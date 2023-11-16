@@ -1981,6 +1981,154 @@ const questionBank = [
           options: { a: "Engine 1 Inboard, Engine 2 inboard and APU", b: "Engine 1 Inboard, Engine 2 inboard", c: "APU" },
           correct: "b",
         },
+        {
+          id: 270,
+          category: 'Engine Manuals',
+          question: 'What is the purpose of GEK 112212 IETP?',
+          options: { a: 'Provide overhaul instructions', b: 'Cover service bulletins', c: 'Offer fault isolation procedures' },
+          correct: 'b'
+        },
+        {
+          id: 271,
+          category: 'Engine Manuals',
+          question: 'How are Temporary Revisions (TR) identified within GEK 112212 IETP?',
+          options: { a: 'Colored yellow', b: 'Colored pink', c: 'Colored blue' },
+          correct: 'a'
+        },
+        {
+          id: 272,
+          category: 'Engine Manuals',
+          question: 'What identifies Incremental Changes in the IETP?',
+          options: { a: 'Sequential number', b: 'Color coding', c: 'Model statement' },
+          correct: 'a'
+        },
+        {
+          id: 273,
+          category: 'Engine Manuals',
+          question: 'How are Service Bulletins grouped within the IETP?',
+          options: { a: 'Sequential number', b: 'Color coding', c: 'ATA sections' },
+          correct: 'c'
+        },
+        {
+          id: 274,
+          category: 'Engine Manuals',
+          question: 'What color are Alert Service Bulletins within the IETP?',
+          options: { a: 'Yellow', b: 'Pink', c: 'Blue' },
+          correct: 'c'
+        },
+        {
+          id: 275,
+          category: 'Engine Manuals',
+          question: 'What information is found in the Front Matter of GEK 112212 IETP?',
+          options: { a: 'Cleaning Practices', b: 'Service Bulletin List', c: 'Engine Directional References' },
+          correct: 'b'
+        },
+        {
+          id: 276,
+          category: 'Engine Manuals',
+          question: 'How is the Effectivity of Data organized in GEK 112212 IETP?',
+          options: { a: 'By alphabetical order', b: 'By ATA number', c: 'By engine model' },
+          correct: 'c'
+        },
+        {
+          id: 277,
+          category: 'Engine Manuals',
+          question: 'What does \'For ALL CT7-8\' label indicate in the Effectivity of Data section?',
+          options: { a: 'Data for specific engine models', b: 'Data for all CT7-8 engine models', c: 'Data for CT7-8A model only' },
+          correct: 'b'
+        },
+        {
+          id: 278,
+          category: 'Engine Manuals',
+          question: 'What does the Engine Maintenance Program consist of?',
+          options: { a: 'Service Bulletins compliance', b: 'Performance trend monitoring', c: 'Illustrated Parts Catalogue' },
+          correct: 'b'
+        },
+        {
+          id: 279,
+          category: 'Engine Manuals',
+          question: 'What does MM 05 cover in the CT7-8 Engine Maintenance Program?',
+          options: { a: 'Fuel System', b: 'Airworthiness Limitations', c: 'Illustrated Parts Catalogue' },
+          correct: 'b'
+        },
+        {
+          id: 280,
+          category: 'Engine Manuals',
+          question: 'What is the additional full cycle count added for each OEI event?',
+          options: { a: 'Two cycles', b: 'Four cycles', c: 'Six cycles' },
+          correct: 'b'
+        },
+        {
+          id: 281,
+          category: 'Engine Manuals',
+          question: 'How are Service Intervals stipulated for GE CT7 engines?',
+          options: { a: 'Daily, 500 hrs, 1500 hrs', b: 'Weekly, 1000 hrs, 2000 hrs', c: 'Monthly, 750 hrs, 1800 hrs' },
+          correct: 'a'
+        },
+        {
+          id: 282,
+          category: 'Engine Manuals',
+          question: 'What is the obligation regarding Exposed Hardware Inspection Requirements?',
+          options: { a: 'Optional for technicians', b: 'Dependent on the weather', c: 'Mandatory for technicians' },
+          correct: 'c'
+        },
+        {
+          id: 283,
+          category: 'Engine Manuals',
+          question: 'When is a part listed as NO NUMBER in the Detailed Parts List?',
+          options: { a: 'When it\'s a spare part', b: 'When it has no part number assigned', c: 'When it\'s not illustrated' },
+          correct: 'b'
+        },
+        {
+          id: 284,
+          category: 'Engine Manuals',
+          question: 'What does a pointing hand on an illustration signify?',
+          options: { a: 'A nontechnical change', b: 'A significant technical change', c: 'A system fault' },
+          correct: 'b'
+        },
+        {
+          id: 285,
+          category: 'Engine Manuals',
+          question: 'What do the codes 8, 8A, 8A1, A5, A6, A7, B, B5, E, E5, F and F5 represent in Engine Model Coding?',
+          options: { a: 'Part numbers', b: 'Usage codes', c: 'Engine models' },
+          correct: 'c'
+        },
+        {
+          id: 286,
+          category: 'Engine Manuals',
+          question: 'What does a Torque Motor Loop Fault indicate in the FADEC system?',
+          options: { a: 'Loss of Power Control', b: 'Fault in torque motor drive circuit', c: 'Dispatchable Fault' },
+          correct: 'b'
+        },
+        {
+          id: 287,
+          category: 'Engine Manuals',
+          question: 'In which section of GEK 112212 IETP would you find procedures for Engine Overtemperature?',
+          options: { a: 'MM 05 Service Life Limits', b: 'MM 72-00-00', c: 'TLD Summary' },
+          correct: 'b'
+        },
+        {
+          id: 288,
+          category: 'Engine Manuals',
+          question: 'What is the purpose of the Illustrated Parts Catalogue GEK105158?',
+          options: { a: 'To provide fault isolation procedures', b: 'To list engine assembly procedures', c: 'To provide detailed parts information' },
+          correct: 'c'
+        },
+        {
+          id: 289,
+          category: 'Engine Manuals',
+          question: 'How is the Numerical Index divided in the Illustrated Parts Catalogue?',
+          options: { a: 'By color coding', b: 'By ATA number', c: 'By alphanumeric order' },
+          correct: 'c'
+        },
+        {
+          id: 290,
+          category: 'Engine Manuals',
+          question: 'What does the code SPAD indicate in the Nomenclature column?',
+          options: { a: 'Standard Parts', b: 'Spare Part Drawing', c: 'Special Procedures' },
+          correct: 'b'
+        }
+        
         
       
      
