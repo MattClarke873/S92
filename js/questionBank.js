@@ -1796,7 +1796,7 @@ const questionBank = [
           id: 243,
           category: "ATA 26",
           question: "Where are the handheld Halon 1211 fire extinguishers located?",
-          options: { a: "One is the Cabin, one in the cockpit", b: "In the baggage compartment", c: "One on each side of the cockpit" },
+          options: { a: "One in the Cabin, one in the cockpit", b: "In the baggage compartment", c: "One on each side of the cockpit" },
           correct: "a",
         },
         {
