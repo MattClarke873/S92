@@ -1819,7 +1819,7 @@ const questionBank = [
         // --------------- from 245 to 290 checked OK-----------
 
         // --------------- from 245 to 290 checked OK-----------
-        
+
         {
           id: 245,
           category: "ATA 49",
@@ -2118,7 +2118,7 @@ const questionBank = [
           id: 287,
           category: 'Engine Manuals',
           question: 'In which section of GEK 112212 IETP would you find procedures for Engine Overtemperature?',
-          options: { a: 'MM 05 Service Life Limits', b: 'MM 72-00-00', c: 'TLD Summary' },
+          options: { a: 'MM 05 Service Life Limits', b: 'MM 72-00-00 Special Procedures', c: 'TLD Summary' },
           correct: 'b'
         },
         {
