@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>MCQ Quiz</title>
+</head>
+<body>
+  <div class="container">
+    <h6>update 1611231100</h6>
+    <h1>S-92 Week 1 Quiz</h1>
+    <!-- <h2>ATA 18, 26, 28, 34, 49, 70, 71, 78</h2> -->
+    <label for="questionCount">Select Number of Questions:</label>
+    <select id="questionCount">
+      <option value="0">0</option>
+      <option value="5">5</option>
+      <option value="10">10</option>
+      <option value="15">15</option>
+      <option value="20">20</option>
+      <option value="25">25</option>
+      <option value="30">30</option>
+      <option value="35">35</option>
+      <option value="40">40</option>
+    </select>
+
+    <!-- Checkboxes for categories -->
+
+    <div>
+      <ul>
+      <label for="categoryATA18">ATA 18</label>
+      <input type="checkbox" class="category-checkbox" value="ATA 18" id="categoryATA18">
+      <label for="categoryATA28">ATA 26</label>
+      <input type="checkbox" class="category-checkbox" value="ATA 26" id="categoryATA26">
+      <label for="categoryATA28">ATA 28</label>
+      <input type="checkbox" class="category-checkbox" value="ATA 28" id="categoryATA28">
+      <label for="categoryATA34">ATA 34</label>
+      <input type="checkbox" class="category-checkbox" value="ATA 34" id="categoryATA34">
+    </ul>
+    <ul>
+      <label for="categoryATA34">ATA 49</label>
+      <input type="checkbox" class="category-checkbox" value="ATA 49" id="categoryATA49">
+      <label for="categoryATA34">ATA 70</label>
+      <input type="checkbox" class="category-checkbox" value="ATA 70" id="categoryATA70">
+      <label for="categoryATA34">ATA 71</label>
+      <input type="checkbox" class="category-checkbox" value="ATA 71" id="categoryATA71">
+      <label for="categoryATA34">ATA 78</label>
+      <input type="checkbox" class="category-checkbox" value="ATA 78" id="categoryATA78">
+      <label for="categoryATA34">Engine Manuals</label>
+      <input type="checkbox" class="category-checkbox" value="Engine Manuals" id="categoryEngineManuals">
+    </ul>
+      <!-- Add more categories as needed -->
+    </div>
+    <div>
+      <label for="selectAll">Select All</label>
+      <input type="checkbox" id="selectAll">
+    
+    </div>
+    
+
+    <button id="filterBtn">Generate Quiz</button>
+
+    <div id="questions-container"></div>
+
+    <button id="finishBtn">Finish</button>
+    <button id="resetBtn">Reset</button>
+
+    <div id="result-container"></div>
+
+    <div id="popup-container">
+      <div id="popup-content">
+        <p>This is a training aid, <u>PLEASE CHECK ALL QUESTIONS</u> if unsure.
+          <br>
+          <br>If you find any incorrect questions/answers please let me know.
+        </p>
+        <button onclick="closePopup()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/questionBank.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/popscript.js"></script>
+</body>
+</html>
