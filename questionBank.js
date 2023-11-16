@@ -1143,8 +1143,512 @@ const questionBank = [
         options: { a: 'AFCS', b: 'ADC', c: 'Standby System' },
         correct: 'a',
         
-      }
+      },
+
+
+/* 
+      --------------------------------------------------
+
+      --------------------------------------------------
+
+      --------------------------------------------------
+
+      --------------------------------------------------
+
+      --------------------------------------------------
+
+      -------------------------------------------------- */
       
+
+      {
+        id: 159,
+        category: 'ATA 49',
+        question: 'What is the primary function of the Honeywell Model 150 APU?',
+        options: { a: 'Provide hydraulic power', b: 'Supply cabin heat', c: 'Drive the main rotor' },
+        correct: 'b',
+      },
+      {
+        id: 160,
+        category: 'ATA 49',
+        question: 'Where does the APU draw air for combustion?',
+        options: { a: 'Bottom of the aircraft', b: 'From the left sponson fuel tank', c: 'Top of the aircraft' },
+        correct: 'c',
+      },
+      {
+        id: 161,
+        category: 'ATA 49',
+        question: 'What is the purpose of the Electronic Sequencing Unit (ESU) in the APU?',
+        options: { a: 'Control the aircraft\'s electrical system', b: 'Initiate prime pump operation', c: 'Drive the APU AC generator' },
+        correct: 'b',
+      },
+      {
+        id: 162,
+        category: 'ATA 49',
+        question: 'What component provides backup AC power to the aircraft electrical system?',
+        options: { a: 'APU AC Generator', b: 'Hydraulic Starter Motor', c: 'Electronic Sequencing Unit' },
+        correct: 'a',
+      },
+      {
+        id: 163,
+        category: 'ATA 49',
+        question: 'How is the APU oil system lubrication achieved?',
+        options: { a: 'Splash lubrication', b: 'Pressure lubrication', c: 'Gravity lubrication' },
+        correct: 'b',
+      },
+      {
+        id: 164,
+        category: 'ATA 49',
+        question: 'What is the function of the hydraulic accumulator in the APU?',
+        options: { a: 'Cool the turbine stage combustion chamber', b: 'Supply starting pressure to the starter motor', c: 'Drive the APU AC Generator' },
+        correct: 'b',
+      },
+      {
+        id: 165,
+        category: 'ATA 49',
+        question: 'Where is the APU air inlet located?',
+        options: { a: 'Bottom of the main rotor pylon', b: 'On the right side of the aircraft', c: 'Top of the main rotor pylon' },
+        correct: 'c',
+      },
+      {
+        id: 166,
+        category: 'ATA 49',
+        question: 'What is the purpose of the Heat Shield in the APU?',
+        options: { a: 'Cool the APU exhaust gases', b: 'Contain a fire', c: 'Filter the air entering the APU' },
+        correct: 'b',
+      },
+      {
+        id: 167,
+        category: 'ATA 49',
+        question: 'How is fuel supplied to the APU Fuel Control Unit (FCU)?',
+        options: { a: 'From the main engine fuel tank', b: 'From the left sponson fuel tank', c: 'Via the aircraft fuel prime pumps' },
+        correct: 'c',
+      },
+      {
+        id: 168,
+        category: 'ATA 49',
+        question: 'What happens if the oil pressure is too low in the APU?',
+        options: { a: 'ESU initiates prime pump operation', b: 'Oil filter is bypassed', c: 'High oil temperature switch closes' },
+        correct: 'a',
+      },
+      {
+        id: 169,
+        category: 'ATA 49',
+        question: 'Where is the APU AC Generator mounted?',
+        options: { a: 'On the compressor housing', b: 'On the accessory gearbox', c: 'On the APU integral oil system' },
+        correct: 'b',
+      },
+      {
+        id: 170,
+        category: 'ATA 49',
+        question: 'What provides lubrication for all gears, shafts, and bearings in the APU?',
+        options: { a: 'Splash lubrication', b: 'Oil filter', c: 'Rotary oil pump' },
+        correct: 'c',
+      },
+      {
+        id: 171,
+        category: 'ATA 49',
+        question: 'What does the APU Air Inlet protect against?',
+        options: { a: 'Fuel contamination', b: 'FOD (Foreign Object Debris)', c: 'Oil foaming' },
+        correct: 'b',
+      },
+      {
+        id: 172,
+        category: 'ATA 49',
+        question: 'How is the APU started on the ground or inflight?',
+        options: { a: 'Speeds up to 150 Kts', b: 'By the aircraft\'s main engines', c: 'By the Electronic Sequencing Unit (ESU)' },
+        correct: 'a',
+      },
+      {
+        id: 173,
+        category: 'ATA 49',
+        question: 'What is the purpose of the accessory drive section in the APU?',
+        options: { a: 'Cool the APU exhaust gases', b: 'Drive the main rotor', c: 'Provide mounting and drive link to various components' },
+        correct: 'c',
+      },
+      {
+        id: 174,
+        category: 'ATA 49',
+        question: 'Where is the oil filter element located in the APU?',
+        options: { a: 'Inside the combustion chamber', b: 'At the front of the gearbox', c: 'In the oil manifold' },
+        correct: 'b',
+      },
+      {
+        id: 175,
+        category: 'ATA 49',
+        question: 'What is the function of the differential pressure regulator in the APU Fuel Control Unit (FCU)?',
+        options: { a: 'Control the APU speed', b: 'Provide constant fuel pressure', c: 'Regulate oil pressure' },
+        correct: 'b',
+      },
+      {
+        id: 176,
+        category: 'ATA 49',
+        question: 'How is the APU air inlet protected from FOD?',
+        options: { a: 'By a coarse screen with rectangular apertures', b: 'By the APU exhaust', c: 'By a fire detector' },
+        correct: 'a',
+      },
+      {
+        id: 177,
+        category: 'ATA 49',
+        question: 'What does the magnetic drain plug in the APU do?',
+        options: { a: 'Provide backup AC power', b: 'Gather ferrous metal particles', c: 'Control the APU speed' },
+        correct: 'b',
+      },
+      {
+        id: 178,
+        category: 'ATA 49',
+        question: 'How is the APU fuel shutoff valve controlled during normal operations?',
+        options: { a: 'Manually by the pilot', b: 'By the differential pressure regulator', c: 'Energised open by the Electronic Sequencing Unit (ESU)' },
+        correct: 'c',
+      },
+        {
+          id: 179,
+          category: "ATA 49",
+          question: "From where is engine bleed air extracted for the APU?",
+          options: { a: "Turbine housing", b: "Compressor discharge", c: "Accessory section" },
+          correct: "b"
+        },
+        {
+          id: 180,
+          category: "ATA 49",
+          question: "What diverts bleed air when it is not required by the APU?",
+          options: { a: "Bleed air check valve", b: "Hydraulic starter motor", c: "ESU" },
+          correct: "c"
+        },
+        {
+          id: 181,
+          category: "ATA 49",
+          question: "Which section of the APU provides hydraulic pressure for normal accumulator recharging?",
+          options: { a: "Accessory section", b: "Hydraulic starter motor", c: "No.3 hydraulic system" },
+          correct: "c"
+        },
+        {
+          id: 182,
+          category: "ATA 49",
+          question: "What powers the hydraulic starter motor for APU starting?",
+          options: { a: "Nitrogen pressure", b: "Engine oil", c: "Electricity" },
+          correct: "a"
+        },
+        {
+          id: 183,
+          category: "ATA 49",
+          question: "What is the purpose of the accumulator in the APU system?",
+          options: { a: "Cooling the engine", b: "Providing hydraulic pre-charge", c: "Fuel regulation" },
+          correct: "b"
+        },
+        {
+          id: 184,
+          category: "ATA 49",
+          question: "What pressure is considered necessary for a successful APU start?",
+          options: { a: "2,000 PSI", b: "3,450 PSI", c: "5,200 PSI" },
+          correct: "b"
+        },
+        {
+          id: 185,
+          category: "ATA 49",
+          question: "Where is the accumulator pressure gauge mounted?",
+          options: { a: "Cabin roof", b: "Accessory section", c: "Turbine housing" },
+          correct: "a"
+        },
+        {
+          id: 186,
+          category: "ATA 49",
+          question: "What does the APU start valve control?",
+          options: { a: "Oil flow", b: "Hydraulic pressure to starter motor", c: "Fuel shut-off" },
+          correct: "b"
+        },
+        {
+          id: 187,
+          category: "ATA 49",
+          question: "When is the accumulator hand pump used?",
+          options: { a: "Normal operation", b: "Ground checkout", c: "In flight" },
+          correct: "c"
+        },
+        {
+          id: 188,
+          category: "ATA 49",
+          question: "What are the APU ignition components?",
+          options: { a: "Oil pump, FCU", b: "Igniter unit, ignition lead", c: "Start valve, starter motor" },
+          correct: "b"
+        },
+        {
+          id: 189,
+          category: "ATA 49",
+          question: "What initiates the APU start sequence?",
+          options: { a: "ESU, ignition unit", b: "APU CTRL switch", c: "Low oil pressure" },
+          correct: "b"
+        },
+        {
+          id: 190,
+          category: "ATA 49",
+          question: "At what Ng percentage does the APU start valve close?",
+          options: { a: "10%", b: "50%", c: "94.5%" },
+          correct: "c"
+        },
+        {
+          id: 191,
+          category: "ATA 49",
+          question: "What does the APU control system manage?",
+          options: { a: "Electrical buses", b: "Engine speed", c: "APU operations" },
+          correct: "c"
+        },
+        {
+          id: 192,
+          category: "ATA 49",
+          question: "What controls the APU CTRL switch in the cockpit?",
+          options: { a: "Motional speed sensor", b: "Low oil pressure switch", c: "ESU" },
+          correct: "c"
+        },
+        {
+          id: 193,
+          category: "ATA 49",
+          question: "What does the APU CTRL switch OFF position do?",
+          options: { a: "Turns on the APU", b: "Shuts down the APU", c: "Arms the fire extinguisher" },
+          correct: "b"
+        },
+        {
+          id: 194,
+          category: "ATA 49",
+          question: "Where is the ESU located?",
+          options: { a: "Cockpit overhead console", b: "Rear avionics compartment", c: "Accessory section" },
+          correct: "b"
+        },
+        {
+          id: 195,
+          category: "ATA 49",
+          question: "What completes a power-on self-test when power is applied?",
+          options: { a: "APU accumulator", b: "ESU", c: "APU start valve" },
+          correct: "b"
+        },
+        {
+          id: 196,
+          category: "ATA 49",
+          question: "Where is the motional speed sensor located?",
+          options: { a: "Turbine housing", b: "Accessory section", c: "Inboard / right-hand side of the APU" },
+          correct: "c"
+        },
+/*         {
+          id: 197,
+          category: "ATA 49",
+          question: "What does the low oil pressure switch indicate to the ESU?",
+          options: { a: "Shutdown command", b: "Oil pressure status", c: "Engine speed" },
+          correct: "b"
+        }, */
+        {
+          id: 198,
+          category: "ATA 49",
+          question: "How is the APU shut down in case of a high oil temperature while in flight?",
+          options: { a: "Automatic shutdown", b: "Pilot command", c: "Fuel control unit" },
+          correct: "b"
+        },
+        {
+          id: 199,
+          category: "ATA 49",
+          question: "What is recorded by the hour meter assembly?",
+          options: { a: "Fuel consumption", b: "Total operating hours", c: "Oil temperature" },
+          correct: "b"
+        },
+        {
+          id: 200,
+          category: "ATA 49",
+          question: "What occurs when the FIRE APU/ARM pushbutton is pushed?",
+          options: { a: "Apu starts", b: "Fire extinguisher system arms", c: "Low oil pressure" },
+          correct: "b"
+        },
+        {
+          id: 201,
+          category: "ATA 49",
+          question: "Which caution will be displayed if an automatic shutdown occurs in flight?",
+          options: { a: "APU ACCUM LOW", b: "APU FAIL", c: "APU ON" },
+          correct: "b"
+        },
+        {
+          id: 201,
+          category: "ATA 49",
+          question: "Which caution will be displayed if an automatic shutdown occurs in flight?",
+          options: { "a": "APU ACCUM LOW", "b": "APU FAIL", "c": "APU ON" },
+          correct: "b"
+        },
+        {
+          id: 202,
+          category: "ATA 49",
+          question: "Where can additional APU system feedback be displayed?",
+          options: { "a": "EICAS page", "b": "Maintenance pages", "c": "ANALOG PARAMETERS (2 OF 2)" },
+          correct: "b"
+        },
+        {
+          id: 203,
+          category: "ATA 49",
+          question: "What does the FIRE APU/ARM warning light/pushbutton provide a visual warning of?",
+          options: { "a": "Low oil pressure", "b": "A fire in the APU compartment", "c": "Hydraulic pressure" },
+          correct: "b"
+        },
+        {
+          id: 204,
+          category: "ATA 49",
+          question: "What happens when the FIRE APU/ARM pushbutton is pushed?",
+          options: { "a": "Apu shuts down", "b": "ESU shuts down", "c": "Hydraulic pressure increases" },
+          correct: "a"
+        },
+        {
+          id: 205,
+          category: "ATA 34",
+          question: "What is the purpose of the Attitude Heading and Reference Systems (AHRS)?",
+          options: { a: "Provide weather information", b: "Detect turbulence", c: "Determine aircraft attitude and heading" },
+          correct: "c"
+        },
+        
+        {
+          id: 206,
+          category: "ATA 34",
+          question: "What is the pitch accuracy provided by the LITEF Model LCR-100 AHRS?",
+          options: { a: "± 1 degree", b: "± 0.5 degrees", c: "± 2 degrees" },
+          correct: "b"
+        },
+        
+        {
+          id: 207,
+          category: "ATA 34",
+          question: "How many Fibre Optic Gyros (FOGs) sensors are there in each AHRS Unit?",
+          options: { a: "Two", b: "Three", c: "Four" },
+          correct: "b"
+        },
+        
+        {
+          id: 208,
+          category: "ATA 34",
+          question: "Which bus is used to power the C/P AHRS PRI on AHRS 1?",
+          options: { a: "DC Essential Bus", b: "No 1 DC Primary Bus", c: "No 2 DC Primary Bus" },
+          correct: "b"
+        },
+        
+        {
+          id: 209,
+          category: "ATA 34",
+          question: "What does the Slew Controller's SET HDG switch allow the pilot to do?",
+          options: { a: "Adjust the vertical speed", b: "Manually slew the AHRS heading output", c: "Activate turbulence detection" },
+          correct: "b"
+        },
+        
+        {
+          id: 210,
+          category: "ATA 34",
+          question: "Which AHRS communicates with MFDs 3 and 4 under normal conditions?",
+          options: { a: "AHRS 1", b: "AHRS 2", c: "Both AHRS 1 and AHRS 2" },
+          correct: "b"
+        },
+        
+        {
+          id: 211,
+          category: "ATA 34",
+          question: "Where is the Magnetic Sensor Unit (Flux Valve) located?",
+          options: { a: "Behind the MFDs", b: "In the tail of the aircraft", c: "Under the cockpit floor" },
+          correct: "b"
+        },
+        
+        {
+          id: 212,
+          category: "ATA 34",
+          question: "What is the commanded slew rate for the first 3 seconds on the Slew Controller?",
+          options: { a: "4o per second", b: "2o per second", c: "8o per second" },
+          correct: "b"
+        },
+        
+        {
+          id: 213,
+          category: "ATA 34",
+          question: "What is the purpose of the GPS data in the AHRS system?",
+          options: { a: "Adjust the vertical speed", b: "Eliminate drift", c: "Control the standby compass" },
+          correct: "b"
+        },
+        
+        {
+          id: 214,
+          category: "ATA 34",
+          question: "Which displays show the Vertical Speed Indication (VSI) from AHRS 2?",
+          options: { a: "MFDs 1, 2, and 5", b: "MFDs 3 and 4", c: "PFD ARC and NAV Full" },
+          correct: "b"
+        },
+        
+        {
+          id: 215,
+          category: "ATA 34",
+          question: "What causes an AHRS Miscompare?",
+          options: { a: "Different temperature settings", b: "Roll differs by 6 degrees or more", c: "Rolling of the aircraft" },
+          correct: "b"
+        },
+        
+        {
+          id: 216,
+          category: "ATA 34",
+          question: "How long does normal alignment on the ground take for the AHRS system?",
+          options: { a: "15 seconds", b: "30 seconds", c: "55 seconds" },
+          correct: "b"
+        },
+        
+        {
+          id: 217,
+          category: "ATA 34",
+          question: "Which MFDs does AHRS 2 communicate with under normal conditions?",
+          options: { a: "MFDs 1, 2, and 5", b: "MFDs 3 and 4", c: "MFDs 1, 2, 3, 4, and 5" },
+          correct: "b"
+        },
+        
+        {
+          id: 218,
+          category: "ATA 34",
+          question: "What controls the pitch scale and the sky/ground color on the Primary Flight Displays?",
+          options: { a: "Compass Control Unit", b: "AHRS pitch", c: "Slew Controller" },
+          correct: "b"
+        },
+        
+        {
+          id: 219,
+          category: "ATA 34",
+          question: "How is the Standby Attitude Indicator powered if the #1 DC Primary Bus fails?",
+          options: { a: "Emergency Battery", b: "#2 DC Primary Bus", c: "Standby Compass" },
+          correct: "a"
+        },
+        
+        {
+          id: 220,
+          category: "ATA 34",
+          question: "What happens if the Emergency Battery Test displays 'EMER PWR and GOOD'?",
+          options: { a: "The emergency battery is discharged", b: "Emergency power is available", c: "Emergency power is unavailable" },
+          correct: "b"
+        },
+        
+        {
+          id: 221,
+          category: "ATA 34",
+          question: "How is the Standby AI power switched on?",
+          options: { a: "OFF/ARM push button", b: "Emergency Battery Test", c: "Cage knob" },
+          correct: "a"
+        },
+        
+        {
+          id: 222,
+          category: "ATA 34",
+          question: "What is the purpose of the Honeywell P660 WXR?",
+          options: { a: "Detect storms within 60° of the helicopter’s flight path", b: "Provide weather information", c: "Enhance ground mapping" },
+          correct: "c"
+        },
+        
+        {
+          id: 223,
+          category: "ATA 34",
+          question: "Which button on the P700 WXR Controller initiates the turbulence detection function?",
+          options: { a: "CR", b: "TRB", c: "TGT" },
+          correct: "b"
+        },
+        
+        {
+          id: 224,
+          category: "ATA 34",
+          question: "In ground mapping mode, what color represents the highest returns on the P700 WXR?",
+          options: { a: "Blue", b: "Yellow", c: "Red" },
+          correct: "c"
+        }
+        
       
      
     

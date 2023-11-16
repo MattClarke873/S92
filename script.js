@@ -80,6 +80,8 @@ document.addEventListener('DOMContentLoaded', function () {
           <br>
           <br> ------- `;
 
+          
+
         if (selectedOption === question.correct) {
           resultText.style.color = 'green';
           correctCount++;
