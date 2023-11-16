@@ -2141,6 +2141,172 @@ const questionBank = [
           question: 'What does the code SPAD indicate in the Nomenclature column?',
           options: { a: 'Standard Parts', b: 'Spare Part Drawing', c: 'Special Procedures' },
           correct: 'b'
+        },
+        /* 
+        ---------------
+        --------------- check below
+        ---------------
+        ---------------
+        --------------- */ 
+
+
+        {
+          id: 291,
+          category: "ATA 34",
+          question: "When an intruder transponder transmission is detected, what does the TCAS in the aircraft compute?",
+          options: { a: "Range between your aircraft and the intruder", b: "Closing rate between your aircraft and the intruder", c: "Altitude difference between your aircraft and the intruder" },
+          correct: "b"
+        },
+        
+        {
+          id: 292,
+          category: "ATA 34",
+          question: "Where is the TCAS Processor located?",
+          options: { a: "On the upper antenna", b: "On the lower antenna", c: "In the transition area behind the ramp" },
+          correct: "c"
+        },
+        
+        {
+          id: 293,
+          category: "ATA 34",
+          question: "What does the TCAS Processor receive inputs from to determine the bearings of the intruder aircraft?",
+          options: { a: "EGPWS", b: "DME", c: "RADALT" },
+          correct: "b"
+        },
+        
+        {
+          id: 294,
+          category: "ATA 34",
+          question: "Where is the TCAS Configuration Module located?",
+          options: { a: "On the upper antenna", b: "On the lower antenna", c: "In the transition area near the TCAS Processor" },
+          correct: "c"
+        },
+        
+        {
+          id: 295,
+          category: "ATA 34",
+          question: "How is the TCAS information displayed on MFDs?",
+          options: { a: "By default", b: "By selecting OVLY >> TCAS", c: "By pressing CTL >> BAND" },
+          correct: "b"
+        },
+        
+        {
+          id: 296,
+          category: "ATA 34",
+          question: "What triggers a Traffic Advisory (TA) in TCAS I?",
+          options: { a: "Altitude difference above 2000 AGL", b: "Horizontal distance below 2000 AGL", c: "Time to Closest Point of Approach (CPA)" },
+          correct: "c"
+        },
+        
+        {
+          id: 297,
+          category: "ATA 34",
+          question: "How is a THREAT indicated in TCAS I symbology?",
+          options: { a: "An open blue diamond", b: "A filled blue diamond", c: "A filled yellow circle" },
+          correct: "c"
+        },
+        
+        {
+          id: 298,
+          category: "ATA 34",
+          question: "When does the TCAS II produce Resolution Alerts (RA) for vertical avoidance maneuvers?",
+          options: { a: "In level flight", b: "During a Traffic Advisory (TA)", c: "When the threat is imminent" },
+          correct: "c"
+        },
+        
+        {
+          id: 299,
+          category: "ATA 34",
+          question: "What happens following a Resolution Alert (RA) in TCAS II?",
+          options: { a: "Immediate descent", b: "Clear of conflict announced", c: "Climb performance increased" },
+          correct: "b"
+        },
+        
+        {
+          id: 300,
+          category: "ATA 34",
+          question: "When are Climb RAs inhibited in TCAS II?",
+          options: { a: "Airspeed is less than 100 KIAS", b: "Altitude is greater than 5000 feet MSL", c: "During One Engine Inoperative (OEI)" },
+          correct: "a"
+        },
+        {
+          id: 301,
+          category: "ATA 34",
+          question: "What is the primary purpose of the Honeywell Mk XXII EGPWS in the S92?",
+          options: { a: "To control the autopilot system", b: "To prevent Controlled Flight Into Terrain (CFIT)", c: "To manage radio communication" },
+          correct: "b"
+        },
+        
+        {
+          id: 302,
+          category: "ATA 34",
+          question: "Which altitude reference does the EGPWS use to calculate the height above the ground?",
+          options: { a: "Barometric altitude", b: "Geometric altitude", c: "Radar altitude" },
+          correct: "b"
+        },
+        
+        {
+          id: 303,
+          category: "ATA 34",
+          question: "What happens if GPS data is not available for the EGPWS Terrain system?",
+          options: { a: "Terrain system becomes inactive", b: "A warning is issued", c: "No impact on the system" },
+          correct: "a"
+        },
+        
+        {
+          id: 304,
+          category: "ATA 34",
+          question: "Which sensor is NOT used by the EGPWS to determine the active mode?",
+          options: { a: "RADALT", b: "AFCS", c: "TCAS" },
+          correct: "c"
+        },
+        
+        {
+          id: 305,
+          category: "ATA 34",
+          question: "In the EGPWS mapping, what color is used to represent terrain below 500 feet from the aircraft?",
+          options: { a: "Light green", b: "Dark yellow", c: "Red" },
+          correct: "b"
+        },
+        
+        {
+          id: 306,
+          category: "ATA 34",
+          question: "Which mode in the EGPWS is used for alerts related to excessive terrain closure rate after take-off?",
+          options: { a: "Mode 2", b: "Mode 4", c: "Mode 6" },
+          correct: "a"
+        },
+        
+        {
+          id: 307,
+          category: "ATA 34",
+          question: "What does the Look Ahead function in the EGPWS system compare?",
+          options: { a: "Aircraft altitude with terrain altitude", b: "Aircraft flight path with known runways", c: "Time from take-off with the current time" },
+          correct: "b"
+        },
+        
+        {
+          id: 308,
+          category: "ATA 34",
+          question: "When does the EGPWS display TERRAIN in red on the PFD?",
+          options: { a: "20 seconds from hitting the hazard", b: "30 seconds from hitting the hazard", c: "40 seconds from hitting the hazard" },
+          correct: "a"
+        },
+        
+        {
+          id: 309,
+          category: "ATA 34",
+          question: "In the EGPWS, what does the TOO LOW GEAR alert indicate?",
+          options: { a: "Insufficient terrain clearance", b: "Landing gear not selected down", c: "Excessive closure rate with terrain" },
+          correct: "b"
+        },
+        
+        {
+          id: 310,
+          category: "ATA 34",
+          question: "When does the Mode 3 in EGPWS provide alerts?",
+          options: { a: "During normal approach", b: "During take-off", c: "During cruise" },
+          correct: "b"
         }
         
         
