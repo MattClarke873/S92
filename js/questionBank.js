@@ -62,15 +62,7 @@ const questionBank = [
         options: { a: 'During daylight', b: 'In low light levels or at night', c: 'During static balancing' },
         correct: 'b',
     },
-
-
-    {
-        id: 10,
-        category: 'ATA 18',
-        question: 'How many force generators are typically installed in newer aircraft configurations?',
-        options: { a: '3', b: '6', c: '10' },
-        correct: 'b',
-    },
+   
     {
         id: 11,
         category: 'ATA 18',
@@ -155,13 +147,7 @@ const questionBank = [
         options: { a: 'When the digit to the right of the decimal is an even number', b: 'When the digit to the right of the decimal is an odd number', c: 'All frequencies in this range are VOR frequencies' },
         correct: 'a',
       },
-/*       {
-        id: 23,
-        category: 'ATA 34',
-        question: 'What is the default frequency for ILS within the range of 108.00 to 112.00 MHz?',
-        options: { a: '108.65', b: '109.50', c: '110.15' },
-        correct: 'c',
-      }, */
+
       {
         id: 24,
         category: 'ATA 34',
@@ -176,13 +162,7 @@ const questionBank = [
         options: { a: 'Through a coupler in the seat well under the co-pilot’s seat', b: 'Through a coupler below the floor of the forward Cabin area', c: 'They are not connected' },
         correct: 'b',
       },
-/*       {
-        id: 26,
-        category: 'ATA 34',
-        question: 'How is VOR information displayed on the MFDs controlled?',
-        options: { a: 'Through the Display Control Panel (DCP)', b: 'Via the Remote Instrument Controller (RIC)', c: 'Automatically on the NAV display' },
-        correct: 'a',
-      }, */
+
       {
         id: 27,
         category: 'ATA 34',
@@ -239,13 +219,7 @@ const questionBank = [
         options: { a: '1', b: '2', c: '3' },
         correct: 'c',
       },
-/*       {
-        id: 35,
-        category: 'ATA 34',
-        question: 'What is Channel 3 used for in the scanning DME receiver?',
-        options: { a: 'Auto-tune from FMS', b: 'Range calculation for VOR 2', c: 'Range calculation for ILS 2' },
-        correct: 'a',
-      }, */
+
       {
         id: 36,
         category: 'ATA 34',
@@ -337,13 +311,7 @@ const questionBank = [
         options: { a: 'Engine mounts', b: 'Landing gear', c: 'Quantity probe, low-level fuel sensor, refuel/defuel valve' },
         correct: 'c',
       },
-/*       {
-        id: 49,
-        category: 'ATA 28',
-        question: 'What color is the main body of breakaway valves?',
-        options: { a: 'Blue', b: 'Red', c: 'Yellow' },
-        correct: 'b',
-      }, */
+
       {
         id: 50,
         category: 'ATA 28',
@@ -372,13 +340,7 @@ const questionBank = [
         options: { a: 'Prevent fuel spills', b: 'Increase fuel flow', c: 'Maintain atmospheric pressure' },
         correct: 'a',
       },
-/*       {
-        id: 54,
-        category: 'ATA 28',
-        question: 'What is the purpose of the Auxiliary Tank - Fuel Management Panel?',
-        options: { a: 'Engine control', b: 'Fuel quantity measurement', c: 'Aircraft navigation' },
-        correct: 'b',
-      }, */
+
       {
         id: 55,
         category: 'ATA 28',
@@ -407,13 +369,7 @@ const questionBank = [
         options: { a: 'control of left and right sponson fuel delivery', b: 'Increase fuel flow', c: 'Manage cockpit pressure' },
         correct: 'a',
       },
-/*       {
-        id: 59,
-        category: 'ATA 28',
-        question: 'How are the aux tanks refuelled during pressure refuel operations?',
-        options: { a: 'Simultaneously with main tanks', b: 'After main tanks are full', c: 'Independently of main tanks' },
-        correct: 'a',
-      }, */
+
       {
         id: 60,
         category: 'ATA 28',
@@ -449,13 +405,7 @@ const questionBank = [
         options: { a: '5175lbs', b: '3086lbs', c: '7700lbs' },
         correct: 'a',
       },
-/*       {
-        id: 65,
-        category: 'ATA 28',
-        question: 'Where are the fuel select valve switches located?',
-        options: { a: 'Throttle quadrant', b: 'Overhead switch panel', c: 'Engine Control Quadrant' },
-        correct: 'a',
-      }, */
+
       {
         id: 66,
         category: 'ATA 28',
@@ -470,34 +420,7 @@ const questionBank = [
         options: { a: 'Fuel line connected directly to engine pod', b: 'Fuel line cross-connected to engine pod', c: 'Fuel line disconnected from the engine pod' },
         correct: 'b',
       },
-/*       {
-        id: 68,
-        category: 'ATA 28',
-        question: 'Where is the fuel prime switch located?',
-        options: { a: 'Throttle quadrant', b: 'Central overhead switch panel', c: 'Engine Control Quadrant' },
-        correct: 'b',
-      }, */
-/*       {
-        id: 69,
-        category: 'ATA 28',
-        question: 'In which position will the prime pumps alternate their use when in AUTO?',
-        options: { a: 'PUMP 1', b: 'PUMP 2', c: 'AUTO' },
-        correct: 'c',
-      }, */
-/*       {
-        id: 70,
-        category: 'ATA 28',
-        question: 'How are the engine fuel selector valves powered?',
-        options: { a: 'Aircraft power', b: 'Battery Utility bus', c: 'APU power' },
-        correct: 'b',
-      }, */
-/*      {
-         id: 71,
-        category: 'ATA 28',
-        question: 'What controls the OFF selection of the engine fuel selector valves?',
-        options: { a: 'Fire Control Panel', b: 'Maintenance Data Computer', c: 'Cockpit engine Control Quadrant' },
-        correct: 'a',
-      }, */
+
       {
         id: 72,
         category: 'ATA 28',
@@ -526,13 +449,6 @@ const questionBank = [
         options: { a: 'Pump No.1 operates by default', b: 'Pump No.2 operates by default', c: 'Both pumps stop' },
         correct: 'a',
       },
-/*       {
-        id: 76,
-        category: 'ATA 28',
-        question: 'When can manual fuel prime be selected?',
-        options: { a: 'During flight', b: 'During APU operation', c: 'After maintenance on the fuel system' },
-        correct: 'c',
-      }, */
       {
         id: 77,
         category: 'ATA 28',
@@ -617,13 +533,6 @@ const questionBank = [
         options: { a: 'Two', b: 'Four', c: 'Six' },
         correct: 'b',
       },
-/*       {
-        id: 89,
-        category: 'ATA 28',
-        question: 'What type of data interlink is used for fuel quantity information?',
-        options: { a: 'SPI bus', b: 'I2C bus', c: 'USB connection' },
-        correct: 'a',
-      }, */
       {
         id: 90,
         category: 'ATA 28',
@@ -991,7 +900,6 @@ const questionBank = [
         options: { a: 'Two ADC systems and a Standby system', b: 'Three ADC systems', c: 'Two Standby systems' },
         correct: 'a',
       },
-      
       {
         id: 140,
         category: 'ATA 34',
@@ -999,23 +907,13 @@ const questionBank = [
         options: { a: 'One', b: 'Two', c: 'Three' },
         correct: 'b',
       },
-      
-/*       {
-        id: 141,
-        category: 'ATA 34',
-        question: 'Which components make up the ADC System?',
-        options: { a: 'Air Data Computer 1, Outside Air Temperature Probe 1', b: 'Air Data Computer 1, Air Data Computer 2', c: 'Air Data Computer 1, Left Pitot Static Probe' },
-        correct: 'b',
-      }, */
-      
       {
         id: 142,
         category: 'ATA 34',
         question: 'What is the purpose of the Standby System?',
         options: { a: 'To calculate Vne', b: 'To provide indications only', c: 'To send data to the MFDs' },
         correct: 'b',
-      },
-      
+      },     
       {
         id: 143,
         category: 'ATA 34',
@@ -1023,7 +921,6 @@ const questionBank = [
         options: { a: 'Left hand avionics rack', b: 'Under the nose of the aircraft', c: 'On the tail' },
         correct: 'b',
       },
-      
       {
         id: 144,
         category: 'ATA 34',
@@ -1031,7 +928,6 @@ const questionBank = [
         options: { a: 'Weight and engine status', b: 'Pitot pressure, static pressure, and outside air temperature', c: 'Barometric setting and AFCS data' },
         correct: 'b',
       },
-      
       {
         id: 145,
         category: 'ATA 34',
@@ -1039,7 +935,6 @@ const questionBank = [
         options: { a: 'Engine inlets', b: 'Under the nose Landing Bay', c: 'Within the Pitot head' },
         correct: 'b',
       },
-      
       {
         id: 146,
         category: 'ATA 34',
@@ -1047,7 +942,6 @@ const questionBank = [
         options: { a: 'Lower Left Pitot Probe', b: 'Right Pitot Probe', c: 'Upper left Pitot Probe' },
         correct: 'a',
       },
-      
       {
         id: 147,
         category: 'ATA 34',
@@ -1055,7 +949,6 @@ const questionBank = [
         options: { a: '5', b: '10', c: '15' },
         correct: 'b',
       },
-      
       {
         id: 148,
         category: 'ATA 34',
@@ -1063,7 +956,6 @@ const questionBank = [
         options: { a: 'Vne calculation', b: 'BARALT Decision Height', c: 'AFCS Reference Altitude' },
         correct: 'b',
       },
-      
       {
         id: 149,
         category: 'ATA 34',
@@ -1071,7 +963,6 @@ const questionBank = [
         options: { a: 'BARALT Decision Height', b: 'Altitude Pre-select', c: 'AFCS Reference Altitude' },
         correct: 'b',
       },
-      
       {
         id: 150,
         category: 'ATA 34',
@@ -1079,7 +970,6 @@ const questionBank = [
         options: { a: 'Audible alert', b: 'Flashing lights', c: 'IAS miscompare flag' },
         correct: 'c',
       },
-      
       {
         id: 151,
         category: 'ATA 34',
@@ -1087,7 +977,6 @@ const questionBank = [
         options: { a: '70 KIAS', b: '7 KIAS', c: '70 feet' },
         correct: 'b',
       },
-      
       {
         id: 152,
         category: 'ATA 34',
@@ -1095,7 +984,6 @@ const questionBank = [
         options: { a: '7 feet', b: '70 feet', c: '7 KIAS' },
         correct: 'b',
       },
-      
       {
         id: 153,
         category: 'ATA 34',
@@ -1103,7 +991,6 @@ const questionBank = [
         options: { a: 'Only offside ADC', b: 'Average of both ADCs', c: 'AHRS data' },
         correct: 'b',
       },
-      
       {
         id: 154,
         category: 'ATA 34',
@@ -1111,23 +998,13 @@ const questionBank = [
         options: { a: 'Uncommanded pitch movement', b: 'No effect', c: 'AFCS disengagement' },
         correct: 'a',
       },
-      
       {
         id: 155,
         category: 'ATA 34',
         question: 'How is the Pitot Static leak check and accuracy checks carried out?',
         options: { a: 'Using the ADC Test Set', b: 'Manually', c: 'Using the Air Data System Test Set 405F' },
         correct: 'c',
-      },
-      
-/*       {
-        id: 156,
-        category: 'ATA 34',
-        question: 'Where is the remote control panel located for the ADC Test Set?',
-        options: { a: 'In the cockpit', b: 'In the nose Landing Bay', c: 'Under the aircraft' },
-        correct: 'a',
-      }, */
-      
+      },     
       {
         id: 157,
         category: 'ATA 34',
@@ -1135,17 +1012,13 @@ const questionBank = [
         options: { a: 'Yes', b: 'No', c: 'Only during flight' },
         correct: 'b',
       },
-      
       {
         id: 158,
         category: 'ATA 34',
         question: 'Which system uses an average of both ADCs for its calculations?',
         options: { a: 'AFCS', b: 'ADC', c: 'Standby System' },
         correct: 'a',
-        
       },
-      
-
       {
         id: 159,
         category: 'ATA 49',
@@ -1160,13 +1033,7 @@ const questionBank = [
         options: { a: 'Bottom of the aircraft', b: 'From the left sponson fuel tank', c: 'Top of the aircraft' },
         correct: 'c',
       },
-/*       {
-        id: 161,
-        category: 'ATA 49',
-        question: 'What is the purpose of the Electronic Sequencing Unit (ESU) in the APU?',
-        options: { a: 'Control the aircraft\'s electrical system', b: 'Initiate prime pump operation', c: 'Drive the APU AC generator' },
-        correct: 'b',
-      }, */
+
       {
         id: 162,
         category: 'ATA 49',
@@ -1202,17 +1069,11 @@ const questionBank = [
         options: { a: 'Cool the APU exhaust gases', b: 'Contain a fire', c: 'Filter the air entering the APU' },
         correct: 'b',
       },
-/*       {
-        id: 167,
-        category: 'ATA 49',
-        question: 'How is fuel supplied to the APU Fuel Control Unit (FCU)?',
-        options: { a: 'From the main engine fuel tank', b: 'From the left sponson fuel tank', c: 'Via the aircraft fuel prime pumps' },
-        correct: 'c',
-      }, */
+
       {
         id: 168,
         category: 'ATA 49',
-        question: 'What happens if the oil pressure is too low in the APU on the grounf?',
+        question: 'What happens if the oil pressure is too low in the APU on the ground?',
         options: { a: 'ESU initiates APU shutdown', b: 'Oil filter is bypassed', c: 'High oil temperature switch closes' },
         correct: 'a',
       },
@@ -1237,13 +1098,7 @@ const questionBank = [
         options: { a: 'Fuel contamination', b: 'FOD (Foreign Object Debris)', c: 'Oil foaming' },
         correct: 'b',
       },
-/*       {
-        id: 172,
-        category: 'ATA 49',
-        question: 'How is the APU started on the ground or inflight?',
-        options: { a: 'Speeds up to 150 Kts', b: 'By the aircraft\'s main engines', c: 'By the Electronic Sequencing Unit (ESU)' },
-        correct: 'a',
-      }, */
+
       {
         id: 173,
         category: 'ATA 49',
@@ -1279,13 +1134,6 @@ const questionBank = [
         options: { a: 'Provide backup AC power', b: 'Gather ferrous metal particles', c: 'Control the APU speed' },
         correct: 'b',
       },
-/*       {
-        id: 178,
-        category: 'ATA 49',
-        question: 'How is the APU fuel shutoff valve controlled during normal operations?',
-        options: { a: 'Manually by the pilot', b: 'By the differential pressure regulator', c: 'Energised open by the Electronic Sequencing Unit (ESU)' },
-        correct: 'c',
-      }, */
         {
           id: 179,
           category: "ATA 49",
@@ -1307,13 +1155,7 @@ const questionBank = [
           options: { a: "Accessory section", b: "Hydraulic starter motor", c: "No.3 hydraulic system" },
           correct: "c"
         },
-/*         {
-          id: 182,
-          category: "ATA 49",
-          question: "What powers the hydraulic starter motor for APU starting?",
-          options: { a: "Nitrogen pressure", b: "Engine oil", c: "Electricity" },
-          correct: "a"
-        }, */
+
         {
           id: 183,
           category: "ATA 49",
@@ -1321,13 +1163,7 @@ const questionBank = [
           options: { a: "Cooling the engine", b: "Providing hydraulic pre-charge for start", c: "Fuel regulation" },
           correct: "b"
         },
-/*         {
-          id: 184,
-          category: "ATA 49",
-          question: "What pressure is considered necessary for a successful APU start?",
-          options: { a: "2,000 PSI", b: "3,450 PSI", c: "5,200 PSI" },
-          correct: "b"
-        }, */
+
         {
           id: 185,
           category: "ATA 49",
@@ -1342,13 +1178,6 @@ const questionBank = [
           options: { a: "Oil flow", b: "Hydraulic pressure to starter motor", c: "Fuel shut-off" },
           correct: "b"
         },
-/*         {
-          id: 187,
-          category: "ATA 49",
-          question: "When is the accumulator hand pump used?",
-          options: { a: "Normal operation", b: "Ground checkout", c: "In flight" },
-          correct: "c"
-        }, */
         {
           id: 188,
           category: "ATA 49",
@@ -1356,13 +1185,7 @@ const questionBank = [
           options: { a: "Oil pump, FCU", b: "Igniter unit, ignition lead", c: "Start valve, starter motor" },
           correct: "b"
         },
-/*         {
-          id: 189,
-          category: "ATA 49",
-          question: "What initiates the APU start sequence?",
-          options: { a: "ESU, ignition unit", b: "APU CTRL switch", c: "Low oil pressure" },
-          correct: "b"
-        }, */
+
         {
           id: 190,
           category: "ATA 49",
@@ -1377,20 +1200,7 @@ const questionBank = [
           options: { a: "Electrical buses", b: "Engine speed", c: "APU operations" },
           correct: "c"
         },
-/*         {
-          id: 192,
-          category: "ATA 49",
-          question: "What controls the APU CTRL switch in the cockpit?",
-          options: { a: "Motional speed sensor", b: "Low oil pressure switch", c: "ESU" },
-          correct: "c"
-        }, */
-/*         {
-          id: 193,
-          category: "ATA 49",
-          question: "What does the APU CTRL switch OFF position do?",
-          options: { a: "Turns on the APU", b: "Shuts down the APU", c: "Arms the fire extinguisher" },
-          correct: "b"
-        }, */
+
         {
           id: 194,
           category: "ATA 49",
@@ -1412,13 +1222,7 @@ const questionBank = [
           options: { a: "Turbine housing", b: "Accessory section", c: "Inboard / right-hand side of the APU" },
           correct: "c"
         },
-/*         {
-          id: 197,
-          category: "ATA 49",
-          question: "What does the low oil pressure switch indicate to the ESU?",
-          options: { a: "Shutdown command", b: "Oil pressure status", c: "Engine speed" },
-          correct: "b"
-        }, */
+
         {
           id: 198,
           category: "ATA 49",
@@ -1553,7 +1357,7 @@ const questionBank = [
         {
           id: 215,
           category: "ATA 34",
-          question: "What causes an AHRS Miscompare?",
+          question: "What causes an AHRS Mis-compare?",
           options: { a: "Different temperature settings", b: "Roll differs by 6 degrees or more", c: "Rolling of the aircraft" },
           correct: "b"
         },
@@ -1701,7 +1505,7 @@ const questionBank = [
           id: 233,
           category: "ATA 26",
           question: "Where is the fire control panel located?",
-          options: { a: "Under the cabin floor", b: "On the glareshield under the instrument panel", c: "In the APU compartment" },
+          options: { a: "Under the cabin floor", b: "On the glare shield under the instrument panel", c: "In the APU compartment" },
           correct: "b",
         },
         
@@ -1907,7 +1711,7 @@ const questionBank = [
           id: 259,
           category: "ATA 49",
           question: "What services are provided to the aircraft by the APU?",
-          options: { a: "Electical", b: "Air", c: "Both" },
+          options: { a: "Electrical", b: "Air", c: "Both" },
           correct: "c",
         },
         {
@@ -1935,7 +1739,7 @@ const questionBank = [
           id: 263,
           category: "ATA 26",
           question: "Where is the fire control panel?",
-          options: { a: "Overhead Panel", b: "Center pedestal", c: "Central glareshield" },
+          options: { a: "Overhead Panel", b: "Center pedestal", c: "Central glare shield" },
           correct: "c",
         },
         {
@@ -2486,23 +2290,7 @@ const questionBank = [
           options: { a: "Initiates engine test", b: "Performs a cross fill of stored data", c: "Resets engine parameters" },
           correct: "b"
         },
-        
-/*         {
-          id: 337,
-          category: "ATA 70",
-          question: "What is the purpose of the RESET ENG1 or RESET ENG2 command?",
-          options: { a: "Initiates a test reset", b: "Resets engine parameters", c: "Performs a cross fill of stored data" },
-          correct: "b"
-        }, */
-        
-/*         {
-          id: 338,
-          category: "ATA 70",
-          question: "How are FADEC error messages displayed?",
-          options: { a: "In a message box below the test results block", b: "On the MFD", c: "As pop-up alerts" },
-          correct: "a"
-        }, */
-        
+
         {
           id: 339,
           category: "ATA 70",
@@ -2510,23 +2298,7 @@ const questionBank = [
           options: { a: "In a yellow warning annunciation", b: "In a red warning annunciation", c: "As pop-up alerts" },
           correct: "b"
         },
-        
-/*         {
-          id: 340,
-          category: "ATA 70",
-          question: "What is the first step in the Power Assurance Procedure for Ground Power Assurance?",
-          options: { a: "Select UTIL > EPAC", b: "Throttle — IDLE", c: "Heading — Nose into wind" },
-          correct: "b"
-        }, */
-        
-/*         {
-          id: 341,
-          category: "ATA 70",
-          question: "What is the requirement for the single point power margin value to assure published performance?",
-          options: { a: "Must be within 5° of the average margin", b: "Must be below the average margin", c: "Must vary by more than 12°" },
-          correct: "a"
-        }, */
-        
+
         {
           id: 342,
           category: "ATA 70",
@@ -2550,23 +2322,7 @@ const questionBank = [
           options: { a: "5", b: "10", c: "15" },
           correct: "b"
         },
-        
-/*         {
-/*           id: 345,
-          category: "ATA 70",
-          question: "What is the purpose of the ACCEPT/REJECT bezel key?",
-          options: { a: "Initiates a test reset", b: "Sets the test result reject bit", c: "Performs a cross fill of stored data" },
-          correct: "b"
-        }, */
-        
-/*         { 
-          id: 346,
-          category: "ATA 70",
-          question: "When are the conditions for assuring published performance NOT met?",
-          options: { a: "Power margin is +5° or higher", b: "Single point power margin varies by more than 12°", c: "Trended power margin is +5° or above" },
-          correct: "b"
-        }, */
-        
+      
         {
           id: 347,
           category: "ATA 70",
@@ -2575,14 +2331,7 @@ const questionBank = [
           correct: "a"
         },
         
-/*         {
-          id: 348,
-          category: "ATA 70",
-          question: "How are EPAC data failures indicated?",
-          options: { a: "In the STATUS line", b: "In the MESSAGES area", c: "As pop-up alerts" },
-          correct: "b"
-        }, */
-        
+
         {
           id: 349,
           category: "ATA 70",
@@ -2590,16 +2339,7 @@ const questionBank = [
           options: { a: "In-flight only", b: "On the ground using APU or external power", c: "Both a and b" },
           correct: "b"
         },
-/*         
-        {
-          id: 350,
-          category: "ATA 70",
-          question: "What does the MESSAGES block indicate on the EPAC page?",
-          options: { a: "Power check results", b: "Error messages for each engine", c: "Current aircraft conditions" },
-          correct: "b"
-        },
- */
-        
+
 
         {
           id: 350,
@@ -2756,14 +2496,6 @@ const questionBank = [
           correct: 'b'
         },
         
-/*         {
-          id: 372,
-          category: "ATA 71",
-          question: "How is the forward support tube heated in the GE CT7-8A engine?",
-          options: { a: "By engine exhaust gases", b: "By electrical heating elements", c: "By AC power for anti-ice purposes" },
-          correct: 'c'
-        }, */
-        
         {
           id: 373,
           category: "ATA 71",
@@ -2772,14 +2504,7 @@ const questionBank = [
           correct: 'b'
         },
         
-/*         {
-          id: 374,
-          category: "ATA 71",
-          question: "Where are the Teflon-lined spherical bearings used in the GE CT7-8A engine?",
-          options: { a: "Engine air intakes", b: "IPS ducts", c: "Engine mounts" },
-          correct: 'b'
-        }, */
-        
+
         {
           id: 375,
           category: "ATA 71",
@@ -2845,14 +2570,6 @@ const questionBank = [
         },
         
         {
-          id: 383,
-          category: "ATA 71",
-          question: "Which components are part of the CT7-8A FADEC control system?",
-          options: { a: "Fuel Metering Unit and AISBV", b: "EECU and FMU", c: "Compressor and Oil Lubrication System" },
-          correct: 'b'
-        },
-        
-        {
           id: 384,
           category: "ATA 71",
           question: "How are the electrical harnesses color-coded in the GE CT7-8A engine?",
@@ -2902,7 +2619,7 @@ const questionBank = [
         
     
 
-        
+
     // Add more questions as needed
   ];
   
