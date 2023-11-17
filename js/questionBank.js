@@ -1,6 +1,5 @@
 const questionBank = [
-  {
-    
+{  
 id: 1,
 category: 'ATA 18',
 question: 'Which type of balancing ensures that components are balanced around their center of gravity when not moving?',
