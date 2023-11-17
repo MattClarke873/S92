@@ -2295,7 +2295,7 @@ correct: 'b',
 {
   id: 339,
   category: "ATA 70",
-  question: "When are EPAC data failures indicated?",
+  question: "How are EPAC data failures indicated?",
   options: { a: "In a yellow warning annunciation", b: "In a red warning annunciation", c: "As pop-up alerts" },
   correct: "b"
 },
@@ -2618,42 +2618,30 @@ correct: 'b',
   correct: 'b'
 },
 
-/* 
-Chap EPAC 71
 
-where are the calculations made?? DCU
+{
+  id: 389,
+  category: "ATA 70",
+  question: "Where are EPAC's calculated?",
+  options: { a: "EECU", b: "Data Concentrator Unit", c: "FADEC" },
+  correct: 'b'
+},
 
-how do we access the epac pages? Utility pages >> EPAC
+{
+  id: 389,
+  category: "ATA 70",
+  question: "Where can the EPAC pages be displayed?",
+  options: { a: "RTU 1", b: "MFD Utility Page", c: "FADEC Display" },
+  correct: 'b'
+},
+{
+  id: 389,
+  category: "ATA 70",
+  question: "Where can the EPAC pages be displayed?",
+  options: { a: "RTU 1", b: "MFD Utility Page", c: "FADEC Display" },
+  correct: 'b'
+},
 
-where does the EPAC results from the No1 engine come? DCU 1
-
-What material is contains within the standard practice?  common for All GE engines 
-
-Where do we introduce compwash fluid? single input point to connect to the compress.
-
-the crotch is part of? the intake assy (mounted to front support tube)
-
-combustion chamber drain is combained with? NOTHING
-
-we add to accel to the engine? bracket on the left hand (near P0) and engine mount rear right.
-
-fire wall? titanium
-
-How is the engine supported? 4 links to 3 struts and support tube at the front.
-
-
-
-
-
-
-
-
-
-
-
-
-
-test */
 
 {
   id: 390,
