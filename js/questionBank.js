@@ -1434,10 +1434,7 @@ const questionBank = [
           correct: "b"
         },
 
-/* 
-        -----------------------------
-        -----------------------------
-        -----------------------------  keep checking */
+
         {
           id: 200,
           category: "ATA 49",
@@ -1449,14 +1446,7 @@ const questionBank = [
           id: 201,
           category: "ATA 49",
           question: "Which caution will be displayed if an automatic shutdown occurs in flight?",
-          options: { a: "APU ACCUM LOW", b: "APU FAIL", c: "APU ON" },
-          correct: "b"
-        },
-        {
-          id: 201,
-          category: "ATA 49",
-          question: "Which caution will be displayed if an automatic shutdown occurs in flight?",
-          options: { "a": "APU ACCUM LOW", "b": "APU FAIL", "c": "APU ON" },
+          options: { a: "APU ACCUM LOW", b: "APU FAIL", c: "APU FAULT" },
           correct: "b"
         },
         {
@@ -1477,7 +1467,7 @@ const questionBank = [
           id: 204,
           category: "ATA 49",
           question: "What happens when the FIRE APU/ARM pushbutton is pushed?",
-          options: { "a": "Apu shuts down", "b": "ESU shuts down", "c": "Hydraulic pressure increases" },
+          options: { "a": "APU shuts down", "b": "ESU shuts down", "c": "Hydraulic pressure increases" },
           correct: "a"
         },
         {
@@ -1507,7 +1497,7 @@ const questionBank = [
         {
           id: 208,
           category: "ATA 34",
-          question: "Which bus is used to power the C/P AHRS PRI on AHRS 1?",
+          question: "Which bus is used to power the Co-Pilots AHRS PRI on AHRS 1?",
           options: { a: "DC Essential Bus", b: "No 1 DC Primary Bus", c: "No 2 DC Primary Bus" },
           correct: "b"
         },
@@ -1555,7 +1545,7 @@ const questionBank = [
         {
           id: 214,
           category: "ATA 34",
-          question: "Which displays show the Vertical Speed Indication (VSI) from AHRS 2?",
+          question: "Under normal conditions Which displays show the Vertical Speed Indication (VSI) from AHRS 2?",
           options: { a: "MFDs 1, 2, and 5", b: "MFDs 3 and 4", c: "PFD ARC and NAV Full" },
           correct: "b"
         },
@@ -1604,24 +1594,24 @@ const questionBank = [
           id: 220,
           category: "ATA 34",
           question: "What happens if the Emergency Battery Test displays 'EMER PWR and GOOD'?",
-          options: { a: "The emergency battery is discharged", b: "Emergency power is available", c: "Emergency power is unavailable" },
+          options: { a: "The emergency battery is discharged", b: "Emergency power is available and >50%", c: "Emergency power is unavailable" },
           correct: "b"
         },
-        
+
         {
           id: 221,
           category: "ATA 34",
-          question: "How is the Standby AI power switched on?",
+          question: "How is the Standby Attitude Indicator power switched on?",
           options: { a: "OFF/ARM push button", b: "Emergency Battery Test", c: "Cage knob" },
           correct: "a"
         },
-        
+
         {
           id: 222,
           category: "ATA 34",
-          question: "What is the purpose of the Honeywell P660 WXR?",
-          options: { a: "Detect storms within 60° of the helicopter’s flight path", b: "Provide weather information", c: "Enhance ground mapping" },
-          correct: "c"
+          question: "What is the hazard area for a helicopter within a 270-degree forward sector of the nose?",
+          options: { a: "50 feet", b: "100 feet", c: "200 feet" },
+          correct: "b"
         },
         
         {
@@ -1669,7 +1659,11 @@ const questionBank = [
           question: "How is the built-in-test (BIT) functionality initiated in the flame detectors?",
           options: { a: "By pressing the FIRE/ARM pushbutton", b: "By applying a 28 VDC signal to the test input", c: "Automatically during each flight" },
           correct: "b",
-        },
+        },        
+        
+        /*         -------------------------
+        -------------------------
+        -------------------------- */
         
         {
           id: 229,
@@ -2298,11 +2292,614 @@ const questionBank = [
           question: "When does the Mode 3 in EGPWS provide alerts?",
           options: { a: "During normal approach", b: "During take-off", c: "During cruise" },
           correct: "b"
+        },
+        {
+          id: 311,
+          category: 'ATA 34',
+          question: 'What is the primary source of navigation for the FMS?',
+          options: { a: 'DME', b: 'VOR', c: 'GPS' },
+          correct: 'c',
+        },
+        {
+          id: 312,
+          category: 'ATA 34',
+          question: 'Which component provides real-time and predictive RAIM for the FMS?',
+          options: { a: 'Control Display Unit', b: 'Data Transfer Unit', c: 'Configuration Module' },
+          correct: 'b',
+        },
+        {
+          id: 313,
+          category: 'ATA 34',
+          question: 'Where are the GPS antennas mounted on the helicopter?',
+          options: { a: 'On the wings', b: 'On the nose', c: 'Mid-way along the tail section' },
+          correct: 'c',
+        },
+        {
+          id: 314,
+          category: 'ATA 34',
+          question: 'What is the purpose of the Configuration Module?',
+          options: { a: 'Fuel management', b: 'Navigation data transfer', c: 'Aircraft-specific configuration parameters' },
+          correct: 'c',
+        },
+        {
+          id: 315,
+          category: 'ATA 34',
+          question: 'How is flight plan information transferred to the FMS?',
+          options: { a: 'Wireless connection', b: 'Memory card connection', c: 'USB connection' },
+          correct: 'b',
+        },
+        {
+          id: 316,
+          category: 'ATA 34',
+          question: 'What is the function of the Control Display Unit keys?',
+          options: { a: 'Adjust screen brightness', b: 'Position the cursor', c: 'Enter data' },
+          correct: 'b',
+        },
+        {
+          id: 317,
+          category: 'ATA 34',
+          question: 'Which database is responsible for providing IFR Approach information?',
+          options: { a: 'Company Database', b: 'Navigation Database', c: 'Pilot Data Storage' },
+          correct: 'b',
+        },
+        {
+          id: 318,
+          category: 'ATA 34',
+          question: 'What is the purpose of the Wide Area Augmentation System (WAAS)?',
+          options: { a: 'Fuel management', b: 'Improved GPS accuracy', c: 'Memory card transfer' },
+          correct: 'b',
+        },
+        {
+          id: 319,
+          category: 'ATA 34',
+          question: 'What does RAIM stand for?',
+          options: { a: 'Receiver Autonomous Integrity Monitoring', b: 'Radio and Instrument Monitoring', c: 'Range Adjustment and Inclusion Monitoring' },
+          correct: 'a',
+        },
+        {
+          id: 320,
+          category: 'ATA 34',
+          question: 'How many satellites are required for the GPS to determine position and enter NAV mode?',
+          options: { a: 'Three', b: 'Four', c: 'Five' },
+          correct: 'c',
+        },
+        {
+          id: 321,
+          category: 'ATA 34',
+          question: 'What does the Best Computed Position (BCP) represent?',
+          options: { a: 'The most accurate GPS satellite', b: 'The predicted flight path', c: 'The calculated aircraft position' },
+          correct: 'c',
+        },
+        {
+          id: 322,
+          category: 'ATA 34',
+          question: 'What is the purpose of the Circle of Position?',
+          options: { a: 'GPS satellite alignment', b: 'Navigation sensor accuracy', c: 'Weather monitoring' },
+          correct: 'b',
+        },
+        {
+          id: 323,
+          category: 'ATA 34',
+          question: 'What does ANP stand for in Actual Navigation Performance?',
+          options: { a: 'Altimeter Navigation Precision', b: 'Actual Navigation Position', c: 'Actual Navigation Performance' },
+          correct: 'c',
+        },
+        {
+          id: 324,
+          category: 'ATA 34',
+          question: 'What is the purpose of the Power On Self-Test (POST)?',
+          options: { a: 'Check weather conditions', b: 'Check FMS hardware and software components', c: 'Initiate navigation' },
+          correct: 'b',
+        },
+        {
+          id: 325,
+          category: 'ATA 34',
+          question: 'What does the SYNC IN PROGRESS message indicate?',
+          options: { a: 'Fault in the synchronization process', b: 'Successful synchronization between dual FMS', c: 'Data transfer failure' },
+          correct: 'b',
+        },
+        {
+          id: 326,
+          category: 'ATA 34',
+          question: 'How can a temporary waypoint be set using the Slew Controllers?',
+          options: { a: 'Pressing ENTER key', b: 'Pressing any of the 3 red HOOK buttons', c: 'Pressing the ON/OFF DIM key' },
+          correct: 'b',
+        },
+        {
+          id: 327,
+          category: 'ATA 34',
+          question: 'What is the purpose of the Maintenance Pages?',
+          options: { a: 'Fuel system diagnostics', b: 'Weather monitoring', c: 'FMS testing and diagnostics' },
+          correct: 'c',
+        },
+        {
+          id: 328,
+          category: 'ATA 34',
+          question: 'What type of tests are included in the Dynamic Tests on Maintenance Pages?',
+          options: { a: 'Navigation tests', b: 'Fuel system tests', c: 'Dynamic Approach Tests' },
+          correct: 'c',
+        },
+        {
+          id: 329,
+          category: 'ATA 34',
+          question: 'What is the purpose of the FLAG VERT indication during Dynamic Approach Tests?',
+          options: { a: 'Vertical deviation correction', b: 'Horizontal deviation correction', c: 'Fault indication' },
+          correct: 'a',
+        },
+        {
+          id: 330,
+          category: 'ATA 34',
+          question: 'How is a temporary waypoint identified on the FMS?',
+          options: { a: 'Designator R01, R02, etc.', b: 'Latitude/Longitude display', c: 'Weather display' },
+          correct: 'a',
+        },
+
+/* 
+        --------------
+        --------------
+        --------------
+        -------------- */
+        {
+          id: 331,
+          category: "ATA 70",
+          question: "What does the EPAC page provide the means to perform?",
+          options: { a: "Weight on wheel checks", b: "Power assurance checks", c: "Flight data calculations" },
+          correct: "b"
+        },
+        
+        {
+          id: 332,
+          category: "ATA 70",
+          question: "How often is the Engine Power Assurance Check required?",
+          options: { a: "Once a week", b: "Once a month", c: "At least once a day" },
+          correct: "c"
+        },
+        
+        {
+          id: 333,
+          category: "ATA 70",
+          question: "Which system is needed to execute power assurance checks performed by the DCUs?",
+          options: { a: "FADEC", b: "AMM", c: "EPAC" },
+          correct: "a"
+        },
+        
+        {
+          id: 334,
+          category: "ATA 70",
+          question: "Where are the EPAC values displayed for engine 1?",
+          options: { a: "Co-pilots MFDs", b: "Pilots MFDs", c: "All MFDs" },
+          correct: "a"
+        },
+        
+        {
+          id: 335,
+          category: "ATA 70",
+          question: "When does the target airspeed readout display '120'?",
+          options: { a: "On ground", b: "In the air", c: "During a power failure" },
+          correct: "b"
+        },
+        
+        {
+          id: 336,
+          category: "ATA 70",
+          question: "What does the XFILL command do?",
+          options: { a: "Initiates engine test", b: "Performs a cross fill of stored data", c: "Resets engine parameters" },
+          correct: "b"
+        },
+        
+/*         {
+          id: 337,
+          category: "ATA 70",
+          question: "What is the purpose of the RESET ENG1 or RESET ENG2 command?",
+          options: { a: "Initiates a test reset", b: "Resets engine parameters", c: "Performs a cross fill of stored data" },
+          correct: "b"
+        }, */
+        
+/*         {
+          id: 338,
+          category: "ATA 70",
+          question: "How are FADEC error messages displayed?",
+          options: { a: "In a message box below the test results block", b: "On the MFD", c: "As pop-up alerts" },
+          correct: "a"
+        }, */
+        
+        {
+          id: 339,
+          category: "ATA 70",
+          question: "When are EPAC data failures indicated?",
+          options: { a: "In a yellow warning annunciation", b: "In a red warning annunciation", c: "As pop-up alerts" },
+          correct: "b"
+        },
+        
+/*         {
+          id: 340,
+          category: "ATA 70",
+          question: "What is the first step in the Power Assurance Procedure for Ground Power Assurance?",
+          options: { a: "Select UTIL > EPAC", b: "Throttle — IDLE", c: "Heading — Nose into wind" },
+          correct: "b"
+        }, */
+        
+/*         {
+          id: 341,
+          category: "ATA 70",
+          question: "What is the requirement for the single point power margin value to assure published performance?",
+          options: { a: "Must be within 5° of the average margin", b: "Must be below the average margin", c: "Must vary by more than 12°" },
+          correct: "a"
+        }, */
+        
+        {
+          id: 342,
+          category: "ATA 70",
+          question: "What does the STATUS line on the power assurance display indicate?",
+          options: { a: "Current aircraft conditions", b: "Results of the EPAC check", c: "The state of the EPAC process" },
+          correct: "c"
+        },
+        
+        {
+          id: 343,
+          category: "ATA 70",
+          question: "What does the first box on the power assurance display show?",
+          options: { a: "Error messages", b: "Current aircraft conditions for each engine", c: "TGT margin values" },
+          correct: "b"
+        },
+        
+        {
+          id: 344,
+          category: "ATA 70",
+          question: "How many air and ground checks are stored in the EPAC data?",
+          options: { a: "5", b: "10", c: "15" },
+          correct: "b"
+        },
+        
+/*         {
+/*           id: 345,
+          category: "ATA 70",
+          question: "What is the purpose of the ACCEPT/REJECT bezel key?",
+          options: { a: "Initiates a test reset", b: "Sets the test result reject bit", c: "Performs a cross fill of stored data" },
+          correct: "b"
+        }, */
+        
+/*         { 
+          id: 346,
+          category: "ATA 70",
+          question: "When are the conditions for assuring published performance NOT met?",
+          options: { a: "Power margin is +5° or higher", b: "Single point power margin varies by more than 12°", c: "Trended power margin is +5° or above" },
+          correct: "b"
+        }, */
+        
+        {
+          id: 347,
+          category: "ATA 70",
+          question: "What does the TAS WINDOW error message indicate?",
+          options: { a: "Unstable true airspeed", b: "Unstable torque", c: "Unstable attitude" },
+          correct: "a"
+        },
+        
+/*         {
+          id: 348,
+          category: "ATA 70",
+          question: "How are EPAC data failures indicated?",
+          options: { a: "In the STATUS line", b: "In the MESSAGES area", c: "As pop-up alerts" },
+          correct: "b"
+        }, */
+        
+        {
+          id: 349,
+          category: "ATA 70",
+          question: "When is the Cross Fill (XFILL) command available?",
+          options: { a: "In-flight only", b: "On the ground using APU or external power", c: "Both a and b" },
+          correct: "b"
+        },
+/*         
+        {
+          id: 350,
+          category: "ATA 70",
+          question: "What does the MESSAGES block indicate on the EPAC page?",
+          options: { a: "Power check results", b: "Error messages for each engine", c: "Current aircraft conditions" },
+          correct: "b"
+        },
+ */
+        
+
+        {
+          id: 350,
+          category: 'ATA 34',
+          question: 'If the heating element of the left hand pitot system fails what warning will be displayed?',
+          options: { a: 'ADC 1 Fail', b: 'Pitot heat 1', c: 'Pitot heat 3' },
+          correct: 'b',
+        },
+        {
+          id: 351,
+          category: 'ATA 34',
+          question: 'If the heating element of the standby pitot system fails what warning will be displayed?',
+          options: { a: 'Pitot heat 1', b: 'Standby heat fail', c: 'Pitot heat 3' },
+          correct: 'c',
+        },      
+          {
+          id: 352,
+          category: 'ATA 34',
+          question: 'ADF bearing arrow 1 is shown in what colour?',
+          options: { a: 'Blue', b: 'Green', c: 'White' },
+          correct: 'a',
+        },      
+          {
+          id: 353,
+          category: 'ATA 34',
+          question: 'ADF bearing arrow 2 is shown in what colour?',
+          options: { a: 'Blue', b: 'Green', c: 'White' },
+          correct: 'b',
+        },       
+         {
+          id: 354,
+          category: 'ATA 34',
+          question: 'Vertical and Lateral deviations of the ILS indication is display with ?',
+          options: { a: 'Magenta Diamond', b: 'Magenta Cross', c: 'White Cross' },
+          correct: 'a',
+        },       
+         {
+          id: 355,
+          category: 'ATA 34',
+          question: 'At what Frequency does the ILS system operate?',
+          options: { a: '100 - 107 MHz', b: '108 - 112 MHz', c: '112 - 117 MHz' },
+          correct: 'b',
+        },      
+          {
+          id: 356,
+          category: 'ATA 34',
+          question: 'VOR 1 beacon information is displayed in what colour?',
+          options: { a: 'Blue', b: 'Green', c: 'White' },
+          correct: 'a',
+        },       
+         {
+          id: 357,
+          category: 'ATA 34',
+          question: 'VOR 1 Beacon is displayed on the Co-pilots MFD with what selection?',
+          options: { a: 'NAV on DCP 1', b: 'NAV on DCP 2', c: 'VOR on DCP 1' },
+          correct: 'a',
+        },      
+          {
+          id: 358,
+          category: 'ATA 34',
+          question: 'Glideslope frequency is paired with ?',
+          options: { a: 'Comm 1', b: 'VOR', c: 'FMS' },
+          correct: 'b',
+        },       
+         {
+          id: 359,
+          category: 'ATA 34',
+          question: 'How is full functioning of the FMS displayed?',
+          options: { a: 'BIT pass displayed on MFD STATUS page', b: 'Blue Honeywell Copyright dissapears ', c: 'S92A and 6 sub systems PASSED statements' },
+          correct: 'c',
+        },       
+         {
+          id: 360,
+          category: 'ATA 34',
+          question: 'The slew cursor will display on Right Side MFD\'s?',
+          options: { a: 'When the pilot uses slew control thumb switch', b: 'When the Co-pilot uses slow control thumb switch', c: 'either pilot or co-pilot use slew control thumb switch' },
+          correct: 'a',
+        },        
+        {
+          id: 361,
+          category: 'ATA 34',
+          question: 'Test of the DME system are initated from?',
+          options: { a: 'RTU 1', b: 'RTU 2', c: 'DCP 1' },
+          correct: 'a',
+        },       
+         {
+          id: 362,
+          category: 'ATA 34',
+          question: 'Which pitot system feeds ADC 1?',
+          options: { a: 'RH Pitot', b: 'LH Pitot and standby Pitot', c: 'LH Pitot' },
+          correct: 'c',
+        },
+        {
+          id: 363,
+          category: 'ATA 34',
+          question: 'AHRS two will normally displays Vertical speed on PFD?',
+          options: { a: 'Co-Pilots MFDs', b: 'Pilots MFDs', c: 'All MFDS' },
+          correct: 'b',
+        },
+        {
+          id: 364,
+          category: 'ATA 34',
+          question: 'Where are the results of a compass swing stored? ',
+          options: { a: 'Removeable programable module attached to the AHRS', b: 'Programmed into the MFD', c: 'Within the MDC' },
+          correct: 'a',
+        },
+        {
+          id: 365,
+          category: 'ATA 34',
+          question: 'What are the minimum points required for a compass swing ? ',
+          options: { a: '4', b: '8', c: '12' },
+          correct: 'b',
+        },
+        {
+          id: 366,
+          category: 'ATA 34',
+          question: 'The TCAS system can be tested from?',
+          options: { a: 'RTU 1 ', b: 'TCAS control panel', c: 'The Avionics health page' },
+          correct: 'c',
+        },
+        {
+          id: 367,
+          category: 'ATA 34',
+          question: 'How can the EPWG databasae be updated',
+          options: { a: 'No update is required', b: 'Via a smart cable fitted the EPWG computer', c: 'System update Via MFD 3' },
+          correct: 'b',
+        },
+        {
+          id: 368,
+          category: 'Engine Manuals',
+          question: 'Which ATA will display engine electrics',
+          options: { a: '74', b: '24', c: '70' },
+          correct: 'a',
+        },
+        {
+          id: 369,
+          category: 'Engine Manuals',
+          question: 'Where can engine service life limits be found?',
+          options: { a: 'Aircraft Chapter 05', b: 'Engine Chapter 05', c: 'Engine Chapter 00' },
+          correct: 'b',
+        },
+        {
+          id: 370,
+          category: 'Engine Manuals',
+          question: 'When using the engine manual what indication will annotate matched components?',
+          options: { a: 'Three astric ***', b: 'Mathcing Part numbers', c: 'Matched Part, Order NHA' },
+          correct: 'c',
+        },
+        {
+          id: 371,
+          category: "ATA 71",
+          question: "What is the purpose of the Demountable Power Package (DPP) for the GE CT7-8A engine?",
+          options: { a: "Provide engine cooling", b: "Facilitate engine installation on the aircraft", c: "Enhance fuel efficiency" },
+          correct: 'b'
+        },
+        
+/*         {
+          id: 372,
+          category: "ATA 71",
+          question: "How is the forward support tube heated in the GE CT7-8A engine?",
+          options: { a: "By engine exhaust gases", b: "By electrical heating elements", c: "By AC power for anti-ice purposes" },
+          correct: 'c'
+        }, */
+        
+        {
+          id: 373,
+          category: "ATA 71",
+          question: "What provides rear engine lateral and vertical alignment in the GE CT7-8A engine?",
+          options: { a: "Expandable bolt", b: "Struts and links", c: "Air intakes" },
+          correct: 'b'
+        },
+        
+/*         {
+          id: 374,
+          category: "ATA 71",
+          question: "Where are the Teflon-lined spherical bearings used in the GE CT7-8A engine?",
+          options: { a: "Engine air intakes", b: "IPS ducts", c: "Engine mounts" },
+          correct: 'b'
+        }, */
+        
+        {
+          id: 375,
+          category: "ATA 71",
+          question: "What is the function of the Inlet Particle Separator (IPS) in the GE CT7-8A engine?",
+          options: { a: "Reduce engine vibrations", b: "Prevent FOD damage to the engine", c: "Cool the engine compartments" },
+          correct: 'b'
+        },
+        
+        {
+          id: 376,
+          category: "ATA 71",
+          question: "Where are the compressor bleed ports located on the GE CT7-8A engine?",
+          options: { a: "Near the front of the engine", b: "At the 03:00 and 09:00 positions", c: "At the exhaust bulkhead" },
+          correct: 'b'
+        },
+        
+        {
+          id: 377,
+          category: "ATA 71",
+          question: "What do the five combined drains in the CT7-8 engine feed into?",
+          options: { a: "Fuel tank", b: "Environmental drain tank", c: "Oil lubrication system" },
+          correct: 'b'
+        },
+        
+        {
+          id: 378,
+          category: "ATA 71",
+          question: "Where are the engine bay drains located in the GE CT7-8A engine?",
+          options: { a: "Inside the cabin", b: "Behind the vapour barriers", c: "On the upper deck" },
+          correct: 'b'
+        },
+        
+        {
+          id: 379,
+          category: "ATA 71",
+          question: "What provides rotation to the engine compressor and accessories during the start cycle?",
+          options: { a: "Pneumatic starter", b: "Electric starter", c: "Manual crankshaft" },
+          correct: 'a'
+        },
+        
+        {
+          id: 380,
+          category: "ATA 71",
+          question: "How are engine vibrations detected in the GE CT7-8A engine?",
+          options: { a: "By accelerometers", b: "By strain gauges", c: "By pressure sensors" },
+          correct: 'a'
+        },
+        
+        {
+          id: 381,
+          category: "ATA 71",
+          question: "What separates the engine enclosure from surrounding areas in the airframe of the GE CT7-8A engine?",
+          options: { a: "Expandable bolt", b: "Titanium firewalls", c: "Struts and links" },
+          correct: 'b'
+        },
+        
+        {
+          id: 382,
+          category: "ATA 71",
+          question: "What is the primary function of the Full Authority Digital Engine Control (FADEC) system in the GE CT7-8A engine?",
+          options: { a: "Provide lighting control", b: "Control engine operation automatically", c: "Monitor fuel levels" },
+          correct: 'b'
+        },
+        
+        {
+          id: 383,
+          category: "ATA 71",
+          question: "Which components are part of the CT7-8A FADEC control system?",
+          options: { a: "Fuel Metering Unit and AISBV", b: "EECU and FMU", c: "Compressor and Oil Lubrication System" },
+          correct: 'b'
+        },
+        
+        {
+          id: 384,
+          category: "ATA 71",
+          question: "How are the electrical harnesses color-coded in the GE CT7-8A engine?",
+          options: { a: "Red, blue, green", b: "Green, yellow, blue", c: "Red, yellow, green" },
+          correct: 'b'
+        },
+        
+        {
+          id: 385,
+          category: "ATA 71",
+          question: "What is the purpose of the engine cleaning configuration known as 'single point'?",
+          options: { a: "Increase fuel efficiency", b: "Reduce engine vibrations", c: "Introduce cleaning fluid to both engines from an external rig" },
+          correct: 'c'
+        },
+        
+        {
+          id: 386,
+          category: "ATA 71",
+          question: "When should the daily post-flight water rinse be performed for the GE CT7-8A engine?",
+          options: { a: "Every 50 hours", b: "After 150 hours of operation", c: "In addition to scheduled cleaning" },
+          correct: 'c'
+        },
+        
+        {
+          id: 387,
+          category: "ATA 71",
+          question: "What must be pulled out before commencing the daily water rinse procedure in the GE CT7-8A engine?",
+          options: { a: "Fuel Metering Unit", b: "RIPS CTRL circuit breakers", c: "FADEC components" },
+          correct: 'b'
+        },
+        
+        {
+          id: 388,
+          category: "ATA 71",
+          question: "What is the maximum lift capacity of the GE 2C9005001 sling for the CT7-8A engine?",
+          options: { a: "500 lbs", b: "800 lbs", c: "1000 lbs" },
+          correct: 'b'
+        },
+        
+        {
+          id: 389,
+          category: "ATA 71",
+          question: "Why must the engine oil be removed if the GE CT7-8A engine is turned to a vertical position?",
+          options: { a: "To prevent corrosion", b: "To prevent compressor rotor imbalance", c: "To reduce engine weight" },
+          correct: 'b'
         }
         
-        
-      
-     
     
     // Add more questions as needed
   ];
