@@ -2615,7 +2615,79 @@ const questionBank = [
           question: "Why must the engine oil be removed if the GE CT7-8A engine is turned to a vertical position?",
           options: { a: "To prevent corrosion", b: "To prevent compressor rotor imbalance", c: "To reduce engine weight" },
           correct: 'b'
-        }
+        },
+        
+{
+  id: 390,
+  category: "ATA 78",
+  question: "What component is responsible for stopping the swirling of exhaust gases and directing them into an exhaust tube?",
+  options: { a: "de-swirl duct", b: "centre tailpipe body", c: "exhaust tailpipe" },
+  correct: "a",
+},
+
+
+{
+  id: 391,
+  category: "ATA 78",
+  question: "What effect does the air gap between the de-swirl duct and the airframe exhaust tailpipe tube create?",
+  options: { a: "low-pressure venturi effect", b: "high-pressure venturi effect", c: "no effect" },
+  correct: "a",
+},
+
+
+{
+  id: 392,
+  category: "ATA 78",
+  question: "What purpose does the airflow through the engine compartment serve?",
+  options: { a: "increase engine temperature", b: "cool the compartment", c: "create turbulence" },
+  correct: "b",
+},
+
+
+{
+  id: 395,
+  category: "ATA 78",
+  question: "Is the hardware interchangeable between the No. 1 engine and the No. 2 engine configuration?",
+  options: { a: "yes", b: "no", c: "depends on torque" },
+  correct: "a",
+},
+
+
+{
+  id: 396,
+  category: "ATA 78",
+  question: "What precaution is mentioned regarding the drainage hole of the Centre Tailpipe Body?",
+  options: { a: "position it at 12 o'clock", b: "position it at 3 o'clock", c: "position it at 6 o'clock" },
+  correct: "c",
+},
+
+
+{
+  id: 397,
+  category: "ATA 78",
+  question: "Where should the De-swirl Duct 'V' Clamp joints be positioned to avoid interference with Fire Detectors?",
+  options: { a: "towards Fire Detectors", b: "away from Fire Detectors", c: "does not matter" },
+  correct: "b",
+},
+
+
+{
+  id: 398,
+  category: "ATA 78",
+  question: "What is the recommended procedure after fitting the hardware that requires a torque check?",
+  options: { a: "run engine for 5min", b: "run engine for 10min", c: "run engine for 15min" },
+  correct: "b",
+},
+
+
+{
+  id: 399,
+  category: "ATA 78",
+  question: "What caution is advised when working around an operating engine due to the temperature of the exhaust gases?",
+  options: { a: "use protective clothing", b: "no caution needed", c: "be cautious to avoid severe burns" },
+  correct: "c",
+}
+
         
     
 
