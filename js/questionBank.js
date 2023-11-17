@@ -1,5 +1,6 @@
 const questionBank = [
   {
+    
 id: 1,
 category: 'ATA 18',
 question: 'Which type of balancing ensures that components are balanced around their center of gravity when not moving?',
@@ -2617,6 +2618,43 @@ correct: 'b',
   correct: 'b'
 },
 
+/* 
+Chap EPAC 71
+
+where are the calculations made?? DCU
+
+how do we access the epac pages? Utility pages >> EPAC
+
+where does the EPAC results from the No1 engine come? DCU 1
+
+What material is contains within the standard practice?  common for All GE engines 
+
+Where do we introduce compwash fluid? single input point to connect to the compress.
+
+the crotch is part of? the intake assy (mounted to front support tube)
+
+combustion chamber drain is combained with? NOTHING
+
+we add to accel to the engine? bracket on the left hand (near P0) and engine mount rear right.
+
+fire wall? titanium
+
+How is the engine supported? 4 links to 3 struts and support tube at the front.
+
+
+
+
+
+
+
+
+
+
+
+
+
+test */
+
 {
   id: 390,
   category: "ATA 78",
@@ -2692,3 +2730,4 @@ correct: "c",
 
 // Add more questions as needed
 ];
+
