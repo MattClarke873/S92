@@ -208,15 +208,6 @@ const questionBank = [
     },
     correct: "a"
   },
-
-
-
-
-
-
-
-
-
   {
     id: 20,
     category: "ATA 26",
@@ -514,15 +505,6 @@ const questionBank = [
     },
     correct: "b"
   },
-
-
-
-
-
-
-
-
-
   {
     id: 47,
     category: "ATA 28",
@@ -1271,20 +1253,6 @@ const questionBank = [
     },
     correct: "a"
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   {
     id: 115,
     category: "ATA 34",
@@ -1972,9 +1940,9 @@ const questionBank = [
     category: "ATA 34",
     question: "What is the commanded slew rate for the first 3 seconds on the Slew Controller?",
     options: {
-      a: "4\u00B0 per second",
-      b: "2\u00B0 per second",
-      c: "8\u00B0 per second"
+      a: "4\u00b0 per second",
+      b: "2\u00b0 per second",
+      c: "8\u00b0 per second"
     },
     correct: "b"
   },
@@ -2132,19 +2100,8 @@ const questionBank = [
     },
     correct: "c"
   },
-/*   {
-    id: 192,
-    category: "ATA 34",
-    question: "What does the TCAS Processor receive inputs from to determine the bearings of the intruder aircraft?",
-    options: {
-      a: "EGPWS",
-      b: "DME",
-      c: "RADALT"
-    },
-    correct: "b"
-  }, */
   {
-    id: 193,
+    id: 192,
     category: "ATA 34",
     question: "Where is the TCAS Configuration Module located?",
     options: {
@@ -2155,7 +2112,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 194,
+    id: 193,
     category: "ATA 34",
     question: "How is the TCAS information displayed on MFDs?",
     options: {
@@ -2165,19 +2122,8 @@ const questionBank = [
     },
     correct: "b"
   },
-/*   {
-    id: 195,
-    category: "ATA 34",
-    question: "What triggers a Traffic Advisory (TA) in TCAS I?",
-    options: {
-      a: "Altitude difference above 2000 AGL",
-      b: "Horizontal distance below 2000 AGL",
-      c: "Time to Closest Point of Approach (CPA)"
-    },
-    correct: "c"
-  }, */
   {
-    id: 196,
+    id: 194,
     category: "ATA 34",
     question: "How is a THREAT indicated in TCAS I symbology?",
     options: {
@@ -2187,19 +2133,8 @@ const questionBank = [
     },
     correct: "c"
   },
-/*   {
-    id: 197,
-    category: "ATA 34",
-    question: "When does the TCAS II produce Resolution Alerts (RA) for vertical avoidance maneuvers?",
-    options: {
-      a: "In level flight",
-      b: "During a Traffic Advisory (TA)",
-      c: "When the threat is imminent"
-    },
-    correct: "c"
-  }, */
   {
-    id: 198,
+    id: 195,
     category: "ATA 34",
     question: "What happens following a Resolution Alert (RA) in TCAS II?",
     options: {
@@ -2210,7 +2145,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 199,
+    id: 196,
     category: "ATA 34",
     question: "When are Climb RAs inhibited in TCAS II?",
     options: {
@@ -2221,7 +2156,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 200,
+    id: 197,
     category: "ATA 34",
     question: "What is the primary purpose of the Honeywell Mk XXII EGPWS in the S92?",
     options: {
@@ -2232,7 +2167,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 201,
+    id: 198,
     category: "ATA 34",
     question: "Which altitude reference does the EGPWS use to calculate the height above the ground?",
     options: {
@@ -2243,7 +2178,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 202,
+    id: 199,
     category: "ATA 34",
     question: "What happens if GPS data is not available for the EGPWS Terrain system?",
     options: {
@@ -2254,7 +2189,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 203,
+    id: 200,
     category: "ATA 34",
     question: "Which sensor is NOT used by the EGPWS to determine the active mode?",
     options: {
@@ -2265,7 +2200,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 204,
+    id: 201,
     category: "ATA 34",
     question: "In the EGPWS mapping, what color is used to represent terrain 0 - 500 feet from the aircraft?",
     options: {
@@ -2276,7 +2211,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 205,
+    id: 202,
     category: "ATA 34",
     question: "Which mode in the EGPWS is used for alerts related to excessive terrain closure rate after take-off?",
     options: {
@@ -2287,7 +2222,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 206,
+    id: 203,
     category: "ATA 34",
     question: "What does the Look Ahead function in the EGPWS system compare?",
     options: {
@@ -2298,7 +2233,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 207,
+    id: 204,
     category: "ATA 34",
     question: "When does the EGPWS display TERRAIN in red on the PFD?",
     options: {
@@ -2309,7 +2244,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 208,
+    id: 205,
     category: "ATA 34",
     question: "In the EGPWS, what does the TOO LOW GEAR alert indicate?",
     options: {
@@ -2320,7 +2255,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 209,
+    id: 206,
     category: "ATA 34",
     question: "When does the Mode 3 in EGPWS provide alerts?",
     options: {
@@ -2331,7 +2266,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 210,
+    id: 207,
     category: "ATA 34",
     question: "What is the primary source of navigation for the FMS?",
     options: {
@@ -2341,19 +2276,8 @@ const questionBank = [
     },
     correct: "c"
   },
-/*   {
-    id: 211,
-    category: "ATA 34",
-    question: "Which component provides real-time and predictive RAIM for the FMS?",
-    options: {
-      a: "Control Display Unit",
-      b: "Data Transfer Unit",
-      c: "Configuration Module"
-    },
-    correct: "b"
-  }, */
   {
-    id: 212,
+    id: 208,
     category: "ATA 34",
     question: "Where are the GPS antennas mounted on the helicopter?",
     options: {
@@ -2364,7 +2288,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 213,
+    id: 209,
     category: "ATA 34",
     question: "What is the purpose of the Configuration Module?",
     options: {
@@ -2374,30 +2298,8 @@ const questionBank = [
     },
     correct: "c"
   },
-/*   {
-    id: 214,
-    category: "ATA 34",
-    question: "How is flight plan information transferred to the FMS?",
-    options: {
-      a: "Wireless connection",
-      b: "Memory card connection",
-      c: "USB connection"
-    },
-    correct: "b"
-  }, */
- /*  {
-    id: 215,
-    category: "ATA 34",
-    question: "What is the function of the Control Display Unit keys?",
-    options: {
-      a: "Transfer Flight plans",
-      b: "Position the cursor",
-      c: "Enter data"
-    },
-    correct: "b"
-  }, */
   {
-    id: 216,
+    id: 210,
     category: "ATA 34",
     question: "Which database is responsible for providing IFR Approach information?",
     options: {
@@ -2408,7 +2310,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 217,
+    id: 211,
     category: "ATA 34",
     question: "What is the purpose of the Wide Area Augmentation System (WAAS)?",
     options: {
@@ -2419,7 +2321,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 218,
+    id: 212,
     category: "ATA 34",
     question: "What does RAIM stand for?",
     options: {
@@ -2430,7 +2332,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 219,
+    id: 213,
     category: "ATA 34",
     question: "How many satellites are required for the GPS to determine position and enter NAV mode?",
     options: {
@@ -2441,7 +2343,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 220,
+    id: 214,
     category: "ATA 34",
     question: "What does the Best Computed Position (BCP) represent?",
     options: {
@@ -2452,7 +2354,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 221,
+    id: 215,
     category: "ATA 34",
     question: "What is the purpose of the Circle of Position?",
     options: {
@@ -2462,19 +2364,8 @@ const questionBank = [
     },
     correct: "b"
   },
-/*   {
-    id: 222,
-    category: "ATA 34",
-    question: "What does ANP stand for in Actual Navigation Performance?",
-    options: {
-      a: "Altimeter Navigation Precision",
-      b: "Actual Navigation Position",
-      c: "Actual Navigation Performance"
-    },
-    correct: "c"
-  }, */
   {
-    id: 223,
+    id: 216,
     category: "ATA 34",
     question: "What is the purpose of the Power On Self-Test (POST)?",
     options: {
@@ -2484,19 +2375,8 @@ const questionBank = [
     },
     correct: "b"
   },
-/*   {
-    id: 224,
-    category: "ATA 34",
-    question: "What does the SYNC IN PROGRESS message indicate?",
-    options: {
-      a: "Fault in the synchronization process",
-      b: "Successful synchronization between dual FMS",
-      c: "Data transfer failure"
-    },
-    correct: "b"
-  }, */
   {
-    id: 225,
+    id: 217,
     category: "ATA 34",
     question: "How can a temporary waypoint be set using the Slew Controllers?",
     options: {
@@ -2506,19 +2386,8 @@ const questionBank = [
     },
     correct: "b"
   },
-/*   {
-    id: 226,
-    category: "ATA 34",
-    question: "What is the purpose of the Maintenance Pages?",
-    options: {
-      a: "Fuel system diagnostics",
-      b: "Weather monitoring",
-      c: "FMS testing and diagnostics"
-    },
-    correct: "c"
-  }, */
   {
-    id: 227,
+    id: 218,
     category: "ATA 34",
     question: "What type of tests are included in the Dynamic Tests on Maintenance Pages?",
     options: {
@@ -2528,19 +2397,8 @@ const questionBank = [
     },
     correct: "c"
   },
-/*   {
-    id: 228,
-    category: "ATA 34",
-    question: "What is the purpose of the FLAG VERT indication during Dynamic Approach Tests?",
-    options: {
-      a: "Vertical deviation correction",
-      b: "Horizontal deviation correction",
-      c: "Fault indication"
-    },
-    correct: "a"
-  }, */
   {
-    id: 229,
+    id: 219,
     category: "ATA 34",
     question: "How is a temporary waypoint identified on the FMS?",
     options: {
@@ -2551,7 +2409,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 230,
+    id: 220,
     category: "ATA 34",
     question: "If the heating element of the left hand pitot system fails what notification will be displayed?",
     options: {
@@ -2562,7 +2420,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 231,
+    id: 221,
     category: "ATA 34",
     question: "If the heating element of the standby pitot system fails what notification will be displayed?",
     options: {
@@ -2573,7 +2431,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 232,
+    id: 222,
     category: "ATA 34",
     question: "ADF bearing arrow 1 is shown in what colour?",
     options: {
@@ -2584,7 +2442,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 233,
+    id: 223,
     category: "ATA 34",
     question: "ADF bearing arrow 2 is shown in what colour?",
     options: {
@@ -2595,7 +2453,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 234,
+    id: 224,
     category: "ATA 34",
     question: "Vertical and Lateral deviations of the ILS indication is display with?",
     options: {
@@ -2606,7 +2464,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 235,
+    id: 225,
     category: "ATA 34",
     question: "At what Frequency does the ILS system operate?",
     options: {
@@ -2617,7 +2475,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 236,
+    id: 226,
     category: "ATA 34",
     question: "VOR 1 beacon information is displayed in what colour?",
     options: {
@@ -2628,7 +2486,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 237,
+    id: 227,
     category: "ATA 34",
     question: "VOR 1 Beacon is displayed on the Co-pilots MFD with what selection?",
     options: {
@@ -2639,7 +2497,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 238,
+    id: 228,
     category: "ATA 34",
     question: "Glideslope frequency is paired with?",
     options: {
@@ -2650,7 +2508,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 239,
+    id: 229,
     category: "ATA 34",
     question: "How is full functioning of the FMS displayed?",
     options: {
@@ -2661,7 +2519,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 240,
+    id: 230,
     category: "ATA 34",
     question: "The slew cursor will display on Right Side MFD's?",
     options: {
@@ -2672,7 +2530,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 241,
+    id: 231,
     category: "ATA 34",
     question: "Test of the DME system are initated from?",
     options: {
@@ -2683,7 +2541,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 242,
+    id: 232,
     category: "ATA 34",
     question: "Which pitot system feeds ADC 1?",
     options: {
@@ -2694,7 +2552,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 243,
+    id: 233,
     category: "ATA 34",
     question: "AHRS two will normally displays Vertical speed on which MFDs?",
     options: {
@@ -2705,7 +2563,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 244,
+    id: 234,
     category: "ATA 34",
     question: "Where are the results of a compass swing stored? ",
     options: {
@@ -2716,7 +2574,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 245,
+    id: 235,
     category: "ATA 34",
     question: "What are the minimum points required for a compass swing ? ",
     options: {
@@ -2727,7 +2585,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 246,
+    id: 236,
     category: "ATA 34",
     question: "The TCAS system can be tested from?",
     options: {
@@ -2738,7 +2596,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 247,
+    id: 237,
     category: "ATA 34",
     question: "How can the EPWG databasae be updated",
     options: {
@@ -2748,13 +2606,8 @@ const questionBank = [
     },
     correct: "b"
   },
-
-
-
-
-
   {
-    id: 248,
+    id: 238,
     category: "ATA 49",
     question: "What is the primary function of the Honeywell Model 150 APU?",
     options: {
@@ -2765,7 +2618,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 249,
+    id: 239,
     category: "ATA 49",
     question: "Where does the APU draw air for combustion?",
     options: {
@@ -2776,7 +2629,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 250,
+    id: 240,
     category: "ATA 49",
     question: "What component provides backup AC power to the aircraft electrical system?",
     options: {
@@ -2787,7 +2640,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 251,
+    id: 241,
     category: "ATA 49",
     question: "How is the APU oil system lubrication achieved?",
     options: {
@@ -2798,7 +2651,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 252,
+    id: 242,
     category: "ATA 49",
     question: "What is the function of the hydraulic accumulator in the APU?",
     options: {
@@ -2809,7 +2662,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 253,
+    id: 243,
     category: "ATA 49",
     question: "Where is the APU air inlet located?",
     options: {
@@ -2820,7 +2673,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 254,
+    id: 244,
     category: "ATA 49",
     question: "What is the purpose of the Heat Shield in the APU?",
     options: {
@@ -2831,7 +2684,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 255,
+    id: 245,
     category: "ATA 49",
     question: "What happens if the oil pressure is too low in the APU on the ground?",
     options: {
@@ -2842,7 +2695,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 256,
+    id: 246,
     category: "ATA 49",
     question: "Where is the APU AC Generator mounted?",
     options: {
@@ -2853,7 +2706,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 257,
+    id: 247,
     category: "ATA 49",
     question: "What provides lubrication for all gears, shafts, and bearings in the APU?",
     options: {
@@ -2864,7 +2717,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 258,
+    id: 248,
     category: "ATA 49",
     question: "What does the APU Air Inlet protect against?",
     options: {
@@ -2875,7 +2728,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 259,
+    id: 249,
     category: "ATA 49",
     question: "What is the purpose of the accessory drive section in the APU?",
     options: {
@@ -2886,7 +2739,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 260,
+    id: 250,
     category: "ATA 49",
     question: "Where is the oil filter element located in the APU?",
     options: {
@@ -2897,7 +2750,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 261,
+    id: 251,
     category: "ATA 49",
     question: "What is the function of the differential pressure regulator in the APU Fuel Control Unit?",
     options: {
@@ -2908,7 +2761,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 262,
+    id: 252,
     category: "ATA 49",
     question: "How is the APU air inlet protected from FOD?",
     options: {
@@ -2919,7 +2772,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 263,
+    id: 253,
     category: "ATA 49",
     question: "What does the magnetic drain plug in the APU do?",
     options: {
@@ -2930,7 +2783,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 264,
+    id: 254,
     category: "ATA 49",
     question: "From where is engine bleed air extracted from the APU?",
     options: {
@@ -2941,7 +2794,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 265,
+    id: 255,
     category: "ATA 49",
     question: "What diverts bleed air when it is not required by the APU?",
     options: {
@@ -2952,7 +2805,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 266,
+    id: 256,
     category: "ATA 49",
     question: "Which system provides hydraulic pressure for normal accumulator recharging?",
     options: {
@@ -2963,7 +2816,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 267,
+    id: 257,
     category: "ATA 49",
     question: "What is the purpose of the accumulator in the APU system?",
     options: {
@@ -2974,7 +2827,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 268,
+    id: 258,
     category: "ATA 49",
     question: "Where is the accumulator pressure gauge mounted?",
     options: {
@@ -2985,7 +2838,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 269,
+    id: 259,
     category: "ATA 49",
     question: "What does the APU start valve control?",
     options: {
@@ -2996,7 +2849,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 270,
+    id: 260,
     category: "ATA 49",
     question: "What are the APU ignition components?",
     options: {
@@ -3007,7 +2860,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 271,
+    id: 261,
     category: "ATA 49",
     question: "At what Ng percentage does the APU start valve close?",
     options: {
@@ -3018,7 +2871,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 272,
+    id: 262,
     category: "ATA 49",
     question: "What does the APU control system manage?",
     options: {
@@ -3029,7 +2882,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 273,
+    id: 263,
     category: "ATA 49",
     question: "Where is the ESU located?",
     options: {
@@ -3040,7 +2893,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 274,
+    id: 264,
     category: "ATA 49",
     question: "What completes a power-on self-test when power is applied?",
     options: {
@@ -3051,7 +2904,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 275,
+    id: 265,
     category: "ATA 49",
     question: "Where is the motional speed sensor located?",
     options: {
@@ -3062,7 +2915,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 276,
+    id: 266,
     category: "ATA 49",
     question: "How is the APU shut down in case of a high oil temperature while in flight?",
     options: {
@@ -3073,7 +2926,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 277,
+    id: 267,
     category: "ATA 49",
     question: "What is recorded by the hour meter assembly?",
     options: {
@@ -3084,7 +2937,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 278,
+    id: 268,
     category: "ATA 49",
     question: "What occurs when the FIRE APU/ARM pushbutton is pushed?",
     options: {
@@ -3095,7 +2948,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 279,
+    id: 269,
     category: "ATA 49",
     question: "Which caution will be displayed if an automatic shutdown occurs in flight?",
     options: {
@@ -3106,7 +2959,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 280,
+    id: 270,
     category: "ATA 49",
     question: "Where can additional APU system feedback be displayed?",
     options: {
@@ -3117,7 +2970,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 281,
+    id: 271,
     category: "ATA 49",
     question: "What does the FIRE APU/ARM warning light/pushbutton provide a visual warning of?",
     options: {
@@ -3128,7 +2981,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 282,
+    id: 272,
     category: "ATA 49",
     question: "What happens when the FIRE APU/ARM pushbutton is pushed?",
     options: {
@@ -3139,7 +2992,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 283,
+    id: 273,
     category: "ATA 49",
     question: "What component controls the APU?",
     options: {
@@ -3150,7 +3003,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 284,
+    id: 274,
     category: "ATA 49",
     question: "Where is the Electronic sequencing unit?",
     options: {
@@ -3161,7 +3014,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 285,
+    id: 275,
     category: "ATA 49",
     question: "How many fuel nozzles are there?",
     options: {
@@ -3172,7 +3025,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 286,
+    id: 276,
     category: "ATA 49",
     question: "How is the APU starter Power?",
     options: {
@@ -3183,7 +3036,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 287,
+    id: 277,
     category: "ATA 49",
     question: "During normal operation how is the APU accumulator charged on the ground with rotors stationary?",
     options: {
@@ -3194,18 +3047,18 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 288,
+    id: 278,
     category: "ATA 49",
     question: "During normal operation how is the APU accumulator charged in flight?",
     options: {
-      a: "N\u00B03 Mechanical Hydraulic pump",
+      a: "N\u00b03 Mechanical Hydraulic pump",
       b: "Hand Pump",
       c: "Secondary accumulator"
     },
     correct: "a"
   },
   {
-    id: 289,
+    id: 279,
     category: "ATA 49",
     question: "How can we ensure complete discharge of the APU accumulator?",
     options: {
@@ -3216,7 +3069,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 290,
+    id: 280,
     category: "ATA 49",
     question: "Where is the APU start valve located?",
     options: {
@@ -3227,7 +3080,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 291,
+    id: 281,
     category: "ATA 49",
     question: "What is the fully charge pressure of the APU accumulator?",
     options: {
@@ -3238,7 +3091,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 292,
+    id: 282,
     category: "ATA 49",
     question: "What is the nitrogen base charge of the APU accumulator?",
     options: {
@@ -3249,7 +3102,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 293,
+    id: 283,
     category: "ATA 49",
     question: "At what pressure will the APU accumulator charge be initiated?",
     options: {
@@ -3260,7 +3113,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 294,
+    id: 284,
     category: "ATA 49",
     question: "What fault categories are associated with the APU?",
     options: {
@@ -3271,7 +3124,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 295,
+    id: 285,
     category: "ATA 49",
     question: "How many temperature probes are fitted in the APU exhaust?",
     options: {
@@ -3282,7 +3135,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 296,
+    id: 286,
     category: "ATA 49",
     question: "How many ignitors are fitted to the APU?",
     options: {
@@ -3293,7 +3146,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 297,
+    id: 287,
     category: "ATA 49",
     question: "What services are provided to the aircraft by the APU?",
     options: {
@@ -3304,7 +3157,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 298,
+    id: 288,
     category: "ATA 49",
     question: "How is the APU mounted to the airframe?",
     options: {
@@ -3315,7 +3168,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 299,
+    id: 289,
     category: "ATA 49",
     question: "Where does the APU get its fuel supply?",
     options: {
@@ -3326,7 +3179,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 300,
+    id: 290,
     category: "ATA 49",
     question: "How is the APU oil level checked?",
     options: {
@@ -3336,16 +3189,8 @@ const questionBank = [
     },
     correct: "c"
   },
-
-
-
-
-
-
-
-
   {
-    id: 301,
+    id: 291,
     category: "ATA 70",
     question: "What does the EPAC page provide the means to perform?",
     options: {
@@ -3356,7 +3201,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 302,
+    id: 292,
     category: "ATA 70",
     question: "How often is the Engine Power Assurance Check required?",
     options: {
@@ -3367,7 +3212,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 303,
+    id: 293,
     category: "ATA 70",
     question: "Which system is needed to execute power assurance checks performed by the DCUs?",
     options: {
@@ -3378,7 +3223,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 304,
+    id: 294,
     category: "ATA 70",
     question: "Where are the EPAC values displayed for engine 1?",
     options: {
@@ -3389,7 +3234,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 305,
+    id: 295,
     category: "ATA 70",
     question: "When does the target airspeed readout display '120'?",
     options: {
@@ -3400,7 +3245,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 306,
+    id: 296,
     category: "ATA 70",
     question: "What does the XFILL command do?",
     options: {
@@ -3411,7 +3256,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 307,
+    id: 297,
     category: "ATA 70",
     question: "How are EPAC data failures indicated?",
     options: {
@@ -3422,7 +3267,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 308,
+    id: 298,
     category: "ATA 70",
     question: "What does the STATUS line on the power assurance display indicate?",
     options: {
@@ -3433,7 +3278,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 309,
+    id: 299,
     category: "ATA 70",
     question: "What does the first box on the power assurance display show?",
     options: {
@@ -3444,7 +3289,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 310,
+    id: 300,
     category: "ATA 70",
     question: "How many air and ground checks are stored in the EPAC data?",
     options: {
@@ -3455,7 +3300,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 311,
+    id: 301,
     category: "ATA 70",
     question: "What does the TAS WINDOW error message indicate?",
     options: {
@@ -3466,7 +3311,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 312,
+    id: 302,
     category: "ATA 70",
     question: "When is the Cross Fill (XFILL) command available?",
     options: {
@@ -3477,7 +3322,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 313,
+    id: 303,
     category: "ATA 70",
     question: "Where are EPAC's calculated?",
     options: {
@@ -3488,7 +3333,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 314,
+    id: 304,
     category: "ATA 70",
     question: "Where can the EPAC pages be displayed?",
     options: {
@@ -3498,8 +3343,8 @@ const questionBank = [
     },
     correct: "b"
   },
-   {
-    id: 315,
+  {
+    id: 305,
     category: "ATA 70",
     question: "Where can the EPAC pages be displayed?",
     options: {
@@ -3508,9 +3353,9 @@ const questionBank = [
       c: "FADEC Display"
     },
     correct: "b"
-  }, 
+  },
   {
-    id: 316,
+    id: 306,
     category: "ATA 71",
     question: "What is the purpose of the Demountable Power Package (DPP) for the GE CT7-8A engine?",
     options: {
@@ -3521,7 +3366,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 317,
+    id: 307,
     category: "ATA 71",
     question: "What provides rear engine lateral and vertical alignment in the GE CT7-8A engine?",
     options: {
@@ -3532,7 +3377,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 318,
+    id: 308,
     category: "ATA 71",
     question: "What is the function of the Inlet Particle Separator (IPS) in the GE CT7-8A engine?",
     options: {
@@ -3543,7 +3388,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 319,
+    id: 309,
     category: "ATA 71",
     question: "Where are the compressor bleed ports located on the GE CT7-8A engine?",
     options: {
@@ -3554,7 +3399,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 320,
+    id: 310,
     category: "ATA 71",
     question: "What do the five combined drains in the CT7-8 engine feed into?",
     options: {
@@ -3564,19 +3409,8 @@ const questionBank = [
     },
     correct: "b"
   },
-/*   {
-    id: 321,
-    category: "ATA 71",
-    question: "Where are the engine bay drains located in the GE CT7-8A engine?",
-    options: {
-      a: "Inside the cabin",
-      b: "Behind the vapour barriers",
-      c: "On the upper deck"
-    },
-    correct: "b"
-  }, */
   {
-    id: 322,
+    id: 311,
     category: "ATA 71",
     question: "What provides rotation to the engine compressor and accessories during the start cycle?",
     options: {
@@ -3587,7 +3421,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 323,
+    id: 312,
     category: "ATA 71",
     question: "How are engine vibrations detected in the GE CT7-8A engine?",
     options: {
@@ -3598,7 +3432,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 324,
+    id: 313,
     category: "ATA 71",
     question: "What separates the engine enclosure from surrounding areas in the airframe of the GE CT7-8A engine?",
     options: {
@@ -3609,7 +3443,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 325,
+    id: 314,
     category: "ATA 71",
     question: "What is the primary function of the Full Authority Digital Engine Control (FADEC) system in the GE CT7-8A engine?",
     options: {
@@ -3620,7 +3454,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 326,
+    id: 315,
     category: "ATA 71",
     question: "How are the electrical harnesses color-coded in the GE CT7-8A engine?",
     options: {
@@ -3631,7 +3465,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 327,
+    id: 316,
     category: "ATA 71",
     question: "What is the purpose of the engine cleaning configuration known as 'single point'?",
     options: {
@@ -3642,7 +3476,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 328,
+    id: 317,
     category: "ATA 71",
     question: "When should the daily post-flight water rinse be performed for the GE CT7-8A engine?",
     options: {
@@ -3653,7 +3487,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 329,
+    id: 318,
     category: "ATA 71",
     question: "What must be pulled out before commencing the daily water rinse procedure in the GE CT7-8A engine?",
     options: {
@@ -3664,7 +3498,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 330,
+    id: 319,
     category: "ATA 71",
     question: "What is the maximum lift capacity of the GE 2C9005001 sling for the CT7-8A engine?",
     options: {
@@ -3675,7 +3509,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 331,
+    id: 320,
     category: "ATA 71",
     question: "Why must the engine oil be removed if the GE CT7-8A engine is turned to a vertical position?",
     options: {
@@ -3686,7 +3520,51 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 332,
+    id: 321,
+    category: "ATA 71",
+    question: "Where is compressor wash fluid introduced to the aircraft",
+    options: {
+      a: "Via lance to engine intake",
+      b: "single input point to engine compressor",
+      c: "N\u00b01 via left hand attachment N\u00b02 via righnt hand attachment"
+    },
+    correct: "b"
+  },
+  {
+    id: 322,
+    category: "ATA 71",
+    question: "Where does the cumbustion chamber drain exit the aircraft",
+    options: {
+      a: "into the engine exhaust",
+      b: "Combined enviromental drain",
+      c: "seperate drain"
+    },
+    correct: "c"
+  },
+  {
+    id: 323,
+    category: "ATA 71",
+    question: "How are engine vibrations monitored",
+    options: {
+      a: "accelerometers front left and rear right of the engine",
+      b: "Engine Mounts",
+      c: "Expanding bolts"
+    },
+    correct: "a"
+  },
+  {
+    id: 324,
+    category: "ATA 71",
+    question: "How is the engine supported",
+    options: {
+      a: "linked to internal firewall",
+      b: "4 links to 3 struts and support tube at the front.",
+      c: "2 forward dog bones links and 2 rear dog bone links"
+    },
+    correct: "b"
+  },
+  {
+    id: 325,
     category: "ATA 78",
     question: "What component is responsible for stopping the swirling of exhaust gases and directing them into an exhaust tube?",
     options: {
@@ -3697,7 +3575,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 333,
+    id: 326,
     category: "ATA 78",
     question: "What effect does the air gap between the de-swirl duct and the airframe exhaust tailpipe tube create?",
     options: {
@@ -3708,7 +3586,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 334,
+    id: 327,
     category: "ATA 78",
     question: "What purpose does the airflow through the engine compartment serve?",
     options: {
@@ -3719,7 +3597,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 335,
+    id: 328,
     category: "ATA 78",
     question: "Is the hardware interchangeable between the No. 1 engine and the No. 2 engine configuration?",
     options: {
@@ -3730,7 +3608,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 336,
+    id: 329,
     category: "ATA 78",
     question: "What precaution is mentioned regarding the drainage hole of the Centre Tailpipe Body?",
     options: {
@@ -3741,7 +3619,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 337,
+    id: 330,
     category: "ATA 78",
     question: "Where should the De-swirl Duct 'V' Clamp joints be positioned to avoid interference with Fire Detectors?",
     options: {
@@ -3752,7 +3630,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 338,
+    id: 331,
     category: "ATA 78",
     question: "What is the recommended procedure after fitting the hardware that requires a torque check?",
     options: {
@@ -3763,7 +3641,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 339,
+    id: 332,
     category: "ATA 78",
     question: "What caution is advised when working around an operating engine due to the temperature of the exhaust gases?",
     options: {
@@ -3773,19 +3651,8 @@ const questionBank = [
     },
     correct: "c"
   },
-/*   {
-    id: 340,
-    category: "Engine Manuals",
-    question: "What is the purpose of GEK 112212 IETP?",
-    options: {
-      a: "Provide overhaul instructions",
-      b: "Cover service bulletins",
-      c: "Offer fault isolation procedures"
-    },
-    correct: "b"
-  }, */
   {
-    id: 341,
+    id: 333,
     category: "Engine Manuals",
     question: "How are Temporary Revisions (TR) identified within GEK 112212 IETP?",
     options: {
@@ -3796,7 +3663,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 342,
+    id: 334,
     category: "Engine Manuals",
     question: "What identifies Incremental Changes in the IETP?",
     options: {
@@ -3807,7 +3674,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 343,
+    id: 335,
     category: "Engine Manuals",
     question: "How are Service Bulletins grouped within the IETP?",
     options: {
@@ -3818,7 +3685,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 344,
+    id: 336,
     category: "Engine Manuals",
     question: "What color are Alert Service Bulletins within the IETP?",
     options: {
@@ -3829,7 +3696,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 345,
+    id: 337,
     category: "Engine Manuals",
     question: "What information is found in the Front Matter of GEK 112212 IETP?",
     options: {
@@ -3840,7 +3707,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 346,
+    id: 338,
     category: "Engine Manuals",
     question: "How is the Effectivity of Data organized in GEK 112212 IETP?",
     options: {
@@ -3851,7 +3718,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 347,
+    id: 339,
     category: "Engine Manuals",
     question: "What does 'For ALL CT7-8' label indicate in the Effectivity of Data section?",
     options: {
@@ -3862,7 +3729,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 348,
+    id: 340,
     category: "Engine Manuals",
     question: "What does the Engine Maintenance Program consist of?",
     options: {
@@ -3873,7 +3740,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 349,
+    id: 341,
     category: "Engine Manuals",
     question: "What does MM 05 cover in the CT7-8 Engine Maintenance Program?",
     options: {
@@ -3884,7 +3751,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 350,
+    id: 342,
     category: "Engine Manuals",
     question: "What is the additional full cycle count added for each OEI event?",
     options: {
@@ -3895,7 +3762,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 351,
+    id: 343,
     category: "Engine Manuals",
     question: "How are Service Intervals stipulated for GE CT7 engines?",
     options: {
@@ -3906,7 +3773,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 352,
+    id: 344,
     category: "Engine Manuals",
     question: "What is the obligation regarding Exposed Hardware Inspection Requirements?",
     options: {
@@ -3917,7 +3784,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 353,
+    id: 345,
     category: "Engine Manuals",
     question: "When is a part listed as NO NUMBER in the Detailed Parts List?",
     options: {
@@ -3928,7 +3795,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 354,
+    id: 346,
     category: "Engine Manuals",
     question: "What does a pointing hand on an illustration signify?",
     options: {
@@ -3939,7 +3806,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 355,
+    id: 347,
     category: "Engine Manuals",
     question: "What do the codes 8, 8A, 8A1, A5, A6, A7, B, B5, E, E5, F and F5 represent in Engine Model Coding?",
     options: {
@@ -3950,7 +3817,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 356,
+    id: 348,
     category: "Engine Manuals",
     question: "What does a Torque Motor Loop Fault indicate in the FADEC system?",
     options: {
@@ -3961,7 +3828,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 357,
+    id: 349,
     category: "Engine Manuals",
     question: "In which section of GEK 112212 IETP would you find procedures for Engine Overtemperature?",
     options: {
@@ -3972,7 +3839,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 358,
+    id: 350,
     category: "Engine Manuals",
     question: "What is the purpose of the Illustrated Parts Catalogue GEK105158?",
     options: {
@@ -3983,7 +3850,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 359,
+    id: 351,
     category: "Engine Manuals",
     question: "How is the Numerical Index divided in the Illustrated Parts Catalogue?",
     options: {
@@ -3994,7 +3861,7 @@ const questionBank = [
     correct: "c"
   },
   {
-    id: 360,
+    id: 352,
     category: "Engine Manuals",
     question: "What does the code SPAD indicate in the Nomenclature column?",
     options: {
@@ -4005,7 +3872,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 361,
+    id: 353,
     category: "Engine Manuals",
     question: "Which ATA will display engine electrics",
     options: {
@@ -4016,7 +3883,7 @@ const questionBank = [
     correct: "a"
   },
   {
-    id: 362,
+    id: 354,
     category: "Engine Manuals",
     question: "Where can engine service life limits be found?",
     options: {
@@ -4027,7 +3894,7 @@ const questionBank = [
     correct: "b"
   },
   {
-    id: 363,
+    id: 355,
     category: "Engine Manuals",
     question: "When using the engine manual what indication will annotate matched components?",
     options: {
@@ -4036,5 +3903,16 @@ const questionBank = [
       c: "Matched Part, Order NHA"
     },
     correct: "c"
+  },
+  {
+    id: 356,
+    category: "Engine Manuals",
+    question: "What material is contains within the standard practice?",
+    options: {
+      a: "Details specific to CT7-8A only",
+      b: "All Engine types",
+      c: "CT7-8B / -8B5"
+    },
+    correct: "b"
   }
 ];
