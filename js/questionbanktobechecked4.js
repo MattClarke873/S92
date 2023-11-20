@@ -734,7 +734,382 @@ const questionBank4 = [
     question: 'What must be confirmed before continuing with the life-raft deployment test?',
     options: { a: 'Illumination of ARM lights and RAFT ARM caution on EICAS', b: 'Rotation of the sunvisor', c: 'Presence of passengers in the cabin' },
     correct: 'a',
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    id: 481,
+    category: 'ATA 33',
+    question: 'What is the purpose of the Standby Battery?',
+    options: { a: 'To power the cockpit lights', b: 'To provide power to the Standby Instruments facia', c: 'To control the lighting in the baggage compartment' },
+    correct: 'b',
+  },
+  {
+    id: 482,
+    category: 'ATA 33',
+    question: 'Where is the cockpit lights control panel located?',
+    options: { a: 'Above the pilot\'s head', b: 'Below the overhead circuit breaker panel', c: 'Behind the co-pilot\'s seat' },
+    correct: 'b',
+  },
+  {
+    id: 483,
+    category: 'ATA 33',
+    question: 'How many Dimmer Units are there in the aircraft?',
+    options: { a: 'Three', b: 'Five', c: 'Seven' },
+    correct: 'c',
+  },
+  {
+    id: 484,
+    category: 'ATA 33',
+    question: 'What is the purpose of the Balance Boxes in the cockpit?',
+    options: { a: 'To adjust the pilot\'s balance', b: 'To automatically set the levels of illumination in different areas', c: 'To control the power output of the Dimmer Units' },
+    correct: 'b',
+  },
+  {
+    id: 485,
+    category: 'ATA 33',
+    question: 'What happens when the rotary control on the Dimmer is fully anti-clockwise?',
+    options: { a: 'The lights are at full brightness', b: 'The lights are off', c: 'The voltage is reduced from 28v to 5v' },
+    correct: 'b',
+  },
+  {
+    id: 486,
+    category: 'ATA 33',
+    question: 'Which lighting panels are powered directly from the Standby Battery in case of power loss from the #2 DC Primary Bus?',
+    options: { a: 'Instrument Panel', b: 'Lower Console', c: 'Backup Indicators' },
+    correct: 'c',
+  },
+  {
+    id: 487,
+    category: 'ATA 33',
+    question: 'What is the purpose of the Backup Indicators?',
+    options: { a: 'To provide lighting during landing', b: 'To illuminate the Standby instruments facia', c: 'To control the Flood Light' },
+    correct: 'b',
+  },
+  {
+    id: 488,
+    category: 'ATA 33',
+    question: 'Which lighting panels are controlled by the rotary control in the Side Console?',
+    options: { a: 'Audio Controller 1', b: 'AHRS 1 Compass Control Unit', c: 'Audio Controller 2' },
+    correct: 'a',
+  },
+  {
+    id: 489,
+    category: 'ATA 33',
+    question: 'What is the power source for the Flood Light?',
+    options: { a: 'Battery Bus (28v)', b: '#1 DC Primary Bus', c: '#2 DC Primary Bus' },
+    correct: 'a',
+  },
+  {
+    id: 490,
+    category: 'ATA 33',
+    question: 'How many Utility Lights are there in the cockpit, and what is their power source?',
+    options: { a: 'One, #2 DC Primary Bus', b: 'Two, Battery Bus', c: 'Three, #1 DC Primary Bus' },
+    correct: 'b',
+  },
+  {
+    id: 491,
+    category: 'ATA 33',
+    question: 'What is the purpose of the Approach Chart Holders Lighting?',
+    options: { a: 'To provide general illumination', b: 'To store and display charts', c: 'To control the cabin lighting' },
+    correct: 'b',
+  },
+  {
+    id: 492,
+    category: 'ATA 33',
+    question: 'Where is the cabin lighting control panel located?',
+    options: { a: 'Pilot\'s side of the overhead panel', b: 'Behind the co-pilot\'s seat', c: 'Above the pilot\'s head' },
+    correct: 'a',
+  },
+  {
+    id: 493,
+    category: 'ATA 33',
+    question: 'What is the power source for the cabin lighting strips down the left side of the cabin?',
+    options: { a: '#1 DC Primary Bus', b: '#2 DC Primary Bus', c: 'Battery Bus (28v)' },
+    correct: 'a',
+  },
+  {
+    id: 494,
+    category: 'ATA 33',
+    question: 'How is the cabin overhead lighting controlled when the switch is in the DIM position?',
+    options: { a: 'Logic relay is de-energised', b: 'Logic relay energises', c: 'Ballast Units are not powered' },
+    correct: 'a',
+  },
+  {
+    id: 495,
+    category: 'ATA 33',
+    question: 'Which signs are powered from the #1 DC Primary Bus?',
+    options: { a: 'No Smoking signs', b: 'Seat Belt signs', c: 'Both a and b' },
+    correct: 'c',
+  },
+  {
+    id: 496,
+    category: 'ATA 33',
+    question: 'How many passenger reading lights are there, and how are they controlled?',
+    options: { a: '10, individually by each passenger', b: '19, controlled from the cockpit switch', c: '15, controlled by the Passenger Advisory Signs' },
+    correct: 'b',
+  },
+  {
+    id: 497,
+    category: 'ATA 33',
+    question: 'What is the power source for the Baggage Compartment Light?',
+    options: { a: 'Battery Bus', b: '#1 DC Primary Bus', c: '#2 DC Primary Bus' },
+    correct: 'a',
+  },
+  {
+    id: 498,
+    category: 'ATA 33',
+    question: 'How many positions does the Baggage Compartment Light switch have, and what does each position do?',
+    options: { a: 'Two; ON and OFF', b: 'Three; CREW, OFF, and ON', c: 'Four; DIM, BRIGHT, ON, and OFF' },
+    correct: 'b',
+  },
+  {
+    id: 499,
+    category: 'ATA 33',
+    question: 'What happens when the P/B LAMP switch is placed in the TEST position?',
+    options: { a: 'All lights go off', b: 'All pushbutton/indicator lights go to bright', c: 'The Flood Light is activated' },
+    correct: 'b',
+  },
+  {
+    id: 500,
+    category: 'ATA 33',
+    question: 'What is the intended use of the Flood Light in the cockpit?',
+    options: { a: 'General illumination', b: 'Reducing the effect of lightning flashes at night', c: 'Emergency lighting during landing' },
+    correct: 'b',
+  },
+  {
+    id: 501,
+    category: 'ATA 33',
+    question: 'How many Advisory Signs are there in the Passenger Advisory Signs system?',
+    options: { a: 'Three', b: 'Two', c: 'Four' },
+    correct: 'b',
+  },
+  {
+    id: 502,
+    category: 'ATA 33',
+    question: 'What activates the NO SMOKE message in the Passenger Briefing System?',
+    options: { a: 'Selecting SEAT BELT ON', b: 'Selecting NO SMOKE ON', c: 'Selecting BRIGHT on the cabin overhead lighting switch' },
+    correct: 'b',
+  },
+  {
+    id: 503,
+    category: 'ATA 33',
+    question: 'How is the master ON/OFF control for the Passenger Reading Lights operated?',
+    options: { a: 'By each passenger individually', b: 'By the crew in the cockpit', c: 'By the Baggage Compartment Light switch' },
+    correct: 'b',
+  },
+  {
+    id: 504,
+    category: 'ATA 33',
+    question: 'What is the power source for the Baggage Compartment Light?',
+    options: { a: '#1 DC Primary Bus', b: '#2 DC Primary Bus', c: 'Battery Bus' },
+    correct: 'c',
+  },
+  {
+    id: 505,
+    category: 'ATA 33',
+    question: 'How is the illumination level of the passenger reading lights adjusted on newer aircraft?',
+    options: { a: 'Rotating a dial on each light', b: 'Sweeping your finger around the black surround', c: 'Using a separate dimmer control in the cockpit' },
+    correct: 'b',
+  },
+  {
+    id: 506,
+    category: "ATA 33",
+    question: "What components are part of the External lighting system?",
+    options: { a: "Anti-Collision Lights", b: "Position Lights", c: "Searchlight" },
+    correct: "a",
+  },
+  
+  {
+    id: 507,
+    category: "ATA 33",
+    question: "Where are the Anti-Collision Lights controlled from?",
+    options: { a: "Captain's seat", b: "Pilot's seat", c: "Co-pilot’s side of the overhead panel" },
+    correct: "c",
+  },
+  
+  {
+    id: 508,
+    category: "ATA 33",
+    question: "How are the Landing Lights powered on the S-92?",
+    options: { a: "Battery Bus", b: "DC Essential Bus", c: "AC Essential Bus" },
+    correct: "b",
+  },
+  
+  {
+    id: 509,
+    category: "ATA 33",
+    question: "Where are the Position Lights located?",
+    options: { a: "On top of the cockpit", b: "On the side of each sponson", c: "On the tail" },
+    correct: "b",
+  },
+  
+  {
+    id: 510,
+    category: "ATA 33",
+    question: "What powers the Cargo Loading Light?",
+    options: { a: "AC Essential Bus", b: "Battery Bus", c: "DC Essential Bus" },
+    correct: "b",
+  },
+  
+  {
+    id: 511,
+    category: "ATA 33",
+    question: "Where is the Searchlight located?",
+    options: { a: "Above the cockpit", b: "Below the Co-pilot’s seat", c: "Below the Pilot’s seat" },
+    correct: "c",
+  },
+  
+  {
+    id: 512,
+    category: "ATA 33",
+    question: "What is the function of the STOW position for the Searchlight?",
+    options: { a: "Extend the light forward", b: "Turn off the light", c: "Retract the light into the structure" },
+    correct: "c",
+  },
+  
+  {
+    id: 513,
+    category: "ATA 33",
+    question: "In which position does the Co-pilot’s switch have no effect on the Searchlight?",
+    options: { a: "ON", b: "OFF", c: "STOW" },
+    correct: "b",
+  },
+  
+  {
+    id: 514,
+    category: "ATA 33",
+    question: "What happens when both Searchlight Switches are ON?",
+    options: { a: "Searchlight retracts", b: "Contactor is energized", c: "Slew switches are disabled" },
+    correct: "b",
+  },
+  
+  {
+    id: 515,
+    category: "ATA 33",
+    question: "Where is power applied when the Pilot’s and Co-pilot’s Switches are ON?",
+    options: { a: "Only to the Pilot’s switch", b: "Only to the Co-pilot’s switch", c: "Both switches" },
+    correct: "c",
+  },
+  
+  {
+    id: 516,
+    category: "ATA 33",
+    question: "What is the primary function of the High Visibility Strobe Lights?",
+    options: { a: "Night illumination", b: "Day use only", c: "Fog penetration" },
+    correct: "b",
+  },
+  
+  {
+    id: 517,
+    category: "ATA 33",
+    question: "When are the High Visibility Strobe Lights inhibited?",
+    options: { a: "During day use", b: "When on the ground", c: "During fog" },
+    correct: "b",
+  },
+  
+  {
+    id: 518,
+    category: "ATA 33",
+    question: "How many areas of emergency lighting does the S92 have?",
+    options: { a: "Two", b: "Three", c: "Four" },
+    correct: "b",
+  },
+  
+  {
+    id: 519,
+    category: "ATA 33",
+    question: "What powers the HEELS from the #2 DC Primary Bus?",
+    options: { a: "AC Essential Bus", b: "Battery Bus", c: "#2 DC Primary Bus" },
+    correct: "c",
+  },
+  
+  {
+    id: 520,
+    category: "ATA 33",
+    question: "Where are the emergency lighting batteries located?",
+    options: { a: "Cockpit floor", b: "Above window 5", c: "Baggage Compartment ceiling" },
+    correct: "c",
+  },
+  
+  {
+    id: 521,
+    category: "ATA 33",
+    question: "When are the Emergency Lights Panel switches enabled?",
+    options: { a: "In the OFF position", b: "In the ON position", c: "In the ARM position" },
+    correct: "c",
+  },
+  
+  {
+    id: 522,
+    category: "ATA 33",
+    question: "Where are the Internal Emergency Cabin Lights located?",
+    options: { a: "In the cockpit", b: "Throughout the cabin", c: "On the external sponsons" },
+    correct: "b",
+  },
+  
+  {
+    id: 523,
+    category: "ATA 33",
+    question: "How many water immersion detectors are there for the HEELS?",
+    options: { a: "One", b: "Two", c: "Three" },
+    correct: "b",
+  },
+  
+  {
+    id: 524,
+    category: "ATA 33",
+    question: "What happens if the HEELS switch is in the ARM position during a water entry event?",
+    options: { a: "Cabin lights turn off", b: "System illuminates HEELS lights", c: "Batteries are disconnected" },
+    correct: "b",
+  },
+  
+  {
+    id: 525,
+    category: "ATA 33",
+    question: "Where are the PSU 1 and PSU 2 located?",
+    options: { a: "Above window 10", b: "Below the Co-pilot’s seat", c: "Below the Pilot’s seat" },
+    correct: "c",
+  },
+  
+  {
+    id: 526,
+    category: "ATA 33",
+    question: "How many batteries are in the HEELS system?",
+    options: { a: "Four", b: "Six", c: "Eight" },
+    correct: "b",
+  },
+  
+  {
+    id: 527,
+    category: "ATA 33",
+    question: "Which areas are illuminated by the HEELS system?",
+    options: { a: "Cockpit only", b: "Cabin only", c: "Cockpit, cabin, and external exits" },
+    correct: "c",
+  },
+  
+  {
+    id: 528,
+    category: "ATA 33",
+    question: "What happens if one PSU fails in the HEELS system?",
+    options: { a: "All lights go out", b: "Half of the windows and exits remain illuminated", c: "Emergency exits become disabled" },
+    correct: "b",
   }
+  
+  
   
   
   
