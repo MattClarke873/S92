@@ -7221,6 +7221,1841 @@ const questionBank = [
       c: "CT7-8B / -8B5"
     },
     correct: "b"
-  }
+  },
+
+
+
+
+
+  {
+    id: 506,
+    category: 'ATA 72',
+    question: 'Where is the engine assembly main data plate located?',
+    options: { a: '3 o\'clock position on the front frame assembly', b: '12 o\'clock position on the exhaust frame', c: 'Cold Section' },
+    correct: 'c',
+  },
+  {
+    id: 507,
+    category: 'ATA 72',
+    question: 'What is the purpose of the lightweight container for engine transportation?',
+    options: { a: 'Long-term storage in a humid environment', b: 'Short-term storage in a dry environment', c: 'Shipping and outside storage' },
+    correct: 'b',
+  },
+  {
+    id: 508,
+    category: 'ATA 72',
+    question: 'In the CT7-8 engine, how do the gas generator and power turbine rotors turn?',
+    options: { a: 'Counter-clockwise', b: 'Clockwise', c: 'Aft looking forward' },
+    correct: 'b',
+  },
+  {
+    id: 509,
+    category: 'ATA 72',
+    question: 'What is the purpose of the igniter plugs in the combustion chamber?',
+    options: { a: 'Cooling the combustion chamber', b: 'Igniting the air/fuel mixture', c: 'Directing airflow to the turbine' },
+    correct: 'b',
+  },
+  {
+    id: 510,
+    category: 'ATA 72',
+    question: 'What is the function of the input particle separator (IPS) system?',
+    options: { a: 'Cooling the engine', b: 'Protecting against FOD and contaminants', c: 'Providing airflow to the cockpit heaters' },
+    correct: 'b',
+  },
+  {
+    id: 511,
+    category: 'ATA 72',
+    question: 'What type of starters do the engines use?',
+    options: { a: 'Hydraulic starters', b: 'Electric starters', c: 'Pneumatic starters' },
+    correct: 'c',
+  },
+  {
+    id: 512,
+    category: 'ATA 72',
+    question: 'Where is the No. 1 ball bearing located in the CT7-8 engine?',
+    options: { a: 'B-sump', b: 'C-sump', c: 'Output shaft assembly' },
+    correct: 'c',
+  },
+  {
+    id: 513,
+    category: 'ATA 72',
+    question: 'What does ARP 755A provide guidance for?',
+    options: { a: 'Engine module replacement', b: 'Aerodynamic station identification', c: 'Gas turbine rotor alignment' },
+    correct: 'b',
+  },
+  {
+    id: 514,
+    category: 'ATA 72',
+    question: 'How many modules does the CT7-8 engine have?',
+    options: { a: 'Three', b: 'Four', c: 'Five' },
+    correct: 'b',
+  },
+  {
+    id: 515,
+    category: 'ATA 72',
+    question: 'What is the main component of the cold section module?',
+    options: { a: 'Compressor rotor', b: 'Diffuser case', c: 'Inlet section' },
+    correct: 'c',
+  },
+  {
+    id: 516,
+    category: 'ATA 72',
+    question: 'Which component contains the particle separator swirl frame?',
+    options: { a: 'Front frame assembly', b: 'Compressor stator', c: 'Inlet frame' },
+    correct: 'c',
+  },
+  {
+    id: 517,
+    category: 'ATA 72',
+    question: 'Where is the A-Sump Output Shaft Assembly (OSA) located?',
+    options: { a: 'Accessory module', b: 'Power turbine module', c: 'Front frame assembly' },
+    correct: 'c',
+  },
+  {
+    id: 518,
+    category: 'ATA 72',
+    question: 'What is the purpose of the compressor rotor?',
+    options: { a: 'Control airflow direction', b: 'Supply rotary motion to compress air', c: 'Cool the combustion chamber' },
+    correct: 'b',
+  },
+  {
+    id: 519,
+    category: 'ATA 72',
+    question: 'What is the function of the diffuser and midframe casing assembly?',
+    options: { a: 'Increase air pressure', b: 'Cool the combustion chamber', c: 'Hold the power turbine rotor' },
+    correct: 'a',
+  },
+  {
+    id: 520,
+    category: 'ATA 72',
+    question: 'What components are part of the hot section module?',
+    options: { a: 'Diffuser case', b: 'Combustion liner', c: 'Accessory gearbox' },
+    correct: 'b',
+  },
+  {
+    id: 521,
+    category: 'ATA 72',
+    question: 'What is the role of the combustion liner in the hot section?',
+    options: { a: 'Cool the compressor rotor', b: 'Control the combustion process', c: 'Supply power to the turbine' },
+    correct: 'b',
+  },
+  {
+    id: 522,
+    category: 'ATA 72',
+    question: 'Where is the power turbine rotor assembly located?',
+    options: { a: 'Cold section module', b: 'Hot section module', c: 'Power turbine module' },
+    correct: 'c',
+  },
+  {
+    id: 523,
+    category: 'ATA 72',
+    question: 'What is the purpose of the power turbine drive shaft assembly?',
+    options: { a: 'Cool the power turbine rotor', b: 'Transfer power to the A-sump output drive shaft', c: 'Supply torque to the compressor rotor' },
+    correct: 'b',
+  },
+  {
+    id: 524,
+    category: 'ATA 72',
+    question: 'What is the role of the torque sensor tube in the power turbine drive shaft assembly?',
+    options: { a: 'Cooling the drive shaft', b: 'Measuring engine torque', c: 'Providing balance to the bearing' },
+    correct: 'b',
+  },
+  {
+    id: 525,
+    category: 'ATA 72',
+    question: 'Where is the turbine case located?',
+    options: { a: 'Between the compressor case and the power turbine module', b: 'In the power turbine module', c: 'In the exhaust frame' },
+    correct: 'a',
+  },
+  {
+    id: 526,
+    category: 'ATA 72',
+    question: 'What components are part of the C-sump housing and exhaust frame assembly?',
+    options: { a: 'Exhaust frame', b: 'Power turbine rotor', c: 'Stage 4 turbine shroud' },
+    correct: 'a',
+  },
+  {
+    id: 527,
+    category: 'ATA 72',
+    question: 'How many struts hold the inner and outer hubs of the exhaust frame casting?',
+    options: { a: 'Two', b: 'Four', c: 'Six' },
+    correct: 'b',
+  },
+  {
+    id: 528,
+    category: 'ATA 72',
+    question: 'What do the top two struts in the exhaust frame contain?',
+    options: { a: 'Torque and speed sensors', b: 'Oil supply and scavenge lines', c: 'Stage 4 air supply' },
+    correct: 'a',
+  },
+  {
+    id: 529,
+    category: 'ATA 72',
+    question: 'What is the role of the No. 5 carbon seal in the C-sump housing and exhaust frame assembly?',
+    options: { a: 'Prevent oil leakage', b: 'Provide balance to the bearing', c: 'Cool the exhaust frame' },
+    correct: 'a',
+  },
+  {
+    id: 530,
+    category: 'ATA 72',
+    question: 'What information does ARP 755A provide?',
+    options: { a: 'Engine torque and speed', b: 'Aerodynamic station identification', c: 'Engine module replacement procedures' },
+    correct: 'b',
+  },
+  {
+    id: 506,
+    category: "ATA 72",
+    question: "What does the accessory section module attach to improve accessibility?",
+    options: { a: "particle separator blower", b: "fuel metering unit", c: "starter" },
+    correct: "a",
+  },
+  {
+    id: 507,
+    category: "ATA 72",
+    question: "Which component is NOT installed on the rear gearbox housing of the accessory section module?",
+    options: { a: "fuel metering unit", b: "particle separator blower", c: "starter" },
+    correct: "c",
+  },
+  {
+    id: 508,
+    category: "ATA 72",
+    question: "What is the main function of the accessory module?",
+    options: { a: "providing mechanical power to operate accessories", b: "compressor rotor operation", c: "fuel filter bypass" },
+    correct: "a",
+  },
+  {
+    id: 509,
+    category: "ATA 72",
+    question: "How does the radial drive shaft operate the accessory section module under normal conditions?",
+    options: { a: "by hand cranking", b: "by lifting", c: "by rotating the accessory gearbox" },
+    correct: "c",
+  },
+  {
+    id: 510,
+    category: "ATA 72",
+    question: "What is used to hand crank the engine for maintenance purposes?",
+    options: { a: "boot and cover", b: "radial drive shaft", c: "oil temperature detector" },
+    correct: "a",
+  },
+  {
+    id: 511,
+    category: "ATA 72",
+    question: "How are accessory drives identified?",
+    options: { a: "numerically", b: "alphabetically", c: "by color-coding" },
+    correct: "b",
+  },
+  {
+    id: 512,
+    category: "ATA 72",
+    question: "How many engine bay scuppers are there?",
+    options: { a: "one", b: "two", c: "three" },
+    correct: "b",
+  },
+  {
+    id: 513,
+    category: "ATA 72",
+    question: "What does the common drain remove from the gearbox accessory cavities?",
+    options: { a: "oil only", b: "fuel only", c: "both fuel and oil" },
+    correct: "c",
+  },
+  {
+    id: 514,
+    category: "ATA 72",
+    question: "Where is the FMU vent/drain located?",
+    options: { a: "front frame", b: "fuel filter", c: "FMU" },
+    correct: "c",
+  },
+  {
+    id: 515,
+    category: "ATA 72",
+    question: "What does the front frame drain remove?",
+    options: { a: "fuel", b: "oil", c: "air" },
+    correct: "b",
+  },
+  {
+    id: 516,
+    category: "ATA 72",
+    question: "What does the AISBV drain remove fuel leakage from?",
+    options: { a: "starter", b: "FMU", c: "servo of the AISBV assembly" },
+    correct: "c",
+  },
+  {
+    id: 517,
+    category: "ATA 72",
+    question: "When was the T700 initially bench-tested?",
+    options: { a: "1967", b: "1973", c: "1978" },
+    correct: "b",
+  },
+  {
+    id: 518,
+    category: "ATA 72",
+    question: "What is the power rating of the T700-GE-700 engine?",
+    options: { a: "1,622 shp", b: "1,210 kW", c: "30 percent more than the current T700-701C" },
+    correct: "a",
+  },
+  {
+    id: 519,
+    category: "ATA 72",
+    question: "Which helicopters are powered by T700 engines?",
+    options: { a: "AH-64 Apache", b: "Bell 214ST", c: "both a and b" },
+    correct: "c",
+  },
+  {
+    id: 520,
+    category: "ATA 72",
+    question: "What did General Electric work on in response to the US Army's interest in a next-generation utility helicopter?",
+    options: { a: "GE12", b: "T700", c: "YT706" },
+    correct: "a",
+  },
+  {
+    id: 521,
+    category: "ATA 72",
+    question: "What is the baseline power of the CT7-5A turboprop?",
+    options: { a: "4,475 kW", b: "1,735 shp", c: "6,000 shp" },
+    correct: "b",
+  },
+  {
+    id: 522,
+    category: "ATA 72",
+    question: "What does the YT706 provide compared to the current T700-701C?",
+    options: { a: "smaller compressor", b: "full authority digital engine control", c: "lower power" },
+    correct: "b",
+  },
+  {
+    id: 523,
+    category: "ATA 72",
+    question: "How many burners does the annular combustor of T700-GE-700 have?",
+    options: { a: "5", b: "10", c: "15" },
+    correct: "c",
+  },
+  {
+    id: 524,
+    category: "ATA 72",
+    question: "Which engine variant is used on the SH-2G Seasprite helicopter?",
+    options: { a: "YT706", b: "T700-GE-700", c: "CT7" },
+    correct: "b",
+  },
+  {
+    id: 525,
+    category: "ATA 72",
+    question: "What does the T407/GLC38 engine have in terms of stages for its compressor turbine?",
+    options: { a: "two-stage", b: "three-stage", c: "five-stage" },
+    correct: "c",
+  },
+  {
+    id: 526,
+    category: "ATA 72",
+    question: "What is the purpose of the inlet particle separator of the T700-GE-700?",
+    options: { a: "increase smoke", b: "improve combustion", c: "remove dirt, sand, and dust" },
+    correct: "c",
+  },
+  {
+    id: 527,
+    category: "ATA 72",
+    question: "Where is the combustor drain located?",
+    options: { a: "front end", b: "6 o'clock position of the diffuser", c: "front frame" },
+    correct: "b",
+  },
+  {
+    id: 528,
+    category: "ATA 72",
+    question: "What is the purpose of the radial drive shaft during engine shutdown?",
+    options: { a: "lifting", b: "rotating the gas generator rotor", c: "venting air from the fuel system" },
+    correct: "b",
+  },
+  {
+    id: 529,
+    category: "ATA 72",
+    question: "Where is the front frame drain located?",
+    options: { a: "bottom of the fuel filter bowl", b: "6 o'clock position of the front frame", c: "top right-hand side of the engine" },
+    correct: "b",
+  },
+  {
+    id: 530,
+    category: "ATA 72",
+    question: "What is the purpose of the AISBV drain?",
+    options: { a: "remove air", b: "remove oil", c: "remove fuel leakage from the servo of the AISBV assembly" },
+    correct: "c",
+  },
+
+
+
+
+  {
+    id: 506,
+    category: "ATA 73",
+    question: "Where is the fuel boost pump assembly located?",
+    options: { a: "front gearbox housing", b: "rear gearbox housing", c: "left side of the accessory gearbox" },
+    correct: "a",
+  },
+  {
+    id: 507,
+    category: "ATA 73",
+    question: "What does the fuel boost pump assembly do?",
+    options: { a: "creates a negative pressure", b: "regulates fuel pressure", c: "activates overspeed protection" },
+    correct: "a",
+  },
+  {
+    id: 508,
+    category: "ATA 73",
+    question: "At full power, what is the minimum fuel pressure supplied by the fuel boost pump assembly to the fuel filter?",
+    options: { a: "45 psig", b: "30 psig", c: "20 psig" },
+    correct: "b",
+  },
+  {
+    id: 509,
+    category: "ATA 73",
+    question: "Where is the fuel pressure switch located?",
+    options: { a: "rear gearbox housing", b: "left side of the accessory gearbox", c: "front gearbox housing" },
+    correct: "c",
+  },
+  {
+    id: 510,
+    category: "ATA 73",
+    question: "What does the fuel pressure switch sense?",
+    options: { a: "high fuel pressure", b: "low fuel pressure", c: "fuel filter contamination" },
+    correct: "b",
+  },
+  {
+    id: 511,
+    category: "ATA 73",
+    question: "When does the fuel pressure switch close?",
+    options: { a: "8-9 psig or less", b: "30 psig or more", c: "18-22 psid" },
+    correct: "a",
+  },
+  {
+    id: 512,
+    category: "ATA 73",
+    question: "Where is the fuel filter assembly located?",
+    options: { a: "left side of the accessory gearbox", b: "rear gearbox housing", c: "front gearbox housing" },
+    correct: "a",
+  },
+  {
+    id: 513,
+    category: "ATA 73",
+    question: "What is the purpose of the fuel filter bypass indicator?",
+    options: { a: "activates overspeed protection", b: "identifies impending bypass condition", c: "monitors oil temperature" },
+    correct: "b",
+  },
+  {
+    id: 514,
+    category: "ATA 73",
+    question: "What activates a signal to the EECU for FUEL 1(2) caution indication on the MFDs?",
+    options: { a: "low oil pressure", b: "8-10 psid fuel pressure", c: "overheated fuel filter" },
+    correct: "b",
+  },
+  {
+    id: 515,
+    category: "ATA 73",
+    question: "What is the purpose of the differential pressure switch in the fuel filter assembly?",
+    options: { a: "activates overspeed protection", b: "bypasses fuel to the filter", c: "sends a signal to the EECU channel" },
+    correct: "c",
+  },
+  {
+    id: 516,
+    category: "ATA 73",
+    question: "Where does the fuel flow after leaving the fuel boost pump?",
+    options: { a: "to the FMU", b: "to the oil cooler", c: "to the fuel injectors" },
+    correct: "a",
+  },
+  {
+    id: 517,
+    category: "ATA 73",
+    question: "What prevents ice formation in the fuel filter at temperatures as low as -20° C?",
+    options: { a: "oil cooler", b: "fuel boost pressure switch", c: "fuel filter bypass valve" },
+    correct: "c",
+  },
+  {
+    id: 518,
+    category: "ATA 73",
+    question: "What is the function of the overspeed valve in the FMU?",
+    options: { a: "shuts off fuel flow during overspeed", b: "increases fuel pressure", c: "controls VG actuator" },
+    correct: "a",
+  },
+  {
+    id: 519,
+    category: "ATA 73",
+    question: "What is the minimum Ng Overspeed that triggers the independent logic program to close the overspeed valve?",
+    options: { a: "108.5%", b: "120%", c: "118%" },
+    correct: "a",
+  },
+  {
+    id: 520,
+    category: "ATA 73",
+    question: "What shuts off the overspeed valve when the system detects Np > Nr?",
+    options: { a: "linear variable differential transformer", b: "feedback program", c: "mechanical breakage detection" },
+    correct: "c",
+  },
+  {
+    id: 521,
+    category: "ATA 73",
+    question: "How many inspection holes are there in the clamp that secures the FMU?",
+    options: { a: "1", b: "2", c: "3" },
+    correct: "c",
+  },
+  {
+    id: 522,
+    category: "ATA 73",
+    question: "What is the purpose of the VG servo in the FMU?",
+    options: { a: "controls oil temperature", b: "operates the VG mechanism", c: "monitors fuel pressure" },
+    correct: "b",
+  },
+  {
+    id: 523,
+    category: "ATA 73",
+    question: "Where does the fuel manifold supply pressurized fuel?",
+    options: { a: "to the fuel boost pump", b: "to the combustion chamber", c: "to the oil cooler" },
+    correct: "b",
+  },
+  {
+    id: 524,
+    category: "ATA 73",
+    question: "How many fuel injectors supply fuel to the annular combustion chamber?",
+    options: { a: "6", b: "9", c: "12" },
+    correct: "c",
+  },
+  {
+    id: 525,
+    category: "ATA 73",
+    question: "What ensures the correct positioning of the injector nozzle in the combustion chamber?",
+    options: { a: "feedback signal", b: "locating pins", c: "LVDT position sensor" },
+    correct: "b",
+  },
+  {
+    id: 526,
+    category: "ATA 73",
+    question: "What aids the combustion process in the annular combustion chamber?",
+    options: { a: "P3 airflow", b: "fuel filter bypass", c: "overspeed valve" },
+    correct: "a",
+  },
+  {
+    id: 527,
+    category: "ATA 73",
+    question: "What is cleaned during shutdown due to the reverse flow in the combustion chamber?",
+    options: { a: "fuel nozzles", b: "fuel filter", c: "oil cooler" },
+    correct: "a",
+  },
+  {
+    id: 528,
+    category: "ATA 73",
+    question: "What prevents debris from causing nozzle clogging or deforming the atomized spray pattern in the injectors?",
+    options: { a: "feedback program", b: "last chance filter", c: "fuel pressure switch" },
+    correct: "b",
+  },
+  {
+    id: 529,
+    category: "ATA 73",
+    question: "What are the two modification states of fuel injectors currently in use?",
+    options: { a: "Pre and Post SB 73-0001 R2", b: "Old and New", c: "Standard and Deluxe" },
+    correct: "a",
+  },
+  {
+    id: 530,
+    category: "ATA 73",
+    question: "Where is the fuel boost pump assembly flanged connection located?",
+    options: { a: "left side of the accessory gearbox", b: "front gearbox housing", c: "rear gearbox housing" },
+    correct: "b",
+  },
+  {
+    id: 531,
+    category: "ATA 73",
+    question: "What does the fuel filter bypass valve do when the filter differential pressure is more than 18 - 22 psid?",
+    options: { a: "closes", b: "opens", c: "sends a signal to the EECU" },
+    correct: "a",
+  },
+  {
+    id: 532,
+    category: "ATA 73",
+    question: "Where is the overspeed valve located?",
+    options: { a: "rear gearbox housing", b: "front gearbox housing", c: "left side of the accessory gearbox" },
+    correct: "c",
+  },
+  {
+    id: 533,
+    category: "ATA 73",
+    question: "What does the overspeed valve shut off?",
+    options: { a: "oil flow", b: "fuel flow", c: "airflow to the combustion chamber" },
+    correct: "b",
+  },
+  {
+    id: 534,
+    category: "ATA 73",
+    question: "What is the purpose of the VG actuator in the FMU?",
+    options: { a: "controls oil temperature", b: "regulates fuel pressure", c: "operates the VG mechanism" },
+    correct: "c",
+  },
+  {
+    id: 535,
+    category: "ATA 73",
+    question: "What is the function of the fuel metering unit (FMU)?",
+    options: { a: "controls VG actuator", b: "supplies pressurized fuel to injectors", c: "activates overspeed protection" },
+    correct: "b",
+  },
+
+
+  {
+    id: 506,
+    category: 'ATA 74',
+    question: 'What is the primary purpose of the electrical control system?',
+    options: { a: 'Control gas generator speed', b: 'Monitor rotor speed', c: 'Operate anti-icing flow' },
+    correct: 'a',
+  },
+  {
+    id: 507,
+    category: 'ATA 74',
+    question: 'Which cable is responsible for interconnecting engine cables and the EECUs?',
+    options: { a: 'Yellow', b: 'Blue', c: 'Green' },
+    correct: 'c',
+  },
+  {
+    id: 508,
+    category: 'ATA 74',
+    question: 'What is the function of the ignition system during normal engine operation in AUTO mode?',
+    options: { a: 'Constantly on', b: 'Turn on as necessary', c: 'Turn off during starts' },
+    correct: 'b',
+  },
+  {
+    id: 509,
+    category: 'ATA 74',
+    question: 'Where is the ignition exciter assembly located?',
+    options: { a: 'FADEC system', b: 'Compressor case (right-side)', c: 'Combustion liner' },
+    correct: 'b',
+  },
+  {
+    id: 510,
+    category: 'ATA 74',
+    question: 'What warning is associated with the ignition exciter assembly?',
+    options: { a: 'High oil pressure', b: 'High-voltage shock risk', c: 'Low fuel pressure' },
+    correct: 'b',
+  },
+  {
+    id: 511,
+    category: 'ATA 74',
+    question: 'Which cable supplies power from the alternator to operate the EECU?',
+    options: { a: 'Yellow', b: 'Blue', c: 'Green' },
+    correct: 'a',
+  },
+  {
+    id: 512,
+    category: 'ATA 74',
+    question: 'Where is the thermocouple assembly installed?',
+    options: { a: 'Compressor stator assembly', b: 'C-sump housing', c: 'Exhaust frame' },
+    correct: 'b',
+  },
+  {
+    id: 513,
+    category: 'ATA 74',
+    question: 'What does the power turbine speed (Np) sensor measure?',
+    options: { a: 'Compressor discharge pressure', b: 'Power turbine torque', c: 'Power turbine speed' },
+    correct: 'c',
+  },
+  {
+    id: 514,
+    category: 'ATA 74',
+    question: 'What is the function of the alternator in the FADEC system?',
+    options: { a: 'Control gas generator speed', b: 'Generate electrical power', c: 'Operate anti-icing flow' },
+    correct: 'b',
+  },
+  {
+    id: 515,
+    category: 'ATA 74',
+    question: 'Which component supplies fuel to the fuel manifold and servo systems of the VG / AISBV?',
+    options: { a: 'Ignition exciter', b: 'Fuel metering unit (FMU)', c: 'Alternator' },
+    correct: 'b',
+  },
+  {
+    id: 516,
+    category: 'ATA 74',
+    question: 'What is the primary function of the overspeed and shutdown system?',
+    options: { a: 'Control rotor speed', b: 'Prevent engine damage from overspeed', c: 'Supply electrical power' },
+    correct: 'b',
+  },
+  {
+    id: 517,
+    category: 'ATA 74',
+    question: 'Which sensors provide cockpit indications for oil temperature and pressure?',
+    options: { a: 'T1 sensors', b: 'Accelerometers', c: 'Fuel and oil sensors' },
+    correct: 'c',
+  },
+  {
+    id: 518,
+    category: 'ATA 74',
+    question: 'What does the power turbine inlet temperature measure?',
+    options: { a: 'Compressor inlet temperature', b: 'Turbine case temperature', c: 'Power turbine inlet temperature (T4.5)' },
+    correct: 'c',
+  },
+  {
+    id: 519,
+    category: 'ATA 74',
+    question: 'How many teeth are on the power turbine drive shaft for the Np speed sensor?',
+    options: { a: '2', b: '4', c: '6' },
+    correct: 'b',
+  },
+  {
+    id: 520,
+    category: 'ATA 74',
+    question: 'What is the purpose of the FADEC system?',
+    options: { a: 'Monitor rotor speed', b: 'Control engine using fuel flow, bleed, and variable geometry control', c: 'Supply electrical power' },
+    correct: 'b',
+  },
+  {
+    id: 521,
+    category: 'ATA 74',
+    question: 'Where is the EECU located?',
+    options: { a: 'C-sump housing', b: 'Compressor case (right-side)', c: 'Internal cabin roof' },
+    correct: 'c',
+  },
+  {
+    id: 522,
+    category: 'ATA 74',
+    question: 'What does the EECU control to keep the rotor speed constant?',
+    options: { a: 'Fuel flow', b: 'Compressor bleed', c: 'Alternator power' },
+    correct: 'a',
+  },
+  {
+    id: 523,
+    category: 'ATA 74',
+    question: 'What signals does the EECU supply to the aircraft monitoring system (AMS)?',
+    options: { a: 'Compressor inlet temperature', b: 'Power turbine speed (Np)', c: 'Oil temperature' },
+    correct: 'c',
+  },
+  {
+    id: 524,
+    category: 'ATA 74',
+    question: 'How many channels does the EECU have?',
+    options: { a: 'One', b: 'Two', c: 'Three' },
+    correct: 'b',
+  },
+  {
+    id: 525,
+    category: 'ATA 74',
+    question: 'What does the P3 sensor measure?',
+    options: { a: 'Compressor inlet temperature', b: 'Compressor discharge pressure', c: 'Power turbine speed (Np)' },
+    correct: 'b',
+  },
+  {
+    id: 526,
+    category: 'ATA 74',
+    question: 'What is the function of the FMU in the FADEC system?',
+    options: { a: 'Supply electrical power', b: 'Control anti-icing flow', c: 'Supply fuel at a measured flow rate' },
+    correct: 'c',
+  },
+  {
+    id: 527,
+    category: 'ATA 74',
+    question: 'How many accelerometers are installed on each engine?',
+    options: { a: 'One', b: 'Two', c: 'Three' },
+    correct: 'b',
+  },
+  {
+    id: 528,
+    category: 'ATA 74',
+    question: 'What does the overspeed and shutdown system protect the power turbine rotor (Np) and gas generator rotor (Ng) from?',
+    options: { a: 'Low fuel pressure', b: 'Overspeed condition', c: 'Ignition failure' },
+    correct: 'b',
+  },
+  {
+    id: 529,
+    category: 'ATA 74',
+    question: 'What does the P0 sensor measure?',
+    options: { a: 'Compressor discharge pressure', b: 'Ambient air pressure', c: 'Power turbine inlet temperature (T4.5)' },
+    correct: 'b',
+  },
+  {
+    id: 530,
+    category: 'ATA 74',
+    question: 'Which cable supplies wiring for P3 sensor operation?',
+    options: { a: 'Yellow', b: 'Blue', c: 'Green' },
+    correct: 'a',
+  },
+
+
+{
+  id: 506,
+  category: "ATA 75",
+  question: "What does the air system supply airflows for?",
+  options: { a: "Engine start", b: "Seal pressurization", c: "Both a and b" },
+  correct: "c",
+},
+{
+  id: 507,
+  category: "ATA 75",
+  question: "Which component controls the flow of air into the compressor?",
+  options: { a: "Vane actuator levers", b: "Actuating system linkage assembly", c: "Variable Geometry linkage system" },
+  correct: "c",
+},
+{
+  id: 508,
+  category: "ATA 75",
+  question: "What is the range of movement for Stage 1 Variable Stator Vanes (VSV)?",
+  options: { a: "32°", b: "56°", c: "26°" },
+  correct: "a",
+},
+{
+  id: 509,
+  category: "ATA 75",
+  question: "How does the Variable Geometry (VG) system control the flow of air into the compressor?",
+  options: { a: "Based on ambient temperature", b: "Based on Ng, T1, and physical position of the actuating shaft", c: "By adjusting compressor speed" },
+  correct: "b",
+},
+{
+  id: 510,
+  category: "ATA 75",
+  question: "What does the Anti-Icing and Start Bleed Air System supply bleed air for?",
+  options: { a: "Cooling the combustion liner", b: "Engine start", c: "Both a and b" },
+  correct: "c",
+},
+{
+  id: 511,
+  category: "ATA 75",
+  question: "At what condition is the Anti-Icing and Start Bleed Valve fully closed?",
+  options: { a: "Low Ng with anti-icing required", b: "High power without anti-icing", c: "During engine start" },
+  correct: "b",
+},
+{
+  id: 512,
+  category: "ATA 75",
+  question: "What does the Inlet Particle Separator (IPS) system remove from the inlet air?",
+  options: { a: "Water vapor", b: "Dirt and foreign objects", c: "Exhaust gases" },
+  correct: "b",
+},
+{
+  id: 513,
+  category: "ATA 75",
+  question: "What type of IPS design is used to reduce pressure loss?",
+  options: { a: "Swirl IPS", b: "Axial flow IPS", c: "Ballistic IPS" },
+  correct: "b",
+},
+{
+  id: 514,
+  category: "ATA 75",
+  question: "Which part of the engine uses compressor air to pressurize the sumps and seals?",
+  options: { a: "Combustion liner", b: "Power turbine blades", c: "IPS blower" },
+  correct: "a",
+},
+{
+  id: 515,
+  category: "ATA 75",
+  question: "How is the A-sump pressurized?",
+  options: { a: "Stage 5 compressor bleed air", b: "Stage 4 compressor bleed air", c: "IPS air" },
+  correct: "b",
+},
+{
+  id: 516,
+  category: "ATA 75",
+  question: "What is the purpose of the combustion liner's cooling holes?",
+  options: { a: "Increase flame temperature", b: "Protect liner walls from heat", c: "Improve fuel efficiency" },
+  correct: "b",
+},
+{
+  id: 517,
+  category: "ATA 75",
+  question: "Which turbine blades are convection cooled?",
+  options: { a: "Stage 1 & 2 gas generator turbine blades", b: "Stage 3 & 4 power turbine blades", c: "Both a and b" },
+  correct: "c",
+},
+{
+  id: 518,
+  category: "ATA 75",
+  question: "What cools the power turbine external casing?",
+  options: { a: "Ambient air only", b: "P2.5 air only", c: "Combination of P2.5 and ambient air" },
+  correct: "c",
+},
+{
+  id: 519,
+  category: "ATA 75",
+  question: "How is the C-sump pressurized?",
+  options: { a: "Stage 4 compressor bleed air", b: "Stage 5 compressor bleed air", c: "Combustion liner air" },
+  correct: "a",
+},
+{
+  id: 520,
+  category: "ATA 75",
+  question: "What is the purpose of the rain step in the IPS?",
+  options: { a: "Increase pressure loss", b: "Prevent water accumulation", c: "Enhance engine performance" },
+  correct: "b",
+},
+{
+  id: 521,
+  category: "ATA 75",
+  question: "What maintains the Variable Geometry inlet guide vanes and No. 1 and 2 stator vanes at the desired position?",
+  options: { a: "FADEC EECU", b: "Dual Linear Variable Differential Transducer", c: "Closed loop feedback program" },
+  correct: "c",
+},
+{
+  id: 522,
+  category: "ATA 75",
+  question: "What is the effect of selecting anti-ice ON?",
+  options: { a: "Decreases TGT by 25°C", b: "Increases stall margin", c: "Increases engine speed" },
+  correct: "a",
+},
+{
+  id: 523,
+  category: "ATA 75",
+  question: "What controls the position of the Anti-Ice/Start Bleed Valve?",
+  options: { a: "Servo system", b: "Actuating system linkage assembly", c: "Vane actuator levers" },
+  correct: "a",
+},
+{
+  id: 524,
+  category: "ATA 75",
+  question: "When does the Anti-Ice/Start Bleed Valve move to the fully-closed position?",
+  options: { a: "During engine start", b: "System requests anti-ice air", c: "System does not request anti-ice air" },
+  correct: "c",
+},
+{
+  id: 525,
+  category: "ATA 75",
+  question: "How does the Anti-Ice/Start Bleed Valve actuator respond to a loss of control current?",
+  options: { a: "Slew closed", b: "Remains in the current position", c: "Slew open" },
+  correct: "c",
+},
+{
+  id: 526,
+  category: "ATA 75",
+  question: "What type of feedback is provided by the dual Linear Variable Differential Transformer in the Anti-Ice/Start Bleed Valve control loop?",
+  options: { a: "Pressure feedback", b: "Position feedback", c: "Temperature feedback" },
+  correct: "b",
+},
+{
+  id: 527,
+  category: "ATA 75",
+  question: "What does the particle separator blower on the AGB do?",
+  options: { a: "Controls bleed air flow", b: "Removes dirt and foreign objects", c: "Cools the combustion liner" },
+  correct: "b",
+},
+{
+  id: 528,
+  category: "ATA 75",
+  question: "How does the particle separator blower maintain high efficiency at low power levels?",
+  options: { a: "Bypass flow path", b: "Constant air flow", c: "Swirl design" },
+  correct: "b",
+},
+{
+  id: 529,
+  category: "ATA 75",
+  question: "Which design reduces pressure loss in the IPS?",
+  options: { a: "Swirl IPS", b: "Axial flow IPS", c: "Ballistic IPS" },
+  correct: "b",
+},
+{
+  id: 530,
+  category: "ATA 75",
+  question: "How is the power turbine external casing cooled?",
+  options: { a: "Ambient air only", b: "P2.5 air only", c: "Combination of P2.5 and ambient air" },
+  correct: "c",
+},
+
+{
+  id: 506,
+  category: "ATA 79",
+  question: "What is the primary function of the CT7-8 oil system?",
+  options: { a: "Provide fuel to the engine", b: "Cool the engine exhaust", c: "Supply lubrication to bearings and gears" },
+  correct: "c",
+},
+
+{
+  id: 507,
+  category: "ATA 79",
+  question: "Where is the lube oil cooler assembly located?",
+  options: { a: "On the left-forward side of the front gearbox housing", b: "In the exhaust frame struts", c: "In the midframe assembly" },
+  correct: "a",
+},
+
+{
+  id: 508,
+  category: "ATA 79",
+  question: "What is the function of the B-sump delta pressure tube?",
+  options: { a: "Supply stable pressure indications", b: "Measure oil temperature", c: "Monitor oil filter status" },
+  correct: "a",
+},
+
+{
+  id: 509,
+  category: "ATA 79",
+  question: "How many scavenge screens are there in the lube pump housing?",
+  options: { a: "Four", b: "Five", c: "Six" },
+  correct: "c",
+},
+
+{
+  id: 510,
+  category: "ATA 79",
+  question: "What is the purpose of the oil filter relief/bypass valve?",
+  options: { a: "Remove debris from the oil", b: "Control oil flow in the cooler", c: "Bypass a clogged filter to maintain oil flow" },
+  correct: "c",
+},
+
+{
+  id: 511,
+  category: "ATA 79",
+  question: "Where is the oil cooler bypass relief valve located?",
+  options: { a: "In the lube and scavenge pump housing", b: "In the oil tank", c: "In the exhaust frame struts" },
+  correct: "a",
+},
+
+{
+  id: 512,
+  category: "ATA 79",
+  question: "What does the B-sump check valve prevent on shutdown?",
+  options: { a: "Oil leakage from the B-sump", b: "Carbonization of oil in the B-sump", c: "Scavenge oil from entering the B-sump" },
+  correct: "b",
+},
+
+{
+  id: 513,
+  category: "ATA 79",
+  question: "Where is the electrical chip detector located?",
+  options: { a: "In the AGB casting", b: "Between the oil cooler and oil filter", c: "In the exhaust frame struts" },
+  correct: "b",
+},
+
+{
+  id: 514,
+  category: "ATA 79",
+  question: "What does the oil tank store for engine lubrication?",
+  options: { a: "Fuel", b: "Coolant", c: "Oil" },
+  correct: "c",
+},
+
+{
+  id: 515,
+  category: "ATA 79",
+  question: "How much oil does the oil tank hold to the FULL mark?",
+  options: { a: "6.9 liters", b: "5 quarts", c: "7.3 quarts" },
+  correct: "c",
+},
+
+{
+  id: 516,
+  category: "ATA 79",
+  question: "What is the purpose of the oil filter bypass sensor?",
+  options: { a: "Indicate impending filter bypass", b: "Monitor oil temperature", c: "Activate the low oil pressure sensor" },
+  correct: "a",
+},
+
+{
+  id: 517,
+  category: "ATA 79",
+  question: "Which approved oil type is recommended for higher operating temperatures?",
+  options: { a: "AeroShell Turbine Oil", b: "BP Turbo Oil 2389", c: "Exxon Turbo Oil 2389" },
+  correct: "a",
+},
+
+{
+  id: 518,
+  category: "ATA 79",
+  question: "What are the oil consumption limits for Type II oils?",
+  options: { a: "264 cc/hr", b: "176 cc/hr", c: "3600 cc/hr" },
+  correct: "b",
+},
+
+{
+  id: 519,
+  category: "ATA 79",
+  question: "When is the 'power unit low oil level clearing procedure' required?",
+  options: { a: "After every flight", b: "During cold starts", c: "If the engine requires 2.8 Lt or more during any single oil servicing refill" },
+  correct: "c",
+},
+
+{
+  id: 520,
+  category: "ATA 79",
+  question: "Where is the oil temperature detector located?",
+  options: { a: "On the left side of the front gearbox housing", b: "On the right side of the front gearbox housing", c: "In the exhaust frame struts" },
+  correct: "b",
+},
+
+{
+  id: 521,
+  category: "ATA 79",
+  question: "What does the oil pressure transmitter measure?",
+  options: { a: "Oil supply pressure", b: "Oil temperature", c: "B-sump differential pressure" },
+  correct: "c",
+},
+
+{
+  id: 522,
+  category: "ATA 79",
+  question: "When does the low oil pressure sensor caution appear?",
+  options: { a: "When oil pressure is > 20 psi", b: "During cold starts", c: "When oil pressure is < 20 psi" },
+  correct: "c",
+},
+
+{
+  id: 523,
+  category: "ATA 79",
+  question: "Where is the A-sump located?",
+  options: { a: "In the cold section module", b: "In the midframe assembly", c: "In the aft section of the power turbine module" },
+  correct: "a",
+},
+
+{
+  id: 524,
+  category: "ATA 79",
+  question: "What does the emergency oil system in A & B Sumps provide?",
+  options: { a: "Additional oil pressure to the main bearings", b: "Emergency lubrication in case of oil supply disruption", c: "Fuel for emergency operation" },
+  correct: "b",
+},
+
+{
+  id: 525,
+  category: "ATA 79",
+  question: "Where does the air released through the centervent in the A-sump go?",
+  options: { a: "Into the gearbox", b: "Into the engine exhaust", c: "Overboard into the atmosphere" },
+  correct: "c",
+},
+
+{
+  id: 526,
+  category: "ATA 79",
+  question: "How does the B-sump venting system operate?",
+  options: { a: "Removes oil from excess air and ejects the air", b: "Pumps oil into the B-sump", c: "Cools the B-sump during operation" },
+  correct: "a",
+},
+
+{
+  id: 527,
+  category: "ATA 79",
+  question: "What does the C-sump venting system do?",
+  options: { a: "Removes excess air from the C-sump", b: "Cools the C-sump oil", c: "Injects oil into the power turbine module" },
+  correct: "a",
+},
+
+{
+  id: 528,
+  category: "ATA 79",
+  question: "What is the purpose of the Emergency Oil System in A & B Sumps?",
+  options: { a: "Provide additional fuel in emergencies", b: "Maintain lubrication during oil supply disruption", c: "Cool the engine during emergency operation" },
+  correct: "b",
+},
+
+{
+  id: 529,
+  category: "ATA 79",
+  question: "Where is the A-sump venting centervent located?",
+  options: { a: "In the exhaust frame struts", b: "In the power turbine module", c: "In the forward part of the power turbine shaft" },
+  correct: "c",
+},
+
+{
+  id: 530,
+  category: "ATA 79",
+  question: "What does the C-sump venting system remove from the excess air?",
+  options: { a: "Fuel particles", b: "Oil particles", c: "Coolant vapor" },
+  correct: "b",
+},
+
+{
+  id: 506,
+  category: "ATA 21",
+  question: "What does ECS stand for?",
+  options: { a: "Environmental Control System", b: "Emergency Control System", c: "Electronic Control System" },
+  correct: "a"
+},
+
+{
+  id: 507,
+  category: "ATA 21",
+  question: "Where is the ECS Control Panel located?",
+  options: { a: "Cabin roof right side", b: "Cockpit overhead panel right side", c: "APU upper transmission deck" },
+  correct: "b"
+},
+
+{
+  id: 508,
+  category: "ATA 21",
+  question: "How is cooling achieved in the air conditioning system?",
+  options: { a: "By using a fuel-based system", b: "By using a refrigerant-based system", c: "By direct airflow from outside" },
+  correct: "b"
+},
+
+{
+  id: 509,
+  category: "ATA 21",
+  question: "What determines the amount of fresh air allowed into the ventilation system?",
+  options: { a: "DTCU", b: "Fresh Air Valves", c: "Evaporator Fans" },
+  correct: "b"
+},
+
+{
+  id: 510,
+  category: "ATA 21",
+  question: "In which position should the ECS rotary switch be set to provide fresh air to the pilots in the cockpit?",
+  options: { a: "MAX AC", b: "VENT", c: "AC" },
+  correct: "b"
+},
+
+{
+  id: 511,
+  category: "ATA 21",
+  question: "What does the DTCU stand for?",
+  options: { a: "Digital Thermostat Control Unit", b: "Dynamic Temperature Control Unit", c: "Digital Temperature Control Unit" },
+  correct: "c"
+},
+
+{
+  id: 512,
+  category: "ATA 21",
+  question: "What does the EPR valve control?",
+  options: { a: "Evaporator Pressure Regulator Valve", b: "Environmental Pressure Relief Valve", c: "Evaporator Pressure Reducer Valve" },
+  correct: "a"
+},
+
+{
+  id: 513,
+  category: "ATA 21",
+  question: "How is refrigerant charge quantified during servicing?",
+  options: { a: "By pressure", b: "By weight", c: "By volume" },
+  correct: "b"
+},
+
+{
+  id: 514,
+  category: "ATA 21",
+  question: "Which component is responsible for cooling down the liquid arriving from the flash tank?",
+  options: { a: "Filter/Dryer", b: "Subcooler", c: "Evaporator Pressure Regulator Valve" },
+  correct: "b"
+},
+
+{
+  id: 515,
+  category: "ATA 21",
+  question: "What is the purpose of the ACS Visualizer software?",
+  options: { a: "To control cabin lighting", b: "To monitor and visualize ACS parameters", c: "To simulate emergency scenarios" },
+  correct: "b"
+},
+
+{
+  id: 516,
+  category: "ATA 21",
+  question: "When using a hand-held electronic leak detector, what should be done if a leak is identified?",
+  options: { a: "Continue operations as usual", b: "Recover refrigerant prior to disconnection and rectification", c: "Ignore the leak" },
+  correct: "b"
+},
+
+{
+  id: 517,
+  category: "ATA 21",
+  question: "What is the primary purpose of the Flash Tank in the ACS?",
+  options: { a: "To store refrigerant", b: "To flash refrigerant", c: "To cool the cabin" },
+  correct: "b"
+},
+
+{
+  id: 518,
+  category: "ATA 21",
+  question: "Which option is NOT a function of the DTCU?",
+  options: { a: "Sending command control signals to compressors", b: "Recording discrepancies during power-up BIT test", c: "Controlling aircraft navigation" },
+  correct: "c"
+},
+
+{
+  id: 519,
+  category: "ATA 21",
+  question: "What is the purpose of the Fresh Air Valves (FAV)?",
+  options: { a: "To control aircraft lighting", b: "To proportion fresh and recirculated air", c: "To regulate cabin pressure" },
+  correct: "b"
+},
+
+{
+  id: 520,
+  category: "ATA 21",
+  question: "Which statement about the compressor pallet assembly is correct?",
+  options: { a: "It is located on the left sponson", b: "It contains an optional third compressor", c: "It is part of the ventilation system" },
+  correct: "b"
+},
+
+{
+  id: 521,
+  category: "ATA 21",
+  question: "How is the ACS designed to actively cool?",
+  options: { a: "At all times", b: "When OAT is higher than 16°C", c: "When OAT is lower than 16°C" },
+  correct: "b"
+},
+
+{
+  id: 522,
+  category: "ATA 21",
+  question: "Which sensor does NOT provide inputs to the DTCU?",
+  options: { a: "Air Temperature Sensor (Cabin Ambient)", b: "Oil Temperature Sensor", c: "Pressure Switch" },
+  correct: "b"
+},
+
+{
+  id: 523,
+  category: "ATA 21",
+  question: "What is the purpose of the Thermostatic Expansion Valve?",
+  options: { a: "To control the flow of refrigerant through evaporators", b: "To regulate cabin temperature manually", c: "To act as a temperature sensor" },
+  correct: "a"
+},
+
+{
+  id: 524,
+  category: "ATA 21",
+  question: "What is the function of the evaporator fans when cooling is not required?",
+  options: { a: "To increase cabin pressure", b: "To operate independently for ventilation", c: "To cool the evaporator heat exchangers" },
+  correct: "b"
+},
+
+{
+  id: 525,
+  category: "ATA 21",
+  question: "What is the purpose of the subcooler in the ACS?",
+  options: { a: "To cool the cabin air", b: "To cool the refrigerant before entering the evaporator", c: "To regulate cabin pressure" },
+  correct: "b"
+},
+
+{
+  id: 526,
+  category: "ATA 21",
+  question: "Which component prevents excessive pressure in the high-pressure side of the air conditioning system?",
+  options: { a: "Pressure Switch", b: "Relief Valve", c: "Filter/Dryer" },
+  correct: "b"
+},
+
+{
+  id: 527,
+  category: "ATA 21",
+  question: "What is the purpose of the evaporator in the ACS?",
+  options: { a: "To cool the cabin air", b: "To heat the cabin air", c: "To store refrigerant" },
+  correct: "a"
+},
+
+{
+  id: 528,
+  category: "ATA 21",
+  question: "Which option is NOT a function of the Air Supply Fans?",
+  options: { a: "To provide fresh air to the cabin", b: "To circulate air within the cabin", c: "To control aircraft lighting" },
+  correct: "c"
+},
+
+{
+  id: 529,
+  category: "ATA 21",
+  question: "How is the refrigerant cooled before entering the evaporator?",
+  options: { a: "By the subcooler", b: "By the filter/dryer", c: "By the compressor" },
+  correct: "a"
+},
+
+{
+  id: 530,
+  category: "ATA 21",
+  question: "What does the Pack Control Valve regulate?",
+  options: { a: "Airflow to the cabin", b: "Temperature in the cockpit", c: "Pressure in the cargo hold" },
+  correct: "a"
+},
+
+{
+  id: 1,
+  category: "ATA 21",
+  question: "What does the ECS control panel in the cockpit overhead panel allow selection of?",
+  options: { a: "Fuel type", b: "Heating mode", c: "Air conditioning mode" },
+  correct: 'c'
+},
+{
+  id: 2,
+  category: "ATA 21",
+  question: "How is the temperature controlled in the cockpit and cabin using the ECS control panel?",
+  options: { a: "Through a push-button", b: "Via rotary temperature selectors", c: "By voice command" },
+  correct: 'b'
+},
+{
+  id: 3,
+  category: "ATA 21",
+  question: "Which avionic components have in-built cooling fans?",
+  options: { a: "Control panels only", b: "MFDs only", c: "Both MFDs and other components" },
+  correct: 'c'
+},
+{
+  id: 4,
+  category: "ATA 21",
+  question: "How is cooling achieved for avionic locations like the cockpit centre console and avionic racks?",
+  options: { a: "By drawing ambient air from the top of the aircraft", b: "By drawing ambient air from the underside of the aircraft", c: "By using exhaust air from the engines" },
+  correct: 'b'
+},
+{
+  id: 5,
+  category: "ATA 21",
+  question: "Where are the air intakes for the avionic racks located?",
+  options: { a: "Top of the racks", b: "Bottom of the racks", c: "Rear of the racks" },
+  correct: 'b'
+},
+{
+  id: 6,
+  category: "ATA 21",
+  question: "How is power supplied to the main fans for the lower console and avionic racks?",
+  options: { a: "From the No. 1 DC PRIMARY bus", b: "From the No. 2 DC PRIMARY bus", c: "From the DC ESSENTIAL bus" },
+  correct: 'c'
+},
+{
+  id: 7,
+  category: "ATA 21",
+  question: "What caution will be displayed on the EICAS if both fans in an avionic rack or the centre console fail?",
+  options: { a: "COCKPIT SEC FAN Caution", b: "RACK 1 FAN FAIL Caution", c: "RACK 2 FAN FAIL Caution" },
+  correct: 'a'
+},
+{
+  id: 8,
+  category: "ATA 21",
+  question: "Where is the ECS Control Panel located?",
+  options: { a: "On the nose landing gear bay", b: "In the cockpit overhead panel right side", c: "In the lower fuselage" },
+  correct: 'b'
+},
+{
+  id: 9,
+  category: "ATA 21",
+  question: "What is the purpose of the Heater Control Unit (HCU) in the heating system?",
+  options: { a: "To control the aircraft's weight", b: "To modulate and shut off valves for temperature control", c: "To control the avionic fans" },
+  correct: 'b'
+},
+{
+  id: 10,
+  category: "ATA 21",
+  question: "How is the source of air for aircraft heating controlled?",
+  options: { a: "Through a foot pedal", b: "Via the AIR SRCE HEAT/START switch", c: "By using voice commands" },
+  correct: 'b'
+},
+{
+  id: 11,
+  category: "ATA 21",
+  question: "What happens if the APU is providing bleed air and the #1 ENG FIRE warning light is on?",
+  options: { a: "The aircraft will shut down completely", b: "The heater will shut down", c: "The ECS control panel will be disabled" },
+  correct: 'b'
+},
+{
+  id: 12,
+  category: "ATA 21",
+  question: "Where is the HCU located in the aircraft?",
+  options: { a: "Under the nose avionic bay", b: "In the cockpit overhead panel", c: "In the lower fuselage" },
+  correct: 'a'
+},
+{
+  id: 13,
+  category: "ATA 21",
+  question: "What is the function of the modulating shutoff valves in the heating system?",
+  options: { a: "To control cabin lighting", b: "To control heat discharge", c: "To control the landing gear" },
+  correct: 'b'
+},
+{
+  id: 14,
+  category: "ATA 21",
+  question: "How are air manifold pipes interconnected?",
+  options: { a: "Through a hydraulic system", b: "By using conventional 'V' clamps", c: "By using flexible couplings" },
+  correct: 'c'
+},
+{
+  id: 15,
+  category: "ATA 21",
+  question: "What is the purpose of the Overheat Sensor in the cabin heating system?",
+  options: { a: "To control cabin lighting", b: "To prevent excess temperature in the bleed air", c: "To control the landing gear" },
+  correct: 'b'
+},
+{
+  id: 16,
+  category: "ATA 21",
+  question: "What is the principle on which the heat ejectors work?",
+  options: { a: "Jet propulsion", b: "Venturi principle", c: "Thermal radiation" },
+  correct: 'b'
+},
+{
+  id: 17,
+  category: "ATA 21",
+  question: "How does the AIR SRCE HEAT/START switch control the air source for aircraft heating?",
+  options: { a: "Through a touchscreen interface", b: "By voice command", c: "By selecting either ENG or APU" },
+  correct: 'c'
+},
+{
+  id: 18,
+  category: "ATA 21",
+  question: "Where are the engine supply cross-bleed valves located?",
+  options: { a: "Next to the cockpit seats", b: "Adjacent to the oil cooler fan intake", c: "Under the nose avionic bay" },
+  correct: 'b'
+},
+{
+  id: 19,
+  category: "ATA 21",
+  question: "What does the HCU do during engine starting?",
+  options: { a: "Increases cabin temperature", b: "Closes modulating/shutoff valves", c: "Activates the cooling fans" },
+  correct: 'b'
+},
+{
+  id: 20,
+  category: "ATA 21",
+  question: "What is the purpose of flexible couplings in the air manifold pipes?",
+  options: { a: "To enhance aerodynamics", b: "To allow for thermal expansion/contraction", c: "To increase fuel efficiency" },
+  correct: 'b'
+},
+{
+  id: 21,
+  category: "ATA 21",
+  question: "Where are the inlet temperature sensors for the cockpit heating system located?",
+  options: { a: "In the nose bay compartment", b: "Behind the cockpit seats", c: "At the bottom of the racks" },
+  correct: 'b'
+},
+{
+  id: 22,
+  category: "ATA 21",
+  question: "What happens if the overheat sensor in the cockpit heating system registers excess temperature?",
+  options: { a: "The aircraft shuts down", b: "The HCU shuts off the heat supply", c: "The cooling fans activate" },
+  correct: 'b'
+},
+{
+  id: 23,
+  category: "ATA 21",
+  question: "How does the HCU control the discharge of hot bleed air to maintain the desired temperature?",
+  options: { a: "By adjusting the aircraft's weight", b: "By varying the position of modulating/shutoff valves", c: "By controlling the cooling fans" },
+  correct: 'b'
+},
+{
+  id: 24,
+  category: "ATA 21",
+  question: "What caution is displayed if both fans in an avionic rack fail?",
+  options: { a: "COCKPIT SEC FAN Caution", b: "RACK 1 FAN FAIL Caution", c: "RACK 2 FAN FAIL Caution" },
+  correct: 'b'
+},
+{
+  id: 25,
+  category: "ATA 21",
+  question: "Which switch controls the source of air for aircraft heating?",
+  options: { a: "HEAT/STOP switch", b: "AIR SRCE HEAT/START switch", c: "COOL/HEAT switch" },
+  correct: 'b'
+},
+
+{
+  id: 1,
+  category: 'ATA 30',
+  question: 'What is the purpose of the engine anti-ice system?',
+  options: { a: 'Prevent pitot tube ice build-up', b: 'Prevent engine overheating', c: 'Prevent ice at the front of each engine inlet' },
+  correct: 'c',
+},
+
+{
+  id: 2,
+  category: 'ATA 30',
+  question: 'How many methods of anti-ice are used on each engine inlet?',
+  options: { a: 'One', b: 'Two', c: 'Three' },
+  correct: 'b',
+},
+
+{
+  id: 3,
+  category: 'ATA 30',
+  question: 'What powers the No 1 Anti-ice System?',
+  options: { a: '#1 AC Primary Bus', b: 'DC Essential Bus via #1 ENG AI BL AIR circuit breaker', c: 'DC Essential Bus via #1 ENG AI WARN circuit breaker' },
+  correct: 'b',
+},
+
+{
+  id: 4,
+  category: 'ATA 30',
+  question: 'How are the heater mats energized in the engine anti-ice system?',
+  options: { a: 'By the FADEC', b: 'By the Anti-Ice Controller using AC Primary Bus', c: 'By the bleed air system' },
+  correct: 'b',
+},
+
+{
+  id: 5,
+  category: 'ATA 30',
+  question: 'What does the Anti-Ice Controller use to control the heating mats?',
+  options: { a: 'DC Essential Bus', b: 'AC Primary Bus', c: 'Engine bleed air' },
+  correct: 'b',
+},
+
+{
+  id: 6,
+  category: 'ATA 30',
+  question: 'In the event of dual generator failures, what happens to the No 1 Engine Anti-Ice?',
+  options: { a: 'It remains powered', b: 'It is shed', c: 'The bleed air system takes over' },
+  correct: 'b',
+},
+
+{
+  id: 7,
+  category: 'ATA 30',
+  question: 'What is the indication if there is a loss of both temperature sensors in one heater zone?',
+  options: { a: 'Power is removed from both heater mat zones', b: 'No fault indication is sent to the DCUs', c: 'An anti-ice fail signal is sent to the DCUs' },
+  correct: 'a',
+},
+
+{
+  id: 8,
+  category: 'ATA 30',
+  question: 'What is the function of the Anti-Ice Start Bleed Valve (AISBV)?',
+  options: { a: 'Provide hot air to the cabin', b: 'Bleed off excess P2.5 air from the compressor', c: 'Cool the engine during high power settings' },
+  correct: 'b',
+},
+
+{
+  id: 9,
+  category: 'ATA 30',
+  question: 'When is the AISBV fully open?',
+  options: { a: 'When the anti-ice system is switched off', b: 'When Ng is less than 86%', c: 'When Ng is greater than 86%' },
+  correct: 'b',
+},
+
+{
+  id: 10,
+  category: 'ATA 30',
+  question: 'What caution is displayed if the anti-ice system is switched on above 86% Ng?',
+  options: { a: 'ENG 1 A-ICE DGRD', b: 'INLT 1 A-ICE FAIL', c: 'TRN INLT A-I on OAT below 5 Degrees C and both Anti-Ice switches are off' },
+  correct: 'a',
+},
+
+{
+  id: 11,
+  category: 'ATA 30',
+  question: 'What does the ENG 1 A-ICE DGRD caution indicate?',
+  options: { a: 'Anti-ice system failure', b: 'Bleed air system failure', c: 'Generator failure' },
+  correct: 'b',
+},
+
+{
+  id: 12,
+  category: 'ATA 30',
+  question: 'What is displayed during the Power On Test for the Engine Anti-Ice?',
+  options: { a: 'OPERATIONAL', b: 'TEST PASSED', c: 'TEST IN PROGRESS' },
+  correct: 'c',
+},
+
+{
+  id: 13,
+  category: 'ATA 30',
+  question: 'Where can the status of the Engine Anti-Ice be viewed?',
+  options: { a: 'HLTH >> PROPULSION >> SUBSTAT', b: 'EICAS and CAS', c: 'OVERHEAD PANEL' },
+  correct: 'a',
+},
+
+{
+  id: 14,
+  category: 'ATA 30',
+  question: 'What is the purpose of the pitot static anti-ice system?',
+  options: { a: 'Prevent engine overheating', b: 'Prevent pitot tube ice build-up', c: 'Provide hot air to the cabin' },
+  correct: 'b',
+},
+
+{
+  id: 15,
+  category: 'ATA 30',
+  question: 'How many pitot static tubes are on the aircraft?',
+  options: { a: 'One', b: 'Two', c: 'Three' },
+  correct: 'c',
+},
+
+{
+  id: 16,
+  category: 'ATA 30',
+  question: 'What power supply does the No 2 system use in the pitot static anti-ice system?',
+  options: { a: 'DC Essential Bus', b: 'DC Essential Bus via LT PITOT HEAT WARN CB', c: 'AC Primary Bus' },
+  correct: 'a',
+},
+
+{
+  id: 17,
+  category: 'ATA 30',
+  question: 'When is the caution TRN PIT HEAT ON displayed?',
+  options: { a: 'When pitot heaters are switched off', b: 'When OAT is 5°C or less', c: 'When all three switches are selected ON' },
+  correct: 'b',
+},
+
+{
+  id: 18,
+  category: 'ATA 30',
+  question: 'What caution is displayed if at least one pitot heater is still selected on when turning PITOT HEAT OFF?',
+  options: { a: 'TRN PIT HEAT OFF', b: 'PITOT HEAT 1 No 1 system inoperative', c: 'Nr less than 80%' },
+  correct: 'a',
+},
+
+{
+  id: 19,
+  category: 'ATA 30',
+  question: 'What does the advisory PITOT HEAT ON indicate?',
+  options: { a: 'Pitot heaters are switched off', b: 'Pitot heaters are switched on', c: 'Pitot heater elements failure' },
+  correct: 'b',
+},
+
+{
+  id: 20,
+  category: 'ATA 30',
+  question: 'What happens if any of the pitot heater elements fail?',
+  options: { a: 'The relay contact will energize', b: 'The DCUs will display a caution', c: 'The pitot heater system fails to safe' },
+  correct: 'c',
+},
+{
+  id: 1,
+  category: 'ATA 30',
+  question: 'What is the purpose of the windshield anti-ice system?',
+  options: { a: 'Prevent rain on the windshield', b: 'Prevent ice and condensation', c: 'Control windshield wipers' },
+  correct: 'b'
+},
+
+{
+  id: 2,
+  category: 'ATA 30',
+  question: 'Where are the windshield anti-ice controllers located?',
+  options: { a: 'On the nose bay', b: 'In the cockpit overheads', c: 'On the windshields' },
+  correct: 'b'
+},
+
+{
+  id: 3,
+  category: 'ATA 30',
+  question: 'Which power supply is used by the No 1 windshield system for heating?',
+  options: { a: 'DC Essential Bus', b: 'AC Primary Bus', c: 'APU generator' },
+  correct: 'b'
+},
+
+{
+  id: 4,
+  category: 'ATA 30',
+  question: 'At what temperature range does the windshield anti-ice controller maintain the windshield?',
+  options: { a: '-5°C to 0°C', b: '38°C to 50°C', c: '100°C to 120°C' },
+  correct: 'b'
+},
+
+{
+  id: 5,
+  category: 'ATA 30',
+  question: 'What happens when the co-pilot\'s windshield anti-ice switch is in the ON position?',
+  options: { a: '28v is applied to the controller', b: 'Windshield is automatically shed', c: 'Both a and b' },
+  correct: 'c'
+},
+
+{
+  id: 6,
+  category: 'ATA 30',
+  question: 'What is the maximum speed of the windshield wipers?',
+  options: { a: '50 knots', b: '100 knots', c: '150 knots' },
+  correct: 'b'
+},
+
+{
+  id: 7,
+  category: 'ATA 30',
+  question: 'Which bus does the windshield wiper system use for power?',
+  options: { a: 'AC Primary Bus', b: 'DC Essential Bus', c: 'Backup Converter' },
+  correct: 'b'
+},
+
+{
+  id: 8,
+  category: 'ATA 30',
+  question: 'How many heating elements are there in each main rotor blade for the RIPS system?',
+  options: { a: '2', b: '4', c: '8' },
+  correct: 'b'
+},
+
+{
+  id: 9,
+  category: 'ATA 30',
+  question: 'What is the function of the Ice Rate Probe in the RIPS system?',
+  options: { a: 'Detect ice on the bar', b: 'Provide AC power', c: 'Operate the droop stops' },
+  correct: 'a'
+},
+
+{
+  id: 10,
+  category: 'ATA 30',
+  question: 'In which mode does the RIPS system operate when Weight-Off-Wheels?',
+  options: { a: 'Manual', b: 'Automatic', c: 'Off' },
+  correct: 'b'
+},
+
+{
+  id: 11,
+  category: 'ATA 30',
+  question: 'How is the Tail Rotor Blades balanced if a heating element fails?',
+  options: { a: 'Power to other 3 blades is removed', b: 'No action is taken', c: 'Switch to backup generator' },
+  correct: 'a'
+},
+
+{
+  id: 12,
+  category: 'ATA 30',
+  question: 'What is the purpose of the RIPS Junction Box?',
+  options: { a: 'Switching AC power to main rotor slip ring', b: 'Control Tail Rotor Slip Ring', c: 'Detect ice on the bar' },
+  correct: 'a'
+},
+
+{
+  id: 13,
+  category: 'ATA 30',
+  question: 'What happens during the RIPS system reset?',
+  options: { a: 'System shutdown', b: 'Controllers swap', c: 'Increased heating power' },
+  correct: 'b'
+},
+
+{
+  id: 14,
+  category: 'ATA 30',
+  question: 'What is the purpose of the Ice Rate Display on the PFD?',
+  options: { a: 'Display outside air temperature', b: 'Show liquid water content', c: 'Indicate RIPS status' },
+  correct: 'b'
+},
+
+{
+  id: 15,
+  category: 'ATA 30',
+  question: 'When is the RIPS system considered operational?',
+  options: { a: 'Anytime power is applied', b: 'When airborne', c: 'During APU overload' },
+  correct: 'b'
+},
+
+{
+  id: 16,
+  category: 'ATA 30',
+  question: 'What is the purpose of the RIPS SUB STAT page?',
+  options: { a: 'Monitor the Ice Rate Probe', b: 'View system components status', c: 'Control Tail Rotor Slip Ring' },
+  correct: 'b'
+},
+
+{
+  id: 17,
+  category: 'ATA 30',
+  question: 'What does the CBIT test do in the RIPS system?',
+  options: { a: 'Heating element check', b: 'Continuous system monitoring', c: 'Ice detection' },
+  correct: 'b'
+},
+
+{
+  id: 18,
+  category: 'ATA 30',
+  question: 'What happens during an APU Overload in the RIPS system?',
+  options: { a: 'Increased heating power', b: 'Caution APU OVERLOAD displayed', c: 'System shutdown' },
+  correct: 'b'
+},
+
+{
+  id: 19,
+  category: 'ATA 30',
+  question: 'How are the zones heated in the RIPS system?',
+  options: { a: 'Sequentially', b: 'Simultaneously', c: 'Randomly' },
+  correct: 'a'
+},
+
+{
+  id: 20,
+  category: 'ATA 30',
+  question: 'What does the Ice and Rain Power Supplies highlight?',
+  options: { a: 'AC power failure', b: 'Generator failure', c: 'Systems remaining powered' },
+  correct: 'c'
+}
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+  
+  
 ];
 
