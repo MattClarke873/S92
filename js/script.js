@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
   const selectAllCheckbox = document.getElementById('selectAll');
 
   let selectedQuestions = [];
+  let percentageHistory = [];
+  let filteredQuestions = [];
 
   function generateRandomQuestions(count, questions) {
     const shuffledQuestions = questions.sort(() => Math.random() - 0.5);
@@ -80,8 +82,6 @@ document.addEventListener('DOMContentLoaded', function () {
           <br>
           <br> ------- `;
 
-          
-
         if (selectedOption === question.correct) {
           resultText.style.color = 'green';
           correctCount++;
@@ -105,10 +105,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const score = correctCount;
     const percentage = (correctCount / selectedQuestions.length) * 100;
+    percentageHistory.push(percentage);
 
     const scoreText = document.createElement('p');
     scoreText.innerHTML = `Score: ${score} / ${selectedQuestions.length}, Percentage: ${percentage.toFixed(2)}%`;
     resultContainer.appendChild(scoreText);
+
+    // Display the last 5 percentages
+    const lastFivePercentages = percentageHistory.slice(Math.max(percentageHistory.length - 5, 0));
+    const percentageHistoryText = document.createElement('p');
+    percentageHistoryText.innerHTML = `Last 5 Scores: ${lastFivePercentages.map(p => p.toFixed(2)).join('%, ')}%`;
+    resultContainer.appendChild(percentageHistoryText);
+
+    // Hide the Finish button
+    finishBtn.style.display = 'none';
 
     // Hide answered questions, display review section
     questionsContainer.style.display = 'none';
@@ -122,6 +132,9 @@ document.addEventListener('DOMContentLoaded', function () {
     questionsContainer.style.display = 'block';
     resultContainer.style.display = 'none';
     questionCountSelect.selectedIndex = 0;
+
+    // Show the Finish button
+    finishBtn.style.display = 'inline-block';
   }
 
   function getSelectedCategories() {
@@ -139,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const selectedCategories = getSelectedCategories();
 
     // Filter questions based on selected categories
-    let filteredQuestions = questionBank.filter((question) => {
+    filteredQuestions = questionBank.filter((question) => {
       return selectedCategories.includes(question.category);
     });
 

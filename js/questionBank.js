@@ -4275,7 +4275,7 @@ const questionBank = [
   {
     id: 370,
     category: "ATA 33",
-    question: "Where is power applied when the Pilot\u2019s and Co-pilot\u2019s Switches are ON?",
+    question: "Where is power applied when the Pilot\u2019s and Co-pilot\u2019s stearable search lght switches are ON?",
     options: {
       a: "Only to the Pilot\u2019s switch",
       b: "Only to the Co-pilot\u2019s switch",
