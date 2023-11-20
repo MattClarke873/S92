@@ -2731,8 +2731,6 @@ const questionBank = [
     options: { a: "DC electrically", b: "Hydraulically", c: "AC electrically" },
     correct: "c",
   },
-
-  
   {
     id: 509,
     category: "ATA 25",
@@ -2740,15 +2738,13 @@ const questionBank = [
     options: { a: "300 lbs", b: "600 lbs", c: "800 lbs" },
     correct: "b",
   },
-  
   {
     id: 510,
     category: "ATA 25",
     question: "How many configurations are available for the rescue hoist system?",
     options: { a: "One", b: "Two", c: "Three" },
     correct: "b",
-  },
-  
+  },  
   {
     id: 510,
     category: "ATA 25",
@@ -2763,7 +2759,6 @@ const questionBank = [
     options: { a: "D handle at the forward of the sponson", b: "Cockpit switch", c: "Both" },
     correct: "c",
   },
-  
   {
     id: 510,
     category: "ATA 25",
@@ -2771,8 +2766,35 @@ const questionBank = [
     options: { a: "No", b: "Yes", c: "Depending on part number" },
     correct: "a",
   },
+  {
+    id: 510,
+    category: "ATA 25",
+    question: "Are the seats crash worthy?",
+    options: { a: "No", b: "Yes", c: "Depending on part number" },
+    correct: "b",
+  },
+  {
+    id: 510,
+    category: "ATA 25",
+    question: "How is the seat crash energy absorbed?",
+    options: { a: "Springs", b: "Gas struts", c: "Crush tubes and rollers" },
+    correct: "c",
+  },
+  {
+    id: 510,
+    category: "ATA 25",
+    question: "How can we tell if the passenger seats have attenuated?",
+    options: { a: "The seat pan will be in contact with the cabin floor", b: "It is not possible to tell", c: "Red marker tag" },
+    correct: "c",
+  },
+  {
+    id: 510,
+    category: "ATA 25",
+    question: "How many life rafts are fitted to the aircraft?",
+    options: { a: "1", b: "2", c: "3" },
+    correct: "b",
+  },
   
-
   
 
 
