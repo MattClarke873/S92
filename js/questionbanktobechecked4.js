@@ -1,4 +1,4 @@
-const questionBank4 = [
+const questionBank = [
 {
     id: 401,
     category: 'ATA 22',
