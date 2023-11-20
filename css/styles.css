@@ -119,39 +119,7 @@ text-align: center;
 
 
 
-/* bottom navigation buttons */
 
-.navigation {
-  display: flex;
-  justify-content:center;
-  align-items: center;
-}
-.navigation a {
-  text-decoration: none;
-}
-.navigation button { 
-  padding: 10px 40px;
-  margin: 20px -10px 20px -10px ;
-  border: none;
-  border-radius: 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-.navigation button:hover{
-background-color:  #6d6d6d;
-}
-#left { background-color:  #333; color: #fff; 
-border-radius: 5px 0px 0px 5px;
-height: 40px;
-}
-#home { background-color:  #333; color: #fff; 
-border-radius: 0; 
-height: 40px;
-}
-#right { background-color:  #333; color: #fff;
-border-radius: 0px 5px 5px 0px;
-height: 40px;
-}
 
 
 
