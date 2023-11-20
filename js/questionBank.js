@@ -2464,7 +2464,7 @@ const questionBank = [
     category: "ATA 25",
     question: "What type of equipment and furnishings are included in the flight compartment?",
     options: {
-      a: "Passenger seats",
+      a: "First Aid kit",
       b: "Lighted chart holders",
       c: "Wire strike protection"
     },
@@ -2564,7 +2564,7 @@ const questionBank = [
     question: "What is the purpose of the red dot on the life raft electrical connection plug?",
     options: {
       a: "Provide visual conformation of correct plug fitting",
-      b: "Any tamper device",
+      b: "Anti tamper device",
       c: "Provide visual conformation of system arming "
     },
     correct: "a"
@@ -2673,7 +2673,7 @@ const questionBank = [
     category: "ATA 25",
     question: "What must be confirmed before continuing with the life-raft deployment test?",
     options: {
-      a: "Illumination of ARM lights and RAFT ARM caution on EICAS",
+      a: "ARM lights and RAFT ARM caution extinguished on the control panel and EICAS",
       b: "Rotation of the sunvisor",
       c: "Presence of passengers in the cabin"
     },
@@ -2712,7 +2712,68 @@ const questionBank = [
     },
     correct: "a"
   },
+  {
+    id: 240,
+    category: "ATA 25",
+    question: "Each life raft is powered by",
+    options: {
+      a: "Primary squib BATTERY bus and secondary squib N\u00b11 DC PRIMARY bus",
+      b: "Built in power supply",
+      c: "Aircraft emergency battery"
+    },
+    correct: "a"
+  },
+  
+  {
+    id: 507,
+    category: "ATA 25",
+    question: "How is the Goodrich 44311-1 hoist powered?",
+    options: { a: "DC electrically", b: "Hydraulically", c: "AC electrically" },
+    correct: "c",
+  },
 
+  
+  {
+    id: 509,
+    category: "ATA 25",
+    question: "What is the load capacity of the rescue hoist system?",
+    options: { a: "300 lbs", b: "600 lbs", c: "800 lbs" },
+    correct: "b",
+  },
+  
+  {
+    id: 510,
+    category: "ATA 25",
+    question: "How many configurations are available for the rescue hoist system?",
+    options: { a: "One", b: "Two", c: "Three" },
+    correct: "b",
+  },
+  
+  {
+    id: 510,
+    category: "ATA 25",
+    question: "What is the life lift raft capacity?",
+    options: { a: "19-person", b: "14-person", c: "14-person with a 21-person overload capacity" },
+    correct: "c",
+  },
+  {
+    id: 510,
+    category: "ATA 25",
+    question: "How is the life raft deployed?",
+    options: { a: "D handle at the forward of the sponson", b: "Cockpit switch", c: "Both" },
+    correct: "c",
+  },
+  
+  {
+    id: 510,
+    category: "ATA 25",
+    question: "Are the left and right hand lift rafts interchangeable?",
+    options: { a: "No", b: "Yes", c: "Depending on part number" },
+    correct: "a",
+  },
+  
+
+  
 
 
 
