@@ -3914,7 +3914,7 @@ const questionBank = [
     category: "ATA 33",
     question: "Where is the cockpit lights control panel located?",
     options: {
-      a: "Above the pilot's head",
+      a: "Center console",
       b: "Below the overhead circuit breaker panel",
       c: "Behind the co-pilot's seat"
     },
@@ -3964,7 +3964,7 @@ const questionBank = [
     },
     correct: "c"
   },
-  {
+/*   {
     id: 342,
     category: "ATA 33",
     question: "What is the purpose of the Backup Indicators?",
@@ -3974,8 +3974,8 @@ const questionBank = [
       c: "To control the Flood Light"
     },
     correct: "b"
-  },
-  {
+  }, */
+ /*  {
     id: 343,
     category: "ATA 33",
     question: "Which lighting panels are controlled by the rotary control in the Side Console?",
@@ -3985,15 +3985,15 @@ const questionBank = [
       c: "Audio Controller 2"
     },
     correct: "a"
-  },
+  }, */
   {
     id: 344,
     category: "ATA 33",
     question: "What is the power source for the Flood Light?",
     options: {
       a: "Battery Bus (28v)",
-      b: "#1 DC Primary Bus",
-      c: "#2 DC Primary Bus"
+      b: "N\u00b11 DC Primary Bus",
+      c: "N\u00b12 DC Primary Bus"
     },
     correct: "a"
   },
@@ -4002,20 +4002,20 @@ const questionBank = [
     category: "ATA 33",
     question: "How many Utility Lights are there in the cockpit, and what is their power source?",
     options: {
-      a: "One, #2 DC Primary Bus",
+      a: "One, N\u00b12 DC Primary Bus",
       b: "Two, Battery Bus",
-      c: "Three, #1 DC Primary Bus"
+      c: "Three, N\u00b11 DC Primary Bus"
     },
     correct: "b"
   },
   {
     id: 346,
     category: "ATA 33",
-    question: "What is the purpose of the Approach Chart Holders Lighting?",
+    question: "What colours are displayed by Approach Chart Holders Lighting?",
     options: {
-      a: "To provide general illumination",
-      b: "To store and display charts",
-      c: "To control the cabin lighting"
+      a: "red and white",
+      b: "white and green",
+      c: "red and green"
     },
     correct: "b"
   },
@@ -4026,7 +4026,7 @@ const questionBank = [
     options: {
       a: "Pilot's side of the overhead panel",
       b: "Behind the co-pilot's seat",
-      c: "Above the pilot's head"
+      c: "Above the co-pilot's head"
     },
     correct: "a"
   },
@@ -4035,8 +4035,8 @@ const questionBank = [
     category: "ATA 33",
     question: "What is the power source for the cabin lighting strips down the left side of the cabin?",
     options: {
-      a: "#1 DC Primary Bus",
-      b: "#2 DC Primary Bus",
+      a: "N\u00b11 DC Primary Bus",
+      b: "N\u00b12 DC Primary Bus",
       c: "Battery Bus (28v)"
     },
     correct: "a"
@@ -4080,8 +4080,8 @@ const questionBank = [
     question: "What is the power source for the Baggage Compartment Light?",
     options: {
       a: "Battery Bus",
-      b: "#1 DC Primary Bus",
-      c: "#2 DC Primary Bus"
+      b: "N\u00b11 DC Primary Bus",
+      c: "N\u00b12 DC Primary Bus"
     },
     correct: "a"
   },
@@ -4121,14 +4121,14 @@ const questionBank = [
   {
     id: 356,
     category: "ATA 33",
-    question: "How many Advisory Signs are there in the Passenger Advisory Signs system?",
+    question: "The emercency lights will illuminate if the switch is in the arm position and?",
     options: {
-      a: "Three",
-      b: "Two",
-      c: "Four"
+      a: "Power to the essential bus is lost",
+      b: "Crash inertia swtich is made",
+      c: "Immersion switch is made"
     },
-    correct: "b"
-  },
+    correct: "a"
+  }, 
   {
     id: 357,
     category: "ATA 33",
@@ -4156,8 +4156,8 @@ const questionBank = [
     category: "ATA 33",
     question: "What is the power source for the Baggage Compartment Light?",
     options: {
-      a: "#1 DC Primary Bus",
-      b: "#2 DC Primary Bus",
+      a: "N\u00b11 DC Primary Bus",
+      b: "N\u00b12 DC Primary Bus",
       c: "Battery Bus"
     },
     correct: "c"
@@ -4173,23 +4173,23 @@ const questionBank = [
     },
     correct: "b"
   },
-  {
+   {
     id: 361,
     category: "ATA 33",
-    question: "What components are part of the External lighting system?",
+    question: "What are the positions for the baggage bay lighting on the lighting control panel?",
     options: {
-      a: "Anti-Collision Lights",
-      b: "Position Lights",
-      c: "Searchlight"
+      a: "On",
+      b: "Off",
+      c: "Crew"
     },
     correct: "a"
-  },
+  }, 
   {
     id: 362,
     category: "ATA 33",
     question: "Where are the Anti-Collision Lights controlled from?",
     options: {
-      a: "Captain's seat",
+      a: "Central dimmer panel",
       b: "Pilot's seat",
       c: "Co-pilot\u2019s side of the overhead panel"
     },
@@ -4198,7 +4198,7 @@ const questionBank = [
   {
     id: 363,
     category: "ATA 33",
-    question: "How are the Landing Lights powered on the S-92?",
+    question: "How is the N\u00b12 Landing Lights powered on the S-92?",
     options: {
       a: "Battery Bus",
       b: "DC Essential Bus",
@@ -4212,8 +4212,8 @@ const questionBank = [
     question: "Where are the Position Lights located?",
     options: {
       a: "On top of the cockpit",
-      b: "On the side of each sponson",
-      c: "On the tail"
+      b: "On the side of each sponson and tail trailing edge",
+      c: "nose panel"
     },
     correct: "b"
   },
@@ -4253,13 +4253,13 @@ const questionBank = [
   {
     id: 368,
     category: "ATA 33",
-    question: "In which position does the Co-pilot\u2019s switch have no effect on the Searchlight?",
+    question: "Which Searchlight control has priority?",
     options: {
-      a: "ON",
-      b: "OFF",
-      c: "STOW"
+      a: "Pilot",
+      b: "Co-pilot",
+      c: "Both"
     },
-    correct: "b"
+    correct: "a"
   },
   {
     id: 369,
@@ -4319,7 +4319,7 @@ const questionBank = [
   {
     id: 374,
     category: "ATA 33",
-    question: "What powers the HEELS from the #2 DC Primary Bus?",
+    question: "Where are the HEELS batteries charged from?",
     options: {
       a: "AC Essential Bus",
       b: "Battery Bus",
@@ -4333,7 +4333,7 @@ const questionBank = [
     question: "Where are the emergency lighting batteries located?",
     options: {
       a: "Cockpit floor",
-      b: "Above window 5",
+      b: "Left Hand Avionic Rack",
       c: "Baggage Compartment ceiling"
     },
     correct: "c"
@@ -4345,18 +4345,18 @@ const questionBank = [
     options: {
       a: "In the OFF position",
       b: "In the ON position",
-      c: "In the ARM position"
+      c: "In the OFF or ARM position"
     },
     correct: "c"
   },
   {
     id: 377,
     category: "ATA 33",
-    question: "Where are the Internal Emergency Cabin Lights located?",
+    question: "How many external emergency lights are there?",
     options: {
-      a: "In the cockpit",
-      b: "Throughout the cabin",
-      c: "On the external sponsons"
+      a: "7",
+      b: "6",
+      c: "3"
     },
     correct: "b"
   },
@@ -4385,13 +4385,13 @@ const questionBank = [
   {
     id: 380,
     category: "ATA 33",
-    question: "Where are the PSU 1 and PSU 2 located?",
+    question: "Where are the PSU 1 located?",
     options: {
       a: "Above window 10",
       b: "Below the Co-pilot\u2019s seat",
-      c: "Below the Pilot\u2019s seat"
+      c: "Above window 5"
     },
-    correct: "c"
+    correct: "b"
   },
   {
     id: 381,
@@ -4426,7 +4426,28 @@ const questionBank = [
     },
     correct: "b"
   },
-
+  {
+    id: 383,
+    category: "ATA 33",
+    question: "Under normal operations where is the standby battery charged?",
+    options: {
+      a: "No 2 DC Primary",
+      b: "No 1 DC Primary",
+      c: "No 1 AC Primary"
+    },
+    correct: "a"
+  },
+  {
+    id: 383,
+    category: "ATA 33",
+    question: "The left hand overhead lights are powered by?",
+    options: {
+      a: "No 2 DC Primary",
+      b: "No 1 DC Primary",
+      c: "No 1 AC Primary"
+    },
+    correct: "b"
+  },
 
 
 

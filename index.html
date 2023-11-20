@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -62,18 +63,20 @@ ATA 80"
 >Week 5</button></a>
 
 
-    <div id="popup-container">
-      <div id="popup-content">
-        <p>This is a training aid, <u>PLEASE CHECK ALL QUESTIONS</u> if unsure.
-          <br>
-          <br>If you find any incorrect questions/answers please let me know.
-        </p>
-        <button onclick="closePopup()">Close</button>
-      </div>
+  <div id="popup-container">
+    <div id="popup-content">
+      <p>This is a training aid, <u>PLEASE CHECK ALL QUESTIONS</u> if unsure.
+        <br>
+        <br>If you find any incorrect questions/answers please let me know.
+      </p>
+      <label for="password">Enter password: </label>
+      <input type="password" id="password">
+      <button onclick="checkPassword()">Submit</button>
     </div>
+  </div>
   </div>
 
 
-  <script src="js/popscript.js"></script>
+  <script src="js/popPassword.js"></script>
 </body>
 </html>
