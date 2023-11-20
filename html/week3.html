@@ -26,29 +26,59 @@
 
     <!-- Checkboxes for categories -->
 
-    <div>
-      <ul>
-      <label for="categoryATA18">ATA 18</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 18" id="categoryATA18">
-      <label for="categoryATA28">ATA 26</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 26" id="categoryATA26">
-      <label for="categoryATA28">ATA 28</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 28" id="categoryATA28">
-      <label for="categoryATA34">ATA 34</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 34" id="categoryATA34">
-    </ul>
-    <ul>
-      <label for="categoryATA34">ATA 49</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 49" id="categoryATA49">
-      <label for="categoryATA34">ATA 70</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 70" id="categoryATA70">
-      <label for="categoryATA34">ATA 71</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 71" id="categoryATA71">
-      <label for="categoryATA34">ATA 78</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 78" id="categoryATA78">
-      <label for="categoryATA34">Engine Manuals</label>
-      <input type="checkbox" class="category-checkbox" value="Engine Manuals" id="categoryEngineManuals">
-    </ul>
+    <div class="ATAs">
+      <div>
+        <div class="list">
+          <ul class="ata_List1">
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 18" id="categoryATA18">
+              <label for="categoryATA00-12">ATA 18</label>
+            </div>
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 26" id="categoryATA26">
+              <label for="categoryATA20">ATA 26</label>
+            </div>
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 28" id="categoryATA28">
+              <label for="categoryATA24">ATA 28</label>
+            </div>
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 34" id="categoryATA34">
+              <label for="categoryATA45">ATA 34</label>
+            </div>
+
+          </ul>
+        </div>
+        
+        <div class="list">
+          <ul class="ata_List2">
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 49" id="categoryATA49">
+              <label for="categoryATA50">ATA 49</label>
+            </div>
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 70" id="categoryATA70">
+              <label for="categoryATA62">ATA 70</label>
+            </div>
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 71" id="categoryATA71">
+              <label for="categoryATA63">ATA 71</label>
+            </div>
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 78" id="categoryATA78">
+              <label for="categoryATA63">ATA 78</label>
+            </div>
+
+          </ul>
+        </div>
+        <div class="list1">
+          <ul class="ata_List">
+            <div>
+              <input type="checkbox" class="category-checkbox" value="Engine Manuals" id="categoryEngineManuals">
+              <label for="categoryATA63">Engine Manuals</label>
+            </div>
+          </ul>
+        </div>
       <!-- Add more categories as needed -->
     </div>
     <div>
@@ -62,21 +92,17 @@
 
     <div id="questions-container"></div>
 
-    <button id="finishBtn">Finish</button>
-    <button id="resetBtn">Reset</button>
 
     <div id="result-container"></div>
 
-    <a href="../index.html"> <button id="home">Home </button> </a>
+    <button id="finishBtn">Finish</button>
+    <button id="resetBtn">Reset</button>
 
-    <div id="popup-container">
-      <div id="popup-content">
-        <p>This is a training aid, <u>PLEASE CHECK ALL QUESTIONS</u> if unsure.
-          <br>
-          <br>If you find any incorrect questions/answers please let me know.
-        </p>
-        <button onclick="closePopup()">Close</button>
-      </div>
+
+    <div class="navigation">
+      <a href="../html/week2.html"> <button id="left">&#8592;</button> </a>
+      <a href="../index.html"> <button id="home">&#127968;</button></a>
+      <a href="../html/week4.html"> <button id="right">&#8594;</button> </a>
     </div>
   </div>
 

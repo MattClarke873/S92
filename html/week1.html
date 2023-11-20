@@ -25,29 +25,48 @@
     </select>
 
     <!-- Checkboxes for categories -->
-
-    <div>
-      <ul>
-      <label for="categoryATA18">ATA 00-12</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 00-12" id="categoryATA00-12">
-      <label for="categoryATA28">ATA 20</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 20" id="categoryATA20">
-      <label for="categoryATA28">ATA 24</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 24" id="categoryATA24">
-      <label for="categoryATA34">ATA 45</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 45" id="categoryATA45">
-    </ul>
-    <ul>
-      <label for="categoryATA34">ATA 50</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 50" id="categoryATA50">
-      <label for="categoryATA34">ATA 62</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 62" id="categoryATA62">
-      <label for="categoryATA34">ATA 63</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 63" id="categoryATA63">
-
-    </ul>
-      <!-- Add more categories as needed -->
-    </div>
+    <div class="ATAs">
+      <div>
+        <div class="list">
+          <ul class="ata_List1">
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 00-12" id="categoryATA00-12" >
+              <label for="categoryATA00-12">ATA 00-12</label>
+            </div>
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 20" id="categoryATA20" disabled>
+              <label for="categoryATA20">ATA 20</label>
+            </div>
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 24" id="categoryATA24" disabled>
+              <label for="categoryATA24">ATA 24</label>
+            </div>
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 45" id="categoryATA45" disabled>
+              <label for="categoryATA45">ATA 45</label>
+            </div>
+          </ul>
+        </div>
+        
+        <div class="list">
+          <ul class="ata_List2">
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 50" id="categoryATA50" disabled>
+              <label for="categoryATA50">ATA 50</label>
+            </div>
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 62" id="categoryATA62" disabled>
+              <label for="categoryATA62">ATA 62</label>
+            </div>
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 63" id="categoryATA63" disabled>
+              <label for="categoryATA63">ATA 63</label>
+            </div>
+          </ul>
+        </div>
+<!-- Add more categories as needed -->
+        </div>
+      </div>
     <div>
       <label for="selectAll">Select All</label>
       <input type="checkbox" id="selectAll">
@@ -59,23 +78,19 @@
 
     <div id="questions-container"></div>
 
+
+    <div id="result-container"></div>
     <button id="finishBtn">Finish</button>
     <button id="resetBtn">Reset</button>
 
-    <div id="result-container"></div>
+
+    
+  <div class="navigation">
+  <a href="../index.html"> <button id="home">&#127968;</button></a>
+  <a href="../html/week2.html"> <button id="right">&#8594;</button> </a>
+  </div>
 
 
-    <a href="../index.html"> <button id="home">Home </button> </a>
-
-    <div id="popup-container">
-      <div id="popup-content">
-        <p>This is a training aid, <u>PLEASE CHECK ALL QUESTIONS</u> if unsure.
-          <br>
-          <br>If you find any incorrect questions/answers please let me know.
-        </p>
-        <button onclick="closePopup()">Close</button>
-      </div>
-    </div>
   </div>
 
   <script src="../js/questionBank.js"></script>

@@ -3992,8 +3992,8 @@ const questionBank = [
     question: "What is the power source for the Flood Light?",
     options: {
       a: "Battery Bus (28v)",
-      b: "N\u00b11 DC Primary Bus",
-      c: "N\u00b12 DC Primary Bus"
+      b: "No 1 DC Primary Bus",
+      c: "No 2 DC Primary Bus"
     },
     correct: "a"
   },
@@ -4002,9 +4002,9 @@ const questionBank = [
     category: "ATA 33",
     question: "How many Utility Lights are there in the cockpit, and what is their power source?",
     options: {
-      a: "One, N\u00b12 DC Primary Bus",
+      a: "One, No 2 DC Primary Bus",
       b: "Two, Battery Bus",
-      c: "Three, N\u00b11 DC Primary Bus"
+      c: "Three, No 1 DC Primary Bus"
     },
     correct: "b"
   },

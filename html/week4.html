@@ -26,28 +26,51 @@
 
     <!-- Checkboxes for categories -->
 
-    <div>
-      <ul>
-      <label for="categoryATA18">ATA 22</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 22" id="categoryATA22" disabled>
-      <label for="categoryATA28">ATA 25</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 25" id="categoryATA25">
-      <label for="categoryATA28">ATA 33</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 33" id="categoryATA33">
-      <label for="categoryATA34">ATA 72</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 72" id="categoryATA72" disabled>
-    </ul>
-    <ul>
-      <label for="categoryATA34">ATA 73</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 73" id="categoryATA73" disabled>
-      <label for="categoryATA34">ATA 74</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 74" id="categoryATA74" disabled>
-      <label for="categoryATA34">ATA 75</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 75" id="categoryATA75" disabled>
-      <label for="categoryATA34">ATA 79</label>
-      <input type="checkbox" class="category-checkbox" value="ATA 79" id="categoryATA79" disabled>
+    <div class="ATAs">
+      <div>
+        <div class="list">
+          <ul class="ata_List1">
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 22" id="categoryATA22" disabled>
+              <label for="categoryATA00-12">ATA 22</label>
+            </div>
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 25" id="categoryATA25">
+              <label for="categoryATA20">ATA 25</label>
+            </div>
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 33" id="categoryATA33">
+              <label for="categoryATA24">ATA 33</label>
+            </div>
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 72" id="categoryATA72" disabled>
+              <label for="categoryATA45">ATA 72</label>
+            </div>
 
-    </ul>
+          </ul>
+        </div>
+        
+        <div class="list">
+          <ul class="ata_List2">
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 73" id="categoryATA73" disabled>
+              <label for="categoryATA50">ATA 73</label>
+            </div>
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 74" id="categoryATA74" disabled>
+              <label for="categoryATA62">ATA 74</label>
+            </div>
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 75" id="categoryATA75" disabled>
+              <label for="categoryATA63">ATA 75</label>
+            </div>
+            <div>
+              <input type="checkbox" class="category-checkbox" value="ATA 79" id="categoryATA79" disabled>
+              <label for="categoryATA63">ATA 79</label>
+            </div>
+
+          </ul>
+        </div>
       <!-- Add more categories as needed -->
     </div>
     <div>
@@ -61,22 +84,21 @@
 
     <div id="questions-container"></div>
 
-    <button id="finishBtn">Finish</button>
-    <button id="resetBtn">Reset</button>
 
     <div id="result-container"></div>
 
-    <a href="../index.html"> <button id="home">Home </button> </a>
+    <button id="finishBtn">Finish</button>
+    <button id="resetBtn">Reset</button>
 
-    <div id="popup-container">
-      <div id="popup-content">
-        <p>This is a training aid, <u>PLEASE CHECK ALL QUESTIONS</u> if unsure.
-          <br>
-          <br>If you find any incorrect questions/answers please let me know.
-        </p>
-        <button onclick="closePopup()">Close</button>
-      </div>
-    </div>
+    
+    <div class="navigation">
+      
+      <a href="../html/week3.html"> <button id="left">&#8592;</button> </a>
+      <a href="../index.html"> <button id="home">&#127968;</button></a>
+     <a href="../html/week5.html"> <button id="right">&#8594;</button> </a>
+    
+    </div>  
+
   </div>
 
   <script src="../js/questionBank.js"></script>
