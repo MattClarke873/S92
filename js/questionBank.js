@@ -7638,11 +7638,11 @@ const questionBank = [
     category: "ATA 72",
     question: "Where is the engine assembly main data plate located?",
     options: {
-      a: "3 o'clock position on the front frame assembly",
-      b: "12 o'clock position on the exhaust frame",
-      c: "Cold Section"
+      a: "Cold Section - 3 o'clock position on the front frame assembly",
+      b: "Accessory Gearbox - 12 o\’clock and 1 o\’clock positions",
+      c: "Power Turbine - 12 o\’clock position on the exhaust frame"
     },
-    correct: "c"
+    correct: "a"
   },
   {
     id: 696,
@@ -7669,11 +7669,11 @@ const questionBank = [
   {
     id: 698,
     category: "ATA 72",
-    question: "What is the purpose of the igniter plugs in the combustion chamber?",
+    question: "How many stages of gas generator turbine are fitted to the CT7-8?",
     options: {
-      a: "Cooling the combustion chamber",
-      b: "Igniting the air/fuel mixture",
-      c: "Directing airflow to the turbine"
+      a: "1 stage",
+      b: "2 stage",
+      c: "3 stage"
     },
     correct: "b"
   },
@@ -7713,11 +7713,11 @@ const questionBank = [
   {
     id: 702,
     category: "ATA 72",
-    question: "What does ARP 755A provide guidance for?",
+    question: "How many temprature sensors are fitted to the exhaust section of the GT7-8?",
     options: {
-      a: "Engine module replacement",
-      b: "Aerodynamic station identification",
-      c: "Gas turbine rotor alignment"
+      a: "8",
+      b: "7",
+      c: "6"
     },
     correct: "b"
   },
@@ -7732,17 +7732,17 @@ const questionBank = [
     },
     correct: "b"
   },
-  {
+   {
     id: 704,
     category: "ATA 72",
-    question: "What is the main component of the cold section module?",
+    question: "Where are the T1 sensors fitted?",
     options: {
-      a: "Compressor rotor",
+      a: "Inlet Frame",
       b: "Diffuser case",
-      c: "Inlet section"
+      c: "Particle Separator Scroll Case"
     },
     correct: "c"
-  },
+  }, 
   {
     id: 705,
     category: "ATA 72",
@@ -7768,11 +7768,11 @@ const questionBank = [
   {
     id: 707,
     category: "ATA 72",
-    question: "What is the purpose of the compressor rotor?",
+    question: "How many stages of compressor does the GT7-8 have?",
     options: {
-      a: "Control airflow direction",
-      b: "Supply rotary motion to compress air",
-      c: "Cool the combustion chamber"
+      a: "5 Axial",
+      b: "5 Axial + 1 Centrifugal",
+      c: "2 Axial"
     },
     correct: "b"
   },
