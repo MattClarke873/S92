@@ -2056,6 +2056,43 @@ const questionBank = [
     },
     correct: "b"
   },
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   */
+
   {
     id: 188,
     category: "ATA 22",
@@ -2087,7 +2124,7 @@ const questionBank = [
       b: "5%",
       c: "10%"
     },
-    correct: "c"
+    correct: "b"
   },
   {
     id: 191,
@@ -2103,15 +2140,15 @@ const questionBank = [
   {
     id: 192,
     category: "ATA 22",
-    question: "Where are the Rate Gyros located in the S-92 aircraft?",
+    question: "What modules are with the FCC?? PSAS and Main Processor section?",
     options: {
-      a: "Under the nose of the aircraft",
-      b: "In the cabin roof",
-      c: "On the left and right sides of the aircraft"
+      a: "Primary Stability Augmentation System (PSAS), Main Processor Section (MPS) and Backup Stability Augmentation System (BSAS)",
+      b: "Primary Stability Augmentation System (PSAS) and Main Processor Section (MPS)",
+      c: "Primary Stability Augmentation System (PSAS) and Backup Stability Augmentation System (BSAS) ,"
     },
-    correct: "c"
-  },
-  {
+    correct: "b"
+  }, 
+  {    
     id: 193,
     category: "ATA 22",
     question: "What signals do the accelerometers provide to the FCC?",
@@ -2121,7 +2158,7 @@ const questionBank = [
       c: "Gust alleviation signals"
     },
     correct: "b"
-  },
+  }, 
   {
     id: 194,
     category: "ATA 22",
@@ -2164,7 +2201,7 @@ const questionBank = [
       b: "Four",
       c: "Six"
     },
-    correct: "c"
+    correct: "b"
   },
   {
     id: 198,
@@ -2177,7 +2214,7 @@ const questionBank = [
     },
     correct: "c"
   },
-  {
+   {
     id: 199,
     category: "ATA 22",
     question: "When can the Reversionary Control Panel (RCP) be used for AHRS reversionary?",
@@ -2187,7 +2224,7 @@ const questionBank = [
       c: "In both single and dual autopilot"
     },
     correct: "a"
-  },
+  }, 
   {
     id: 200,
     category: "ATA 22",
@@ -2202,7 +2239,7 @@ const questionBank = [
   {
     id: 201,
     category: "ATA 22",
-    question: "What does the COURSE 1/2 knob on the Remote Instrument Controller do?",
+    question: "What does the COURSE 1 knob on the Remote Instrument Controller do?",
     options: {
       a: "Controls pitch and roll",
       b: "Selects navigation source for MFDs 1, 2, and 5",
@@ -2235,707 +2272,298 @@ const questionBank = [
   {
     id: 204,
     category: "ATA 22",
-    question: "What controls are in series with the Boost and SAS actuators in the Flight Controls?",
-    options: {
-      a: "Trim Actuators",
-      b: "Rate Gyros",
-      c: "FADEC"
-    },
-    correct: "a"
+    question: "What is the function of the AFCS Control Panel?",
+    options: { 
+      a: "Control the SAS actuators", 
+      b: "Control all functions except Flight Director modes", 
+      c: "Select navigation sources for the AFCS" },
+    correct: "b"
   },
+  
   {
     id: 205,
     category: "ATA 22",
-    question: "Where are the Display Control Panels (DCPs) used to select a NAV source located?",
-    options: {
-      a: "Centre of the lower console",
-      b: "Under the nose of the aircraft",
-      c: "On the Instrument Panel"
-    },
-    correct: "c"
+    question: "Where are the Mode Select Panels (MSPs) located?",
+    options: { 
+      a: "Centre of the lower console", 
+      b: "On either side of the Instrument Panel", 
+      c: "Bottom of the Avionics Rack" },
+    correct: "b"
   },
+  
   {
     id: 206,
     category: "ATA 22",
-    question: "What is the purpose of the Trim Release switches?",
-    options: {
-      a: "Activate the autopilot",
-      b: "Release the magnetic clutch",
-      c: "Select navigation sources"
-    },
+    question: "How many Flight Control Computers (FCCs) are there, and where are they located?",
+    options: { 
+      a: "One in the bottom of the left Avionics Rack", 
+      b: "Two, located in the bottom of both Avionics Racks", 
+      c: "Three, distributed throughout the aircraft" },
     correct: "b"
   },
+  
   {
     id: 207,
     category: "ATA 22",
-    question: "What determines if the aircraft movement is an input by the pilot or from external forces?",
-    options: {
-      a: "Rate Gyros",
-      b: "RVDTs",
-      c: "Accelerometers"
-    },
-    correct: "b"
+    question: "Which section of the FCC processes the PSAS sensor data?",
+    options: { 
+      a: "Primary Stability Augmentation System (PSAS) module", 
+      b: "Main Processor Section (MPS)", 
+      c: "Secondary SAS (SSAS)" },
+    correct: "a"
   },
+  
   {
     id: 208,
     category: "ATA 22",
-    question: "What does SAS stand for?",
-    options: {
-      a: "Stability Augmentation System",
-      b: "System Attitude Sensor",
-      c: "Secondary Actuator System"
-    },
-    correct: "a"
+    question: "How many SAS actuators are there for each control axis?",
+    options: { 
+      a: "One", 
+      b: "Two", 
+      c: "Three" },
+    correct: "b"
   },
+  
   {
     id: 209,
     category: "ATA 22",
-    question: "How many control channels does each SAS system have?",
-    options: {
-      a: "One",
-      b: "Two",
-      c: "Three"
-    },
+    question: "What is the maximum control authority of each SAS actuator during normal operation?",
+    options: { 
+      a: "2%", 
+      b: "5%", 
+      c: "10%" },
     correct: "b"
   },
+  
   {
     id: 210,
     category: "ATA 22",
-    question: "What is the purpose of rate damping in the SAS?",
-    options: {
-      a: "To return the aircraft to its original attitude",
-      b: "To provide rapid response corrections to unwanted movements",
-      c: "To engage the autopilot system"
-    },
-    correct: "b"
+    question: "What happens when the SAS actuators move during normal operation?",
+    options: { 
+      a: "Cockpit flight controls move in the opposite direction", 
+      b: "The boost output is activated", 
+      c: "The cockpit flight controls do not move" },
+    correct: "c"
   },
+  
   {
     id: 211,
     category: "ATA 22",
-    question: "When SAS 1 or SAS 2 is switched off at the Control Panel, what happens to the system functions?",
-    options: {
-      a: "They continue to operate normally",
-      b: "They are temporarily disabled",
-      c: "They switch to SSAS automatically"
-    },
-    correct: "b"
+    question: "What do the Trim Actuators control?",
+    options: { 
+      a: "SAS actuators", 
+      b: "Flight Director modes", 
+      c: "Control surfaces in each of the four control axis channels" },
+    correct: "c"
   },
+  
   {
     id: 212,
     category: "ATA 22",
-    question: "Which hydraulic system supplies SAS 2 when SAS Hydraulics are ON?",
-    options: {
-      a: "#1 hydraulic system",
-      b: "#2 hydraulic system",
-      c: "Both #1 and #2 hydraulic systems"
-    },
+    question: "How is the maximum rate of 10% per second achieved in dual autopilot?",
+    options: { 
+      a: "Each FCC has a maximum rate of 10% per second", 
+      b: "The sum of rates from both FCCs results in 10%", 
+      c: "The Trim Actuators operate independently" },
     correct: "b"
   },
+  
   {
     id: 213,
     category: "ATA 22",
-    question: "What happens if the hydraulic pressure drops below 1100 PSI in the SAS actuators?",
-    options: {
-      a: "The SAS Hyd Cmd On signal is removed, and the actuator is centred and locked",
-      b: "The SAS actuator increases control authority",
-      c: "The aircraft enters emergency descent mode"
-    },
-    correct: "a"
+    question: "What is the purpose of the Radar Altimeter (RADALT)?",
+    options: { 
+      a: "Provides airspeed information", 
+      b: "Offers altitude and airspeed information", 
+      c: "Assists in RADALT Altitude Hold and ILS approach functions" },
+    correct: "c"
   },
+  
   {
     id: 214,
     category: "ATA 22",
-    question: "In the SAS Collective Hydraulics Schematics, what is the purpose of the second turn-on valve for the Collective actuators?",
-    options: {
-      a: "To control SAS actuator authority",
-      b: "To provide additional hydraulic pressure",
-      c: "To enable the Autopilot system"
-    },
-    correct: "a"
+    question: "How many Rotary Variable Differential Transformers (RVDTs) are there in the aircraft?",
+    options: { 
+      a: "Two", 
+      b: "Three", 
+      c: "Four" },
+    correct: "c"
   },
+  
   {
     id: 215,
     category: "ATA 22",
-    question: "When is the SSAS used?",
-    options: {
-      a: "As a primary system",
-      b: "When PSAS fails",
-      c: "Only during autopilot engagement"
-    },
-    correct: "b"
+    question: "What is the purpose of the Beep Trim switches?",
+    options: { 
+      a: "Activate the boost output", 
+      b: "Operate the SAS actuators", 
+      c: "Adjust the Trim Actuators" },
+    correct: "c"
   },
+  
   {
     id: 216,
     category: "ATA 22",
-    question: "What caution is displayed if SSAS fails while selected?",
-    options: {
-      a: "SAS DGRD",
-      b: "AFCS DGRD",
-      c: "SAS PRESS"
-    },
-    correct: "b"
+    question: "When is the Trim Release used?",
+    options: { 
+      a: "During normal operation", 
+      b: "To initiate Attitude Hold (ATT)", 
+      c: "To update a new reference in coupled flight" },
+    correct: "c"
   },
+  
   {
     id: 217,
     category: "ATA 22",
-    question: "What sensors does SSAS use for aircraft attitude rate information?",
-    options: {
-      a: "Rate Gyros only",
-      b: "Accelerometers only",
-      c: "Fibre Optic Gyros inside AHRS"
-    },
-    correct: "c"
+    question: "What does the Display Control Panel (DCP) select for the AFCS?",
+    options: { 
+      a: "Navigation sources", 
+      b: "Flight Director modes", 
+      c: "SAS Enhancements" },
+    correct: "a"
   },
+  
   {
     id: 218,
     category: "ATA 22",
-    question: "In SAS Enhancements, what is the maximum control authority available from each SAS actuator?",
-    options: {
-      a: "2.5%",
-      b: "5%",
-      c: "10%"
-    },
+    question: "When is the Reversionary Control Panel (RCP) used?",
+    options: { 
+      a: "In dual autopilot mode", 
+      b: "To select a single source of AHRS and ADC in case of failure", 
+      c: "For RADALT Altitude Hold" },
     correct: "b"
   },
+  
   {
     id: 219,
     category: "ATA 22",
-    question: "What mode is engaged when all three Trim switches are ON?",
-    options: {
-      a: "Basic SAS",
-      b: "Auto-trim",
-      c: "SAS Enhancements"
-    },
-    correct: "b"
+    question: "What does the Remote Instrument Controller (RIC) control?",
+    options: { 
+      a: "SAS actuators", 
+      b: "FADEC", 
+      c: "Course Radials and Heading" },
+    correct: "c"
   },
+  
   {
     id: 220,
     category: "ATA 22",
-    question: "When is Attitude Hold (ATT) engaged?",
-    options: {
-      a: "Only during autopilot engagement",
-      b: "After takeoff",
-      c: "Weight off wheels and with AP switch ON"
-    },
+    question: "What information does the Full Authority Digital Engine Control (FADEC) provide to the AFCS?",
+    options: { 
+      a: "Flight control signals", 
+      b: "Navigation data", 
+      c: "Torque, Ng, and TGT information" },
     correct: "c"
   },
+  
   {
     id: 221,
     category: "ATA 22",
-    question: "In dual Autopilot, what happens if there is a hard-over by one side?",
-    options: {
-      a: "The aircraft enters emergency descent mode",
-      b: "The other side cancels it out resulting in a slow uncommanded movement",
-      c: "The autopilot disengages automatically"
-    },
+    question: "What is the basic operation of the Stability Augmentation System (SAS)?",
+    options: { 
+      a: "Uses only PSAS or SSAS with 100% control authority", 
+      b: "Uses PSAS or SSAS with a combined maximum of 10% control authority", 
+      c: "Uses SAS actuators independently" },
     correct: "b"
   },
+  
   {
     id: 222,
     category: "ATA 22",
-    question: "In single Autopilot, what inhibits and locks out the Trim Actuator?",
-    options: {
-      a: "Overspeed in the Trim Actuator",
-      b: "Autopilot failure",
-      c: "Loss of hydraulic pressure"
-    },
-    correct: "a"
+    question: "What is the function of the Secondary Stability Augmentation System (SSAS)?",
+    options: { 
+      a: "Manually selected by the pilot", 
+      b: "Activated automatically during certain failure conditions", 
+      c: "Used only in dual autopilot mode" },
+    correct: "b"
   },
+  
   {
     id: 223,
     category: "ATA 22",
-    question: "How does Attitude Hold bring the aircraft back to its attitude prior to an uncommanded movement?",
-    options: {
-      a: "By using the Trim Actuators only",
-      b: "By adjusting the flight controls in the cockpit",
-      c: "By using multiple sensors and RVDTs to slowly bring the aircraft back"
-    },
+    question: "What does the term 'Pitch Up' refer to in the context of the AFCS?",
+    options: { 
+      a: "An emergency maneuver", 
+      b: "A type of autopilot reversion", 
+      c: "A condition where the aircraft's nose moves upward" },
     correct: "c"
   },
   {
     id: 224,
     category: "ATA 22",
-    question: "What condition is necessary for ATT to be operational?",
-    options: {
-      a: "AP must be ON",
-      b: "The aircraft must be in cruise mode",
-      c: "Weight off wheels"
-    },
+    question: "What functions does the PSAS module control",
+    options: { 
+      a: "PSAS Process and Control and SSAS Process and Control", 
+      b: "PSAS Process and Control and SAS Enhancements", 
+      c: "PSAS Process and Control" },
     correct: "c"
   },
   {
     id: 225,
     category: "ATA 22",
-    question: "How many sensors does each FCC normally receive for Pitch, Roll, and Yaw data in ATT Hold?",
-    options: {
-      a: "Two",
-      b: "Three",
-      c: "Four"
-    },
-    correct: "c"
+    question: "What functions does the MPS module control",
+    options: { 
+      a: "SSAS Process, Control Attitude Hold and SAS Enhancements", 
+      b: "SSAS Process, Control Attitude Hold, SAS Enhancements and PSAS Process and Control", 
+      c: "PSAS Process and Control" },
+    correct: "a"
   },
   {
     id: 226,
     category: "ATA 22",
-    question: "What is the 3 out of 4 concept in ATT Hold?",
-    options: {
-      a: "Three Trim Actuators must be operational",
-      b: "Three out of four sensors must be available for ATT to engage",
-      c: "Three autopilot systems must be selected"
-    },
+    question: "How are the SAS actuator positions sensed?",
+    options: { 
+      a: "RVDT", 
+      b: "LVDT", 
+      c: "Control spring feel" },
     correct: "b"
   },
-  {
+    {
     id: 227,
     category: "ATA 22",
-    question: "What sensors are used for Longitudinal Stick Stability (LSS) adjustments?",
-    options: {
-      a: "Rate Gyros only",
-      b: "ADCs only",
-      c: "Accelerometers and ADCs"
-    },
-    correct: "c"
-  },
-  {
-    id: 228,
-    category: "ATA 22",
-    question: "What indicates the reference settings of the coupled and decoupled modes?",
-    options: {
-      a: "Weight Off Wheels",
-      b: "Flight Director Bars",
-      c: "Mode Select Panel"
-    },
-    correct: "b"
-  },
-  {
-    id: 229,
-    category: "ATA 22",
-    question: "How is coupling to the Flight Director achieved?",
-    options: {
-      a: "By pressing the ALT key",
-      b: "By pressing the COUPLE button",
-      c: "By adjusting the VS setting"
-    },
-    correct: "b"
-  },
-  {
-    id: 230,
-    category: "ATA 22",
-    question: "Which button on the Mode Select Panel controls the brightness of the display?",
-    options: {
-      a: "CRUS",
-      b: "APP",
-      c: "TEST"
-    },
-    correct: "c"
-  },
-  {
-    id: 231,
-    category: "ATA 22",
-    question: "What is displayed at the top of the PFD in green when coupling occurs?",
-    options: {
-      a: "DECOUPLE",
-      b: "CPL and FD1 or FD2",
-      c: "MSP Failure"
-    },
-    correct: "b"
-  },
-  {
-    id: 232,
-    category: "ATA 22",
-    question: "How can the AFCS be decoupled for an individual axis?",
-    options: {
-      a: "Press STBY key on Mode Selector Panel",
-      b: "Press the COUPLE button",
-      c: "Press the cyclic STBY button"
-    },
+    question: "How are the TRIM actuator positions sensed?",
+    options: { 
+      a: "RVDT", 
+      b: "LVDT", 
+      c: "Control spring feel" },
     correct: "a"
   },
-  {
-    id: 233,
-    category: "ATA 22",
-    question: "What is announced when any axis fails or is intentionally deselected by the pilot?",
-    options: {
-      a: "DECOUPLE",
-      b: "MSP Failure",
-      c: "Uncoupled Manual FD"
-    },
-    correct: "a"
-  },
-  {
-    id: 234,
-    category: "ATA 22",
-    question: "Which axis does the Collective lateral beeper have no function in all coupled modes?",
-    options: {
-      a: "Pitch",
-      b: "Roll",
-      c: "Yaw"
-    },
-    correct: "b"
-  },
-  {
-    id: 235,
-    category: "ATA 22",
-    question: "How is Airspeed Hold coupled?",
-    options: {
-      a: "Press the HDG key",
-      b: "Press the IAS key",
-      c: "Press the ALT key"
-    },
-    correct: "b"
-  },
-  {
-    id: 236,
-    category: "ATA 22",
-    question: "What is displayed digitally above the IAS indicator when Airspeed Hold is coupled?",
-    options: {
-      a: "Reference Radar height",
-      b: "Reference airspeed",
-      c: "Reference altitude"
-    },
-    correct: "b"
-  },
-  {
-    id: 237,
-    category: "ATA 22",
-    question: "How is Heading Hold coupled?",
-    options: {
-      a: "Press the HDG key",
-      b: "Press the IAS key",
-      c: "Press the ALT key"
-    },
-    correct: "a"
-  },
-  {
-    id: 238,
-    category: "ATA 22",
-    question: "What action does the Go Around (GA) mode initiate?",
-    options: {
-      a: "Level the aircraft",
-      b: "Pitch down",
-      c: "Yaw left"
-    },
-    correct: "a"
-  },
-  {
-    id: 239,
-    category: "ATA 22",
-    question: "Which Flight Control Computers can fly the aircraft using the FMS navigation?",
-    options: {
-      a: "ADCs",
-      b: "AHRS",
-      c: "FCCs"
-    },
-    correct: "c"
-  },
-  {
-    id: 240,
-    category: "ATA 22",
-    question: "What happens when ALTP is armed?",
-    options: {
-      a: "The aircraft descends rapidly",
-      b: "VS is coupled",
-      c: "The bug is displayed in yellow"
-    },
-    correct: "b"
-  },
-  {
-    id: 241,
-    category: "ATA 22",
-    question: "How can the reference setting on the Pitch axis be changed?",
-    options: {
-      a: "Rotate the heading control",
-      b: "Press the VS soft key",
-      c: "Use the cyclic longitudinal beeper"
-    },
-    correct: "c"
-  },
-  {
-    id: 242,
-    category: "ATA 22",
-    question: "When is CAP displayed next to ALTP on the Mode Selector Panel?",
-    options: {
-      a: "When the aircraft is descending",
-      b: "Within 300ft of the pre-selected altitude",
-      c: "During Go Around (GA) mode"
-    },
-    correct: "b"
-  },
-  {
-    id: 243,
-    category: "ATA 22",
-    question: "What does the Go Around (GA) mode set the Vertical Speed (VS) to on the Collective axis?",
-    options: {
-      a: "500 ft/min climb",
-      b: "750 ft/min climb",
-      c: "Maintains the current VS"
-    },
-    correct: "b"
-  },
-  {
-    id: 244,
-    category: "ATA 22",
-    question: "How is RALT Hold coupled?",
-    options: {
-      a: "Press the RALT soft key",
-      b: "Press the ALT key",
-      c: "Press the IAS key"
-    },
-    correct: "a"
-  },
-  {
-    id: 245,
-    category: "ATA 22",
-    question: "Which navigation source is selected from the Display Control Panel (DCP)?",
-    options: {
-      a: "FMS navigation",
-      b: "VOR Approach",
-      c: "Deceleration (DCL)"
-    },
-    correct: "a"
-  },
-  {
-    id: 246,
-    category: "ATA 22",
-    question: "What is the function of the collective lateral beeper in all coupled modes?",
-    options: {
-      a: "Yaw control",
-      b: "Roll control",
-      c: "Pitch control"
-    },
-    correct: "c"
-  },
-  {
-    id: 247,
-    category: "ATA 22",
-    question: "When does the CAP indication disappear during ALTP mode?",
-    options: {
-      a: "When the aircraft is climbing",
-      b: "At the pre-selected altitude",
-      c: "During the Go Around (GA) mode"
-    },
-    correct: "b"
-  },
-  {
-    id: 248,
-    category: "ATA 22",
-    question: "Which source of navigation must be active to couple FMS Navigation Heading Hold?",
-    options: {
-      a: "VOR",
-      b: "ILS",
-      c: "FMS"
-    },
-    correct: "c"
-  },
-  {
-    id: 249,
-    category: "ATA 22",
-    question: "What does the white arrow on the PFD indicate during FMS Navigation Heading Hold?",
-    options: {
-      a: "Altitude",
-      b: "Demand direction",
-      c: "Glideslope"
-    },
-    correct: "b"
-  },
-  {
-    id: 250,
-    category: "ATA 22",
-    question: "How is the Glideslope captured during ILS Navigation?",
-    options: {
-      a: "Pressing G/S on Mode Select Panel",
-      b: "Pressing LOC on Mode Select Panel",
-      c: "Pressing DCL on Mode Select Panel"
-    },
-    correct: "a"
-  },
-  {
-    id: 251,
-    category: "ATA 22",
-    question: "What happens when the Localiser captures signals during ILS Navigation?",
-    options: {
-      a: "Displays ALT on Mode Select Panel",
-      b: "Displays CAP on Mode Select Panel",
-      c: "Displays HDG on Mode Select Panel"
-    },
-    correct: "b"
-  },
-  {
-    id: 252,
-    category: "ATA 22",
-    question: "How is the PFLT BIT initiated?",
-    options: {
-      a: "Pressing TEST on either MSP",
-      b: "Pressing APP on Mode Selector Panel",
-      c: "Pressing DCL on Mode Select Panel"
-    },
-    correct: "a"
-  },
-  {
-    id: 253,
-    category: "ATA 22",
-    question: "What is the purpose of the MBIT (Maintenance Built-In Test)?",
-    options: {
-      a: "Pilot-initiated test",
-      b: "Automatic system reconfiguration",
-      c: "Pre-flight system check"
-    },
-    correct: "b"
-  },
-  {
-    id: 254,
-    category: "ATA 22",
-    question: "How is the Accelerometer null function accessed?",
-    options: {
-      a: "Pressing TEST on the MSP",
-      b: "Pressing ALT on Mode Selector Panel",
-      c: "Pressing APP on Mode Select Panel"
-    },
-    correct: "a"
-  },
-  {
-    id: 255,
-    category: "ATA 22",
-    question: "What does PSAS1 FAULT indicate?",
-    options: {
-      a: "SAS actuator position disagreement",
-      b: "Hydraulic pressure below 1100 psi",
-      c: "Accelerometer failure"
-    },
-    correct: "a"
-  },
-  {
-    id: 256,
-    category: "ATA 22",
-    question: "When does AFCS DGDR caution appear?",
-    options: {
-      a: "During Glideslope capture",
-      b: "During PFLT BIT",
-      c: "When AFCS is degraded with faults"
-    },
-    correct: "c"
-  },
-  {
-    id: 257,
-    category: "ATA 22",
-    question: "What is the procedure for engine failure when flying coupled to the collective axis (3-cue)?",
-    options: {
-      a: "Automatic decoupling of the Collective",
-      b: "Resetting reference IAS to minimum power speed",
-      c: "Manually pulling more power"
-    },
-    correct: "c"
-  },
-  {
-    id: 258,
-    category: "ATA 22",
-    question: "What occurs if both engines fail when flying coupled to the collective axis (3-cue)?",
-    options: {
-      a: "Automatic de-coupling of all axes",
-      b: "Automatic resetting of reference IAS",
-      c: "Automatic decoupling of the Collective axis"
-    },
-    correct: "c"
-  },
-  {
-    id: 259,
-    category: "ATA 22",
-    question: "How is the Twin Engine Failure handled?",
-    options: {
-      a: "Maintaining all axes coupled",
-      b: "Manually controlling the Collective axis",
-      c: "Resetting reference IAS to Vy"
-    },
-    correct: "b"
-  },
-  {
-    id: 260,
-    category: "ATA 22",
-    question: "What is the purpose of the ACCL NULL function?",
-    options: {
-      a: "Testing rate sensors",
-      b: "Resetting accelerometer null bias",
-      c: "Resetting reference IAS"
-    },
-    correct: "b"
-  },
-  {
-    id: 261,
-    category: "ATA 22",
-    question: "How is the MAIN BIT sequence initiated?",
-    options: {
-      a: "Pressing TEST on either MSP",
-      b: "Pressing MAIN BIT on Mode Select Panel",
-      c: "Pressing ALT on Mode Selector Panel"
-    },
-    correct: "b"
-  },
-  {
-    id: 262,
-    category: "ATA 22",
-    question: "What does SAS 1 PRES or SAS 2 PRES indicate?",
-    options: {
-      a: "Accelerometer failure",
-      b: "Hydraulic pressure below 1100 psi",
-      c: "PSAS module fail"
-    },
-    correct: "b"
-  },
-  {
-    id: 263,
-    category: "ATA 22",
-    question: "When does FD DGRD caution appear?",
-    options: {
-      a: "During Glideslope capture",
-      b: "During PFLT BIT",
-      c: "When MSP fails"
-    },
-    correct: "c"
-  },
-  {
-    id: 264,
-    category: "ATA 22",
-    question: "What is the purpose of the AP PWR RESET?",
-    options: {
-      a: "Resets the FCC circuitry",
-      b: "Removes power from the PSAS",
-      c: "Decouples the Collective axis"
-    },
-    correct: "a"
-  },
-  {
-    id: 265,
-    category: "ATA 22",
-    question: "When is the Control Panel Reset used?",
-    options: {
-      a: "During engine failure",
-      b: "To reset faults in FCC",
-      c: "After Twin Engine Failure"
-    },
-    correct: "b"
-  },
-  {
-    id: 266,
-    category: "ATA 22",
-    question: "What is the outcome of Trim Overspeed Test?",
-    options: {
-      a: "Trim actuator failure",
-      b: "Acceleration of the aircraft",
-      c: "Trim Actuators drive 100% control authority"
-    },
-    correct: "c"
-  },
-  {
-    id: 267,
-    category: "ATA 22",
-    question: "How is the Level Off achieved during ILS Navigation?",
-    options: {
-      a: "Pressing G/S on Mode Select Panel",
-      b: "Pressing LOC on Mode Select Panel",
-      c: "Automatically at 50 ft and 60 KIAS"
-    },
-    correct: "c"
-  },
+  
+  
+  
+
+
+
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
+
   {
     id: 268,
     category: "ATA 25",
@@ -7804,7 +7432,7 @@ const questionBank = [
     question: "What is the role of the combustion liner in the hot section?",
     options: {
       a: "Cool the compressor rotor",
-      b: "Control the combustion process",
+      b: "Contain and control the combustion process",
       c: "Supply power to the turbine"
     },
     correct: "b"
@@ -7831,6 +7459,7 @@ const questionBank = [
     },
     correct: "b"
   },
+
   {
     id: 713,
     category: "ATA 72",
@@ -7897,17 +7526,17 @@ const questionBank = [
     },
     correct: "a"
   },
-  {
+   {
     id: 719,
     category: "ATA 72",
-    question: "What information does ARP 755A provide?",
+    question: "What modules make up the engine ?",
     options: {
-      a: "Engine torque and speed",
-      b: "Aerodynamic station identification",
-      c: "Engine module replacement procedures"
-    },
+      a: "Compressor, Accessory, Turbine",
+      b: "Power Turbine, Cold Section, Hot Section, Accessory",
+      c: "Hot Section, Cold Section, Power Turbine"
+    }, 
     correct: "b"
-  },
+  }, 
   {
     id: 720,
     category: "ATA 72",
@@ -7926,7 +7555,7 @@ const questionBank = [
     options: {
       a: "fuel metering unit",
       b: "particle separator blower",
-      c: "starter"
+      c: "Oil and scavenge pump"
     },
     correct: "c"
   },
@@ -7952,16 +7581,15 @@ const questionBank = [
     },
     correct: "c"
   },
-  {
-    id: 724,
-    category: "ATA 72",
-    question: "What is used to hand crank the engine for maintenance purposes?",
-    options: {
-      a: "boot and cover",
-      b: "radial drive shaft",
-      c: "oil temperature detector"
-    },
-    correct: "a"
+  { id: 724, 
+    category: "ATA 72", 
+    question: "What do the top two struts of the exhaust frame casting contain?", 
+    options: { 
+      a: "The oil supply", 
+      b: "The oil scavenge", 
+      c: "The power turbine speed and torque sensors" 
+    }, 
+    correct: "c", 
   },
   {
     id: 725,
@@ -7984,7 +7612,7 @@ const questionBank = [
       c: "three"
     },
     correct: "b"
-  },
+  }, 
   {
     id: 727,
     category: "ATA 72",
@@ -7996,16 +7624,15 @@ const questionBank = [
     },
     correct: "c"
   },
-  {
-    id: 728,
-    category: "ATA 72",
-    question: "Where is the FMU vent/drain located?",
-    options: {
-      a: "front frame",
-      b: "fuel filter",
-      c: "FMU"
-    },
-    correct: "c"
+  { id: 728, 
+    category: "ATA 72", 
+    question: "What is the purpose of the stage 4 air supply?", 
+    options: { 
+      a: "To provide cooling", 
+      b: "To pressurize the sump", 
+      c: "To decrease the load on the bearing" 
+    }, 
+    correct: "c", 
   },
   {
     id: 729,
@@ -8018,73 +7645,71 @@ const questionBank = [
     },
     correct: "b"
   },
-  {
-    id: 730,
-    category: "ATA 72",
-    question: "What does the AISBV drain remove fuel leakage from?",
-    options: {
-      a: "starter",
-      b: "FMU",
-      c: "servo of the AISBV assembly"
-    },
-    correct: "c"
+  { id: 730, 
+    category: "ATA 72", 
+    question: "What is the third most major support structure on the engine?", 
+    options: { 
+      a: "Exhaust frame", 
+      b: "C-sump housing", 
+      c: "No. 5 carbon seal" }, 
+    correct: "b",
   },
-  {
+   {
     id: 731,
     category: "ATA 72",
-    question: "When was the T700 initially bench-tested?",
+    question: "How many bearings are within the engine?",
     options: {
-      a: "1967",
-      b: "1973",
-      c: "1978"
+      a: "5",
+      b: "6",
+      c: "8"
     },
     correct: "b"
   },
-  {
+   {
     id: 732,
     category: "ATA 72",
-    question: "What is the power rating of the T700-GE-700 engine?",
+    question: "What is the normal power turbine RPM?",
     options: {
-      a: "1,622 shp",
-      b: "1,210 kW",
-      c: "30 percent more than the current T700-701C"
+      a: "21,945 rpm",
+      b: "44,900 rpm",
+      c: "15,000 rpm"
     },
     correct: "a"
-  },
-  {
+  }, 
+   {
     id: 733,
     category: "ATA 72",
-    question: "Which helicopters are powered by T700 engines?",
+    question: "what bearings are support the gas generstor section?? 3 & 4?",
     options: {
-      a: "AH-64 Apache",
-      b: "Bell 214ST",
-      c: "both a and b"
+      a: "1 and 2",
+      b: "4 and 5",
+      c: "3 and 4"
     },
     correct: "c"
-  },
+  }, 
   {
     id: 734,
     category: "ATA 72",
-    question: "What did General Electric work on in response to the US Army's interest in a next-generation utility helicopter?",
+    question: " what material is the particle separator scroll case?",
     options: {
-      a: "GE12",
-      b: "T700",
-      c: "YT706"
+      a: "4 peice Carbon Fibre",
+      b: "4 peice Aluminium alloy",
+      c: "4 peice Steel alloy"
     },
     correct: "a"
   },
   {
     id: 735,
     category: "ATA 72",
-    question: "What is the baseline power of the CT7-5A turboprop?",
+    question: "How are compressors blades attached to the disk?",
     options: {
-      a: "4,475 kW",
-      b: "1,735 shp",
-      c: "6,000 shp"
+      a: "Dove tail fitting",
+      b: "one piece construction with the compressor blades and the central support",
+      c: "Keyway fititng"
     },
     correct: "b"
   },
-  {
+ /* {
     id: 736,
     category: "ATA 72",
     question: "What does the YT706 provide compared to the current T700-701C?",
@@ -8138,7 +7763,7 @@ const questionBank = [
       c: "remove dirt, sand, and dust"
     },
     correct: "c"
-  },
+  }, */
   {
     id: 741,
     category: "ATA 72",
@@ -8150,7 +7775,7 @@ const questionBank = [
     },
     correct: "b"
   },
-  {
+/*   {
     id: 742,
     category: "ATA 72",
     question: "What is the purpose of the radial drive shaft during engine shutdown?",
@@ -8160,7 +7785,7 @@ const questionBank = [
       c: "venting air from the fuel system"
     },
     correct: "b"
-  },
+  }, */
   {
     id: 743,
     category: "ATA 72",
@@ -8183,6 +7808,53 @@ const questionBank = [
     },
     correct: "c"
   },
+/* 
+
+
+
+
+
+from what location do you stand to locate components? back facing forwards
+
+where is P4? inlet to gas gen turbine
+
+the IPS swirl are connected to? front frame assy
+
+match components are rear of engine
+
+ 
+
+
+
+VIGV and first 2 stages of stators rotate? make a question
+
+stage 3,4 and 5 statores are stop from rotating via? any rotation keys
+
+how many parts has the compressor outter casing,? 2 main parts, vertical split
+
+the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free power turbine.
+
+where are the fuel nozzles mounted? diffsure and .....
+
+torque measurments ? shaft displacement, reference tube (attached at front of drive shaft) 
+
+whats the main method of anti icing the initial swirl vains ? p2.5 hot air
+
+how do we turn the compressure for boroscope inspections? radial drive shaft
+
+number 1 carbon seal where? output shaft assy, to stop are entering the bearing of sump A
+
+GT7-8A turbo shaft engine 
+
+
+
+
+
+
+
+
+
+   */
   {
     id: 745,
     category: "ATA 73",
