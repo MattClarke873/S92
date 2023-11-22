@@ -7709,21 +7709,21 @@ const questionBank = [
     },
     correct: "b"
   },
- /* {
+  {
     id: 736,
     category: "ATA 72",
-    question: "What does the YT706 provide compared to the current T700-701C?",
+    question: "What construction is the compressor outer casing?",
     options: {
-      a: "smaller compressor",
-      b: "full authority digital engine control",
-      c: "lower power"
+      a: "single piece construction",
+      b: "2 part with vertical split",
+      c: "2 part with vertical split"
     },
     correct: "b"
   },
-  {
+/*  {
     id: 737,
     category: "ATA 72",
-    question: "How many burners does the annular combustor of T700-GE-700 have?",
+    question: "torque measurments ? shaft displacement, reference tube (attached at front of drive shaft) ",
     options: {
       a: "5",
       b: "10",
@@ -7830,13 +7830,13 @@ VIGV and first 2 stages of stators rotate? make a question
 
 
 
-how many parts has the compressor outter casing,? 2 main parts, vertical split
+
 
 the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free power turbine.
 
 where are the fuel nozzles mounted? diffsure and .....
 
-torque measurments ? shaft displacement, reference tube (attached at front of drive shaft) 
+
 
 whats the main method of anti icing the initial swirl vains ? p2.5 hot air
 
@@ -8185,6 +8185,13 @@ GT7-8A turbo shaft engine
     },
     correct: "b"
   },
+
+
+
+
+
+
+
   {
     id: 775,
     category: "ATA 74",
@@ -8628,6 +8635,17 @@ GT7-8A turbo shaft engine
   {
     id: 810,
     category: "ATA 75",
+    question: "How is the combustion liner's cooled?",
+    options: {
+      a: "P2 air",
+      b: "P3 air",
+      c: "P4 air"
+    },
+    correct: "b"
+  },
+  {
+    id: 811,
+    category: "ATA 75",
     question: "What is the purpose of the combustion liner's cooling holes?",
     options: {
       a: "Increase flame temperature",
@@ -8635,17 +8653,6 @@ GT7-8A turbo shaft engine
       c: "Improve fuel efficiency"
     },
     correct: "b"
-  },
-  {
-    id: 811,
-    category: "ATA 75",
-    question: "Which turbine blades are convection cooled?",
-    options: {
-      a: "Stage 1 & 2 gas generator turbine blades",
-      b: "Stage 3 & 4 power turbine blades",
-      c: "Both a and b"
-    },
-    correct: "c"
   },
   {
     id: 812,
@@ -8685,7 +8692,7 @@ GT7-8A turbo shaft engine
     category: "ATA 75",
     question: "What maintains the Variable Geometry inlet guide vanes and No. 1 and 2 stator vanes at the desired position?",
     options: {
-      a: "FADEC EECU",
+      a: "Air pressure",
       b: "Dual Linear Variable Differential Transducer",
       c: "Closed loop feedback program"
     },
@@ -8792,6 +8799,24 @@ GT7-8A turbo shaft engine
   },
 /* 
 
+
+what parts are in the VG system?
+
+within the feedback ehat sends the signal? LVDT
+
+anti ice and SBV Controlled by the? EECU
+
+AI SBV powered by? Fuel pressure
+
+AI SBV takes air from? P2.5
+
+C sump pressure by? P4 and Compressure Discharge Leakage Pressure
+
+Stage 1 turbine and shrouds are cooled by what air? P3
+
+combustion chamber cooled by? P3
+
+drive the IPS by the ? Accessory Module Axis G
 
 
 
@@ -8911,6 +8936,32 @@ GT7-8A turbo shaft engine
     },
     correct: "c"
   },
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
   {
     id: 833,
     category: "ATA 79",
@@ -8993,31 +9044,42 @@ GT7-8A turbo shaft engine
     category: "ATA 79",
     question: "Where is the electrical chip detector located?",
     options: {
-      a: "In the AGB casting",
+      a: "Rear face of AGB casting",
       b: "Between the oil cooler and oil filter",
       c: "In the exhaust frame struts"
     },
     correct: "b"
   },
   {
+    id: 840.1,
+    category: "ATA 79",
+    question: "What systems are sensed by the electrical chip detector?",
+    options: {
+      a: "A, B, C sump and Accessory Gearbox",
+      b: "A, B, C sump",
+      c: "Accessory Gearbox"
+    },
+    correct: "b"
+  },
+   {
     id: 841,
     category: "ATA 79",
-    question: "What does the oil tank store for engine lubrication?",
+    question: "What type of oil pump is fitted to the engines?",
     options: {
-      a: "Fuel",
-      b: "Coolant",
-      c: "Oil"
+      a: "Reciprocating plunger pump",
+      b: "Centrifugal pump",
+      c: "Gerotor-type pump"
     },
     correct: "c"
-  },
+  }, 
   {
     id: 842,
     category: "ATA 79",
     question: "How much oil does the oil tank hold to the FULL mark?",
     options: {
-      a: "6.9 liters",
+      a: "3.3 Lt",
       b: "5 quarts",
-      c: "7.3 quarts"
+      c: "6.9 Lt"
     },
     correct: "c"
   },
@@ -9032,17 +9094,17 @@ GT7-8A turbo shaft engine
     },
     correct: "a"
   },
-  {
+   {
     id: 844,
     category: "ATA 79",
-    question: "Which approved oil type is recommended for higher operating temperatures?",
+    question: "How many scavenge filter are fitted to each engine oil system?",
     options: {
-      a: "AeroShell Turbine Oil",
-      b: "BP Turbo Oil 2389",
-      c: "Exxon Turbo Oil 2389"
+      a: "6",
+      b: "7",
+      c: "3"
     },
     correct: "a"
-  },
+  }, 
   {
     id: 845,
     category: "ATA 79",
@@ -9126,8 +9188,8 @@ GT7-8A turbo shaft engine
     question: "Where does the air released through the centervent in the A-sump go?",
     options: {
       a: "Into the gearbox",
-      b: "Into the engine exhaust",
-      c: "Overboard into the atmosphere"
+      b: "burnt off in the combustion chamber",
+      c: "Overboard into the atmosphere via the exhaust"
     },
     correct: "c"
   },
@@ -9186,6 +9248,96 @@ GT7-8A turbo shaft engine
     },
     correct: "b"
   },
+  {
+    id: 857.1,
+    category: "ATA 79",
+    question: "Where would we locate the lube pump?",
+    options: {
+      a: "Hot Module",
+      b: "Accessory Gearbox Front Face",
+      c: "Accessory Gearbox Rear Face"
+    },
+    correct: "b"
+  },
+  {
+    id: 857.2,
+    category: "ATA 79",
+    question: "The Engine oil pressure display on the MFD is?",
+    options: {
+      a: "Accessory Gearbox Inlet Pressure",
+      b: "B Sump Pressure",
+      c: "Oil supply pressure minus B-sump scavenge pressure"
+    },
+    correct: "c"
+  },
+  {
+    id: 857.3,
+    category: "ATA 79",
+    question: "Does the engine electronic chip detector...",
+    options: {
+      a: "Has a fuzz burn function when weight on wheel",
+      b: "Has a fuzz burn function during all operations",
+      c: "Has no fuzz burn function"
+    },
+    correct: "c"
+  },
+  {
+    id: 857.4,
+    category: "ATA 79",
+    question: "Where is the oil cooler bypass located",
+    options: {
+      a: "Within the oul cooler",
+      b: "Lube and scavenge pump housing",
+      c: "Oil Filter housing"
+    },
+    correct: "b"
+  },
+  {
+    id: 857.5,
+    category: "ATA 79",
+    question: "The B sump delt pressure tube is connected to...",
+    options: {
+      a: "the accessory gearbox return",
+      b: "Oil Pressure Sensor",
+      c: "Pressure Transmitter and Low Oil pressure switch"
+    },
+    correct: "c"
+  },
+/* 
+
+
+the B sump delta pressure tube connects to the? B Sump Scavenge, Pressure Trans and Low Oil Press switch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   */
   {
     id: 858,
     category: "Engine Manuals",
