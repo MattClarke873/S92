@@ -7400,7 +7400,7 @@ const questionBank = [
     options: {
       a: "5 Axial",
       b: "5 Axial + 1 Centrifugal",
-      c: "2 Axial"
+      c: "1 Axial + 5 Centrifugal"
     },
     correct: "b"
   },
@@ -7775,17 +7775,17 @@ const questionBank = [
     },
     correct: "b"
   },
-/*   {
+ {
     id: 742,
     category: "ATA 72",
-    question: "What is the purpose of the radial drive shaft during engine shutdown?",
-    options: {
-      a: "lifting",
-      b: "rotating the gas generator rotor",
-      c: "venting air from the fuel system"
+    question: "How are the stage 3,4 and 5 statores prevented from rotating?",
+    options: {  
+      a: "friction plates",
+      b: "Anti rotation key",
+      c: "blade positioning"
     },
     correct: "b"
-  }, */
+  }, 
   {
     id: 743,
     category: "ATA 72",
@@ -7828,7 +7828,7 @@ match components are rear of engine
 
 VIGV and first 2 stages of stators rotate? make a question
 
-stage 3,4 and 5 statores are stop from rotating via? any rotation keys
+
 
 how many parts has the compressor outter casing,? 2 main parts, vertical split
 
@@ -8460,6 +8460,17 @@ GT7-8A turbo shaft engine
     },
     correct: "a"
   },
+
+
+
+
+
+
+
+
+
+
+
   {
     id: 800,
     category: "ATA 75",
@@ -8505,6 +8516,17 @@ GT7-8A turbo shaft engine
     correct: "b"
   },
   {
+    id: 803.1,
+    category: "ATA 75",
+    question: "What would a loss of signal from the torque motor incur?",
+    options: {
+      a: "Variable Geometry (VG) Linkage System actuator slew open",
+      b: "Variable Geometry (VG) Linkage System actuator slew close",
+      c: "Variable Geometry (VG) Linkage System lock in current postion"
+    },
+    correct: "b"
+  },
+  {
     id: 804,
     category: "ATA 75",
     question: "What does the Anti-Icing and Start Bleed Air System supply bleed air for?",
@@ -8525,6 +8547,17 @@ GT7-8A turbo shaft engine
       c: "During engine start"
     },
     correct: "b"
+  }, 
+  {
+    id: 805.1,
+    category: "ATA 75",
+    question: "What would a loss of signal from from the Anti-Icing & Start Bleed Air System incur?",
+    options: { 
+      a: "Anti-Icing & Start Bleed Air System Valve fully open",
+      b: "Anti-Icing & Start Bleed Air System Valve fully close",
+      c: "Anti-Icing & Start Bleed Air System Valve lock in current postion"
+    },
+    correct: "a"
   },
   {
     id: 806,
@@ -8563,6 +8596,28 @@ GT7-8A turbo shaft engine
     id: 809,
     category: "ATA 75",
     question: "How is the A-sump pressurized?",
+    options: {
+      a: "Stage 5 compressor bleed air",
+      b: "Stage 4 compressor bleed air",
+      c: "IPS air"
+    },
+    correct: "b"
+  },
+  {
+    id: 809.1,
+    category: "ATA 75",
+    question: "How is the B-sump pressurized?",
+    options: {
+      a: "Stage 5 compressor bleed air",
+      b: "Stage 4 compressor bleed air",
+      c: "IPS air"
+    },
+    correct: "a"
+  },
+  {
+    id: 809.2,
+    category: "ATA 75",
+    question: "How is the C-sump pressurized?",
     options: {
       a: "Stage 5 compressor bleed air",
       b: "Stage 4 compressor bleed air",
@@ -8641,7 +8696,7 @@ GT7-8A turbo shaft engine
     category: "ATA 75",
     question: "What is the effect of selecting anti-ice ON?",
     options: {
-      a: "Decreases TGT by 25\u00b0C",
+      a: "Increases TGT by 25\u00b0C",
       b: "Increases stall margin",
       c: "Increases engine speed"
     },
@@ -8735,6 +8790,39 @@ GT7-8A turbo shaft engine
     },
     correct: "c"
   },
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   */
   {
     id: 825,
     category: "ATA 78",
