@@ -2528,14 +2528,409 @@ const questionBank = [
       c: "Control spring feel" },
     correct: "a"
   },
-  
-  
-  
+
+
+ 
+
+
+{
+  "id": 204,
+  "category": "ATA 22",
+  "question": "What is the indication at the top of the PFD when the Flight Director is coupled to an axis?",
+  "options": { "a": "FD 1 or FD 2 in red", "b": "CPL in yellow", "c": "CPL in green" },
+  "correct": "c"
+},
+/*{
+  "id": 205,
+  "category": "ATA 22",
+  "question": "How is coupling to the Flight Director achieved?",
+  "options": { "a": "By pressing the COUPLE button on the Mode Selector Panel", "b": "When the AFCS is in Attitude (ATT) Hold", "c": "By pressing any soft key on the Mode Select Panel" },
+  "correct": "c"
+},*/
+{
+  "id": 206,
+  "category": "ATA 22",
+  "question": "What does the DECOUPLE aural alert indicate?",
+  "options": { "a": "Coupling to the Flight Director is successful", "b": "An axis failure or intentional deselection by the pilot", "c": "A MSP failure" },
+  "correct": "b"
+},
+{
+  "id": 207,
+  "category": "ATA 22",
+  "question": "Which key should be pressed to couple Airspeed Hold?",
+  "options": { "a": "HDG", "b": "IAS", "c": "ALT" },
+  "correct": "b"
+},
+{
+  "id": 208,
+  "category": "ATA 22",
+  "question": "How is the coupled reference adjusted on the Pitch axis?",
+  "options": { "a": "Use the cyclic lateral beeper", "b": "Rotate the heading control on the Remote Instrument Controller", "c": "Depress and hold the cyclic trim release" },
+  "correct": "c"
+},
+{
+  "id": 209,
+  "category": "ATA 22",
+  "question": "In which mode does the aircraft level off at 50 ft and 60 KIAS down the center of the runway during an ILS approach?",
+  "options": { "a": "IAS Hold", "b": "Radar Altitude Hold", "c": "Deceleration" },
+  "correct": "c"
+},
+{
+  "id": 210,
+  "category": "ATA 22",
+  "question": "What is displayed on the Mode Selector Panel when the ALTP mode is armed?",
+  "options": { "a": "ALT", "b": "ARM", "c": "ALTP" },
+  "correct": "b"
+},
+{
+  "id": 211,
+  "category": "ATA 22",
+  "question": "When is the CAP indication displayed during Altitude Pre-Select (ALTP) mode?",
+  "options": { "a": "When the aircraft is within 500 ft of the pre-selected altitude", "b": "When the ALTP is armed", "c": "When the aircraft is within 300ft of the pre-selected altitude" },
+  "correct": "c"
+},
+{
+  "id": 212,
+  "category": "ATA 22",
+  "question": "What action does the Go Around (GA) mode initiate?",
+  "options": { "a": "Maintain height and course", "b": "Pitch the aircraft down", "c": "Level the aircraft and Initiate a climb at 750 ft/min" },
+  "correct": "c"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "How is the Navigation mode selected when using Flight Management System (FMS)?",
+  "options": { "a": "Press the HDG key", "b": "Press the NAV soft key on the Mode Selector Panel", "c": "Press the ALTP soft key" },
+  "correct": "b"
+},
+{
+  "id": 214,
+  "category": "ATA 22",
+  "question": "Which axis does the Glideslope (G/S) mode use for guidance?",
+  "options": { "a": "Pitch axis", "b": "Roll axis", "c": "Collective axis" },
+  "correct": "c"
+},
+{
+  "id": 215,
+  "category": "ATA 22",
+  "question": "What does the DECOUPLE aural alert indicate?",
+  "options": { "a": "Coupling to the Flight Director is successful", "b": "An axis failure or intentional deselection by the pilot", "c": "A MSP failure" },
+  "correct": "b"
+},
+/*{
+  "id": 216,
+  "category": "ATA 22",
+  "question": "How is coupling to the Flight Director achieved?",
+  "options": { "a": "By pressing the COUPLE button on the Mode Selector Panel", "b": "When the AFCS is in Attitude (ATT) Hold", "c": "By pressing any soft key on the Mode Select Panel" },
+  "correct": "c"
+},
+{
+  "id": 217,
+  "category": "ATA 22",
+  "question": "What is displayed on the Mode Selector Panel when the ALTP mode is armed?",
+  "options": { "a": "ALT", "b": "ARM", "c": "ALTP" },
+  "correct": "b"
+},
+{
+  "id": 218,
+  "category": "ATA 22",
+  "question": "When is the CAP indication displayed during Altitude Pre-Select (ALTP) mode?",
+  "options": { "a": "When the aircraft is within 500 ft of the pre-selected altitude", "b": "When the ALTP is armed", "c": "When descending below 300 ft of the pre-selected altitude" },
+  "correct": "c"
+},
+{
+  "id": 219,
+  "category": "ATA 22",
+  "question": "What action does the Go Around (GA) mode initiate?",
+  "options": { "a": "Level the aircraft", "b": "Pitch the aircraft down", "c": "Initiate a climb at 750 ft/min" },
+  "correct": "c"
+},
+{
+  "id": 220,
+  "category": "ATA 22",
+  "question": "How is the Navigation mode selected when using Flight Management System (FMS)?",
+  "options": { "a": "Press the HDG key", "b": "Press the NAV soft key on the Mode Selector Panel", "c": "Press the ALTP soft key" },
+  "correct": "b"
+},
+{
+  "id": 221,
+  "category": "ATA 22",
+  "question": "Which axis does the Glideslope (G/S) mode use for guidance?",
+  "options": { "a": "Pitch axis", "b": "Roll axis", "c": "Collective axis" },
+  "correct": "c"
+},
+{
+  "id": 222,
+  "category": "ATA 22",
+  "question": "How is the coupled reference adjusted on the Pitch axis?",
+  "options": { "a": "Use the cyclic lateral beeper", "b": "Rotate the heading control on the Remote Instrument Controller", "c": "Depress and hold the cyclic trim release" },
+  "correct": "c"
+},
+{
+  "id": 223,
+  "category": "ATA 22",
+  "question": "In which mode does the aircraft level off at 50 ft and 60 KIAS down the center of the runway during an ILS approach?",
+  "options": { "a": "IAS Hold", "b": "Radar Altitude Hold", "c": "Deceleration" },
+  "correct": "c"
+},
+{
+  "id": 224,
+  "category": "ATA 22",
+  "question": "What is displayed on the Mode Selector Panel when the ALTP mode is armed?",
+  "options": { "a": "ALT", "b": "ARM", "c": "ALTP" },
+  "correct": "b"
+},
+{
+  "id": 225,
+  "category": "ATA 22",
+  "question": "When is the CAP indication displayed during Altitude Pre-Select (ALTP) mode?",
+  "options": { "a": "When the aircraft is within 500 ft of the pre-selected altitude", "b": "When the ALTP is armed", "c": "When descending below 300 ft of the pre-selected altitude" },
+  "correct": "c"
+},
+{
+  "id": 204,
+  "category": "ATA 22",
+  "question": "What does the Start-up BIT (SBIT) primarily test?",
+  "options": { "a": "Line Replaceable Units (LRUs)", "b": "Main Processor and I/O controller", "c": "Continuous BIT (CBIT)" },
+  "correct": "b"
+},
+{
+  "id": 205,
+  "category": "ATA 22",
+  "question": "Which Built in Test provides information for automatic system reconfiguration and pilot advisories?",
+  "options": { "a": "Pre-Flight BIT (PFLT)", "b": "Maintenance BIT (MBIT)", "c": "Continuous BIT (CBIT)" },
+  "correct": "c"
+},
+{
+  "id": 206,
+  "category": "ATA 22",
+  "question": "When can a Pre-Flight BIT (PFLT) be carried out?",
+  "options": { "a": "Anytime during flight", "b": "Before the first flight of the day", "c": "After a fault is detected" },
+  "correct": "b"
+},
+{
+  "id": 207,
+  "category": "ATA 22",
+  "question": "What must be active for the initiation of a PFLT BIT?",
+  "options": { "a": "Main Processor Section (MPS)", "b": "Rotor brake", "c": "Main Convertor" },
+  "correct": "b"
+},
+{
+  "id": 208,
+  "category": "ATA 22",
+  "question": "How is the completion of a PFLT BIT indicated?",
+  "options": { "a": "MSP shows a green indication", "b": "MSP shows a white indication", "c": "MSP shows a red indication" },
+  "correct": "b"
+},
+{
+  "id": 209,
+  "category": "ATA 22",
+  "question": "What happens if a button is not pressed when requested during PFLT BIT?",
+  "options": { "a": "MSP shows TEST PASS", "b": "MSP shows TEST FAIL", "c": "MSP shows CONT TEST" },
+  "correct": "b"
+},
+{
+  "id": 210,
+  "category": "ATA 22",
+  "question": "What is the action required to reset the system after a PFLT BIT?",
+  "options": { "a": "Press RESET on Control Panel", "b": "Press AP PWR RESET", "c": "Press RPT TEST" },
+  "correct": "b"
+},
+{
+  "id": 211,
+  "category": "ATA 22",
+  "question": "Who performs the MAIN BIT (MBIT) test?",
+  "options": { "a": "Pilots only", "b": "Maintenance technicians only", "c": "Both pilots and technicians" },
+  "correct": "b"
+},
+{
+  "id": 212,
+  "category": "ATA 22",
+  "question": "What is the duration of the electronic tests during MAIN BIT?",
+  "options": { "a": "1 minute", "b": "2 to 3 seconds", "c": "About 3 minutes" },
+  "correct": "c"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "What happens during the MAIN BIT when the DRV TEST soft key is pressed and held?",
+  "options": { "a": "Overspeed test", "b": "Hydraulic Drive Tests start", "c": "RESET button is pressed" },
+  "correct": "b"
+},
+{
+  "id": 214,
+  "category": "ATA 22",
+  "question": "Which button is used to exit the MAIN BIT?",
+  "options": { "a": "CONT TEST", "b": "END BIT", "c": "RPT TEST" },
+  "correct": "b"
+},
+{
+  "id": 215,
+  "category": "ATA 22",
+  "question": "How is a failed test continued to the next part in MAIN BIT?",
+  "options": { "a": "Press RESET on Control Panel", "b": "Press AP PWR RESET", "c": "Press CONT TEST" },
+  "correct": "c"
+},
+{
+  "id": 216,
+  "category": "ATA 22",
+  "question": "What is the purpose of the AP PWR RESET?",
+  "options": { "a": "Resetting FCC circuitry", "b": "Resetting the entire aircraft", "c": "Resetting the Main Processor Section (MPS)" },
+  "correct": "c"
+},
+{
+  "id": 217,
+  "category": "ATA 22",
+  "question": "How is the Control Panel Reset different from AP PWR RESET?",
+  "options": { "a": "It resets the fault logic", "b": "It disconnects power to the system", "c": "It resets the entire aircraft" },
+  "correct": "a"
+},
+{
+  "id": 218,
+  "category": "ATA 22",
+  "question": "When is the Accelerometer Null function used?",
+  "options": { "a": "After every flight", "b": "When a new FCC is installed", "c": "During flight" },
+  "correct": "b"
+},
+{
+  "id": 219,
+  "category": "ATA 22",
+  "question": "What does the ACCL NULL function re-establish?",
+  "options": { "a": "SAS Actuators", "b": "Accelerometer null bias", "c": "Main Processor Section (MPS)" },
+  "correct": "b"
+},
+{
+  "id": 220,
+  "category": "ATA 22",
+  "question": "How many independent sections does each FCC comprise?",
+  "options": { "a": "1", "b": "2", "c": "3" },
+  "correct": "b"
+},
+{
+  "id": 221,
+  "category": "ATA 22",
+  "question": "What happens if both Convertors fail and power is supplied from the Backup Convertor?",
+  "options": { "a": "Power is maintained to PSAS only", "b": "No power is maintained", "c": "No1 DC Primary Bus is shed" },
+  "correct": "c"
+},
+{
+  "id": 222,
+  "category": "ATA 22",
+  "question": "What is the role of the Battery Holdup Bus?",
+  "options": { "a": "Maintains power to PSAS", "b": "Sheds power to FCCs", "c": "Restarts the system" },
+  "correct": "a"
+},
+{
+  "id": 223,
+  "category": "ATA 22",
+  "question": "What is shed if all three Convertors fail?",
+  "options": { "a": "PSAS 1 and PSAS 2", "b": "Main Processor Section (MPS)", "c": "SAS Actuators" },
+  "correct": "a"
+},
+{
+  "id": 224,
+  "category": "ATA 22",
+  "question": "Which component is unaffected by AP PWR RESET?",
+  "options": { "a": "Main Processor Section (MPS)", "b": "PSAS section", "c": "Flight Controls" },
+  "correct": "b"
+},
+{
+  "id": 225,
+  "category": "ATA 22",
+  "question": "What is the outcome of a successful Accelerometer Null function?",
+  "options": { "a": "ACCEL NULL BAD", "b": "ACCEL NULL GOOD", "c": "AP PWR RESET" },
+  "correct": "b"
+},
+
+{
+  "id": 204,
+  "category": "ATA 22",
+  "question": "What is displayed on the EICAS and NAV CAS box for failures within the AFCS system?",
+  "options": { "a": "PSAS1 FAULT", "b": "SAS 1 PRES", "c": "AHRS 1 VEL DGRD" },
+  "correct": "a"
+},
+
+{
+  "id": 205,
+  "category": "ATA 22",
+  "question": "What does the SAS Pressure Fault (SAS 1 PRES or SAS 2 PRES) caution indicate?",
+  "options": { "a": "GPS Failure", "b": "Hydraulic pressure below 1100 psi", "c": "AFCS degraded" },
+  "correct": "b"
+},
+
+{
+  "id": 206,
+  "category": "ATA 22",
+  "question": "What does the AHRS Velocity Degraded caution (AHRS 1 VEL DGRD or AHRS 2 VEL DGRD) indicate?",
+  "options": { "a": "AFCS degraded", "b": "GPS updating failure affecting velocities", "c": "SAS Pressure Fault" },
+  "correct": "b"
+},
+
+{
+  "id": 207,
+  "category": "ATA 22",
+  "question": "What is indicated by the AFCS DGDR caution?",
+  "options": { "a": "Autopilot failure", "b": "PSAS Module fail", "c": "Trim actuator movement mismatch" },
+  "correct": "a"
+},
+
+{
+  "id": 208,
+  "category": "ATA 22",
+  "question": "Which of the following is a possible cause of Flight Director Altitude Failures (FD1 ALT DGRD or FD2 ALT DGRD)?",
+  "options": { "a": "Invalid RADALT signal", "b": "ADC and MFD altitude disagreement", "c": "Trim actuator movement mismatch" },
+  "correct": "b"
+},
+
+{
+  "id": 209,
+  "category": "ATA 22",
+  "question": "What are possible causes of Flight Director Degraded (FD DGRD)?",
+  "options": { "a": "RVDT sensor failure", "b": "MSP fails", "c": "Cross channel data link failure" },
+  "correct": "b"
+},
+
+{
+  "id": 210,
+  "category": "ATA 22",
+  "question": "What does the Power Limiting system automatically limit when coupled to the collective axis?",
+  "options": { "a": "Fuel flow", "b": "Corrected Ng", "c": "TGT" },
+  "correct": "b"
+},
+
+{
+  "id": 211,
+  "category": "ATA 22",
+  "question": "In OEI Operation, what does the CFD automatically do if an engine fails when flying coupled to the collective axis (3-cue)?",
+  "options": { "a": "Reset reference airspeed", "b": "Decouple Collective axis", "c": "Reset reference IAS" },
+  "correct": "b"
+},
+
+{
+  "id": 212,
+  "category": "ATA 22",
+  "question": "What happens if both engines fail when flying coupled to the collective axis (3-cue)?",
+  "options": { "a": "Automatic decoupling of all axes", "b": "Reset reference IAS to Vy", "c": "Manually control Nr with Collective" },
+  "correct": "c"
+},
+
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "If an engine fails when airspeed is coupled to the pitch axis but ALT,VS or RALT is not selected, what is automatically reset?",
+  "options": { "a": "Minimum power speed", "b": "Reference airspeed", "c": "Trim actuator movement" },
+  "correct": "b"
+},
+
+
+
+ok below for 22
+
+*/
 
 
 
 
-/* 
 
 
 
@@ -2553,6 +2948,232 @@ const questionBank = [
 
 
 
+
+
+
+
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "SAS 2 actuators are pressurised by?",
+  "options": { "a": "No1 hydraulic System", "b": "No2 hydraulic System", "c": "Both hydraulic systems" },
+  "correct": "b"
+},
+
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "Each trim actuators has what rate of drive?",
+  "options": { "a": "5% per sec", "b": "10% per sec", "c": "100% per sec" },
+  "correct": "a"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "If SAS 1 is selected off from the AFCS what position are the actuators?",
+  "options": { "a": "Locked in current position", "b": "locked in central position", "c": "free to find position" },
+  "correct": "b"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "SSAS the signals are processed proccess by what secssion in the FCC?",
+  "options": { "a": "MPS", "b": "PSAS", "c": "Both" },
+  "correct": "a"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "SSAS uses the what sensors?",
+  "options": { "a": "Accelerometers", "b": "Rate Gyros", "c": "AHRS" },
+  "correct": "c"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "Enhanced SAS is enabled?",
+  "options": { "a": "At all times", "b": "When any one AP system is selected", "c": "with SAS selected" },
+  "correct": "b"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "Hover Augmentation is proccessed in the FCC?",
+  "options": { "a": "MPS", "b": "PSAS", "c": "Both" },
+  "correct": "a"
+}
+,
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "in SAS enhancements the longitudinal stick stability reduces fluctuation in?",
+  "options": { "a": "Rate of Roll", "b": "IAS", "c": "Altitude" },
+  "correct": "b"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "How is hydraulic pressure connected to pitch roll and yaw sas actuators?",
+  "options": { "a": "selecting each axis SAS", "b": "Select SAS 1 or SAS 2", "c": "Select both SAS1 and SAS2" },
+  "correct": "c"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "If hydrualic pressure from the No1 system drops below 1100 psi, the hydraulic supply is removed from which actuators?",
+  "options": { "a": "SAS 1", "b": "SAS 1 and SAS 2 depending on what AP is selected", "c": "SAS 2" },
+  "correct": "a"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "If hydrualic pressure from the No1 system drops below 1100 psi, the hydraulic supply is removed from which actuators?",
+  "options": { "a": "SAS 1", "b": "SAS 1 and SAS 2 depending on what AP is selected", "c": "SAS 2" },
+  "correct": "a"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "What signal is used to control the PSAS?",
+  "options": { "a": "Accelerometers", "b": "Rate gyros", "c": "AHRS" },
+  "correct": "b"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "In basic SAS the signals from rate gyros and proccessed in what module?",
+  "options": { "a": "Flight control computer CC", "b": "Primary Stability Augmentation System", "c": "Main Processor Section" },
+  "correct": "b"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "Failure of the pitch change trim system..",
+  "options": { "a": "the backup pitch trim motor will takeover", "b": "All AFCS will be de coupled", "c": "Only SAS will be active" },
+  "correct": "c"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "What is the maximum drive rate of each trim motors in signal AP is?",
+  "options": { "a": "5% per second", "b": "10% per second", "c": "100% per second" },
+  "correct": "a"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "What is the maximum drive rate of each trim motors in dual AP is?",
+  "options": { "a": "5% per second", "b": "10% per second", "c": "100% per second" },
+  "correct": "b"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "What is the maximum drive rate of each trim motors in dual AP is?",
+  "options": { "a": "5% per second", "b": "10% per second", "c": "100% per second" },
+  "correct": "b"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "If both AHRS 1 and 2 fail the AFCS will?",
+  "options": { "a": "Operate in PSAS", "b": "Will have reduced FD operations", "c": "operate in SSAS" },
+  "correct": "a"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "when FD is coupled, the coupled channel is shown in what colour?",
+  "options": { "a": "White", "b": "Green", "c": "Yellow" },
+  "correct": "b"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "What display is shown on the PFD when any input is deselected in the FD mode?",
+  "options": { "a": "the selected mode will turn white", "b": "the selected mode will turn Green", "c": "the selected mode will turn Yellow" },
+  "correct": "c"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "What conditions must be met to initiate a PFLT test?",
+  "options": { "a": "WOW and ground pump on", "b": "Ground pump and Rotor brake on", "c": "WOW , ground pump on and rotor brake on" },
+  "correct": "c"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "The MBIT can be selected from?",
+  "options": { "a": "Either MSP", "b": "MSP 1", "c": "MSP 2" },
+  "correct": "a"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "The MBIT can be selected from?",
+  "options": { "a": "Either MSP", "b": "MSP 1", "c": "MSP 2" },
+  "correct": "a"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "At the end of PFT the system?",
+  "options": { "a": "Is ready for flight", "b": "must be left to reset internal logic", "c": "reset by the push button on the overhead panel" },
+  "correct": "a"
+},
+
+
+
+
+
+/*
+
+
+
+
+the FD can only be engaged when in? attitude mode
+
+the FD can be enageged when in ?? Dual AP mode
+
+
+
+
+with hyds on, the MBIT can be initiaed? when WOW and rotorbrake on
+
+the 2 areas of proccessing in the FCC are? PSAS and MPS
+
+each SAS actuator has what auth? 5% or 0.05
+
+the pitch rate gypros are in ?the ramp area
+
+the roll rate pyros are in the? cabin roof?
+
+the yaw rate gyros in the? tail section
+
+the afcs aceleromters are used to? enhance the AC hover augmentation
+
+the afcs aceleromters are used to? gust aleviaiton
+
+the afcs aceleromters are used to? airspeed filtering
+
+any movment of the fltigh control produces a signal to the AFCS VIA? RVDT
+
+the hydraulics to sas1 actuators are switch on from the ? AFCS SAS 1 control button
+
+attitude hold is on when? ANY 1 AP switch is selected on
+
+attitude hold is on when? both rate gyros and AHRS are S
+
+the FD is coupled in heading from? the MSP 1 or MSP 2
+
+the FD is coupled in IAS from? the MSP 1 or MSP 2
+
+the FD is coupled in RADALT from? the MSP 1 or MSP 2 (Only in COLLECTIVE)
+
+the FD is coupled to AP in what channel? Pitch
+
+on completion of PFLT bit the results are shown on? BOTH MSP
 
 
 
@@ -9304,35 +9925,6 @@ drive the IPS by the ? Accessory Module Axis G
     correct: "c"
   },
 /* 
-
-
-the B sump delta pressure tube connects to the? B Sump Scavenge, Pressure Trans and Low Oil Press switch
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
