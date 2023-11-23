@@ -2530,14 +2530,14 @@ const questionBank = [
   },
 
 
- /*
+ 
 
 
 {
   id: 204,
   category: "ATA 22",
   question: "What is the indication at the top of the PFD when the Flight Director is coupled to an axis?",
-  options: { "a": "FD 1 or FD 2 in red", "b": "CPL in yellow", "c": "CPL in green" },
+  options: { "a": "FD 1 or FD 2 in red", "b": "selected channel in yellow", "c": "selected channel in green" },
   correct: "c"
 },
 
@@ -2622,63 +2622,14 @@ const questionBank = [
   id: 217,
   category: "ATA 22",
   question: "What is displayed on the Mode Selector Panel when the ALTP mode is armed?",
-  options: { a: "ALT", b: "ARM", c: "ALTP" },
+  options: { a: "CAP", b: "ARM", c: "ALTP" },
   correct: "b"
-},
-{
-  id: 218,
-  category: "ATA 22",
-  question: "When is the CAP indication displayed during Altitude Pre-Select (ALTP) mode?",
-  options: { a: "When the aircraft is within 500 ft of the pre-selected altitude", b: "When the ALTP is armed", c: "When descending below 300 ft of the pre-selected altitude" },
-  correct: "c"
-},
-{
-  id: 219,
-  category: "ATA 22",
-  question: "What action does the Go Around (GA) mode initiate?",
-  options: { a: "Level the aircraft", b: "Pitch the aircraft down", c: "Initiate a climb at 750 ft/min" },
-  correct: "c"
-},
-{
-  id: 220,
-  category: "ATA 22",
-  question: "How is the Navigation mode selected when using Flight Management System (FMS)?",
-  options: { a: "Press the HDG key", b: "Press the NAV soft key on the Mode Selector Panel", c: "Press the ALTP soft key" },
-  correct: "b"
-},
-{
-  id: 221,
-  category: "ATA 22",
-  question: "Which axis does the Glideslope (G/S) mode use for guidance?",
-  options: { a: "Pitch axis", b: "Roll axis", c: "Collective axis" },
-  correct: "c"
 },
 {
   id: 222,
   category: "ATA 22",
   question: "How is the coupled reference adjusted on the Pitch axis?",
   options: { a: "Use the cyclic lateral beeper", b: "Rotate the heading control on the Remote Instrument Controller", c: "Depress and hold the cyclic trim release" },
-  correct: "c"
-},
-{
-  id: 223,
-  category: "ATA 22",
-  question: "In which mode does the aircraft level off at 50 ft and 60 KIAS down the center of the runway during an ILS approach?",
-  options: { a: "IAS Hold", b: "Radar Altitude Hold", c: "Deceleration" },
-  correct: "c"
-},
-{
-  id: 224,
-  category: "ATA 22",
-  question: "What is displayed on the Mode Selector Panel when the ALTP mode is armed?",
-  options: { a: "ALT", b: "ARM", c: "ALTP" },
-  correct: "b"
-},
-{
-  id: 225,
-  category: "ATA 22",
-  question: "When is the CAP indication displayed during Altitude Pre-Select (ALTP) mode?",
-  options: { a: "When the aircraft is within 500 ft of the pre-selected altitude", b: "When the ALTP is armed", c: "When descending below 300 ft of the pre-selected altitude" },
   correct: "c"
 },
 {
@@ -2696,24 +2647,10 @@ const questionBank = [
   correct: "c"
 },
 {
-  id: 206,
-  category: "ATA 22",
-  question: "When can a Pre-Flight BIT (PFLT) be carried out?",
-  options: { a: "Anytime during flight", b: "Before the first flight of the day", c: "After a fault is detected" },
-  correct: "b"
-},
-{
-  id: 207,
-  category: "ATA 22",
-  question: "What must be active for the initiation of a PFLT BIT?",
-  options: { a: "Main Processor Section (MPS)", b: "Rotor brake", c: "Main Convertor" },
-  correct: "b"
-},
-{
   id: 208,
   category: "ATA 22",
   question: "How is the completion of a PFLT BIT indicated?",
-  options: { a: "MSP shows a green indication", b: "MSP shows a white indication", c: "MSP shows a red indication" },
+  options: { a: "MSP shows a green TEST PASS indication", b: "MSP shows a TEST PASS white indication", c: "MSP shows a TEST PASS red indication" },
   correct: "b"
 },
 {
@@ -2748,7 +2685,7 @@ const questionBank = [
   id: 213,
   category: "ATA 22",
   question: "What happens during the MAIN BIT when the DRV TEST soft key is pressed and held?",
-  options: { a: "Overspeed test", b: "Hydraulic Drive Tests start", c: "RESET button is pressed" },
+  options: { a: "Overspeed test", b: "The detailed trim motor will drive", c: "RESET button is pressed" },
   correct: "b"
 },
 {
@@ -2811,21 +2748,15 @@ const questionBank = [
   id: 222,
   category: "ATA 22",
   question: "What is the role of the Battery Holdup Bus?",
-  options: { a: "Maintains power to PSAS", b: "Sheds power to FCCs", c: "Restarts the system" },
+  options: { a: "Maintains power to PSAS", b: "Maintains power to MSP", c: "Restarts the system" },
   correct: "a"
 },
-{
-  id: 223,
-  category: "ATA 22",
-  question: "What is shed if all three Convertors fail?",
-  options: { a: "PSAS 1 and PSAS 2", b: "Main Processor Section (MPS)", c: "SAS Actuators" },
-  correct: "a"
-},
+
 {
   id: 224,
   category: "ATA 22",
   question: "Which component is unaffected by AP PWR RESET?",
-  options: { a: "Main Processor Section (MPS)", b: "PSAS section", c: "Flight Controls" },
+  options: { a: "Main Processor Section (MPS)", b: "PSAS section", c: "Trim Motors" },
   correct: "b"
 },
 {
@@ -2835,26 +2766,6 @@ const questionBank = [
   options: { a: "ACCEL NULL BAD", b: "ACCEL NULL GOOD", c: "AP PWR RESET" },
   correct: "b"
 },
-
-
-
-
-
-
-
-
-
-
-
-
-{
-  id: 204,
-  category: "ATA 22",
-  question: "What is displayed on the EICAS and NAV CAS box for failures within the AFCS system?",
-  options: { a: "PSAS1 FAULT", b: "SAS 1 PRES", c: "AHRS 1 VEL DGRD" },
-  correct: "a"
-},
-
 {
   id: 205,
   category: "ATA 22",
@@ -2870,15 +2781,6 @@ const questionBank = [
   options: { a: "AFCS degraded", b: "GPS updating failure affecting velocities", c: "SAS Pressure Fault" },
   correct: "b"
 },
-
-{
-  id: 207,
-  category: "ATA 22",
-  question: "What is indicated by the AFCS DGDR caution?",
-  options: { a: "Autopilot failure", b: "PSAS Module fail", c: "Trim actuator movement mismatch" },
-  correct: "a"
-},
-
 {
   id: 208,
   category: "ATA 22",
@@ -2886,75 +2788,13 @@ const questionBank = [
   options: { a: "Invalid RADALT signal", b: "ADC and MFD altitude disagreement", c: "Trim actuator movement mismatch" },
   correct: "b"
 },
-
-{
-  id: 209,
-  category: "ATA 22",
-  question: "What are possible causes of Flight Director Degraded (FD DGRD)?",
-  options: { a: "RVDT sensor failure", b: "MSP fails", c: "Cross channel data link failure" },
-  correct: "b"
-},
-
-{
-  id: 210,
-  category: "ATA 22",
-  question: "What does the Power Limiting system automatically limit when coupled to the collective axis?",
-  options: { a: "Fuel flow", b: "Corrected Ng", c: "TGT" },
-  correct: "b"
-},
-
 {
   id: 211,
   category: "ATA 22",
   question: "In OEI Operation, what does the CFD automatically do if an engine fails when flying coupled to the collective axis (3-cue)?",
-  options: { a: "Reset reference airspeed", b: "Decouple Collective axis", c: "Reset reference IAS" },
+  options: { a: "Remove all limitations", b: "Decouple Collective axis", c: "Decouple all axis" },
   correct: "b"
 },
-
-{
-  id: 212,
-  category: "ATA 22",
-  question: "What happens if both engines fail when flying coupled to the collective axis (3-cue)?",
-  options: { a: "Automatic decoupling of all axes", b: "Reset reference IAS to Vy", c: "Manually control Nr with Collective" },
-  correct: "c"
-},
-
-{
-  id: 213,
-  category: "ATA 22",
-  question: "If an engine fails when airspeed is coupled to the pitch axis but ALT,VS or RALT is not selected, what is automatically reset?",
-  options: { a: "Minimum power speed", b: "Reference airspeed", c: "Trim actuator movement" },
-  correct: "b"
-},
-
-
-ok below for 22
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 {
   "id": 213,
@@ -3123,45 +2963,98 @@ ok below for 22
   "id": 213,
   "category": "ATA 22",
   "question": "At the end of PFT the system?",
-  "options": { "a": "Is ready for flight", "b": "must be left to reset internal logic", "c": "reset by the push button on the overhead panel" },
+  "options": { "a": "Is ready for flight", "b": "Must be left to reset internal logic", "c": "reset by the push button on the overhead panel" },
   "correct": "a"
 },
-
-
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "Where are the PFLT results shown?",
+  "options": { "a": "dependant on mode selection", "b": "Both MSP", "c": "MSP 1" },
+  "correct": "b"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "The pitch pitch rate gyro is located?",
+  "options": { "a": "LH avionic rack", "b": "Ramp area", "c": "Under the pilots seat" },
+  "correct": "b"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "The roll pitch rate gyro is located?",
+  "options": { "a": "LH avionic rack", "b": "Ramp area", "c": "Cabin roof" },
+  "correct": "c"
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "What authority does the SAS actuators have?",
+  "options": { "a": "5%", "b": "10%", "c": "100%" },
+  "correct": "a" 
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "What in contained in the flight control computer?",
+  "options": { "a": "PSAS and MPS", "b": "SSAS, PSAS and MPS", "c": "MPS1 and MPS2 " },
+  "correct": "a" 
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "The AFCS accelerometers are used to?",
+  "options": { "a": "control the PSAS", "b": "Enhance aircraft hover augmentation", "c": "control SAS1" },
+  "correct": "b" 
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "flight Director IAS and DCL wil always couple to?",
+  "options": { "a": "Pitch Axis", "b": "Collective Axis", "c": "Roll Axis"},
+  "correct": "a" 
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "If IAS is coupled and ALT is selected what is the outcome?",
+  "options": { "a": "IAS is de-coupled and ALT coupled to the pitch axis", "b": "ALT will be disabled", "c": "ALT will couple to the collective Axis"},
+  "correct": "c" 
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "FD RADALT will coupled to?",
+  "options": { "a": "Pitch Axis", "b": "Collective Axis", "c": "Pitch or Collective depending on already coupled selections"},
+  "correct": "b" 
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "FD IAS can be selected on?",
+  "options": { "a": "MSP 1", "b": "MSP 2", "c": "Both"},
+  "correct": "c" 
+},
+{
+  "id": 213,
+  "category": "ATA 22",
+  "question": "How does the FCC differenciate between externtal forces and pilot input?",
+  "options": { "a": "RVDT", "b": "\"Hands on\" controls sensors ", "c": "LVDT"},
+  "correct": "a" 
+},
 
 
 
 /*
 
 
-
-
 the FD can only be engaged when in? attitude mode
 
 the FD can be enageged when in ?? Dual AP mode
 
-
-
-
-with hyds on, the MBIT can be initiaed? when WOW and rotorbrake on
-
-the 2 areas of proccessing in the FCC are? PSAS and MPS
-
-each SAS actuator has what auth? 5% or 0.05
-
-the pitch rate gypros are in ?the ramp area
-
-the roll rate pyros are in the? cabin roof?
-
-the yaw rate gyros in the? tail section
-
-the afcs aceleromters are used to? enhance the AC hover augmentation
-
-the afcs aceleromters are used to? gust aleviaiton
-
 the afcs aceleromters are used to? airspeed filtering
 
-any movment of the fltigh control produces a signal to the AFCS VIA? RVDT
 
 the hydraulics to sas1 actuators are switch on from the ? AFCS SAS 1 control button
 
@@ -3169,15 +3062,6 @@ attitude hold is on when? ANY 1 AP switch is selected on
 
 attitude hold is on when? both rate gyros and AHRS are S
 
-the FD is coupled in heading from? the MSP 1 or MSP 2
-
-the FD is coupled in IAS from? the MSP 1 or MSP 2
-
-the FD is coupled in RADALT from? the MSP 1 or MSP 2 (Only in COLLECTIVE)
-
-the FD is coupled to AP in what channel? Pitch
-
-on completion of PFLT bit the results are shown on? BOTH MSP
 
 
 
@@ -8345,50 +8229,50 @@ on completion of PFLT bit the results are shown on? BOTH MSP
     },
     correct: "b"
   },
-/*  {
+  {
     id: 737,
     category: "ATA 72",
-    question: "torque measurments ? shaft displacement, reference tube (attached at front of drive shaft) ",
+    question: "where is P4 air derived?",
     options: {
-      a: "5",
-      b: "10",
-      c: "15"
+      a: "Inlet to gas generator turbine?",
+      b: "Compressor Inlet",
+      c: "Aft the 5 stage compressor"
     },
-    correct: "c"
+    correct: "a"
   },
   {
     id: 738,
     category: "ATA 72",
-    question: "Which engine variant is used on the SH-2G Seasprite helicopter?",
+    question: "?",
     options: {
-      a: "YT706",
-      b: "T700-GE-700",
-      c: "CT7"
+      a: "",
+      b: "",
+      c: ""
     },
-    correct: "b"
+    correct: ""
   },
   {
     id: 739,
     category: "ATA 72",
-    question: "What does the T407/GLC38 engine have in terms of stages for its compressor turbine?",
+    question: "?",
     options: {
-      a: "two-stage",
-      b: "three-stage",
-      c: "five-stage"
+      a: "",
+      b: "",
+      c: ""
     },
-    correct: "c"
+    correct: ""
   },
   {
     id: 740,
     category: "ATA 72",
-    question: "What is the purpose of the inlet particle separator of the T700-GE-700?",
+    question: "?",
     options: {
-      a: "increase smoke",
-      b: "improve combustion",
-      c: "remove dirt, sand, and dust"
+      a: "",
+      b: "",
+      c: ""
     },
-    correct: "c"
-  }, */
+    correct: ""
+  }, 
   {
     id: 741,
     category: "ATA 72",
@@ -8433,51 +8317,88 @@ on completion of PFLT bit the results are shown on? BOTH MSP
     },
     correct: "c"
   },
+  {
+    id: 744,
+    category: "ATA 72",
+    question: "Where is the IPS swirl connected to",
+    options: {
+      a: "Scroll Case",
+      b: "Front frame assy",
+      c: "Turbine case"
+    },
+    correct: "a"
+  },
+  {
+    id: 744,
+    category: "ATA 72",
+    question: "the variable geometery inlet consists of",
+    options: {
+      a: "2 stages of guide vanes and 2 stages of variable stator vanes",
+      b: "1 stage of guide vanes and 2 stages of variable stator vanes",
+      c: "2 stages of guide vanes and 1 stage of variable stator vanes"
+    },
+    correct: "b"
+  },
+  {
+    id: 744,
+    category: "ATA 72",
+    question: "Where are the fuel nozzles mounted?",
+    options: {
+      a: "Combustion Liner",
+      b: "1st Stage nozzle assembly",
+      c: "Scroll case"
+    },
+    correct: "a"
+  },
+  {
+    id: 744,
+    category: "ATA 72",
+    question: "What type of engine is the GT7-8A?",
+    options: {
+      a: "low bypass turbofan",
+      b: "Turboshaft",
+      c: "Turboprop"
+    },
+    correct: "b"
+  },
+  {
+    id: 744,
+    category: "ATA 72",
+    question: "Where is the No.1 carbon seal assembly?",
+    options: {
+      a: "Stage 1 rotor assembly",
+      b: "IPS blower",
+      c: "Output Shaft Assembly"
+    },
+    correct: "c"
+  },
+  {
+    id: 744,
+    category: "ATA 72",
+    question: "How can the compressor be turned for boroscope inspections?",
+    options: {
+      a: "Turn the forward input shaft",
+      b: "Tooling via radio drive shaft",
+      c: "Turn the Main rotor head"
+    },
+    correct: "b"
+  },
+  {
+    id: 744,
+    category: "ATA 72",
+    question: "What is the main method of anti icing for the swirl vanes?",
+    options: {
+      a: "P2.5 tapping",
+      b: "P4 tapping",
+      c: "Heat mates"
+    },
+    correct: "a"
+  },
 /* 
-
-
-
-
-
-from what location do you stand to locate components? back facing forwards
-
-where is P4? inlet to gas gen turbine
-
-the IPS swirl are connected to? front frame assy
 
 match components are rear of engine
 
- 
-
-
-
-VIGV and first 2 stages of stators rotate? make a question
-
-
-
-
-
 the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free power turbine.
-
-where are the fuel nozzles mounted? diffsure and .....
-
-
-
-whats the main method of anti icing the initial swirl vains ? p2.5 hot air
-
-how do we turn the compressure for boroscope inspections? radial drive shaft
-
-number 1 carbon seal where? output shaft assy, to stop are entering the bearing of sump A
-
-GT7-8A turbo shaft engine 
-
-
-
-
-
-
-
-
 
    */
 
@@ -8485,7 +8406,9 @@ GT7-8A turbo shaft engine
   id: 204,
   category: "ATA 73",
   question: "Where is the fuel metering unit (FMU) attached?",
-  options: { a: "Accessory gearbox", b: "Rear gearbox housing", c: "Oil cooler" },
+  options: { a: "Front accessory gearbox housing", 
+  b: "Rear accessory gearbox housing", 
+  c: "Oil cooler" },
   correct: "b"
 },
 
@@ -8493,7 +8416,10 @@ GT7-8A turbo shaft engine
   id: 205,
   category: "ATA 73",
   question: "What component prevents ice formation in the fuel filter?",
-  options: { a: "Pressure regulating valve", b: "Overspeed valve", c: "Oil cooler" },
+  options: { 
+    a: "Pressure regulating valve", 
+    b: "Overspeed valve", 
+    c: "Oil cooler" },
   correct: "a"
 },
 
@@ -8501,7 +8427,9 @@ GT7-8A turbo shaft engine
   id: 206,
   category: "ATA 73",
   question: "What is the purpose of the overspeed valve in the FMU?",
-  options: { a: "Draining fuel", b: "Controlling fuel flow during overspeed conditions", c: "Cooling engine oil" },
+  options: { a: "Draining fuel", 
+  b: "Controlling fuel flow during overspeed conditions", 
+  c: "Cooling engine oil" },
   correct: "b"
 },
 
@@ -8509,7 +8437,10 @@ GT7-8A turbo shaft engine
   id: 207,
   category: "ATA 73",
   question: "How is the position of the metering valve in the FMU maintained?",
-  options: { a: "Mechanical linkage", b: "Closed loop feedback program", c: "Linear Variable Differential Transformer (LVDT)" },
+  options: {
+     a: "Mechanical linkage", 
+     b: "Linear Variable Differential Transformer (LVDT)", 
+     c: "Rotary Variable Differential Transformer (RVDT)" },
   correct: "b"
 },
 
@@ -8517,7 +8448,10 @@ GT7-8A turbo shaft engine
   id: 208,
   category: "ATA 73",
   question: "What triggers the closure of the overspeed valve?",
-  options: { a: "Low fuel pressure", b: "Overspeed condition", c: "High oil temperature" },
+  options: {
+    a: "Low fuel pressure",
+    b: "Overspeed condition", 
+    c: "High oil temperature" },
   correct: "b"
 },
 
@@ -8525,7 +8459,10 @@ GT7-8A turbo shaft engine
   id: 209,
   category: "ATA 73",
   question: "Where does the fuel manifold get pressurized fuel from?",
-  options: { a: "Fuel boost pump", b: "Fuel filter", c: "Overspeed valve of the FMU" },
+  options: { 
+    a: "Fuel boost pump", 
+    b: "Fuel filter", 
+    c: "Overspeed valve of the FMU" },
   correct: "c"
 },
 
@@ -8533,7 +8470,10 @@ GT7-8A turbo shaft engine
   id: 210,
   category: "ATA 73",
   question: "How many fuel injectors supply fuel to the annular combustion chamber?",
-  options: { a: "6", b: "12", c: "18" },
+  options: { 
+    a: "6", 
+    b: "12", 
+    c: "18" },
   correct: "b"
 },
 
@@ -8541,7 +8481,10 @@ GT7-8A turbo shaft engine
   id: 211,
   category: "ATA 73",
   question: "What aids the combustion process in the combustion chamber?",
-  options: { a: "Overspeed valve", b: "Fuel pressure switch", c: "P3 airflow through swirl vane ports" },
+  options: { 
+    a: "Overspeed valve", 
+    b: "Fuel pressure switch", 
+    c: "P3 airflow through swirl vane ports" },
   correct: "c"
 },
 
@@ -8549,7 +8492,10 @@ GT7-8A turbo shaft engine
   id: 212,
   category: "ATA 73",
   question: "What prevents debris from causing nozzle clogging in the fuel injectors?",
-  options: { a: "Drain valve", b: "Last chance filter", c: "Linear Variable Differential Transformer (LVDT)" },
+  options: { 
+    a: "Drain valve", 
+    b: "Last chance filter", 
+    c: "Linear Variable Differential Transformer (LVDT)" },
   correct: "b"
 },
 
@@ -8557,7 +8503,10 @@ GT7-8A turbo shaft engine
   id: 213,
   category: "ATA 73",
   question: "What is the difference between Pre and Post SB 73-0001 R2 fuel injectors?",
-  options: { a: "Injector nozzle design", b: "Locking mechanism of the manifold nut", c: "Number of fuel injectors" },
+  options: { 
+    a: "Injector nozzle design", 
+    b: "Locking mechanism of the manifold nut", 
+    c: "Number of fuel injectors" },
   correct: "b"
 },
 
@@ -8575,15 +8524,48 @@ GT7-8A turbo shaft engine
       c: "right side of the accessory gearbox"
     },
     correct: "a"
-  },
+  },  
   {
     id: 746,
     category: "ATA 73",
-    question: "What does the fuel boost pump assembly do?",
+    question: "At what speed with the overspeed be triggered?",
     options: {
-      a: "creates a negative pressure",
-      b: "regulates fuel pressure",
-      c: "activates overspeed protection"
+      a: "108.5% Ng",
+      b: "120% Ng",
+      c: "108.5% Np"
+    },
+    correct: "a"
+  },
+  {
+    id: 746.1,
+    category: "ATA 73",
+    question: "At what speed with the overspeed be triggered?",
+    options: {
+      a: "120% Ng",
+      b: "120% Np",
+      c: "108.5% Np"
+    },
+    correct: "b"
+  },
+  {
+    id: 746.2,
+    category: "ATA 73",
+    question: "How can we ensure the FMU is correctly located on installation?",
+    options: {
+      a: "3 inspections holes on the mounting clamp",
+      b: "locating dow",
+      c: "the mounting clamp tightining marks"
+    },
+    correct: "a"
+  },  
+  {
+    id: 746.2,
+    category: "ATA 73",
+    question: "What type of combustion chamber is fitted to the engine?",
+    options: {
+      a: "annular",
+      b: "can",
+      c: "cannular"
     },
     correct: "a"
   },
@@ -8604,7 +8586,7 @@ GT7-8A turbo shaft engine
     question: "Where is the fuel pressure switch located?",
     options: {
       a: "rear gearbox housing",
-      b: "left side of the accessory gearbox",
+      b: "Within the booster pump",
       c: "front gearbox housing"
     },
     correct: "c"
@@ -8623,15 +8605,15 @@ GT7-8A turbo shaft engine
   {
     id: 750,
     category: "ATA 73",
-    question: "When does the fuel pressure switch close?",
+    question: "When does the fuel pressure switch close displaying a Fuel 1(2) BYPASS Caution?",
     options: {
-      a: "8-9 psig or less",
+      a: "8-10 psid",
       b: "30 psig or more",
       c: "18-22 psid"
     },
     correct: "a"
   },
-  {
+/*   {
     id: 751,
     category: "ATA 73",
     question: "Where is the fuel filter assembly located?",
@@ -8641,7 +8623,7 @@ GT7-8A turbo shaft engine
       c: "front gearbox housing"
     },
     correct: "a"
-  },
+  }, */
   {
     id: 752,
     category: "ATA 73",
@@ -8649,14 +8631,14 @@ GT7-8A turbo shaft engine
     options: {
       a: "activates overspeed protection",
       b: "identifies impending bypass condition",
-      c: "monitors oil temperature"
+      c: "identifies bypass condition"
     },
     correct: "b"
   },
   {
     id: 753,
     category: "ATA 73",
-    question: "What activates a signal to the EECU for FUEL 1(2) caution indication on the MFDs?",
+    question: "What activates a signal to the EECU for FUEL 1(2) BYPASS caution indication on the MFDs?",
     options: {
       a: "low oil pressure",
       b: "8-10 psid fuel pressure",
@@ -8675,7 +8657,7 @@ GT7-8A turbo shaft engine
     },
     correct: "c"
   },
-  {
+/*   {
     id: 755,
     category: "ATA 73",
     question: "Where does the fuel flow after leaving the fuel boost pump?",
@@ -8685,18 +8667,18 @@ GT7-8A turbo shaft engine
       c: "to the fuel injectors"
     },
     correct: "a"
-  },
-  {
+  }, */
+   {
     id: 756,
     category: "ATA 73",
-    question: "What prevents ice formation in the fuel filter at temperatures as low as -20\u00b0 C?",
+    question: "how do we clean the injectors on shutdown? P3 back pressure.?",
     options: {
-      a: "oil cooler",
-      b: "fuel boost pressure switch",
-      c: "fuel filter bypass valve"
+      a: "P£ back pressure",
+      b: "washing solution",
+      c: "fuel drain via injectors"
     },
-    correct: "c"
-  },
+    correct: "a"
+  }, 
   {
     id: 757,
     category: "ATA 73",
@@ -8719,17 +8701,17 @@ GT7-8A turbo shaft engine
     },
     correct: "a"
   },
-  {
+   {
     id: 759,
     category: "ATA 73",
-    question: "What shuts off the overspeed valve when the system detects Np > Nr?",
+    question: "Where does the fuel travel after overspeed valve?",
     options: {
-      a: "linear variable differential transformer",
-      b: "feedback program",
-      c: "mechanical breakage detection"
+      a: "Drain Valve",
+      b: "Fuel manifold",
+      c: "Fuel filter"
     },
-    correct: "c"
-  },
+    correct: "b"
+  }, 
   {
     id: 760,
     category: "ATA 73",
@@ -8895,8 +8877,39 @@ GT7-8A turbo shaft engine
     },
     correct: "b"
   },
+  {
+    id: 774,
+    category: "ATA 73",
+    question: "The FMU is attached to the accessory gearbox via?",
+    options: {
+      a: "Clamp",
+      b: "3 bolts to fuel block",
+      c: "Both"
+    },
+    correct: "c"
+  },
+  {
+    id: 774,
+    category: "ATA 73",
+    question: "The feul boost pump consists of?",
+    options: {
+      a: "Jet pump and Impeller",
+      b: "Gear pump",
+      c: "Impeller"
+    },
+    correct: "a"
+  },
+/*
 
 
+what controls (ANYTHING) system? EECU / FADEC
+
+where is the fuel metering unit mounted? Back of accessory
+
+high pressure pump spilts fuel to the filter to keep fuel warm.
+
+
+*/
 
 
 
