@@ -8926,7 +8926,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
     },
     correct: "a"
   },
-  {
+/*   {
     id: 776,
     category: "ATA 74",
     question: "Which cable is responsible for interconnecting engine cables and the EECUs?",
@@ -8936,8 +8936,8 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
       c: "Green"
     },
     correct: "c"
-  },
-  {
+  }, */
+/*   {
     id: 777,
     category: "ATA 74",
     question: "What is the function of the ignition system during normal engine operation in AUTO mode?",
@@ -8947,7 +8947,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
       c: "Turn off during starts"
     },
     correct: "b"
-  },
+  }, */
   {
     id: 778,
     category: "ATA 74",
@@ -9058,7 +9058,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
     },
     correct: "c"
   },
-  {
+/*   {
     id: 788,
     category: "ATA 74",
     question: "How many teeth are on the power turbine drive shaft for the Np speed sensor?",
@@ -9068,7 +9068,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
       c: "6"
     },
     correct: "b"
-  },
+  }, */
   {
     id: 789,
     category: "ATA 74",
@@ -9102,7 +9102,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
     },
     correct: "a"
   },
-  {
+/*   {
     id: 792,
     category: "ATA 74",
     question: "What signals does the EECU supply to the aircraft monitoring system (AMS)?",
@@ -9112,7 +9112,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
       c: "Oil temperature"
     },
     correct: "c"
-  },
+  }, */
   {
     id: 793,
     category: "ATA 74",
@@ -9182,24 +9182,47 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   {
     id: 799,
     category: "ATA 74",
-    question: "Which cable supplies wiring for P3 sensor operation?",
+    question: "Which cable supplies wiring for P0 sensor operation?",
+    options: {
+      a: "Yellow",
+      b: "Blue",
+      c: "Green"
+    },
+    correct: "b"
+  }, 
+  {
+    id: 799,
+    category: "ATA 74",
+    question: "Which cable supplies wiring for PMA sensor operation?",
     options: {
       a: "Yellow",
       b: "Blue",
       c: "Green"
     },
     correct: "a"
-  },
+  },   {
+    id: 799,
+    category: "ATA 74",
+    question: "Which cable supplies wiring for thermocouple sensor operation?",
+    options: {
+      a: "Yellow",
+      b: "Blue",
+      c: "Green"
+    },
+    correct: "b"
+  }, 
+
+/* 
+How is the ignition system controlled
+
+what are the positions the the engine switches.
 
 
 
 
 
 
-
-
-
-
+ */
 
   {
     id: 800,
