@@ -9520,20 +9520,57 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
     },
     correct: "c"
   },
+  {
+    id: 824,
+    category: "ATA 75",
+    question: "Where is C sump pressure sealing provided from? by? P4 and Compressure Discharge Leakage Pressure?",
+    options: {
+      a: "P3",
+      b: "P4 abd CDLP",
+      c: "P2.5"
+    },
+    correct: "b"
+  },
+  {
+    id: 824,
+    category: "ATA 75",
+    question: "How is feedback from the Variable Geometry (VG) Linkage System provided?",
+    options: {
+      a: "single LDVT",
+      b: "Duel LVDT",
+      c: "Duel RVDT"
+    },
+    correct: "b"
+  },
+  {
+    id: 824,
+    category: "ATA 75",
+    question: "The anti icing and start bleed valve is controlled by?",
+    options: {
+      a: "EECU",
+      b: "LVDT",
+      c: "MDC"
+    },
+    correct: "a"
+  },
+  {
+    id: 824,
+    category: "ATA 75",
+    question: "How is the AISBV actuated??",
+    options: {
+      a: "Air Pressure",
+      b: "Fuel Pressure",
+      c: "Electrically motored"
+    },
+    correct: "b"
+  },
 /* 
 
 
-what parts are in the VG system?
 
-within the feedback ehat sends the signal? LVDT
-
-anti ice and SBV Controlled by the? EECU
-
-AI SBV powered by? Fuel pressure
 
 AI SBV takes air from? P2.5
 
-C sump pressure by? P4 and Compressure Discharge Leakage Pressure
 
 Stage 1 turbine and shrouds are cooled by what air? P3
 
