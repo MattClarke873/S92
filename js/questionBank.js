@@ -9213,9 +9213,29 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   }, 
 
 /* 
-How is the ignition system controlled
+What controls the ignition? EECU
 
-what are the positions the the engine switches.
+switches in cockpit send request to EECU fadec
+
+the excitor is powered by the? PMA
+
+what facote for flame out detection and reignition? 
+In AUTO mode, ignition continues until Ng is in excess of 68%. In the CONT mode, the ignition will be constantly on.
+
+
+the ignitors are cooled by? p3 air
+
+A signal Blue, B signal yellow, fuel and oil on Green
+
+how do we share the PMA output between to two channels? grey cable (has a y split)
+
+the igniton system is part of what system? FADEC
+
+where is the excited? Right side of engine fwd
+
+what type of sensor p0 and p3? strain guage (requiring an excition voltage)
+
+T1 sensor? resistance thermal devices.
 
 
 
@@ -9587,19 +9607,324 @@ what are the positions the the engine switches.
     },
     correct: "b"
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  {
+    id: 205,
+    category: "ATA 76",
+    question: "How many Electronic Engine Control Units (EECUs) computers are there?",
+    options: { a: "One", b: "Three", c: "Two" },
+    correct: "c",
+  },
+  
+  {
+    id: 207,
+    category: "ATA 76",
+    question: "In the STOP position, what does the EECU receive a signal to do?",
+    options: { a: "Initiate engine start-up", b: "Shut down the engine", c: "Maintain engine speed" },
+    correct: "b",
+  },
+  
+  {
+    id: 208,
+    category: "ATA 76",
+    question: "What does the No.1 ENG START and No.2 ENG START pushbuttons initiate?",
+    options: { a: "Engine shutdown", b: "Engine start-up", c: "Fuel boost pump operation" },
+    correct: "b",
+  },
+  
+/*   {
+    id: 209,
+    category: "ATA 76",
+    question: "What is the primary engine steady state governing mode in the FLY position?",
+    options: { a: "Isochronous steady state Ng bottoming governing", b: "Automatic load sharing", c: "Constant speed governing" },
+    correct: "b",
+  }, */
+  
+  {
+    id: 210,
+    category: "ATA 76",
+    question: "Which system provides the pilots with a rapid response in the event of a single engine failure?",
+    options: { a: "Fuel system", b: "FADEC system", c: "Anti-Ice system" },
+    correct: "b",
+  },
+  
+/*   {
+    id: 211,
+    category: "ATA 76",
+    question: "What is the purpose of the Permanent Magnet Alternator (PMA)?",
+    options: { a: "Provides emergency power", b: "Ignition exciter", c: "Controlling engine speed" },
+    correct: "a",
+  }, */
+  
+  {
+    id: 212,
+    category: "ATA 76",
+    question: "How many levels of alerts does the FADEC system have?",
+    options: { a: "Two", b: "Three", c: "Four" },
+    correct: "b",
+  },
+  
+  {
+    id: 213,
+    category: "ATA 76",
+    question: "What is the function of the Np governor?",
+    options: { a: "Control engine speed", b: "Control rotor speed", c: "Provide emergency power" },
+    correct: "b",
+  },
+  
+  {
+    id: 214,
+    category: "ATA 76",
+    question: "How does the load sharing prevent a low power engine failure?",
+    options: { a: "By reducing fuel flow", b: "By increasing power to the good engine", c: "By shutting down the failing engine" },
+    correct: "b",
+  },
+  
+  {
+    id: 215,
+    category: "ATA 76",
+    question: "What is the purpose of the Automatic 'blowdown' during engine start?",
+    options: { a: "Reduce TGT", b: "Increase fuel flow", c: "Prevent engine flameout" },
+    correct: "a",
+  },
+  
+  {
+    id: 216,
+    category: "ATA 76",
+    question: "What happens when the engine PCL is in the IDLE position?",
+    options: { a: "Shut down the engine", b: "Maintain constant speed", c: "Initiate engine start-up" },
+    correct: "b",
+  },
+  
+  {
+    id: 217,
+    category: "ATA 76",
+    question: "What does the Full Authority Digital Engine Control (FADEC) system supply to the pilots?",
+    options: { a: "Emergency power", b: "Indications, warnings, and diagnostic information", c: "Fuel boost" },
+    correct: "b",
+  },
+  
+  {
+    id: 218,
+    category: "ATA 76",
+    question: "How many detent positions do the engine Power Control Levers (PCLs) have?",
+    options: { a: "Four", b: "Two", c: "Three" },
+    correct: "c",
+  },
+  
+  {
+    id: 219,
+    category: "ATA 76",
+    question: "What is the purpose of the engine control quadrant?",
+    options: { a: "Initiate engine start-up", b: "Control engine power", c: "Control rotor speed" },
+    correct: "b",
+  },
+  
+  {
+    id: 220,
+    category: "ATA 76",
+    question: "What does the EECU automatically enable upon failure of an engine?",
+    options: { a: "Hot start protection", b: "OEI ratings", c: "Compressor variable geometry position" },
+    correct: "b",
+  },
+  {
+    id: 221,
+    category: 'ATA 76',
+    question: 'What is the default limit for an OEI or failed cross-engine ARINC bus situation?',
+    options: { a: '30-second', b: '2-minute', c: 'Continuous' },
+    correct: 'a',
+  },
+  {
+    id: 222,
+    category: 'ATA 76',
+    question: 'How can the OEI limiter be switched to the continuous limit?',
+    options: { a: 'Rock forward', b: 'Rock backward', c: 'Push downward' },
+    correct: 'c',
+  },
+  {
+    id: 223,
+    category: 'ATA 76',
+    question: 'When does the active OEI limit automatically revert to the 30-second limit?',
+    options: { a: 'T4.5 less than maximum', b: 'Torque less than 100%', c: 'WOW is false' },
+    correct: 'a',
+  },
+  {
+    id: 224,
+    category: 'ATA 76',
+    question: 'What must be done after encountering an OEI event during landing?',
+    options: { a: 'Reset engine exceedance OEI switch', b: 'Disconnect external power', c: 'Perform boroscope inspection' },
+    correct: 'a',
+  },
+  {
+    id: 225,
+    category: 'ATA 76',
+    question: 'What is the purpose of the DUAL TRAIN mode?',
+    options: { a: 'Increase torque', b: 'Simulate engine failure', c: 'Reset engine exceedance OEI switch' },
+    correct: 'b',
+  },
+  {
+    id: 226,
+    category: 'ATA 76',
+    question: 'How is the training mode exited?',
+    options: { a: 'Set to DUAL TRAIN', b: 'Set to OFF position', c: 'Press engine exceedance OEI reset switch' },
+    correct: 'b',
+  },
+  {
+    id: 227,
+    category: 'ATA 76',
+    question: 'What indication is presented on the PFD and EICAS pages during training mode?',
+    options: { a: 'Red indication', b: 'Blue indication', c: 'Green indication' },
+    correct: 'b',
+  },
+  {
+    id: 228,
+    category: 'ATA 76',
+    question: 'What does selecting DUAL TRAIN cause in terms of engine parameters?',
+    options: { a: 'Increase TGT', b: 'Decrease torque', c: 'Simulate increased gross weight' },
+    correct: 'c',
+  },
+  {
+    id: 229,
+    category: 'ATA 76',
+    question: 'What does the EECU set during training mode based on pilot input?',
+    options: { a: 'Nominal OEI temperature limits', b: 'Training torque limits', c: 'Continuous OEI limit' },
+    correct: 'b',
+  },
+  {
+    id: 230,
+    category: 'ATA 76',
+    question: 'How is training initiated?',
+    options: { a: 'Press engine exceedance OEI reset switch', b: 'Set DUAL TRAIN switch to OFF', c: 'Set DUAL TRAIN switch to DUAL TRAIN' },
+    correct: 'c',
+  },
+  {
+    id: 231,
+    category: 'ATA 76',
+    question: 'What is the primary power source for each EECU?',
+    options: { a: 'Battery bus', b: 'DC PRI 1 bus', c: 'External electrical power' },
+    correct: 'a',
+  },
+  {
+    id: 232,
+    category: 'ATA 76',
+    question: 'Which sensor measures ambient air temperature prior to entering the compressor?',
+    options: { a: 'T4.5 sensor', b: 'Compressor inlet temperature (T2)', c: 'Power turbine speed (Np) sensor' },
+    correct: 'b',
+  },
+  {
+    id: 233,
+    category: 'ATA 76',
+    question: 'What does the EECU monitor from the engine control quadrants dual channel RVDTs?',
+    options: { a: 'Weight on wheels', b: 'Nr speed demand signal', c: 'Compressor discharge pressure (P3)' },
+    correct: 'b',
+  },
+  {
+    id: 234,
+    category: 'ATA 76',
+    question: 'What is the purpose of the engine health logic in the EECU?',
+    options: { a: 'Calculate torque blow away', b: 'Provide engine control outputs', c: 'Perform built-in-test (BIT)' },
+    correct: 'c',
+  },
+  {
+    id: 235,
+    category: 'ATA 76',
+    question: 'What does the transmission blow away logic provide during an OEI event?',
+    options: { a: 'Increased torque', b: 'Decreased torque', c: 'Increased speed' },
+    correct: 'a',
+  },
+  {
+    id: 236,
+    category: 'ATA 76',
+    question: 'When does the TGT blow away feature activate?',
+    options: { a: 'OEI condition', b: 'AEO take-off limit reached', c: 'Training mode' },
+    correct: 'b',
+  },
+/*   {
+    id: 237,
+    category: 'ATA 76',
+    question: 'What does the torque blow away logic do during training conditions?',
+    options: { a: 'Increase torque', b: 'Decrease torque', c: 'Maintain torque at maximum' },
+    correct: 'b',
+  }, */
+  {
+    id: 238,
+    category: 'ATA 76',
+    question: 'What protects the engine and aircraft limits provided by the engine control?',
+    options: { a: 'FADEC software', b: 'Torque limiter', c: 'Blow away feature' },
+    correct: 'b',
+  },
+  {
+    id: 239,
+    category: 'ATA 76',
+    question: 'What is the purpose of the 86% Q limit?',
+    options: { a: 'Gearbox limit', b: 'Limit flight control loads', c: 'AEO take-off limit' },
+    correct: 'b',
+  },
+  {
+    id: 240,
+    category: 'ATA 76',
+    question: 'When flying at altitudes above 8,000 feet and outside air temperatures below -20 degrees C, what limit is possible to reach?',
+    options: { a: 'Gas generator speed limit', b: 'Corrected Ng speed limit', c: 'TGT limit' },
+    correct: 'b',
+  },
+    
+
 /* 
 
+What is the torque blow away princaple? Sacrific NR for increased torque
+
+Who do we load share? Bring the lower engine up
+
+What is controlling? Dual channel FADEC system
+
+in an OEI situation? we get 30 second power.
+
+does the pilot have to select 30 second? no
+
+full engine failure, good engine will go to? 30 sec
+
+in partial engine failure, good engine will fo to ? 2 mins
+
+if we are in training the indications are? inflated. (Raised to make them look real and ensure no where near the near limits)
+
+metering vavle and AISBV and VG have what feedback? LVDT
+
+how do we signal the positoin of the pilot control lever? RVDT and stop microswitch
+
+what sense the collective postion in to the EECU? RVDT
+
+excitation voltage from ? EECU
+
+what sensors require excitation volts? P0 and P3
+
+what is the type of interface between the EECU and A/C? arinc 429
+
+How do we guage the fuel flow? the meter valve position.(LVDT)
+
+where do P3 sensors go? EECU
 
 
 
-AI SBV takes air from? P2.5
 
 
-Stage 1 turbine and shrouds are cooled by what air? P3
 
-combustion chamber cooled by? P3
 
-drive the IPS by the ? Accessory Module Axis G
+
 
 
 
@@ -9631,6 +9956,246 @@ drive the IPS by the ? Accessory Module Axis G
 
 
    */
+{
+  id: 221,
+  category: "ATA 77",
+  question: "What is the purpose of the engine indicating system in the digital control system?",
+  options: { a: "To control torque", b: "To monitor engine performance", c: "To supply power to the cockpit" },
+  correct: "b"
+},
+
+{
+  id: 222,
+  category: "ATA 77",
+  question: "Which color represents a warning operating range in the engine indicating system?",
+  options: { a: "Green", b: "Yellow", c: "Red" },
+  correct: "c"
+},
+
+{
+  id: 223,
+  category: "ATA 77",
+  question: "What does the Data Concentration Unit (DCU) supply to the cockpit display?",
+  options: { a: "Engine power", b: "Related signals", c: "Oil pressure" },
+  correct: "b"
+},
+
+{
+  id: 224,
+  category: "ATA 77",
+  question: "What is the first level of alert in the three-level alert system for the engine indicating system?",
+  options: { a: "Warning", b: "Caution", c: "Maintenance" },
+  correct: "a"
+},
+
+{
+  id: 225,
+  category: "ATA 77",
+  question: "Which parameter is indicated by the Power Turbine Speed (Np) gauge on the PFD?",
+  options: { a: "Oil pressure", b: "Torque", c: "Power turbine speed" },
+  correct: "c"
+},
+
+{
+  id: 226,
+  category: "ATA 77",
+  question: "What does a red box with black labeling below the indicator represent in the event of a total Np signal failure?",
+  options: { a: "Normal operation", b: "Np failure", c: "Engine miscompare" },
+  correct: "b"
+},
+
+{
+  id: 227,
+  category: "ATA 77",
+  question: "How is torque represented on the PFD for Engine 1 and 2?",
+  options: { a: "Digital readout", b: "Triple tachometer", c: "Limiter symbology" },
+  correct: "c"
+},
+
+{
+  id: 228,
+  category: "ATA 77",
+  question: "What do the Q limit lines indicate on the Q dial?",
+  options: { a: "Boundaries between color regions", b: "Active limit range", c: "Analog countdown arc" },
+  correct: "a"
+},
+
+{
+  id: 229,
+  category: "ATA 77",
+  question: "Which engine parameter is visually indicated by the Power Turbine Inlet Temperature (T4.5) gauge on the PFD/POD?",
+  options: { a: "Oil pressure", b: "Torque", c: "Power turbine inlet temperature" },
+  correct: "c"
+},
+
+{
+  id: 230,
+  category: "ATA 77",
+  question: "What does the FADEC () OVERSPEED caution segment indicate?",
+  options: { a: "Low fuel pressure", b: "Overspeed protective system activation", c: "Engine rate limited reversionary malfunction" },
+  correct: "b"
+},
+
+{
+  id: 231,
+  category: "ATA 77",
+  question: "What caution segment is illuminated if the oil pressure drops below 20 psi?",
+  options: { a: "ENG () OIL HOT", b: "ENG () OIL BYPASS", c: "ENG () OIL PRES" },
+  correct: "c"
+},
+
+{
+  id: 232,
+  category: "ATA 77",
+  question: "Which parameter does the gas producer (Ng) indicating system primarily measure?",
+  options: { a: "Oil temperature", b: "Gas temperature entering the power turbine", c: "Engine shaft torque" },
+  correct: "b"
+},
+
+{
+  id: 233,
+  category: "ATA 77",
+  question: "What does the FADEC () FAULT caution segment indicate?",
+  options: { a: "Fixed engine power reversionary malfunction", b: "Engine failure detection", c: "Minor faults affecting FADEC operation" },
+  correct: "c"
+},
+
+{
+  id: 234,
+  category: "ATA 77",
+  question: "When does the STARTER caution segment change to caution after engine start?",
+  options: { a: "At 52%", b: "At 60 seconds", c: "At 30 seconds" },
+  correct: "b"
+},
+
+{
+  id: 235,
+  category: "ATA 77",
+  question: "What does the TRAINING DISABLED caution indicate?",
+  options: { a: "Training mode enabled", b: "Engine failure detection", c: "Faults preventing training mode" },
+  correct: "c"
+},
+
+{
+  id: 236,
+  category: "ATA 77",
+  question: "How is the FADEC 1/2 NO DESPATCH caution different from FADEC 1/2 FAULT?",
+  options: { a: "Different fault codes", b: "Different maintenance actions", c: "Different caution messages" },
+  correct: "b"
+},
+
+{
+  id: 237,
+  category: "ATA 77",
+  question: "What caution segment is illuminated if the engine or FADEC cannot change engine power based on demand?",
+  options: { a: "ENG () RATE LIM", b: "ENG () POWER LIM", c: "FADEC () OVERHEAT" },
+  correct: "b"
+},
+
+{
+  id: 238,
+  category: "ATA 77",
+  question: "What does the ENG () CHIP caution segment indicate?",
+  options: { a: "Engine rate limited malfunction", b: "Oil filter clog caution", c: "Magnetic chip detection caution" },
+  correct: "c"
+},
+
+{
+  id: 239,
+  category: "ATA 77",
+  question: "What is the purpose of the TGT limiter symbology?",
+  options: { a: "Indicate power turbine speed", b: "Provide time remaining", c: "Display engine rate limited reversionary malfunction" },
+  correct: "b"
+},
+
+{
+  id: 240,
+  category: "ATA 77",
+  question: "What is indicated by the Q Timer Lines and Countdown Arc on the Q dial?",
+  options: { a: "Boundaries between color regions", b: "Time remaining for active limiter", c: "Selected limit range annunciation" },
+  correct: "b"
+},
+
+{
+  id: 241,
+  category: "ATA 77",
+  question: "When is the audio notification 'ENGINE 1 FAILURE' or 'ENGINE 2 FAILURE' heard?",
+  options: { a: "During engine start", b: "When the oil temperature exceeds 149°C", c: "When the engine out warning lights illuminate" },
+  correct: "c"
+},
+
+{
+  id: 242,
+  category: "ATA 77",
+  question: "What caution segment is illuminated if the FADEC initiated overspeed circuit test fails?",
+  options: { a: "ENG () OVERSPEED", b: "ENG () OVSP TEST", c: "FADEC () () FAIL" },
+  correct: "b"
+},
+
+{
+  id: 243,
+  category: "ATA 77",
+  question: "What caution segment comes on if the data transfer between the FADECs fail?",
+  options: { a: "FADEC () FAULT", b: "ENG () FIXED POWER", c: "FADEC () XENG" },
+  correct: "c"
+},
+
+{
+  id: 244,
+  category: "ATA 77",
+  question: "When is the FADEC () FIXED POWER caution segment illuminated?",
+  options: { a: "During engine start", b: "During normal operation", c: "When the engine or FADEC cannot increase power" },
+  correct: "c"
+},
+
+{
+  id: 245,
+  category: "ATA 77",
+  question: "What does the ENG () HOT START caution segment indicate?",
+  options: { a: "Oil temperature exceeding 149°C on start", b: "Engine overspeed", c: "Power turbine speed limit exceeded" },
+  correct: "a"
+},
+
+{
+  id: 246,
+  category: "ATA 77",
+  question: "When does the STARTER advisory segment come on during engine start?",
+  options: { a: "At 52%", b: "At 60 seconds", c: "At 30 seconds" },
+  correct: "a"
+},
+
+{
+  id: 247,
+  category: "ATA 77",
+  question: "What is the purpose of the ENG () OIL BYPASS caution segment?",
+  options: { a: "Low oil pressure", b: "High oil temperature", c: "Pressure drop across the filter exceeds 60-80 psid" },
+  correct: "c"
+},
+
+{
+  id: 248,
+  category: "ATA 77",
+  question: "What is the primary signal source for the gas producer (Ng) indicating system?",
+  options: { a: "FMU high-pressure fuel pump", b: "Oil temperature sensor", c: "Thermocouple assembly" },
+  correct: "a"
+},
+
+{
+  id: 249,
+  category: "ATA 77",
+  question: "What does the ENG () FUEL PRES caution segment indicate?",
+  options: { a: "Fuel bypass", b: "Low fuel pressure", c: "Fuel pressure exceeding 8-9 psi" },
+  correct: "b"
+},
+
+{
+  id: 250,
+  category: "ATA 77",
+  question: "When is the countdown display in white and a yellow arc displayed during TGT limiter activation?",
+  options: { a: "When operating in the 30-second region", b: "When 60 seconds remain in the 30M region", c: "When the active limit range is partially used" },
+  correct: "b"
+},
+
   {
     id: 825,
     category: "ATA 78",
