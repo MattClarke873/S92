@@ -4492,7 +4492,13 @@ attitude hold is on when? both rate gyros and AHRS are S
     },
     correct: "a"
   },
-  {
+
+
+
+
+
+
+/*   {
     id: 397,
     category: "ATA 30",
     question: "What is the purpose of the engine anti-ice system?",
@@ -4502,7 +4508,7 @@ attitude hold is on when? both rate gyros and AHRS are S
       c: "Prevent ice at the front of each engine inlet"
     },
     correct: "c"
-  },
+  }, */
   {
     id: 398,
     category: "ATA 30",
@@ -4591,7 +4597,7 @@ attitude hold is on when? both rate gyros and AHRS are S
     },
     correct: "b"
   },
-  {
+/*   {
     id: 406,
     category: "ATA 30",
     question: "What caution is displayed if the anti-ice system is switched on above 86% Ng?",
@@ -4601,7 +4607,7 @@ attitude hold is on when? both rate gyros and AHRS are S
       c: "TRN INLT A-I on OAT below 5 Degrees C and both Anti-Ice switches are off"
     },
     correct: "a"
-  },
+  }, */
   {
     id: 407,
     category: "ATA 30",
@@ -4756,7 +4762,7 @@ attitude hold is on when? both rate gyros and AHRS are S
     },
     correct: "b"
   },
-  {
+/*   {
     id: 421,
     category: "ATA 30",
     question: "What happens when the co-pilot's windshield anti-ice switch is in the ON position?",
@@ -4766,7 +4772,7 @@ attitude hold is on when? both rate gyros and AHRS are S
       c: "Both a and b"
     },
     correct: "c"
-  },
+  }, */
   {
     id: 422,
     category: "ATA 30",
@@ -4811,7 +4817,7 @@ attitude hold is on when? both rate gyros and AHRS are S
     },
     correct: "a"
   },
-  {
+/*   {
     id: 426,
     category: "ATA 30",
     question: "In which mode does the RIPS system operate when Weight-Off-Wheels?",
@@ -4821,13 +4827,13 @@ attitude hold is on when? both rate gyros and AHRS are S
       c: "Off"
     },
     correct: "b"
-  },
+  }, */
   {
     id: 427,
     category: "ATA 30",
     question: "How is the Tail Rotor Blades balanced if a heating element fails?",
     options: {
-      a: "Power to other 3 blades is removed",
+      a: "Power to other 3 blades corresponding area is removed ",
       b: "No action is taken",
       c: "Switch to backup generator"
     },
@@ -4921,7 +4927,7 @@ attitude hold is on when? both rate gyros and AHRS are S
     },
     correct: "a"
   },
-  {
+/*   {
     id: 436,
     category: "ATA 30",
     question: "What does the Ice and Rain Power Supplies highlight?",
@@ -4931,7 +4937,48 @@ attitude hold is on when? both rate gyros and AHRS are S
       c: "Systems remaining powered"
     },
     correct: "c"
-  },
+  }, */
+
+/* 
+Loss of both ADCs sets a default ON time equivalent to -12°C
+
+The slip ring is fitted with a duplex bearing and connected to the MDC.
+If the primary bearing fails an advisory slip ring bearing is displayed.
+The system can still be operated for a further 10 hours on the secondary bearing.
+
+Power is distributed sequentially to each of the four corresponding span-wise heater elements in blades one and three then blades two and four.
+Power is also distributed continuously to the four droop stop heaters.
+
+if boths genrators fail and the a/c apu powered, which mats are heated? Number 2 only
+
+when engine  engine 2 "anti ice degraded" caution?  Bleed air degraded with electrical still operational
+
+if the heater element to the Left side fail? Pitot heat 1
+
+if both generators fail and a/c powered from the APU? Overide switch will allow power to pilots side.
+
+the pilots window heating system is powered from? No2 AC Pri bus for heating and No2 DC Primary bus for control
+
+if the primary bearing for main rotor slipring fails? Slip ring bearing Advisory shown
+
+when the rips system on the droop stops are heated ? when OAT drops below 5 deg c
+
+selection of rips manual mode controls the main rotor heating elements in the ? off time only
+
+
+
+
+
+
+
+
+
+  
+  
+  */
+
+
+
   {
     id: 437,
     category: "ATA 33",
@@ -9715,7 +9762,7 @@ T1 sensor? resistance thermal devices.
     id: 217,
     category: "ATA 76",
     question: "What does the Full Authority Digital Engine Control (FADEC) system supply to the pilots?",
-    options: { a: "Emergency power", b: "Indications, warnings, and diagnostic information", c: "Fuel boost" },
+    options: { a: "Fire detection", b: "Indications, warnings, and diagnostic information", c: "Fuel boost" },
     correct: "b",
   },
   
@@ -9756,20 +9803,20 @@ T1 sensor? resistance thermal devices.
     options: { a: 'Rock forward', b: 'Rock backward', c: 'Push downward' },
     correct: 'c',
   },
-  {
+/*   {
     id: 223,
     category: 'ATA 76',
     question: 'When does the active OEI limit automatically revert to the 30-second limit?',
     options: { a: 'T4.5 less than maximum', b: 'Torque less than 100%', c: 'WOW is false' },
     correct: 'a',
-  },
-  {
+  }, */
+/*   {
     id: 224,
     category: 'ATA 76',
     question: 'What must be done after encountering an OEI event during landing?',
     options: { a: 'Reset engine exceedance OEI switch', b: 'Disconnect external power', c: 'Perform boroscope inspection' },
     correct: 'a',
-  },
+  }, */
   {
     id: 225,
     category: 'ATA 76',
@@ -9788,7 +9835,7 @@ T1 sensor? resistance thermal devices.
     id: 227,
     category: 'ATA 76',
     question: 'What indication is presented on the PFD and EICAS pages during training mode?',
-    options: { a: 'Red indication', b: 'Blue indication', c: 'Green indication' },
+    options: { a: 'Red Train indication', b: 'Blue Train indication', c: 'Green Train indication' },
     correct: 'b',
   },
   {
@@ -9798,13 +9845,13 @@ T1 sensor? resistance thermal devices.
     options: { a: 'Increase TGT', b: 'Decrease torque', c: 'Simulate increased gross weight' },
     correct: 'c',
   },
-  {
+/*   {
     id: 229,
     category: 'ATA 76',
     question: 'What does the EECU set during training mode based on pilot input?',
     options: { a: 'Nominal OEI temperature limits', b: 'Training torque limits', c: 'Continuous OEI limit' },
     correct: 'b',
-  },
+  }, */
   {
     id: 230,
     category: 'ATA 76',
@@ -9816,8 +9863,8 @@ T1 sensor? resistance thermal devices.
     id: 231,
     category: 'ATA 76',
     question: 'What is the primary power source for each EECU?',
-    options: { a: 'Battery bus', b: 'DC PRI 1 bus', c: 'External electrical power' },
-    correct: 'a',
+    options: { a: 'Battery bus', b: 'DC PRI 1 bus', c: 'PMA' },
+    correct: 'c',
   },
   {
     id: 232,
@@ -9833,27 +9880,27 @@ T1 sensor? resistance thermal devices.
     options: { a: 'Weight on wheels', b: 'Nr speed demand signal', c: 'Compressor discharge pressure (P3)' },
     correct: 'b',
   },
-  {
+/*   {
     id: 234,
     category: 'ATA 76',
     question: 'What is the purpose of the engine health logic in the EECU?',
     options: { a: 'Calculate torque blow away', b: 'Provide engine control outputs', c: 'Perform built-in-test (BIT)' },
     correct: 'c',
-  },
+  }, */
   {
     id: 235,
     category: 'ATA 76',
     question: 'What does the transmission blow away logic provide during an OEI event?',
-    options: { a: 'Increased torque', b: 'Decreased torque', c: 'Increased speed' },
+    options: { a: 'Increased torque limit', b: 'Decreased torque limit', c: 'Increased speed limit' },
     correct: 'a',
   },
-  {
+/*   {
     id: 236,
     category: 'ATA 76',
     question: 'When does the TGT blow away feature activate?',
     options: { a: 'OEI condition', b: 'AEO take-off limit reached', c: 'Training mode' },
-    correct: 'b',
-  },
+    correct: 'a',
+  }, */
 /*   {
     id: 237,
     category: 'ATA 76',
@@ -9866,7 +9913,7 @@ T1 sensor? resistance thermal devices.
     category: 'ATA 76',
     question: 'What protects the engine and aircraft limits provided by the engine control?',
     options: { a: 'FADEC software', b: 'Torque limiter', c: 'Blow away feature' },
-    correct: 'b',
+    correct: 'a',
   },
   {
     id: 239,
@@ -9882,76 +9929,64 @@ T1 sensor? resistance thermal devices.
     options: { a: 'Gas generator speed limit', b: 'Corrected Ng speed limit', c: 'TGT limit' },
     correct: 'b',
   },
-    
+  {
+    id: 240,
+    category: 'ATA 76',
+    question: 'Metering valve feedback is given by?',
+    options: { a: 'LVDT', b: 'RVDT', c: 'proximity sensor' },
+    correct: 'a',
+  },
+  {
+    id: 240,
+    category: 'ATA 76',
+    question: 'Anti icing start bleed valve feedback is given by?',
+    options: { a: 'RVDT', b: 'LVDT', c: 'proximity sensor' },
+    correct: 'b',
+  },
+  {
+    id: 240,
+    category: 'ATA 76',
+    question: 'Variable geometery feedback is given by?',
+    options: { a: 'RVDT', b: 'proximity sensor', c: 'LVDT' },
+    correct: 'c',
+  },
+  {
+    id: 240,
+    category: 'ATA 76',
+    question: 'Variable geometery feedback is given by?',
+    options: { a: 'RVDT', b: 'proximity sensor', c: 'LVDT' },
+    correct: 'c',
+  },
+  {
+    id: 240,
+    category: 'ATA 76',
+    question: 'How is the pilot control lever position feedback given?',
+    options: { a: 'RVDT & microswitch', b: 'proximity sensor', c: 'LVDT and micro switch' },
+    correct: 'a',
+  },
+  {
+    id: 240,
+    category: 'ATA 76',
+    question: 'How is the collective pitch position feedback given?',
+    options: { a: 'RVDT', b: 'proximity sensor', c: 'LVDT' },
+    correct: 'a',
+  },
+  {
+    id: 240,
+    category: 'ATA 76',
+    question: 'Which sensors require external excitation?',
+    options: { a: 'P0', b: 'T1', c: 'T4.5' },
+    correct: 'a',
+  },
+  {
+    id: 240,
+    category: 'ATA 76',
+    question: 'What type of interface connects the EECU to the aircraft?',
+    options: { a: 'Twin co-axial interface', b: 'ARINC 429', c: 'ARINC 629' },
+    correct: 'b',
+  },
 
 /* 
-
-What is the torque blow away princaple? Sacrific NR for increased torque
-
-Who do we load share? Bring the lower engine up
-
-What is controlling? Dual channel FADEC system
-
-in an OEI situation? we get 30 second power.
-
-does the pilot have to select 30 second? no
-
-full engine failure, good engine will go to? 30 sec
-
-in partial engine failure, good engine will fo to ? 2 mins
-
-if we are in training the indications are? inflated. (Raised to make them look real and ensure no where near the near limits)
-
-metering vavle and AISBV and VG have what feedback? LVDT
-
-how do we signal the positoin of the pilot control lever? RVDT and stop microswitch
-
-what sense the collective postion in to the EECU? RVDT
-
-excitation voltage from ? EECU
-
-what sensors require excitation volts? P0 and P3
-
-what is the type of interface between the EECU and A/C? arinc 429
-
-How do we guage the fuel flow? the meter valve position.(LVDT)
-
-where do P3 sensors go? EECU
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -9983,9 +10018,17 @@ where do P3 sensors go? EECU
 {
   id: 224,
   category: "ATA 77",
-  question: "What is the first level of alert in the three-level alert system for the engine indicating system?",
+  question: "What is the highest level of alert in the three-level alert system for the engine indicating system?",
   options: { a: "Warning", b: "Caution", c: "Maintenance" },
   correct: "a"
+},
+
+{
+  id: 224,
+  category: "ATA 77",
+  question: "How many levels of alert system engine indication are there?",
+  options: { a: "One", b: "Two", c: "Three" },
+  correct: "c"
 },
 
 {
@@ -9999,27 +10042,27 @@ where do P3 sensors go? EECU
 {
   id: 226,
   category: "ATA 77",
-  question: "What does a red box with black labeling below the indicator represent in the event of a total Np signal failure?",
+  question: "What does a red box with black labeling below the Np indicator represent?",
   options: { a: "Normal operation", b: "Np failure", c: "Engine miscompare" },
   correct: "b"
 },
 
-{
+/* {
   id: 227,
   category: "ATA 77",
   question: "How is torque represented on the PFD for Engine 1 and 2?",
   options: { a: "Digital readout", b: "Triple tachometer", c: "Limiter symbology" },
   correct: "c"
-},
+}, */
 
-{
+/* {
   id: 228,
   category: "ATA 77",
   question: "What do the Q limit lines indicate on the Q dial?",
   options: { a: "Boundaries between color regions", b: "Active limit range", c: "Analog countdown arc" },
   correct: "a"
 },
-
+ */
 {
   id: 229,
   category: "ATA 77",
@@ -10031,7 +10074,7 @@ where do P3 sensors go? EECU
 {
   id: 230,
   category: "ATA 77",
-  question: "What does the FADEC () OVERSPEED caution segment indicate?",
+  question: "What does the FADEC (1/2) OVERSPEED caution segment indicate?",
   options: { a: "Low fuel pressure", b: "Overspeed protective system activation", c: "Engine rate limited reversionary malfunction" },
   correct: "b"
 },
@@ -10044,19 +10087,19 @@ where do P3 sensors go? EECU
   correct: "c"
 },
 
-{
+/* {
   id: 232,
   category: "ATA 77",
   question: "Which parameter does the gas producer (Ng) indicating system primarily measure?",
   options: { a: "Oil temperature", b: "Gas temperature entering the power turbine", c: "Engine shaft torque" },
   correct: "b"
 },
-
+ */
 {
   id: 233,
   category: "ATA 77",
   question: "What does the FADEC () FAULT caution segment indicate?",
-  options: { a: "Fixed engine power reversionary malfunction", b: "Engine failure detection", c: "Minor faults affecting FADEC operation" },
+  options: { a: "Fixed engine power reversionary malfunction", b: "Engine failure detection", c: "Channel A or B of a FADEC fails" },
   correct: "c"
 },
 
@@ -10076,13 +10119,13 @@ where do P3 sensors go? EECU
   correct: "c"
 },
 
-{
+/* {
   id: 236,
   category: "ATA 77",
   question: "How is the FADEC 1/2 NO DESPATCH caution different from FADEC 1/2 FAULT?",
   options: { a: "Different fault codes", b: "Different maintenance actions", c: "Different caution messages" },
   correct: "b"
-},
+}, */
 
 {
   id: 237,
@@ -10100,18 +10143,18 @@ where do P3 sensors go? EECU
   correct: "c"
 },
 
-{
+/* {
   id: 239,
   category: "ATA 77",
   question: "What is the purpose of the TGT limiter symbology?",
   options: { a: "Indicate power turbine speed", b: "Provide time remaining", c: "Display engine rate limited reversionary malfunction" },
   correct: "b"
-},
+}, */
 
 {
   id: 240,
   category: "ATA 77",
-  question: "What is indicated by the Q Timer Lines and Countdown Arc on the Q dial?",
+  question: "What is indicated by the Torque Timer Lines and Countdown Arc on the Torque dial?",
   options: { a: "Boundaries between color regions", b: "Time remaining for active limiter", c: "Selected limit range annunciation" },
   correct: "b"
 },
@@ -10152,8 +10195,8 @@ where do P3 sensors go? EECU
   id: 245,
   category: "ATA 77",
   question: "What does the ENG () HOT START caution segment indicate?",
-  options: { a: "Oil temperature exceeding 149°C on start", b: "Engine overspeed", c: "Power turbine speed limit exceeded" },
-  correct: "a"
+  options: { a: "Oil temperature exceeding 149°C on start", b: "Engine overspeed", c: "TGT >1000°C on start" },
+  correct: "c"
 },
 
 {
@@ -10195,6 +10238,43 @@ where do P3 sensors go? EECU
   options: { a: "When operating in the 30-second region", b: "When 60 seconds remain in the 30M region", c: "When the active limit range is partially used" },
   correct: "b"
 },
+
+{
+  id: 250,
+  category: "ATA 77",
+  question: "How are sensor miscompares displayed?",
+  options: { a: "red dashed area", b: "yellow double headed arrow", c: "red double headed arrow" },
+  correct: "b"
+},
+
+{
+  id: 250,
+  category: "ATA 77",
+  question: "What indications will be shown if the torque limit is exceeded??",
+  options: { a: "red dashed area", b: "yellow double headed arrow", c: "red double headed arrow" },
+  correct: "b"
+},
+
+/* 
+
+What is the sensor routing? EECU, DCU Junction, DCU, MFD/PFD
+
+What does EICAS stand for? Engine indication and crew aletring system
+
+Torque guage what will change if over limit? Needle, arch and digits
+
+OEI set limiter is set? white on the right upper corner
+
+active limter? left top corner, Amber or red
+
+do we see digital timer all the time? Only in the last 60 seconds 
+
+engine out indication? Eng out on master warning, Audio, red cross, box red, engine number digit will turn red
+
+when will you get get the aurla engine out? WOW and below 105%Nr
+
+how would we decsribe the alert system? 3 level. warning, caution and maint events
+*/
 
   {
     id: 825,
@@ -10284,32 +10364,10 @@ where do P3 sensors go? EECU
     },
     correct: "c"
   },
-/* 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- */
   {
     id: 833,
     category: "ATA 79",
@@ -10657,6 +10715,174 @@ where do P3 sensors go? EECU
 
 
    */
+
+/* {
+  id: 221,
+  category: 'ATA 80',
+  question: 'What is the primary role of the Full Authority Digital Engine Control (FADEC) in the pneumatic starting system?',
+  options: { a: 'Ignition control', b: 'Fuel flow control', c: 'Automatic starting control' },
+  correct: 'c',
+}, */
+/* {
+  id: 222,
+  category: 'ATA 80',
+  question: 'Which component controls the flow of compressed bleed-air to the pneumatic start motor?',
+  options: { a: 'Start valve', b: 'FADEC', c: 'Starter pad' },
+  correct: 'a',
+}, */
+{
+  id: 223,
+  category: 'ATA 80',
+  question: 'Where does the bleed-air to the start motor come from when the AIR SRCE HEAT/START switch is in the APU position?',
+  options: { a: 'Opposite engine', b: 'APU', c: 'Engine/APU' },
+  correct: 'b',
+},
+{
+  id: 224,
+  category: 'ATA 80',
+  question: 'What is the function of the engine bleed air shutoff valve?',
+  options: { a: 'Control fuel flow', b: 'Control pneumatic pressure', c: 'Control ignition' },
+  correct: 'b',
+},
+ {
+  id: 225,
+  category: 'ATA 80',
+  question: 'Where is the Pneumatic Start Valves located?',
+  options: { a: 'APU', b: 'Accessory module', c: 'Top deck between the main engines' },
+  correct: 'c',
+}, 
+{
+  id: 226,
+  category: 'ATA 80',
+  question: 'How often is the oil in the engine starter replaced?',
+  options: { a: 'Every flight', b: 'Every 1250 flight hours', c: 'Every 500 hours' },
+  correct: 'b',
+},
+{
+  id: 227,
+  category: 'ATA 80',
+  question: 'What are the two types of pneumatic pipe interconnections used?',
+  options: { a: 'Rigid clamp and flexible coupling', b: 'Swivel joint and T-connector', c: 'Solenoid valve and check valve' },
+  correct: 'a',
+},
+{
+  id: 228,
+  category: 'ATA 80',
+  question: 'What function does the AIR SRCE HEAT/START switch serve in the overhead console?',
+  options: { a: 'Selecting ignition mode', b: 'Selecting bleed-air source', c: 'Controlling oil temperature' },
+  correct: 'b',
+},
+{
+  id: 229,
+  category: 'ATA 80',
+  question: 'In the engine control quadrant, what does the FLY position of the power control lever (PCL) do?',
+  options: { a: 'Shutdown the engine', b: 'Maintain engine speed at 63-70% Ng', c: 'Govern the Nr speed at 105%' },
+  correct: 'c',
+},
+{
+  id: 230,
+  category: 'ATA 80',
+  question: 'What do the NO. 1 ENG START and NO. 2 ENG START pushbuttons initiate?',
+  options: { a: 'Shutdown sequence', b: 'Engine start-up', c: 'Ignition mode selection' },
+  correct: 'b',
+},
+{
+  id: 231,
+  category: 'ATA 80',
+  question: 'Which circuit breakers supply electrical power to the engine start relays?',
+  options: { a: 'DC Essential Bus', b: 'APU circuit', c: 'Engine start bus' },
+  correct: 'a',
+},
+{
+  id: 232,
+  category: 'ATA 80',
+  question: 'What is the purpose of the FADEC in the starting sequence?',
+  options: { a: 'Control fuel flow', b: 'Sequencing starting operation', c: 'Vent hot engine starts' },
+  correct: 'b',
+},
+{
+  id: 233,
+  category: 'ATA 80',
+  question: 'What logic is used to prevent the EECU from engaging the starter when the start button is inadvertently pressed?',
+  options: { a: 'Timeout feature', b: 'Emergency shutdown', c: 'Engine motoring' },
+  correct: 'a',
+},
+{
+  id: 234,
+  category: 'ATA 80',
+  question: 'When does the hot start protection logic become active during an engine start?',
+  options: { a: 'When PCL is in FLY position', b: 'When T4.5 exceeds hot start temperature limit', c: 'During sub-idle operation' },
+  correct: 'b',
+},
+{
+  id: 235,
+  category: 'ATA 80',
+  question: 'What are the back-to-back starting limits at an ambient temperature greater than +15°C?',
+  options: { a: '2 consecutive starts with 5-minute cooling', b: '4 consecutive starts with 15-minute cooling', c: '2 consecutive starts with 2-minute cooling' },
+  correct: 'a',
+},
+{
+  id: 236,
+  category: 'ATA 80',
+  question: 'What is the purpose of the automatic blowdown feature when the PCL is moved to IDLE?',
+  options: { a: 'Cooling the engine', b: 'Venting the engine', c: 'Initiating engine shutdown' },
+  correct: 'b',
+},
+{
+  id: 237,
+  category: 'ATA 80',
+  question: 'When conducting a wet rollover, what caution must be observed?',
+  options: { a: 'Turn off bleed-air source', b: 'Prevent ignition after fuel introduction', c: 'Increase oil level' },
+  correct: 'b',
+},
+{
+  id: 238,
+  category: 'ATA 80',
+  question: 'When should the anti-icing system be turned on during engine starting?',
+  options: { a: 'Above 15°C', b: 'Below 5°C', c: 'During flameouts' },
+  correct: 'b',
+},
+{
+  id: 239,
+  category: 'ATA 80',
+  question: 'What is the starter cut-out speed after light-off?',
+  options: { a: '52% Ng', b: '70% Ng', c: '90% Ng' },
+  correct: 'a',
+},
+{
+  id: 240,
+  category: 'ATA 80',
+  question: 'When should the engine be cooled for 2 minutes at idle before moving the power control lever to OFF?',
+  options: { a: 'After wet rollover', b: 'During emergency shutdown', c: 'Before restarting the engine' },
+  correct: 'c',
+},
+
+
+/* 
+how is the starter controlled? EECU FADEC
+
+if you're starting number 1 eng, will no1 cross bleed be shut or open? shut!
+
+if start/heat set to APU where are the engine bleed valves? Both shut
+
+engine bleed valves fail safe closed
+
+hot start protection limit? 1000 deg
+
+when is start protection limit enabled? from start to idle. (disabled in the flight gate)
+
+what other protection system does the start have? Blowdown TGT, engine motor to cool below 150degC
+
+What type of starter motor is fitted to the engine? Phnumatic
+
+how many start valves? 2
+
+where are start buttons located? Throttle quad
+
+
+*/
+
+
   {
     id: 858,
     category: "Engine Manuals",
