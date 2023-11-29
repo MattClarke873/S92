@@ -1506,6 +1506,14 @@ const questionBank = [
     },
     correct: "a"
   },
+
+
+
+
+
+
+
+  
   {
     id: 138,
     category: "ATA 21",
@@ -1522,7 +1530,7 @@ const questionBank = [
     category: "ATA 21",
     question: "Where is the ECS Control Panel located?",
     options: {
-      a: "Cabin roof right side",
+      a: "Lower center console",
       b: "Cockpit overhead panel right side",
       c: "APU upper transmission deck"
     },
@@ -1627,7 +1635,7 @@ const questionBank = [
     },
     correct: "b"
   },
-  {
+/*   {
     id: 149,
     category: "ATA 21",
     question: "What is the primary purpose of the Flash Tank in the ACS?",
@@ -1637,7 +1645,7 @@ const questionBank = [
       c: "To cool the cabin"
     },
     correct: "b"
-  },
+  }, */
   {
     id: 150,
     category: "ATA 21",
@@ -1660,7 +1668,7 @@ const questionBank = [
     },
     correct: "b"
   },
-  {
+/*   {
     id: 152,
     category: "ATA 21",
     question: "Which statement about the compressor pallet assembly is correct?",
@@ -1670,11 +1678,11 @@ const questionBank = [
       c: "It is part of the ventilation system"
     },
     correct: "b"
-  },
+  }, */
   {
     id: 153,
     category: "ATA 21",
-    question: "How is the ACS designed to actively cool?",
+    question: "When is the ACS designed to actively cool?",
     options: {
       a: "At all times",
       b: "When OAT is higher than 16\u00b0C",
@@ -1682,7 +1690,7 @@ const questionBank = [
     },
     correct: "b"
   },
-  {
+/*   {
     id: 154,
     category: "ATA 21",
     question: "Which sensor does NOT provide inputs to the DTCU?",
@@ -1692,7 +1700,7 @@ const questionBank = [
       c: "Pressure Switch"
     },
     correct: "b"
-  },
+  }, */
   {
     id: 155,
     category: "ATA 21",
