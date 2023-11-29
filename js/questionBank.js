@@ -2068,6 +2068,62 @@ const questionBank = [
 
 
 
+How is the avionic cooling controlled? Automatic, power on.
+
+do both fans run at the same time? no
+
+do the fans alternate? no  (always primary)
+
+fans in the LH and lower console are 100Watts
+
+RH rack are 180Watts, with warning detectors
+
+Signle fan fail?? Maint event
+
+double fan fail? Cautions as follows Rack 1 fan fail, Rack 2 fan fail, Cockpit Sec fan
+
+where would we locate the heater controller unit? Nose compartment
+
+When can we have heating? APU or engines running
+
+can we heat if in OEI? no
+
+overtemp sensors at what temp? 199degC
+
+what does the ECS evapourator do? turn in to gas
+
+compressor low press gas to high press gas
+
+condensor turns high pressure gas to high press liquid
+
+electrical supply to condensor fans 115V AC
+
+electrical supply to evapourator fans 115V AC
+
+electrical supply to compressure  115V AC
+
+where is the condensor? RH aft sponsons
+
+how many condesors? 1
+
+how many evapourators? 2
+
+how many compressures? 1 
+
+
+fresh air valves? 24v dc
+
+where is the DTCU? next to compressure pallet
+
+where is HP service valve? Baggage bay RH
+
+where is the LP service vavle? main pallet
+
+
+
+
+
+
 
 
 
