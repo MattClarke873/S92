@@ -10,6 +10,8 @@ body {
   justify-content: center;
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column; /* Set flex direction to column */
 }
 
 
@@ -17,14 +19,58 @@ body {
   
 
 } */
-
-.container {
-  display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
+.container1{
+  justify-self: center; /* Centers horizontally */
+  align-self: center; /* Centers vertically */
   flex-direction: column; /* Stacks children vertically */
-  height: 100vh; /* Set height to 100% of viewport height */
+  height: 20vh; /*Set height to 100% of viewport height */
   text-align: center;
+
+}
+.container {
+  justify-self: center; /* Centers horizontally */
+  align-self: center; /* Centers vertically */
+  flex-direction: column; /* Stacks children vertically */
+  height: 50%; /*Set height to 100% of viewport height */
+  text-align: center;
+  padding: 10px; /* Adjust padding as needed */
+  position: relative; /* Required for absolute positioning */
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: inherit;
+  border-radius: inherit;
+  backdrop-filter: blur(2px); /* Adjust the blur intensity as needed */
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  z-index: -2;
+  background: inherit;
+  border-radius: inherit;
+  backdrop-filter: blur(4px); /* Adjust the blur intensity as needed */
+}
+
+.container::before,
+.container::after {
+  backdrop-filter: blur(3px); /* Adjust the blur intensity as needed */
+}
+
+.container > * {
+  position: relative;
+  z-index: 1;
 }
 
 .list {
@@ -57,10 +103,10 @@ select, button {
 /* Answer list and buttons */
 .question-container {
   background-color: rgba(6, 6, 6, 0.32); /* Adjust the alpha value to control transparency */
-  border: 1px inset grey;
+  /*border: 1px inset grey;*/
   border-radius: 10px;
   margin: 4px 0px 4px 0px;
-  padding: 0px 15px 10px 15px;
+  padding: 8px 15px 40px 10px;
   height: 25vh; /* Ensure body takes up full vertical height */
   width: 65vw; /* Ensure body takes up full horizontal width */
   backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
@@ -75,39 +121,85 @@ select, button {
 button {
   background-color: #333;
   color: #fff;
-  width: 80%;
+  /*width: 80%;*/
   padding: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition-duration: 0.4s;
-  height: 35vh; /* Ensure body takes up full vertical height */
-  width: 45vw; /* Ensure body takes up full horizontal width */
+  height: 5vh; /* Ensure body takes up full vertical height */
+  width: 50vw; /* Ensure body takes up full horizontal width */
 }
+
 button:hover {
   background-color: #555; 
 }
+
+
 .selected {
   background-color: #dadada;
   color: #333;
   box-shadow: 0 4px 14px 0 #a6ff7d, 0 6px 10px 0 rgba(0,0,0,0.19);
 }
 
-
 /* Bottom buttons */
+
+#filterBtn {
+  background-color: #333; 
+  height: 4vh; /* Ensure body takes up full vertical height */
+  width: 18vw; /* Ensure body takes up full horizontal width */
+  min-width: 110px;
+  max-width: 200px; /* Maximum width */
+}
+
+#filterBtn:hover {
+  width: 19vw; /* Ensure body takes up full horizontal width */
+}
 
 #finishBtn {
   background-color: #4CAF50; /* Green */
+  height: 4vh; /* Ensure body takes up full vertical height */
+  width: 18vw; /* Ensure body takes up full horizontal width */
+  min-width: 110px;
+  max-width: 200px; /* Maximum width */
 }
 #finishBtn:hover {
   background-color: #45a049; /* Darker Green */
+  height: 4vh; /* Ensure body takes up full vertical height */
+  width: 19vw; /* Ensure body takes up full horizontal width */
+  
+  max-width: 205px; /* Maximum width */
 }
 #resetBtn {
   background-color: #f44336; /* Red */
+  height: 4vh; /* Ensure body takes up full vertical height */
+  width: 18vw; /* Ensure body takes up full horizontal width */
+  min-width: 110px;
+  max-width: 200px; /* Maximum width */
 }
 #resetBtn:hover {
   background-color: #d32f2f; /* Darker Red */
+  height: 4vh; /* Ensure body takes up full vertical height */
+  width: 19vw; /* Ensure body takes up full horizontal width */
+  
+  max-width: 205px; /* Maximum width */
 }
+
+
+#home,#left,#right {
+  background-color: #333; /* Red */
+  height: 4vh; /* Ensure body takes up full vertical height */
+  width: 10vw; /* Ensure body takes up full horizontal width */
+  max-width: 100px; /* Maximum width */
+}
+
+#home:hover,#left:hover,#right:hover {
+  background-color: #333; /* Red */
+  height: 4vh; /* Ensure body takes up full vertical height */
+  width: 10vw; /* Ensure body takes up full horizontal width */
+  max-width: 105px; /* Maximum width */
+}
+
 h4 {
   color:#d32f2f
 }
@@ -137,9 +229,6 @@ text-align: center;
 
 
 
-.blur-background {
-  backdrop-filter: blur(15px); /* Adjust the blur intensity as needed */
-}
 
 
 .result-container {
@@ -153,4 +242,48 @@ text-align: center;
 
 
 
+.blur-background {
+  justify-self: center; /* Centers horizontally */
+  align-self: center; /* Centers vertically */
+  flex-direction: column; /* Stacks children vertically */
+  height: 50%; /*Set height to 100% of viewport height */
+  text-align: center;
+  padding: 10px; /* Adjust padding as needed */
+  position: relative; /* Required for absolute positioning */
+}
 
+.blur-background::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: inherit;
+  border-radius: inherit;
+  backdrop-filter: blur(2px); /* Adjust the blur intensity as needed */
+}
+
+.blur-background::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  z-index: -2;
+  background: inherit;
+  border-radius: inherit;
+  backdrop-filter: blur(4px); /* Adjust the blur intensity as needed */
+}
+
+.blur-background::before,
+.blur-background::after {
+  backdrop-filter: blur(3px); /* Adjust the blur intensity as needed */
+}
+
+.blur-background > * {
+  position: relative;
+  z-index: 1;
+}
