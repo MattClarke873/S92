@@ -13,9 +13,18 @@ body {
 }
 
 
-.container {
-  text-align: center;
+/* .container {
+  
 
+} */
+
+.container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  flex-direction: column; /* Stacks children vertically */
+  height: 100vh; /* Set height to 100% of viewport height */
+  text-align: center;
 }
 
 .list {
