@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Apply blur effect to result container
     resultContainer.classList.add('blur-background');
-
+    resultContainer.classList.add('result-container');
     // Hide the Finish button
     finishBtn.style.display = 'none';
 
@@ -146,6 +146,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Remove blur effect from result container
     resultContainer.classList.remove('blur-background');
+    resultContainer.classList.remove('result-container');
 
     // Show the Finish button
     finishBtn.style.display = 'inline-block';

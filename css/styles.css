@@ -128,12 +128,13 @@ text-align: center;
 
 .blur-background {
   backdrop-filter: blur(15px); /* Adjust the blur intensity as needed */
-  
 }
+
 
 .result-container {
   border: 30px solid transparent;
 }
+
 
 
 
