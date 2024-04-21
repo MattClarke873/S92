@@ -9,6 +9,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100%;
+  width: 100%;
 }
 
 
@@ -45,12 +46,16 @@ select, button {
 
 
 /* Answer list and buttons */
-.question-container{
-  background-color: #060606;
+.question-container {
+  background-color: rgba(6, 6, 6, 0.32); /* Adjust the alpha value to control transparency */
   border: 1px inset grey;
   border-radius: 10px;
   margin: 4px 0px 4px 0px;
   padding: 0px 15px 10px 15px;
+  height: 25vh; /* Ensure body takes up full vertical height */
+  width: 65vw; /* Ensure body takes up full horizontal width */
+  backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
+
 }
 
 .options-list {
@@ -121,6 +126,9 @@ text-align: center;
 
 
 
+.blur-background {
+  backdrop-filter: blur(15px); /* Adjust the blur intensity as needed */
+}
 
 
 

@@ -1,4 +1,6 @@
+// This event listener ensures that the JavaScript code runs after the HTML document has been completely loaded
 document.addEventListener('DOMContentLoaded', function () {
+  // Get references to various HTML elements using their IDs
   const questionCountSelect = document.getElementById('questionCount');
   const questionsContainer = document.getElementById('questions-container');
   const finishBtn = document.getElementById('finishBtn');
@@ -8,15 +10,18 @@ document.addEventListener('DOMContentLoaded', function () {
   const categoryCheckboxes = document.querySelectorAll('.category-checkbox');
   const selectAllCheckbox = document.getElementById('selectAll');
 
+  // Initialize variables to store quiz data
   let selectedQuestions = [];
   let percentageHistory = [];
   let filteredQuestions = [];
 
+  // Function to generate a random selection of questions
   function generateRandomQuestions(count, questions) {
     const shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     return shuffledQuestions.slice(0, count);
   }
 
+  // Function to display questions in the UI
   function displayQuestions() {
     questionsContainer.innerHTML = '';
 
@@ -47,6 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  // Function to handle option clicks
   function handleOptionClick() {
     const questionId = parseInt(this.getAttribute('data-question'), 10);
     const optionSelected = this.getAttribute('data-option');
@@ -61,6 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
     this.classList.add('selected');
   }
 
+  // Function to calculate and display the quiz score
   function calculateScore() {
     let correctCount = 0;
 
@@ -117,6 +124,9 @@ document.addEventListener('DOMContentLoaded', function () {
     percentageHistoryText.innerHTML = `Last 5 Scores: ${lastFivePercentages.map(p => p.toFixed(2)).join('%, ')}%`;
     resultContainer.appendChild(percentageHistoryText);
 
+    // Apply blur effect to result container
+    resultContainer.classList.add('blur-background');
+
     // Hide the Finish button
     finishBtn.style.display = 'none';
 
@@ -125,6 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
     resultContainer.style.display = 'block';
   }
 
+  // Function to reset the quiz
   function resetQuiz() {
     selectedQuestions = [];
     questionsContainer.innerHTML = '';
@@ -133,10 +144,14 @@ document.addEventListener('DOMContentLoaded', function () {
     resultContainer.style.display = 'none';
     questionCountSelect.selectedIndex = 0;
 
+    // Remove blur effect from result container
+    resultContainer.classList.remove('blur-background');
+
     // Show the Finish button
     finishBtn.style.display = 'inline-block';
   }
 
+  // Function to get selected categories from checkboxes
   function getSelectedCategories() {
     const selectedCategories = [];
     categoryCheckboxes.forEach((checkbox) => {
@@ -147,6 +162,7 @@ document.addEventListener('DOMContentLoaded', function () {
     return selectedCategories;
   }
 
+  // Function to apply filters based on selected categories
   function applyFilters() {
     const selectedCount = parseInt(questionCountSelect.value, 10);
     const selectedCategories = getSelectedCategories();
@@ -166,10 +182,12 @@ document.addEventListener('DOMContentLoaded', function () {
     displayQuestions(selectedQuestions);
   }
 
+  // Event listener for filter button click
   filterBtn.addEventListener('click', function () {
     applyFilters();
   });
 
+  // Event listener for select all checkbox change
   selectAllCheckbox.addEventListener('change', function () {
     // Update the state of all category checkboxes based on the "Select All" checkbox
     categoryCheckboxes.forEach((checkbox) => {
@@ -177,16 +195,19 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+  // Event listener for question count select change
   questionCountSelect.addEventListener('change', function () {
     const selectedCount = parseInt(this.value, 10);
     selectedQuestions = generateRandomQuestions(selectedCount, filteredQuestions);
     displayQuestions(selectedQuestions);
   });
 
+  // Event listener for finish button click
   finishBtn.addEventListener('click', function () {
     calculateScore();
   });
 
+  // Event listener for reset button click
   resetBtn.addEventListener('click', function () {
     resetQuiz();
   });
