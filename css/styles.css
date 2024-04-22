@@ -73,6 +73,11 @@ body {
   z-index: 1;
 }
 
+
+.SelectionBox {
+ min-height: 150px;
+}
+
 .list {
   display: inline-block;
   vertical-align: top;
