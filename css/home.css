@@ -16,25 +16,24 @@
     font-size: 16px;
     cursor: pointer;
   }
-
-
-  #home,#left,#right {
-  background-color: #333333; /* Red */
-  height: 4vh; /* Ensure body takes up full vertical height */
-  width: 10vw; /* Ensure body takes up full horizontal width */
-  max-width: 105px; /* Maximum width */
+  .navigation button:hover{
+  background-color:  #6d6d6d;
   }
 
+  #home,#left,#right {
+    background-color: #333333; /* Red */
+    height: 4vh; /* Ensure body takes up full vertical height */
+    width: 10vw; /* Ensure body takes up full horizontal width */
+    max-width: 105px; /* Maximum width */
+    }
+  
   #home:hover,#left:hover,#right:hover {
     background-color:  #2f2f2f;
     height: 4vh; /* Ensure body takes up full vertical height */
     width: 11vw; /* Ensure body takes up full horizontal width */
     max-width: 110px; /* Maximum width */
-    }
-
+     }
 
   #left {border-radius: 5px 0px 0px 5px;}
-  #home {border-radius: 5px 0px 0px 5px;}
-  #right {border-radius: 0px 5px 5px 0px;}
-
-
+  #home {border-radius: 5px;}
+  

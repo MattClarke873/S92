@@ -189,19 +189,7 @@ button:hover {
 }
 
 
-#home,#left,#right {
-  background-color: #333; /* Red */
-  height: 4vh; /* Ensure body takes up full vertical height */
-  width: 10vw; /* Ensure body takes up full horizontal width */
-  max-width: 100px; /* Maximum width */
-}
 
-#home:hover,#left:hover,#right:hover {
-  background-color: #333; /* Red */
-  height: 4vh; /* Ensure body takes up full vertical height */
-  width: 10vw; /* Ensure body takes up full horizontal width */
-  max-width: 105px; /* Maximum width */
-}
 
 h4 {
   color:#d32f2f
