@@ -1,7 +1,7 @@
 const questionBank = [
   {
     id: 1,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Where can Aircraft manuals be accessed in PDF format?",
     options: {
       a: "Sikorsky 360 Website",
@@ -12,7 +12,7 @@ const questionBank = [
   },
   {
     id: 2,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the URL for Sikorsky 360 website?",
     options: {
       a: "https://www.sikorsky360.com",
@@ -23,7 +23,7 @@ const questionBank = [
   },
   {
     id: 3,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "How can Sikorsky 360 be accessed? ",
     options: {
       a: "Only as a mobile application",
@@ -34,7 +34,7 @@ const questionBank = [
   },
   {
     id: 4,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Which of the following is not a type of E-Notification according to the Sikorsky 360 website?",
     options: {
       a: "AOL - All Operator Letters",
@@ -45,7 +45,7 @@ const questionBank = [
   },
   {
     id: 5,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What does IETM stand for?",
     options: {
       a: "In-Flight Entertainment System",
@@ -56,7 +56,7 @@ const questionBank = [
   },
   {
     id: 6,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What type of manuals are available on CDs in PDF format but are not updated daily?",
     options: {
       a: "RFM Manuals",
@@ -67,7 +67,7 @@ const questionBank = [
   },
   {
     id: 7,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the purpose of Specific ICAs?",
     options: {
       a: "Routine inspections",
@@ -78,7 +78,7 @@ const questionBank = [
   },
   {
     id: 8,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is included in RFM Supplements?",
     options: {
       a: "Routine maintenance procedures",
@@ -89,7 +89,7 @@ const questionBank = [
   },
   {
     id: 9,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What does AMP stand for?",
     options: {
       a: "Aircraft Maintenance Programme",
@@ -100,7 +100,7 @@ const questionBank = [
   },
   {
     id: 10,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "According to ATA Specification No. 2200, how is subject matter arranged?",
     options: {
       a: "By alphabetical order",
@@ -111,7 +111,7 @@ const questionBank = [
   },
   {
     id: 11,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What does CAGE stand for in the context of Sikorsky Part Numbers?",
     options: {
       a: "Chapter and Group Equipment",
@@ -122,7 +122,7 @@ const questionBank = [
   },
   {
     id: 12,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the purpose of a Temporary Revision (T-Rev)?",
     options: {
       a: "To replace permanent revisions",
@@ -133,7 +133,7 @@ const questionBank = [
   },
   {
     id: 13,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Where can operators find Active Temporary Revisions?",
     options: {
       a: "In the maintenance manual appendix",
@@ -144,7 +144,7 @@ const questionBank = [
   },
   {
     id: 14,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What does SM&R Code stand for?",
     options: {
       a: "Standard Maintenance and Repair Code",
@@ -155,7 +155,7 @@ const questionBank = [
   },
   {
     id: 15,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the purpose of Hazardous Material Warning Icons?",
     options: {
       a: "To indicate critical parts",
@@ -166,7 +166,7 @@ const questionBank = [
   },
   {
     id: 16,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the primary method for submitting Requests for Revisions using Sikorsky Publications SoundOff?",
     options: {
       a: "Faxing",
@@ -177,7 +177,7 @@ const questionBank = [
   },
   {
     id: 17,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Where can SoundOff reports be e-mailed?",
     options: {
       a: "soundoff@sikorsky.com",
@@ -188,7 +188,7 @@ const questionBank = [
   },
   {
     id: 18,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What information does the List of Active Temporary Revisions provide?",
     options: {
       a: "Temporary revision numbers",
@@ -199,7 +199,7 @@ const questionBank = [
   },
   {
     id: 19,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the purpose of the Highlights section in the Manual Front Matter?",
     options: {
       a: "Introduction to the manual",
@@ -210,7 +210,7 @@ const questionBank = [
   },
   {
     id: 20,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Which chapter of the AMM provides maintenance ground and flight check procedures for the S-92A?",
     options: {
       a: "Chapter 4",
@@ -221,7 +221,7 @@ const questionBank = [
   },
   {
     id: 21,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What does ASB stand for in Sikorsky's publications?",
     options: {
       a: "Alert Service Bulletin",
@@ -232,7 +232,7 @@ const questionBank = [
   },
   {
     id: 22,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Which document contains ATA Chapters 4 & 5 for maintenance limitations and inspection requirements?",
     options: {
       a: "AWL",
@@ -243,7 +243,7 @@ const questionBank = [
   },
   {
     id: 23,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the primary purpose of the List of Effective Pages (LOEP) in each chapter?",
     options: {
       a: "Record temporary revisions",
@@ -254,7 +254,7 @@ const questionBank = [
   },
   {
     id: 24,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "How many maintenance zones is the S-92A aircraft subdivided into?",
     options: {
       a: "3",
@@ -265,7 +265,7 @@ const questionBank = [
   },
   {
     id: 25,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the primary purpose of fuselage jack pads on the S-92A?",
     options: {
       a: "To measure aircraft weight",
@@ -276,7 +276,7 @@ const questionBank = [
   },
   {
     id: 26,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "How many types of jacking methods are used for the S-92A?",
     options: {
       a: "1",
@@ -287,7 +287,7 @@ const questionBank = [
   },
   {
     id: 27,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What caution is mentioned regarding jacking the helicopter outdoors?",
     options: {
       a: "Avoid jacking in windy conditions",
@@ -298,7 +298,7 @@ const questionBank = [
   },
   {
     id: 28,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What procedure is used to tow the S-92A aircraft?",
     options: {
       a: "Whole Aircraft Towing",
@@ -309,7 +309,7 @@ const questionBank = [
   },
   {
     id: 29,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "When is it suggested to release parking brakes to prevent freezing?",
     options: {
       a: "During short term parking",
@@ -320,7 +320,7 @@ const questionBank = [
   },
   {
     id: 30,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What should be done if the helicopter will be exposed to tornado or winds above 65 knots?",
     options: {
       a: "Move it to a hangar",
@@ -331,7 +331,7 @@ const questionBank = [
   },
   {
     id: 31,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the primary method for mooring the S-92A aircraft?",
     options: {
       a: "Tying it down with ropes",
@@ -342,7 +342,7 @@ const questionBank = [
   },
   {
     id: 32,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Which document provides storage procedures for S-92A engines?",
     options: {
       a: "AMM",
@@ -353,7 +353,7 @@ const questionBank = [
   },
   {
     id: 33,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the primary purpose of Placards and Markings in the helicopter?",
     options: {
       a: "Decoration",
@@ -364,7 +364,7 @@ const questionBank = [
   },
   {
     id: 34,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the purpose of the Replenishing Table in the AMM Servicing Overview?",
     options: {
       a: "List of effective chapters",
@@ -375,7 +375,7 @@ const questionBank = [
   },
   {
     id: 35,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What caution is given regarding the removal of ice from antennas, lights, and covers?",
     options: {
       a: "Use high-pressure tools",
@@ -386,7 +386,7 @@ const questionBank = [
   },
   {
     id: 36,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What type of de-icing/anti-icing fluid is cautioned against spraying on the main rotor hub?",
     options: {
       a: "SAE AMS 1424",
@@ -397,7 +397,7 @@ const questionBank = [
   },
   {
     id: 37,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the recommended preventive measure when temperatures below 0\u00b0C are expected?",
     options: {
       a: "Scrape ice from the windshield",
@@ -408,7 +408,7 @@ const questionBank = [
   },
   {
     id: 38,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Where are Engine Fuel Drain Collector Tanks located on the aircraft?",
     options: {
       a: "Upper side of the fuselage",
@@ -419,7 +419,7 @@ const questionBank = [
   },
   {
     id: 39,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the draining procedure for the Engine Fuel Drain Collector Tank?",
     options: {
       a: "Open fuel drain valve first",
@@ -430,7 +430,7 @@ const questionBank = [
   },
   {
     id: 40,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "During post-flight fuel draining, what should be done if no fuel is collected on two consecutive attempts?",
     options: {
       a: "Continue draining attempts",
@@ -441,18 +441,18 @@ const questionBank = [
   },
   {
     id: 41,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Where is the information about external electrical power application found?",
     options: {
-      a: "ATA 24 Electrical Power",
-      b: "ATA 12 Fuselage / Blades",
-      c: "ATA 00 General"
+      a: "S92 ATA 24 Electrical Power",
+      b: "S92 ATA 12 Fuselage / Blades",
+      c: "S92 ATA 00 General"
     },
     correct: "a"
   },
   {
     id: 42,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the recommended method for removing ice from the fuselage?",
     options: {
       a: "Use hand tools cautiously",
@@ -463,7 +463,7 @@ const questionBank = [
   },
   {
     id: 43,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the caution regarding the use of de-icing/anti-icing fluid on the swashplate?",
     options: {
       a: "Direct spray at high pressure",
@@ -474,18 +474,18 @@ const questionBank = [
   },
   {
     id: 44,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Where can references for draining procedures be found in the aircraft documentation?",
     options: {
-      a: "ATA 00 General",
-      b: "ATA 24 Electrical Power",
-      c: "ATA 12 Fuselage / Blades"
+      a: "S92 ATA 00 General",
+      b: "S92 ATA 24 Electrical Power",
+      c: "S92 ATA 12 Fuselage / Blades"
     },
     correct: "c"
   },
   {
     id: 45,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Where can Aircraft manuals be accessed in PDF format?",
     options: {
       a: "Sikorsky 360 Website",
@@ -496,7 +496,7 @@ const questionBank = [
   },
   {
     id: 46,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the URL for Sikorsky 360 website?",
     options: {
       a: "https://www.sikorsky360.com",
@@ -507,7 +507,7 @@ const questionBank = [
   },
   {
     id: 47,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "How can Sikorsky 360 be accessed? ",
     options: {
       a: "Only as a mobile application",
@@ -518,7 +518,7 @@ const questionBank = [
   },
   {
     id: 48,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Which of the following is not a type of E-Notification according to the Sikorsky 360 website?",
     options: {
       a: "AOL - All Operator Letters",
@@ -529,7 +529,7 @@ const questionBank = [
   },
   {
     id: 49,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What does IETM stand for?",
     options: {
       a: "In-Flight Entertainment System",
@@ -540,7 +540,7 @@ const questionBank = [
   },
   {
     id: 50,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What type of manuals are available on CDs in PDF format but are not updated daily?",
     options: {
       a: "RFM Manuals",
@@ -551,7 +551,7 @@ const questionBank = [
   },
   {
     id: 51,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the purpose of Specific ICAs?",
     options: {
       a: "Routine inspections",
@@ -562,7 +562,7 @@ const questionBank = [
   },
   {
     id: 52,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is included in RFM Supplements?",
     options: {
       a: "Routine maintenance procedures",
@@ -573,7 +573,7 @@ const questionBank = [
   },
   {
     id: 53,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What does AMP stand for?",
     options: {
       a: "Aircraft Maintenance Programme",
@@ -584,7 +584,7 @@ const questionBank = [
   },
   {
     id: 54,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "According to ATA Specification No. 2200, how is subject matter arranged?",
     options: {
       a: "By alphabetical order",
@@ -595,7 +595,7 @@ const questionBank = [
   },
   {
     id: 55,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What does CAGE stand for in the context of Sikorsky Part Numbers?",
     options: {
       a: "Chapter and Group Equipment",
@@ -606,7 +606,7 @@ const questionBank = [
   },
   {
     id: 56,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the purpose of a Temporary Revision (T-Rev)?",
     options: {
       a: "To replace permanent revisions",
@@ -617,7 +617,7 @@ const questionBank = [
   },
   {
     id: 57,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Where can operators find Active Temporary Revisions?",
     options: {
       a: "In the maintenance manual appendix",
@@ -628,7 +628,7 @@ const questionBank = [
   },
   {
     id: 58,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What does SM&R Code stand for?",
     options: {
       a: "Standard Maintenance and Repair Code",
@@ -639,7 +639,7 @@ const questionBank = [
   },
   {
     id: 59,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the purpose of Hazardous Material Warning Icons?",
     options: {
       a: "To indicate critical parts",
@@ -650,7 +650,7 @@ const questionBank = [
   },
   {
     id: 60,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the primary method for submitting Requests for Revisions using Sikorsky Publications SoundOff?",
     options: {
       a: "Faxing",
@@ -661,7 +661,7 @@ const questionBank = [
   },
   {
     id: 61,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Where can SoundOff reports be e-mailed?",
     options: {
       a: "soundoff@sikorsky.com",
@@ -672,7 +672,7 @@ const questionBank = [
   },
   {
     id: 62,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What information does the List of Active Temporary Revisions provide?",
     options: {
       a: "Temporary revision numbers",
@@ -683,7 +683,7 @@ const questionBank = [
   },
   {
     id: 63,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the purpose of the Highlights section in the Manual Front Matter?",
     options: {
       a: "Introduction to the manual",
@@ -694,7 +694,7 @@ const questionBank = [
   },
   {
     id: 64,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Which chapter of the AMM provides maintenance ground and flight check procedures for the S-92A?",
     options: {
       a: "Chapter 4",
@@ -705,7 +705,7 @@ const questionBank = [
   },
   {
     id: 65,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What does ASB stand for in Sikorsky's publications?",
     options: {
       a: "Alert Service Bulletin",
@@ -716,7 +716,7 @@ const questionBank = [
   },
   {
     id: 66,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Which document contains ATA Chapters 4 & 5 for maintenance limitations and inspection requirements?",
     options: {
       a: "AWL",
@@ -727,7 +727,7 @@ const questionBank = [
   },
   {
     id: 67,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the primary purpose of the List of Effective Pages (LOEP) in each chapter?",
     options: {
       a: "Record temporary revisions",
@@ -738,7 +738,7 @@ const questionBank = [
   },
   {
     id: 68,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "How many maintenance zones is the S-92A aircraft subdivided into?",
     options: {
       a: "3",
@@ -749,7 +749,7 @@ const questionBank = [
   },
   {
     id: 69,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the primary purpose of fuselage jack pads on the S-92A?",
     options: {
       a: "To measure aircraft weight",
@@ -760,7 +760,7 @@ const questionBank = [
   },
   {
     id: 70,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "How many types of jacking methods are used for the S-92A?",
     options: {
       a: "1",
@@ -771,7 +771,7 @@ const questionBank = [
   },
   {
     id: 71,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What caution is mentioned regarding jacking the helicopter outdoors?",
     options: {
       a: "Avoid jacking in windy conditions",
@@ -782,7 +782,7 @@ const questionBank = [
   },
   {
     id: 72,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What procedure is used to tow the S-92A aircraft?",
     options: {
       a: "Whole Aircraft Towing",
@@ -793,7 +793,7 @@ const questionBank = [
   },
   {
     id: 73,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "When is it suggested to release parking brakes to prevent freezing?",
     options: {
       a: "During short term parking",
@@ -804,7 +804,7 @@ const questionBank = [
   },
   {
     id: 74,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What should be done if the helicopter will be exposed to tornado or winds above 65 knots?",
     options: {
       a: "Move it to a hangar",
@@ -815,7 +815,7 @@ const questionBank = [
   },
   {
     id: 75,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the primary method for mooring the S-92A aircraft?",
     options: {
       a: "Tying it down with ropes",
@@ -826,7 +826,7 @@ const questionBank = [
   },
   {
     id: 76,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Which document provides storage procedures for S-92A engines?",
     options: {
       a: "AMM",
@@ -837,7 +837,7 @@ const questionBank = [
   },
   {
     id: 77,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the primary purpose of Placards and Markings in the helicopter?",
     options: {
       a: "Decoration",
@@ -848,7 +848,7 @@ const questionBank = [
   },
   {
     id: 78,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the purpose of the Replenishing Table in the AMM Servicing Overview?",
     options: {
       a: "List of effective chapters",
@@ -859,7 +859,7 @@ const questionBank = [
   },
   {
     id: 79,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What caution is given regarding the removal of ice from antennas, lights, and covers?",
     options: {
       a: "Use high-pressure tools",
@@ -870,7 +870,7 @@ const questionBank = [
   },
   {
     id: 80,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What type of de-icing/anti-icing fluid is cautioned against spraying on the main rotor hub?",
     options: {
       a: "SAE AMS 1424",
@@ -881,7 +881,7 @@ const questionBank = [
   },
   {
     id: 81,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the recommended preventive measure when temperatures below 0\u00b0C are expected?",
     options: {
       a: "Scrape ice from the windshield",
@@ -892,7 +892,7 @@ const questionBank = [
   },
   {
     id: 82,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Where are Engine Fuel Drain Collector Tanks located on the aircraft?",
     options: {
       a: "Upper side of the fuselage",
@@ -903,7 +903,7 @@ const questionBank = [
   },
   {
     id: 83,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the draining procedure for the Engine Fuel Drain Collector Tank?",
     options: {
       a: "Open fuel drain valve first",
@@ -914,7 +914,7 @@ const questionBank = [
   },
   {
     id: 84,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "During post-flight fuel draining, what should be done if no fuel is collected on two consecutive attempts?",
     options: {
       a: "Continue draining attempts",
@@ -925,18 +925,18 @@ const questionBank = [
   },
   {
     id: 85,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Where is the information about external electrical power application found?",
     options: {
-      a: "ATA 24 Electrical Power",
-      b: "ATA 12 Fuselage / Blades",
-      c: "ATA 00 General"
+      a: "S92 ATA 24 Electrical Power",
+      b: "S92 ATA 12 Fuselage / Blades",
+      c: "S92 ATA 00 General"
     },
     correct: "a"
   },
   {
     id: 86,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the recommended method for removing ice from the fuselage?",
     options: {
       a: "Use hand tools cautiously",
@@ -947,7 +947,7 @@ const questionBank = [
   },
   {
     id: 87,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "What is the caution regarding the use of de-icing/anti-icing fluid on the swashplate?",
     options: {
       a: "Direct spray at high pressure",
@@ -958,18 +958,18 @@ const questionBank = [
   },
   {
     id: 88,
-    category: "ATA 00-12",
+    category: "S92 ATA 00-12",
     question: "Where can references for draining procedures be found in the aircraft documentation?",
     options: {
-      a: "ATA 00 General",
-      b: "ATA 24 Electrical Power",
-      c: "ATA 12 Fuselage / Blades"
+      a: "S92 ATA 00 General",
+      b: "S92 ATA 24 Electrical Power",
+      c: "S92 ATA 12 Fuselage / Blades"
     },
     correct: "c"
   },
   {
     id: 89,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "Which type of balancing ensures that components are balanced around their center of gravity when not moving?",
     options: {
       a: "Dynamic Balancing",
@@ -980,7 +980,7 @@ const questionBank = [
   },
   {
     id: 90,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "What is the role of the Active Vibration Control (AVC) system in the S-92 helicopter?",
     options: {
       a: "Reducing rotor track imbalance",
@@ -991,7 +991,7 @@ const questionBank = [
   },
   {
     id: 91,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "What is the most likely cause of rotor vibration in the S-92 related to the blades?",
     options: {
       a: "Static imbalance",
@@ -1002,7 +1002,7 @@ const questionBank = [
   },
   {
     id: 92,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "How is dynamic balancing of the main rotor blades in the S-92 achieved?",
     options: {
       a: "Adjusting pitch change rods",
@@ -1013,7 +1013,7 @@ const questionBank = [
   },
   {
     id: 93,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "What is the purpose of the blade tracker in the HUMS system?",
     options: {
       a: "Monitoring tail rotor balance",
@@ -1024,7 +1024,7 @@ const questionBank = [
   },
   {
     id: 94,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "How is dynamic balancing of the tail rotor achieved in the S-92?",
     options: {
       a: "Adjusting weights in the leading edge",
@@ -1035,7 +1035,7 @@ const questionBank = [
   },
   {
     id: 95,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "What is the purpose of the HUMS Main Processing Unit (MPU)?",
     options: {
       a: "Balancing main rotor blades",
@@ -1046,7 +1046,7 @@ const questionBank = [
   },
   {
     id: 96,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "Which material is used for screws for balancing the High-Speed Shaft flange?",
     options: {
       a: "Steel, Aluminum, Titanium",
@@ -1057,7 +1057,7 @@ const questionBank = [
   },
   {
     id: 97,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "When is the active mode of the Blade Tracker used?",
     options: {
       a: "During daylight",
@@ -1068,7 +1068,7 @@ const questionBank = [
   },
   {
     id: 98,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "Where is the AVCC located in the aircraft?",
     options: {
       a: "Nose wheel well",
@@ -1079,7 +1079,7 @@ const questionBank = [
   },
   {
     id: 99,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "How is EU #1 powered?",
     options: {
       a: "DC power supply",
@@ -1090,7 +1090,7 @@ const questionBank = [
   },
   {
     id: 100,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "How many airframe accelerometers are used in the AVCC system?",
     options: {
       a: "3",
@@ -1101,7 +1101,7 @@ const questionBank = [
   },
   {
     id: 101,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "What caution will be displayed if one or more Force Generators or four accelerometers fail?",
     options: {
       a: "AVC DEGRADED",
@@ -1112,7 +1112,7 @@ const questionBank = [
   },
   {
     id: 102,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "According to the MEL, is the AVC system essential for flight?",
     options: {
       a: "Yes",
@@ -1123,7 +1123,7 @@ const questionBank = [
   },
   {
     id: 103,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "Where should personnel be during the AVCC IBIT test?",
     options: {
       a: "In the cockpit",
@@ -1134,7 +1134,7 @@ const questionBank = [
   },
   {
     id: 104,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "How is the AVC IBIT test initiated?",
     options: {
       a: "By turning off the VIB CTRL switch",
@@ -1145,7 +1145,7 @@ const questionBank = [
   },
   {
     id: 105,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "What caution is displayed if both AC generators fail or if the NR signal is lost?",
     options: {
       a: "AVC DEGRADED",
@@ -1156,7 +1156,7 @@ const questionBank = [
   },
   {
     id: 106,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "What happens if the IBIT test fails?",
     options: {
       a: "The AVC system resets automatically",
@@ -1167,7 +1167,7 @@ const questionBank = [
   },
   {
     id: 107,
-    category: "ATA 18",
+    category: "S92 ATA 18",
     question: "When will AVC FAIL Caution display be suppressed ",
     options: {
       a: "less than 95% NR and WOW",
@@ -1178,7 +1178,7 @@ const questionBank = [
   },
   {
     id: 108,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What does the Standard Practices chapter cover?",
     options: {
       a: "Scheduled inspection job set-up",
@@ -1189,7 +1189,7 @@ const questionBank = [
   },
   {
     id: 109,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "Which category of inspection involves the actual operation of equipment to verify proper operating condition?",
     options: {
       a: "Visual",
@@ -1200,7 +1200,7 @@ const questionBank = [
   },
   {
     id: 110,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What is included in the Scheduled Inspection Job Set-Up section?",
     options: {
       a: "Description of Torque Striping",
@@ -1211,7 +1211,7 @@ const questionBank = [
   },
   {
     id: 111,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "How is Safe-T-CableTM different from standard lockwire?",
     options: {
       a: "More expensive",
@@ -1222,7 +1222,7 @@ const questionBank = [
   },
   {
     id: 112,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What is described in the Self-Retaining Bolt Installation section?",
     options: {
       a: "Use of Safety Cable",
@@ -1233,7 +1233,7 @@ const questionBank = [
   },
   {
     id: 113,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "When is torque striping applied to fasteners?",
     options: {
       a: "When specified",
@@ -1244,7 +1244,7 @@ const questionBank = [
   },
   {
     id: 114,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What does the Leakage Inspection Criteria section contain information about?",
     options: {
       a: "Lockwiring procedures",
@@ -1255,7 +1255,7 @@ const questionBank = [
   },
   {
     id: 115,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "How is the repair of flight control hydraulic tubes achieved?",
     options: {
       a: "Using standard lockwire",
@@ -1266,7 +1266,7 @@ const questionBank = [
   },
   {
     id: 116,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What is the purpose of the Deutsch Axial swage Tool (DAT) toolkit?",
     options: {
       a: "To apply Torque Stripes",
@@ -1277,7 +1277,7 @@ const questionBank = [
   },
   {
     id: 117,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "Which component is a product of the Permaswage Company?",
     options: {
       a: "PermaLite connection",
@@ -1288,7 +1288,7 @@ const questionBank = [
   },
   {
     id: 118,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What is the purpose of Safe-T-CableTM kits?",
     options: {
       a: "To facilitate easy access to maintenance",
@@ -1299,7 +1299,7 @@ const questionBank = [
   },
   {
     id: 119,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "In the Torque Striping Hardware section, when is the head striped if the fastener end is not designated?",
     options: {
       a: "Never",
@@ -1310,7 +1310,7 @@ const questionBank = [
   },
   {
     id: 120,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What does the Standard Lockwiring section describe?",
     options: {
       a: "Use of standard industry practices",
@@ -1321,7 +1321,7 @@ const questionBank = [
   },
   {
     id: 121,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What is the purpose of the Safety Cable (Safe-T-CableTM) in some procedures?",
     options: {
       a: "To replace standard lockwire",
@@ -1332,7 +1332,7 @@ const questionBank = [
   },
   {
     id: 122,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What is included in the Inspection Practices section?",
     options: {
       a: "Types of inspections required for maintenance and repair",
@@ -1343,7 +1343,7 @@ const questionBank = [
   },
   {
     id: 123,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What does the Standard Practices chapter cover?",
     options: {
       a: "Scheduled inspection job set-up",
@@ -1354,7 +1354,7 @@ const questionBank = [
   },
   {
     id: 124,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "Which category of inspection involves the actual operation of equipment to verify proper operating condition?",
     options: {
       a: "Visual",
@@ -1365,7 +1365,7 @@ const questionBank = [
   },
   {
     id: 125,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What is included in the Scheduled Inspection Job Set-Up section?",
     options: {
       a: "Description of Torque Striping",
@@ -1376,7 +1376,7 @@ const questionBank = [
   },
   {
     id: 126,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "How is Safe-T-CableTM different from standard lockwire?",
     options: {
       a: "More expensive",
@@ -1387,7 +1387,7 @@ const questionBank = [
   },
   {
     id: 127,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What is described in the Self-Retaining Bolt Installation section?",
     options: {
       a: "Use of Safety Cable",
@@ -1398,7 +1398,7 @@ const questionBank = [
   },
   {
     id: 128,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "When is torque striping applied to fasteners?",
     options: {
       a: "When specified",
@@ -1409,7 +1409,7 @@ const questionBank = [
   },
   {
     id: 129,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What does the Leakage Inspection Criteria section contain information about?",
     options: {
       a: "Lockwiring procedures",
@@ -1420,7 +1420,7 @@ const questionBank = [
   },
   {
     id: 130,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "How is the repair of flight control hydraulic tubes achieved?",
     options: {
       a: "Using standard lockwire",
@@ -1431,7 +1431,7 @@ const questionBank = [
   },
   {
     id: 131,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What is the purpose of the Deutsch Axial swage Tool (DAT) toolkit?",
     options: {
       a: "To apply Torque Stripes",
@@ -1442,7 +1442,7 @@ const questionBank = [
   },
   {
     id: 132,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "Which component is a product of the Permaswage Company?",
     options: {
       a: "PermaLite connection",
@@ -1453,7 +1453,7 @@ const questionBank = [
   },
   {
     id: 133,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What is the purpose of Safe-T-CableTM kits?",
     options: {
       a: "To facilitate easy access to maintenance",
@@ -1464,7 +1464,7 @@ const questionBank = [
   },
   {
     id: 134,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "In the Torque Striping Hardware section, when is the head striped if the fastener end is not designated?",
     options: {
       a: "Never",
@@ -1475,7 +1475,7 @@ const questionBank = [
   },
   {
     id: 135,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What does the Standard Lockwiring section describe?",
     options: {
       a: "Use of standard industry practices",
@@ -1486,7 +1486,7 @@ const questionBank = [
   },
   {
     id: 136,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What is the purpose of the Safety Cable (Safe-T-CableTM) in some procedures?",
     options: {
       a: "To replace standard lockwire",
@@ -1497,7 +1497,7 @@ const questionBank = [
   },
   {
     id: 137,
-    category: "ATA 20",
+    category: "S92 ATA 20",
     question: "What is included in the Inspection Practices section?",
     options: {
       a: "Types of inspections required for maintenance and repair",
@@ -1516,7 +1516,7 @@ const questionBank = [
   
   {
     id: 138,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What does ECS stand for?",
     options: {
       a: "Environmental Control System",
@@ -1527,7 +1527,7 @@ const questionBank = [
   },
   {
     id: 139,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "Where is the ECS Control Panel located?",
     options: {
       a: "Lower center console",
@@ -1538,7 +1538,7 @@ const questionBank = [
   },
   {
     id: 140,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "How is cooling achieved in the air conditioning system?",
     options: {
       a: "By using a fuel-based system",
@@ -1549,7 +1549,7 @@ const questionBank = [
   },
   {
     id: 141,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What determines the amount of fresh air allowed into the ventilation system?",
     options: {
       a: "DTCU",
@@ -1560,7 +1560,7 @@ const questionBank = [
   },
   {
     id: 142,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "In which position should the ECS rotary switch be set to provide fresh air to the pilots in the cockpit?",
     options: {
       a: "MAX AC",
@@ -1571,7 +1571,7 @@ const questionBank = [
   },
   {
     id: 143,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What does the DTCU stand for?",
     options: {
       a: "Digital Thermostat Control Unit",
@@ -1582,7 +1582,7 @@ const questionBank = [
   },
   {
     id: 144,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What does the EPR valve control?",
     options: {
       a: "Evaporator Pressure Regulator Valve",
@@ -1593,7 +1593,7 @@ const questionBank = [
   },
   {
     id: 145,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "How is refrigerant charge quantified during servicing?",
     options: {
       a: "By pressure",
@@ -1604,7 +1604,7 @@ const questionBank = [
   },
   {
     id: 146,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "Which component is responsible for cooling down the liquid arriving from the flash tank?",
     options: {
       a: "Filter/Dryer",
@@ -1615,7 +1615,7 @@ const questionBank = [
   },
   {
     id: 147,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What is the purpose of the ACS Visualizer software?",
     options: {
       a: "To control cabin lighting",
@@ -1626,7 +1626,7 @@ const questionBank = [
   },
   {
     id: 148,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "When using a hand-held electronic leak detector, what should be done if a leak is identified?",
     options: {
       a: "Continue operations as usual",
@@ -1637,7 +1637,7 @@ const questionBank = [
   },
 /*   {
     id: 149,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What is the primary purpose of the Flash Tank in the ACS?",
     options: {
       a: "To store refrigerant",
@@ -1648,7 +1648,7 @@ const questionBank = [
   }, */
   {
     id: 150,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "Which option is NOT a function of the DTCU?",
     options: {
       a: "Sending command control signals to compressors",
@@ -1659,7 +1659,7 @@ const questionBank = [
   },
   {
     id: 151,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What is the purpose of the Fresh Air Valves (FAV)?",
     options: {
       a: "To control aircraft lighting",
@@ -1670,7 +1670,7 @@ const questionBank = [
   },
 /*   {
     id: 152,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "Which statement about the compressor pallet assembly is correct?",
     options: {
       a: "It is located on the left sponson",
@@ -1681,7 +1681,7 @@ const questionBank = [
   }, */
   {
     id: 153,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "When is the ACS designed to actively cool?",
     options: {
       a: "At all times",
@@ -1692,7 +1692,7 @@ const questionBank = [
   },
 /*   {
     id: 154,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "Which sensor does NOT provide inputs to the DTCU?",
     options: {
       a: "Air Temperature Sensor (Cabin Ambient)",
@@ -1703,7 +1703,7 @@ const questionBank = [
   }, */
   {
     id: 155,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What is the purpose of the Thermostatic Expansion Valve?",
     options: {
       a: "To control the flow of refrigerant through evaporators",
@@ -1714,7 +1714,7 @@ const questionBank = [
   },
   {
     id: 156,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What is the function of the evaporator fans when cooling is not required?",
     options: {
       a: "To increase cabin pressure",
@@ -1725,7 +1725,7 @@ const questionBank = [
   },
   {
     id: 157,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What is the purpose of the subcooler in the ACS?",
     options: {
       a: "To cool the cabin air",
@@ -1736,7 +1736,7 @@ const questionBank = [
   },
   {
     id: 158,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "Which component prevents excessive pressure in the high-pressure side of the air conditioning system?",
     options: {
       a: "Pressure Switch",
@@ -1747,7 +1747,7 @@ const questionBank = [
   },
   {
     id: 159,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What is the purpose of the evaporator in the ACS?",
     options: {
       a: "To cool the cabin air",
@@ -1758,7 +1758,7 @@ const questionBank = [
   },
   {
     id: 160,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "Which option is NOT a function of the Air Supply Fans?",
     options: {
       a: "To provide fresh air to the cabin",
@@ -1769,7 +1769,7 @@ const questionBank = [
   },
   {
     id: 161,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "How is the refrigerant cooled before entering the evaporator?",
     options: {
       a: "By the subcooler",
@@ -1780,7 +1780,7 @@ const questionBank = [
   },
   {
     id: 162,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What does the Pack Control Valve regulate?",
     options: {
       a: "Airflow to the cabin",
@@ -1791,7 +1791,7 @@ const questionBank = [
   },
   {
     id: 163,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What does the ECS control panel in the cockpit overhead panel allow selection of?",
     options: {
       a: "Fuel type",
@@ -1802,7 +1802,7 @@ const questionBank = [
   },
   {
     id: 164,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "How is the temperature controlled in the cockpit and cabin using the ECS control panel?",
     options: {
       a: "Through a push-button",
@@ -1813,7 +1813,7 @@ const questionBank = [
   },
   {
     id: 165,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "Which avionic components have in-built cooling fans?",
     options: {
       a: "Control panels only",
@@ -1824,7 +1824,7 @@ const questionBank = [
   },
   {
     id: 166,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "How is cooling achieved for avionic locations like the cockpit centre console and avionic racks?",
     options: {
       a: "By drawing ambient air from the top of the aircraft",
@@ -1835,7 +1835,7 @@ const questionBank = [
   },
   {
     id: 167,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "Where are the air intakes for the avionic racks located?",
     options: {
       a: "Top of the racks",
@@ -1846,7 +1846,7 @@ const questionBank = [
   },
   {
     id: 168,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "How is power supplied to the main fans for the lower console and avionic racks?",
     options: {
       a: "From the No. 1 DC PRIMARY bus",
@@ -1857,7 +1857,7 @@ const questionBank = [
   },
   {
     id: 169,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What caution will be displayed on the EICAS if both fans in an avionic rack or the centre console fail?",
     options: {
       a: "COCKPIT SEC FAN Caution",
@@ -1868,7 +1868,7 @@ const questionBank = [
   },
   {
     id: 170,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "Where is the ECS Control Panel located?",
     options: {
       a: "On the nose landing gear bay",
@@ -1879,7 +1879,7 @@ const questionBank = [
   },
   {
     id: 171,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What is the purpose of the Heater Control Unit (HCU) in the heating system?",
     options: {
       a: "To control the aircraft's weight",
@@ -1890,7 +1890,7 @@ const questionBank = [
   },
   {
     id: 172,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "How is the source of air for aircraft heating controlled?",
     options: {
       a: "Through a foot pedal",
@@ -1901,7 +1901,7 @@ const questionBank = [
   },
   {
     id: 173,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What happens if the APU is providing bleed air and the #1 ENG FIRE warning light is on?",
     options: {
       a: "The aircraft will shut down completely",
@@ -1912,7 +1912,7 @@ const questionBank = [
   },
   {
     id: 174,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "Where is the HCU located in the aircraft?",
     options: {
       a: "Under the nose avionic bay",
@@ -1923,7 +1923,7 @@ const questionBank = [
   },
   {
     id: 175,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What is the function of the modulating shutoff valves in the heating system?",
     options: {
       a: "To control cabin lighting",
@@ -1934,7 +1934,7 @@ const questionBank = [
   },
   {
     id: 176,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "How are air manifold pipes interconnected?",
     options: {
       a: "Through a hydraulic system",
@@ -1945,7 +1945,7 @@ const questionBank = [
   },
   {
     id: 177,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What is the purpose of the Overheat Sensor in the cabin heating system?",
     options: {
       a: "To control cabin lighting",
@@ -1956,7 +1956,7 @@ const questionBank = [
   },
   {
     id: 178,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What is the principle on which the heat ejectors work?",
     options: {
       a: "Jet propulsion",
@@ -1967,7 +1967,7 @@ const questionBank = [
   },
   {
     id: 179,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "How does the AIR SRCE HEAT/START switch control the air source for aircraft heating?",
     options: {
       a: "Through a touchscreen interface",
@@ -1978,7 +1978,7 @@ const questionBank = [
   },
   {
     id: 180,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "Where are the engine supply cross-bleed valves located?",
     options: {
       a: "Next to the cockpit seats",
@@ -1989,7 +1989,7 @@ const questionBank = [
   },
   {
     id: 181,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What does the HCU do during engine starting?",
     options: {
       a: "Increases cabin temperature",
@@ -2000,7 +2000,7 @@ const questionBank = [
   },
   {
     id: 182,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What is the purpose of flexible couplings in the air manifold pipes?",
     options: {
       a: "To enhance aerodynamics",
@@ -2011,7 +2011,7 @@ const questionBank = [
   },
   {
     id: 183,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "Where are the inlet temperature sensors for the cockpit heating system located?",
     options: {
       a: "In the nose bay compartment",
@@ -2022,7 +2022,7 @@ const questionBank = [
   },
   {
     id: 184,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What happens if the overheat sensor in the cockpit heating system registers excess temperature?",
     options: {
       a: "The aircraft shuts down",
@@ -2033,7 +2033,7 @@ const questionBank = [
   },
   {
     id: 185,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "How does the HCU control the discharge of hot bleed air to maintain the desired temperature?",
     options: {
       a: "By adjusting the aircraft's weight",
@@ -2044,7 +2044,7 @@ const questionBank = [
   },
   {
     id: 186,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "What caution is displayed if both fans in an avionic rack fail?",
     options: {
       a: "COCKPIT SEC FAN Caution",
@@ -2055,7 +2055,7 @@ const questionBank = [
   },
   {
     id: 187,
-    category: "ATA 21",
+    category: "S92 ATA 21",
     question: "Which switch controls the source of air for aircraft heating?",
     options: {
       a: "HEAT/STOP switch",
@@ -2159,7 +2159,7 @@ where is the LP service vavle? main pallet
 
   {
     id: 188,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "Where is the AFCS Control Panel located?",
     options: {
       a: "Bottom of the left Avionics Rack",
@@ -2170,7 +2170,7 @@ where is the LP service vavle? main pallet
   },
   {
     id: 189,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "How many Flight Control Computers (FCCs) are there in the S-92 aircraft?",
     options: {
       a: "One",
@@ -2181,7 +2181,7 @@ where is the LP service vavle? main pallet
   },
   {
     id: 190,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What is the maximum control authority of each SAS Actuator?",
     options: {
       a: "2%",
@@ -2192,7 +2192,7 @@ where is the LP service vavle? main pallet
   },
   {
     id: 191,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "How many Trim Actuators are there in the S-92 aircraft?",
     options: {
       a: "Two",
@@ -2203,7 +2203,7 @@ where is the LP service vavle? main pallet
   },
   {
     id: 192,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What modules are with the FCC?? PSAS and Main Processor section?",
     options: {
       a: "Primary Stability Augmentation System (PSAS), Main Processor Section (MPS) and Backup Stability Augmentation System (BSAS)",
@@ -2214,7 +2214,7 @@ where is the LP service vavle? main pallet
   }, 
   {    
     id: 193,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What signals do the accelerometers provide to the FCC?",
     options: {
       a: "Rate movement signals",
@@ -2225,7 +2225,7 @@ where is the LP service vavle? main pallet
   }, 
   {
     id: 194,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "Where are the AHRS units located in the S-92 aircraft?",
     options: {
       a: "In the cabin roof",
@@ -2236,7 +2236,7 @@ where is the LP service vavle? main pallet
   },
   {
     id: 195,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What information does the Air Data Computer (ADC) provide to the AFCS?",
     options: {
       a: "Pitch and roll attitude",
@@ -2247,7 +2247,7 @@ where is the LP service vavle? main pallet
   },
   {
     id: 196,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What function does the Radar Altimeter (RADALT) provide?",
     options: {
       a: "RADALT Altitude Hold",
@@ -2258,7 +2258,7 @@ where is the LP service vavle? main pallet
   },
   {
     id: 197,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "How many Rotary Variable Differential Transformers (RVDTs) are there in the S-92 aircraft?",
     options: {
       a: "Two",
@@ -2269,7 +2269,7 @@ where is the LP service vavle? main pallet
   },
   {
     id: 198,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What is the purpose of the Beep Trim switches?",
     options: {
       a: "Activate the autopilot",
@@ -2280,7 +2280,7 @@ where is the LP service vavle? main pallet
   },
    {
     id: 199,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "When can the Reversionary Control Panel (RCP) be used for AHRS reversionary?",
     options: {
       a: "Only in single autopilot",
@@ -2291,7 +2291,7 @@ where is the LP service vavle? main pallet
   }, 
   {
     id: 200,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What does the Remote Instrument Controller control?",
     options: {
       a: "FADEC",
@@ -2302,7 +2302,7 @@ where is the LP service vavle? main pallet
   },
   {
     id: 201,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What does the COURSE 1 knob on the Remote Instrument Controller do?",
     options: {
       a: "Controls pitch and roll",
@@ -2313,7 +2313,7 @@ where is the LP service vavle? main pallet
   },
   {
     id: 202,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What does the Heading knob on the Remote Instrument Controller control?",
     options: {
       a: "Collective movement",
@@ -2324,7 +2324,7 @@ where is the LP service vavle? main pallet
   },
   {
     id: 203,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What information is sent from the engine FADECs to the FCCs?",
     options: {
       a: "Airspeed information",
@@ -2335,7 +2335,7 @@ where is the LP service vavle? main pallet
   },
   {
     id: 204,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What is the function of the AFCS Control Panel?",
     options: { 
       a: "Control the SAS actuators", 
@@ -2346,7 +2346,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 205,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "Where are the Mode Select Panels (MSPs) located?",
     options: { 
       a: "Centre of the lower console", 
@@ -2357,7 +2357,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 206,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "How many Flight Control Computers (FCCs) are there, and where are they located?",
     options: { 
       a: "One in the bottom of the left Avionics Rack", 
@@ -2368,7 +2368,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 207,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "Which section of the FCC processes the PSAS sensor data?",
     options: { 
       a: "Primary Stability Augmentation System (PSAS) module", 
@@ -2379,7 +2379,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 208,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "How many SAS actuators are there for each control axis?",
     options: { 
       a: "One", 
@@ -2390,7 +2390,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 209,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What is the maximum control authority of each SAS actuator during normal operation?",
     options: { 
       a: "2%", 
@@ -2401,7 +2401,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 210,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What happens when the SAS actuators move during normal operation?",
     options: { 
       a: "Cockpit flight controls move in the opposite direction", 
@@ -2412,7 +2412,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 211,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What do the Trim Actuators control?",
     options: { 
       a: "SAS actuators", 
@@ -2423,7 +2423,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 212,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "How is the maximum rate of 10% per second achieved in dual autopilot?",
     options: { 
       a: "Each FCC has a maximum rate of 10% per second", 
@@ -2434,7 +2434,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 213,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What is the purpose of the Radar Altimeter (RADALT)?",
     options: { 
       a: "Provides airspeed information", 
@@ -2445,7 +2445,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 214,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "How many Rotary Variable Differential Transformers (RVDTs) are there in the aircraft?",
     options: { 
       a: "Two", 
@@ -2456,7 +2456,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 215,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What is the purpose of the Beep Trim switches?",
     options: { 
       a: "Activate the boost output", 
@@ -2467,7 +2467,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 216,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "When is the Trim Release used?",
     options: { 
       a: "During normal operation", 
@@ -2478,7 +2478,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 217,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What does the Display Control Panel (DCP) select for the AFCS?",
     options: { 
       a: "Navigation sources", 
@@ -2489,7 +2489,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 218,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "When is the Reversionary Control Panel (RCP) used?",
     options: { 
       a: "In dual autopilot mode", 
@@ -2500,7 +2500,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 219,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What does the Remote Instrument Controller (RIC) control?",
     options: { 
       a: "SAS actuators", 
@@ -2511,7 +2511,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 220,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What information does the Full Authority Digital Engine Control (FADEC) provide to the AFCS?",
     options: { 
       a: "Flight control signals", 
@@ -2522,7 +2522,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 221,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What is the basic operation of the Stability Augmentation System (SAS)?",
     options: { 
       a: "Uses only PSAS or SSAS with 100% control authority", 
@@ -2533,7 +2533,7 @@ where is the LP service vavle? main pallet
   
   {
     id: 222,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What is the function of the Secondary Stability Augmentation System (SSAS)?",
     options: { 
       a: "Manually selected by the pilot", 
@@ -2544,8 +2544,8 @@ where is the LP service vavle? main pallet
   
   {
     id: 223,
-    category: "ATA 22",
-    question: "What does the term 'Pitch Up' refer to in the context of the AFCS?",
+    category: "S92 ATA 22",
+    question: "What does the term \"Pitch Up\" refer to in the context of the AFCS?",
     options: { 
       a: "An emergency maneuver", 
       b: "A type of autopilot reversion", 
@@ -2554,7 +2554,7 @@ where is the LP service vavle? main pallet
   },
   {
     id: 224,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What functions does the PSAS module control",
     options: { 
       a: "PSAS Process and Control and SSAS Process and Control", 
@@ -2564,7 +2564,7 @@ where is the LP service vavle? main pallet
   },
   {
     id: 225,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "What functions does the MPS module control",
     options: { 
       a: "SSAS Process, Control Attitude Hold and SAS Enhancements", 
@@ -2574,7 +2574,7 @@ where is the LP service vavle? main pallet
   },
   {
     id: 226,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "How are the SAS actuator positions sensed?",
     options: { 
       a: "RVDT", 
@@ -2584,7 +2584,7 @@ where is the LP service vavle? main pallet
   },
     {
     id: 227,
-    category: "ATA 22",
+    category: "S92 ATA 22",
     question: "How are the TRIM actuator positions sensed?",
     options: { 
       a: "RVDT", 
@@ -2599,7 +2599,7 @@ where is the LP service vavle? main pallet
 
 {
   id: 204,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What is the indication at the top of the PFD when the Flight Director is coupled to an axis?",
   options: { "a": "FD 1 or FD 2 in red", "b": "selected channel in yellow", "c": "selected channel in green" },
   correct: "c"
@@ -2607,210 +2607,210 @@ where is the LP service vavle? main pallet
 
 {
   id: 206,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What does the DECOUPLE aural alert indicate?",
   options: { a: "Coupling to the Flight Director is successful", b: "An axis failure or intentional deselection by the pilot", c: "A MSP failure" },
   correct: "b"
 },
 {
   id: 207,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "Which key should be pressed to couple Airspeed Hold?",
   options: { a: "HDG", b: "IAS", c: "ALT" },
   correct: "b"
 },
 {
   id: 208,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "How is the coupled reference adjusted on the Pitch axis?",
   options: { a: "Use the cyclic lateral beeper", b: "Rotate the heading control on the Remote Instrument Controller", c: "Depress and hold the cyclic trim release" },
   correct: "c"
 },
 {
   id: 209,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "In which mode does the aircraft level off at 50 ft and 60 KIAS down the center of the runway during an ILS approach?",
   options: { a: "IAS Hold", b: "Radar Altitude Hold", c: "Deceleration" },
   correct: "c"
 },
 {
   id: 210,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What is displayed on the Mode Selector Panel when the ALTP mode is armed?",
   options: { a: "ALT", b: "ARM", c: "ALTP" },
   correct: "b"
 },
 {
   id: 211,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "When is the CAP indication displayed during Altitude Pre-Select (ALTP) mode?",
   options: { a: "When the aircraft is within 500 ft of the pre-selected altitude", b: "When the ALTP is armed", c: "When the aircraft is within 300ft of the pre-selected altitude" },
   correct: "c"
 },
 {
   id: 212,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What action does the Go Around (GA) mode initiate?",
   options: { a: "Maintain height and course", b: "Pitch the aircraft down", c: "Level the aircraft and Initiate a climb at 750 ft/min" },
   correct: "c"
 },
 {
   id: 213,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "How is the Navigation mode selected when using Flight Management System (FMS)?",
   options: { a: "Press the HDG key", b: "Press the NAV soft key on the Mode Selector Panel", c: "Press the ALTP soft key" },
   correct: "b"
 },
 {
   id: 214,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "Which axis does the Glideslope (G/S) mode use for guidance?",
   options: { a: "Pitch axis", b: "Roll axis", c: "Collective axis" },
   correct: "c"
 },
 {
   id: 215,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What does the DECOUPLE aural alert indicate?",
   options: { a: "Coupling to the Flight Director is successful", b: "An axis failure or intentional deselection by the pilot", c: "A MSP failure" },
   correct: "b"
 },
 {
   id: 216,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "How is coupling to the Flight Director achieved?",
   options: { a: "By pressing the COUPLE button on the Mode Selector Panel", b: "When the AFCS is in Attitude (ATT) Hold", c: "By pressing any soft key on the Mode Select Panel" },
   correct: "c"
 },
 {
   id: 217,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What is displayed on the Mode Selector Panel when the ALTP mode is armed?",
   options: { a: "CAP", b: "ARM", c: "ALTP" },
   correct: "b"
 },
 {
   id: 222,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "How is the coupled reference adjusted on the Pitch axis?",
   options: { a: "Use the cyclic lateral beeper", b: "Rotate the heading control on the Remote Instrument Controller", c: "Depress and hold the cyclic trim release" },
   correct: "c"
 },
 {
   id: 204,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What does the Start-up BIT (SBIT) primarily test?",
   options: { a: "Line Replaceable Units (LRUs)", b: "Main Processor and I/O controller", c: "Continuous BIT (CBIT)" },
   correct: "b"
 },
 {
   id: 205,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "Which Built in Test provides information for automatic system reconfiguration and pilot advisories?",
   options: { a: "Pre-Flight BIT (PFLT)", b: "Maintenance BIT (MBIT)", c: "Continuous BIT (CBIT)" },
   correct: "c"
 },
 {
   id: 208,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "How is the completion of a PFLT BIT indicated?",
   options: { a: "MSP shows a green TEST PASS indication", b: "MSP shows a TEST PASS white indication", c: "MSP shows a TEST PASS red indication" },
   correct: "b"
 },
 {
   id: 209,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What happens if a button is not pressed when requested during PFLT BIT?",
   options: { a: "MSP shows TEST PASS", b: "MSP shows TEST FAIL", c: "MSP shows CONT TEST" },
   correct: "b"
 },
 {
   id: 210,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What is the action required to reset the system after a PFLT BIT?",
   options: { a: "Press RESET on Control Panel", b: "Press AP PWR RESET", c: "Press RPT TEST" },
   correct: "b"
 },
 {
   id: 211,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "Who performs the MAIN BIT (MBIT) test?",
   options: { a: "Pilots only", b: "Maintenance technicians only", c: "Both pilots and technicians" },
   correct: "b"
 },
 {
   id: 212,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What is the duration of the electronic tests during MAIN BIT?",
   options: { a: "1 minute", b: "2 to 3 seconds", c: "About 3 minutes" },
   correct: "c"
 },
 {
   id: 213,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What happens during the MAIN BIT when the DRV TEST soft key is pressed and held?",
   options: { a: "Overspeed test", b: "The detailed trim motor will drive", c: "RESET button is pressed" },
   correct: "b"
 },
 {
   id: 214,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "Which button is used to exit the MAIN BIT?",
   options: { a: "CONT TEST", b: "END BIT", c: "RPT TEST" },
   correct: "b"
 },
 {
   id: 215,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "How is a failed test continued to the next part in MAIN BIT?",
   options: { a: "Press RESET on Control Panel", b: "Press AP PWR RESET", c: "Press CONT TEST" },
   correct: "c"
 },
 {
   id: 216,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What is the purpose of the AP PWR RESET?",
   options: { a: "Resetting FCC circuitry", b: "Resetting the entire aircraft", c: "Resetting the Main Processor Section (MPS)" },
   correct: "c"
 },
 {
   id: 217,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "How is the Control Panel Reset different from AP PWR RESET?",
   options: { a: "It resets the fault logic", b: "It disconnects power to the system", c: "It resets the entire aircraft" },
   correct: "a"
 },
 {
   id: 218,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "When is the Accelerometer Null function used?",
   options: { a: "After every flight", b: "When a new FCC is installed", c: "During flight" },
   correct: "b"
 },
 {
   id: 219,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What does the ACCL NULL function re-establish?",
   options: { a: "SAS Actuators", b: "Accelerometer null bias", c: "Main Processor Section (MPS)" },
   correct: "b"
 },
 {
   id: 220,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "How many independent sections does each FCC comprise?",
   options: { a: "1", b: "2", c: "3" },
   correct: "b"
 },
 {
   id: 221,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What happens if both Convertors fail and power is supplied from the Backup Convertor?",
   options: { a: "Power is maintained to PSAS only", b: "No power is maintained", c: "No1 DC Primary Bus is shed" },
   correct: "c"
 },
 {
   id: 222,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What is the role of the Battery Holdup Bus?",
   options: { a: "Maintains power to PSAS", b: "Maintains power to MSP", c: "Restarts the system" },
   correct: "a"
@@ -2818,21 +2818,21 @@ where is the LP service vavle? main pallet
 
 {
   id: 224,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "Which component is unaffected by AP PWR RESET?",
   options: { a: "Main Processor Section (MPS)", b: "PSAS section", c: "Trim Motors" },
   correct: "b"
 },
 {
   id: 225,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What is the outcome of a successful Accelerometer Null function?",
   options: { a: "ACCEL NULL BAD", b: "ACCEL NULL GOOD", c: "AP PWR RESET" },
   correct: "b"
 },
 {
   id: 205,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What does the SAS Pressure Fault (SAS 1 PRES or SAS 2 PRES) caution indicate?",
   options: { a: "GPS Failure", b: "Hydraulic pressure below 1100 psi", c: "AFCS degraded" },
   correct: "b"
@@ -2840,21 +2840,21 @@ where is the LP service vavle? main pallet
 
 {
   id: 206,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "What does the AHRS Velocity Degraded caution (AHRS 1 VEL DGRD or AHRS 2 VEL DGRD) indicate?",
   options: { a: "AFCS degraded", b: "GPS updating failure affecting velocities", c: "SAS Pressure Fault" },
   correct: "b"
 },
 {
   id: 208,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "Which of the following is a possible cause of Flight Director Altitude Failures (FD1 ALT DGRD or FD2 ALT DGRD)?",
   options: { a: "Invalid RADALT signal", b: "ADC and MFD altitude disagreement", c: "Trim actuator movement mismatch" },
   correct: "b"
 },
 {
   id: 211,
-  category: "ATA 22",
+  category: "S92 ATA 22",
   question: "In OEI Operation, what does the CFD automatically do if an engine fails when flying coupled to the collective axis (3-cue)?",
   options: { a: "Remove all limitations", b: "Decouple Collective axis", c: "Decouple all axis" },
   correct: "b"
@@ -2862,7 +2862,7 @@ where is the LP service vavle? main pallet
 
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "SAS 2 actuators are pressurised by?",
   "options": { "a": "No1 hydraulic System", "b": "No2 hydraulic System", "c": "Both hydraulic systems" },
   "correct": "b"
@@ -2870,42 +2870,42 @@ where is the LP service vavle? main pallet
 
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "Each trim actuators has what rate of drive?",
   "options": { "a": "5% per sec", "b": "10% per sec", "c": "100% per sec" },
   "correct": "a"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "If SAS 1 is selected off from the AFCS what position are the actuators?",
   "options": { "a": "Locked in current position", "b": "locked in central position", "c": "free to find position" },
   "correct": "b"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "SSAS the signals are processed proccess by what secssion in the FCC?",
   "options": { "a": "MPS", "b": "PSAS", "c": "Both" },
   "correct": "a"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "SSAS uses the what sensors?",
   "options": { "a": "Accelerometers", "b": "Rate Gyros", "c": "AHRS" },
   "correct": "c"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "Enhanced SAS is enabled?",
   "options": { "a": "At all times", "b": "When any one AP system is selected", "c": "with SAS selected" },
   "correct": "b"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "Hover Augmentation is proccessed in the FCC?",
   "options": { "a": "MPS", "b": "PSAS", "c": "Both" },
   "correct": "a"
@@ -2913,196 +2913,196 @@ where is the LP service vavle? main pallet
 ,
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "in SAS enhancements the longitudinal stick stability reduces fluctuation in?",
   "options": { "a": "Rate of Roll", "b": "IAS", "c": "Altitude" },
   "correct": "b"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "How is hydraulic pressure connected to pitch roll and yaw sas actuators?",
   "options": { "a": "selecting each axis SAS", "b": "Select SAS 1 or SAS 2", "c": "Select both SAS1 and SAS2" },
   "correct": "c"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "If hydrualic pressure from the No1 system drops below 1100 psi, the hydraulic supply is removed from which actuators?",
   "options": { "a": "SAS 1", "b": "SAS 1 and SAS 2 depending on what AP is selected", "c": "SAS 2" },
   "correct": "a"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "If hydrualic pressure from the No1 system drops below 1100 psi, the hydraulic supply is removed from which actuators?",
   "options": { "a": "SAS 1", "b": "SAS 1 and SAS 2 depending on what AP is selected", "c": "SAS 2" },
   "correct": "a"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "What signal is used to control the PSAS?",
   "options": { "a": "Accelerometers", "b": "Rate gyros", "c": "AHRS" },
   "correct": "b"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "In basic SAS the signals from rate gyros and proccessed in what module?",
   "options": { "a": "Flight control computer CC", "b": "Primary Stability Augmentation System", "c": "Main Processor Section" },
   "correct": "b"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "Failure of the pitch change trim system..",
   "options": { "a": "the backup pitch trim motor will takeover", "b": "All AFCS will be de coupled", "c": "Only SAS will be active" },
   "correct": "c"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "What is the maximum drive rate of each trim motors in signal AP is?",
   "options": { "a": "5% per second", "b": "10% per second", "c": "100% per second" },
   "correct": "a"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "What is the maximum drive rate of each trim motors in dual AP is?",
   "options": { "a": "5% per second", "b": "10% per second", "c": "100% per second" },
   "correct": "b"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "What is the maximum drive rate of each trim motors in dual AP is?",
   "options": { "a": "5% per second", "b": "10% per second", "c": "100% per second" },
   "correct": "b"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "If both AHRS 1 and 2 fail the AFCS will?",
   "options": { "a": "Operate in PSAS", "b": "Will have reduced FD operations", "c": "operate in SSAS" },
   "correct": "a"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "when FD is coupled, the coupled channel is shown in what colour?",
   "options": { "a": "White", "b": "Green", "c": "Yellow" },
   "correct": "b"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "What display is shown on the PFD when any input is deselected in the FD mode?",
   "options": { "a": "the selected mode will turn white", "b": "the selected mode will turn Green", "c": "the selected mode will turn Yellow" },
   "correct": "c"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "What conditions must be met to initiate a PFLT test?",
   "options": { "a": "WOW and ground pump on", "b": "Ground pump and Rotor brake on", "c": "WOW , ground pump on and rotor brake on" },
   "correct": "c"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "The MBIT can be selected from?",
   "options": { "a": "Either MSP", "b": "MSP 1", "c": "MSP 2" },
   "correct": "a"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "The MBIT can be selected from?",
   "options": { "a": "Either MSP", "b": "MSP 1", "c": "MSP 2" },
   "correct": "a"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "At the end of PFT the system?",
   "options": { "a": "Is ready for flight", "b": "Must be left to reset internal logic", "c": "reset by the push button on the overhead panel" },
   "correct": "a"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "Where are the PFLT results shown?",
   "options": { "a": "dependant on mode selection", "b": "Both MSP", "c": "MSP 1" },
   "correct": "b"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "The pitch pitch rate gyro is located?",
   "options": { "a": "LH avionic rack", "b": "Ramp area", "c": "Under the pilots seat" },
   "correct": "b"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "The roll pitch rate gyro is located?",
   "options": { "a": "LH avionic rack", "b": "Ramp area", "c": "Cabin roof" },
   "correct": "c"
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "What authority does the SAS actuators have?",
   "options": { "a": "5%", "b": "10%", "c": "100%" },
   "correct": "a" 
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "What in contained in the flight control computer?",
   "options": { "a": "PSAS and MPS", "b": "SSAS, PSAS and MPS", "c": "MPS1 and MPS2 " },
   "correct": "a" 
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "The AFCS accelerometers are used to?",
   "options": { "a": "control the PSAS", "b": "Enhance aircraft hover augmentation", "c": "control SAS1" },
   "correct": "b" 
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "flight Director IAS and DCL wil always couple to?",
   "options": { "a": "Pitch Axis", "b": "Collective Axis", "c": "Roll Axis"},
   "correct": "a" 
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "If IAS is coupled and ALT is selected what is the outcome?",
   "options": { "a": "IAS is de-coupled and ALT coupled to the pitch axis", "b": "ALT will be disabled", "c": "ALT will couple to the collective Axis"},
   "correct": "c" 
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "FD RADALT will coupled to?",
   "options": { "a": "Pitch Axis", "b": "Collective Axis", "c": "Pitch or Collective depending on already coupled selections"},
   "correct": "b" 
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "FD IAS can be selected on?",
   "options": { "a": "MSP 1", "b": "MSP 2", "c": "Both"},
   "correct": "c" 
 },
 {
   "id": 213,
-  "category": "ATA 22",
+  "category": "S92 ATA 22",
   "question": "How does the FCC differenciate between externtal forces and pilot input?",
   "options": { "a": "RVDT", "b": "\"Hands on\" controls sensors ", "c": "LVDT"},
   "correct": "a" 
@@ -3139,7 +3139,7 @@ attitude hold is on when? both rate gyros and AHRS are S
 
   {
     id: 268,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "What type of equipment and furnishings are included in the flight compartment?",
     options: {
       a: "First Aid kit",
@@ -3150,7 +3150,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 269,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "Which component is NOT part of the crew seat assembly?",
     options: {
       a: "Armrests and headrest",
@@ -3161,7 +3161,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 270,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "How is the crew seat mounted in the aircraft?",
     options: {
       a: "Screws",
@@ -3172,7 +3172,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 271,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "What is the purpose of the impact attenuation system in the crew seat?",
     options: {
       a: "Increase seat height",
@@ -3183,7 +3183,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 272,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "Where are the lighted chart holders (approach plate holders) located?",
     options: {
       a: "Cockpit sidewalls",
@@ -3194,7 +3194,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 273,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "What is the purpose of the night curtain?",
     options: {
       a: "Increase privacy",
@@ -3205,7 +3205,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 274,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "Which component is part of the S92 crash attenuating passenger seat?",
     options: {
       a: "Personal Service Units (PSU)",
@@ -3216,7 +3216,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 275,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "How many different sets of floor mats are there based on floor type?",
     options: {
       a: "One",
@@ -3227,7 +3227,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 276,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "Where are the RFD heli-rafts located on the S-92 aircraft?",
     options: {
       a: "Under the seats",
@@ -3238,7 +3238,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 277,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "What is the purpose of the red dot on the life raft electrical connection plug?",
     options: {
       a: "Provide visual conformation of correct plug fitting",
@@ -3249,7 +3249,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 278,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "How is the life-raft connected to the aircraft?",
     options: {
       a: "By a blue 1.5 m short line",
@@ -3260,7 +3260,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 279,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "What is the weight of each life raft?",
     options: {
       a: "60 lbs",
@@ -3271,7 +3271,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 280,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "Where is the cabin first aid kit located?",
     options: {
       a: "Behind the rear bulkhead",
@@ -3282,7 +3282,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 281,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "How many flashlights are located in the cockpit?",
     options: {
       a: "One",
@@ -3293,7 +3293,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 282,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "Where is the Halon 1211 (BCF) fire extinguisher mounted?",
     options: {
       a: "On the cabin forward bulkhead",
@@ -3304,7 +3304,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 283,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "What is the load capacity of the rescue hoist system?",
     options: {
       a: "500 lbs",
@@ -3315,7 +3315,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 284,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "What is the purpose of wire strike protection?",
     options: {
       a: "Protect against electrical interference",
@@ -3326,7 +3326,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 285,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "How is the manual jettison cable operated?",
     options: {
       a: "By a button on the control panel",
@@ -3337,7 +3337,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 286,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "What should be done after ditching to deploy the life rafts?",
     options: {
       a: "Operate the rotary TEST switch",
@@ -3348,7 +3348,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 287,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "What must be confirmed before continuing with the life-raft deployment test?",
     options: {
       a: "ARM lights and RAFT ARM caution extinguished on the control panel and EICAS",
@@ -3359,7 +3359,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 288,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "Where would you find maintenance instructions for the cockpit sunvisor?",
     options: {
       a: "AMM Chapter 25",
@@ -3370,7 +3370,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 289,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "When fitting passenger seats what should be taken in to consideration?",
     options: {
       a: "Ensuring the locations of the 3\u00b1 reclined seats",
@@ -3381,7 +3381,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 290,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "What selection of flooring is provided with the S-92?",
     options: {
       a: "75 PSF & 200 PSF",
@@ -3392,7 +3392,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 291,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "Each life raft is powered by",
     options: {
       a: "Primary squib BATTERY bus and secondary squib N\u00b11 DC PRIMARY bus",
@@ -3403,7 +3403,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 292,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "How is the Goodrich 44311-1 hoist powered?",
     options: {
       a: "DC electrically",
@@ -3414,7 +3414,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 293,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "What is the load capacity of the rescue hoist system?",
     options: {
       a: "300 lbs",
@@ -3425,7 +3425,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 294,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "How many configurations are available for the rescue hoist system?",
     options: {
       a: "One",
@@ -3436,7 +3436,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 295,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "What is the life lift raft capacity?",
     options: {
       a: "19-person",
@@ -3447,7 +3447,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 296,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "How is the life raft deployed?",
     options: {
       a: "D handle at the forward of the sponson",
@@ -3458,7 +3458,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 297,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "Are the left and right hand lift rafts interchangeable?",
     options: {
       a: "No",
@@ -3469,7 +3469,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 298,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "Are the seats crash worthy?",
     options: {
       a: "No",
@@ -3480,7 +3480,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 299,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "How is the seat crash energy absorbed?",
     options: {
       a: "Springs",
@@ -3491,7 +3491,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 300,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "How can we tell if the passenger seats have attenuated?",
     options: {
       a: "The seat pan will be in contact with the cabin floor",
@@ -3502,7 +3502,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 301,
-    category: "ATA 25",
+    category: "S92 ATA 25",
     question: "How many life rafts are fitted to the aircraft?",
     options: {
       a: "1",
@@ -3513,7 +3513,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 302,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "What is the primary purpose of the five infrared flame detectors in the S-92A?",
     options: {
       a: "To detect smoke in the baggage compartment",
@@ -3524,7 +3524,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 303,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "Where is the APU compartment flame detector located?",
     options: {
       a: "#1 ENG Forward",
@@ -3535,7 +3535,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 304,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "Which infrared band does the flame detector utilize to sense fires?",
     options: {
       a: "2.7-micrometer (\u03bc)",
@@ -3546,7 +3546,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 305,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "How is the built-in-test (BIT) functionality initiated in the flame detectors?",
     options: {
       a: "By pressing the FIRE/ARM pushbutton",
@@ -3557,7 +3557,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 306,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "Which bus supplies power to the flame detectors in the event of a complete loss of electrical power?",
     options: {
       a: "DC BATTERY bus",
@@ -3568,7 +3568,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 307,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "What is the function of the baggage compartment smoke detector?",
     options: {
       a: "Detecting flames in the baggage compartment",
@@ -3579,7 +3579,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 308,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "How often is the baggage compartment smoke detector inspected?",
     options: {
       a: "6 months",
@@ -3590,7 +3590,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 309,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "What is the purpose of the two master warning panels?",
     options: {
       a: "To display engine parameters",
@@ -3601,7 +3601,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 310,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "Where is the fire control panel located?",
     options: {
       a: "Under the cabin floor",
@@ -3612,7 +3612,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 311,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "How is the fire extinguisher circuit armed on the fire control panel?",
     options: {
       a: "By pressing the FIRE EXTG switch",
@@ -3623,7 +3623,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 312,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "What does the SMOKE IN BAGGAGE warning on the MFD indicate?",
     options: {
       a: "Engine fire",
@@ -3634,7 +3634,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 313,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "Which position on the fire detector test panel tests the baggage compartment smoke detector?",
     options: {
       a: "INBD",
@@ -3645,7 +3645,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 314,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "What modification did CSN 92-060A make to the Fire Detector BIT wiring?",
     options: {
       a: "Added more flame detectors",
@@ -3656,7 +3656,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 315,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "How is the fire extinguisher system controlled in the cockpit?",
     options: {
       a: "Via the MFDs",
@@ -3667,7 +3667,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 316,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "Where are the two fire extinguisher bottles located?",
     options: {
       a: "In the baggage compartment",
@@ -3678,7 +3678,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 317,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "What is the purpose of the pressure relief valve in each fire extinguisher bottle?",
     options: {
       a: "To release the extinguishing agent",
@@ -3689,7 +3689,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 318,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "How are the extinguishant pipelines conveyed to the engine and APU bays?",
     options: {
       a: "Through the cabin floor",
@@ -3700,18 +3700,18 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 319,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "What is the purpose of the fire extinguisher inertia switches?",
     options: {
       a: "To arm the extinguisher system",
-      b: "To release both main bottles' contents in a crash",
+      b: "To release both main bottles\" contents in a crash",
       c: "To test the fire detection circuits"
     },
     correct: "b"
   },
   {
     id: 320,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "Where are the handheld Halon 1211 fire extinguishers located?",
     options: {
       a: "One in the Cabin, one in the cockpit",
@@ -3722,7 +3722,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 321,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "What is the purpose of the Kevlar fuel vapour barriers in the cabin sidewall?",
     options: {
       a: "To protect against fire in the engine compartment",
@@ -3733,7 +3733,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 322,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "Where is the fire control panel?",
     options: {
       a: "Overhead Panel",
@@ -3744,7 +3744,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 323,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "What type of flame detectors are used?",
     options: {
       a: "Ion detectors",
@@ -3755,7 +3755,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 324,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "During a crash how are the fire bottles initiated?",
     options: {
       a: "Pilot operation",
@@ -3766,7 +3766,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 325,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "What type of smoke detector is fitted in the baggage bay?",
     options: {
       a: "Light Sensing",
@@ -3777,7 +3777,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 326,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "How many flame detectors are fitted to the S-92?",
     options: {
       a: "3",
@@ -3788,7 +3788,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 327,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "When the flame detector knob is turned to inboard, what sensors are tested?",
     options: {
       a: "Engine 1 Inboard, Engine 2 inboard and APU",
@@ -3799,7 +3799,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 328,
-    category: "ATA 26",
+    category: "S92 ATA 26",
     question: "When the flame detector test knob is turned to outboard, what sensors are tested?",
     options: {
       a: "Engine 1 Inboard, Engine 2 inboard and APU",
@@ -3810,7 +3810,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 329,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "Where are the fuel tanks located in the aircraft?",
     options: {
       a: "Sponsons",
@@ -3821,7 +3821,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 330,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What material are the fuel tank bladders made of?",
     options: {
       a: "Aluminum",
@@ -3832,7 +3832,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 331,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "When Will PRIME PUMP FAIL Caution illuminate ?",
     options: {
       a: "< 5 psi",
@@ -3843,7 +3843,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 332,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What triggers the FUEL 1/2 LOW CAUTION?",
     options: {
       a: "440 nautical miles",
@@ -3854,7 +3854,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 333,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What components can be accessed through the tank maintenance access panel?",
     options: {
       a: "Engine mounts",
@@ -3865,7 +3865,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 334,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What is the maximum pressure allowed during pressure defuel?",
     options: {
       a: "55 psig",
@@ -3876,7 +3876,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 335,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "Where is the aircraft pressure refuelled / defuelled from?",
     options: {
       a: "RH sponson",
@@ -3887,7 +3887,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 336,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What does the Pressure Refuel Control Panel control?",
     options: {
       a: "Engine thrust",
@@ -3898,7 +3898,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 337,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What is the purpose of the high-level shutoff valve in the fuel cell?",
     options: {
       a: "Prevent fuel spills",
@@ -3909,7 +3909,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 338,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "How much usable fuel does each Internal Auxiliary Fuel System (IAFS) tank hold?",
     options: {
       a: "1384 lbs",
@@ -3920,7 +3920,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 339,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What pressure if fuel delivered during pressure refuel?",
     options: {
       a: "55 psi",
@@ -3931,7 +3931,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 340,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "Where is the Pressure Refuel Control Panel (PRCP) located?",
     options: {
       a: "Pressure refuel point",
@@ -3942,7 +3942,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 341,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What is the function of the Pressure Refuel Control switches during refuelling?",
     options: {
       a: "control of left and right sponson fuel delivery",
@@ -3953,7 +3953,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 342,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What does the Internal Auxiliary Fuel System (IAFS) MODE SELECT switch control?",
     options: {
       a: "Engine mode",
@@ -3964,7 +3964,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 343,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What is the purpose of the gravity refuel adapter?",
     options: {
       a: "Stop fuel flow",
@@ -3975,7 +3975,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 344,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What should be checked before attempting gravity refuelling?",
     options: {
       a: "Fuel temperature",
@@ -3986,7 +3986,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 345,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "Where are the sump drains located?",
     options: {
       a: "Top of the fuel tank",
@@ -3997,7 +3997,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 346,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What is the total fuel capacity (pressure Refuel)",
     options: {
       a: "5175 lbs",
@@ -4008,7 +4008,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 347,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What are the three positions of the fuel select valve switches?",
     options: {
       a: "DIR, XFD, OFF",
@@ -4019,7 +4019,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 348,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "How is the fuel valve selection displayed on the EICAS when in the CROSSFEED position?",
     options: {
       a: "Fuel line connected directly to engine pod",
@@ -4030,7 +4030,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 349,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "Where are the fuel prime pumps located?",
     options: {
       a: "Left and right sponsons",
@@ -4041,7 +4041,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 350,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What is the normal pressure provided by the fuel prime pumps?",
     options: {
       a: "<5 psi",
@@ -4052,7 +4052,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 351,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "When does the MDC automatically control the operation of the prime pumps in AUTO position?",
     options: {
       a: "During maintenance",
@@ -4063,7 +4063,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 352,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What happens if the MDC fails during prime pump operation?",
     options: {
       a: "Pump No.1 operates by default",
@@ -4074,7 +4074,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 353,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "Where is the prime pump pressure low pressure switch located?",
     options: {
       a: "Engine pod",
@@ -4085,7 +4085,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 354,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What does the prime pump pressure switch detect?",
     options: {
       a: "High pressure (>55psi)",
@@ -4096,7 +4096,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 355,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What caution is initiated if the prime pump pressure switch detects low pressure?",
     options: {
       a: "APU FAIL",
@@ -4107,7 +4107,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 356,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What is the maximum fuel imbalance between LH & RH tanks?",
     options: {
       a: "500 lbs",
@@ -4118,7 +4118,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 357,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What is the Fuel Cell Sump Drain Valve Wrench used for?",
     options: {
       a: "Fuel pressure test",
@@ -4129,7 +4129,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 358,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What does the SK2000FIT Fuel Integrity Tester detect?",
     options: {
       a: "Fuel temperature",
@@ -4140,7 +4140,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 359,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What critical maintenance function does the SK2000FIT perform?",
     options: {
       a: "Engine start",
@@ -4151,7 +4151,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 360,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What is the purpose of the Fuel Feed System Vacuum Test?",
     options: {
       a: "Check fuel temperature",
@@ -4162,7 +4162,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 361,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What does the Fuel Quantity Gauging System monitor?",
     options: {
       a: "Engine temperature",
@@ -4173,7 +4173,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 362,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "How many fuel quantity probes does each fuel tank have?",
     options: {
       a: "One",
@@ -4184,7 +4184,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 363,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "Where are the fuel probes attached in each main sponson tank?",
     options: {
       a: "The rear",
@@ -4195,7 +4195,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 364,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "How many low-level sensors are included in the low level/temperature compensating system?",
     options: {
       a: "Two",
@@ -4206,7 +4206,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 365,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "Where is the Fuel Conditioning Unit (FCU) located?",
     options: {
       a: "Cockpit",
@@ -4217,7 +4217,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 366,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "How many microcomputer-based channels does the FCU contain?",
     options: {
       a: "One",
@@ -4228,7 +4228,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 367,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What does the FCU use the fuel temperature data for?",
     options: {
       a: "Low-level compensation",
@@ -4239,7 +4239,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 368,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "How is the FQGS self-test (CBIT) routine triggered?",
     options: {
       a: "Manually by the crew",
@@ -4250,7 +4250,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 369,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What is the duration of the FQGS IBIT test?",
     options: {
       a: "5 seconds",
@@ -4261,7 +4261,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 370,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What will the total fuel quantity display on the EICAS show during the IBIT test?",
     options: {
       a: "3086 lbs",
@@ -4272,7 +4272,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 371,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "How is the active or last active Prime Pump indicated on the HEALTH page?",
     options: {
       a: "Red legend",
@@ -4283,7 +4283,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 372,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What does the Engine Instrument and Crew Alerting System (EICAS) display for low fuel conditions?",
     options: {
       a: "Blue tape",
@@ -4294,7 +4294,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 373,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "At what fuel quantity does the low fuel condition turn the tapes and numbers yellow?",
     options: {
       a: "100 lbs",
@@ -4305,7 +4305,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 374,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What does the yellow/green coloured barber pole on the fuel quantity symbology indicate?",
     options: {
       a: "Full tank",
@@ -4316,7 +4316,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 375,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "Where are the breakaway valves located?",
     options: {
       a: "Sponson to aircraft racetrack",
@@ -4327,7 +4327,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 376,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What does the SOV1 WRNG POSN or SOV2 WRNG POSN indication mean?",
     options: {
       a: "Fuel tank full",
@@ -4338,7 +4338,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 377,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What happens if no data is being received from the FCU?",
     options: {
       a: "Green tapes",
@@ -4349,7 +4349,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 378,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "Where are the fuel quantity probes and low-level sensors inputs sent?",
     options: {
       a: "Fuel Conditioning Unit onto the DCU",
@@ -4360,7 +4360,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 379,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "If PUMP 1 is shown in green on the Aircraft Status page?",
     options: {
       a: "Pump 1 was the last prime pump to be used or is in use",
@@ -4371,7 +4371,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 380,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "Where does the APU take its supply?",
     options: {
       a: "APU Supply Tank",
@@ -4382,7 +4382,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 381,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What are the three positions of the prime pump select valve switches?",
     options: {
       a: "DIR, XFD, OFF",
@@ -4393,7 +4393,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 382,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "In normal operation what component decides which prime pump is used?",
     options: {
       a: "Maintenance Data Computer ",
@@ -4404,7 +4404,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 383,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "How are the bag tanks attached to the sponson?",
     options: {
       a: "Nuts and Bolts",
@@ -4415,7 +4415,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 384,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What position can the gravity fuel filler cap be fitted?",
     options: {
       a: "Any position",
@@ -4426,7 +4426,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 385,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "How are the breakaway valves operated?",
     options: {
       a: "Electrically",
@@ -4437,7 +4437,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 386,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "When is the prime pump needed?",
     options: {
       a: "engine fuel boost pumps for start, and to the APU continuously, while the APU is running",
@@ -4448,7 +4448,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 387,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "Where are the prime pumps located?",
     options: {
       a: "Engine bay",
@@ -4459,7 +4459,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 388,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "How are the fuel tank high level switches tested?",
     options: {
       a: "BIT during power up",
@@ -4470,7 +4470,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 389,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "Where is the pressure refuel/defuel valves located",
     options: {
       a: "LH mid-cabin",
@@ -4481,7 +4481,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 390,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "How many fuel quantity sensor are located in each tank?",
     options: {
       a: "1",
@@ -4492,7 +4492,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 391,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "What components can be found on the fuel sensor probe",
     options: {
       a: "fuel sensor only",
@@ -4503,7 +4503,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 392,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "How many channels does the FCU have?",
     options: {
       a: "1",
@@ -4514,7 +4514,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 393,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "Where is the fuel prime low pressure switch located?",
     options: {
       a: "LH mid-cabin ",
@@ -4525,7 +4525,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 394,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "Where do the fuel selector valves get their power?",
     options: {
       a: "Battery Utility bus",
@@ -4536,7 +4536,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 395,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "Where are fuel flow indications derived from?",
     options: {
       a: "EICAS page",
@@ -4547,7 +4547,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 396,
-    category: "ATA 28",
+    category: "S92 ATA 28",
     question: "At what level will Fuel 1/2 LOW caution display?",
     options: {
       a: "215 \u00b1 45 lbs",
@@ -4564,7 +4564,7 @@ attitude hold is on when? both rate gyros and AHRS are S
 
 /*   {
     id: 397,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What is the purpose of the engine anti-ice system?",
     options: {
       a: "Prevent pitot tube ice build-up",
@@ -4575,7 +4575,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   }, */
   {
     id: 398,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "How many methods of anti-ice are used on each engine inlet?",
     options: {
       a: "One",
@@ -4586,7 +4586,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 399,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What powers the No 1 Anti-ice System?",
     options: {
       a: "#1 AC Primary Bus",
@@ -4597,7 +4597,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 400,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "How are the heater mats energized in the engine anti-ice system?",
     options: {
       a: "By the FADEC",
@@ -4608,7 +4608,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 401,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What does the Anti-Ice Controller use to control the heating mats?",
     options: {
       a: "DC Essential Bus",
@@ -4619,7 +4619,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 402,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "In the event of dual generator failures, what happens to the No 1 Engine Anti-Ice?",
     options: {
       a: "It remains powered",
@@ -4630,7 +4630,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 403,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What is the indication if there is a loss of both temperature sensors in one heater zone?",
     options: {
       a: "Power is removed from both heater mat zones",
@@ -4641,7 +4641,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 404,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What is the function of the Anti-Ice Start Bleed Valve (AISBV)?",
     options: {
       a: "Provide hot air to the cabin",
@@ -4652,7 +4652,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 405,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "When is the AISBV fully open?",
     options: {
       a: "When the anti-ice system is switched off",
@@ -4663,7 +4663,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
 /*   {
     id: 406,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What caution is displayed if the anti-ice system is switched on above 86% Ng?",
     options: {
       a: "ENG 1 A-ICE DGRD",
@@ -4674,7 +4674,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   }, */
   {
     id: 407,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What does the ENG 1 A-ICE DGRD caution indicate?",
     options: {
       a: "Anti-ice system failure",
@@ -4685,7 +4685,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 408,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What is displayed during the Power On Test for the Engine Anti-Ice?",
     options: {
       a: "OPERATIONAL",
@@ -4696,7 +4696,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 409,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "Where can the status of the Engine Anti-Ice be viewed?",
     options: {
       a: "HLTH >> PROPULSION >> SUBSTAT",
@@ -4707,7 +4707,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 410,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What is the purpose of the pitot static anti-ice system?",
     options: {
       a: "Prevent engine overheating",
@@ -4718,7 +4718,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 411,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "How many pitot static tubes are on the aircraft?",
     options: {
       a: "One",
@@ -4729,7 +4729,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 412,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What power supply does the No 2 system use in the pitot static anti-ice system?",
     options: {
       a: "DC Essential Bus",
@@ -4740,7 +4740,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 413,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "When is the caution TRN PIT HEAT ON displayed?",
     options: {
       a: "When pitot heaters are switched off",
@@ -4751,7 +4751,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 414,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What caution is displayed if at least one pitot heater is still selected on when turning PITOT HEAT OFF?",
     options: {
       a: "TRN PIT HEAT OFF",
@@ -4762,7 +4762,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 415,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What does the advisory PITOT HEAT ON indicate?",
     options: {
       a: "Pitot heaters are switched off",
@@ -4773,7 +4773,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 416,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What happens if any of the pitot heater elements fail?",
     options: {
       a: "The relay contact will energize",
@@ -4784,7 +4784,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 417,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What is the purpose of the windshield anti-ice system?",
     options: {
       a: "Prevent rain on the windshield",
@@ -4795,7 +4795,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 418,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "Where are the windshield anti-ice controllers located?",
     options: {
       a: "On the nose bay",
@@ -4806,7 +4806,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 419,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "Which power supply is used by the No 1 windshield system for heating?",
     options: {
       a: "DC Essential Bus",
@@ -4817,7 +4817,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 420,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "At what temperature range does the windshield anti-ice controller maintain the windshield?",
     options: {
       a: "-5\u00b0C to 0\u00b0C",
@@ -4828,7 +4828,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
 /*   {
     id: 421,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What happens when the co-pilot's windshield anti-ice switch is in the ON position?",
     options: {
       a: "28v is applied to the controller",
@@ -4839,7 +4839,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   }, */
   {
     id: 422,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What is the maximum speed of the windshield wipers?",
     options: {
       a: "50 knots",
@@ -4850,7 +4850,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 423,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "Which bus does the windshield wiper system use for power?",
     options: {
       a: "AC Primary Bus",
@@ -4861,7 +4861,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 424,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "How many heating elements are there in each main rotor blade for the RIPS system?",
     options: {
       a: "2",
@@ -4872,7 +4872,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 425,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What is the function of the Ice Rate Probe in the RIPS system?",
     options: {
       a: "Detect ice on the bar",
@@ -4883,7 +4883,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
 /*   {
     id: 426,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "In which mode does the RIPS system operate when Weight-Off-Wheels?",
     options: {
       a: "Manual",
@@ -4894,7 +4894,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   }, */
   {
     id: 427,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "How is the Tail Rotor Blades balanced if a heating element fails?",
     options: {
       a: "Power to other 3 blades corresponding area is removed ",
@@ -4905,7 +4905,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 428,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What is the purpose of the RIPS Junction Box?",
     options: {
       a: "Switching AC power to main rotor slip ring",
@@ -4916,7 +4916,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 429,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What happens during the RIPS system reset?",
     options: {
       a: "System shutdown",
@@ -4927,7 +4927,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 430,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What is the purpose of the Ice Rate Display on the PFD?",
     options: {
       a: "Display outside air temperature",
@@ -4938,7 +4938,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 431,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "When is the RIPS system considered operational?",
     options: {
       a: "Anytime power is applied",
@@ -4949,7 +4949,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 432,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What is the purpose of the RIPS SUB STAT page?",
     options: {
       a: "Monitor the Ice Rate Probe",
@@ -4960,7 +4960,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 433,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What does the CBIT test do in the RIPS system?",
     options: {
       a: "Heating element check",
@@ -4971,7 +4971,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 434,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What happens during an APU Overload in the RIPS system?",
     options: {
       a: "Increased heating power",
@@ -4982,7 +4982,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
   {
     id: 435,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "How are the zones heated in the RIPS system?",
     options: {
       a: "Sequentially",
@@ -4993,7 +4993,7 @@ attitude hold is on when? both rate gyros and AHRS are S
   },
 /*   {
     id: 436,
-    category: "ATA 30",
+    category: "S92 ATA 30",
     question: "What does the Ice and Rain Power Supplies highlight?",
     options: {
       a: "AC power failure",
@@ -5045,7 +5045,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
 
   {
     id: 437,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What is the purpose of the Standby Battery?",
     options: {
       a: "To power the cockpit lights",
@@ -5056,7 +5056,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 438,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "Where is the cockpit lights control panel located?",
     options: {
       a: "Center console",
@@ -5067,7 +5067,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 439,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "How many Dimmer Units are there in the aircraft?",
     options: {
       a: "Three",
@@ -5078,7 +5078,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 440,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What is the purpose of the Balance Boxes in the cockpit?",
     options: {
       a: "To adjust the pilot's balance",
@@ -5089,7 +5089,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 441,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What happens when the rotary control on the Dimmer is fully anti-clockwise?",
     options: {
       a: "The lights are at full brightness",
@@ -5100,7 +5100,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 442,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "Which lighting panels are powered directly from the Standby Battery in case of power loss from the #2 DC Primary Bus?",
     options: {
       a: "Instrument Panel",
@@ -5111,7 +5111,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 443,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What is the power source for the Flood Light?",
     options: {
       a: "Battery Bus (28v)",
@@ -5122,7 +5122,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 444,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "How many Utility Lights are there in the cockpit, and what is their power source?",
     options: {
       a: "One, No 2 DC Primary Bus",
@@ -5133,7 +5133,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 445,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What colours are displayed by Approach Chart Holders Lighting?",
     options: {
       a: "red and white",
@@ -5144,7 +5144,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 446,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "Where is the cabin lighting control panel located?",
     options: {
       a: "Pilot's side of the overhead panel",
@@ -5155,7 +5155,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 447,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What is the power source for the cabin lighting strips down the left side of the cabin?",
     options: {
       a: "N\u00b11 DC Primary Bus",
@@ -5166,7 +5166,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 448,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "How is the cabin overhead lighting controlled when the switch is in the DIM position?",
     options: {
       a: "Logic relay is de-energised",
@@ -5177,7 +5177,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 449,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "Which signs are powered from the #1 DC Primary Bus?",
     options: {
       a: "No Smoking signs",
@@ -5188,7 +5188,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 450,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "How many passenger reading lights are there, and how are they controlled?",
     options: {
       a: "10, individually by each passenger",
@@ -5199,7 +5199,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 451,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What is the power source for the Baggage Compartment Light?",
     options: {
       a: "Battery Bus",
@@ -5210,7 +5210,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 452,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "How many positions does the Baggage Compartment Light switch have, and what does each position do?",
     options: {
       a: "Two; ON and OFF",
@@ -5221,7 +5221,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 453,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What happens when the P/B LAMP switch is placed in the TEST position?",
     options: {
       a: "All lights go off",
@@ -5232,7 +5232,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 454,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What is the intended use of the Flood Light in the cockpit?",
     options: {
       a: "General illumination",
@@ -5243,7 +5243,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 455,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "The emercency lights will illuminate if the switch is in the arm position and?",
     options: {
       a: "Power to the essential bus is lost",
@@ -5254,7 +5254,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 456,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What activates the NO SMOKE message in the Passenger Briefing System?",
     options: {
       a: "Selecting SEAT BELT ON",
@@ -5265,7 +5265,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 457,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "How is the master ON/OFF control for the Passenger Reading Lights operated?",
     options: {
       a: "By each passenger individually",
@@ -5276,7 +5276,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 458,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What is the power source for the Baggage Compartment Light?",
     options: {
       a: "N\u00b11 DC Primary Bus",
@@ -5287,7 +5287,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 459,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "How is the illumination level of the passenger reading lights adjusted on newer aircraft?",
     options: {
       a: "Rotating a dial on each light",
@@ -5298,7 +5298,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 460,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What are the positions for the baggage bay lighting on the lighting control panel?",
     options: {
       a: "On",
@@ -5309,7 +5309,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 461,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "Where are the Anti-Collision Lights controlled from?",
     options: {
       a: "Central dimmer panel",
@@ -5320,7 +5320,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 462,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "How is the N\u00b12 Landing Lights powered on the S-92?",
     options: {
       a: "Battery Bus",
@@ -5331,7 +5331,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 463,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "Where are the Position Lights located?",
     options: {
       a: "On top of the cockpit",
@@ -5342,7 +5342,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 464,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What powers the Cargo Loading Light?",
     options: {
       a: "AC Essential Bus",
@@ -5353,7 +5353,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 465,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "Where is the Searchlight located?",
     options: {
       a: "Above the cockpit",
@@ -5364,7 +5364,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 466,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What is the function of the STOW position for the Searchlight?",
     options: {
       a: "Extend the light forward",
@@ -5375,7 +5375,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 467,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "Which Searchlight control has priority?",
     options: {
       a: "Pilot",
@@ -5386,7 +5386,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 468,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What happens when both Searchlight Switches are ON?",
     options: {
       a: "Searchlight retracts",
@@ -5397,7 +5397,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 469,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "Where is power applied when the Pilot\u2019s and Co-pilot\u2019s stearable search lght switches are ON?",
     options: {
       a: "Only to the Pilot\u2019s switch",
@@ -5408,7 +5408,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 470,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What is the primary function of the High Visibility Strobe Lights?",
     options: {
       a: "Night illumination",
@@ -5419,7 +5419,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 471,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "When are the High Visibility Strobe Lights inhibited?",
     options: {
       a: "During day use",
@@ -5430,7 +5430,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 472,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "How many areas of emergency lighting does the S92 have?",
     options: {
       a: "Two",
@@ -5441,7 +5441,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 473,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "Where are the HEELS batteries charged from?",
     options: {
       a: "AC Essential Bus",
@@ -5452,7 +5452,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 474,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "Where are the emergency lighting batteries located?",
     options: {
       a: "Cockpit floor",
@@ -5463,7 +5463,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 475,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "When are the Emergency Lights Panel switches enabled?",
     options: {
       a: "In the OFF position",
@@ -5474,7 +5474,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 476,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "How many external emergency lights are there?",
     options: {
       a: "7",
@@ -5485,7 +5485,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 477,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "How many water immersion detectors are there for the HEELS?",
     options: {
       a: "One",
@@ -5496,7 +5496,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 478,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What happens if the HEELS switch is in the ARM position during a water entry event?",
     options: {
       a: "Cabin lights turn off",
@@ -5507,7 +5507,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 479,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "Where are the PSU 1 located?",
     options: {
       a: "Above window 10",
@@ -5518,7 +5518,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 480,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "How many batteries are in the HEELS system?",
     options: {
       a: "Four",
@@ -5529,7 +5529,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 481,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "Which areas are illuminated by the HEELS system?",
     options: {
       a: "Cockpit only",
@@ -5540,7 +5540,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 482,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "What happens if one PSU fails in the HEELS system?",
     options: {
       a: "All lights go out",
@@ -5551,7 +5551,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 483,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "Under normal operations where is the standby battery charged?",
     options: {
       a: "No 2 DC Primary",
@@ -5562,7 +5562,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 484,
-    category: "ATA 33",
+    category: "S92 ATA 33",
     question: "The left hand overhead lights are powered by?",
     options: {
       a: "No 2 DC Primary",
@@ -5573,7 +5573,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 485,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What is the frequency range for VOR/ILS tuning?",
     options: {
       a: "108.00 to 112.00 MHz",
@@ -5584,7 +5584,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 486,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How are VOR frequencies selected within the range of 108.00 to 112.00 MHz?",
     options: {
       a: "When the digit to the right of the decimal is an even number",
@@ -5595,7 +5595,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 487,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Where is the Marker Beacon antenna located?",
     options: {
       a: "Under the fuselage, level with the main entrance door",
@@ -5606,7 +5606,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 488,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How are VOR/LOC and VHF 2 antennas connected?",
     options: {
       a: "Through a coupler in the seat well under the co-pilot\u2019s seat",
@@ -5617,7 +5617,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 489,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What does the white arrow controlled by the RIC represent?",
     options: {
       a: "Glideslope indication",
@@ -5628,7 +5628,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 490,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "In VOR Deviations, how is the lateral deviation bar oriented when the beacon is to the left of the selected radial?",
     options: {
       a: "To the right",
@@ -5639,7 +5639,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 491,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What color is used to signify VOR or FMS deviation in the Lateral Deviation Bar?",
     options: {
       a: "Magenta",
@@ -5650,7 +5650,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 492,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What does a yellow text label indicate when the off-side VOR is selected as the active source of navigation?",
     options: {
       a: "Signal weakness",
@@ -5661,7 +5661,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 493,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How is a failure of a VOR or ILS system displayed on the MFD?",
     options: {
       a: "In green",
@@ -5672,7 +5672,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 494,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "During an ILS approach, what does a full-scale lateral indication result in?",
     options: {
       a: "Yellow diamond",
@@ -5683,7 +5683,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 495,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Where is the DME Receiver/Transmitter located?",
     options: {
       a: "Under the fuselage",
@@ -5694,7 +5694,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 496,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How many channels does the scanning DME receiver have in one unit?",
     options: {
       a: "1",
@@ -5705,7 +5705,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 497,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Where is the DME antenna located?",
     options: {
       a: "Under the co-pilot\u2019s seat",
@@ -5716,7 +5716,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 498,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "In normal operation how is the DME frequency tuned?",
     options: {
       a: "Independently on the DME Main Page",
@@ -5727,7 +5727,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 499,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What does a yellow H next to the VOR frequency on the MFDs indicate?",
     options: {
       a: "High signal strength",
@@ -5738,7 +5738,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 500,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How is DME Hold selected?",
     options: {
       a: "Automatically",
@@ -5749,7 +5749,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 501,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Where can you find the status of the DME system?",
     options: {
       a: "NAV Main Page",
@@ -5760,7 +5760,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 502,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "When testing the DME from RTU 1, what indicates a serviceable system?",
     options: {
       a: "A yellow H on the MFDs",
@@ -5771,7 +5771,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 503,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How are VOR 1 and ILS 1 diagnostics accessed?",
     options: {
       a: "From the NAV Main Page",
@@ -5782,7 +5782,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 504,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What bus does VOR/ILS 1 use for power supply?",
     options: {
       a: "No 1 DC Primary Bus",
@@ -5793,7 +5793,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 505,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What does the ADF system consist of?",
     options: {
       a: "Receiver and Antenna.",
@@ -5804,7 +5804,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 506,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Where is the ADF receiver located?",
     options: {
       a: "Right avionics rack",
@@ -5815,7 +5815,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 507,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How many loop antennae does the ADF antenna have for direction finding?",
     options: {
       a: "1",
@@ -5826,7 +5826,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 508,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Which button on the Audio Controller selects the sense antenna for listening to the beacon IDENT?",
     options: {
       a: "L2",
@@ -5837,7 +5837,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 509,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How is the ADF Main Page accessed?",
     options: {
       a: "Pressing R3 once",
@@ -5848,7 +5848,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 510,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What does the ADF Test on the Main Page display if the system is serviceable?",
     options: {
       a: "A code of 00",
@@ -5859,7 +5859,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 511,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Where is the status of the ADF displayed?",
     options: {
       a: "HLTH >> AVIONICS Page 2",
@@ -5870,7 +5870,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 512,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How many RADALT systems does the aircraft have?",
     options: {
       a: "Two",
@@ -5881,7 +5881,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 513,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What is the altitude range of the RADALT system?",
     options: {
       a: "0 to 1000 feet",
@@ -5892,7 +5892,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 514,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Where is the RAD ALT Receiver/Transmitter located?",
     options: {
       a: "Bottom of the left avionics rack",
@@ -5903,7 +5903,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 515,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How many Decision Height Bugs can be set?",
     options: {
       a: "One",
@@ -5914,7 +5914,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 516,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "When does the digital RADALT AGL indication and pointer change to yellow?",
     options: {
       a: "Above the RA setting",
@@ -5925,7 +5925,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 517,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What does the CAT A RADALT indicator show above the TDP setting?",
     options: {
       a: "Digital Text in white, arc in green",
@@ -5936,7 +5936,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 518,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What does the red AGL fails flag indicate?",
     options: {
       a: "System under test",
@@ -5947,7 +5947,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 519,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How is the RADALT system tested for serviceability?",
     options: {
       a: "Using a test set",
@@ -5958,7 +5958,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 520,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "When should the RADALT system be zeroed?",
     options: {
       a: "Every flight",
@@ -5969,7 +5969,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 521,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How can the RADALT AGL be displayed in 0.1 foot increments on the MFDs?",
     options: {
       a: "Pressing IBIT",
@@ -5980,7 +5980,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 522,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What does the Air Data Systems (ADS) consist of?",
     options: {
       a: "Two ADC systems and a Standby system",
@@ -5991,7 +5991,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 523,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How many ADC systems are there in the Air Data Systems?",
     options: {
       a: "One",
@@ -6002,7 +6002,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 524,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What is the purpose of the Standby System?",
     options: {
       a: "To calculate Vne",
@@ -6013,7 +6013,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 525,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Where are the ADCs located?",
     options: {
       a: "Left hand avionics rack",
@@ -6024,7 +6024,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 526,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What information do the ADCs use for their calculations?",
     options: {
       a: "Weight and engine status",
@@ -6035,7 +6035,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 527,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Where are the Outside Air Temperature (OAT) Probes located?",
     options: {
       a: "Engine inlets",
@@ -6046,7 +6046,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 528,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "From which Pitot Static Probe does ADC 1 receive pitot pressure?",
     options: {
       a: "Lower Left Pitot Probe",
@@ -6057,7 +6057,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 529,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How many screw cap drain points are used to release water build-up in the pitot and static lines?",
     options: {
       a: "5",
@@ -6068,7 +6068,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 530,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What does the BARALT Bug MIN setting control?",
     options: {
       a: "Vne calculation",
@@ -6079,7 +6079,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 531,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What does the white ALTP bug setting control?",
     options: {
       a: "BARALT Decision Height",
@@ -6090,7 +6090,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 532,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How does the system indicate a miscompare in IAS?",
     options: {
       a: "Audible alert",
@@ -6101,7 +6101,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 533,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "At what IAS will a miscompare display?",
     options: {
       a: "70 KIAS",
@@ -6112,7 +6112,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 534,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "At what altitude will a miscompare display?",
     options: {
       a: "7 feet",
@@ -6123,7 +6123,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 535,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What does ADC to AFCS data use for its calculations?",
     options: {
       a: "Only offside ADC",
@@ -6134,7 +6134,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 536,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What happens if a pitot probe becomes blocked during coupled pitch movement?",
     options: {
       a: "Uncommanded pitch movement",
@@ -6145,7 +6145,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 537,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How is the Pitot Static leak check and accuracy checks carried out?",
     options: {
       a: "Using the ADC Test Set",
@@ -6156,7 +6156,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 538,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Is there an interrupted test of the ADC system?",
     options: {
       a: "Yes",
@@ -6167,7 +6167,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 539,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Which system uses an average of both ADCs for its calculations?",
     options: {
       a: "AFCS",
@@ -6178,7 +6178,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 540,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What is the purpose of the Attitude Heading and Reference Systems (AHRS)?",
     options: {
       a: "Provide weather information",
@@ -6189,7 +6189,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 541,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What is the pitch accuracy provided by the LITEF Model LCR-100 AHRS?",
     options: {
       a: "\u00b1 1 degree",
@@ -6200,7 +6200,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 542,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How many Fibre Optic Gyros (FOGs) sensors are there in each AHRS Unit?",
     options: {
       a: "Two",
@@ -6211,7 +6211,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 543,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Which bus is used to power the Co-Pilots AHRS PRI on AHRS 1?",
     options: {
       a: "DC Essential Bus",
@@ -6222,7 +6222,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 544,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What does the Slew Controller's SET HDG switch allow the pilot to do?",
     options: {
       a: "Adjust the vertical speed",
@@ -6233,7 +6233,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 545,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Which AHRS communicates with MFDs 3 and 4 under normal conditions?",
     options: {
       a: "AHRS 1",
@@ -6244,7 +6244,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 546,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Where is the Magnetic Sensor Unit (Flux Valve) located?",
     options: {
       a: "Behind the MFDs",
@@ -6255,7 +6255,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 547,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What is the commanded slew rate for the first 3 seconds on the Slew Controller?",
     options: {
       a: "4\u00b0 per second",
@@ -6266,7 +6266,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 548,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What is the purpose of the GPS data in the AHRS system?",
     options: {
       a: "Adjust the vertical speed",
@@ -6277,7 +6277,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 549,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Under normal conditions Which displays show the Vertical Speed Indication (VSI) from AHRS 2?",
     options: {
       a: "MFDs 1, 2, and 5",
@@ -6288,7 +6288,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 550,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What causes an AHRS Mis-compare?",
     options: {
       a: "Different temperature settings",
@@ -6299,7 +6299,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 551,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How long does normal alignment on the ground take for the AHRS system?",
     options: {
       a: "15 seconds",
@@ -6310,7 +6310,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 552,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Which MFDs does AHRS 1 communicate with under normal conditions?",
     options: {
       a: "MFDs 1, 2, and 5",
@@ -6321,7 +6321,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 553,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What controls the pitch scale and the sky/ground color on the Primary Flight Displays?",
     options: {
       a: "Compass Control Unit",
@@ -6332,7 +6332,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 554,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How is the Standby Attitude Indicator powered if the #1 DC Primary Bus fails?",
     options: {
       a: "Emergency Battery",
@@ -6343,8 +6343,8 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 555,
-    category: "ATA 34",
-    question: "What happens if the Emergency Battery Test displays 'EMER PWR and GOOD'?",
+    category: "S92 ATA 34",
+    question: "What happens if the Emergency Battery Test displays \"EMER PWR and GOOD\"?",
     options: {
       a: "The emergency battery is discharged",
       b: "Emergency power is available and >50%",
@@ -6354,7 +6354,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 556,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How is the Standby Attitude Indicator power switched on?",
     options: {
       a: "OFF/ARM push button",
@@ -6365,7 +6365,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 557,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What is the hazard area for a helicopter within a 270-degree forward sector of the nose?",
     options: {
       a: "50 feet",
@@ -6376,7 +6376,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 558,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Which button on the P700 WXR Controller initiates the turbulence detection function?",
     options: {
       a: "CR",
@@ -6387,7 +6387,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 559,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "In ground mapping mode, what color represents the highest returns on the P700 WXR?",
     options: {
       a: "Blue",
@@ -6398,7 +6398,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 560,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "When an intruder transponder transmission is detected, what does the TCAS in the aircraft compute?",
     options: {
       a: "Range between your aircraft and the intruder",
@@ -6409,7 +6409,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 561,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Where is the TCAS Processor located?",
     options: {
       a: "On the upper antenna",
@@ -6420,7 +6420,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 562,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Where is the TCAS Configuration Module located?",
     options: {
       a: "On the upper antenna",
@@ -6431,7 +6431,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 563,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How is the TCAS information displayed on MFDs?",
     options: {
       a: "By default",
@@ -6442,7 +6442,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 564,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How is a THREAT indicated in TCAS I symbology?",
     options: {
       a: "An open blue diamond",
@@ -6453,7 +6453,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 565,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What happens following a Resolution Alert (RA) in TCAS II?",
     options: {
       a: "Immediate descent",
@@ -6464,7 +6464,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 566,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "When are Climb RAs inhibited in TCAS II?",
     options: {
       a: "Airspeed is less than 100 KIAS",
@@ -6475,7 +6475,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 567,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What is the primary purpose of the Honeywell Mk XXII EGPWS in the S92?",
     options: {
       a: "To control the autopilot system",
@@ -6486,7 +6486,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 568,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Which altitude reference does the EGPWS use to calculate the height above the ground?",
     options: {
       a: "Barometric altitude",
@@ -6497,7 +6497,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 569,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What happens if GPS data is not available for the EGPWS Terrain system?",
     options: {
       a: "Terrain system becomes inactive",
@@ -6508,7 +6508,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 570,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Which sensor is NOT used by the EGPWS to determine the active mode?",
     options: {
       a: "RADALT",
@@ -6519,7 +6519,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 571,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "In the EGPWS mapping, what color is used to represent terrain 0 - 500 feet from the aircraft?",
     options: {
       a: "Light green",
@@ -6530,7 +6530,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 572,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Which mode in the EGPWS is used for alerts related to excessive terrain closure rate after take-off?",
     options: {
       a: "Mode 2",
@@ -6541,7 +6541,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 573,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What does the Look Ahead function in the EGPWS system compare?",
     options: {
       a: "Aircraft altitude with terrain altitude",
@@ -6552,7 +6552,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 574,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "When does the EGPWS display TERRAIN in red on the PFD?",
     options: {
       a: "20 seconds from hitting the hazard",
@@ -6563,7 +6563,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 575,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "In the EGPWS, what does the TOO LOW GEAR alert indicate?",
     options: {
       a: "Insufficient terrain clearance",
@@ -6574,7 +6574,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 576,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "When does the Mode 3 in EGPWS provide alerts?",
     options: {
       a: "During normal approach",
@@ -6585,7 +6585,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 577,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What is the primary source of navigation for the FMS?",
     options: {
       a: "DME",
@@ -6596,7 +6596,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 578,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Where are the GPS antennas mounted on the helicopter?",
     options: {
       a: "On the wings",
@@ -6607,7 +6607,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 579,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What is the purpose of the Configuration Module?",
     options: {
       a: "Fuel management",
@@ -6618,7 +6618,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 580,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Which database is responsible for providing IFR Approach information?",
     options: {
       a: "Company Database",
@@ -6629,7 +6629,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 581,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What is the purpose of the Wide Area Augmentation System (WAAS)?",
     options: {
       a: "Fuel management",
@@ -6640,7 +6640,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 582,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What does RAIM stand for?",
     options: {
       a: "Receiver Autonomous Integrity Monitoring",
@@ -6651,7 +6651,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 583,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How many satellites are required for the GPS to determine position and enter NAV mode?",
     options: {
       a: "Three",
@@ -6662,7 +6662,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 584,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What does the Best Computed Position (BCP) represent?",
     options: {
       a: "The most accurate GPS satellite",
@@ -6673,7 +6673,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 585,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What is the purpose of the Circle of Position?",
     options: {
       a: "GPS satellite alignment",
@@ -6684,7 +6684,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 586,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What is the purpose of the Power On Self-Test (POST)?",
     options: {
       a: "Check weather conditions",
@@ -6695,7 +6695,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 587,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How can a temporary waypoint be set using the Slew Controllers?",
     options: {
       a: "Pressing ENTER key",
@@ -6706,7 +6706,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 588,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What type of tests are included in the Dynamic Tests on Maintenance Pages?",
     options: {
       a: "Navigation tests",
@@ -6717,7 +6717,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 589,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How is a temporary waypoint identified on the FMS?",
     options: {
       a: "Designator R01, R02, etc.",
@@ -6728,7 +6728,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 590,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "If the heating element of the left hand pitot system fails what notification will be displayed?",
     options: {
       a: "ADC 1 Fail",
@@ -6739,7 +6739,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 591,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "If the heating element of the standby pitot system fails what notification will be displayed?",
     options: {
       a: "Pitot heat 1",
@@ -6750,7 +6750,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 592,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "ADF bearing arrow 1 is shown in what colour?",
     options: {
       a: "Blue",
@@ -6761,7 +6761,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 593,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "ADF bearing arrow 2 is shown in what colour?",
     options: {
       a: "Blue",
@@ -6772,7 +6772,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 594,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Vertical and Lateral deviations of the ILS indication is display with?",
     options: {
       a: "Magenta Diamond",
@@ -6783,7 +6783,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 595,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "At what Frequency does the ILS system operate?",
     options: {
       a: "100 - 107 MHz",
@@ -6794,7 +6794,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 596,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "VOR 1 beacon information is displayed in what colour?",
     options: {
       a: "Blue",
@@ -6805,7 +6805,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 597,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "VOR 1 Beacon is displayed on the Co-pilots MFD with what selection?",
     options: {
       a: "NAV on DCP 1",
@@ -6816,7 +6816,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 598,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Glideslope frequency is paired with?",
     options: {
       a: "Comm 1",
@@ -6827,7 +6827,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 599,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How is full functioning of the FMS displayed?",
     options: {
       a: "BIT pass displayed on MFD STATUS page",
@@ -6838,7 +6838,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 600,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "The slew cursor will display on Right Side MFD's?",
     options: {
       a: "When the Pilot uses slew control thumb switch",
@@ -6849,7 +6849,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 601,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Test of the DME system are initated from?",
     options: {
       a: "RTU 1",
@@ -6860,7 +6860,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 602,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Which pitot system feeds ADC 1?",
     options: {
       a: "RH Pitot",
@@ -6871,7 +6871,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 603,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "AHRS two will normally displays Vertical speed on which MFDs?",
     options: {
       a: "Co-Pilots MFDs",
@@ -6882,7 +6882,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 604,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "Where are the results of a compass swing stored? ",
     options: {
       a: "Removeable programable module attached to the AHRS",
@@ -6893,7 +6893,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 605,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "What are the minimum points required for a compass swing ? ",
     options: {
       a: "4",
@@ -6904,7 +6904,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 606,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "The TCAS system can be tested from?",
     options: {
       a: "RTU 1 ",
@@ -6915,7 +6915,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 607,
-    category: "ATA 34",
+    category: "S92 ATA 34",
     question: "How can the EPWG databasae be updated",
     options: {
       a: "No update is required",
@@ -6926,7 +6926,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 608,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What is the primary function of the Honeywell Model 150 APU?",
     options: {
       a: "Provide hydraulic power",
@@ -6937,7 +6937,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 609,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "Where does the APU draw air for combustion?",
     options: {
       a: "Bottom of the aircraft",
@@ -6948,7 +6948,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 610,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What component provides backup AC power to the aircraft electrical system?",
     options: {
       a: "APU AC Generator",
@@ -6959,7 +6959,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 611,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "How is the APU oil system lubrication achieved?",
     options: {
       a: "Splash lubrication",
@@ -6970,7 +6970,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 612,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What is the function of the hydraulic accumulator in the APU?",
     options: {
       a: "Cool the turbine stage combustion chamber",
@@ -6981,7 +6981,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 613,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "Where is the APU air inlet located?",
     options: {
       a: "Bottom of the main rotor pylon",
@@ -6992,7 +6992,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 614,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What is the purpose of the Heat Shield in the APU?",
     options: {
       a: "Cool the APU exhaust gases",
@@ -7003,7 +7003,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 615,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What happens if the oil pressure is too low in the APU on the ground?",
     options: {
       a: "ESU initiates APU shutdown",
@@ -7014,7 +7014,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 616,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "Where is the APU AC Generator mounted?",
     options: {
       a: "On the compressor housing",
@@ -7025,7 +7025,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 617,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What provides lubrication for all gears, shafts, and bearings in the APU?",
     options: {
       a: "Splash lubrication",
@@ -7036,7 +7036,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 618,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What does the APU Air Inlet protect against?",
     options: {
       a: "Fuel contamination",
@@ -7047,7 +7047,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 619,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What is the purpose of the accessory drive section in the APU?",
     options: {
       a: "Cool the APU exhaust gases",
@@ -7058,7 +7058,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 620,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "Where is the oil filter element located in the APU?",
     options: {
       a: "Inside the combustion chamber",
@@ -7069,7 +7069,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 621,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What is the function of the differential pressure regulator in the APU Fuel Control Unit?",
     options: {
       a: "Control the APU speed",
@@ -7080,7 +7080,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 622,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "How is the APU air inlet protected from FOD?",
     options: {
       a: "By a coarse screen with rectangular apertures",
@@ -7091,7 +7091,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 623,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What does the magnetic drain plug in the APU do?",
     options: {
       a: "Provide backup AC power",
@@ -7102,7 +7102,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 624,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "From where is engine bleed air extracted from the APU?",
     options: {
       a: "Turbine housing",
@@ -7113,7 +7113,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 625,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What diverts bleed air when it is not required by the APU?",
     options: {
       a: "DCU",
@@ -7124,7 +7124,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 626,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "Which system provides hydraulic pressure for normal accumulator recharging?",
     options: {
       a: "Accessory section",
@@ -7135,7 +7135,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 627,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What is the purpose of the accumulator in the APU system?",
     options: {
       a: "Cooling the engine",
@@ -7146,7 +7146,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 628,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "Where is the accumulator pressure gauge mounted?",
     options: {
       a: "Cabin roof",
@@ -7157,7 +7157,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 629,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What does the APU start valve control?",
     options: {
       a: "Oil flow",
@@ -7168,7 +7168,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 630,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What are the APU ignition components?",
     options: {
       a: "Oil pump, FCU",
@@ -7179,7 +7179,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 631,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "At what Ng percentage does the APU start valve close?",
     options: {
       a: "10%",
@@ -7190,7 +7190,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 632,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What does the APU control system manage?",
     options: {
       a: "Electrical buses",
@@ -7201,7 +7201,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 633,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "Where is the ESU located?",
     options: {
       a: "Cockpit overhead console",
@@ -7212,7 +7212,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 634,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What completes a power-on self-test when power is applied?",
     options: {
       a: "APU accumulator",
@@ -7223,7 +7223,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 635,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "Where is the motional speed sensor located?",
     options: {
       a: "Turbine housing",
@@ -7234,7 +7234,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 636,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "How is the APU shut down in case of a high oil temperature while in flight?",
     options: {
       a: "Automatic shutdown",
@@ -7245,7 +7245,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 637,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What is recorded by the hour meter assembly?",
     options: {
       a: "APU flight hours",
@@ -7256,7 +7256,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 638,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What occurs when the FIRE APU/ARM pushbutton is pushed?",
     options: {
       a: "Apu starts",
@@ -7267,7 +7267,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 639,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "Which caution will be displayed if an automatic shutdown occurs in flight?",
     options: {
       a: "APU ACCUM LOW",
@@ -7278,7 +7278,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 640,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "Where can additional APU system feedback be displayed?",
     options: {
       a: "EICAS page",
@@ -7289,7 +7289,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 641,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What does the FIRE APU/ARM warning light/pushbutton provide a visual warning of?",
     options: {
       a: "Low oil pressure",
@@ -7300,7 +7300,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 642,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What happens when the FIRE APU/ARM pushbutton is pushed?",
     options: {
       a: "APU shuts down",
@@ -7311,7 +7311,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 643,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What component controls the APU?",
     options: {
       a: "Fuel conditioning unit",
@@ -7322,7 +7322,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 644,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "Where is the Electronic sequencing unit?",
     options: {
       a: "LH Avionic bay",
@@ -7333,7 +7333,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 645,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "How many fuel nozzles are there are fitted to the APU?",
     options: {
       a: "3 Primary and 3 Secondary",
@@ -7344,7 +7344,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 646,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "How is the APU starter Power?",
     options: {
       a: "Air Starter",
@@ -7355,7 +7355,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 647,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "During normal operation how is the APU accumulator charged on the ground with rotors stationary?",
     options: {
       a: "Hand pump",
@@ -7366,7 +7366,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 648,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "During normal operation how is the APU accumulator charged in flight?",
     options: {
       a: "N\u00b03 Mechanical Hydraulic pump",
@@ -7377,7 +7377,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 649,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "How can we ensure complete discharge of the APU accumulator?",
     options: {
       a: "Piston visible in accumulator sight glass",
@@ -7388,7 +7388,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 650,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "Where is the APU start valve located?",
     options: {
       a: "In the APU bay",
@@ -7399,7 +7399,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 651,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What is the fully charge pressure of the APU accumulator?",
     options: {
       a: "4000 psi",
@@ -7410,7 +7410,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 652,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What is the nitrogen base charge of the APU accumulator?",
     options: {
       a: "2000 psi",
@@ -7421,7 +7421,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 653,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "At what pressure will the APU accumulator charge be initiated?",
     options: {
       a: "3450 psi",
@@ -7432,7 +7432,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 654,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What fault categories are associated with the APU?",
     options: {
       a: "Critical",
@@ -7443,7 +7443,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 655,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "How many temperature probes are fitted in the APU exhaust?",
     options: {
       a: "One",
@@ -7454,7 +7454,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 656,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "How many ignitors are fitted to the APU?",
     options: {
       a: "1 Starter and 1 Main",
@@ -7465,7 +7465,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 657,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "What services are provided to the aircraft by the APU?",
     options: {
       a: "Electrical",
@@ -7476,7 +7476,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 658,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "How is the APU mounted to the airframe?",
     options: {
       a: "Racetrack fitting",
@@ -7487,7 +7487,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 659,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "Where does the APU get its fuel supply?",
     options: {
       a: "LH Sponson only",
@@ -7498,7 +7498,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 660,
-    category: "ATA 49",
+    category: "S92 ATA 49",
     question: "How is the APU oil level checked?",
     options: {
       a: "MFD Status page",
@@ -7509,7 +7509,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 661,
-    category: "ATA 70",
+    category: "S92 ATA 70",
     question: "What does the EPAC page provide the means to perform?",
     options: {
       a: "Weight on wheel checks",
@@ -7520,7 +7520,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 662,
-    category: "ATA 70",
+    category: "S92 ATA 70",
     question: "How often is the Engine Power Assurance Check required?",
     options: {
       a: "Once a week",
@@ -7531,7 +7531,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 663,
-    category: "ATA 70",
+    category: "S92 ATA 70",
     question: "Which system is needed to execute power assurance checks performed by the DCUs?",
     options: {
       a: "FADEC",
@@ -7542,7 +7542,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 664,
-    category: "ATA 70",
+    category: "S92 ATA 70",
     question: "Where are the EPAC values displayed for engine 1?",
     options: {
       a: "Co-pilots MFDs",
@@ -7553,8 +7553,8 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 665,
-    category: "ATA 70",
-    question: "When does the EPAC target airspeed readout display '120'?",
+    category: "S92 ATA 70",
+    question: "When does the EPAC target airspeed readout display \"120\"?",
     options: {
       a: "On ground",
       b: "In the air",
@@ -7564,7 +7564,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 666,
-    category: "ATA 70",
+    category: "S92 ATA 70",
     question: "What does the XFILL command do?",
     options: {
       a: "Initiates engine test",
@@ -7575,7 +7575,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 667,
-    category: "ATA 70",
+    category: "S92 ATA 70",
     question: "How are EPAC data failures indicated?",
     options: {
       a: "In a yellow warning annunciation",
@@ -7586,7 +7586,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 668,
-    category: "ATA 70",
+    category: "S92 ATA 70",
     question: "What does the STATUS line on the power assurance display indicate?",
     options: {
       a: "Current aircraft conditions",
@@ -7597,7 +7597,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 669,
-    category: "ATA 70",
+    category: "S92 ATA 70",
     question: "What does the first box on the power assurance display show?",
     options: {
       a: "Error messages",
@@ -7608,7 +7608,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 670,
-    category: "ATA 70",
+    category: "S92 ATA 70",
     question: "How many air and ground checks are stored in the EPAC data?",
     options: {
       a: "5",
@@ -7619,7 +7619,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 671,
-    category: "ATA 70",
+    category: "S92 ATA 70",
     question: "What does the TAS WINDOW error message on the EPAC indicate?",
     options: {
       a: "Unstable true airspeed",
@@ -7630,7 +7630,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 672,
-    category: "ATA 70",
+    category: "S92 ATA 70",
     question: "When is the EPAC Cross Fill (XFILL) command available?",
     options: {
       a: "In-flight only",
@@ -7641,7 +7641,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 673,
-    category: "ATA 70",
+    category: "S92 ATA 70",
     question: "Where are EPAC's calculated?",
     options: {
       a: "EECU",
@@ -7652,7 +7652,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 674,
-    category: "ATA 70",
+    category: "S92 ATA 70",
     question: "Where can the EPAC pages be displayed?",
     options: {
       a: "RTU 1",
@@ -7663,7 +7663,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 675,
-    category: "ATA 70",
+    category: "S92 ATA 70",
     question: "Where can the EPAC pages be displayed?",
     options: {
       a: "RTU 1",
@@ -7674,7 +7674,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 676,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "What is the purpose of the Demountable Power Package (DPP) for the GE CT7-8A engine?",
     options: {
       a: "Provide engine cooling",
@@ -7685,7 +7685,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 677,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "What provides rear engine lateral and vertical alignment in the GE CT7-8A engine?",
     options: {
       a: "Expandable bolt",
@@ -7696,7 +7696,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 678,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "What is the function of the Inlet Particle Separator (IPS) in the GE CT7-8A engine?",
     options: {
       a: "Reduce engine vibrations",
@@ -7707,7 +7707,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 679,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "Where are the compressor bleed ports located on the GE CT7-8A engine?",
     options: {
       a: "Near the front of the engine",
@@ -7718,7 +7718,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 680,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "What do the five combined drains in the CT7-8 engine feed into?",
     options: {
       a: "Fuel tank",
@@ -7729,7 +7729,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 681,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "What provides rotation to the engine compressor and accessories during the start cycle?",
     options: {
       a: "Pneumatic starter",
@@ -7740,7 +7740,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 682,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "How are engine vibrations detected in the GE CT7-8A engine?",
     options: {
       a: "By accelerometers",
@@ -7751,7 +7751,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 683,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "What separates the engine enclosure from surrounding areas in the airframe of the GE CT7-8A engine?",
     options: {
       a: "Expandable bolt",
@@ -7762,7 +7762,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 684,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "What is the primary function of the Full Authority Digital Engine Control (FADEC) system in the GE CT7-8A engine?",
     options: {
       a: "Provide lighting control",
@@ -7773,7 +7773,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 685,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "How are the electrical harnesses color-coded in the GE CT7-8A engine?",
     options: {
       a: "Red, blue, green",
@@ -7784,8 +7784,8 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 686,
-    category: "ATA 71",
-    question: "What is the purpose of the engine cleaning configuration known as 'single point'?",
+    category: "S92 ATA 71",
+    question: "What is the purpose of the engine cleaning configuration known as \"single point\"?",
     options: {
       a: "Increase fuel efficiency",
       b: "Reduce engine vibrations",
@@ -7795,7 +7795,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 687,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "When should the daily post-flight water rinse be performed for the GE CT7-8A engine?",
     options: {
       a: "Every 50 hours",
@@ -7806,7 +7806,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 688,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "What must be pulled out before commencing the daily water rinse procedure in the GE CT7-8A engine?",
     options: {
       a: "Fuel Metering Unit",
@@ -7817,7 +7817,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 689,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "What is the maximum lift capacity of the GE 2C9005001 sling for the CT7-8A engine?",
     options: {
       a: "500 lbs",
@@ -7828,7 +7828,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 690,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "Why must the engine oil be removed if the GE CT7-8A engine is turned to a vertical position?",
     options: {
       a: "To prevent corrosion",
@@ -7839,7 +7839,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 691,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "Where is compressor wash fluid introduced to the aircraft",
     options: {
       a: "Via lance to engine intake",
@@ -7850,7 +7850,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 692,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "Where does the cumbustion chamber drain exit the aircraft",
     options: {
       a: "into the engine exhaust",
@@ -7861,7 +7861,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 693,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "How are engine vibrations monitored",
     options: {
       a: "accelerometers front left and rear right of the engine",
@@ -7872,7 +7872,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 694,
-    category: "ATA 71",
+    category: "S92 ATA 71",
     question: "How is the engine supported",
     options: {
       a: "linked to internal firewall",
@@ -7883,10 +7883,10 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 695,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "Where is the engine assembly main data plate located?",
     options: {
-      a: "Cold Section - 3 o'clock position on the front frame assembly",
+      a: "Cold Section - 3 o\"clock position on the front frame assembly",
       b: "Accessory Gearbox - 12 o\’clock and 1 o\’clock positions",
       c: "Power Turbine - 12 o\’clock position on the exhaust frame"
     },
@@ -7894,7 +7894,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 696,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What is the purpose of the lightweight container for engine transportation?",
     options: {
       a: "Long-term storage in a humid environment",
@@ -7905,7 +7905,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 697,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "In the CT7-8 engine, how do the gas generator and power turbine rotors turn?",
     options: {
       a: "Counter-clockwise",
@@ -7916,7 +7916,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 698,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "How many stages of gas generator turbine are fitted to the CT7-8?",
     options: {
       a: "1 stage",
@@ -7927,7 +7927,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 699,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What is the function of the input particle separator (IPS) system?",
     options: {
       a: "Cooling the engine",
@@ -7938,7 +7938,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 700,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What type of starters do the engines use?",
     options: {
       a: "Hydraulic starters",
@@ -7949,7 +7949,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 701,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "Where is the No. 1 ball bearing located in the CT7-8 engine?",
     options: {
       a: "B-sump",
@@ -7960,7 +7960,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 702,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "How many temprature sensors are fitted to the exhaust section of the GT7-8?",
     options: {
       a: "8",
@@ -7971,7 +7971,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 703,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "How many modules does the CT7-8 engine have?",
     options: {
       a: "Three",
@@ -7982,7 +7982,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
    {
     id: 704,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "Where are the T1 sensors fitted?",
     options: {
       a: "Inlet Frame",
@@ -7993,7 +7993,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   }, 
   {
     id: 705,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "Which component contains the particle separator swirl frame?",
     options: {
       a: "Front frame assembly",
@@ -8004,7 +8004,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 706,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "Where is the A-Sump Output Shaft Assembly (OSA) located?",
     options: {
       a: "Accessory module",
@@ -8015,7 +8015,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 707,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "How many stages of compressor does the GT7-8 have?",
     options: {
       a: "5 Axial",
@@ -8026,7 +8026,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 708,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What is the function of the diffuser and midframe casing assembly?",
     options: {
       a: "Increase air pressure",
@@ -8037,7 +8037,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 709,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What components are part of the hot section module?",
     options: {
       a: "Diffuser case",
@@ -8048,7 +8048,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 710,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What is the role of the combustion liner in the hot section?",
     options: {
       a: "Cool the compressor rotor",
@@ -8059,7 +8059,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 711,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "Where is the power turbine rotor assembly located?",
     options: {
       a: "Cold section module",
@@ -8070,7 +8070,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 712,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What is the purpose of the power turbine drive shaft assembly?",
     options: {
       a: "Cool the power turbine rotor",
@@ -8082,7 +8082,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
 
   {
     id: 713,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What is the role of the torque sensor tube in the power turbine drive shaft assembly?",
     options: {
       a: "Cooling the drive shaft",
@@ -8093,7 +8093,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 714,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "Where is the turbine case located?",
     options: {
       a: "Between the compressor case and the power turbine module",
@@ -8104,7 +8104,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 715,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What components are part of the C-sump housing and exhaust frame assembly?",
     options: {
       a: "Exhaust frame",
@@ -8115,7 +8115,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 716,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "How many struts hold the inner and outer hubs of the exhaust frame casting?",
     options: {
       a: "Two",
@@ -8126,7 +8126,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 717,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What do the top two struts in the exhaust frame contain?",
     options: {
       a: "Torque and speed sensors",
@@ -8137,7 +8137,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 718,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What is the role of the No. 5 carbon seal in the C-sump housing and exhaust frame assembly?",
     options: {
       a: "Prevent oil leakage",
@@ -8148,7 +8148,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
    {
     id: 719,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What modules make up the engine ?",
     options: {
       a: "Compressor, Accessory, Turbine",
@@ -8159,7 +8159,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   }, 
   {
     id: 720,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What does the accessory section module attach to improve accessibility?",
     options: {
       a: "particle separator blower",
@@ -8170,7 +8170,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 721,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "Which component is NOT installed on the rear gearbox housing of the accessory section module?",
     options: {
       a: "fuel metering unit",
@@ -8181,7 +8181,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 722,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What is the main function of the accessory module?",
     options: {
       a: "providing mechanical power to operate accessories",
@@ -8192,7 +8192,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 723,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "How does the radial drive shaft operate the accessory section module under normal conditions?",
     options: {
       a: "by hand cranking",
@@ -8202,7 +8202,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
     correct: "c"
   },
   { id: 724, 
-    category: "ATA 72", 
+    category: "S92 ATA 72", 
     question: "What do the top two struts of the exhaust frame casting contain?", 
     options: { 
       a: "The oil supply", 
@@ -8213,7 +8213,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 725,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "How are accessory drives identified?",
     options: {
       a: "numerically",
@@ -8224,7 +8224,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 726,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "How many engine bay scuppers are there?",
     options: {
       a: "one",
@@ -8235,7 +8235,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   }, 
   {
     id: 727,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What does the common drain remove from the gearbox accessory cavities?",
     options: {
       a: "oil only",
@@ -8245,7 +8245,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
     correct: "c"
   },
   { id: 728, 
-    category: "ATA 72", 
+    category: "S92 ATA 72", 
     question: "What is the purpose of the stage 4 air supply?", 
     options: { 
       a: "To provide cooling", 
@@ -8256,7 +8256,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 729,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What does the front frame drain remove?",
     options: {
       a: "fuel",
@@ -8266,7 +8266,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
     correct: "b"
   },
   { id: 730, 
-    category: "ATA 72", 
+    category: "S92 ATA 72", 
     question: "What is the third most major support structure on the engine?", 
     options: { 
       a: "Exhaust frame", 
@@ -8276,7 +8276,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
    {
     id: 731,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "How many bearings are within the engine?",
     options: {
       a: "5",
@@ -8287,7 +8287,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
    {
     id: 732,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What is the normal power turbine RPM?",
     options: {
       a: "21,945 rpm",
@@ -8298,7 +8298,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   }, 
    {
     id: 733,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "what bearings are support the gas generstor section?? 3 & 4?",
     options: {
       a: "1 and 2",
@@ -8309,7 +8309,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   }, 
   {
     id: 734,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: " what material is the particle separator scroll case?",
     options: {
       a: "4 peice Carbon Fibre",
@@ -8320,7 +8320,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 735,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "How are compressors blades attached to the disk?",
     options: {
       a: "Dove tail fitting",
@@ -8331,7 +8331,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 736,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What construction is the compressor outer casing?",
     options: {
       a: "single piece construction",
@@ -8342,7 +8342,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 737,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "where is P4 air derived?",
     options: {
       a: "Inlet to gas generator turbine?",
@@ -8353,7 +8353,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 738,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "?",
     options: {
       a: "",
@@ -8364,7 +8364,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 739,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "?",
     options: {
       a: "",
@@ -8375,7 +8375,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 740,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "?",
     options: {
       a: "",
@@ -8386,7 +8386,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   }, 
   {
     id: 741,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "Where is the combustor drain located?",
     options: {
       a: "front end",
@@ -8397,7 +8397,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
  {
     id: 742,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "How are the stage 3,4 and 5 statores prevented from rotating?",
     options: {  
       a: "friction plates",
@@ -8408,7 +8408,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   }, 
   {
     id: 743,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "Where is the front frame drain located?",
     options: {
       a: "bottom of the fuel filter bowl",
@@ -8419,7 +8419,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 744,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What is the purpose of the AISBV drain?",
     options: {
       a: "remove air",
@@ -8430,7 +8430,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 744,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "Where is the IPS swirl connected to",
     options: {
       a: "Scroll Case",
@@ -8441,7 +8441,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 744,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "the variable geometery inlet consists of",
     options: {
       a: "2 stages of guide vanes and 2 stages of variable stator vanes",
@@ -8452,7 +8452,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 744,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "Where are the fuel nozzles mounted?",
     options: {
       a: "Combustion Liner",
@@ -8463,7 +8463,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 744,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What type of engine is the GT7-8A?",
     options: {
       a: "low bypass turbofan",
@@ -8474,7 +8474,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 744,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "Where is the No.1 carbon seal assembly?",
     options: {
       a: "Stage 1 rotor assembly",
@@ -8485,7 +8485,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 744,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "How can the compressor be turned for boroscope inspections?",
     options: {
       a: "Turn the forward input shaft",
@@ -8496,7 +8496,7 @@ selection of rips manual mode controls the main rotor heating elements in the ? 
   },
   {
     id: 744,
-    category: "ATA 72",
+    category: "S92 ATA 72",
     question: "What is the main method of anti icing for the swirl vanes?",
     options: {
       a: "P2.5 tapping",
@@ -8515,7 +8515,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
 
 {
   id: 204,
-  category: "ATA 73",
+  category: "S92 ATA 73",
   question: "Where is the fuel metering unit (FMU) attached?",
   options: { a: "Front accessory gearbox housing", 
   b: "Rear accessory gearbox housing", 
@@ -8525,7 +8525,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
 
 {
   id: 205,
-  category: "ATA 73",
+  category: "S92 ATA 73",
   question: "What component prevents ice formation in the fuel filter?",
   options: { 
     a: "Pressure regulating valve", 
@@ -8536,7 +8536,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
 
 {
   id: 206,
-  category: "ATA 73",
+  category: "S92 ATA 73",
   question: "What is the purpose of the overspeed valve in the FMU?",
   options: { a: "Draining fuel", 
   b: "Controlling fuel flow during overspeed conditions", 
@@ -8546,7 +8546,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
 
 {
   id: 207,
-  category: "ATA 73",
+  category: "S92 ATA 73",
   question: "How is the position of the metering valve in the FMU maintained?",
   options: {
      a: "Mechanical linkage", 
@@ -8557,7 +8557,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
 
 {
   id: 208,
-  category: "ATA 73",
+  category: "S92 ATA 73",
   question: "What triggers the closure of the overspeed valve?",
   options: {
     a: "Low fuel pressure",
@@ -8568,7 +8568,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
 
 {
   id: 209,
-  category: "ATA 73",
+  category: "S92 ATA 73",
   question: "Where does the fuel manifold get pressurized fuel from?",
   options: { 
     a: "Fuel boost pump", 
@@ -8579,7 +8579,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
 
 {
   id: 210,
-  category: "ATA 73",
+  category: "S92 ATA 73",
   question: "How many fuel injectors supply fuel to the annular combustion chamber?",
   options: { 
     a: "6", 
@@ -8590,7 +8590,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
 
 {
   id: 211,
-  category: "ATA 73",
+  category: "S92 ATA 73",
   question: "What aids the combustion process in the combustion chamber?",
   options: { 
     a: "Overspeed valve", 
@@ -8601,7 +8601,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
 
 {
   id: 212,
-  category: "ATA 73",
+  category: "S92 ATA 73",
   question: "What prevents debris from causing nozzle clogging in the fuel injectors?",
   options: { 
     a: "Drain valve", 
@@ -8612,7 +8612,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
 
 {
   id: 213,
-  category: "ATA 73",
+  category: "S92 ATA 73",
   question: "What is the difference between Pre and Post SB 73-0001 R2 fuel injectors?",
   options: { 
     a: "Injector nozzle design", 
@@ -8627,7 +8627,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
 
   {
     id: 745,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "Where is the fuel boost pump assembly located?",
     options: {
       a: "front accessory gearbox housing",
@@ -8638,7 +8638,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },  
   {
     id: 746,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "At what speed with the overspeed be triggered?",
     options: {
       a: "108.5% Ng",
@@ -8649,7 +8649,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 746.1,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "At what speed with the overspeed be triggered?",
     options: {
       a: "120% Ng",
@@ -8660,7 +8660,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 746.2,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "How can we ensure the FMU is correctly located on installation?",
     options: {
       a: "3 inspections holes on the mounting clamp",
@@ -8671,7 +8671,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },  
   {
     id: 746.2,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "What type of combustion chamber is fitted to the engine?",
     options: {
       a: "annular",
@@ -8682,7 +8682,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 747,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "At full power, what is the minimum fuel pressure supplied by the fuel boost pump assembly to the fuel filter?",
     options: {
       a: "45 psig",
@@ -8693,7 +8693,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 748,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "Where is the fuel pressure switch located?",
     options: {
       a: "rear gearbox housing",
@@ -8704,7 +8704,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 749,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "What does the fuel pressure switch sense?",
     options: {
       a: "high fuel pressure",
@@ -8715,7 +8715,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 750,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "When does the fuel pressure switch close displaying a Fuel 1(2) BYPASS Caution?",
     options: {
       a: "8-10 psid",
@@ -8726,7 +8726,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
 /*   {
     id: 751,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "Where is the fuel filter assembly located?",
     options: {
       a: "left side of the accessory gearbox",
@@ -8737,7 +8737,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   }, */
   {
     id: 752,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "What is the purpose of the fuel filter bypass indicator?",
     options: {
       a: "activates overspeed protection",
@@ -8748,7 +8748,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 753,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "What activates a signal to the EECU for FUEL 1(2) BYPASS caution indication on the MFDs?",
     options: {
       a: "low oil pressure",
@@ -8759,7 +8759,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 754,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "What is the purpose of the differential pressure switch in the fuel filter assembly?",
     options: {
       a: "activates overspeed protection",
@@ -8770,7 +8770,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
 /*   {
     id: 755,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "Where does the fuel flow after leaving the fuel boost pump?",
     options: {
       a: "to the FMU",
@@ -8781,7 +8781,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   }, */
    {
     id: 756,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "how do we clean the injectors on shutdown? P3 back pressure.?",
     options: {
       a: "P£ back pressure",
@@ -8792,7 +8792,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   }, 
   {
     id: 757,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "What is the function of the overspeed valve in the FMU?",
     options: {
       a: "shuts off fuel flow during overspeed",
@@ -8803,7 +8803,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 758,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "What is the minimum Ng Overspeed that triggers the independent logic program to close the overspeed valve?",
     options: {
       a: "108.5%",
@@ -8814,7 +8814,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
    {
     id: 759,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "Where does the fuel travel after overspeed valve?",
     options: {
       a: "Drain Valve",
@@ -8825,7 +8825,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   }, 
   {
     id: 760,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "How many inspection holes are there in the clamp that secures the FMU?",
     options: {
       a: "1",
@@ -8836,7 +8836,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 761,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "What is the purpose of the VG servo in the FMU?",
     options: {
       a: "controls oil temperature",
@@ -8847,7 +8847,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 762,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "Where does the fuel manifold supply pressurized fuel?",
     options: {
       a: "to the fuel boost pump",
@@ -8858,7 +8858,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 763,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "How many fuel injectors supply fuel to the annular combustion chamber?",
     options: {
       a: "6",
@@ -8869,7 +8869,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 764,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "What ensures the correct positioning of the injector nozzle in the combustion chamber?",
     options: {
       a: "feedback signal",
@@ -8880,7 +8880,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 765,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "What aids the combustion process in the annular combustion chamber?",
     options: {
       a: "P3 airflow",
@@ -8891,7 +8891,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 766,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "What is cleaned during shutdown due to the reverse flow in the combustion chamber?",
     options: {
       a: "fuel nozzles",
@@ -8902,7 +8902,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 767,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "What prevents debris from causing nozzle clogging or deforming the atomized spray pattern in the injectors?",
     options: {
       a: "feedback program",
@@ -8913,7 +8913,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 768,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "What are the two modification states of fuel injectors currently in use?",
     options: {
       a: "Pre and Post SB 73-0001 R2",
@@ -8924,7 +8924,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 769,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "Where is the fuel boost pump assembly flanged connection located?",
     options: {
       a: "left side of the accessory gearbox",
@@ -8935,7 +8935,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 770,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "What does the fuel filter bypass valve do when the filter differential pressure is more than 18 - 22 psid?",
     options: {
       a: "closes",
@@ -8946,7 +8946,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 771,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "Where is the overspeed valve located?",
     options: {
       a: "rear gearbox housing",
@@ -8957,7 +8957,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 772,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "What does the overspeed valve shut off?",
     options: {
       a: "oil flow",
@@ -8968,7 +8968,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 773,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "What is the purpose of the VG actuator in the FMU?",
     options: {
       a: "controls oil temperature",
@@ -8979,7 +8979,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 774,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "What is the function of the fuel metering unit (FMU)?",
     options: {
       a: "controls VG actuator",
@@ -8990,7 +8990,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 774,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "The FMU is attached to the accessory gearbox via?",
     options: {
       a: "Clamp",
@@ -9001,7 +9001,7 @@ the hot section? Combustions chamber, x2 gas turbine, nozzlee guide vines, free 
   },
   {
     id: 774,
-    category: "ATA 73",
+    category: "S92 ATA 73",
     question: "The feul boost pump consists of?",
     options: {
       a: "Jet pump and Impeller",
@@ -9028,7 +9028,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
 
   {
     id: 775,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "What is the primary purpose of the electrical control system?",
     options: {
       a: "Control gas generator speed",
@@ -9039,7 +9039,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
 /*   {
     id: 776,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "Which cable is responsible for interconnecting engine cables and the EECUs?",
     options: {
       a: "Yellow",
@@ -9050,7 +9050,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   }, */
 /*   {
     id: 777,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "What is the function of the ignition system during normal engine operation in AUTO mode?",
     options: {
       a: "Constantly on",
@@ -9061,7 +9061,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   }, */
   {
     id: 778,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "Where is the ignition exciter assembly located?",
     options: {
       a: "FADEC system",
@@ -9072,7 +9072,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
   {
     id: 779,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "What warning is associated with the ignition exciter assembly?",
     options: {
       a: "High oil pressure",
@@ -9083,7 +9083,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
   {
     id: 780,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "Which cable supplies power from the alternator to operate the EECU?",
     options: {
       a: "Yellow",
@@ -9094,7 +9094,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
   {
     id: 781,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "Where is the thermocouple assembly installed?",
     options: {
       a: "Compressor stator assembly",
@@ -9105,7 +9105,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
   {
     id: 782,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "What does the power turbine speed (Np) sensor measure?",
     options: {
       a: "Compressor discharge pressure",
@@ -9116,7 +9116,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
   {
     id: 783,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "What is the function of the alternator in the FADEC system?",
     options: {
       a: "Control gas generator speed",
@@ -9127,7 +9127,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
   {
     id: 784,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "Which component supplies fuel to the fuel manifold and servo systems of the VG / AISBV?",
     options: {
       a: "Ignition exciter",
@@ -9138,7 +9138,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
   {
     id: 785,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "What is the primary function of the overspeed and shutdown system?",
     options: {
       a: "Control rotor speed",
@@ -9149,7 +9149,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
   {
     id: 786,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "Which sensors provide cockpit indications for oil temperature and pressure?",
     options: {
       a: "T1 sensors",
@@ -9160,7 +9160,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
   {
     id: 787,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "What does the power turbine inlet temperature measure?",
     options: {
       a: "Compressor inlet temperature",
@@ -9171,7 +9171,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
 /*   {
     id: 788,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "How many teeth are on the power turbine drive shaft for the Np speed sensor?",
     options: {
       a: "2",
@@ -9182,7 +9182,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   }, */
   {
     id: 789,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "What is the purpose of the FADEC system?",
     options: {
       a: "Monitor rotor speed",
@@ -9193,7 +9193,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
   {
     id: 790,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "Where is the EECU located?",
     options: {
       a: "C-sump housing",
@@ -9204,7 +9204,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
   {
     id: 791,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "What does the EECU control to keep the rotor speed constant?",
     options: {
       a: "Fuel flow",
@@ -9215,7 +9215,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
 /*   {
     id: 792,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "What signals does the EECU supply to the aircraft monitoring system (AMS)?",
     options: {
       a: "Compressor inlet temperature",
@@ -9226,7 +9226,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   }, */
   {
     id: 793,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "How many channels does the EECU have?",
     options: {
       a: "One",
@@ -9237,7 +9237,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
   {
     id: 794,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "What does the P3 sensor measure?",
     options: {
       a: "Compressor inlet temperature",
@@ -9248,7 +9248,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
   {
     id: 795,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "What is the function of the FMU in the FADEC system?",
     options: {
       a: "Supply electrical power",
@@ -9259,7 +9259,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
   {
     id: 796,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "How many accelerometers are installed on each engine?",
     options: {
       a: "One",
@@ -9270,7 +9270,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
   {
     id: 797,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "What does the overspeed and shutdown system protect the power turbine rotor (Np) and gas generator rotor (Ng) from?",
     options: {
       a: "Low fuel pressure",
@@ -9281,7 +9281,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
   {
     id: 798,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "What does the P0 sensor measure?",
     options: {
       a: "Compressor discharge pressure",
@@ -9292,7 +9292,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   },
   {
     id: 799,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "Which cable supplies wiring for P0 sensor operation?",
     options: {
       a: "Yellow",
@@ -9303,7 +9303,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
   }, 
   {
     id: 799,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "Which cable supplies wiring for PMA sensor operation?",
     options: {
       a: "Yellow",
@@ -9313,7 +9313,7 @@ high pressure pump spilts fuel to the filter to keep fuel warm.
     correct: "a"
   },   {
     id: 799,
-    category: "ATA 74",
+    category: "S92 ATA 74",
     question: "Which cable supplies wiring for thermocouple sensor operation?",
     options: {
       a: "Yellow",
@@ -9357,7 +9357,7 @@ T1 sensor? resistance thermal devices.
 
   {
     id: 800,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "What does the air system supply airflows for?",
     options: {
       a: "Engine start",
@@ -9368,7 +9368,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 801,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "Which component controls the flow of air into the compressor?",
     options: {
       a: "Vane actuator levers",
@@ -9379,7 +9379,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 802,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "What is the range of movement for Stage 1 Variable Stator Vanes (VSV)?",
     options: {
       a: "32\u00b0",
@@ -9390,7 +9390,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 803,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "How does the Variable Geometry (VG) system control the flow of air into the compressor?",
     options: {
       a: "Based on ambient temperature",
@@ -9401,7 +9401,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 803.1,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "What would a loss of signal from the torque motor incur?",
     options: {
       a: "Variable Geometry (VG) Linkage System actuator slew open",
@@ -9412,7 +9412,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 804,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "What does the Anti-Icing and Start Bleed Air System supply bleed air for?",
     options: {
       a: "Cooling the combustion liner",
@@ -9423,7 +9423,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 805,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "At what condition is the Anti-Icing and Start Bleed Valve fully closed?",
     options: {
       a: "Low Ng with anti-icing required",
@@ -9434,7 +9434,7 @@ T1 sensor? resistance thermal devices.
   }, 
   {
     id: 805.1,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "What would a loss of signal from from the Anti-Icing & Start Bleed Air System incur?",
     options: { 
       a: "Anti-Icing & Start Bleed Air System Valve fully open",
@@ -9445,7 +9445,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 806,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "What does the Inlet Particle Separator (IPS) system remove from the inlet air?",
     options: {
       a: "Water vapor",
@@ -9456,7 +9456,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 807,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "What type of IPS design is used to reduce pressure loss?",
     options: {
       a: "Swirl IPS",
@@ -9467,7 +9467,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 808,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "Which part of the engine uses compressor air to pressurize the sumps and seals?",
     options: {
       a: "Combustion liner",
@@ -9478,7 +9478,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 809,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "How is the A-sump pressurized?",
     options: {
       a: "Stage 5 compressor bleed air",
@@ -9489,7 +9489,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 809.1,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "How is the B-sump pressurized?",
     options: {
       a: "Stage 5 compressor bleed air",
@@ -9500,7 +9500,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 809.2,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "How is the C-sump pressurized?",
     options: {
       a: "Stage 5 compressor bleed air",
@@ -9511,7 +9511,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 810,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "How is the combustion liner's cooled?",
     options: {
       a: "P2 air",
@@ -9522,7 +9522,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 811,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "What is the purpose of the combustion liner's cooling holes?",
     options: {
       a: "Increase flame temperature",
@@ -9533,7 +9533,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 812,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "What cools the power turbine external casing?",
     options: {
       a: "Ambient air only",
@@ -9544,7 +9544,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 813,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "How is the C-sump pressurized?",
     options: {
       a: "Stage 4 compressor bleed air",
@@ -9555,7 +9555,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 814,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "What is the purpose of the rain step in the IPS?",
     options: {
       a: "Increase pressure loss",
@@ -9566,7 +9566,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 815,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "What maintains the Variable Geometry inlet guide vanes and No. 1 and 2 stator vanes at the desired position?",
     options: {
       a: "Air pressure",
@@ -9577,7 +9577,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 816,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "What is the effect of selecting anti-ice ON?",
     options: {
       a: "Increases TGT by 25\u00b0C",
@@ -9588,7 +9588,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 817,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "What controls the position of the Anti-Ice/Start Bleed Valve?",
     options: {
       a: "Servo system",
@@ -9599,7 +9599,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 818,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "When does the Anti-Ice/Start Bleed Valve move to the fully-closed position?",
     options: {
       a: "During engine start",
@@ -9610,7 +9610,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 819,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "How does the Anti-Ice/Start Bleed Valve actuator respond to a loss of control current?",
     options: {
       a: "Slew closed",
@@ -9621,7 +9621,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 820,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "What type of feedback is provided by the dual Linear Variable Differential Transformer in the Anti-Ice/Start Bleed Valve control loop?",
     options: {
       a: "Pressure feedback",
@@ -9632,7 +9632,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 821,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "What does the particle separator blower on the AGB do?",
     options: {
       a: "Controls bleed air flow",
@@ -9643,7 +9643,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 822,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "How does the particle separator blower maintain high efficiency at low power levels?",
     options: {
       a: "Bypass flow path",
@@ -9654,7 +9654,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 823,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "Which design reduces pressure loss in the IPS?",
     options: {
       a: "Swirl IPS",
@@ -9665,7 +9665,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 824,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "How is the power turbine external casing cooled?",
     options: {
       a: "Ambient air only",
@@ -9676,7 +9676,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 824,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "Where is C sump pressure sealing provided from? by? P4 and Compressure Discharge Leakage Pressure?",
     options: {
       a: "P3",
@@ -9687,7 +9687,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 824,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "How is feedback from the Variable Geometry (VG) Linkage System provided?",
     options: {
       a: "single LDVT",
@@ -9698,7 +9698,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 824,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "The anti icing and start bleed valve is controlled by?",
     options: {
       a: "EECU",
@@ -9709,7 +9709,7 @@ T1 sensor? resistance thermal devices.
   },
   {
     id: 824,
-    category: "ATA 75",
+    category: "S92 ATA 75",
     question: "How is the AISBV actuated??",
     options: {
       a: "Air Pressure",
@@ -9736,7 +9736,7 @@ T1 sensor? resistance thermal devices.
   
   {
     id: 205,
-    category: "ATA 76",
+    category: "S92 ATA 76",
     question: "How many Electronic Engine Control Units (EECUs) computers are there?",
     options: { a: "One", b: "Three", c: "Two" },
     correct: "c",
@@ -9744,7 +9744,7 @@ T1 sensor? resistance thermal devices.
   
   {
     id: 207,
-    category: "ATA 76",
+    category: "S92 ATA 76",
     question: "In the STOP position, what does the EECU receive a signal to do?",
     options: { a: "Initiate engine start-up", b: "Shut down the engine", c: "Maintain engine speed" },
     correct: "b",
@@ -9752,7 +9752,7 @@ T1 sensor? resistance thermal devices.
   
   {
     id: 208,
-    category: "ATA 76",
+    category: "S92 ATA 76",
     question: "What does the No.1 ENG START and No.2 ENG START pushbuttons initiate?",
     options: { a: "Engine shutdown", b: "Engine start-up", c: "Fuel boost pump operation" },
     correct: "b",
@@ -9760,7 +9760,7 @@ T1 sensor? resistance thermal devices.
   
 /*   {
     id: 209,
-    category: "ATA 76",
+    category: "S92 ATA 76",
     question: "What is the primary engine steady state governing mode in the FLY position?",
     options: { a: "Isochronous steady state Ng bottoming governing", b: "Automatic load sharing", c: "Constant speed governing" },
     correct: "b",
@@ -9768,7 +9768,7 @@ T1 sensor? resistance thermal devices.
   
   {
     id: 210,
-    category: "ATA 76",
+    category: "S92 ATA 76",
     question: "Which system provides the pilots with a rapid response in the event of a single engine failure?",
     options: { a: "Fuel system", b: "FADEC system", c: "Anti-Ice system" },
     correct: "b",
@@ -9776,7 +9776,7 @@ T1 sensor? resistance thermal devices.
   
 /*   {
     id: 211,
-    category: "ATA 76",
+    category: "S92 ATA 76",
     question: "What is the purpose of the Permanent Magnet Alternator (PMA)?",
     options: { a: "Provides emergency power", b: "Ignition exciter", c: "Controlling engine speed" },
     correct: "a",
@@ -9784,7 +9784,7 @@ T1 sensor? resistance thermal devices.
   
   {
     id: 212,
-    category: "ATA 76",
+    category: "S92 ATA 76",
     question: "How many levels of alerts does the FADEC system have?",
     options: { a: "Two", b: "Three", c: "Four" },
     correct: "b",
@@ -9792,7 +9792,7 @@ T1 sensor? resistance thermal devices.
   
   {
     id: 213,
-    category: "ATA 76",
+    category: "S92 ATA 76",
     question: "What is the function of the Np governor?",
     options: { a: "Control engine speed", b: "Control rotor speed", c: "Provide emergency power" },
     correct: "b",
@@ -9800,7 +9800,7 @@ T1 sensor? resistance thermal devices.
   
   {
     id: 214,
-    category: "ATA 76",
+    category: "S92 ATA 76",
     question: "How does the load sharing prevent a low power engine failure?",
     options: { a: "By reducing fuel flow", b: "By increasing power to the good engine", c: "By shutting down the failing engine" },
     correct: "b",
@@ -9808,15 +9808,15 @@ T1 sensor? resistance thermal devices.
   
   {
     id: 215,
-    category: "ATA 76",
-    question: "What is the purpose of the Automatic 'blowdown' during engine start?",
+    category: "S92 ATA 76",
+    question: "What is the purpose of the Automatic \"blowdown\" during engine start?",
     options: { a: "Reduce TGT", b: "Increase fuel flow", c: "Prevent engine flameout" },
     correct: "a",
   },
   
   {
     id: 216,
-    category: "ATA 76",
+    category: "S92 ATA 76",
     question: "What happens when the engine PCL is in the IDLE position?",
     options: { a: "Shut down the engine", b: "Maintain constant speed", c: "Initiate engine start-up" },
     correct: "b",
@@ -9824,7 +9824,7 @@ T1 sensor? resistance thermal devices.
   
   {
     id: 217,
-    category: "ATA 76",
+    category: "S92 ATA 76",
     question: "What does the Full Authority Digital Engine Control (FADEC) system supply to the pilots?",
     options: { a: "Fire detection", b: "Indications, warnings, and diagnostic information", c: "Fuel boost" },
     correct: "b",
@@ -9832,7 +9832,7 @@ T1 sensor? resistance thermal devices.
   
   {
     id: 218,
-    category: "ATA 76",
+    category: "S92 ATA 76",
     question: "How many detent positions do the engine Power Control Levers (PCLs) have?",
     options: { a: "Four", b: "Two", c: "Three" },
     correct: "c",
@@ -9840,7 +9840,7 @@ T1 sensor? resistance thermal devices.
   
   {
     id: 219,
-    category: "ATA 76",
+    category: "S92 ATA 76",
     question: "What is the purpose of the engine control quadrant?",
     options: { a: "Initiate engine start-up", b: "Control engine power", c: "Control rotor speed" },
     correct: "b",
@@ -9848,206 +9848,206 @@ T1 sensor? resistance thermal devices.
   
   {
     id: 220,
-    category: "ATA 76",
+    category: "S92 ATA 76",
     question: "What does the EECU automatically enable upon failure of an engine?",
     options: { a: "Hot start protection", b: "OEI ratings", c: "Compressor variable geometry position" },
     correct: "b",
   },
   {
     id: 221,
-    category: 'ATA 76',
-    question: 'What is the default limit for an OEI or failed cross-engine ARINC bus situation?',
-    options: { a: '30-second', b: '2-minute', c: 'Continuous' },
-    correct: 'a',
+    category: "S92 ATA 76",
+    question: "What is the default limit for an OEI or failed cross-engine ARINC bus situation?",
+    options: { a: "30-second", b: "2-minute", c: "Continuous" },
+    correct: "a",
   },
   {
     id: 222,
-    category: 'ATA 76',
-    question: 'How can the OEI limiter be switched to the continuous limit?',
-    options: { a: 'Rock forward', b: 'Rock backward', c: 'Push downward' },
-    correct: 'c',
+    category: "S92 ATA 76",
+    question: "How can the OEI limiter be switched to the continuous limit?",
+    options: { a: "Rock forward", b: "Rock backward", c: "Push downward" },
+    correct: "c",
   },
 /*   {
     id: 223,
-    category: 'ATA 76',
-    question: 'When does the active OEI limit automatically revert to the 30-second limit?',
-    options: { a: 'T4.5 less than maximum', b: 'Torque less than 100%', c: 'WOW is false' },
-    correct: 'a',
+    category: "S92 ATA 76",
+    question: "When does the active OEI limit automatically revert to the 30-second limit?",
+    options: { a: "T4.5 less than maximum", b: "Torque less than 100%", c: "WOW is false" },
+    correct: "a",
   }, */
 /*   {
     id: 224,
-    category: 'ATA 76',
-    question: 'What must be done after encountering an OEI event during landing?',
-    options: { a: 'Reset engine exceedance OEI switch', b: 'Disconnect external power', c: 'Perform boroscope inspection' },
-    correct: 'a',
+    category: "S92 ATA 76",
+    question: "What must be done after encountering an OEI event during landing?",
+    options: { a: "Reset engine exceedance OEI switch", b: "Disconnect external power", c: "Perform boroscope inspection" },
+    correct: "a",
   }, */
   {
     id: 225,
-    category: 'ATA 76',
-    question: 'What is the purpose of the DUAL TRAIN mode?',
-    options: { a: 'Increase torque', b: 'Simulate engine failure', c: 'Reset engine exceedance OEI switch' },
-    correct: 'b',
+    category: "S92 ATA 76",
+    question: "What is the purpose of the DUAL TRAIN mode?",
+    options: { a: "Increase torque", b: "Simulate engine failure", c: "Reset engine exceedance OEI switch" },
+    correct: "b",
   },
   {
     id: 226,
-    category: 'ATA 76',
-    question: 'How is the training mode exited?',
-    options: { a: 'Set to DUAL TRAIN', b: 'Set to OFF position', c: 'Press engine exceedance OEI reset switch' },
-    correct: 'b',
+    category: "S92 ATA 76",
+    question: "How is the training mode exited?",
+    options: { a: "Set to DUAL TRAIN", b: "Set to OFF position", c: "Press engine exceedance OEI reset switch" },
+    correct: "b",
   },
   {
     id: 227,
-    category: 'ATA 76',
-    question: 'What indication is presented on the PFD and EICAS pages during training mode?',
-    options: { a: 'Red Train indication', b: 'Blue Train indication', c: 'Green Train indication' },
-    correct: 'b',
+    category: "S92 ATA 76",
+    question: "What indication is presented on the PFD and EICAS pages during training mode?",
+    options: { a: "Red Train indication", b: "Blue Train indication", c: "Green Train indication" },
+    correct: "b",
   },
   {
     id: 228,
-    category: 'ATA 76',
-    question: 'What does selecting DUAL TRAIN cause in terms of engine parameters?',
-    options: { a: 'Increase TGT', b: 'Decrease torque', c: 'Simulate increased gross weight' },
-    correct: 'c',
+    category: "S92 ATA 76",
+    question: "What does selecting DUAL TRAIN cause in terms of engine parameters?",
+    options: { a: "Increase TGT", b: "Decrease torque", c: "Simulate increased gross weight" },
+    correct: "c",
   },
 /*   {
     id: 229,
-    category: 'ATA 76',
-    question: 'What does the EECU set during training mode based on pilot input?',
-    options: { a: 'Nominal OEI temperature limits', b: 'Training torque limits', c: 'Continuous OEI limit' },
-    correct: 'b',
+    category: "S92 ATA 76",
+    question: "What does the EECU set during training mode based on pilot input?",
+    options: { a: "Nominal OEI temperature limits", b: "Training torque limits", c: "Continuous OEI limit" },
+    correct: "b",
   }, */
   {
     id: 230,
-    category: 'ATA 76',
-    question: 'How is training initiated?',
-    options: { a: 'Press engine exceedance OEI reset switch', b: 'Set DUAL TRAIN switch to OFF', c: 'Set DUAL TRAIN switch to DUAL TRAIN' },
-    correct: 'c',
+    category: "S92 ATA 76",
+    question: "How is training initiated?",
+    options: { a: "Press engine exceedance OEI reset switch", b: "Set DUAL TRAIN switch to OFF", c: "Set DUAL TRAIN switch to DUAL TRAIN" },
+    correct: "c",
   },
   {
     id: 231,
-    category: 'ATA 76',
-    question: 'What is the primary power source for each EECU?',
-    options: { a: 'Battery bus', b: 'DC PRI 1 bus', c: 'PMA' },
-    correct: 'c',
+    category: "S92 ATA 76",
+    question: "What is the primary power source for each EECU?",
+    options: { a: "Battery bus", b: "DC PRI 1 bus", c: "PMA" },
+    correct: "c",
   },
   {
     id: 232,
-    category: 'ATA 76',
-    question: 'Which sensor measures ambient air temperature prior to entering the compressor?',
-    options: { a: 'T4.5 sensor', b: 'Compressor inlet temperature (T2)', c: 'Power turbine speed (Np) sensor' },
-    correct: 'b',
+    category: "S92 ATA 76",
+    question: "Which sensor measures ambient air temperature prior to entering the compressor?",
+    options: { a: "T4.5 sensor", b: "Compressor inlet temperature (T2)", c: "Power turbine speed (Np) sensor" },
+    correct: "b",
   },
   {
     id: 233,
-    category: 'ATA 76',
-    question: 'What does the EECU monitor from the engine control quadrants dual channel RVDTs?',
-    options: { a: 'Weight on wheels', b: 'Nr speed demand signal', c: 'Compressor discharge pressure (P3)' },
-    correct: 'b',
+    category: "S92 ATA 76",
+    question: "What does the EECU monitor from the engine control quadrants dual channel RVDTs?",
+    options: { a: "Weight on wheels", b: "Nr speed demand signal", c: "Compressor discharge pressure (P3)" },
+    correct: "b",
   },
 /*   {
     id: 234,
-    category: 'ATA 76',
-    question: 'What is the purpose of the engine health logic in the EECU?',
-    options: { a: 'Calculate torque blow away', b: 'Provide engine control outputs', c: 'Perform built-in-test (BIT)' },
-    correct: 'c',
+    category: "S92 ATA 76",
+    question: "What is the purpose of the engine health logic in the EECU?",
+    options: { a: "Calculate torque blow away", b: "Provide engine control outputs", c: "Perform built-in-test (BIT)" },
+    correct: "c",
   }, */
   {
     id: 235,
-    category: 'ATA 76',
-    question: 'What does the transmission blow away logic provide during an OEI event?',
-    options: { a: 'Increased torque limit', b: 'Decreased torque limit', c: 'Increased speed limit' },
-    correct: 'a',
+    category: "S92 ATA 76",
+    question: "What does the transmission blow away logic provide during an OEI event?",
+    options: { a: "Increased torque limit", b: "Decreased torque limit", c: "Increased speed limit" },
+    correct: "a",
   },
 /*   {
     id: 236,
-    category: 'ATA 76',
-    question: 'When does the TGT blow away feature activate?',
-    options: { a: 'OEI condition', b: 'AEO take-off limit reached', c: 'Training mode' },
-    correct: 'a',
+    category: "S92 ATA 76",
+    question: "When does the TGT blow away feature activate?",
+    options: { a: "OEI condition", b: "AEO take-off limit reached", c: "Training mode" },
+    correct: "a",
   }, */
 /*   {
     id: 237,
-    category: 'ATA 76',
-    question: 'What does the torque blow away logic do during training conditions?',
-    options: { a: 'Increase torque', b: 'Decrease torque', c: 'Maintain torque at maximum' },
-    correct: 'b',
+    category: "S92 ATA 76",
+    question: "What does the torque blow away logic do during training conditions?",
+    options: { a: "Increase torque", b: "Decrease torque", c: "Maintain torque at maximum" },
+    correct: "b",
   }, */
   {
     id: 238,
-    category: 'ATA 76',
-    question: 'What protects the engine and aircraft limits provided by the engine control?',
-    options: { a: 'FADEC software', b: 'Torque limiter', c: 'Blow away feature' },
-    correct: 'a',
+    category: "S92 ATA 76",
+    question: "What protects the engine and aircraft limits provided by the engine control?",
+    options: { a: "FADEC software", b: "Torque limiter", c: "Blow away feature" },
+    correct: "a",
   },
   {
     id: 239,
-    category: 'ATA 76',
-    question: 'What is the purpose of the 86% Q limit?',
-    options: { a: 'Gearbox limit', b: 'Limit flight control loads', c: 'AEO take-off limit' },
-    correct: 'b',
+    category: "S92 ATA 76",
+    question: "What is the purpose of the 86% Q limit?",
+    options: { a: "Gearbox limit", b: "Limit flight control loads", c: "AEO take-off limit" },
+    correct: "b",
   },
   {
     id: 240,
-    category: 'ATA 76',
-    question: 'When flying at altitudes above 8,000 feet and outside air temperatures below -20 degrees C, what limit is possible to reach?',
-    options: { a: 'Gas generator speed limit', b: 'Corrected Ng speed limit', c: 'TGT limit' },
-    correct: 'b',
+    category: "S92 ATA 76",
+    question: "When flying at altitudes above 8,000 feet and outside air temperatures below -20 degrees C, what limit is possible to reach?",
+    options: { a: "Gas generator speed limit", b: "Corrected Ng speed limit", c: "TGT limit" },
+    correct: "b",
   },
   {
     id: 240,
-    category: 'ATA 76',
-    question: 'Metering valve feedback is given by?',
-    options: { a: 'LVDT', b: 'RVDT', c: 'proximity sensor' },
-    correct: 'a',
+    category: "S92 ATA 76",
+    question: "Metering valve feedback is given by?",
+    options: { a: "LVDT", b: "RVDT", c: "proximity sensor" },
+    correct: "a",
   },
   {
     id: 240,
-    category: 'ATA 76',
-    question: 'Anti icing start bleed valve feedback is given by?',
-    options: { a: 'RVDT', b: 'LVDT', c: 'proximity sensor' },
-    correct: 'b',
+    category: "S92 ATA 76",
+    question: "Anti icing start bleed valve feedback is given by?",
+    options: { a: "RVDT", b: "LVDT", c: "proximity sensor" },
+    correct: "b",
   },
   {
     id: 240,
-    category: 'ATA 76',
-    question: 'Variable geometery feedback is given by?',
-    options: { a: 'RVDT', b: 'proximity sensor', c: 'LVDT' },
-    correct: 'c',
+    category: "S92 ATA 76",
+    question: "Variable geometery feedback is given by?",
+    options: { a: "RVDT", b: "proximity sensor", c: "LVDT" },
+    correct: "c",
   },
   {
     id: 240,
-    category: 'ATA 76',
-    question: 'Variable geometery feedback is given by?',
-    options: { a: 'RVDT', b: 'proximity sensor', c: 'LVDT' },
-    correct: 'c',
+    category: "S92 ATA 76",
+    question: "Variable geometery feedback is given by?",
+    options: { a: "RVDT", b: "proximity sensor", c: "LVDT" },
+    correct: "c",
   },
   {
     id: 240,
-    category: 'ATA 76',
-    question: 'How is the pilot control lever position feedback given?',
-    options: { a: 'RVDT & microswitch', b: 'proximity sensor', c: 'LVDT and micro switch' },
-    correct: 'a',
+    category: "S92 ATA 76",
+    question: "How is the pilot control lever position feedback given?",
+    options: { a: "RVDT & microswitch", b: "proximity sensor", c: "LVDT and micro switch" },
+    correct: "a",
   },
   {
     id: 240,
-    category: 'ATA 76',
-    question: 'How is the collective pitch position feedback given?',
-    options: { a: 'RVDT', b: 'proximity sensor', c: 'LVDT' },
-    correct: 'a',
+    category: "S92 ATA 76",
+    question: "How is the collective pitch position feedback given?",
+    options: { a: "RVDT", b: "proximity sensor", c: "LVDT" },
+    correct: "a",
   },
   {
     id: 240,
-    category: 'ATA 76',
-    question: 'Which sensors require external excitation?',
-    options: { a: 'P0', b: 'T1', c: 'T4.5' },
-    correct: 'a',
+    category: "S92 ATA 76",
+    question: "Which sensors require external excitation?",
+    options: { a: "P0", b: "T1", c: "T4.5" },
+    correct: "a",
   },
   {
     id: 240,
-    category: 'ATA 76',
-    question: 'What type of interface connects the EECU to the aircraft?',
-    options: { a: 'Twin co-axial interface', b: 'ARINC 429', c: 'ARINC 629' },
-    correct: 'b',
+    category: "S92 ATA 76",
+    question: "What type of interface connects the EECU to the aircraft?",
+    options: { a: "Twin co-axial interface", b: "ARINC 429", c: "ARINC 629" },
+    correct: "b",
   },
 
 /* 
@@ -10057,7 +10057,7 @@ T1 sensor? resistance thermal devices.
    */
 {
   id: 221,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What is the purpose of the engine indicating system in the digital control system?",
   options: { a: "To control torque", b: "To monitor engine performance", c: "To supply power to the cockpit" },
   correct: "b"
@@ -10065,7 +10065,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 222,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "Which color represents a warning operating range in the engine indicating system?",
   options: { a: "Green", b: "Yellow", c: "Red" },
   correct: "c"
@@ -10073,7 +10073,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 223,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What does the Data Concentration Unit (DCU) supply to the cockpit display?",
   options: { a: "Engine power", b: "Related signals", c: "Oil pressure" },
   correct: "b"
@@ -10081,7 +10081,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 224,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What is the highest level of alert in the three-level alert system for the engine indicating system?",
   options: { a: "Warning", b: "Caution", c: "Maintenance" },
   correct: "a"
@@ -10089,7 +10089,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 224,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "How many levels of alert system engine indication are there?",
   options: { a: "One", b: "Two", c: "Three" },
   correct: "c"
@@ -10097,7 +10097,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 225,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "Which parameter is indicated by the Power Turbine Speed (Np) gauge on the PFD?",
   options: { a: "Oil pressure", b: "Torque", c: "Power turbine speed" },
   correct: "c"
@@ -10105,7 +10105,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 226,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What does a red box with black labeling below the Np indicator represent?",
   options: { a: "Normal operation", b: "Np failure", c: "Engine miscompare" },
   correct: "b"
@@ -10113,7 +10113,7 @@ T1 sensor? resistance thermal devices.
 
 /* {
   id: 227,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "How is torque represented on the PFD for Engine 1 and 2?",
   options: { a: "Digital readout", b: "Triple tachometer", c: "Limiter symbology" },
   correct: "c"
@@ -10121,7 +10121,7 @@ T1 sensor? resistance thermal devices.
 
 /* {
   id: 228,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What do the Q limit lines indicate on the Q dial?",
   options: { a: "Boundaries between color regions", b: "Active limit range", c: "Analog countdown arc" },
   correct: "a"
@@ -10129,7 +10129,7 @@ T1 sensor? resistance thermal devices.
  */
 {
   id: 229,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "Which engine parameter is visually indicated by the Power Turbine Inlet Temperature (T4.5) gauge on the PFD/POD?",
   options: { a: "Oil pressure", b: "Torque", c: "Power turbine inlet temperature" },
   correct: "c"
@@ -10137,7 +10137,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 230,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What does the FADEC (1/2) OVERSPEED caution segment indicate?",
   options: { a: "Low fuel pressure", b: "Overspeed protective system activation", c: "Engine rate limited reversionary malfunction" },
   correct: "b"
@@ -10145,7 +10145,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 231,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What caution segment is illuminated if the oil pressure drops below 20 psi?",
   options: { a: "ENG () OIL HOT", b: "ENG () OIL BYPASS", c: "ENG () OIL PRES" },
   correct: "c"
@@ -10153,7 +10153,7 @@ T1 sensor? resistance thermal devices.
 
 /* {
   id: 232,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "Which parameter does the gas producer (Ng) indicating system primarily measure?",
   options: { a: "Oil temperature", b: "Gas temperature entering the power turbine", c: "Engine shaft torque" },
   correct: "b"
@@ -10161,7 +10161,7 @@ T1 sensor? resistance thermal devices.
  */
 {
   id: 233,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What does the FADEC () FAULT caution segment indicate?",
   options: { a: "Fixed engine power reversionary malfunction", b: "Engine failure detection", c: "Channel A or B of a FADEC fails" },
   correct: "c"
@@ -10169,7 +10169,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 234,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "When does the STARTER caution segment change to caution after engine start?",
   options: { a: "At 52%", b: "At 60 seconds", c: "At 30 seconds" },
   correct: "b"
@@ -10177,7 +10177,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 235,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What does the TRAINING DISABLED caution indicate?",
   options: { a: "Training mode enabled", b: "Engine failure detection", c: "Faults preventing training mode" },
   correct: "c"
@@ -10185,7 +10185,7 @@ T1 sensor? resistance thermal devices.
 
 /* {
   id: 236,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "How is the FADEC 1/2 NO DESPATCH caution different from FADEC 1/2 FAULT?",
   options: { a: "Different fault codes", b: "Different maintenance actions", c: "Different caution messages" },
   correct: "b"
@@ -10193,7 +10193,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 237,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What caution segment is illuminated if the engine or FADEC cannot change engine power based on demand?",
   options: { a: "ENG () RATE LIM", b: "ENG () POWER LIM", c: "FADEC () OVERHEAT" },
   correct: "b"
@@ -10201,7 +10201,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 238,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What does the ENG () CHIP caution segment indicate?",
   options: { a: "Engine rate limited malfunction", b: "Oil filter clog caution", c: "Magnetic chip detection caution" },
   correct: "c"
@@ -10209,7 +10209,7 @@ T1 sensor? resistance thermal devices.
 
 /* {
   id: 239,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What is the purpose of the TGT limiter symbology?",
   options: { a: "Indicate power turbine speed", b: "Provide time remaining", c: "Display engine rate limited reversionary malfunction" },
   correct: "b"
@@ -10217,7 +10217,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 240,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What is indicated by the Torque Timer Lines and Countdown Arc on the Torque dial?",
   options: { a: "Boundaries between color regions", b: "Time remaining for active limiter", c: "Selected limit range annunciation" },
   correct: "b"
@@ -10225,15 +10225,15 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 241,
-  category: "ATA 77",
-  question: "When is the audio notification 'ENGINE 1 FAILURE' or 'ENGINE 2 FAILURE' heard?",
+  category: "S92 ATA 77",
+  question: "When is the audio notification \"ENGINE 1 FAILURE\" or \"ENGINE 2 FAILURE\" heard?",
   options: { a: "During engine start", b: "When the oil temperature exceeds 149°C", c: "When the engine out warning lights illuminate" },
   correct: "c"
 },
 
 {
   id: 242,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What caution segment is illuminated if the FADEC initiated overspeed circuit test fails?",
   options: { a: "ENG () OVERSPEED", b: "ENG () OVSP TEST", c: "FADEC () () FAIL" },
   correct: "b"
@@ -10241,7 +10241,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 243,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What caution segment comes on if the data transfer between the FADECs fail?",
   options: { a: "FADEC () FAULT", b: "ENG () FIXED POWER", c: "FADEC () XENG" },
   correct: "c"
@@ -10249,7 +10249,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 244,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "When is the FADEC () FIXED POWER caution segment illuminated?",
   options: { a: "During engine start", b: "During normal operation", c: "When the engine or FADEC cannot increase power" },
   correct: "c"
@@ -10257,7 +10257,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 245,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What does the ENG () HOT START caution segment indicate?",
   options: { a: "Oil temperature exceeding 149°C on start", b: "Engine overspeed", c: "TGT >1000°C on start" },
   correct: "c"
@@ -10265,7 +10265,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 246,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "When does the STARTER advisory segment come on during engine start?",
   options: { a: "At 52%", b: "At 60 seconds", c: "At 30 seconds" },
   correct: "a"
@@ -10273,7 +10273,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 247,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What is the purpose of the ENG () OIL BYPASS caution segment?",
   options: { a: "Low oil pressure", b: "High oil temperature", c: "Pressure drop across the filter exceeds 60-80 psid" },
   correct: "c"
@@ -10281,7 +10281,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 248,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What is the primary signal source for the gas producer (Ng) indicating system?",
   options: { a: "FMU high-pressure fuel pump", b: "Oil temperature sensor", c: "Thermocouple assembly" },
   correct: "a"
@@ -10289,7 +10289,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 249,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What does the ENG () FUEL PRES caution segment indicate?",
   options: { a: "Fuel bypass", b: "Low fuel pressure", c: "Fuel pressure exceeding 8-9 psi" },
   correct: "b"
@@ -10297,7 +10297,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 250,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "When is the countdown display in white and a yellow arc displayed during TGT limiter activation?",
   options: { a: "When operating in the 30-second region", b: "When 60 seconds remain in the 30M region", c: "When the active limit range is partially used" },
   correct: "b"
@@ -10305,7 +10305,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 250,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "How are sensor miscompares displayed?",
   options: { a: "red dashed area", b: "yellow double headed arrow", c: "red double headed arrow" },
   correct: "b"
@@ -10313,7 +10313,7 @@ T1 sensor? resistance thermal devices.
 
 {
   id: 250,
-  category: "ATA 77",
+  category: "S92 ATA 77",
   question: "What indications will be shown if the torque limit is exceeded??",
   options: { a: "red dashed area", b: "yellow double headed arrow", c: "red double headed arrow" },
   correct: "b"
@@ -10342,7 +10342,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
 
   {
     id: 825,
-    category: "ATA 78",
+    category: "S92 ATA 78",
     question: "What component is responsible for stopping the swirling of exhaust gases and directing them into an exhaust tube?",
     options: {
       a: "de-swirl duct",
@@ -10353,7 +10353,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 826,
-    category: "ATA 78",
+    category: "S92 ATA 78",
     question: "What effect does the air gap between the de-swirl duct and the airframe exhaust tailpipe tube create?",
     options: {
       a: "low-pressure venturi effect",
@@ -10364,7 +10364,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 827,
-    category: "ATA 78",
+    category: "S92 ATA 78",
     question: "What purpose does the airflow through the engine compartment serve?",
     options: {
       a: "increase engine temperature",
@@ -10375,7 +10375,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 828,
-    category: "ATA 78",
+    category: "S92 ATA 78",
     question: "Is the hardware interchangeable between the No. 1 engine and the No. 2 engine configuration?",
     options: {
       a: "yes",
@@ -10386,7 +10386,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 829,
-    category: "ATA 78",
+    category: "S92 ATA 78",
     question: "What precaution is mentioned regarding the drainage hole of the Centre Tailpipe Body?",
     options: {
       a: "position it at 12 o'clock",
@@ -10397,7 +10397,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 830,
-    category: "ATA 78",
+    category: "S92 ATA 78",
     question: "Where should the De-swirl Duct 'V' Clamp joints be positioned to avoid interference with Fire Detectors?",
     options: {
       a: "towards Fire Detectors",
@@ -10408,7 +10408,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 831,
-    category: "ATA 78",
+    category: "S92 ATA 78",
     question: "What is the recommended procedure after fitting the hardware that requires a torque check?",
     options: {
       a: "run engine for 5min",
@@ -10419,7 +10419,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 832,
-    category: "ATA 78",
+    category: "S92 ATA 78",
     question: "What caution is advised when working around an operating engine due to the temperature of the exhaust gases?",
     options: {
       a: "use protective clothing",
@@ -10434,7 +10434,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
 
   {
     id: 833,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "What is the primary function of the CT7-8 oil system?",
     options: {
       a: "Provide fuel to the engine",
@@ -10445,7 +10445,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 834,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "Where is the lube oil cooler assembly located?",
     options: {
       a: "On the left-forward side of the front gearbox housing",
@@ -10456,7 +10456,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 835,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "What is the function of the B-sump delta pressure tube?",
     options: {
       a: "Supply stable pressure indications",
@@ -10467,7 +10467,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 836,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "How many scavenge screens are there in the lube pump housing?",
     options: {
       a: "Four",
@@ -10478,7 +10478,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 837,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "What is the purpose of the oil filter relief/bypass valve?",
     options: {
       a: "Remove debris from the oil",
@@ -10489,7 +10489,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 838,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "Where is the oil cooler bypass relief valve located?",
     options: {
       a: "In the lube and scavenge pump housing",
@@ -10500,7 +10500,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 839,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "What does the B-sump check valve prevent on shutdown?",
     options: {
       a: "Oil leakage from the B-sump",
@@ -10511,7 +10511,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 840,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "Where is the electrical chip detector located?",
     options: {
       a: "Rear face of AGB casting",
@@ -10522,7 +10522,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 840.1,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "What systems are sensed by the electrical chip detector?",
     options: {
       a: "A, B, C sump and Accessory Gearbox",
@@ -10533,7 +10533,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
    {
     id: 841,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "What type of oil pump is fitted to the engines?",
     options: {
       a: "Reciprocating plunger pump",
@@ -10544,7 +10544,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   }, 
   {
     id: 842,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "How much oil does the oil tank hold to the FULL mark?",
     options: {
       a: "3.3 Lt",
@@ -10555,7 +10555,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 843,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "What is the purpose of the oil filter bypass sensor?",
     options: {
       a: "Indicate impending filter bypass",
@@ -10566,7 +10566,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
    {
     id: 844,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "How many scavenge filter are fitted to each engine oil system?",
     options: {
       a: "6",
@@ -10577,7 +10577,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   }, 
   {
     id: 845,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "What are the oil consumption limits for Type II oils?",
     options: {
       a: "264 cc/hr",
@@ -10588,8 +10588,8 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 846,
-    category: "ATA 79",
-    question: "When is the 'power unit low oil level clearing procedure' required?",
+    category: "S92 ATA 79",
+    question: "When is the \"power unit low oil level clearing procedure\" required?",
     options: {
       a: "After every flight",
       b: "During cold starts",
@@ -10599,7 +10599,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 847,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "Where is the oil temperature detector located?",
     options: {
       a: "On the left side of the front gearbox housing",
@@ -10610,7 +10610,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 848,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "What does the oil pressure transmitter measure?",
     options: {
       a: "Oil supply pressure",
@@ -10621,7 +10621,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 849,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "When does the low oil pressure sensor caution appear?",
     options: {
       a: "When oil pressure is > 20 psi",
@@ -10632,7 +10632,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 850,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "Where is the A-sump located?",
     options: {
       a: "In the cold section module",
@@ -10643,7 +10643,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 851,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "What does the emergency oil system in A & B Sumps provide?",
     options: {
       a: "Additional oil pressure to the main bearings",
@@ -10654,7 +10654,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 852,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "Where does the air released through the centervent in the A-sump go?",
     options: {
       a: "Into the gearbox",
@@ -10665,7 +10665,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 853,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "How does the B-sump venting system operate?",
     options: {
       a: "Removes oil from excess air and ejects the air",
@@ -10676,7 +10676,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 854,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "What does the C-sump venting system do?",
     options: {
       a: "Removes excess air from the C-sump",
@@ -10687,7 +10687,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 855,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "What is the purpose of the Emergency Oil System in A & B Sumps?",
     options: {
       a: "Provide additional fuel in emergencies",
@@ -10698,7 +10698,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 856,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "Where is the A-sump venting centervent located?",
     options: {
       a: "In the exhaust frame struts",
@@ -10709,7 +10709,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 857,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "What does the C-sump venting system remove from the excess air?",
     options: {
       a: "Fuel particles",
@@ -10720,7 +10720,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 857.1,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "Where would we locate the lube pump?",
     options: {
       a: "Hot Module",
@@ -10731,7 +10731,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 857.2,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "The Engine oil pressure display on the MFD is?",
     options: {
       a: "Accessory Gearbox Inlet Pressure",
@@ -10742,7 +10742,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 857.3,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "Does the engine electronic chip detector...",
     options: {
       a: "Has a fuzz burn function when weight on wheel",
@@ -10753,7 +10753,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 857.4,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "Where is the oil cooler bypass located",
     options: {
       a: "Within the oul cooler",
@@ -10764,7 +10764,7 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
   },
   {
     id: 857.5,
-    category: "ATA 79",
+    category: "S92 ATA 79",
     question: "The B sump delt pressure tube is connected to...",
     options: {
       a: "the accessory gearbox return",
@@ -10782,150 +10782,150 @@ how would we decsribe the alert system? 3 level. warning, caution and maint even
 
 /* {
   id: 221,
-  category: 'ATA 80',
-  question: 'What is the primary role of the Full Authority Digital Engine Control (FADEC) in the pneumatic starting system?',
-  options: { a: 'Ignition control', b: 'Fuel flow control', c: 'Automatic starting control' },
-  correct: 'c',
+  category: "S92 ATA 80",
+  question: "What is the primary role of the Full Authority Digital Engine Control (FADEC) in the pneumatic starting system?",
+  options: { a: "Ignition control", b: "Fuel flow control", c: "Automatic starting control" },
+  correct: "c",
 }, */
 /* {
   id: 222,
-  category: 'ATA 80',
-  question: 'Which component controls the flow of compressed bleed-air to the pneumatic start motor?',
-  options: { a: 'Start valve', b: 'FADEC', c: 'Starter pad' },
-  correct: 'a',
+  category: "S92 ATA 80",
+  question: "Which component controls the flow of compressed bleed-air to the pneumatic start motor?",
+  options: { a: "Start valve", b: "FADEC", c: "Starter pad" },
+  correct: "a",
 }, */
 {
   id: 223,
-  category: 'ATA 80',
-  question: 'Where does the bleed-air to the start motor come from when the AIR SRCE HEAT/START switch is in the APU position?',
-  options: { a: 'Opposite engine', b: 'APU', c: 'Engine/APU' },
-  correct: 'b',
+  category: "S92 ATA 80",
+  question: "Where does the bleed-air to the start motor come from when the AIR SRCE HEAT/START switch is in the APU position?",
+  options: { a: "Opposite engine", b: "APU", c: "Engine/APU" },
+  correct: "b",
 },
 {
   id: 224,
-  category: 'ATA 80',
-  question: 'What is the function of the engine bleed air shutoff valve?',
-  options: { a: 'Control fuel flow', b: 'Control pneumatic pressure', c: 'Control ignition' },
-  correct: 'b',
+  category: "S92 ATA 80",
+  question: "What is the function of the engine bleed air shutoff valve?",
+  options: { a: "Control fuel flow", b: "Control pneumatic pressure", c: "Control ignition" },
+  correct: "b",
 },
  {
   id: 225,
-  category: 'ATA 80',
-  question: 'Where is the Pneumatic Start Valves located?',
-  options: { a: 'APU', b: 'Accessory module', c: 'Top deck between the main engines' },
-  correct: 'c',
+  category: "S92 ATA 80",
+  question: "Where is the Pneumatic Start Valves located?",
+  options: { a: "APU", b: "Accessory module", c: "Top deck between the main engines" },
+  correct: "c",
 }, 
 {
   id: 226,
-  category: 'ATA 80',
-  question: 'How often is the oil in the engine starter replaced?',
-  options: { a: 'Every flight', b: 'Every 1250 flight hours', c: 'Every 500 hours' },
-  correct: 'b',
+  category: "S92 ATA 80",
+  question: "How often is the oil in the engine starter replaced?",
+  options: { a: "Every flight", b: "Every 1250 flight hours", c: "Every 500 hours" },
+  correct: "b",
 },
 {
   id: 227,
-  category: 'ATA 80',
-  question: 'What are the two types of pneumatic pipe interconnections used?',
-  options: { a: 'Rigid clamp and flexible coupling', b: 'Swivel joint and T-connector', c: 'Solenoid valve and check valve' },
-  correct: 'a',
+  category: "S92 ATA 80",
+  question: "What are the two types of pneumatic pipe interconnections used?",
+  options: { a: "Rigid clamp and flexible coupling", b: "Swivel joint and T-connector", c: "Solenoid valve and check valve" },
+  correct: "a",
 },
 {
   id: 228,
-  category: 'ATA 80',
-  question: 'What function does the AIR SRCE HEAT/START switch serve in the overhead console?',
-  options: { a: 'Selecting ignition mode', b: 'Selecting bleed-air source', c: 'Controlling oil temperature' },
-  correct: 'b',
+  category: "S92 ATA 80",
+  question: "What function does the AIR SRCE HEAT/START switch serve in the overhead console?",
+  options: { a: "Selecting ignition mode", b: "Selecting bleed-air source", c: "Controlling oil temperature" },
+  correct: "b",
 },
 {
   id: 229,
-  category: 'ATA 80',
-  question: 'In the engine control quadrant, what does the FLY position of the power control lever (PCL) do?',
-  options: { a: 'Shutdown the engine', b: 'Maintain engine speed at 63-70% Ng', c: 'Govern the Nr speed at 105%' },
-  correct: 'c',
+  category: "S92 ATA 80",
+  question: "In the engine control quadrant, what does the FLY position of the power control lever (PCL) do?",
+  options: { a: "Shutdown the engine", b: "Maintain engine speed at 63-70% Ng", c: "Govern the Nr speed at 105%" },
+  correct: "c",
 },
 {
   id: 230,
-  category: 'ATA 80',
-  question: 'What do the NO. 1 ENG START and NO. 2 ENG START pushbuttons initiate?',
-  options: { a: 'Shutdown sequence', b: 'Engine start-up', c: 'Ignition mode selection' },
-  correct: 'b',
+  category: "S92 ATA 80",
+  question: "What do the NO. 1 ENG START and NO. 2 ENG START pushbuttons initiate?",
+  options: { a: "Shutdown sequence", b: "Engine start-up", c: "Ignition mode selection" },
+  correct: "b",
 },
 {
   id: 231,
-  category: 'ATA 80',
-  question: 'Which circuit breakers supply electrical power to the engine start relays?',
-  options: { a: 'DC Essential Bus', b: 'APU circuit', c: 'Engine start bus' },
-  correct: 'a',
+  category: "S92 ATA 80",
+  question: "Which circuit breakers supply electrical power to the engine start relays?",
+  options: { a: "DC Essential Bus", b: "APU circuit", c: "Engine start bus" },
+  correct: "a",
 },
 {
   id: 232,
-  category: 'ATA 80',
-  question: 'What is the purpose of the FADEC in the starting sequence?',
-  options: { a: 'Control fuel flow', b: 'Sequencing starting operation', c: 'Vent hot engine starts' },
-  correct: 'b',
+  category: "S92 ATA 80",
+  question: "What is the purpose of the FADEC in the starting sequence?",
+  options: { a: "Control fuel flow", b: "Sequencing starting operation", c: "Vent hot engine starts" },
+  correct: "b",
 },
 {
   id: 233,
-  category: 'ATA 80',
-  question: 'What logic is used to prevent the EECU from engaging the starter when the start button is inadvertently pressed?',
-  options: { a: 'Timeout feature', b: 'Emergency shutdown', c: 'Engine motoring' },
-  correct: 'a',
+  category: "S92 ATA 80",
+  question: "What logic is used to prevent the EECU from engaging the starter when the start button is inadvertently pressed?",
+  options: { a: "Timeout feature", b: "Emergency shutdown", c: "Engine motoring" },
+  correct: "a",
 },
 {
   id: 234,
-  category: 'ATA 80',
-  question: 'When does the hot start protection logic become active during an engine start?',
-  options: { a: 'When PCL is in FLY position', b: 'When T4.5 exceeds hot start temperature limit', c: 'During sub-idle operation' },
-  correct: 'b',
+  category: "S92 ATA 80",
+  question: "When does the hot start protection logic become active during an engine start?",
+  options: { a: "When PCL is in FLY position", b: "When T4.5 exceeds hot start temperature limit", c: "During sub-idle operation" },
+  correct: "b",
 },
 {
   id: 235,
-  category: 'ATA 80',
-  question: 'What are the back-to-back starting limits at an ambient temperature greater than +15°C?',
-  options: { a: '2 consecutive starts with 5-minute cooling', b: '4 consecutive starts with 15-minute cooling', c: '2 consecutive starts with 2-minute cooling' },
-  correct: 'a',
+  category: "S92 ATA 80",
+  question: "What are the back-to-back starting limits at an ambient temperature greater than +15°C?",
+  options: { a: "2 consecutive starts with 5-minute cooling", b: "4 consecutive starts with 15-minute cooling", c: "2 consecutive starts with 2-minute cooling" },
+  correct: "a",
 },
 {
   id: 236,
-  category: 'ATA 80',
-  question: 'What is the purpose of the automatic blowdown feature when the PCL is moved to IDLE?',
-  options: { a: 'Cooling the engine', b: 'Venting the engine', c: 'Initiating engine shutdown' },
-  correct: 'b',
+  category: "S92 ATA 80",
+  question: "What is the purpose of the automatic blowdown feature when the PCL is moved to IDLE?",
+  options: { a: "Cooling the engine", b: "Venting the engine", c: "Initiating engine shutdown" },
+  correct: "b",
 },
 {
   id: 237,
-  category: 'ATA 80',
-  question: 'When conducting a wet rollover, what caution must be observed?',
-  options: { a: 'Turn off bleed-air source', b: 'Prevent ignition after fuel introduction', c: 'Increase oil level' },
-  correct: 'b',
+  category: "S92 ATA 80",
+  question: "When conducting a wet rollover, what caution must be observed?",
+  options: { a: "Turn off bleed-air source", b: "Prevent ignition after fuel introduction", c: "Increase oil level" },
+  correct: "b",
 },
 {
   id: 238,
-  category: 'ATA 80',
-  question: 'When should the anti-icing system be turned on during engine starting?',
-  options: { a: 'Above 15°C', b: 'Below 5°C', c: 'During flameouts' },
-  correct: 'b',
+  category: "S92 ATA 80",
+  question: "When should the anti-icing system be turned on during engine starting?",
+  options: { a: "Above 15°C", b: "Below 5°C", c: "During flameouts" },
+  correct: "b",
 },
 {
   id: 239,
-  category: 'ATA 80',
-  question: 'What is the starter cut-out speed after light-off?',
-  options: { a: '52% Ng', b: '70% Ng', c: '90% Ng' },
-  correct: 'a',
+  category: "S92 ATA 80",
+  question: "What is the starter cut-out speed after light-off?",
+  options: { a: "52% Ng", b: "70% Ng", c: "90% Ng" },
+  correct: "a",
 },
 {
   id: 240,
-  category: 'ATA 80',
-  question: 'When should the engine be cooled for 2 minutes at idle before moving the power control lever to OFF?',
-  options: { a: 'After wet rollover', b: 'During emergency shutdown', c: 'Before restarting the engine' },
-  correct: 'c',
+  category: "S92 ATA 80",
+  question: "When should the engine be cooled for 2 minutes at idle before moving the power control lever to OFF?",
+  options: { a: "After wet rollover", b: "During emergency shutdown", c: "Before restarting the engine" },
+  correct: "c",
 },
 
 
 /* 
 how is the starter controlled? EECU FADEC
 
-if you're starting number 1 eng, will no1 cross bleed be shut or open? shut!
+if you"re starting number 1 eng, will no1 cross bleed be shut or open? shut!
 
 if start/heat set to APU where are the engine bleed valves? Both shut
 
@@ -10949,7 +10949,7 @@ where are start buttons located? Throttle quad
 
   {
     id: 858,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "How are Temporary Revisions (TR) identified within GEK 112212 IETP?",
     options: {
       a: "Colored yellow",
@@ -10960,7 +10960,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 859,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "What identifies Incremental Changes in the IETP?",
     options: {
       a: "Sequential number",
@@ -10971,18 +10971,18 @@ where are start buttons located? Throttle quad
   },
   {
     id: 860,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "How are Service Bulletins grouped within the IETP?",
     options: {
       a: "Sequential number",
       b: "Color coding",
-      c: "ATA sections"
+      c: "S92 ATA sections"
     },
     correct: "c"
   },
   {
     id: 861,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "What color are Alert Service Bulletins within the IETP?",
     options: {
       a: "Yellow",
@@ -10993,7 +10993,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 862,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "What information is found in the Front Matter of GEK 112212 IETP?",
     options: {
       a: "Cleaning Practices",
@@ -11004,7 +11004,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 863,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "How is the Effectivity of Data organized in GEK 112212 IETP?",
     options: {
       a: "By alphabetical order",
@@ -11015,8 +11015,8 @@ where are start buttons located? Throttle quad
   },
   {
     id: 864,
-    category: "Engine Manuals",
-    question: "What does 'For ALL CT7-8' label indicate in the Effectivity of Data section?",
+    category: "S92 Engine Manuals",
+    question: "What does \"For ALL CT7-8\" label indicate in the Effectivity of Data section?",
     options: {
       a: "Data for specific engine models",
       b: "Data for all CT7-8 engine models",
@@ -11026,7 +11026,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 865,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "What does the Engine Maintenance Program consist of?",
     options: {
       a: "Service Bulletins compliance",
@@ -11037,7 +11037,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 866,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "What does MM 05 cover in the CT7-8 Engine Maintenance Program?",
     options: {
       a: "Fuel System",
@@ -11048,7 +11048,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 867,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "What is the additional full cycle count added for each OEI event?",
     options: {
       a: "Two cycles",
@@ -11059,7 +11059,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 868,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "How are Service Intervals stipulated for GE CT7 engines?",
     options: {
       a: "Daily, 500 hrs, 1500 hrs",
@@ -11070,7 +11070,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 869,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "What is the obligation regarding Exposed Hardware Inspection Requirements?",
     options: {
       a: "Optional for technicians",
@@ -11081,7 +11081,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 870,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "When is a part listed as NO NUMBER in the Detailed Parts List?",
     options: {
       a: "When it's a spare part",
@@ -11092,7 +11092,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 871,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "What does a pointing hand on an illustration signify?",
     options: {
       a: "A nontechnical change",
@@ -11103,7 +11103,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 872,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "What do the codes 8, 8A, 8A1, A5, A6, A7, B, B5, E, E5, F and F5 represent in Engine Model Coding?",
     options: {
       a: "Part numbers",
@@ -11114,7 +11114,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 873,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "What does a Torque Motor Loop Fault indicate in the FADEC system?",
     options: {
       a: "Loss of Power Control",
@@ -11125,7 +11125,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 874,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "In which section of GEK 112212 IETP would you find procedures for Engine Overtemperature?",
     options: {
       a: "MM 05 Service Life Limits",
@@ -11136,7 +11136,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 875,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "What is the purpose of the Illustrated Parts Catalogue GEK105158?",
     options: {
       a: "To provide fault isolation procedures",
@@ -11147,7 +11147,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 876,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "How is the Numerical Index divided in the Illustrated Parts Catalogue?",
     options: {
       a: "By color coding",
@@ -11158,7 +11158,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 877,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "What does the code SPAD indicate in the Nomenclature column?",
     options: {
       a: "Standard Parts",
@@ -11169,7 +11169,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 878,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "Which ATA will display engine electrics",
     options: {
       a: "74",
@@ -11180,7 +11180,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 879,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "Where can engine service life limits be found?",
     options: {
       a: "Aircraft Chapter 05",
@@ -11191,7 +11191,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 880,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "When using the engine manual what indication will annotate matched components?",
     options: {
       a: "Three astric ***",
@@ -11202,7 +11202,7 @@ where are start buttons located? Throttle quad
   },
   {
     id: 881,
-    category: "Engine Manuals",
+    category: "S92 Engine Manuals",
     question: "What material is contains within the standard practice?",
     options: {
       a: "Details specific to CT7-8A only",
@@ -11210,5 +11210,4617 @@ where are start buttons located? Throttle quad
       c: "CT7-8B / -8B5"
     },
     correct: "b"
+  },
+
+/* ##################################################################################################
+H175
+################################################################################################## */
+
+  {
+    id: 1,
+    category: "H175 ATA 67",
+    question:
+      "Which type of balancing ensures that components are balanced around their center of gravity when not moving?",
+    options: {
+      a: "Dynamic Balancing",
+      b: "Static Balancing",
+      c: "Passive Vibration Control",
+    },
+    correct: "b",
+  },
+  {
+    id: 2,
+    category: "H175 ATA 67",
+    question:
+      "What controls vary the incidence of the main and tail rotor blades to control the aircraft?",
+    options: { a: "Pedal units", b: "Collective sticks", c: "Cyclic sticks" },
+    correct: "b",
+  },
+  {
+    id: 3,
+    category: "H175 ATA 67",
+    question: "Which axis does the collective control mainly govern?",
+    options: { a: "Pitch axis", b: "Roll axis", c: "Vertical axis" },
+    correct: "c",
+  },
+  {
+    id: 4,
+    category: "H175 ATA 67",
+    question: "What is the primary function of the rotor flight controls?",
+    options: {
+      a: "Transmit crew commands to actuators",
+      b: "Provide data to other systems",
+      c: "Acquire and transmit crew and AFCS commands",
+    },
+    correct: "c",
+  },
+  {
+    id: 5,
+    category: "H175 ATA 67",
+    question:
+      "Which component transmits crew commands to the main rotor actuator?",
+    options: {
+      a: "Main servo-controls",
+      b: "Cyclic sticks",
+      c: "Collective sticks",
+    },
+    correct: "c",
+  },
+  {
+    id: 6,
+    category: "H175 ATA 67",
+    question:
+      "Which system utilizes Flexball cable control for some of its components?",
+    options: {
+      a: "Main rotor control",
+      b: "Tail rotor control",
+      c: "Collective control",
+    },
+    correct: "b",
+  },
+  {
+    id: 7,
+    category: "H175 ATA 67",
+    question: "What is the purpose of the mixing unit in the cockpit roof?",
+    options: {
+      a: "Transmits crew commands to the tail rotor",
+      b: "Combines input commands from collective and cyclic channels",
+      c: "Controls the cyclic and collective sticks",
+    },
+    correct: "b",
+  },
+  {
+    id: 8,
+    category: "H175 ATA 67",
+    question: "What does the yaw control channel mainly transmit?",
+    options: {
+      a: "Pitch and roll movements",
+      b: "Yaw movements",
+      c: "Thrust variations",
+    },
+    correct: "b",
+  },
+  {
+    id: 9,
+    category: "H175 ATA 67",
+    question: "What component prevents excessive travel of the yaw channel?",
+    options: { a: "Yaw trim rod", b: "Yaw SEMA rod", c: "Yaw stop screw" },
+    correct: "c",
+  },
+  {
+    id: 10,
+    category: "H175 ATA 67",
+    question: "What is the function of the main servo-controls?",
+    options: {
+      a: "Convert mechanical inputs into hydraulic powered inputs",
+      b: "Transmit crew commands to the tail rotor",
+      c: "Control the cyclic and collective sticks",
+    },
+    correct: "a",
+  },
+  {
+    id: 11,
+    category: "H175 ATA 67",
+    question:
+      "In degraded mode, how many hydraulic supplies does the tail servo-control require to operate?",
+    options: { a: "Only one", b: "Two", c: "Three" },
+    correct: "b",
+  },
+  {
+    id: 12,
+    category: "H175 ATA 67",
+    question:
+      "What provides backup in case of main hydraulic pump failure in the tail servo-control system?",
+    options: {
+      a: "The mixing unit",
+      b: "The main servo-controls",
+      c: "The Auxiliary Pressure Supply (APS)",
+    },
+    correct: "c",
+  },
+  {
+    id: 13,
+    category: "H175 ATA 67",
+    question:
+      "What mechanism ensures the main servo-controls operate correctly in case of spool jamming?",
+    options: {
+      a: "Override mechanism",
+      b: "Feedback links",
+      c: "Test buttons",
+    },
+    correct: "a",
+  },
+  {
+    id: 14,
+    category: "H175 ATA 67",
+    question:
+      "What is the purpose of the test buttons on the main servo-control valves?",
+    options: {
+      a: "To adjust control valves",
+      b: "To operate the servo-controls",
+      c: "To test the override mechanism",
+    },
+    correct: "c",
+  },
+  {
+    id: 15,
+    category: "H175 ATA 67",
+    question: "What is the purpose of the anticipator rod?",
+    options: {
+      a: "Connects the mixing unit to the collective channel",
+      b: "Connects the cyclic sticks to the cyclic control channel",
+      c: "Connects the main servo-controls to the main rotor",
+    },
+    correct: "a",
+  },
+  {
+    id: 16,
+    category: "H175 ATA 67",
+    question:
+      "What provides the interface with many systems via button commands?",
+    options: {
+      a: "Cyclic sticks",
+      b: "Collective grips",
+      c: "Main servo-controls",
+    },
+    correct: "b",
+  },
+  {
+    id: 17,
+    category: "H175 ATA 67",
+    question: "Which component balances the cyclic control linkages?",
+    options: { a: "Cyclic grips", b: "Cyclic sticks", c: "Balancing assembly" },
+    correct: "c",
+  },
+  {
+    id: 18,
+    category: "H175 ATA 67",
+    question: "What is the function of the tail servo-control?",
+    options: {
+      a: "Transmit crew commands to the main rotor",
+      b: "Convert mechanical inputs into hydraulic powered inputs for the tail rotor",
+      c: "Provide data to other systems",
+    },
+    correct: "b",
+  },
+  {
+    id: 19,
+    category: "H175 ATA 67",
+    question:
+      "What component ensures the tail servo-control operates correctly in case of spool jamming?",
+    options: {
+      a: "Override mechanism",
+      b: "Feedback links",
+      c: "Test buttons",
+    },
+    correct: "a",
+  },
+  {
+    id: 20,
+    category: "H175 ATA 67",
+    question:
+      "What does the forward part of the yaw flexible control system connect?",
+    options: {
+      a: "Rudder pedals to the tail rotor",
+      b: "Cockpit to the main rotor",
+      c: "Cockpit to the intermediate fuselage",
+    },
+    correct: "c",
+  },
+
+  {
+    id: 21,
+    category: "H175 ATA 34",
+    question:
+      "What are the three independent sub-systems of the Air Data System (ADS)?",
+    options: {
+      a: "Right hand, left hand, and central",
+      b: "Right hand, left hand, and emergency",
+      c: "Primary, secondary, and tertiary",
+    },
+    correct: "b",
+  },
+  {
+    id: 22,
+    category: "H175 ATA 34",
+    question:
+      "Which sub-system of the ADS consists of an Integrated Emergency Standby Instrument (IESI)?",
+    options: { a: "Right hand", b: "Left hand", c: "Emergency" },
+    correct: "c",
+  },
+  {
+    id: 23,
+    category: "H175 ATA 34",
+    question: "How many external static ports are there in total?",
+    options: { a: "4", b: "6", c: "8" },
+    correct: "b",
+  },
+  {
+    id: 24,
+    category: "H175 ATA 34",
+    question: "Where are the pitot and OAT sensors located?",
+    options: {
+      a: "Underneath the tail boom",
+      b: "On arms protruding from the nose of the aircraft",
+      c: "On the wings",
+    },
+    correct: "b",
+  },
+  {
+    id: 25,
+    category: "H175 ATA 34",
+    question: "What is the purpose of the cockpit static ports?",
+    options: {
+      a: "To control the aircraft's altitude",
+      b: "To switch between external and cockpit pressure",
+      c: "To provide data to the airspeed indicators",
+    },
+    correct: "b",
+  },
+  {
+    id: 26,
+    category: "H175 ATA 34",
+    question: "Where are the Air Data Units (ADU's) located?",
+    options: {
+      a: "In the cockpit overhead panel",
+      b: "In the nose landing gear compartment",
+      c: "Underneath the tail boom",
+    },
+    correct: "b",
+  },
+  {
+    id: 27,
+    category: "H175 ATA 34",
+    question:
+      "How is the Integrated Emergency Standby Instrument (IESI) powered?",
+    options: {
+      a: "By the ADU's",
+      b: "By EMERG1 and NOSHED2 busbars",
+      c: "By the ESS2 and NOSHED1 busbars",
+    },
+    correct: "b",
+  },
+  {
+    id: 28,
+    category: "H175 ATA 34",
+    question: "What are the main output parameters of the ADU's?",
+    options: {
+      a: "True Air Speed (TAS), Outside Air Temperature (OAT), Vertical Speed, Barometric altitude",
+      b: "Pressure, Humidity, Wind speed, Direction",
+      c: "Fuel level, Engine temperature, Battery voltage, Altitude",
+    },
+    correct: "a",
+  },
+  {
+    id: 29,
+    category: "H175 ATA 34",
+    question: "What does the IESI provide to the MFD's via ARINC 429 buses?",
+    options: {
+      a: "Airspeed and altitude data",
+      b: "Radio altimeter data",
+      c: "Static pressure data",
+    },
+    correct: "a",
+  },
+  {
+    id: 30,
+    category: "H175 ATA 34",
+    question:
+      "How many radio altimeter antennas are there, and where are they mounted?",
+    options: {
+      a: "One, under the nose of the aircraft",
+      b: "Two, underneath the tail of the aircraft",
+      c: "Three, one on each wing and one on the tail",
+    },
+    correct: "b",
+  },
+  {
+    id: 31,
+    category: "H175 ATA 34",
+    question: "Where is the RA toggle switch located?",
+    options: {
+      a: "On the instrument panel",
+      b: "On the cargo subfloor",
+      c: "On the common control panel in the cockpit",
+    },
+    correct: "c",
+  },
+  {
+    id: 32,
+    category: "H175 ATA 34",
+    question: "What is the function of the DH/HTLIM LSK?",
+    options: {
+      a: "To adjust the decision height",
+      b: "To adjust the height limit",
+      c: "To switch between radio altimeter modes",
+    },
+    correct: "a",
+  },
+  {
+    id: 33,
+    category: "H175 ATA 34",
+    question:
+      "What action does the system take if there is an unresolved air data discrepancy?",
+    options: {
+      a: "Automatically reconfigures using the IESI data",
+      b: "Displays an advisory message but takes no action",
+      c: "Displays an amber frame around the air scales and flags the discrepancy",
+    },
+    correct: "c",
+  },
+  {
+    id: 34,
+    category: "H175 ATA 34",
+    question: "What does the amber RA rectangle on the FND indicate?",
+    options: {
+      a: "Radio altimeter failure",
+      b: "Airspeed discrepancy",
+      c: "Decision Height reached",
+    },
+    correct: "a",
+  },
+  {
+    id: 35,
+    category: "H175 ATA 34",
+    question:
+      "What is the significance of the amber RA strip on the right of the RA scale?",
+    options: {
+      a: "It represents the upper barometric altitude limit",
+      b: "It indicates the altitude above ground level",
+      c: "It represents the decision height",
+    },
+    correct: "c",
+  },
+  {
+    id: 36,
+    category: "H175 ATA 34",
+    question: "When is the 100 feet notification audio message heard?",
+    options: {
+      a: "When the radio altitude is above 100 feet",
+      b: "Every time the mission selector is set to Hoist or Sling",
+      c: "When the radio altitude falls below 100 feet",
+    },
+    correct: "c",
+  },
+  {
+    id: 37,
+    category: "H175 ATA 34",
+    question: 'What does the "Landing gear up" audio message indicate?',
+    options: {
+      a: "That the landing gear is extended below 300 ft and 60 kts",
+      b: "That the landing gear is retracted",
+      c: "That the mission selector is set to Hoist or Sling",
+    },
+    correct: "a",
+  },
+  {
+    id: 38,
+    category: "H175 ATA 34",
+    question: "Where is the AHV16 transceiver located?",
+    options: {
+      a: "Underneath the nose of the aircraft",
+      b: "Under the tail boom structure",
+      c: "On the instrument panel",
+    },
+    correct: "b",
+  },
+  {
+    id: 39,
+    category: "H175 ATA 34",
+    question: "What happens when the RA toggle switch is in the TEST position?",
+    options: {
+      a: "The radio altimeter is turned off",
+      b: "The radio altimeter is inoperative",
+      c: "The radio altimeter is tested",
+    },
+    correct: "c",
+  },
+  {
+    id: 40,
+    category: "H175 ATA 34",
+    question: "What does the amber DH flag indicate?",
+    options: {
+      a: "Radio altimeter failure",
+      b: "Decision Height reached",
+      c: "Air data discrepancy",
+    },
+    correct: "b",
+  },
+
+  {
+    id: 41,
+    category: "H175 ATA 34",
+    question:
+      "What message will be displayed on the Master list if the radio altimeter fails the pre-flight test?",
+    options: { a: "RA FAIL", b: "RA PRE-FAIL", c: "ALT FAIL" },
+    correct: "a",
+  },
+  {
+    id: 42,
+    category: "H175 ATA 34",
+    question:
+      "During the manual test of the radio altimeter, what happens when the RA toggle switch is moved to the TEST position?",
+    options: {
+      a: "Radio altimeter height is displayed at 0 ft",
+      b: "Radio altimeter height is displayed at 100 ft",
+      c: "Radio altimeter height is displayed at 50 ft",
+    },
+    correct: "b",
+  },
+  {
+    id: 43,
+    category: "H175 ATA 34",
+    question: "What is the indication of a radio altimeter data failure?",
+    options: {
+      a: "RA PASS message on the Master list",
+      b: "RA FAIL message on the Master list",
+      c: "RA STATUS message on the Master list",
+    },
+    correct: "b",
+  },
+  {
+    id: 44,
+    category: "H175 ATA 34",
+    question: "Where is the standby compass located?",
+    options: {
+      a: "On the nose of the aircraft",
+      b: "On the upper part of the central windshield frame",
+      c: "On the tail of the aircraft",
+    },
+    correct: "b",
+  },
+  {
+    id: 45,
+    category: "H175 ATA 34",
+    question: "What type of adjustments can be made to the standby compass?",
+    options: {
+      a: "Azimuth adjustments only",
+      b: "East/west corrections only",
+      c: "Azimuth adjustments, east/west, and north/south corrections",
+    },
+    correct: "c",
+  },
+  {
+    id: 46,
+    category: "H175 ATA 34",
+    question: "What is the purpose of the IESI in the HELIONIX system?",
+    options: {
+      a: "To provide electrical power",
+      b: "To provide backup rescue mode for the AFCS",
+      c: "To control the transponder system",
+    },
+    correct: "b",
+  },
+  {
+    id: 47,
+    category: "H175 ATA 34",
+    question: "Where is the IESI located?",
+    options: {
+      a: "On the nose of the aircraft",
+      b: "On the instrument panel",
+      c: "On the tail of the aircraft",
+    },
+    correct: "b",
+  },
+  {
+    id: 48,
+    category: "H175 ATA 34",
+    question: "How is the IESI powered?",
+    options: {
+      a: "By the ADU's",
+      b: "By the EMERG2 and NO SHED1 busbars",
+      c: "By the ESS2 and NOSHED1 busbars",
+    },
+    correct: "c",
+  },
+  {
+    id: 49,
+    category: "H175 ATA 34",
+    question: "What type of data does the IESI compute and send via ARINC 429?",
+    options: {
+      a: "Radio altimeter data",
+      b: "Attitude, air data, and status",
+      c: "GPS data",
+    },
+    correct: "b",
+  },
+  {
+    id: 50,
+    category: "H175 ATA 34",
+    question: "Where does the IESI receive static and total pressure from?",
+    options: {
+      a: "From the FMS",
+      b: "From the landing gear",
+      c: "From the EMERG pitot head and EMERG static pressure ports",
+    },
+    correct: "c",
+  },
+  {
+    id: 51,
+    category: "H175 ATA 34",
+    question: "What is the function of the IESI CAGE button?",
+    options: {
+      a: "To adjust brightness",
+      b: "To reset the instrument to the actual attitude CAGE displayed",
+      c: "To set the instruments barometric pressure setting",
+    },
+    correct: "b",
+  },
+  {
+    id: 52,
+    category: "H175 ATA 34",
+    question: "During initialisation, what does the IESI do?",
+    options: {
+      a: "Enters alignment mode",
+      b: "Performs Power-up Built In Test (PBIT)",
+      c: "Sends data via ARINC 429",
+    },
+    correct: "b",
+  },
+  {
+    id: 53,
+    category: "H175 ATA 34",
+    question: "What happens after the alignment phase of the IESI?",
+    options: {
+      a: "The IESI enters fail mode",
+      b: "The IESI enters operational mode",
+      c: "The IESI enters standby mode",
+    },
+    correct: "b",
+  },
+  {
+    id: 54,
+    category: "H175 ATA 34",
+    question:
+      "If the IESI has an attitude failure, what message will be displayed?",
+    options: { a: "ATT FAIL", b: "BCKUP FAIL", c: "AIR DATA FAIL" },
+    correct: "a",
+  },
+  {
+    id: 55,
+    category: "H175 ATA 34",
+    question:
+      "What indicates the status of the IESI equipment on the MFD-VMS page?",
+    options: {
+      a: "Colour of the IESI label",
+      b: "Colour of the altitude scale",
+      c: "Colour of the airspeed scale",
+    },
+    correct: "a",
+  },
+  {
+    id: 56,
+    category: "H175 ATA 34",
+    question: "How can the crew perform a reconfiguration of the IESI?",
+    options: {
+      a: "Using the brightness buttons",
+      b: "Using the CAGE button",
+      c: "Using the RCNF LSK and the rotary knob",
+    },
+    correct: "c",
+  },
+  {
+    id: 57,
+    category: "H175 ATA 34",
+    question:
+      "What message will be displayed if a fatal error occurs in the IESI?",
+    options: { a: "BACKUP SAS FAIL", b: "FAIL", c: "IESI FAIL" },
+    correct: "b",
+  },
+  {
+    id: 58,
+    category: "H175 ATA 34",
+    question: "Where is the transponder system located?",
+    options: {
+      a: "On the tail of the aircraft",
+      b: "On the upper fuselage",
+      c: "On the nose of the aircraft",
+    },
+    correct: "a",
+  },
+  {
+    id: 59,
+    category: "H175 ATA 34",
+    question:
+      "What does the transponder system provide to Air Traffic Control (ATC)?",
+    options: {
+      a: "Aircraft identification only",
+      b: "Aircraft parameters only",
+      c: "Aircraft identification and parameters",
+    },
+    correct: "c",
+  },
+  {
+    id: 60,
+    category: "H175 ATA 34",
+    question: "How many antennas does the transponder system have?",
+    options: { a: "One", b: "Two", c: "Three" },
+    correct: "b",
+  },
+
+  {
+    id: 61,
+    category: "H175 ATA 34",
+    question: "Where are the navigation receivers located?",
+    options: {
+      a: "On the upper fuselage",
+      b: "In the nose compartment",
+      c: "Underneath the aircraft",
+    },
+    correct: "b",
+  },
+  {
+    id: 62,
+    category: "H175 ATA 34",
+    question: "Which busbar supplies power to the NAV1 receiver?",
+    options: { a: "NO SHED2", b: "SHED1", c: "ESS1" },
+    correct: "b",
+  },
+  {
+    id: 63,
+    category: "H175 ATA 34",
+    question: "Where is the Marker beacon antenna located?",
+    options: {
+      a: "On the underside of the aircraft",
+      b: "In the nose compartment",
+      c: "On the tail",
+    },
+    correct: "a",
+  },
+  {
+    id: 64,
+    category: "H175 ATA 34",
+    question: "How many couplers are there in the nose of the aircraft?",
+    options: { a: "One", b: "Two", c: "Three" },
+    correct: "b",
+  },
+  {
+    id: 65,
+    category: "H175 ATA 34",
+    question:
+      "Which area of the COM2/NAV2 Backup Control Panel controls the mode selection?",
+    options: { a: "Upper area", b: "Middle area", c: "Lower area" },
+    correct: "b",
+  },
+  {
+    id: 66,
+    category: "H175 ATA 34",
+    question:
+      "What does a long push on the left push-button of the CTL-4000 do?",
+    options: {
+      a: "Selects COM or NAV test",
+      b: "Adjusts brightness",
+      c: "Switches to CTL STBY",
+    },
+    correct: "c",
+  },
+  {
+    id: 67,
+    category: "H175 ATA 34",
+    question: "Where is the CTL-4000 COM2/NAV2 Backup Control Panel located?",
+    options: {
+      a: "On the nose of the aircraft",
+      b: "On the central control panel",
+      c: "On the interseat console",
+    },
+    correct: "c",
+  },
+  {
+    id: 68,
+    category: "H175 ATA 34",
+    question:
+      "How is the status of the navigation receivers displayed on the MFD's?",
+    options: { a: "By text messages", b: "By colour coding", c: "By symbols" },
+    correct: "b",
+  },
+  {
+    id: 69,
+    category: "H175 ATA 34",
+    question:
+      "Which navigation receiver is powered from the NO SHED2 and ESS1 buses?",
+    options: { a: "NAV1", b: "NAV2", c: "Both NAV1 and NAV2" },
+    correct: "b",
+  },
+  {
+    id: 70,
+    category: "H175 ATA 34",
+    question: "What happens if NAV1 loses its power supply?",
+    options: {
+      a: "Both NAV receivers will fail",
+      b: "Only NAV1 will fail",
+      c: "Only NAV2 will fail",
+    },
+    correct: "b",
+  },
+  {
+    id: 71,
+    category: "H175 ATA 34",
+    question:
+      "What does the PASS message indicate after a successful VOR self-test on the FMS?",
+    options: {
+      a: "The test is ready",
+      b: "The test is complete",
+      c: "The test has failed",
+    },
+    correct: "b",
+  },
+  {
+    id: 72,
+    category: "H175 ATA 34",
+    question:
+      "How is the PASS message displayed on the FMS after a successful self-test?",
+    options: { a: "READY", b: "CONFIRM?", c: "STARTED" },
+    correct: "b",
+  },
+  {
+    id: 73,
+    category: "H175 ATA 34",
+    question:
+      "Where is the frequency selection made using the CTL-4000 Backup Control Panel?",
+    options: { a: "Upper area", b: "Middle area", c: "Lower area" },
+    correct: "c",
+  },
+  {
+    id: 74,
+    category: "H175 ATA 34",
+    question:
+      "Which control panel synchronizes with both FMS and controls the pilot NAV 2 receiver?",
+    options: {
+      a: "Central Control Panel",
+      b: "Interseat console",
+      c: "COM2/NAV2 Backup Control Panel",
+    },
+    correct: "c",
+  },
+  {
+    id: 75,
+    category: "H175 ATA 34",
+    question: "What is the function of the dual GPS configuration?",
+    options: {
+      a: "To provide SBAS navigation and SBAS approach capability",
+      b: "To control the COM2/NAV2 Backup Control Panel",
+      c: "To power up the navigation receivers",
+    },
+    correct: "a",
+  },
+
+  {
+    id: 76,
+    category: "H175 ATA 34",
+    question:
+      "Which system provides information about transponder-equipped intruding aircraft to the crew?",
+    options: { a: "FMS", b: "ACAS", c: "GPS" },
+    correct: "b",
+  },
+  {
+    id: 77,
+    category: "H175 ATA 34",
+    question: "Where are the GPS antennas located?",
+    options: {
+      a: "Under the baggage compartment",
+      b: "On the forward upper part of the tail boom",
+      c: "In the tail boom, just aft of the baggage compartment",
+    },
+    correct: "b",
+  },
+  {
+    id: 78,
+    category: "H175 ATA 34",
+    question: "Which component is used to mute the audio from the ACAS?",
+    options: {
+      a: "ACAS Toggle Switch",
+      b: "Cyclic Grip Switch",
+      c: "GPS Antennas",
+    },
+    correct: "a",
+  },
+  {
+    id: 79,
+    category: "H175 ATA 34",
+    question: "What is the mode of operation when ACAS is set to TA Only mode?",
+    options: {
+      a: "Preventative RA",
+      b: "Corrective RA",
+      c: "Traffic Advisory mode",
+    },
+    correct: "c",
+  },
+  {
+    id: 80,
+    category: "H175 ATA 34",
+    question: "What is the primary function of ACAS?",
+    options: {
+      a: "To provide aircraft position information",
+      b: "To augment the accuracy of GPS signals",
+      c: "To detect and track intruding aircraft",
+    },
+    correct: "c",
+  },
+  {
+    id: 81,
+    category: "H175 ATA 34",
+    question: "How is the ACAS mode changed on the FMS?",
+    options: {
+      a: "By pressing the ACAS LSK",
+      b: "By pressing the VERT MODE LSK",
+      c: "By pressing the ACAS MODE LSK",
+    },
+    correct: "c",
+  },
+  {
+    id: 82,
+    category: "H175 ATA 34",
+    question: "What does the ACAS MUTE mode do?",
+    options: {
+      a: "Activates the Traffic Advisory mode",
+      b: "Mutes the audio alerts from ACAS",
+      c: "Forces ACAS into Standby mode",
+    },
+    correct: "b",
+  },
+  {
+    id: 83,
+    category: "H175 ATA 34",
+    question: "When does ACAS automatically revert to TA Only mode?",
+    options: {
+      a: "When other higher priority alerts are in progress",
+      b: "When the aircraft is on the ground",
+      c: "When the aircraft is operating at low heights",
+    },
+    correct: "c",
+  },
+  {
+    id: 84,
+    category: "H175 ATA 34",
+    question: "How are Resolution Advisories (RA's) issued by the ACAS?",
+    options: {
+      a: "Automatically when an intruder enters the monitoring aircraft's space",
+      b: "Upon manual activation by the crew",
+      c: "When the aircraft is at cruising altitude",
+    },
+    correct: "a",
+  },
+  {
+    id: 85,
+    category: "H175 ATA 34",
+    question: "Where is the ACAS transceiver located?",
+    options: {
+      a: "In the tail boom, just aft of the baggage compartment",
+      b: "Under the baggage compartment",
+      c: "On the forward upper part of the tail boom",
+    },
+    correct: "a",
+  },
+  {
+    id: 86,
+    category: "H175 ATA 34",
+    question: "How are ACAS status indications displayed on the NAVD?",
+    options: {
+      a: "By flashing labels",
+      b: "By displaying specific symbols",
+      c: "By changing font color",
+    },
+    correct: "b",
+  },
+  {
+    id: 87,
+    category: "H175 ATA 34",
+    question:
+      "What message will be displayed on the FND if the ACAS transceiver fails?",
+    options: { a: "ACAS TEST", b: "ACAS MUTE", c: "ACAS FAIL" },
+    correct: "c",
+  },
+  {
+    id: 88,
+    category: "H175 ATA 34",
+    question: "How is the ACAS test initiated on the FMS?",
+    options: {
+      a: "By pressing the ACAS LSK",
+      b: "By pressing the ACAS TEST LSK",
+      c: "By pressing the VERT MODE LSK",
+    },
+    correct: "b",
+  },
+  {
+    id: 89,
+    category: "H175 ATA 34",
+    question: "What happens if the ACAS test does not pass?",
+    options: {
+      a: "The ACAS will revert to TA Only mode",
+      b: "The ACAS will be forced into Standby mode",
+      c: "The ACAS FAIL message will be displayed",
+    },
+    correct: "c",
+  },
+
+  {
+    id: 90,
+    category: "H175 ATA 34",
+    question: "What is the primary function of the weather radar system?",
+    options: {
+      a: "Detecting weather that could affect the aircraft",
+      b: "Communicating with ground stations",
+      c: "Detecting other aircraft",
+    },
+    correct: "a",
+  },
+  {
+    id: 91,
+    category: "H175 ATA 34",
+    question: "Where is the 12” flat panel antenna located?",
+    options: {
+      a: "Behind the control panel",
+      b: "Under the pilot’s side of the nose",
+      c: "On the inter-seat console",
+    },
+    correct: "b",
+  },
+  {
+    id: 92,
+    category: "H175 ATA 34",
+    question:
+      "Which component of the weather radar system controls the radar antenna?",
+    options: { a: "Antenna", b: "Antenna drive", c: "Wave guide" },
+    correct: "b",
+  },
+  {
+    id: 93,
+    category: "H175 ATA 34",
+    question:
+      "What is the minimum safe area around the weather radar antenna when transmitting?",
+    options: { a: "5m", b: "10m", c: "7.7m" },
+    correct: "c",
+  },
+  {
+    id: 94,
+    category: "H175 ATA 34",
+    question: "From where does the radar antenna drive receive its power?",
+    options: {
+      a: "The control panel",
+      b: "The SHED2 busbar",
+      c: "The AC generator",
+    },
+    correct: "b",
+  },
+  {
+    id: 95,
+    category: "H175 ATA 34",
+    question: "Where is the weather radar transceiver located?",
+    options: {
+      a: "Behind the control panel",
+      b: "Under the pilot’s side of the nose",
+      c: "On the inter-seat console",
+    },
+    correct: "b",
+  },
+  {
+    id: 96,
+    category: "H175 ATA 34",
+    question:
+      "Which mode must the weather radar control panel be set to for normal operation with a 120° scan angle?",
+    options: { a: "STBY", b: "ON", c: "TEST" },
+    correct: "b",
+  },
+  {
+    id: 97,
+    category: "H175 ATA 34",
+    question:
+      "What does the SRCH button on the weather radar control panel activate?",
+    options: { a: "Weather mode", b: "Beacon mode", c: "Search modes" },
+    correct: "c",
+  },
+  {
+    id: 98,
+    category: "H175 ATA 34",
+    question: "What is the purpose of the DME on the aircraft?",
+    options: {
+      a: "Detecting weather",
+      b: "Providing distance to VOR/DME beacons",
+      c: "Controlling navigation equipment",
+    },
+    correct: "b",
+  },
+  {
+    id: 99,
+    category: "H175 ATA 34",
+    question: "Where is the DME transceiver located?",
+    options: {
+      a: "On the right side of the nose",
+      b: "Under the pilot’s side of the nose",
+      c: "Behind the control panel",
+    },
+    correct: "b",
+  },
+  {
+    id: 100,
+    category: "H175 ATA 34",
+    question:
+      "How many DME frequencies can the transceiver track simultaneously?",
+    options: { a: "1", b: "2", c: "3" },
+    correct: "c",
+  },
+  {
+    id: 101,
+    category: "H175 ATA 34",
+    question: "Which FMS component communicates with the GPS?",
+    options: { a: "MFD1 and MFD2", b: "Collective Grips", c: "AMC's" },
+    correct: "c",
+  },
+  {
+    id: 102,
+    category: "H175 ATA 34",
+    question: "What information does the FMS receive from the MFD's?",
+    options: { a: "Fuel flow", b: "True Airspeed", c: "DME frequencies" },
+    correct: "b",
+  },
+  {
+    id: 103,
+    category: "H175 ATA 34",
+    question: "Which component of the FMS controls and uses data from the DME?",
+    options: { a: "MFD's", b: "GPS's", c: "AMC's" },
+    correct: "c",
+  },
+  {
+    id: 104,
+    category: "H175 ATA 34",
+    question:
+      "What does the HOLD function on the COM2/NAV2 Backup Control Panel allow the operator to do?",
+    options: {
+      a: "Hold the current DME frequency and retune the VOR/ILS",
+      b: "Switch between VOR and ILS frequencies",
+      c: "Activate the DME self-test",
+    },
+    correct: "a",
+  },
+
+  {
+    id: 105,
+    category: "H175 ATA 34",
+    question: "Where is the AIR Data Loader (ADL) located?",
+    options: {
+      a: "At the rear of the inter-seat console on the left side",
+      b: "At the front of the inter-seat console on the right side",
+      c: "Underneath the pilot's seat",
+    },
+    correct: "a",
+  },
+  {
+    id: 106,
+    category: "H175 ATA 34",
+    question: "What is the purpose of the ADL?",
+    options: {
+      a: "To power the FMS",
+      b: "To load the FMS with updated navigation information",
+      c: "To control the aircraft's altitude",
+    },
+    correct: "b",
+  },
+  {
+    id: 107,
+    category: "H175 ATA 34",
+    question: "Which busbar powers the ADL?",
+    options: {
+      a: "FLIGHT SHED1",
+      b: "NO SHED2",
+      c: "ESS1",
+    },
+    correct: "a",
+  },
+  {
+    id: 108,
+    category: "H175 ATA 34",
+    question: "How often is the navigation database updated?",
+    options: {
+      a: "Every 5 years",
+      b: "Every 28 days",
+      c: "Every 6 months",
+    },
+    correct: "b",
+  },
+  {
+    id: 109,
+    category: "H175 ATA 34",
+    question: "Where is the FMS Load Switch located?",
+    options: {
+      a: "On the Central Control Panel",
+      b: "On the Reconfiguration Control Unit (RCU)",
+      c: "On the inter-seat console",
+    },
+    correct: "b",
+  },
+  {
+    id: 110,
+    category: "H175 ATA 34",
+    question: "What is the function of the FMS Load Switch?",
+    options: {
+      a: "To select which of the dual FMS's to upload or download",
+      b: "To control the power supply to the FMS's",
+      c: "To switch between different FMS databases",
+    },
+    correct: "a",
+  },
+  {
+    id: 111,
+    category: "H175 ATA 34",
+    question: "Where are the FMS switches located?",
+    options: {
+      a: "On the Reconfiguration Control Unit (RCU)",
+      b: "On the Central Control Panel",
+      c: "On the inter-seat console",
+    },
+    correct: "b",
+  },
+  {
+    id: 112,
+    category: "H175 ATA 34",
+    question: "Which switch controls the power to FMS1?",
+    options: {
+      a: "FMS1 switch",
+      b: "FMS2 switch",
+      c: "ADL switch",
+    },
+    correct: "a",
+  },
+  {
+    id: 113,
+    category: "H175 ATA 34",
+    question: "How many power supplies does FMS2 have?",
+    options: {
+      a: "One",
+      b: "Two",
+      c: "Three",
+    },
+    correct: "b",
+  },
+  {
+    id: 114,
+    category: "H175 ATA 34",
+    question: "Where is the CMA-9000 located?",
+    options: {
+      a: "On the inter-seat console",
+      b: "On the Central Control Panel",
+      c: "Underneath the pilot's seat",
+    },
+    correct: "a",
+  },
+  {
+    id: 115,
+    category: "H175 ATA 34",
+    question: "How many Line Select Keys (LSK's) does the CMA-9000 have?",
+    options: {
+      a: "6",
+      b: "10",
+      c: "12",
+    },
+    correct: "c",
+  },
+  {
+    id: 116,
+    category: "H175 ATA 34",
+    question: "What does the MSG annunciator light indicate?",
+    options: {
+      a: "Failure",
+      b: "New alert message on scratchpad",
+      c: "Non-precision approach activated",
+    },
+    correct: "b",
+  },
+  {
+    id: 117,
+    category: "H175 ATA 34",
+    question: "What is the scratchpad area used for on the CMA-9000?",
+    options: {
+      a: "To display navigation databases",
+      b: "To enter data and display messages",
+      c: "To control power supply",
+    },
+    correct: "b",
+  },
+  {
+    id: 118,
+    category: "H175 ATA 34",
+    question: "What is the purpose of the Exec key on the CMA-9000?",
+    options: {
+      a: "To validate modifications to the active route",
+      b: "To access radio tuning pages",
+      c: "To access the route page",
+    },
+    correct: "a",
+  },
+  {
+    id: 119,
+    category: "H175 ATA 34",
+    question: "Which key is used to clear the scratchpad on the CMA-9000?",
+    options: {
+      a: "Next key",
+      b: "Prev key",
+      c: "CLR key",
+    },
+    correct: "c",
+  },
+
+  {
+    id: 119,
+    category: "H175 ATA 34",
+    question: "What is the purpose of the DMAP within the MFD?",
+    options: {
+      a: "To serve as a primary means of navigation",
+      b: "To display plan view navigation information",
+      c: "To control power supply to the MFD",
+    },
+    correct: "b",
+  },
+  {
+    id: 120,
+    category: "H175 ATA 34",
+    question: "How is the DMAP database uploaded into the MFD?",
+    options: {
+      a: "Via the USB port",
+      b: "Through the Data Transfer Device (DTD) Ethernet port",
+      c: "Manually input by the operator",
+    },
+    correct: "b",
+  },
+  {
+    id: 121,
+    category: "H175 ATA 34",
+    question:
+      "Which communication method do the MFDs use to share MSL altitude?",
+    options: {
+      a: "Ethernet",
+      b: "ARINC 429 buses",
+      c: "RS-232 serial communication",
+    },
+    correct: "b",
+  },
+  {
+    id: 122,
+    category: "H175 ATA 34",
+    question: "What data sources do the MFDs receive information from?",
+    options: {
+      a: "AMCs, RADAR, and TCAS",
+      b: "FMS, GPS, and IESI",
+      c: "ACAS, ELT, and DME",
+    },
+    correct: "b",
+  },
+  {
+    id: 123,
+    category: "H175 ATA 34",
+    question: "What is the function of the None Map in DMAP?",
+    options: {
+      a: "It displays topographic information",
+      b: "It removes the map background to aid visibility of overlays",
+      c: "It shows vector-based geographical features",
+    },
+    correct: "b",
+  },
+
+  {
+    id: 124,
+    category: "H175 ATA 32",
+    question:
+      "What is the primary function of the Nose Landing Gear (NLG) system?",
+    options: {
+      a: "To ensure extension and retraction of NLG",
+      b: "To support the aircraft and absorb landing energy",
+      c: "To control the hydraulic pressure in the MLG system",
+    },
+    correct: "b",
+  },
+  {
+    id: 125,
+    category: "H175 ATA 32",
+    question: "Where is the shock absorber assembly located in the NLG system?",
+    options: {
+      a: "Underneath the cabin floor",
+      b: "At the rear of the aircraft",
+      c: "At the front and under the fuselage of the aircraft",
+    },
+    correct: "c",
+  },
+  {
+    id: 126,
+    category: "H175 ATA 32",
+    question:
+      "What is the purpose of the transfer reservoir in the NLG system?",
+    options: {
+      a: "To allow gear retraction and maintain hydraulic fluid separation",
+      b: "To provide additional shock absorption during landing",
+      c: "To store excess hydraulic fluid",
+    },
+    correct: "a",
+  },
+  {
+    id: 127,
+    category: "H175 ATA 32",
+    question: "How is the NLG hydraulically locked in the retracted position?",
+    options: {
+      a: "By a combination of valves (20, 22, 25)",
+      b: "By a shock absorber piston",
+      c: "By the pilot's manual control",
+    },
+    correct: "a",
+  },
+  {
+    id: 128,
+    category: "H175 ATA 32",
+    question: "What is the function of the NLG Locking Wheel in Axis system?",
+    options: {
+      a: "To control the hydraulic pressure in the NLG system",
+      b: "To provide additional support during landing",
+      c: "To engage and disengage the castor lock",
+    },
+    correct: "c",
+  },
+  {
+    id: 129,
+    category: "H175 ATA 32",
+    question: "Where is the NLG Locking Control Assembly located?",
+    options: {
+      a: "In the cockpit",
+      b: "On the exterior of the aircraft",
+      c: "At the rear of the cabin",
+    },
+    correct: "a",
+  },
+  {
+    id: 130,
+    category: "H175 ATA 32",
+    question: "How is the NLG hydraulically locked in the extended position?",
+    options: {
+      a: "By a shock absorber piston",
+      b: "By the NLG Locking Wheel in Axis system",
+      c: "By a combination of valves (17, 18)",
+    },
+    correct: "c",
+  },
+  {
+    id: 131,
+    category: "H175 ATA 32",
+    question: "What is the purpose of the NLG Pressure Transducer?",
+    options: {
+      a: "To control the flow of hydraulic fluid",
+      b: "To monitor the pressure of the shock absorber",
+      c: "To engage the NLG Locking system",
+    },
+    correct: "b",
+  },
+  {
+    id: 132,
+    category: "H175 ATA 32",
+    question: "What is the function of the NLG Retracted switch?",
+    options: {
+      a: "To engage the NLG Locking system",
+      b: "To indicate the retracted position of the NLG",
+      c: "To control the NLG hydraulic pump",
+    },
+    correct: "b",
+  },
+  {
+    id: 133,
+    category: "H175 ATA 32",
+    question: "Where is the NLG shock absorber/actuator assembly located?",
+    options: {
+      a: "Between frame 1B and 'A' Frame assembly",
+      b: "Underneath the cockpit floor",
+      c: "At the rear of the fuselage",
+    },
+    correct: "a",
+  },
+  {
+    id: 134,
+    category: "H175 ATA 32",
+    question: "What is the function of the NLG Swing Arm assembly?",
+    options: {
+      a: "To extend and retract the NLG",
+      b: "To provide additional support during landing",
+      c: "To allow swiveling of the nose wheels during taxiing",
+    },
+    correct: "c",
+  },
+  {
+    id: 135,
+    category: "H175 ATA 32",
+    question: "How is the NLG Locking Wheel in Axis engaged?",
+    options: {
+      a: "By turning the handle clockwise",
+      b: "By pulling a lever",
+      c: "By pushing a button",
+    },
+    correct: "a",
+  },
+  {
+    id: 136,
+    category: "H175 ATA 32",
+    question: "What is the purpose of the NLG Locking Wheel in Axis?",
+    options: {
+      a: "To engage the NLG hydraulic system",
+      b: "To engage the castor lock",
+      c: "To control the NLG pressure",
+    },
+    correct: "b",
+  },
+  {
+    id: 137,
+    category: "H175 ATA 32",
+    question: "Where is the NLG downlock microswitch located?",
+    options: {
+      a: "In the cockpit",
+      b: "On the NLG actuator",
+      c: "On the NLG oleo",
+    },
+    correct: "b",
+  },
+  {
+    id: 138,
+    category: "H175 ATA 32",
+    question: "What is the function of the NLG actuator?",
+    options: {
+      a: "To provide structural support",
+      b: "To absorb landing energy",
+      c: "To extend and retract the NLG",
+    },
+    correct: "c",
+  },
+
+  {
+    id: 139,
+    category: "H175 ATA 32",
+    question:
+      "What activates the emergency extension pump (4) in the Landing Gear Emergency Extension system?",
+    options: {
+      a: "The emergency hydraulic circuit",
+      b: "The landing gear control panel",
+      c: "The emergency extension switch (L/G CP)",
+    },
+    correct: "c",
+  },
+  {
+    id: 140,
+    category: "H175 ATA 32",
+    question:
+      "What color does the emergency hydraulic circuit change to when activated?",
+    options: { a: "Red", b: "Blue", c: "Green" },
+    correct: "c",
+  },
+  {
+    id: 141,
+    category: "H175 ATA 32",
+    question:
+      "What caution message is displayed on the Master List if the emergency pump temperature exceeds 120°C?",
+    options: {
+      a: "L/G EMER OVHT HYD2",
+      b: "OVERHEAT",
+      c: "EMERGENCY EXTENSION",
+    },
+    correct: "a",
+  },
+  {
+    id: 142,
+    category: "H175 ATA 32",
+    question:
+      "At what altitude does the 'L/G UP' alert message appear on the Flight Navigation Display (FND) if the landing gear is retracted?",
+    options: { a: "Below 1000 feet", b: "Below 300 feet", c: "Below 15 feet" },
+    correct: "b",
+  },
+  {
+    id: 143,
+    category: "H175 ATA 32",
+    question:
+      "What audio message is heard in the headsets when the 'L/G UP' alert message is displayed on the FND?",
+    options: { a: "Takeoff", b: "Caution", c: "Landing Gear" },
+    correct: "c",
+  },
+  {
+    id: 144,
+    category: "H175 ATA 32",
+    question:
+      "What caution message is displayed on the VMS hydraulic page if the front wheels are not aligned with the aircraft center line during taxiing?",
+    options: { a: "NOT IN AXIS", b: "EMERGENCY EXTENSION", c: "L/G UP" },
+    correct: "a",
+  },
+  {
+    id: 145,
+    category: "H175 ATA 32",
+    question:
+      "What happens if the wheel in axis micro-switch does not close during takeoff?",
+    options: {
+      a: "NOT IN AXIS caution message disappears",
+      b: "NOSE WHEEL AXIS caution message appears",
+      c: "L/G UP alert message appears",
+    },
+    correct: "b",
+  },
+  {
+    id: 146,
+    category: "H175 ATA 32",
+    question:
+      "What does the NLG pressure transducer detect during landing gear extension if the nose gear is in extended weakness?",
+    options: {
+      a: "Abnormal pressure (9-12 bar)",
+      b: "Normal pressure (12-15 bar)",
+      c: "Low pressure (< 9 bar)",
+    },
+    correct: "a",
+  },
+  {
+    id: 147,
+    category: "H175 ATA 32",
+    question:
+      "What indication is displayed on the VMS hydraulic page if the NLG pressure transducer detects low pressure during landing gear extension?",
+    options: {
+      a: "An AMBER cross on the failed gear",
+      b: "Three green arrows",
+      c: "An abnormal pressure warning",
+    },
+    correct: "a",
+  },
+  {
+    id: 148,
+    category: "H175 ATA 32",
+    question:
+      "What message is displayed on the master list during the Automatic Power-Up Test if the test is successful?",
+    options: { a: "PWR-UP TST", b: "PWR-UP TST OK", c: "TEST PASSED" },
+    correct: "b",
+  },
+  {
+    id: 149,
+    category: "H175 ATA 32",
+    question: "Where is the brake accumulator located?",
+    options: {
+      a: "Under the cockpit floor",
+      b: "At the rear of the NLG compartment",
+      c: "Under the inter-seat console",
+    },
+    correct: "c",
+  },
+  {
+    id: 150,
+    category: "H175 ATA 32",
+    question: "What is the function of the parking brake?",
+    options: {
+      a: "To hold the aircraft stationary during engine shutdown",
+      b: "To assist in takeoff",
+      c: "To activate the landing gear emergency extension",
+    },
+    correct: "a",
+  },
+  {
+    id: 151,
+    category: "H175 ATA 32",
+    question: "How is the parking brake released?",
+    options: {
+      a: "By pulling up and turning the control handle clockwise",
+      b: "By pushing a button on the landing gear control panel",
+      c: "By pulling up and turning the control handle counterclockwise",
+    },
+    correct: "c",
+  },
+  {
+    id: 152,
+    category: "H175 ATA 32",
+    question: "What controls the wheel brakes of the aircraft?",
+    options: { a: "Throttle control", b: "Brake pedals", c: "Control column" },
+    correct: "b",
+  },
+  {
+    id: 153,
+    category: "H175 ATA 32",
+    question: "Where are the LH brake transmitters located?",
+    options: {
+      a: "On the brake assembly",
+      b: "On the inter-seat console",
+      c: "On the tail rotor controls",
+    },
+    correct: "c",
+  },
+  {
+    id: 154,
+    category: "H175 ATA 32",
+    question: "What does the 'BRAKE LOW PRESS HYD2' caution message indicate?",
+    options: {
+      a: "Low hydraulic pressure in the brake accumulator",
+      b: "High hydraulic pressure in the brake accumulator",
+      c: "Brake failure",
+    },
+    correct: "a",
+  },
+  {
+    id: 155,
+    category: "H175 ATA 32",
+    question: "How is the parking brake controlled?",
+    options: {
+      a: "By pushing a button",
+      b: "By pulling up and turning a control handle",
+      c: "By rotating a knob",
+    },
+    correct: "b",
+  },
+  {
+    id: 156,
+    category: "H175 ATA 32",
+    question:
+      "What indication is displayed on the MFDs-FND page if there is low pressure in the brake accumulator?",
+    options: {
+      a: "Brake failure warning",
+      b: "MASTER ALERT",
+      c: "BRAKE LOW PRESS HYD2 caution message",
+    },
+    correct: "c",
+  },
+  {
+    id: 157,
+    category: "H175 ATA 32",
+    question:
+      "What system allows differential braking for maneuvering the aircraft on the ground?",
+    options: { a: "Throttle control", b: "Parking brake", c: "Brake pedals" },
+    correct: "c",
+  },
+  {
+    id: 158,
+    category: "H175 ATA 32",
+    question:
+      "What controls all wheel brakes of the aircraft at the same time?",
+    options: { a: "Throttle control", b: "Brake pedals", c: "Parking brake" },
+    correct: "c",
+  },
+  {
+    id: 140,
+    category: "H175 ATA 28",
+    question: "What is the total capacity (usable) of the fuel system?",
+    options: {
+      a: "2178 Kg (575.43 litres)",
+      b: "2533 Kg (669.22 litres)",
+      c: "2067 Kg (2616 litres)",
+    },
+    correct: "c",
+  },
+  {
+    id: 141,
+    category: "H175 ATA 28",
+    question: "Where is the Fuel Control Panel located?",
+    options: {
+      a: "On the cockpit console",
+      b: "On the inter-seat console",
+      c: "On the central warning panel",
+    },
+    correct: "b",
+  },
+  {
+    id: 142,
+    category: "H175 ATA 28",
+    question: "How many tanks does the EC175 basic fuel system comprise?",
+    options: { a: "Three", b: "Four", c: "Five" },
+    correct: "b",
+  },
+  {
+    id: 143,
+    category: "H175 ATA 28",
+    question:
+      "Which component is used to prevent fuel spillage through vent lines?",
+    options: {
+      a: "Pressure Relief Valve",
+      b: "Air No Fuel Valve",
+      c: "Roll Over Valve",
+    },
+    correct: "c",
+  },
+  {
+    id: 144,
+    category: "H175 ATA 28",
+    question: "Where is the ground pressure refueling system located?",
+    options: {
+      a: "Within the engines compartment",
+      b: "Beneath the cargo floor",
+      c: "Below the cabin floor",
+    },
+    correct: "c",
+  },
+  {
+    id: 145,
+    category: "H175 ATA 28",
+    question:
+      "Which component ensures automatic refueling stop during ground pressure refueling?",
+    options: {
+      a: "Float switch",
+      b: "Solenoid valve",
+      c: "Pressure relief valve",
+    },
+    correct: "b",
+  },
+  {
+    id: 146,
+    category: "H175 ATA 28",
+    question: "What is the function of the automatic vent valve?",
+    options: {
+      a: "To allow pressure refueling",
+      b: "To vent the fuel system",
+      c: "To control booster pumps",
+    },
+    correct: "b",
+  },
+  {
+    id: 147,
+    category: "H175 ATA 28",
+    question: "Where is the booster pump located for the LH feeder tank?",
+    options: {
+      a: "Inside the forward canister",
+      b: "Inside the rear canister",
+      c: "Inside the optional tank 6",
+    },
+    correct: "b",
+  },
+  {
+    id: 148,
+    category: "H175 ATA 28",
+    question:
+      "How many booster pumps are linked to each engine in the feeder tank?",
+    options: { a: "One", b: "Two", c: "Three" },
+    correct: "b",
+  },
+  {
+    id: 149,
+    category: "H175 ATA 28",
+    question: "What is the purpose of the jet pumps?",
+    options: {
+      a: "To transfer fuel to the engines",
+      b: "To drain fuel from tanks",
+      c: "To prevent fuel spillage",
+    },
+    correct: "a",
+  },
+  {
+    id: 150,
+    category: "H175 ATA 28",
+    question: "Where is the jet pump suction point located?",
+    options: {
+      a: "At the highest point of the tank",
+      b: "At the lowest point of the tank",
+      c: "At the middle of the tank",
+    },
+    correct: "b",
+  },
+  {
+    id: 151,
+    category: "H175 ATA 28",
+    question:
+      "How many hinged plugs are located on the upper interconnections inside the feeder tanks?",
+    options: { a: "One", b: "Two", c: "Three" },
+    correct: "b",
+  },
+  {
+    id: 152,
+    category: "H175 ATA 28",
+    question: "What is the purpose of the SOVs (Solenoid Operated Valves)?",
+    options: {
+      a: "To prevent booster pump failure",
+      b: "To control fuel supply",
+      c: "To monitor pressure",
+    },
+    correct: "b",
+  },
+  {
+    id: 153,
+    category: "H175 ATA 28",
+    question: "How is defueling accomplished via the pressure refueling port?",
+    options: {
+      a: "By opening the shut off valve",
+      b: "By activating the booster pumps",
+      c: "By using a suction defueling hose",
+    },
+    correct: "c",
+  },
+  {
+    id: 154,
+    category: "H175 ATA 28",
+    question: "What component ensures fuel drainage from the tanks?",
+    options: {
+      a: "Fuel bleeding pipe",
+      b: "Fuel pump canister",
+      c: "Flexible recess",
+    },
+    correct: "a",
+  },
+  {
+    id: 155,
+    category: "H175 ATA 28",
+    question: "Which tank is equipped with a gravity filler port?",
+    options: { a: "Tank 1", b: "Tank 2", c: "Tank 4" },
+    correct: "c",
+  },
+  {
+    id: 156,
+    category: "H175 ATA 28",
+    question: "What is the function of the roll-over valve?",
+    options: {
+      a: "To prevent overpressure",
+      b: "To prevent fuel spillage",
+      c: "To control fuel drainage",
+    },
+    correct: "b",
+  },
+  {
+    id: 157,
+    category: "H175 ATA 28",
+    question: "How many vent boxes are installed in the venting system?",
+    options: { a: "Two", b: "Three", c: "Four" },
+    correct: "c",
+  },
+  {
+    id: 158,
+    category: "H175 ATA 28",
+    question: "Where are the air-no-fuel valves installed?",
+    options: {
+      a: "At the highest point of the air venting lines",
+      b: "At the lowest point of the tanks",
+      c: "At the end of each air venting line",
+    },
+    correct: "a",
+  },
+  {
+    id: 159,
+    category: "H175 ATA 28",
+    question: "What is the purpose of the pressure relief valve?",
+    options: {
+      a: "To prevent tank blowing",
+      b: "To control booster pumps",
+      c: "To activate fuel drainage",
+    },
+    correct: "a",
+  },
+  {
+    id: 160,
+    category: "H175 ATA 28",
+    question: "Where is the ground pressure refueling system located?",
+    options: {
+      a: "Within the engines compartment",
+      b: "Beneath the cargo floor",
+      c: "Below the cabin floor",
+    },
+    correct: "c",
+  },
+  {
+    id: 161,
+    category: "H175 ATA 28",
+    question:
+      "What component ensures automatic refueling stop during ground pressure refueling?",
+    options: {
+      a: "Float switch",
+      b: "Solenoid valve",
+      c: "Pressure relief valve",
+    },
+    correct: "b",
+  },
+  {
+    id: 162,
+    category: "H175 ATA 28",
+    question: "What is the function of the automatic vent valve?",
+    options: {
+      a: "To allow pressure refueling",
+      b: "To vent the fuel system",
+      c: "To control booster pumps",
+    },
+    correct: "b",
+  },
+  {
+    id: 163,
+    category: "H175 ATA 28",
+    question: "Where is the booster pump located for the LH feeder tank?",
+    options: {
+      a: "Inside the forward canister",
+      b: "Inside the rear canister",
+      c: "Inside the optional tank 6",
+    },
+    correct: "b",
+  },
+  {
+    id: 164,
+    category: "H175 ATA 28",
+    question:
+      "How many booster pumps are linked to each engine in the feeder tank?",
+    options: { a: "One", b: "Two", c: "Three" },
+    correct: "b",
+  },
+  {
+    id: 165,
+    category: "H175 ATA 28",
+    question: "What is the purpose of the jet pumps?",
+    options: {
+      a: "To transfer fuel to the engines",
+      b: "To drain fuel from tanks",
+      c: "To prevent fuel spillage",
+    },
+    correct: "a",
+  },
+
+  {
+    id: 139,
+    category: "H175 ATA 28",
+    question: "What is the primary function of the Fuel Monitoring System?",
+    options: {
+      a: "Indicate the remaining quantity of fuel",
+      b: "Measure the fuel temperature",
+      c: "Control the booster pumps",
+    },
+    correct: "a",
+  },
+  {
+    id: 140,
+    category: "H175 ATA 28",
+    question: "What does the Fuel Control System primarily control?",
+    options: {
+      a: "The fuel temperature",
+      b: "The booster pumps",
+      c: "The pressure refuelling/defuelling",
+    },
+    correct: "b",
+  },
+  {
+    id: 141,
+    category: "H175 ATA 28",
+    question:
+      "How many fuel probes are included in the Fuel Monitoring System?",
+    options: { a: "Two", b: "Three", c: "Four" },
+    correct: "c",
+  },
+  {
+    id: 142,
+    category: "H175 ATA 28",
+    question: "Where are the Low Level Sensors (LLS) installed?",
+    options: {
+      a: "Only on the fuel probe of the feeder tanks",
+      b: "Only on the temperature sensors",
+      c: "Only on the fuel probe of the auxiliary tanks",
+    },
+    correct: "a",
+  },
+  {
+    id: 143,
+    category: "H175 ATA 28",
+    question: "Where are the temperature sensors installed?",
+    options: {
+      a: "On the mounting plate of the feeder tanks",
+      b: "On the mounting plate of the auxiliary tanks",
+      c: "On the mounting plate of the rear tank",
+    },
+    correct: "a",
+  },
+  {
+    id: 144,
+    category: "H175 ATA 28",
+    question: "Where are the booster pump switches located?",
+    options: {
+      a: "On the fuel probe",
+      b: "On the engine control panel",
+      c: "On the fuel control panel",
+    },
+    correct: "c",
+  },
+  {
+    id: 145,
+    category: "H175 ATA 28",
+    question:
+      "Where is the float switch and solenoid valve of the pressure refuelling system installed?",
+    options: {
+      a: "On the mounting plate of the feeder tanks",
+      b: "On the additional tank 4",
+      c: "On the engine control panel",
+    },
+    correct: "b",
+  },
+  {
+    id: 146,
+    category: "H175 ATA 28",
+    question: "Where are the SOV switches located?",
+    options: {
+      a: "On the fuel probe",
+      b: "On the engine control panel",
+      c: "On the fuel control panel",
+    },
+    correct: "b",
+  },
+  {
+    id: 147,
+    category: "H175 ATA 28",
+    question:
+      "What information is displayed on the 'Fuel page' of the Vehicle Monitoring Display (VMD)?",
+    options: {
+      a: "Fuel temperature",
+      b: "Remaining flight time",
+      c: "Fuel quantity",
+    },
+    correct: "c",
+  },
+  {
+    id: 148,
+    category: "H175 ATA 28",
+    question: "Where are the fuel gauges installed?",
+    options: {
+      a: "On the fuel probes",
+      b: "On the mounting plate of the rear tank",
+      c: "On the mounting plate of the feeder tanks",
+    },
+    correct: "c",
+  },
+  {
+    id: 149,
+    category: "H175 ATA 28",
+    question: "What is the fuel colour coding indicating?",
+    options: {
+      a: "Normal conditions",
+      b: "Engine fire",
+      c: "Low fuel pressure",
+    },
+    correct: "a",
+  },
+  {
+    id: 150,
+    category: "H175 ATA 28",
+    question: "What does the FUEL TREND message indicate?",
+    options: {
+      a: "Low fuel level",
+      b: "Normal fuel conditions",
+      c: "Fuel gauge failure",
+    },
+    correct: "b",
+  },
+  {
+    id: 151,
+    category: "H175 ATA 28",
+    question: "What happens in the event of one booster pump failure?",
+    options: {
+      a: "Loss of pressurization for engine fuel supply",
+      b: "No effect on engine fuel supply",
+      c: "Engine stops running",
+    },
+    correct: "b",
+  },
+  {
+    id: 152,
+    category: "H175 ATA 28",
+    question:
+      "What is the operational consequence of two booster pumps failure?",
+    options: {
+      a: "Engine fire",
+      b: "Loss of motive flow for corresponding jet pumps",
+      c: "Engine stops running",
+    },
+    correct: "b",
+  },
+  {
+    id: 153,
+    category: "H175 ATA 28",
+    question:
+      "How are gauge failures during ground pressure refuelling (GPR) handled?",
+    options: {
+      a: "Refuelling stops automatically",
+      b: "Refuelling continues with estimated values",
+      c: "Refuelling continues normally",
+    },
+    correct: "b",
+  },
+  {
+    id: 154,
+    category: "H175 ATA 28",
+    question:
+      "What happens if the pressure solenoid valve fails during ground pressure refuelling (GPR)?",
+    options: {
+      a: "Refuelling stops automatically",
+      b: "Fuel spills outside of the helicopter",
+      c: "Refuelling continues normally",
+    },
+    correct: "c",
+  },
+  {
+    id: 155,
+    category: "H175 ATA 28",
+    question:
+      "What is the consequence of float switch failure during ground pressure refuelling (GPR)?",
+    options: {
+      a: "Fuel spills outside of the helicopter",
+      b: "Refuelling stops automatically",
+      c: "Refuelling continues normally",
+    },
+    correct: "a",
+  },
+  {
+    id: 156,
+    category: "H175 ATA 28",
+    question: "What does the 'FUEL GAUGING' message indicate?",
+    options: {
+      a: "Fuel gauge failure",
+      b: "Low fuel pressure",
+      c: "Normal fuel conditions",
+    },
+    correct: "a",
+  },
+  {
+    id: 157,
+    category: "H175 ATA 28",
+    question: "What is the indication of a fuel leakage from Feeder Tank 3?",
+    options: {
+      a: "Loss of pressurization",
+      b: "Abnormal fuel consumption",
+      c: "Fuel temperature increase",
+    },
+    correct: "b",
+  },
+  {
+    id: 158,
+    category: "H175 ATA 28",
+    question: "What is the procedure in case of engine No.1 fire?",
+    options: {
+      a: "Activate the RH fuel SOV",
+      b: "Activate the LH fuel SOV",
+      c: "Activate both fuel SOVs",
+    },
+    correct: "b",
+  },
+  {
+    id: 159,
+    category: "H175 ATA 28",
+    question: "Where is the pressure refuelling port located?",
+    options: {
+      a: "On the mounting plate of the feeder tanks",
+      b: "On the rear tank",
+      c: "On the engine control panel",
+    },
+    correct: "b",
+  },
+  {
+    id: 160,
+    category: "H175 ATA 28",
+    question:
+      "What is the role of the float switch in the pressure refuelling system?",
+    options: {
+      a: "To control the booster pumps",
+      b: "To indicate low fuel level",
+      c: "To stop the refuelling sequence",
+    },
+    correct: "c",
+  },
+  {
+    id: 161,
+    category: "H175 ATA 28",
+    question: "Where is the pressure relief valve located?",
+    options: {
+      a: "On the mounting plate of the feeder tanks",
+      b: "On the additional tank 4",
+      c: "On the engine control panel",
+    },
+    correct: "b",
+  },
+  {
+    id: 162,
+    category: "H175 ATA 28",
+    question:
+      "What does the 'RFUE ABORTED' message indicate during ground pressure refuelling (GPR)?",
+    options: {
+      a: "Gauge failure",
+      b: "Solenoid valve failure",
+      c: "Pressure refuelling aborted",
+    },
+    correct: "c",
+  },
+  {
+    id: 163,
+    category: "H175 ATA 28",
+    question:
+      "What is the response to the 'RFUE FAILURE' message during ground pressure refuelling (GPR)?",
+    options: {
+      a: "Refuelling continues normally",
+      b: "Refuelling stops automatically",
+      c: "Gauge failure",
+    },
+    correct: "b",
+  },
+  {
+    id: 164,
+    category: "H175 ATA 28",
+    question:
+      "What is the role of the non-return valve in the booster pump system?",
+    options: {
+      a: "To control fuel pressure",
+      b: "To avoid fuel leakage",
+      c: "To maintain pressurization",
+    },
+    correct: "b",
+  },
+  {
+    id: 165,
+    category: "H175 ATA 28",
+    question: "Where are the jet pumps located?",
+    options: {
+      a: "On the mounting plate of the feeder tanks",
+      b: "On the rear tank",
+      c: "On the engine control panel",
+    },
+    correct: "b",
+  },
+  {
+    id: 167,
+    category: "H175 ATA 21",
+    question:
+      "What is the primary purpose of the Environmental Control System (ECS) and Optional Air Conditioning System (ACS) in the EC175 helicopter?",
+    options: {
+      a: "To control the aircraft's altitude",
+      b: "To regulate the cabin and cockpit temperature and humidity",
+      c: "To adjust the helicopter's speed",
+    },
+    correct: "b",
+  },
+  {
+    id: 168,
+    category: "H175 ATA 21",
+    question:
+      "Which components of the ECS provide cockpit and cabin ventilation, distribution, and heating?",
+    options: {
+      a: "Cockpit Distribution Box",
+      b: "Cabin Compact Set (CaCS)",
+      c: "P3 Bleed Air System",
+    },
+    correct: "b",
+  },
+  {
+    id: 169,
+    category: "H175 ATA 21",
+    question:
+      "What is the function of the Air Conditioning System (ACS) in the EC175?",
+    options: {
+      a: "To provide cabin and cockpit lighting",
+      b: "To provide cooling air for the cabin and cockpit",
+      c: "To supply oxygen to the cockpit",
+    },
+    correct: "b",
+  },
+  {
+    id: 170,
+    category: "H175 ATA 21",
+    question:
+      "How many compressors are used in the Air Conditioning System (ACS) of the EC175, and what are their roles?",
+    options: {
+      a: "One for the cabin and one for the cockpit",
+      b: "Two for the cockpit",
+      c: "Three for the cabin",
+    },
+    correct: "a",
+  },
+  {
+    id: 171,
+    category: "H175 ATA 21",
+    question:
+      "What happens if the MGB oil temperature exceeds 95°C in the EC175?",
+    options: {
+      a: "The air conditioning system shuts down",
+      b: "The cockpit compressor is turned off to prioritize cooling the MGB",
+      c: "The cabin ventilation is increased",
+    },
+    correct: "b",
+  },
+  {
+    id: 172,
+    category: "H175 ATA 21",
+    question:
+      "In the event of a LH Cockpit Fan failure in the EC175, what happens to the cockpit RECIRC command?",
+    options: {
+      a: "It is automatically activated",
+      b: "It is inhibited",
+      c: "It remains unchanged",
+    },
+    correct: "b",
+  },
+  {
+    id: 173,
+    category: "H175 ATA 21",
+    question:
+      "How does the system respond to a refrigerant leak in the cockpit system of the EC175?",
+    options: {
+      a: "The cockpit cooling is deactivated",
+      b: "The cabin cooling is activated",
+      c: "The system shuts down completely",
+    },
+    correct: "a",
+  },
+  {
+    id: 174,
+    category: "H175 ATA 21",
+    question:
+      "What action does the system take if the refrigerant temperature exceeds 120°C in the cockpit of the EC175?",
+    options: {
+      a: "The system switches to cabin cooling",
+      b: "The cockpit compressor is turned off",
+      c: "The cabin temperature is increased",
+    },
+    correct: "b",
+  },
+  {
+    id: 175,
+    category: "H175 ATA 21",
+    question:
+      "What components make up the Environmental Control System (ECS) of the EC175?",
+    options: {
+      a: "Two Cabin Distribution Boxes",
+      b: "Two Cockpit Compact Sets (CoCS)",
+      c: "One Cabin Air Conditioning Control Panel (CP)",
+    },
+    correct: "b",
+  },
+  {
+    id: 176,
+    category: "H175 ATA 21",
+    question:
+      "Where is the Inside Air Temperature (IAT) probe located in the EC175 cockpit?",
+    options: {
+      a: "On the overhead panel behind the rotor brake handle",
+      b: "Under the co-pilot flooring",
+      c: "On the passenger forward left window surround",
+    },
+    correct: "a",
+  },
+  {
+    id: 177,
+    category: "H175 ATA 21",
+    question:
+      "What is the function of the P3 Shut-Off Valves and Cross Check Valve in the ECS of the EC175?",
+    options: {
+      a: "To control the fuel flow",
+      b: "To regulate cabin and cockpit pressure",
+      c: "To supply warm P3 air for heating",
+    },
+    correct: "c",
+  },
+  {
+    id: 178,
+    category: "H175 ATA 21",
+    question:
+      "Where is the Cabin Inside Air Temperature (IAT) probe located in the EC175?",
+    options: {
+      a: "On the overhead panel behind the rotor brake handle",
+      b: "Under the co-pilot flooring",
+      c: "On the passenger forward left window surround",
+    },
+    correct: "c",
+  },
+  {
+    id: 179,
+    category: "H175 ATA 21",
+    question:
+      "What happens when the RECIRC push-button is selected to OFF in the cabin of the EC175?",
+    options: {
+      a: "External air is directed into the cabin",
+      b: "Recirculation of cabin air is activated",
+      c: "The system shuts down",
+    },
+    correct: "a",
+  },
+  {
+    id: 180,
+    category: "H175 ATA 21",
+    question:
+      "How does the system respond to a LH Cabin Fan failure in the EC175?",
+    options: {
+      a: "The cabin cooling is deactivated",
+      b: "The cabin ventilation is increased",
+      c: "The system shuts down",
+    },
+    correct: "b",
+  },
+  {
+    id: 181,
+    category: "H175 ATA 21",
+    question:
+      "In the event of a refrigerant leak in the cabin system of the EC175, what action is taken?",
+    options: {
+      a: "The cabin cooling is deactivated",
+      b: "The system switches to cockpit cooling",
+      c: "The system shuts down completely",
+    },
+    correct: "a",
+  },
+  {
+    id: 182,
+    category: "H175 ATA 21",
+    question:
+      "What happens if the refrigerant temperature exceeds 120°C in the cabin of the EC175?",
+    options: {
+      a: "The cabin cooling is deactivated",
+      b: "The cabin compressor is turned off",
+      c: "The system switches to cockpit cooling",
+    },
+    correct: "b",
+  },
+  {
+    id: 183,
+    category: "H175 ATA 21",
+    question: "How many recirculation fans are installed in the EC175?",
+    options: { a: "Three", b: "One", c: "Two" },
+    correct: "c",
+  },
+  {
+    id: 184,
+    category: "H175 ATA 21",
+    question:
+      "What is the function of the Air Conditioning Control Panel (CP) in the EC175?",
+    options: {
+      a: "To supply warm air for heating",
+      b: "To regulate cabin and cockpit temperature",
+      c: "To control the oxygen flow",
+    },
+    correct: "b",
+  },
+  {
+    id: 185,
+    category: "H175 ATA 21",
+    question:
+      "What action is taken to engage the automatic mode in the Environmental Control System (ECS) of the EC175 helicopter?",
+    options: {
+      a: "Depress the AUTO push-button",
+      b: "Depress the RECIRC push-button",
+      c: "Depress the FAN SPEED selector",
+    },
+    correct: "a",
+  },
+  {
+    id: 186,
+    category: "H175 ATA 21",
+    question:
+      "In the EC175, how can the automatic mode in the ECS be deactivated?",
+    options: {
+      a: "Depress the AUTO push-button again",
+      b: "Depress the DESIRED T° push-button",
+      c: "Turn the FAN SPEED selector",
+    },
+    correct: "a",
+  },
+  {
+    id: 187,
+    category: "H175 ATA 21",
+    question:
+      "What is the indication of selecting the Cabin Lo Mode (T°<10°C) on the control panel of the EC175?",
+    options: {
+      a: "The 'HI' light illuminates",
+      b: "The 'LO' light illuminates",
+      c: "Three green bars appear on the fan indication",
+    },
+    correct: "b",
+  },
+  {
+    id: 188,
+    category: "H175 ATA 21",
+    question:
+      "In the EC175, what happens when the Cabin Lo Mode (T°<10°C) is selected?",
+    options: {
+      a: "The cabin inlet actuators move to the 'RECIRC' position",
+      b: "The cabin outlet actuator moves to the direct ventilation position",
+      c: "The P3 SOVs open for bleed air supply",
+    },
+    correct: "a",
+  },
+  {
+    id: 189,
+    category: "H175 ATA 21",
+    question:
+      "What is the procedure to perform an ECS Power-Up Test in the EC175?",
+    options: {
+      a: "Depress the AUTO push-button",
+      b: "Turn the FAN SPEED selector",
+      c: "Turn on aircraft power",
+    },
+    correct: "c",
+  },
+  {
+    id: 190,
+    category: "H175 ATA 22",
+    question: "What type of actuators are SEMA actuators?",
+    options: {
+      a: "Series actuators",
+      b: "Parallel actuators",
+      c: "Smart Electro-Mechanical Actuators",
+    },
+    correct: "c",
+  },
+  {
+    id: 191,
+    category: "H175 ATA 22",
+    question: "Where are the trim actuators located on the EC175?",
+    options: {
+      a: "Under the cockpit floor on the pilot's side",
+      b: "In the cockpit ceiling on the pilot's side",
+      c: "Behind the pylon deck of the tail boom",
+    },
+    correct: "a",
+  },
+  {
+    id: 192,
+    category: "H175 ATA 22",
+    question: "What are the two types of actuators fitted to the aircraft?",
+    options: {
+      a: "SEMA and AMC",
+      b: "Trim Actuators and SEMA",
+      c: "AFCSU and APCP",
+    },
+    correct: "b",
+  },
+  {
+    id: 193,
+    category: "H175 ATA 22",
+    question:
+      "Where is the Auto Flight Control Switching Unit (AFCSU) located?",
+    options: {
+      a: "Under the cockpit floor on the pilot's side",
+      b: "In the cockpit ceiling on the pilot's side",
+      c: "In the centre of the inter seat console",
+    },
+    correct: "a",
+  },
+  {
+    id: 194,
+    category: "H175 ATA 22",
+    question:
+      "Which AFCS partition is the master processing unit under normal conditions?",
+    options: { a: "AMC1", b: "AMC2", c: "IESI" },
+    correct: "b",
+  },
+  {
+    id: 195,
+    category: "H175 ATA 22",
+    question: "What is the main function of the AFCS?",
+    options: {
+      a: "Basic stabilisation only",
+      b: "Basic stabilisation and upper modes",
+      c: "Basic stabilisation and automatic landing",
+    },
+    correct: "b",
+  },
+  {
+    id: 196,
+    category: "H175 ATA 22",
+    question: "What does the AFCS use to provide it with attitude information?",
+    options: { a: "GPS", b: "Air Data Units (ADUs)", c: "TCAS" },
+    correct: "b",
+  },
+  {
+    id: 197,
+    category: "H175 ATA 22",
+    question: "Where are the SEMA 1 & 2 ROLL actuators located?",
+    options: {
+      a: "Under the cockpit floor on the pilot's side",
+      b: "In the cockpit ceiling on the pilot's side",
+      c: "Behind the pylon deck of the tail boom",
+    },
+    correct: "b",
+  },
+  {
+    id: 198,
+    category: "H175 ATA 22",
+    question:
+      "What colour code indicates a degraded system or degraded functionality on the AFCS components?",
+    options: { a: "Red", b: "Green", c: "Amber" },
+    correct: "c",
+  },
+  {
+    id: 199,
+    category: "H175 ATA 22",
+    question:
+      "What happens to the SEMA actuators in the event that both AMC1 and AMC2 fail?",
+    options: {
+      a: "They are controlled by the back-up SAS",
+      b: "They continue normal operation",
+      c: "They are frozen",
+    },
+    correct: "a",
+  },
+  {
+    id: 200,
+    category: "H175 ATA 22",
+    question: "Where is the Auto Pilot Control Panel (APCP) located?",
+    options: {
+      a: "Under the cockpit floor on the pilot's side",
+      b: "In the cockpit ceiling on the pilot's side",
+      c: "In the centre of the inter seat console",
+    },
+    correct: "c",
+  },
+  {
+    id: 201,
+    category: "H175 ATA 22",
+    question:
+      "What colour code indicates normal or engaged status on the AFCS components?",
+    options: { a: "Green", b: "Red", c: "Amber" },
+    correct: "a",
+  },
+  {
+    id: 202,
+    category: "H175 ATA 22",
+    question: "What does the AFCSU relay box do?",
+    options: {
+      a: "Controls the autopilot",
+      b: "Provides attitude information",
+      c: "Controls SEMA commands selection",
+    },
+    correct: "c",
+  },
+  {
+    id: 203,
+    category: "H175 ATA 22",
+    question:
+      "How are the trim actuators connected to the mechanical flight controls?",
+    options: {
+      a: "Via wireless transducer technology",
+      b: "Through digital data buses",
+      c: "Via rotating output shafts",
+    },
+    correct: "c",
+  },
+  {
+    id: 204,
+    category: "H175 ATA 22",
+    question:
+      "What colour code indicates a failed system or functionality lost on the AFCS components?",
+    options: { a: "Red", b: "Green", c: "Grey" },
+    correct: "a",
+  },
+  {
+    id: 205,
+    category: "H175 ATA 22",
+    question: "Where are the SEMA 1 & 2 PITCH actuators located?",
+    options: {
+      a: "Under the cockpit floor on the pilot's side",
+      b: "In the cockpit ceiling on the pilot's side",
+      c: "Behind the pylon deck of the tail boom",
+    },
+    correct: "b",
+  },
+  {
+    id: 206,
+    category: "H175 ATA 22",
+    question:
+      "What happens to the SEMA actuators in the event of an impact detected by the shock sensors associated with AMC2?",
+    options: {
+      a: "Power supply to AMC2 is cut",
+      b: "SEMA actuators are frozen",
+      c: "Power supply to AMC1 is cut",
+    },
+    correct: "a",
+  },
+  {
+    id: 207,
+    category: "H175 ATA 22",
+    question: "Where are the trim actuators located?",
+    options: {
+      a: "Under the cockpit floor on the pilot's side",
+      b: "In the cockpit ceiling on the pilot's side",
+      c: "Behind the pylon deck of the tail boom",
+    },
+    correct: "a",
+  },
+  {
+    id: 208,
+    category: "H175 ATA 22",
+    question: "What is the function of the IESI in the AFCS?",
+    options: {
+      a: "Back-up SAS mode",
+      b: "Controls SEMA commands selection",
+      c: "Provides attitude information",
+    },
+    correct: "a",
+  },
+  {
+    id: 209,
+    category: "H175 ATA 22",
+    question:
+      "Where is the backup Stabilisation Augmentation System (SAS) located?",
+    options: {
+      a: "Under the cockpit floor on the pilot's side",
+      b: "In the cockpit ceiling on the pilot's side",
+      c: "In the centre of the inter seat console",
+    },
+    correct: "a",
+  },
+  {
+    id: 211,
+    category: "Flight Control Systems",
+    question: "What is the purpose of the cyclic trim actuators?",
+    options: {
+      a: "To provide a force feel and anchoring point for the flight controls with AP ON or OFF.",
+      b: "To engage the autopilot and stabilize the aircraft.",
+      c: "To control the yaw axis during flight.",
+    },
+    correct: "a",
+  },
+  {
+    id: 212,
+    category: "Flight Control Systems",
+    question:
+      "Which function is performed by the trim release buttons on the cyclic stick grips?",
+    options: {
+      a: "Disengage the clutch of the cyclic trim actuators.",
+      b: "Activate the autopilot.",
+      c: "Control the pitch and roll axes manually.",
+    },
+    correct: "a",
+  },
+  {
+    id: 213,
+    category: "Flight Control Systems",
+    question:
+      "What happens when the beep trim switch is actuated on the cyclic stick grip?",
+    options: {
+      a: "The autopilot disengages.",
+      b: "The yaw trim actuator is engaged.",
+      c: "The associated trim actuator rotates, causing the anchor point and flight controls to move.",
+    },
+    correct: "c",
+  },
+  {
+    id: 214,
+    category: "Flight Control Systems",
+    question:
+      "In which mode are AFCS commands inhibited if either the pilot or co-pilot cyclic stick is moved?",
+    options: {
+      a: "Auto-Trim function",
+      b: "Fly Through mode",
+      c: "Override Detected",
+    },
+    correct: "c",
+  },
+  {
+    id: 215,
+    category: "Flight Control Systems",
+    question:
+      "What distinguishes the collective trim actuator from the cyclic trim actuators?",
+    options: {
+      a: "It has a manual beep function.",
+      b: "It contains a damping device.",
+      c: "It can be manually overridden by the pilots.",
+    },
+    correct: "c",
+  },
+  {
+    id: 216,
+    category: "Flight Control Systems",
+    question: "What type of actuator is the yaw trim actuator?",
+    options: {
+      a: "Electromagnetic actuator",
+      b: "Friction type actuator",
+      c: "Hydraulic actuator",
+    },
+    correct: "b",
+  },
+  {
+    id: 217,
+    category: "Flight Control Systems",
+    question: "How is AFCS data sent to the Multi-Functional Displays (MFDs)?",
+    options: {
+      a: "Via one ARINC 429 line from AFCS Channel A and one ARINC 429 line from AFCS Channel B.",
+      b: "Via one ARINC 429 line from AFCS Channel A and two ARINC 429 lines from AFCS Channel B.",
+      c: "Via two ARINC 429 lines from AFCS Channel A and one ARINC 429 line from AFCS Channel B.",
+    },
+    correct: "b",
+  },
+  {
+    id: 218,
+    category: "Flight Control Systems",
+    question: "What occurs during the AFCS self-test at aircraft power on?",
+    options: {
+      a: "The AFCS will engage automatically.",
+      b: "The SEMAs and AFCS partitions will perform initial internal tests.",
+      c: "The actuators and AFCS sensors will be tested, and SEMAs will recentre.",
+    },
+    correct: "c",
+  },
+  {
+    id: 219,
+    category: "Flight Control Systems",
+    question: "How is the AFCS engaged?",
+    options: {
+      a: "By pressing the ALT mode button on the APCP.",
+      b: "By pressing the AP1 or AP2 pushbuttons on the APCP or AP Recovery pushbutton on the cyclic stick grip.",
+      c: "By pressing the Fast Cut-out switch on either cyclic stick grip.",
+    },
+    correct: "b",
+  },
+  {
+    id: 220,
+    category: "Flight Control Systems",
+    question: "What happens if the backup SAS is engaged?",
+    options: {
+      a: "The AP1 and AP2 OFF lights will illuminate.",
+      b: "The IESI will take control of SEMA1 actuators only.",
+      c: "The AFCS will disengage automatically.",
+    },
+    correct: "b",
+  },
+  {
+    id: 221,
+    category: "Flight Control Systems",
+    question: "What are the prerequisites for engaging an upper mode?",
+    options: {
+      a: "Basic stabilisation with long-term attitude retention (ATT mode).",
+      b: "Completion of the pre-flight test.",
+      c: "AFCS disengagement.",
+    },
+    correct: "a",
+  },
+  {
+    id: 222,
+    category: "Flight Control Systems",
+    question:
+      "What is the default master side for selecting navigation source?",
+    options: {
+      a: "No. 1",
+      b: "No. 2",
+      c: "No. 3",
+    },
+    correct: "b",
+  },
+  {
+    id: 223,
+    category: "Flight Control Systems",
+    question: "What does the fly-through annunciation indicate?",
+    options: {
+      a: "A successful autopilot engagement.",
+      b: "An inadvertent fly-through of an upper mode.",
+      c: "A malfunction in the flight control system.",
+    },
+    correct: "b",
+  },
+  {
+    id: 224,
+    category: "H175 ATA 22",
+    question:
+      "What mode holds the current barometric altitude at the moment of engagement?",
+    options: {
+      a: "Altitude Hold Mode (ALT)",
+      b: "Vertical Speed Hold Mode (V/S)",
+      c: "Altitude Acquisition Mode (ALT.A)",
+    },
+    correct: "a",
+  },
+  {
+    id: 225,
+    category: "H175 ATA 22",
+    question:
+      "At what airspeed threshold does the ALT mode operate in the pitch axis?",
+    options: { a: "Above 65 kts", b: "Below 60 kts", c: "Between 60-65 kts" },
+    correct: "a",
+  },
+  {
+    id: 226,
+    category: "H175 ATA 22",
+    question: "How can the ALT mode be engaged?",
+    options: {
+      a: "By pressing the V/S rotary switch on the APCP",
+      b: "By pressing the ALT pushbutton on the APCP",
+      c: "By pressing the Go Around button on the cyclic stick grips",
+    },
+    correct: "b",
+  },
+  {
+    id: 227,
+    category: "H175 ATA 22",
+    question: "What action will not change the altitude reference in ALT mode?",
+    options: {
+      a: "Pressing the ALT pushbutton",
+      b: "Adjusting the altitude reference using the beep trim switches",
+      c: "Fly through action",
+    },
+    correct: "c",
+  },
+  {
+    id: 228,
+    category: "H175 ATA 22",
+    question:
+      "Which mode either maintains the current vertical speed or acquires and holds a pre-set vertical speed?",
+    options: {
+      a: "Altitude Hold Mode (ALT)",
+      b: "Vertical Speed Hold Mode (V/S)",
+      c: "Altitude Acquisition Mode (ALT.A)",
+    },
+    correct: "b",
+  },
+  {
+    id: 229,
+    category: "H175 ATA 22",
+    question:
+      "Under what condition does the V/S mode operate on the pitch axis?",
+    options: {
+      a: "If the airspeed is below 60 kts",
+      b: "If the airspeed is above 65 kts",
+      c: "If the airspeed is between 60-65 kts",
+    },
+    correct: "b",
+  },
+  {
+    id: 230,
+    category: "H175 ATA 22",
+    question: "How can the V/S mode be engaged?",
+    options: {
+      a: "By pressing the ALT pushbutton on the APCP",
+      b: "By pressing the V/S rotary switch on the APCP",
+      c: "By pressing the Go Around button on the cyclic stick grips",
+    },
+    correct: "b",
+  },
+  {
+    id: 231,
+    category: "H175 ATA 22",
+    question:
+      "What action will have no effect on the V/S reference in V/S mode?",
+    options: {
+      a: "Adjusting the V/S reference using the V/S rotary switch",
+      b: "Fly through action",
+      c: "Adjusting the vertical speed using the beep trim switches",
+    },
+    correct: "b",
+  },
+  {
+    id: 232,
+    category: "H175 ATA 22",
+    question: "Which mode acquires and holds a pre-set altitude?",
+    options: {
+      a: "Altitude Hold Mode (ALT)",
+      b: "Vertical Speed Hold Mode (V/S)",
+      c: "Altitude Acquisition Mode (ALT.A)",
+    },
+    correct: "c",
+  },
+  {
+    id: 233,
+    category: "H175 ATA 22",
+    question: "What condition must be met for ALT.A mode to engage?",
+    options: {
+      a: "The pre-set altitude must be within 300 ft of the current altitude",
+      b: "The pre-set altitude must be more than 300 ft from the current altitude",
+      c: "The pre-set altitude must be the same as the current altitude",
+    },
+    correct: "b",
+  },
+  {
+    id: 234,
+    category: "H175 ATA 22",
+    question: "How can the ALT.A mode be engaged?",
+    options: {
+      a: "By pressing the ALT pushbutton on the APCP",
+      b: "By pressing the Go Around button on the cyclic stick grips",
+      c: "By pressing the ALTA rotary switch on the APCP",
+    },
+    correct: "c",
+  },
+  {
+    id: 235,
+    category: "H175 ATA 22",
+    question: "What does the ALT.A arrival point aid the crew with?",
+    options: {
+      a: "To estimate the aircraft's position at the end of the altitude transition",
+      b: "To indicate the current altitude",
+      c: "To adjust the reference altitude",
+    },
+    correct: "a",
+  },
+  {
+    id: 236,
+    category: "H175 ATA 22",
+    question: "In ALT.A mode, how is the reference adjusted when below 500 ft?",
+    options: {
+      a: "By turning the ALT.A rotary knob on the APCP",
+      b: "By longitudinal actions on the beep trim switches",
+      c: "By pressing the ALTA rotary switch",
+    },
+    correct: "a",
+  },
+  {
+    id: 237,
+    category: "H175 ATA 22",
+    question:
+      "Which mode acquires and holds the selected glideslope for an approach?",
+    options: {
+      a: "Flight Path Angle Mode (FPA)",
+      b: "Glideslope Mode (G/S)",
+      c: "Altitude Acquisition Mode (ALT.A)",
+    },
+    correct: "b",
+  },
+  {
+    id: 238,
+    category: "H175 ATA 22",
+    question:
+      "At what airspeed threshold does the G/S mode operate in the pitch axis?",
+    options: { a: "Above 65 kts", b: "Below 60 kts", c: "Between 60-65 kts" },
+    correct: "a",
+  },
+  {
+    id: 239,
+    category: "H175 ATA 22",
+    question: "How can the G/S mode be armed?",
+    options: {
+      a: "By pressing the V/S rotary switch on the APCP",
+      b: "By pressing the Go Around button on the cyclic stick grips",
+      c: "By selecting the ILS as the navigation source and pressing the CPL LSK on the MFD",
+    },
+    correct: "c",
+  },
+  {
+    id: 240,
+    category: "H175 ATA 22",
+    question: "What action will disarm or decouple the G/S mode only?",
+    options: {
+      a: "Pressing the IAS rotary switch on the APCP",
+      b: "Pressing the DISARM LSK on the MFD",
+      c: "Pressing the ALT pushbutton on the APCP",
+    },
+    correct: "b",
+  },
+  {
+    id: 241,
+    category: "H175 ATA 22",
+    question:
+      "Which mode maintains the current ground slope reference or acquires and holds a pre-set ground slope reference?",
+    options: {
+      a: "Flight Path Angle Mode (FPA)",
+      b: "Glideslope Mode (G/S)",
+      c: "Ground Trajectory Command Mode (GTC)",
+    },
+    correct: "a",
+  },
+  {
+    id: 242,
+    category: "H175 ATA 22",
+    question:
+      "At what airspeed threshold does the FPA mode operate on the pitch axis?",
+    options: { a: "Above 65 kts", b: "Below 60 kts", c: "Between 60-65 kts" },
+    correct: "a",
+  },
+  {
+    id: 243,
+    category: "H175 ATA 22",
+    question: "How can the FPA mode be engaged?",
+    options: {
+      a: "By pressing the V/S rotary switch on the APCP",
+      b: "By selecting the HDG_VS/TRK_FPA switch to TRK_FPA and engaging the Go Around mode",
+      c: "By pressing the ALT pushbutton on the APCP",
+    },
+    correct: "b",
+  },
+  {
+    id: 244,
+    category: "H175 ATA 22",
+    question:
+      "Which navigation format displays the reference as a course indication to the next waypoint?",
+    options: { a: "HSI format", b: "HSO format", c: "SCT format" },
+    correct: "a",
+  },
+  {
+    id: 245,
+    category: "H175 ATA 22",
+    question:
+      "What color is the course deviation pointer displayed in when the APP mode is captured?",
+    options: { a: "Red", b: "Green", c: "Cyan" },
+    correct: "b",
+  },
+  {
+    id: 246,
+    category: "H175 ATA 22",
+    question: "How is the APP mode indicated on the AFCS strip when armed?",
+    options: { a: "APP", b: "ROLL", c: "NAV" },
+    correct: "a",
+  },
+  {
+    id: 247,
+    category: "H175 ATA 22",
+    question:
+      "Under what circumstances does the V.APP mode operate on the pitch axis?",
+    options: {
+      a: "When the airspeed is below 60 kts",
+      b: "When the IAS or GTC modes are coupled",
+      c: "When the airspeed is greater than 65 kts and the IAS and GTC modes are not coupled",
+    },
+    correct: "c",
+  },
+  {
+    id: 248,
+    category: "H175 ATA 22",
+    question: "What conditions must be met to engage the V.APP mode?",
+    options: {
+      a: "Airspeed above 40 kts",
+      b: "FMS GPS or SBAS selected as navigation source",
+      c: "Armed together with the APP mode",
+    },
+    correct: "c",
+  },
+  {
+    id: 249,
+    category: "H175 ATA 22",
+    question: "At what point is the V.APP mode automatically armed?",
+    options: {
+      a: "Final Approach Fix (FAF)",
+      b: "Initial Fix (IF)",
+      c: "Intermediate Fix (IF)",
+    },
+    correct: "c",
+  },
+  {
+    id: 250,
+    category: "H175 ATA 22",
+    question:
+      "What color is the navigation source information displayed in once the mode is coupled?",
+    options: { a: "Red", b: "Green", c: "Cyan" },
+    correct: "b",
+  },
+  {
+    id: 251,
+    category: "H175 ATA 22",
+    question:
+      "Where is the vertical deviation of the V.APP mode displayed on the FND?",
+    options: {
+      a: "Right side of the compass rose",
+      b: "Left side of the compass rose",
+      c: "Center of the compass rose",
+    },
+    correct: "b",
+  },
+  {
+    id: 252,
+    category: "H175 ATA 22",
+    question:
+      "How is the V.APP mode indicated on the AFCS strip when captured?",
+    options: { a: "ROLL", b: "NAV", c: "V.APP" },
+    correct: "c",
+  },
+  {
+    id: 253,
+    category: "H175 ATA 22",
+    question:
+      "What mode combines the lateral and vertical approach modes along with airspeed reduction along a computed path?",
+    options: {
+      a: "Offshore Approach Mode (APP, V.APP)",
+      b: "Automatic ACAS Mode (ACAS)",
+      c: "Loss Of Re-centring Information",
+    },
+    correct: "a",
+  },
+  {
+    id: 254,
+    category: "H175 ATA 22",
+    question: "At what point is the offshore approach mode armed?",
+    options: {
+      a: "2 minutes prior to reaching the Initial Approach Fix (IAF) point",
+      b: "3 minutes prior to reaching the IAF point",
+      c: "1 minute prior to reaching the IAF point",
+    },
+    correct: "b",
+  },
+  {
+    id: 255,
+    category: "H175 ATA 22",
+    question: "What happens to upper modes when both APs fail?",
+    options: {
+      a: "They remain operational",
+      b: "They are decoupled",
+      c: "They are lost along with basic stabilisation",
+    },
+    correct: "c",
+  },
+  {
+    id: 256,
+    category: "H175 ATA 22",
+    question: "What message is displayed when both APs fail?",
+    options: { a: "AUTOPILOT", b: "AP REDUNDANCY", c: "Loss Of Both APs" },
+    correct: "c",
+  },
+  {
+    id: 257,
+    category: "H175 ATA 22",
+    question:
+      "In the event of a single AP failure, what happens to upper modes?",
+    options: {
+      a: "They are lost along with basic stabilisation",
+      b: "They remain operational",
+      c: "They are decoupled",
+    },
+    correct: "b",
+  },
+  {
+    id: 258,
+    category: "H175 ATA 22",
+    question: "What happens when backup SAS is lost?",
+    options: {
+      a: "All upper modes are lost",
+      b: "Basic stabilisation is lost",
+      c: "Backup SAS is available",
+    },
+    correct: "b",
+  },
+  {
+    id: 259,
+    category: "H175 ATA 22",
+    question: "What occurs if all SEMAs in a single axis fail?",
+    options: {
+      a: "The affected axis is automatically disengaged",
+      b: "The system automatically reverts to dual-axis operation",
+      c: "The system continues to operate normally",
+    },
+    correct: "a",
+  },
+  {
+    id: 260,
+    category: "H175 ATA 22",
+    question: "What message is displayed when all SEMAs in a single axis fail?",
+    options: { a: "AP ACTUATOR", b: "AUTOPILOT", c: "AP REDUNDANCY" },
+    correct: "a",
+  },
+  {
+    id: 261,
+    category: "H175 ATA 22",
+    question:
+      "In the event of a trim actuator failure, what color is the trim actuator displayed in on the VMS-SYST page?",
+    options: { a: "Red", b: "Green", c: "Grey" },
+    correct: "c",
+  },
+  {
+    id: 262,
+    category: "H175 ATA 22",
+    question:
+      "What happens if the override detection fails on one trim actuator?",
+    options: {
+      a: "Auto trim function is disabled on the affected axis",
+      b: "The system automatically reverts to dual-axis operation",
+      c: "The system continues to operate normally",
+    },
+    correct: "a",
+  },
+  {
+    id: 263,
+    category: "H175 ATA 22",
+    question:
+      "What message is displayed in the event of a position feedback failure from a trim actuator?",
+    options: { a: "AP ACTUATOR", b: "AP TRIM OFF", c: "Loss Of Both APs" },
+    correct: "b",
+  },
+  {
+    id: 264,
+    category: "H175 ATA 22",
+    question: "What is the purpose of the AFCS maintenance mode?",
+    options: {
+      a: "To simulate flight conditions",
+      b: "For troubleshooting and testing LRUs",
+      c: "To engage autopilot functions",
+    },
+    correct: "b",
+  },
+  {
+    id: 265,
+    category: "H175 ATA 33",
+    question: "What is the purpose of the lighting system in the helicopter?",
+    options: {
+      a: "To provide lighting for passengers during the flight",
+      b: "To allow the helicopter operation by day and by night with comfort and safety",
+      c: "To indicate the helicopter's position to other aircraft",
+    },
+    correct: "b",
+  },
+  {
+    id: 266,
+    category: "H175 ATA 33",
+    question:
+      "Which of the following is not a component of the internal lighting system?",
+    options: {
+      a: "Cockpit lighting",
+      b: "Landing lights",
+      c: "Cabin lighting",
+    },
+    correct: "b",
+  },
+  {
+    id: 267,
+    category: "H175 ATA 33",
+    question:
+      "What is the purpose of the Helicopter Emergency Egress Lighting System (HEELS)?",
+    options: {
+      a: "To illuminate the cockpit during night flights",
+      b: "To provide lighting for the passengers in case of emergency evacuation",
+      c: "To indicate the helicopter's position during landing",
+    },
+    correct: "b",
+  },
+  {
+    id: 268,
+    category: "H175 ATA 33",
+    question:
+      "Which of the following is a component of the external lighting system?",
+    options: {
+      a: "Cabin lighting",
+      b: "Position lights",
+      c: "Cargo lighting",
+    },
+    correct: "b",
+  },
+  {
+    id: 269,
+    category: "H175 ATA 33",
+    question: "What is the function of the storm light?",
+    options: {
+      a: "To provide ambient lighting in the cockpit",
+      b: "To illuminate a specific portion of the instrument panel during stormy weather",
+      c: "To signal the helicopter's position to other aircraft",
+    },
+    correct: "b",
+  },
+  {
+    id: 270,
+    category: "H175 ATA 33",
+    question: "What is the purpose of the chart holders?",
+    options: {
+      a: "To store navigation charts",
+      b: "To provide ambient lighting in the cabin",
+      c: "To illuminate the cockpit during night flights",
+    },
+    correct: "a",
+  },
+  {
+    id: 271,
+    category: "H175 ATA 33",
+    question: "How are the flashlights powered?",
+    options: {
+      a: "By the helicopter's electrical network",
+      b: "By internal batteries",
+      c: "By solar panels",
+    },
+    correct: "b",
+  },
+  {
+    id: 272,
+    category: "H175 ATA 33",
+    question: "Where is the LH dome utility light Control Panel located?",
+    options: {
+      a: "On the overhead panel",
+      b: "On the LH cabin ceiling",
+      c: "On the inter-seat console",
+    },
+    correct: "b",
+  },
+  {
+    id: 273,
+    category: "H175 ATA 33",
+    question: "What controls the power supply of the LH dome utility light?",
+    options: {
+      a: "The Lighting Control Panel",
+      b: "The LH dome utility light Control Panel",
+      c: "The instrument panel",
+    },
+    correct: "b",
+  },
+  {
+    id: 274,
+    category: "H175 ATA 33",
+    question: "How is the storm light controlled?",
+    options: {
+      a: "Via the Lighting Control Panel",
+      b: "Via the instrument panel",
+      c: "Via the storm light Control Panel",
+    },
+    correct: "a",
+  },
+  {
+    id: 275,
+    category: "H175 ATA 33",
+    question: "What is the purpose of the signalization lights?",
+    options: {
+      a: "To provide illumination for the passengers",
+      b: "To indicate various warnings and cautions to the crew",
+      c: "To assist in landing the helicopter",
+    },
+    correct: "b",
+  },
+  {
+    id: 276,
+    category: "H175 ATA 33",
+    question: "Which bus bars supply power to the signalization lights?",
+    options: {
+      a: "ESS and NOSHED",
+      b: "SHED 1 and SHED 2",
+      c: "DBAT1 and DBAT2",
+    },
+    correct: "a",
+  },
+  {
+    id: 277,
+    category: "H175 ATA 33",
+    question: "How is the DAY/NIGHT management controlled?",
+    options: {
+      a: "Via the Lighting Control Panel",
+      b: "Via the signalization lights",
+      c: "Via the instrument panel",
+    },
+    correct: "a",
+  },
+  {
+    id: 278,
+    category: "H175 ATA 33",
+    question: "What happens if there is a loss of SHED 1 power supply?",
+    options: {
+      a: "Cabin lighting remains operational",
+      b: "Cabin lighting is lost",
+      c: "Cabin lighting is reduced",
+    },
+    correct: "b",
+  },
+  {
+    id: 279,
+    category: "H175 ATA 33",
+    question: "What does the emergency exit toggle switch control?",
+    options: {
+      a: "The landing lights",
+      b: "The cabin emergency lighting system",
+      c: "The cockpit lighting",
+    },
+    correct: "b",
+  },
+  {
+    id: 280,
+    category: "H175 ATA 33",
+    question: "Where is the Lighting Control Unit (LCU) located?",
+    options: {
+      a: "On the inter-seat console",
+      b: "On the overhead panel",
+      c: "On the LH cabin ceiling",
+    },
+    correct: "c",
+  },
+  {
+    id: 281,
+    category: "H175 ATA 33",
+    question: "What is the function of the Backup Battery Pack (BBP)?",
+    options: {
+      a: "To power the cockpit lighting",
+      b: "To power the emergency lights in case of loss of main generating system",
+      c: "To power the landing lights",
+    },
+    correct: "b",
+  },
+  {
+    id: 282,
+    category: "H175 ATA 33",
+    question: "How is the BBP activated?",
+    options: {
+      a: "By the Lighting Control Panel",
+      b: "By the storm light Control Panel",
+      c: "By AMC2 or WIS through LCUs",
+    },
+    correct: "c",
+  },
+  {
+    id: 283,
+    category: "H175 ATA 33",
+    question:
+      "What happens when the 'EMER EXIT' toggle switch is in the 'ON' position?",
+    options: {
+      a: "The emergency exit lights are illuminated",
+      b: "The landing lights are illuminated",
+      c: "The cockpit lighting is illuminated",
+    },
+    correct: "a",
+  },
+  {
+    id: 284,
+    category: "H175 ATA 33",
+    question: "What is the purpose of the LH and RH LCUs?",
+    options: {
+      a: "To control the cockpit lighting",
+      b: "To control the landing lights",
+      c: "To control the cabin lights, passengers signs, and Exterior Emergency Lights (EELs)",
+    },
+    correct: "c",
+  },
+  {
+    id: 285,
+    category: "H175 ATA 33",
+    question:
+      "What is the purpose of the Helicopter Emergency Egress Lighting System (HEELS)?",
+    options: {
+      a: "To localize crew and passengers emergency exits in the event of: Loss of the aircraft power supply system, Ditching, and to a depth of 50 feet for 10 minutes.",
+      b: "To provide lighting for passengers during the flight",
+      c: "To indicate the helicopter's position to other aircraft",
+    },
+    correct: "a",
+  },
+  {
+    id: 286,
+    category: "H175 ATA 33",
+    question:
+      "Is the Helicopter Emergency Egress Lighting System (HEELS) an optional part of the Emergency Exit Lighting system?",
+    options: {
+      a: "Yes",
+      b: "No",
+      c: "It depends on the helicopter model",
+    },
+    correct: "b",
+  },
+  {
+    id: 287,
+    category: "H175 ATA 33",
+    question:
+      "How many independent systems are there for the Helicopter Emergency Egress Lighting System (HEELS)?",
+    options: {
+      a: "One",
+      b: "Two",
+      c: "Three",
+    },
+    correct: "b",
+  },
+  {
+    id: 288,
+    category: "H175 ATA 33",
+    question:
+      "How are the RH and LH cabin Lighting Control Units (LCU) controlled?",
+    options: {
+      a: "Via analog signals",
+      b: "Via digital signals",
+      c: "Via discrete signals",
+    },
+    correct: "c",
+  },
+  {
+    id: 289,
+    category: "H175 ATA 33",
+    question:
+      "What sends the generators loss status discrete signal to the RH/LH cabin control units?",
+    options: {
+      a: "AMC1",
+      b: "AMC2",
+      c: "AMC3",
+    },
+    correct: "b",
+  },
+  {
+    id: 290,
+    category: "H175 ATA 33",
+    question:
+      "What sends the immersion status discrete signal to the RH/LH Control Units?",
+    options: {
+      a: "AMC1",
+      b: "AMC2",
+      c: "Water Immersion Sensor (WIS2)",
+    },
+    correct: "c",
+  },
+  {
+    id: 291,
+    category: "H175 ATA 33",
+    question:
+      "How are Cabin Helicopter Emergency Egress Lightings (HEEL) and markers powered?",
+    options: {
+      a: "Single power supplied",
+      b: "Double power supplied",
+      c: "Triple power supplied",
+    },
+    correct: "a",
+  },
+  {
+    id: 292,
+    category: "H175 ATA 33",
+    question: "Where are the LH Cabin HEELs located?",
+    options: {
+      a: "On the roof",
+      b: "Around the LH forward cabin windows, around the LH rear cabin windows, and on the frame of the aircraft",
+      c: "Under the floor",
+    },
+    correct: "b",
+  },
+  {
+    id: 293,
+    category: "H175 ATA 33",
+    question: "Where are the LH markers located?",
+    options: {
+      a: "On the roof",
+      b: "Around the LH forward cabin windows, around the LH rear cabin windows, and on the frame of the aircraft",
+      c: "Under the floor",
+    },
+    correct: "b",
+  },
+  {
+    id: 294,
+    category: "H175 ATA 33",
+    question: "Where are the RH Cabin HEELs located?",
+    options: {
+      a: "On the roof",
+      b: "Around the RH forward cabin windows, around the RH rear cabin windows, and on the frame of the aircraft",
+      c: "Under the floor",
+    },
+    correct: "b",
+  },
+  {
+    id: 295,
+    category: "H175 ATA 33",
+    question: "Where are the RH markers located?",
+    options: {
+      a: "On the roof",
+      b: "Around the RH forward cabin windows, around the RH rear cabin windows, and on the frame of the aircraft",
+      c: "Under the floor",
+    },
+    correct: "b",
+  },
+  {
+    id: 296,
+    category: "H175 ATA 33",
+    question: "Where is the LH HEEL PSU located?",
+    options: {
+      a: "On the roof near the pilot's seat",
+      b: "On the cabin ceiling near the passenger door",
+      c: "Under the floor",
+    },
+    correct: "b",
+  },
+  {
+    id: 297,
+    category: "H175 ATA 33",
+    question: "Where is the RH HEEL PSU located?",
+    options: {
+      a: "On the roof near the pilot's seat",
+      b: "On the cabin ceiling near the passenger door",
+      c: "Under the floor",
+    },
+    correct: "a",
+  },
+  {
+    id: 298,
+    category: "H175 ATA 33",
+    question:
+      "What is the function of the Power Supply Unit (PSU) in the HEEL system?",
+    options: {
+      a: "To provide battery back-up for the system",
+      b: "To control the illumination of the lights",
+      c: "To provide power to the engines",
+    },
+    correct: "a",
+  },
+  {
+    id: 299,
+    category: "H175 ATA 33",
+    question:
+      "How many rechargeable cells are in the Battery Pack of the HEEL system?",
+    options: {
+      a: "4",
+      b: "6",
+      c: "8",
+    },
+    correct: "c",
+  },
+  {
+    id: 300,
+    category: "H175 ATA 33",
+    question: "What does the Battery Pack of the HEEL system convert?",
+    options: {
+      a: "AC current to DC current",
+      b: "DC current to AC current",
+      c: "AC current to RF current",
+    },
+    correct: "b",
+  },
+  {
+    id: 301,
+    category: "H175 ATA 33",
+    question:
+      "How is the Helicopter Egress Emergency Lighting (HEEL) system activated in automatic mode?",
+    options: {
+      a: "By manually flipping a switch",
+      b: "By pulling a lever",
+      c: "By setting the 'EMER EXIT' toggle-switch on the Lighting Control Panel (LCP) in 'ARM' position and 'EMERGENCY EXITS LIGHTING' toggle-switch in 'OFF' position",
+    },
+    correct: "c",
+  },
+  {
+    id: 302,
+    category: "H175 ATA 33",
+    question:
+      "What activates the Helicopter Egress Emergency Lighting (HEEL) system in case of ditching?",
+    options: {
+      a: "Pulling the 'EMER EXIT' toggle switch",
+      b: "Water Immersion Sensor (WIS2) detecting water",
+      c: "Pushing the 'EMERGENCY EXITS LIGHTING' toggle-switch",
+    },
+    correct: "b",
+  },
+  {
+    id: 303,
+    category: "H175 ATA 33",
+    question:
+      "How is the Helicopter Egress Emergency Lighting (HEEL) system activated in manual mode?",
+    options: {
+      a: "Automatically",
+      b: "By pulling the 'EMER EXIT' toggle-switch",
+      c: "By setting the 'EMERG EXIT' switch in 'ON' position",
+    },
+    correct: "c",
+  },
+  {
+    id: 304,
+    category: "H175 ATA 33",
+    question: "What happens when both generators are lost?",
+    options: {
+      a: "Nothing, the system continues operating normally",
+      b: "The system shuts down",
+      c: "The 'EMER EXIT' toggle switch is set to 'ARM' position and 'EMERGENCY EXITS LIGHTING' in 'OFF' position",
+    },
+    correct: "c",
+  },
+
+  {
+    id: 305,
+    category: "H175 Engine Manuals",
+    question: "What does a Full Cycle consist of?",
+    options: {
+      a: "An engine start followed by one or more flights.",
+      b: "An engine start followed by one flight then by a shut-down.",
+      c: "An engine start followed by multiple flights and one shut-down.",
+    },
+    correct: "b",
+  },
+  {
+    id: 306,
+    category: "H175 Engine Manuals",
+    question:
+      "Which of the following components are subject to low-cycle fatigue (LCF) due to cyclic operation of the engine?",
+    options: {
+      a: "Compressor Turbine Blade",
+      b: "Gas-Generator",
+      c: "All engine components",
+    },
+    correct: "c",
+  },
+  {
+    id: 307,
+    category: "H175 Engine Manuals",
+    question:
+      "What action should be taken when one of the engine rotating components subject to LCF counting is replaced by another one?",
+    options: {
+      a: "Update the flight logbook only.",
+      b: "Update the engine logbook and all related documents.",
+      c: "Update the flight logbook and update the EECU memory.",
+    },
+    correct: "b",
+  },
+  {
+    id: 308,
+    category: "H175 Engine Manuals",
+    question:
+      "What is the maximum permissible Maximum Oil Temperature (MOT) when using Type I oils?",
+    options: {
+      a: "140°C",
+      b: "113°C",
+      c: "295°F",
+    },
+    correct: "b",
+  },
+  {
+    id: 309,
+    category: "H175 Engine Manuals",
+    question: "What is the time limit for starting allowable MOT?",
+    options: {
+      a: "One minute",
+      b: "30 minutes",
+      c: "Time unlimited",
+    },
+    correct: "b",
+  },
+  {
+    id: 310,
+    category: "H175 Engine Manuals",
+    question:
+      "Which category of maintenance actions includes visually inspecting, recording exceedance in the logbook, and establishing the cause of exceedance?",
+    options: {
+      a: "Level 1",
+      b: "Level 2",
+      c: "Level 3",
+    },
+    correct: "a",
+  },
+  {
+    id: 311,
+    category: "H175 Engine Manuals",
+    question:
+      "Which of the following maintenance actions may necessitate greater action when cumulatively exceeded?",
+    options: {
+      a: "Level 1",
+      b: "Level 2",
+      c: "Level 3",
+    },
+    correct: "c",
+  },
+  {
+    id: 312,
+    category: "H175 Engine Manuals",
+    question:
+      "Which type of inspection is made from within touching distance and may require removal or opening of access panels or doors?",
+    options: {
+      a: "GVI",
+      b: "DET",
+      c: "SDI",
+    },
+    correct: "a",
+  },
+  {
+    id: 313,
+    category: "H175 Engine Manuals",
+    question:
+      "Which of the following inspection levels is likely to make extensive use of special inspection techniques and/or equipment?",
+    options: {
+      a: "GVI",
+      b: "DET",
+      c: "SDI",
+    },
+    correct: "c",
+  },
+  {
+    id: 314,
+    category: "H175 Engine Manuals",
+    question: "What is the purpose of the Numerical Index in the IPC?",
+    options: {
+      a: "To list all the engine parts and accessories.",
+      b: "To provide a guide to the IPC.",
+      c: "To show the applicable documentation for each part.",
+    },
+    correct: "a",
+  },
+  {
+    id: 315,
+    category: "H175 Engine Manuals",
+    question: "What does the Effectivity Code column in the IPC show?",
+    options: {
+      a: "The build specification number.",
+      b: "The part numbers that are interchangeable.",
+      c: "The applicability of parts to an engine model.",
+    },
+    correct: "c",
+  },
+  {
+    id: 316,
+    category: "H175 Engine Manuals",
+    question:
+      "What does the 'Rwk' term indicate in the Units per Assembly column of the Detailed Parts List?",
+    options: {
+      a: "The part is restricted from interchangeability.",
+      b: "The part can only be obtained through rework.",
+      c: "The part is interchangeable as a set.",
+    },
+    correct: "b",
+  },
+  {
+    id: 317,
+    category: "H175 Engine Manuals",
+    question:
+      "What does the 'Not Interchangeable' (PRC 03) term mean in the Catalogue Terms?",
+    options: {
+      a: "The old part may be used to replace the new part only.",
+      b: "The old part must be replaced with the old part; the new part must be replaced with the new part.",
+      c: "All parts can be freely interchanged.",
+    },
+    correct: "b",
+  },
+  {
+    id: 318,
+    category: "H175 Engine Manuals",
+    question:
+      "What does the abbreviation 'DET' stand for in the inspection levels?",
+    options: {
+      a: "Detailed Inspection",
+      b: "General Visual Inspection",
+      c: "Special Detailed Inspection",
+    },
+    correct: "a",
+  },
+  {
+    id: 319,
+    category: "H175 Engine Manuals",
+    question:
+      "What is the maximum permissible Maximum Oil Temperature (MOT) when using Type II oils?",
+    options: {
+      a: "145°C",
+      b: "140°C",
+      c: "113°C",
+    },
+    correct: "a",
+  },
+  {
+    id: 320,
+    category: "H175 Engine Manuals",
+    question:
+      "What is the purpose of the 'Transferred' term in the Catalogue Terms?",
+    options: {
+      a: "To advise the latest approved revision level of a supplier part number.",
+      b: "To identify and control the interchangeable parts.",
+      c: "For the relocation of a part to a different location.",
+    },
+    correct: "c",
+  },
+  {
+    id: 321,
+    category: "H175 Engine Manuals",
+    question: "What is the purpose of the Numerical Index in the IPC?",
+    options: {
+      a: "To list all the engine parts and accessories.",
+      b: "To provide a guide to the IPC.",
+      c: "To show the applicable documentation for each part.",
+    },
+    correct: "a",
+  },
+  {
+    id: 322,
+    category: "H175 Engine Manuals",
+    question: "What does the Effectivity Code column in the IPC show?",
+    options: {
+      a: "The build specification number.",
+      b: "The part numbers that are interchangeable.",
+      c: "The applicability of parts to an engine model.",
+    },
+    correct: "c",
+  },
+  {
+    id: 323,
+    category: "H175 Engine Manuals",
+    question:
+      "What does the 'Rwk' term indicate in the Units per Assembly column of the Detailed Parts List?",
+    options: {
+      a: "The part is restricted from interchangeability.",
+      b: "The part can only be obtained through rework.",
+      c: "The part is interchangeable as a set.",
+    },
+    correct: "b",
+  },
+  {
+    id: 324,
+    category: "H175 Engine Manuals",
+    question:
+      "What does the 'Not Interchangeable' (PRC 03) term mean in the Catalogue Terms?",
+    options: {
+      a: "The old part may be used to replace the new part only.",
+      b: "The old part must be replaced with the old part; the new part must be replaced with the new part.",
+      c: "All parts can be freely interchanged.",
+    },
+    correct: "b",
+  },
+  {
+    id: 325,
+    category: "H175 Engine Manuals",
+    question:
+      "What does the abbreviation 'DET' stand for in the inspection levels?",
+    options: {
+      a: "Detailed Inspection",
+      b: "General Visual Inspection",
+      c: "Special Detailed Inspection",
+    },
+    correct: "a",
+  },
+  {
+    id: 326,
+    category: "H175 Engine Manuals",
+    question:
+      "What is the maximum permissible Maximum Oil Temperature (MOT) when using Type II oils?",
+    options: {
+      a: "145°C",
+      b: "140°C",
+      c: "113°C",
+    },
+    correct: "a",
+  },
+  {
+    id: 327,
+    category: "H175 Engine Manuals",
+    question:
+      "What is the purpose of the 'Transferred' term in the Catalogue Terms?",
+    options: {
+      a: "To advise the latest approved revision level of a supplier part number.",
+      b: "To identify and control the interchangeable parts.",
+      c: "For the relocation of a part to a different location.",
+    },
+    correct: "c",
+  },
+  {
+    id: 328,
+    category: "H175 Engine Manuals",
+    question:
+      "Which type of inspection is made from within touching distance and may require removal or opening of access panels or doors?",
+    options: {
+      a: "GVI",
+      b: "DET",
+      c: "SDI",
+    },
+    correct: "a",
+  },
+  {
+    id: 329,
+    category: "H175 Engine Manuals",
+    question:
+      "Which of the following inspection levels is likely to make extensive use of special inspection techniques and/or equipment?",
+    options: {
+      a: "GVI",
+      b: "DET",
+      c: "SDI",
+    },
+    correct: "c",
+  },
+  {
+    id: 330,
+    category: "H175 Engine Manuals",
+    question:
+      "What does the abbreviation 'SDI' stand for in the inspection levels?",
+    options: {
+      a: "Detailed Inspection",
+      b: "General Visual Inspection",
+      c: "Special Detailed Inspection",
+    },
+    correct: "c",
+  },
+  {
+    id: 331,
+    category: "H175 Engine Manuals",
+    question:
+      "What is the maximum permissible Maximum Oil Temperature (MOT) when using Type I oils?",
+    options: {
+      a: "140°C",
+      b: "113°C",
+      c: "295°F",
+    },
+    correct: "b",
+  },
+  {
+    id: 332,
+    category: "H175 Engine Manuals",
+    question: "What is the time limit for starting allowable MOT?",
+    options: {
+      a: "One minute",
+      b: "30 minutes",
+      c: "Time unlimited",
+    },
+    correct: "b",
+  },
+  {
+    id: 333,
+    category: "H175 Engine Manuals",
+    question: "Which of the following maintenance actions is the most severe?",
+    options: {
+      a: "Hot section inspection",
+      b: "Reject engine and send to an approved overhaul facility",
+      c: "Visually inspect and record exceedance in logbook",
+    },
+    correct: "b",
+  },
+  {
+    id: 334,
+    category: "H175 Engine Manuals",
+    question:
+      "Which type of inspection is made under normally available lighting conditions such as daylight, hanger lighting, flashlight or drop light?",
+    options: {
+      a: "GVI",
+      b: "DET",
+      c: "SDI",
+    },
+    correct: "a",
+  },
+  {
+    id: 335,
+    category: "H175 Engine Manuals",
+    question: "What does the 'OPC' term indicate in the Catalogue Terms?",
+    options: {
+      a: "A failure finding task.",
+      b: "A task to determine that an item is fulfilling its intended purpose.",
+      c: "An intensive examination of a specific item.",
+    },
+    correct: "b",
+  },
+  {
+    id: 336,
+    category: "H175 Engine Manuals",
+    question:
+      "What is the purpose of the 'Latest Parts List No.' term in the Catalogue Terms?",
+    options: {
+      a: "To advise the latest approved revision level of a supplier part number.",
+      b: "To identify and control the interchangeable parts.",
+      c: "To control the interchangeable parts which are approved for use on the engine.",
+    },
+    correct: "a",
+  },
+  {
+    id: 337,
+    category: "H175 Engine Manuals",
+    question:
+      "What is the maximum permissible steady state MOT limit applicable to Type II oils?",
+    options: {
+      a: "113°C",
+      b: "140°C",
+      c: "145°C",
+    },
+    correct: "b",
+  },
+  {
+    id: 338,
+    category: "H175 Engine Manuals",
+    question:
+      "What is the maximum permissible steady state MOT limit applicable to Type I oils?",
+    options: {
+      a: "140°C",
+      b: "113°C",
+      c: "295°F",
+    },
+    correct: "a",
+  },
+  {
+    id: 339,
+    category: "H175 Engine Manuals",
+    question:
+      "What does the 'Restricted Interchangeability With' (PRC 07) term mean in the Catalogue Terms?",
+    options: {
+      a: "All the old parts must be replaced by all the new parts as an assembly.",
+      b: "The old part must be replaced with the old part; the new part must be replaced with the new part.",
+      c: "The old part may be used to replace the new part only.",
+    },
+    correct: "a",
+  },
+  {
+    id: 340,
+    category: "H175 ATA 70",
+    question:
+      "What is the purpose of the 'Engine Standard Practices' outlined in Chapter 70-00-00 of the P&WC PT6-67E EMM?",
+    options: {
+      a: "To provide guidelines for engine maintenance only.",
+      b: "To outline the standard procedures for engine removal and installation.",
+      c: "To establish standardized practices for engine maintenance, removal/installation, inspection, cleaning, and repair.",
+    },
+    correct: "c",
+  },
+  {
+    id: 341,
+    category: "H175 ATA 70",
+    question:
+      "Which of the following items should never be reused according to the Engine Standard Practices?",
+    options: {
+      a: "Lockwire (safety wire)",
+      b: "Stainless steel bolts",
+      c: "Cupwashers",
+    },
+    correct: "a",
+  },
+  {
+    id: 342,
+    category: "H175 ATA 70",
+    question:
+      "How should cotterpins be installed according to the Engine Standard Practices?",
+    options: {
+      a: "Bend one end of the pin back over stud or bolt and leave the other end straight.",
+      b: "Bend both ends of the pin back over the nut.",
+      c: "Bend one end of the pin back over stud or bolt and the other end flat against flat on nut.",
+    },
+    correct: "c",
+  },
+  {
+    id: 343,
+    category: "H175 ATA 70",
+    question:
+      "What is the recommended diameter of lockwire according to the Engine Standard Practices?",
+    options: {
+      a: "0.025 inch",
+      b: "0.050 inch",
+      c: "0.100 inch",
+    },
+    correct: "a",
+  },
+  {
+    id: 344,
+    category: "H175 ATA 70",
+    question:
+      "What is the recommended method for cleaning electrical connectors according to the Engine Standard Practices?",
+    options: {
+      a: "Use a brush to apply solvent to the electrical contacts.",
+      b: "Apply lubricant directly to the connector contacts.",
+      c: "Use a spray or brush to apply cleaner (degreaser) or isopropyl alcohol to the electrical contacts and connector faces.",
+    },
+    correct: "c",
+  },
+  {
+    id: 345,
+    category: "H175 ATA 70",
+    question:
+      "What should be used to apply a small amount of electrical contact enhancer into the contact socket according to the Engine Standard Practices?",
+    options: {
+      a: "Finger",
+      b: "Metal tweezers",
+      c: "Kit supplied lint-free swab applicator",
+    },
+    correct: "c",
+  },
+  {
+    id: 346,
+    category: "H175 ATA 70",
+    question:
+      "What should be done after the EPC stabilisation phase according to the Engine Standard Practices?",
+    options: {
+      a: "Start the engine.",
+      b: "Wait for at least 7 seconds before re-engaging any mode.",
+      c: "Disconnect the DCU adapter cable.",
+    },
+    correct: "b",
+  },
+  {
+    id: 347,
+    category: "H175 ATA 70",
+    question: "What is the purpose of the Engine Power Assurance Check (EPAC)?",
+    options: {
+      a: "To determine the power output of the engine.",
+      b: "To detect any signs of engine deterioration.",
+      c: "To verify the torque of the engine.",
+    },
+    correct: "b",
+  },
+  {
+    id: 348,
+    category: "H175 ATA 70",
+    question: "When should the EPAC be carried out?",
+    options: {
+      a: "Weekly",
+      b: "After every flight",
+      c: "As called for in the EMM and normally on a daily basis iaw the company AMP.",
+    },
+    correct: "c",
+  },
+  {
+    id: 349,
+    category: "H175 ATA 70",
+    question:
+      "What is the purpose of P&WC's Diagnostics, Prognostics & Health Management (DPHM) system?",
+    options: {
+      a: "To monitor the engine's key performance data and make proactive maintenance decisions.",
+      b: "To analyze the weather conditions for flight planning.",
+      c: "To calculate the fuel consumption of the engine.",
+    },
+    correct: "a",
+  },
+  {
+    id: 350,
+    category: "H175 ATA 70",
+    question: "What does the DPHM system enable operators to do?",
+    options: {
+      a: "It allows operators to manually adjust engine parameters.",
+      b: "It enables operators to analyze engine performance data and make proactive maintenance decisions.",
+      c: "It allows operators to modify the engine's hardware.",
+    },
+    correct: "b",
+  },
+  {
+    id: 351,
+    category: "H175 ATA 70",
+    question:
+      "What is included in P&WC's Diagnostics, Prognostics & Health Management (DPHM) system?",
+    options: {
+      a: "GBS Transfer Module and GBS Lite",
+      b: "Aircraft performance data and weather forecasting tools",
+      c: "Flight operation manuals and maintenance records",
+    },
+    correct: "a",
+  },
+  {
+    id: 352,
+    category: "H175 ATA 70",
+    question:
+      "How is data transferred from the DCU to a laptop computer using GBSLite?",
+    options: {
+      a: "By pressing a button on the DCU.",
+      b: "By manually inputting the data into the computer.",
+      c: "By selecting 'Download DCU' in the GBSLite software.",
+    },
+    correct: "c",
+  },
+  {
+    id: 353,
+    category: "H175 ATA 70",
+    question: "What type of data does the DCU store?",
+    options: {
+      a: "Engine usage data and exceedance data",
+      b: "Aircraft maintenance records",
+      c: "Fuel consumption data",
+    },
+    correct: "a",
+  },
+  {
+    id: 354,
+    category: "H175 ATA 70",
+    question:
+      "What should operators do after making changes to the DCU data using GBSLite?",
+    options: {
+      a: "No action is required.",
+      b: "Document the modifications in the engine logbook.",
+      c: "Immediately start the engine.",
+    },
+    correct: "b",
+  },
+  {
+    id: 355,
+    category: "H175 ATA 70",
+    question:
+      "What is the purpose of the Flight Line Troubleshooting Cumulative Exceedances?",
+    options: {
+      a: "To display cumulative exceedance times on a histogram chart for each power rating.",
+      b: "To calculate the total flight time of the aircraft.",
+      c: "To record engine maintenance actions.",
+    },
+    correct: "a",
+  },
+  {
+    id: 356,
+    category: "H175 ATA 70",
+    question:
+      "When should the EECU automatically close the P3 SOV during the EPC procedure?",
+    options: {
+      a: "When the engine is started.",
+      b: "During stabilisation phase to avoid variation of P3 bleed.",
+      c: "After the EPC results are displayed.",
+    },
+    correct: "b",
+  },
+  {
+    id: 357,
+    category: "H175 ATA 70",
+    question: "What is the purpose of the Web-based ECTM?",
+    options: {
+      a: "To provide in-flight entertainment for passengers.",
+      b: "To analyze changes in engine performance parameters on a regular basis.",
+      c: "To calculate aircraft weight and balance.",
+    },
+    correct: "b",
+  },
+  {
+    id: 358,
+    category: "H175 ATA 70",
+    question:
+      "How is data uploaded in a remote location using the Web-based ECTM?",
+    options: {
+      a: "By manually entering the data into the system.",
+      b: "By downloading the data to a laptop computer and physically transporting it to the remote location.",
+      c: "Via the internet using the Web-based ECTM program.",
+    },
+    correct: "c",
+  },
+  {
+    id: 359,
+    category: "H175 ATA 71",
+    question: "What is the purpose of the engine upper firewall?",
+    options: {
+      a: "To attach the engine to the airframe",
+      b: "To isolate each engine compartment from non-fire zones",
+      c: "To drain engine fuel in case of aborted engine start",
+    },
+    correct: "b",
+  },
+  {
+    id: 360,
+    category: "H175 ATA 71",
+    question: "What is the material composition of the engine lower firewall?",
+    options: {
+      a: "Titanium sheets reinforced with titanium and/or stainless-steel angles",
+      b: "Impregnated glass fiber structure reinforced with honeycomb",
+      c: "Aluminium",
+    },
+    correct: "a",
+  },
+  {
+    id: 361,
+    category: "H175 ATA 71",
+    question: "What is the function of the engine support bolts?",
+    options: {
+      a: "To drain engine fuel in case of aborted engine start",
+      b: "To transmit flight and ground loads from the engines to the airframe",
+      c: "To protect the electrical system from mechanical and environmental impacts",
+    },
+    correct: "b",
+  },
+  {
+    id: 362,
+    category: "H175 ATA 71",
+    question: "What is the main function of the airframe fittings?",
+    options: {
+      a: "To attach the engine to the airframe",
+      b: "To transmit flight and ground loads from the engines to the airframe",
+      c: "To reduce the transmission of vibration to the airframe",
+    },
+    correct: "c",
+  },
+  {
+    id: 363,
+    category: "H175 ATA 71",
+    question:
+      "What is the purpose of the winter mask kit installed on each grid of the front sliding cowling?",
+    options: {
+      a: "To reduce the risk from Foreign Object Damage",
+      b: "To protect the engine from snow and icing ingestion during flight in freezing conditions",
+      c: "To drain engine fuel in case of aborted engine start",
+    },
+    correct: "b",
+  },
+  {
+    id: 364,
+    category: "H175 ATA 71",
+    question:
+      "What does the winter plenum kit installed in each plenum in the engine’s compartments consist of?",
+    options: {
+      a: "Horizontal deflector and vertical barrier",
+      b: "Plenum Shim and top plenum",
+      c: "Plenum grid and engine support bolts",
+    },
+    correct: "b",
+  },
+  {
+    id: 365,
+    category: "H175 ATA 71",
+    question: "What is the function of the air inlet rods?",
+    options: {
+      a: "To reduce the transmission of vibration to the airframe",
+      b: "To hold the air inlet plenum in position",
+      c: "To transmit flight and ground loads from the engines to the airframe",
+    },
+    correct: "b",
+  },
+  {
+    id: 366,
+    category: "H175 ATA 71",
+    question: "What is the purpose of the engine drains?",
+    options: {
+      a: "To evacuate hot air from the engine in case of jamming of the engine combustion chamber valve",
+      b: "To drain engine fuel in case of aborted engine start",
+      c: "To limit the risk of fire in the engine compartment",
+    },
+    correct: "b",
+  },
+  {
+    id: 367,
+    category: "H175 ATA 71",
+    question: "Where are the engine drains located?",
+    options: {
+      a: "Between the upper deck and the engine in the engine compartment",
+      b: "Inside the plenum using titanium or steel fasteners",
+      c: "On the outer skin of each cowling",
+    },
+    correct: "a",
+  },
+  {
+    id: 368,
+    category: "H175 ATA 71",
+    question: "What is the purpose of the engine/MGB couplings?",
+    options: {
+      a: "To support the engine while ensuring functional hinges",
+      b: "To attach the engine to the airframe",
+      c: "To reduce the transmission of vibration to the airframe",
+    },
+    correct: "a",
+  },
+  {
+    id: 369,
+    category: "H175 ATA 71",
+    question: "What is the main purpose of the fixed cowlings?",
+    options: {
+      a: "To provide the MGB oil cooler air path",
+      b: "To protect the engines from the ingestion of foreign objects",
+      c: "To transmit flight and ground loads from the engines to the airframe",
+    },
+    correct: "b",
+  },
+  {
+    id: 370,
+    category: "H175 ATA 71",
+    question: "What is the composition of the rear sliding cowling skin?",
+    options: {
+      a: "Impregnated glass fiber structure reinforced with honeycomb",
+      b: "Titanium sheets reinforced with titanium and/or stainless-steel angles",
+      c: "Carbon fiber",
+    },
+    correct: "a",
+  },
+  {
+    id: 371,
+    category: "H175 ATA 71",
+    question: "What is the function of the top sliding firewall?",
+    options: {
+      a: "To transmit flight and ground loads from the engines to the airframe",
+      b: "To participate in fire containment and extinguishing agent containment",
+      c: "To attach the engine to the airframe",
+    },
+    correct: "b",
+  },
+  {
+    id: 372,
+    category: "H175 ATA 71",
+    question: "What is the purpose of the rear sliding cowling?",
+    options: {
+      a: "To provide the MGB oil cooler air path",
+      b: "To protect the engines from the ingestion of foreign objects",
+      c: "To transmit flight and ground loads from the engines to the airframe",
+    },
+    correct: "b",
+  },
+  {
+    id: 373,
+    category: "H175 ATA 71",
+    question: "What is the function of the wings on the rear sliding cowling?",
+    options: {
+      a: "To transmit flight and ground loads from the engines to the airframe",
+      b: "To improve the aerodynamic performance of the aircraft",
+      c: "To attach the engine to the airframe",
+    },
+    correct: "b",
+  },
+  {
+    id: 374,
+    category: "H175 ATA 71",
+    question:
+      "What is the purpose of the rear chimney on the rear sliding cowling?",
+    options: {
+      a: "To provide the MGB oil cooler air path",
+      b: "To protect the engines from the ingestion of foreign objects",
+      c: "To participate in fire containment and extinguishing agent containment",
+    },
+    correct: "c",
+  },
+  {
+    id: 375,
+    category: "H175 ATA 71",
+    question: "What is the function of the frames on the rear sliding cowling?",
+    options: {
+      a: "To provide the MGB oil cooler air path",
+      b: "To protect the engines from the ingestion of foreign objects",
+      c: "To support the fixed cowling and engine secondary exhaust nozzles",
+    },
+    correct: "c",
+  },
+  {
+    id: 376,
+    category: "H175 ATA 71",
+    question: "What is the function of the rear sliding firewall?",
+    options: {
+      a: "To provide the MGB oil cooler air path",
+      b: "To participate in fire containment and extinguishing agent containment",
+      c: "To transmit flight and ground loads from the engines to the airframe",
+    },
+    correct: "b",
+  },
+  {
+    id: 377,
+    category: "H175 ATA 71",
+    question: "What is the purpose of the rear cowling?",
+    options: {
+      a: "To provide the MGB oil cooler air path",
+      b: "To protect the engines from the ingestion of foreign objects",
+      c: "To transmit flight and ground loads from the engines to the airframe",
+    },
+    correct: "b",
+  },
+  {
+    id: 378,
+    category: "H175 ATA 71",
+    question: "What is the function of the rear sliding firewall?",
+    options: {
+      a: "To provide the MGB oil cooler air path",
+      b: "To participate in fire containment and extinguishing agent containment",
+      c: "To transmit flight and ground loads from the engines to the airframe",
+    },
+    correct: "b",
   }
 ];
