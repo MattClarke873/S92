@@ -1,3 +1,6 @@
+// Import the questionBank module
+import { questionBank } from './questionBank.js';
+
 // This event listener ensures that the JavaScript code runs after the HTML document has been completely loaded
 document.addEventListener('DOMContentLoaded', function () {
   // Get references to various HTML elements using their IDs
@@ -180,7 +183,7 @@ document.addEventListener('DOMContentLoaded', function () {
     selectedQuestions = generateRandomQuestions(selectedCount, filteredQuestions);
 
     // Display the selected questions
-    displayQuestions(selectedQuestions);
+    displayQuestions();
   }
 
   // Event listener for filter button click
@@ -200,7 +203,7 @@ document.addEventListener('DOMContentLoaded', function () {
   questionCountSelect.addEventListener('change', function () {
     const selectedCount = parseInt(this.value, 10);
     selectedQuestions = generateRandomQuestions(selectedCount, filteredQuestions);
-    displayQuestions(selectedQuestions);
+    displayQuestions();
   });
 
   // Event listener for finish button click

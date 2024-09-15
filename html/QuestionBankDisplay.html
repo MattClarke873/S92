@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Bank Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center; /* Center text in table headers only */
+            background-color: #f4f4f4;
+        }
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left; /* Align text to the left in table cells */
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .bold {
+            font-weight: bold;
+            color: green; /* Change the color to green */
+        }
+        input {
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>Question Bank</h1>
+    <table id="questionTable">
+        <!-- Table will be generated here -->
+    </table>
+
+    <script type="module">
+        import { questionBank } from "../js/questionBank.js";
+
+        function generateTable(data) {
+            const table = document.getElementById('questionTable');
+            const thead = table.createTHead();
+            const tbody = table.createTBody();
+
+            // Create header row with filters for specific columns
+            const headerRow = thead.insertRow();
+            const headers = ['id', 'category', 'question', 'options'];
+            headers.forEach((header, index) => {
+                const th = document.createElement('th');
+                th.textContent = header;
+
+                // Create filter input only for "id" and "category"
+                if (header === 'id' || header === 'category') {
+                    const filterInput = document.createElement('input');
+                    filterInput.placeholder = `Filter ${header}`;
+                    filterInput.addEventListener('input', () => applyFilters(data));
+                    th.appendChild(filterInput);
+                }
+
+                headerRow.appendChild(th);
+            });
+
+            // Create data rows
+            function populateTable(filteredData) {
+                tbody.innerHTML = ''; // Clear existing rows
+                filteredData.forEach(item => {
+                    const row = tbody.insertRow();
+                    headers.forEach(header => {
+                        const cell = row.insertCell();
+                        if (header === 'options') {
+                            // Create a nested table for options
+                            const optionsTable = document.createElement('table');
+                            const optionsTbody = optionsTable.createTBody();
+
+                            // Iterate over options and apply bold to correct one
+                            Object.keys(item[header]).forEach(optionKey => {
+                                const optionRow = optionsTbody.insertRow();
+                                const optionCell = optionRow.insertCell();
+                                
+                                // Bold the correct option and set color to green
+                                const optionText = document.createElement('span');
+                                optionText.textContent = `${optionKey}: ${item[header][optionKey]}`;
+                                if (optionKey === item.correct) {
+                                    optionText.classList.add('bold');
+                                }
+                                optionCell.appendChild(optionText);
+                            });
+                            cell.appendChild(optionsTable);
+                        } else {
+                            cell.textContent = item[header];
+                        }
+                    });
+                });
+            }
+
+            function applyFilters(data) {
+                const filters = Array.from(document.querySelectorAll('th input')).map(input => input.value.toLowerCase());
+
+                const filteredData = data.filter(item => {
+                    return headers.every((header, index) => {
+                        if (header === 'options') {
+                            return true; // Skip filtering for this column
+                        }
+                        const cellValue = item[header].toString().toLowerCase();
+                        return cellValue.includes(filters[index]);
+                    });
+                });
+
+                populateTable(filteredData);
+            }
+
+            // Initial table population
+            populateTable(data);
+        }
+
+        generateTable(questionBank);
+    </script>
+</body>
+</html>

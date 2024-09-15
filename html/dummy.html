@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Export Question Bank to Excel</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+            text-align: center; /* Center align column headers */
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Export Question Bank to Excel</h1>
+    <table id="questionTable">
+        <!-- Table will be generated here -->
+    </table>
+    <div class="button-container">
+        <button id="exportBtn">Export to Excel</button>
+    </div>
+
+    <!-- Include the local SheetJS library -->
+    <script src="js/libs/xlsx.full.min.js"></script>
+
+    <script type="module">
+        import { questionBank } from "../js/questionBank.js";
+
+        function generateTable(data) {
+            const table = document.getElementById('questionTable');
+            const thead = table.createTHead();
+            const tbody = table.createTBody();
+
+            // Create header row
+            const headerRow = thead.insertRow();
+            const headers = ['id', 'category', 'question', 'a', 'b', 'c', 'correct'];
+            headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                headerRow.appendChild(th);
+            });
+
+            // Create data rows
+            data.forEach(item => {
+                const row = tbody.insertRow();
+                headers.forEach(header => {
+                    const cell = row.insertCell();
+                    if (header === 'a' || header === 'b' || header === 'c') {
+                        cell.textContent = item.options[header] || ''; // Populate option cells
+                    } else {
+                        cell.textContent = item[header]; // Populate other cells
+                    }
+                });
+            });
+        }
+
+        function exportToExcel() {
+            // Create a worksheet from the table data
+            const ws = XLSX.utils.table_to_sheet(document.getElementById('questionTable'));
+            const wb = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(wb, ws, 'Question Bank');
+            XLSX.writeFile(wb, 'QuestionBank.xlsx');
+        }
+
+        // Generate the table
+        generateTable(questionBank);
+
+        // Set up the export button
+        document.getElementById('exportBtn').addEventListener('click', exportToExcel);
+    </script>
+</body>
+</html>
