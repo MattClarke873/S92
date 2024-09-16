@@ -23,6 +23,10 @@
   <div class="container">
     <h1>S-92 Week 3 Quiz</h1>
 
+    <!-- Hidden input to specify aircraft type -->
+    <input type="hidden" id="aircraftType" value="S92">
+
+
     <label for="questionCount">Select Number of Questions:</label>
     <select id="questionCount">
       <option value="0">0</option>
@@ -40,34 +44,29 @@
       <div class="SelectionBox">
         <div class="list">
           <ul class="ata_List1">
-            <div>
-              <label><input type="checkbox" class="category-checkbox" value="00-12"> 00-12</label>
-              <label><input type="checkbox" class="category-checkbox" value="26"> 26</label>
-              <label><input type="checkbox" class="category-checkbox" value="28"> 28</label>
-              <label><input type="checkbox" class="category-checkbox" value="34"> 34</label>
-            </div>
+            <li><label><input type="checkbox" class="category-checkbox" value="00-12"> 00-12</label></li>
+            <li><label><input type="checkbox" class="category-checkbox" value="26"> 26</label></li>
+            <li><label><input type="checkbox" class="category-checkbox" value="28"> 28</label></li>
+            <li><label><input type="checkbox" class="category-checkbox" value="34"> 34</label></li>
           </ul>
-
+        </div>
         <div class="list">
           <ul class="ata_List2">
             <div>
-              <label><input type="checkbox" class="category-checkbox" value="49"> 49</label>
-              <label><input type="checkbox" class="category-checkbox" value="70"> 70</label>
-              <label><input type="checkbox" class="category-checkbox" value="71"> 71</label>
-            </div>
+              <li><label><input type="checkbox" class="category-checkbox" value="49"> 49</label></li>
+              <li><label><input type="checkbox" class="category-checkbox" value="70"> 70</label></li>
+              <li><label><input type="checkbox" class="category-checkbox" value="71"> 71</label></li>
           </ul>
         </div>
-
         <div class="list1">
-          <ul class="ata_List">
-            <div>
-              <input type="checkbox" class="category-checkbox" value="S92 Engine Manuals" id="categoryEngineManuals">
-              <label for="categoryEngineManuals">Engine Manuals</label>
-            </div>
+          <ul class="ata_List3">
+            <li><input type="checkbox" class="category-checkbox" value="Manuals" id="categoryEngineManuals">
+                <label for="categoryEngineManuals">Engine Manuals</label></li> 
           </ul>
-        </div>
+        </div>  
       </div>
-    </div>
+     </div>
+    
 
     <div>
       <label><input type="checkbox" id="selectAll"> Select All</label>

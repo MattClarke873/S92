@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="../css/nav.Start.css">
   <style>
-body {
-  background-image: url("../support_Documents/H175C.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* Change to fixed to prevent scrolling */
-  height: 100%; /* Set height to 100% */
-  width: 100%; /* Set width to 100% */
-  margin: 0; /* Remove default margin */
- 
-}
+    body {
+      background-image: url("../support_Documents/H175C.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* Change to fixed to prevent scrolling */
+      height: 100%; /* Set height to 100% */
+      width: 100%; /* Set width to 100% */
+      margin: 0; /* Remove default margin */
+    }
   </style>
   <title>MCQ Quiz Week 1</title>
 </head>
-<body>
-  <div class="container1"></div>
-  <div class="container">
 
+<body>
+  <div class="container">
     <h1>H175 Week 1 Quiz</h1>
+
+    <!-- Hidden input to specify aircraft type -->
+    <input type="hidden" id="aircraftType" value="H175">
 
     <label for="questionCount">Select Number of Questions:</label>
     <select id="questionCount">
@@ -43,72 +45,43 @@ body {
       <div class="SelectionBox">
         <div class="list">
           <ul class="ata_List1">
-            <div>
-              <input type="checkbox" class="category-checkbox" value="H175 ATA 04-12" id="categoryATA04-12" disabled>
-              <label for="categoryATA04-12">ATA 04-12</label>
-            </div>
-            <div>
-              <input type="checkbox" class="category-checkbox" value="H175 ATA 24" id="categoryATA24" disabled>
-              <label for="categoryATA24">ATA 24</label>
-            </div>
-            <div>
-              <input type="checkbox" class="category-checkbox" value="H175 ATA 25" id="categoryATA25" disabled>
-              <label for="categoryATA25">ATA 25</label>
-            </div>
-
+            <li><label><input type="checkbox" class="category-checkbox"  value="00"> 00 175</label></li>
+            <li><label><input type="checkbox" class="category-checkbox"  value="12"> 12 175</label></li>
+            <li><label><input type="checkbox" class="category-checkbox"  value="13"> 13 175</label></li>
+            <li><label><input type="checkbox" class="category-checkbox"  value="14"> 14 175</label></li>
           </ul>
         </div>
-        
         <div class="list">
           <ul class="ata_List2">
-            <div>
-              <input type="checkbox" class="category-checkbox" value="H175 ATA 31" id="categoryATA31" disabled>
-              <label for="categoryATA45">ATA 31</label>
-            </div>
-            <div>
-              <input type="checkbox" class="category-checkbox" value="H175 ATA 51 - 56" id="categoryATA51-56" disabled>
-              <label for="categoryATA51-56">ATA 51-56</label>
-            </div>
-            <div>
-              <input type="checkbox" class="category-checkbox" value="H175 ATA 88/89" id="categoryATA88/89" disabled>
-              <label for="categoryATA88/89">ATA 88/89</label>
-            </div>
-
+            <li><label><input type="checkbox" class="category-checkbox"  value="00"> 00 s92</label></li>
+            <li><label><input type="checkbox" class="category-checkbox"  value="12"> 12 s92</label></li>
+            <li><label><input type="checkbox" class="category-checkbox"  value="13"> 13 s92</label></li>
+            <li><label><input type="checkbox" class="category-checkbox"  value="14"> 14 s92</label></li>
           </ul>
         </div>
-                  <!-- Add more categories as needed -->
-        </div>
-    <div>
-      <label for="selectAll">Select All</label>
-      <input type="checkbox" id="selectAll">
-    
+        <!-- Add more categories as needed -->
+      </div>
+      <div>
+        <label><input type="checkbox" id="selectAll"> Select All</label>
+      </div>
     </div>
-    
 
     <button id="filterBtn">Generate Quiz</button>
 
-    <div id="questions-container"></div>
-
+    <div id="questions-container"></div> 
 
     <div id="result-container"></div>
     <button id="finishBtn">Finish</button>
     <button id="resetBtn">Reset</button>
 
-
-    
     <div class="navigation">
-      <a href="../index.html"> <button id="home">&#127968;</button></a>
-      <a href="../html/H175Week2.html"> <button id="right">&#8594;</button> </a>
+      <a href="../index.html"><button id="home">&#127968;</button></a>
+      <a href="../html/H175Week2.html"><button id="right">&#8594;</button></a>
     </div>
-
-
   </div>
-  <div class="container1"></div>
 
   <script type="module" src="../js/script.js"></script>
   <script src="../js/popscript.js"></script>
-
 </body>
+
 </html>
-
-

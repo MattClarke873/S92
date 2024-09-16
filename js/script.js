@@ -9,7 +9,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const filterBtn = document.getElementById('filterBtn');
     const categoryCheckboxes = document.querySelectorAll('.category-checkbox');
     const selectAllCheckbox = document.getElementById('selectAll');
+    const aircraftInput = document.getElementById('aircraftType'); // Get aircraft type from hidden input
 
+    const aircraftType = aircraftInput ? aircraftInput.value : undefined; // Change undefined as required to set default
     let selectedQuestions = [];
     let percentageHistory = [];
     let filteredQuestions = [];
@@ -25,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
         selectedQuestions.forEach((question) => {
             const questionElement = document.createElement('div');
             questionElement.classList.add('question-container');
-            questionElement.innerHTML = `<p>${question.Category} - ${question.question}</p>`;
+            questionElement.innerHTML = `<p>${question.question}</p>`;
 
             const optionsList = document.createElement('ul');
             optionsList.classList.add('options-list');
@@ -44,7 +46,13 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             }
 
+            // Create a new div to hold the question ID
+            const questionIdElement = document.createElement('div');
+            questionIdElement.classList.add('question-id');
+            questionIdElement.innerText = `Question ID: ${question.id}`;
+
             questionElement.appendChild(optionsList);
+            questionElement.appendChild(questionIdElement); // Append the question ID element
             questionsContainer.appendChild(questionElement);
         });
     }
@@ -75,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (selectedOptionBtn) {
                 const selectedOption = selectedOptionBtn.getAttribute('data-option');
                 resultText.innerHTML = `
-                    ${question.Category}-${question.id} - ${question.question} 
+                    ${question.id} - ${question.question} 
                     <br>
                     <br> - Your Answer: ${question.options[selectedOption]},
                     <br> - Correct Answer: ${question.options[question.correct]}
@@ -90,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             } else {
                 resultText.innerHTML = `
-                    ${question.Category}-${question.id} - ${question.question} 
+                    ${question.id} - ${question.question} 
                     <br>
                     <br> - Your Answer: Not attempted, 
                     <br> - Correct Answer: ${question.options[question.correct]}
@@ -151,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const selectedCategories = getSelectedCategories();
 
         filteredQuestions = questionBank.filter((question) => {
-            return selectedCategories.includes(question.Category);
+            return question.Aircraft === aircraftType && selectedCategories.includes(question.Category);
         });
 
         filteredQuestions = filteredQuestions.sort(() => Math.random() - 0.5);

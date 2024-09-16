@@ -1,4 +1,4 @@
-
+/* Base styles for the body */
 body {
   background-color: #000;
   color: #13155d;
@@ -10,28 +10,15 @@ body {
   justify-content: center;
   height: 100%;
   width: 100%;
-  display: flex;
   flex-direction: column; /* Set flex direction to column */
 }
 
-
-/* .container {
-  
-
-} */
-.container1{
-  justify-self: center; /* Centers horizontally */
-  align-self: center; /* Centers vertically */
-  flex-direction: column; /* Stacks children vertically */
-  height: 20vh; /*Set height to 100% of viewport height */
-  text-align: center;
-
-}
+/* Container styles */
 .container {
   justify-self: center; /* Centers horizontally */
   align-self: center; /* Centers vertically */
   flex-direction: column; /* Stacks children vertically */
-  height: 50%; /*Set height to 100% of viewport height */
+  height: 50%; /* Set height to 50% of viewport height */
   text-align: center;
   padding: 10px; /* Adjust padding as needed */
   position: relative; /* Required for absolute positioning */
@@ -63,223 +50,170 @@ body {
   backdrop-filter: blur(4px); /* Adjust the blur intensity as needed */
 }
 
-.container::before,
-.container::after {
-  backdrop-filter: blur(3px); /* Adjust the blur intensity as needed */
-}
-
 .container > * {
   position: relative;
   z-index: 1;
 }
 
-
-.SelectionBox {
- min-height: 150px;
-}
-
-.list {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 20px;
-  margin-bottom: 0;
-  padding: 0;
-}
-
-.list1 {
-  vertical-align: top;
-  margin-top: -30px;
-}
-
-.ata_List1 {
-  text-align: left;
-  vertical-align: top;
-}
-.ata_List2 {
-  text-align: left;
-  vertical-align: top;
-}
-
-select, button {
-  margin: 10px;
-}
-
-
-/* Answer list and buttons */
+/* Styles for the question container */
 .question-container {
+  position: relative; /* Ensure positioning context for question-id */
   background-color: rgba(6, 6, 6, 0.32); /* Adjust the alpha value to control transparency */
-  /*border: 1px inset grey;*/
   border-radius: 10px;
-  margin: 4px 0px 4px 0px;
-  padding: 8px 15px 40px 10px;
-  height: 25vh; /* Ensure body takes up full vertical height */
-  width: 65vw; /* Ensure body takes up full horizontal width */
+  margin-bottom: 20px;
+  padding: 10px 10px 15px 10px; /* Add extra padding at the bottom */
+  width: 100%; /* Make sure it takes up full available width */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  max-width: 65vw; /* Ensure it doesn’t exceed viewport width */
   backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
-
+  overflow: hidden; /* Ensure content doesn’t spill outside */
 }
 
+/* Styles for the question ID */
+.question-id {
+  font-size: 0.6rem; /* Adjust the font size as needed */
+  color: #666; /* Optional: color for the question ID */
+  position: absolute; /* Absolute positioning for moving it to the right */
+  right: 10px; /* Distance from the right edge */
+  bottom: 10px; /* Distance from the bottom edge */
+}
+
+/* List and button styles */
 .options-list {
-  list-style: none ;
+  list-style: none;
   padding: 0;
   margin: 0;
-  }
+}
+
+.options-list li {
+  margin: 0; /* Remove default margin */
+  padding: 5px 0; /* Add padding between list items */
+}
+
+/* Add padding to the last <li> item to ensure space at the bottom */
+.options-list li:last-child {
+  padding-bottom: 20px; /* Ensure there is space between the last item and the container's bottom edge */
+}
+
 button {
   background-color: #333;
   color: #fff;
-  /*width: 80%;*/
   padding: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition-duration: 0.4s;
   height: 5vh; /* Ensure body takes up full vertical height */
-  width: 50vw; /* Ensure body takes up full horizontal width */
+  width: 100%; /* Ensure buttons are responsive */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
 button:hover {
-  background-color: #555; 
+  background-color: #555;
 }
-
-
-
-
 
 .selected {
   background-color: #dadada;
   color: #333;
   box-shadow: 0 4px 14px 0 #a6ff7d, 0 6px 10px 0 rgba(0,0,0,0.19);
 }
+/* Responsive adjustments for narrow screens */
+@media (max-width: 768px) {
+  .question-container {
+    padding: 8px; /* Adjust padding for smaller screens */
+    width: 90%; /* Make container width more flexible */
+  }
+
+  .options-list button {
+    width: 100%; /* Ensure buttons fit within the container */
+  }
+}
 
 /* Bottom buttons */
-
-#filterBtn {
-  background-color: #333; 
+#filterBtn, #finishBtn, #resetBtn {
   height: 4vh; /* Ensure body takes up full vertical height */
   width: 18vw; /* Ensure body takes up full horizontal width */
   min-width: 110px;
   max-width: 200px; /* Maximum width */
+  margin: 10px;
 }
 
-#filterBtn:hover {
+#filterBtn:hover, #finishBtn:hover, #resetBtn:hover {
   width: 19vw; /* Ensure body takes up full horizontal width */
+  max-width: 205px; /* Maximum width */
+}
+
+#filterBtn {
+  background-color: #333;
 }
 
 #finishBtn {
   background-color: #4CAF50; /* Green */
-  height: 4vh; /* Ensure body takes up full vertical height */
-  width: 18vw; /* Ensure body takes up full horizontal width */
-  min-width: 110px;
-  max-width: 200px; /* Maximum width */
 }
-#finishBtn:hover {
-  background-color: #45a049; /* Darker Green */
-  height: 4vh; /* Ensure body takes up full vertical height */
-  width: 19vw; /* Ensure body takes up full horizontal width */
-  
-  max-width: 205px; /* Maximum width */
-}
+
 #resetBtn {
   background-color: #f44336; /* Red */
-  height: 4vh; /* Ensure body takes up full vertical height */
-  width: 18vw; /* Ensure body takes up full horizontal width */
-  min-width: 110px;
-  max-width: 200px; /* Maximum width */
-}
-#resetBtn:hover {
-  background-color: #d32f2f; /* Darker Red */
-  height: 4vh; /* Ensure body takes up full vertical height */
-  width: 19vw; /* Ensure body takes up full horizontal width */
-  
-  max-width: 205px; /* Maximum width */
 }
 
-
-
-
-h4 {
-  color:#d32f2f
-}
-
-/* Add your styles for the pop-up container and content here */
+/* Popup container and content */
 #popup-container {
-display: none;
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background: rgba(0, 0, 0, 0.5);
-justify-content: center;
-align-items: center;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
 }
 
 #popup-content {
-background: white;
-color: #000;
-padding: 20px;
-border-radius: 8px;
-text-align: center;
-}
-
-
-
-
-
-
-
-.result-container {
-  border: 30px solid transparent;
-}
-
-
-
-
-
-
-
-
-.blur-background {
-  justify-self: center; /* Centers horizontally */
-  align-self: center; /* Centers vertically */
-  flex-direction: column; /* Stacks children vertically */
-  height: 50%; /*Set height to 100% of viewport height */
+  background: white;
+  color: #000;
+  padding: 20px;
+  border-radius: 8px;
   text-align: center;
-  padding: 10px; /* Adjust padding as needed */
-  position: relative; /* Required for absolute positioning */
 }
 
-.blur-background::before {
-  content: "";
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  right: -5px;
-  bottom: -5px;
-  z-index: -1;
-  background: inherit;
-  border-radius: inherit;
-  backdrop-filter: blur(2px); /* Adjust the blur intensity as needed */
+/* Styles for the ATAs section */
+.ATAs .SelectionBox {
+  display: flex; /* Use flexbox to align children horizontally */
+  gap: 20px; /* Adjust spacing between the lists as needed */
 }
 
-.blur-background::after {
-  content: "";
-  position: absolute;
-  top: -10px;
-  left: -10px;
-  right: -10px;
-  bottom: -10px;
-  z-index: -2;
-  background: inherit;
-  border-radius: inherit;
-  backdrop-filter: blur(4px); /* Adjust the blur intensity as needed */
+.ATAs .list {
+  flex: 1; /* Allows lists to grow and shrink equally */
+  max-width: 50%; /* Optional: limits the width of each list */
+  box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+  padding-top: 20px;
 }
 
-.blur-background::before,
-.blur-background::after {
-  backdrop-filter: blur(3px); /* Adjust the blur intensity as needed */
+.ATAs ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
 }
 
-.blur-background > * {
-  position: relative;
-  z-index: 1;
+.ATAs li {
+  margin-bottom: 10px; /* Adjust spacing between items as needed */
+}
+
+
+#S92 {
+  margin-top: 150px; /* Ensure there is space between the last item and the container's bottom edge */
+}
+
+#H175{
+  margin-top: 15px; /* Ensure there is space between the last item and the container's bottom edge */
+}
+
+
+
+#Week1, #Week2,#Week3,#Week4,#Week5 {
+  margin-top: 15px; /* Ensure there is space between the last item and the container's bottom edge */
+}
+  
+#Week5{
+  margin-bottom: 200px;
 }

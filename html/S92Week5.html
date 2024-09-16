@@ -25,6 +25,9 @@ body {
 
     <h1>S-92 Week 5 Quiz</h1>
 
+        <!-- Hidden input to specify aircraft type -->
+        <input type="hidden" id="aircraftType" value="S92">
+
     <label for="questionCount">Select Number of Questions:</label>
     <select id="questionCount">
       <option value="0">0</option>
@@ -44,20 +47,19 @@ body {
       <div class="SelectionBox">
         <div class="list">
           <ul class="ata_List1">
-            <div>
-              <label><input type="checkbox" class="category-checkbox" value="21"> 21</label>
-              <label><input type="checkbox" class="category-checkbox" value="30"> 30</label>
-              <label><input type="checkbox" class="category-checkbox" value="76"> 76</label>
-            </div>
+            <li><label><input type="checkbox" class="category-checkbox" value="21"> 21</label></li>
+            <li><label><input type="checkbox" class="category-checkbox" value="30"> 30</label></li>
+            <li><label><input type="checkbox" class="category-checkbox" value="76"> 76</label></li>
             </ul>
+        </div>    
         
         
         <div class="list">
           <ul class="ata_List2">
-            <div>
-              <label><input type="checkbox" class="category-checkbox" value="77"> 77</label>
-              <label><input type="checkbox" class="category-checkbox" value="80"> 80</label>
-            </div>
+            
+            <li><label><input type="checkbox" class="category-checkbox" value="77"> 77</label></li>
+            <li><label><input type="checkbox" class="category-checkbox" value="80"> 80</label></li>
+            
 
           </ul>
         </div>

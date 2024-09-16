@@ -25,6 +25,9 @@ body {
 
     <h1>S-92 Week 4 Quiz</h1>
 
+        <!-- Hidden input to specify aircraft type -->
+        <input type="hidden" id="aircraftType" value="S92">
+
     <label for="questionCount">Select Number of Questions:</label>
     <select id="questionCount">
       <option value="0">0</option>
@@ -44,22 +47,19 @@ body {
       <div class="SelectionBox">
         <div class="list">
           <ul class="ata_List1">
-            <div>
-              <label><input type="checkbox" class="category-checkbox" value="22">22</label>
-              <label><input type="checkbox" class="category-checkbox" value="25">25</label>
-              <label><input type="checkbox" class="category-checkbox" value="33">33</label>
-              <label><input type="checkbox" class="category-checkbox" value="72">72</label>
-            </div>
+            <li><label><input type="checkbox" class="category-checkbox" value="22">22</label></li>
+            <li><label><input type="checkbox" class="category-checkbox" value="25">25</label></li>
+            <li><label><input type="checkbox" class="category-checkbox" value="33">33</label></li>
+            <li><label><input type="checkbox" class="category-checkbox" value="72">72</label></li>
           </ul>
+        </div>  
         
         <div class="list">
           <ul class="ata_List2">
-            <div>
-              <label><input type="checkbox" class="category-checkbox" value="73">73</label>
-              <label><input type="checkbox" class="category-checkbox" value="74">74</label>
-              <label><input type="checkbox" class="category-checkbox" value="75">75</label>
-              <label><input type="checkbox" class="category-checkbox" value="79">79</label>
-            </div>
+            <li><label><input type="checkbox" class="category-checkbox" value="73">73</label></li>
+            <li><label><input type="checkbox" class="category-checkbox" value="74">74</label></li>
+            <li><label><input type="checkbox" class="category-checkbox" value="75">75</label></li>
+            <li><label><input type="checkbox" class="category-checkbox" value="79">79</label></li>
           </ul>
         </div>
       <!-- Add more categories as needed -->

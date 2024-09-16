@@ -11,7 +11,7 @@ TODO work better way to add quesions
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="../css/styles.css">
   <style>
 body {
   background-image: url('./support_Documents/H175C.jpg');
@@ -29,18 +29,16 @@ body {
 <body>
   <div class="container1"></div>
   <div class="container">
-    <h6>update 1711231326</h6>
+    <h6 id="lastSave">Last save: --/--/---- --:--</h6> <!-- Updated the ID -->
     <h1>Type Course Quiz</h1>
 
+    <div class="typebuttons">
 
+      <a href="./html/S92.html"> <button id="S92" title=>S92</button></a>
 
-    <a href="./html/S92.html"> <button id="Week1" title=
-       >S92</button></a>
+      <a href="./html/H175.html"> <button id="H175" title=>H175 </button> </a>
 
-       <a href="./html/H175.html"> <button id="Week2" title=
-
->H175 </button> </a>
-
+    </div>
 
 
 <!--   <div id="popup-container">
@@ -66,5 +64,6 @@ body {
 
 
   <script src="js/popPassword.js"></script>
+  <script src="js/updateTime.js"></script>
 </body>
 </html>
