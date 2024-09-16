@@ -6,23 +6,21 @@
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="../css/nav.css">
   <style>
-body {
-  background-image: url("../support_Documents/S92B.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* Change to fixed to prevent scrolling */
-  height: 100%; /* Set height to 100% */
-  width: 100%; /* Set width to 100% */
-  margin: 0; /* Remove default margin */
- 
-}
+    body {
+      background-image: url("../support_Documents/S92B.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* Change to fixed to prevent scrolling */
+      height: 100%; /* Set height to 100% */
+      width: 100%; /* Set width to 100% */
+      margin: 0; /* Remove default margin */
+    }
   </style>
   <title>MCQ Quiz Week 3</title>
 </head>
 <body>
   <div class="container1"></div>
   <div class="container">
-
     <h1>S-92 Week 3 Quiz</h1>
 
     <label for="questionCount">Select Number of Questions:</label>
@@ -38,80 +36,51 @@ body {
       <option value="40">40</option>
     </select>
 
-    <!-- Checkboxes for categories -->
-
     <div class="ATAs">
       <div class="SelectionBox">
         <div class="list">
           <ul class="ata_List1">
             <div>
-              <input type="checkbox" class="category-checkbox" value="S92 ATA 18" id="categoryATA18">
-              <label for="categoryATA00-12">ATA 18</label>
+              <label><input type="checkbox" class="category-checkbox" value="00-12"> 00-12</label>
+              <label><input type="checkbox" class="category-checkbox" value="26"> 26</label>
+              <label><input type="checkbox" class="category-checkbox" value="28"> 28</label>
+              <label><input type="checkbox" class="category-checkbox" value="34"> 34</label>
             </div>
-            <div>
-              <input type="checkbox" class="category-checkbox" value="S92 ATA 26" id="categoryATA26">
-              <label for="categoryATA20">ATA 26</label>
-            </div>
-            <div>
-              <input type="checkbox" class="category-checkbox" value="S92 ATA 28" id="categoryATA28">
-              <label for="categoryATA24">ATA 28</label>
-            </div>
-            <div>
-              <input type="checkbox" class="category-checkbox" value="S92 ATA 34" id="categoryATA34">
-              <label for="categoryATA45">ATA 34</label>
-            </div>
-
           </ul>
-        </div>
-        
+
         <div class="list">
           <ul class="ata_List2">
             <div>
-              <input type="checkbox" class="category-checkbox" value="S92 ATA 49" id="categoryATA49">
-              <label for="categoryATA50">ATA 49</label>
+              <label><input type="checkbox" class="category-checkbox" value="49"> 49</label>
+              <label><input type="checkbox" class="category-checkbox" value="70"> 70</label>
+              <label><input type="checkbox" class="category-checkbox" value="71"> 71</label>
             </div>
-            <div>
-              <input type="checkbox" class="category-checkbox" value="S92 ATA 70" id="categoryATA70">
-              <label for="categoryATA62">ATA 70</label>
-            </div>
-            <div>
-              <input type="checkbox" class="category-checkbox" value="S92 ATA 71" id="categoryATA71">
-              <label for="categoryATA63">ATA 71</label>
-            </div>
-            <div>
-              <input type="checkbox" class="category-checkbox" value="S92 ATA 78" id="categoryATA78">
-              <label for="categoryATA63">ATA 78</label>
-            </div>
-
           </ul>
         </div>
+
         <div class="list1">
           <ul class="ata_List">
             <div>
               <input type="checkbox" class="category-checkbox" value="S92 Engine Manuals" id="categoryEngineManuals">
-              <label for="categoryATA63">Engine Manuals</label>
+              <label for="categoryEngineManuals">Engine Manuals</label>
             </div>
           </ul>
         </div>
-      <!-- Add more categories as needed -->
+      </div>
     </div>
+
     <div>
-      <label for="selectAll">Select All</label>
-      <input type="checkbox" id="selectAll">
-    
+      <label><input type="checkbox" id="selectAll"> Select All</label>
     </div>
-    
 
     <button id="filterBtn">Generate Quiz</button>
 
     <div id="questions-container"></div>
 
-
     <div id="result-container"></div>
 
     <button id="finishBtn">Finish</button>
     <button id="resetBtn">Reset</button>
-
 
     <div class="navigation">
       <a href="../html/S92Week2.html"> <button id="left">&#8592;</button> </a>
@@ -121,7 +90,6 @@ body {
   </div>
   <div class="container1"></div>
 
-  <!-- <script src="../js/questionBank.js"></script> -->
   <script type="module" src="../js/script.js"></script>
   <script src="../js/popscript.js"></script>
 </body>

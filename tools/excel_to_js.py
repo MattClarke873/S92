@@ -1,7 +1,6 @@
 import openpyxl
 import tkinter as tk
 from tkinter import filedialog
-import json
 
 def convert_excel_to_js(input_file, output_file):
     workbook = openpyxl.load_workbook(input_file)
@@ -13,7 +12,7 @@ def convert_excel_to_js(input_file, output_file):
         js_object = {
             'id': row[0],
             'Aircraft': row[1],
-            'Category': row[2],
+            'Category': f"'{row[2]}'",
             'question': row[3],
             'options': {'a': row[4], 'b': row[5], 'c': row[6]},
             'correct': row[7],
@@ -21,11 +20,34 @@ def convert_excel_to_js(input_file, output_file):
 
         js_data.append(js_object)
 
+    # Create custom JavaScript object format
+    js_data_str = ',\n'.join(
+        '{\n'
+        f'    id: {repr(obj["id"])},\n'
+        f'    Aircraft: {repr(obj["Aircraft"])},\n'
+        f'    Category: {obj["Category"]},\n'
+        f'    question: {repr(obj["question"])},\n'
+        f'    options: {{\n'
+        f'        a: {repr(obj["options"]["a"])},\n'
+        f'        b: {repr(obj["options"]["b"])},\n'
+        f'        c: {repr(obj["options"]["c"])}\n'
+        f'    }},\n'
+        f'    correct: {repr(obj["correct"])}\n'
+        '}' for obj in js_data
+    )
+    
+    js_data_str = '[\n' + js_data_str + '\n]'
+
     with open(output_file, 'w') as js_file:
-        js_file.write('const questions = ')
-        # Use separators to put options on the same line
-        json.dump(js_data, js_file, indent=2, separators=(',', ': '))
+        js_file.write('//uncomment this line and comment export line to export to excel.  AND THE BOTTOM LINE')
+        js_file.write('\n')
+        js_file.write('// const questionBank = [')
+        js_file.write(';\n')
+        js_file.write('export const questions = ')
+        js_file.write(js_data_str)
         js_file.write(';')
+        js_file.write('\n')
+        js_file.write('//module.exports = questionBank; ')
 
 def browse_input_file():
     file_path = filedialog.askopenfilename(filetypes=[("Excel files", "*.xlsx")])

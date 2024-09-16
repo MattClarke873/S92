@@ -12,13 +12,18 @@
         th {
             border: 1px solid #ddd;
             padding: 8px;
-            text-align: center; /* Center text in table headers only */
+            text-align: center; /* Center text in table headers */
             background-color: #f4f4f4;
         }
         td {
             border: 1px solid #ddd;
             padding: 8px;
-            text-align: left; /* Align text to the left in table cells */
+        }
+        td.center-align {
+            text-align: center; /* Center text in specific cells */
+        }
+        td.left-align {
+            text-align: left; /* Align text to the left in specific cells */
         }
         tr:nth-child(even) {
             background-color: #f9f9f9;
@@ -27,7 +32,7 @@
             font-weight: bold;
             color: green; /* Change the color to green */
         }
-        input {
+        input, select {
             width: 100%;
             box-sizing: border-box;
         }
@@ -40,7 +45,7 @@
     </table>
 
     <script type="module">
-        import { questionBank } from "../js/questionBank.js";
+        import { questions } from "../js/questionBank.js";
 
         function generateTable(data) {
             const table = document.getElementById('questionTable');
@@ -49,17 +54,36 @@
 
             // Create header row with filters for specific columns
             const headerRow = thead.insertRow();
-            const headers = ['id', 'category', 'question', 'options'];
-            headers.forEach((header, index) => {
+            const headers = ['id', 'Aircraft', 'Category', 'question', 'options'];
+            headers.forEach(header => {
                 const th = document.createElement('th');
-                th.textContent = header;
+                th.textContent = header.charAt(0).toUpperCase() + header.slice(1); // Capitalize header text
 
-                // Create filter input only for "id" and "category"
-                if (header === 'id' || header === 'category') {
+                if (header === 'id' || header === 'Category') {
+                    // Create filter input for "id" and "Category"
                     const filterInput = document.createElement('input');
-                    filterInput.placeholder = `Filter ${header}`;
+                    filterInput.placeholder = `Filter ${header.charAt(0).toUpperCase() + header.slice(1)}`;
                     filterInput.addEventListener('input', () => applyFilters(data));
                     th.appendChild(filterInput);
+                } else if (header === 'Aircraft') {
+                    // Create dropdown filter for "Aircraft"
+                    const filterSelect = document.createElement('select');
+                    const defaultOption = document.createElement('option');
+                    defaultOption.value = '';
+                    defaultOption.textContent = `Filter ${header.charAt(0).toUpperCase() + header.slice(1)}`;
+                    filterSelect.appendChild(defaultOption);
+
+                    // Add options for dropdown
+                    const aircraftOptions = ['S92', 'H175']; // Update this list based on available aircraft
+                    aircraftOptions.forEach(aircraft => {
+                        const option = document.createElement('option');
+                        option.value = aircraft;
+                        option.textContent = aircraft;
+                        filterSelect.appendChild(option);
+                    });
+
+                    filterSelect.addEventListener('change', () => applyFilters(data));
+                    th.appendChild(filterSelect);
                 }
 
                 headerRow.appendChild(th);
@@ -77,37 +101,53 @@
                             const optionsTable = document.createElement('table');
                             const optionsTbody = optionsTable.createTBody();
 
-                            // Iterate over options and apply bold to correct one
-                            Object.keys(item[header]).forEach(optionKey => {
+                            // Iterate over options and apply bold to the correct one
+                            Object.keys(item.options).forEach(optionKey => {
                                 const optionRow = optionsTbody.insertRow();
                                 const optionCell = optionRow.insertCell();
                                 
                                 // Bold the correct option and set color to green
                                 const optionText = document.createElement('span');
-                                optionText.textContent = `${optionKey}: ${item[header][optionKey]}`;
+                                optionText.textContent = `${optionKey}: ${item.options[optionKey]}`;
                                 if (optionKey === item.correct) {
                                     optionText.classList.add('bold');
                                 }
                                 optionCell.appendChild(optionText);
                             });
                             cell.appendChild(optionsTable);
+                            cell.classList.add('left-align'); // Ensure options column has left alignment
                         } else {
                             cell.textContent = item[header];
+                            // Center-align specific columns
+                            if (header === 'id' || header === 'Aircraft' || header === 'Category') {
+                                cell.classList.add('center-align');
+                            } else {
+                                cell.classList.add('left-align');
+                            }
                         }
                     });
                 });
             }
 
+            // Apply filters based on input values
             function applyFilters(data) {
-                const filters = Array.from(document.querySelectorAll('th input')).map(input => input.value.toLowerCase());
+                const filterInputs = Array.from(document.querySelectorAll('th input'));
+                const filterSelect = document.querySelector('th select');
+                const filters = {
+                    id: filterInputs[0]?.value.toLowerCase() || '',
+                    Aircraft: filterSelect?.value.toLowerCase() || '',
+                    Category: filterInputs[1]?.value.toLowerCase() || ''
+                };
 
                 const filteredData = data.filter(item => {
-                    return headers.every((header, index) => {
+                    return headers.every(header => {
                         if (header === 'options') {
                             return true; // Skip filtering for this column
                         }
-                        const cellValue = item[header].toString().toLowerCase();
-                        return cellValue.includes(filters[index]);
+                        const filterValue = filters[header] || '';
+                        const cellValue = item[header] ? item[header].toString().toLowerCase() : '';
+                        // Check if cellValue starts with the filterValue
+                        return cellValue.startsWith(filterValue);
                     });
                 });
 
@@ -118,7 +158,7 @@
             populateTable(data);
         }
 
-        generateTable(questionBank);
+        generateTable(questions);
     </script>
 </body>
 </html>

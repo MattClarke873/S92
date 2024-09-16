@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <style>
+        .question-container {
+            margin-bottom: 20px;
+        }
+        .options-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .options-list button {
+            margin: 5px;
+            cursor: pointer;
+        }
+        .selected {
+            background-color: #d1d1d1;
+        }
+        .blur-background {
+            filter: blur(4px);
+        }
+        .result-container {
+            display: none;
+            margin-top: 20px;
+        }
+        .category-checkbox {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quiz Application</h1>
+    <ul class="ata_List1">
+        <div>
+            <label for="questionCount">Number of Questions:</label>
+            <select id="questionCount">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+    </ul>
+    <div>
+        <h3>Select Categories:</h3>
+        <label><input type="checkbox" class="category-checkbox" value=""> </label>
+        <label><input type="checkbox" class="category-checkbox" value=""> </label>
+        <label><input type="checkbox" class="category-checkbox" value=""> </label>
+        <label><input type="checkbox" class="category-checkbox" value=""> </label>
+        <label><input type="checkbox" id="selectAll"> Select All</label>
+    </div>
+    
+    <div>
+        <button id="filterBtn">Generate Quiz</button>
+        <button id="resetBtn">Reset</button>
+        <button id="finishBtn">Submit</button>
+    </div>
+    
+    <div id="questions-container"></div>
+    <div id="result-container"></div>
+    
+    <script type="module" src="../js/script.js"></script>
+</body>
+</html>
+
+
+
+ATA 21
+ATA 30
+ATA 76
+
+ATA 77
+ATA 80
