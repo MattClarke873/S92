@@ -153,8 +153,17 @@ button:hover {
   max-width: 205px; /* Maximum width */
 }
 
-#filterBtn {
-  background-color: #333;
+#finishBtn {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  text-align: center;
+  
+  /* Flexbox centering */
+  
+  justify-content: center;
+  align-items: center;
+  
+  
 }
 
 #finishBtn {
@@ -236,7 +245,7 @@ h1 {
   color: white;
   height: 4vh;
   width: 18vw;
-  min-width: 110px;
+  min-width: 130px;
   max-width: 200px;
   margin: 10px;
   padding: 5px 10px; /* Adjusted padding */
@@ -272,5 +281,6 @@ h1 {
     width: 90%; /* Ensure it takes a wider area on smaller screens */
     padding: 8px; /* Adjust padding for smaller screens */
     min-width: unset; /* Remove min-width restriction */
+    min-height: unset;
   }
 }
