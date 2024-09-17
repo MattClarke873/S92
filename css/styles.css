@@ -279,28 +279,34 @@ h1 {
     max-width: 65vw; /* Ensure it doesn’t exceed viewport width */
     backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4); /* Add subtle shadow for depth */
-    
+
     /* Allow the box to grow and shrink as needed */
-    height: auto; /* Height adjusts automatically to the content */
-    overflow: visible; /* Ensure content is always shown */
-    word-wrap: break-word; /* Ensure long words break if needed */
-}
-
-
-  button {
-    background-color: #444;
-    color: #ffffff;
-    padding: 12px;
+    height: auto; /* Ensure height adjusts automatically */
+    max-height: 70vh; /* Optional: Limit maximum height to 70% of the viewport */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds max-height */
+    word-wrap: break-word; /* Ensure long words are wrapped to fit within the container */
+  }
+  .question-container .button {
+    background-color: #4CAF50; /* Button background */
+    color: white;
+    padding: 10px 20px; /* Adjust padding */
     border: none;
     border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
     cursor: pointer;
-    transition-duration: 0.4s;
-    height: 6vh; /* Ensure body takes up full vertical height */
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
-    font-size: 0.8rem; /* Reduce font size on small screens */
-    width: 90%; /* Ensure it takes a wider area on smaller screens */
-    padding: 8px; /* Adjust padding for smaller screens */
-    min-width: unset; /* Remove min-width restriction */
-    min-height: unset;
+
+    /* Ensure height adjusts dynamically based on content */
+    height: auto; /* Auto-adjusts based on content */
+    line-height: normal; /* Allow the line height to adjust naturally */
+    
+    /* Make sure text wraps inside the button */
+    white-space: normal; /* Allows the text to wrap to multiple lines if needed */
+    word-wrap: break-word; /* Ensures long words or links break properly */
+
+    /* Optional: Control button width */
+    width: auto; /* Adjust based on content, or set a fixed width if necessary */
+    display: inline-block; /* Make the button shrink or grow based on content */
   }
+
 }
