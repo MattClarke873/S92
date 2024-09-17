@@ -12702,7 +12702,7 @@ export const questions = [
     options: {
         a: 'built in steps',
         b: 'one size fits all access ladder with attachments at 4 points on each side of the aircraft',
-        c: 'no way without dedicated staging'
+        c: 'one size fits all access ladder with attachments at 4 points on the aircraft'
     },
     correct: 'b'
 },
@@ -12998,7 +12998,530 @@ export const questions = [
         c: '400A DC'
     },
     correct: 'b'
+},
+
+{
+    id: 2066,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What is directly powered by Battery No. 1 when both BAT 1 and BAT 2 are OFF?',
+    options: {
+      a: 'DBAT 1 busbar',
+      b: 'MAIN BUS 1',
+      c: 'ESS 1 busbar'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2067,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What occurs when BAT1 switch is turned ON without battery protection?',
+    options: {
+      a: 'Battery No. 1 supplies ESS 1 busbar',
+      b: 'ESSC 1 contactor closes',
+      c: 'No. 1 Generator is powered on'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2068,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What message is displayed on the master list after BAT1 is turned ON?',
+    options: {
+      a: 'PWR-UP TST',
+      b: 'GEN1 DISCONNECTED',
+      c: 'ELEC TST FAIL'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2069,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What happens to the bus tie contactors (BTC 1 and BTC 2) when Battery No. 1 is turned on?',
+    options: {
+      a: 'BTC 1 and BTC 2 remain open',
+      b: 'BTC 1 and BTC 2 contactors close',
+      c: 'Both remain in standby'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2070,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'Which busbars are supplied by Battery No. 1 through MAIN BUS 1?',
+    options: {
+      a: 'NO SHED 1 and EMERG 1 busbars',
+      b: 'DBAT 1 and MAIN BUS 1',
+      c: 'ESS 2 and NO SHED 2 busbars'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2071,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What powers the FLIGHT SHED busbar on the ground?',
+    options: {
+      a: 'NO SHED 2 busbar',
+      b: 'ESSC 1 contactor',
+      c: 'NO SHED 1 busbar'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2072,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'During engine start when will GLC1 open ?',
+    options: {
+      a: 'When the No.1 engine control switch is selected to flight (or idle)',
+      b: 'When No. 1 engine N1 reaches 50 %',
+      c: 'When No. 1 engine N2 reaches 60%'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2073,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What is the priority power source when the EPU is connected and turned on?',
+    options: {
+      a: 'Starter-generators',
+      b: 'Batteries',
+      c: 'EPU'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2074,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'With power supplied by the EPU',
+    options: {
+      a: 'Both GLC1 contactor & GLC2 contactor will open',
+      b: 'GLC1 contactor will open and GLC2 contactor will close',
+      c: 'Both GLC1 contactor & GLC2 contactor will close'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2075,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What happens when the SHED OVER switch is activated?',
+    options: {
+      a: 'SBC1 and SBC2 contactors close',
+      b: 'BTC 1 and BTC 2 contactors open',
+      c: 'Both NO SHED busbars disconnect'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2076,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'Which component sends a starting discrete signal during engine start?',
+    options: {
+      a: 'EECU',
+      b: 'DCEMB',
+      c: 'AMC'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2077,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What closes during Engine 1 start to supply the Starter/Generator?',
+    options: {
+      a: 'GLC 1 contactor',
+      b: 'BTC 1 contactor',
+      c: 'ESSC 1 contactor'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2078,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What will indicate that the starter-generators are not connected to the network?',
+    options: {
+      a: 'Amber symbols on MFD',
+      b: 'Grey symbols on MFD',
+      c: 'Green symbols on MFD'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2079,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'When will Generator 1 current be negative during an engine start?',
+    options: {
+      a: 'When the engine is self-sustaining',
+      b: 'When the starter is drawing power',
+      c: 'When the generator is supplying power'
+    },
+    correct: 'b'
+  },
+
+  {
+    id: 2080,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What busbars will the emergency generator supply in case of DC generator failure?',
+    options: {
+      a: 'ESS 1 and 2 busbars',
+      b: 'NO SHED 1 and 2 busbars',
+      c: 'EMERG 1 and 2 busbars'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2081,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'Which conditions must be met for the emergency generator to recharge the batteries?',
+    options: {
+      a: 'EPU must be connected',
+      b: 'EGC 1 & 2 relays must be energised',
+      c: 'Both DC generators must fail'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2082,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What does the message BAT LOW indicate?',
+    options: {
+      a: 'Battery voltage below 23V',
+      b: 'Battery temperature exceeds 62°C',
+      c: 'Battery disconnected'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2083,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What action should the pilot take if a BAT OVERHEAT warning is displayed?',
+    options: {
+      a: 'Switch the affected battery OFF',
+      b: 'Turn on the emergency generator',
+      c: 'Activate the SHED OVER switch'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2084,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What will be displayed on the Master list if a power-up test fails?',
+    options: {
+      a: 'ELEC TST FAIL',
+      b: 'PWR-UP TST OK',
+      c: 'START-UP TST'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2085,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What does a green battery symbol on the VMS indicate?',
+    options: {
+      a: 'Batteries are disconnected',
+      b: 'Batteries are connected and operative',
+      c: 'Batteries are supplying the starter-generators'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2086,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What will cause the PWR-UP TST OK message to display?',
+    options: {
+      a: 'Battery protection is activated',
+      b: 'DCEMB tests are successful',
+      c: 'Bus tie contactors remain open'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2087,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What happens when Generator 2 voltage exceeds Main Bus voltage by +0.5V?',
+    options: {
+      a: 'GLC 2 contactor closes',
+      b: 'BTC 1 contactor opens',
+      c: 'Battery 2 discharges'
+    },
+    correct: 'a'
+  },
+  {
+      id: 2090,
+      Aircraft: 'H175',
+      Category: '24',
+      question: 'Where will the AC power system indications be displayed in the H175?',
+      options: {
+          a: 'On the Master List and VMS_ELEC page',
+          b: 'On the AC Generator Control Panel',
+          c: 'On the Engine Control Display'
+      },
+      correct: 'a'
+  },
+  {
+    id: 2089,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What is the role of the DCEMB?',
+    options: {
+      a: 'Manages the charging of batteries',
+      b: 'Monitors the performance of the batteries',
+      c: 'Both of the above'
+    },
+    correct: 'c'
+  },
+
+  {
+    id: 2090,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What happens to the batteries and generators when the Emergency Cut-Off (ECO) gang-bar is pulled?',
+    options: {
+        a: 'Both batteries and both generators are isolated from the power distribution system.',
+        b: 'Only the generators are isolated from the power distribution system.',
+        c: 'Both batteries and generators remain connected to the power distribution system.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2091,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'Which busbars will continue to receive electrical power after the ECO gang-bar is pulled?',
+    options: {
+        a: 'Main Bus 1 and Main Bus 2',
+        b: 'ESS 1, ESS 2, EMERG 1, EMERG 2, DBAT 1, DBAT 2',
+        c: 'Shed Bus 1, Shed Bus 2, Flight Shed'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2092,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What action is required to reset a generator after an over-voltage event?',
+    options: {
+        a: 'Move the generator OFF ON RST switch to the OFF position.',
+        b: 'Move the generator OFF ON RST switch to the RST position.',
+        c: 'Turn off the affected generator for 10 seconds.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2093,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'At what generator voltage does the associated DCEMB open the GLC to disconnect the generator?',
+    options: {
+        a: 'At 30 Vdc',
+        b: 'At 32 Vdc',
+        c: 'At 28 Vdc'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2094,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What indication is displayed on the Master list in the event of a loss of the ARINC 429 link between the AMC and the DCEMB (via the ASU)?',
+    options: {
+        a: 'ELEC1 SIGNAL FAIL ELEC2',
+        b: 'GEN1 DISCONNECTED GEN2',
+        c: 'BAT1 DISCONNECTED BAT2'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2095,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What is the primary purpose of the AC power system in the H175?',
+    options: {
+        a: 'To power the electrically heated windshields',
+        b: 'To supply power to the avionics system',
+        c: 'To power the engine control system'
+    },
+    correct: 'a'
+},
+{
+    id: 2096,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'Where is the AC alternator mounted on the H175?',
+    options: {
+        a: 'On the right-hand Accessories Gearbox (RH AGB)',
+        b: 'On the left-hand Accessories Gearbox (LH AGB)',
+        c: 'In the engine compartment'
+    },
+    correct: 'b'
+},
+{
+    id: 2097,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What is the nominal output voltage between each phase and neutral from the AC alternator?',
+    options: {
+        a: '115 VAC',
+        b: '200 VAC',
+        c: '400 VAC'
+    },
+    correct: 'a'
+},
+{
+    id: 2098,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What component in the AC Electrical Master Box (ACEMB) regulates the excitation of the AC alternator?',
+    options: {
+        a: 'Z200 module',
+        b: 'Z100 module',
+        c: 'Generator Line Contactor (GLC)'
+    },
+    correct: 'b'
+},
+{
+    id: 2099,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What priority does the AC External Power Unit (EPU) have in the ACEMB?',
+    options: {
+        a: 'The AC alternator has priority',
+        b: 'The AC EPU has priority',
+        c: 'The ACEMB does not prioritize power sources'
+    },
+    correct: 'b'
+},
+{
+    id: 2100,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'Which module in the ACEMB provides network protection?',
+    options: {
+        a: 'Z100',
+        b: 'Z200',
+        c: 'Z300'
+    },
+    correct: 'b'
+},
+{
+    id: 2101,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'Where is the AC External Power socket located on the H175?',
+    options: {
+        a: 'On the right side of the aircraft',
+        b: 'under the nose bay',
+        c: 'On the left side of the aircraft'
+    },
+    correct: 'c'
+},
+{
+    id: 2102,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What does the blue light on the EPU control pushbutton indicate?',
+    options: {
+        a: 'AC EPU is currently powering the system',
+        b: 'AC external power is available',
+        c: 'The AC alternator is connected'
+    },
+    correct: 'b'
+},
+{
+    id: 2103,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What will happen when the Emergency Cut-off (ECO) switches are moved to the OFF position?',
+    options: {
+        a: 'All contactors in DCEMB 1 and DCEMB 2 will close',
+        b: 'All contactors in DCEMB 1 and DCEMB 2 will open except ESSC 1 and ESSC 2',
+        c: 'The AC alternator will be disconnected by DCEMB contactors'
+    },
+    correct: 'b'
+},
+{
+    id: 2104,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What protection is fitted to the DC power system?',
+    options: {
+        a: '350A fuse from battery 1 to earth only',
+        b: 'one 40A fuse from each battery to the relavent DBAT and a one 350A fuse from each battery to earth',
+        c: '350A fuse from Battery 2 and a 40A fuse from battery 2 to DBAT 2'
+    },
+    correct: 'b'
+},
+{
+    id: 2105,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'When can the Shed Override switch (SHED OVER) be used?',
+    options: {
+        a: 'to override the shedding function when the aircraft is on the ground and there are no AC generators online',
+        b: 'to connect AC power to the DCEMB',
+        c: 'to override the shedding function when the aircraft is on the ground and there are no DC generators online'
+    },
+    correct: 'c'
+},
+{
+    id: 2106,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What are the ratings of aircraft batteries?',
+    options: {
+        a: '28V DC, 27Ah ',
+        b: '24V AC, 27Ah',
+        c: '24V DC, 27Ah'
+    },
+    correct: 'c'
+}, 
+
+{
+    id: 2107,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'In an emergency situation how long can the aircraft batteries supply power?',
+    options: {
+        a: '30 minutes',
+        b: '2 minutes 30 seconds',
+        c: '1 Hour'
+    },
+    correct: 'a'
+},
+{
+    id: 2108,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What are the batteries comprised of?',
+    options: {
+        a: '20 cell, a thermal switch and a temperature switch (activating at >72°C',
+        b: '18 cell, a thermal switch and a temperature switch (activating at >72°C',
+        c: '20 cell, a thermal switch and a temperature switch (activating at >72°F'
+    },
+    correct: 'a'
 }
+
+  
+  
 
 
 
