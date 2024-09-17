@@ -1,7 +1,7 @@
 /* Base styles for the body */
 body {
   background-color: #000;
-  color: #13155d;
+  color: black; /* Lighter color for better contrast */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -58,21 +58,29 @@ body {
 /* Styles for the question container */
 .question-container {
   position: relative; /* Ensure positioning context for question-id */
-  background-color: rgba(6, 6, 6, 0.32); /* Adjust the alpha value to control transparency */
+  background-color: rgba(30, 30, 30, 0.75); /* Darker background with more opacity */
+  color: #e0e6ff ;
   border-radius: 10px;
   margin-bottom: 20px;
-  padding: 10px 10px 15px 10px; /* Add extra padding at the bottom */
+  padding: 15px 15px 20px 15px; /* Increase padding for better spacing */
   width: 100%; /* Make sure it takes up full available width */
   box-sizing: border-box; /* Include padding and border in element's total width and height */
   max-width: 65vw; /* Ensure it doesn’t exceed viewport width */
   backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
   overflow: hidden; /* Ensure content doesn’t spill outside */
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4); /* Add subtle shadow for depth */
+}
+
+/* Styles for the question text */
+.question-container h2 {
+  color: #ffffff; /* Make the question text white for better contrast */
+  font-size: 1.2rem; /* Adjust font size if needed */
 }
 
 /* Styles for the question ID */
 .question-id {
-  font-size: 0.6rem; /* Adjust the font size as needed */
-  color: #666; /* Optional: color for the question ID */
+  font-size: 0.7rem; /* Slightly larger font size */
+  color: #999999; /* Subtle color for the question ID */
   position: absolute; /* Absolute positioning for moving it to the right */
   right: 10px; /* Distance from the right edge */
   bottom: 10px; /* Distance from the bottom edge */
@@ -87,7 +95,7 @@ body {
 
 .options-list li {
   margin: 0; /* Remove default margin */
-  padding: 5px 0; /* Add padding between list items */
+  padding: 8px 0; /* Add padding between list items */
 }
 
 /* Add padding to the last <li> item to ensure space at the bottom */
@@ -96,20 +104,21 @@ body {
 }
 
 button {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
+  background-color: #444;
+  color: #ffffff;
+  padding: 12px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition-duration: 0.4s;
-  height: 5vh; /* Ensure body takes up full vertical height */
+  height: 6vh; /* Ensure body takes up full vertical height */
   width: 100%; /* Ensure buttons are responsive */
   box-sizing: border-box; /* Include padding and border in element's total width and height */
+  font-size: 1rem; /* Increase button font size */
 }
 
 button:hover {
-  background-color: #555;
+  background-color: #666;
 }
 
 .selected {
@@ -117,10 +126,11 @@ button:hover {
   color: #333;
   box-shadow: 0 4px 14px 0 #a6ff7d, 0 6px 10px 0 rgba(0,0,0,0.19);
 }
+
 /* Responsive adjustments for narrow screens */
 @media (max-width: 768px) {
   .question-container {
-    padding: 8px; /* Adjust padding for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
     width: 90%; /* Make container width more flexible */
   }
 
@@ -197,23 +207,27 @@ button:hover {
 
 .ATAs li {
   margin-bottom: 10px; /* Adjust spacing between items as needed */
+  color: black;
 }
-
 
 #S92 {
   margin-top: 150px; /* Ensure there is space between the last item and the container's bottom edge */
 }
 
-#H175{
+#H175 {
   margin-top: 15px; /* Ensure there is space between the last item and the container's bottom edge */
 }
 
-
-
-#Week1, #Week2,#Week3,#Week4,#Week5 {
+#Week1, #Week2, #Week3, #Week4, #Week5 {
   margin-top: 15px; /* Ensure there is space between the last item and the container's bottom edge */
 }
-  
-#Week5{
+
+#Week5 {
   margin-bottom: 200px;
 }
+
+h1 {
+  color: black;
+}
+
+

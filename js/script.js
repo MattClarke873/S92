@@ -126,6 +126,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         resultContainer.classList.add('blur-background');
         resultContainer.classList.add('result-container');
+        resultContainer.style.backgroundColor = 'rgba(173, 216, 230, 0.7)'; // Light blue with 50% transparency
         finishBtn.style.display = 'none';
         questionsContainer.style.display = 'none';
         resultContainer.style.display = 'block';
