@@ -12598,7 +12598,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 2031,
     Aircraft: 'EC175',
     Category: '04-12',
@@ -12609,7 +12609,7 @@ export const questions = [
         c: '6'
     },
     correct: 'b'
-},
+}, */
 {
     id: 2032,
     Aircraft: 'EC175',
@@ -12638,7 +12638,7 @@ export const questions = [
     id: 2034,
     Aircraft: 'EC175',
     Category: '04-12',
-    question: 'Where is the airborne kit located on the EC175?',
+    question: 'Where is the blanking kit located on the EC175?',
     options: {
         a: 'In the cockpit',
         b: 'In the rear baggage bay',
@@ -12674,18 +12674,6 @@ export const questions = [
     id: 2037,
     Aircraft: 'EC175',
     Category: '04-12',
-    question: 'What should be done before moving the aircraft with the guiding bar?',
-    options: {
-        a: 'Turn the nose landing gear',
-        b: 'Avoid hitting the fuselage',
-        c: 'Remove the mooring points'
-    },
-    correct: 'b'
-},
-{
-    id: 2038,
-    Aircraft: 'EC175',
-    Category: '04-12',
     question: 'What color text on placards and markings indicates general information?',
     options: {
         a: 'Black',
@@ -12695,19 +12683,7 @@ export const questions = [
     correct: 'a'
 },
 {
-    id: 2039,
-    Aircraft: 'EC175',
-    Category: '04-12',
-    question: 'What must be done before grounding the aircraft during refueling?',
-    options: {
-        a: 'Connect the tanker to the helicopter',
-        b: 'Ensure the aircraft is beyond the rotor disk zone',
-        c: 'Ground the aircraft with a wire and alligator clip'
-    },
-    correct: 'c'
-},
-{
-    id: 2040,
+    id: 2038,
     Aircraft: 'EC175',
     Category: '04-12',
     question: 'What is the minimum distance the tanker should be from the aircraft during refueling?',
