@@ -26,53 +26,59 @@
 
     <!-- Hidden input to specify aircraft type -->
     <input type="hidden" id="aircraftType" value="H175">
-
-    <label for="questionCount">Select Number of Questions:</label>
-    <select id="questionCount">
-      <option value="0">0</option>
-      <option value="5">5</option>
-      <option value="10">10</option>
-      <option value="15">15</option>
-      <option value="20">20</option>
-      <option value="25">25</option>
-      <option value="30">30</option>
-      <option value="35">35</option>
-      <option value="40">40</option>
-    </select>
-
-    <!-- Checkboxes for categories -->
-    <div class="ATAs">
-      <div class="SelectionBox">
-        <div class="list">
-          <ul class="ata_List1">
-            <li><label><input type="checkbox" class="category-checkbox"  value="04-12"> 05-12</label></li>
-            <li><label><input type="checkbox" class="category-checkbox"  value="18" disabled> 18</label></li>
-            <li><label><input type="checkbox" class="category-checkbox"  value="24"> 24</label></li>
-            <li><label><input type="checkbox" class="category-checkbox"  value="25" disabled> 25</label></li>
-          </ul>
+    <div class="selections">
+      <label for="questionCount">Select Number of Questions:</label>
+      <select id="questionCount">
+        <option value="0">0</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+        <option value="25">25</option>
+        <option value="30">30</option>
+        <option value="35">35</option>
+        <option value="40">40</option>
+      </select>
+  
+      <!-- Checkboxes for categories -->
+      <div class="ATAs">
+        <div class="SelectionBox">
+          <div class="list">
+            <ul class="ata_List1">
+              <li><label><input type="checkbox" class="category-checkbox"  value="04-12"> 05-12</label></li>
+              <li><label><input type="checkbox" class="category-checkbox"  value="18" disabled> 18</label></li>
+              <li><label><input type="checkbox" class="category-checkbox"  value="24"> 24</label></li>
+              <li><label><input type="checkbox" class="category-checkbox"  value="25" disabled> 25</label></li>
+            </ul>
+          </div>
+          <div class="list">
+            <ul class="ata_List2">
+              <li><label><input type="checkbox" class="category-checkbox"  value="52" disabled> 52</label></li>
+              <li><label><input type="checkbox" class="category-checkbox"  value="88" disabled> 88</label></li>
+              <li><label><input type="checkbox" class="category-checkbox"  value="89" disabled> 89</label></li>
+              
+            </ul>
+          </div>
+          <!-- Add more categories as needed -->
         </div>
-        <div class="list">
-          <ul class="ata_List2">
-            <li><label><input type="checkbox" class="category-checkbox"  value="52" disabled> 52</label></li>
-            <li><label><input type="checkbox" class="category-checkbox"  value="88" disabled> 88</label></li>
-            <li><label><input type="checkbox" class="category-checkbox"  value="89" disabled> 89</label></li>
-            
-          </ul>
+        <div class="selectAllBox">
+          <label><input type="checkbox" id="selectAll"> Select All</label>
         </div>
-        <!-- Add more categories as needed -->
       </div>
-      <div>
-        <label><input type="checkbox" id="selectAll"> Select All</label>
-      </div>
+  
+      <button id="filterBtn">Generate Quiz</button>
+
     </div>
 
-    <button id="filterBtn">Generate Quiz</button>
 
     <div id="questions-container"></div> 
 
     <div id="result-container"></div>
-    <button id="finishBtn">Finish</button>
-    <button id="resetBtn">Reset</button>
+
+    <div class="bottomButtons">
+      <button id="finishBtn">Finish</button>
+      <button id="resetBtn">Reset</button>
+    </div>
 
     <div class="navigation">
       <a href="../index.html"><button id="home">&#127968;</button></a>
