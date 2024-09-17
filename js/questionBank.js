@@ -3,293 +3,6 @@
 export const questions = [
   
     {
-        id: 999,
-        Aircraft: 'H175',
-        Category: '00',
-        question: 'H175Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'a'
-    },
-    {
-        id: 1000,
-        Aircraft: 'H175',
-        Category: '00',
-        question: 'H175Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'b'
-    },
-    {
-        id: 1001,
-        Aircraft: 'H175',
-        Category: '00',
-        question: 'H175Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'a'
-    },
-    {
-        id: 1002,
-        Aircraft: 'H175',
-        Category: '00',
-        question: 'H175Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'b'
-    },{
-        id: 1003,
-        Aircraft: 'H175',
-        Category: '00',
-        question: 'H175Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'a'
-    },
-    {
-        id: 1004,
-        Aircraft: 'H175',
-        Category: '00',
-        question: 'H175Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'b'
-    },
-    {
-        id: 1005,
-        Aircraft: 'S92',
-        Category: '00',
-        question: 'S92Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'a'
-    },
-    {
-        id: 1006,
-        Aircraft: 'S92',
-        Category: '00',
-        question: 'S92Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'b'
-    },
-    {
-        id: 1007,
-        Aircraft: 'S92',
-        Category: '00',
-        question: 'S92Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'a'
-    },
-    {
-        id: 1008,
-        Aircraft: 'S92',
-        Category: '00',
-        question: 'S92Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'b'
-    },{
-        id: 1009,
-        Aircraft: 'S92',
-        Category: '00',
-        question: 'S92Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'a'
-    },
-    {
-        id: 1010,
-        Aircraft: 'S92',
-        Category: '00',
-        question: 'S92Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'b'
-    },
-    
-    
-    
-    {
-        id: 1011,
-        Aircraft: 'H175',
-        Category: '12',
-        question: 'H175Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'a'
-    },
-    {
-        id: 1012,
-        Aircraft: 'H175',
-        Category: '12',
-        question: 'H175Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'b'
-    },
-    {
-        id: 1013,
-        Aircraft: 'H175',
-        Category: '12',
-        question: 'H175Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'a'
-    },
-    {
-        id: 1014,
-        Aircraft: 'H175',
-        Category: '12',
-        question: 'H175Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'b'
-    },{
-        id: 1015,
-        Aircraft: 'H175',
-        Category: '12',
-        question: 'H175Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'a'
-    },
-    {
-        id: 1016,
-        Aircraft: 'H175',
-        Category: '12',
-        question: 'H175Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'b'
-    },
-    {
-        id: 1017,
-        Aircraft: 'S92',
-        Category: '12',
-        question: 'S92Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'a'
-    },
-    {
-        id: 1018,
-        Aircraft: 'S92',
-        Category: '12',
-        question: 'S92Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'b'
-    },
-    {
-        id: 1019,
-        Aircraft: 'S92',
-        Category: '12',
-        question: 'S92 Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'a'
-    },
-    {
-        id: 1020,
-        Aircraft: 'S92',
-        Category: '12',
-        question: 'S92 Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'b'
-    },{
-        id: 1021,
-        Aircraft: 'S92',
-        Category: '12',
-        question: 'S92 Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'a'
-    },
-    {
-        id: 1021,
-        Aircraft: 'S92',
-        Category: '12',
-        question: 'S92 Test?',
-        options: {
-            a: 'Test a',
-            b: 'Test b',
-            c: 'Test c'
-        },
-        correct: 'b'
-    },
-    {
       id: 1,
       Aircraft: 'S92',
       Category: '00-12',
@@ -12511,10 +12224,6 @@ export const questions = [
 
 
 
-
-
-
-
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////                                     ////////////////////////////////////////////
@@ -12522,6 +12231,498 @@ export const questions = [
 ///////////////////////////////                                     ////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+{
+    id: 2001,
+    Aircraft: 'H175',
+    Category: '04-12',
+    question: 'What is the maximum number of passengers the H175 can transport in an oil and gas configuration?',
+    options: {
+        a: '16',
+        b: '18',
+        c: '20'
+    },
+    correct: 'b'
+},
+{
+    id: 2002,
+    Aircraft: 'H175',
+    Category: '04-12',
+    question: 'What is the purpose of the Main transmission in the H175?',
+    options: {
+        a: 'To manage fuel consumption',
+        b: 'To transmit power from the engines to the main rotor',
+        c: 'To control the aircraft’s altitude'
+    },
+    correct: 'b'
+},
+{
+    id: 2003,
+    Aircraft: 'H175',
+    Category: '04-12',
+    question: 'What is the absolute VNE (Velocity Never Exceed) for the H175 at sea level?',
+    options: {
+        a: '160 kts',
+        b: '175 kts',
+        c: '180 kts'
+    },
+    correct: 'b'
+},
+{
+    id: 2004,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'What type of documents are included in the Aircraft Technical Log Books for the EC175?',
+    options: {
+        a: 'Flight Manual, Engine Log Books, and Journey Log',
+        b: 'Aircraft Log Book, Individual Inspection Log Book, and Journey Log',
+        c: 'Maintenance Review Board Report, Engine Log Books, and Pilot guides'
+    },
+    correct: 'b'
+},
+{
+    id: 2005,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'Where can Airbus Helicopters EC175 users access real-time updates for technical information?',
+    options: {
+        a: 'Airbus World ORION and TIPI',
+        b: 'Local company file system',
+        c: 'Airbus Helicopters DVD'
+    },
+    correct: 'a'
+},
+{
+    id: 2006,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'Which ATA of the Maintenance Program includes airworthiness limitations for the EC175?',
+    options: {
+        a: 'ATA 04',
+        b: 'ATA 05',
+        c: 'ATA 20'
+    },
+    correct: 'a'
+},
+{
+    id: 2007,
+    Aircraft: 'S92',
+    Category: '04-12',
+    question: 'What is the purpose of the Airworthiness Limitations Section (ALS)?',
+    options: {
+        a: 'To specify mandatory operations and limits for continued airworthiness of the helicopter',
+        b: 'To list all available helicopter maintenance manuals',
+        c: 'To monitor the weather conditions during flight operations'
+    },
+    correct: 'a'
+},
+{
+    id: 2008,
+    Aircraft: 'S92',
+    Category: '04-12',
+    question: 'Which section of the ALS specifies the mandatory airworthiness inspections related to CS29.571 and damage tolerance activities?',
+    options: {
+        a: '04-10-00',
+        b: '04-20-00',
+        c: '04-30-00'
+    },
+    correct: 'b'
+},
+{
+    id: 2009,
+    Aircraft: 'S92',
+    Category: '04-12',
+    question: 'Components subject to Service Life Limit (SLL) are exposed to which type of fatigue?',
+    options: {
+        a: 'Thermal fatigue',
+        b: 'Vibration and low-cycle fatigue',
+        c: 'Corrosion fatigue'
+    },
+    correct: 'b'
+},
+{
+    id: 2010,
+    Aircraft: 'S92',
+    Category: '04-12',
+    question: 'How are airworthiness limitations expressed for components that undergo large centrifugal load variations?',
+    options: {
+        a: 'In cycles with large centrifugal load variations',
+        b: 'In total flight hours only',
+        c: 'In the number of maintenance checks performed'
+    },
+    correct: 'a'
+},
+{
+    id: 2011,
+    Aircraft: 'S92',
+    Category: '04-12',
+    question: 'How is one landing cycle defined?',
+    options: {
+        a: '1 take-off / landing',
+        b: '1 take-off / landing of flights exceeding 30 seconds in duration',
+        c: '1 take-off / landing with aircraft weights below 7800kg'
+    },
+    correct: 'a'
+},
+{
+    id: 2011,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'Which zone on the EC175 comprises the cockpit and nose fairing?',
+    options: {
+        a: 'Zone A',
+        b: 'Zone B',
+        c: 'Zone C'
+    },
+    correct: 'a'
+},
+{
+    id: 2012,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'Where is the reference point for the Xo axis located on the EC175?',
+    options: {
+        a: '7001 mm forward of the rotor head',
+        b: '7001 mm aft of the rotor head',
+        c: '1200 mm below the cabin floor'
+    },
+    correct: 'a'
+},
+{
+    id: 2013,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'Which frames support the primary structure (spine) of the EC175?',
+    options: {
+        a: 'Frames 1 and 2',
+        b: 'Frames 3 and 4',
+        c: 'Frames 6 and 7'
+    },
+    correct: 'b'
+},
+{
+    id: 2015,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'Which maintenance zone contains the Main Gear Box (MGB) and main rotor compartment?',
+    options: {
+        a: 'D1',
+        b: 'A1',
+        c: 'B1'
+    },
+    correct: 'a'
+},
+{
+    id: 2016,
+    Aircraft: 'EC 175',
+    Category: '04-12',
+    question: 'Where is the reference point of the Xo axis located?',
+    options: {
+        a: '7001 mm forward of the center of the rotor head',
+        b: '1200 mm below the cabin floor',
+        c: 'On the vertical plane of symmetry'
+    },
+    correct: 'a'
+},
+{
+    id: 2017,
+    Aircraft: 'EC 175',
+    Category: '04-12',
+    question: 'Where is the reference point of the Yo axis located?',
+    options: {
+        a: '1200 mm below the cabin floor',
+        b: '7001 mm forward of the center of the rotor head',
+        c: 'On the vertical plane of symmetry'
+    },
+    correct: 'c'
+},
+{
+    id: 2018,
+    Aircraft: 'EC 175',
+    Category: '04-12',
+    question: 'Where is the reference point of the Zo axis located?',
+    options: {
+        a: '7001 mm forward of the center of the rotor head',
+        b: 'On the vertical plane of symmetry',
+        c: '1200 mm below the cabin floor'
+    },
+    correct: 'c'
+},
+{
+    id: 2019,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'How many jacking points are fitted on the EC175?',
+    options: {
+        a: '2',
+        b: '3',
+        c: '4'
+    },
+    correct: 'c'
+  },
+  
+  {
+    id: 2020,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'Where are the "A" jacking points located on the EC175?',
+    options: {
+        a: 'On the front frame of the center fuselage',
+        b: 'On the intermediate fuselage forward of the tail boom',
+        c: 'On the main rotor head'
+    },
+    correct: 'a'
+  },
+  
+  {
+    id: 2021,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'How many jacks are required for weighing the aircraft?',
+    options: {
+        a: 'Three, 2 at the front and 1 at the back using a weighing beam',
+        b: 'four',
+        c: 'Three, 1 at the front and 2 at the back using a weighing beam'
+    },
+    correct: 'a'
+  },
+  
+  {
+    id: 2022,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'What is the maximum helicopter weight allowed during hoisting using the main rotor head hoisting attachments?',
+    options: {
+        a: '7000kg',
+        b: '7500kg',
+        c: '7800kg'
+    },
+    correct: 'a'
+  },
+  
+  {
+    id: 2023,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'How is the alignment check of the EC175 airframe conducted?',
+    options: {
+        a: 'Using clinometers on the transmission decking',
+        b: 'By using sighting marks and a theodolite with tripod',
+        c: 'By lifting the aircraft using the MGB H/C support'
+    },
+    correct: 'b'
+  },
+  
+  {
+    id: 2024,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'How many jacks are used to weigh the EC175 simultaneously?',
+    options: {
+        a: '4',
+        b: '3',
+        c: '2'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2025,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'What is H175 Empty Weight (EW)?',
+    options: {
+        a: '4603kg',
+        b: '7500kg',
+        c: '7800kg'
+    },
+    correct: 'a'
+  }, 
+  {
+    id: 2026,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'What is the maximum angle between the towing bar and the H/C before damaging the undercarriage?',
+    options: {
+        a: '90°',
+        b: '100°',
+        c: '110°'
+    },
+    correct: 'c'
+},
+{
+    id: 2027,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'What is the maximum speed for towing the aircraft in reverse?',
+    options: {
+        a: '5 Km/h',
+        b: '10 Km/h',
+        c: '15 Km/h'
+    },
+    correct: 'a'
+},
+{
+    id: 2028,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'Where is the brake accumulator pressure indicator located?',
+    options: {
+        a: 'Under the pilot\’s seat',
+        b: 'Cockpit floor, right-hand side of pilot seat',
+        c: 'Next to the nose landing gear'
+    },
+    correct: 'b'
+},
+{
+    id: 2029,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'What should be verified before towing the aircraft?',
+    options: {
+        a: 'Nose wheel lock is engaged',
+        b: 'Nose wheel lock flag is no longer visible',
+        c: 'Tow bar is disconnected'
+    },
+    correct: 'b'
+},
+{
+    id: 2030,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'What is the purpose of the safety pin in the tow bar handle?',
+    options: {
+        a: 'To secure the tow bar under load',
+        b: 'To prevent oversteering',
+        c: 'To stop the aircraft from moving'
+    },
+    correct: 'a'
+},
+{
+    id: 2031,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'How many tie-down points are there on the EC175?',
+    options: {
+        a: '2',
+        b: '4',
+        c: '6'
+    },
+    correct: 'b'
+},
+{
+    id: 2032,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'What is the minimum mooring requirement for winds between 35 kts and 65 kts?',
+    options: {
+        a: '2 tie-down points',
+        b: '4 basic mooring points',
+        c: '6 heavy weather mooring points'
+    },
+    correct: 'b'
+},
+{
+    id: 2033,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'What is the recommended parking solution when the wind exceeds 80 kts?',
+    options: {
+        a: 'Secure with heavy weather moorings',
+        b: 'Park the helicopter in a hangar',
+        c: 'Use 6 mooring points'
+    },
+    correct: 'b'
+},
+{
+    id: 2034,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'Where is the airborne kit located on the EC175?',
+    options: {
+        a: 'In the cockpit',
+        b: 'In the rear baggage bay',
+        c: 'In the nose landing gear compartment'
+    },
+    correct: 'b'
+},
+{
+    id: 2035,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'What is considered long-term storage for the EC175?',
+    options: {
+        a: '1-6 months',
+        b: 'Over 6 months',
+        c: 'More than 1 year'
+    },
+    correct: 'b'
+},
+{
+    id: 2036,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'Which chapter in the Maintenance Manual contains information on approved consumable materials?',
+    options: {
+        a: 'Chapter 10',
+        b: 'Chapter 11',
+        c: 'Chapter 12'
+    },
+    correct: 'c'
+},
+{
+    id: 2037,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'What should be done before moving the aircraft with the guiding bar?',
+    options: {
+        a: 'Turn the nose landing gear',
+        b: 'Avoid hitting the fuselage',
+        c: 'Remove the mooring points'
+    },
+    correct: 'b'
+},
+{
+    id: 2038,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'What color text on placards and markings indicates general information?',
+    options: {
+        a: 'Black',
+        b: 'Red',
+        c: 'Green'
+    },
+    correct: 'a'
+},
+{
+    id: 2039,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'What must be done before grounding the aircraft during refueling?',
+    options: {
+        a: 'Connect the tanker to the helicopter',
+        b: 'Ensure the aircraft is beyond the rotor disk zone',
+        c: 'Ground the aircraft with a wire and alligator clip'
+    },
+    correct: 'c'
+},
+{
+    id: 2040,
+    Aircraft: 'EC175',
+    Category: '04-12',
+    question: 'What is the minimum distance the tanker should be from the aircraft during refueling?',
+    options: {
+        a: '1 meter',
+        b: '3 meters',
+        c: '5 meters'
+    },
+    correct: 'b'
+}
+
+
+
+
+
 
 
 
