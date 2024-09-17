@@ -12271,7 +12271,7 @@ export const questions = [
 },
 {
     id: 2004,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'What type of documents are included in the Aircraft Technical Log Books for the EC175?',
     options: {
@@ -12283,7 +12283,7 @@ export const questions = [
 },
 {
     id: 2005,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'Where can Airbus Helicopters EC175 users access real-time updates for technical information?',
     options: {
@@ -12295,7 +12295,7 @@ export const questions = [
 },
 {
     id: 2006,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'Which ATA of the Maintenance Program includes airworthiness limitations for the EC175?',
     options: {
@@ -12367,7 +12367,7 @@ export const questions = [
 },
 {
     id: 2011,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'Which zone on the EC175 comprises the cockpit and nose fairing?',
     options: {
@@ -12379,7 +12379,7 @@ export const questions = [
 },
 {
     id: 2012,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'Where is the reference point for the Xo axis located on the EC175?',
     options: {
@@ -12391,7 +12391,7 @@ export const questions = [
 },
 {
     id: 2013,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'Which frames support the primary structure (spine) of the EC175?',
     options: {
@@ -12403,7 +12403,7 @@ export const questions = [
 },
 {
     id: 2015,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'Which maintenance zone contains the Main Gear Box (MGB) and main rotor compartment?',
     options: {
@@ -12451,7 +12451,7 @@ export const questions = [
 },
 {
     id: 2019,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'How many jacking points are fitted on the EC175?',
     options: {
@@ -12464,7 +12464,7 @@ export const questions = [
   
   {
     id: 2020,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'Where are the "A" jacking points located on the EC175?',
     options: {
@@ -12477,7 +12477,7 @@ export const questions = [
   
   {
     id: 2021,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'How many jacks are required for weighing the aircraft?',
     options: {
@@ -12490,7 +12490,7 @@ export const questions = [
   
   {
     id: 2022,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'What is the maximum helicopter weight allowed during hoisting using the main rotor head hoisting attachments?',
     options: {
@@ -12503,7 +12503,7 @@ export const questions = [
   
   {
     id: 2023,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'How is the alignment check of the EC175 airframe conducted?',
     options: {
@@ -12516,7 +12516,7 @@ export const questions = [
   
   {
     id: 2024,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'How many jacks are used to weigh the EC175 simultaneously?',
     options: {
@@ -12528,7 +12528,7 @@ export const questions = [
   },
   {
     id: 2025,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'What is H175 Empty Weight (EW)?',
     options: {
@@ -12540,7 +12540,7 @@ export const questions = [
   }, 
   {
     id: 2026,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'What is the maximum angle between the towing bar and the H/C before damaging the undercarriage?',
     options: {
@@ -12552,7 +12552,7 @@ export const questions = [
 },
 {
     id: 2027,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'What is the maximum speed for towing the aircraft in reverse?',
     options: {
@@ -12564,7 +12564,7 @@ export const questions = [
 },
 {
     id: 2028,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'Where is the brake accumulator pressure indicator located?',
     options: {
@@ -12576,7 +12576,7 @@ export const questions = [
 },
 {
     id: 2029,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'What should be verified before towing the aircraft?',
     options: {
@@ -12588,7 +12588,7 @@ export const questions = [
 },
 {
     id: 2030,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'What is the purpose of the safety pin in the tow bar handle?',
     options: {
@@ -12600,7 +12600,7 @@ export const questions = [
 },
 /* {
     id: 2031,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'How many tie-down points are there on the EC175?',
     options: {
@@ -12612,7 +12612,7 @@ export const questions = [
 }, */
 {
     id: 2032,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'What is the minimum mooring requirement for winds between 35 kts and 65 kts?',
     options: {
@@ -12624,7 +12624,7 @@ export const questions = [
 },
 {
     id: 2033,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'What is the recommended parking solution when the wind exceeds 80 kts?',
     options: {
@@ -12636,7 +12636,7 @@ export const questions = [
 },
 {
     id: 2034,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'Where is the blanking kit located on the EC175?',
     options: {
@@ -12648,7 +12648,7 @@ export const questions = [
 },
 {
     id: 2035,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'What is considered long-term storage for the EC175?',
     options: {
@@ -12660,7 +12660,7 @@ export const questions = [
 },
 {
     id: 2036,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'Which chapter in the Maintenance Manual contains information on approved consumable materials?',
     options: {
@@ -12672,7 +12672,7 @@ export const questions = [
 },
 {
     id: 2037,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'What color text on placards and markings indicates general information?',
     options: {
@@ -12684,7 +12684,7 @@ export const questions = [
 },
 {
     id: 2038,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '04-12',
     question: 'What is the minimum distance the tanker should be from the aircraft during refueling?',
     options: {
@@ -12693,7 +12693,32 @@ export const questions = [
         c: '5 meters'
     },
     correct: 'b'
-}
+},
+{
+    id: 2039,
+    Aircraft: 'H175',
+    Category: '04-12',
+    question: 'How can acess be gained to the top deck and tail transmission area?',
+    options: {
+        a: '',
+        b: 'one size fits all access ladder with attachments at 4 points on each side of the aircraft',
+        c: ''
+    },
+    correct: 'b'
+},
+{
+    id: 2040,
+    Aircraft: 'H175',
+    Category: '04-12',
+    question: 'What action should be taken if the engine oil type is changed?',
+    options: {
+        a: '',
+        b: 'Adjust the oil type on Helionix',
+        c: ''
+    },
+    correct: 'b'
+},
+
 
 
 
