@@ -231,3 +231,46 @@ h1 {
 }
 
 
+#filterBtn {
+  background-color: #333;
+  color: white;
+  height: 4vh;
+  width: 18vw;
+  min-width: 110px;
+  max-width: 200px;
+  margin: 10px;
+  padding: 5px 10px; /* Adjusted padding */
+  font-size: 1rem;
+  white-space: normal; /* Allow text to wrap */
+  word-wrap: break-word; /* Allow words to break if necessary */
+  text-align: center;
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+  overflow: hidden; /* Prevent content overflow */
+  text-overflow: ellipsis; /* Adds '...' if text overflows */
+}
+
+/* Responsive rules for smaller screens (less than 430px) */
+@media (max-width: 430px) {
+  #filterBtn {
+    font-size: 0.8rem; /* Reduce font size on small screens */
+    width: 90%; /* Ensure it takes a wider area on smaller screens */
+    padding: 8px; /* Adjust padding for smaller screens */
+    min-width: unset; /* Remove min-width restriction */
+  }
+
+  button {
+    background-color: #444;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    height: 6vh; /* Ensure body takes up full vertical height */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    font-size: 0.8rem; /* Reduce font size on small screens */
+    width: 90%; /* Ensure it takes a wider area on smaller screens */
+    padding: 8px; /* Adjust padding for smaller screens */
+    min-width: unset; /* Remove min-width restriction */
+  }
+}
