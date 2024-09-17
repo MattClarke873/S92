@@ -12700,9 +12700,9 @@ export const questions = [
     Category: '04-12',
     question: 'How can acess be gained to the top deck and tail transmission area?',
     options: {
-        a: '',
+        a: 'built in steps',
         b: 'one size fits all access ladder with attachments at 4 points on each side of the aircraft',
-        c: ''
+        c: 'no way without dedicated staging'
     },
     correct: 'b'
 },
@@ -12723,6 +12723,282 @@ export const questions = [
 
 
 
+{
+    id: 2041,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What is the basic electrical power system voltage on the H175?',
+    options: {
+        a: '115 V AC',
+        b: '28 V DC',
+        c: '400 V AC'
+    },
+    correct: 'b'
+},
+{
+    id: 2042,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What optional system is part of the H175 electrical system?',
+    options: {
+        a: '115V/400Hz 3 phase AC system',
+        b: '115V/500Hz single phase AC system',
+        c: '28V AC generation system'
+    },
+    correct: 'a'
+},
+{
+    id: 2043,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'How many engine-driven starter/generators are there in the H175 electrical system?',
+    options: {
+        a: '1',
+        b: '2',
+        c: '4'
+    },
+    correct: 'b'
+},
+{
+    id: 2044,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What type of batteries does the H175 use?',
+    options: {
+        a: 'Lead-acid',
+        b: 'Nickel/cadmium',
+        c: 'Lithium-ion'
+    },
+    correct: 'b'
+},
+{
+    id: 2045,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What is the purpose of the DC Electrical Master Boxes (DCEMBs) in the H175?',
+    options: {
+        a: 'Control the battery temperature',
+        b: 'Regulate and distribute DC power',
+        c: 'Monitor AC power only'
+    },
+    correct: 'b'
+},
+{
+    id: 2046,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'How is the emergency DC generator in the H175 powered?',
+    options: {
+        a: 'By the engine accessory gearbox',
+        b: 'By the main gearbox (MGB)',
+        c: 'By an auxiliary power unit'
+    },
+    correct: 'b'
+},
+{
+    id: 2047,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'Where are the circuit breakers that protect the DC power consumers located?',
+    options: {
+        a: 'In the cockpit',
+        b: 'On 5 circuit breaker panels',
+        c: 'In the tail section'
+    },
+    correct: 'b'
+},
+{
+    id: 2048,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What is the rated output of each starter/generator on the H175?',
+    options: {
+        a: '100A/28V DC',
+        b: '300A/28V DC',
+        c: '500A/28V DC'
+    },
+    correct: 'b'
+},
+{
+    id: 2050,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What is the role of the Emergency DC power system?',
+    options: {
+        a: 'Power the auxiliary power unit',
+        b: 'Supply essential electrical consumers during failure of both starter/generators',
+        c: 'Provide power for in-flight entertainment systems'
+    },
+    correct: 'b'
+},
+{
+    id: 2052,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What does the Emergency Cut-Off toggle switch do when in the OFF position?',
+    options: {
+        a: 'Disconnect all electrical buses excluding Essential and Emergency busbars',
+        b: 'Connect the emergency busbars to the essential busbars',
+        c: 'Reset the emergency generator'
+    },
+    correct: 'a'
+},
+{
+    id: 2053,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What does the RST (Reset) position of the battery switch do?',
+    options: {
+        a: 'Disconnect the battery from the electrical buses',
+        b: 'Reset the battery in case of cut-out',
+        c: 'Turn on the battery system'
+    },
+    correct: 'b'
+},
+{
+    id: 2054,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What is the rated output of the emergency generator under normal conditions?',
+    options: {
+        a: '300A',
+        b: '165A',
+        c: '125A'
+    },
+    correct: 'c'
+},
+{
+    id: 2055,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What will happen when the Shed Override (SHED OVER) switch is activated on the ground?',
+    options: {
+        a: 'The emergency generator will turn on',
+        b: 'Shedding function is overridden',
+        c: 'Main batteries are disconnected'
+    },
+    correct: 'b'
+},
+{
+    id: 2056,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'Where is the Direct Battery Breaker Panel (DBBP) located?',
+    options: {
+        a: 'In the tail section',
+        b: 'By the pilot\’s feet',
+        c: 'In the engine compartment'
+    },
+    correct: 'b'
+},
+{
+    id: 2057,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What is the function of the DC EPU push button on the control panel?',
+    options: {
+        a: 'Engage the starter/generators',
+        b: 'Connect the DC External Power Unit (EPU) to the buses',
+        c: 'Turn on emergency lighting'
+    },
+    correct: 'b'
+},
+{
+    id: 2058,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'Where is the DC external power receptacle located?',
+    options: {
+        a: 'Under the cockpit',
+        b: 'On the left-hand side of the aircraft',
+        c: 'On the right-hand side of the aircraft'
+    },
+    correct: 'b'
+},
+{
+    id: 2059,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'How many cells make up each battery on the H175?',
+    options: {
+        a: '10',
+        b: '20',
+        c: '24'
+    },
+    correct: 'b'
+},
+{
+    id: 2060,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What is the thermal limit that triggers a battery overheat warning?',
+    options: {
+        a: '72°C',
+        b: '50°C',
+        c: '60°C'
+    },
+    correct: 'a'
+},
+{
+    id: 2061,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What information does the ELEC TST FAIL advisory indicate?',
+    options: {
+        a: 'Over-voltage condition',
+        b: 'Failure of electrical tests during power up or start-up',
+        c: 'Battery over-temperature'
+    },
+    correct: 'b'
+},
+{
+    id: 2062,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What does an AMBER indication represent in the electrical system display?',
+    options: {
+        a: 'Normal configuration',
+        b: 'Degraded operational mode',
+        c: 'Major failure'
+    },
+    correct: 'b'
+},
+{
+    id: 2063,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'How many emergency generator switch positions are there?',
+    options: {
+        a: 'Two',
+        b: 'Three',
+        c: 'Four'
+    },
+    correct: 'b'
+},
+{
+    id: 2064,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What happens if both starter/generators fail during flight?',
+    options: {
+        a: 'The batteries automatically supply all buses',
+        b: 'The emergency DC generator powers essential systems',
+        c: 'The AC generator takes over'
+    },
+    correct: 'b'
+},
+{
+    id: 2065,
+    Aircraft: 'H175',
+    Category: '24',
+    question: 'What voltage is the DC external power unit rated at?',
+    options: {
+        a: '300V DC',
+        b: '28V DC',
+        c: '400A DC'
+    },
+    correct: 'b'
+}
 
 
 
