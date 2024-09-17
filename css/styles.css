@@ -267,6 +267,26 @@ h1 {
     min-width: unset; /* Remove min-width restriction */
   }
 
+  .question-container {
+    position: relative; /* Ensure positioning context for question-id */
+    background-color: rgba(30, 30, 30, 0.75); /* Darker background with more opacity */
+    color: #e0e6ff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px 15px 20px 15px; /* Increase padding for better spacing */
+    width: 100%; /* Make sure it takes up full available width */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    max-width: 65vw; /* Ensure it doesn’t exceed viewport width */
+    backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4); /* Add subtle shadow for depth */
+    
+    /* Allow the box to grow and shrink as needed */
+    height: auto; /* Height adjusts automatically to the content */
+    overflow: visible; /* Ensure content is always shown */
+    word-wrap: break-word; /* Ensure long words break if needed */
+}
+
+
   button {
     background-color: #444;
     color: #ffffff;
