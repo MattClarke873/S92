@@ -37,6 +37,21 @@ body {
     text-align: center;
     font-size: 2.5em;
   }
+
+  .mainButtons {
+  background-color: rgb(68, 68, 68); /* Green background */
+  color: white; /* White text */
+  padding: 15px 32px; /* Padding */
+  font-size: 16px; /* Font size */
+  border: none; /* Remove borders */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  margin-bottom: 20px;
+  max-width: 300px;
+}
+
+.mainButtons:hover {
+  background-color: #666;
+}
   
   /* Selections and layout */
   .selections {

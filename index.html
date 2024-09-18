@@ -1,67 +1,84 @@
-<!-- 
-
-
-
-
- -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/styles.css">
+  <title>Home Page</title>
   <style>
-body {
-  background-image: url('./support_Documents/H175C.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* Change to fixed to prevent scrolling */
-  height: 100%; /* Set height to 100% */
-  width: 100%; /* Set width to 100% */
-  margin: 0; /* Remove default margin */
- 
-}
+    /* General body styling */
+    body {
+        background-image: url('../support_Documents/H175C.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    
+    /* Container styles */
+    .container, .container1 {
+      text-align: center;
+      padding: 20px;
+    }
+    
+    /* Heading styles */
+    h1 {
+      font-family: Arial, sans-serif;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+    
+    h6 {
+      color: #fff;
+      font-size: 14px;
+      margin: 10px 0;
+    }
+    
+    /* Button styling */
+    .typebuttons button {
+      background-color: rgb(68, 68, 68); /* Darker blue on hover */
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .typebuttons button:hover {
+      
+      background-color: #666;
+    }
+    
+    button:active {
+      transform: translateY(1px); /* Button pressed effect */
+    }
+    
+    /* General styling for mainButtons */
+    .mainButtons {
+      display: inline-block;
+      font-family: Arial, sans-serif;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      outline: none;
+      transition: transform 0.2s ease;
+    }
+    
+    button:hover {
+      transform: translateY(-3px); /* Slight "lift" on hover */
+    }
   </style>
-  <title>MCQ Quiz</title>
 </head>
 <body>
-  <div class="container1"></div>
   <div class="container">
-    <h6 id="lastSave">Last save: --/--/---- --:--</h6> <!-- Updated the ID -->
     <h1>Type Course Quiz</h1>
-
     <div class="typebuttons">
-
-      <a href="./html/S92.html"> <button id="S92" title=>S92</button></a>
-
-      <a href="./html/H175.html"> <button id="H175" title=>H175 </button> </a>
-
+      <button onclick="window.location.href='./html/S92.html'" class="mainButtons">S92</button>
+      <button onclick="window.location.href='./html/H175.html'" class="mainButtons">H175</button>
     </div>
-
-
-<!--   <div id="popup-container">
-    <div id="popup-content">
-      <p>THIS IS A TRAINING AID, <h4><u>PLEASE CHECK ALL QUESTIONS</u></h4> IF UNSURE.
-        <br>
-        <br>
-        <br>
-        <br>If you find any incorrect questions/answers please let me know.
-      </p>
-      <br>
-      <br>
-      <label for="password">Enter password: </label>
-      <input type="password" id="password" placeholder="Password">
-      <br>
-      <br>
-
-      <button id="filterBtn" onclick="checkPassword()">Submit</button>
-    </div>
-  </div> -->
   </div>
-  <div class="container1"></div>
-
-
-  <script src="js/popPassword.js"></script>
-  <script src="js/updateTime.js"></script>
 </body>
 </html>
