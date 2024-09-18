@@ -106,7 +106,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     <br> - Correct Answer: ${question.options[question.correct]}
                     <br>
                     <br> ------- 
-                    <br> ${question.id}`;
+                    <br> ${question.id}
+                    `;
 
                 resultText.style.color = 'red';
             }
@@ -127,6 +128,9 @@ document.addEventListener('DOMContentLoaded', function () {
         percentageHistoryText.innerHTML = `Last 5 Scores: ${lastFivePercentages.map(p => p.toFixed(2)).join('%, ')}%`;
         resultContainer.appendChild(percentageHistoryText);
 
+        resultContainer.classList.add('blur-background');
+        resultContainer.classList.add('result-container');
+        resultContainer.style.backgroundColor = 'rgba(173, 216, 230, 0.7)'; // Light blue with 50% transparency
         finishBtn.style.display = 'none';
         questionsContainer.style.display = 'none';
         resultContainer.style.display = 'block';
@@ -140,6 +144,8 @@ document.addEventListener('DOMContentLoaded', function () {
         resultContainer.style.display = 'none';
         questionCountSelect.selectedIndex = 0;
 
+        resultContainer.classList.remove('blur-background');
+        resultContainer.classList.remove('result-container');
         finishBtn.style.display = 'inline-block';
     }
 
