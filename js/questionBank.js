@@ -14617,9 +14617,934 @@ export const questions = [
         c: 'Inflation/deflation knob and harness system'
     },
     correct: 'b'
-}
-/*TODO check 2198 */
+},
+{
+    id: 2198,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is one of the main functions of the cockpit doors on the H175?',
+    options: {
+        a: 'Providing air and water tightness',
+        b: 'Jettisoning the crew in an emergency',
+        c: 'Automatically opening during bad weather'
+    },
+    correct: 'a'
+},
+{
+    id: 2199,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the cockpit door body structure made of?',
+    options: {
+        a: 'Single stamped steel sheet',
+        b: 'Two stamped aluminium sheets bonded together',
+        c: 'Reinforced carbon fiber panels'
+    },
+    correct: 'b'
+},
+{
+    id: 2200,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'How is the door body structure attached to the door frame on the H175?',
+    options: {
+        a: 'With a latch system',
+        b: 'Using magnets',
+        c: 'By a hinge system with a gas strut'
+    },
+    correct: 'c'
+},
+{
+    id: 2201,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What feature helps prevent the flotation system from being punctured in case of ditching?',
+    options: {
+        a: 'Reinforced corners on the door',
+        b: 'Smooth edges on the door',
+        c: 'Rubber seals along the door frame'
+    },
+    correct: 'b'
+},
+{
+    id: 2202,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is installed at the bottom of each cockpit door?',
+    options: {
+        a: 'A storage compartment',
+        b: 'A map box',
+        c: 'An emergency exit handle'
+    },
+    correct: 'b'
+},
 
- 
+/*TODO check 2203 */
+
+{
+    id: 2203,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the purpose of the Emergency Floatation System (EFS)?',
+    options: {
+        a: 'To allow the aircraft to float in case of ditching.',
+        b: 'To increase flight stability in turbulent conditions.',
+        c: 'To reduce fuel consumption during flight.'
+    },
+    correct: 'a'
+},
+{
+    id: 2204,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'How many floatation balloons are installed on the H175?',
+    options: {
+        a: 'Two',
+        b: 'Three',
+        c: 'Four'
+    },
+    correct: 'c'
+},
+{
+    id: 2205,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What triggers the backup mode of the Emergency Floatation System?',
+    options: {
+        a: 'Manual activation by the pilot',
+        b: 'Contact with water',
+        c: 'Low fuel levels'
+    },
+    correct: 'b'
+},
+{
+    id: 2206,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'Where is the armament control of the EFS located?',
+    options: {
+        a: 'On the central control panel',
+        b: 'On the overhead console',
+        c: 'On the landing gear'
+    },
+    correct: 'a'
+},
+{
+    id: 2207,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'Which sensors send signals to the EFU in the event of a ditching?',
+    options: {
+        a: 'Wind speed sensors',
+        b: 'Water Immersion Sensors (WIS)',
+        c: 'Temperature sensors'
+    },
+    correct: 'b'
+},
+{
+    id: 2208,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What happens if there is a micro power cut during the flotation initiation phase?',
+    options: {
+        a: 'The Micro Power Cut Filter (MPCF) supplies power to the EFS.',
+        b: 'The EFS shuts down completely.',
+        c: 'The manual control has to be used.'
+    },
+    correct: 'a'
+},
+{
+    id: 2209,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'Where is the Emergency Floatation Unit (EFU) located?',
+    options: {
+        a: 'In the cockpit',
+        b: 'In the tail boom',
+        c: 'In the main landing gear bay'
+    },
+    correct: 'b'
+},
+{
+    id: 2210,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What does the immersion Probe Box (IPB) do?',
+    options: {
+        a: 'Monitors fuel levels',
+        b: 'Sends ditching signals to the EFU',
+        c: 'Regulates cabin pressure'
+    },
+    correct: 'b'
+},
+{
+    id: 2211,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'How many water immersion sensors are on the H175?',
+    options: {
+        a: 'One',
+        b: 'Two',
+        c: 'Three'
+    },
+    correct: 'b'
+},
+{
+    id: 2212,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'Where is WIS2 located on the H175?',
+    options: {
+        a: 'In the nose bay',
+        b: 'In the left-hand main wheel well',
+        c: 'In the tail boom'
+    },
+    correct: 'a'
+},
+{
+    id: 2213,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the maximum inflation time of the EFS floats?',
+    options: {
+        a: '2.5 seconds',
+        b: '3.5 seconds',
+        c: '4.5 seconds'
+    },
+    correct: 'b'
+},
+{
+    id: 2214,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'With the EFS in automatic mode what condition are required for pre-armed mode?',
+    options: {
+        a: 'IAS>VNE',
+        b: 'IAS<VNE',
+        c: 'Float arm switch set to “MAN”'
+    },
+    correct: 'a'
+},
+{
+    id: 2215,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What happens when the WIS 1 and WIS 2 signals differ for more than 5 seconds?',
+    options: {
+        a: 'The backup mode activates.',
+        b: 'The EFU sends a failure message.',
+        c: 'The EFS deploy.'
+    },
+    correct: 'b'
+},
+{
+    id: 2216,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What message is displayed if the floatation system is armed but the aircraft is over Vmax EFS?',
+    options: {
+        a: 'FLOAT ARMED',
+        b: 'FLOAT NOT ARMED',
+        c: 'FLOAT INFLATION'
+    },
+    correct: 'a'
+},
+{
+    id: 2217,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'How are the emergency floats activated in manual mode?',
+    options: {
+        a: 'By pressing a push-button on the collective grip',
+        b: 'By flipping a switch on the landing gear',
+        c: 'Automatically when the aircraft descends below 90 knots'
+    },
+    correct: 'a'
+},
+{
+    id: 2218,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the purpose of the Micro Power Cut Filter (MPCF)?',
+    options: {
+        a: 'To maintain power in case of a momentary power cut.',
+        b: 'To monitor the fuel tank.',
+        c: 'To activate the floatation system in backup mode.'
+    },
+    correct: 'a'
+},
+{
+    id: 2219,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'How is the EFS armed in automatic mode?',
+    options: {
+        a: 'When the aircraft is below 95kts ',
+        b: 'When the pilot presses the arm button',
+        c: 'When the aircraft exceeds Vmax EFS'
+    },
+    correct: 'a'
+},
+{
+    id: 2220,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is displayed on the master list during the power-up test if no faults are found?',
+    options: {
+        a: 'FLOAT ARMED',
+        b: 'PWR-UP TST OK',
+        c: 'FLOAT NOT ARMED'
+    },
+    correct: 'b'
+},
+{
+    id: 2221,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What happens if one helium bottle is disconnected during flight?',
+    options: {
+        a: 'The floatation system will deactivate.',
+        b: 'The FLOAT DISCONN advisory message will be displayed.',
+        c: 'The system will shut down automatically.'
+    },
+    correct: 'b'
+},
+{
+    id: 2222,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What message appears if there is a discrepancy between the two water immersion sensors?',
+    options: {
+        a: 'FLOAT ARMED',
+        b: 'FLOAT TST FAIL',
+        c: 'FLOAT WATER SNSR'
+    },
+    correct: 'c'
+},
+{
+    id: 2223,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What does the caution message "FLOAT INFLATION" indicate?',
+    options: {
+        a: 'The floats are engaged although in OFF mode.',
+        b: 'The floats failed to inflate.',
+        c: 'The power supply is malfunctioning.'
+    },
+    correct: 'a'
+},
+{
+    id: 2224,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the capacity of each life raft on the H175?',
+    options: {
+        a: '10 persons up to 12 persons',
+        b: '12 persons up to 18 persons',
+        c: '16 persons up to 18 persons'
+    },
+    correct: 'b'
+},
+{
+    id: 2225,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'How are the life rafts actuated from the cockpit?',
+    options: {
+        a: 'Using a handle on the floor',
+        b: 'Using a switch on the control panel',
+        c: 'Using a push button near the window'
+    },
+    correct: 'a'
+},
+{
+    id: 2226,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'Which component ensures flotation is achieved in case of a momentary power loss?',
+    options: {
+        a: 'Immersion Probe Box (IPB)',
+        b: 'Micro Power Cut Filter (MPCF)',
+        c: 'Emergency Floatation Unit (EFU)'
+    },
+    correct: 'b'
+},
+{
+    id: 2227,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What happens when the water immersion sensors detects water?',
+    options: {
+        a: 'The EFS is automatically armed.',
+        b: 'The system activates a visual warning.',
+        c: 'The floatation balloons are deployed.'
+    },
+    correct: 'c'
+},
+{
+    id: 2228,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the primary function of the life raft container assembly?',
+    options: {
+        a: 'To protect the life raft and its accessories',
+        b: 'To provide ventilation',
+        c: 'To serve as an extra fuel tank'
+    },
+    correct: 'a'
+},
+{
+    id: 2229,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What components are stored in the life raft container assembly?',
+    options: {
+        a: 'Life raft, ELT, survival kit',
+        b: 'Oxygen masks and parachutes',
+        c: 'Portable fire extinguisher and medical kit'
+    },
+    correct: 'a'
+},
+{
+    id: 2230,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the purpose of the internal flaps in the life raft container?',
+    options: {
+        a: 'To ensure the life raft does not inflate prematurely',
+        b: 'To protect the packed life raft',
+        c: 'To serve as an external handle for the container'
+    },
+    correct: 'b'
+},
+{
+    id: 2231,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'How are the internal flaps attached to the life raft container?',
+    options: {
+        a: 'With Velcro',
+        b: 'With calibrated ropes',
+        c: 'With rivets'
+    },
+    correct: 'c'
+},
+{
+    id: 2232,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What happens to the calibrated ropes when the life raft is deployed?',
+    options: {
+        a: 'They remain intact',
+        b: 'They break',
+        c: 'They release the air'
+    },
+    correct: 'b'
+},
+{
+    id: 2233,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'How is the external flap of the life raft container secured?',
+    options: {
+        a: 'With Velcro and rivets',
+        b: 'With screws and bolts',
+        c: 'With ropes and metal hooks'
+    },
+    correct: 'a'
+},
+{
+    id: 2234,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the purpose of the third handle (lower) on the life raft container?',
+    options: {
+        a: 'To deploy the survival kit',
+        b: 'To release the life raft if the aircraft capsizes',
+        c: 'To inflate the floats'
+    },
+    correct: 'b'
+},
+{
+    id: 2235,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the role of the retaining and release system in the life raft container?',
+    options: {
+        a: 'To inflate the life raft automatically',
+        b: 'To support the raft assembly and release the gas cylinder valve',
+        c: 'To trigger the ELT'
+    },
+    correct: 'b'
+},
+{
+    id: 2236,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What prevents the life raft from inflating prematurely?',
+    options: {
+        a: 'Safety pins on the quick connectors',
+        b: 'A timer system',
+        c: 'Manual override switches'
+    },
+    correct: 'a'
+},
+{
+    id: 2237,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What equipment is installed within the life raft container besides the life raft?',
+    options: {
+        a: 'Map and compass',
+        b: 'ELT and survival kit',
+        c: 'Fire extinguisher and oxygen masks'
+    },
+    correct: 'b'
+},
+{
+    id: 2238,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What feature of the life raft provides protection from adverse weather?',
+    options: {
+        a: 'Reversible yellow canopy',
+        b: 'rain coats',
+        c: 'Waterproof flaps'
+    },
+    correct: 'a'
+},
+{
+    id: 2239,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'How many mooring lines are attached to the life raft container?',
+    options: {
+        a: '1 long and 1 short',
+        b: '2 short and 1 long',
+        c: '3 long'
+    },
+    correct: 'b'
+},
+{
+    id: 2240,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What are the drain plugs on the underside of the fuselage designed for?',
+    options: {
+        a: 'To allow for fuel and moisture venting',
+        b: 'To allow water to enter the fuselage to ensure stability in the event of ditching',
+        c: 'To release excess cabin pressure'
+    },
+    correct: 'a'
+},
+{
+    id: 2241,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What happens to the drain plug floats during ditching?',
+    options: {
+        a: 'They close the drain plugs to aid flotation',
+        b: 'They release air to increase buoyancy',
+        c: 'They open the plugs to let water escape'
+    },
+    correct: 'a'
+},
+{
+    id: 2242,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the purpose of soundproofing panels in the cabin?',
+    options: {
+        a: 'To improve acoustic and thermal comfort',
+        b: 'To reduce cabin pressure',
+        c: 'To provide extra insulation for fuel tanks'
+    },
+    correct: 'a'
+},
+{
+    id: 2243,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the function of the overhead panel in the cockpit?',
+    options: {
+        a: 'To support reading lights and the cockpit camera',
+        b: 'To store emergency oxygen masks',
+        c: 'To hold the aircraft\’s navigation equipment'
+    },
+    correct: 'a'
+},
+{
+    id: 2244,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is special about the windshield centre-post panel?',
+    options: {
+        a: 'It contains an automatic air vent',
+        b: 'The compass must be calibrated after reassembly',
+        c: 'It supports the cockpit microphone'
+    },
+    correct: 'b'
+},
+{
+    id: 2245,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'How many ceiling panels are in the cabin upholstery?',
+    options: {
+        a: 'Nine',
+        b: 'Four',
+        c: 'Two'
+    },
+    correct: 'a'
+},
+{
+    id: 2246,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What are the cabin ceiling panels designed to protect?',
+    options: {
+        a: 'The Emergency Locator Transmitter',
+        b: 'The Environmental Control System and passenger lights',
+        c: 'The medical kit and fire extinguishers'
+    },
+    correct: 'b'
+},
+{
+    id: 2247,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is attached to the middle-centre ceiling panel?',
+    options: {
+        a: 'Cockpit reading lights',
+        b: 'Velcro',
+        c: 'ball locks system'
+    },
+    correct: 'c'
+},
+{
+    id: 2248,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What material is used for the luggage compartment upholstery?',
+    options: {
+        a: 'Glass fibre and NIDA Nomex',
+        b: 'Kevlar',
+        c: 'Aluminum alloy'
+    },
+    correct: 'a'
+},
+{
+    id: 2249,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What does the rear ceiling panel in the luggage compartment protect?',
+    options: {
+        a: 'The dome light and the fire detector grid',
+        b: 'The fuel intake cover',
+        c: 'The portable fire extinguisher'
+    },
+    correct: 'a'
+},
+{
+    id: 2250,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'Where is the medical kit located in the EC 175?',
+    options: {
+        a: 'At the rear of the pilot\’s seat',
+        b: 'In the cockpit overhead panel',
+        c: 'In the luggage compartment'
+    },
+    correct: 'a'
+},
+{
+    id: 2251,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'How many portable fire extinguishers are on the EC 175?',
+    options: {
+        a: 'One',
+        b: 'Two',
+        c: 'Three'
+    },
+    correct: 'b'
+},
+{
+    id: 2252,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the purpose of the service connector behind the pilot seat?',
+    options: {
+        a: 'To supply 28V DC to maintenance equipment',
+        b: 'To provide emergency lighting power',
+        c: 'To charge the ELT'
+    },
+    correct: 'a'
+},
+{
+    id: 2253,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'What ATA chapter covers the fastening and routing of electrical harnesses on the aircraft?',
+    options: {
+        a: 'ATA 72',
+        b: 'ATA 88',
+        c: 'ATA 24'
+    },
+    correct: 'b'
+},
+{
+    id: 2254,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'Which zones require the use of high-temperature cable ties for electrical harness routing?',
+    options: {
+        a: 'D1, D2, D3, D4',
+        b: 'D1, D2, D3',
+        c: 'D2, D3, D4 only'
+    },
+    correct: 'a'
+},
+{
+    id: 2255,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'In addition to high temperature, what other requirement must the cable ties meet for external areas?',
+    options: {
+        a: 'Water resistance',
+        b: 'Ultraviolet resistance',
+        c: 'Corrosion resistance'
+    },
+    correct: 'b'
+},
+{
+    id: 2256,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'What temperature must high-temperature cable ties be able to withstand?',
+    options: {
+        a: '100°C',
+        b: '150°C',
+        c: '200°C'
+    },
+    correct: 'b'
+},
+{
+    id: 2257,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'Where can a list of acceptable cable ties be found?',
+    options: {
+        a: 'IPC 00-00-00',
+        b: 'AMM 88-00-00,2-1',
+        c: 'SRM 51-00-00'
+    },
+    correct: 'b'
+},
+{
+    id: 2258,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'What must be done if the left FADEC harness is damaged?',
+    options: {
+        a: 'It must be repaired',
+        b: 'It must be replaced',
+        c: 'It must be inspected only'
+    },
+    correct: 'b'
+},
+{
+    id: 2259,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'Which electrical harnesses are non-repairable and must be replaced if damaged?',
+    options: {
+        a: 'Left FADEC harness, Right FADEC harness, and all optical harnesses',
+        b: 'Left FADEC harness only',
+        c: 'Right FADEC harness only'
+    },
+    correct: 'a'
+},
+{
+    id: 2260,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'Where is Common Relays Box 1 located?',
+    options: {
+        a: 'Under the rear section of the baggage compartment floor',
+        b: 'Under the forward cockpit nose',
+        c: 'In the upper deck area'
+    },
+    correct: 'a'
+},
+{
+    id: 2261,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'Where is Common Relays Box 2 located?',
+    options: {
+        a: 'Under the rear section of the baggage compartment floor',
+        b: 'Under the forward cockpit nose',
+        c: 'Under the transmission deck'
+    },
+    correct: 'b'
+},
+/*TODO FREE question */
+/* {
+    id: 2262,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'What must be removed to access Common Relays Box 2?',
+    options: {
+        a: 'The rear section of the baggage compartment floor',
+        b: 'The lower fairing',
+        c: 'The transmission deck cover'
+    },
+    correct: 'b'
+}, */
+{
+    id: 2263,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'Where is the Maintenance Control Panel located?',
+    options: {
+        a: 'On the left side of the inter-seat console towards the rear',
+        b: 'Under the rear baggage compartment floor',
+        c: 'On the right side of the cockpit console'
+    },
+    correct: 'a'
+},
+{
+    id: 2264,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'What is located on the left side of the inter-seat console towards the rear?',
+    options: {
+        a: 'Common Relays Box 1',
+        b: 'The Maintenance Control Panel',
+        c: 'The avionics master switch'
+    },
+    correct: 'b'
+},
+{
+    id: 2265,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'What is included on the Maintenance Control Panel?',
+    options: {
+        a: 'Two wet crank switches, Helionix maintenance switch, HEELS backup battery test switch, and connectors for optional equipment',
+        b: 'Helionix maintenance switch and FADEC control',
+        c: 'HEELS backup battery test switch and engine start switches'
+    },
+    correct: 'a'
+},
+{
+    id: 2266,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'Which switch is NOT part of the Maintenance Control Panel?',
+    options: {
+        a: 'Helionix maintenance switch',
+        b: 'HEELS backup battery test switch',
+        c: 'FADEC engine control switch'
+    },
+    correct: 'c'
+},
+{
+    id: 2267,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'What is the function of the wet crank switches on the Maintenance Control Panel?',
+    options: {
+        a: 'They control the auxiliary power unit',
+        b: 'They are used for wet cranking the engines during maintenance',
+        c: 'They control the landing gear system'
+    },
+    correct: 'b'
+},
+{
+    id: 2268,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'How is the Maintenance Control Panel protected?',
+    options: {
+        a: 'It has a hinged cover',
+        b: 'It is protected by a glass shield',
+        c: 'It is located in an enclosed compartment'
+    },
+    correct: 'a'
+},
+{
+    id: 2269,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'Which of the following is TRUE about the Maintenance Control Panel?',
+    options: {
+        a: 'It has connectors for optional equipment',
+        b: 'It is located under the floor of the baggage compartment',
+        c: 'It is used to control avionics'
+    },
+    correct: 'a'
+},
+{
+    id: 2270,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'What does the term “cable ties” include?',
+    options: {
+        a: 'Banding clamps',
+        b: 'Only plastic ties',
+        c: 'Metallic fasteners'
+    },
+    correct: 'a'
+},
+{
+    id: 2271,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'Which type of cable ties must not be used in Zone D1?',
+    options: {
+        a: 'Low temperature cable ties',
+        b: 'High temperature cable ties',
+        c: 'Ultraviolet resistant cable ties'
+    },
+    correct: 'a'
+},
+{
+    id: 2272,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'Which of the following cable harnesses must be replaced if damaged?',
+    options: {
+        a: 'Left FADEC harness',
+        b: 'Right FADEC harness',
+        c: 'Both a and b'
+    },
+    correct: 'c'
+},
+{
+id: 2273,
+Aircraft: 'H175',
+Category: '25',
+question: 'With the EFS in automatic mode what condition are required for pre-armed mode?',
+options: {
+    a: 'IAS>VNE',
+    b: 'IAS<VNE',
+    c: 'Float arm switch set to “MAN”'
+},
+correct: 'a'
+},
+{
+    id: 2274,
+    Aircraft: 'H175',
+    Category: '88',
+    question: 'How many electrical harness does the main gearbox have?',
+    options: {
+        a: '2',
+        b: '3',
+        c: '4'
+    },
+    correct: 'c'
+}
   ];
   //module.exports = questionBank; 
