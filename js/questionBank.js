@@ -12598,6 +12598,7 @@ export const questions = [
     },
     correct: 'a'
 },
+/*TODO 2031 Spare */
 /* {
     id: 2031,
     Aircraft: 'H175',
@@ -13076,7 +13077,7 @@ export const questions = [
     id: 2072,
     Aircraft: 'H175',
     Category: '24',
-    question: 'During engine start when will GLC1 open ?',
+    question: 'During engine start when will GLC1 open?',
     options: {
       a: 'When the No.1 engine control switch is selected to flight (or idle)',
       b: 'When No. 1 engine N1 reaches 50 %',
@@ -13100,7 +13101,7 @@ export const questions = [
     id: 2074,
     Aircraft: 'H175',
     Category: '24',
-    question: 'With power supplied by the EPU',
+    question: 'With power supplied by the EPU:',
     options: {
       a: 'Both GLC1 contactor & GLC2 contactor will open',
       b: 'GLC1 contactor will open and GLC2 contactor will close',
@@ -13855,7 +13856,7 @@ export const questions = [
     },
     correct: 'b'
 },
-// TODO 2137
+
 {
     id: 2137,
     Aircraft: 'H175',
@@ -14024,7 +14025,7 @@ export const questions = [
     },
     correct: 'b'
   },
-  
+ 
   {
     id: 2150,
     Aircraft: 'H175',
@@ -14121,9 +14122,9 @@ export const questions = [
     Category: '51-56',
     question: 'What type of drainage the structure',
     options: {
-        a: 'draining system carries all liquids coming on the upper deck floor to collector cans in the lower section of the structure',
-        b: 'draining system carries all liquids coming on the upper deck floor to outside of the airframe',
-        c: 'draining system carries all liquids coming on the upper deck floor to return to the fuel system'
+        a: 'draining system carries all liquids from the upper deck floor to collector cans in the lower section of the structure',
+        b: 'draining system carries all liquids from the upper deck floor to outside of the airframe',
+        c: 'draining system carries all liquids from the upper deck floor to return to the fuel system'
     },
     correct: 'b'
   },
@@ -14182,12 +14183,13 @@ export const questions = [
     question: 'What is the primary function of the position lights on the horizontal stabiliser?',
     options: {
         a: 'To illuminate the runway during landing',
-        b: 'To indicate the aircraft’s position to other aircraft',
-        c: 'To improve the pilot’s visibility in bad weather'
+        b: 'To indicate the aircraft\’s position to other aircraft',
+        c: 'To improve the pilot\’s visibility in bad weather'
     },
     correct: 'b'
 },
-{
+/* TODO FREE Question*/
+/* {
     id: 2163,
     Aircraft: 'H175',
     Category: '51-56',
@@ -14198,7 +14200,7 @@ export const questions = [
         c: 'To enhance the aerodynamic performance of the stabiliser'
     },
     correct: 'b'
-},
+}, */
 {
     id: 2164,
     Aircraft: 'H175',
@@ -14215,7 +14217,7 @@ export const questions = [
     id: 2165,
     Aircraft: 'H175',
     Category: '51-56',
-    question: 'How does the horizontal stabiliser contribute to the helicopter’s pitch attitude in forward flight?',
+    question: 'How does the horizontal stabiliser contribute to the helicopter/’s pitch attitude in forward flight?',
     options: {
         a: 'It generates a vertical force that stabilises the helicopter in a nose up attitude',
         b: 'It increases lift at high speeds to reduce nose-down tendencies',
@@ -14246,10 +14248,250 @@ export const questions = [
         c: 'It is bolted onto the attachment fitting on the pylon rear spar'
     },
     correct: 'c'
+},
+
+/* TODO Check 2168 */
+
+{
+    id: 2168,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What is the primary purpose of the windows on the H175 aircraft?',
+    options: {
+        a: 'To provide visibility and protect the crew from weather conditions',
+        b: 'To serve as the main emergency exit',
+        c: 'To reduce cabin noise'
+    },
+    correct: 'a'
+},
+{
+    id: 2169,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Which component is NOT part of the Flight Compartment Windows?',
+    options: {
+        a: 'The windshield',
+        b: 'The rear windows',
+        c: 'The upper cockpit windows'
+    },
+    correct: 'b'
+},
+{
+    id: 2170,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What material is used in the construction of the upper cockpit windows?',
+    options: {
+        a: 'Glass',
+        b: 'Acrylic',
+        c: 'Polycarbonate'
+    },
+    correct: 'c'
+},
+{
+    id: 2171,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What is the thickness of the upper cockpit windows?',
+    options: {
+        a: '3 mm',
+        b: '6 mm',
+        c: '5 mm'
+    },
+    correct: 'a'
+},
+{
+    id: 2172,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What feature do the upper cockpit windows have to reduce UV aging?',
+    options: {
+        a: 'Anti-icing system',
+        b: 'Double protective coating',
+        c: 'Rain repellent coating'
+    },
+    correct: 'b'
+},
+{
+    id: 2173,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What is the main function of the windshield panels on the H175?',
+    options: {
+        a: 'To protect from bird strikes',
+        b: 'To maintain water tightness',
+        c: 'To ensure visibility and prevent optical distortion'
+    },
+    correct: 'c'
+},
+{
+    id: 2174,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'The windshield panels are equipped with which system for anti-icing?',
+    options: {
+        a: 'Optional anti-icing system',
+        b: 'Automatic de-icing system',
+        c: 'Heated glass system'
+    },
+    correct: 'a'
+},
+{
+    id: 2175,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Which of the following materials is used in the windshield panels?',
+    options: {
+        a: 'Polycarbonate and acrylic',
+        b: 'Glass and urethane',
+        c: 'Glass fibre and aluminium'
+    },
+    correct: 'b'
+},
+{
+    id: 2176,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What thickness are the windshield panels on the H175?',
+    options: {
+        a: '3 mm',
+        b: '4 mm',
+        c: '6 mm'
+    },
+    correct: 'c'
+},
+{
+    id: 2177,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'The bad weather windows on the pilot and co-pilot doors are made from which material?',
+    options: {
+        a: 'Plexiglas',
+        b: 'Polycarbonate',
+        c: 'Tempered glass'
+    },
+    correct: 'a'
+},
+{
+    id: 2178,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Which of the following windows can be jettisoned in an emergency?',
+    options: {
+        a: 'Windshield panels',
+        b: 'Bad weather windows',
+        c: 'Upper cockpit windows'
+    },
+    correct: 'b'
+},
+{
+    id: 2179,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'The cabin windows are made of what material?',
+    options: {
+        a: 'Polycarbonate',
+        b: 'As-cast acrylic',
+        c: 'Tempered glass'
+    },
+    correct: 'b'
+},
+{
+    id: 2180,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What is the thickness of the cockpit lower windows on the H175?',
+    options: {
+        a: '3 mm',
+        b: '6 mm',
+        c: '8 mm'
+    },
+    correct: 'a'
+},
+{
+    id: 2181,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'How are the cockpit lower windows attached to the structure?',
+    options: {
+        a: 'Bonded',
+        b: 'Screwed',
+        c: 'Welded'
+    },
+    correct: 'b'
+},
+{
+    id: 2182,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What additional feature is applied to the outer surface of the windshield panels?',
+    options: {
+        a: 'UV protection coating',
+        b: 'Hydrophobic rain repellent coating',
+        c: 'Anti-scratch film'
+    },
+    correct: 'b'
+},
+{
+    id: 2183,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What material are the cockpit door windows made from?',
+    options: {
+        a: 'Acrylic',
+        b: 'Polycarbonate',
+        c: 'Glass'
+    },
+    correct: 'a'
+},
+{
+    id: 2184,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'The cabin windows are set in which type of seal?',
+    options: {
+        a: 'Rubber',
+        b: 'Silicone',
+        c: 'Foam'
+    },
+    correct: 'b'
+},
+{
+    id: 2185,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Which part of the window must be pulled to eject it during an emergency?',
+    options: {
+        a: 'The internal extractor',
+        b: 'The jettison handle',
+        c: 'The release key'
+    },
+    correct: 'a'
+},
+{
+    id: 2186,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What is the purpose of the Lonalex glass ply in the windshield panels?',
+    options: {
+        a: 'To maintain visibility after a break',
+        b: 'To prevent UV damage',
+        c: 'To provide thermal insulation'
+    },
+    correct: 'a'
+},
+{
+    id: 2187,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'How are the windshield panels sealed to ensure water tightness?',
+    options: {
+        a: 'With a foam rubber seal',
+        b: 'With a silicone seal',
+        c: 'With a rubber seal and sealant'
+    },
+    correct: 'c'
 }
-
-
-
 
 
 
