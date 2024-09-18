@@ -13530,10 +13530,724 @@ export const questions = [
         c: '20'
     },
     correct: 'b'
+},
+{
+    id: 2110,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Which manual contains the know-how and general information for the preparation, operation, maintenance, and standard repairs?',
+    options: {
+        a: 'Aircraft Maintenance Manual (AMM)',
+        b: 'Standard Practices Manual (M.T.C.)',
+        c: 'Maintenance Review Report (MRR)'
+    },
+    correct: 'b'
+},
+{
+    id: 2111,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Which chapter of the Standard Practices Manual (M.T.C.) includes corrosion identification, repair procedures, and preventive maintenance?',
+    options: {
+        a: 'Chapter 20',
+        b: 'Chapter 51',
+        c: 'Chapter 90'
+    },
+    correct: 'a'
+},
+{
+    id: 2112,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'In which section of the Standard Practices Manual (M.T.C.) can you find information about identifying corrosion and related maintenance procedures?',
+    options: {
+        a: 'Section 20.90',
+        b: 'Section 51.20',
+        c: 'Section 20.10'
+    },
+    correct: 'a'
+},
+{
+    id: 2113,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Where can standard practices for the structure be found?',
+    options: {
+        a: 'IPC',
+        b: 'AMM',
+        c: 'MTC'
+    },
+    correct: 'c'
+},
+{
+    id: 2114,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Which of the following manuals can incorporate the Standard Practices Manual (M.T.C.) Chapter 20?',
+    options: {
+        a: 'AMM, MMA, MET, MRR',
+        b: 'FIM, MEL, SRM',
+        c: 'IPC, WDM, CMM'
+    },
+    correct: 'a'
+},
+{
+    id: 2115,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Where are the cockpit doors located on the aircraft?',
+    options: {
+        a: 'On either side of the front fuselage',
+        b: 'On either side of the center fuselage',
+        c: 'On either side of the intermediate fuselage'
+    },
+    correct: 'a'
+},
+{
+    id: 2116,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'How are the cockpit doors operated?',
+    options: {
+        a: 'Electrically',
+        b: 'Manually',
+        c: 'Hydraulically'
+    },
+    correct: 'b'
+},
+{
+    id: 2117,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What is the function of the gas strut attached to the cockpit doors?',
+    options: {
+        a: 'To keep the door closed',
+        b: 'To keep the door open',
+        c: 'To aid in emergency jettison'
+    },
+    correct: 'b'
+},
+{
+    id: 2118,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What angle can the cockpit door open to when the gas spring is disconnected?',
+    options: {
+        a: '70°',
+        b: '90°',
+        c: '110°'
+    },
+    correct: 'c'
+},
+{
+    id: 2119,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'How can the cockpit doors be locked and unlocked?',
+    options: {
+        a: 'Only from the inside',
+        b: 'Only from the outside',
+        c: 'From both inside and outside'
+    },
+    correct: 'c'
+},
+{
+    id: 2120,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What type of handles do the cockpit doors have?',
+    options: {
+        a: 'Only fixed handles',
+        b: 'Only active handles',
+        c: 'Fixed and active handles'
+    },
+    correct: 'c'
+},
+{
+    id: 2121,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What does the first step of the locking mechanism do on cockpit doors?',
+    options: {
+        a: 'Maintains the door closed',
+        b: 'Locks the door in its final position',
+        c: 'Opens the door'
+    },
+    correct: 'a'
+},
+{
+    id: 2122,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'How is the door locking status indicated on the Multi-Functional Display (MFD)?',
+    options: {
+        a: 'By a green or red flag',
+        b: 'With a visual message',
+        c: 'By a warning sound'
+    },
+    correct: 'b'
+},
+{
+    id: 2123,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'How do the cabin doors open and close?',
+    options: {
+        a: 'Sliding forward and backward along rails',
+        b: 'Hinged like cockpit doors',
+        c: 'Hydraulically operated'
+    },
+    correct: 'a'
+},
+{
+    id: 2124,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'How many handles are present on the cabin sliding doors?',
+    options: {
+        a: 'Two',
+        b: 'Three',
+        c: 'Four'
+    },
+    correct: 'c'
+},
+{
+    id: 2125,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Which component ensures the sliding door remains open during flight?',
+    options: {
+        a: 'Locking hook',
+        b: 'Gas strut',
+        c: 'Active handles'
+    },
+    correct: 'a'
+},
+{
+    id: 2126,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What is the purpose of the failsafe brackets on the sliding doors?',
+    options: {
+        a: 'To keep the doors locked',
+        b: 'To carry loads in case of failure of front fittings',
+        c: 'To assist in door opening'
+    },
+    correct: 'b'
+},
+ {
+    id: 2127,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'How are the crew doors jettisoned during an emergency?',
+    options: {
+        a: 'emergecny handles inside the door only',
+        b: 'emergency handles inside and outside of the door',
+        c: 'They are not, the bad weather window is used for emergency exit'
+    },
+    correct: 'c'
+}, 
+{
+    id: 2128,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What type of structure is the servicing door made of?',
+    options: {
+        a: 'Stamped aluminum sheets',
+        b: 'Honeycomb sandwich structure',
+        c: 'Molded aluminum'
+    },
+    correct: 'b'
+},
+ {
+    id: 2129,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What warning would indicate a battery bay door incorrectly closed?',
+    options: {
+        a: 'Doors caution on the MFD',
+        b: 'Red dolls eye',
+        c: 'no warning is given'
+    },
+    correct: 'c'
+}, 
+{
+    id: 2130,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What equipment can be accessed through the servicing doors?',
+    options: {
+        a: 'Hydraulic systems',
+        b: 'Electrical system equipment',
+        c: 'Passenger seating'
+    },
+    correct: 'b'
+},
+{
+    id: 2131,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What indicates a correct locking of the sliding doors?',
+    options: {
+        a: 'A red flag',
+        b: 'A green flag',
+        c: 'A yellow flag'
+    },
+    correct: 'b'
+},
+{
+    id: 2132,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'How are the cockpit and sliding door microswitches connected?',
+    options: {
+        a: 'In series',
+        b: 'In parallel',
+        c: 'Independently'
+    },
+    correct: 'a'
+},
+{
+    id: 2133,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What happens if the cockpit door microswitch contacts remain open?',
+    options: {
+        a: 'The AMC raises a door alarm warning',
+        b: 'The AMC raises a door alarm caution',
+        c: 'The cargo light turns on'
+    },
+    correct: 'b'
+},
+{
+    id: 2134,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What does the caution DOORS (amber) on the Master List indicate?',
+    options: {
+        a: 'One door is open',
+        b: 'More than one door is open',
+        c: 'All doors are closed'
+    },
+    correct: 'b'
+},
+{
+    id: 2135,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Which doors are monitored by the electrical warning system?',
+    options: {
+        a: 'Cockpit and cargo doors',
+        b: 'Cockpit, sliding, cargo, and EPU doors',
+        c: 'Sliding and cargo doors only'
+    },
+    correct: 'b'
+},
+{
+    id: 2136,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What warning would indicate a cargo bay door incorrectly closed??',
+    options: {
+        a: 'discrete ARINC 429 signal to the AMC',
+        b: 'discrete ARINC 429 signal via the ASU to the AMC',
+        c: 'red dolls eye'
+    },
+    correct: 'b'
+},
+// TODO 2137
+{
+    id: 2137,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Which fuselage section houses the Nose Landing Gear (NLG)?',
+    options: {
+        a: 'Front Fuselage',
+        b: 'Centre Fuselage',
+        c: 'Rear Fuselage'
+    },
+    correct: 'a'
+  },
+  
+  {
+    id: 2138,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What is the primary function of the rear fuselage?',
+    options: {
+        a: 'Supports the crew and equipment',
+        b: 'Supports the tail rotor and stabilizes flight',
+        c: 'Stores the main fuel tank'
+    },
+    correct: 'b'
+  },
+  
+  {
+    id: 2139,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Which component is located in the upper deck of the intermediate fuselage?',
+    options: {
+        a: 'Nose Landing Gear',
+        b: 'Main Gear Box (MGB)',
+        c: 'Engine attachments'
+    },
+    correct: 'c'
+  },
+  
+  {
+    id: 2140,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Which part of the fuselage provides space for passengers?',
+    options: {
+        a: 'Centre Fuselage',
+        b: 'Front Fuselage',
+        c: 'Rear Fuselage'
+    },
+    correct: 'a'
+  },
+  
+  {
+    id: 2141,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'The canopy in the front fuselage is designed to primarily:',
+    options: {
+        a: 'Support the engine fittings',
+        b: 'Provide optimum external visibility for pilots',
+        c: 'House the fuel tank'
+    },
+    correct: 'b'
+  },
+  
+  {
+    id: 2142,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What connects the front fuselage to the centre fuselage?',
+    options: {
+        a: 'Frame 8',
+        b: 'Frame 2',
+        c: 'Frame 5'
+    },
+    correct: 'b'
+  },
+  
+  {
+    id: 2143,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Where is the Main Landing Gear (MLG) attached?',
+    options: {
+        a: 'Intermediate Fuselage',
+        b: 'Front Fuselage',
+        c: 'Centre Fuselage'
+    },
+    correct: 'c'
+  },
+  
+  {
+    id: 2144,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Which frame serves as the junction between the intermediate fuselage and the tail boom?',
+    options: {
+        a: 'Frame 5',
+        b: 'Frame 6',
+        c: 'Frame 8'
+    },
+    correct: 'c'
+  },
+  
+  {
+    id: 2145,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Which part of the fuselage accommodates the crew compartment?',
+    options: {
+        a: 'Intermediate Fuselage',
+        b: 'Front Fuselage',
+        c: 'Centre Fuselage'
+    },
+    correct: 'b'
+  },
+  
+  {
+    id: 2146,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What is the main purpose of the fairings?',
+    options: {
+        a: 'Reduce drag and improve appearance',
+        b: 'Protect the fuel tanks',
+        c: 'Support the Main Gear Box (MGB)'
+    },
+    correct: 'a'
+  },
+  
+  {
+    id: 2147,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Where is the cargo compartment located?',
+    options: {
+        a: 'Centre Fuselage',
+        b: 'Rear Fuselage',
+        c: 'Intermediate Fuselage'
+    },
+    correct: 'c'
+  },
+  
+  {
+    id: 2148,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Which frame supports the sliding doors and cabin floor?',
+    options: {
+        a: 'Frame 3',
+        b: 'Frame 2',
+        c: 'Frame 8'
+    },
+    correct: 'a'
+  },
+  
+  {
+    id: 2149,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What is the function of the Tail Pylon?',
+    options: {
+        a: 'Support the Main Gear Box (MGB)',
+        b: 'Support the loads of the Tail Gear Box (TGB) and tail rotor',
+        c: 'Support the landing gear'
+    },
+    correct: 'b'
+  },
+  
+  {
+    id: 2150,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'The main function of the transmission fairings is to:',
+    options: {
+        a: 'Support the cabin floor',
+        b: 'Protect the drive shafts',
+        c: 'Provide fire isolation'
+    },
+    correct: 'b'
+  },
+  
+  {
+    id: 2151,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Where is the fire isolation system located?',
+    options: {
+        a: 'Front fuselage',
+        b: 'Centre fuselage, upper part',
+        c: 'Tail boom'
+    },
+    correct: 'b'
+  },
+  
+  {
+    id: 2152,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What is the purpose of the NAB fairing?',
+    options: {
+        a: 'Protect the hydraulic system',
+        b: 'Provide access to systems installed in the Nose Avionics Bay',
+        c: 'Provide bird impact protection'
+    },
+    correct: 'b'
+  },
+  
+  {
+    id: 2153,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'The canopy is designed to accommodate:',
+    options: {
+        a: 'Two pilots in dual seats',
+        b: 'The entire passenger cabin',
+        c: 'The landing gear system'
+    },
+    correct: 'a'
+  },
+  
+  {
+    id: 2154,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Which part of the fuselage transmits the tail rotor load?',
+    options: {
+        a: 'Intermediate Fuselage',
+        b: 'Rear Fuselage',
+        c: 'Centre Fuselage'
+    },
+    correct: 'b'
+  },
+  
+  {
+    id: 2155,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What is the function of the bottom access fairings?',
+    options: {
+        a: 'Provide access for the maintenance of hydraulic and ECS systems',
+        b: 'Support the cabin floor',
+        c: 'Provide ventilation for the rear fuselage'
+    },
+    correct: 'a'
+  },
+  
+  {
+    id: 2156,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'The main purpose of the longitudinal beams in the fuselage is to:',
+    options: {
+        a: 'Support the engine compartments',
+        b: 'Reinforce the airframe and support the cabin floors',
+        c: 'Transmit loads from the fuel tank'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2157,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What type of drainage the structure',
+    options: {
+        a: 'draining system carries all liquids coming on the upper deck floor to collector cans in the lower section of the structure',
+        b: 'draining system carries all liquids coming on the upper deck floor to outside of the airframe',
+        c: 'draining system carries all liquids coming on the upper deck floor to return to the fuel system'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2158,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What is the main purpose of the horizontal stabiliser on the H175 helicopter?',
+    options: {
+        a: 'To balance the mast moment and provide longitudinal stability',
+        b: 'To assist with vertical lift during takeoff',
+        c: 'To increase engine efficiency during forward flight'
+    },
+    correct: 'a'
+},
+{
+    id: 2159,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What material are the horizontal stabiliser spars made of?',
+    options: {
+        a: 'Carbon fiber',
+        b: 'Aluminium alloy',
+        c: 'Titanium'
+    },
+    correct: 'b'
+},
+{
+    id: 2160,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'Which of the following components are attached to the ends of the horizontal stabiliser?',
+    options: {
+        a: 'Ailerons',
+        b: 'Winglets',
+        c: 'Flaps'
+    },
+    correct: 'b'
+},
+{
+    id: 2161,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What is the function of the lateral outboard fins on the horizontal stabiliser?',
+    options: {
+        a: 'To provide additional lift during takeoff',
+        b: 'To assist with the aircraft stability along the pitch and yaw axes',
+        c: 'To reduce drag during forward flight'
+    },
+    correct: 'b'
+},
+{
+    id: 2162,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What is the primary function of the position lights on the horizontal stabiliser?',
+    options: {
+        a: 'To illuminate the runway during landing',
+        b: 'To indicate the aircraft’s position to other aircraft',
+        c: 'To improve the pilot’s visibility in bad weather'
+    },
+    correct: 'b'
+},
+{
+    id: 2163,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What is the role of the optional icing projection protection on the horizontal stabiliser?',
+    options: {
+        a: 'To prevent ice formation on the winglets',
+        b: 'To protect the horizontal stabiliser from icing conditions',
+        c: 'To enhance the aerodynamic performance of the stabiliser'
+    },
+    correct: 'b'
+},
+{
+    id: 2164,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What material is used for the leading edge skin panels of the horizontal stabiliser?',
+    options: {
+        a: 'Aluminium alloy',
+        b: 'Carbon composite',
+        c: 'Stainless steel sheet'
+    },
+    correct: 'c'
+},
+{
+    id: 2165,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'How does the horizontal stabiliser contribute to the helicopter’s pitch attitude in forward flight?',
+    options: {
+        a: 'It generates a vertical force that stabilises the helicopter in a nose up attitude',
+        b: 'It increases lift at high speeds to reduce nose-down tendencies',
+        c: 'It counteracts the weight of the tail rotor'
+    },
+    correct: 'a'
+},
+{
+    id: 2166,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'What is the function of the two tubes located just aft of the first spar in the horizontal stabiliser?',
+    options: {
+        a: 'To house hydraulic lines for the stabiliser control',
+        b: 'To contain electrical wirings and plugs for the position lights',
+        c: 'To provide air ventilation for the stabiliser'
+    },
+    correct: 'b'
+},
+{
+    id: 2167,
+    Aircraft: 'H175',
+    Category: '51-56',
+    question: 'How is the horizontal stabiliser spar attached to the pylon?',
+    options: {
+        a: 'With a hinge mechanism for easy removal',
+        b: 'By welding the spar to the pylon structure',
+        c: 'It is bolted onto the attachment fitting on the pylon rear spar'
+    },
+    correct: 'c'
 }
 
-  
-  
 
 
 
