@@ -1,38 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Screen Size Display</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-        }
-        #screenSize {
-            font-size: 24px;
-            color: #333;
-            padding: 20px;
-            border: 2px solid #000;
-            display: inline-block;
-            background-color: #f5f5f5;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fireworks Animation</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #000;
+    }
+
+    #fireworkCanvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    #triggerFireworks {
+      position: relative;
+      z-index: 10;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      color: white;
+      background-color: #ff0077;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
 
-    <h1>Device Screen Size</h1>
-    <div id="screenSize"></div>
+<button id="triggerFireworks">Launch Fireworks!</button>
+<canvas id="fireworkCanvas"></canvas>
 
-    <script>
-        // Get the screen width and height
-        const screenWidth = window.screen.width;
-        const screenHeight = window.screen.height;
+<script>
+  const canvas = document.getElementById('fireworkCanvas');
+  const ctx = canvas.getContext('2d');
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
 
-        // Display the screen size on the webpage
-        document.getElementById("screenSize").innerText = `Screen Width: ${screenWidth}px, Screen Height: ${screenHeight}px`;
-    </script>
+  let particles = [];
+
+  class Particle {
+    constructor(x, y, color, velocityX, velocityY) {
+      this.x = x;
+      this.y = y;
+      this.color = color;
+      this.velocityX = velocityX;
+      this.velocityY = velocityY;
+      this.alpha = 1;
+      this.size = Math.random() * 3 + 1;
+    }
+
+    update() {
+      this.x += this.velocityX;
+      this.y += this.velocityY;
+      this.alpha -= 0.01;
+      if (this.alpha < 0) this.alpha = 0;
+    }
+
+    draw() {
+      ctx.save();
+      ctx.globalAlpha = this.alpha;
+      ctx.fillStyle = this.color;
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.restore();
+    }
+  }
+
+  function createFirework(x, y) {
+    const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff'];
+    const numParticles = 100;
+
+    for (let i = 0; i < numParticles; i++) {
+      const angle = Math.random() * 2 * Math.PI;
+      const speed = Math.random() * 4 + 1;
+      const velocityX = Math.cos(angle) * speed;
+      const velocityY = Math.sin(angle) * speed;
+      const color = colors[Math.floor(Math.random() * colors.length)];
+
+      particles.push(new Particle(x, y, color, velocityX, velocityY));
+    }
+  }
+
+  function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    particles.forEach((particle, index) => {
+      if (particle.alpha <= 0) {
+        particles.splice(index, 1);
+      } else {
+        particle.update();
+        particle.draw();
+      }
+    });
+
+    requestAnimationFrame(animate);
+  }
+
+  document.getElementById('triggerFireworks').addEventListener('click', () => {
+    const x = Math.random() * canvas.width;
+    const y = Math.random() * canvas.height;
+    createFirework(x, y);
+  });
+
+  animate();
+</script>
 
 </body>
 </html>
