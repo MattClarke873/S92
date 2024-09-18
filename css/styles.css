@@ -11,8 +11,8 @@ body {
     height: 100%;
     width: 100%;
     flex-direction: column;
-    background-image: url("../support_Documents/H175C.jpeg");
     background-size: cover;
+    background-position: center center; /* Centers the background image */
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
@@ -274,9 +274,10 @@ body {
   
     .question-container {
       padding: 10px; /* Reduced padding for smaller screens */
-      max-width: 80%; /* Full width on smaller screens */
-      padding: 5px 10px 20px 10px;
-    }
+      width: 80%; /* Make sure the question-container is 80% of the view width */
+      max-width: 80%; /* Explicitly set max-width to 80% */
+      box-sizing: border-box; /* Ensure padding is included in the width */
+  }
   
     .question-container p {
       font-size: 1rem; /* Adjust font size for readability */
