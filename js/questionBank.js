@@ -12598,7 +12598,7 @@ export const questions = [
     },
     correct: 'a'
 },
-/*TODO 2031 Spare */
+/*TODO FREE question */
 /* {
     id: 2031,
     Aircraft: 'H175',
@@ -14250,7 +14250,7 @@ export const questions = [
     correct: 'c'
 },
 
-/* TODO Check 2168 */
+
 
 {
     id: 2168,
@@ -14391,7 +14391,7 @@ export const questions = [
     question: 'The cabin windows are made of what material?',
     options: {
         a: 'Polycarbonate',
-        b: 'As-cast acrylic',
+        b: 'acrylic (PolyMethyl MethAcrylate (PMMA)',
         c: 'Tempered glass'
     },
     correct: 'b'
@@ -14463,12 +14463,13 @@ export const questions = [
     question: 'Which part of the window must be pulled to eject it during an emergency?',
     options: {
         a: 'The internal extractor',
-        b: 'The jettison handle',
-        c: 'The release key'
+        b: 'The external extractor',
+        c: 'Both'
     },
-    correct: 'a'
+    correct: 'c'
 },
-{
+/*TODO FREE question */
+/* {
     id: 2186,
     Aircraft: 'H175',
     Category: '51-56',
@@ -14479,7 +14480,7 @@ export const questions = [
         c: 'To provide thermal insulation'
     },
     correct: 'a'
-},
+}, */
 {
     id: 2187,
     Aircraft: 'H175',
@@ -14492,6 +14493,7 @@ export const questions = [
     },
     correct: 'c'
 }
+/* TODO Check 2188*/
 
 
 
