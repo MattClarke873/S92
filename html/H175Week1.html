@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="../css/nav.Start.css">
   <style>
     body {
-      background-image: url("../support_Documents/H175C.jpeg");
+      background-image: url("../support_Documents/H175D.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed; /* Change to fixed to prevent scrolling */
@@ -26,6 +26,7 @@
 
     <!-- Hidden input to specify aircraft type -->
     <input type="hidden" id="aircraftType" value="H175">
+  
     <div class="selections">
       <label for="questionCount">Select Number of Questions:</label>
       <select id="questionCount">
@@ -56,20 +57,21 @@
               <li><label><input type="checkbox" class="category-checkbox"  value="52" disabled> 52</label></li>
               <li><label><input type="checkbox" class="category-checkbox"  value="88" disabled> 88</label></li>
               <li><label><input type="checkbox" class="category-checkbox"  value="89" disabled> 89</label></li>
-              
+
             </ul>
           </div>
           <!-- Add more categories as needed -->
-        </div>
-        <div class="selectAllBox">
-          <label><input type="checkbox" id="selectAll"> Select All</label>
-        </div>
-      </div>
-  
-      <button id="filterBtn">Generate Quiz</button>
+
 
     </div>
-
+      </div>
+      <div class="selectAllBox">
+        <label><input type="checkbox" id="selectAll"> Select All</label>
+      </div>
+    </div>
+    <div class="bottomButtons">
+      <button id="filterBtn">Generate Quiz</button>
+    </div>
 
     <div id="questions-container"></div> 
 
