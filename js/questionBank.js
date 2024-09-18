@@ -14492,10 +14492,133 @@ export const questions = [
         c: 'With a rubber seal and sealant'
     },
     correct: 'c'
+},
+
+
+{
+    id: 2188,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the purpose of the cockpit seating in the H175?',
+    options: {
+        a: 'To provide ergonomic, safe, and comfortable seats for pilots',
+        b: 'To ensure seats can only be adjusted for height',
+        c: 'To accommodate only one pilot seat'
+    },
+    correct: 'a'
+},
+{
+    id: 2189,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What system is incorporated in both cockpit and passenger seats to reduce the impact during a hard landing?',
+    options: {
+        a: 'Energy absorption system',
+        b: 'Reclining system',
+        c: 'Cushioning system'
+    },
+    correct: 'a'
+},
+/*TODO FREE question */
+/* {
+    id: 2190,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'Which adjustment lever is equipped with a cone-shaped knob in the cockpit seat?',
+    options: {
+        a: 'Vertical adjustment lever',
+        b: 'Longitudinal adjustment lever',
+        c: 'Dynamic tilt lever'
+    },
+    correct: 'b'
+}, */
+{
+    id: 2191,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'How many body harness points are fitted in the crew seats?',
+    options: {
+        a: '3-point body harness',
+        b: '4-point body harness',
+        c: '5-point body harness'
+    },
+    correct: 'c'
+},
+{
+    id: 2192,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the main difference between the crew and passenger seat harnesses?',
+    options: {
+        a: 'Crew seats have a 5-point harness, passengers have a 4-point harness',
+        b: 'Passenger seats have a 5-point harness, crew seats have a 4-point harness',
+        c: 'Both crew and passenger seats have the same harness system'
+    },
+    correct: 'a'
+},
+{
+    id: 2193,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What feature of the cockpit seats helps minimize shoulder movement during hard landings or adverse flight conditions?',
+    options: {
+        a: 'Manual lock-lever',
+        b: 'Inflation/deflation knob',
+        c: 'Energy absorption system'
+    },
+    correct: 'a'
+},
+/*TODO FREE question */
+/* {
+    id: 2194,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What knob allows modification of the thickness of the lumbar support in the cockpit seat?',
+    options: {
+        a: 'Tilt adjustment knob',
+        b: 'Inflation/deflation knob',
+        c: 'Harness control knob'
+    },
+    correct: 'b'
+}, */
+
+{
+    id: 2195,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the most common seating configuration for the Offshore Oil Sector in the EC175?',
+    options: {
+        a: '16 seats',
+        b: '18 seats',
+        c: '14 seats'
+    },
+    correct: 'a'
+},
+{
+    id: 2196,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'Which of the following is a requirement for the passenger seats in the EC175?',
+    options: {
+        a: 'They must be crashworthy and meet fire risk standards',
+        b: 'They must be able to recline fully',
+        c: 'They must be adjustable for different body sizes'
+    },
+    correct: 'a'
+},
+{
+    id: 2197,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What type of assembly does the passenger seat structure include?',
+    options: {
+        a: 'Headrest assembly and a 5-point harness',
+        b: 'Energy absorber assembly and floor fittings',
+        c: 'Inflation/deflation knob and harness system'
+    },
+    correct: 'b'
 }
-/* TODO Check 2188*/
-
-
+/*TODO check 2198 */
 
 
   ];
