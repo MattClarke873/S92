@@ -12243,7 +12243,7 @@ export const questions = [
         b: '18',
         c: '20'
     },
-    correct: 'b'
+    correct: 'a'
 },
 {
     id: 2002,
@@ -13518,6 +13518,18 @@ export const questions = [
         c: '20 cell, a thermal switch and a temperature switch (activating at >72°F'
     },
     correct: 'a'
+},
+{
+    id: 2109,
+    Aircraft: 'H175',
+    Category: '04-12',
+    question: 'What is the maximum number of passengers the H175 can transport?',
+    options: {
+        a: '16',
+        b: '18',
+        c: '20'
+    },
+    correct: 'b'
 }
 
   
