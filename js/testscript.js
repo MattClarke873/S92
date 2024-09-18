@@ -13,14 +13,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const aircraftType = aircraftInput ? aircraftInput.value : undefined; // Change undefined as required to set default
     let selectedQuestions = [];
-    let percentageHistory = [];
     let filteredQuestions = [];
 
+    // Function to generate random questions
     function generateRandomQuestions(count, questions) {
         const shuffledQuestions = questions.sort(() => Math.random() - 0.5);
         return shuffledQuestions.slice(0, count);
     }
 
+    // Function to display the questions
     function displayQuestions() {
         questionsContainer.innerHTML = '';
 
@@ -46,17 +47,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             }
 
-            // Create a new div to hold the question ID
-            const questionIdElement = document.createElement('div');
-            questionIdElement.classList.add('question-id');
-            questionIdElement.innerText = `Question ID: ${question.id}`;
-
             questionElement.appendChild(optionsList);
-            questionElement.appendChild(questionIdElement); // Append the question ID element
             questionsContainer.appendChild(questionElement);
         });
     }
 
+    // Function to handle option click
     function handleOptionClick() {
         const questionId = parseInt(this.getAttribute('data-question'), 10);
         const optionSelected = this.getAttribute('data-option');
@@ -69,86 +65,61 @@ document.addEventListener('DOMContentLoaded', function () {
         this.classList.add('selected');
     }
 
+    // Function to highlight the correct and wrong answers
+    function highlightAnswers() {
+        selectedQuestions.forEach((question) => {
+            const questionId = question.id;
+            const selectedOptionBtn = document.querySelector(`button[data-question="${questionId}"].selected`);
+
+            // Highlight all correct answers in green
+            const correctOptionBtn = document.querySelector(`button[data-question="${questionId}"][data-option="${question.correct}"]`);
+            if (correctOptionBtn) {
+                correctOptionBtn.style.backgroundColor = 'green';
+                correctOptionBtn.style.color = 'white';
+            }
+
+            // Highlight the selected wrong answer in red
+            if (selectedOptionBtn && selectedOptionBtn.getAttribute('data-option') !== question.correct) {
+                selectedOptionBtn.style.backgroundColor = 'red';
+                selectedOptionBtn.style.color = 'white';
+            }
+        });
+    }
+
+    // Function to calculate the score and display results
     function calculateScore() {
         let correctCount = 0;
-
-        resultContainer.innerHTML = '';
 
         selectedQuestions.forEach((question) => {
             const questionId = question.id;
             const selectedOptionBtn = document.querySelector(`button[data-question="${questionId}"].selected`);
 
-            const resultText = document.createElement('p');
-
             if (selectedOptionBtn) {
                 const selectedOption = selectedOptionBtn.getAttribute('data-option');
-                resultText.innerHTML = `
-                    ${question.question} 
-                    <br>
-                    <br> - Your Answer: ${question.options[selectedOption]},
-                    <br> - Correct Answer: ${question.options[question.correct]}
-                    <br>
-                    <br> ------- 
-                    <br> ${question.id}
-                    `;
-
                 if (selectedOption === question.correct) {
-                    resultText.style.color = 'green';
                     correctCount++;
-                } else {
-                    resultText.style.color = 'red';
                 }
-            } else {
-                resultText.innerHTML = `
-                    ${question.id} - ${question.question} 
-                    <br>
-                    <br> - Your Answer: Not attempted, 
-                    <br> - Correct Answer: ${question.options[question.correct]}
-                    <br>
-                    <br> ------- 
-                    <br> ${question.id}
-                    `;
-
-                resultText.style.color = 'red';
             }
-
-            resultContainer.appendChild(resultText);
         });
 
         const score = correctCount;
         const percentage = (correctCount / selectedQuestions.length) * 100;
-        percentageHistory.push(percentage);
 
         const scoreText = document.createElement('p');
         scoreText.innerHTML = `Score: ${score} / ${selectedQuestions.length}, Percentage: ${percentage.toFixed(2)}%`;
+        resultContainer.innerHTML = '';
         resultContainer.appendChild(scoreText);
-
-        const lastFivePercentages = percentageHistory.slice(Math.max(percentageHistory.length - 5, 0));
-        const percentageHistoryText = document.createElement('p');
-        percentageHistoryText.innerHTML = `Last 5 Scores: ${lastFivePercentages.map(p => p.toFixed(2)).join('%, ')}%`;
-        resultContainer.appendChild(percentageHistoryText);
-
-        resultContainer.classList.add('blur-background');
-        resultContainer.classList.add('result-container');
-        resultContainer.style.backgroundColor = 'rgba(173, 216, 230, 0.7)'; // Light blue with 50% transparency
-        finishBtn.style.display = 'none';
-        questionsContainer.style.display = 'none';
-        resultContainer.style.display = 'block';
     }
 
+    // Function to reset the quiz
     function resetQuiz() {
         selectedQuestions = [];
         questionsContainer.innerHTML = '';
         resultContainer.innerHTML = '';
-        questionsContainer.style.display = 'block';
-        resultContainer.style.display = 'none';
-        questionCountSelect.selectedIndex = 0;
-
-        resultContainer.classList.remove('blur-background');
-        resultContainer.classList.remove('result-container');
         finishBtn.style.display = 'inline-block';
     }
 
+    // Function to get selected categories
     function getSelectedCategories() {
         const selectedCategories = [];
         categoryCheckboxes.forEach((checkbox) => {
@@ -159,6 +130,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return selectedCategories;
     }
 
+    // Function to apply filters and select questions
     function applyFilters() {
         const selectedCount = parseInt(questionCountSelect.value, 10);
         const selectedCategories = getSelectedCategories();
@@ -174,6 +146,7 @@ document.addEventListener('DOMContentLoaded', function () {
         displayQuestions();
     }
 
+    // Event listeners
     filterBtn.addEventListener('click', function () {
         applyFilters();
     });
@@ -190,7 +163,9 @@ document.addEventListener('DOMContentLoaded', function () {
         displayQuestions();
     });
 
+    // Event listener for finish button to show correct and wrong answers
     finishBtn.addEventListener('click', function () {
+        highlightAnswers();
         calculateScore();
     });
 
