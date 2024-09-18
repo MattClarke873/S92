@@ -1,6 +1,7 @@
 import { questions as questionBank } from './questionBank.js';
 
 document.addEventListener('DOMContentLoaded', function () {
+    // Cache DOM elements for later use
     const questionCountSelect = document.getElementById('questionCount');
     const questionsContainer = document.getElementById('questions-container');
     const finishBtn = document.getElementById('finishBtn');
@@ -11,27 +12,46 @@ document.addEventListener('DOMContentLoaded', function () {
     const selectAllCheckbox = document.getElementById('selectAll');
     const aircraftInput = document.getElementById('aircraftType'); // Get aircraft type from hidden input
 
-    const aircraftType = aircraftInput ? aircraftInput.value : undefined; // Change undefined as required to set default
+    resultContainer.style.display = 'none';
+    
+    // Get the value of the aircraft type from the hidden input
+    const aircraftType = aircraftInput ? aircraftInput.value : undefined;
     let selectedQuestions = [];
-    let percentageHistory = [];
     let filteredQuestions = [];
 
+    // Function to generate a specified number of random questions from the given questions array
     function generateRandomQuestions(count, questions) {
         const shuffledQuestions = questions.sort(() => Math.random() - 0.5);
         return shuffledQuestions.slice(0, count);
     }
 
+    // Function to display the selected questions and their options
     function displayQuestions() {
         questionsContainer.innerHTML = '';
 
         selectedQuestions.forEach((question) => {
+            // Create a container for the question
             const questionElement = document.createElement('div');
             questionElement.classList.add('question-container');
-            questionElement.innerHTML = `<p>${question.question}</p>`;
 
+            // Add a paragraph with the question text
+            const questionText = document.createElement('p');
+            questionText.innerText = question.question;
+
+            // Add an element to display the question ID with a class for CSS styling
+            const questionId = document.createElement('span');
+            questionId.classList.add('question-id');
+            questionId.innerText = `Question ID: ${question.id}`;
+            
+            // Append the question text and ID to the question container
+            questionElement.appendChild(questionText);
+            questionElement.appendChild(questionId);
+
+            // Create a list for options
             const optionsList = document.createElement('ul');
             optionsList.classList.add('options-list');
-
+            
+            // Create buttons for each option
             for (const option in question.options) {
                 if (question.options.hasOwnProperty(option)) {
                     const optionBtn = document.createElement('button');
@@ -46,103 +66,118 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             }
 
-            // Create a new div to hold the question ID
-            const questionIdElement = document.createElement('div');
-            questionIdElement.classList.add('question-id');
-            questionIdElement.innerText = `Question ID: ${question.id}`;
-
+            // Append the options list to the question container
             questionElement.appendChild(optionsList);
-            questionElement.appendChild(questionIdElement); // Append the question ID element
             questionsContainer.appendChild(questionElement);
         });
     }
 
+    // Function to handle the click event on an option button
     function handleOptionClick() {
         const questionId = parseInt(this.getAttribute('data-question'), 10);
         const optionSelected = this.getAttribute('data-option');
 
+        // Deselect other options for this question
         const otherOptionBtns = document.querySelectorAll(`button[data-question="${questionId}"]`);
         otherOptionBtns.forEach((btn) => {
             btn.classList.remove('selected');
         });
 
+        // Mark the clicked option as selected
         this.classList.add('selected');
     }
 
-    function calculateScore() {
-        let correctCount = 0;
-
-        resultContainer.innerHTML = '';
+    // Function to highlight correct and incorrect answers after finishing the quiz
+    function highlightAnswers() {
+        // Remove shadow from all buttons
+        document.querySelectorAll('button').forEach(button => {
+            button.style.boxShadow = 'none';
+        });
 
         selectedQuestions.forEach((question) => {
             const questionId = question.id;
             const selectedOptionBtn = document.querySelector(`button[data-question="${questionId}"].selected`);
 
-            const resultText = document.createElement('p');
-
-            if (selectedOptionBtn) {
-                const selectedOption = selectedOptionBtn.getAttribute('data-option');
-                resultText.innerHTML = `
-                    ${question.question} 
-                    <br>
-                    <br> - Your Answer: ${question.options[selectedOption]},
-                    <br> - Correct Answer: ${question.options[question.correct]}
-                    <br>
-                    <br> ------- 
-                    <br> ${question.id}
-                    `;
-
-                if (selectedOption === question.correct) {
-                    resultText.style.color = 'green';
-                    correctCount++;
+            // Get all option buttons for this question
+            const optionBtns = document.querySelectorAll(`button[data-question="${questionId}"]`);
+            
+            // Highlight correct and incorrect answers
+            optionBtns.forEach(btn => {
+                const option = btn.getAttribute('data-option');
+                if (option === question.correct) {
+                    // Highlight correct option in green
+                    btn.style.backgroundColor = 'green';
+                    btn.style.color = 'white';
+                } else if (selectedOptionBtn && selectedOptionBtn.getAttribute('data-option') === option) {
+                    // Highlight the selected incorrect option in red
+                    btn.style.backgroundColor = 'red';
+                    btn.style.color = 'white';
                 } else {
-                    resultText.style.color = 'red';
+                    // Default style for unselected incorrect options
+                    btn.style.backgroundColor = '';
+                    btn.style.color = '';
                 }
-            } else {
-                resultText.innerHTML = `
-                    ${question.id} - ${question.question} 
-                    <br>
-                    <br> - Your Answer: Not attempted, 
-                    <br> - Correct Answer: ${question.options[question.correct]}
-                    <br>
-                    <br> ------- 
-                    <br> ${question.id}`;
+            });
 
-                resultText.style.color = 'red';
+            // Check if no option has been selected
+            if (!selectedOptionBtn) {
+                optionBtns.forEach(btn => {
+                    const option = btn.getAttribute('data-option');
+                    if (option === question.correct) {
+                        // Highlight correct option in green
+                        btn.style.backgroundColor = 'green';
+                        btn.style.color = 'white';
+                    } else {
+                        // Highlight incorrect options in red
+                        btn.style.backgroundColor = 'red';
+                        btn.style.color = 'white';
+                    }
+                });
             }
-
-            resultContainer.appendChild(resultText);
         });
 
+        // Remove the shadow from the finish button
+        finishBtn.style.boxShadow = 'none';
+    }
+
+    // Function to calculate the quiz score and display it
+    function calculateScore() {
+        let correctCount = 0;
+
+        selectedQuestions.forEach((question) => {
+            const questionId = question.id;
+            const selectedOptionBtn = document.querySelector(`button[data-question="${questionId}"].selected`);
+
+            // Check if the selected option is correct
+            if (selectedOptionBtn) {
+                const selectedOption = selectedOptionBtn.getAttribute('data-option');
+                if (selectedOption === question.correct) {
+                    correctCount++;
+                }
+            }
+        });
+
+        // Calculate and display the score and percentage
         const score = correctCount;
         const percentage = (correctCount / selectedQuestions.length) * 100;
-        percentageHistory.push(percentage);
 
         const scoreText = document.createElement('p');
         scoreText.innerHTML = `Score: ${score} / ${selectedQuestions.length}, Percentage: ${percentage.toFixed(2)}%`;
+        resultContainer.innerHTML = '';
         resultContainer.appendChild(scoreText);
-
-        const lastFivePercentages = percentageHistory.slice(Math.max(percentageHistory.length - 5, 0));
-        const percentageHistoryText = document.createElement('p');
-        percentageHistoryText.innerHTML = `Last 5 Scores: ${lastFivePercentages.map(p => p.toFixed(2)).join('%, ')}%`;
-        resultContainer.appendChild(percentageHistoryText);
-
-        finishBtn.style.display = 'none';
-        questionsContainer.style.display = 'none';
-        resultContainer.style.display = 'block';
     }
 
+    // Function to reset the quiz to its initial state
     function resetQuiz() {
         selectedQuestions = [];
         questionsContainer.innerHTML = '';
         resultContainer.innerHTML = '';
-        questionsContainer.style.display = 'block';
-        resultContainer.style.display = 'none';
-        questionCountSelect.selectedIndex = 0;
-
         finishBtn.style.display = 'inline-block';
+        finishBtn.style.boxShadow = ''; // Reset the shadow style on reset
+        resultContainer.style.display = 'none'; // Ensure result container is hidden
     }
 
+    // Function to get the currently selected categories from the checkboxes
     function getSelectedCategories() {
         const selectedCategories = [];
         categoryCheckboxes.forEach((checkbox) => {
@@ -153,6 +188,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return selectedCategories;
     }
 
+    // Function to filter questions based on selected categories and aircraft type, and then select a random set
     function applyFilters() {
         const selectedCount = parseInt(questionCountSelect.value, 10);
         const selectedCategories = getSelectedCategories();
@@ -168,27 +204,34 @@ document.addEventListener('DOMContentLoaded', function () {
         displayQuestions();
     }
 
+    // Event listeners
     filterBtn.addEventListener('click', function () {
-        applyFilters();
+        applyFilters(); // Apply filters and update questions when filter button is clicked
+        resultContainer.style.display = 'none'; // Hide result container when generating quiz
     });
 
     selectAllCheckbox.addEventListener('change', function () {
+        // Check or uncheck all category checkboxes based on the select all checkbox
         categoryCheckboxes.forEach((checkbox) => {
             checkbox.checked = selectAllCheckbox.checked;
         });
     });
 
     questionCountSelect.addEventListener('change', function () {
+        // Update the number of displayed questions when the question count is changed
         const selectedCount = parseInt(this.value, 10);
         selectedQuestions = generateRandomQuestions(selectedCount, filteredQuestions);
         displayQuestions();
     });
 
     finishBtn.addEventListener('click', function () {
+        // Show the correct and wrong answers and calculate the score when finish button is clicked
+        highlightAnswers();
         calculateScore();
+        resultContainer.style.display = 'block'; // Show result container
     });
 
     resetBtn.addEventListener('click', function () {
-        resetQuiz();
+        resetQuiz(); // Reset the quiz when reset button is clicked
     });
 });
