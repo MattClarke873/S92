@@ -38,20 +38,22 @@
   #home {border-radius: 5px;}
   
 
-  @media (max-width: 440px) {
-    
+  @media (max-width: 430px) {
     #home,#left,#right {
       background-color: #333333; /* Red */
       height: 4vh; /* Ensure body takes up full vertical height */
-      width: 100vw; /* Ensure body takes up full horizontal width */
+      width: 10vw; /* Ensure body takes up full horizontal width */
       max-width: 105px; /* Maximum width */
-      min-width: 105;
+      min-width: 100px;
       }
     
-    #home:hover,#left:hover,#right:hover {
-      background-color:  #2f2f2f;
-      height: 4vh; /* Ensure body takes up full vertical height */
-      width: 11vw; /* Ensure body takes up full horizontal width */
-      max-width: 110px; /* Maximum width */
+      #home:hover,#left:hover,#right:hover {
+        background-color:  #2f2f2f;
+        height: 4vh; /* Ensure body takes up full vertical height */
+        width: 11vw; /* Ensure body takes up full horizontal width */
+        max-width: 110px; /* Maximum width */
+        }
+
+
+
   }
-}
