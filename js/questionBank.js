@@ -13454,7 +13454,7 @@ export const questions = [
     question: 'What will happen when the Emergency Cut-off (ECO) switches are moved to the OFF position?',
     options: {
         a: 'All contactors in DCEMB 1 and DCEMB 2 will close',
-        b: 'All contactors in DCEMB 1 and DCEMB 2 will open except ESSC 1 and ESSC 2',
+        b: 'All contactors in DCEMB 1 and DCEMB 2 will open except ESS 1/2 and EMERG 1/2',
         c: 'The AC alternator will be disconnected by DCEMB contactors'
     },
     correct: 'b'
@@ -14679,7 +14679,7 @@ export const questions = [
     correct: 'b'
 },
 
-/*TODO check 2203 */
+
 
 {
     id: 2203,
@@ -15546,7 +15546,7 @@ correct: 'a'
     },
     correct: 'c'
 },
-/*TODO Check 2274*/
+
 
 {
     id: 2275,
@@ -15608,7 +15608,8 @@ correct: 'a'
     },
     correct: 'b'
 },
-{
+/*TODO FREE question */
+/* {
     id: 2280,
     Aircraft: 'H175',
     Category: '25',
@@ -15619,14 +15620,14 @@ correct: 'a'
         c: '243 MHz'
     },
     correct: 'b'
-},
+}, */
 {
     id: 2281,
     Aircraft: 'H175',
     Category: '25',
     question: 'What is stored in the ELT Dongle?',
     options: {
-        a: 'The aircraft’s GPS coordinates',
+        a: 'The aircraft\’s GPS coordinates',
         b: 'Information about the aircraft',
         c: 'Battery expiration date'
     },
@@ -15656,6 +15657,7 @@ correct: 'a'
     },
     correct: 'b'
 },
+/*TODO CHECK 2284 */
 {
     id: 2284,
     Aircraft: 'H175',
