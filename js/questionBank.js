@@ -16284,8 +16284,3812 @@ correct: 'a'
       c: 'Accelerometer readings'
     },
     correct: 'b'
+  },
+  
+  /*TODO CHECK FROM HERE AUTO FROM PDF */
+  {
+    id: 2335,
+    Aircraft: 'H175',
+    Category: '60',
+    question: 'Which manual is now dedicated to standard practices for the rotor section of the EC175?',
+    options: {
+        a: 'AMM Manual',
+        b: 'M.T.C Manual',
+        c: 'Flight Manual'
+    },
+    correct: 'b'
+},
+{
+    id: 2336,
+    Aircraft: 'H175',
+    Category: '60',
+    question: 'What type of engine does the EC175 use?',
+    options: {
+        a: 'PWC PT6C',
+        b: 'GE T700',
+        c: 'Rolls-Royce M250'
+    },
+    correct: 'a'
+},
+{
+    id: 2337,
+    Aircraft: 'H175',
+    Category: '60',
+    question: 'What does the M.T.C manual contain?',
+    options: {
+        a: 'Flight operations procedures',
+        b: 'All procedures related to standard practices for the rotor section',
+        c: 'Safety guidelines for emergency situations'
+    },
+    correct: 'b'
+},
+{
+    id: 2338,
+    Aircraft: 'H175',
+    Category: '60',
+    question: 'In which manual will you find limited information on standard practices for the EC175 rotor section?',
+    options: {
+        a: 'M.T.C Manual',
+        b: 'Maintenance Manual',
+        c: 'Operations Manual'
+    },
+    correct: 'b'
+},
+{
+    id: 2339,
+    Aircraft: 'H175',
+    Category: '60',
+    question: 'What are the maintenance tasks for the EC175 blades divided into?',
+    options: {
+        a: 'Five levels based on personnel',
+        b: 'Three levels based on task complexity, areas, equipment, and personnel',
+        c: 'Two levels based on equipment and task areas'
+    },
+    correct: 'b'
+},
+{
+    id: 2340,
+    Aircraft: 'H175',
+    Category: '60',
+    question: 'Which maintenance level is related to repair class "COV"?',
+    options: {
+        a: 'Personnel with basic training',
+        b: 'Personnel approved after specific factory training on blades repairs',
+        c: 'General maintenance level'
+    },
+    correct: 'b'
+},
+{
+    id: 2341,
+    Aircraft: 'H175',
+    Category: '60',
+    question: 'Which personnel can carry out "COV" tasks?',
+    options: {
+        a: 'Any certified personnel',
+        b: 'Personnel with specific factory training on blades repairs',
+        c: 'Only supervisory staff'
+    },
+    correct: 'b'
+},
+{
+    id: 2342,
+    Aircraft: 'H175',
+    Category: '60',
+    question: 'What must be valid for personnel to perform "COV" tasks?',
+    options: {
+        a: 'Their pilot license',
+        b: 'Their qualification and Airbus issued Training Certificate',
+        c: 'Their general maintenance certification'
+    },
+    correct: 'b'
+},
+{
+    id: 2343,
+    Aircraft: 'H175',
+    Category: '60',
+    question: 'What type of repairs does the AMM manual for EC175 blades include?',
+    options: {
+        a: 'All types of repairs',
+        b: 'Only "C" or "COV" repairs',
+        c: 'No repair procedures'
+    },
+    correct: 'b'
+},
+{
+    id: 2344,
+    Aircraft: 'H175',
+    Category: '60',
+    question: 'What happens if personnel qualifications for "COV" tasks are not valid?',
+    options: {
+        a: 'They can still perform the tasks under supervision',
+        b: 'They are not allowed to perform the tasks',
+        c: 'They must apply for recertification immediately after the task'
+    },
+    correct: 'b'
+},
+{
+    id: 2345,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What type of rotor system does the EC175 use?',
+    options: {
+        a: 'Hinged Rotor',
+        b: 'Spheriflex Rotor',
+        c: 'Semi-Rigid Rotor'
+    },
+    correct: 'b'
+},
+{
+    id: 2346,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What is the function of the main rotor system on the EC175?',
+    options: {
+        a: 'Generates lift and traction',
+        b: 'Provides tail rotor control',
+        c: 'Controls yaw movements only'
+    },
+    correct: 'a'
+},
+{
+    id: 2347,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What angle is the main rotor of the EC175 tilted forward by?',
+    options: {
+        a: '3.5°',
+        b: '4.5°',
+        c: '5.5°'
+    },
+    correct: 'b'
+},
+{
+    id: 2348,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'How many blades does the EC175 main rotor have?',
+    options: {
+        a: 'Four',
+        b: 'Five',
+        c: 'Six'
+    },
+    correct: 'b'
+},
+{
+    id: 2349,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What material is the main rotor hub of the EC175 made of?',
+    options: {
+        a: 'Aluminum',
+        b: 'Steel',
+        c: 'Titanium'
+    },
+    correct: 'c'
+},
+{
+    id: 2350,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What component prevents excessive blade droop on the EC175?',
+    options: {
+        a: 'Blade Dampers',
+        b: 'Droop Stops',
+        c: 'Elastomeric Bearings'
+    },
+    correct: 'b'
+},
+{
+    id: 2351,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What controls the movement of the swashplate on the EC175?',
+    options: {
+        a: 'Hydraulic Actuators',
+        b: 'Three primary flight servos',
+        c: 'Electrical Motors'
+    },
+    correct: 'b'
+},
+{
+    id: 2352,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What is the purpose of the rotating swashplate on the EC175?',
+    options: {
+        a: 'To drive the tail rotor',
+        b: 'To transmit control inputs to the main rotor blades',
+        c: 'To provide lift'
+    },
+    correct: 'b'
+},
+{
+    id: 2353,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What is the shape of the EC175 main rotor blade tip?',
+    options: {
+        a: 'Rectangular',
+        b: 'Parabolic',
+        c: 'Triangular'
+    },
+    correct: 'b'
+},
+{
+    id: 2354,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What material is used for the leading-edge protection of the EC175 main rotor blade?',
+    options: {
+        a: 'Aluminum',
+        b: 'Nickel and Stainless Steel',
+        c: 'Copper'
+    },
+    correct: 'b'
+},
+{
+    id: 2355,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What is the purpose of the copper mesh on the main rotor blade?',
+    options: {
+        a: 'For aerodynamic purposes',
+        b: 'To protect the blade from erosion',
+        c: 'For lightning strike protection'
+    },
+    correct: 'c'
+},
+{
+    id: 2356,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'How is static electricity discharged from the EC175 main rotor blades?',
+    options: {
+        a: 'Via a grounding wire',
+        b: 'Through the hub using an electrical bonding braid',
+        c: 'Through the swashplate system'
+    },
+    correct: 'b'
+},
+{
+    id: 2357,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What is the maximum forward tilt angle of the main rotor head?',
+    options: {
+        a: '3.0°',
+        b: '4.5°',
+        c: '5.0°'
+    },
+    correct: 'b'
+},
+{
+    id: 2358,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'At what speed does the EC175 main rotor head rotate?',
+    options: {
+        a: '240 rpm',
+        b: '279 rpm',
+        c: '300 rpm'
+    },
+    correct: 'b'
+},
+{
+    id: 2359,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What component limits the flapping of the main rotor blades?',
+    options: {
+        a: 'Lead-Lag Dampers',
+        b: 'Flap Stops',
+        c: 'Droop Stops'
+    },
+    correct: 'b'
+},
+{
+    id: 2360,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What is the primary function of the lead-lag dampers?',
+    options: {
+        a: 'To balance the rotor',
+        b: 'To dampen the advancing and retreating blade effect',
+        c: 'To limit droop during high winds'
+    },
+    correct: 'b'
+},
+{
+    id: 2361,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What type of bearing is used in the main rotor hub of the EC175?',
+    options: {
+        a: 'Spherical thrust bearing',
+        b: 'Roller bearing',
+        c: 'Ball bearing'
+    },
+    correct: 'a'
+},
+{
+    id: 2362,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What is the material used for the EC175 main rotor blade’s skin?',
+    options: {
+        a: 'Carbon fiber composite',
+        b: 'Aluminum alloy',
+        c: 'Steel'
+    },
+    correct: 'a'
+},
+{
+    id: 2363,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What ensures the electrical continuity between the main rotor blade and the hub?',
+    options: {
+        a: 'Bonding spring',
+        b: 'Grounding wire',
+        c: 'Copper mesh'
+    },
+    correct: 'a'
+},
+{
+    id: 2364,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'How many pitch control rods are used to control the EC175 main rotor blades?',
+    options: {
+        a: 'Three',
+        b: 'Five',
+        c: 'Seven'
+    },
+    correct: 'b'
+},
+{
+    id: 2365,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What component of the main rotor transmits torque from the mast to the blades?',
+    options: {
+        a: 'Swashplate',
+        b: 'Main rotor hub',
+        c: 'Pitch control rods'
+    },
+    correct: 'b'
+},
+{
+    id: 2366,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'How are the main rotor blades of the EC175 balanced?',
+    options: {
+        a: 'By adjusting the lead-lag dampers',
+        b: 'Using tungsten shot in the leading-edge tube',
+        c: 'Using composite washers in the hub'
+    },
+    correct: 'b'
+},
+{
+    id: 2367,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What material fills the core of the EC175 main rotor blades?',
+    options: {
+        a: 'Polyurethane foam',
+        b: 'Balsa wood',
+        c: 'Honeycomb aluminum'
+    },
+    correct: 'a'
+},
+{
+    id: 2368,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What is the purpose of the electro-formed nickel leading-edge protection on the rotor blade tips?',
+    options: {
+        a: 'To provide aerodynamic stability',
+        b: 'To reduce blade tip erosion',
+        c: 'For lightning protection'
+    },
+    correct: 'b'
+},
+{
+    id: 2369,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What is the length of the blade attachment pin axes on the EC175 main rotor?',
+    options: {
+        a: '80 mm',
+        b: '90 mm',
+        c: '100 mm'
+    },
+    correct: 'b'
+},
+{
+    id: 2370,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What is the twist angle applied to the wide trim tabs on the EC175 rotor blades?',
+    options: {
+        a: '6°',
+        b: '7°',
+        c: '8°'
+    },
+    correct: 'c'
+},
+{
+    id: 2371,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What material are the trim tabs on the EC175 main rotor blades made of?',
+    options: {
+        a: 'Aluminum alloy',
+        b: 'Titanium',
+        c: 'Steel'
+    },
+    correct: 'a'
+},
+{
+    id: 2372,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'Which part of the main rotor blade is specifically protected by polyurethane?',
+    options: {
+        a: 'Blade tip',
+        b: 'Blade root and lower skin',
+        c: 'Leading edge'
+    },
+    correct: 'b'
+},
+{
+    id: 2373,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'What is the primary role of the spherical bearings in the EC175 main rotor?',
+    options: {
+        a: 'To allow full articulation of the blades',
+        b: 'To reduce vibration',
+        c: 'To prevent blade droop'
+    },
+    correct: 'a'
+},
+{
+    id: 2374,
+    Aircraft: 'H175',
+    Category: '62',
+    question: 'How many NR sensors are used to monitor the EC175 main rotor speed?',
+    options: {
+        a: 'One',
+        b: 'Two',
+        c: 'Three'
+    },
+    correct: 'b'
+},
+{
+    id: 2375,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What is the total usable fuel capacity of the EC175 fuel system?',
+    options: {
+        a: '2067 kg',
+        b: '2178 kg',
+        c: '2533 kg'
+    },
+    correct: 'a'
+},
+{
+    id: 2376,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'How many feeder tanks are there in the EC175 fuel system?',
+    options: {
+        a: '2',
+        b: '3',
+        c: '5'
+    },
+    correct: 'a'
+},
+{
+    id: 2377,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What is the purpose of the Low-Level Sensor (LLS) in the feeder tanks?',
+    options: {
+        a: 'To detect fuel pressure',
+        b: 'To indicate fuel low level',
+        c: 'To measure fuel temperature'
+    },
+    correct: 'b'
+},
+{
+    id: 2378,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'Where are the fuel control and engine control panels located in the EC175?',
+    options: {
+        a: 'Overhead console',
+        b: 'Cockpit side panels',
+        c: 'Inter-seat console'
+    },
+    correct: 'c'
+},
+{
+    id: 2379,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'Which system displays the fuel system monitoring and indicating?',
+    options: {
+        a: 'Vehicle Monitoring Display (VMD)',
+        b: 'Multi-Function Display (MFD)',
+        c: 'Central Warning Panel (CWP)'
+    },
+    correct: 'b'
+},
+{
+    id: 2380,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What is the main function of the jet pumps in the EC175 fuel system?',
+    options: {
+        a: 'To supply fuel under pressure to the engines',
+        b: 'To prevent fuel spillage',
+        c: 'To collect fuel from the auxiliary tanks'
+    },
+    correct: 'c'
+},
+{
+    id: 2381,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'How many jet pumps are installed in the fuel system?',
+    options: {
+        a: '2',
+        b: '3',
+        c: '4'
+    },
+    correct: 'b'
+},
+{
+    id: 2382,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What component prevents fuel spillage during a hard landing?',
+    options: {
+        a: 'Float switch',
+        b: 'Roll-over valve',
+        c: 'Pressure relief valve'
+    },
+    correct: 'b'
+},
+{
+    id: 2383,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What is the location of the optional auxiliary tank in the EC175?',
+    options: {
+        a: 'Beneath the cabin floor',
+        b: 'Beneath the cargo floor',
+        c: 'Beneath the cockpit'
+    },
+    correct: 'a'
+},
+{
+    id: 2384,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What is the role of the pressure relief valve in the fuel system?',
+    options: {
+        a: 'To prevent fuel overpressure during refueling',
+        b: 'To stop fuel overflow',
+        c: 'To transfer fuel between tanks'
+    },
+    correct: 'a'
+},
+{
+    id: 2385,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'How is the fuel system refueled in the EC175?',
+    options: {
+        a: 'Only by gravity',
+        b: 'Only by pressure',
+        c: 'Both by gravity and pressure'
+    },
+    correct: 'c'
+},
+{
+    id: 2386,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'Where is the gravity refueling port located?',
+    options: {
+        a: 'On the left side of the aircraft',
+        b: 'On the right side of the aircraft',
+        c: 'In the cockpit'
+    },
+    correct: 'b'
+},
+{
+    id: 2387,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'Which tank houses the pressure refueling system?',
+    options: {
+        a: 'Tank 1',
+        b: 'Tank 4',
+        c: 'Tank 6'
+    },
+    correct: 'b'
+},
+{
+    id: 2388,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'How is fuel drained from the tanks during maintenance?',
+    options: {
+        a: 'Using a drainage hose',
+        b: 'Through the refueling port',
+        c: 'Using the jet pumps'
+    },
+    correct: 'a'
+},
+{
+    id: 2389,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What does the fuel system use to prevent fire propagation through vent lines?',
+    options: {
+        a: 'Float switches',
+        b: 'Sand and fire protection grids',
+        c: 'Roll-over valves'
+    },
+    correct: 'b'
+},
+{
+    id: 2390,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What is the usable fuel capacity of Tank 4?',
+    options: {
+        a: '800 kg',
+        b: '1200 kg',
+        c: '1500 kg'
+    },
+    correct: 'a'
+},
+{
+    id: 2391,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'Which sensor is used to measure fuel temperature in the tanks?',
+    options: {
+        a: 'Fuel probe',
+        b: 'Temperature probe',
+        c: 'Low-Level Sensor'
+    },
+    correct: 'b'
+},
+{
+    id: 2392,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'How many vent lines are installed in the EC175 fuel system?',
+    options: {
+        a: '5',
+        b: '4',
+        c: '3'
+    },
+    correct: 'a'
+},
+{
+    id: 2393,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What is the function of the booster pumps in the EC175 fuel system?',
+    options: {
+        a: 'To supply fuel under pressure to the engines',
+        b: 'To prevent fuel from freezing',
+        c: 'To transfer fuel between tanks'
+    },
+    correct: 'a'
+},
+{
+    id: 2394,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What component is used to stop fuel spillage in case of a roll-over?',
+    options: {
+        a: 'Roll-over valve',
+        b: 'Pressure relief valve',
+        c: 'Booster pump'
+    },
+    correct: 'a'
+},
+{
+    id: 2395,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'Which system displays the fuel quantity in each tank?',
+    options: {
+        a: 'Central Warning Panel',
+        b: 'Vehicle Monitoring Display',
+        c: 'Flight Navigation Display'
+    },
+    correct: 'b'
+},
+{
+    id: 2396,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What is the function of the flap valves between tanks in the fuel system?',
+    options: {
+        a: 'To allow fuel transfer between tanks',
+        b: 'To stop fuel flow during refueling',
+        c: 'To prevent fuel leakage'
+    },
+    correct: 'a'
+},
+{
+    id: 2397,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What is the function of the solenoid valve during pressure refueling?',
+    options: {
+        a: 'To control the fuel quantity',
+        b: 'To prevent overfilling',
+        c: 'To stop fuel leakage'
+    },
+    correct: 'b'
+},
+{
+    id: 2398,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What system provides warnings related to the fuel system status?',
+    options: {
+        a: 'Flight Navigation Display (FND)',
+        b: 'Multi-Function Display (MFD)',
+        c: 'Central Warning Panel (CWP)'
+    },
+    correct: 'c'
+},
+{
+    id: 2399,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'Where are the booster pump switches located?',
+    options: {
+        a: 'Fuel Control Panel',
+        b: 'Engine Control Panel',
+        c: 'Cockpit overhead console'
+    },
+    correct: 'a'
+},
+{
+    id: 2400,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'Which component closes when the aircraft banks more than 40 degrees?',
+    options: {
+        a: 'Float switch',
+        b: 'Air-no-fuel valve',
+        c: 'Roll-over valve'
+    },
+    correct: 'b'
+},
+{
+    id: 2401,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What is the function of the venting system in the EC175?',
+    options: {
+        a: 'To collect fuel from auxiliary tanks',
+        b: 'To maintain atmospheric pressure in fuel tanks',
+        c: 'To supply fuel to engines'
+    },
+    correct: 'b'
+},
+{
+    id: 2402,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'Which warning is triggered when the fuel level in the feeder tanks is low?',
+    options: {
+        a: 'Low Pressure',
+        b: 'Low Fuel',
+        c: 'Over Pressure'
+    },
+    correct: 'b'
+},
+{
+    id: 2403,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What system shows the total fuel quantity and estimated endurance?',
+    options: {
+        a: 'VMD Fuel Page',
+        b: 'Flight Navigation Display',
+        c: 'Central Warning Panel'
+    },
+    correct: 'a'
+},
+{
+    id: 2404,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'How many fuel probes are installed in the EC175 fuel system?',
+    options: {
+        a: '2',
+        b: '4',
+        c: '5'
+    },
+    correct: 'c'
+},
+{
+    id: 2405,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'Which sensor is responsible for monitoring fuel low levels in the EC175?',
+    options: {
+        a: 'Fuel probe',
+        b: 'Low-Level Sensor (LLS)',
+        c: 'Pressure transducer'
+    },
+    correct: 'b'
+},
+{
+    id: 2406,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What is the function of the Pressure Relief Valve in the EC175 fuel system?',
+    options: {
+        a: 'Prevents fuel backflow during refueling',
+        b: 'Stops fuel supply to the engine',
+        c: 'Provides overpressure protection during refueling'
+    },
+    correct: 'c'
+},
+{
+    id: 2407,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'Which component closes automatically to prevent fuel leakage when inverted?',
+    options: {
+        a: 'Jet pump',
+        b: 'Air-no-fuel valve',
+        c: 'Roll-over valve'
+    },
+    correct: 'c'
+},
+{
+    id: 2408,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'Where is the fuel temperature sensor located?',
+    options: {
+        a: 'Inside the engine fuel line',
+        b: 'On the mounting plate of the feeder tanks',
+        c: 'In the auxiliary tank'
+    },
+    correct: 'b'
+},
+{
+    id: 2409,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What happens when both jet pumps in Tank 1 are obstructed?',
+    options: {
+        a: 'The fuel supply to the engine stops',
+        b: 'The feeder tanks are refilled by gravity',
+        c: 'The system continues to function normally'
+    },
+    correct: 'c'
+},
+{
+    id: 2410,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What component is used to automatically stop refueling when the tanks are full?',
+    options: {
+        a: 'Float switch',
+        b: 'Pressure transducer',
+        c: 'Booster pump'
+    },
+    correct: 'a'
+},
+{
+    id: 2411,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What alert is displayed when the fuel quantity in the feeders drops to 10 minutes of remaining flight time?',
+    options: {
+        a: 'LOW FUEL',
+        b: 'LOW PRESSURE',
+        c: 'NO FUEL'
+    },
+    correct: 'a'
+},
+{
+    id: 2412,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'What is the function of the fuel collection system in the EC175?',
+    options: {
+        a: 'To prevent fuel spillage',
+        b: 'To collect unused fuel from the feeder tanks',
+        c: 'To transfer fuel from auxiliary tanks to the feeders'
+    },
+    correct: 'b'
+},
+{
+    id: 2413,
+    Aircraft: 'H175',
+    Category: '28',
+    question: 'How many feeder tanks are fitted with Low-Level Sensors (LLS)?',
+    options: {
+        a: '2',
+        b: '3',
+        c: '4'
+    },
+    correct: 'a'
+},
+{
+    id: 2414,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'How many independent hydraulic systems are there in the EC175?',
+    options: {
+        a: '2',
+        b: '3',
+        c: '4'
+    },
+    correct: 'c'
+},
+{
+    id: 2415,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What system provides hydraulic power for the landing gear and wheel brakes?',
+    options: {
+        a: 'MHS1',
+        b: 'Auxiliary Hydraulic System',
+        c: 'MHS2'
+    },
+    correct: 'b'
+},
+{
+    id: 2416,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the system pressure for both MHS1 and MHS2?',
+    options: {
+        a: '175 bar',
+        b: '200 bar',
+        c: '150 bar'
+    },
+    correct: 'a'
+},
+{
+    id: 2417,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'Which hydraulic system has a larger capacity reservoir?',
+    options: {
+        a: 'MHS1',
+        b: 'MHS2',
+        c: 'Auxiliary Hydraulic System'
+    },
+    correct: 'b'
+},
+{
+    id: 2418,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'Which system provides backup in case of a mechanical pump failure in MHS2?',
+    options: {
+        a: 'Auxiliary Hydraulic System',
+        b: 'MHS1',
+        c: 'Ground Hydraulic System'
+    },
+    correct: 'a'
+},
+{
+    id: 2419,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What type of pump is used in MHS1 and MHS2?',
+    options: {
+        a: 'Gear pump',
+        b: 'Axial piston pump',
+        c: 'Vane pump'
+    },
+    correct: 'b'
+},
+{
+    id: 2420,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'Where is the auxiliary hydraulic pump located?',
+    options: {
+        a: 'On the left-hand side of the upper deck',
+        b: 'On the right-hand side of the upper deck',
+        c: 'In the nose landing gear compartment'
+    },
+    correct: 'b'
+},
+{
+    id: 2421,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the purpose of the auxiliary hydraulic pump during flight?',
+    options: {
+        a: 'To supply backup power to MHS1',
+        b: 'To provide hydraulic power to the main rotor',
+        c: 'To assist landing gear and brake operations'
+    },
+    correct: 'c'
+},
+{
+    id: 2422,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'How many main rotor servos are there in the EC175 hydraulic system?',
+    options: {
+        a: '2',
+        b: '3',
+        c: '4'
+    },
+    correct: 'b'
+},
+{
+    id: 2423,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the nominal pressure of the hydraulic system in flight?',
+    options: {
+        a: '160 bar',
+        b: '175 bar',
+        c: '190 bar'
+    },
+    correct: 'b'
+},
+{
+    id: 2424,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What system controls the tail rotor pitch?',
+    options: {
+        a: 'Main Hydraulic Supply 1 (MHS1)',
+        b: 'Tail Servo System',
+        c: 'Auxiliary Hydraulic System'
+    },
+    correct: 'b'
+},
+{
+    id: 2425,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'How is redundancy achieved in the EC175 hydraulic system?',
+    options: {
+        a: 'By having separate pumps for each system',
+        b: 'Through the use of accumulators',
+        c: 'By connecting MHS1 and MHS2'
+    },
+    correct: 'a'
+},
+{
+    id: 2426,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'Where is the hydraulic control panel located?',
+    options: {
+        a: 'In the overhead panel',
+        b: 'On the inter-seat console',
+        c: 'Next to the throttle levers'
+    },
+    correct: 'b'
+},
+{
+    id: 2427,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What does the hydraulic by-pass valve do?',
+    options: {
+        a: 'Diverts hydraulic fluid to the reservoir in case of high pressure',
+        b: 'Increases hydraulic system pressure during flight',
+        c: 'Controls the landing gear hydraulic circuit'
+    },
+    correct: 'a'
+},
+{
+    id: 2428,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the function of the hydraulic accumulator?',
+    options: {
+        a: 'Stores hydraulic fluid for emergency use',
+        b: 'Maintains pressure during hydraulic system fluctuations',
+        c: 'Prevents fluid contamination'
+    },
+    correct: 'b'
+},
+{
+    id: 2429,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What component in the MHS1 hydraulic system regulates fluid pressure?',
+    options: {
+        a: 'Pressure relief valve',
+        b: 'Pump regulating device',
+        c: 'By-pass valve'
+    },
+    correct: 'b'
+},
+{
+    id: 2430,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What happens when the hydraulic temperature exceeds 110°C?',
+    options: {
+        a: 'A high-temperature warning is displayed',
+        b: 'The hydraulic system shuts down',
+        c: 'The by-pass valve opens'
+    },
+    correct: 'a'
+},
+{
+    id: 2431,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the primary use of the auxiliary hydraulic system in flight?',
+    options: {
+        a: 'Backup for MHS1',
+        b: 'Normal landing gear operation',
+        c: 'Main rotor servo control'
+    },
+    correct: 'b'
+},
+{
+    id: 2432,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the purpose of the hydraulic system test during power-up?',
+    options: {
+        a: 'To check the servo pressure',
+        b: 'To ensure the hydraulic fluid is filled',
+        c: 'To check the thermal sensors and pressure transmitters'
+    },
+    correct: 'c'
+},
+{
+    id: 2433,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What happens when hydraulic pressure falls below 110 bar?',
+    options: {
+        a: 'The system switches to the auxiliary pump',
+        b: 'The hydraulic system shuts down',
+        c: 'The landing gear is automatically deployed'
+    },
+    correct: 'a'
+},
+{
+    id: 2434,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What warning message is displayed when hydraulic pressure drops in MHS1?',
+    options: {
+        a: 'HYD1 LOW PRESS',
+        b: 'HYD2 LOW PRESS',
+        c: 'LOW FUEL PRESSURE'
+    },
+    correct: 'a'
+},
+{
+    id: 2435,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'Where is the brake accumulator located?',
+    options: {
+        a: 'In the engine compartment',
+        b: 'In the nose landing gear compartment',
+        c: 'On the upper deck'
+    },
+    correct: 'b'
+},
+{
+    id: 2436,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'Which component controls the auxiliary hydraulic pump?',
+    options: {
+        a: 'Pressure transmitter',
+        b: 'Flow valve',
+        c: 'Temperature sensor'
+    },
+    correct: 'a'
+},
+{
+    id: 2437,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What does the auxiliary hydraulic pump do when the brake accumulator pressure is below 120 bar?',
+    options: {
+        a: 'Automatically recharges the brake accumulator',
+        b: 'Switches off',
+        c: 'Shuts down the system'
+    },
+    correct: 'a'
+},
+{
+    id: 2438,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What system indicator displays hydraulic fluid temperature and level?',
+    options: {
+        a: 'Flight Navigation Display (FND)',
+        b: 'Vehicle Monitoring System (VMS)',
+        c: 'Central Warning Panel (CWP)'
+    },
+    correct: 'b'
+},
+{
+    id: 2439,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What does the caution message HYD TREND indicate?',
+    options: {
+        a: 'Abnormal hydraulic pressure variation',
+        b: 'Hydraulic fluid temperature above normal range',
+        c: 'Hydraulic system failure'
+    },
+    correct: 'a'
+},
+{
+    id: 2440,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the function of the hydraulic by-pass switch in emergency conditions?',
+    options: {
+        a: 'To redirect hydraulic fluid flow',
+        b: 'To turn off the hydraulic system',
+        c: 'To open the by-pass valve'
+    },
+    correct: 'c'
+},
+{
+    id: 2441,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the pressure range during normal auxiliary pump operation?',
+    options: {
+        a: '130-150 bar',
+        b: '160-190 bar',
+        c: '110-130 bar'
+    },
+    correct: 'b'
+},
+{
+    id: 2442,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What warning message is triggered if the auxiliary hydraulic pump overheats?',
+    options: {
+        a: 'AUX PUMP OVHT HYD2',
+        b: 'AUX PUMP FAIL',
+        c: 'HYD AUX FAIL'
+    },
+    correct: 'a'
+},
+{
+    id: 2443,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the primary role of the pressure relief valve in the hydraulic system?',
+    options: {
+        a: 'To prevent pressure overload',
+        b: 'To stop fluid backflow',
+        c: 'To increase system pressure during flight'
+    },
+    correct: 'a'
+},
+{
+    id: 2444,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What does the amber warning light on the hydraulic control panel indicate?',
+    options: {
+        a: 'High hydraulic temperature',
+        b: 'Low hydraulic pressure',
+        c: 'Hydraulic fluid leakage'
+    },
+    correct: 'a'
+},
+{
+    id: 2445,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What component sends the hydraulic pressure information to the VMS?',
+    options: {
+        a: 'Thermal sensor',
+        b: 'Pressure transmitter',
+        c: 'Level probe'
+    },
+    correct: 'b'
+},
+{
+    id: 2446,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What happens when both stages of the main rotor servo lose hydraulic pressure?',
+    options: {
+        a: 'The helicopter loses control',
+        b: 'The auxiliary hydraulic system takes over',
+        c: 'Flight control is maintained through redundancy'
+    },
+    correct: 'c'
+},
+{
+    id: 2447,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the function of the low-level sensor in the MHS1 reservoir?',
+    options: {
+        a: 'To indicate when fluid is low',
+        b: 'To stop hydraulic flow',
+        c: 'To increase pressure'
+    },
+    correct: 'a'
+},
+{
+    id: 2448,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'How is the tail servo isolated during a hydraulic leak in MHS1?',
+    options: {
+        a: 'By closing the tail servo isolating solenoid valve',
+        b: 'By activating the by-pass valve',
+        c: 'By turning off the auxiliary pump'
+    },
+    correct: 'a'
+},
+{
+    id: 2449,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What happens if a hydraulic leak occurs downstream of the auxiliary system check valve in MHS2?',
+    options: {
+        a: 'The hydraulic pressure remains stable',
+        b: 'The auxiliary pump shuts off automatically',
+        c: 'The brake accumulator recharges'
+    },
+    correct: 'b'
+},
+{
+    id: 2450,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What does the system do if MHS2 pressure drops and the auxiliary pump is activated?',
+    options: {
+        a: 'Shuts down MHS1',
+        b: 'Supplies hydraulic power to the landing gear',
+        c: 'Maintains pressure in the servo controls'
+    },
+    correct: 'c'
+},
+{
+    id: 2451,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What message is displayed when the hydraulic tests fail during automatic power-up?',
+    options: {
+        a: 'HYD TEST FAILED',
+        b: 'HYD TST FAIL',
+        c: 'HYD SYSTEM ALERT'
+    },
+    correct: 'b'
+},
+{
+    id: 2452,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the role of the hydraulic temperature sensor in MHS1 and MHS2?',
+    options: {
+        a: 'To maintain fluid pressure',
+        b: 'To monitor fluid temperature',
+        c: 'To regulate hydraulic flow'
+    },
+    correct: 'b'
+},
+{
+    id: 2453,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What happens when the hydraulic fluid level in MHS1 drops below 2 liters?',
+    options: {
+        a: 'The auxiliary pump activates',
+        b: 'The tail servo isolating solenoid valve closes',
+        c: 'The hydraulic system shuts down'
+    },
+    correct: 'b'
+},
+{
+    id: 2454,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the normal pressure range for the brake accumulator in the EC175 hydraulic system?',
+    options: {
+        a: '100-120 bar',
+        b: '120-170 bar',
+        c: '180-200 bar'
+    },
+    correct: 'b'
+},
+{
+    id: 2455,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'Which system powers the normal operation of the landing gear?',
+    options: {
+        a: 'MHS1',
+        b: 'MHS2',
+        c: 'Auxiliary Hydraulic System'
+    },
+    correct: 'c'
+},
+{
+    id: 2456,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'Where is the brake accumulator pressure indicator located?',
+    options: {
+        a: 'On the central control panel',
+        b: 'On the cockpit floor',
+        c: 'In the landing gear compartment'
+    },
+    correct: 'b'
+},
+{
+    id: 2457,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What does the amber LOW LEVEL HYD2 warning message indicate?',
+    options: {
+        a: 'A drop in MHS2 hydraulic fluid below 4 liters',
+        b: 'Failure of the auxiliary pump',
+        c: 'Overpressure in the hydraulic system'
+    },
+    correct: 'a'
+},
+{
+    id: 2458,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What triggers the automatic shutdown of the auxiliary pump during hydraulic failure?',
+    options: {
+        a: 'Low fluid level',
+        b: 'High fluid temperature',
+        c: 'Pressure loss'
+    },
+    correct: 'a'
+},
+{
+    id: 2459,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What is the primary function of the Helionix system?',
+    options: {
+        a: 'To provide communication between aircraft systems',
+        b: 'To assist the crew in flight management and control',
+        c: 'To monitor fuel consumption'
+    },
+    correct: 'b'
+},
+{
+    id: 2460,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'How many processing channels does each Aircraft Management Computer (AMC) have?',
+    options: {
+        a: '2',
+        b: '3',
+        c: '4'
+    },
+    correct: 'a'
+},
+{
+    id: 2461,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What is the purpose of the Vehicle Management System (VMS) partition in the AMC?',
+    options: {
+        a: 'It monitors flight controls',
+        b: 'It acquires and computes vehicle and engine signals',
+        c: 'It performs avionics tests'
+    },
+    correct: 'b'
+},
+{
+    id: 2462,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'Where are the two AMCs located in the EC175?',
+    options: {
+        a: 'In the tail section',
+        b: 'In the nose avionic compartment',
+        c: 'In the cabin floor'
+    },
+    correct: 'b'
+},
+{
+    id: 2463,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What is displayed on the Flight Navigation Display (FND)?',
+    options: {
+        a: 'Fuel and hydraulic data',
+        b: 'Weather radar and synthetic vision',
+        c: 'Attitude, altitude, airspeed, and AFCS data'
+    },
+    correct: 'c'
+},
+{
+    id: 2464,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What happens if an outer MFD fails?',
+    options: {
+        a: 'The inner MFD reconfigures to the FND page',
+        b: 'The system automatically shuts down',
+        c: 'The AMC sends a warning signal'
+    },
+    correct: 'a'
+},
+{
+    id: 2465,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'Which MFD page displays vehicle management information such as torques, speeds, temperatures, and pressures?',
+    options: {
+        a: 'MISC page',
+        b: 'VMS page',
+        c: 'NAVD page'
+    },
+    correct: 'b'
+},
+{
+    id: 2466,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What system records and transfers flight data for later analysis?',
+    options: {
+        a: 'Flight Data Recording System (FDRS)',
+        b: 'Cockpit Voice Recorder (CVR)',
+        c: 'Automatic Flight Control System (AFCS)'
+    },
+    correct: 'a'
+},
+{
+    id: 2467,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What data is presented on the VMS-HYD page?',
+    options: {
+        a: 'Fuel pressures and quantities',
+        b: 'Hydraulic fluid pressure and temperature',
+        c: 'Battery voltage and currents'
+    },
+    correct: 'b'
+},
+{
+    id: 2468,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What is the role of the shock sensors located near AMC2?',
+    options: {
+        a: 'They provide bird strike protection',
+        b: 'They monitor engine vibrations',
+        c: 'They detect low fuel levels'
+    },
+    correct: 'a'
+},
+{
+    id: 2469,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What partition in the AMC is responsible for Flight Data Continuous Recording?',
+    options: {
+        a: 'AFCS',
+        b: 'CIRM',
+        c: 'VMS'
+    },
+    correct: 'b'
+},
+{
+    id: 2470,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What is the role of the Integrated Electronic Standby Instrument (IESI)?',
+    options: {
+        a: 'It acts as a backup for engine control',
+        b: 'It provides flight information when the main systems fail',
+        c: 'It monitors fuel levels'
+    },
+    correct: 'b'
+},
+{
+    id: 2471,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'How many Multi-Function Displays (MFDs) are installed on the EC175 instrument panel?',
+    options: {
+        a: '2',
+        b: '3',
+        c: '4'
+    },
+    correct: 'c'
+},
+{
+    id: 2472,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'Which MFD page provides information on gearbox oil temperatures and chip detector statuses?',
+    options: {
+        a: 'VMS-XMSN page',
+        b: 'NAVD page',
+        c: 'MISC page'
+    },
+    correct: 'a'
+},
+{
+    id: 2473,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What happens when the Event Marker Button is pressed?',
+    options: {
+        a: 'It shuts down the hydraulic system',
+        b: 'It creates a mark on the CVFDR recorded data',
+        c: 'It reconfigures the MFD display'
+    },
+    correct: 'b'
+},
+{
+    id: 2474,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'Which system manages visual and audio alerts in the EC175?',
+    options: {
+        a: 'AFCS',
+        b: 'VMS partitions within the AMCs',
+        c: 'Health Monitoring System (HMS)'
+    },
+    correct: 'b'
+},
+{
+    id: 2475,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'Where is the Data Transfer Device (DTD) located?',
+    options: {
+        a: 'In the cockpit overhead panel',
+        b: 'At the rear of the inter-seat console',
+        c: 'In the nose avionic compartment'
+    },
+    correct: 'b'
+},
+{
+    id: 2476,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What is the purpose of the Health Monitoring System (HMS)?',
+    options: {
+        a: 'To monitor aircraft vibrations and detect damage to components',
+        b: 'To manage communication between cockpit systems',
+        c: 'To assist with navigation during flights'
+    },
+    correct: 'a'
+},
+{
+    id: 2477,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What is indicated by the FUEL 1 LOW warning on the Master List?',
+    options: {
+        a: 'High fuel consumption',
+        b: 'Low fuel level detected in tank 1',
+        c: 'Fuel leakage in the system'
+    },
+    correct: 'b'
+},
+{
+    id: 2478,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What is the purpose of the Synthetic Vision System (SVS)?',
+    options: {
+        a: 'To display 3D terrain information on the MFD',
+        b: 'To manage communication with external navigation systems',
+        c: 'To monitor the health of the flight data recorder'
+    },
+    correct: 'a'
+},
+{
+    id: 2479,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What type of data is displayed on the VMS-FUEL page?',
+    options: {
+        a: 'Hydraulic pressure and temperature',
+        b: 'Fuel flow rates, pressures, temperatures, and quantities',
+        c: 'Electrical system voltages and battery status'
+    },
+    correct: 'b'
+},
+{
+    id: 2480,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What does the Master Alarm Acknowledge (MASTER ACK) button do?',
+    options: {
+        a: 'It resets the MFD display',
+        b: 'It acknowledges and silences alarms',
+        c: 'It tests the avionics system'
+    },
+    correct: 'b'
+},
+{
+    id: 2481,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What page on the MFD displays the Helicopter Terrain Avoidance Warning System (HTAWS)?',
+    options: {
+        a: 'MISC page',
+        b: 'DMAP page',
+        c: 'VMS page'
+    },
+    correct: 'b'
+},
+{
+    id: 2482,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'Which system monitors the power supply and status of the Multi-Function Displays (MFDs)?',
+    options: {
+        a: 'Aircraft Management Computers (AMC)',
+        b: 'Central Warning Panel (CWP)',
+        c: 'Flight Data Recorder (FDR)'
+    },
+    correct: 'a'
+},
+{
+    id: 2483,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'How many Line Select Keys (LSKs) are available on each Multi-Function Display (MFD)?',
+    options: {
+        a: '10',
+        b: '12',
+        c: '24'
+    },
+    correct: 'c'
+},
+{
+    id: 2484,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'Which system provides 25 hours of flight data recording and 2 hours of cockpit audio?',
+    options: {
+        a: 'Health Monitoring System (HMS)',
+        b: 'Cockpit Voice and Flight Data Recorder (CVFDR)',
+        c: 'Usage Monitoring System (UMS)'
+    },
+    correct: 'b'
+},
+{
+    id: 2485,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What data is stored in the AMC’s internal memory during failure management?',
+    options: {
+        a: 'Hydraulic system status',
+        b: 'System failures and flight numbers',
+        c: 'Fuel quantities and consumption rates'
+    },
+    correct: 'b'
+},
+{
+    id: 2486,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What component in the EC175 is responsible for monitoring rotor vibrations?',
+    options: {
+        a: 'AFCS',
+        b: 'Dynamic Monitoring Acquisition Unit (DMAU)',
+        c: 'VMS'
+    },
+    correct: 'b'
+},
+{
+    id: 2487,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What is the role of the Central Warning Panel (CWP) in the alerting system?',
+    options: {
+        a: 'It receives test request signals from the MFDs',
+        b: 'It displays visual alerts to the crew',
+        c: 'It records audio warnings'
+    },
+    correct: 'b'
+},
+{
+    id: 2488,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'Where is the Cockpit Area Microphone located?',
+    options: {
+        a: 'In the inter-seat console',
+        b: 'In the cockpit ceiling panel',
+        c: 'In the nose avionic compartment'
+    },
+    correct: 'b'
+},
+{
+    id: 2489,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What happens when the CVFDR Inertia Switch is triggered?',
+    options: {
+        a: 'The CVFDR power supply is cut',
+        b: 'The flight data is erased',
+        c: 'The CVFDR switches to maintenance mode'
+    },
+    correct: 'a'
+},
+{
+    id: 2490,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'How is the CVFDR powered after the main aircraft power supply is cut?',
+    options: {
+        a: 'It is powered by the auxiliary power unit',
+        b: 'It is powered by the Recorder Independent Power Supply (RIPS)',
+        c: 'It runs on the emergency backup generator'
+    },
+    correct: 'b'
+},
+{
+    id: 2491,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What triggers the Water Immersion Sensor (WIS) on the CVFDR?',
+    options: {
+        a: 'The CVFDR detects low pressure',
+        b: 'The CVFDR detects an impact',
+        c: 'The aircraft is immersed in water'
+    },
+    correct: 'c'
+},
+{
+    id: 2492,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What is the purpose of the PWR-UP TST message on the Master List?',
+    options: {
+        a: 'It indicates that the aircraft is powered down',
+        b: 'It shows that automatic power-up tests are running',
+        c: 'It signals a failure in the hydraulic system'
+    },
+    correct: 'b'
+},
+{
+    id: 2493,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What page on the MFD allows access to the helicopter maintenance system?',
+    options: {
+        a: 'MISC page',
+        b: 'VMS-MAIN page',
+        c: 'NAVD page'
+    },
+    correct: 'b'
+},
+{
+    id: 2494,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What system manages usage monitoring and flight data analysis?',
+    options: {
+        a: 'Health Monitoring System (HMS)',
+        b: 'Usage Monitoring System (UMS)',
+        c: 'Flight Data Recorder (FDR)'
+    },
+    correct: 'b'
+},
+{
+    id: 2495,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'How many accelerometers are part of the Health Monitoring System (HMS)?',
+    options: {
+        a: '8',
+        b: '10',
+        c: '12'
+    },
+    correct: 'c'
+},
+{
+    id: 2496,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'Which display mode on the NAVD page presents navigation information in a 360° form?',
+    options: {
+        a: 'Sector (SCT)',
+        b: 'Rose',
+        c: 'Hover'
+    },
+    correct: 'b'
+},
+{
+    id: 2497,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What is the primary purpose of the Cockpit Voice and Flight Data Recorder (CVFDR)?',
+    options: {
+        a: 'To record pilot conversations for training',
+        b: 'To record flight data and cockpit audio for investigations',
+        c: 'To monitor fuel consumption'
+    },
+    correct: 'b'
+},
+{
+    id: 2498,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What partition performs the Automatic Flight Control System (AFCS) function?',
+    options: {
+        a: 'CIRM',
+        b: 'VMS',
+        c: 'AFCS partition'
+    },
+    correct: 'c'
+},
+{
+    id: 2499,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'How long does the CVFDR record cockpit audio?',
+    options: {
+        a: '1 hour',
+        b: '2 hours',
+        c: '3 hours'
+    },
+    correct: 'b'
+},
+{
+    id: 2500,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What message is displayed on the Master List if a failure occurs during the clearance test?',
+    options: {
+        a: 'START-UP TST FAIL',
+        b: 'FUEL SYS FAIL',
+        c: 'LOW FUEL PRESS'
+    },
+    correct: 'a'
+},
+{
+    id: 2501,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'Which sensor is located under the rear cargo compartment floor panel?',
+    options: {
+        a: 'Water Immersion Sensor (WIS)',
+        b: 'CVFDR Inertia Switch',
+        c: 'Tail Rotor Sensor'
+    },
+    correct: 'b'
+},
+{
+    id: 2502,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What system records vibration data from the Main Gearbox (MGB) input shaft?',
+    options: {
+        a: 'Health Monitoring System (HMS)',
+        b: 'Usage Monitoring System (UMS)',
+        c: 'Flight Data Recorder (FDR)'
+    },
+    correct: 'a'
+},{
+    id: 2503,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What happens when the ERASE button on the CVFDR Maintenance Panel is pressed?',
+    options: {
+        a: 'Flight data is deleted permanently',
+        b: 'Audio recordings are erased',
+        c: 'The system resets to factory settings'
+    },
+    correct: 'b'
+},
+{
+    id: 2504,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What does the message “AVIONIC TST FAIL” indicate?',
+    options: {
+        a: 'Failure of avionics interface during pre-flight test',
+        b: 'Hydraulic system test failure',
+        c: 'Incomplete software upload'
+    },
+    correct: 'a'
+},
+{
+    id: 2505,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'Which system displays the message “PWR-UP TST OK”?',
+    options: {
+        a: 'Central Warning Panel (CWP)',
+        b: 'Multi-Function Display (MFD)',
+        c: 'Flight Data Recorder (FDR)'
+    },
+    correct: 'b'
+},
+{
+    id: 2506,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What does the message “AMC1 CHAN A FAIL” represent?',
+    options: {
+        a: 'Complete failure of AMC1',
+        b: 'Failure of Channel A in AMC1',
+        c: 'Partial failure of both channels in AMC1'
+    },
+    correct: 'b'
+},
+{
+    id: 2507,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What is the purpose of the Pre-Flight Test?',
+    options: {
+        a: 'To test avionics before takeoff',
+        b: 'To verify hydraulic levels',
+        c: 'To monitor fuel system performance'
+    },
+    correct: 'a'
+},
+{
+    id: 2508,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'Where is the Recorder Independent Power Supply (RIPS) located?',
+    options: {
+        a: 'In the nose avionic compartment',
+        b: 'On the tail boom of the aircraft',
+        c: 'In the inter-seat console'
+    },
+    correct: 'b'
+},
+{
+    id: 2509,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'How long does the Recorder Independent Power Supply (RIPS) maintain power to the CVFDR after the main power is cut?',
+    options: {
+        a: '5 minutes',
+        b: '10 minutes',
+        c: '15 minutes'
+    },
+    correct: 'b'
+},
+{
+    id: 2510,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'Which system is tested during the Power-Up Test?',
+    options: {
+        a: 'Hydraulic system',
+        b: 'Electrical system and avionics',
+        c: 'Fuel system'
+    },
+    correct: 'b'
+},
+{
+    id: 2511,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What does the CVFDR Inertia Switch do after detecting a crash?',
+    options: {
+        a: 'It erases recorded data',
+        b: 'It cuts the power to the CVFDR',
+        c: 'It sends a warning signal to the CWP'
+    },
+    correct: 'b'
+},
+{
+    id: 2512,
+    Aircraft: 'H175',
+    Category: '31',
+    question: 'What is the primary function of the Cockpit Voice Recorder (CVR)?',
+    options: {
+        a: 'To monitor crew radio communication',
+        b: 'To record ambient cockpit audio',
+        c: 'To monitor engine performance'
+    },
+    correct: 'b'
+},
+{
+    id: 2513,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'How many Aircraft Management Computers (AMC) are installed on the EC175?',
+    options: {
+        a: '2',
+        b: '3',
+        c: '4'
+    },
+    correct: 'a'
+},
+{
+    id: 2514,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What is the function of the Vehicle Management System (VMS) partition in the AMC?',
+    options: {
+        a: 'To manage fuel systems',
+        b: 'To compute vehicle and engine signals',
+        c: 'To control flight data recording'
+    },
+    correct: 'b'
+},
+{
+    id: 2515,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'Where are the two AMCs located on the EC175?',
+    options: {
+        a: 'In the tail compartment',
+        b: 'In the nose avionic compartment',
+        c: 'In the cockpit overhead panel'
+    },
+    correct: 'b'
+},
+{
+    id: 2516,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'Which system performs the Power-up Built In Test (PBIT) during aircraft initialization?',
+    options: {
+        a: 'AMC1',
+        b: 'AMC2',
+        c: 'Both AMC1 and AMC2'
+    },
+    correct: 'c'
+},
+{
+    id: 2517,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What is the purpose of the CIRM partition in the AMC?',
+    options: {
+        a: 'Manages fuel and engine data',
+        b: 'Performs flight data continuous recording',
+        c: 'Controls vehicle alerting systems'
+    },
+    correct: 'b'
+},
+{
+    id: 2518,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'Where is the AMC2 power switch located?',
+    options: {
+        a: 'On the upper deck near AMC2',
+        b: 'Below the cockpit floor on the forward right side',
+        c: 'On the instrument panel'
+    },
+    correct: 'b'
+},
+{
+    id: 2519,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What system displays AMC failure messages on the Master List?',
+    options: {
+        a: 'Flight Navigation Display',
+        b: 'Multi-Function Display (MFD)',
+        c: 'Central Warning Panel (CWP)'
+    },
+    correct: 'b'
+},
+{
+    id: 2520,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What message is displayed on the Master List if AMC1 Channel A fails?',
+    options: {
+        a: 'CHAN A FAIL AMC1',
+        b: 'AMC1 MINOR FAIL',
+        c: 'VMS/UMS SIGNAL FAIL'
+    },
+    correct: 'a'
+},
+{
+    id: 2521,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What is the purpose of the Power-Up Test (PWT) for the AMCs?',
+    options: {
+        a: 'To test engine functionality',
+        b: 'To test avionics configuration',
+        c: 'To test hydraulic system configuration'
+    },
+    correct: 'b'
+},
+{
+    id: 2522,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What message is shown when power-up tests are running successfully?',
+    options: {
+        a: 'AMC FAIL',
+        b: 'PWR-UP TST OK',
+        c: 'AVIONIC TST FAIL'
+    },
+    correct: 'b'
+},
+{
+    id: 2523,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What does the message “PWR-UP TST ABORT” indicate?',
+    options: {
+        a: 'Failure during automatic power-up test',
+        b: 'Successful completion of a test',
+        c: 'Avionics ready for takeoff'
+    },
+    correct: 'a'
+},
+{
+    id: 2524,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What is the role of the shock sensors installed near AMC2?',
+    options: {
+        a: 'To detect bird strikes',
+        b: 'To monitor fuel leakage',
+        c: 'To control hydraulic system pressure'
+    },
+    correct: 'a'
+},
+{
+    id: 2525,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What is indicated by the message “AMC MINOR REDUND” on the Master List?',
+    options: {
+        a: 'Complete failure of both AMCs',
+        b: 'Loss of redundancy between two identical signals received by VMS',
+        c: 'Loss of communication between AMC1 and AMC2'
+    },
+    correct: 'b'
+},
+{
+    id: 2526,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What happens when the shock sensors detect an impact?',
+    options: {
+        a: 'The aircraft immediately stops',
+        b: 'Power is cut off to AMC2',
+        c: 'Hydraulic system fails'
+    },
+    correct: 'b'
+},
+{
+    id: 2527,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'Which AMC partition is responsible for Automatic Flight Control System (AFCS) monitoring?',
+    options: {
+        a: 'VMS',
+        b: 'CIRM',
+        c: 'AFCS'
+    },
+    correct: 'c'
+},
+{
+    id: 2528,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What page displays vehicle parameters such as torques, speeds, temperatures, and pressures?',
+    options: {
+        a: 'VMS page',
+        b: 'MISC page',
+        c: 'NAVD page'
+    },
+    correct: 'a'
+},
+{
+    id: 2529,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'How many Multi-Function Displays (MFDs) are installed on the instrument panel?',
+    options: {
+        a: '2',
+        b: '4',
+        c: '6'
+    },
+    correct: 'b'
+},
+{
+    id: 2530,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'Which MFD displays the VMS page at initial power on?',
+    options: {
+        a: 'MFD4',
+        b: 'MFD1',
+        c: 'MFD2'
+    },
+    correct: 'a'
+},
+{
+    id: 2531,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What happens if an outer MFD fails during operation?',
+    options: {
+        a: 'The system powers down',
+        b: 'The inner MFD reconfigures to the FND page',
+        c: 'All systems go into standby mode'
+    },
+    correct: 'b'
+},
+{
+    id: 2532,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What data is displayed on the VMS-HYD page?',
+    options: {
+        a: 'Hydraulic fluid pressure and temperature',
+        b: 'Engine oil temperature',
+        c: 'Battery voltages'
+    },
+    correct: 'a'
+},
+{
+    id: 2533,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'Which system performs maintenance data recording and memory management?',
+    options: {
+        a: 'VMS',
+        b: 'CIRM',
+        c: 'AFCS'
+    },
+    correct: 'b'
+},
+{
+    id: 2534,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What page provides access to the individual system pages for fuel, electrical, and hydraulic systems?',
+    options: {
+        a: 'MISC page',
+        b: 'VMS main page',
+        c: 'NAVD page'
+    },
+    correct: 'b'
+},
+{
+    id: 2535,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What MFD message is displayed when an incorrect software configuration is detected?',
+    options: {
+        a: 'BAD CONF MFD#',
+        b: 'MFD XTALK FAIL',
+        c: 'CHECK MFD'
+    },
+    correct: 'a'
+},
+{
+    id: 2536,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'Which page displays the fuel flow rates, pressures, and quantities?',
+    options: {
+        a: 'NAVD page',
+        b: 'VMS-FUEL page',
+        c: 'MISC page'
+    },
+    correct: 'b'
+},
+{
+    id: 2537,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What MFD page provides access to external video like the tail camera?',
+    options: {
+        a: 'MISC page',
+        b: 'NAVD page',
+        c: 'VMS page'
+    },
+    correct: 'a'
+},
+{
+    id: 2538,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What is the function of the Digital Map (DMAP) on the MFD?',
+    options: {
+        a: 'Displays synthetic vision',
+        b: 'Displays piloting symbology over a digital map',
+        c: 'Shows engine health status'
+    },
+    correct: 'b'
+},
+{
+    id: 2539,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What does the FND display during normal flight operations?',
+    options: {
+        a: 'Engine data and alerts',
+        b: 'Attitude, altitude, airspeed, and navigation data',
+        c: 'Fuel system status'
+    },
+    correct: 'b'
+},
+{
+    id: 2540,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'Where is the maintenance toggle switch located on the EC175?',
+    options: {
+        a: 'On the inter-seat console',
+        b: 'In the nose avionic compartment',
+        c: 'On the overhead panel'
+    },
+    correct: 'a'
+},
+{
+    id: 2541,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What MFD message is displayed when cross talk failure occurs between the MFDs?',
+    options: {
+        a: 'MFD OVER HEAT',
+        b: 'MFD XTALK FAIL',
+        c: 'AMC1 FAIL'
+    },
+    correct: 'b'
+},
+{
+    id: 2542,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'How does the MFD alert the crew in case of internal overheating?',
+    options: {
+        a: 'Displays “MFD OVER HEAT” message',
+        b: 'Flashes the VMS page',
+        c: 'Turns the MFD off'
+    },
+    correct: 'a'
+},
+{
+    id: 2543,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What is the maximum internal temperature limit for an MFD before it shuts down?',
+    options: {
+        a: '75°C',
+        b: '105°C',
+        c: '120°C'
+    },
+    correct: 'b'
+},
+{
+    id: 2544,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'Which MFD page shows electrical parameters such as battery temperatures and generator status?',
+    options: {
+        a: 'VMS-ELEC page',
+        b: 'NAVD page',
+        c: 'MISC page'
+    },
+    correct: 'a'
+},
+{
+    id: 2545,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'Where is the Data Transfer Device (DTD) located on the EC175?',
+    options: {
+        a: 'In the nose avionic compartment',
+        b: 'On the rear of the inter-seat console',
+        c: 'In the cockpit overhead panel'
+    },
+    correct: 'b'
+},
+{
+    id: 2546,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What is the role of the Data Transfer Device (DTD)?',
+    options: {
+        a: 'To manage engine performance data',
+        b: 'To transfer flight data and maintenance data',
+        c: 'To control the hydraulic system'
+    },
+    correct: 'b'
+},
+{
+    id: 2547,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'How does the DTD connect to the AMCs and MFDs?',
+    options: {
+        a: 'Via ARINC 429 buses',
+        b: 'Via Ethernet',
+        c: 'Via USB cables'
+    },
+    correct: 'b'
+},
+{
+    id: 2548,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What message is displayed if the MFD has frozen and is no longer processing data correctly?',
+    options: {
+        a: 'MFD OVER HEAT',
+        b: 'CHECK MFD',
+        c: 'VMS SIGNAL FAIL'
+    },
+    correct: 'b'
+},
+{
+    id: 2549,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What is displayed on the VMS-HYD page?',
+    options: {
+        a: 'Hydraulic pressures and landing gear status',
+        b: 'Engine torque and temperature data',
+        c: 'Electrical system status'
+    },
+    correct: 'a'
+},
+{
+    id: 2550,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What happens when the AMC2 detects a bad configuration?',
+    options: {
+        a: 'All MFDs display the BAD CONFIGURATION message',
+        b: 'AMC2 shuts down automatically',
+        c: 'The shock sensors are activated'
+    },
+    correct: 'a'
+},{
+    id: 2551,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What does the VMS-RCNF page allow the operator to do?',
+    options: {
+        a: 'Monitor the fuel system status',
+        b: 'Reconfigure the aircraft systems manually',
+        c: 'Test the avionics systems'
+    },
+    correct: 'b'
+},
+{
+    id: 2552,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'Which system provides status and configuration options for the helicopter’s avionic equipment?',
+    options: {
+        a: 'VMS-SYST page',
+        b: 'NAVD page',
+        c: 'FND page'
+    },
+    correct: 'a'
+},
+{
+    id: 2553,
+    Aircraft: 'H175',
+    Category: '46',
+    question: 'What is the purpose of the Electronic Flight Bag (EFB) displayed on the MFD?',
+    options: {
+        a: 'Displays fuel levels and consumption',
+        b: 'Provides flight charts and checklists',
+        c: 'Monitors engine performance'
+    },
+    correct: 'b'
+},{
+    id: 2554,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is the primary function of the Main Rotor Gearbox (MGB) in the H175?',
+    options: {
+      a: 'To transmit power from the engines to the main rotor.',
+      b: 'To regulate fuel flow to the engines.',
+      c: 'To monitor hydraulic fluid levels.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2555,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is the final output speed of the main rotor in the H175?',
+    options: {
+      a: '21000 RPM',
+      b: '1000 RPM',
+      c: '279 RPM'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2556,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'How many stages of reduction gearing are used in the MGB of the H175?',
+    options: {
+      a: '2',
+      b: '4',
+      c: '6'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2557,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'Which components are driven by the MGB accessory drives?',
+    options: {
+      a: 'Tail rotor, hydraulic pumps, and oil cooler fan.',
+      b: 'Main rotor, alternators, and fuel injectors.',
+      c: 'Engine turbines, avionics system, and landing gear.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2558,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is the role of the freewheel units in the MGB?',
+    options: {
+      a: 'To isolate engines in case of failure.',
+      b: 'To control oil flow.',
+      c: 'To manage air conditioning systems.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2559,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is the purpose of the input modules in the H175 MGB?',
+    options: {
+      a: 'To control the hydraulic system.',
+      b: 'To receive power from the engines and reduce speed.',
+      c: 'To provide backup electrical power.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2560,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is the function of the torsion tube in the H175?',
+    options: {
+      a: 'To absorb misalignment between the gearbox and engines.',
+      b: 'To transmit engine power directly to the rotors.',
+      c: 'To cool the oil in the lubrication system.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2561,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is the main purpose of the epicyclic module in the H175?',
+    options: {
+      a: 'To monitor oil levels.',
+      b: 'To reduce the rotational speed and transfer torque to the main rotor.',
+      c: 'To manage electrical power distribution.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2562,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is the function of the LH and RH accessory gearboxes in the H175?',
+    options: {
+      a: 'To provide drives for back-up oil pumps and accessories.',
+      b: 'To monitor engine temperatures.',
+      c: 'To control the flight navigation systems.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2563,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'Which sensors are used to monitor the MGB in the H175?',
+    options: {
+      a: 'Oil temperature, lubrication system pressure, and magnetic particle detection.',
+      b: 'Fuel flow, hydraulic pressure, and engine temperature.',
+      c: 'Electrical output, airspeed, and wind direction.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2564,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What does the MGB lubrication system in the H175 provide?',
+    options: {
+      a: 'Cooling for the hydraulic system.',
+      b: 'Lubrication and cooling for the MGB gearing and bearings.',
+      c: 'Electrical power to the avionics system.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2565,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is the function of the MGB oil cooler fan?',
+    options: {
+      a: 'To cool the hydraulic fluid.',
+      b: 'To cool the oil passing through the heat exchanger.',
+      c: 'To monitor oil pressure.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2566,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What happens if the main oil pump in the MGB fails?',
+    options: {
+      a: 'The hydraulic system takes over.',
+      b: 'The back-up oil pump takes over oil delivery to the MGB.',
+      c: 'The engines shut down automatically.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2567,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is the function of the MGB chip detectors?',
+    options: {
+      a: 'To detect metal particles in the oil system.',
+      b: 'To monitor hydraulic fluid levels.',
+      c: 'To control the cooling system.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2568,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'How many chip detectors are installed in the MGB system of the H175?',
+    options: {
+      a: '4',
+      b: '6',
+      c: '8'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2569,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is the certified run dry period for the H175 MGB?',
+    options: {
+      a: '30 minutes',
+      b: '15 minutes',
+      c: '45 minutes'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2570,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'Which components are driven by the LH accessory gearbox in the H175?',
+    options: {
+      a: 'Main hydraulic pump No.1, oil cooling fan, and alternator.',
+      b: 'Tail rotor, avionics system, and navigation systems.',
+      c: 'Engine cooling system and flight controls.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2571,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is the purpose of the oil selector in the MGB system?',
+    options: {
+      a: 'To manage the flow of oil from both pumps to the MGB.',
+      b: 'To control the oil temperature.',
+      c: 'To monitor the oil level in the MGB.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2572,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What does the MGB warning light indicate?',
+    options: {
+      a: 'Low oil pressure in the MGB lubrication system.',
+      b: 'Overheating of the engines.',
+      c: 'Failure of the hydraulic system.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2573,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'Where is the oil filter located in the H175 MGB system?',
+    options: {
+      a: 'On the rear of the MGB near the rotor brake assembly.',
+      b: 'Inside the main rotor head.',
+      c: 'Next to the engine oil cooler.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2574,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What action is taken if the MGB oil filter becomes clogged?',
+    options: {
+      a: 'The MGB system shuts down.',
+      b: 'A by-pass valve opens to allow unfiltered oil to flow.',
+      c: 'The cooling system takes over oil filtration.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2575,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is the function of the torsion tube in the H175 MGB system?',
+    options: {
+      a: 'To support the engines and absorb misalignment.',
+      b: 'To transmit hydraulic pressure to the rotor head.',
+      c: 'To monitor the oil levels in the gearbox.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2576,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'How many temperature sensors monitor the oil temperature in the H175 MGB system?',
+    options: {
+      a: '1',
+      b: '2',
+      c: '3'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2577,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What happens if the oil temperature in the MGB exceeds 120°C?',
+    options: {
+      a: 'The engines shut down automatically.',
+      b: 'A warning message is displayed, and an aural warning is triggered.',
+      c: 'The oil system switches to a backup cooler.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2578,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is the function of the rotor brake on the H175?',
+    options: {
+      a: 'To slow down and stop the main rotors when the aircraft is on the ground.',
+      b: 'To control the speed of the tail rotor during flight.',
+      c: 'To monitor the rotor speed during takeoff.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2579,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'How is the rotor brake lever operated in the H175?',
+    options: {
+      a: 'By pressing a button on the cockpit panel.',
+      b: 'By pulling a lever located above the pilot’s head.',
+      c: 'Automatically when the aircraft lands.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2580,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What safety mechanism prevents the engines from starting with the rotor brake engaged?',
+    options: {
+      a: 'A micro-switch in the rotor brake lever assembly.',
+      b: 'A hydraulic lock on the rotor brake system.',
+      c: 'A warning message displayed on the cockpit screen.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2581,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is the purpose of the freewheel unit in the H175?',
+    options: {
+      a: 'To disengage the engine from the main rotor when engine RPM is lower than rotor RPM.',
+      b: 'To control the flow of hydraulic fluid to the rotors.',
+      c: 'To monitor the rotational speed of the tail rotor.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2582,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is the function of the de-clutch actuator in the H175?',
+    options: {
+      a: 'To disconnect the engines from the MGB when necessary.',
+      b: 'To engage the tail rotor drive during flight.',
+      c: 'To monitor the oil temperature in the gearbox.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2583,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'Where are the MGB oil temperature and pressure indications displayed?',
+    options: {
+      a: 'On the VMS-Main and XMSN pages of the MFD.',
+      b: 'On the engine control panel.',
+      c: 'On the hydraulic system display.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2584,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What type of warnings are given if the MGB oil pressure is too low?',
+    options: {
+      a: 'Visual warning only on the MFD.',
+      b: 'Both visual and aural warnings on the cockpit display.',
+      c: 'A warning light on the engine control panel.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2585,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What happens if metal particles are detected in the MGB oil system?',
+    options: {
+      a: 'The MGB chip caution message is displayed.',
+      b: 'The engines shut down automatically.',
+      c: 'The oil filter is bypassed.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2586,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What action is taken if both the main and backup oil pumps fail in the MGB?',
+    options: {
+      a: 'The MGB relies on its run-dry capability.',
+      b: 'The aircraft initiates an emergency landing sequence.',
+      c: 'The hydraulic system takes over oil delivery.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2587,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is indicated by the MGB TREND advisory message?',
+    options: {
+      a: 'A gradual increase in oil temperature or a decrease in oil pressure.',
+      b: 'A malfunction in the hydraulic system.',
+      c: 'An issue with the rotor brake system.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2588,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What type of message is displayed if the oil temperature sensors fail in the MGB system?',
+    options: {
+      a: 'MGB TEMP SENSOR advisory message.',
+      b: 'MGB PRESSURE FAILURE warning message.',
+      c: 'ENGINE OVERHEAT advisory message.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2589,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What should the crew do if the HIGH SPEED CHIP label is displayed on the VMS XMSN page?',
+    options: {
+      a: 'Monitor the oil temperature and continue normal flight.',
+      b: 'Check the chip location and take appropriate action.',
+      c: 'Shut down the engines immediately.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2590,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is the purpose of the backup oil pump in the MGB system?',
+    options: {
+      a: 'To supply oil to the MGB if the main oil pump fails.',
+      b: 'To filter the oil in the MGB system.',
+      c: 'To control the speed of the tail rotor.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2591,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'Where is the backup oil pump located in the H175 MGB system?',
+    options: {
+      a: 'Next to the oil cooler fan on the LH accessory gearbox.',
+      b: 'Inside the main rotor head.',
+      c: 'Adjacent to the engine oil sump.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2592,
+    Aircraft: 'H175',
+    Category: '63',
+    question: 'What is the function of the oil heat exchanger in the MGB system?',
+    options: {
+      a: 'To cool the oil passing through the MGB system.',
+      b: 'To heat the oil during cold starts.',
+      c: 'To monitor oil pressure.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2593,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What type of tail rotor system is fitted on the H175?',
+    options: {
+      a: 'Spheriflex type with 3 rotor blades.',
+      b: 'Rigid rotor system.',
+      c: 'Semi-rigid rotor system.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2594,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'At what angle is the tail rotor of the H175 tilted?',
+    options: {
+      a: '10°',
+      b: '15°',
+      c: '20°'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2595,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What is the primary function of the tail rotor on the H175?',
+    options: {
+      a: 'To provide additional lift.',
+      b: 'To balance main rotor torque reaction and provide yaw control.',
+      c: 'To increase forward speed.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2596,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What material is used for the leading-edge protection of the tail rotor blades?',
+    options: {
+      a: 'Aluminum',
+      b: 'Titanium and nickel-cobalt',
+      c: 'Steel'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2597,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What type of material primarily makes up the tail rotor blades?',
+    options: {
+      a: 'Aluminum',
+      b: 'Composite materials',
+      c: 'Steel'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2598,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What is the nominal rotation speed of the H175 tail rotor?',
+    options: {
+      a: '1248 rpm',
+      b: '1000 rpm',
+      c: '1500 rpm'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2599,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What is the main purpose of the flapping stops on the tail rotor?',
+    options: {
+      a: 'To adjust pitch.',
+      b: 'To prevent the blades from hitting the tail boom.',
+      c: 'To control rotor speed.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2600,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What protects the tail rotor blades from sand or wind erosion?',
+    options: {
+      a: 'Composite outer layer.',
+      b: 'Metal shields on the leading edge.',
+      c: 'Special coatings.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2601,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What is the role of the lead-lag dampers on the H175 tail rotor?',
+    options: {
+      a: 'To provide lightning protection.',
+      b: 'To dampen lead-lag motions and prevent instability.',
+      c: 'To adjust rotor pitch.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2602,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What provides electrical continuity for lightning strike protection on the tail rotor?',
+    options: {
+      a: 'Copper mesh bonded to the skin.',
+      b: 'Aluminum foil on the surface.',
+      c: 'Steel wires inside the rotor.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2603,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What component transmits the control from the tail rotor head to the blades?',
+    options: {
+      a: 'Pitch control rods',
+      b: 'Lead-lag dampers',
+      c: 'Spherical bearings'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2604,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What type of protection is provided on the lower skin of the tail rotor blade?',
+    options: {
+      a: 'Polyurethane layer',
+      b: 'Titanium coating',
+      c: 'Steel sheet'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2605,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What is the purpose of the tail rotor mast-hub on the H175?',
+    options: {
+      a: 'To dampen the blade flapping motion.',
+      b: 'To transmit forces from the Tail Gear Box to the blades.',
+      c: 'To provide electrical power to the tail rotor.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2606,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What are the lead-lag dampers in the H175 tail rotor filled with?',
+    options: {
+      a: 'Air',
+      b: 'Elastomers',
+      c: 'Hydraulic fluid'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2607,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What is the function of the spherical bearings in the tail rotor system?',
+    options: {
+      a: 'To absorb vibration.',
+      b: 'To provide pitch, flapping, and drag hinges.',
+      c: 'To control hydraulic fluid flow.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2608,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What is the purpose of the bonding braids in the tail rotor?',
+    options: {
+      a: 'To balance the blades.',
+      b: 'To discharge static electricity.',
+      c: 'To provide mechanical support.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2609,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What prevents tail rotor blade dislodgement on the ground?',
+    options: {
+      a: 'Flapping stops',
+      b: 'Jumpers',
+      c: 'Lead-lag dampers'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2610,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What is the primary purpose of the tail rotor rotating controls?',
+    options: {
+      a: 'To control the pitch of the tail rotor blades.',
+      b: 'To monitor the rotor speed.',
+      c: 'To dampen blade motion.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2611,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What provides pitch variation to the H175 tail rotor blades?',
+    options: {
+      a: 'Flapping stops',
+      b: 'Pitch control rods',
+      c: 'Lead-lag dampers'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2612,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'How is the tail rotor blade fitted to the tail rotor head?',
+    options: {
+      a: 'With blade pins and spherical bearings.',
+      b: 'With bonding braids and washers.',
+      c: 'With bolts and screws.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2613,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What ensures the balance of the tail rotor blades in motion?',
+    options: {
+      a: 'Spherical bearings',
+      b: 'Lead-lag dampers',
+      c: 'Centrifugal forces and flapping stops'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2614,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What material is used for the lightning protection on the tip of the tail rotor?',
+    options: {
+      a: 'Nickel-cobalt',
+      b: 'Steel',
+      c: 'Copper'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2615,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What controls the lead-lag motion of the tail rotor blades?',
+    options: {
+      a: 'Pitch rods',
+      b: 'Lead-lag dampers',
+      c: 'Spherical bearings'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2616,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'How are the tail rotor pitch rods connected?',
+    options: {
+      a: 'They are linked to the control arms and blade attachment fittings.',
+      b: 'They are attached directly to the rotor mast.',
+      c: 'They are connected to the flapping stops.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2617,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What is the function of the fixed flapping stops on the tail rotor?',
+    options: {
+      a: 'To limit flapping motion during flight and on the ground.',
+      b: 'To monitor rotor speed.',
+      c: 'To transmit torque from the gearbox.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2618,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What material covers the external surface of the tail rotor blade?',
+    options: {
+      a: 'Glass fabric and pre-impregnated carbon fabric.',
+      b: 'Titanium foil.',
+      c: 'Aluminum alloy.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2619,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What is the role of the tail rotor in yaw control?',
+    options: {
+      a: 'To adjust rotor speed.',
+      b: 'To provide directional control by countering the torque effect.',
+      c: 'To increase aircraft altitude.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2620,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'What protects the root of the tail rotor blade against environmental damage?',
+    options: {
+      a: 'Polyurethane layer',
+      b: 'Titanium shield',
+      c: 'Steel coating'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2621,
+    Aircraft: 'H175',
+    Category: '64',
+    question: 'Where is the balancing system of the tail rotor blade located?',
+    options: {
+      a: 'At the tip of the blade.',
+      b: 'At 62% of the chord on the upper surface.',
+      c: 'At the root of the blade.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2622,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What is the main purpose of the tail rotor drive system in the H175?',
+    options: {
+      a: 'To transmit power from the Main Gear Box to the tail gearbox.',
+      b: 'To control the hydraulic system.',
+      c: 'To monitor engine performance.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2623,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'Which component in the tail rotor drive system reduces the speed from the inclined shaft to the tail rotor?',
+    options: {
+      a: 'Intermediate Gearbox (IGB)',
+      b: 'Tail Gearbox (TGB)',
+      c: 'Main Gear Box (MGB)'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2624,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What is the role of the dampers in the tail rotor drive system?',
+    options: {
+      a: 'To reduce oil temperature.',
+      b: 'To absorb vibrations and installation errors.',
+      c: 'To increase rotational speed.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2625,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'How many shafts are used in the horizontal section of the tail drive line?',
+    options: {
+      a: 'Two',
+      b: 'Three',
+      c: 'Four'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2626,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What is the function of the Intermediate Gearbox (IGB) in the tail rotor drive system?',
+    options: {
+      a: 'To reduce speed and transmit torque between the rear and inclined shafts.',
+      b: 'To control the pitch of the tail rotor blades.',
+      c: 'To provide hydraulic pressure for the tail rotor drive.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2627,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What type of lubrication is used in the Tail Gearbox (TGB)?',
+    options: {
+      a: 'Pressurized lubrication system.',
+      b: 'Splash lubrication system.',
+      c: 'External oil injection system.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2628,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'Where is the bearing hanger located in the tail rotor drive system?',
+    options: {
+      a: 'Between the intermediate and rear shafts.',
+      b: 'Between the Main Gear Box (MGB) and the front shaft.',
+      c: 'Between the front and intermediate shafts.'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2629,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What is the critical function of the flexible couplings in the tail rotor drive system?',
+    options: {
+      a: 'To absorb axial misalignment and transmit torque.',
+      b: 'To monitor shaft rotation.',
+      c: 'To lubricate the drive system.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2630,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What happens when the tail rotor drive shaft reaches its critical speed?',
+    options: {
+      a: 'It produces excessive vibrations.',
+      b: 'It increases the power output.',
+      c: 'It reduces speed automatically.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2631,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What is the role of the bearing support in the tail rotor drive system?',
+    options: {
+      a: 'To reduce rotor speed.',
+      b: 'To support the shafts and transmit power between them.',
+      c: 'To lubricate the drive system.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2632,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What type of shaft is used to transmit power from the Intermediate Gearbox (IGB) to the Tail Gearbox (TGB)?',
+    options: {
+      a: 'Inclined shaft',
+      b: 'Horizontal shaft',
+      c: 'Vertical shaft'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2633,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What is the purpose of the chip detector in the Intermediate Gearbox (IGB)?',
+    options: {
+      a: 'To detect oil levels.',
+      b: 'To detect the presence of ferrous metal particles.',
+      c: 'To control shaft alignment.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2634,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'Which component transmits torque to the tail rotor head in the H175?',
+    options: {
+      a: 'Intermediate Gearbox (IGB)',
+      b: 'Tail Gearbox (TGB)',
+      c: 'Main Gear Box (MGB)'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2635,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What is the function of the oil level sight in the tail rotor drive system?',
+    options: {
+      a: 'To monitor oil pressure.',
+      b: 'To allow visual inspection of oil levels in the IGB and TGB.',
+      c: 'To control oil temperature.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2636,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'How is the power transmitted from the Main Gear Box (MGB) to the Tail Gear Box (TGB)?',
+    options: {
+      a: 'Through the intermediate shaft only.',
+      b: 'Through the Tail Drive Line (TDL) consisting of multiple shafts.',
+      c: 'Through the inclined shaft only.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2637,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What type of signal is sent when the chip detector detects ferrous particles?',
+    options: {
+      a: 'Hydraulic signal',
+      b: 'Electrical signal',
+      c: 'Manual signal'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2638,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'At what temperature does the TGB HIGH TEMP warning activate?',
+    options: {
+      a: '120°C',
+      b: '100°C',
+      c: '130°C'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2639,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'Which gearbox reduces the speed from the rear shaft to the pylon shaft?',
+    options: {
+      a: 'Main Gear Box (MGB)',
+      b: 'Intermediate Gearbox (IGB)',
+      c: 'Tail Gearbox (TGB)'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2640,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'How is the Intermediate Gearbox (IGB) lubricated?',
+    options: {
+      a: 'Pressurized lubrication system.',
+      b: 'Splash lubrication system.',
+      c: 'External oil system.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2641,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What happens if ferrous metal particles are detected in the TGB or IGB?',
+    options: {
+      a: 'The system shuts down.',
+      b: 'A warning signal is sent to the avionics system.',
+      c: 'The oil temperature increases.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2642,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What is the speed reduction ratio in the TGB?',
+    options: {
+      a: '21/64',
+      b: '35/46',
+      c: '30/55'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2643,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What component provides temperature monitoring for the TGB?',
+    options: {
+      a: 'Oil pressure sensor',
+      b: 'Oil temperature sensor',
+      c: 'Chip detector'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2644,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'Where is the oil temperature for the TGB and IGB displayed?',
+    options: {
+      a: 'On the cockpit’s MFD XMSN page.',
+      b: 'On the hydraulic system panel.',
+      c: 'On the fuel management panel.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2645,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'How is the input assembly of the IGB sealed?',
+    options: {
+      a: 'With a dynamic seal.',
+      b: 'With a static seal.',
+      c: 'With an O-ring.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2646,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What happens when the oil temperature exceeds the limit in the IGB or TGB?',
+    options: {
+      a: 'An automatic shutdown occurs.',
+      b: 'An audio alarm is triggered and a caution is displayed.',
+      c: 'The cooling system activates.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2647,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'Which shaft in the Tail Drive Line (TDL) is considered a sub-critical shaft?',
+    options: {
+      a: 'Rear shaft',
+      b: 'Front shaft',
+      c: 'Intermediate shaft'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2648,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What is the reduction in speed from the IGB to the TGB?',
+    options: {
+      a: 'From 5000 rpm to 1248 rpm',
+      b: 'From 3804 rpm to 1248 rpm',
+      c: 'From 6000 rpm to 3804 rpm'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2649,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What is the purpose of the oil sight glass in the tail rotor drive system?',
+    options: {
+      a: 'To allow visual inspection of oil pressure.',
+      b: 'To monitor oil level in the gearboxes.',
+      c: 'To detect oil contamination.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2650,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What component connects the front and intermediate shafts in the tail rotor drive system?',
+    options: {
+      a: 'Flexible coupling',
+      b: 'Bearing hanger',
+      c: 'Inclined shaft'
+    },
+    correct: 'b'
   }
   
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
 
 
 
