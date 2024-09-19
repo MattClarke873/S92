@@ -27,12 +27,17 @@ body {
   
   /* Container and layout */
   .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    /* background: rgba(255, 255, 255, 0.8); Slightly opaque white background for contrast */
-    border-radius: 10px;
-  }
+    
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      min-height: 100vh; /* Ensure container takes full screen height */
+      display: flex; 
+      flex-direction: column;
+      justify-content: center; /* Centers vertically */
+      align-items: center; /* Centers horizontally */
+    }
+  
   
   /* Heading styles */
   h1 {
@@ -55,13 +60,24 @@ body {
   background-color: #666;
 }
   
+
+
   /* Selections and layout */
-  .selections {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; /* Stack children vertically */
-  }
+ 
+    .selections {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: rgba(30, 30, 30, 0.75); 
+      color: white;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      max-width: 400px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+      padding: 5px 20px 20px 20px;
+      text-align: center; /* Ensure text is centered */
+    }
   
   .SelectionBox {
     display: flex;
@@ -300,10 +316,9 @@ body {
     border-radius: 5px;
     background-color: rgba(173, 216, 230, 0.7); /* Light blue with 70% opacity */
   }
+ 
   
-  .blur-background {
-    filter: blur(5px);
-  }
+ 
   
   /* Responsive rules for screens under 430px */
   @media (max-width: 430px) {
