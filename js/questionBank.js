@@ -13454,7 +13454,7 @@ export const questions = [
     question: 'What will happen when the Emergency Cut-off (ECO) switches are moved to the OFF position?',
     options: {
         a: 'All contactors in DCEMB 1 and DCEMB 2 will close',
-        b: 'All contactors in DCEMB 1 and DCEMB 2 will open except ESS 1/2 and EMERG 1/2',
+        b: 'All contactors in DCEMB 1 and DCEMB 2 will open except ESSC 1 and ESSC 2',
         c: 'The AC alternator will be disconnected by DCEMB contactors'
     },
     correct: 'b'
