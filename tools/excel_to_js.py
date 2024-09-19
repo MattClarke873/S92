@@ -11,8 +11,8 @@ def convert_excel_to_js(input_file, output_file):
     for row in sheet.iter_rows(min_row=2, values_only=True):
         js_object = {
             'id': row[0],
-            'Aircraft': row[1],
-            'Category': f"'{row[2]}'",
+            'Aircraft': row[2],
+            'Category': f"'{row[1]}'",
             'question': row[3],
             'options': {'a': row[4], 'b': row[5], 'c': row[6]},
             'correct': row[7],
@@ -39,15 +39,12 @@ def convert_excel_to_js(input_file, output_file):
     js_data_str = '[\n' + js_data_str + '\n]'
 
     with open(output_file, 'w') as js_file:
-        js_file.write('//uncomment this line and comment export line to export to excel.  AND THE BOTTOM LINE')
-        js_file.write('\n')
-        js_file.write('// const questionBank = [')
-        js_file.write(';\n')
+
         js_file.write('export const questions = ')
         js_file.write(js_data_str)
         js_file.write(';')
         js_file.write('\n')
-        js_file.write('//module.exports = questionBank; ')
+        
 
 def browse_input_file():
     file_path = filedialog.askopenfilename(filetypes=[("Excel files", "*.xlsx")])
