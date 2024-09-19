@@ -38,4 +38,20 @@
   #home {border-radius: 5px;}
   
 
- 
+  @media (max-width: 440px) {
+    
+    #home,#left,#right {
+      background-color: #333333; /* Red */
+      height: 4vh; /* Ensure body takes up full vertical height */
+      width: 100vw; /* Ensure body takes up full horizontal width */
+      max-width: 105px; /* Maximum width */
+      min-width: 105;
+      }
+    
+    #home:hover,#left:hover,#right:hover {
+      background-color:  #2f2f2f;
+      height: 4vh; /* Ensure body takes up full vertical height */
+      width: 11vw; /* Ensure body takes up full horizontal width */
+      max-width: 110px; /* Maximum width */
+  }
+}
