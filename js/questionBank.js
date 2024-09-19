@@ -15545,6 +15545,747 @@ correct: 'a'
         c: '4'
     },
     correct: 'c'
-}
+},
+/*TODO Check 2274*/
+
+{
+    id: 2275,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What frequencies does the KANNAD 406 INTEGRA transmit on?',
+    options: {
+        a: '406 MHz and 121.5 MHz',
+        b: '406 MHz and 243 MHz',
+        c: '121.5 MHz and 243 MHz'
+    },
+    correct: 'a'
+},
+{
+    id: 2276,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the purpose of the 121.5 MHz frequency in the ELT system?',
+    options: {
+        a: 'For transmitting distress signals to satellites',
+        b: 'For homing during the final rescue step',
+        c: 'For internal GPS positioning'
+    },
+    correct: 'b'
+},
+{
+    id: 2277,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the battery lifetime of the KANNAD 406 INTEGRA?',
+    options: {
+        a: '2 years',
+        b: '6 years',
+        c: '10 years'
+    },
+    correct: 'b'
+},
+{
+    id: 2278,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'Where is the ELT control panel located in the H175?',
+    options: {
+        a: 'On the left-hand side cockpit roof',
+        b: 'On the inter-seat console panel',
+        c: 'Next to the co-pilot seat'
+    },
+    correct: 'b'
+},
+{
+    id: 2279,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the function of the G-Switch in the ELT system?',
+    options: {
+        a: 'To manually activate the ELT transmission',
+        b: 'To automatically activate ELT transmission in case of shock',
+        c: 'To deactivate the ELT in case of accidental activation'
+    },
+    correct: 'b'
+},
+{
+    id: 2280,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'Which frequency is used for satellite transmission in the ELT system?',
+    options: {
+        a: '121.5 MHz',
+        b: '406 MHz',
+        c: '243 MHz'
+    },
+    correct: 'b'
+},
+{
+    id: 2281,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is stored in the ELT Dongle?',
+    options: {
+        a: 'The aircraft’s GPS coordinates',
+        b: 'Information about the aircraft',
+        c: 'Battery expiration date'
+    },
+    correct: 'b'
+},
+{
+    id: 2282,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'How often does the 406 MHz signal burst during transmission?',
+    options: {
+        a: 'Every 30 seconds',
+        b: 'Every 50 seconds',
+        c: 'Every 1 minute'
+    },
+    correct: 'b'
+},
+{
+    id: 2283,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What happens when the ELT is set to the "ARM" position?',
+    options: {
+        a: 'The ELT transmits continuously',
+        b: 'The ELT is in standby mode and can activate automatically',
+        c: 'The ELT is turned off'
+    },
+    correct: 'b'
+},
+{
+    id: 2284,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the purpose of the self-test mode in the ELT system?',
+    options: {
+        a: 'To check the main characteristics of the transmitter',
+        b: 'To begin a manual transmission',
+        c: 'To deactivate the ELT system'
+    },
+    correct: 'a'
+},
+{
+    id: 2285,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'How is the ELT activated if there is a shock to the aircraft?',
+    options: {
+        a: 'By manually switching the control panel to ON',
+        b: 'Automatically by the G-Switch',
+        c: 'By the crew pressing the TEST-RESET button'
+    },
+    correct: 'b'
+},
+{
+    id: 2286,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What indication is provided by the ELT when a valid self-test is completed?',
+    options: {
+        a: 'A continuous buzzer sound',
+        b: 'One long flash',
+        c: 'A series of short flashes'
+    },
+    correct: 'b'
+},
+{
+    id: 2287,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What component of the ELT system helps in homing during the rescue operation?',
+    options: {
+        a: '406 MHz signal',
+        b: 'External fixed antenna',
+        c: '121.5 MHz signal'
+    },
+    correct: 'c'
+},
+{
+    id: 2288,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What information does the 406 MHz transmission include?',
+    options: {
+        a: 'Coded aircraft information and GPS position',
+        b: 'Aircraft model number only',
+        c: 'Rescue operation status'
+    },
+    correct: 'a'
+},
+{
+    id: 2289,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'Where is the ELT transmitter and portable antenna located in the H175?',
+    options: {
+        a: 'In the overhead compartment',
+        b: 'On the left-hand side of the co-pilot seat',
+        c: 'Next to the external fixed antenna'
+    },
+    correct: 'b'
+},
+{
+    id: 2290,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the primary function of the Automatic Deployable Emergency Locator Transmitter (ADELT)?',
+    options: {
+        a: 'To transmit distress signals',
+        b: 'To monitor flight performance',
+        c: 'To assist in navigation'
+    },
+    correct: 'a'
+},
+
+{
+    id: 2291,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'Which of the following frequencies does the ADELT transmit for HOMING during rescue operations?',
+    options: {
+        a: '406 MHz',
+        b: '121.5 MHz',
+        c: '243 MHz'
+    },
+    correct: 'b'
+},
+
+{
+    id: 2292,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'Where is the System Interface Unit (SIU) located in the H175 helicopter?',
+    options: {
+        a: 'In the cockpit',
+        b: 'In the tail boom',
+        c: 'Under the pilot floor'
+    },
+    correct: 'a'
+},
+
+{
+    id: 2293,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the purpose of the Water Immersion Sensor (WIS2) in the ADELT system?',
+    options: {
+        a: 'To deploy the beacon in case of water immersion',
+        b: 'To detect air pressure changes',
+        c: 'To recharge the internal battery'
+    },
+    correct: 'a'
+},
+
+{
+    id: 2294,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'Which system sends the GPS position to the SIU for inclusion in the beacon distress message?',
+    options: {
+        a: 'MFD 2',
+        b: 'BDC',
+        c: 'BRU'
+    },
+    correct: 'a'
+},
+
+{
+    id: 2295,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the purpose of the rechargeable nickel-cadmium battery in the SIU?',
+    options: {
+        a: 'To provide a backup power supply',
+        b: 'To power the cockpit displays',
+        c: 'To monitor fuel levels'
+    },
+    correct: 'a'
+},
+
+{
+    id: 2296,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What does the “TX/TEST” green light on the ADELT Control Panel indicate?',
+    options: {
+        a: 'The beacon is transmitting a distress signal',
+        b: 'The system has passed a self-test',
+        c: 'The beacon has been deployed'
+    },
+    correct: 'a'
+},
+
+{
+    id: 2297,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'Where is the aircraft-ID configuration unit located?',
+    options: {
+        a: 'Under the pilot floor',
+        b: 'In the tail boom',
+        c: 'In the cockpit'
+    },
+    correct: 'a'
+},
+
+{
+    id: 2298,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What is the function of the Beacon Release Unit (BRU)?',
+    options: {
+        a: 'To mechanically and electrically interface the beacon with the aircraft',
+        b: 'To control the GPS signals',
+        c: 'To monitor fuel levels'
+    },
+    correct: 'a'
+},
+
+{
+    id: 2299,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What happens when the SIU switch is in the “OFF” position?',
+    options: {
+        a: 'The internal battery remains charged but the crash sensor is off',
+        b: 'The ADELT system is fully functional',
+        c: 'The beacon is automatically deployed'
+    },
+    correct: 'a'
+},
+
+{
+    id: 2300,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'In which mode is the ADELT system armed and functional, ready to deploy automatically?',
+    options: {
+        a: 'ARM mode',
+        b: 'OFF mode',
+        c: 'RESET mode'
+    },
+    correct: 'a'
+},
+
+{
+    id: 2301,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'How long can the ADELT system operate using the stand-by rechargeable battery in case of total power failure?',
+    options: {
+        a: 'Up to 2 hours',
+        b: 'Up to 1 hour',
+        c: 'Up to 30 minutes'
+    },
+    correct: 'a'
+},
+
+{
+    id: 2302,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'Which of the following components ensures beacon deployment in case of a failure of the SIU or WIS2?',
+    options: {
+        a: 'Beacon Release Unit (BRU)',
+        b: 'System Interface Unit (SIU)',
+        c: 'Beacon Deployment Control (BDC)'
+    },
+    correct: 'a'
+},
+
+{
+    id: 2303,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'What does the “BEACON GONE” red light on the ADELT Control Panel signify?',
+    options: {
+        a: 'The beacon has been deployed',
+        b: 'The system is in self-test mode',
+        c: 'The beacon is transmitting a distress signal'
+    },
+    correct: 'a'
+},
+
+{
+    id: 2304,
+    Aircraft: 'H175',
+    Category: '25',
+    question: 'Which system triggers beacon deployment and starts the aircraft’s identification broadcasting?',
+    options: {
+        a: 'Beacon Deployment Control (BDC)',
+        b: 'Water Immersion Sensor (WIS2)',
+        c: 'Control Panel'
+    },
+    correct: 'a'
+},
+
+{
+    id: 2305,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'What is the primary purpose of balancing rotor blades?',
+    options: {
+      a: 'To reduce lift differences',
+      b: 'To ensure equal centrifugal forces',
+      c: 'To prevent blade deformation'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2306,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'What does "RUNS TRUE" refer to in rotor blade balancing?',
+    options: {
+      a: 'Identical aerodynamic loads on all blades',
+      b: 'Perfect blade tracking',
+      c: 'No twisting moment on blades'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2307,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'What happens when the centrifugal forces on rotor blades are unequal?',
+    options: {
+      a: 'Induced aerodynamic vibrations',
+      b: 'Balance or lateral induced vibrations',
+      c: 'Increased rotor blade lift'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2308,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'How can lift be increased on a blade during rotor tuning?',
+    options: {
+      a: 'By shortening its pitch change rod',
+      b: 'By lengthening its pitch change rod',
+      c: 'By adjusting the trailing edge tabs'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2309,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'What is the purpose of static moments in rotor blade balancing?',
+    options: {
+      a: 'To maintain equal lift on all blades',
+      b: 'To ensure equal centrifugal forces',
+      c: 'To balance aerodynamic forces'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2310,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'What do blade tip balance weights modify?',
+    options: {
+      a: 'Blade lift characteristics',
+      b: 'Blade weight and center of gravity',
+      c: 'Blade pitch'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2311,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'What is the purpose of trailing edge tabs on rotor blades?',
+    options: {
+      a: 'To increase the blade weight',
+      b: 'To adjust the aerodynamic force and lift',
+      c: 'To reduce the twisting moment'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2312,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'What does the HMS system monitor?',
+    options: {
+      a: 'Engine performance',
+      b: 'Rotating parts of the drive chain',
+      c: 'Flight altitude'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2313,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'Which component acquires and processes vibration measurements?',
+    options: {
+      a: 'Main Gearbox',
+      b: 'DMAU (Dynamic Monitoring Acquisition Unit)',
+      c: 'Tail Drive Shaft'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2314,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'How does HMS data get downloaded for analysis?',
+    options: {
+      a: 'Through the aircraft flight computer',
+      b: 'Via Ethernet or compact flash',
+      c: 'By manual entry from the crew'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2315,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'Where is the DMAU located?',
+    options: {
+      a: 'Under the cockpit floor',
+      b: 'Under the cargo hold, frame 7',
+      c: 'In the main rotor hub'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2316,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'What is one of the main functions of the cabin accelerometer?',
+    options: {
+      a: 'To monitor vibrations',
+      b: 'To reduce lift differences',
+      c: 'To adjust blade balance weights'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2317,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'Where is the tail top rotor sensor located?',
+    options: {
+      a: 'On the MGB conical housing',
+      b: 'On the lower part of the TGB output assembly',
+      c: 'On the left side of the IGB'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2318,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'Which accelerometer is located on the Epicyclic module of the MGB?',
+    options: {
+      a: 'MGB1',
+      b: 'TDS1',
+      c: 'IGB1'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2319,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'What does the DTD connect to?',
+    options: {
+      a: 'Main rotor blades',
+      b: 'AMC, MFDs, DMAU',
+      c: 'Tail rotor gearbox'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2320,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'Which component is used to verify the vibration level of the MGB input shaft?',
+    options: {
+      a: 'Accelerometers',
+      b: 'Top rotor sensors',
+      c: 'Tail rotor sensors'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2321,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'What is adjusted during rotor tuning to reduce vibration levels?',
+    options: {
+      a: 'Blade weights',
+      b: 'Pitch link and trailing edge tab',
+      c: 'Rotor hub'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2322,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'Where is the accelerometer for the Intermediate Gear Box (IGB) located?',
+    options: {
+      a: 'On the left side of the IGB',
+      b: 'On the right side of the IGB',
+      c: 'Under the cockpit floor'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2323,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'What kind of signal does the DMAU receive from the accelerometers?',
+    options: {
+      a: 'Digital signals',
+      b: 'Analog signals',
+      c: 'Optical signals'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2324,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'What condition leads to a twisting moment on a rotor blade?',
+    options: {
+      a: 'Unequal centrifugal forces',
+      b: 'Difference in blade center of gravity and center of thrust',
+      c: 'Incorrect trailing edge tab alignment'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2325,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'Which regime is NOT part of rotor tuning?',
+    options: {
+      a: 'Ground',
+      b: 'Hover',
+      c: 'Descent'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2326,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'Which accelerometer monitors vibrations in the TGB?',
+    options: {
+      a: 'ACC TGB',
+      b: 'ACC CABIN',
+      c: 'ACC MGB'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2327,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'How are rotor tracks aligned during tracking and balancing?',
+    options: {
+      a: 'By adjusting blade pitch',
+      b: 'By comparing blade tabs',
+      c: 'By aligning other blades to the yellow datum blade'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2328,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'What is the result of unequal static moments on rotor blades?',
+    options: {
+      a: 'Unequal lift forces',
+      b: 'Unequal centrifugal forces',
+      c: 'Increased twisting moments'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2329,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'Which component is responsible for providing crew interaction with the Health Monitoring System?',
+    options: {
+      a: 'Accelerometers',
+      b: 'MFDs (Multifunction Displays)',
+      c: 'Tail rotor sensors'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2330,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'What component monitors the rotor and main gearbox input?',
+    options: {
+      a: 'DMAU',
+      b: 'CIGALHE DTD',
+      c: 'MGB sensors'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2331,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'What happens when blade pitch change rods are shortened?',
+    options: {
+      a: 'Lift increases',
+      b: 'Lift decreases',
+      c: 'Centrifugal forces equalize'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2332,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'Where are the top rotor sensors located?',
+    options: {
+      a: 'On the TGB output assembly',
+      b: 'On the MGB conical housing',
+      c: 'Under the cockpit floor'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2333,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'What is the result of adding trailing edge tabs?',
+    options: {
+      a: 'Increased centrifugal force',
+      b: 'Increased or decreased lift',
+      c: 'Increased blade weight'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2334,
+    Aircraft: 'H175',
+    Category: '18',
+    question: 'What data does the DMAU exchange with the MFDs?',
+    options: {
+      a: 'Vibration level signals',
+      b: 'Controls and displays',
+      c: 'Accelerometer readings'
+    },
+    correct: 'b'
+  }
+  
+
+
+
   ];
   //module.exports = questionBank; 
