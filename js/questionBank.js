@@ -12983,7 +12983,7 @@ export const questions = [
     question: 'What happens if both starter/generators fail during flight?',
     options: {
         a: 'The batteries automatically supply all buses',
-        b: 'The emergency DC generator powers essential systems',
+        b: 'The emergency DC generator powers emerg buses',
         c: 'The AC generator takes over'
     },
     correct: 'b'
