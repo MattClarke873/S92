@@ -17531,7 +17531,7 @@ export const questions = [
         id: 2674,
         Aircraft: 'H175',
         Category: '62',
-        question: 'What is the maximum RPM of the H175 main rotor?',
+        question: 'What is 100% RPM of the H175 main rotor?',
         options: {
           a: '250 rpm',
           b: '279 rpm',
