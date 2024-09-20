@@ -1,4 +1,5 @@
 export const questions = [
+    /*TODO S92 -- ATA -- '18'*/
     {
         id: 1,
         Aircraft: 'S92',
@@ -227,6 +228,7 @@ export const questions = [
         },
         correct: 'a'
     },
+    /*TODO S92 -- ATA -- '20'*/
     {
         id: 20,
         Aircraft: 'S92',
@@ -587,6 +589,7 @@ export const questions = [
         },
         correct: 'a'
     },
+    /*TODO S92 -- ATA -- '21'*/
     {
         id: 50,
         Aircraft: 'S92',
@@ -1151,6 +1154,7 @@ export const questions = [
         },
         correct: 'b'
     },
+    /*TODO S92 -- ATA -- '22'*/
     {
         id: 97,
         Aircraft: 'S92',
@@ -2495,6 +2499,7 @@ export const questions = [
         },
         correct: 'a'
     },
+    /*TODO S92 -- ATA -- '25'*/
     {
         id: 209,
         Aircraft: 'S92',
@@ -2903,6 +2908,7 @@ export const questions = [
         },
         correct: 'b'
     },
+    /*TODO S92 -- ATA -- '26'*/
     {
         id: 243,
         Aircraft: 'S92',
@@ -3227,6 +3233,7 @@ export const questions = [
         },
         correct: 'b'
     },
+    /*TODO S92 -- ATA -- '28'*/
     {
         id: 270,
         Aircraft: 'S92',
@@ -4043,6 +4050,7 @@ export const questions = [
         },
         correct: 'a'
     },
+    /*TODO S92 -- ATA -- '30'*/
     {
         id: 338,
         Aircraft: 'S92',
@@ -4463,6 +4471,7 @@ export const questions = [
         },
         correct: 'a'
     },
+    /*TODO S92 -- ATA -- '33'*/
     {
         id: 373,
         Aircraft: 'S92',
@@ -5039,6 +5048,7 @@ export const questions = [
         },
         correct: 'b'
     },
+    /*TODO S92 -- ATA -- '34'*/
     {
         id: 421,
         Aircraft: 'S92',
@@ -6515,6 +6525,7 @@ export const questions = [
         },
         correct: 'b'
     },
+    /*TODO S92 -- ATA -- '49'*/
     {
         id: 544,
         Aircraft: 'S92',
@@ -7151,6 +7162,7 @@ export const questions = [
         },
         correct: 'c'
     },
+    /*TODO S92 -- ATA -- '70'*/
     {
         id: 597,
         Aircraft: 'S92',
@@ -7331,6 +7343,7 @@ export const questions = [
         },
         correct: 'b'
     },
+    /*TODO S92 -- ATA -- '71'*/
     {
         id: 612,
         Aircraft: 'S92',
@@ -7559,6 +7572,7 @@ export const questions = [
         },
         correct: 'b'
     },
+    /*TODO S92 -- ATA -- '72'*/
     {
         id: 631,
         Aircraft: 'S92',
@@ -8243,6 +8257,7 @@ export const questions = [
         },
         correct: 'a'
     },
+    /*TODO S92 -- ATA -- '73'*/
     {
         id: 688,
         Aircraft: 'S92',
@@ -8759,6 +8774,7 @@ export const questions = [
         },
         correct: 'a'
     },
+    /*TODO S92 -- ATA -- '74'*/
     {
         id: 731,
         Aircraft: 'S92',
@@ -9035,6 +9051,7 @@ export const questions = [
         },
         correct: 'b'
     },
+    /*TODO S92 -- ATA -- '75'*/
     {
         id: 754,
         Aircraft: 'S92',
@@ -9431,6 +9448,7 @@ export const questions = [
         },
         correct: 'b'
     },
+    /*TODO S92 -- ATA -- '76'*/
     {
         id: 787,
         Aircraft: 'S92',
@@ -9851,6 +9869,7 @@ export const questions = [
         },
         correct: 'b'
     },
+    /*TODO S92 -- ATA -- '77'*/
     {
         id: 822,
         Aircraft: 'S92',
@@ -10187,6 +10206,7 @@ export const questions = [
         },
         correct: 'b'
     },
+    /*TODO S92 -- ATA -- '78'*/
     {
         id: 850,
         Aircraft: 'S92',
@@ -10283,6 +10303,7 @@ export const questions = [
         },
         correct: 'c'
     },
+    /*TODO S92 -- ATA -- '79'*/
     {
         id: 858,
         Aircraft: 'S92',
@@ -10655,6 +10676,7 @@ export const questions = [
         },
         correct: 'c'
     },
+    /*TODO S92 -- ATA -- '80'*/
     {
         id: 889,
         Aircraft: 'S92',
@@ -10871,6 +10893,7 @@ export const questions = [
         },
         correct: 'c'
     },
+    /*TODO S92 -- ATA -- '00-12'*/
     {
         id: 907,
         Aircraft: 'S92',
@@ -11927,6 +11950,7 @@ export const questions = [
         },
         correct: 'c'
     },
+    /*TODO S92 -- ATA -- 'Manuals'*/
     {
         id: 995,
         Aircraft: 'S92',
@@ -12215,35 +12239,7 @@ export const questions = [
         },
         correct: 'b'
     },
-
-
-
-
-
-
-
-
-
-/*TODO **** H175 */
-/* 
- 
-     _    _ __ ______ _____    ____                  _   _             
-    | |  | /_ |____  | ____|  / __ \                | | (_)            
-    | |__| || |   / /| |__   | |  | |_   _  ___  ___| |_ _  ___  _ __  
-    |  __  || |  / / |___ \  | |  | | | | |/ _ \/ __| __| |/ _ \| '_ \ 
-    | |  | || | / /   ___) | | |__| | |_| |  __/\__ \ |_| | (_) | | | |
-    |_|  |_||_|/_/   |____/   \___\_\\__,_|\___||___/\__|_|\___/|_| |_|
-
-
- */
-
-
-
-
-
-
-/*TODO H175 ATA 18 */
-
+    /*TODO H175 -- ATA -- '18'*/
     {
         id: 2001,
         Aircraft: 'H175',
@@ -12604,8 +12600,7 @@ export const questions = [
         },
         correct: 'b'
     },
-
-    /*TODO H175 ATA 24 */
+    /*TODO H175 -- ATA -- '24'*/
     {
         id: 2031,
         Aircraft: 'H175',
@@ -13398,8 +13393,7 @@ export const questions = [
         },
         correct: 'a'
     },
-
-    /*TODO H175 ATA 25 */
+    /*TODO H175 -- ATA -- '25'*/
     {
         id: 2097,
         Aircraft: 'H175',
@@ -14516,8 +14510,7 @@ export const questions = [
         },
         correct: 'a'
     },
-
-    /*TODO H175 ATA 28  ***NEEDS CHECKING*** */
+    /*TODO H175 -- ATA -- '28' **NEED TO CHECK***/
     {
         id: 2190,
         Aircraft: 'H175',
@@ -14530,7 +14523,6 @@ export const questions = [
         },
         correct: 'a'
     },
-
     {
         id: 2191,
         Aircraft: 'H175',
@@ -14987,9 +14979,7 @@ export const questions = [
         },
         correct: 'a'
     },
-
-    /*TODO H175 ATA 29 ***NEEDS CHECKING*** */
-
+    /*TODO H175 -- ATA -- '29' **NEED TO CHECK***/
     {
         id: 2229,
         Aircraft: 'H175',
@@ -15530,8 +15520,7 @@ export const questions = [
         },
         correct: 'a'
     },
-
-    /*TODO H175 ATA 31 ***NEEDS CHECKING*** */
+    /*TODO H175 -- ATA -- '31' **NEED TO CHECK***/
     {
         id: 2274,
         Aircraft: 'H175',
@@ -16180,8 +16169,7 @@ export const questions = [
         },
         correct: 'b'
     },
-
-    /*TODO H175 ATA 46 ***NEEDS CHECKING*** */
+    /*TODO H175 -- ATA -- '46' **NEED TO CHECK***/
     {
         id: 2328,
         Aircraft: 'H175',
@@ -16674,7 +16662,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO H175 ATA 62 ***NEEDS CHECKING****/
+    /*TODO H175 -- ATA -- '62' **NEED TO CHECK***/
     {
         id: 2369,
         Aircraft: 'H175',
@@ -17155,7 +17143,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO H175 ATA 63 ***NEEDS CHECKING*** */
+    /*TODO H175 -- ATA -- '63' **NEED TO CHECK***/
     {
         id: 2409,
         Aircraft: 'H175',
@@ -17624,7 +17612,7 @@ export const questions = [
         },
         correct: 'a'
     },
-    /*TODO H175 ATA 64 ***NEEDS CHECKING*** */
+    /*TODO H175 -- ATA -- '64' **NEED TO CHECK***/
     {
         id: 2448,
         Aircraft: 'H175',
@@ -17973,7 +17961,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO H175 ATA 65 ***NEEDS CHECKING*** */
+    /*TODO H175 -- ATA -- '65' **NEED TO CHECK***/
     {
         id: 2477,
         Aircraft: 'H175',
@@ -18322,7 +18310,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO H175 ATA 88 */
+    /*TODO H175 -- ATA -- '88'*/
     {
         id: 2506,
         Aircraft: 'H175',
@@ -18563,7 +18551,7 @@ export const questions = [
         },
         correct: 'c'
     },
-    /*TODO H175 ATA 04-12 */
+    /*TODO H175 -- ATA -- '04-12'*/
     {
         id: 2526,
         Aircraft: 'H175',
@@ -19044,7 +19032,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO H175 ATA 51-56 */
+    /*TODO H175 -- ATA -- '51-56'*/
     {
         id: 2566,
         Aircraft: 'H175',
