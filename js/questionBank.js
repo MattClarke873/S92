@@ -1,5 +1,5 @@
 export const questions = [
-    /*TODO S92 -- ATA -- '18'*/
+    /*TODO  S92 -- ATA '18'*/
     {
         id: 1,
         Aircraft: 'S92',
@@ -228,7 +228,7 @@ export const questions = [
         },
         correct: 'a'
     },
-    /*TODO S92 -- ATA -- '20'*/
+    /*TODO  S92 -- ATA '20'*/
     {
         id: 20,
         Aircraft: 'S92',
@@ -589,7 +589,7 @@ export const questions = [
         },
         correct: 'a'
     },
-    /*TODO S92 -- ATA -- '21'*/
+    /*TODO  S92 -- ATA '21'*/
     {
         id: 50,
         Aircraft: 'S92',
@@ -1154,7 +1154,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO S92 -- ATA -- '22'*/
+    /*TODO  S92 -- ATA '22'*/
     {
         id: 97,
         Aircraft: 'S92',
@@ -2499,7 +2499,7 @@ export const questions = [
         },
         correct: 'a'
     },
-    /*TODO S92 -- ATA -- '25'*/
+    /*TODO  S92 -- ATA '25'*/
     {
         id: 209,
         Aircraft: 'S92',
@@ -2908,7 +2908,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO S92 -- ATA -- '26'*/
+    /*TODO  S92 -- ATA '26'*/
     {
         id: 243,
         Aircraft: 'S92',
@@ -3233,7 +3233,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO S92 -- ATA -- '28'*/
+    /*TODO  S92 -- ATA '28'*/
     {
         id: 270,
         Aircraft: 'S92',
@@ -4050,7 +4050,7 @@ export const questions = [
         },
         correct: 'a'
     },
-    /*TODO S92 -- ATA -- '30'*/
+    /*TODO  S92 -- ATA '30'*/
     {
         id: 338,
         Aircraft: 'S92',
@@ -4471,7 +4471,7 @@ export const questions = [
         },
         correct: 'a'
     },
-    /*TODO S92 -- ATA -- '33'*/
+    /*TODO  S92 -- ATA '33'*/
     {
         id: 373,
         Aircraft: 'S92',
@@ -5048,7 +5048,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO S92 -- ATA -- '34'*/
+    /*TODO  S92 -- ATA '34'*/
     {
         id: 421,
         Aircraft: 'S92',
@@ -6525,7 +6525,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO S92 -- ATA -- '49'*/
+    /*TODO  S92 -- ATA '49'*/
     {
         id: 544,
         Aircraft: 'S92',
@@ -7162,7 +7162,7 @@ export const questions = [
         },
         correct: 'c'
     },
-    /*TODO S92 -- ATA -- '70'*/
+    /*TODO  S92 -- ATA '70'*/
     {
         id: 597,
         Aircraft: 'S92',
@@ -7343,7 +7343,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO S92 -- ATA -- '71'*/
+    /*TODO  S92 -- ATA '71'*/
     {
         id: 612,
         Aircraft: 'S92',
@@ -7572,7 +7572,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO S92 -- ATA -- '72'*/
+    /*TODO  S92 -- ATA '72'*/
     {
         id: 631,
         Aircraft: 'S92',
@@ -8257,7 +8257,7 @@ export const questions = [
         },
         correct: 'a'
     },
-    /*TODO S92 -- ATA -- '73'*/
+    /*TODO  S92 -- ATA '73'*/
     {
         id: 688,
         Aircraft: 'S92',
@@ -8774,7 +8774,7 @@ export const questions = [
         },
         correct: 'a'
     },
-    /*TODO S92 -- ATA -- '74'*/
+    /*TODO  S92 -- ATA '74'*/
     {
         id: 731,
         Aircraft: 'S92',
@@ -9051,7 +9051,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO S92 -- ATA -- '75'*/
+    /*TODO  S92 -- ATA '75'*/
     {
         id: 754,
         Aircraft: 'S92',
@@ -9448,7 +9448,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO S92 -- ATA -- '76'*/
+    /*TODO  S92 -- ATA '76'*/
     {
         id: 787,
         Aircraft: 'S92',
@@ -9869,7 +9869,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO S92 -- ATA -- '77'*/
+    /*TODO  S92 -- ATA '77'*/
     {
         id: 822,
         Aircraft: 'S92',
@@ -10206,7 +10206,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO S92 -- ATA -- '78'*/
+    /*TODO  S92 -- ATA '78'*/
     {
         id: 850,
         Aircraft: 'S92',
@@ -10303,7 +10303,7 @@ export const questions = [
         },
         correct: 'c'
     },
-    /*TODO S92 -- ATA -- '79'*/
+    /*TODO  S92 -- ATA '79'*/
     {
         id: 858,
         Aircraft: 'S92',
@@ -10676,7 +10676,7 @@ export const questions = [
         },
         correct: 'c'
     },
-    /*TODO S92 -- ATA -- '80'*/
+    /*TODO  S92 -- ATA '80'*/
     {
         id: 889,
         Aircraft: 'S92',
@@ -10893,7 +10893,7 @@ export const questions = [
         },
         correct: 'c'
     },
-    /*TODO S92 -- ATA -- '00-12'*/
+    /*TODO  S92 -- ATA '00-12'*/
     {
         id: 907,
         Aircraft: 'S92',
@@ -11950,7 +11950,7 @@ export const questions = [
         },
         correct: 'c'
     },
-    /*TODO S92 -- ATA -- 'Manuals'*/
+    /*TODO  S92 -- ATA 'Manuals'*/
     {
         id: 995,
         Aircraft: 'S92',
@@ -12239,9 +12239,9 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO H175 -- ATA -- '18'*/
+    /*TODO  H175 -- ATA '18'*/
     {
-        id: 2001,
+        id: 2000,
         Aircraft: 'H175',
         Category: '18',
         question: 'What is the primary purpose of balancing rotor blades?',
@@ -12253,7 +12253,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2002,
+        id: 2001,
         Aircraft: 'H175',
         Category: '18',
         question: 'What does "RUNS TRUE" refer to in rotor blade balancing?',
@@ -12265,7 +12265,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2003,
+        id: 2002,
         Aircraft: 'H175',
         Category: '18',
         question: 'What happens when the centrifugal forces on rotor blades are unequal?',
@@ -12277,7 +12277,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2004,
+        id: 2003,
         Aircraft: 'H175',
         Category: '18',
         question: 'How can lift be increased on a blade during rotor tuning?',
@@ -12289,7 +12289,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2005,
+        id: 2004,
         Aircraft: 'H175',
         Category: '18',
         question: 'What is the purpose of static moments in rotor blade balancing?',
@@ -12301,7 +12301,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2006,
+        id: 2005,
         Aircraft: 'H175',
         Category: '18',
         question: 'What do blade tip balance weights modify?',
@@ -12313,7 +12313,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2007,
+        id: 2006,
         Aircraft: 'H175',
         Category: '18',
         question: 'What is the purpose of trailing edge tabs on rotor blades?',
@@ -12325,7 +12325,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2008,
+        id: 2007,
         Aircraft: 'H175',
         Category: '18',
         question: 'What does the HMS system monitor?',
@@ -12337,7 +12337,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2009,
+        id: 2008,
         Aircraft: 'H175',
         Category: '18',
         question: 'Which component acquires and processes vibration measurements?',
@@ -12349,7 +12349,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2010,
+        id: 2009,
         Aircraft: 'H175',
         Category: '18',
         question: 'How does HMS data get downloaded for analysis?',
@@ -12361,7 +12361,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2011,
+        id: 2010,
         Aircraft: 'H175',
         Category: '18',
         question: 'Where is the DMAU located?',
@@ -12373,7 +12373,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2012,
+        id: 2011,
         Aircraft: 'H175',
         Category: '18',
         question: 'What is one of the main functions of the cabin accelerometer?',
@@ -12385,7 +12385,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2013,
+        id: 2012,
         Aircraft: 'H175',
         Category: '18',
         question: 'Where is the tail top rotor sensor located?',
@@ -12397,7 +12397,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2014,
+        id: 2013,
         Aircraft: 'H175',
         Category: '18',
         question: 'Which accelerometer is located on the Epicyclic module of the MGB?',
@@ -12409,7 +12409,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2015,
+        id: 2014,
         Aircraft: 'H175',
         Category: '18',
         question: 'What does the DTD connect to?',
@@ -12421,7 +12421,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2016,
+        id: 2015,
         Aircraft: 'H175',
         Category: '18',
         question: 'Which component is used to verify the vibration level of the MGB input shaft?',
@@ -12433,7 +12433,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2017,
+        id: 2016,
         Aircraft: 'H175',
         Category: '18',
         question: 'What is adjusted during rotor tuning to reduce vibration levels?',
@@ -12445,7 +12445,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2018,
+        id: 2017,
         Aircraft: 'H175',
         Category: '18',
         question: 'Where is the accelerometer for the Intermediate Gear Box (IGB) located?',
@@ -12457,7 +12457,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2019,
+        id: 2018,
         Aircraft: 'H175',
         Category: '18',
         question: 'What kind of signal does the DMAU receive from the accelerometers?',
@@ -12469,7 +12469,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2020,
+        id: 2019,
         Aircraft: 'H175',
         Category: '18',
         question: 'What condition leads to a twisting moment on a rotor blade?',
@@ -12481,7 +12481,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2021,
+        id: 2020,
         Aircraft: 'H175',
         Category: '18',
         question: 'Which regime is NOT part of rotor tuning?',
@@ -12493,7 +12493,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2022,
+        id: 2021,
         Aircraft: 'H175',
         Category: '18',
         question: 'Which accelerometer monitors vibrations in the TGB?',
@@ -12505,7 +12505,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2023,
+        id: 2022,
         Aircraft: 'H175',
         Category: '18',
         question: 'How are rotor tracks aligned during tracking and balancing?',
@@ -12517,7 +12517,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2024,
+        id: 2023,
         Aircraft: 'H175',
         Category: '18',
         question: 'What is the result of unequal static moments on rotor blades?',
@@ -12529,7 +12529,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2025,
+        id: 2024,
         Aircraft: 'H175',
         Category: '18',
         question: 'Which component is responsible for providing crew interaction with the Health Monitoring System?',
@@ -12541,7 +12541,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2026,
+        id: 2025,
         Aircraft: 'H175',
         Category: '18',
         question: 'What component monitors the rotor and main gearbox input?',
@@ -12553,7 +12553,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2027,
+        id: 2026,
         Aircraft: 'H175',
         Category: '18',
         question: 'What happens when blade pitch change rods are shortened?',
@@ -12565,7 +12565,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2028,
+        id: 2027,
         Aircraft: 'H175',
         Category: '18',
         question: 'Where are the top rotor sensors located?',
@@ -12577,7 +12577,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2029,
+        id: 2028,
         Aircraft: 'H175',
         Category: '18',
         question: 'What is the result of adding trailing edge tabs?',
@@ -12589,7 +12589,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2030,
+        id: 2029,
         Aircraft: 'H175',
         Category: '18',
         question: 'What data does the DMAU exchange with the MFDs?',
@@ -12600,9 +12600,9 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO H175 -- ATA -- '24'*/
+    /*TODO  H175 -- ATA '24'*/
     {
-        id: 2031,
+        id: 2030,
         Aircraft: 'H175',
         Category: '24',
         question: 'What is the basic electrical power system voltage on the H175?',
@@ -12614,7 +12614,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2032,
+        id: 2031,
         Aircraft: 'H175',
         Category: '24',
         question: 'What optional system is part of the H175 electrical system?',
@@ -12626,7 +12626,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2033,
+        id: 2032,
         Aircraft: 'H175',
         Category: '24',
         question: 'How many engine-driven starter/generators are there in the H175 electrical system?',
@@ -12638,7 +12638,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2034,
+        id: 2033,
         Aircraft: 'H175',
         Category: '24',
         question: 'What type of batteries does the H175 use?',
@@ -12650,7 +12650,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2035,
+        id: 2034,
         Aircraft: 'H175',
         Category: '24',
         question: 'What is the purpose of the DC Electrical Master Boxes (DCEMBs) in the H175?',
@@ -12662,7 +12662,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2036,
+        id: 2035,
         Aircraft: 'H175',
         Category: '24',
         question: 'How is the emergency DC generator in the H175 powered?',
@@ -12674,7 +12674,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2037,
+        id: 2036,
         Aircraft: 'H175',
         Category: '24',
         question: 'Where are the circuit breakers that protect the DC power consumers located?',
@@ -12686,7 +12686,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2038,
+        id: 2037,
         Aircraft: 'H175',
         Category: '24',
         question: 'What is the rated output of each starter/generator on the H175?',
@@ -12698,7 +12698,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2039,
+        id: 2038,
         Aircraft: 'H175',
         Category: '24',
         question: 'What is the role of the Emergency DC power system?',
@@ -12710,7 +12710,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2040,
+        id: 2039,
         Aircraft: 'H175',
         Category: '24',
         question: 'What does the Emergency Cut-Off toggle switch do when in the OFF position?',
@@ -12722,7 +12722,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2041,
+        id: 2040,
         Aircraft: 'H175',
         Category: '24',
         question: 'What does the RST (Reset) position of the battery switch do?',
@@ -12734,7 +12734,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2042,
+        id: 2041,
         Aircraft: 'H175',
         Category: '24',
         question: 'What is the rated output of the emergency generator under normal conditions?',
@@ -12746,7 +12746,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2043,
+        id: 2042,
         Aircraft: 'H175',
         Category: '24',
         question: 'What will happen when the Shed Override (SHED OVER) switch is activated on the ground?',
@@ -12758,7 +12758,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2044,
+        id: 2043,
         Aircraft: 'H175',
         Category: '24',
         question: 'Where is the Direct Battery Breaker Panel (DBBP) located?',
@@ -12770,7 +12770,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2045,
+        id: 2044,
         Aircraft: 'H175',
         Category: '24',
         question: 'What is the function of the DC EPU push button on the control panel?',
@@ -12782,7 +12782,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2046,
+        id: 2045,
         Aircraft: 'H175',
         Category: '24',
         question: 'Where is the DC external power receptacle located?',
@@ -12794,7 +12794,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2047,
+        id: 2046,
         Aircraft: 'H175',
         Category: '24',
         question: 'How many cells make up each battery on the H175?',
@@ -12806,7 +12806,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2048,
+        id: 2047,
         Aircraft: 'H175',
         Category: '24',
         question: 'What is the thermal limit that triggers a battery overheat warning?',
@@ -12818,7 +12818,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2049,
+        id: 2048,
         Aircraft: 'H175',
         Category: '24',
         question: 'What information does the ELEC TST FAIL advisory indicate?',
@@ -12830,7 +12830,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2050,
+        id: 2049,
         Aircraft: 'H175',
         Category: '24',
         question: 'What does an AMBER indication represent in the electrical system display?',
@@ -12842,7 +12842,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2051,
+        id: 2050,
         Aircraft: 'H175',
         Category: '24',
         question: 'How many emergency generator switch positions are there?',
@@ -12854,7 +12854,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2052,
+        id: 2051,
         Aircraft: 'H175',
         Category: '24',
         question: 'What happens if both starter/generators fail during flight?',
@@ -12866,7 +12866,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2053,
+        id: 2052,
         Aircraft: 'H175',
         Category: '24',
         question: 'What voltage is the DC external power unit rated at?',
@@ -12878,7 +12878,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2054,
+        id: 2053,
         Aircraft: 'H175',
         Category: '24',
         question: 'What is directly powered by Battery No. 1 when both BAT 1 and BAT 2 are OFF?',
@@ -12890,7 +12890,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2055,
+        id: 2054,
         Aircraft: 'H175',
         Category: '24',
         question: 'What occurs when BAT1 switch is turned ON without battery protection?',
@@ -12902,7 +12902,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2056,
+        id: 2055,
         Aircraft: 'H175',
         Category: '24',
         question: 'What message is displayed on the master list after BAT1 is turned ON?',
@@ -12914,7 +12914,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2057,
+        id: 2056,
         Aircraft: 'H175',
         Category: '24',
         question: 'What happens to the bus tie contactors (BTC 1 and BTC 2) when Battery No. 1 is turned on?',
@@ -12926,7 +12926,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2058,
+        id: 2057,
         Aircraft: 'H175',
         Category: '24',
         question: 'Which busbars are supplied by Battery No. 1 through MAIN BUS 1?',
@@ -12938,7 +12938,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2059,
+        id: 2058,
         Aircraft: 'H175',
         Category: '24',
         question: 'What powers the FLIGHT SHED busbar on the ground?',
@@ -12950,7 +12950,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2060,
+        id: 2059,
         Aircraft: 'H175',
         Category: '24',
         question: 'During engine start when will GLC1 open?',
@@ -12962,7 +12962,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2061,
+        id: 2060,
         Aircraft: 'H175',
         Category: '24',
         question: 'What is the priority power source when the EPU is connected and turned on?',
@@ -12974,7 +12974,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2062,
+        id: 2061,
         Aircraft: 'H175',
         Category: '24',
         question: 'With power supplied by the EPU:',
@@ -12986,7 +12986,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2063,
+        id: 2062,
         Aircraft: 'H175',
         Category: '24',
         question: 'What happens when the SHED OVER switch is activated?',
@@ -12998,7 +12998,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2064,
+        id: 2063,
         Aircraft: 'H175',
         Category: '24',
         question: 'Which component sends a starting discrete signal during engine start?',
@@ -13010,7 +13010,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2065,
+        id: 2064,
         Aircraft: 'H175',
         Category: '24',
         question: 'What closes during Engine 1 start to supply the Starter/Generator?',
@@ -13022,7 +13022,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2066,
+        id: 2065,
         Aircraft: 'H175',
         Category: '24',
         question: 'What will indicate that the starter-generators are not connected to the network?',
@@ -13034,7 +13034,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2067,
+        id: 2066,
         Aircraft: 'H175',
         Category: '24',
         question: 'When will Generator 1 current be negative during an engine start?',
@@ -13046,7 +13046,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2068,
+        id: 2067,
         Aircraft: 'H175',
         Category: '24',
         question: 'What busbars will the emergency generator supply in case of DC generator failure?',
@@ -13058,7 +13058,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2069,
+        id: 2068,
         Aircraft: 'H175',
         Category: '24',
         question: 'Which conditions must be met for the emergency generator to recharge the batteries?',
@@ -13070,7 +13070,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2070,
+        id: 2069,
         Aircraft: 'H175',
         Category: '24',
         question: 'What does the message BAT LOW indicate?',
@@ -13082,7 +13082,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2071,
+        id: 2070,
         Aircraft: 'H175',
         Category: '24',
         question: 'What action should the pilot take if a BAT OVERHEAT warning is displayed?',
@@ -13094,7 +13094,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2072,
+        id: 2071,
         Aircraft: 'H175',
         Category: '24',
         question: 'What will be displayed on the Master list if a power-up test fails?',
@@ -13106,7 +13106,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2073,
+        id: 2072,
         Aircraft: 'H175',
         Category: '24',
         question: 'What does a green battery symbol on the VMS indicate?',
@@ -13118,7 +13118,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2074,
+        id: 2073,
         Aircraft: 'H175',
         Category: '24',
         question: 'What will cause the PWR-UP TST OK message to display?',
@@ -13130,7 +13130,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2075,
+        id: 2074,
         Aircraft: 'H175',
         Category: '24',
         question: 'What happens when Generator 2 voltage exceeds Main Bus voltage by +0.5V?',
@@ -13142,7 +13142,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2076,
+        id: 2075,
         Aircraft: 'H175',
         Category: '24',
         question: 'Where will the AC power system indications be displayed in the H175?',
@@ -13154,7 +13154,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2077,
+        id: 2076,
         Aircraft: 'H175',
         Category: '24',
         question: 'What is the role of the DCEMB?',
@@ -13166,7 +13166,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2078,
+        id: 2077,
         Aircraft: 'H175',
         Category: '24',
         question: 'What happens to the batteries and generators when the Emergency Cut-Off (ECO) gang-bar is pulled?',
@@ -13178,7 +13178,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2079,
+        id: 2078,
         Aircraft: 'H175',
         Category: '24',
         question: 'Which busbars will continue to receive electrical power after the ECO gang-bar is pulled?',
@@ -13190,7 +13190,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2080,
+        id: 2079,
         Aircraft: 'H175',
         Category: '24',
         question: 'What action is required to reset a generator after an over-voltage event?',
@@ -13202,7 +13202,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2081,
+        id: 2080,
         Aircraft: 'H175',
         Category: '24',
         question: 'At what generator voltage does the associated DCEMB open the GLC to disconnect the generator?',
@@ -13214,7 +13214,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2082,
+        id: 2081,
         Aircraft: 'H175',
         Category: '24',
         question: 'What indication is displayed on the Master list in the event of a loss of the ARINC 429 link between the AMC and the DCEMB (via the ASU)?',
@@ -13226,7 +13226,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2083,
+        id: 2082,
         Aircraft: 'H175',
         Category: '24',
         question: 'What is the primary purpose of the AC power system in the H175?',
@@ -13238,7 +13238,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2084,
+        id: 2083,
         Aircraft: 'H175',
         Category: '24',
         question: 'Where is the AC alternator mounted on the H175?',
@@ -13250,7 +13250,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2085,
+        id: 2084,
         Aircraft: 'H175',
         Category: '24',
         question: 'What is the nominal output voltage between each phase and neutral from the AC alternator?',
@@ -13262,7 +13262,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2086,
+        id: 2085,
         Aircraft: 'H175',
         Category: '24',
         question: 'What component in the AC Electrical Master Box (ACEMB) regulates the excitation of the AC alternator?',
@@ -13274,7 +13274,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2087,
+        id: 2086,
         Aircraft: 'H175',
         Category: '24',
         question: 'What priority does the AC External Power Unit (EPU) have in the ACEMB?',
@@ -13286,7 +13286,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2088,
+        id: 2087,
         Aircraft: 'H175',
         Category: '24',
         question: 'Which module in the ACEMB provides network protection?',
@@ -13298,7 +13298,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2089,
+        id: 2088,
         Aircraft: 'H175',
         Category: '24',
         question: 'Where is the AC External Power socket located on the H175?',
@@ -13310,7 +13310,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2090,
+        id: 2089,
         Aircraft: 'H175',
         Category: '24',
         question: 'What does the blue light on the EPU control pushbutton indicate?',
@@ -13322,7 +13322,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2091,
+        id: 2090,
         Aircraft: 'H175',
         Category: '24',
         question: 'What will happen when the Emergency Cut-off (ECO) switches are moved to the OFF position?',
@@ -13334,7 +13334,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2092,
+        id: 2091,
         Aircraft: 'H175',
         Category: '24',
         question: 'What protection is fitted to the DC power system?',
@@ -13346,7 +13346,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2093,
+        id: 2092,
         Aircraft: 'H175',
         Category: '24',
         question: 'When can the Shed Override switch (SHED OVER) be used?',
@@ -13358,7 +13358,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2094,
+        id: 2093,
         Aircraft: 'H175',
         Category: '24',
         question: 'What are the ratings of aircraft batteries?',
@@ -13370,7 +13370,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2095,
+        id: 2094,
         Aircraft: 'H175',
         Category: '24',
         question: 'In an emergency situation how long can the aircraft batteries supply power?',
@@ -13382,7 +13382,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2096,
+        id: 2095,
         Aircraft: 'H175',
         Category: '24',
         question: 'What are the batteries comprised of?',
@@ -13393,9 +13393,9 @@ export const questions = [
         },
         correct: 'a'
     },
-    /*TODO H175 -- ATA -- '25'*/
+    /*TODO  H175 -- ATA '25'*/
     {
-        id: 2097,
+        id: 2096,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the purpose of the cockpit seating in the H175?',
@@ -13407,7 +13407,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2098,
+        id: 2097,
         Aircraft: 'H175',
         Category: '25',
         question: 'What system is incorporated in both cockpit and passenger seats to reduce the impact during a hard landing?',
@@ -13419,7 +13419,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2099,
+        id: 2098,
         Aircraft: 'H175',
         Category: '25',
         question: 'How many body harness points are fitted in the crew seats?',
@@ -13431,7 +13431,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2100,
+        id: 2099,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the main difference between the crew and passenger seat harnesses?',
@@ -13443,7 +13443,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2101,
+        id: 2100,
         Aircraft: 'H175',
         Category: '25',
         question: 'What feature of the cockpit seats helps minimize shoulder movement during hard landings or adverse flight conditions?',
@@ -13455,7 +13455,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2102,
+        id: 2101,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the most common seating configuration for the Offshore Oil Sector in the EC175?',
@@ -13467,7 +13467,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2103,
+        id: 2102,
         Aircraft: 'H175',
         Category: '25',
         question: 'Which of the following is a requirement for the passenger seats in the EC175?',
@@ -13479,7 +13479,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2104,
+        id: 2103,
         Aircraft: 'H175',
         Category: '25',
         question: 'What type of assembly does the passenger seat structure include?',
@@ -13491,7 +13491,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2105,
+        id: 2104,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is one of the main functions of the cockpit doors on the H175?',
@@ -13503,7 +13503,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2106,
+        id: 2105,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the cockpit door body structure made of?',
@@ -13515,7 +13515,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2107,
+        id: 2106,
         Aircraft: 'H175',
         Category: '25',
         question: 'How is the door body structure attached to the door frame on the H175?',
@@ -13527,7 +13527,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2108,
+        id: 2107,
         Aircraft: 'H175',
         Category: '25',
         question: 'What feature helps prevent the flotation system from being punctured in case of ditching?',
@@ -13539,7 +13539,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2109,
+        id: 2108,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is installed at the bottom of each cockpit door?',
@@ -13551,7 +13551,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2110,
+        id: 2109,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the purpose of the Emergency Floatation System (EFS)?',
@@ -13563,7 +13563,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2111,
+        id: 2110,
         Aircraft: 'H175',
         Category: '25',
         question: 'How many floatation balloons are installed on the H175?',
@@ -13575,7 +13575,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2112,
+        id: 2111,
         Aircraft: 'H175',
         Category: '25',
         question: 'What triggers the backup mode of the Emergency Floatation System?',
@@ -13587,7 +13587,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2113,
+        id: 2112,
         Aircraft: 'H175',
         Category: '25',
         question: 'Where is the armament control of the EFS located?',
@@ -13599,7 +13599,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2114,
+        id: 2113,
         Aircraft: 'H175',
         Category: '25',
         question: 'Which sensors send signals to the EFU in the event of a ditching?',
@@ -13611,7 +13611,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2115,
+        id: 2114,
         Aircraft: 'H175',
         Category: '25',
         question: 'What happens if there is a micro power cut during the flotation initiation phase?',
@@ -13623,7 +13623,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2116,
+        id: 2115,
         Aircraft: 'H175',
         Category: '25',
         question: 'Where is the Emergency Floatation Unit (EFU) located?',
@@ -13635,7 +13635,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2117,
+        id: 2116,
         Aircraft: 'H175',
         Category: '25',
         question: 'What does the immersion Probe Box (IPB) do?',
@@ -13647,7 +13647,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2118,
+        id: 2117,
         Aircraft: 'H175',
         Category: '25',
         question: 'How many water immersion sensors are on the H175?',
@@ -13659,7 +13659,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2119,
+        id: 2118,
         Aircraft: 'H175',
         Category: '25',
         question: 'Where is WIS2 located on the H175?',
@@ -13671,7 +13671,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2120,
+        id: 2119,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the maximum inflation time of the EFS floats?',
@@ -13683,7 +13683,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2121,
+        id: 2120,
         Aircraft: 'H175',
         Category: '25',
         question: 'With the EFS in automatic mode what condition are required for pre-armed mode?',
@@ -13695,7 +13695,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2122,
+        id: 2121,
         Aircraft: 'H175',
         Category: '25',
         question: 'What happens when the WIS 1 and WIS 2 signals differ for more than 5 seconds?',
@@ -13707,7 +13707,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2123,
+        id: 2122,
         Aircraft: 'H175',
         Category: '25',
         question: 'What message is displayed if the floatation system is armed but the aircraft is over Vmax EFS?',
@@ -13719,7 +13719,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2124,
+        id: 2123,
         Aircraft: 'H175',
         Category: '25',
         question: 'How are the emergency floats activated in manual mode?',
@@ -13731,7 +13731,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2125,
+        id: 2124,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the purpose of the Micro Power Cut Filter (MPCF)?',
@@ -13743,7 +13743,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2126,
+        id: 2125,
         Aircraft: 'H175',
         Category: '25',
         question: 'How is the EFS armed in automatic mode?',
@@ -13755,7 +13755,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2127,
+        id: 2126,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is displayed on the master list during the power-up test if no faults are found?',
@@ -13767,7 +13767,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2128,
+        id: 2127,
         Aircraft: 'H175',
         Category: '25',
         question: 'What happens if one helium bottle is disconnected during flight?',
@@ -13779,7 +13779,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2129,
+        id: 2128,
         Aircraft: 'H175',
         Category: '25',
         question: 'What message appears if there is a discrepancy between the two water immersion sensors?',
@@ -13791,7 +13791,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2130,
+        id: 2129,
         Aircraft: 'H175',
         Category: '25',
         question: 'What does the caution message "FLOAT INFLATION" indicate?',
@@ -13803,7 +13803,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2131,
+        id: 2130,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the capacity of each life raft on the H175?',
@@ -13815,7 +13815,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2132,
+        id: 2131,
         Aircraft: 'H175',
         Category: '25',
         question: 'How are the life rafts actuated from the cockpit?',
@@ -13827,7 +13827,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2133,
+        id: 2132,
         Aircraft: 'H175',
         Category: '25',
         question: 'Which component ensures flotation is achieved in case of a momentary power loss?',
@@ -13839,7 +13839,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2134,
+        id: 2133,
         Aircraft: 'H175',
         Category: '25',
         question: 'What happens when the water immersion sensors detects water?',
@@ -13851,7 +13851,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2135,
+        id: 2134,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the primary function of the life raft container assembly?',
@@ -13863,7 +13863,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2136,
+        id: 2135,
         Aircraft: 'H175',
         Category: '25',
         question: 'What components are stored in the life raft container assembly?',
@@ -13875,7 +13875,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2137,
+        id: 2136,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the purpose of the internal flaps in the life raft container?',
@@ -13887,7 +13887,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2138,
+        id: 2137,
         Aircraft: 'H175',
         Category: '25',
         question: 'How are the internal flaps attached to the life raft container?',
@@ -13899,7 +13899,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2139,
+        id: 2138,
         Aircraft: 'H175',
         Category: '25',
         question: 'What happens to the calibrated ropes when the life raft is deployed?',
@@ -13911,7 +13911,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2140,
+        id: 2139,
         Aircraft: 'H175',
         Category: '25',
         question: 'How is the external flap of the life raft container secured?',
@@ -13923,7 +13923,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2141,
+        id: 2140,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the purpose of the third handle (lower) on the life raft container?',
@@ -13935,7 +13935,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2142,
+        id: 2141,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the role of the retaining and release system in the life raft container?',
@@ -13947,7 +13947,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2143,
+        id: 2142,
         Aircraft: 'H175',
         Category: '25',
         question: 'What prevents the life raft from inflating prematurely?',
@@ -13959,7 +13959,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2144,
+        id: 2143,
         Aircraft: 'H175',
         Category: '25',
         question: 'What equipment is installed within the life raft container besides the life raft?',
@@ -13971,7 +13971,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2145,
+        id: 2144,
         Aircraft: 'H175',
         Category: '25',
         question: 'What feature of the life raft provides protection from adverse weather?',
@@ -13983,7 +13983,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2146,
+        id: 2145,
         Aircraft: 'H175',
         Category: '25',
         question: 'How many mooring lines are attached to the life raft container?',
@@ -13995,7 +13995,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2147,
+        id: 2146,
         Aircraft: 'H175',
         Category: '25',
         question: 'What are the drain plugs on the underside of the fuselage designed for?',
@@ -14007,7 +14007,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2148,
+        id: 2147,
         Aircraft: 'H175',
         Category: '25',
         question: 'What happens to the drain plug floats during ditching?',
@@ -14019,7 +14019,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2149,
+        id: 2148,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the purpose of soundproofing panels in the cabin?',
@@ -14031,7 +14031,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2150,
+        id: 2149,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the function of the overhead panel in the cockpit?',
@@ -14043,7 +14043,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2151,
+        id: 2150,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is special about the windshield centre-post panel?',
@@ -14055,7 +14055,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2152,
+        id: 2151,
         Aircraft: 'H175',
         Category: '25',
         question: 'How many ceiling panels are in the cabin upholstery?',
@@ -14067,7 +14067,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2153,
+        id: 2152,
         Aircraft: 'H175',
         Category: '25',
         question: 'What are the cabin ceiling panels designed to protect?',
@@ -14079,7 +14079,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2154,
+        id: 2153,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is attached to the middle-centre ceiling panel?',
@@ -14091,7 +14091,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2155,
+        id: 2154,
         Aircraft: 'H175',
         Category: '25',
         question: 'What material is used for the luggage compartment upholstery?',
@@ -14103,7 +14103,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2156,
+        id: 2155,
         Aircraft: 'H175',
         Category: '25',
         question: 'What does the rear ceiling panel in the luggage compartment protect?',
@@ -14115,7 +14115,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2157,
+        id: 2156,
         Aircraft: 'H175',
         Category: '25',
         question: 'Where is the medical kit located in the EC 175?',
@@ -14127,7 +14127,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2158,
+        id: 2157,
         Aircraft: 'H175',
         Category: '25',
         question: 'How many portable fire extinguishers are on the EC 175?',
@@ -14139,7 +14139,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2159,
+        id: 2158,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the purpose of the service connector behind the pilot seat?',
@@ -14151,7 +14151,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2160,
+        id: 2159,
         Aircraft: 'H175',
         Category: '25',
         question: 'With the EFS in automatic mode what condition are required for pre-armed mode?',
@@ -14163,7 +14163,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2161,
+        id: 2160,
         Aircraft: 'H175',
         Category: '25',
         question: 'What frequencies does the KANNAD 406 INTEGRA transmit on?',
@@ -14175,7 +14175,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2162,
+        id: 2161,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the purpose of the 121.5 MHz frequency in the ELT system?',
@@ -14187,7 +14187,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2163,
+        id: 2162,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the battery lifetime of the KANNAD 406 INTEGRA?',
@@ -14199,7 +14199,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2164,
+        id: 2163,
         Aircraft: 'H175',
         Category: '25',
         question: 'Where is the ELT control panel located in the H175?',
@@ -14211,7 +14211,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2165,
+        id: 2164,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the function of the G-Switch in the ELT system?',
@@ -14223,7 +14223,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2166,
+        id: 2165,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is stored in the ELT Dongle?',
@@ -14235,7 +14235,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2167,
+        id: 2166,
         Aircraft: 'H175',
         Category: '25',
         question: 'How often does the 406 MHz signal burst during transmission?',
@@ -14247,7 +14247,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2168,
+        id: 2167,
         Aircraft: 'H175',
         Category: '25',
         question: 'What happens when the ELT is set to the "ARM" position?',
@@ -14259,7 +14259,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2169,
+        id: 2168,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the purpose of the self-test mode in the ELT system?',
@@ -14271,7 +14271,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2170,
+        id: 2169,
         Aircraft: 'H175',
         Category: '25',
         question: 'How is the ELT activated if there is a shock to the aircraft?',
@@ -14283,7 +14283,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2171,
+        id: 2170,
         Aircraft: 'H175',
         Category: '25',
         question: 'What indication is provided by the ELT when a valid self-test is completed?',
@@ -14295,7 +14295,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2172,
+        id: 2171,
         Aircraft: 'H175',
         Category: '25',
         question: 'What component of the ELT system helps in homing during the rescue operation?',
@@ -14307,7 +14307,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2173,
+        id: 2172,
         Aircraft: 'H175',
         Category: '25',
         question: 'What information does the 406 MHz transmission include?',
@@ -14319,7 +14319,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2174,
+        id: 2173,
         Aircraft: 'H175',
         Category: '25',
         question: 'Where is the ELT transmitter and portable antenna located in the H175?',
@@ -14331,7 +14331,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2175,
+        id: 2174,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the primary function of the Automatic Deployable Emergency Locator Transmitter (ADELT)?',
@@ -14343,7 +14343,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2176,
+        id: 2175,
         Aircraft: 'H175',
         Category: '25',
         question: 'Which of the following frequencies does the ADELT transmit for HOMING during rescue operations?',
@@ -14355,7 +14355,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2177,
+        id: 2176,
         Aircraft: 'H175',
         Category: '25',
         question: 'Where is the System Interface Unit (SIU) located in the H175 helicopter?',
@@ -14367,7 +14367,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2178,
+        id: 2177,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the purpose of the Water Immersion Sensor (WIS2) in the ADELT system?',
@@ -14379,7 +14379,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2179,
+        id: 2178,
         Aircraft: 'H175',
         Category: '25',
         question: 'Which system sends the GPS position to the SIU for inclusion in the beacon distress message?',
@@ -14391,7 +14391,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2180,
+        id: 2179,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the purpose of the rechargeable nickel-cadmium battery in the SIU?',
@@ -14403,7 +14403,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2181,
+        id: 2180,
         Aircraft: 'H175',
         Category: '25',
         question: 'What does the “TX/TEST” green light on the ADELT Control Panel indicate?',
@@ -14415,7 +14415,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2182,
+        id: 2181,
         Aircraft: 'H175',
         Category: '25',
         question: 'Where is the aircraft-ID configuration unit located?',
@@ -14427,7 +14427,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2183,
+        id: 2182,
         Aircraft: 'H175',
         Category: '25',
         question: 'What is the function of the Beacon Release Unit (BRU)?',
@@ -14439,7 +14439,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2184,
+        id: 2183,
         Aircraft: 'H175',
         Category: '25',
         question: 'What happens when the SIU switch is in the “OFF” position?',
@@ -14451,7 +14451,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2185,
+        id: 2184,
         Aircraft: 'H175',
         Category: '25',
         question: 'In which mode is the ADELT system armed and functional, ready to deploy automatically?',
@@ -14463,7 +14463,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2186,
+        id: 2185,
         Aircraft: 'H175',
         Category: '25',
         question: 'How long can the ADELT system operate using the stand-by rechargeable battery in case of total power failure?',
@@ -14475,7 +14475,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2187,
+        id: 2186,
         Aircraft: 'H175',
         Category: '25',
         question: 'Which of the following components ensures beacon deployment in case of a failure of the SIU or WIS2?',
@@ -14487,7 +14487,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2188,
+        id: 2187,
         Aircraft: 'H175',
         Category: '25',
         question: 'What does the “BEACON GONE” red light on the ADELT Control Panel signify?',
@@ -14499,7 +14499,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2189,
+        id: 2188,
         Aircraft: 'H175',
         Category: '25',
         question: 'Which system triggers beacon deployment and starts the aircraft/’s identification broadcasting?',
@@ -14510,9 +14510,9 @@ export const questions = [
         },
         correct: 'a'
     },
-    /*TODO H175 -- ATA -- '28' **NEED TO CHECK***/
+    /*TODO  H175 -- ATA '28' ****TO CHECK***** */
     {
-        id: 2190,
+        id: 2189,
         Aircraft: 'H175',
         Category: '28',
         question: 'What is the total usable fuel capacity of the EC175 fuel system?',
@@ -14524,7 +14524,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2191,
+        id: 2190,
         Aircraft: 'H175',
         Category: '28',
         question: 'How many feeder tanks are there in the EC175 fuel system?',
@@ -14536,7 +14536,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2192,
+        id: 2191,
         Aircraft: 'H175',
         Category: '28',
         question: 'What is the purpose of the Low-Level Sensor (LLS) in the feeder tanks?',
@@ -14548,7 +14548,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2193,
+        id: 2192,
         Aircraft: 'H175',
         Category: '28',
         question: 'Where are the fuel control and engine control panels located in the EC175?',
@@ -14560,7 +14560,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2194,
+        id: 2193,
         Aircraft: 'H175',
         Category: '28',
         question: 'Which system displays the fuel system monitoring and indicating?',
@@ -14572,7 +14572,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2195,
+        id: 2194,
         Aircraft: 'H175',
         Category: '28',
         question: 'What is the main function of the jet pumps in the EC175 fuel system?',
@@ -14584,7 +14584,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2196,
+        id: 2195,
         Aircraft: 'H175',
         Category: '28',
         question: 'How many jet pumps are installed in the fuel system?',
@@ -14596,7 +14596,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2197,
+        id: 2196,
         Aircraft: 'H175',
         Category: '28',
         question: 'What component prevents fuel spillage during a hard landing?',
@@ -14608,7 +14608,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2198,
+        id: 2197,
         Aircraft: 'H175',
         Category: '28',
         question: 'What is the location of the optional auxiliary tank in the EC175?',
@@ -14620,7 +14620,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2199,
+        id: 2198,
         Aircraft: 'H175',
         Category: '28',
         question: 'What is the role of the pressure relief valve in the fuel system?',
@@ -14632,7 +14632,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2200,
+        id: 2199,
         Aircraft: 'H175',
         Category: '28',
         question: 'How is the fuel system refueled in the EC175?',
@@ -14644,7 +14644,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2201,
+        id: 2200,
         Aircraft: 'H175',
         Category: '28',
         question: 'Where is the gravity refueling port located?',
@@ -14656,7 +14656,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2202,
+        id: 2201,
         Aircraft: 'H175',
         Category: '28',
         question: 'Which tank houses the pressure refueling system?',
@@ -14668,7 +14668,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2203,
+        id: 2202,
         Aircraft: 'H175',
         Category: '28',
         question: 'How is fuel drained from the tanks during maintenance?',
@@ -14680,7 +14680,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2204,
+        id: 2203,
         Aircraft: 'H175',
         Category: '28',
         question: 'What does the fuel system use to prevent fire propagation through vent lines?',
@@ -14692,7 +14692,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2205,
+        id: 2204,
         Aircraft: 'H175',
         Category: '28',
         question: 'What is the usable fuel capacity of Tank 4?',
@@ -14704,7 +14704,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2206,
+        id: 2205,
         Aircraft: 'H175',
         Category: '28',
         question: 'Which sensor is used to measure fuel temperature in the tanks?',
@@ -14716,7 +14716,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2207,
+        id: 2206,
         Aircraft: 'H175',
         Category: '28',
         question: 'How many vent lines are installed in the EC175 fuel system?',
@@ -14728,7 +14728,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2208,
+        id: 2207,
         Aircraft: 'H175',
         Category: '28',
         question: 'What is the function of the booster pumps in the EC175 fuel system?',
@@ -14740,7 +14740,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2209,
+        id: 2208,
         Aircraft: 'H175',
         Category: '28',
         question: 'What component is used to stop fuel spillage in case of a roll-over?',
@@ -14752,7 +14752,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2210,
+        id: 2209,
         Aircraft: 'H175',
         Category: '28',
         question: 'Which system displays the fuel quantity in each tank?',
@@ -14764,7 +14764,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2211,
+        id: 2210,
         Aircraft: 'H175',
         Category: '28',
         question: 'What is the function of the flap valves between tanks in the fuel system?',
@@ -14776,7 +14776,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2212,
+        id: 2211,
         Aircraft: 'H175',
         Category: '28',
         question: 'What is the function of the solenoid valve during pressure refueling?',
@@ -14788,7 +14788,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2213,
+        id: 2212,
         Aircraft: 'H175',
         Category: '28',
         question: 'What system provides warnings related to the fuel system status?',
@@ -14800,7 +14800,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2214,
+        id: 2213,
         Aircraft: 'H175',
         Category: '28',
         question: 'Where are the booster pump switches located?',
@@ -14812,7 +14812,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2215,
+        id: 2214,
         Aircraft: 'H175',
         Category: '28',
         question: 'Which component closes when the aircraft banks more than 40 degrees?',
@@ -14824,7 +14824,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2216,
+        id: 2215,
         Aircraft: 'H175',
         Category: '28',
         question: 'What is the function of the venting system in the EC175?',
@@ -14836,7 +14836,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2217,
+        id: 2216,
         Aircraft: 'H175',
         Category: '28',
         question: 'Which warning is triggered when the fuel level in the feeder tanks is low?',
@@ -14848,7 +14848,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2218,
+        id: 2217,
         Aircraft: 'H175',
         Category: '28',
         question: 'What system shows the total fuel quantity and estimated endurance?',
@@ -14860,7 +14860,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2219,
+        id: 2218,
         Aircraft: 'H175',
         Category: '28',
         question: 'How many fuel probes are installed in the EC175 fuel system?',
@@ -14872,7 +14872,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2220,
+        id: 2219,
         Aircraft: 'H175',
         Category: '28',
         question: 'Which sensor is responsible for monitoring fuel low levels in the EC175?',
@@ -14884,7 +14884,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2221,
+        id: 2220,
         Aircraft: 'H175',
         Category: '28',
         question: 'What is the function of the Pressure Relief Valve in the EC175 fuel system?',
@@ -14896,7 +14896,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2222,
+        id: 2221,
         Aircraft: 'H175',
         Category: '28',
         question: 'Which component closes automatically to prevent fuel leakage when inverted?',
@@ -14908,7 +14908,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2223,
+        id: 2222,
         Aircraft: 'H175',
         Category: '28',
         question: 'Where is the fuel temperature sensor located?',
@@ -14920,7 +14920,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2224,
+        id: 2223,
         Aircraft: 'H175',
         Category: '28',
         question: 'What happens when both jet pumps in Tank 1 are obstructed?',
@@ -14932,7 +14932,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2225,
+        id: 2224,
         Aircraft: 'H175',
         Category: '28',
         question: 'What component is used to automatically stop refueling when the tanks are full?',
@@ -14944,7 +14944,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2226,
+        id: 2225,
         Aircraft: 'H175',
         Category: '28',
         question: 'What alert is displayed when the fuel quantity in the feeders drops to 10 minutes of remaining flight time?',
@@ -14956,7 +14956,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2227,
+        id: 2226,
         Aircraft: 'H175',
         Category: '28',
         question: 'What is the function of the fuel collection system in the EC175?',
@@ -14968,7 +14968,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2228,
+        id: 2227,
         Aircraft: 'H175',
         Category: '28',
         question: 'How many feeder tanks are fitted with Low-Level Sensors (LLS)?',
@@ -14979,9 +14979,9 @@ export const questions = [
         },
         correct: 'a'
     },
-    /*TODO H175 -- ATA -- '29' **NEED TO CHECK***/
+    /*TODO  H175 -- ATA '29' ****TO CHECK***** */
     {
-        id: 2229,
+        id: 2228,
         Aircraft: 'H175',
         Category: '29',
         question: 'How many independent hydraulic systems are there in the EC175?',
@@ -14993,7 +14993,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2230,
+        id: 2229,
         Aircraft: 'H175',
         Category: '29',
         question: 'What system provides hydraulic power for the landing gear and wheel brakes?',
@@ -15005,7 +15005,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2231,
+        id: 2230,
         Aircraft: 'H175',
         Category: '29',
         question: 'What is the system pressure for both MHS1 and MHS2?',
@@ -15017,7 +15017,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2232,
+        id: 2231,
         Aircraft: 'H175',
         Category: '29',
         question: 'Which hydraulic system has a larger capacity reservoir?',
@@ -15029,7 +15029,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2233,
+        id: 2232,
         Aircraft: 'H175',
         Category: '29',
         question: 'Which system provides backup in case of a mechanical pump failure in MHS2?',
@@ -15041,7 +15041,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2234,
+        id: 2233,
         Aircraft: 'H175',
         Category: '29',
         question: 'What type of pump is used in MHS1 and MHS2?',
@@ -15053,7 +15053,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2235,
+        id: 2234,
         Aircraft: 'H175',
         Category: '29',
         question: 'Where is the auxiliary hydraulic pump located?',
@@ -15065,7 +15065,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2236,
+        id: 2235,
         Aircraft: 'H175',
         Category: '29',
         question: 'What is the purpose of the auxiliary hydraulic pump during flight?',
@@ -15077,7 +15077,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2237,
+        id: 2236,
         Aircraft: 'H175',
         Category: '29',
         question: 'How many main rotor servos are there in the EC175 hydraulic system?',
@@ -15089,7 +15089,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2238,
+        id: 2237,
         Aircraft: 'H175',
         Category: '29',
         question: 'What is the nominal pressure of the hydraulic system in flight?',
@@ -15101,7 +15101,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2239,
+        id: 2238,
         Aircraft: 'H175',
         Category: '29',
         question: 'What system controls the tail rotor pitch?',
@@ -15113,7 +15113,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2240,
+        id: 2239,
         Aircraft: 'H175',
         Category: '29',
         question: 'How is redundancy achieved in the EC175 hydraulic system?',
@@ -15125,7 +15125,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2241,
+        id: 2240,
         Aircraft: 'H175',
         Category: '29',
         question: 'Where is the hydraulic control panel located?',
@@ -15137,7 +15137,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2242,
+        id: 2241,
         Aircraft: 'H175',
         Category: '29',
         question: 'What does the hydraulic by-pass valve do?',
@@ -15149,7 +15149,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2243,
+        id: 2242,
         Aircraft: 'H175',
         Category: '29',
         question: 'What is the function of the hydraulic accumulator?',
@@ -15161,7 +15161,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2244,
+        id: 2243,
         Aircraft: 'H175',
         Category: '29',
         question: 'What component in the MHS1 hydraulic system regulates fluid pressure?',
@@ -15173,7 +15173,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2245,
+        id: 2244,
         Aircraft: 'H175',
         Category: '29',
         question: 'What happens when the hydraulic temperature exceeds 110°C?',
@@ -15185,7 +15185,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2246,
+        id: 2245,
         Aircraft: 'H175',
         Category: '29',
         question: 'What is the primary use of the auxiliary hydraulic system in flight?',
@@ -15197,7 +15197,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2247,
+        id: 2246,
         Aircraft: 'H175',
         Category: '29',
         question: 'What is the purpose of the hydraulic system test during power-up?',
@@ -15209,7 +15209,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2248,
+        id: 2247,
         Aircraft: 'H175',
         Category: '29',
         question: 'What happens when hydraulic pressure falls below 110 bar?',
@@ -15221,7 +15221,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2249,
+        id: 2248,
         Aircraft: 'H175',
         Category: '29',
         question: 'What warning message is displayed when hydraulic pressure drops in MHS1?',
@@ -15233,7 +15233,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2250,
+        id: 2249,
         Aircraft: 'H175',
         Category: '29',
         question: 'Where is the brake accumulator located?',
@@ -15245,7 +15245,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2251,
+        id: 2250,
         Aircraft: 'H175',
         Category: '29',
         question: 'Which component controls the auxiliary hydraulic pump?',
@@ -15257,7 +15257,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2252,
+        id: 2251,
         Aircraft: 'H175',
         Category: '29',
         question: 'What does the auxiliary hydraulic pump do when the brake accumulator pressure is below 120 bar?',
@@ -15269,7 +15269,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2253,
+        id: 2252,
         Aircraft: 'H175',
         Category: '29',
         question: 'What system indicator displays hydraulic fluid temperature and level?',
@@ -15281,7 +15281,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2254,
+        id: 2253,
         Aircraft: 'H175',
         Category: '29',
         question: 'What does the caution message HYD TREND indicate?',
@@ -15293,7 +15293,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2255,
+        id: 2254,
         Aircraft: 'H175',
         Category: '29',
         question: 'What is the function of the hydraulic by-pass switch in emergency conditions?',
@@ -15305,7 +15305,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2256,
+        id: 2255,
         Aircraft: 'H175',
         Category: '29',
         question: 'What is the pressure range during normal auxiliary pump operation?',
@@ -15317,7 +15317,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2257,
+        id: 2256,
         Aircraft: 'H175',
         Category: '29',
         question: 'What warning message is triggered if the auxiliary hydraulic pump overheats?',
@@ -15329,7 +15329,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2258,
+        id: 2257,
         Aircraft: 'H175',
         Category: '29',
         question: 'What is the primary role of the pressure relief valve in the hydraulic system?',
@@ -15341,7 +15341,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2259,
+        id: 2258,
         Aircraft: 'H175',
         Category: '29',
         question: 'What does the amber warning light on the hydraulic control panel indicate?',
@@ -15353,7 +15353,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2260,
+        id: 2259,
         Aircraft: 'H175',
         Category: '29',
         question: 'What component sends the hydraulic pressure information to the VMS?',
@@ -15365,7 +15365,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2261,
+        id: 2260,
         Aircraft: 'H175',
         Category: '29',
         question: 'What happens when both stages of the main rotor servo lose hydraulic pressure?',
@@ -15377,7 +15377,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2262,
+        id: 2261,
         Aircraft: 'H175',
         Category: '29',
         question: 'What is the function of the low-level sensor in the MHS1 reservoir?',
@@ -15389,7 +15389,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2263,
+        id: 2262,
         Aircraft: 'H175',
         Category: '29',
         question: 'How is the tail servo isolated during a hydraulic leak in MHS1?',
@@ -15401,7 +15401,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2264,
+        id: 2263,
         Aircraft: 'H175',
         Category: '29',
         question: 'What happens if a hydraulic leak occurs downstream of the auxiliary system check valve in MHS2?',
@@ -15413,7 +15413,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2265,
+        id: 2264,
         Aircraft: 'H175',
         Category: '29',
         question: 'What does the system do if MHS2 pressure drops and the auxiliary pump is activated?',
@@ -15425,7 +15425,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2266,
+        id: 2265,
         Aircraft: 'H175',
         Category: '29',
         question: 'What message is displayed when the hydraulic tests fail during automatic power-up?',
@@ -15437,7 +15437,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2267,
+        id: 2266,
         Aircraft: 'H175',
         Category: '29',
         question: 'What is the role of the hydraulic temperature sensor in MHS1 and MHS2?',
@@ -15449,7 +15449,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2268,
+        id: 2267,
         Aircraft: 'H175',
         Category: '29',
         question: 'What happens when the hydraulic fluid level in MHS1 drops below 2 liters?',
@@ -15461,7 +15461,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2269,
+        id: 2268,
         Aircraft: 'H175',
         Category: '29',
         question: 'What is the normal pressure range for the brake accumulator in the EC175 hydraulic system?',
@@ -15473,7 +15473,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2270,
+        id: 2269,
         Aircraft: 'H175',
         Category: '29',
         question: 'Which system powers the normal operation of the landing gear?',
@@ -15485,7 +15485,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2271,
+        id: 2270,
         Aircraft: 'H175',
         Category: '29',
         question: 'Where is the brake accumulator pressure indicator located?',
@@ -15497,7 +15497,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2272,
+        id: 2271,
         Aircraft: 'H175',
         Category: '29',
         question: 'What does the amber LOW LEVEL HYD2 warning message indicate?',
@@ -15509,7 +15509,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2273,
+        id: 2272,
         Aircraft: 'H175',
         Category: '29',
         question: 'What triggers the automatic shutdown of the auxiliary pump during hydraulic failure?',
@@ -15520,9 +15520,9 @@ export const questions = [
         },
         correct: 'a'
     },
-    /*TODO H175 -- ATA -- '31' **NEED TO CHECK***/
+    /*TODO  H175 -- ATA '31' ****TO CHECK***** */
     {
-        id: 2274,
+        id: 2273,
         Aircraft: 'H175',
         Category: '31',
         question: 'What is the primary function of the Helionix system?',
@@ -15534,7 +15534,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2275,
+        id: 2274,
         Aircraft: 'H175',
         Category: '31',
         question: 'How many processing channels does each Aircraft Management Computer (AMC) have?',
@@ -15546,7 +15546,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2276,
+        id: 2275,
         Aircraft: 'H175',
         Category: '31',
         question: 'What is the purpose of the Vehicle Management System (VMS) partition in the AMC?',
@@ -15558,7 +15558,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2277,
+        id: 2276,
         Aircraft: 'H175',
         Category: '31',
         question: 'Where are the two AMCs located in the EC175?',
@@ -15570,7 +15570,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2278,
+        id: 2277,
         Aircraft: 'H175',
         Category: '31',
         question: 'What is displayed on the Flight Navigation Display (FND)?',
@@ -15582,7 +15582,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2279,
+        id: 2278,
         Aircraft: 'H175',
         Category: '31',
         question: 'What happens if an outer MFD fails?',
@@ -15594,7 +15594,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2280,
+        id: 2279,
         Aircraft: 'H175',
         Category: '31',
         question: 'Which MFD page displays vehicle management information such as torques, speeds, temperatures, and pressures?',
@@ -15606,7 +15606,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2281,
+        id: 2280,
         Aircraft: 'H175',
         Category: '31',
         question: 'What system records and transfers flight data for later analysis?',
@@ -15618,7 +15618,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2282,
+        id: 2281,
         Aircraft: 'H175',
         Category: '31',
         question: 'What data is presented on the VMS-HYD page?',
@@ -15630,7 +15630,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2283,
+        id: 2282,
         Aircraft: 'H175',
         Category: '31',
         question: 'What is the role of the shock sensors located near AMC2?',
@@ -15642,7 +15642,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2284,
+        id: 2283,
         Aircraft: 'H175',
         Category: '31',
         question: 'What partition in the AMC is responsible for Flight Data Continuous Recording?',
@@ -15654,7 +15654,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2285,
+        id: 2284,
         Aircraft: 'H175',
         Category: '31',
         question: 'What is the role of the Integrated Electronic Standby Instrument (IESI)?',
@@ -15666,7 +15666,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2286,
+        id: 2285,
         Aircraft: 'H175',
         Category: '31',
         question: 'How many Multi-Function Displays (MFDs) are installed on the EC175 instrument panel?',
@@ -15678,7 +15678,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2287,
+        id: 2286,
         Aircraft: 'H175',
         Category: '31',
         question: 'Which MFD page provides information on gearbox oil temperatures and chip detector statuses?',
@@ -15690,7 +15690,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2288,
+        id: 2287,
         Aircraft: 'H175',
         Category: '31',
         question: 'What happens when the Event Marker Button is pressed?',
@@ -15702,7 +15702,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2289,
+        id: 2288,
         Aircraft: 'H175',
         Category: '31',
         question: 'Which system manages visual and audio alerts in the EC175?',
@@ -15714,7 +15714,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2290,
+        id: 2289,
         Aircraft: 'H175',
         Category: '31',
         question: 'Where is the Data Transfer Device (DTD) located?',
@@ -15726,7 +15726,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2291,
+        id: 2290,
         Aircraft: 'H175',
         Category: '31',
         question: 'What is the purpose of the Health Monitoring System (HMS)?',
@@ -15738,7 +15738,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2292,
+        id: 2291,
         Aircraft: 'H175',
         Category: '31',
         question: 'What is indicated by the FUEL 1 LOW warning on the Master List?',
@@ -15750,7 +15750,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2293,
+        id: 2292,
         Aircraft: 'H175',
         Category: '31',
         question: 'What is the purpose of the Synthetic Vision System (SVS)?',
@@ -15762,7 +15762,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2294,
+        id: 2293,
         Aircraft: 'H175',
         Category: '31',
         question: 'What type of data is displayed on the VMS-FUEL page?',
@@ -15774,7 +15774,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2295,
+        id: 2294,
         Aircraft: 'H175',
         Category: '31',
         question: 'What does the Master Alarm Acknowledge (MASTER ACK) button do?',
@@ -15786,7 +15786,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2296,
+        id: 2295,
         Aircraft: 'H175',
         Category: '31',
         question: 'What page on the MFD displays the Helicopter Terrain Avoidance Warning System (HTAWS)?',
@@ -15798,7 +15798,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2297,
+        id: 2296,
         Aircraft: 'H175',
         Category: '31',
         question: 'Which system monitors the power supply and status of the Multi-Function Displays (MFDs)?',
@@ -15810,7 +15810,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2298,
+        id: 2297,
         Aircraft: 'H175',
         Category: '31',
         question: 'How many Line Select Keys (LSKs) are available on each Multi-Function Display (MFD)?',
@@ -15822,7 +15822,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2299,
+        id: 2298,
         Aircraft: 'H175',
         Category: '31',
         question: 'Which system provides 25 hours of flight data recording and 2 hours of cockpit audio?',
@@ -15834,7 +15834,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2300,
+        id: 2299,
         Aircraft: 'H175',
         Category: '31',
         question: 'What data is stored in the AMC’s internal memory during failure management?',
@@ -15846,7 +15846,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2301,
+        id: 2300,
         Aircraft: 'H175',
         Category: '31',
         question: 'What component in the EC175 is responsible for monitoring rotor vibrations?',
@@ -15858,7 +15858,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2302,
+        id: 2301,
         Aircraft: 'H175',
         Category: '31',
         question: 'What is the role of the Central Warning Panel (CWP) in the alerting system?',
@@ -15870,7 +15870,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2303,
+        id: 2302,
         Aircraft: 'H175',
         Category: '31',
         question: 'Where is the Cockpit Area Microphone located?',
@@ -15882,7 +15882,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2304,
+        id: 2303,
         Aircraft: 'H175',
         Category: '31',
         question: 'What happens when the CVFDR Inertia Switch is triggered?',
@@ -15894,7 +15894,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2305,
+        id: 2304,
         Aircraft: 'H175',
         Category: '31',
         question: 'How is the CVFDR powered after the main aircraft power supply is cut?',
@@ -15906,7 +15906,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2306,
+        id: 2305,
         Aircraft: 'H175',
         Category: '31',
         question: 'What triggers the Water Immersion Sensor (WIS) on the CVFDR?',
@@ -15918,7 +15918,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2307,
+        id: 2306,
         Aircraft: 'H175',
         Category: '31',
         question: 'What is the purpose of the PWR-UP TST message on the Master List?',
@@ -15930,7 +15930,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2308,
+        id: 2307,
         Aircraft: 'H175',
         Category: '31',
         question: 'What page on the MFD allows access to the helicopter maintenance system?',
@@ -15942,7 +15942,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2309,
+        id: 2308,
         Aircraft: 'H175',
         Category: '31',
         question: 'What system manages usage monitoring and flight data analysis?',
@@ -15954,7 +15954,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2310,
+        id: 2309,
         Aircraft: 'H175',
         Category: '31',
         question: 'How many accelerometers are part of the Health Monitoring System (HMS)?',
@@ -15966,7 +15966,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2311,
+        id: 2310,
         Aircraft: 'H175',
         Category: '31',
         question: 'Which display mode on the NAVD page presents navigation information in a 360° form?',
@@ -15978,7 +15978,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2312,
+        id: 2311,
         Aircraft: 'H175',
         Category: '31',
         question: 'What is the primary purpose of the Cockpit Voice and Flight Data Recorder (CVFDR)?',
@@ -15990,7 +15990,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2313,
+        id: 2312,
         Aircraft: 'H175',
         Category: '31',
         question: 'What partition performs the Automatic Flight Control System (AFCS) function?',
@@ -16002,7 +16002,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2314,
+        id: 2313,
         Aircraft: 'H175',
         Category: '31',
         question: 'How long does the CVFDR record cockpit audio?',
@@ -16014,7 +16014,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2315,
+        id: 2314,
         Aircraft: 'H175',
         Category: '31',
         question: 'What message is displayed on the Master List if a failure occurs during the clearance test?',
@@ -16026,7 +16026,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2316,
+        id: 2315,
         Aircraft: 'H175',
         Category: '31',
         question: 'Which sensor is located under the rear cargo compartment floor panel?',
@@ -16038,7 +16038,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2317,
+        id: 2316,
         Aircraft: 'H175',
         Category: '31',
         question: 'What system records vibration data from the Main Gearbox (MGB) input shaft?',
@@ -16050,7 +16050,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2318,
+        id: 2317,
         Aircraft: 'H175',
         Category: '31',
         question: 'What happens when the ERASE button on the CVFDR Maintenance Panel is pressed?',
@@ -16062,7 +16062,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2319,
+        id: 2318,
         Aircraft: 'H175',
         Category: '31',
         question: 'What does the message “AVIONIC TST FAIL” indicate?',
@@ -16074,7 +16074,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2320,
+        id: 2319,
         Aircraft: 'H175',
         Category: '31',
         question: 'Which system displays the message “PWR-UP TST OK”?',
@@ -16086,7 +16086,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2321,
+        id: 2320,
         Aircraft: 'H175',
         Category: '31',
         question: 'What does the message “AMC1 CHAN A FAIL” represent?',
@@ -16098,7 +16098,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2322,
+        id: 2321,
         Aircraft: 'H175',
         Category: '31',
         question: 'What is the purpose of the Pre-Flight Test?',
@@ -16110,7 +16110,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2323,
+        id: 2322,
         Aircraft: 'H175',
         Category: '31',
         question: 'Where is the Recorder Independent Power Supply (RIPS) located?',
@@ -16122,7 +16122,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2324,
+        id: 2323,
         Aircraft: 'H175',
         Category: '31',
         question: 'How long does the Recorder Independent Power Supply (RIPS) maintain power to the CVFDR after the main power is cut?',
@@ -16134,7 +16134,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2325,
+        id: 2324,
         Aircraft: 'H175',
         Category: '31',
         question: 'Which system is tested during the Power-Up Test?',
@@ -16146,7 +16146,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2326,
+        id: 2325,
         Aircraft: 'H175',
         Category: '31',
         question: 'What does the CVFDR Inertia Switch do after detecting a crash?',
@@ -16158,7 +16158,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2327,
+        id: 2326,
         Aircraft: 'H175',
         Category: '31',
         question: 'What is the primary function of the Cockpit Voice Recorder (CVR)?',
@@ -16169,9 +16169,9 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO H175 -- ATA -- '46' **NEED TO CHECK***/
+    /*TODO  H175 -- ATA '46' ****TO CHECK******/
     {
-        id: 2328,
+        id: 2327,
         Aircraft: 'H175',
         Category: '46',
         question: 'How many Aircraft Management Computers (AMC) are installed on the EC175?',
@@ -16183,7 +16183,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2329,
+        id: 2328,
         Aircraft: 'H175',
         Category: '46',
         question: 'What is the function of the Vehicle Management System (VMS) partition in the AMC?',
@@ -16195,7 +16195,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2330,
+        id: 2329,
         Aircraft: 'H175',
         Category: '46',
         question: 'Where are the two AMCs located on the EC175?',
@@ -16207,7 +16207,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2331,
+        id: 2330,
         Aircraft: 'H175',
         Category: '46',
         question: 'Which system performs the Power-up Built In Test (PBIT) during aircraft initialization?',
@@ -16219,7 +16219,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2332,
+        id: 2331,
         Aircraft: 'H175',
         Category: '46',
         question: 'What is the purpose of the CIRM partition in the AMC?',
@@ -16231,7 +16231,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2333,
+        id: 2332,
         Aircraft: 'H175',
         Category: '46',
         question: 'Where is the AMC2 power switch located?',
@@ -16243,7 +16243,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2334,
+        id: 2333,
         Aircraft: 'H175',
         Category: '46',
         question: 'What system displays AMC failure messages on the Master List?',
@@ -16255,7 +16255,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2335,
+        id: 2334,
         Aircraft: 'H175',
         Category: '46',
         question: 'What message is displayed on the Master List if AMC1 Channel A fails?',
@@ -16267,7 +16267,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2336,
+        id: 2335,
         Aircraft: 'H175',
         Category: '46',
         question: 'What is the purpose of the Power-Up Test (PWT) for the AMCs?',
@@ -16279,7 +16279,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2337,
+        id: 2336,
         Aircraft: 'H175',
         Category: '46',
         question: 'What message is shown when power-up tests are running successfully?',
@@ -16291,7 +16291,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2338,
+        id: 2337,
         Aircraft: 'H175',
         Category: '46',
         question: 'What does the message “PWR-UP TST ABORT” indicate?',
@@ -16303,7 +16303,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2339,
+        id: 2338,
         Aircraft: 'H175',
         Category: '46',
         question: 'What is the role of the shock sensors installed near AMC2?',
@@ -16315,7 +16315,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2340,
+        id: 2339,
         Aircraft: 'H175',
         Category: '46',
         question: 'What is indicated by the message “AMC MINOR REDUND” on the Master List?',
@@ -16327,7 +16327,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2341,
+        id: 2340,
         Aircraft: 'H175',
         Category: '46',
         question: 'What happens when the shock sensors detect an impact?',
@@ -16339,7 +16339,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2342,
+        id: 2341,
         Aircraft: 'H175',
         Category: '46',
         question: 'Which AMC partition is responsible for Automatic Flight Control System (AFCS) monitoring?',
@@ -16351,7 +16351,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2343,
+        id: 2342,
         Aircraft: 'H175',
         Category: '46',
         question: 'What page displays vehicle parameters such as torques, speeds, temperatures, and pressures?',
@@ -16363,7 +16363,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2344,
+        id: 2343,
         Aircraft: 'H175',
         Category: '46',
         question: 'How many Multi-Function Displays (MFDs) are installed on the instrument panel?',
@@ -16375,7 +16375,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2345,
+        id: 2344,
         Aircraft: 'H175',
         Category: '46',
         question: 'Which MFD displays the VMS page at initial power on?',
@@ -16387,7 +16387,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2346,
+        id: 2345,
         Aircraft: 'H175',
         Category: '46',
         question: 'What happens if an outer MFD fails during operation?',
@@ -16399,7 +16399,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2347,
+        id: 2346,
         Aircraft: 'H175',
         Category: '46',
         question: 'What data is displayed on the VMS-HYD page?',
@@ -16411,7 +16411,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2348,
+        id: 2347,
         Aircraft: 'H175',
         Category: '46',
         question: 'Which system performs maintenance data recording and memory management?',
@@ -16423,7 +16423,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2349,
+        id: 2348,
         Aircraft: 'H175',
         Category: '46',
         question: 'What page provides access to the individual system pages for fuel, electrical, and hydraulic systems?',
@@ -16435,7 +16435,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2350,
+        id: 2349,
         Aircraft: 'H175',
         Category: '46',
         question: 'What MFD message is displayed when an incorrect software configuration is detected?',
@@ -16447,7 +16447,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2351,
+        id: 2350,
         Aircraft: 'H175',
         Category: '46',
         question: 'Which page displays the fuel flow rates, pressures, and quantities?',
@@ -16459,7 +16459,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2352,
+        id: 2351,
         Aircraft: 'H175',
         Category: '46',
         question: 'What MFD page provides access to external video like the tail camera?',
@@ -16471,7 +16471,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2353,
+        id: 2352,
         Aircraft: 'H175',
         Category: '46',
         question: 'What is the function of the Digital Map (DMAP) on the MFD?',
@@ -16483,7 +16483,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2354,
+        id: 2353,
         Aircraft: 'H175',
         Category: '46',
         question: 'What does the FND display during normal flight operations?',
@@ -16495,7 +16495,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2355,
+        id: 2354,
         Aircraft: 'H175',
         Category: '46',
         question: 'Where is the maintenance toggle switch located on the EC175?',
@@ -16507,7 +16507,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2356,
+        id: 2355,
         Aircraft: 'H175',
         Category: '46',
         question: 'What MFD message is displayed when cross talk failure occurs between the MFDs?',
@@ -16519,7 +16519,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2357,
+        id: 2356,
         Aircraft: 'H175',
         Category: '46',
         question: 'How does the MFD alert the crew in case of internal overheating?',
@@ -16531,7 +16531,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2358,
+        id: 2357,
         Aircraft: 'H175',
         Category: '46',
         question: 'What is the maximum internal temperature limit for an MFD before it shuts down?',
@@ -16543,7 +16543,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2359,
+        id: 2358,
         Aircraft: 'H175',
         Category: '46',
         question: 'Which MFD page shows electrical parameters such as battery temperatures and generator status?',
@@ -16555,7 +16555,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2360,
+        id: 2359,
         Aircraft: 'H175',
         Category: '46',
         question: 'Where is the Data Transfer Device (DTD) located on the EC175?',
@@ -16567,7 +16567,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2361,
+        id: 2360,
         Aircraft: 'H175',
         Category: '46',
         question: 'What is the role of the Data Transfer Device (DTD)?',
@@ -16579,7 +16579,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2362,
+        id: 2361,
         Aircraft: 'H175',
         Category: '46',
         question: 'How does the DTD connect to the AMCs and MFDs?',
@@ -16591,7 +16591,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2363,
+        id: 2362,
         Aircraft: 'H175',
         Category: '46',
         question: 'What message is displayed if the MFD has frozen and is no longer processing data correctly?',
@@ -16603,7 +16603,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2364,
+        id: 2363,
         Aircraft: 'H175',
         Category: '46',
         question: 'What is displayed on the VMS-HYD page?',
@@ -16615,7 +16615,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2365,
+        id: 2364,
         Aircraft: 'H175',
         Category: '46',
         question: 'What happens when the AMC2 detects a bad configuration?',
@@ -16627,7 +16627,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2366,
+        id: 2365,
         Aircraft: 'H175',
         Category: '46',
         question: 'What does the VMS-RCNF page allow the operator to do?',
@@ -16639,7 +16639,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2367,
+        id: 2366,
         Aircraft: 'H175',
         Category: '46',
         question: 'Which system provides status and configuration options for the helicopter’s avionic equipment?',
@@ -16651,7 +16651,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2368,
+        id: 2367,
         Aircraft: 'H175',
         Category: '46',
         question: 'What is the purpose of the Electronic Flight Bag (EFB) displayed on the MFD?',
@@ -16662,9 +16662,9 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO H175 -- ATA -- '62' **NEED TO CHECK***/
+    /*TODO  H175 -- ATA '62' ****TO CHECK******/
     {
-        id: 2369,
+        id: 2368,
         Aircraft: 'H175',
         Category: '62',
         question: 'Which manual is now dedicated to standard practices for the rotor section of the EC175?',
@@ -16676,7 +16676,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2370,
+        id: 2369,
         Aircraft: 'H175',
         Category: '62',
         question: 'What type of engine does the EC175 use?',
@@ -16688,7 +16688,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2371,
+        id: 2370,
         Aircraft: 'H175',
         Category: '62',
         question: 'What does the M.T.C manual contain?',
@@ -16700,7 +16700,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2372,
+        id: 2371,
         Aircraft: 'H175',
         Category: '62',
         question: 'In which manual will you find limited information on standard practices for the EC175 rotor section?',
@@ -16712,7 +16712,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2373,
+        id: 2372,
         Aircraft: 'H175',
         Category: '62',
         question: 'What are the maintenance tasks for the EC175 blades divided into?',
@@ -16724,7 +16724,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2374,
+        id: 2373,
         Aircraft: 'H175',
         Category: '62',
         question: 'Which maintenance level is related to repair class "COV"?',
@@ -16736,7 +16736,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2375,
+        id: 2374,
         Aircraft: 'H175',
         Category: '62',
         question: 'Which personnel can carry out "COV" tasks?',
@@ -16748,7 +16748,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2376,
+        id: 2375,
         Aircraft: 'H175',
         Category: '62',
         question: 'What must be valid for personnel to perform "COV" tasks?',
@@ -16760,7 +16760,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2377,
+        id: 2376,
         Aircraft: 'H175',
         Category: '62',
         question: 'What type of repairs does the AMM manual for EC175 blades include?',
@@ -16772,7 +16772,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2378,
+        id: 2377,
         Aircraft: 'H175',
         Category: '62',
         question: 'What happens if personnel qualifications for "COV" tasks are not valid?',
@@ -16784,7 +16784,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2379,
+        id: 2378,
         Aircraft: 'H175',
         Category: '62',
         question: 'What type of rotor system does the EC175 use?',
@@ -16796,7 +16796,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2380,
+        id: 2379,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the function of the main rotor system on the EC175?',
@@ -16808,7 +16808,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2381,
+        id: 2380,
         Aircraft: 'H175',
         Category: '62',
         question: 'What angle is the main rotor of the EC175 tilted forward by?',
@@ -16820,7 +16820,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2382,
+        id: 2381,
         Aircraft: 'H175',
         Category: '62',
         question: 'How many blades does the EC175 main rotor have?',
@@ -16832,7 +16832,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2383,
+        id: 2382,
         Aircraft: 'H175',
         Category: '62',
         question: 'What material is the main rotor hub of the EC175 made of?',
@@ -16844,7 +16844,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2384,
+        id: 2383,
         Aircraft: 'H175',
         Category: '62',
         question: 'What component prevents excessive blade droop on the EC175?',
@@ -16856,7 +16856,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2385,
+        id: 2384,
         Aircraft: 'H175',
         Category: '62',
         question: 'What controls the movement of the swashplate on the EC175?',
@@ -16868,7 +16868,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2386,
+        id: 2385,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the purpose of the rotating swashplate on the EC175?',
@@ -16880,7 +16880,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2387,
+        id: 2386,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the shape of the EC175 main rotor blade tip?',
@@ -16892,7 +16892,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2388,
+        id: 2387,
         Aircraft: 'H175',
         Category: '62',
         question: 'What material is used for the leading-edge protection of the EC175 main rotor blade?',
@@ -16904,7 +16904,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2389,
+        id: 2388,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the purpose of the copper mesh on the main rotor blade?',
@@ -16916,7 +16916,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2390,
+        id: 2389,
         Aircraft: 'H175',
         Category: '62',
         question: 'How is static electricity discharged from the EC175 main rotor blades?',
@@ -16928,7 +16928,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2391,
+        id: 2390,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the maximum forward tilt angle of the main rotor head?',
@@ -16940,7 +16940,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2392,
+        id: 2391,
         Aircraft: 'H175',
         Category: '62',
         question: 'At what speed does the EC175 main rotor head rotate?',
@@ -16952,7 +16952,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2393,
+        id: 2392,
         Aircraft: 'H175',
         Category: '62',
         question: 'What component limits the flapping of the main rotor blades?',
@@ -16964,7 +16964,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2394,
+        id: 2393,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the primary function of the lead-lag dampers?',
@@ -16976,7 +16976,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2395,
+        id: 2394,
         Aircraft: 'H175',
         Category: '62',
         question: 'What type of bearing is used in the main rotor hub of the EC175?',
@@ -16988,7 +16988,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2396,
+        id: 2395,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the material used for the EC175 main rotor blade’s skin?',
@@ -17000,7 +17000,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2397,
+        id: 2396,
         Aircraft: 'H175',
         Category: '62',
         question: 'What ensures the electrical continuity between the main rotor blade and the hub?',
@@ -17012,7 +17012,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2398,
+        id: 2397,
         Aircraft: 'H175',
         Category: '62',
         question: 'How many pitch control rods are used to control the EC175 main rotor blades?',
@@ -17024,7 +17024,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2399,
+        id: 2398,
         Aircraft: 'H175',
         Category: '62',
         question: 'What component of the main rotor transmits torque from the mast to the blades?',
@@ -17036,7 +17036,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2400,
+        id: 2399,
         Aircraft: 'H175',
         Category: '62',
         question: 'How are the main rotor blades of the EC175 balanced?',
@@ -17048,7 +17048,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2401,
+        id: 2400,
         Aircraft: 'H175',
         Category: '62',
         question: 'What material fills the core of the EC175 main rotor blades?',
@@ -17060,7 +17060,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2402,
+        id: 2401,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the purpose of the electro-formed nickel leading-edge protection on the rotor blade tips?',
@@ -17072,7 +17072,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2403,
+        id: 2402,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the length of the blade attachment pin axes on the EC175 main rotor?',
@@ -17084,7 +17084,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2404,
+        id: 2403,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the twist angle applied to the wide trim tabs on the EC175 rotor blades?',
@@ -17096,7 +17096,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2405,
+        id: 2404,
         Aircraft: 'H175',
         Category: '62',
         question: 'What material are the trim tabs on the EC175 main rotor blades made of?',
@@ -17108,7 +17108,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2406,
+        id: 2405,
         Aircraft: 'H175',
         Category: '62',
         question: 'Which part of the main rotor blade is specifically protected by polyurethane?',
@@ -17120,7 +17120,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2407,
+        id: 2406,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the primary role of the spherical bearings in the EC175 main rotor?',
@@ -17132,7 +17132,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2408,
+        id: 2407,
         Aircraft: 'H175',
         Category: '62',
         question: 'How many NR sensors are used to monitor the EC175 main rotor speed?',
@@ -17144,490 +17144,1172 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2642,
+        id: 2408,
         Aircraft: 'H175',
         Category: '62',
         question: 'What type of main rotor system is used on the H175?',
         options: {
-          a: 'Rigid rotor system',
-          b: 'Spheriflex rotor system',
-          c: 'Semi-rigid rotor system'
+            a: 'Rigid rotor system',
+            b: 'Spheriflex rotor system',
+            c: 'Semi-rigid rotor system'
         },
         correct: 'b'
-      },
-      {
-        id: 2643,
+    },
+    {
+        id: 2409,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the main rotor of the H175 tilted forward by?',
         options: {
-          a: '2 degrees',
-          b: '6.5 degrees',
-          c: '4.5 degrees'
+            a: '2 degrees',
+            b: '6.5 degrees',
+            c: '4.5 degrees'
         },
         correct: 'c'
-      },
-      {
-        id: 2644,
+    },
+    {
+        id: 2410,
         Aircraft: 'H175',
         Category: '62',
         question: 'How many blades does the main rotor of the H175 have?',
         options: {
-          a: '4',
-          b: '5',
-          c: '6'
+            a: '4',
+            b: '5',
+            c: '6'
         },
         correct: 'b'
-      },
-      {
-        id: 2645,
+    },
+    {
+        id: 2411,
         Aircraft: 'H175',
         Category: '62',
         question: 'What type of material is primarily used for the H175 main rotor blades?',
         options: {
-          a: 'Aluminum',
-          b: 'Composite materials',
-          c: 'Steel'
+            a: 'Aluminum',
+            b: 'Composite materials',
+            c: 'Steel'
         },
         correct: 'b'
-      },
-      {
-        id: 2646,
+    },
+    {
+        id: 2412,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the purpose of the swashplate in the main rotor system?',
         options: {
-          a: 'To control blade pitch and transmit flight control inputs to the rotor blades',
-          b: 'To transmit power from the engines to the rotor blades',
-          c: 'To lubricate the rotor head'
+            a: 'To control blade pitch and transmit flight control inputs to the rotor blades',
+            b: 'To transmit power from the engines to the rotor blades',
+            c: 'To lubricate the rotor head'
         },
         correct: 'a'
-      },
-      {
-        id: 2647,
+    },
+    {
+        id: 2413,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the shape of the main rotor blade tip on the H175?',
         options: {
-          a: 'Square',
-          b: 'Dihedral',
-          c: 'Parabolic'
+            a: 'Square',
+            b: 'Dihedral',
+            c: 'Parabolic'
         },
         correct: 'c'
-      },
-      {
-        id: 2648,
+    },
+    {
+        id: 2414,
         Aircraft: 'H175',
         Category: '62',
         question: 'What protects the leading edge of the H175 main rotor blades from erosion?',
         options: {
-          a: 'Polyurethane foam',
-          b: 'Metal shields',
-          c: 'Rubber strips'
+            a: 'Polyurethane foam',
+            b: 'Metal shields',
+            c: 'Rubber strips'
         },
         correct: 'b'
-      },
-      {
-        id: 2649,
+    },
+    {
+        id: 2415,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the role of the elastomeric bearings in the main rotor system?',
         options: {
-          a: 'To support the rotor blades during high-speed flight',
-          b: 'To provide hinge-free motion for pitch, flapping, and lead-lag movements',
-          c: 'To reduce drag'
+            a: 'To support the rotor blades during high-speed flight',
+            b: 'To provide hinge-free motion for pitch, flapping, and lead-lag movements',
+            c: 'To reduce drag'
         },
         correct: 'b'
-      },
-      {
-        id: 2650,
+    },
+    {
+        id: 2416,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the nominal rotational speed of the H175 main rotor?',
         options: {
-          a: '279 rpm',
-          b: '320 rpm',
-          c: '250 rpm'
+            a: '279 rpm',
+            b: '320 rpm',
+            c: '250 rpm'
         },
         correct: 'a'
-      },
-      {
-        id: 2651,
+    },
+    {
+        id: 2417,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the function of the pitch control rods in the main rotor system?',
         options: {
-          a: 'To change blade pitch based on cyclic and collective inputs',
-          b: 'To reduce vibrations during flight',
-          c: 'To monitor rotor speed'
+            a: 'To change blade pitch based on cyclic and collective inputs',
+            b: 'To reduce vibrations during flight',
+            c: 'To monitor rotor speed'
         },
         correct: 'a'
-      },
-      {
-        id: 2652,
+    },
+    {
+        id: 2418,
         Aircraft: 'H175',
         Category: '62',
         question: 'What material is used to provide lightning protection for the main rotor blades?',
         options: {
-          a: 'Aluminum foil',
-          b: 'Copper mesh',
-          c: 'Steel wire'
+            a: 'Aluminum foil',
+            b: 'Copper mesh',
+            c: 'Steel wire'
         },
         correct: 'b'
-      },
-      {
-        id: 2653,
+    },
+    {
+        id: 2419,
         Aircraft: 'H175',
         Category: '62',
         question: 'How many hinges does the spherical thrust bearing provide for each blade?',
         options: {
-          a: '2',
-          b: '3',
-          c: '4'
+            a: '2',
+            b: '3',
+            c: '4'
         },
         correct: 'b'
-      },
-      {
-        id: 2654,
+    },
+    {
+        id: 2420,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the primary purpose of the lead-lag dampers in the main rotor system?',
         options: {
-          a: 'To dampen blade flapping',
-          b: 'To control the advancing and retreating blade effect',
-          c: 'To absorb engine vibrations'
+            a: 'To dampen blade flapping',
+            b: 'To control the advancing and retreating blade effect',
+            c: 'To absorb engine vibrations'
         },
         correct: 'b'
-      },
-      {
-        id: 2655,
+    },
+    {
+        id: 2421,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the function of the droop stops in the H175 main rotor system?',
         options: {
-          a: 'To prevent excessive blade droop when the rotor is not turning',
-          b: 'To control rotor speed',
-          c: 'To reduce rotor drag'
+            a: 'To prevent excessive blade droop when the rotor is not turning',
+            b: 'To control rotor speed',
+            c: 'To reduce rotor drag'
         },
         correct: 'a'
-      },
-      {
-        id: 2656,
+    },
+    {
+        id: 2422,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the purpose of the nickel-plated copper braid in the main rotor blades?',
         options: {
-          a: 'To provide electrical continuity for lightning strike protection',
-          b: 'To improve the aerodynamics of the blade',
-          c: 'To increase blade strength'
+            a: 'To provide electrical continuity for lightning strike protection',
+            b: 'To improve the aerodynamics of the blade',
+            c: 'To increase blade strength'
         },
         correct: 'a'
-      },
-      {
-        id: 2657,
+    },
+    {
+        id: 2423,
         Aircraft: 'H175',
         Category: '62',
         question: 'Where is the static balancing system located on the main rotor blades?',
         options: {
-          a: 'Near the blade root',
-          b: 'At the blade tip',
-          c: 'Along the mid-section of the blade'
+            a: 'Near the blade root',
+            b: 'At the blade tip',
+            c: 'Along the mid-section of the blade'
         },
         correct: 'c'
-      },
-      {
-        id: 2658,
+    },
+    {
+        id: 2424,
         Aircraft: 'H175',
         Category: '62',
         question: 'How many trim tabs are adjustable on each main rotor blade?',
         options: {
-          a: '2',
-          b: '4',
-          c: '6'
+            a: '2',
+            b: '4',
+            c: '6'
         },
         correct: 'a'
-      },
-      {
-        id: 2659,
+    },
+    {
+        id: 2425,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the purpose of the flapping weights in the main rotor system?',
         options: {
-          a: 'To control pitch movement',
-          b: 'To dampen blade vibration',
-          c: 'To transmit control inputs to the blades'
+            a: 'To control pitch movement',
+            b: 'To dampen blade vibration',
+            c: 'To transmit control inputs to the blades'
         },
         correct: 'c'
-      },
-      {
-        id: 2660,
+    },
+    {
+        id: 2426,
         Aircraft: 'H175',
         Category: '62',
         question: 'How are the H175 main rotor blades attached to the rotor hub?',
         options: {
-          a: 'With two biconical bushes and blade pins',
-          b: 'With bolts and screws',
-          c: 'With a clamp mechanism'
+            a: 'With two biconical bushes and blade pins',
+            b: 'With bolts and screws',
+            c: 'With a clamp mechanism'
         },
         correct: 'a'
-      },
-      {
-        id: 2661,
+    },
+    {
+        id: 2427,
         Aircraft: 'H175',
         Category: '62',
         question: 'What provides the rotational drive for the main rotor head?',
         options: {
-          a: 'Main rotor mast',
-          b: 'Hydraulic pumps',
-          c: 'Tail rotor system'
+            a: 'Main rotor mast',
+            b: 'Hydraulic pumps',
+            c: 'Tail rotor system'
         },
         correct: 'a'
-      },
-      {
-        id: 2662,
+    },
+    {
+        id: 2428,
         Aircraft: 'H175',
         Category: '62',
         question: 'What material is used for the main rotor blade’s skin protection?',
         options: {
-          a: 'Polyurethane',
-          b: 'Carbon fiber',
-          c: 'Steel mesh'
+            a: 'Polyurethane',
+            b: 'Carbon fiber',
+            c: 'Steel mesh'
         },
         correct: 'a'
-      },
-      {
-        id: 2663,
+    },
+    {
+        id: 2429,
         Aircraft: 'H175',
         Category: '62',
         question: 'How is the swashplate connected to the rotating main rotor?',
         options: {
-          a: 'Through pitch control rods and rotating scissor links',
-          b: 'Through hydraulic actuators',
-          c: 'Through the tail rotor'
+            a: 'Through pitch control rods and rotating scissor links',
+            b: 'Through hydraulic actuators',
+            c: 'Through the tail rotor'
         },
         correct: 'a'
-      },
-      {
-        id: 2664,
+    },
+    {
+        id: 2430,
         Aircraft: 'H175',
         Category: '62',
         question: 'What type of bearing is used in the swashplate assembly?',
         options: {
-          a: 'Roller bearing',
-          b: 'Duplex bearing',
-          c: 'Ball bearing'
+            a: 'Roller bearing',
+            b: 'Duplex bearing',
+            c: 'Ball bearing'
         },
         correct: 'b'
-      },
-      {
-        id: 2665,
+    },
+    {
+        id: 2431,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the role of the phonic wheel in the H175 main rotor system?',
         options: {
-          a: 'To control rotor blade pitch',
-          b: 'To measure rotor rotational speed (NR)',
-          c: 'To reduce vibrations'
+            a: 'To control rotor blade pitch',
+            b: 'To measure rotor rotational speed (NR)',
+            c: 'To reduce vibrations'
         },
         correct: 'b'
-      },
-      {
-        id: 2666,
+    },
+    {
+        id: 2432,
         Aircraft: 'H175',
         Category: '62',
         question: 'How is rotor speed information (NR) displayed to the crew?',
         options: {
-          a: 'On the hydraulic panel',
-          b: 'On the multi-function displays (MFDs)',
-          c: 'On the landing gear panel'
+            a: 'On the hydraulic panel',
+            b: 'On the multi-function displays (MFDs)',
+            c: 'On the landing gear panel'
         },
         correct: 'b'
-      },
-      {
-        id: 2667,
+    },
+    {
+        id: 2433,
         Aircraft: 'H175',
         Category: '62',
         question: 'What happens if both NR sensors fail during flight?',
         options: {
-          a: 'An audio alert is triggered, and a computed NR value is displayed.',
-          b: 'The rotor automatically shuts down.',
-          c: 'The hydraulic system takes over control.'
+            a: 'An audio alert is triggered, and a computed NR value is displayed.',
+            b: 'The rotor automatically shuts down.',
+            c: 'The hydraulic system takes over control.'
         },
         correct: 'a'
-      },
-      {
-        id: 2668,
+    },
+    {
+        id: 2434,
         Aircraft: 'H175',
         Category: '62',
         question: 'What type of signal is generated by the NR sensors?',
         options: {
-          a: 'Mechanical signal',
-          b: 'Electrical signal',
-          c: 'Hydraulic signal'
+            a: 'Mechanical signal',
+            b: 'Electrical signal',
+            c: 'Hydraulic signal'
         },
         correct: 'b'
-      },
-      {
-        id: 2669,
+    },
+    {
+        id: 2435,
         Aircraft: 'H175',
         Category: '62',
         question: 'What does the NR1 sensor monitor in the H175?',
         options: {
-          a: 'Rotor temperature',
-          b: 'Rotor speed',
-          c: 'Rotor pitch'
+            a: 'Rotor temperature',
+            b: 'Rotor speed',
+            c: 'Rotor pitch'
         },
         correct: 'b'
-      },
-      {
-        id: 2670,
+    },
+    {
+        id: 2436,
         Aircraft: 'H175',
         Category: '62',
         question: 'Where is the NR2 sensor located on the H175?',
         options: {
-          a: 'On the tail rotor gearbox',
-          b: 'On the front of the MGB conical housing',
-          c: 'On the main rotor hub'
+            a: 'On the tail rotor gearbox',
+            b: 'On the front of the MGB conical housing',
+            c: 'On the main rotor hub'
         },
         correct: 'b'
-      },
-      {
-        id: 2671,
+    },
+    {
+        id: 2437,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the purpose of the “droop restrainer ring” in the main rotor system?',
         options: {
-          a: 'To balance the static weight of the blades when the rotor is stopped.',
-          b: 'To prevent blade droop during flight.',
-          c: 'To control blade pitch'
+            a: 'To balance the static weight of the blades when the rotor is stopped.',
+            b: 'To prevent blade droop during flight.',
+            c: 'To control blade pitch'
         },
         correct: 'a'
-      },
-      {
-        id: 2672,
+    },
+    {
+        id: 2438,
         Aircraft: 'H175',
         Category: '62',
         question: 'What prevents the non-rotating swashplate from turning with the main rotor?',
         options: {
-          a: 'Pitch control rods',
-          b: 'Lower scissor assembly',
-          c: 'Main rotor dampers'
+            a: 'Pitch control rods',
+            b: 'Lower scissor assembly',
+            c: 'Main rotor dampers'
         },
         correct: 'b'
-      },
-      {
-        id: 2673,
+    },
+    {
+        id: 2439,
         Aircraft: 'H175',
         Category: '62',
         question: 'What function does the lead-lag damper perform in the main rotor system?',
         options: {
-          a: 'It adjusts the advancing and retreating blades and damps their motion.',
-          b: 'It controls the swashplate movement.',
-          c: 'It monitors rotor speed.'
+            a: 'It adjusts the advancing and retreating blades and damps their motion.',
+            b: 'It controls the swashplate movement.',
+            c: 'It monitors rotor speed.'
         },
         correct: 'a'
-      },
-      {
-        id: 2674,
+    },
+    {
+        id: 2440,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is 100% RPM of the H175 main rotor?',
         options: {
-          a: '250 rpm',
-          b: '279 rpm',
-          c: '300 rpm'
+            a: '250 rpm',
+            b: '279 rpm',
+            c: '300 rpm'
         },
         correct: 'b'
-      },
-      {
-        id: 2675,
+    },
+    {
+        id: 2441,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the role of the top fairing in the main rotor head?',
         options: {
-          a: 'To reduce aerodynamic drag',
-          b: 'To increase rotor speed',
-          c: 'To support the flapping weights'
+            a: 'To reduce aerodynamic drag',
+            b: 'To increase rotor speed',
+            c: 'To support the flapping weights'
         },
         correct: 'a'
-      },
-      {
-        id: 2676,
+    },
+    {
+        id: 2442,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the main function of the spherical thrust bearings in the H175 main rotor system?',
         options: {
-          a: 'To provide pitch control',
-          b: 'To allow for blade flapping, lead-lag, and pitch changes',
-          c: 'To monitor rotor speed'
+            a: 'To provide pitch control',
+            b: 'To allow for blade flapping, lead-lag, and pitch changes',
+            c: 'To monitor rotor speed'
         },
         correct: 'b'
-      },
-      {
-        id: 2677,
+    },
+    {
+        id: 2443,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the purpose of the anti-fretting shims in the spherical thrust bearing assembly?',
         options: {
-          a: 'To prevent excessive vibrations',
-          b: 'To reduce wear between the bearing and hub',
-          c: 'To increase rotor speed'
+            a: 'To prevent excessive vibrations',
+            b: 'To reduce wear between the bearing and hub',
+            c: 'To increase rotor speed'
         },
         correct: 'b'
-      },
-      {
-        id: 2678,
+    },
+    {
+        id: 2444,
         Aircraft: 'H175',
         Category: '62',
         question: 'What type of movements are permitted by the spherical bearings in the main rotor head?',
         options: {
-          a: 'Pitch changes only',
-          b: 'Flapping, lead-lag, and pitch changes',
-          c: 'Yaw movements only'
+            a: 'Pitch changes only',
+            b: 'Flapping, lead-lag, and pitch changes',
+            c: 'Yaw movements only'
         },
         correct: 'b'
-      },
-      {
-        id: 2679,
+    },
+    {
+        id: 2445,
         Aircraft: 'H175',
         Category: '62',
         question: 'How are the main rotor blades dynamically balanced in the H175?',
         options: {
-          a: 'Using static balancing weights',
-          b: 'With tungsten shot in the dynamic balancing box',
-          c: 'By adjusting the blade pitch control rods'
+            a: 'Using static balancing weights',
+            b: 'With tungsten shot in the dynamic balancing box',
+            c: 'By adjusting the blade pitch control rods'
         },
         correct: 'b'
-      },
-      {
-        id: 2680,
+    },
+    {
+        id: 2446,
         Aircraft: 'H175',
         Category: '62',
         question: 'What is the main purpose of the mast in the H175 main rotor system?',
         options: {
-          a: 'To transmit power from the MGB to the main rotor head',
-          b: 'To control the pitch of the rotor blades',
-          c: 'To provide lubrication to the rotor system'
+            a: 'To transmit power from the MGB to the main rotor head',
+            b: 'To control the pitch of the rotor blades',
+            c: 'To provide lubrication to the rotor system'
         },
         correct: 'a'
-      },
-      {
-        id: 2681,
+    },
+    {
+        id: 2447,
         Aircraft: 'H175',
         Category: '62',
         question: 'What indicates a failure of both NR sensors during flight on the H175?',
         options: {
-          a: 'The rotor speed increases automatically',
-          b: 'An estimated NR value is displayed with a caution message',
-          c: 'The hydraulic system takes over control'
+            a: 'The rotor speed increases automatically',
+            b: 'An estimated NR value is displayed with a caution message',
+            c: 'The hydraulic system takes over control'
         },
         correct: 'b'
-      },
-      
-      
-    /*TODO H175 -- ATA -- '63' **NEED TO CHECK***/
+    },
     {
-        id: 2409,
+        id: 2448,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What type of main rotor system does the EC175 use?',
+        options: {
+            a: 'Rigid',
+            b: 'Semi-rigid',
+            c: 'Spheriflex'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2449,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the primary function of the main rotor system?',
+        options: {
+            a: 'Generate lift and traction',
+            b: 'Control yaw',
+            c: 'Provide power to the tail rotor'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2450,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How many blades does the main rotor of the EC175 have?',
+        options: {
+            a: 'Three',
+            b: 'Five',
+            c: 'Six'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2451,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'Which component transmits control inputs to the main rotor blades?',
+        options: {
+            a: 'Swashplate',
+            b: 'Tail rotor',
+            c: 'Drive shaft'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2452,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the purpose of the droop stops in the main rotor system?',
+        options: {
+            a: 'Prevent excessive blade droop',
+            b: 'Reduce vibration',
+            c: 'Increase rotor speed'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2453,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'Which material is primarily used to construct the main rotor blades?',
+        options: {
+            a: 'Steel',
+            b: 'Aluminum',
+            c: 'Composite materials'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2454,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the blade tip shape of the EC175 main rotor?',
+        options: {
+            a: 'Rectangular',
+            b: 'Parabolic',
+            c: 'Dihedral'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2455,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How is the main rotor blade protected from erosion?',
+        options: {
+            a: 'Paint',
+            b: 'Composite coatings',
+            c: 'Metal shields'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2456,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the twist angle of the main rotor blades?',
+        options: {
+            a: '5°',
+            b: '4.5°',
+            c: '6°'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2457,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the function of the pitch control rods?',
+        options: {
+            a: 'Change blade pitch',
+            b: 'Control rotor speed',
+            c: 'Reduce vibration'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2458,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How many degrees is the main rotor tilted forward?',
+        options: {
+            a: '2.5°',
+            b: '4.5°',
+            c: '5.0°'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2459,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What provides the main rotor blade with its pitch, flapping, and drag articulation?',
+        options: {
+            a: 'Elastomeric bearings',
+            b: 'Metal hinges',
+            c: 'Composite joints'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2460,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What system transmits the lift, roll, and pitch loads in the main rotor?',
+        options: {
+            a: 'Swashplate assembly',
+            b: 'Main rotor head',
+            c: 'Tail rotor system'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2461,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What type of bearing allows the swashplate to tilt in any direction?',
+        options: {
+            a: 'Spherical bearing',
+            b: 'Ball bearing',
+            c: 'Thrust bearing'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2462,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What type of control inputs are transmitted by the swashplate assembly?',
+        options: {
+            a: 'Cyclic and collective pitch',
+            b: 'Yaw control',
+            c: 'Power control'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2463,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What protects the main rotor blades from lightning strikes?',
+        options: {
+            a: 'Copper mesh',
+            b: 'Steel shield',
+            c: 'Rubber coating'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2464,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the function of the trim tabs on the main rotor blades?',
+        options: {
+            a: 'Adjust rotor speed',
+            b: 'Optimize blade efficiency',
+            c: 'Increase blade weight'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2465,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What material is the leading edge of the main rotor blade made from?',
+        options: {
+            a: 'Aluminum',
+            b: 'Stainless steel',
+            c: 'Nickel'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2466,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the purpose of the lead-lag dampers in the main rotor system?',
+        options: {
+            a: 'Reduce lead-lag motion',
+            b: 'Increase rotor speed',
+            c: 'Provide lift'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2467,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'Which system indicates the rotor speed (NR) to the crew?',
+        options: {
+            a: 'Main rotor speed indicator',
+            b: 'Phonic wheel system',
+            c: 'AFCS system'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2468,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How is the rotor blade balance adjusted?',
+        options: {
+            a: 'Adding weights to balancing cavities',
+            b: 'Changing blade length',
+            c: 'Adjusting blade pitch angle'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2469,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the thickness of the polyurethane layer used for skin protection on the main rotor blade?',
+        options: {
+            a: '0.6 mm',
+            b: '0.4 mm',
+            c: '0.8 mm'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2470,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the function of the nickel tip shield on the rotor blade?',
+        options: {
+            a: 'Protect the rotor blade from erosion',
+            b: 'Increase the blade’s aerodynamic efficiency',
+            c: 'Reduce the weight of the blade'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2471,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'Where is the yellow equipped pitch rod used in the main rotor?',
+        options: {
+            a: 'On the tail rotor system',
+            b: 'As the reference pitch rod',
+            c: 'For adjusting rotor balance'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2472,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What material is used for the construction of the MRB’s composite skin?',
+        options: {
+            a: 'Carbon fiber',
+            b: 'Glass fiber',
+            c: 'Kevlar'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2473,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the purpose of the mast nut in the main rotor system?',
+        options: {
+            a: 'To lock the rotor blade in place',
+            b: 'To secure the rotor head to the mast',
+            c: 'To measure rotor speed'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2474,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How are the main rotor blades connected to the flapping weights?',
+        options: {
+            a: 'With pitch horns',
+            b: 'By elastomeric bearings',
+            c: 'With blade pins'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2475,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What protects the MRB lower skin from erosion?',
+        options: {
+            a: 'A shaped polyurethane layer',
+            b: 'A metal shield',
+            c: 'A composite coating'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2476,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What system adjusts the dynamic balance of the rotor?',
+        options: {
+            a: 'Static balancing cavities',
+            b: 'Dynamic balancing cavities',
+            c: 'Trim tabs'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2477,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What does the droop restrainer ring do?',
+        options: {
+            a: 'Prevents blade droop on the ground',
+            b: 'Controls blade flapping in flight',
+            c: 'Balances the blade’s static moment'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2478,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the purpose of the spherical thrust bearings in the main rotor system?',
+        options: {
+            a: 'To allow pitch change, flapping, and lead-lag',
+            b: 'To increase rotor speed',
+            c: 'To secure the rotor blades'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2479,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'Which system provides electrical continuity in the main rotor blades?',
+        options: {
+            a: 'Lead-lag dampers',
+            b: 'Copper mesh',
+            c: 'Elastomeric bearings'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2480,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How are the main rotor blades protected from lightning strikes?',
+        options: {
+            a: 'With a copper mesh bonded to the skin',
+            b: 'With a polyurethane coating',
+            c: 'With an aluminum shield'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2481,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the role of the swashplate in the main rotor system?',
+        options: {
+            a: 'To transmit lift forces',
+            b: 'To control blade pitch angle',
+            c: 'To reduce rotor vibration'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2482,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How is the swashplate assembly connected to the main rotor blades?',
+        options: {
+            a: 'Via pitch control rods',
+            b: 'Via lead-lag dampers',
+            c: 'Via elastomeric bearings'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2483,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What type of servo controls the swashplate movement?',
+        options: {
+            a: 'Primary flight servos',
+            b: 'AFCS servos',
+            c: 'Yaw servos'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2484,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'Where are the NR sensors located?',
+        options: {
+            a: 'On the tail rotor shaft',
+            b: 'On the main gear box (MGB)',
+            c: 'On the main rotor blade root'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2485,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What component measures the rotational speed of the main rotor?',
+        options: {
+            a: 'Elastomeric bearings',
+            b: 'Phonic wheel',
+            c: 'Lead-lag dampers'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2486,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the function of the upper scissor assemblies in the swashplate?',
+        options: {
+            a: 'Synchronize the rotating swashplate with the rotor head',
+            b: 'Control the movement of the flight controls',
+            c: 'Increase rotor blade efficiency'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2487,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How are the main rotor blades balanced statically?',
+        options: {
+            a: 'By adding weights to the dynamic balancing cavities',
+            b: 'Using a balancing box filled with tungsten shot',
+            c: 'With adjustable trim tabs'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2488,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What type of damping is provided by the lead-lag dampers?',
+        options: {
+            a: 'Elastomeric damping',
+            b: 'Hydraulic damping',
+            c: 'Pneumatic damping'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2489,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the primary material of the main rotor blade?',
+        options: {
+            a: 'Aluminum',
+            b: 'Composite',
+            c: 'Steel'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2490,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How many adjustable trim tabs are there on the main rotor blade?',
+        options: {
+            a: 'Five',
+            b: 'Seven',
+            c: 'Fourteen'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2491,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'Which system generates the lift in the EC175?',
+        options: {
+            a: 'Main rotor system',
+            b: 'Tail rotor system',
+            c: 'Swashplate system'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2492,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What type of control input does the cyclic pitch provide?',
+        options: {
+            a: 'Yaw control',
+            b: 'Roll and pitch control',
+            c: 'Power control'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2493,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What material is used in the construction of the blade’s leading-edge protection?',
+        options: {
+            a: 'Nickel',
+            b: 'Aluminum',
+            c: 'Titanium'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2494,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How is the rotation of the swashplate prevented?',
+        options: {
+            a: 'With the lower scissor assembly',
+            b: 'With the upper scissor assembly',
+            c: 'With elastomeric bearings'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2495,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What type of joints allows the lead-lag dampers to rotate?',
+        options: {
+            a: 'Ball joints',
+            b: 'Elastomeric joints',
+            c: 'Hinge joints'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2496,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What component is used to measure the main rotor angular position?',
+        options: {
+            a: 'Phonic wheel',
+            b: 'Spherical bearing',
+            c: 'Pitch control rod'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2497,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What component protects the pitch control rod ends?',
+        options: {
+            a: 'Lock washers',
+            b: 'Pitch horn',
+            c: 'Elastomeric bearings'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2498,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the primary purpose of the lead-lag dampers?',
+        options: {
+            a: 'To reduce vibration',
+            b: 'To adjust blade pitch',
+            c: 'To control rotor speed'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2499,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'Which part of the main rotor transmits the torque from the mast?',
+        options: {
+            a: 'Main rotor hub',
+            b: 'Spherical bearing',
+            c: 'Pitch control rod'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2500,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'Which component limits the flapping of the main rotor blades at low NR?',
+        options: {
+            a: 'Flap restraint cams',
+            b: 'Lead-lag dampers',
+            c: 'Droop stops'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2501,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What type of connection is used between the rotating and non-rotating swashplate?',
+        options: {
+            a: 'Duplex bearing',
+            b: 'Spherical bearing',
+            c: 'Elastomeric joint'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2502,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What does the swashplate control?',
+        options: {
+            a: 'Pitch angle of the rotor blades',
+            b: 'Rotor speed',
+            c: 'Blade dampers'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2503,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What material is the MRB foam core made of?',
+        options: {
+            a: 'Polyurethane',
+            b: 'Epoxy resin',
+            c: 'Carbon fiber'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2504,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How many NR sensors are used in the main rotor system?',
+        options: {
+            a: 'One',
+            b: 'Two',
+            c: 'Three'
+        },
+        correct: 'b'
+    },
+    /*TODO  H175 -- ATA '63' ****TO CHECK******/
+    {
+        id: 2505,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is the primary function of the Main Rotor Gearbox (MGB) in the H175?',
@@ -17639,7 +18321,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2410,
+        id: 2506,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is the final output speed of the main rotor in the H175?',
@@ -17651,7 +18333,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2411,
+        id: 2507,
         Aircraft: 'H175',
         Category: '63',
         question: 'How many stages of reduction gearing are used in the MGB of the H175?',
@@ -17663,7 +18345,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2412,
+        id: 2508,
         Aircraft: 'H175',
         Category: '63',
         question: 'Which components are driven by the MGB accessory drives?',
@@ -17675,7 +18357,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2413,
+        id: 2509,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is the role of the freewheel units in the MGB?',
@@ -17687,7 +18369,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2414,
+        id: 2510,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is the purpose of the input modules in the H175 MGB?',
@@ -17699,7 +18381,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2415,
+        id: 2511,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is the function of the torsion tube in the H175?',
@@ -17711,7 +18393,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2416,
+        id: 2512,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is the main purpose of the epicyclic module in the H175?',
@@ -17723,7 +18405,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2417,
+        id: 2513,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is the function of the LH and RH accessory gearboxes in the H175?',
@@ -17735,7 +18417,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2418,
+        id: 2514,
         Aircraft: 'H175',
         Category: '63',
         question: 'Which sensors are used to monitor the MGB in the H175?',
@@ -17747,7 +18429,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2419,
+        id: 2515,
         Aircraft: 'H175',
         Category: '63',
         question: 'What does the MGB lubrication system in the H175 provide?',
@@ -17759,7 +18441,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2420,
+        id: 2516,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is the function of the MGB oil cooler fan?',
@@ -17771,7 +18453,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2421,
+        id: 2517,
         Aircraft: 'H175',
         Category: '63',
         question: 'What happens if the main oil pump in the MGB fails?',
@@ -17783,7 +18465,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2422,
+        id: 2518,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is the function of the MGB chip detectors?',
@@ -17795,7 +18477,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2423,
+        id: 2519,
         Aircraft: 'H175',
         Category: '63',
         question: 'How many chip detectors are installed in the MGB system of the H175?',
@@ -17807,7 +18489,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2424,
+        id: 2520,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is the certified run dry period for the H175 MGB?',
@@ -17819,7 +18501,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2425,
+        id: 2521,
         Aircraft: 'H175',
         Category: '63',
         question: 'Which components are driven by the LH accessory gearbox in the H175?',
@@ -17831,7 +18513,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2426,
+        id: 2522,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is the purpose of the oil selector in the MGB system?',
@@ -17843,7 +18525,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2427,
+        id: 2523,
         Aircraft: 'H175',
         Category: '63',
         question: 'What does the MGB warning light indicate?',
@@ -17855,7 +18537,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2428,
+        id: 2524,
         Aircraft: 'H175',
         Category: '63',
         question: 'Where is the oil filter located in the H175 MGB system?',
@@ -17867,7 +18549,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2429,
+        id: 2525,
         Aircraft: 'H175',
         Category: '63',
         question: 'What action is taken if the MGB oil filter becomes clogged?',
@@ -17879,7 +18561,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2430,
+        id: 2526,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is the function of the torsion tube in the H175 MGB system?',
@@ -17891,7 +18573,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2431,
+        id: 2527,
         Aircraft: 'H175',
         Category: '63',
         question: 'How many temperature sensors monitor the oil temperature in the H175 MGB system?',
@@ -17903,7 +18585,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2432,
+        id: 2528,
         Aircraft: 'H175',
         Category: '63',
         question: 'What happens if the oil temperature in the MGB exceeds 120°C?',
@@ -17915,7 +18597,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2433,
+        id: 2529,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is the function of the rotor brake on the H175?',
@@ -17927,7 +18609,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2434,
+        id: 2530,
         Aircraft: 'H175',
         Category: '63',
         question: 'How is the rotor brake lever operated in the H175?',
@@ -17939,7 +18621,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2435,
+        id: 2531,
         Aircraft: 'H175',
         Category: '63',
         question: 'What safety mechanism prevents the engines from starting with the rotor brake engaged?',
@@ -17951,7 +18633,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2436,
+        id: 2532,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is the purpose of the freewheel unit in the H175?',
@@ -17963,7 +18645,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2437,
+        id: 2533,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is the function of the de-clutch actuator in the H175?',
@@ -17975,7 +18657,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2438,
+        id: 2534,
         Aircraft: 'H175',
         Category: '63',
         question: 'Where are the MGB oil temperature and pressure indications displayed?',
@@ -17987,7 +18669,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2439,
+        id: 2535,
         Aircraft: 'H175',
         Category: '63',
         question: 'What type of warnings are given if the MGB oil pressure is too low?',
@@ -17999,7 +18681,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2440,
+        id: 2536,
         Aircraft: 'H175',
         Category: '63',
         question: 'What happens if metal particles are detected in the MGB oil system?',
@@ -18011,7 +18693,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2441,
+        id: 2537,
         Aircraft: 'H175',
         Category: '63',
         question: 'What action is taken if both the main and backup oil pumps fail in the MGB?',
@@ -18023,7 +18705,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2442,
+        id: 2538,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is indicated by the MGB TREND advisory message?',
@@ -18035,7 +18717,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2443,
+        id: 2539,
         Aircraft: 'H175',
         Category: '63',
         question: 'What type of message is displayed if the oil temperature sensors fail in the MGB system?',
@@ -18047,7 +18729,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2444,
+        id: 2540,
         Aircraft: 'H175',
         Category: '63',
         question: 'What should the crew do if the HIGH SPEED CHIP label is displayed on the VMS XMSN page?',
@@ -18059,7 +18741,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2445,
+        id: 2541,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is the purpose of the backup oil pump in the MGB system?',
@@ -18071,7 +18753,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2446,
+        id: 2542,
         Aircraft: 'H175',
         Category: '63',
         question: 'Where is the backup oil pump located in the H175 MGB system?',
@@ -18083,7 +18765,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2447,
+        id: 2543,
         Aircraft: 'H175',
         Category: '63',
         question: 'What is the function of the oil heat exchanger in the MGB system?',
@@ -18094,9 +18776,9 @@ export const questions = [
         },
         correct: 'a'
     },
-    /*TODO H175 -- ATA -- '64' **NEED TO CHECK***/
+    /*TODO  H175 -- ATA '64' ****TO CHECK******/
     {
-        id: 2448,
+        id: 2544,
         Aircraft: 'H175',
         Category: '64',
         question: 'What type of tail rotor system is fitted on the H175?',
@@ -18108,7 +18790,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2449,
+        id: 2545,
         Aircraft: 'H175',
         Category: '64',
         question: 'At what angle is the tail rotor of the H175 tilted?',
@@ -18120,7 +18802,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2450,
+        id: 2546,
         Aircraft: 'H175',
         Category: '64',
         question: 'What is the primary function of the tail rotor on the H175?',
@@ -18132,7 +18814,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2451,
+        id: 2547,
         Aircraft: 'H175',
         Category: '64',
         question: 'What material is used for the leading-edge protection of the tail rotor blades?',
@@ -18144,7 +18826,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2452,
+        id: 2548,
         Aircraft: 'H175',
         Category: '64',
         question: 'What type of material primarily makes up the tail rotor blades?',
@@ -18156,7 +18838,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2453,
+        id: 2549,
         Aircraft: 'H175',
         Category: '64',
         question: 'What is the nominal rotation speed of the H175 tail rotor?',
@@ -18168,7 +18850,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2454,
+        id: 2550,
         Aircraft: 'H175',
         Category: '64',
         question: 'What is the main purpose of the flapping stops on the tail rotor?',
@@ -18180,7 +18862,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2455,
+        id: 2551,
         Aircraft: 'H175',
         Category: '64',
         question: 'What protects the tail rotor blades from sand or wind erosion?',
@@ -18192,7 +18874,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2456,
+        id: 2552,
         Aircraft: 'H175',
         Category: '64',
         question: 'What is the role of the lead-lag dampers on the H175 tail rotor?',
@@ -18204,7 +18886,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2457,
+        id: 2553,
         Aircraft: 'H175',
         Category: '64',
         question: 'What provides electrical continuity for lightning strike protection on the tail rotor?',
@@ -18216,7 +18898,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2458,
+        id: 2554,
         Aircraft: 'H175',
         Category: '64',
         question: 'What component transmits the control from the tail rotor head to the blades?',
@@ -18228,7 +18910,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2459,
+        id: 2555,
         Aircraft: 'H175',
         Category: '64',
         question: 'What type of protection is provided on the lower skin of the tail rotor blade?',
@@ -18240,7 +18922,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2460,
+        id: 2556,
         Aircraft: 'H175',
         Category: '64',
         question: 'What is the purpose of the tail rotor mast-hub on the H175?',
@@ -18252,7 +18934,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2461,
+        id: 2557,
         Aircraft: 'H175',
         Category: '64',
         question: 'What are the lead-lag dampers in the H175 tail rotor filled with?',
@@ -18264,7 +18946,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2462,
+        id: 2558,
         Aircraft: 'H175',
         Category: '64',
         question: 'What is the function of the spherical bearings in the tail rotor system?',
@@ -18276,7 +18958,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2463,
+        id: 2559,
         Aircraft: 'H175',
         Category: '64',
         question: 'What is the purpose of the bonding braids in the tail rotor?',
@@ -18288,7 +18970,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2464,
+        id: 2560,
         Aircraft: 'H175',
         Category: '64',
         question: 'What prevents tail rotor blade dislodgement on the ground?',
@@ -18300,7 +18982,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2465,
+        id: 2561,
         Aircraft: 'H175',
         Category: '64',
         question: 'What is the primary purpose of the tail rotor rotating controls?',
@@ -18312,7 +18994,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2466,
+        id: 2562,
         Aircraft: 'H175',
         Category: '64',
         question: 'What provides pitch variation to the H175 tail rotor blades?',
@@ -18324,7 +19006,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2467,
+        id: 2563,
         Aircraft: 'H175',
         Category: '64',
         question: 'How is the tail rotor blade fitted to the tail rotor head?',
@@ -18336,7 +19018,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2468,
+        id: 2564,
         Aircraft: 'H175',
         Category: '64',
         question: 'What ensures the balance of the tail rotor blades in motion?',
@@ -18348,7 +19030,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2469,
+        id: 2565,
         Aircraft: 'H175',
         Category: '64',
         question: 'What material is used for the lightning protection on the tip of the tail rotor?',
@@ -18360,7 +19042,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2470,
+        id: 2566,
         Aircraft: 'H175',
         Category: '64',
         question: 'What controls the lead-lag motion of the tail rotor blades?',
@@ -18372,7 +19054,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2471,
+        id: 2567,
         Aircraft: 'H175',
         Category: '64',
         question: 'How are the tail rotor pitch rods connected?',
@@ -18384,7 +19066,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2472,
+        id: 2568,
         Aircraft: 'H175',
         Category: '64',
         question: 'What is the function of the fixed flapping stops on the tail rotor?',
@@ -18396,7 +19078,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2473,
+        id: 2569,
         Aircraft: 'H175',
         Category: '64',
         question: 'What material covers the external surface of the tail rotor blade?',
@@ -18408,7 +19090,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2474,
+        id: 2570,
         Aircraft: 'H175',
         Category: '64',
         question: 'What is the role of the tail rotor in yaw control?',
@@ -18420,7 +19102,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2475,
+        id: 2571,
         Aircraft: 'H175',
         Category: '64',
         question: 'What protects the root of the tail rotor blade against environmental damage?',
@@ -18432,7 +19114,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2476,
+        id: 2572,
         Aircraft: 'H175',
         Category: '64',
         question: 'Where is the balancing system of the tail rotor blade located?',
@@ -18443,9 +19125,9 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO H175 -- ATA -- '65' **NEED TO CHECK***/
+    /*TODO  H175 -- ATA '65' ****TO CHECK******/
     {
-        id: 2477,
+        id: 2573,
         Aircraft: 'H175',
         Category: '65',
         question: 'What is the main purpose of the tail rotor drive system in the H175?',
@@ -18457,7 +19139,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2478,
+        id: 2574,
         Aircraft: 'H175',
         Category: '65',
         question: 'Which component in the tail rotor drive system reduces the speed from the inclined shaft to the tail rotor?',
@@ -18469,7 +19151,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2479,
+        id: 2575,
         Aircraft: 'H175',
         Category: '65',
         question: 'What is the role of the dampers in the tail rotor drive system?',
@@ -18481,7 +19163,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2480,
+        id: 2576,
         Aircraft: 'H175',
         Category: '65',
         question: 'How many shafts are used in the horizontal section of the tail drive line?',
@@ -18493,7 +19175,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2481,
+        id: 2577,
         Aircraft: 'H175',
         Category: '65',
         question: 'What is the function of the Intermediate Gearbox (IGB) in the tail rotor drive system?',
@@ -18505,7 +19187,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2482,
+        id: 2578,
         Aircraft: 'H175',
         Category: '65',
         question: 'What type of lubrication is used in the Tail Gearbox (TGB)?',
@@ -18517,7 +19199,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2483,
+        id: 2579,
         Aircraft: 'H175',
         Category: '65',
         question: 'Where is the bearing hanger located in the tail rotor drive system?',
@@ -18529,7 +19211,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2484,
+        id: 2580,
         Aircraft: 'H175',
         Category: '65',
         question: 'What is the critical function of the flexible couplings in the tail rotor drive system?',
@@ -18541,7 +19223,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2485,
+        id: 2581,
         Aircraft: 'H175',
         Category: '65',
         question: 'What happens when the tail rotor drive shaft reaches its critical speed?',
@@ -18553,7 +19235,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2486,
+        id: 2582,
         Aircraft: 'H175',
         Category: '65',
         question: 'What is the role of the bearing support in the tail rotor drive system?',
@@ -18565,7 +19247,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2487,
+        id: 2583,
         Aircraft: 'H175',
         Category: '65',
         question: 'What type of shaft is used to transmit power from the Intermediate Gearbox (IGB) to the Tail Gearbox (TGB)?',
@@ -18577,7 +19259,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2488,
+        id: 2584,
         Aircraft: 'H175',
         Category: '65',
         question: 'What is the purpose of the chip detector in the Intermediate Gearbox (IGB)?',
@@ -18589,7 +19271,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2489,
+        id: 2585,
         Aircraft: 'H175',
         Category: '65',
         question: 'Which component transmits torque to the tail rotor head in the H175?',
@@ -18601,7 +19283,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2490,
+        id: 2586,
         Aircraft: 'H175',
         Category: '65',
         question: 'What is the function of the oil level sight in the tail rotor drive system?',
@@ -18613,7 +19295,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2491,
+        id: 2587,
         Aircraft: 'H175',
         Category: '65',
         question: 'How is the power transmitted from the Main Gear Box (MGB) to the Tail Gear Box (TGB)?',
@@ -18625,7 +19307,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2492,
+        id: 2588,
         Aircraft: 'H175',
         Category: '65',
         question: 'What type of signal is sent when the chip detector detects ferrous particles?',
@@ -18637,7 +19319,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2493,
+        id: 2589,
         Aircraft: 'H175',
         Category: '65',
         question: 'At what temperature does the TGB HIGH TEMP warning activate?',
@@ -18649,7 +19331,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2494,
+        id: 2590,
         Aircraft: 'H175',
         Category: '65',
         question: 'Which gearbox reduces the speed from the rear shaft to the pylon shaft?',
@@ -18661,7 +19343,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2495,
+        id: 2591,
         Aircraft: 'H175',
         Category: '65',
         question: 'How is the Intermediate Gearbox (IGB) lubricated?',
@@ -18673,7 +19355,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2496,
+        id: 2592,
         Aircraft: 'H175',
         Category: '65',
         question: 'What happens if ferrous metal particles are detected in the TGB or IGB?',
@@ -18685,7 +19367,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2497,
+        id: 2593,
         Aircraft: 'H175',
         Category: '65',
         question: 'What is the speed reduction ratio in the TGB?',
@@ -18697,7 +19379,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2498,
+        id: 2594,
         Aircraft: 'H175',
         Category: '65',
         question: 'What component provides temperature monitoring for the TGB?',
@@ -18709,7 +19391,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2499,
+        id: 2595,
         Aircraft: 'H175',
         Category: '65',
         question: 'Where is the oil temperature for the TGB and IGB displayed?',
@@ -18721,7 +19403,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2500,
+        id: 2596,
         Aircraft: 'H175',
         Category: '65',
         question: 'How is the input assembly of the IGB sealed?',
@@ -18733,7 +19415,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2501,
+        id: 2597,
         Aircraft: 'H175',
         Category: '65',
         question: 'What happens when the oil temperature exceeds the limit in the IGB or TGB?',
@@ -18745,7 +19427,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2502,
+        id: 2598,
         Aircraft: 'H175',
         Category: '65',
         question: 'Which shaft in the Tail Drive Line (TDL) is considered a sub-critical shaft?',
@@ -18757,7 +19439,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2503,
+        id: 2599,
         Aircraft: 'H175',
         Category: '65',
         question: 'What is the reduction in speed from the IGB to the TGB?',
@@ -18769,7 +19451,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2504,
+        id: 2600,
         Aircraft: 'H175',
         Category: '65',
         question: 'What is the purpose of the oil sight glass in the tail rotor drive system?',
@@ -18781,7 +19463,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2505,
+        id: 2601,
         Aircraft: 'H175',
         Category: '65',
         question: 'What component connects the front and intermediate shafts in the tail rotor drive system?',
@@ -18792,9 +19474,9 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO H175 -- ATA -- '88'*/
+    /*TODO  H175 -- ATA '88'*/
     {
-        id: 2506,
+        id: 2602,
         Aircraft: 'H175',
         Category: '88',
         question: 'What ATA chapter covers the fastening and routing of electrical harnesses on the aircraft?',
@@ -18806,7 +19488,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2507,
+        id: 2603,
         Aircraft: 'H175',
         Category: '88',
         question: 'Which zones require the use of high-temperature cable ties for electrical harness routing?',
@@ -18818,7 +19500,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2508,
+        id: 2604,
         Aircraft: 'H175',
         Category: '88',
         question: 'In addition to high temperature, what other requirement must the cable ties meet for external areas?',
@@ -18830,7 +19512,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2509,
+        id: 2605,
         Aircraft: 'H175',
         Category: '88',
         question: 'What temperature must high-temperature cable ties be able to withstand?',
@@ -18842,7 +19524,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2510,
+        id: 2606,
         Aircraft: 'H175',
         Category: '88',
         question: 'Where can a list of acceptable cable ties be found?',
@@ -18854,7 +19536,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2511,
+        id: 2607,
         Aircraft: 'H175',
         Category: '88',
         question: 'What must be done if the left FADEC harness is damaged?',
@@ -18866,7 +19548,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2512,
+        id: 2608,
         Aircraft: 'H175',
         Category: '88',
         question: 'Which electrical harnesses are non-repairable and must be replaced if damaged?',
@@ -18878,7 +19560,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2513,
+        id: 2609,
         Aircraft: 'H175',
         Category: '88',
         question: 'Where is Common Relays Box 1 located?',
@@ -18890,7 +19572,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2514,
+        id: 2610,
         Aircraft: 'H175',
         Category: '88',
         question: 'Where is Common Relays Box 2 located?',
@@ -18902,7 +19584,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2515,
+        id: 2611,
         Aircraft: 'H175',
         Category: '88',
         question: 'Where is the Maintenance Control Panel located?',
@@ -18914,7 +19596,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2516,
+        id: 2612,
         Aircraft: 'H175',
         Category: '88',
         question: 'What is located on the left side of the inter-seat console towards the rear?',
@@ -18926,7 +19608,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2517,
+        id: 2613,
         Aircraft: 'H175',
         Category: '88',
         question: 'What is included on the Maintenance Control Panel?',
@@ -18938,7 +19620,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2518,
+        id: 2614,
         Aircraft: 'H175',
         Category: '88',
         question: 'Which switch is NOT part of the Maintenance Control Panel?',
@@ -18950,7 +19632,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2519,
+        id: 2615,
         Aircraft: 'H175',
         Category: '88',
         question: 'What is the function of the wet crank switches on the Maintenance Control Panel?',
@@ -18962,7 +19644,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2520,
+        id: 2616,
         Aircraft: 'H175',
         Category: '88',
         question: 'How is the Maintenance Control Panel protected?',
@@ -18974,7 +19656,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2521,
+        id: 2617,
         Aircraft: 'H175',
         Category: '88',
         question: 'Which of the following is TRUE about the Maintenance Control Panel?',
@@ -18986,7 +19668,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2522,
+        id: 2618,
         Aircraft: 'H175',
         Category: '88',
         question: 'What does the term “cable ties” include?',
@@ -18998,7 +19680,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2523,
+        id: 2619,
         Aircraft: 'H175',
         Category: '88',
         question: 'Which type of cable ties must not be used in Zone D1?',
@@ -19010,7 +19692,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2524,
+        id: 2620,
         Aircraft: 'H175',
         Category: '88',
         question: 'Which of the following cable harnesses must be replaced if damaged?',
@@ -19022,7 +19704,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2525,
+        id: 2621,
         Aircraft: 'H175',
         Category: '88',
         question: 'How many electrical harness does the main gearbox have?',
@@ -19033,9 +19715,9 @@ export const questions = [
         },
         correct: 'c'
     },
-    /*TODO H175 -- ATA -- '04-12'*/
+    /*TODO  H175 -- ATA '04-12'*/
     {
-        id: 2526,
+        id: 2622,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What is the maximum number of passengers the H175 can transport in an oil and gas configuration?',
@@ -19047,7 +19729,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2527,
+        id: 2623,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What is the purpose of the Main transmission in the H175?',
@@ -19059,7 +19741,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2528,
+        id: 2624,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What is the absolute VNE (Velocity Never Exceed) for the H175 at sea level?',
@@ -19071,7 +19753,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2529,
+        id: 2625,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What type of documents are included in the Aircraft Technical Log Books for the EC175?',
@@ -19083,7 +19765,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2530,
+        id: 2626,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'Where can Airbus Helicopters EC175 users access real-time updates for technical information?',
@@ -19095,7 +19777,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2531,
+        id: 2627,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'Which ATA of the Maintenance Program includes airworthiness limitations for the EC175?',
@@ -19107,7 +19789,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2532,
+        id: 2628,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What is the purpose of the Airworthiness Limitations Section (ALS)?',
@@ -19119,7 +19801,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2533,
+        id: 2629,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'Which section of the ALS specifies the mandatory airworthiness inspections related to CS29.571 and damage tolerance activities?',
@@ -19131,7 +19813,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2534,
+        id: 2630,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'Components subject to Service Life Limit (SLL) are exposed to which type of fatigue?',
@@ -19143,7 +19825,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2535,
+        id: 2631,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'How are airworthiness limitations expressed for components that undergo large centrifugal load variations?',
@@ -19155,7 +19837,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2536,
+        id: 2632,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'How is one landing cycle defined?',
@@ -19167,7 +19849,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2537,
+        id: 2633,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'Which zone on the EC175 comprises the cockpit and nose fairing?',
@@ -19179,7 +19861,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2538,
+        id: 2634,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'Where is the reference point for the Xo axis located on the EC175?',
@@ -19191,7 +19873,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2539,
+        id: 2635,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'Which frames support the primary structure (spine) of the EC175?',
@@ -19203,7 +19885,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2540,
+        id: 2636,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'Which maintenance zone contains the Main Gear Box (MGB) and main rotor compartment?',
@@ -19215,7 +19897,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2541,
+        id: 2637,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'Where is the reference point of the Xo axis located?',
@@ -19227,7 +19909,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2542,
+        id: 2638,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'Where is the reference point of the Yo axis located?',
@@ -19239,7 +19921,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2543,
+        id: 2639,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'Where is the reference point of the Zo axis located?',
@@ -19251,7 +19933,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2544,
+        id: 2640,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'How many jacking points are fitted on the EC175?',
@@ -19263,7 +19945,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2545,
+        id: 2641,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'Where are the "A" jacking points located on the EC175?',
@@ -19275,7 +19957,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2546,
+        id: 2642,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'How many jacks are required for weighing the aircraft?',
@@ -19287,7 +19969,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2547,
+        id: 2643,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What is the maximum helicopter weight allowed during hoisting using the main rotor head hoisting attachments?',
@@ -19299,7 +19981,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2548,
+        id: 2644,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'How is the alignment check of the EC175 airframe conducted?',
@@ -19311,7 +19993,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2549,
+        id: 2645,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'How many jacks are used to weigh the EC175 simultaneously?',
@@ -19323,7 +20005,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2550,
+        id: 2646,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What is H175 Empty Weight (EW)?',
@@ -19335,7 +20017,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2551,
+        id: 2647,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What is the maximum angle between the towing bar and the H/C before damaging the undercarriage?',
@@ -19347,7 +20029,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2552,
+        id: 2648,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What is the maximum speed for towing the aircraft in reverse?',
@@ -19359,7 +20041,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2553,
+        id: 2649,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'Where is the brake accumulator pressure indicator located?',
@@ -19371,7 +20053,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2554,
+        id: 2650,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What should be verified before towing the aircraft?',
@@ -19383,7 +20065,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2555,
+        id: 2651,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What is the purpose of the safety pin in the tow bar handle?',
@@ -19395,7 +20077,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2556,
+        id: 2652,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What is the minimum mooring requirement for winds between 35 kts and 65 kts?',
@@ -19407,7 +20089,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2557,
+        id: 2653,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What is the recommended parking solution when the wind exceeds 80 kts?',
@@ -19419,7 +20101,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2558,
+        id: 2654,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'Where is the blanking kit located on the EC175?',
@@ -19431,7 +20113,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2559,
+        id: 2655,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What is considered long-term storage for the EC175?',
@@ -19443,7 +20125,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2560,
+        id: 2656,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'Which chapter in the Maintenance Manual contains information on approved consumable materials?',
@@ -19455,7 +20137,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2561,
+        id: 2657,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What color text on placards and markings indicates general information?',
@@ -19467,7 +20149,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2562,
+        id: 2658,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What is the minimum distance the tanker should be from the aircraft during refueling?',
@@ -19479,7 +20161,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2563,
+        id: 2659,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'How can acess be gained to the top deck and tail transmission area?',
@@ -19491,7 +20173,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2564,
+        id: 2660,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What action should be taken if the engine oil type is changed?',
@@ -19503,7 +20185,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2565,
+        id: 2661,
         Aircraft: 'H175',
         Category: '04-12',
         question: 'What is the maximum number of passengers the H175 can transport?',
@@ -19514,9 +20196,9 @@ export const questions = [
         },
         correct: 'b'
     },
-    /*TODO H175 -- ATA -- '51-56'*/
+    /*TODO  H175 -- ATA '51-56'*/
     {
-        id: 2566,
+        id: 2662,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Which manual contains the know-how and general information for the preparation, operation, maintenance, and standard repairs?',
@@ -19528,7 +20210,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2567,
+        id: 2663,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Which chapter of the Standard Practices Manual (M.T.C.) includes corrosion identification, repair procedures, and preventive maintenance?',
@@ -19540,7 +20222,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2568,
+        id: 2664,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'In which section of the Standard Practices Manual (M.T.C.) can you find information about identifying corrosion and related maintenance procedures?',
@@ -19552,7 +20234,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2569,
+        id: 2665,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Where can standard practices for the structure be found?',
@@ -19564,7 +20246,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2570,
+        id: 2666,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Which of the following manuals can incorporate the Standard Practices Manual (M.T.C.) Chapter 20?',
@@ -19576,7 +20258,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2571,
+        id: 2667,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Where are the cockpit doors located on the aircraft?',
@@ -19588,7 +20270,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2572,
+        id: 2668,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'How are the cockpit doors operated?',
@@ -19600,7 +20282,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2573,
+        id: 2669,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What is the function of the gas strut attached to the cockpit doors?',
@@ -19612,7 +20294,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2574,
+        id: 2670,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What angle can the cockpit door open to when the gas spring is disconnected?',
@@ -19624,7 +20306,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2575,
+        id: 2671,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'How can the cockpit doors be locked and unlocked?',
@@ -19636,7 +20318,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2576,
+        id: 2672,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What type of handles do the cockpit doors have?',
@@ -19648,7 +20330,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2577,
+        id: 2673,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What does the first step of the locking mechanism do on cockpit doors?',
@@ -19660,7 +20342,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2578,
+        id: 2674,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'How is the door locking status indicated on the Multi-Functional Display (MFD)?',
@@ -19672,7 +20354,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2579,
+        id: 2675,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'How do the cabin doors open and close?',
@@ -19684,7 +20366,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2580,
+        id: 2676,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'How many handles are present on the cabin sliding doors?',
@@ -19696,7 +20378,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2581,
+        id: 2677,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Which component ensures the sliding door remains open during flight?',
@@ -19708,7 +20390,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2582,
+        id: 2678,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What is the purpose of the failsafe brackets on the sliding doors?',
@@ -19720,7 +20402,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2583,
+        id: 2679,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'How are the crew doors jettisoned during an emergency?',
@@ -19732,7 +20414,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2584,
+        id: 2680,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What type of structure is the servicing door made of?',
@@ -19744,7 +20426,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2585,
+        id: 2681,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What warning would indicate a battery bay door incorrectly closed?',
@@ -19756,7 +20438,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2586,
+        id: 2682,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What equipment can be accessed through the servicing doors?',
@@ -19768,7 +20450,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2587,
+        id: 2683,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What indicates a correct locking of the sliding doors?',
@@ -19780,7 +20462,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2588,
+        id: 2684,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'How are the cockpit and sliding door microswitches connected?',
@@ -19792,7 +20474,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2589,
+        id: 2685,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What happens if the cockpit door microswitch contacts remain open?',
@@ -19804,7 +20486,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2590,
+        id: 2686,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What does the caution DOORS (amber) on the Master List indicate?',
@@ -19816,7 +20498,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2591,
+        id: 2687,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Which doors are monitored by the electrical warning system?',
@@ -19828,7 +20510,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2592,
+        id: 2688,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What warning would indicate a cargo bay door incorrectly closed??',
@@ -19840,7 +20522,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2593,
+        id: 2689,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Which fuselage section houses the Nose Landing Gear (NLG)?',
@@ -19852,7 +20534,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2594,
+        id: 2690,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What is the primary function of the rear fuselage?',
@@ -19864,7 +20546,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2595,
+        id: 2691,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Which component is located in the upper deck of the intermediate fuselage?',
@@ -19876,7 +20558,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2596,
+        id: 2692,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Which part of the fuselage provides space for passengers?',
@@ -19888,7 +20570,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2597,
+        id: 2693,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'The canopy in the front fuselage is designed to primarily:',
@@ -19900,7 +20582,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2598,
+        id: 2694,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What connects the front fuselage to the centre fuselage?',
@@ -19912,7 +20594,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2599,
+        id: 2695,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Where is the Main Landing Gear (MLG) attached?',
@@ -19924,7 +20606,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2600,
+        id: 2696,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Which frame serves as the junction between the intermediate fuselage and the tail boom?',
@@ -19936,7 +20618,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2601,
+        id: 2697,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Which part of the fuselage accommodates the crew compartment?',
@@ -19948,7 +20630,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2602,
+        id: 2698,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What is the main purpose of the fairings?',
@@ -19960,7 +20642,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2603,
+        id: 2699,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Where is the cargo compartment located?',
@@ -19972,7 +20654,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2604,
+        id: 2700,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Which frame supports the sliding doors and cabin floor?',
@@ -19984,7 +20666,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2605,
+        id: 2701,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What is the function of the Tail Pylon?',
@@ -19996,7 +20678,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2606,
+        id: 2702,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'The main function of the transmission fairings is to:',
@@ -20008,7 +20690,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2607,
+        id: 2703,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Where is the fire isolation system located?',
@@ -20020,7 +20702,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2608,
+        id: 2704,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What is the purpose of the NAB fairing?',
@@ -20032,7 +20714,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2609,
+        id: 2705,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'The canopy is designed to accommodate:',
@@ -20044,7 +20726,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2610,
+        id: 2706,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Which part of the fuselage transmits the tail rotor load?',
@@ -20056,7 +20738,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2611,
+        id: 2707,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What is the function of the bottom access fairings?',
@@ -20068,7 +20750,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2612,
+        id: 2708,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'The main purpose of the longitudinal beams in the fuselage is to:',
@@ -20080,7 +20762,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2613,
+        id: 2709,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What type of drainage the structure',
@@ -20092,7 +20774,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2614,
+        id: 2710,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What is the main purpose of the horizontal stabiliser on the H175 helicopter?',
@@ -20104,7 +20786,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2615,
+        id: 2711,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What material are the horizontal stabiliser spars made of?',
@@ -20116,7 +20798,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2616,
+        id: 2712,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Which of the following components are attached to the ends of the horizontal stabiliser?',
@@ -20128,7 +20810,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2617,
+        id: 2713,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What is the function of the lateral outboard fins on the horizontal stabiliser?',
@@ -20140,7 +20822,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2618,
+        id: 2714,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What is the primary function of the position lights on the horizontal stabiliser?',
@@ -20152,7 +20834,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2619,
+        id: 2715,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What material is used for the leading edge skin panels of the horizontal stabiliser?',
@@ -20164,7 +20846,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2620,
+        id: 2716,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'How does the horizontal stabiliser contribute to the helicopter/’s pitch attitude in forward flight?',
@@ -20176,7 +20858,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2621,
+        id: 2717,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What is the function of the two tubes located just aft of the first spar in the horizontal stabiliser?',
@@ -20188,7 +20870,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2622,
+        id: 2718,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'How is the horizontal stabiliser spar attached to the pylon?',
@@ -20200,7 +20882,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2623,
+        id: 2719,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What is the primary purpose of the windows on the H175 aircraft?',
@@ -20212,7 +20894,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2624,
+        id: 2720,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Which component is NOT part of the Flight Compartment Windows?',
@@ -20224,7 +20906,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2625,
+        id: 2721,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What material is used in the construction of the upper cockpit windows?',
@@ -20236,7 +20918,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2626,
+        id: 2722,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What is the thickness of the upper cockpit windows?',
@@ -20248,7 +20930,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2627,
+        id: 2723,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What feature do the upper cockpit windows have to reduce UV aging?',
@@ -20260,7 +20942,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2628,
+        id: 2724,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What is the main function of the windshield panels on the H175?',
@@ -20272,7 +20954,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2629,
+        id: 2725,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'The windshield panels are equipped with which system for anti-icing?',
@@ -20284,7 +20966,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2630,
+        id: 2726,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Which of the following materials is used in the windshield panels?',
@@ -20296,7 +20978,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2631,
+        id: 2727,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What thickness are the windshield panels on the H175?',
@@ -20308,7 +20990,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2632,
+        id: 2728,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'The bad weather windows on the pilot and co-pilot doors are made from which material?',
@@ -20320,7 +21002,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2633,
+        id: 2729,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Which of the following windows can be jettisoned in an emergency?',
@@ -20332,7 +21014,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2634,
+        id: 2730,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'The cabin windows are made of what material?',
@@ -20344,7 +21026,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2635,
+        id: 2731,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What is the thickness of the cockpit lower windows on the H175?',
@@ -20356,7 +21038,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2636,
+        id: 2732,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'How are the cockpit lower windows attached to the structure?',
@@ -20368,7 +21050,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2637,
+        id: 2733,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What additional feature is applied to the outer surface of the windshield panels?',
@@ -20380,7 +21062,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2638,
+        id: 2734,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'What material are the cockpit door windows made from?',
@@ -20392,7 +21074,7 @@ export const questions = [
         correct: 'a'
     },
     {
-        id: 2639,
+        id: 2735,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'The cabin windows are set in which type of seal?',
@@ -20404,7 +21086,7 @@ export const questions = [
         correct: 'b'
     },
     {
-        id: 2640,
+        id: 2736,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'Which part of the window must be pulled to eject it during an emergency?',
@@ -20416,7 +21098,7 @@ export const questions = [
         correct: 'c'
     },
     {
-        id: 2641,
+        id: 2737,
         Aircraft: 'H175',
         Category: '51-56',
         question: 'How are the windshield panels sealed to ensure water tightness?',
