@@ -17143,6 +17143,488 @@ export const questions = [
         },
         correct: 'b'
     },
+    {
+        id: 2642,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What type of main rotor system is used on the H175?',
+        options: {
+          a: 'Rigid rotor system',
+          b: 'Spheriflex rotor system',
+          c: 'Semi-rigid rotor system'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2643,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the main rotor of the H175 tilted forward by?',
+        options: {
+          a: '2 degrees',
+          b: '6.5 degrees',
+          c: '4.5 degrees'
+        },
+        correct: 'c'
+      },
+      {
+        id: 2644,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How many blades does the main rotor of the H175 have?',
+        options: {
+          a: '4',
+          b: '5',
+          c: '6'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2645,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What type of material is primarily used for the H175 main rotor blades?',
+        options: {
+          a: 'Aluminum',
+          b: 'Composite materials',
+          c: 'Steel'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2646,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the purpose of the swashplate in the main rotor system?',
+        options: {
+          a: 'To control blade pitch and transmit flight control inputs to the rotor blades',
+          b: 'To transmit power from the engines to the rotor blades',
+          c: 'To lubricate the rotor head'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2647,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the shape of the main rotor blade tip on the H175?',
+        options: {
+          a: 'Square',
+          b: 'Dihedral',
+          c: 'Parabolic'
+        },
+        correct: 'c'
+      },
+      {
+        id: 2648,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What protects the leading edge of the H175 main rotor blades from erosion?',
+        options: {
+          a: 'Polyurethane foam',
+          b: 'Metal shields',
+          c: 'Rubber strips'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2649,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the role of the elastomeric bearings in the main rotor system?',
+        options: {
+          a: 'To support the rotor blades during high-speed flight',
+          b: 'To provide hinge-free motion for pitch, flapping, and lead-lag movements',
+          c: 'To reduce drag'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2650,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the nominal rotational speed of the H175 main rotor?',
+        options: {
+          a: '279 rpm',
+          b: '320 rpm',
+          c: '250 rpm'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2651,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the function of the pitch control rods in the main rotor system?',
+        options: {
+          a: 'To change blade pitch based on cyclic and collective inputs',
+          b: 'To reduce vibrations during flight',
+          c: 'To monitor rotor speed'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2652,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What material is used to provide lightning protection for the main rotor blades?',
+        options: {
+          a: 'Aluminum foil',
+          b: 'Copper mesh',
+          c: 'Steel wire'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2653,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How many hinges does the spherical thrust bearing provide for each blade?',
+        options: {
+          a: '2',
+          b: '3',
+          c: '4'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2654,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the primary purpose of the lead-lag dampers in the main rotor system?',
+        options: {
+          a: 'To dampen blade flapping',
+          b: 'To control the advancing and retreating blade effect',
+          c: 'To absorb engine vibrations'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2655,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the function of the droop stops in the H175 main rotor system?',
+        options: {
+          a: 'To prevent excessive blade droop when the rotor is not turning',
+          b: 'To control rotor speed',
+          c: 'To reduce rotor drag'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2656,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the purpose of the nickel-plated copper braid in the main rotor blades?',
+        options: {
+          a: 'To provide electrical continuity for lightning strike protection',
+          b: 'To improve the aerodynamics of the blade',
+          c: 'To increase blade strength'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2657,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'Where is the static balancing system located on the main rotor blades?',
+        options: {
+          a: 'Near the blade root',
+          b: 'At the blade tip',
+          c: 'Along the mid-section of the blade'
+        },
+        correct: 'c'
+      },
+      {
+        id: 2658,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How many trim tabs are adjustable on each main rotor blade?',
+        options: {
+          a: '2',
+          b: '4',
+          c: '6'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2659,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the purpose of the flapping weights in the main rotor system?',
+        options: {
+          a: 'To control pitch movement',
+          b: 'To dampen blade vibration',
+          c: 'To transmit control inputs to the blades'
+        },
+        correct: 'c'
+      },
+      {
+        id: 2660,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How are the H175 main rotor blades attached to the rotor hub?',
+        options: {
+          a: 'With two biconical bushes and blade pins',
+          b: 'With bolts and screws',
+          c: 'With a clamp mechanism'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2661,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What provides the rotational drive for the main rotor head?',
+        options: {
+          a: 'Main rotor mast',
+          b: 'Hydraulic pumps',
+          c: 'Tail rotor system'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2662,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What material is used for the main rotor blade’s skin protection?',
+        options: {
+          a: 'Polyurethane',
+          b: 'Carbon fiber',
+          c: 'Steel mesh'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2663,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How is the swashplate connected to the rotating main rotor?',
+        options: {
+          a: 'Through pitch control rods and rotating scissor links',
+          b: 'Through hydraulic actuators',
+          c: 'Through the tail rotor'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2664,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What type of bearing is used in the swashplate assembly?',
+        options: {
+          a: 'Roller bearing',
+          b: 'Duplex bearing',
+          c: 'Ball bearing'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2665,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the role of the phonic wheel in the H175 main rotor system?',
+        options: {
+          a: 'To control rotor blade pitch',
+          b: 'To measure rotor rotational speed (NR)',
+          c: 'To reduce vibrations'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2666,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How is rotor speed information (NR) displayed to the crew?',
+        options: {
+          a: 'On the hydraulic panel',
+          b: 'On the multi-function displays (MFDs)',
+          c: 'On the landing gear panel'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2667,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What happens if both NR sensors fail during flight?',
+        options: {
+          a: 'An audio alert is triggered, and a computed NR value is displayed.',
+          b: 'The rotor automatically shuts down.',
+          c: 'The hydraulic system takes over control.'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2668,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What type of signal is generated by the NR sensors?',
+        options: {
+          a: 'Mechanical signal',
+          b: 'Electrical signal',
+          c: 'Hydraulic signal'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2669,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What does the NR1 sensor monitor in the H175?',
+        options: {
+          a: 'Rotor temperature',
+          b: 'Rotor speed',
+          c: 'Rotor pitch'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2670,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'Where is the NR2 sensor located on the H175?',
+        options: {
+          a: 'On the tail rotor gearbox',
+          b: 'On the front of the MGB conical housing',
+          c: 'On the main rotor hub'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2671,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the purpose of the “droop restrainer ring” in the main rotor system?',
+        options: {
+          a: 'To balance the static weight of the blades when the rotor is stopped.',
+          b: 'To prevent blade droop during flight.',
+          c: 'To control blade pitch'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2672,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What prevents the non-rotating swashplate from turning with the main rotor?',
+        options: {
+          a: 'Pitch control rods',
+          b: 'Lower scissor assembly',
+          c: 'Main rotor dampers'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2673,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What function does the lead-lag damper perform in the main rotor system?',
+        options: {
+          a: 'It adjusts the advancing and retreating blades and damps their motion.',
+          b: 'It controls the swashplate movement.',
+          c: 'It monitors rotor speed.'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2674,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the maximum RPM of the H175 main rotor?',
+        options: {
+          a: '250 rpm',
+          b: '279 rpm',
+          c: '300 rpm'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2675,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the role of the top fairing in the main rotor head?',
+        options: {
+          a: 'To reduce aerodynamic drag',
+          b: 'To increase rotor speed',
+          c: 'To support the flapping weights'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2676,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the main function of the spherical thrust bearings in the H175 main rotor system?',
+        options: {
+          a: 'To provide pitch control',
+          b: 'To allow for blade flapping, lead-lag, and pitch changes',
+          c: 'To monitor rotor speed'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2677,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the purpose of the anti-fretting shims in the spherical thrust bearing assembly?',
+        options: {
+          a: 'To prevent excessive vibrations',
+          b: 'To reduce wear between the bearing and hub',
+          c: 'To increase rotor speed'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2678,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What type of movements are permitted by the spherical bearings in the main rotor head?',
+        options: {
+          a: 'Pitch changes only',
+          b: 'Flapping, lead-lag, and pitch changes',
+          c: 'Yaw movements only'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2679,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'How are the main rotor blades dynamically balanced in the H175?',
+        options: {
+          a: 'Using static balancing weights',
+          b: 'With tungsten shot in the dynamic balancing box',
+          c: 'By adjusting the blade pitch control rods'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2680,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What is the main purpose of the mast in the H175 main rotor system?',
+        options: {
+          a: 'To transmit power from the MGB to the main rotor head',
+          b: 'To control the pitch of the rotor blades',
+          c: 'To provide lubrication to the rotor system'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2681,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What indicates a failure of both NR sensors during flight on the H175?',
+        options: {
+          a: 'The rotor speed increases automatically',
+          b: 'An estimated NR value is displayed with a caution message',
+          c: 'The hydraulic system takes over control'
+        },
+        correct: 'b'
+      },
+      
+      
     /*TODO H175 -- ATA -- '63' **NEED TO CHECK***/
     {
         id: 2409,
