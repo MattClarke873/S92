@@ -14510,7 +14510,7 @@ export const questions = [
         },
         correct: 'a'
     },
-    /*TODO  H175 -- ATA '31' TO CHECK*/
+    /*TODO  H175 -- ATA '31'*/
     {
         id: 2189,
         Aircraft: 'H175',
@@ -15087,7 +15087,7 @@ export const questions = [
         },
         correct: 'a'
     },
-    /**TODO Check below  */
+
     {
         id: 2235,
         Aircraft: 'H175',
@@ -15148,6 +15148,7 @@ export const questions = [
         },
         correct: 'b'
     },
+  
     {
         id: 2240,
         Aircraft: 'H175',
@@ -15156,7 +15157,7 @@ export const questions = [
         options: {
             a: 'Hydraulic system',
             b: 'Electrical system and avionics',
-            c: 'Fuel system'
+            c: 'AFCS system'
         },
         correct: 'b'
     },
@@ -15216,7 +15217,7 @@ export const questions = [
         options: {
             a: '2',
             b: '3',
-            c: '4'
+            c: '4 plus a memory module'
         },
         correct: 'c'
     },
@@ -15394,8 +15395,8 @@ export const questions = [
         Category: '31',
         question: 'Which page on the MFD shows information about the electrical system?',
         options: {
-            a: 'VMS-HYD',
-            b: 'VMS-FUEL',
+            a: 'FND-ELEC',
+            b: 'MISC-ELEC',
             c: 'VMS-ELEC'
         },
         correct: 'c'
@@ -15444,7 +15445,7 @@ export const questions = [
         options: {
             a: 'VMS-FUEL',
             b: 'VMS-RCNF',
-            c: 'VMS-HYD'
+            c: 'VMS-CONF'
         },
         correct: 'b'
     },
@@ -15515,7 +15516,7 @@ export const questions = [
         question: 'What happens when a low fuel level is detected by the VMS partition?',
         options: {
             a: 'An amber caution is shown on the CWP.',
-            b: 'An audio alert is sent to the flight crew’s headsets.',
+            b: 'An audio alert is sent to the flight crew\’s headsets.',
             c: 'The system performs an automatic reconfiguration.'
         },
         correct: 'b'
@@ -15828,7 +15829,7 @@ export const questions = [
         options: {
             a: 'In the instrument panel',
             b: 'In the cockpit ceiling panel',
-            c: 'Near the pilot’s headset'
+            c: 'Near the pilot\’s headset'
         },
         correct: 'b'
     },
@@ -15840,7 +15841,7 @@ export const questions = [
         options: {
             a: 'It activates an audio warning.',
             b: 'It cuts power to the CVFDR.',
-            c: 'It removes all power from the CVFDR'
+            c: 'Stop CVFDR recording.'
         },
         correct: 'b'
     },
@@ -15886,7 +15887,7 @@ export const questions = [
         Category: '31',
         question: 'What is the purpose of the Underwater Locator Beacon (ULB) in the CVFDR system?',
         options: {
-            a: 'To transmit the aircraft’s position in water',
+            a: 'To transmit the aircraft/’s position in water',
             b: 'To erase the CVFDR data in water',
             c: 'To locate the CVFDR in case of a crash into water'
         },
@@ -15896,7 +15897,7 @@ export const questions = [
         id: 2302,
         Aircraft: 'H175',
         Category: '31',
-        question: 'What is the purpose of the CVFDR’s Power-Up Built-In Test (PBIT)?',
+        question: 'What is the purpose of the CVFDR\’s Power-Up Built-In Test (PBIT)?',
         options: {
             a: 'To test the CVFDR memory',
             b: 'To test the CVFDR system at startup',
@@ -15924,7 +15925,7 @@ export const questions = [
         options: {
             a: 'To monitor pilot health during flight',
             b: 'To monitor vibrations in the rotors, gearboxes, and bearings',
-            c: 'To track the aircraft’s flight path for analysis'
+            c: 'To track the aircraft\’s flight path for analysis'
         },
         correct: 'b'
     },
@@ -16049,7 +16050,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    {
+/*     {
         id: 2315,
         Aircraft: 'H175',
         Category: '46',
@@ -16060,7 +16061,8 @@ export const questions = [
             c: 'Central Warning Panel (CWP)'
         },
         correct: 'b'
-    },
+    }, */
+    /*TODO *Check below */
     {
         id: 2316,
         Aircraft: 'H175',
