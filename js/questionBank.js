@@ -14543,7 +14543,7 @@ export const questions = [
         options: {
             a: 'It monitors flight controls',
             b: 'It acquires and computes vehicle and engine signals',
-            c: 'It performs avionics tests'
+            c: 'It Monitors the communication system'
         },
         correct: 'b'
     },
@@ -14759,7 +14759,7 @@ export const questions = [
         options: {
             a: 'Hydraulic pressure and temperature',
             b: 'Fuel flow rates, pressures, temperatures, and quantities',
-            c: 'Electrical system voltages and battery status'
+            c: 'Fuel quantities only'
         },
         correct: 'b'
     },
@@ -14827,7 +14827,7 @@ export const questions = [
         id: 2215,
         Aircraft: 'H175',
         Category: '31',
-        question: 'What data is stored in the AMC’s internal memory during failure management?',
+        question: 'What data is stored in the AMC\’s internal memory during failure management?',
         options: {
             a: 'Hydraulic system status',
             b: 'System failures and flight numbers',
@@ -15016,6 +15016,30 @@ export const questions = [
         correct: 'a'
     },
     {
+        id: 2230.1,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What message is displayed on the Master List if a failure occurs during and automatic clearance test?',
+        options: {
+            a: 'START-UP TST FAIL',
+            b: 'P-START TST FAIL',
+            c: 'LOW FUEL PRESS'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2230.1,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What message is displayed on the Master List if a failure occurs during and manual clearance test?',
+        options: {
+            a: 'START-UP TST FAIL',
+            b: 'P-START TST FAIL',
+            c: 'LOW FUEL PRESS'
+        },
+        correct: 'b'
+    },
+    {
         id: 2231,
         Aircraft: 'H175',
         Category: '31',
@@ -15043,7 +15067,7 @@ export const questions = [
         id: 2233,
         Aircraft: 'H175',
         Category: '31',
-        question: 'What happens when the ERASE button on the CVFDR Maintenance Panel is pressed?',
+        question: 'With the rotorbrake applied on the ground what happens when the ERASE button on the CVFDR Maintenance Panel is pressed?',
         options: {
             a: 'Flight data is deleted permanently',
             b: 'Audio recordings are erased',
