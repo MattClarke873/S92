@@ -12,7 +12,7 @@
         th {
             border: 1px solid #ddd;
             padding: 8px;
-            text-align: center; /* Center text in table headers */
+            text-align: center;
             background-color: #f4f4f4;
         }
         td {
@@ -20,26 +20,32 @@
             padding: 8px;
         }
         td.center-align {
-            text-align: center; /* Center text in specific cells */
+            text-align: center;
         }
         td.left-align {
-            text-align: left; /* Align text to the left in specific cells */
+            text-align: left;
         }
         tr:nth-child(even) {
             background-color: #f9f9f9;
         }
         .bold {
             font-weight: bold;
-            color: green; /* Change the color to green */
+            color: green;
         }
         input, select {
             width: 100%;
             box-sizing: border-box;
         }
+        #questionCount {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
     <h1>Question Bank</h1>
+    <div id="questionCount"></div>
     <table id="questionTable">
         <!-- Table will be generated here -->
     </table>
@@ -49,15 +55,19 @@
 
         function generateTable(data) {
             const table = document.getElementById('questionTable');
+            const questionCount = document.getElementById('questionCount');
             const thead = table.createTHead();
             const tbody = table.createTBody();
+
+            // Update the question count display
+            questionCount.textContent = `Number of Questions: ${data.length}`;
 
             // Create header row with filters for specific columns
             const headerRow = thead.insertRow();
             const headers = ['id', 'Aircraft', 'Category', 'question', 'options'];
             headers.forEach(header => {
                 const th = document.createElement('th');
-                th.textContent = header.charAt(0).toUpperCase() + header.slice(1); // Capitalize header text
+                th.textContent = header.charAt(0).toUpperCase() + header.slice(1);
 
                 if (header === 'id' || header === 'Category') {
                     // Create filter input for "id" and "Category"
@@ -74,7 +84,7 @@
                     filterSelect.appendChild(defaultOption);
 
                     // Add options for dropdown
-                    const aircraftOptions = ['S92', 'H175']; // Update this list based on available aircraft
+                    const aircraftOptions = ['S92', 'H175'];
                     aircraftOptions.forEach(aircraft => {
                         const option = document.createElement('option');
                         option.value = aircraft;
@@ -101,12 +111,10 @@
                             const optionsTable = document.createElement('table');
                             const optionsTbody = optionsTable.createTBody();
 
-                            // Iterate over options and apply bold to the correct one
                             Object.keys(item.options).forEach(optionKey => {
                                 const optionRow = optionsTbody.insertRow();
                                 const optionCell = optionRow.insertCell();
-                                
-                                // Bold the correct option and set color to green
+
                                 const optionText = document.createElement('span');
                                 optionText.textContent = `${optionKey}: ${item.options[optionKey]}`;
                                 if (optionKey === item.correct) {
@@ -115,10 +123,9 @@
                                 optionCell.appendChild(optionText);
                             });
                             cell.appendChild(optionsTable);
-                            cell.classList.add('left-align'); // Ensure options column has left alignment
+                            cell.classList.add('left-align');
                         } else {
                             cell.textContent = item[header];
-                            // Center-align specific columns
                             if (header === 'id' || header === 'Aircraft' || header === 'Category') {
                                 cell.classList.add('center-align');
                             } else {
@@ -127,9 +134,11 @@
                         }
                     });
                 });
+
+                // Update the question count after filtering
+                questionCount.textContent = `Number of Questions: ${filteredData.length}`;
             }
 
-            // Apply filters based on input values
             function applyFilters(data) {
                 const filterInputs = Array.from(document.querySelectorAll('th input'));
                 const filterSelect = document.querySelector('th select');
@@ -142,11 +151,10 @@
                 const filteredData = data.filter(item => {
                     return headers.every(header => {
                         if (header === 'options') {
-                            return true; // Skip filtering for this column
+                            return true;
                         }
                         const filterValue = filters[header] || '';
                         const cellValue = item[header] ? item[header].toString().toLowerCase() : '';
-                        // Check if cellValue starts with the filterValue
                         return cellValue.startsWith(filterValue);
                     });
                 });

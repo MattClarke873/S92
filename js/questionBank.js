@@ -16741,9 +16741,9 @@ export const questions = [
         Category: '62',
         question: 'Which personnel can carry out "COV" tasks?',
         options: {
-            a: 'Any certified personnel',
+            a: 'Any licenced personnel',
             b: 'Personnel with specific factory training on blades repairs',
-            c: 'Only supervisory staff'
+            c: 'Composite trained personnel'
         },
         correct: 'b'
     },
@@ -16895,7 +16895,7 @@ export const questions = [
         id: 2387,
         Aircraft: 'H175',
         Category: '62',
-        question: 'What material is used for the leading-edge protection of the EC175 main rotor blade?',
+        question: 'What materials is used for the leading-edge protection of the EC175 main rotor blade?',
         options: {
             a: 'Aluminum',
             b: 'Nickel and Stainless Steel',
@@ -17319,7 +17319,7 @@ export const questions = [
         options: {
             a: 'To provide electrical continuity for lightning strike protection',
             b: 'To improve the aerodynamics of the blade',
-            c: 'To increase blade strength'
+            c: 'Leading edge errosion protection'
         },
         correct: 'a'
     },
@@ -17329,17 +17329,17 @@ export const questions = [
         Category: '62',
         question: 'Where is the static balancing system located on the main rotor blades?',
         options: {
-            a: 'Near the blade root',
-            b: 'At the blade tip',
+            a: 'Balancing cavity near the blade root',
+            b: 'Balancing cavity at the blade tip',
             c: 'Along the mid-section of the blade'
         },
-        correct: 'c'
+        correct: 'b'
     },
     {
         id: 2424,
         Aircraft: 'H175',
         Category: '62',
-        question: 'How many trim tabs are adjustable on each main rotor blade?',
+        question: 'How many trim tabs are adjustable on each main rotor blade during operational track and balance?',
         options: {
             a: '2',
             b: '4',
@@ -17587,7 +17587,7 @@ export const questions = [
         },
         correct: 'b'
     },
-    {
+/*     {
         id: 2445,
         Aircraft: 'H175',
         Category: '62',
@@ -17598,7 +17598,7 @@ export const questions = [
             c: 'By adjusting the blade pitch control rods'
         },
         correct: 'b'
-    },
+    }, */
     {
         id: 2446,
         Aircraft: 'H175',
@@ -17719,7 +17719,7 @@ export const questions = [
         },
         correct: 'c'
     },
-    {
+/*     {
         id: 2456,
         Aircraft: 'H175',
         Category: '62',
@@ -17730,7 +17730,7 @@ export const questions = [
             c: '6°'
         },
         correct: 'b'
-    },
+    }, */
     {
         id: 2457,
         Aircraft: 'H175',
@@ -17779,14 +17779,15 @@ export const questions = [
         },
         correct: 'b'
     },
+    /*TODO CHHHHEEEECCCCCKKKK */
     {
         id: 2461,
         Aircraft: 'H175',
         Category: '62',
         question: 'What type of bearing allows the swashplate to tilt in any direction?',
         options: {
-            a: 'Spherical bearing',
-            b: 'Ball bearing',
+            a: 'Uni-ball bearing',
+            b: 'Roller bearing',
             c: 'Thrust bearing'
         },
         correct: 'a'
@@ -17835,7 +17836,7 @@ export const questions = [
         options: {
             a: 'Aluminum',
             b: 'Stainless steel',
-            c: 'Nickel'
+            c: 'Carbon Fiber'
         },
         correct: 'b'
     },
@@ -17869,9 +17870,9 @@ export const questions = [
         Category: '62',
         question: 'How is the rotor blade balance adjusted?',
         options: {
-            a: 'Adding weights to balancing cavities',
+            a: 'Adding weights to balancing cavities at the blade tip',
             b: 'Changing blade length',
-            c: 'Adjusting blade pitch angle'
+            c: 'Adding weights to balancing cavities at the blade root'
         },
         correct: 'a'
     },
@@ -17894,7 +17895,7 @@ export const questions = [
         question: 'What is the function of the nickel tip shield on the rotor blade?',
         options: {
             a: 'Protect the rotor blade from erosion',
-            b: 'Increase the blade’s aerodynamic efficiency',
+            b: 'Increase the blade\’s aerodynamic efficiency',
             c: 'Reduce the weight of the blade'
         },
         correct: 'a'
@@ -17915,9 +17916,9 @@ export const questions = [
         id: 2472,
         Aircraft: 'H175',
         Category: '62',
-        question: 'What material is used for the construction of the MRB’s composite skin?',
+        question: 'What material is used for the construction of the MRB\’s composite skin?',
         options: {
-            a: 'Carbon fiber',
+            a: 'Nomex fiber',
             b: 'Glass fiber',
             c: 'Kevlar'
         },
@@ -17959,7 +17960,7 @@ export const questions = [
         },
         correct: 'a'
     },
-    {
+/*     {
         id: 2476,
         Aircraft: 'H175',
         Category: '62',
@@ -17970,7 +17971,7 @@ export const questions = [
             c: 'Trim tabs'
         },
         correct: 'b'
-    },
+    }, */
     {
         id: 2477,
         Aircraft: 'H175',
@@ -17979,9 +17980,9 @@ export const questions = [
         options: {
             a: 'Prevents blade droop on the ground',
             b: 'Controls blade flapping in flight',
-            c: 'Balances the blade’s static moment'
+            c: 'Balances the blade\’s static moment'
         },
-        correct: 'c'
+        correct: 'a'
     },
     {
         id: 2478,
@@ -17989,7 +17990,7 @@ export const questions = [
         Category: '62',
         question: 'What is the purpose of the spherical thrust bearings in the main rotor system?',
         options: {
-            a: 'To allow pitch change, flapping, and lead-lag',
+            a: 'To allow pitch, flapping, lead-lag and centrifugal forces',
             b: 'To increase rotor speed',
             c: 'To secure the rotor blades'
         },
@@ -18062,8 +18063,8 @@ export const questions = [
         question: 'Where are the NR sensors located?',
         options: {
             a: 'On the tail rotor shaft',
-            b: 'On the main gear box (MGB)',
-            c: 'On the main rotor blade root'
+            b: 'On the main gear box (front and back)',
+            c: 'On the main gear box (left and right)'
         },
         correct: 'b'
     },
@@ -18091,7 +18092,7 @@ export const questions = [
         },
         correct: 'a'
     },
-    {
+/*     {
         id: 2487,
         Aircraft: 'H175',
         Category: '62',
@@ -18102,7 +18103,7 @@ export const questions = [
             c: 'With adjustable trim tabs'
         },
         correct: 'b'
-    },
+    }, */
     {
         id: 2488,
         Aircraft: 'H175',
@@ -18134,7 +18135,7 @@ export const questions = [
         question: 'How many adjustable trim tabs are there on the main rotor blade?',
         options: {
             a: 'Five',
-            b: 'Seven',
+            b: 'Two',
             c: 'Fourteen'
         },
         correct: 'b'
@@ -18167,7 +18168,7 @@ export const questions = [
         id: 2493,
         Aircraft: 'H175',
         Category: '62',
-        question: 'What material is used in the construction of the blade’s leading-edge protection?',
+        question: 'What material is used in the construction of the blade\’s leading-edge protection?',
         options: {
             a: 'Nickel',
             b: 'Aluminum',
@@ -18179,7 +18180,7 @@ export const questions = [
         id: 2494,
         Aircraft: 'H175',
         Category: '62',
-        question: 'How is the rotation of the swashplate prevented?',
+        question: 'How is the rotation of the fixed swashplate prevented?',
         options: {
             a: 'With the lower scissor assembly',
             b: 'With the upper scissor assembly',
@@ -18187,7 +18188,7 @@ export const questions = [
         },
         correct: 'a'
     },
-    {
+/*     {
         id: 2495,
         Aircraft: 'H175',
         Category: '62',
@@ -18198,8 +18199,8 @@ export const questions = [
             c: 'Hinge joints'
         },
         correct: 'a'
-    },
-    {
+    }, */
+/*     {
         id: 2496,
         Aircraft: 'H175',
         Category: '62',
@@ -18210,8 +18211,8 @@ export const questions = [
             c: 'Pitch control rod'
         },
         correct: 'a'
-    },
-    {
+    }, */
+/*     {
         id: 2497,
         Aircraft: 'H175',
         Category: '62',
@@ -18222,7 +18223,7 @@ export const questions = [
             c: 'Elastomeric bearings'
         },
         correct: 'a'
-    },
+    }, */
     {
         id: 2498,
         Aircraft: 'H175',
@@ -18304,6 +18305,18 @@ export const questions = [
             a: 'One',
             b: 'Two',
             c: 'Three'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2404.1,
+        Aircraft: 'H175',
+        Category: '62',
+        question: 'What forces are the elastomeric bearings of the main rotor system submitted to?',
+        options: {
+            a: 'hinge-free motion for pitch, flapping, and lead-lag',
+            b: 'hinge-free motion for pitch, flapping, lead-lag and centrifugal',
+            c: 'flapping, lead-lag, hinge-free motion for pitch'
         },
         correct: 'b'
     },
