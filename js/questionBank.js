@@ -21121,6 +21121,803 @@ export const questions = [
             c: 'With a rubber seal and sealant'
         },
         correct: 'c'
+    },
+    {
+        id: 2378,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What is the main purpose of Helionix?',
+        options: {
+            a: 'Alerting Management',
+            b: 'Flight Management and Control',
+            c: 'Mission Management'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2379,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which partition in the AMC is responsible for the Flight Data Recording System (FDRS)?',
+        options: {
+            a: 'Main',
+            b: 'VMS/UMS',
+            c: 'CIRM'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2380,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'How many partitions does each AMC Channel consist of?',
+        options: {
+            a: '2',
+            b: '3',
+            c: '4'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2381,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which component of Helionix performs automatic flight control system (AFCS) monitoring?',
+        options: {
+            a: 'CIRM',
+            b: 'AFCS partition',
+            c: 'Main partition'
+        },
+        correct: 'b'
+    },
+    /*TODO ATA 31 ****CHECK**** */
+    {
+        id: 2382,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What is the function of the VMS/UMS partition in the AMC?',
+        options: {
+            a: 'It manages the alerting system.',
+            b: 'It records the flight data.',
+            c: 'It computes vehicle and engine signals.'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2383,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'How many Aircraft Management Computers (AMC) are fitted to the H175?',
+        options: {
+            a: '1',
+            b: '2',
+            c: '3'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2384,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which data bus is used for communication between the AMCs and other systems?',
+        options: {
+            a: 'MIL-STD-1553',
+            b: 'ARINC 429',
+            c: 'CAN bus'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2385,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What is the default display mode for the outer MFDs on the H175?',
+        options: {
+            a: 'Navigation display',
+            b: 'Vehicle Management System (VMS)',
+            c: 'Flight and Navigation Display (FND)'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2386,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What happens if one of the outer MFDs fails?',
+        options: {
+            a: 'The other MFDs continue normal operation.',
+            b: 'The inner MFD automatically reconfigures to show the FND page.',
+            c: 'All MFDs enter a failure mode.'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2387,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which of the following is NOT a component of the Helionix system?',
+        options: {
+            a: 'Multi-Function Displays (MFD)',
+            b: 'Central Warning Panel',
+            c: 'Data Transfer Device (DTD)'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2388,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which partition is responsible for the Automatic Flight Control System (AFCS)?',
+        options: {
+            a: 'Main',
+            b: 'VMS/UMS',
+            c: 'AFCS'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2389,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What is the purpose of the Memory Module 2 in the H175?',
+        options: {
+            a: 'It stores engine data.',
+            b: 'It is used for data logging and recording.',
+            c: 'It is connected to AMC2 Channel A for memory management.'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2390,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'How many Multi-Function Displays (MFDs) are installed on the instrument panel?',
+        options: {
+            a: '2',
+            b: '3',
+            c: '4'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2391,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What kind of displays are the MFDs in the H175 compatible with?',
+        options: {
+            a: 'Night Vision Goggle (NVG)',
+            b: 'Thermal Imaging Displays',
+            c: 'Heads-Up Display (HUD)'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2392,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which MFD displays the Vehicle Management System (VMS) at initial power on?',
+        options: {
+            a: 'MFD1',
+            b: 'MFD4',
+            c: 'MFD2'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2393,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What is the primary function of the Flight Navigation Display (FND)?',
+        options: {
+            a: 'To display flight and navigation data.',
+            b: 'To manage maintenance data.',
+            c: 'To display weather radar information.'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2394,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What does the Horizontal Situation Indicator (HSI) on the FND display?',
+        options: {
+            a: 'A compass rose with navigation information.',
+            b: 'Fuel system status.',
+            c: 'Altitude and vertical speed.'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2395,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which page on the MFD shows information about the electrical system?',
+        options: {
+            a: 'VMS-HYD',
+            b: 'VMS-FUEL',
+            c: 'VMS-ELEC'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2396,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which of the following information is NOT shown on the VMS-XMSN page?',
+        options: {
+            a: 'Gearbox oil temperature',
+            b: 'Chip detector status',
+            c: 'Engine fuel flow'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2397,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What type of data is displayed on the VMS-FUEL page?',
+        options: {
+            a: 'Fuel flow rates and quantities',
+            b: 'Engine oil pressure',
+            c: 'Landing gear status'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2398,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which of the following systems is displayed on the VMS-HYD page?',
+        options: {
+            a: 'Fuel system',
+            b: 'Hydraulic system',
+            c: 'Transmission system'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2399,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which page allows reconfiguration of the aircraft avionic equipment?',
+        options: {
+            a: 'VMS-FUEL',
+            b: 'VMS-RCNF',
+            c: 'VMS-HYD'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2400,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which system does the Digital Map (DMAP) page display?',
+        options: {
+            a: 'Navigation symbology on a digital map',
+            b: 'Electrical system parameters',
+            c: 'Hydraulic system information'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2401,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What is the purpose of the MISC page on the MFD?',
+        options: {
+            a: 'It displays external video from sources like a hook or tail camera.',
+            b: 'It shows miscellaneous system alerts.',
+            c: 'It allows configuration of miscellaneous flight parameters.'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2402,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which of the following messages indicates a failure of AMC1 Channel A?',
+        options: {
+            a: 'AMC1 FAIL',
+            b: 'AMC1 CHAN A FAIL',
+            c: 'CHAN A FAIL AMC2'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2403,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What does the advisory message AVIONIC TST FAIL indicate?',
+        options: {
+            a: 'Failure of one redundant I/O component',
+            b: 'Interface failure between MFDs and equipment',
+            c: 'Loss of signal from the VMS partition'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2404,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which message is displayed during a successful completion of a Pre-Flight Test?',
+        options: {
+            a: 'P-FLT TST PENDG',
+            b: 'P-FLT TST OK',
+            c: 'START-UP TST'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2405,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What happens when a low fuel level is detected by the VMS partition?',
+        options: {
+            a: 'An amber caution is shown on the CWP.',
+            b: 'An audio alert is sent to the flight crew’s headsets.',
+            c: 'The system performs an automatic reconfiguration.'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2406,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which sensor type is NOT part of the Helionix system?',
+        options: {
+            a: 'Air Data Sensors',
+            b: 'Aircraft Piloting Inertial Reference System (APIRS)',
+            c: 'Pressure Altitude Sensors'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2407,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Where are the AMCs located in the aircraft?',
+        options: {
+            a: 'In the tail boom',
+            b: 'In the nose avionic compartment',
+            c: 'Under the cabin floor'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2408,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What kind of sensors provide bird strike protection in the H175?',
+        options: {
+            a: 'Shock sensors',
+            b: 'Vibration sensors',
+            c: 'Proximity sensors'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2409,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which display component is compatible with Night Vision Goggles (NVG)?',
+        options: {
+            a: 'Multi-Function Displays (MFD)',
+            b: 'Central Warning Panel',
+            c: 'Helionix system'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2410,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which MFD shows the Vehicle Management System (VMS) at power-on?',
+        options: {
+            a: 'MFD2',
+            b: 'MFD4',
+            c: 'MFD3'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2411,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What does the Fuel Page (VMS-FUEL) display?',
+        options: {
+            a: 'Engine oil pressures',
+            b: 'Fuel pressures and quantities',
+            c: 'Hydraulic fluid temperatures'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2412,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What is the main purpose of the Clearance Test?',
+        options: {
+            a: 'To test the aircraft systems during flight',
+            b: 'To test the avionics before takeoff',
+            c: 'To reconfigure the systems mid-flight'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2413,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'How many different test phases are there in the Clearance Test?',
+        options: {
+            a: 'Two',
+            b: 'Three',
+            c: 'Four'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2414,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which signal initiates the Power-Up Test?',
+        options: {
+            a: 'A manual toggle switch',
+            b: 'A discrete signal from the VMS partition',
+            c: 'A flight crew acknowledgment'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2415,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What happens if a failure is detected during the Power-Up Test?',
+        options: {
+            a: 'The system initiates an automatic reconfiguration.',
+            b: 'The test is aborted and an alert is displayed.',
+            c: 'The flight is delayed until the test passes.'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2416,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which of the following is NOT part of the alert color coding in the H175?',
+        options: {
+            a: 'Red - Warning',
+            b: 'Amber - Caution',
+            c: 'Blue - Advisory'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2417,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What system manages both visual and audio alerts in the H175?',
+        options: {
+            a: 'Flight Data Recording System (FDRS)',
+            b: 'Vehicle Management System (VMS)',
+            c: 'Helionix'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2418,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Where is the Master List displayed in the H175?',
+        options: {
+            a: 'On the Central Warning Panel (CWP)',
+            b: 'At the bottom center of the Flight Navigation Display (FND)',
+            c: 'On the Vehicle Management System (VMS) page'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2419,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'How many messages can the Master List display at one time?',
+        options: {
+            a: '5',
+            b: '7',
+            c: '10'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2420,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What color is used to indicate a critical warning on the Master List?',
+        options: {
+            a: 'Amber',
+            b: 'White',
+            c: 'Red'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2421,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which message will be displayed if the Power-Up Test is pending?',
+        options: {
+            a: 'PWR-UP TST PENDG',
+            b: 'PWR-UP TST OK',
+            c: 'PWR-UP TST ABORT'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2422,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What is the function of the Automatic Reconfiguration in Helionix?',
+        options: {
+            a: 'To reconfigure the aircraft mid-flight if a failure occurs',
+            b: 'To reconfigure the avionics during the Power-Up Test',
+            c: 'To automatically update the system software'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2423,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What is the Helionix system primarily designed to assist with?',
+        options: {
+            a: 'In-flight entertainment',
+            b: 'Flight management and control',
+            c: 'Passenger communication'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2424,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What is the capacity of the Cockpit Voice and Flight Data Recorder (CVFDR) in terms of flight data?',
+        options: {
+            a: '25 hours',
+            b: '10 hours',
+            c: '15 hours'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2425,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Where is the Cockpit Voice and Flight Data Recorder (CVFDR) located?',
+        options: {
+            a: 'In the avionics bay',
+            b: 'On the right side of the tail boom',
+            c: 'In the cockpit ceiling panel'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2426,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What component ensures that the CVFDR has power after the main supply is cut?',
+        options: {
+            a: 'Backup Battery Unit',
+            b: 'Recorder Independent Power Supply (RIPS)',
+            c: 'Auxiliary Power Supply'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2427,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What color is the CVFDR painted for easy recovery?',
+        options: {
+            a: 'Orange',
+            b: 'Yellow',
+            c: 'Red'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2428,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What does the Event Marker button do in the CVFDR system?',
+        options: {
+            a: 'Erases all recorded data',
+            b: 'Marks a specific point in the flight data for analysis',
+            c: 'Initiates the Power-Up Test'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2429,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What signal is used by the CVFDR to erase the recorded data?',
+        options: {
+            a: 'Discrete signal from the MFDs',
+            b: 'Audio signal from the cockpit',
+            c: 'Power-Off logic'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2430,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What happens to the CVFDR when the Water Immersion Sensor (WIS) detects a water landing?',
+        options: {
+            a: 'The CVFDR powers down immediately.',
+            b: 'The CVFDR records for 10 more minutes using the RIPS.',
+            c: 'The CVFDR erases all data.'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2431,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Where is the Cockpit Area Microphone located?',
+        options: {
+            a: 'In the instrument panel',
+            b: 'In the cockpit ceiling panel',
+            c: 'Near the pilot’s headset'
+        },
+        correct: 'b'
+    },
+    /**TODO CHECK EHCEJ */
+    {
+        id: 2432,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What does the Water Immersion Sensor (WIS) do when it detects water?',
+        options: {
+            a: 'It activates an audio warning.',
+            b: 'It cuts power to the CVFDR.',
+            c: 'It initiates'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2433,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What happens when the Water Immersion Sensor (WIS) detects water immersion?',
+        options: {
+            a: 'It cuts the power supply to the CVFDR.',
+            b: 'It starts recording additional flight data.',
+            c: 'It triggers an audio alert in the cockpit.'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2434,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What does the CVFDR record during the final 10 minutes after the main power is cut?',
+        options: {
+            a: 'Flight data only',
+            b: 'Audio only',
+            c: 'Both flight data and audio'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2435,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Where is the Event Marker button located in the H175 cockpit?',
+        options: {
+            a: 'On the overhead panel',
+            b: 'On the Reconfiguration Control Unit (RCU)',
+            c: 'On the center console'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2436,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What is the purpose of the Underwater Locator Beacon (ULB) in the CVFDR system?',
+        options: {
+            a: 'To transmit the aircraft’s position in water',
+            b: 'To erase the CVFDR data in water',
+            c: 'To locate the CVFDR in case of a crash into water'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2437,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What is the purpose of the CVFDR’s Power-Up Built-In Test (PBIT)?',
+        options: {
+            a: 'To test the CVFDR memory',
+            b: 'To test the CVFDR system at startup',
+            c: 'To erase recorded data before takeoff'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2438,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'How many accelerometers are part of the Health Monitoring System (HMS)?',
+        options: {
+            a: '4',
+            b: '8',
+            c: '12'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2439,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What is the primary function of the Health Monitoring System (HMS)?',
+        options: {
+            a: 'To monitor pilot health during flight',
+            b: 'To monitor vibrations in the rotors, gearboxes, and bearings',
+            c: 'To track the aircraft’s flight path for analysis'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2440,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What kind of data is automatically downloaded at the end of the flight from the Usage Monitoring System (UMS)?',
+        options: {
+            a: 'Flight crew data',
+            b: 'VMS/UMS data and system failures',
+            c: 'Passenger load information'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2441,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What does the UMS monitor in terms of exceedance?',
+        options: {
+            a: 'Fuel flow rates',
+            b: 'Engine temperature and torque',
+            c: 'Battery voltage levels'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2442,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What system is responsible for the Helicopter Flight Data Monitoring (HFDM)?',
+        options: {
+            a: 'AFCS',
+            b: 'Helionix',
+            c: 'CIRM partition'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2443,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What component records flight data in the CVFDR system?',
+        options: {
+            a: 'CIRM partition',
+            b: 'APIRS system',
+            c: 'AMC1 partition'
+        },
+        correct: 'a'
     }
+    
+    
+    
     ];
     
