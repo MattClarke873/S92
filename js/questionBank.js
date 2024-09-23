@@ -15977,7 +15977,33 @@ export const questions = [
         },
         correct: 'a'
     },
-    /*TODO  H175 -- ATA '46' TO CHECK*/
+    {
+        id: 2308.1,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'What is the role of CPU1 (Snow Runner 1) in the MFD processing unit?',
+        options: {
+            a: 'Processing of all incoming external data except video',
+            b: 'Special functions like DMAP and HTAWS',
+            c: 'Power supply control'
+        },
+        correct: 'a'
+    },
+    
+    {
+        id: 2308.2,
+        Aircraft: 'H175',
+        Category: '31',
+        question: 'Which of the following functions is handled by CPU2 (Snow Runner 2) in the MFD processing unit?',
+        options: {
+            a: 'Symbol generation and display control',
+            b: 'Special functions such as DMAP, HTAWS, EFB, and SVS',
+            c: 'Incoming external data processing'
+        },
+        correct: 'b'
+    },
+
+    /*TODO  H175 -- ATA '46'*/
     {
         id: 2309,
         Aircraft: 'H175',
@@ -16050,19 +16076,7 @@ export const questions = [
         },
         correct: 'b'
     },
-/*     {
-        id: 2315,
-        Aircraft: 'H175',
-        Category: '46',
-        question: 'What system displays AMC failure messages on the Master List?',
-        options: {
-            a: 'Flight Navigation Display',
-            b: 'Multi-Function Display (MFD)',
-            c: 'Central Warning Panel (CWP)'
-        },
-        correct: 'b'
-    }, */
-    /*TODO *Check below */
+
     {
         id: 2316,
         Aircraft: 'H175',
@@ -16261,7 +16275,7 @@ export const questions = [
         Category: '46',
         question: 'Which page displays the fuel flow rates, pressures, and quantities?',
         options: {
-            a: 'NAVD page',
+            a: 'MISC-FUEL page',
             b: 'VMS-FUEL page',
             c: 'MISC page'
         },
@@ -16297,9 +16311,9 @@ export const questions = [
         Category: '46',
         question: 'What does the FND display during normal flight operations?',
         options: {
-            a: 'Engine data and alerts',
+            a: 'Cargo bay Smoke warnings',
             b: 'Attitude, altitude, airspeed, and navigation data',
-            c: 'Fuel system status'
+            c: 'Hydraulic system information'
         },
         correct: 'b'
     },
@@ -16335,7 +16349,7 @@ export const questions = [
         options: {
             a: 'Displays “MFD OVER HEAT” message',
             b: 'Flashes the VMS page',
-            c: 'Turns the MFD off'
+            c: 'Caution on master list'
         },
         correct: 'a'
     },
@@ -16359,7 +16373,7 @@ export const questions = [
         options: {
             a: 'VMS-ELEC page',
             b: 'NAVD page',
-            c: 'MISC page'
+            c: 'ELEC page'
         },
         correct: 'a'
     },
@@ -16417,11 +16431,11 @@ export const questions = [
         Category: '46',
         question: 'What is displayed on the VMS-HYD page?',
         options: {
-            a: 'Hydraulic pressures and landing gear status',
+            a: 'Hydraulic pressures',
             b: 'Engine torque and temperature data',
-            c: 'Electrical system status'
+            c: 'landing gear status and Hydraulic pressures'
         },
-        correct: 'a'
+        correct: 'c'
     },
     {
         id: 2346,
@@ -16451,7 +16465,7 @@ export const questions = [
         id: 2348,
         Aircraft: 'H175',
         Category: '46',
-        question: 'Which system provides status and configuration options for the helicopter’s avionic equipment?',
+        question: 'Which system provides status and configuration options for the helicopter\’s avionic equipment?',
         options: {
             a: 'VMS-SYST page',
             b: 'NAVD page',
@@ -16537,8 +16551,8 @@ export const questions = [
         Category: '46',
         question: 'Where is AMC2 located?',
         options: {
-            a: 'Pilot’s side in the nose avionic compartment',
-            b: 'Co-pilot’s side in the nose avionic compartment',
+            a: 'Pilot\’s side in the nose avionic compartment',
+            b: 'Co-pilot\’s side in the nose avionic compartment',
             c: 'Tail section'
         },
         correct: 'a'
@@ -16607,7 +16621,7 @@ export const questions = [
         id: 2361,
         Aircraft: 'H175',
         Category: '46',
-        question: 'Which message indicates the failure of both shock sensors?',
+        question: 'Which message indicates the failure of one shock sensors during power up?',
         options: {
             a: 'AMC1 FAIL',
             b: 'AMC2 FAIL',
@@ -16694,8 +16708,8 @@ export const questions = [
         question: 'What is indicated by the PWR-UP TST PENDG message?',
         options: {
             a: 'Power-up tests were aborted',
-            b: 'Power-up tests are not running',
-            c: 'Power-up tests were completed successfully'
+            b: 'Power-up tests are not running for greater than 10 seconds',
+            c: 'Power-up tests are not running for greater than 30 seconds'
         },
         correct: 'b'
     },
@@ -16755,7 +16769,7 @@ export const questions = [
         options: {
             a: 'NAVD',
             b: 'VMS-FUEL',
-            c: 'MISC'
+            c: 'MISC-FUEL'
         },
         correct: 'b'
     },
@@ -16875,7 +16889,7 @@ export const questions = [
         options: {
             a: 'The pitch, roll, and heading parameters are displayed',
             b: 'The ALIGNMENT message is displayed',
-            c: 'MAG HDG FAIL is displayed'
+            c: 'The ALIGNMENT message is displayed on the master list'
         },
         correct: 'b'
     },
@@ -16934,7 +16948,7 @@ export const questions = [
         question: 'What message is displayed if there is a discrepancy in pitch attitudes between AFCS partitions?',
         options: {
             a: 'BAD CONFIGURATION',
-            b: 'DOUBLE HEADED ARROW ↔',
+            b: 'DOUBLE HEADED ARROW <--->',
             c: 'CHECK MFD'
         },
         correct: 'b'
@@ -16945,9 +16959,9 @@ export const questions = [
         Category: '46',
         question: 'What does the AHRS3 system comprise of?',
         options: {
-            a: 'Attitude and Heading Reference Unit (AHRU) and MAS',
-            b: 'Only a single AHRS and a single MAS',
-            c: 'Three accelerometers and MAS'
+            a: 'Only a single AHRS and a single MAS',
+            b: 'Only a single AHRS and a single RMM',
+            c: 'Only a single AHRS'
         },
         correct: 'b'
     },
@@ -16960,6 +16974,18 @@ export const questions = [
             a: 'Monitor hydraulic pressures',
             b: 'Provide pitch, roll, and heading data',
             c: 'Display navigation maps'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2390.1,
+        Aircraft: 'H175',
+        Category: '46',
+        question: 'How many Removeable Memory Modules are fitted to the H175?',
+        options: {
+            a: '4 (AHRS 1, AHRS 2,AHRS 3, IESI)',
+            b: '3 (AHRS 1, AHRS 2, IESI)',
+            c: '3 (AHRS 1, AHRS 2, AHRS 3)'
         },
         correct: 'b'
     },
