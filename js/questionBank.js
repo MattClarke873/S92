@@ -20196,6 +20196,1978 @@ export const questions = [
             c: 'With a rubber seal and sealant'
         },
         correct: 'c'
-    }
+    },
+    /*TODO ATA 63 to CHECk */
+
+
+
+    {
+        id: 2658,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What is the input RPM from the engines to the main rotor gearbox (MGB)?',
+        options: {
+            a: '21,000 RPM',
+            b: '279 RPM',
+            c: '5,000 RPM'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2659,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'How many stages of reduction gearing are used in the main rotor gearbox?',
+        options: {
+            a: '3 stages',
+            b: '4 stages',
+            c: '5 stages'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2660,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What is the final output RPM to the main rotor from the MGB?',
+        options: {
+            a: '21,000 RPM',
+            b: '2,100 RPM',
+            c: '279 RPM'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2661,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'Which component of the MGB monitors oil temperature and sends data to the crew?',
+        options: {
+            a: 'Temperature sensors',
+            b: 'Hydraulic pumps',
+            c: 'Rotor mast'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2662,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What system is responsible for monitoring the MGB\’s lubrication system pressure?',
+        options: {
+            a: 'De-clutch system',
+            b: 'Indicating and monitoring system',
+            c: 'Coupling assembly'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2663,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What is the function of the epicyclic module in the MGB?',
+        options: {
+            a: 'Provides power to the engines',
+            b: 'Transfers torque to the main rotor head',
+            c: 'Monitors oil levels in the MGB'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2664,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What does the de-clutch system allow when engaged?',
+        options: {
+            a: 'Direct drive to the accessories from engine No.1',
+            b: 'Power transfer from engine No.2 only',
+            c: 'Emergency shutdown of the MGB'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2665,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'How many chip detectors are installed in the MGB lubrication system?',
+        options: {
+            a: '2',
+            b: '4',
+            c: '6'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2666,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What type of pump is the main oil pump in the MGB?',
+        options: {
+            a: 'Centrifugal pump',
+            b: 'Spur gear type',
+            c: 'Reciprocating pump'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2667,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What happens in the MGB when the main oil pump fails?',
+        options: {
+            a: 'Back-up oil pump takes over without cooling the oil',
+            b: 'MGB stops operating completely',
+            c: 'Main pump switches to secondary cooling mode'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2668,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What happens if both the main and back-up oil pumps fail in the MGB?',
+        options: {
+            a: 'The MGB can still operate indefinitely',
+            b: 'The crew will rely on the run dry capability',
+            c: 'The MGB will automatically shut down'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2669,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What system is used to cool the MGB oil during normal operation?',
+        options: {
+            a: 'Oil heat exchanger with fan',
+            b: 'Water cooling system',
+            c: 'Secondary oil cooler'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2670,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'Where are the temperature probes in the MGB located?',
+        options: {
+            a: 'On the rotor mast',
+            b: 'On either side of the sump chip detector',
+            c: 'Next to the hydraulic pumps'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2671,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What is the function of the oil filter in the MGB lubrication system?',
+        options: {
+            a: 'To bypass the oil cooler during cold starts',
+            b: 'Filter the return to the MGB sump',
+            c: 'To remove impurities from the oil before it enters the MGB'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2672,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What component will open to bypass the oil filter if it becomes clogged?',
+        options: {
+            a: 'Overpressure valve',
+            b: 'Filter bypass valve',
+            c: 'Back-up oil pump'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2673,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What is indicated by the “ROTOR BRAKE” caution message in the EC175?',
+        options: {
+            a: 'Rotor brake is applied at high NR (Rotor RPM)',
+            b: 'Rotor brake is not fully engaged',
+            c: 'MGB oil pressure is low'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2674,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'At what rotor speed (NR) should the rotor brake be applied?',
+        options: {
+            a: 'Below 50%',
+            b: 'Below 50% with at least one engine stopped',
+            c: 'Above 90%'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2675,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What is the function of the flexball cable in the rotor brake system?',
+        options: {
+            a: 'Transfers motion from the rotor brake lever to the brake assembly',
+            b: 'Measures the force applied by the rotor brake pads',
+            c: 'Sends rotor brake status to the crew displays'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2676,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What is the purpose of the de-clutch actuator in the EC175?',
+        options: {
+            a: 'To disengage the rotors in high winds',
+            b: 'To drive the left-hand accessories when the rotors are not running',
+            c: 'To cool the MGB after shutdown'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2677,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'Which system sends the status of the de-clutch actuator to the Multi-Function Display (MFD)?',
+        options: {
+            a: 'Aircraft Management Computer (AMC)',
+            b: 'Engine Electronic Control Unit (EECU)',
+            c: 'Vibration Monitoring System (VMS)'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2678,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What does the freewheel unit in the EC175 MGB do?',
+        options: {
+            a: 'Automatically disengages the engine from the rotor when engine RPM is lower than rotor RPM',
+            b: 'Engages the emergency hydraulic pump when needed',
+            c: 'Prevents over-torque of the MGB during flight'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2679,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'Where is the epicyclic module located in the MGB?',
+        options: {
+            a: 'Attached to the left accessory gearbox',
+            b: 'In the upper housing of the MGB',
+            c: 'At the rear of the MGB'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2680,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'Which component in the MGB assists with the isolation of engines in case of failure?',
+        options: {
+            a: 'Main module',
+            b: 'Epicyclic module',
+            c: 'Freewheels'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2681,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'Which components allow for slight angular misalignment between the engine and MGB in the power shaft?',
+        options: {
+            a: 'Pinions',
+            b: 'Diaphragms',
+            c: 'Splines'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2682,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What is the purpose of the torsion tube in the MGB?',
+        options: {
+            a: 'To absorb any misalignment between the engine and the gearbox',
+            b: 'To cool the engine output shafts',
+            c: 'To transfer oil between the MGB and engine'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2683,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What happens if the power shaft ruptures in the MGB?',
+        options: {
+            a: 'The torsion tube contains the flailing shaft to prevent further damage',
+            b: 'The MGB continues to operate without oil',
+            c: 'The 30 min run dry period starts'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2684,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What is the material of the MGB main housing?',
+        options: {
+            a: 'Aluminum',
+            b: 'Magnesium',
+            c: 'Steel'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2685,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'How is oil circulated inside the MGB?',
+        options: {
+            a: 'Using external oil lines',
+            b: 'Through internal ducting',
+            c: 'Manually pumped during flight'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2686,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'Where is the chip detector for the oil sump located?',
+        options: {
+            a: 'On the MGB input modules',
+            b: 'On the epicyclic module',
+            c: 'In the oil sump'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2687,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'Which component drives the back-up oil pump?',
+        options: {
+            a: 'LH Accessory Gearbox',
+            b: 'Main rotor mast',
+            c: 'Right Input Module'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2688,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What will happen if the main oil pump fails during operation?',
+        options: {
+            a: 'The back-up pump will take over without filtering or cooling the oil',
+            b: 'The MGB will immediately shut down',
+            c: 'The main pump will switch to a secondary filter mode'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2689,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What indication is provided if the rotor brake is applied while NR is above 50%?',
+        options: {
+            a: 'ROTOR BRAKE caution message',
+            b: 'MGB PRESS warning light',
+            c: 'HYDRAULIC LOW PRESSURE caution message'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2690,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What does the MGB PRESS warning light indicate?',
+        options: {
+            a: 'High oil temperature in the MGB',
+            b: 'Low oil pressure in the MGB',
+            c: 'Rotor brake applied'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2691,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'How is the oil cooled in the MGB?',
+        options: {
+            a: 'By a heat exchanger and fan',
+            b: 'By a water cooling system',
+            c: 'By airflow through the engine'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2692,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What happens if the oil temperature in the MGB exceeds 120°C?',
+        options: {
+            a: 'The MGB will shut down automatically',
+            b: 'The MGB HIGH TEMP caution message is displayed',
+            c: 'The backup oil pump engages'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2693,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What indication is provided on the MFD Master List when a metal chip is detected on the MGB High Speed Chip?',
+        options: {
+            a: 'XMSN CHIP caution message',
+            b: 'High Speed Chip caution message',
+            c: 'MGB HIGH TEMP warning light'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2694,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What will trigger the MGB LOW PRESS warning light?',
+        options: {
+            a: 'When MGB oil ramp pressure drops below 0.5 bar',
+            b: 'When the Main Oil Pump fails',
+            c: 'When rotor brake is engaged at high speeds'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2695,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What component in the MGB houses the main mast bearing?',
+        options: {
+            a: 'Epicyclic module',
+            b: 'Main module',
+            c: 'Input module'
+        },
+        correct: 'a'
+    },
+   
+    {
+        id: 2696,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'Which MGB component facilitates dynamic braking and static locking of the rotors?',
+        options: {
+            a: 'De-clutch actuator',
+            b: 'Rotor brake assembly',
+            c: 'Epicyclic module'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2697,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What will happen if the heat exchanger in the MGB becomes clogged?',
+        options: {
+            a: 'The MGB will cool down using airflow',
+            b: 'Oil will bypass the heat exchanger',
+            c: 'The MGB will stop receiving oil'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2698,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'How many stages of gear reduction does the MGB have?',
+        options: {
+            a: '2 stages',
+            b: '3 stages',
+            c: '4 stages'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2699,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What is the purpose of the oil sump in the MGB?',
+        options: {
+            a: 'To filter oil before entering the MGB',
+            b: 'To collect and store oil for lubrication',
+            c: 'To regulate oil pressure in the MGB'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2700,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What system provides the crew with MGB pressure and temperature readings?',
+        options: {
+            a: 'Aircraft Management Computer (AMC)',
+            b: 'Rotor Brake Control System',
+            c: 'Vibration Monitoring System (VMS)'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2701,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What is the function of the magnetic chip detectors in the MGB?',
+        options: {
+            a: 'To filter oil',
+            b: 'To detect metal particles',
+            c: 'To monitor oil temperature'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2702,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'Where is the rotor brake lever located in the EC175?',
+        options: {
+            a: 'On the center console',
+            b: 'Above the pilot\’s head',
+            c: 'Next to the hydraulic system'
+        },
+        correct: 'b'
+    },
+  /*  {
+        id: 2703,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What does the epicyclic module in the MGB facilitate?',
+        options: {
+            a: 'Hydraulic system operation',
+            b: 'Main mast bearing and upper oil jets',
+            c: 'Rotor brake operation'
+        },
+        correct: 'b'
+    },
+    */
+    {
+        id: 2704,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What is the primary function of the main oil pump in the MGB?',
+        options: {
+            a: 'To pressurize oil for cooling',
+            b: 'To lubricate internal parts of the MGB modules',
+            c: 'To monitor the oil temperature'
+        },
+        correct: 'b'
+    },
+/*     {
+        id: 2705,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'How many freewheel units are there in the MGB?',
+        options: {
+            a: '2',
+            b: '1',
+            c: '4'
+        },
+        correct: 'a'
+    }, */
+    {
+        id: 2706,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What action should the pilot take if the XMSN CHIP caution message appears?',
+        options: {
+            a: 'Disengage the engine immediately',
+            b: 'Display the VMS XMSN page to identify the chip location',
+            c: 'Shut down the rotor brake'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2707,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What component is responsible for spraying oil onto internal parts in the MGB?',
+        options: {
+            a: 'Chip detectors',
+            b: 'Oil jets',
+            c: 'Heat exchanger'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2708,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What will happen if the oil temperature reaches 120°C for more than 30 seconds?',
+        options: {
+            a: 'The MGB LOW PRESS warning light will illuminate',
+            b: 'The MGB TREND advisory message will be displayed',
+            c: 'The MGB HIGH TEMP caution message will be displayed'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2709,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'Where is the main oil pump located in the MGB?',
+        options: {
+            a: 'Adjacent to the rotor brake assembly',
+            b: 'Next to the heat exchanger',
+            c: 'In the oil sump'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2710,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'Which component is responsible for transmitting power from the engines to the MGB?',
+        options: {
+            a: 'Torsion tube',
+            b: 'Engine take-off power shaft',
+            c: 'Oil pump'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2711,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What is the purpose of the bi-directional support system in the MGB?',
+        options: {
+            a: 'To support the weight of the rotor and transmission assemblies',
+            b: 'To reduce noise and vibration during flight',
+            c: 'To cool the rotor mast'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2712,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What does the MGB TREND advisory message indicate?',
+        options: {
+            a: 'Abnormal trends in MGB parameters, such as higher temperatures or lower pressure',
+            b: 'A minor chip detection in the oil system',
+            c: 'Loss of communication with the hydraulic system'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2713,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What component manages the oil bypass in case of a clogged oil cooler?',
+        options: {
+            a: 'Oil filter bypass valve',
+            b: 'Oil cooler overpressure valve',
+            c: 'Backup oil pump'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2714,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'Where does the backup oil pump draw oil from in the MGB?',
+        options: {
+            a: 'The lowest part of the oil sump',
+            b: 'The highest point of the oil sump',
+            c: 'The heat exchanger'
+        },
+        correct: 'a'
+    },
+    {
+        id: 2715,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What happens when the MGB oil pressure drops below 0.5 bar?',
+        options: {
+            a: 'The MGB HIGH TEMP warning appears',
+            b: 'The MGB MAIN OIL caution message is displayed',
+            c: 'The XMSN CHIP caution message is displayed'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2716,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What system provides the crew with pressure and chip detector readings?',
+        options: {
+            a: 'AMC System',
+            b: 'De-Clutch Actuator System',
+            c: 'VMS-XMSN Page'
+        },
+        correct: 'c'
+    },
+    {
+        id: 2717,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What is the function of the NR sensor in the EC175?',
+        options: {
+            a: 'Monitors engine RPM',
+            b: 'Monitors rotor RPM',
+            c: 'Monitors oil temperature'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2718,
+        Aircraft: 'H175',
+        Category: '63',
+        question: 'What happens if the main and backup oil pressure drops in the MGB?',
+        options: {
+            a: 'The MGB will shut down immediately',
+            b: 'The MGB PRESS warning light will illuminate and the crew will hear a warning in their headsets',
+            c: 'The backup oil pump will start cooling the MGB'
+        },
+        correct: 'b'
+    },
+    {
+        id: 2719,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What type of tail rotor is fitted on the EC175?',
+        options: {
+          a: 'Fenestron',
+          b: 'Spheriflex',
+          c: 'Bifilar'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2720,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'How many rotor blades does the EC175 tail rotor have?',
+        options: {
+          a: '2',
+          b: '3',
+          c: '4'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2721,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What is the tilt angle of the EC175 tail rotor?',
+        options: {
+          a: '10°',
+          b: '15°',
+          c: '20°'
+        },
+        correct: 'c'
+      },
+      {
+        id: 2722,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What is the function of the EC175 tail rotor?',
+        options: {
+          a: 'Provide yaw control',
+          b: 'Increase forward thrust',
+          c: 'Reduce drag'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2723,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What is the diameter of the EC175 tail rotor?',
+        options: {
+          a: '3.2 meters',
+          b: '4.5 meters',
+          c: '5 meters'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2724,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'At what nominal RPM does the EC175 tail rotor operate?',
+        options: {
+          a: '1000 RPM',
+          b: '1248 RPM',
+          c: '1500 RPM'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2725,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'Which material is primarily used in the construction of the EC175 tail rotor blades?',
+        options: {
+          a: 'Aluminum',
+          b: 'Composite materials',
+          c: 'Steel'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2726,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What shape does the tip of the EC175 tail rotor blade have?',
+        options: {
+          a: 'Square',
+          b: 'Parabolic',
+          c: 'Flat'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2727,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What is the purpose of the titanium shield on the EC175 tail rotor?',
+        options: {
+          a: 'Increase lift',
+          b: 'Protect the leading edge from erosion',
+          c: 'Reduce drag'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2728,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What material is used for the tip leading edge protection of the EC175 tail rotor?',
+        options: {
+          a: 'Aluminum',
+          b: 'Nickel-cobalt',
+          c: 'Titanium'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2729,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What is the main component inside the EC175 tail rotor blade?',
+        options: {
+          a: 'Honeycomb structure',
+          b: 'Foam filling',
+          c: 'Metal core'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2730,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'Which material is used for the root filling of the EC175 tail rotor blade?',
+        options: {
+          a: 'Polyurethane foam',
+          b: 'Fiberglass',
+          c: 'Steel'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2731,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What system protects the EC175 tail rotor from lightning strikes?',
+        options: {
+          a: 'Titanium mesh',
+          b: 'Copper mesh',
+          c: 'Steel mesh'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2732,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What kind of paint is used on the surface of the EC175 tail rotor?',
+        options: {
+          a: 'Acrylic',
+          b: 'Polyurethane',
+          c: 'Epoxy'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2733,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What color is the tip of the EC175 tail rotor blade?',
+        options: {
+          a: 'Red',
+          b: 'Yellow',
+          c: 'Blue'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2734,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What is the purpose of the balancing system in the EC175 tail rotor?',
+        options: {
+          a: 'To reduce drag',
+          b: 'To ensure dynamic uniformity',
+          c: 'To increase speed'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2735,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What kind of washers are used in the balancing system of the EC175 tail rotor?',
+        options: {
+          a: 'Brass washers',
+          b: 'Stainless steel washers',
+          c: 'Plastic washers'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2736,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'Where is the balancing system located in the EC175 tail rotor?',
+        options: {
+          a: 'On the blade root',
+          b: 'On the upper surface of the tail rotor blade',
+          c: 'On the tip'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2737,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'Which part of the EC175 tail rotor blade provides pitch control?',
+        options: {
+          a: 'Pitch rod',
+          b: 'Control arm',
+          c: 'Pitch tube'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2738,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What is the primary material used in the spherical bearings of the EC175 tail rotor?',
+        options: {
+          a: 'Metal',
+          b: 'Elastomer',
+          c: 'Plastic'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2739,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What is the purpose of the lead-lag dampers in the EC175 tail rotor?',
+        options: {
+          a: 'To control pitch variation',
+          b: 'To dampen lead-lag motion',
+          c: 'To prevent rotor blade flapping'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2740,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What type of lead-lag dampers are used in the EC175 tail rotor?',
+        options: {
+          a: 'Hydraulic',
+          b: 'Visco-elastic',
+          c: 'Pneumatic'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2741,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'How is the tail rotor attached to the EC175 helicopter?',
+        options: {
+          a: 'Using bolts and washers',
+          b: 'Via blade pins and spherical bearings',
+          c: 'By friction fitting'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2742,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What is the purpose of the fixed flapping stops on the EC175 tail rotor?',
+        options: {
+          a: 'To prevent the tail rotor from spinning',
+          b: 'To limit blade flapping and avoid interference with the tail boom',
+          c: 'To increase yaw control'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2743,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'Where are the bonding braids located in the EC175 tail rotor?',
+        options: {
+          a: 'Between the tail rotor blades and the mast hub',
+          b: 'On the leading edge of the blades',
+          c: 'At the tail rotor gearbox'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2744,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What function does the bonding braid serve in the EC175 tail rotor system?',
+        options: {
+          a: 'Reduces drag',
+          b: 'Ensures lightning and static electricity discharge',
+          c: 'Increases yaw control'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2745,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What is the role of the tail rotor head in the EC175?',
+        options: {
+          a: 'It transmits rotation from the tail gearbox to the blades',
+          b: 'It increases forward thrust',
+          c: 'It controls yaw movement'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2746,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'How many spherical bearings are present in the EC175 tail rotor head?',
+        options: {
+          a: 'Two',
+          b: 'Three',
+          c: 'Four'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2747,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What is the purpose of the TGB control shaft in the EC175?',
+        options: {
+          a: 'Transmit pitch commands to the blades',
+          b: 'Support the tail rotor head',
+          c: 'Rotate the tail boom'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2748,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What prevents water entry into the EC175 tail rotor system?',
+        options: {
+          a: 'Control arms',
+          b: 'Control plate',
+          c: 'Cover'
+        },
+        correct: 'c'
+      },
+      {
+        id: 2749,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What component connects the pitch control rods to the tail rotor blades in the EC175?',
+        options: {
+          a: 'Control arms',
+          b: 'Pitch rod pins',
+          c: 'Lead-lag dampers'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2750,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'Which part of the EC175 tail rotor system provides control for the yaw axis?',
+        options: {
+          a: 'Tail rotor blades',
+          b: 'Tail rotor servo',
+          c: 'Tail rotor hub'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2751,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'How is the control shaft in the EC175 tail rotor connected to the pitch rods?',
+        options: {
+          a: 'Using control arms',
+          b: 'Via ball bearings',
+          c: 'With lead-lag dampers'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2752,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'Which part of the EC175 tail rotor system transmits pitch control to the blades?',
+        options: {
+          a: 'The TGB control shaft',
+          b: 'The lead-lag dampers',
+          c: 'The blade pins'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2753,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What is the purpose of the flapping stops in the EC175 tail rotor?',
+        options: {
+          a: 'To prevent blade contact with the tail boom',
+          b: 'To reduce vibration',
+          c: 'To increase yaw control'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2754,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What protects the EC175 tail rotor blade from environmental factors such as salt and humidity?',
+        options: {
+          a: 'Nickel-cobalt shield',
+          b: 'Polyurethane paint',
+          c: 'Fiberglass covering'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2755,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What ensures static electricity discharge in the EC175 tail rotor system?',
+        options: {
+          a: 'Lead-lag dampers',
+          b: 'Bonding braid',
+          c: 'Pitch control rods'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2756,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'How are the balancing devices in the EC175 tail rotor system adjusted?',
+        options: {
+          a: 'By adjusting the tail rotor hub',
+          b: 'By changing washers',
+          c: 'By modifying the pitch control rods'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2757,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What type of forces does the EC175 tail rotor mast-hub transmit to the tail rotor blades?',
+        options: {
+          a: 'Yaw forces',
+          b: 'Axial and torsional forces',
+          c: 'Centrifugal forces'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2758,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What does the lead-lag damper in the EC175 tail rotor limit?',
+        options: {
+          a: 'Blade pitch variation',
+          b: 'Blade flapping',
+          c: 'Lead-lag movement'
+        },
+        correct: 'c'
+      },
+      {
+        id: 2759,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'How is yaw control achieved in the EC175?',
+        options: {
+          a: 'By adjusting the tail rotor\’s tilt angle',
+          b: 'By varying tail rotor blade pitch',
+          c: 'By changing the main rotor speed'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2760,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What secures the spherical bearings to the tail rotor blade in the EC175?',
+        options: {
+          a: 'Bolts',
+          b: 'Pins',
+          c: 'Jumpers'
+        },
+        correct: 'c'
+      },
+      {
+        id: 2761,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What mechanism prevents tail rotor blade dislodgement when the EC175 rotor is stopped?',
+        options: {
+          a: 'Lead-lag dampers',
+          b: 'Jumpers',
+          c: 'Flapping stops'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2762,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What component in the EC175 tail rotor is responsible for preventing excessive blade flapping?',
+        options: {
+          a: 'Pitch control rods',
+          b: 'Flapping stops',
+          c: 'Lead-lag dampers'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2763,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'Where are the bonding leads attached in the EC175 tail rotor system?',
+        options: {
+          a: 'To the pitch rods',
+          b: 'To the lead-lag dampers',
+          c: 'To the spherical bearings'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2764,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What is the primary function of the EC175 tail rotor head?',
+        options: {
+          a: 'Provide yaw control and transmit loads',
+          b: 'Increase forward thrust',
+          c: 'Reduce vibration'
+        },
+        correct: 'a'
+      },
+      {
+        id: 2765,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'How does the EC175 tail rotor system achieve pitch variation?',
+        options: {
+          a: 'By adjusting the lead-lag dampers',
+          b: 'Through the control arms and pitch rods',
+          c: 'By changing rotor speed'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2766,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What type of paint is used to mark the serial number on the EC175 tail rotor blades?',
+        options: {
+          a: 'Acrylic',
+          b: 'Indelible',
+          c: 'Epoxy'
+        },
+        correct: 'b'
+      },
+      {
+        id: 2767,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What component limits the motion of the EC175 tail rotor blade during failure of a rod end?',
+        options: {
+          a: 'Damper fitting',
+          b: 'Control flange',
+          c: 'Lead-lag damper fork rod end'
+        },
+        correct: 'c'
+      },
+      {
+        id: 2768,
+        Aircraft: 'H175',
+        Category: '64',
+        question: 'What part of the EC175 tail rotor provides lightning protection?',
+        options: {
+          a: 'Nickel-cobalt shield',
+          b: 'Bonding braid and copper mesh',
+          c: 'Polyurethane foam filling'
+        },
+        correct: 'b'
+      },
+      /**TODO ATA 65 Check */
+      {
+        id: 2769,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'What is the main function of the tail rotor drive system?',
+        options: {
+            a: 'Transmit power from the Main Gear Box (MGB) to the tail rotor',
+            b: 'Transmit power from the Main Gear Box (MGB) to the intermediate gearbox',
+            c: 'Transmit power from the tail rotor to the Main Gear Box (MGB)'
+        },
+        correct: 'a'
+  },
+  {
+        id: 2770,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'How many shafts make up the tail rotor drive line?',
+        options: {
+            a: '2 horizontal shafts and 1 inclined shaft',
+            b: '3 horizontal shafts and 1 inclined shaft',
+            c: '3 horizontal shafts and 2 inclined shafts'
+        },
+        correct: 'b'
+  },
+  {
+        id: 2771,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'What is the purpose of the dampers in the tail rotor drive system?',
+        options: {
+            a: 'To increase speed in the tail drive line',
+            b: 'To absorb airframe distortion and installation tolerance',
+            c: 'To reduce the torque transmitted to the tail rotor'
+        },
+        correct: 'b'
+  },
+  {
+        id: 2772,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'What is the reduction in speed from the horizontal drive shaft to the inclined drive shaft via the IGB?',
+        options: {
+            a: 'From 6000 rpm to 3000 rpm',
+            b: 'From 5000 rpm to 3804 rpm',
+            c: 'From 4000 rpm to 2000 rpm'
+        },
+        correct: 'b'
+  },
+  {
+        id: 2773,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'What is the reduction in speed from the inclined shaft to the tail rotor via the TGB?',
+        options: {
+            a: 'From 3804 rpm to 1248 rpm',
+            b: 'From 5000 rpm to 1800 rpm',
+            c: 'From 4000 rpm to 2000 rpm'
+        },
+        correct: 'a'
+  },
+  {
+        id: 2774,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'Which part of the tail rotor drive system absorbs aircraft distortion?',
+        options: {
+            a: 'Inclined shaft',
+            b: 'Flexible couplings',
+            c: 'Dampers'
+        },
+        correct: 'c'
+  },
+  {
+        id: 2775,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'What is the critical function of the intermediate shaft in the tail rotor drive system?',
+        options: {
+            a: 'It transmits power from the front shaft to the rear shaft',
+            b: 'It transmits power directly to the tail rotor',
+            c: 'It absorbs vibrations from the main gearbox'
+        },
+        correct: 'a'
+  },
+  {
+        id: 2776,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'What type of lubrication is used in the Intermediate Gear Box (IGB) and Tail Gear Box (TGB)?',
+        options: {
+            a: 'Forced lubrication',
+            b: 'Splash lubrication',
+            c: 'Gravity-based lubrication'
+        },
+        correct: 'b'
+  },
+  {
+        id: 2777,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'What is the function of the magnetic chip detectors in the tail rotor drive system?',
+        options: {
+            a: 'Detect the presence of oil in the gearboxes',
+            b: 'Detect the presence of metal particles in the gearboxes',
+            c: 'Detect temperature fluctuations in the gearboxes'
+        },
+        correct: 'b'
+  },
+  {
+        id: 2778,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'What happens when the oil temperature in the IGB exceeds 120°C?',
+        options: {
+            a: 'A caution message is displayed on the FND master list',
+            b: 'The oil temperature sensor shuts down the system',
+            c: 'The oil level sight will turn amber'
+        },
+        correct: 'a'
+  },
+  {
+        id: 2779,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'Where is the TGB located in the aircraft structure?',
+        options: {
+            a: 'Between the MGB and IGB',
+            b: 'At the end of the tail pylon',
+            c: 'In front of the intermediate shaft'
+        },
+        correct: 'b'
+  },
+  {
+        id: 2780,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'What is the gear reduction ratio of the TGB spiral bevel gear?',
+        options: {
+            a: '21/64',
+            b: '35/46',
+            c: '40/52'
+        },
+        correct: 'a'
+  },
+  {
+        id: 2781,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'What does the IGB chip detector do when ferrous metal particles are detected?',
+        options: {
+            a: 'It shuts down the IGB',
+            b: 'It sends a signal to the avionics and triggers a warning',
+            c: 'It reduces the gearbox speed'
+        },
+        correct: 'b'
+  },
+  {
+        id: 2782,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'What type of shaft is the front shaft in the tail rotor drive system?',
+        options: {
+            a: 'Sub-critical',
+            b: 'Supercritical',
+            c: 'Semi-critical'
+        },
+        correct: 'b'
+  },
+  {
+        id: 2783,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'What happens to a supercritical shaft at its critical speed?',
+        options: {
+            a: 'It experiences maximum vibration and distortion',
+            b: 'It becomes rigid and stable',
+            c: 'It reduces speed by half'
+        },
+        correct: 'a'
+  },
+  {
+        id: 2784,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'What connects the front shaft to the intermediate shaft in the tail rotor drive system?',
+        options: {
+            a: 'The rear shaft',
+            b: 'The bearing hanger assembly',
+            c: 'The TGB input flange'
+        },
+        correct: 'b'
+  },
+  {
+        id: 2785,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'What is the primary function of the bearing support assembly?',
+        options: {
+            a: 'To transmit power from the rear shaft to the inclined shaft',
+            b: 'To support and connect the intermediate shaft to the rear shaft',
+            c: 'To absorb vibration from the TGB'
+        },
+        correct: 'b'
+  },
+  {
+        id: 2786,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'Where is the inclined shaft located in the tail rotor drive system?',
+        options: {
+            a: 'Between the IGB and the TGB',
+            b: 'Between the front shaft and intermediate shaft',
+            c: 'At the end of the tail rotor drive line'
+        },
+        correct: 'a'
+  },
+  {
+        id: 2787,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'What type of shaft is the inclined shaft?',
+        options: {
+            a: 'Supercritical',
+            b: 'Sub-critical',
+            c: 'Critical'
+        },
+        correct: 'b'
+  },
+  {
+        id: 2788,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'What feature of the TGB prevents metal particles from damaging the gear system?',
+        options: {
+            a: 'Flexible coupling',
+            b: 'Magnetic chip detector',
+            c: 'Spiral bevel gear'
+        },
+        correct: 'b'
+  },
+  {
+        id: 2789,
+        Aircraft: 'H175',
+        Category: '65',
+        question: 'What type of sensors are used to monitor the temperature in the IGB and TGB?',
+        options: {
+            a: 'Oil level sensors',
+            b: 'Temperature probes',
+            c: 'Magnetic detectors'
+        },
+        correct: 'b'
+  },
+  {
+    id: 2790,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What happens when the chip detectors detect ferrous metal particles in the IGB or TGB?',
+    options: {
+        a: 'An oil level sight alert is triggered',
+        b: 'A caution message is displayed and an audio alarm is generated',
+        c: 'The rotor system is immediately shut down'
+    },
+    correct: 'b'
+},
+{
+    id: 2791,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What is the purpose of the oil level sights in the IGB and TGB?',
+    options: {
+        a: 'To check the oil temperature in flight',
+        b: 'To check the oil level on the ground',
+        c: 'To detect metal particles in the oil'
+    },
+    correct: 'b'
+},
+{
+    id: 2792,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What caution message is displayed when the IGB oil temperature exceeds its limit?',
+    options: {
+        a: 'IGB HIGH TEMP',
+        b: 'XMSN CHIP',
+        c: 'TGB HIGH TEMP'
+    },
+    correct: 'a'
+},
+{
+    id: 2793,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'Which component transmits the torque and reduces the rotating speed to the tail rotor?',
+    options: {
+        a: 'The Intermediate Gear Box (IGB)',
+        b: 'The Tail Gear Box (TGB)',
+        c: 'The Main Gear Box (MGB)'
+    },
+    correct: 'b'
+},
+{
+    id: 2794,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'How is the TGB housing linked to the aircraft structure?',
+    options: {
+        a: 'By a set of flexible couplings',
+        b: 'By four TGB attachment bolts',
+        c: 'By the intermediate gearbox'
+    },
+    correct: 'b'
+},
+{
+    id: 2795,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What component increases torque by reducing speed in the tail rotor drive system?',
+    options: {
+        a: 'Main Gear Box (MGB)',
+        b: 'Intermediate Gear Box (IGB)',
+        c: 'Tail Gear Box (TGB)'
+    },
+    correct: 'b'
+},
+{
+    id: 2796,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'Where can the crew monitor the IGB and TGB temperature values in the cockpit?',
+    options: {
+        a: 'On the Multi-Function Display (MFD)',
+        b: 'On the oil level sights',
+        c: 'On the bearing support assembly'
+    },
+    correct: 'a'
+},
+{
+    id: 2797,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'Which component of the TGB transmits torque to the tail rotor mast-hub?',
+    options: {
+        a: 'The TGB input flange',
+        b: 'The output spiral bevel gear',
+        c: 'The pitch control rod'
+    },
+    correct: 'b'
+},
+{
+    id: 2798,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What is the maximum temperature limit before the IGB or TGB displays a caution?',
+    options: {
+        a: '100°C',
+        b: '110°C',
+        c: '120°C'
+    },
+    correct: 'c'
+},
+{
+    id: 2799,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What system triggers the "XMSN CHIP" caution message?',
+    options: {
+        a: 'Chip detector in the IGB or TGB',
+        b: 'Temperature sensors in the IGB or TGB',
+        c: 'The oil level sight'
+    },
+    correct: 'a'
+},
+{
+    id: 2800,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What happens when the chip detectors in the IGB or TGB sense metal particles?',
+    options: {
+        a: 'The MGB reduces power output',
+        b: 'A signal is sent to the Aircraft Management Computers (AMC)',
+        c: 'The bearing support system adjusts'
+    },
+    correct: 'b'
+},
+{
+    id: 2801,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What component connects the IGB and the TGB?',
+    options: {
+        a: 'The rear shaft',
+        b: 'The inclined shaft',
+        c: 'The front shaft'
+    },
+    correct: 'b'
+},
+{
+    id: 2802,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'How is the tail rotor actuator attached to the TGB housing?',
+    options: {
+        a: 'Via the chip detector',
+        b: 'Via attachment studs',
+        c: 'Via the bearing support assembly'
+    },
+    correct: 'b'
+},
+{
+    id: 2803,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'Where is the TGB oil temperature information displayed in the cockpit?',
+    options: {
+        a: 'On the FND format of the Multi-Function Display (MFD)',
+        b: 'On the IGB housing assembly',
+        c: 'On the bearing support system'
+    },
+    correct: 'a'
+},
+{
+    id: 2804,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What is the purpose of the bearing hanger in the tail rotor drive system?',
+    options: {
+        a: 'To connect the IGB to the TGB',
+        b: 'To connect the front shaft to the intermediate shaft',
+        c: 'To support the TGB'
+    },
+    correct: 'b'
+},
+{
+    id: 2805,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What caution message is displayed when metal particles are detected in the IGB or TGB?',
+    options: {
+        a: 'TGB HIGH TEMP',
+        b: 'IGB HIGH TEMP',
+        c: 'XMSN CHIP'
+    },
+    correct: 'c'
+},
+{
+    id: 2806,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What component connects the rear shaft to the IGB?',
+    options: {
+        a: 'The inclined shaft',
+        b: 'A flexible coupling',
+        c: 'The front shaft'
+    },
+    correct: 'b'
+},
+{
+    id: 2807,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'How is the torque transmitted from the IGB to the pylon shaft?',
+    options: {
+        a: 'Via the IGB input pinion',
+        b: 'Via the output spiral bevel gear',
+        c: 'Via the output pinion and output flange'
+    },
+    correct: 'c'
+},
+{
+    id: 2808,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'Where is the Intermediate Gear Box (IGB) located in the tail rotor drive system?',
+    options: {
+        a: 'Between the rear shaft and the inclined shaft',
+        b: 'Between the front shaft and the rear shaft',
+        c: 'At the end of the tail boom'
+    },
+    correct: 'a'
+},
+{
+    id: 2809,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What happens during the automatic power-up test of the tail rotor drive system?',
+    options: {
+        a: 'The chip detectors are deactivated',
+        b: 'The sensors are tested and verified by the AMCs',
+        c: 'The oil temperature in the TGB is lowered'
+    },
+    correct: 'b'
+},
+{
+    id: 2810,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What is the reduction ratio for the speed through the IGB?',
+    options: {
+        a: '35/46',
+        b: '21/64',
+        c: '40/50'
+    },
+    correct: 'a'
+},
+{
+    id: 2811,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'Which component supports the intermediate and rear shafts in the tail rotor drive system?',
+    options: {
+        a: 'The bearing hanger assembly',
+        b: 'The bearing support assembly',
+        c: 'The flexible couplings'
+    },
+    correct: 'b'
+},
+{
+    id: 2812,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What action is taken when the temperature in the TGB exceeds the operational limit?',
+    options: {
+        a: 'The tail rotor drive system shuts down',
+        b: 'An audio alarm is triggered and a caution message is displayed',
+        c: 'The oil is automatically drained'
+    },
+    correct: 'b'
+},
+{
+    id: 2813,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What component reduces the rotating speed from the inclined shaft to the tail rotor?',
+    options: {
+        a: 'The front shaft',
+        b: 'The Tail Gear Box (TGB)',
+        c: 'The Intermediate Gear Box (IGB)'
+    },
+    correct: 'b'
+},
+{
+    id: 2814,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'At which point during the rotation of the tail rotor drive system is a supercritical shaft most vulnerable to vibration and distortion?',
+    options: {
+        a: 'When it operates below the critical speed',
+        b: 'When it operates at its critical speed',
+        c: 'When it operates at speeds far above the critical speed'
+    },
+    correct: 'b'
+},
+{
+    id: 2815,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'Which component in the tail rotor drive system compensates for axial misalignment caused by the tail boom deflection?',
+    options: {
+        a: 'The flexible couplings',
+        b: 'The bearing hanger assembly',
+        c: 'The intermediate shaft'
+    },
+    correct: 'a'
+},
+{
+    id: 2816,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'Why is the IGB housing electrically bonded to the aircraft structure?',
+    options: {
+        a: 'To reduce torque stress on the IGB input flange',
+        b: 'To allow temperature regulation of the gearbox',
+        c: 'To prevent electrostatic buildup and improve grounding'
+    },
+    correct: 'c'
+},
+{
+    id: 2817,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What is the function of the duplex ball bearings in the bearing support assembly of the tail rotor drive system?',
+    options: {
+        a: 'They provide axial rigidity and support for torque transmission',
+        b: 'They allow for longitudinal variation in the tail rotor drive line',
+        c: 'They absorb vibrations from the inclined shaft'
+    },
+    correct: 'a'
+},
+{
+    id: 2818,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'How does the Intermediate Gear Box (IGB) reduce speed while increasing torque in the tail rotor drive system?',
+    options: {
+        a: 'Through the use of a spiral bevel gear system with a 21/64 reduction ratio',
+        b: 'By using a direct drive mechanism between the rear and inclined shafts',
+        c: 'Through a 35/46 reduction ratio using a spiral bevel gear system'
+    },
+    correct: 'c'
+},
+{
+    id: 2819,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'What is the impact of a failed chip detector on the tail rotor drive system’s monitoring capabilities?',
+    options: {
+        a: 'It triggers an automatic system shutdown to prevent damage',
+        b: 'The XMSN CHIP caution message is displayed, and the detector is deactivated',
+        c: 'The system cannot detect metal particles, but continues operation without a warning'
+    },
+    correct: 'b'
+},
+{
+    id: 2820,
+    Aircraft: 'H175',
+    Category: '65',
+    question: 'In case of an IGB oil temperature sensor failure, how is this indicated on the VMS-XMSN page?',
+    options: {
+        a: 'The temperature value turns red, indicating an overheat condition',
+        b: 'A series of asterisks "***" is displayed, and the sensor status is marked as unavailable',
+        c: 'The temperature gauge shows a constant 0°C, regardless of the actual temperature'
+    },
+    correct: 'b'
+}
+
+
+      
+
+      
+    
+    
+    
+    
     ];
     
