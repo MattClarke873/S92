@@ -21139,7 +21139,7 @@ export const questions = [
         },
         correct: 'b'
       },
-      {
+/*       {
         id: 2736,
         Aircraft: 'H175',
         Category: '64',
@@ -21150,7 +21150,7 @@ export const questions = [
           c: 'On the tip'
         },
         correct: 'b'
-      },
+      }, */
       {
         id: 2737,
         Aircraft: 'H175',
@@ -21247,7 +21247,7 @@ export const questions = [
         },
         correct: 'b'
       },
-      {
+/*       {
         id: 2745,
         Aircraft: 'H175',
         Category: '64',
@@ -21258,7 +21258,7 @@ export const questions = [
           c: 'It controls yaw movement'
         },
         correct: 'a'
-      },
+      }, */
       {
         id: 2746,
         Aircraft: 'H175',
@@ -21387,11 +21387,11 @@ export const questions = [
         options: {
           a: 'By adjusting the tail rotor hub',
           b: 'By changing washers',
-          c: 'By modifying the pitch control rods'
+          c: 'By adjusting the pitch control rods'
         },
         correct: 'b'
       },
-      {
+ /*      {
         id: 2757,
         Aircraft: 'H175',
         Category: '64',
@@ -21402,7 +21402,7 @@ export const questions = [
           c: 'Centrifugal forces'
         },
         correct: 'b'
-      },
+      }, */
       {
         id: 2758,
         Aircraft: 'H175',
@@ -21427,7 +21427,7 @@ export const questions = [
         },
         correct: 'b'
       },
-      {
+/*       {
         id: 2760,
         Aircraft: 'H175',
         Category: '64',
@@ -21438,7 +21438,7 @@ export const questions = [
           c: 'Jumpers'
         },
         correct: 'c'
-      },
+      }, 
       {
         id: 2761,
         Aircraft: 'H175',
@@ -21450,7 +21450,7 @@ export const questions = [
           c: 'Flapping stops'
         },
         correct: 'b'
-      },
+      },*/
       {
         id: 2762,
         Aircraft: 'H175',
@@ -21463,7 +21463,7 @@ export const questions = [
         },
         correct: 'b'
       },
-      {
+/*       {
         id: 2763,
         Aircraft: 'H175',
         Category: '64',
@@ -21474,7 +21474,7 @@ export const questions = [
           c: 'To the spherical bearings'
         },
         correct: 'b'
-      },
+      }, */
       {
         id: 2764,
         Aircraft: 'H175',
@@ -21596,7 +21596,7 @@ export const questions = [
         },
         correct: 'a'
   },
-  {
+/*   {
         id: 2774,
         Aircraft: 'H175',
         Category: '65',
@@ -21607,7 +21607,7 @@ export const questions = [
             c: 'Dampers'
         },
         correct: 'c'
-  },
+  }, */
   {
         id: 2775,
         Aircraft: 'H175',
@@ -21652,7 +21652,7 @@ export const questions = [
         options: {
             a: 'A caution message is displayed on the FND master list',
             b: 'The oil temperature sensor shuts down the system',
-            c: 'The oil level sight will turn amber'
+            c: 'A warning message is displayed on the FND master list'
         },
         correct: 'a'
   },
@@ -21687,7 +21687,7 @@ export const questions = [
         question: 'What does the IGB chip detector do when ferrous metal particles are detected?',
         options: {
             a: 'It shuts down the IGB',
-            b: 'It sends a signal to the avionics and triggers a warning',
+            b: 'It sends a signal to the avionics and triggers a caution',
             c: 'It reduces the gearbox speed'
         },
         correct: 'b'
@@ -21724,7 +21724,7 @@ export const questions = [
         options: {
             a: 'The rear shaft',
             b: 'The bearing hanger assembly',
-            c: 'The TGB input flange'
+            c: 'The bearing support assembly'
         },
         correct: 'b'
   },
@@ -21783,7 +21783,7 @@ export const questions = [
         question: 'What type of sensors are used to monitor the temperature in the IGB and TGB?',
         options: {
             a: 'Oil level sensors',
-            b: 'Temperature probes',
+            b: 'Magnetic detectors and Temperature probes',
             c: 'Magnetic detectors'
         },
         correct: 'b'
@@ -21794,7 +21794,7 @@ export const questions = [
     Category: '65',
     question: 'What happens when the chip detectors detect ferrous metal particles in the IGB or TGB?',
     options: {
-        a: 'An oil level sight alert is triggered',
+        a: 'XMSN Chip caution is displayed on the Master List ',
         b: 'A caution message is displayed and an audio alarm is generated',
         c: 'The rotor system is immediately shut down'
     },
@@ -21819,7 +21819,7 @@ export const questions = [
     question: 'What caution message is displayed when the IGB oil temperature exceeds its limit?',
     options: {
         a: 'IGB HIGH TEMP',
-        b: 'XMSN CHIP',
+        b: 'XMSN HIGH TEMP',
         c: 'TGB HIGH TEMP'
     },
     correct: 'a'
@@ -21866,9 +21866,9 @@ export const questions = [
     Category: '65',
     question: 'Where can the crew monitor the IGB and TGB temperature values in the cockpit?',
     options: {
-        a: 'On the Multi-Function Display (MFD)',
-        b: 'On the oil level sights',
-        c: 'On the bearing support assembly'
+        a: 'On the VMS - XMSN pages',
+        b: 'On the VMS page',
+        c: 'On the PFD'
     },
     correct: 'a'
 },
@@ -21912,11 +21912,11 @@ export const questions = [
     id: 2800,
     Aircraft: 'H175',
     Category: '65',
-    question: 'What happens when the chip detectors in the IGB or TGB sense metal particles?',
+    question: 'What happens when the chip detectors in the TGB sense metal particles?',
     options: {
         a: 'The MGB reduces power output',
-        b: 'A signal is sent to the Aircraft Management Computers (AMC)',
-        c: 'The bearing support system adjusts'
+        b: 'A signal is sent to the Aircraft Management Computers (AMC) 1',
+        c: 'A signal is sent to the Aircraft Management Computers (AMC) 2'
     },
     correct: 'b'
 },
@@ -21950,11 +21950,11 @@ export const questions = [
     Category: '65',
     question: 'Where is the TGB oil temperature information displayed in the cockpit?',
     options: {
-        a: 'On the FND format of the Multi-Function Display (MFD)',
-        b: 'On the IGB housing assembly',
-        c: 'On the bearing support system'
+        a: 'On the VMS page',
+        b: 'On the VMS - XMSN pages',
+        c: 'On the PFD'
     },
-    correct: 'a'
+    correct: 'b'
 },
 {
     id: 2804,
@@ -21972,11 +21972,11 @@ export const questions = [
     id: 2805,
     Aircraft: 'H175',
     Category: '65',
-    question: 'What caution message is displayed when metal particles are detected in the IGB or TGB?',
+    question: 'What message is displayed when metal particles are detected in the IGB or TGB?',
     options: {
-        a: 'TGB HIGH TEMP',
-        b: 'IGB HIGH TEMP',
-        c: 'XMSN CHIP'
+        a: 'TAIL Chip Caution',
+        b: 'XMSN CHIP Warning',
+        c: 'XMSN CHIP Caution'
     },
     correct: 'c'
 },
@@ -21992,7 +21992,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 2807,
     Aircraft: 'H175',
     Category: '65',
@@ -22003,7 +22003,7 @@ export const questions = [
         c: 'Via the output pinion and output flange'
     },
     correct: 'c'
-},
+}, */
 {
     id: 2808,
     Aircraft: 'H175',
@@ -22058,7 +22058,7 @@ export const questions = [
     Category: '65',
     question: 'What action is taken when the temperature in the TGB exceeds the operational limit?',
     options: {
-        a: 'The tail rotor drive system shuts down',
+        a: 'An audio alarm is triggered and a warning message is displayed',
         b: 'An audio alarm is triggered and a caution message is displayed',
         c: 'The oil is automatically drained'
     },
@@ -22124,7 +22124,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 2818,
     Aircraft: 'H175',
     Category: '65',
@@ -22135,7 +22135,7 @@ export const questions = [
         c: 'Through a 35/46 reduction ratio using a spiral bevel gear system'
     },
     correct: 'c'
-},
+}, */
 {
     id: 2819,
     Aircraft: 'H175',
