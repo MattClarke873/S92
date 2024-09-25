@@ -22159,7 +22159,493 @@ export const questions = [
         c: 'The temperature gauge shows a constant 0°C, regardless of the actual temperature'
     },
     correct: 'b'
-}
+},
+
+/**TODO ATA-29 */
+{
+    id: 2821,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'How many independent hydraulic systems are powering the EC175?',
+    options: {
+      a: 'Two',
+      b: 'Three',
+      c: 'Four'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2822,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'Which hydraulic system is responsible for the normal landing gear extension/retraction?',
+    options: {
+      a: 'MHS1',
+      b: 'MHS2',
+      c: 'Auxiliary Hydraulic System'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2823,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'At what pressure are both MHS1 and MHS2 systems regulated?',
+    options: {
+      a: '150 bar',
+      b: '175 bar',
+      c: '200 bar'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2824,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What happens if a pump failure occurs in MHS2?',
+    options: {
+      a: 'MHS1 takes over all operations',
+      b: 'Auxiliary system takes over the hydraulic supply for MHS2',
+      c: 'Landing gear cannot be retracted'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2825,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the function of the solenoid-operated by-pass valves in MHS1 and MHS2?',
+    options: {
+      a: 'Regulate the hydraulic pressure',
+      b: 'Control hydraulic fluid flow to the tail rotor',
+      c: 'Isolate the hydraulic system during emergencies'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2826,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the nominal operating pressure for MHS1 and MHS2 hydraulic systems?',
+    options: {
+      a: '200 bar',
+      b: '150 bar',
+      c: '175 bar'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2827,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'Which component of MHS1 is responsible for isolating the tail servo in case of a leak?',
+    options: {
+      a: 'Pressure transmitter',
+      b: 'Isolating valve',
+      c: 'Accumulator'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2828,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the purpose of the accumulator in the hydraulic system?',
+    options: {
+      a: 'Store hydraulic fluid for emergencies',
+      b: 'Avoid pressure surges and ensure smooth operation',
+      c: 'Control the flow of hydraulic fluid to the servos'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2829,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'Which component controls the hydraulic auxiliary pump?',
+    options: {
+      a: 'Hydraulic control panel',
+      b: 'MFD',
+      c: 'Central control panel'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2830,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What action occurs when hydraulic fluid pressure exceeds 190 bar in MHS1 or MHS2?',
+    options: {
+      a: 'Pressure regulating valve opens',
+      b: 'Hydraulic system shuts down',
+      c: 'Fluid is bypassed back to the reservoir'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2831,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What does the auxiliary hydraulic system power in the EC175?',
+    options: {
+      a: 'Main Rotor servos only',
+      b: 'Landing gear and wheel brakes',
+      c: 'Tail rotor servo only'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2832,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What type of pumps are used in the MHS1 and MHS2 hydraulic systems?',
+    options: {
+      a: 'Electrically driven',
+      b: 'Cam-actuated axial piston',
+      c: 'Radial piston'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2833,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'Where are the hydraulic pumps mounted in the EC175?',
+    options: {
+      a: 'On the main rotor assembly',
+      b: 'On the accessory drive of the main gear box',
+      c: 'On the tail rotor assembly'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2834,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What happens if the hydraulic auxiliary pump overheats?',
+    options: {
+      a: 'An amber caution message appears on the master list',
+      b: 'The pump shuts down automatically',
+      c: 'The pressure relief valve activates'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2835,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'How is the hydraulic auxiliary pump controlled in flight?',
+    options: {
+      a: 'By the flight control system',
+      b: 'Automatically based on landing gear selection',
+      c: 'By manual override only'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2836,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What does the low-level sensor in the MHS1 reservoir do?',
+    options: {
+      a: 'Activates a warning light when hydraulic fluid is low',
+      b: 'Closes the tail servo isolating valve',
+      c: 'Initiates the hydraulic auxiliary pump'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2837,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'Which hydraulic system has a larger capacity reservoir in the EC175?',
+    options: {
+      a: 'MHS1',
+      b: 'MHS2',
+      c: 'Auxiliary hydraulic system'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2838,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'At what pressure does the hydraulic pressure relief valve open?',
+    options: {
+      a: '150 bar',
+      b: '175 bar',
+      c: '220 bar'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2839,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the purpose of the 50-micron filter in the hydraulic system?',
+    options: {
+      a: 'Remove contaminants from the pressure line',
+      b: 'Regulate hydraulic fluid flow',
+      c: 'Control fluid temperature'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2840,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What message appears on the master list when the hydraulic system pressure exceeds 220 bar?',
+    options: {
+      a: 'HYD TREND',
+      b: 'HYD HIGH PRESS',
+      c: 'AUX PUMP FAIL'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2841,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'Where is the hydraulic control panel located in the cockpit?',
+    options: {
+      a: 'On the central control panel',
+      b: 'On the overhead panel',
+      c: 'On the inter-seat console'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2842,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'Which component is monitored by the brake accumulator pressure transmitter?',
+    options: {
+      a: 'Tail rotor servo',
+      b: 'Landing gear extension',
+      c: 'Brake accumulator'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2843,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What happens when the hydraulic auxiliary pump switch is set to TEST?',
+    options: {
+      a: 'The auxiliary hydraulic system is bypassed',
+      b: 'Pressure is applied to the MHS2 for testing',
+      c: 'The brake system is recharged'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2844,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the first indication of a hydraulic pump failure in MHS1?',
+    options: {
+      a: 'The HYD1 LOW PRESS message on the master list',
+      b: 'A high temperature warning light',
+      c: 'Pressure drop below 110 bar'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2845,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the primary function of the brake accumulator in the hydraulic system?',
+    options: {
+      a: 'Store hydraulic fluid for brake system use',
+      b: 'Provide backup pressure for landing gear extension',
+      c: 'Smooth hydraulic pressure fluctuations'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2846,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'How is the auxiliary hydraulic system powered in flight?',
+    options: {
+      a: 'Mechanically by the main transmission',
+      b: 'Electrically by an AC auxiliary pump',
+      c: 'Directly by MHS1'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2847,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'Which hydraulic system is responsible for supplying hydraulic power to the upper bodies of the main servos?',
+    options: {
+      a: 'MHS1',
+      b: 'MHS2',
+      c: 'Auxiliary hydraulic system'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2848,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What pressure is considered normal operating pressure in the brake accumulator?',
+    options: {
+      a: '110 bar',
+      b: '120 bar',
+      c: '170 bar'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2849,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'How does the hydraulic system ensure redundancy in the servo controls?',
+    options: {
+      a: 'By using two stages for each servo control',
+      b: 'By connecting both MHS1 and MHS2 to a single pump',
+      c: 'By having an emergency manual override'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2850,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the function of the by-pass solenoid valves in the hydraulic system?',
+    options: {
+      a: 'Release excess hydraulic pressure',
+      b: 'Close off hydraulic flow during high temperature conditions',
+      c: 'Divert fluid to the auxiliary system in case of failure'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2851,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What happens if the hydraulic pressure transmitter detects a drop below 110 bar in MHS2?',
+    options: {
+      a: 'The auxiliary pump is switched on automatically',
+      b: 'The MHS1 system takes over',
+      c: 'A pressure relief valve opens'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2852,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What component isolates the hydraulic fluid supply to the tail rotor in case of a leak?',
+    options: {
+      a: 'Pressure relief valve',
+      b: 'Solenoid-operated isolating valve',
+      c: 'Accumulator'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2853,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'At what pressure does the brake accumulator automatically recharge?',
+    options: {
+      a: '130 bar',
+      b: '150 bar',
+      c: '120 bar'
+    },
+    correct: 'c'
+  },
+  {
+    id: 2854,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What does the hydraulic control panel indicate during a hydraulic system overheat?',
+    options: {
+      a: 'Hydraulic fluid level drops',
+      b: 'Amber lights illuminate to warn of high temperature',
+      c: 'Pressure transmitter activates'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2855,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is displayed when the auxiliary pump is switched to the OFF position?',
+    options: {
+      a: 'HYD TST FAIL message',
+      b: 'AUX PUMP OFF HYD2 advisory message',
+      c: 'LOW LEVEL HYD2 warning'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2856,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the pressure relief valve set to in the MHS1 system?',
+    options: {
+      a: '190-210 bar',
+      b: '150-175 bar',
+      c: '220-240 bar'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2857,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'How is the hydraulic auxiliary pump cooled?',
+    options: {
+      a: 'Externally by an air temperature sensor',
+      b: 'Internally by the hydraulic fluid',
+      c: 'Automatically by the hydraulic control panel'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2858,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What message is displayed when the MHS2 auxiliary pump automatically takes over?',
+    options: {
+      a: 'HYD TREND',
+      b: 'MAIN PRESS DEG HYD2',
+      c: 'LOW PRESS HYD2'
+    },
+    correct: 'b'
+  },
+  {
+    id: 2859,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What is the indication of hydraulic low pressure on MHS1 in the cockpit?',
+    options: {
+      a: 'Amber HYD1 LOW PRESS message',
+      b: 'Red LOW LEVEL HYD1 message',
+      c: 'Blue AUX PUMP ON HYD1 message'
+    },
+    correct: 'a'
+  },
+  {
+    id: 2860,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'What component ensures smooth hydraulic fluid flow in MHS1?',
+    options: {
+      a: 'Accumulator',
+      b: 'Pressure transmitter',
+      c: 'Relief valve'
+    },
+    correct: 'a'
+  }
+  
+  
+
+  
 
 
       
