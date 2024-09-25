@@ -22166,7 +22166,7 @@ export const questions = [
     id: 2821,
     Aircraft: 'H175',
     Category: '29',
-    question: 'How many independent hydraulic systems are powering the EC175?',
+    question: 'How many independent hydraulic systems are there in the EC175?',
     options: {
       a: 'Two',
       b: 'Three',
@@ -22174,7 +22174,7 @@ export const questions = [
     },
     correct: 'c'
   },
-  {
+/*   {
     id: 2822,
     Aircraft: 'H175',
     Category: '29',
@@ -22185,7 +22185,7 @@ export const questions = [
       c: 'Auxiliary Hydraulic System'
     },
     correct: 'c'
-  },
+  }, */
   {
     id: 2823,
     Aircraft: 'H175',
@@ -22247,6 +22247,18 @@ export const questions = [
     correct: 'b'
   },
   {
+    id: 2827.1,
+    Aircraft: 'H175',
+    Category: '29',
+    question: 'Where is the Tail servo Isolation valve located?',
+    options: {
+      a: 'Front of MHS2 base',
+      b: 'Front of MHS1 base',
+      c: 'Aft of MHS1'
+    },
+    correct: 'b'
+  },
+  {
     id: 2828,
     Aircraft: 'H175',
     Category: '29',
@@ -22258,7 +22270,7 @@ export const questions = [
     },
     correct: 'b'
   },
-  {
+/*   {
     id: 2829,
     Aircraft: 'H175',
     Category: '29',
@@ -22269,12 +22281,12 @@ export const questions = [
       c: 'Central control panel'
     },
     correct: 'c'
-  },
+  }, */
   {
     id: 2830,
     Aircraft: 'H175',
     Category: '29',
-    question: 'What action occurs when hydraulic fluid pressure exceeds 190 bar in MHS1 or MHS2?',
+    question: 'What action occurs when hydraulic fluid pressure exceeds 220 bar in MHS1 or MHS2?',
     options: {
       a: 'Pressure regulating valve opens',
       b: 'Hydraulic system shuts down',
@@ -22286,7 +22298,7 @@ export const questions = [
     id: 2831,
     Aircraft: 'H175',
     Category: '29',
-    question: 'What does the auxiliary hydraulic system power in the EC175?',
+    question: 'What does the auxiliary hydraulic system power in the EC175 during normal opertions?',
     options: {
       a: 'Main Rotor servos only',
       b: 'Landing gear and wheel brakes',
@@ -22324,8 +22336,8 @@ export const questions = [
     Category: '29',
     question: 'What happens if the hydraulic auxiliary pump overheats?',
     options: {
-      a: 'An amber caution message appears on the master list',
-      b: 'The pump shuts down automatically',
+      a: 'An amber caution message appears on the master list and the ',
+      b: 'An red warning message appears on the master list',
       c: 'The pressure relief valve activates'
     },
     correct: 'a'
@@ -22348,7 +22360,7 @@ export const questions = [
     Category: '29',
     question: 'What does the low-level sensor in the MHS1 reservoir do?',
     options: {
-      a: 'Activates a warning light when hydraulic fluid is low',
+      a: 'Activates a warning light on the CWP',
       b: 'Closes the tail servo isolating valve',
       c: 'Initiates the hydraulic auxiliary pump'
     },
@@ -22408,7 +22420,7 @@ export const questions = [
     Category: '29',
     question: 'Where is the hydraulic control panel located in the cockpit?',
     options: {
-      a: 'On the central control panel',
+      a: 'MFD - VMS',
       b: 'On the overhead panel',
       c: 'On the inter-seat console'
     },
@@ -22433,8 +22445,8 @@ export const questions = [
     question: 'What happens when the hydraulic auxiliary pump switch is set to TEST?',
     options: {
       a: 'The auxiliary hydraulic system is bypassed',
-      b: 'Pressure is applied to the MHS2 for testing',
-      c: 'The brake system is recharged'
+      b: 'Pressure is applied to the MHS2',
+      c: 'Pressure is applied to the MHS1'
     },
     correct: 'b'
   },
@@ -22446,7 +22458,7 @@ export const questions = [
     options: {
       a: 'The HYD1 LOW PRESS message on the master list',
       b: 'A high temperature warning light',
-      c: 'Pressure drop below 110 bar'
+      c: 'the HYD1 LOW LEVEL message on the master list'
     },
     correct: 'a'
   },
@@ -22504,7 +22516,7 @@ export const questions = [
     Category: '29',
     question: 'How does the hydraulic system ensure redundancy in the servo controls?',
     options: {
-      a: 'By using two stages for each servo control',
+      a: 'By using two supplies for each servo control',
       b: 'By connecting both MHS1 and MHS2 to a single pump',
       c: 'By having an emergency manual override'
     },
@@ -22516,8 +22528,8 @@ export const questions = [
     Category: '29',
     question: 'What is the function of the by-pass solenoid valves in the hydraulic system?',
     options: {
-      a: 'Release excess hydraulic pressure',
-      b: 'Close off hydraulic flow during high temperature conditions',
+      a: 'Automatically open following an HIGH TEMP cation returning fluid to the reservoir',
+      b: 'Manually open following an HIGH TEMP cation returning fluid to the reservoir',
       c: 'Divert fluid to the auxiliary system in case of failure'
     },
     correct: 'b'
@@ -22570,7 +22582,7 @@ export const questions = [
     },
     correct: 'b'
   },
-  {
+/*   {
     id: 2855,
     Aircraft: 'H175',
     Category: '29',
@@ -22581,20 +22593,20 @@ export const questions = [
       c: 'LOW LEVEL HYD2 warning'
     },
     correct: 'b'
-  },
+  }, */
   {
     id: 2856,
     Aircraft: 'H175',
     Category: '29',
     question: 'What is the pressure relief valve set to in the MHS1 system?',
     options: {
-      a: '190-210 bar',
+      a: '190-220 bar',
       b: '150-175 bar',
       c: '220-240 bar'
     },
     correct: 'a'
   },
-  {
+/*   {
     id: 2857,
     Aircraft: 'H175',
     Category: '29',
@@ -22605,7 +22617,7 @@ export const questions = [
       c: 'Automatically by the hydraulic control panel'
     },
     correct: 'a'
-  },
+  }, */
   {
     id: 2858,
     Aircraft: 'H175',
@@ -22626,7 +22638,7 @@ export const questions = [
     options: {
       a: 'Amber HYD1 LOW PRESS message',
       b: 'Red LOW LEVEL HYD1 message',
-      c: 'Blue AUX PUMP ON HYD1 message'
+      c: 'White AUX PUMP ON HYD1 message'
     },
     correct: 'a'
   },
