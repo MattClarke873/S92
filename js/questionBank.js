@@ -16744,7 +16744,7 @@ export const questions = [
         question: 'What is displayed when AMC1 completely fails?',
         options: {
             a: 'AMC1 CHAN A FAIL',
-            b: 'FAIL AMC1',
+            b: 'AMC1 FAIL',
             c: 'CHAN B FAIL AMC2'
         },
         correct: 'b'
@@ -17674,7 +17674,7 @@ export const questions = [
         },
         correct: 'a'
     },
-    {
+/*     {
         id: 2448,
         Aircraft: 'H175',
         Category: '62',
@@ -17685,7 +17685,7 @@ export const questions = [
             c: 'To transmit control inputs to the blades'
         },
         correct: 'c'
-    },
+    }, */
     {
         id: 2449,
         Aircraft: 'H175',
@@ -17730,7 +17730,7 @@ export const questions = [
         options: {
             a: 'Through pitch control rods and rotating scissor links',
             b: 'Through hydraulic actuators',
-            c: 'Through the tail rotor'
+            c: 'Through pitch control rods and non rotating scissor links'
         },
         correct: 'a'
     },
@@ -18446,7 +18446,7 @@ export const questions = [
         id: 2512,
         Aircraft: 'H175',
         Category: '62',
-        question: 'What material is used in the construction of the blade’s leading-edge protection?',
+        question: 'What material is used in the construction of the main rotor blade’s leading-edge protection?',
         options: {
             a: 'Nickel',
             b: 'Aluminum',
@@ -20244,7 +20244,7 @@ export const questions = [
         question: 'Which component of the MGB monitors oil temperature and sends data to the crew?',
         options: {
             a: 'Temperature sensors',
-            b: 'Hydraulic pumps',
+            b: 'Combined temperature and low level sensor',
             c: 'Rotor mast'
         },
         correct: 'a'
@@ -20315,7 +20315,7 @@ export const questions = [
         Category: '63',
         question: 'What happens in the MGB when the main oil pump fails?',
         options: {
-            a: 'Back-up oil pump takes over without cooling the oil',
+            a: 'Back-up oil pump takes over without cooling the oil or filtering',
             b: 'MGB stops operating completely',
             c: 'Main pump switches to secondary cooling mode'
         },
@@ -20617,7 +20617,7 @@ export const questions = [
         options: {
             a: 'The MGB will shut down automatically',
             b: 'The MGB HIGH TEMP caution message is displayed',
-            c: 'The backup oil pump engages'
+            c: 'The MGB HIGH TEMP warning message is displayed'
         },
         correct: 'b'
     },
@@ -21339,7 +21339,7 @@ export const questions = [
         options: {
           a: 'The TGB control shaft',
           b: 'The lead-lag dampers',
-          c: 'The blade pins'
+          c: 'The adjustable pitch control rods'
         },
         correct: 'a'
       },
@@ -21890,7 +21890,7 @@ export const questions = [
     Category: '65',
     question: 'What is the maximum temperature limit before the IGB or TGB displays a caution?',
     options: {
-        a: '100°C',
+        a: '105°C',
         b: '110°C',
         c: '120°C'
     },
