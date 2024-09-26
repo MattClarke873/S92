@@ -21199,6 +21199,7 @@ export const questions = [
         },
         correct: 'b'
       },
+    /*
       {
         id: 2741,
         Aircraft: 'H175',
@@ -21210,7 +21211,7 @@ export const questions = [
           c: 'By friction fitting'
         },
         correct: 'b'
-      },
+      }, */
       {
         id: 2742,
         Aircraft: 'H175',
@@ -22481,7 +22482,7 @@ export const questions = [
     question: 'How is the auxiliary hydraulic system powered in flight?',
     options: {
       a: 'Mechanically by the main transmission',
-      b: 'Electrically by an AC auxiliary pump',
+      b: 'Electrically by an DC auxiliary pump',
       c: 'Directly by MHS1'
     },
     correct: 'b'
