@@ -21199,6 +21199,7 @@ export const questions = [
         },
         correct: 'b'
       },
+    /*
       {
         id: 2741,
         Aircraft: 'H175',
@@ -21210,7 +21211,7 @@ export const questions = [
           c: 'By friction fitting'
         },
         correct: 'b'
-      },
+      }, */
       {
         id: 2742,
         Aircraft: 'H175',
