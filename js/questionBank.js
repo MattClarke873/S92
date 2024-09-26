@@ -23009,7 +23009,7 @@ export const questions = [
     Category: '28',
     question: 'What is the function of the fuel probes installed in the EC175 fuel tanks?',
     options: {
-        a: 'To regulate fuel temperature',
+        a: 'To measure fuel temperature',
         b: 'To measure fuel quantity',
         c: 'To detect fuel leakage'
     },
@@ -23158,7 +23158,7 @@ export const questions = [
         c: 'Engine Control Panel'
     },
     correct: 'b'
-},
+},/* 
 {
     id: 2902,
     Aircraft: 'H175',
@@ -23170,7 +23170,7 @@ export const questions = [
         c: '6'
     },
     correct: 'c'
-},
+}, */
 {
     id: 2903,
     Aircraft: 'H175',
@@ -23243,7 +23243,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 2909,
     Aircraft: 'H175',
     Category: '28',
@@ -23254,7 +23254,7 @@ export const questions = [
         c: 'Fuel probes'
     },
     correct: 'a'
-},
+}, */
 {
     id: 2910,
     Aircraft: 'H175',
