@@ -22915,7 +22915,7 @@ export const questions = [
     options: {
         a: 'Via analog gauges on the control panel',
         b: 'On the Multi-Function Display (MFD)',
-        c: 'Through a digital readout in the cockpit'
+        c: 'Via the VMS - MISC page '
     },
     correct: 'b'
 },
@@ -22955,7 +22955,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 2885,
     Aircraft: 'H175',
     Category: '28',
@@ -22966,7 +22966,7 @@ export const questions = [
         c: 'The system automatically seals the feeder tanks'
     },
     correct: 'b'
-},
+}, */
 {
     id: 2886,
     Aircraft: 'H175',
@@ -22985,8 +22985,8 @@ export const questions = [
     Category: '28',
     question: 'What is the role of the SOV (Shut-Off Valve) in the EC175 fuel system?',
     options: {
-        a: 'To control the flow of fuel to the engines',
-        b: 'To regulate fuel temperature',
+        a: 'Manually control the flow of fuel to the engines',
+        b: 'Automatically control the flow of fuel to the engines',
         c: 'To prevent fuel backflow to the tanks'
     },
     correct: 'a'
@@ -22998,7 +22998,7 @@ export const questions = [
     question: 'How is fuel temperature measured in the EC175?',
     options: {
         a: 'By using temperature sensors in the feeder tanks',
-        b: 'Through the air venting system',
+        b: 'By using temperature sensors from all 5 tanks',
         c: 'By monitoring the booster pump output'
     },
     correct: 'a'
