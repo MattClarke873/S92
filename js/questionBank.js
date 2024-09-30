@@ -24210,127 +24210,7 @@ export const questions = [
     question: 'What is indicated by the NOSE WHEEL AXIS caution message?',
     options: {
         a: 'The nose wheel is not centered during landing gear retraction',
-        b: 'The nose wheel is in the locked position',
-        c: 'The hydraulic system is malfunctioning'
-    },
-    correct: 'a'
-},
-{
-    id: 2990,
-    Aircraft: 'H175',
-    Category: '32',
-    question: 'What triggers the L/G UP alert message during a landing approach?',
-    options: {
-        a: 'When the aircraft is flying above 300 feet',
-        b: 'When the aircraft is flying below 15 feet with the landing gear retracted',
-        c: 'When the aircraft is flying below 500 feet with landing gear extended'
-    },
-    correct: 'b'
-},
-{
-    id: 2991,
-    Aircraft: 'H175',
-    Category: '32',
-    question: 'What hydraulic component prevents mixing of hydraulic fluids in the NLG?',
-    options: {
-        a: 'The hydraulic valve manifold',
-        b: 'The transfer reservoir',
-        c: 'The damping valve'
-    },
-    correct: 'b'
-},
-{
-    id: 2982,
-    Aircraft: 'H175',
-    Category: '32',
-    question: 'What is the purpose of the anti-shimmy device in the NLG system?',
-    options: {
-        a: 'To prevent nose wheel vibration during taxiing',
-        b: 'To provide hydraulic power to the nose wheel',
-        c: 'To ensure the nose wheel locks in place'
-    },
-    correct: 'a'
-},
-{
-    id: 2983,
-    Aircraft: 'H175',
-    Category: '32',
-    question: 'What happens to the NLG during emergency extension?',
-    options: {
-        a: 'It is locked in the retracted position',
-        b: 'It can be extended but not retracted again during the flight',
-        c: 'It remains in motion until the end of the flight'
-    },
-    correct: 'b'
-},
-{
-    id: 2984,
-    Aircraft: 'H175',
-    Category: '32',
-    question: 'What activates the emergency landing gear extension system?',
-    options: {
-        a: 'Pressure from the hydraulic system',
-        b: 'Selection by the crew on the emergency landing gear control panel',
-        c: 'The L/G automatic power-up test'
-    },
-    correct: 'b'
-},
-{
-    id: 2985,
-    Aircraft: 'H175',
-    Category: '32',
-    question: 'What is the purpose of the EXTTR switch in the MLG?',
-    options: {
-        a: 'To indicate the MLG is extended and locked',
-        b: 'To monitor hydraulic pressure in the MLG',
-        c: 'To control the speed of MLG retraction'
-    },
-    correct: 'a'
-},
-{
-    id: 2986,
-    Aircraft: 'H175',
-    Category: '32',
-    question: 'Where is the parking brake control panel located?',
-    options: {
-        a: 'On the right side of the cockpit floor',
-        b: 'In the inter-seat console',
-        c: 'Next to the NLG control lever'
-    },
-    correct: 'b'
-},
-{
-    id: 2987,
-    Aircraft: 'H175',
-    Category: '32',
-    question: 'How is the landing gear hydraulically locked in both extended and retracted positions?',
-    options: {
-        a: 'Through the shuttle valve and solenoid valve',
-        b: 'By the pilot using the cockpit lever',
-        c: 'By using manual locking pins'
-    },
-    correct: 'a'
-},
-{
-    id: 2988,
-    Aircraft: 'H175',
-    Category: '32',
-    question: 'What does the damping valve in the NLG do during a normal landing?',
-    options: {
-        a: 'Releases nitrogen gas from the shock absorber',
-        b: 'Increases hydraulic flow to dampen the landing',
-        c: 'Ensures proper inflation of the shock absorber'
-    },
-    correct: 'b'
-},
-{
-    id: 2989,
-    Aircraft: 'H175',
-    Category: '32',
-    question: 'What is indicated by the NOSE WHEEL AXIS caution message?',
-    options: {
-        a: 'The nose wheel is not centered during landing gear retraction',
-        b: 'The nose wheel is in the locked position',
+        b: 'The nose wheel is not centered during taxiing',
         c: 'The hydraulic system is malfunctioning'
     },
     correct: 'a'
@@ -24402,7 +24282,7 @@ export const questions = [
     question: 'Where are the MLG shock absorbers located?',
     options: {
         a: 'At the front of the aircraft fuselage',
-        b: 'On the rear side of the fuselage under the cabin',
+        b: 'The upper part of the MLG',
         c: 'Near the main rotor head'
     },
     correct: 'b'
@@ -24515,7 +24395,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 3005,
     Aircraft: 'H175',
     Category: '32',
@@ -24526,7 +24406,7 @@ export const questions = [
         c: 'Transfer reservoir'
     },
     correct: 'c'
-},
+}, */
 {
     id: 3006,
     Aircraft: 'H175',
@@ -24575,7 +24455,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 3010,
     Aircraft: 'H175',
     Category: '32',
@@ -24586,7 +24466,7 @@ export const questions = [
         c: 'The crew must land the helicopter immediately'
     },
     correct: 'a'
-},
+}, */
 {
     id: 3011,
     Aircraft: 'H175',
@@ -24603,7 +24483,7 @@ export const questions = [
     id: 3012,
     Aircraft: 'H175',
     Category: '32',
-    question: 'What happens if the NLG pressure transducer detects low pressure during extension?',
+    question: 'What happens if the NLG pressure transducer detects low pressure (<9 bar) during extension?',
     options: {
         a: 'The nose landing gear will remain in motion',
         b: 'The landing gear is extended, but the NLG remains in an unknown position',
@@ -24659,7 +24539,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 3017,
     Aircraft: 'H175',
     Category: '32',
@@ -24670,7 +24550,7 @@ export const questions = [
         c: 'BRAKE LOW PRESS'
     },
     correct: 'b'
-},
+}, */
 {
     id: 3018,
     Aircraft: 'H175',
@@ -24707,7 +24587,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 3021,
     Aircraft: 'H175',
     Category: '32',
@@ -24718,7 +24598,7 @@ export const questions = [
         c: 'A foot pedal next to the rudder controls'
     },
     correct: 'b'
-},
+}, */
 {
     id: 3022,
     Aircraft: 'H175',
@@ -24731,7 +24611,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 3023,
     Aircraft: 'H175',
     Category: '32',
@@ -24742,7 +24622,7 @@ export const questions = [
         c: '12 bar'
     },
     correct: 'a'
-},
+}, */
 {
     id: 3024,
     Aircraft: 'H175',
