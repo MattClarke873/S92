@@ -23595,7 +23595,7 @@ export const questions = [
     id: 2938,
     Aircraft: 'H175',
     Category: '67',
-    question: 'What prevents excessive travel of the pitch, roll, and collective channels?',
+    question: 'What prevents excessive travel of the collective channels?',
     options: {
         a: 'SEMA rods',
         b: 'Stop screws',
@@ -23635,7 +23635,7 @@ export const questions = [
     options: {
         a: 'Cyclic sticks and grips, bellcranks, levers, rods',
         b: 'Collective sticks and grips, rods, bellcranks',
-        c: 'Yaw pedal units, rods, servo-control'
+        c: 'Cyclic sticks and grips, flexball cable , levers, rods'
     },
     correct: 'a'
 },
@@ -23751,14 +23751,14 @@ export const questions = [
     id: 2951,
     Aircraft: 'H175',
     Category: '67',
-    question: 'What does the pitch trim rod connect to?',
+    question: 'How does the pitch and roll control system prevent excessive travel?',
     options: {
-        a: 'The pitch SEMA rod',
-        b: 'The yaw pedal unit',
-        c: 'The collective stick'
+        a: 'stop screws',
+        b: 'Yaw trim rod',
+        c: 'Internal Servo stops'
     },
-    correct: 'a'
-},
+    correct: 'c'
+}, 
 {
     id: 2952,
     Aircraft: 'H175',
@@ -23775,11 +23775,11 @@ export const questions = [
     id: 2953,
     Aircraft: 'H175',
     Category: '67',
-    question: 'Which component of the cyclic control channel delivers input commands to the mixing unit?',
+    question: 'Which control rods are adjustable?',
     options: {
-        a: 'Collective trim rod',
-        b: 'Cyclic stick grip',
-        c: 'Pitch SEMA rod'
+        a: 'White fixed rods',
+        b: 'Black semi-fixed rods',
+        c: 'Both'
     },
     correct: 'c'
 },
@@ -23891,7 +23891,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 2963,
     Aircraft: 'H175',
     Category: '67',
@@ -23902,7 +23902,7 @@ export const questions = [
         c: 'Layshaft mechanism'
     },
     correct: 'c'
-},
+}, */
 {
     id: 2964,
     Aircraft: 'H175',
@@ -23933,7 +23933,7 @@ export const questions = [
     Category: '67',
     question: 'What system provides pitch variations for the tail rotor blades?',
     options: {
-        a: 'Yaw trim rod',
+        a: 'The mixer unit',
         b: 'Tail servo-control',
         c: 'Collective SEMA rod'
     },
@@ -24001,7 +24001,7 @@ export const questions = [
 },
 {
     id: 2972,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is the primary function of the landing gear in the EC175?',
     options: {
@@ -24013,7 +24013,7 @@ export const questions = [
 },
 {
     id: 2973,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'How is the landing gear retracted and extended in the EC175?',
     options: {
@@ -24025,7 +24025,7 @@ export const questions = [
 },
 {
     id: 2974,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What protects the EC175 tail boom during a high nose-up landing?',
     options: {
@@ -24037,7 +24037,7 @@ export const questions = [
 },
 {
     id: 2975,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is the purpose of the transfer reservoir in the MLG system?',
     options: {
@@ -24049,7 +24049,7 @@ export const questions = [
 },
 {
     id: 2976,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What system operates the main wheel brakes in the EC175?',
     options: {
@@ -24061,7 +24061,7 @@ export const questions = [
 },
 {
     id: 2977,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'Which component controls the rate of shock absorber extension and retraction?',
     options: {
@@ -24073,7 +24073,7 @@ export const questions = [
 },
 {
     id: 2978,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is the purpose of the burst discs in the High Spec MLG?',
     options: {
@@ -24085,7 +24085,7 @@ export const questions = [
 },
 {
     id: 2979,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What does the EXTTA switch indicate in the MLG system?',
     options: {
@@ -24097,7 +24097,7 @@ export const questions = [
 },
 {
     id: 2980,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'How is the MLG locked in the extended position?',
     options: {
@@ -24109,7 +24109,7 @@ export const questions = [
 },
 {
     id: 2981,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'Where is the NLG pressure transducer located?',
     options: {
@@ -24121,7 +24121,7 @@ export const questions = [
 },
 {
     id: 2982,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is the purpose of the anti-shimmy device in the NLG system?',
     options: {
@@ -24133,7 +24133,7 @@ export const questions = [
 },
 {
     id: 2983,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What happens to the NLG during emergency extension?',
     options: {
@@ -24145,7 +24145,7 @@ export const questions = [
 },
 {
     id: 2984,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What activates the emergency landing gear extension system?',
     options: {
@@ -24157,7 +24157,7 @@ export const questions = [
 },
 {
     id: 2985,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is the purpose of the EXTTR switch in the MLG?',
     options: {
@@ -24169,7 +24169,7 @@ export const questions = [
 },
 {
     id: 2986,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'Where is the parking brake control panel located?',
     options: {
@@ -24181,7 +24181,7 @@ export const questions = [
 },
 {
     id: 2987,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'How is the landing gear hydraulically locked in both extended and retracted positions?',
     options: {
@@ -24193,7 +24193,7 @@ export const questions = [
 },
 {
     id: 2988,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What does the damping valve in the NLG do during a normal landing?',
     options: {
@@ -24205,7 +24205,7 @@ export const questions = [
 },
 {
     id: 2989,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is indicated by the NOSE WHEEL AXIS caution message?',
     options: {
@@ -24217,7 +24217,7 @@ export const questions = [
 },
 {
     id: 2990,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What triggers the L/G UP alert message during a landing approach?',
     options: {
@@ -24229,7 +24229,7 @@ export const questions = [
 },
 {
     id: 2991,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What hydraulic component prevents mixing of hydraulic fluids in the NLG?',
     options: {
@@ -24241,7 +24241,7 @@ export const questions = [
 },
 {
     id: 2982,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is the purpose of the anti-shimmy device in the NLG system?',
     options: {
@@ -24253,7 +24253,7 @@ export const questions = [
 },
 {
     id: 2983,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What happens to the NLG during emergency extension?',
     options: {
@@ -24265,7 +24265,7 @@ export const questions = [
 },
 {
     id: 2984,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What activates the emergency landing gear extension system?',
     options: {
@@ -24277,7 +24277,7 @@ export const questions = [
 },
 {
     id: 2985,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is the purpose of the EXTTR switch in the MLG?',
     options: {
@@ -24289,7 +24289,7 @@ export const questions = [
 },
 {
     id: 2986,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'Where is the parking brake control panel located?',
     options: {
@@ -24301,7 +24301,7 @@ export const questions = [
 },
 {
     id: 2987,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'How is the landing gear hydraulically locked in both extended and retracted positions?',
     options: {
@@ -24313,7 +24313,7 @@ export const questions = [
 },
 {
     id: 2988,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What does the damping valve in the NLG do during a normal landing?',
     options: {
@@ -24325,7 +24325,7 @@ export const questions = [
 },
 {
     id: 2989,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is indicated by the NOSE WHEEL AXIS caution message?',
     options: {
@@ -24337,7 +24337,7 @@ export const questions = [
 },
 {
     id: 2990,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What triggers the L/G UP alert message during a landing approach?',
     options: {
@@ -24349,7 +24349,7 @@ export const questions = [
 },
 {
     id: 2991,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What hydraulic component prevents mixing of hydraulic fluids in the NLG?',
     options: {
@@ -24361,7 +24361,7 @@ export const questions = [
 },
 {
     id: 2992,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What component is responsible for locking the landing gear in the up position?',
     options: {
@@ -24373,7 +24373,7 @@ export const questions = [
 },
 {
     id: 2993,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is the function of the pintle pin in the NLG system?',
     options: {
@@ -24385,7 +24385,7 @@ export const questions = [
 },
 {
     id: 2994,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'Which valve ensures the hydraulic locking of the landing gear in the extended position?',
     options: {
@@ -24397,7 +24397,7 @@ export const questions = [
 },
 {
     id: 2995,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'Where are the MLG shock absorbers located?',
     options: {
@@ -24409,7 +24409,7 @@ export const questions = [
 },
 {
     id: 2996,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'How are the wheel brakes on the EC175 operated?',
     options: {
@@ -24421,7 +24421,7 @@ export const questions = [
 },
 {
     id: 2997,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What triggers the emergency landing gear extension?',
     options: {
@@ -24433,7 +24433,7 @@ export const questions = [
 },
 {
     id: 2998,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What role does the EXTTR switch play in the MLG system?',
     options: {
@@ -24445,7 +24445,7 @@ export const questions = [
 },
 {
     id: 2999,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'Where is the L/G emergency pump located in the EC175?',
     options: {
@@ -24457,7 +24457,7 @@ export const questions = [
 },
 {
     id: 3000,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is the main function of the shuttle valve in the landing gear system?',
     options: {
@@ -24469,7 +24469,7 @@ export const questions = [
 },
 {
     id: 3001,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is the purpose of the micro-switches installed on the landing gear?',
     options: {
@@ -24481,7 +24481,7 @@ export const questions = [
 },
 {
     id: 3002,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'How is the NLG hydraulically locked in both retracted and extended positions?',
     options: {
@@ -24493,7 +24493,7 @@ export const questions = [
 },
 {
     id: 3003,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'Which component prevents the NLG from shimmying during taxiing?',
     options: {
@@ -24505,7 +24505,7 @@ export const questions = [
 },
 {
     id: 3004,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What happens when the nose gear is not aligned with the aircraft centerline during takeoff?',
     options: {
@@ -24517,7 +24517,7 @@ export const questions = [
 },
 {
     id: 3005,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'Which hydraulic component is located inside the shock absorber assembly of the NLG?',
     options: {
@@ -24529,7 +24529,7 @@ export const questions = [
 },
 {
     id: 3006,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'How is the landing gear emergency extension pump powered?',
     options: {
@@ -24541,7 +24541,7 @@ export const questions = [
 },
 {
     id: 3007,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What does the green arrow indicator on the landing gear display signify?',
     options: {
@@ -24553,7 +24553,7 @@ export const questions = [
 },
 {
     id: 3008,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'Which valve limits the pressure in the emergency landing gear system?',
     options: {
@@ -24565,7 +24565,7 @@ export const questions = [
 },
 {
     id: 3009,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What activates the hydraulic power for normal landing gear operation?',
     options: {
@@ -24577,7 +24577,7 @@ export const questions = [
 },
 {
     id: 3010,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What happens if the Hyd Aux Pump fails during flight?',
     options: {
@@ -24589,7 +24589,7 @@ export const questions = [
 },
 {
     id: 3011,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What component controls the rate of MLG retraction?',
     options: {
@@ -24601,7 +24601,7 @@ export const questions = [
 },
 {
     id: 3012,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What happens if the NLG pressure transducer detects low pressure during extension?',
     options: {
@@ -24613,7 +24613,7 @@ export const questions = [
 },
 {
     id: 3013,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is the function of the brake accumulator in the EC175?',
     options: {
@@ -24625,7 +24625,7 @@ export const questions = [
 },
 {
     id: 3014,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'Which message is displayed when the landing gear emergency pump overheats?',
     options: {
@@ -24637,7 +24637,7 @@ export const questions = [
 },
 {
     id: 3015,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is the purpose of the high-pressure inflation valve in the shock absorber?',
     options: {
@@ -24649,7 +24649,7 @@ export const questions = [
 },
 {
     id: 3016,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'Where is the NLG Extension Transfer Reservoir switch located?',
     options: {
@@ -24661,7 +24661,7 @@ export const questions = [
 },
 {
     id: 3017,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What message is displayed if the front wheels are not aligned during takeoff?',
     options: {
@@ -24673,7 +24673,7 @@ export const questions = [
 },
 {
     id: 3018,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'How are the main landing gear wheels mounted?',
     options: {
@@ -24685,7 +24685,7 @@ export const questions = [
 },
 {
     id: 3019,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What does the brake system control in the EC175?',
     options: {
@@ -24697,7 +24697,7 @@ export const questions = [
 },
 {
     id: 3020,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What does the EXTTA switch indicate during landing gear operation?',
     options: {
@@ -24709,7 +24709,7 @@ export const questions = [
 },
 {
     id: 3021,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What controls the parking brake in the EC175?',
     options: {
@@ -24721,7 +24721,7 @@ export const questions = [
 },
 {
     id: 3022,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is the primary function of the tail bumper?',
     options: {
@@ -24733,7 +24733,7 @@ export const questions = [
 },
 {
     id: 3023,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is the maximum pressure for the low-pressure nitrogen chamber in the NLG?',
     options: {
@@ -24745,7 +24745,7 @@ export const questions = [
 },
 {
     id: 3024,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'How is the brake system operated by the pilot and co-pilot?',
     options: {
@@ -24757,7 +24757,7 @@ export const questions = [
 },
 {
     id: 3025,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What triggers the “Landing Gear” audio message during descent?',
     options: {
@@ -24769,7 +24769,7 @@ export const questions = [
 },
 {
     id: 3026,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is the main component that absorbs the landing energy in the NLG?',
     options: {
@@ -24781,7 +24781,7 @@ export const questions = [
 },
 {
     id: 3027,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is the function of the damping valve in the NLG?',
     options: {
@@ -24793,7 +24793,7 @@ export const questions = [
 },
 {
     id: 3028,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What component provides the “ground signal” for the Ground/Flight logic?',
     options: {
@@ -24805,7 +24805,7 @@ export const questions = [
 },
 {
     id: 3029,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'Which message is displayed when the wheel brake accumulator pressure is low?',
     options: {
@@ -24817,7 +24817,7 @@ export const questions = [
 },
 {
     id: 3030,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What is the main purpose of the parking brake in the EC175?',
     options: {
@@ -24829,7 +24829,7 @@ export const questions = [
 },
 {
     id: 3031,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'How does the transfer reservoir assist during landing gear operation?',
     options: {
@@ -24841,7 +24841,7 @@ export const questions = [
 },
 {
     id: 3032,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '32',
     question: 'What does the L/G emergency pump provide during an emergency extension?',
     options: {
