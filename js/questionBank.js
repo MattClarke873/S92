@@ -24730,7 +24730,2416 @@ export const questions = [
         c: 'Electric power to the hydraulic manifold'
     },
     correct: 'b'
+},
+{
+    id: 3033,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What are the two main components of the fire protection system?',
+    options: {
+        a: 'Fire detection and fire extinguishing systems',
+        b: 'Smoke detection and temperature probes',
+        c: 'Engine control and fire suppression'
+    },
+    correct: 'a'
+},
+{
+    id: 3034,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What does the engine fire detection system include?',
+    options: {
+        a: 'Smoke detector',
+        b: 'Pneumatic tube detector and two punctual detectors',
+        c: 'Temperature probe'
+    },
+    correct: 'b'
+},
+{
+    id: 3035,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'Where is the pneumatic tube detector located?',
+    options: {
+        a: 'In the cockpit',
+        b: 'In the exhaust area of the engine',
+        c: 'In the cargo compartment'
+    },
+    correct: 'b'
+},
+{
+    id: 3036,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'How many statuses does the pneumatic tube detector have?',
+    options: {
+        a: 'Two',
+        b: 'Four',
+        c: 'Three'
+    },
+    correct: 'c'
+},
+{
+    id: 3037,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'At what temperature does the pneumatic tube detector trigger a fire alarm?',
+    options: {
+        a: '204°C',
+        b: '680°C',
+        c: '120°C'
+    },
+    correct: 'b'
+},
+{
+    id: 3038,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What happens during the automatic power-up test for the pneumatic tube detectors?',
+    options: {
+        a: 'The system triggers the fire extinguishers',
+        b: 'The pneumatic tube detector transmits temperature values to the AMCs',
+        c: 'A manual test is performed'
+    },
+    correct: 'b'
+},
+{
+    id: 3039,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'Where are the punctual detectors located?',
+    options: {
+        a: 'In the cabin area',
+        b: 'In the AGB area of the engine',
+        c: 'In the cargo compartment'
+    },
+    correct: 'b'
+},
+{
+    id: 3040,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'At what temperature does the punctual detector send a signal to the AMCs?',
+    options: {
+        a: '204°C',
+        b: '680°C',
+        c: '100°C'
+    },
+    correct: 'a'
+},
+{
+    id: 3041,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What is the composition of the engine fire extinguishing system?',
+    options: {
+        a: 'Fire bottles, smoke detectors, and temperature probes',
+        b: 'Agent containers, discharge heads, and electro-pyrotechnic cartridges',
+        c: 'Pneumatic tube and punctual detectors'
+    },
+    correct: 'b'
+},
+{
+    id: 3042,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'How many agent containers are there in the engine fire extinguishing system?',
+    options: {
+        a: 'One',
+        b: 'Three',
+        c: 'Two'
+    },
+    correct: 'c'
+},
+{
+    id: 3043,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What does the fire bottle pressure switch monitor?',
+    options: {
+        a: 'Temperature in the engine',
+        b: 'Pressure in the agent container',
+        c: 'The cargo fire system'
+    },
+    correct: 'b'
+},
+{
+    id: 3044,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What triggers the electro-pyrotechnic cartridge in the fire bottle?',
+    options: {
+        a: 'Manual activation by the crew',
+        b: 'Smoke detection',
+        c: 'Automatic detection by AMCs'
+    },
+    correct: 'a'
+},
+{
+    id: 3045,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What is displayed on the Multi-Function Display (MFD) if the pressure in the agent container is too low?',
+    options: {
+        a: 'FIRE ENG1',
+        b: 'FIRE EXTING',
+        c: 'FIRE SENSOR'
+    },
+    correct: 'b'
+},
+{
+    id: 3046,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'How many hand-held fire extinguishers are in the cockpit and cabin?',
+    options: {
+        a: 'Two',
+        b: 'Four',
+        c: 'Three'
+    },
+    correct: 'a'
+},
+{
+    id: 3047,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'Where is the handheld fire extinguisher located in the cockpit?',
+    options: {
+        a: 'Near the pilot on the right side of the console',
+        b: 'Near the co-pilot',
+        c: 'On the rear panel of the cabin'
+    },
+    correct: 'a'
+},
+{
+    id: 3048,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What does the handheld fire extinguisher’s manometer indicate when the pressure is correct?',
+    options: {
+        a: 'Pointer in the red area',
+        b: 'Pointer in the green area',
+        c: 'No reading'
+    },
+    correct: 'b'
+},
+{
+    id: 3049,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What type of sensor is used in the cargo fire detection system?',
+    options: {
+        a: 'Smoke detector',
+        b: 'Temperature probe',
+        c: 'Both smoke detector and temperature probes'
+    },
+    correct: 'c'
+},
+{
+    id: 3050,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What type of temperature probes are used in the cargo fire detection system?',
+    options: {
+        a: 'Thermocouples',
+        b: 'PT100 type platinum resistances',
+        c: 'Pneumatic tube detectors'
+    },
+    correct: 'b'
+},
+{
+    id: 3051,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What happens when the cargo smoke detector senses smoke?',
+    options: {
+        a: 'A red "CARGO FIRE" warning is displayed',
+        b: 'An amber "CARGO SMOKE" message appears on the MFD',
+        c: 'A temperature probe signal is sent'
+    },
+    correct: 'b'
+},
+{
+    id: 3052,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'At what temperature do the cargo temperature probes trigger an alert?',
+    options: {
+        a: '80°C and 120°C',
+        b: '100°C and 150°C',
+        c: '200°C and 300°C'
+    },
+    correct: 'a'
+},
+{
+    id: 3053,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What is indicated if a fire bottle is empty?',
+    options: {
+        a: 'An amber "CARGO FIRE" message',
+        b: 'A red "EMPTY" indicator on the fire control panel',
+        c: 'A green "READY" indicator'
+    },
+    correct: 'b'
+},
+{
+    id: 3054,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'How does the crew know when a fire is detected in the engine compartment?',
+    options: {
+        a: 'A green light appears on the Central Warning Panel',
+        b: 'A red warning light "ENG FIRE" is displayed along with a vocal alert',
+        c: 'An amber "ENGINE ALERT" message is shown'
+    },
+    correct: 'b'
+},
+{
+    id: 3055,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What happens when the NG speed is below 50% during fire extinction?',
+    options: {
+        a: 'The fire light on the push-button blinks',
+        b: 'The fire light on the push-button turns off',
+        c: 'The fire extinguisher system activates automatically'
+    },
+    correct: 'a'
+},
+{
+    id: 3056,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What is the purpose of the fire bottle pressure switch?',
+    options: {
+        a: 'To check the pressure in the cargo compartment',
+        b: 'To detect when pressure in the agent container drops below 6 bars',
+        c: 'To monitor engine temperature'
+    },
+    correct: 'b'
+},
+{
+    id: 3057,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'How are the fire extinguishers activated?',
+    options: {
+        a: 'Automatically when fire is detected',
+        b: 'Manually by the crew through push-buttons',
+        c: 'Through an automatic test during power-up'
+    },
+    correct: 'b'
+},
+{
+    id: 3058,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What does the AMC do during the automatic power-up test?',
+    options: {
+        a: 'Performs a test of the punctual detectors and pneumatic tube detectors',
+        b: 'Activates the fire extinguisher system',
+        c: 'Runs a smoke detector simulation'
+    },
+    correct: 'a'
+},
+{
+    id: 3059,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What action can the crew take when the "ENG FIRE" light is illuminated?',
+    options: {
+        a: 'Check the fire bottle pressure',
+        b: 'Press the push-button to trigger the fire extinguisher',
+        c: 'Initiate a manual test of the detectors'
+    },
+    correct: 'b'
+},
+{
+    id: 3060,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What type of agent is contained in the fire bottles?',
+    options: {
+        a: 'Pressurized helium',
+        b: 'Fire extinguishing agent',
+        c: 'Hydraulic fluid'
+    },
+    correct: 'b'
+},
+{
+    id: 3061,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'How does the pneumatic tube detector alert the crew in case of a fire?',
+    options: {
+        a: 'By sending a signal to the smoke detector',
+        b: 'By closing an alarm switch when the internal pressure exceeds 680°C',
+        c: 'By triggering a manual test'
+    },
+    correct: 'b'
+},
+{
+    id: 3062,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'Which system is used to alert the crew to a fire in the cargo compartment?',
+    options: {
+        a: 'Cargo fire suppression system',
+        b: 'Cargo fire detection system',
+        c: 'Cargo monitoring system'
+    },
+    correct: 'b'
+},
+{
+    id: 3063,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What indication does the crew receive if the cargo fire detection system fails?',
+    options: {
+        a: 'An amber "CARGO FIRE" warning',
+        b: 'A white "CARGO FIRE SNSR" message',
+        c: 'A red "FIRE EXT FAIL" message'
+    },
+    correct: 'b'
+},
+{
+    id: 3064,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'Where are the two temperature probes for the cargo fire detection system located?',
+    options: {
+        a: 'On the ceiling of the rear cargo hold',
+        b: 'In the engine compartment',
+        c: 'Under the upholstery in the cargo hold'
+    },
+    correct: 'c'
+},
+{
+    id: 3065,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What happens if the temperature in the cargo compartment exceeds 120°C?',
+    options: {
+        a: 'The cargo fire suppression system activates',
+        b: 'A visual and aural alert are triggered',
+        c: 'The fire bottles discharge'
+    },
+    correct: 'b'
+},
+{
+    id: 3066,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What does the smoke detector in the cargo compartment detect?',
+    options: {
+        a: 'Temperature changes',
+        b: 'Air pressure fluctuations',
+        c: 'Smoke particles'
+    },
+    correct: 'c'
+},
+{
+    id: 3067,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'Which component transmits a signal to the AMC when cargo fire is detected?',
+    options: {
+        a: 'Smoke detector',
+        b: 'Fire extinguisher',
+        c: 'Pneumatic tube detector'
+    },
+    correct: 'a'
+},
+{
+    id: 3068,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What message is generated if the pressure in the fire bottle is below the required level?',
+    options: {
+        a: '"FIRE ENG1"',
+        b: '"FIRE EXTING"',
+        c: '"FIRE SENSOR"'
+    },
+    correct: 'b'
+},
+{
+    id: 3069,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What does the "CARGO SMOKE" message on the MFD indicate?',
+    options: {
+        a: 'Overheating in the cargo compartment',
+        b: 'Presence of smoke in the cargo hold',
+        c: 'Pressure drop in the fire bottles'
+    },
+    correct: 'b'
+},
+{
+    id: 3070,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What do the fire bottle discharge indicators show?',
+    options: {
+        a: 'Pressure levels in the cargo compartment',
+        b: 'Whether the fire bottles are empty or still pressurized',
+        c: 'Temperature in the engine compartment'
+    },
+    correct: 'b'
+},
+{
+    id: 3071,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'What occurs when both cargo temperature probes fail?',
+    options: {
+        a: '"CARGO FIRE SNSR" advisory is displayed',
+        b: 'The fire extinguishing system activates',
+        c: 'The smoke detectors take over monitoring'
+    },
+    correct: 'a'
+},
+{
+    id: 3072,
+    Aircraft: 'EC175',
+    Category: '26',
+    question: 'How does the system inform the crew of a cargo fire after detection?',
+    options: {
+        a: 'Through an amber warning on the MFD',
+        b: 'Through a red "CARGO FIRE" warning and aural alarm',
+        c: 'By activating the fire suppression system'
+    },
+    correct: 'b'
+},
+{
+    id: 3073,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What is the primary function of the Environmental Control System (ECS) in the EC175?',
+    options: {
+        a: 'To provide cabin and cockpit cooling only',
+        b: 'To control temperature and humidity in the cockpit and cabin',
+        c: 'To manage external air intake for engines'
+    },
+    correct: 'b'
+},
+{
+    id: 3074,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What air source does the ECS use for heating?',
+    options: {
+        a: 'P3 air from the engine',
+        b: 'External ambient air only',
+        c: 'Recycled air from the cabin'
+    },
+    correct: 'a'
+},
+{
+    id: 3075,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'Which system provides cooling air in the EC175?',
+    options: {
+        a: 'The Environmental Control System (ECS)',
+        b: 'The Air Conditioning System (ACS)',
+        c: 'The cabin compact set (CaCS)'
+    },
+    correct: 'b'
+},
+{
+    id: 3076,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'How is temperature controlled in both the cockpit and cabin of the EC175?',
+    options: {
+        a: 'Using separate control panels for cockpit and cabin',
+        b: 'Through a combined control panel in the cockpit',
+        c: 'Manually by passengers using overhead controls'
+    },
+    correct: 'b'
+},
+{
+    id: 3077,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What is the role of the ECSAU (ECS Ancillary Unit)?',
+    options: {
+        a: 'To manage external air intake for ventilation',
+        b: 'To control ECS and optional ACS functions',
+        c: 'To monitor cabin pressurization'
+    },
+    correct: 'b'
+},
+{
+    id: 3078,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'Where is the air recirculation command activated in the cockpit?',
+    options: {
+        a: 'On the overhead panel',
+        b: 'On the ECS control panel',
+        c: 'On the engine control unit'
+    },
+    correct: 'b'
+},
+{
+    id: 3079,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What function is activated by pressing the "DEMIST" button on the ECS panel?',
+    options: {
+        a: 'Cabin cooling',
+        b: 'Cockpit windshield demisting',
+        c: 'Cockpit air recirculation'
+    },
+    correct: 'b'
+},
+{
+    id: 3080,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What is the consequence if the MGB oil temperature exceeds 95°C?',
+    options: {
+        a: 'The cabin cooling system is deactivated',
+        b: 'The cockpit compressor is immediately switched off',
+        c: 'The ECS system shuts down entirely'
+    },
+    correct: 'b'
+},
+{
+    id: 3081,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What is the purpose of the cockpit heating modulating valve (HMV)?',
+    options: {
+        a: 'To control the flow of hot P3 air for heating',
+        b: 'To manage cabin pressure levels',
+        c: 'To regulate air circulation in the cabin'
+    },
+    correct: 'a'
+},
+{
+    id: 3082,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'Where are the cockpit air recirculation inlets located?',
+    options: {
+        a: 'Under the pilot seats',
+        b: 'In the overhead panel',
+        c: 'On the floor between the seats'
+    },
+    correct: 'a'
+},
+{
+    id: 3083,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'Which system controls the cockpit air distribution?',
+    options: {
+        a: 'The P3 Bleed Air System',
+        b: 'The ECS control panel',
+        c: 'The cabin distribution boxes'
+    },
+    correct: 'b'
+},
+{
+    id: 3084,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What happens when the ECS suffers a failure in the ECS control unit?',
+    options: {
+        a: 'The cockpit HMV is fully opened',
+        b: 'The ECS shuts down all cabin functions',
+        c: 'The cockpit inlet actuators move to the recirculation position'
+    },
+    correct: 'c'
+},
+{
+    id: 3085,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'How is the cockpit cooling mode activated manually?',
+    options: {
+        a: 'By selecting the desired temperature below 10°C',
+        b: 'By pushing the "AUTO" button',
+        c: 'By turning the fan speed selector'
+    },
+    correct: 'a'
+},
+{
+    id: 3086,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What action occurs when the RECIRC push-button is selected OFF?',
+    options: {
+        a: 'The cockpit fan speed decreases',
+        b: 'The inlet actuators move to the external air position',
+        c: 'The cockpit heater modulating valve opens'
+    },
+    correct: 'b'
+},
+{
+    id: 3087,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'How does the ECS manage cockpit ventilation?',
+    options: {
+        a: 'By controlling fan speed based on temperature readings',
+        b: 'By controlling air recirculation and external air intake',
+        c: 'By monitoring cabin pressure levels'
+    },
+    correct: 'b'
+},
+{
+    id: 3088,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What happens when the cabin IAT probe sends a low temperature signal?',
+    options: {
+        a: 'The cabin cooling is activated',
+        b: 'The cabin heating modulating valve opens',
+        c: 'The ECS goes into ventilation-only mode'
+    },
+    correct: 'b'
+},
+{
+    id: 3089,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'Where are the evaporator air outlet probes located in the ACS system?',
+    options: {
+        a: 'In the overhead panels of the cabin',
+        b: 'In each outlet duct of the compact sets',
+        c: 'On the cockpit floor under the seats'
+    },
+    correct: 'b'
+},
+{
+    id: 3090,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What is the function of the pressure/temperature sensors in the ACS?',
+    options: {
+        a: 'To regulate air flow between cabin and cockpit',
+        b: 'To monitor refrigerant pressure and temperature',
+        c: 'To adjust cabin pressurization levels'
+    },
+    correct: 'b'
+},
+{
+    id: 3091,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'How does the ECS handle a refrigerant leak in the cockpit system?',
+    options: {
+        a: 'It switches to the ventilation-only mode',
+        b: 'It immediately switches off the cockpit compressor',
+        c: 'It increases the fan speed to compensate'
+    },
+    correct: 'b'
+},
+{
+    id: 3092,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What is the ECSAU\'s role when the temperature exceeds 90°C in the cockpit?',
+    options: {
+        a: 'It opens the cockpit compressor to cool the area',
+        b: 'It orders the P3 Shut-off Valves to close',
+        c: 'It increases the airflow in the cockpit'
+    },
+    correct: 'b'
+},
+{
+    id: 3093,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'How is the air conditioning system (ACS) activated in the cockpit?',
+    options: {
+        a: 'Automatically when the ECS is turned on',
+        b: 'Via the ECS control panel using the ACS function',
+        c: 'By manually setting the cockpit temperature below 10°C'
+    },
+    correct: 'b'
+},
+{
+    id: 3094,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'Where are the ACS compressors located?',
+    options: {
+        a: 'In the overhead compartments of the cabin',
+        b: 'On the upper part of the accessory gearboxes',
+        c: 'Under the pilot and co-pilot seats'
+    },
+    correct: 'b'
+},
+{
+    id: 3095,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What is the primary purpose of the cabin compact set (CaCS)?',
+    options: {
+        a: 'To mix and distribute air in the cabin',
+        b: 'To monitor cabin air temperature',
+        c: 'To provide cabin pressurization'
+    },
+    correct: 'a'
+},
+{
+    id: 3096,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'How does the ECS control cabin heating?',
+    options: {
+        a: 'By controlling the airflow using the recirculation fans',
+        b: 'By adjusting the heater modulating valve (HMV)',
+        c: 'By regulating external air intake'
+    },
+    correct: 'b'
+},
+{
+    id: 3097,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What happens when the cabin fan fails?',
+    options: {
+        a: 'The system switches to manual mode',
+        b: 'The RECIRC function is inhibited and cabin cooling continues',
+        c: 'The ECS shuts down cabin heating'
+    },
+    correct: 'b'
+},
+{
+    id: 3098,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'How does the ECS monitor the temperature in the cockpit and cabin?',
+    options: {
+        a: 'Using inside air temperature (IAT) and air mixed temperature (AMT) probes',
+        b: 'By manually reading external temperature sensors',
+        c: 'Through visual inspection by the crew'
+    },
+    correct: 'a'
+},
+{
+    id: 3099,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What occurs if the refrigerant temperature exceeds 120°C?',
+    options: {
+        a: 'The cockpit fan speed increases',
+        b: 'The cockpit compressor switches off automatically',
+        c: 'The cockpit heater modulating valve opens'
+    },
+    correct: 'b'
+},
+{
+    id: 3100,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'Which components are responsible for air mixing and distribution in the cockpit?',
+    options: {
+        a: 'Cockpit compact set (CoCS) and cabin compact set (CaCS)',
+        b: 'Cockpit distribution box and evaporators',
+        c: 'Fans and diffusers in the overhead panels'
+    },
+    correct: 'a'
+},
+{
+    id: 3101,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What is the function of the air mixed temperature (AMT) probes?',
+    options: {
+        a: 'To measure the temperature of the air entering the cockpit',
+        b: 'To provide the ECS with temperature data for regulation',
+        c: 'To monitor external air temperature'
+    },
+    correct: 'b'
+},
+{
+    id: 3102,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What does the ECS do if the cabin air temperature drops below 10°C?',
+    options: {
+        a: 'Increases cabin fan speed',
+        b: 'Activates the cabin heater modulating valve',
+        c: 'Shuts off the air conditioning system'
+    },
+    correct: 'b'
+},
+{
+    id: 3103,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What happens when the cockpit ECSAU PCB fails?',
+    options: {
+        a: 'The system defaults to ventilation-only mode',
+        b: 'The cockpit heating modulating valve fully opens',
+        c: 'All cockpit fans turn off'
+    },
+    correct: 'c'
+},
+{
+    id: 3104,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'How does the ECS control air recirculation in the cockpit during landing gear extension?',
+    options: {
+        a: 'It closes external air ducts and forces recirculation mode',
+        b: 'It increases the air intake to the cockpit',
+        c: 'It shuts off the cabin ventilation'
+    },
+    correct: 'a'
+},
+{
+    id: 3105,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'How is air flow directed for demisting the cockpit windshields?',
+    options: {
+        a: 'Using external air only',
+        b: 'Via the cockpit outlet actuator in the demisting position',
+        c: 'Through the air conditioning system'
+    },
+    correct: 'b'
+},
+{
+    id: 3106,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What does the ECS display when both cockpit fans fail?',
+    options: {
+        a: 'The COCKPIT FAN advisory message',
+        b: 'Two dashes on the ECS control panel temperature display',
+        c: 'The cockpit heating modulating valve opens fully'
+    },
+    correct: 'b'
+},
+{
+    id: 3107,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What is the ECS response when the cabin compressor temperature is too high?',
+    options: {
+        a: 'Shuts off the cabin compressor automatically',
+        b: 'Increases air intake from the external air ducts',
+        c: 'Switches the system to manual mode'
+    },
+    correct: 'a'
+},
+{
+    id: 3108,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What occurs if the cabin heating modulation valve (HMV) fails to close properly?',
+    options: {
+        a: 'The cabin heating is shut off',
+        b: 'The cabin temperature continues to rise until TS90 detects over 90°C',
+        c: 'The ECS defaults to manual ventilation mode'
+    },
+    correct: 'b'
+},
+{
+    id: 3109,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What action does the ECSAU cockpit PCB take when a refrigerant leak is detected?',
+    options: {
+        a: 'Activates cooling mode to compensate for the leak',
+        b: 'Automatically switches off the cockpit compressor',
+        c: 'Activates the ECS caution message'
+    },
+    correct: 'b'
+},
+{
+    id: 3110,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'How does the ECS handle a cockpit heating modulating valve (HMV) stuck open?',
+    options: {
+        a: 'It shuts off the cockpit compressor to avoid overheating',
+        b: 'It continues to regulate temperature via fan speed',
+        c: 'It requests the P3 Shut-off Valve to close after the cockpit reaches 90°C'
+    },
+    correct: 'c'
+},
+{
+    id: 3111,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What is the main consequence of a cockpit ECSAU PCB failure?',
+    options: {
+        a: 'Only the ventilation mode remains available',
+        b: 'The ECS shuts down entirely',
+        c: 'The cabin cooling system is activated automatically'
+    },
+    correct: 'a'
+},
+{
+    id: 3112,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What does the ECS do if the cabin temperature exceeds 30°C in manual mode?',
+    options: {
+        a: 'Activates the cabin fans at full speed',
+        b: 'Switches the ECS to automatic mode',
+        c: 'Turns on the cabin cooling system'
+    },
+    correct: 'a'
+},
+{
+    id: 3113,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'How are cockpit and cabin ECS components controlled in the EC175?',
+    options: {
+        a: 'They are controlled independently by separate panels',
+        b: 'Both are controlled via a combined ECS/ACS control unit',
+        c: 'Control is based on temperature sensors only'
+    },
+    correct: 'b'
+},
+{
+    id: 3114,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'Where are the cockpit and cabin IAT (Inside Air Temperature) probes located?',
+    options: {
+        a: 'In the overhead panel in both cockpit and cabin',
+        b: 'Behind the pilot’s seat for the cockpit and near the cabin floor for the cabin',
+        c: 'In the cockpit overhead panel and the cabin window surround'
+    },
+    correct: 'c'
+},
+{
+    id: 3115,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What component provides cooling air to the cockpit and cabin in the ACS?',
+    options: {
+        a: 'A single compressor located near the MGB',
+        b: 'Two compressors, one for the cockpit and one for the cabin',
+        c: 'The external ambient air ducts'
+    },
+    correct: 'b'
+},
+{
+    id: 3116,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What happens to the ECS during floatation or landing gear extension?',
+    options: {
+        a: 'The system forces recirculation mode to avoid water or sand ingress',
+        b: 'The cabin fans are automatically turned off',
+        c: 'The system increases external air intake for ventilation'
+    },
+    correct: 'a'
+},
+{
+    id: 3117,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'Which of the following is a safety feature of the cabin ECS?',
+    options: {
+        a: 'Automatic shutdown of cabin ventilation during high temperatures',
+        b: 'Manual activation of emergency cooling mode',
+        c: 'Temperature switches (TS90) to monitor overheating conditions'
+    },
+    correct: 'c'
+},
+{
+    id: 3118,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What happens when the ECS power-up test (P-BIT) is performed?',
+    options: {
+        a: 'The ECS shuts down and resets all functions',
+        b: 'The system tests for faults and restores previous settings if no issues are found',
+        c: 'The cabin temperature is automatically reduced to minimum'
+    },
+    correct: 'b'
+},
+{
+    id: 3119,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What is the purpose of the AMT (Air Mixed Temperature) probe in the ECS?',
+    options: {
+        a: 'To monitor external air temperature',
+        b: 'To provide feedback for controlling the heater modulating valve',
+        c: 'To measure the cockpit pressurization levels'
+    },
+    correct: 'b'
+},
+{
+    id: 3120,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'How does the ECS handle faults with the cockpit compressor?',
+    options: {
+        a: 'It switches the system to automatic mode',
+        b: 'The cockpit compressor is automatically switched off',
+        c: 'It increases the cockpit fan speed to compensate'
+    },
+    correct: 'b'
+},
+{
+    id: 3121,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'Where are the cabin compact set (CaCS) components located?',
+    options: {
+        a: 'In the overhead panel of the cabin',
+        b: 'Under the floor behind the pilot and co-pilot seats',
+        c: 'Next to the cockpit compact set (CoCS)'
+    },
+    correct: 'b'
+},
+{
+    id: 3122,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What role do the evaporators play in the ACS?',
+    options: {
+        a: 'They distribute air throughout the cockpit and cabin',
+        b: 'They cool and dehumidify the air before it enters the cabin',
+        c: 'They regulate the cabin pressure by monitoring air intake'
+    },
+    correct: 'b'
+},
+{
+    id: 3123,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What does the ECS do when a cabin fan failure is detected?',
+    options: {
+        a: 'It switches to ventilation-only mode',
+        b: 'It reduces cockpit fan speed',
+        c: 'The RECIRC function is inhibited but cooling continues via the opposing fan'
+    },
+    correct: 'c'
+},
+{
+    id: 3124,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What message is displayed when the cockpit fan fails?',
+    options: {
+        a: 'ECS caution message',
+        b: 'COCKPIT FAN caution message',
+        c: 'RECIRC OFF warning message'
+    },
+    correct: 'b'
+},
+{
+    id: 3125,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What condition will trigger the COCKPIT COOLING advisory message?',
+    options: {
+        a: 'A failure in the cabin cooling system',
+        b: 'A low refrigerant pressure in the cockpit cooling system',
+        c: 'An increase in cabin temperature beyond 30°C'
+    },
+    correct: 'b'
+},
+{
+    id: 3126,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'Which of the following systems provides demisting for the cockpit windshields?',
+    options: {
+        a: 'The cockpit compact set (CoCS)',
+        b: 'The air conditioning system (ACS)',
+        c: 'The environmental control system (ECS)'
+    },
+    correct: 'c'
+},
+{
+    id: 3127,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What is the function of the thermal switches (TS90) in the ECS?',
+    options: {
+        a: 'To control the airflow from the compressors',
+        b: 'To protect the cockpit and cabin heating circuits from overheating',
+        c: 'To monitor external air temperature'
+    },
+    correct: 'b'
+},
+{
+    id: 3128,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'How is cockpit cooling deactivated during MGB overheating?',
+    options: {
+        a: 'By turning off the air conditioning system (ACS)',
+        b: 'Automatically when the MGB oil temperature exceeds 95°C',
+        c: 'Manually by the crew using the ECS control panel'
+    },
+    correct: 'b'
+},
+{
+    id: 3129,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'How is the cabin fan speed controlled in automatic mode?',
+    options: {
+        a: 'Manually using the fan speed selector',
+        b: 'Automatically by the ECSAU based on temperature settings',
+        c: 'By adjusting the air intake from external ducts'
+    },
+    correct: 'b'
+},
+{
+    id: 3130,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What is the primary function of the cabin heating modulating valve (HMV)?',
+    options: {
+        a: 'To regulate the temperature of air entering the cabin',
+        b: 'To increase air circulation in the cabin',
+        c: 'To monitor humidity levels in the cabin'
+    },
+    correct: 'a'
+},
+{
+    id: 3131,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'What happens when the ECS power-up test detects a fault?',
+    options: {
+        a: 'The ECS system shuts down and must be reset manually',
+        b: 'The fault is displayed on the master list for the crew to address',
+        c: 'The ECS system switches to manual mode'
+    },
+    correct: 'b'
+},
+{
+    id: 3132,
+    Aircraft: 'H175',
+    Category: '21',
+    question: 'Where are the P3 shut-off valves located in the EC175?',
+    options: {
+        a: 'Near the cockpit distribution boxes',
+        b: 'On the rear of the engine firewalls',
+        c: 'In the cabin compact set (CaCS)'
+    },
+    correct: 'b'
+},
+{
+    id: 3133,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What are the two main groups of lights in the helicopter?',
+    options: {
+        a: 'Internal and External Lighting',
+        b: 'Cockpit and Cargo Lighting',
+        c: 'Navigation and Position Lighting'
+    },
+    correct: 'a'
+},
+{
+    id: 3134,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'Which system is responsible for helping passengers locate exits during an emergency?',
+    options: {
+        a: 'Position Lights',
+        b: 'HEELS (Helicopter Emergency Egress Lighting System)',
+        c: 'Cabin Ambient Lighting'
+    },
+    correct: 'b'
+},
+{
+    id: 3135,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What is the function of the storm light in the cockpit?',
+    options: {
+        a: 'Illuminates the entire cockpit for maximum visibility',
+        b: 'Provides directed lighting for map reading',
+        c: 'Illuminates a specific portion of the instrument panel to reduce contrast during storms'
+    },
+    correct: 'c'
+},
+{
+    id: 3136,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What is the purpose of the lamp test function in the lighting system?',
+    options: {
+        a: 'To illuminate all internal lights',
+        b: 'To test the functionality of various helicopter lights',
+        c: 'To switch between day and night lighting modes'
+    },
+    correct: 'b'
+},
+{
+    id: 3137,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'Where is the storm light located in the cockpit?',
+    options: {
+        a: 'In front of the overhead panel',
+        b: 'On the rear part of the overhead',
+        c: 'On the instrument panel'
+    },
+    correct: 'b'
+},
+{
+    id: 3138,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What power supply is used for the Dual Beam Dome Lights?',
+    options: {
+        a: 'Main Battery',
+        b: '28VDC Direct Battery',
+        c: 'Auxiliary Power Unit'
+    },
+    correct: 'b'
+},
+{
+    id: 3139,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'Which switch is used to control the cabin ambient lighting?',
+    options: {
+        a: 'Day/Night Switch',
+        b: 'Auxiliary Lighting Control Panel',
+        c: 'Emergency Exit Switch'
+    },
+    correct: 'b'
+},
+{
+    id: 3140,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What happens when the “EMER EXIT” toggle switch is in the ARM position?',
+    options: {
+        a: 'Cabin lights turn off',
+        b: 'The emergency lighting system is armed for automatic activation in case of an emergency',
+        c: 'All exterior lights are activated'
+    },
+    correct: 'b'
+},
+{
+    id: 3141,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'How is the brightness of the cockpit’s front face integrated lighting controlled?',
+    options: {
+        a: 'Through the brightness knob on the Lighting Control Panel',
+        b: 'Using the mode selector',
+        c: 'Via potentiometers for console/overhead and instrument panel brightness adjustments'
+    },
+    correct: 'c'
+},
+{
+    id: 3142,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What is the function of the Helicopter Emergency Egress Lighting System (HEELS)?',
+    options: {
+        a: 'To provide navigation lights during flight',
+        b: 'To guide passengers to emergency exits in low visibility conditions',
+        c: 'To enhance cockpit lighting for night vision'
+    },
+    correct: 'b'
+},
+{
+    id: 3143,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What happens when the “DAY” position is selected on the lighting control panel?',
+    options: {
+        a: 'All lights are turned off',
+        b: 'The cockpit lighting operates at maximum brightness',
+        c: 'The position lights are turned on'
+    },
+    correct: 'b'
+},
+{
+    id: 3144,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What is the primary function of the Landing Light Ancillary Unit (LLAU)?',
+    options: {
+        a: 'To control the position lights',
+        b: 'To control and send signals to the swiveling landing lights',
+        c: 'To provide emergency lighting in the cockpit'
+    },
+    correct: 'b'
+},
+{
+    id: 3145,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What kind of technology is used for the anti-collision light?',
+    options: {
+        a: 'Incandescent',
+        b: 'LED',
+        c: 'Xenon Gas Discharge'
+    },
+    correct: 'b'
+},
+{
+    id: 3146,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'How are the cockpit’s dome and utility lights powered?',
+    options: {
+        a: '28VDC Direct Battery',
+        b: 'Main Battery Bus',
+        c: 'Auxiliary Power Unit'
+    },
+    correct: 'a'
+},
+{
+    id: 3147,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What is the purpose of the “STORM” light switch on the lighting control panel?',
+    options: {
+        a: 'To provide a full illumination of the cockpit',
+        b: 'To activate emergency lighting in the event of a storm',
+        c: 'To reduce contrast on the instrument panel during lightning conditions'
+    },
+    correct: 'c'
+},
+{
+    id: 3148,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What is controlled by the Auxiliary Lighting Control Panel (ALCP)?',
+    options: {
+        a: 'External landing lights',
+        b: 'Cabin ambient lighting and reading lights',
+        c: 'Cockpit dome and utility lights'
+    },
+    correct: 'b'
+},
+{
+    id: 3149,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'Where are the reading lights located in the cabin?',
+    options: {
+        a: 'On the cockpit instrument panel',
+        b: 'On the cabin upholstery',
+        c: 'On the cargo door frame'
+    },
+    correct: 'b'
+},
+{
+    id: 3150,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'Which control unit is responsible for supplying power to the cabin emergency lighting?',
+    options: {
+        a: 'Cabin Light Control Unit (LCU)',
+        b: 'Lighting Ancillary Unit (LAU)',
+        c: 'Master Control Panel (MCP)'
+    },
+    correct: 'a'
+},
+{
+    id: 3151,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What happens if both SHED 1 and SHED 2 bus bars lose power?',
+    options: {
+        a: 'All cockpit lighting shuts down',
+        b: 'Cabin ambient lighting and reading lights are no longer operational',
+        c: 'The emergency exit lights activate automatically'
+    },
+    correct: 'b'
+},
+{
+    id: 3152,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What occurs when the “NO SMOKING” sign is illuminated?',
+    options: {
+        a: 'An audio tone is heard, and the sign stays illuminated at all times',
+        b: 'The cabin lights switch to emergency mode',
+        c: 'The seatbelt sign is automatically turned off'
+    },
+    correct: 'a'
+},
+{
+    id: 3153,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'Which lighting system helps the pilot control the landing lights through a four-way switch?',
+    options: {
+        a: 'Swiveling landing lights',
+        b: 'External emergency lights',
+        c: 'Internal cabin lights'
+    },
+    correct: 'a'
+},
+{
+    id: 3154,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'How is the brightness of the cockpit’s integrated lighting adjusted in NIGHT mode?',
+    options: {
+        a: 'Using the storm light switch',
+        b: 'By adjusting the brightness potentiometer on the lighting control panel',
+        c: 'Via the emergency lighting toggle'
+    },
+    correct: 'b'
+},
+{
+    id: 3155,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'Where is the right-hand (RH) swiveling landing light located?',
+    options: {
+        a: 'On the fuselage under the co-pilot’s feet',
+        b: 'On the tail boom',
+        c: 'On the horizontal stabilizer'
+    },
+    correct: 'a'
+},
+{
+    id: 3156,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What is the power supply for the anti-collision light in “RED” mode?',
+    options: {
+        a: 'SHED 2 bus bar',
+        b: 'ESS bus bar',
+        c: 'NO SHED 1 bus bar'
+    },
+    correct: 'c'
+},
+{
+    id: 3157,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What triggers the emergency lighting system in case of ditching?',
+    options: {
+        a: 'Pressing the “STORM” light button',
+        b: 'A signal from the Water Immersion Sensor (WIS)',
+        c: 'Loss of battery power'
+    },
+    correct: 'b'
+},
+{
+    id: 3158,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'How long will the emergency lights remain operational during ditching?',
+    options: {
+        a: '5 minutes',
+        b: '10 minutes',
+        c: '15 minutes'
+    },
+    correct: 'b'
+},
+{
+    id: 3159,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What component powers the HEELS system during water immersion?',
+    options: {
+        a: 'Main Battery',
+        b: 'Waterproof Battery',
+        c: 'Auxiliary Power Supply'
+    },
+    correct: 'b'
+},
+{
+    id: 3160,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'Where is the Backup Battery Pack (BBP) located in helicopters equipped with the Emergency Floatation System (EFS)?',
+    options: {
+        a: 'On the cabin ceiling near the passenger door',
+        b: 'On the cabin ceiling in front of frame 4',
+        c: 'Under the pilot’s seat'
+    },
+    correct: 'b'
+},
+{
+    id: 3161,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What happens to the external emergency lights when the emergency lighting system is activated?',
+    options: {
+        a: 'They provide reduced lighting',
+        b: 'They illuminate to full brightness to aid in passenger evacuation',
+        c: 'They remain off unless the auxiliary control panel is used'
+    },
+    correct: 'b'
+},
+{
+    id: 3162,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'How is the lamp test for signalization lights activated?',
+    options: {
+        a: 'Through the cockpit’s storm light switch',
+        b: 'Using the lamp test toggle-switch',
+        c: 'By activating the emergency lighting system'
+    },
+    correct: 'b'
+},
+{
+    id: 3163,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'Which toggle-switch position activates the HEELS system during an emergency?',
+    options: {
+        a: 'ON',
+        b: 'DIM',
+        c: 'OFF'
+    },
+    correct: 'a'
+},
+{
+    id: 3164,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What happens if the lighting Control Panel’s “EMER EXIT” switch is in the ARM position and there is a loss of generators?',
+    options: {
+        a: 'Nothing will happen',
+        b: 'The cabin and exterior emergency lights are activated',
+        c: 'The cockpit storm light is activated'
+    },
+    correct: 'b'
+},
+{
+    id: 3165,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What is the power source for the Front Face Integrated Lighting (FFIL) in NIGHT mode?',
+    options: {
+        a: 'Main Battery Bus',
+        b: 'SHED 1 and SHED 2 bus bars',
+        c: 'Auxiliary Power Unit'
+    },
+    correct: 'b'
+},
+{
+    id: 3166,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What does the “INST PANEL” potentiometer control in the cockpit?',
+    options: {
+        a: 'Brightness of the overhead lighting',
+        b: 'Brightness of the instrument panel lighting',
+        c: 'Brightness of the cockpit dome light'
+    },
+    correct: 'b'
+},
+{
+    id: 3167,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What is the function of the emergency lighting back-up battery test push-button?',
+    options: {
+        a: 'It tests the emergency floatation system',
+        b: 'It tests the back-up battery pack and emergency lighting',
+        c: 'It tests the cockpit storm lighting system'
+    },
+    correct: 'b'
+},
+{
+    id: 3168,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What component manages the brightness of the cabin led bars?',
+    options: {
+        a: 'Lighting Control Panel',
+        b: 'Cabin Light Control Units (LCU)',
+        c: 'Auxiliary Power Unit'
+    },
+    correct: 'b'
+},
+{
+    id: 3169,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'How are the signalization lights powered during NIGHT mode?',
+    options: {
+        a: 'They receive reduced power (14V) for half brightness',
+        b: 'They are powered off unless manually activated',
+        c: 'They receive full power (28V) for maximum brightness'
+    },
+    correct: 'a'
+},
+{
+    id: 3170,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What is the location of the anti-collision light?',
+    options: {
+        a: 'On the instrument panel',
+        b: 'On top of the tail boom',
+        c: 'Under the pilot’s feet'
+    },
+    correct: 'b'
+},
+{
+    id: 3171,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What is the purpose of the cabin emergency lighting system?',
+    options: {
+        a: 'To assist passengers in evacuating during an emergency',
+        b: 'To illuminate the cockpit during night flights',
+        c: 'To control the position lights'
+    },
+    correct: 'a'
+},
+{
+    id: 3172,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'Where is the Left Hand (LH) Cabin Light Control Unit (LCU) located?',
+    options: {
+        a: 'On the LH cabin ceiling, near the passenger door',
+        b: 'In the nose avionics compartment',
+        c: 'On the RH cabin ceiling, near the rear door'
+    },
+    correct: 'a'
+},
+{
+    id: 3173,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What system controls the brightness of the Front Face Integrated Lighting (FFIL) on the overhead panel?',
+    options: {
+        a: 'INST PANEL potentiometer',
+        b: 'CONS/OVHD potentiometer',
+        c: 'STORM light switch'
+    },
+    correct: 'b'
+},
+{
+    id: 3174,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What activates the emergency lighting system in the event of floatation?',
+    options: {
+        a: 'The auxiliary control panel',
+        b: 'A discrete signal from AMC2',
+        c: 'The storm light switch'
+    },
+    correct: 'b'
+},
+{
+    id: 3175,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What happens when the “POS” toggle switch is set to ON?',
+    options: {
+        a: 'The position lights are supplied and illuminated',
+        b: 'The anti-collision light blinks white',
+        c: 'The swiveling landing lights are extended'
+    },
+    correct: 'a'
+},
+{
+    id: 3176,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What type of light is used in the cockpit’s map lights (chart holders)?',
+    options: {
+        a: 'Incandescent',
+        b: 'Fluorescent',
+        c: 'LED'
+    },
+    correct: 'c'
+},
+{
+    id: 3177,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'Which component manages the cockpit dome and utility lights?',
+    options: {
+        a: 'Lighting Control Panel',
+        b: 'Dome Utility Light Control Panel',
+        c: 'Auxiliary Power Unit'
+    },
+    correct: 'b'
+},
+{
+    id: 3178,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What indicates a failure in the right swiveling landing light?',
+    options: {
+        a: 'A blinking storm light',
+        b: '“FAIL LIGHT2” advisory message on the Master list',
+        c: 'All cockpit lights flashing'
+    },
+    correct: 'b'
+},
+{
+    id: 3179,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'Where are the LH HEELS markers located?',
+    options: {
+        a: 'Above the LH passenger door and cabin windows',
+        b: 'On the tail boom',
+        c: 'Near the luggage compartment'
+    },
+    correct: 'a'
+},
+{
+    id: 3180,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What is the maximum airspeed for landing light movement?',
+    options: {
+        a: '125 kts',
+        b: '150 kts',
+        c: '175 kts'
+    },
+    correct: 'c'
+},
+{
+    id: 3181,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'How is the cargo light activated?',
+    options: {
+        a: 'By the emergency lighting system',
+        b: 'Through micro switches on the cargo doors',
+        c: 'Automatically when the cockpit dome light is on'
+    },
+    correct: 'b'
+},
+{
+    id: 3182,
+    Aircraft: 'H175',
+    Category: '33',
+    question: 'What is the function of the lighting system’s Lamp Test toggle switch?',
+    options: {
+        a: 'To test the brightness levels',
+        b: 'To test the functionality of all lamps in the helicopter',
+        c: 'To switch between day and night modes'
+    },
+    correct: 'b'
+},
+{
+    id: 3183,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What is the function of the Pitot heating system on the EC175?',
+    options: {
+        a: 'To prevent icing of the Pitot probes',
+        b: 'To detect icing conditions',
+        c: 'To provide electrical power to the cockpit'
+    },
+    correct: 'a'
+},
+{
+    id: 3184,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'Where are the Pitot probes located on the EC175?',
+    options: {
+        a: 'On the fuselage below the cockpit windows',
+        b: 'On the tail rotor',
+        c: 'On both sides of the fuselage, above the lower cockpit windows'
+    },
+    correct: 'c'
+},
+{
+    id: 3185,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'Which bus bar powers the RH Pitot probe on the EC175?',
+    options: {
+        a: 'SHED1',
+        b: 'ESS2',
+        c: 'NOSHED2'
+    },
+    correct: 'b'
+},
+{
+    id: 3186,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What component controls the heating of the LH Pitot probe?',
+    options: {
+        a: 'LGAU board',
+        b: 'LLAU board',
+        c: 'AMC2'
+    },
+    correct: 'b'
+},
+{
+    id: 3187,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What condition is required to activate Pitot probe heating on the ground?',
+    options: {
+        a: 'The NR value must be less than 10%',
+        b: 'The NR value must be greater than 10%',
+        c: 'The aircraft must be in flight'
+    },
+    correct: 'b'
+},
+{
+    id: 3188,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What is displayed on the Flight Navigation Display (FND) when the Pitot resistor malfunctions?',
+    options: {
+        a: 'A white advisory message',
+        b: 'A red error message',
+        c: 'A yellow warning message'
+    },
+    correct: 'a'
+},
+{
+    id: 3189,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What happens in case of a RH Pitot failure on the EC175?',
+    options: {
+        a: 'Pitot heating is deactivated',
+        b: 'The system generates a failure and displays a message',
+        c: 'The LH Pitot probe compensates automatically'
+    },
+    correct: 'b'
+},
+{
+    id: 3190,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'How many Pitot heads does the EC175 have?',
+    options: {
+        a: '2',
+        b: '4',
+        c: '3'
+    },
+    correct: 'c'
+},
+{
+    id: 3191,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What is the power source for the washer pump in the windshield washer system?',
+    options: {
+        a: 'SHED1 bus bar',
+        b: 'NO SHED2 bus bar',
+        c: 'ESS1 bus bar'
+    },
+    correct: 'a'
+},
+{
+    id: 3192,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What function is provided by the windshield wiper system on the EC175?',
+    options: {
+        a: 'To clear snow from the windshields',
+        b: 'To wipe off water to maintain visibility',
+        c: 'To detect icing on the windshield'
+    },
+    correct: 'b'
+},
+{
+    id: 3193,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What is the heating power consumption per windshield in the windshield heating system?',
+    options: {
+        a: '2300W',
+        b: '4600W',
+        c: '1100W'
+    },
+    correct: 'b'
+},
+{
+    id: 3194,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'How is the horizontal stabilizer protected from ice damage?',
+    options: {
+        a: 'By a titanium cover plate',
+        b: 'By a de-icing system',
+        c: 'By a heated panel'
+    },
+    correct: 'a'
+},
+{
+    id: 3195,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What is the function of the ice detection system on the EC175?',
+    options: {
+        a: 'To automatically de-ice the aircraft',
+        b: 'To warn the crew of icing conditions',
+        c: 'To heat the windshields'
+    },
+    correct: 'b'
+},
+{
+    id: 3196,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'Where is the Icing Probe located?',
+    options: {
+        a: 'On the tail rotor',
+        b: 'On the right side of the nose of the aircraft',
+        c: 'On the fuselage near the cockpit'
+    },
+    correct: 'b'
+},
+{
+    id: 3197,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'Which bus bar powers the IDMS on the EC175?',
+    options: {
+        a: 'SHED2',
+        b: 'ESS1',
+        c: 'NO SHED2'
+    },
+    correct: 'a'
+},
+{
+    id: 3198,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What does the IDMS measure to detect icing?',
+    options: {
+        a: 'Liquid Water Content (LWC) in g/m3',
+        b: 'Outside air temperature',
+        c: 'Ice accretion on the probe'
+    },
+    correct: 'a'
+},
+{
+    id: 3199,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'How does the IDMS display icing intensity?',
+    options: {
+        a: 'Using audio alerts',
+        b: 'On the Multi-Function Display (MFD) with ice symbols',
+        c: 'By illuminating cockpit warning lights'
+    },
+    correct: 'b'
+},
+{
+    id: 3200,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What happens when one wiper motor fails in the windshield wiper system?',
+    options: {
+        a: 'The system stops completely',
+        b: 'The other motor continues to operate but synchronization is lost',
+        c: 'The wipers switch to manual control'
+    },
+    correct: 'b'
+},
+{
+    id: 3201,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What is the purpose of the Winter Kit in the EC175?',
+    options: {
+        a: 'To improve air conditioning performance',
+        b: 'To protect engines from snow and ice ingestion',
+        c: 'To enhance heating of the Pitot probes'
+    },
+    correct: 'b'
+},
+{
+    id: 3202,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'How is synchronization between the two wiper motors maintained?',
+    options: {
+        a: 'By mechanical linkage',
+        b: 'Through electrical synchronization',
+        c: 'Via hydraulic pressure'
+    },
+    correct: 'b'
+},
+{
+    id: 3203,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What component controls the windshield heating system?',
+    options: {
+        a: 'Windshield Heating Controllers (WHC)',
+        b: 'LLAU board',
+        c: 'AMC2'
+    },
+    correct: 'a'
+},
+{
+    id: 3204,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What kind of power supply is needed for the windshield heating system?',
+    options: {
+        a: '28VDC',
+        b: '115 VAC',
+        c: '400Hz AC'
+    },
+    correct: 'b'
+},
+{
+    id: 3205,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What is the location of the windshield heating system components?',
+    options: {
+        a: 'In the cockpit near the rudder pedals',
+        b: 'In the nose avionic bay',
+        c: 'Between the windshield layers'
+    },
+    correct: 'c'
+},
+{
+    id: 3206,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What message is displayed on the FND in case of IDMS failure?',
+    options: {
+        a: '"ICE SENSOR"',
+        b: '"IDMS FAULT"',
+        c: '"ICE DETECTION ERROR"'
+    },
+    correct: 'a'
+},
+{
+    id: 3207,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What is the purpose of the IDSB in the Ice Detection system?',
+    options: {
+        a: 'It controls the wiper system',
+        b: 'It measures icing intensity and reports failures',
+        c: 'It regulates windshield heating'
+    },
+    correct: 'b'
+},
+{
+    id: 3208,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What is the purpose of the cover plate on the horizontal stabilizer?',
+    options: {
+        a: 'To aid in navigation during icing conditions',
+        b: 'To protect the stabilizer from ice damage',
+        c: 'To enhance aerodynamic performance'
+    },
+    correct: 'b'
+},
+{
+    id: 3209,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'How is the wiper system activated in the EC175?',
+    options: {
+        a: 'By pressing the ON/OFF button on the collective grip',
+        b: 'By flipping a switch on the main console',
+        c: 'By turning the de-icing knob'
+    },
+    correct: 'a'
+},
+{
+    id: 3210,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What happens if the wiper push-button is pressed for less than 5 seconds?',
+    options: {
+        a: 'The wipers will not activate',
+        b: 'The wipers will activate immediately',
+        c: 'The water will spread for 5 seconds'
+    },
+    correct: 'c'
+},
+{
+    id: 3211,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What does the “WASH” push-button on the control panel activate?',
+    options: {
+        a: 'The windshield de-icing system',
+        b: 'The windshield washer and wiper sequence',
+        c: 'The windshield heating system'
+    },
+    correct: 'b'
+},
+{
+    id: 3212,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What is the temperature threshold at which the wiper motor overheats and stops?',
+    options: {
+        a: '100°C',
+        b: '120°C',
+        c: '140°C'
+    },
+    correct: 'b'
+},
+{
+    id: 3213,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What is the power source for the right wiper motor (pilot) in the EC175?',
+    options: {
+        a: 'SHED1 bus bar',
+        b: 'NOSHED2 bus bar',
+        c: 'ESS2 bus bar'
+    },
+    correct: 'b'
+},
+{
+    id: 3214,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What is the function of the windshield washer system?',
+    options: {
+        a: 'To spread de-icing fluid over the windshield',
+        b: 'To clean the windshield by spraying washing agent',
+        c: 'To heat the windshield in cold weather'
+    },
+    correct: 'b'
+},
+{
+    id: 3215,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'How does the washer system spray fluid onto the windshield?',
+    options: {
+        a: 'Through nozzles on the nose of the aircraft',
+        b: 'Through spray holes on the wiper arms',
+        c: 'From a tank beneath the cockpit'
+    },
+    correct: 'b'
+},
+{
+    id: 3216,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'Which bus bar powers the washer pump in the EC175?',
+    options: {
+        a: 'NOSHED2 bus bar',
+        b: 'SHED1 bus bar',
+        c: 'ESS2 bus bar'
+    },
+    correct: 'b'
+},
+{
+    id: 3217,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'How many zones of heating are in each windshield of the EC175?',
+    options: {
+        a: 'Two zones',
+        b: 'Four zones',
+        c: 'Three zones'
+    },
+    correct: 'c'
+},
+{
+    id: 3218,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What is the purpose of the Windshield Heating Controllers (WHC)?',
+    options: {
+        a: 'To distribute and regulate electrical power to the windshield heaters',
+        b: 'To monitor and display windshield temperature on the MFD',
+        c: 'To detect ice formation on the windshield'
+    },
+    correct: 'a'
+},
+{
+    id: 3219,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What is the approximate power consumption of the windshield heating system per windshield?',
+    options: {
+        a: '2300W',
+        b: '4600W',
+        c: '1100W'
+    },
+    correct: 'b'
+},
+{
+    id: 3220,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What is the output displayed on the MFD when the Windshield Heating Controllers fail?',
+    options: {
+        a: 'A yellow caution message',
+        b: 'A red error message',
+        c: 'A white advisory message'
+    },
+    correct: 'c'
+},
+{
+    id: 3221,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'Which system protects the ice detection probe from icing on the EC175?',
+    options: {
+        a: 'A resistive heater inside the probe',
+        b: 'A cover plate installed near the probe',
+        c: 'A mechanical scraper'
+    },
+    correct: 'a'
+},
+{
+    id: 3222,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'How is icing intensity reported on the Flight Navigation Display (FND)?',
+    options: {
+        a: 'By showing a colored bar',
+        b: 'With different ice symbols for each intensity level',
+        c: 'By flashing the warning lights'
+    },
+    correct: 'b'
+},
+{
+    id: 3223,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What type of frequency change does the Icing Probe (IP) detect to indicate ice formation?',
+    options: {
+        a: 'A decrease from 40000 Hz to 39900 Hz',
+        b: 'An increase from 40000 Hz to 40100 Hz',
+        c: 'A steady frequency of 40000 Hz'
+    },
+    correct: 'a'
+},
+{
+    id: 3224,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What happens when the Icing Probe frequency reaches 39700 Hz?',
+    options: {
+        a: 'The aircraft engages auto-deicing mode',
+        b: 'The probe de-ices using its heaters',
+        c: 'The windshield heaters are activated'
+    },
+    correct: 'b'
+},
+{
+    id: 3225,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'Which system measures Liquid Water Content (LWC) in the EC175?',
+    options: {
+        a: 'Windshield Heating System',
+        b: 'Icing Probe',
+        c: 'Ice Detection and Measurement System (IDMS)'
+    },
+    correct: 'c'
+},
+{
+    id: 3226,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What happens when an ice symbol appears on the FND?',
+    options: {
+        a: 'The crew is alerted that the aircraft is entering icing conditions',
+        b: 'The windshield heating system automatically activates',
+        c: 'The engine power is reduced'
+    },
+    correct: 'a'
+},
+{
+    id: 3227,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'How does the Ice Detection and Measurement System (IDMS) display information to the crew?',
+    options: {
+        a: 'On the Multi-Function Display (MFD)',
+        b: 'On the Engine Control Panel',
+        c: 'Through warning lights in the cockpit'
+    },
+    correct: 'a'
+},
+{
+    id: 3228,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What action is taken if the IDMS sensor fails during flight?',
+    options: {
+        a: 'A master list message is displayed on the FND',
+        b: 'The system automatically disengages',
+        c: 'The wiper system is activated'
+    },
+    correct: 'a'
+},
+{
+    id: 3229,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What additional feature is associated with the Winter Kit on the EC175?',
+    options: {
+        a: 'Snow masks cover each air intake grid',
+        b: 'Additional heater elements in the cockpit',
+        c: 'Improved windshield wiper synchronization'
+    },
+    correct: 'a'
+},
+{
+    id: 3230,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'Where is the Winter Kit parameter displayed for maintenance verification?',
+    options: {
+        a: 'On the FND system screen',
+        b: 'In the Maintenance mode of the MFD',
+        c: 'On the Ice Detection control panel'
+    },
+    correct: 'b'
+},
+{
+    id: 3231,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'What is the main purpose of the horizontal stabilizer cover plate?',
+    options: {
+        a: 'To reduce aerodynamic drag',
+        b: 'To protect the stabilizer from ice thrown by the tail rotor',
+        c: 'To serve as a mounting point for the Pitot tube'
+    },
+    correct: 'b'
+},
+{
+    id: 3232,
+    Aircraft: 'H175',
+    Category: '30',
+    question: 'How does the winter kit affect flight calculations?',
+    options: {
+        a: 'It reduces the maximum airspeed',
+        b: 'It modifies Vtoss and engine power check calculations',
+        c: 'It increases fuel consumption'
+    },
+    correct: 'b'
 }
+
+
+
+
+
+
+
+
+
 
 
 
