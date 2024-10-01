@@ -24731,9 +24731,10 @@ export const questions = [
     },
     correct: 'b'
 },
+/**TODO ATA 26 */
 {
     id: 3033,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What are the two main components of the fire protection system?',
     options: {
@@ -24745,7 +24746,7 @@ export const questions = [
 },
 {
     id: 3034,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What does the engine fire detection system include?',
     options: {
@@ -24757,7 +24758,7 @@ export const questions = [
 },
 {
     id: 3035,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'Where is the pneumatic tube detector located?',
     options: {
@@ -24769,7 +24770,7 @@ export const questions = [
 },
 {
     id: 3036,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'How many statuses does the pneumatic tube detector have?',
     options: {
@@ -24781,7 +24782,7 @@ export const questions = [
 },
 {
     id: 3037,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'At what temperature does the pneumatic tube detector trigger a fire alarm?',
     options: {
@@ -24793,7 +24794,7 @@ export const questions = [
 },
 {
     id: 3038,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What happens during the automatic power-up test for the pneumatic tube detectors?',
     options: {
@@ -24805,7 +24806,7 @@ export const questions = [
 },
 {
     id: 3039,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'Where are the punctual detectors located?',
     options: {
@@ -24817,7 +24818,7 @@ export const questions = [
 },
 {
     id: 3040,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'At what temperature does the punctual detector send a signal to the AMCs?',
     options: {
@@ -24829,7 +24830,7 @@ export const questions = [
 },
 {
     id: 3041,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What is the composition of the engine fire extinguishing system?',
     options: {
@@ -24841,7 +24842,7 @@ export const questions = [
 },
 {
     id: 3042,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'How many agent containers are there in the engine fire extinguishing system?',
     options: {
@@ -24853,7 +24854,7 @@ export const questions = [
 },
 {
     id: 3043,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What does the fire bottle pressure switch monitor?',
     options: {
@@ -24865,7 +24866,7 @@ export const questions = [
 },
 {
     id: 3044,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What triggers the electro-pyrotechnic cartridge in the fire bottle?',
     options: {
@@ -24877,7 +24878,7 @@ export const questions = [
 },
 {
     id: 3045,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What is displayed on the Multi-Function Display (MFD) if the pressure in the agent container is too low?',
     options: {
@@ -24889,7 +24890,7 @@ export const questions = [
 },
 {
     id: 3046,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'How many hand-held fire extinguishers are in the cockpit and cabin?',
     options: {
@@ -24901,7 +24902,7 @@ export const questions = [
 },
 {
     id: 3047,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'Where is the handheld fire extinguisher located in the cockpit?',
     options: {
@@ -24913,7 +24914,7 @@ export const questions = [
 },
 {
     id: 3048,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What does the handheld fire extinguisher’s manometer indicate when the pressure is correct?',
     options: {
@@ -24925,7 +24926,7 @@ export const questions = [
 },
 {
     id: 3049,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What type of sensor is used in the cargo fire detection system?',
     options: {
@@ -24937,7 +24938,7 @@ export const questions = [
 },
 {
     id: 3050,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What type of temperature probes are used in the cargo fire detection system?',
     options: {
@@ -24949,7 +24950,7 @@ export const questions = [
 },
 {
     id: 3051,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What happens when the cargo smoke detector senses smoke?',
     options: {
@@ -24961,7 +24962,7 @@ export const questions = [
 },
 {
     id: 3052,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'At what temperature do the cargo temperature probes trigger an alert?',
     options: {
@@ -24973,7 +24974,7 @@ export const questions = [
 },
 {
     id: 3053,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What is indicated if a fire bottle is empty?',
     options: {
@@ -24985,7 +24986,7 @@ export const questions = [
 },
 {
     id: 3054,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'How does the crew know when a fire is detected in the engine compartment?',
     options: {
@@ -24997,7 +24998,7 @@ export const questions = [
 },
 {
     id: 3055,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What happens when the NG speed is below 50% during fire extinction?',
     options: {
@@ -25009,7 +25010,7 @@ export const questions = [
 },
 {
     id: 3056,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What is the purpose of the fire bottle pressure switch?',
     options: {
@@ -25021,7 +25022,7 @@ export const questions = [
 },
 {
     id: 3057,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'How are the fire extinguishers activated?',
     options: {
@@ -25033,7 +25034,7 @@ export const questions = [
 },
 {
     id: 3058,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What does the AMC do during the automatic power-up test?',
     options: {
@@ -25045,7 +25046,7 @@ export const questions = [
 },
 {
     id: 3059,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What action can the crew take when the "ENG FIRE" light is illuminated?',
     options: {
@@ -25057,7 +25058,7 @@ export const questions = [
 },
 {
     id: 3060,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What type of agent is contained in the fire bottles?',
     options: {
@@ -25069,7 +25070,7 @@ export const questions = [
 },
 {
     id: 3061,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'How does the pneumatic tube detector alert the crew in case of a fire?',
     options: {
@@ -25081,7 +25082,7 @@ export const questions = [
 },
 {
     id: 3062,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'Which system is used to alert the crew to a fire in the cargo compartment?',
     options: {
@@ -25093,7 +25094,7 @@ export const questions = [
 },
 {
     id: 3063,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What indication does the crew receive if the cargo fire detection system fails?',
     options: {
@@ -25105,7 +25106,7 @@ export const questions = [
 },
 {
     id: 3064,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'Where are the two temperature probes for the cargo fire detection system located?',
     options: {
@@ -25117,7 +25118,7 @@ export const questions = [
 },
 {
     id: 3065,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What happens if the temperature in the cargo compartment exceeds 120°C?',
     options: {
@@ -25129,7 +25130,7 @@ export const questions = [
 },
 {
     id: 3066,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What does the smoke detector in the cargo compartment detect?',
     options: {
@@ -25141,7 +25142,7 @@ export const questions = [
 },
 {
     id: 3067,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'Which component transmits a signal to the AMC when cargo fire is detected?',
     options: {
@@ -25153,7 +25154,7 @@ export const questions = [
 },
 {
     id: 3068,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What message is generated if the pressure in the fire bottle is below the required level?',
     options: {
@@ -25165,7 +25166,7 @@ export const questions = [
 },
 {
     id: 3069,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What does the "CARGO SMOKE" message on the MFD indicate?',
     options: {
@@ -25177,7 +25178,7 @@ export const questions = [
 },
 {
     id: 3070,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What do the fire bottle discharge indicators show?',
     options: {
@@ -25189,7 +25190,7 @@ export const questions = [
 },
 {
     id: 3071,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'What occurs when both cargo temperature probes fail?',
     options: {
@@ -25201,7 +25202,7 @@ export const questions = [
 },
 {
     id: 3072,
-    Aircraft: 'EC175',
+    Aircraft: 'H175',
     Category: '26',
     question: 'How does the system inform the crew of a cargo fire after detection?',
     options: {
