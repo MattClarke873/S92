@@ -24762,13 +24762,13 @@ export const questions = [
     Category: '26',
     question: 'Where is the pneumatic tube detector located?',
     options: {
-        a: 'In the cockpit',
+        a: 'In the engine accessory gearbox area',
         b: 'In the exhaust area of the engine',
         c: 'In the cargo compartment'
     },
     correct: 'b'
 },
-{
+/* {
     id: 3036,
     Aircraft: 'H175',
     Category: '26',
@@ -24779,7 +24779,7 @@ export const questions = [
         c: 'Three'
     },
     correct: 'c'
-},
+}, */
 {
     id: 3037,
     Aircraft: 'H175',
@@ -24810,7 +24810,7 @@ export const questions = [
     Category: '26',
     question: 'Where are the punctual detectors located?',
     options: {
-        a: 'In the cabin area',
+        a: 'In the engine exhaust area',
         b: 'In the AGB area of the engine',
         c: 'In the cargo compartment'
     },
@@ -24916,7 +24916,7 @@ export const questions = [
     id: 3048,
     Aircraft: 'H175',
     Category: '26',
-    question: 'What does the handheld fire extinguisher’s manometer indicate when the pressure is correct?',
+    question: 'What does the handheld fire extinguisher/’s manometer indicate when the pressure is correct?',
     options: {
         a: 'Pointer in the red area',
         b: 'Pointer in the green area',
@@ -24954,8 +24954,8 @@ export const questions = [
     Category: '26',
     question: 'What happens when the cargo smoke detector senses smoke?',
     options: {
-        a: 'A red "CARGO FIRE" warning is displayed',
-        b: 'An amber "CARGO SMOKE" message appears on the MFD',
+        a: 'A red "CARGO FIRE" warning message appears on the master list',
+        b: 'An amber "CARGO SMOKE" message appears on the master list',
         c: 'A temperature probe signal is sent'
     },
     correct: 'b'
@@ -24972,7 +24972,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 3053,
     Aircraft: 'H175',
     Category: '26',
@@ -24983,7 +24983,7 @@ export const questions = [
         c: 'A green "READY" indicator'
     },
     correct: 'b'
-},
+}, */
 {
     id: 3054,
     Aircraft: 'H175',
@@ -25000,13 +25000,13 @@ export const questions = [
     id: 3055,
     Aircraft: 'H175',
     Category: '26',
-    question: 'What happens when the NG speed is below 50% during fire extinction?',
+    question: 'How does the system inform the crew of a cargo smoke after detection?',
     options: {
-        a: 'The fire light on the push-button blinks',
-        b: 'The fire light on the push-button turns off',
-        c: 'The fire extinguisher system activates automatically'
+        a: 'Through a red "CARGO FIRE" warning on the Master list',
+        b: 'Through a red "CARGO FIRE" warning and aural alarm',
+        c: 'By activating the fire suppression system'
     },
-    correct: 'a'
+    correct: 'b'
 },
 {
     id: 3056,
@@ -25063,8 +25063,8 @@ export const questions = [
     question: 'What type of agent is contained in the fire bottles?',
     options: {
         a: 'Pressurized helium',
-        b: 'Fire extinguishing agent',
-        c: 'Hydraulic fluid'
+        b: 'HALON 1301',
+        c: 'Carbon dioxide'
     },
     correct: 'b'
 },
@@ -25084,11 +25084,11 @@ export const questions = [
     id: 3062,
     Aircraft: 'H175',
     Category: '26',
-    question: 'Which system is used to alert the crew to a fire in the cargo compartment?',
+    question: 'Which system is used to alert the crew to a fire in the passenger compartment?',
     options: {
         a: 'Cargo fire suppression system',
-        b: 'Cargo fire detection system',
-        c: 'Cargo monitoring system'
+        b: 'Optical smoke detector',
+        c: 'Cargo fire detection system'
     },
     correct: 'b'
 },
@@ -25144,10 +25144,10 @@ export const questions = [
     id: 3067,
     Aircraft: 'H175',
     Category: '26',
-    question: 'Which component transmits a signal to the AMC when cargo fire is detected?',
+    question: 'Which component transmits a signal directlyvto the AMC when cargo fire is detected?',
     options: {
         a: 'Smoke detector',
-        b: 'Fire extinguisher',
+        b: 'temperature probes',
         c: 'Pneumatic tube detector'
     },
     correct: 'a'
@@ -25196,7 +25196,7 @@ export const questions = [
     options: {
         a: '"CARGO FIRE SNSR" advisory is displayed',
         b: 'The fire extinguishing system activates',
-        c: 'The smoke detectors take over monitoring'
+        c: 'The smoke detectors monitoring is stopped'
     },
     correct: 'a'
 },
@@ -25212,6 +25212,8 @@ export const questions = [
     },
     correct: 'b'
 },
+
+/**TODO ATA 21 */
 {
     id: 3073,
     Aircraft: 'H175',
@@ -25296,18 +25298,18 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 3080,
     Aircraft: 'H175',
     Category: '21',
-    question: 'What is the consequence if the MGB oil temperature exceeds 95°C?',
+    question: 'What is the consequence if the MGB oil temperature exceeds 120°C?',
     options: {
         a: 'The cabin cooling system is deactivated',
-        b: 'The cockpit compressor is immediately switched off',
+        b: 'The cockpit and cabin compressor is immediately switched off',
         c: 'The ECS system shuts down entirely'
     },
     correct: 'b'
-},
+}, */
 {
     id: 3081,
     Aircraft: 'H175',
@@ -25344,7 +25346,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 3084,
     Aircraft: 'H175',
     Category: '21',
@@ -25355,15 +25357,15 @@ export const questions = [
         c: 'The cockpit inlet actuators move to the recirculation position'
     },
     correct: 'c'
-},
+}, */
 {
     id: 3085,
     Aircraft: 'H175',
     Category: '21',
     question: 'How is the cockpit cooling mode activated manually?',
     options: {
-        a: 'By selecting the desired temperature below 10°C',
-        b: 'By pushing the "AUTO" button',
+        a: 'By selecting the desired temperature below ambient temperature',
+        b: 'By pushing the "AC" button',
         c: 'By turning the fan speed selector'
     },
     correct: 'a'
@@ -25380,18 +25382,18 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 3087,
     Aircraft: 'H175',
     Category: '21',
     question: 'How does the ECS manage cockpit ventilation?',
     options: {
-        a: 'By controlling fan speed based on temperature readings',
+        a: 'By actuating the recirculation valve',
         b: 'By controlling air recirculation and external air intake',
         c: 'By monitoring cabin pressure levels'
     },
     correct: 'b'
-},
+}, */
 {
     id: 3088,
     Aircraft: 'H175',
@@ -25452,18 +25454,18 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+ {
     id: 3093,
     Aircraft: 'H175',
     Category: '21',
-    question: 'How is the air conditioning system (ACS) activated in the cockpit?',
+    question: 'Where is the cockpit compressor located?',
     options: {
-        a: 'Automatically when the ECS is turned on',
-        b: 'Via the ECS control panel using the ACS function',
-        c: 'By manually setting the cockpit temperature below 10°C'
+        a: 'share between left and right accessory gearbox',
+        b: 'On the left hand upper part of the accessory gearboxes',
+        c: 'On the right hand upper part of the accessory gearboxes'
     },
-    correct: 'b'
-},
+    correct: 'c'
+}, 
 {
     id: 3094,
     Aircraft: 'H175',
@@ -25483,7 +25485,7 @@ export const questions = [
     question: 'What is the primary purpose of the cabin compact set (CaCS)?',
     options: {
         a: 'To mix and distribute air in the cabin',
-        b: 'To monitor cabin air temperature',
+        b: 'To mix and distribute air in the cockpit',
         c: 'To provide cabin pressurization'
     },
     correct: 'a'
@@ -25564,7 +25566,7 @@ export const questions = [
     id: 3102,
     Aircraft: 'H175',
     Category: '21',
-    question: 'What does the ECS do if the cabin air temperature drops below 10°C?',
+    question: 'What does the ECS do if the cabin air temperature drops below ECS control panel temperature?',
     options: {
         a: 'Increases cabin fan speed',
         b: 'Activates the cabin heater modulating valve',
@@ -25572,7 +25574,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 3103,
     Aircraft: 'H175',
     Category: '21',
@@ -25583,7 +25585,7 @@ export const questions = [
         c: 'All cockpit fans turn off'
     },
     correct: 'c'
-},
+}, */
 {
     id: 3104,
     Aircraft: 'H175',
@@ -25668,7 +25670,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 3111,
     Aircraft: 'H175',
     Category: '21',
@@ -25679,12 +25681,12 @@ export const questions = [
         c: 'The cabin cooling system is activated automatically'
     },
     correct: 'a'
-},
+}, */
 {
     id: 3112,
     Aircraft: 'H175',
     Category: '21',
-    question: 'What does the ECS do if the cabin temperature exceeds 30°C in manual mode?',
+    question: 'What does the ECS do if the cabin temperature selection exceeds 30°C in manual mode?',
     options: {
         a: 'Activates the cabin fans at full speed',
         b: 'Switches the ECS to automatic mode',
@@ -25746,9 +25748,9 @@ export const questions = [
     Category: '21',
     question: 'Which of the following is a safety feature of the cabin ECS?',
     options: {
-        a: 'Automatic shutdown of cabin ventilation during high temperatures',
+        a: '3 Temperature switches (TS90) to monitor overheating conditions',
         b: 'Manual activation of emergency cooling mode',
-        c: 'Temperature switches (TS90) to monitor overheating conditions'
+        c: '5 Temperature switches (TS90) to monitor overheating conditions'
     },
     correct: 'c'
 },
@@ -25796,7 +25798,7 @@ export const questions = [
     options: {
         a: 'In the overhead panel of the cabin',
         b: 'Under the floor behind the pilot and co-pilot seats',
-        c: 'Next to the cockpit compact set (CoCS)'
+        c: 'In the nose avionic bay'
     },
     correct: 'b'
 },
@@ -25820,7 +25822,7 @@ export const questions = [
     options: {
         a: 'It switches to ventilation-only mode',
         b: 'It reduces cockpit fan speed',
-        c: 'The RECIRC function is inhibited but cooling continues via the opposing fan'
+        c: 'The cooling continues via the opposing fan'
     },
     correct: 'c'
 },
@@ -25832,7 +25834,7 @@ export const questions = [
     options: {
         a: 'ECS caution message',
         b: 'COCKPIT FAN caution message',
-        c: 'RECIRC OFF warning message'
+        c: 'COCKPIT FAN advisory message'
     },
     correct: 'b'
 },
@@ -25843,12 +25845,12 @@ export const questions = [
     question: 'What condition will trigger the COCKPIT COOLING advisory message?',
     options: {
         a: 'A failure in the cabin cooling system',
-        b: 'A low refrigerant pressure in the cockpit cooling system',
+        b: 'A refrigerant over temp',
         c: 'An increase in cabin temperature beyond 30°C'
     },
     correct: 'b'
 },
-{
+/* {
     id: 3126,
     Aircraft: 'H175',
     Category: '21',
@@ -25859,7 +25861,7 @@ export const questions = [
         c: 'The environmental control system (ECS)'
     },
     correct: 'c'
-},
+}, */
 {
     id: 3127,
     Aircraft: 'H175',
