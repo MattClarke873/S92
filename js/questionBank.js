@@ -25989,7 +25989,7 @@ export const questions = [
     question: 'Where is the storm light located in the cockpit?',
     options: {
         a: 'In front of the overhead panel',
-        b: 'On the rear part of the overhead',
+        b: 'On the center pedestal',
         c: 'On the instrument panel'
     },
     correct: 'b'
@@ -26000,9 +26000,9 @@ export const questions = [
     Category: '33',
     question: 'What power supply is used for the Dual Beam Dome Lights?',
     options: {
-        a: 'Main Battery',
+        a: 'The HEELS Battery',
         b: '28VDC Direct Battery',
-        c: 'Auxiliary Power Unit'
+        c: 'The AC generator'
     },
     correct: 'b'
 },
@@ -26030,7 +26030,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 3141,
     Aircraft: 'H175',
     Category: '33',
@@ -26041,7 +26041,7 @@ export const questions = [
         c: 'Via potentiometers for console/overhead and instrument panel brightness adjustments'
     },
     correct: 'c'
-},
+}, */
 {
     id: 3142,
     Aircraft: 'H175',
@@ -26090,18 +26090,18 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+ {
     id: 3146,
     Aircraft: 'H175',
     Category: '33',
-    question: 'How are the cockpit’s dome and utility lights powered?',
+    question: 'How amany passenger reading lights are fitted to the H175?',
     options: {
-        a: '28VDC Direct Battery',
-        b: 'Main Battery Bus',
-        c: 'Auxiliary Power Unit'
+        a: '18',
+        b: '16',
+        c: '16 or 18 Dependant on seat configuration'
     },
-    correct: 'a'
-},
+    correct: 'b'
+}, 
 {
     id: 3147,
     Aircraft: 'H175',
@@ -26150,7 +26150,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 3151,
     Aircraft: 'H175',
     Category: '33',
@@ -26161,7 +26161,7 @@ export const questions = [
         c: 'The emergency exit lights activate automatically'
     },
     correct: 'b'
-},
+}, */
 {
     id: 3152,
     Aircraft: 'H175',
@@ -26174,7 +26174,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 3153,
     Aircraft: 'H175',
     Category: '33',
@@ -26185,19 +26185,19 @@ export const questions = [
         c: 'Internal cabin lights'
     },
     correct: 'a'
-},
+}, 
 {
     id: 3154,
     Aircraft: 'H175',
     Category: '33',
-    question: 'How is the brightness of the cockpit’s integrated lighting adjusted in NIGHT mode?',
+    question: 'How is the brightness of the cockpit\’s integrated lighting adjusted in NIGHT mode?',
     options: {
         a: 'Using the storm light switch',
         b: 'By adjusting the brightness potentiometer on the lighting control panel',
         c: 'Via the emergency lighting toggle'
     },
     correct: 'b'
-},
+},*/
 {
     id: 3155,
     Aircraft: 'H175',
@@ -26210,7 +26210,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 3156,
     Aircraft: 'H175',
     Category: '33',
@@ -26221,7 +26221,7 @@ export const questions = [
         c: 'NO SHED 1 bus bar'
     },
     correct: 'c'
-},
+}, */
 {
     id: 3157,
     Aircraft: 'H175',
@@ -26234,7 +26234,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 3158,
     Aircraft: 'H175',
     Category: '33',
@@ -26245,7 +26245,7 @@ export const questions = [
         c: '15 minutes'
     },
     correct: 'b'
-},
+}, */
 {
     id: 3159,
     Aircraft: 'H175',
@@ -26264,9 +26264,9 @@ export const questions = [
     Category: '33',
     question: 'Where is the Backup Battery Pack (BBP) located in helicopters equipped with the Emergency Floatation System (EFS)?',
     options: {
-        a: 'On the cabin ceiling near the passenger door',
+        a: 'On the cargo bay ceiling near the passenger door',
         b: 'On the cabin ceiling in front of frame 4',
-        c: 'Under the pilot’s seat'
+        c: 'Under the pilot\’s seat'
     },
     correct: 'b'
 },
@@ -26274,7 +26274,7 @@ export const questions = [
     id: 3161,
     Aircraft: 'H175',
     Category: '33',
-    question: 'What happens to the external emergency lights when the emergency lighting system is activated?',
+    question: 'What happens to the cabin ambient lights when the emergency lighting system is activated?',
     options: {
         a: 'They provide reduced lighting',
         b: 'They illuminate to full brightness to aid in passenger evacuation',
@@ -26288,7 +26288,7 @@ export const questions = [
     Category: '33',
     question: 'How is the lamp test for signalization lights activated?',
     options: {
-        a: 'Through the cockpit’s storm light switch',
+        a: 'Through the cockpit\’s storm light switch',
         b: 'Using the lamp test toggle-switch',
         c: 'By activating the emergency lighting system'
     },
@@ -26310,7 +26310,7 @@ export const questions = [
     id: 3164,
     Aircraft: 'H175',
     Category: '33',
-    question: 'What happens if the lighting Control Panel’s “EMER EXIT” switch is in the ARM position and there is a loss of generators?',
+    question: 'What happens if the lighting Control Panel\’s “EMER EXIT” switch is in the ARM position and there is a loss of generators?',
     options: {
         a: 'Nothing will happen',
         b: 'The cabin and exterior emergency lights are activated',
@@ -26318,7 +26318,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 3165,
     Aircraft: 'H175',
     Category: '33',
@@ -26329,8 +26329,8 @@ export const questions = [
         c: 'Auxiliary Power Unit'
     },
     correct: 'b'
-},
-{
+}, */
+/* {
     id: 3166,
     Aircraft: 'H175',
     Category: '33',
@@ -26341,7 +26341,7 @@ export const questions = [
         c: 'Brightness of the cockpit dome light'
     },
     correct: 'b'
-},
+}, */
 {
     id: 3167,
     Aircraft: 'H175',
@@ -26354,7 +26354,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 3168,
     Aircraft: 'H175',
     Category: '33',
@@ -26365,7 +26365,7 @@ export const questions = [
         c: 'Auxiliary Power Unit'
     },
     correct: 'b'
-},
+}, */
 {
     id: 3169,
     Aircraft: 'H175',
@@ -26386,7 +26386,7 @@ export const questions = [
     options: {
         a: 'On the instrument panel',
         b: 'On top of the tail boom',
-        c: 'Under the pilot’s feet'
+        c: 'Under the pilot\’s feet'
     },
     correct: 'b'
 },
@@ -26402,7 +26402,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 3172,
     Aircraft: 'H175',
     Category: '33',
@@ -26413,8 +26413,8 @@ export const questions = [
         c: 'On the RH cabin ceiling, near the rear door'
     },
     correct: 'a'
-},
-{
+}, */
+/* {
     id: 3173,
     Aircraft: 'H175',
     Category: '33',
@@ -26425,7 +26425,7 @@ export const questions = [
         c: 'STORM light switch'
     },
     correct: 'b'
-},
+}, */
 {
     id: 3174,
     Aircraft: 'H175',
@@ -26450,7 +26450,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 3176,
     Aircraft: 'H175',
     Category: '33',
@@ -26461,7 +26461,7 @@ export const questions = [
         c: 'LED'
     },
     correct: 'c'
-},
+}, */
 {
     id: 3177,
     Aircraft: 'H175',
@@ -26474,7 +26474,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 3178,
     Aircraft: 'H175',
     Category: '33',
@@ -26485,7 +26485,7 @@ export const questions = [
         c: 'All cockpit lights flashing'
     },
     correct: 'b'
-},
+}, */
 {
     id: 3179,
     Aircraft: 'H175',
@@ -26498,7 +26498,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 3180,
     Aircraft: 'H175',
     Category: '33',
@@ -26509,7 +26509,7 @@ export const questions = [
         c: '175 kts'
     },
     correct: 'c'
-},
+}, */
 {
     id: 3181,
     Aircraft: 'H175',
@@ -26522,7 +26522,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 3182,
     Aircraft: 'H175',
     Category: '33',
@@ -26533,7 +26533,8 @@ export const questions = [
         c: 'To switch between day and night modes'
     },
     correct: 'b'
-},
+}, */
+/**TODO ATA 30 */
 {
     id: 3183,
     Aircraft: 'H175',
@@ -26552,7 +26553,7 @@ export const questions = [
     Category: '30',
     question: 'Where are the Pitot probes located on the EC175?',
     options: {
-        a: 'On the fuselage below the cockpit windows',
+        a: 'On the left side of the fuselage below the cockpit windows',
         b: 'On the tail rotor',
         c: 'On both sides of the fuselage, above the lower cockpit windows'
     },
@@ -26606,7 +26607,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 3189,
     Aircraft: 'H175',
     Category: '30',
@@ -26617,7 +26618,7 @@ export const questions = [
         c: 'The LH Pitot probe compensates automatically'
     },
     correct: 'b'
-},
+}, */
 {
     id: 3190,
     Aircraft: 'H175',
@@ -26725,7 +26726,7 @@ export const questions = [
         c: 'Ice accretion on the probe'
     },
     correct: 'a'
-},
+}, 
 {
     id: 3199,
     Aircraft: 'H175',
@@ -26798,7 +26799,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 3205,
     Aircraft: 'H175',
     Category: '30',
@@ -26809,7 +26810,7 @@ export const questions = [
         c: 'Between the windshield layers'
     },
     correct: 'c'
-},
+}, */
 {
     id: 3206,
     Aircraft: 'H175',
@@ -26854,11 +26855,11 @@ export const questions = [
     options: {
         a: 'By pressing the ON/OFF button on the collective grip',
         b: 'By flipping a switch on the main console',
-        c: 'By turning the de-icing knob'
+        c: 'By pressing the ON/OFF button on the cyclic grip'
     },
     correct: 'a'
 },
-{
+/* {
     id: 3210,
     Aircraft: 'H175',
     Category: '30',
@@ -26869,7 +26870,7 @@ export const questions = [
         c: 'The water will spread for 5 seconds'
     },
     correct: 'c'
-},
+}, */
 {
     id: 3211,
     Aircraft: 'H175',
@@ -26966,7 +26967,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 3219,
     Aircraft: 'H175',
     Category: '30',
@@ -26977,7 +26978,7 @@ export const questions = [
         c: '1100W'
     },
     correct: 'b'
-},
+}, */
 {
     id: 3220,
     Aircraft: 'H175',
@@ -26988,7 +26989,7 @@ export const questions = [
         b: 'A red error message',
         c: 'A white advisory message'
     },
-    correct: 'c'
+    correct: 'a'
 },
 {
     id: 3221,
@@ -27098,7 +27099,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 3230,
     Aircraft: 'H175',
     Category: '30',
@@ -27109,7 +27110,7 @@ export const questions = [
         c: 'On the Ice Detection control panel'
     },
     correct: 'b'
-},
+}, */
 {
     id: 3231,
     Aircraft: 'H175',
@@ -27121,20 +27122,7 @@ export const questions = [
         c: 'To serve as a mounting point for the Pitot tube'
     },
     correct: 'b'
-},
-{
-    id: 3232,
-    Aircraft: 'H175',
-    Category: '30',
-    question: 'How does the winter kit affect flight calculations?',
-    options: {
-        a: 'It reduces the maximum airspeed',
-        b: 'It modifies Vtoss and engine power check calculations',
-        c: 'It increases fuel consumption'
-    },
-    correct: 'b'
 }
-
 
 
 
