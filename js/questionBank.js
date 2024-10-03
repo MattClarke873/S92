@@ -27122,7 +27122,574 @@ export const questions = [
         c: 'To serve as a mounting point for the Pitot tube'
     },
     correct: 'b'
-}
+},
+{
+    id: 3232,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What happens when the Decision Altitude is approached?',
+    options: {
+      a: 'A voice message is heard in the headset.',
+      b: 'The DA strip rises to the selected DA value.',
+      c: 'Both a and b are correct.'
+    },
+    correct: 'c'
+  },
+  {
+    id: 3233,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is indicated by the DA amber alert flag?',
+    options: {
+      a: 'The aircraft has crossed the Decision Altitude.',
+      b: 'The DA strip has reached zero.',
+      c: 'The current altitude has exceeded the DA value.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3234,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'How can the ALTLIM cyan label be modified?',
+    options: {
+      a: 'By pressing the ALTLIM LSK once.',
+      b: 'By pressing the ALTLIM LSK twice.',
+      c: 'By holding the ALTLIM LSK for 3 seconds.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 3235,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What happens in case of an altitude data discrepancy?',
+    options: {
+      a: 'A white AIR label is displayed.',
+      b: 'An amber AIR label and arrows are displayed.',
+      c: 'The cyan label flashes.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 3236,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What does the IDENT mode do when activated?',
+    options: {
+      a: 'It transmits an additional pulse.',
+      b: 'It switches off the transponder.',
+      c: 'It increases altitude information.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3237,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is the response to a Traffic Advisory (TA)?',
+    options: {
+      a: 'The audio message “Traffic, traffic” is sent.',
+      b: 'An RA is immediately issued.',
+      c: 'The pilot must initiate descent.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3238,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which mode does the ACAS switch to if no threat is detected?',
+    options: {
+      a: 'TA Only',
+      b: 'Clear of Conflict',
+      c: 'RA Mode'
+    },
+    correct: 'b'
+  },
+  {
+    id: 3239,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which failure will trigger the amber label “AIR” on the altitude scale?',
+    options: {
+      a: 'Invalid ADU data',
+      b: 'Crossing DA+500 feet',
+      c: 'Crossing the upper altitude limit'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3240,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What does the “V/S” amber label indicate on the FND?',
+    options: {
+      a: 'A discrepancy in airspeed data',
+      b: 'A vertical speed failure',
+      c: 'Crossing the altitude limit'
+    },
+    correct: 'b'
+  },
+  {
+    id: 3241,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is indicated by a cyan “STD” label on the Barometric Altitude display?',
+    options: {
+      a: 'Standard Barometric reference is set.',
+      b: 'Altitude is above the selected limit.',
+      c: 'DA value is being modified.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3242,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What must be done to initiate the ACAS test?',
+    options: {
+      a: 'Press the ACAS TEST LSK twice.',
+      b: 'Rotate the DA knob.',
+      c: 'Activate the IDENT mode.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3243,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'How is the altitude limit set in relation to the Decision Altitude (DA)?',
+    options: {
+      a: 'It cannot be lower than DA+50 feet.',
+      b: 'It cannot be higher than DA+50 feet.',
+      c: 'It must always match the DA.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3244,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is the function of the Baro setting LSK?',
+    options: {
+      a: 'It adjusts the Barometric pressure.',
+      b: 'It sets the Decision Altitude.',
+      c: 'It turns on the ALT LIM setting.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3245,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'How does the system notify a vertical speed failure?',
+    options: {
+      a: 'It displays an amber V/S label.',
+      b: 'It clears all altitude information.',
+      c: 'It shows an amber AIR label.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3246,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Where is the Integrated Emergency Standby Instrument (IESI) located?',
+    options: {
+      a: 'In the nose compartment',
+      b: 'On the instrument panel',
+      c: 'In the tail section'
+    },
+    correct: 'b'
+  },
+  {
+    id: 3247,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which busbars power the ADU1 and ADU2?',
+    options: {
+      a: 'ESS2 and NO SHED2',
+      b: 'EMERG1 and NOSHED2',
+      c: 'ESS1 and NOSHED1'
+    },
+    correct: 'b'
+  },
+  {
+    id: 3248,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What does the IESI use as backup in case of AMC failure?',
+    options: {
+      a: 'Attitude data from AHRS',
+      b: 'Backup Stability Augmentation System (SAS)',
+      c: 'Ground-speed data from GPS'
+    },
+    correct: 'b'
+  },
+  {
+    id: 3249,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What happens if there is a drift of one air data source?',
+    options: {
+      a: 'It is automatically deselected by the AFCS.',
+      b: 'It generates a VNE exceed alert.',
+      c: 'It triggers an altitude failure message.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3250,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What should be done if a discrepancy occurs between Air Data 1 and 2?',
+    options: {
+      a: 'Reset both ADUs.',
+      b: 'Manually deselect the faulty air data source.',
+      c: 'Switch to emergency static ports.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 3251,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What indication is given when IESI airspeed data is invalid?',
+    options: {
+      a: 'The IAS amber label is displayed.',
+      b: 'A voice message is generated.',
+      c: 'The AIR flag appears on the FND.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3252,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'How does the ADS system monitor air data discrepancies?',
+    options: {
+      a: 'By comparing three independent data sources',
+      b: 'By generating a V/S amber label for any errors',
+      c: 'By comparing only the primary air data units'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3253,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What does the IESI amber ALT label indicate?',
+    options: {
+      a: 'Altitude data failure',
+      b: 'Incorrect barometric setting',
+      c: 'Air data reset in progress'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3254,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What are the two main components of the ADS power supply?',
+    options: {
+      a: '28 Vdc from ESS2 and NOSHED1 busbars',
+      b: '24 Vdc from ESS1 and NO SHED2',
+      c: '28 Vdc from EMERG2 and NOSHED2 busbars'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3255,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What does the amber label “RA” indicate on the FND?',
+    options: {
+      a: 'The radio altimeter is inoperable or failed',
+      b: 'A discrepancy in airspeed data',
+      c: 'The Decision Altitude has been exceeded'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3256,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'How does the system indicate an invalid Decision Altitude?',
+    options: {
+      a: 'DA amber alert flag is displayed',
+      b: 'CHK VNE is displayed',
+      c: 'The V/S scale is disabled'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3257,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Where are the external static ports located on the aircraft?',
+    options: {
+      a: 'On the tail boom of the aircraft',
+      b: 'On the wings of the aircraft',
+      c: 'On the cockpit windows'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3258,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What happens in case of an ADU failure?',
+    options: {
+      a: 'The system will display AIR1 DATA FAIL AIR2.',
+      b: 'Both ADU units reset automatically.',
+      c: 'The emergency static port is activated.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3259,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What components are part of the RH Air Data System?',
+    options: {
+      a: 'Pitot probe, static ports, cockpit static valve',
+      b: 'Integrated Emergency Standby Instrument (IESI), static ports',
+      c: 'Air Data Unit, two static ports, cockpit static valve'
+    },
+    correct: 'c'
+  },
+  {
+    id: 3260,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is indicated by an amber frame around the AIR scales on the FND?',
+    options: {
+      a: 'Discrepancy between air data sources',
+      b: 'Failure of all airspeed indicators',
+      c: 'Exceeded airspeed limits'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3261,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'How does the system process vertical speed data?',
+    options: {
+      a: 'It converts it via the ADU and sends it to the AHRS.',
+      b: 'It processes the data through the pitot tube.',
+      c: 'It directly sends the data to the IESI.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3262,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What action should be taken if the static pressure port is obstructed?',
+    options: {
+      a: 'Switch the static pressure valve to STBY.',
+      b: 'Switch the pitot probe to emergency mode.',
+      c: 'Reset the airspeed indicator.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3263,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Where is the cockpit standby static port located?',
+    options: {
+      a: 'In the cockpit overhead panel',
+      b: 'On the left side of the cockpit',
+      c: 'At the bottom of the cockpit instruments'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3264,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is indicated by a flashing DA cyan label?',
+    options: {
+      a: 'The Decision Altitude is being modified.',
+      b: 'The DA value is invalid.',
+      c: 'The Decision Height has been exceeded.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3265,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What does the Vertical Speed trend vector represent?',
+    options: {
+      a: 'The forecast vertical speed in 5 seconds.',
+      b: 'The maximum speed before stall.',
+      c: 'The current altitude minus 500 feet.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3266,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is the cockpit static valve used for?',
+    options: {
+      a: 'Switching between external and internal static pressure',
+      b: 'Opening the emergency pitot valve',
+      c: 'Adjusting the cockpit air temperature'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3267,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What happens if the IESI detects a roll and pitch attitude error?',
+    options: {
+      a: 'The ATT label is displayed.',
+      b: 'The IAS label is displayed.',
+      c: 'The barometric altitude resets.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3268,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'How is the aircraft\'s true airspeed (TAS) derived?',
+    options: {
+      a: 'From the ADU',
+      b: 'From the pitot and static ports',
+      c: 'From the AHRS'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3269,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which air data component is located in the nose landing gear compartment?',
+    options: {
+      a: 'ADU1 and ADU2',
+      b: 'IESI and cockpit static port',
+      c: 'Pitot probe and static pressure sensor'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3270,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What does the amber label "CHK VNE" on the airspeed scale indicate?',
+    options: {
+      a: 'VNE data is invalid, preset values are displayed.',
+      b: 'The aircraft has exceeded maximum speed.',
+      c: 'VNE exceeded warning.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3271,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What does the cyan VY label represent on the airspeed scale?',
+    options: {
+      a: 'The speed that ensures the best rate of climb.',
+      b: 'The minimum speed for level flight.',
+      c: 'The speed at which stall occurs.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3272,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What happens when the aircraft crosses the DA+500 ft line?',
+    options: {
+      a: 'An amber alert flag is displayed, and a voice message is heard.',
+      b: 'The system triggers an airspeed warning.',
+      c: 'Altitude data resets to external static source.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3273,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What does the system do in case of an unresolved air data discrepancy?',
+    options: {
+      a: 'Displays an amber frame around the air data scales and a discrepancy arrow.',
+      b: 'Switches automatically to backup data from the cockpit static port.',
+      c: 'Resets both the airspeed and altitude indicators.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3274,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which air data source is deselected in case of static pressure valve activation?',
+    options: {
+      a: 'AIR1 is automatically deselected.',
+      b: 'IESI is switched to backup mode.',
+      c: 'AIR2 is deselected, and AIR1 is reset.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3275,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is the function of the pitot and static drain valves?',
+    options: {
+      a: 'To drain condensation from the pressure circuits.',
+      b: 'To switch between the external and cockpit pressure sources.',
+      c: 'To equalize static pressure in the cockpit.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3276,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What happens when a V/S amber label appears on the FND?',
+    options: {
+      a: 'It indicates a vertical speed failure or AHRS/ADU fault.',
+      b: 'It shows a discrepancy in airspeed data.',
+      c: 'The barometric altitude is reset to default values.'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3277,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Where are the radio altimeter antennas located?',
+    options: {
+      a: 'Underneath the tail of the aircraft',
+      b: 'On the nose compartment',
+      c: 'On the landing gear structure'
+    },
+    correct: 'a'
+  },
+  {
+    id: 3278,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What does the amber “AIR” flag indicate when displayed vertically?',
+    options: {
+      a: 'A failure of air data from ADU or IESI.',
+      b: 'Altitude discrepancy between sources.',
+      c: 'Pitot probe malfunction.'
+    },
+    correct: 'a'
+  }
+  
+  
+  
 
 
 
