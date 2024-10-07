@@ -27686,7 +27686,1910 @@ export const questions = [
       c: 'Pitot probe malfunction.'
     },
     correct: 'a'
-  }
+  },
+  {
+    id: 3279,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is the primary use of the Weather Radar System (RDR 1600) in the H175?',
+    options: {
+        a: 'Detecting weather',
+        b: 'Surface searching',
+        c: 'Beacon detection'
+    },
+    correct: 'a'
+},
+{
+    id: 3280,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is the minimum safe distance from the Weather Radar antenna when transmitting?',
+    options: {
+        a: '5 meters',
+        b: '7.7 meters',
+        c: '10 meters'
+    },
+    correct: 'b'
+},
+{
+    id: 3281,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which component supplies power to the radar antenna drive?',
+    options: {
+        a: 'Control panel',
+        b: 'Transceiver',
+        c: 'Wave guide'
+    },
+    correct: 'a'
+},
+{
+    id: 3282,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is the scan angle of the weather radar in normal ON mode?',
+    options: {
+        a: '60 degrees',
+        b: '90 degrees',
+        c: '120 degrees'
+    },
+    correct: 'c'
+},
+{
+    id: 3283,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which mode on the weather radar control panel performs a self-test without transmission?',
+    options: {
+        a: 'STBY',
+        b: 'TEST',
+        c: 'ON'
+    },
+    correct: 'b'
+},
+{
+    id: 3284,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is indicated by the "WXR TX INHIB" message on the MFD?',
+    options: {
+        a: 'Radar is transmitting',
+        b: 'Radar is not transmitting on the ground',
+        c: 'Radar antenna failure'
+    },
+    correct: 'b'
+},
+{
+    id: 3285,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What does the BCN button on the weather radar control panel activate?',
+    options: {
+        a: 'Weather alert mode',
+        b: 'Beacon mode',
+        c: 'Search mode'
+    },
+    correct: 'b'
+},
+{
+    id: 3286,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What type of radar mode is SRCH3 used for?',
+    options: {
+        a: 'Short-range precision mapping',
+        b: 'Sea clutter rejection',
+        c: 'Long-range ground mapping'
+    },
+    correct: 'c'
+},
+{
+    id: 3287,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What action does the rotary knob labeled “Tilt” control on the weather radar?',
+    options: {
+        a: 'Scan angle adjustment',
+        b: 'Tilt angle adjustment',
+        c: 'Antenna drive control'
+    },
+    correct: 'b'
+},
+{
+    id: 3288,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is the color coding on the MFD for high-density rainfall detected by the weather radar?',
+    options: {
+        a: 'Green',
+        b: 'Yellow',
+        c: 'Red'
+    },
+    correct: 'c'
+},
+{
+    id: 3289,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is indicated by the "STAB OFF" message on the MFD during weather radar operation?',
+    options: {
+        a: 'Antenna auto-stabilization is off',
+        b: 'Antenna has failed',
+        c: 'Radar is in standby mode'
+    },
+    correct: 'a'
+},
+{
+    id: 3290,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is the maximum number of targets that can be displayed in BCN DO172 mode?',
+    options: {
+        a: '9 targets',
+        b: '15 targets',
+        c: '12 targets'
+    },
+    correct: 'b'
+},
+{
+    id: 3291,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which mode flashes detected storm areas on the radar display?',
+    options: {
+        a: 'WXA',
+        b: 'WX',
+        c: 'SEARCH1'
+    },
+    correct: 'a'
+},
+{
+    id: 3292,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'In what mode does the weather radar antenna scan with a 60° angle?',
+    options: {
+        a: 'STBY mode',
+        b: 'ON mode',
+        c: '60° mode'
+    },
+    correct: 'c'
+},
+{
+    id: 3293,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is the purpose of the SRCH1 mode on the weather radar?',
+    options: {
+        a: 'Sea clutter rejection',
+        b: 'Long-range ground mapping',
+        c: 'Beacon detection'
+    },
+    correct: 'a'
+},
+{
+    id: 3294,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Where is the transceiver of the weather radar located?',
+    options: {
+        a: 'In the tail section',
+        b: 'In the nose avionics compartment',
+        c: 'On the inter-seat console'
+    },
+    correct: 'b'
+},
+{
+    id: 3295,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is indicated by the message "CHECK RANGE" on the MFD?',
+    options: {
+        a: 'Radar range mismatch between MFDs',
+        b: 'Radar failure',
+        c: 'Antenna stabilization failure'
+    },
+    correct: 'a'
+},
+{
+    id: 3296,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What happens when the weather radar is in TEST mode?',
+    options: {
+        a: 'The radar transmits a test signal',
+        b: 'A test pattern is displayed without transmission',
+        c: 'Antenna stabilization is disabled'
+    },
+    correct: 'b'
+},
+{
+    id: 3297,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What must the radar range be set to for a proper test in TEST mode?',
+    options: {
+        a: '50 Nm',
+        b: '80 Nm',
+        c: '25 Nm'
+    },
+    correct: 'b'
+},
+{
+    id: 3298,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which system provides power to the radar transceiver?',
+    options: {
+        a: 'AC generator',
+        b: 'Control panel',
+        c: 'SHED2 busbar'
+    },
+    correct: 'c'
+},
+{
+    id: 3299,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is the role of the wave guide in the weather radar system?',
+    options: {
+        a: 'Connects the transceiver to the antenna drive',
+        b: 'Receives control signals from the transceiver',
+        c: 'Power supply for antenna drive'
+    },
+    correct: 'a'
+},
+{
+    id: 3300,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What message will appear if the weather radar is set to ON but not transmitting on the ground?',
+    options: {
+        a: 'WXR TX INHIB',
+        b: 'WXR FAIL',
+        c: 'STAB OFF'
+    },
+    correct: 'a'
+},
+{
+    id: 3301,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Where is the weather radar control panel located?',
+    options: {
+        a: 'Overhead panel',
+        b: 'Inter-seat console',
+        c: 'Central Control Panel'
+    },
+    correct: 'b'
+},
+{
+    id: 3302,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What happens when the rotary knob for the antenna tilt is pulled out?',
+    options: {
+        a: 'Antenna auto-stabilization is deactivated',
+        b: 'Scan angle is reduced to 60°',
+        c: 'Beacon mode is activated'
+    },
+    correct: 'a'
+},
+{
+    id: 3303,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What kind of failure does the message "WXR FAIL" indicate?',
+    options: {
+        a: 'Antenna failure',
+        b: 'Radar is transmitting',
+        c: 'Ground clutter detected'
+    },
+    correct: 'a'
+},
+{
+    id: 3304,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What action is taken if the weather radar transceiver fails during flight?',
+    options: {
+        a: 'Manual control is activated',
+        b: 'Radar mode switches to standby',
+        c: 'WXR message appears on the VMS page'
+    },
+    correct: 'c'
+},
+{
+    id: 3305,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is the purpose of the beacon mode on the weather radar?',
+    options: {
+        a: 'Long-range weather detection',
+        b: 'Detection of fixed transponder beacons',
+        c: 'Sea clutter rejection'
+    },
+    correct: 'b'
+},
+{
+    id: 3306,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'How many targets can be displayed in BCN STD mode?',
+    options: {
+        a: '9 targets',
+        b: '15 targets',
+        c: '12 targets'
+    },
+    correct: 'a'
+},
+{
+    id: 3307,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'In what mode does the weather radar allow manual gain adjustment?',
+    options: {
+        a: 'Beacon mode',
+        b: 'Search mode',
+        c: 'Weather alert mode'
+    },
+    correct: 'b'
+},
+{
+    id: 3308,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What type of radar data bus does the weather radar use to send radar data to the MFDs?',
+    options: {
+        a: 'ARINC 429',
+        b: 'ARINC 453',
+        c: 'RS 422'
+    },
+    correct: 'b'
+},
+{
+    id: 3309,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'How is the radar antenna powered when the AC generator is not fitted?',
+    options: {
+        a: 'DC to AC converter',
+        b: 'SHED2 busbar',
+        c: 'Battery backup'
+    },
+    correct: 'a'
+},
+{
+    id: 3310,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is the purpose of the two couplers in the weather radar system?',
+    options: {
+        a: 'Control signal processing',
+        b: 'Radar data transmission',
+        c: 'Radar power supply'
+    },
+    correct: 'b'
+},
+{
+    id: 3311,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which system receives weather radar control signals via ARINC 429 buses?',
+    options: {
+        a: 'Transceiver',
+        b: 'Radar antenna drive',
+        c: 'Control panel'
+    },
+    correct: 'b'
+},
+{
+    id: 3312,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What happens when the weather radar is turned to standby mode?',
+    options: {
+        a: 'Radar continues transmitting',
+        b: 'Radar ceases transmission',
+        c: 'Antenna stabilization is disabled'
+    },
+    correct: 'b'
+},
+{
+    id: 3313,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What message is displayed when weather radar auto-stabilization is disabled?',
+    options: {
+        a: 'STAB OFF',
+        b: 'WXR FAIL',
+        c: 'WXR TX INHIB'
+    },
+    correct: 'a'
+},
+{
+    id: 3314,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which mode is used for short-range precision mapping?',
+    options: {
+        a: 'SEARCH1',
+        b: 'SEARCH2',
+        c: 'SEARCH3'
+    },
+    correct: 'b'
+},
+{
+    id: 3315,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What color represents low-density rainfall on the weather radar display?',
+    options: {
+        a: 'Red',
+        b: 'Yellow',
+        c: 'Green'
+    },
+    correct: 'c'
+},
+{
+    id: 3316,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which system is responsible for powering the radar transceiver in flight?',
+    options: {
+        a: 'AC generator',
+        b: 'SHED2 busbar',
+        c: 'DC to AC converter'
+    },
+    correct: 'b'
+},
+{
+    id: 3317,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which button is used to activate the weather radar alert mode?',
+    options: {
+        a: 'WxA button',
+        b: 'SRCH button',
+        c: 'Tilt button'
+    },
+    correct: 'a'
+},
+{
+    id: 3318,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What message is displayed when the weather radar is in standby mode?',
+    options: {
+        a: 'WXR TX INHIB',
+        b: 'WXR STANDBY',
+        c: 'WXR FAIL'
+    },
+    correct: 'b'
+},
+{
+    id: 3319,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What radar range setting is required for the test pattern in TEST mode?',
+    options: {
+        a: '25 Nm',
+        b: '80 Nm',
+        c: '50 Nm'
+    },
+    correct: 'b'
+},
+{
+    id: 3320,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which part of the weather radar system is responsible for controlling the radar antenna?',
+    options: {
+        a: 'Control panel',
+        b: 'Antenna drive',
+        c: 'Transceiver'
+    },
+    correct: 'b'
+},
+{
+    id: 3321,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'In which mode does the weather radar reduce its scan angle to 60 degrees?',
+    options: {
+        a: 'STBY',
+        b: '60° mode',
+        c: 'SEARCH mode'
+    },
+    correct: 'b'
+},
+{
+    id: 3322,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What type of data does the weather radar send to the MFDs for display?',
+    options: {
+        a: 'ARINC 429 data',
+        b: 'ARINC 453 data',
+        c: 'RS 422 data'
+    },
+    correct: 'b'
+},
+{
+    id: 3323,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is the main function of the wave guide in the weather radar system?',
+    options: {
+        a: 'It powers the radar transceiver',
+        b: 'It connects the transceiver to the antenna drive',
+        c: 'It transmits radar signals to the MFDs'
+    },
+    correct: 'b'
+},
+{
+    id: 3324,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What function is performed by the rotary knob on the control panel in beacon mode?',
+    options: {
+        a: 'Antenna tilt adjustment',
+        b: 'Manual gain adjustment',
+        c: 'Scan angle adjustment'
+    },
+    correct: 'b'
+},
+{
+    id: 3325,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which system supplies radar control signals via ARINC 429 buses?',
+    options: {
+        a: 'Transceiver',
+        b: 'Antenna drive',
+        c: 'Control panel'
+    },
+    correct: 'c'
+},
+{
+    id: 3326,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'How is the radar antenna stabilized in automatic mode?',
+    options: {
+        a: 'By adjusting the scan angle',
+        b: 'By compensating for pitch and roll',
+        c: 'By adjusting the tilt angle'
+    },
+    correct: 'b'
+},
+{
+    id: 3327,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What does the message "TGT" indicate on the weather radar display?',
+    options: {
+        a: 'A target is detected within 25 Nm beyond the selected range',
+        b: 'A target is within 10 Nm of the aircraft',
+        c: 'The radar antenna has failed'
+    },
+    correct: 'a'
+},
+{
+    id: 3328,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is the purpose of the BCN DO172 mode on the weather radar?',
+    options: {
+        a: 'Beacon detection for up to 15 targets',
+        b: 'Weather alert for storm detection',
+        c: 'Short-range sea clutter rejection'
+    },
+    correct: 'a'
+},
+{
+    id: 3329,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What color coding represents medium-density rainfall on the weather radar display?',
+    options: {
+        a: 'Red',
+        b: 'Yellow',
+        c: 'Green'
+    },
+    correct: 'b'
+},
+{
+    id: 3330,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which mode on the weather radar suppresses sea clutter up to 10Nm?',
+    options: {
+        a: 'SEARCH1',
+        b: 'SEARCH2',
+        c: 'SEARCH3'
+    },
+    correct: 'a'
+},
+{
+    id: 3331,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Where are the two radar couplers located in the H175 aircraft?',
+    options: {
+        a: 'Behind the central control panel',
+        b: 'On the inter-seat console',
+        c: 'In the tail section'
+    },
+    correct: 'a'
+},
+{
+    id: 3332,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which mode allows manual gain adjustment for radar returns in SEARCH mode?',
+    options: {
+        a: 'Beacon mode',
+        b: 'Weather mode',
+        c: 'SEARCH mode'
+    },
+    correct: 'c'
+},
+{
+    id: 3333,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is indicated by the message "WXR FAIL" on the MFD display?',
+    options: {
+        a: 'Radar mode failure',
+        b: 'Radar is transmitting',
+        c: 'Beacon mode is active'
+    },
+    correct: 'a'
+},
+{
+    id: 3334,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What component provides power to the radar antenna drive if the AC generator is not fitted?',
+    options: {
+        a: 'Control panel',
+        b: 'DC to AC converter',
+        c: 'SHED2 busbar'
+    },
+    correct: 'b'
+},
+{
+    id: 3335,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What happens when the rotary knob for the antenna tilt is pushed in?',
+    options: {
+        a: 'Antenna auto-stabilization is activated',
+        b: 'Manual gain adjustment is enabled',
+        c: 'Beacon detection mode is activated'
+    },
+    correct: 'a'
+},
+{
+    id: 3336,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which radar mode provides short-range precision mapping?',
+    options: {
+        a: 'SEARCH1',
+        b: 'SEARCH2',
+        c: 'SEARCH3'
+    },
+    correct: 'b'
+},
+{
+    id: 3337,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is indicated by the message "WXR TX INHIB" on the weather radar display?',
+    options: {
+        a: 'Radar transmitting',
+        b: 'Radar not transmitting on ground',
+        c: 'Antenna auto-stabilization failure'
+    },
+    correct: 'b'
+},
+{
+    id: 3338,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What action does the SRCH button on the control panel initiate?',
+    options: {
+        a: 'Search mode activation',
+        b: 'Beacon detection',
+        c: 'Antenna tilt adjustment'
+    },
+    correct: 'a'
+},
+{
+    id: 3339,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is the antenna tilt range in manual mode when auto-stabilization is deactivated?',
+    options: {
+        a: '±10°',
+        b: '±15°',
+        c: '±5°'
+    },
+    correct: 'b'
+},
+{
+    id: 3340,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Which system is responsible for sending radar data to the MFDs?',
+    options: {
+        a: 'Radar transceiver',
+        b: 'Antenna drive',
+        c: 'Control panel'
+    },
+    correct: 'a'
+},
+{
+    id: 3341,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What radar mode is active when the WX label appears above the tilt angle on the MFD?',
+    options: {
+        a: 'Beacon mode',
+        b: 'Search mode',
+        c: 'Weather mode'
+    },
+    correct: 'c'
+},
+{
+    id: 3342,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What happens when the weather radar is turned to the OFF position?',
+    options: {
+        a: 'Radar continues transmitting',
+        b: 'Radar ceases all transmissions',
+        c: 'Antenna stabilization continues'
+    },
+    correct: 'b'
+},
+{
+    id: 3343,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What type of radar mode is SEARCH3 designed for?',
+    options: {
+        a: 'Short-range sea clutter rejection',
+        b: 'Long-range ground mapping',
+        c: 'Short-range precision mapping'
+    },
+    correct: 'b'
+},
+{
+    id: 3344,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'Where is the wave guide in the weather radar system located?',
+    options: {
+        a: 'Tail section',
+        b: 'Nose avionics compartment',
+        c: 'Overhead panel'
+    },
+    correct: 'b'
+},
+{
+    id: 3345,
+    Aircraft: 'H175',
+    Category: '34',
+    question: 'What is the main use of the SRCH2 mode on the weather radar system?',
+    options: {
+        a: 'Sea clutter rejection',
+        b: 'Short-range precision mapping',
+        c: 'Long-range ground mapping'
+    },
+    correct: 'b'
+},
+{
+    id: 3346,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the purpose of the Engine Power Assurance Check (EPAC)?',
+    options: {
+        a: 'Detect signs of engine deterioration',
+        b: 'Increase fuel consumption',
+        c: 'Reduce engine operating time'
+    },
+    correct: 'a'
+},
+{
+    id: 3347,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'Which system governs the engine parameters during the Automatic Engine Power Check (EPC)?',
+    options: {
+        a: 'N1 controller',
+        b: 'Engine Electronic Control Unit (EECU)',
+        c: 'Power Distribution Unit'
+    },
+    correct: 'b'
+},
+{
+    id: 3348,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What happens if N2 exceeds 120% during the EPC procedure?',
+    options: {
+        a: 'The engine will shut down immediately',
+        b: 'Fuel flow will be cut off to the engine',
+        c: 'The EPC will automatically restart'
+    },
+    correct: 'b'
+},
+{
+    id: 3349,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'During which phase of flight is the EPC procedure typically conducted?',
+    options: {
+        a: 'Takeoff',
+        b: 'Landing',
+        c: 'Cruise'
+    },
+    correct: 'c'
+},
+{
+    id: 3350,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the function of the P3 bleed system?',
+    options: {
+        a: 'Supply air to the aircraft heating/demisting system',
+        b: 'Cool the engine components',
+        c: 'Provide air for the engine startup'
+    },
+    correct: 'a'
+},
+{
+    id: 3351,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the purpose of the engine firewalls on the EC175?',
+    options: {
+        a: 'To contain fire and prevent its spread to other areas',
+        b: 'To reduce engine noise',
+        c: 'To enhance the aerodynamic performance'
+    },
+    correct: 'a'
+},
+{
+    id: 3352,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'How are the cowlings on the EC175 removed?',
+    options: {
+        a: 'By using specialized tools',
+        b: 'By sliding on rails with built-in wheels',
+        c: 'They cannot be removed'
+    },
+    correct: 'b'
+},
+{
+    id: 3353,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'Which material is used in the construction of the rear sliding cowling?',
+    options: {
+        a: 'Fireproof impregnated glass fiber',
+        b: 'Aluminum alloy',
+        c: 'Steel'
+    },
+    correct: 'a'
+},
+{
+    id: 3354,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the purpose of the winter kit installed on the EC175?',
+    options: {
+        a: 'To enhance fuel efficiency in winter',
+        b: 'To protect the engine from snow and icing ingestion',
+        c: 'To reduce engine noise'
+    },
+    correct: 'b'
+},
+{
+    id: 3355,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'Which component is responsible for checking engine margins in flight?',
+    options: {
+        a: 'EECU',
+        b: 'DPHM system',
+        c: 'Engine generator'
+    },
+    correct: 'a'
+},
+{
+    id: 3356,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the function of the engine drain system?',
+    options: {
+        a: 'To evacuate fluids from the engine during maintenance',
+        b: 'To drain oil during flight',
+        c: 'To evacuate fuel only'
+    },
+    correct: 'a'
+},
+{
+    id: 3357,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'How does the P2.8 Bleed-Off Valve (BOV) pipe function?',
+    options: {
+        a: 'It drives air from the engine to the exhaust system',
+        b: 'It cools the engine components',
+        c: 'It supplies air to the cabin'
+    },
+    correct: 'a'
+},
+{
+    id: 3358,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the function of the engine harnesses?',
+    options: {
+        a: 'To provide electrical connectivity between the engine sensors and the EECU',
+        b: 'To reduce vibration during flight',
+        c: 'To regulate engine temperature'
+    },
+    correct: 'a'
+},
+{
+    id: 3359,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'Where are the centring pins used on the front sliding cowling?',
+    options: {
+        a: 'To stabilize and locate the cowling during movement',
+        b: 'To adjust the position of the MGB',
+        c: 'To allow for thermal expansion of the airframe'
+    },
+    correct: 'a'
+},
+{
+    id: 3360,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the role of the engine air intake grid?',
+    options: {
+        a: 'To prevent foreign object ingestion into the engine',
+        b: 'To provide structural support to the cowlings',
+        c: 'To cool the engine compartment'
+    },
+    correct: 'a'
+},
+{
+    id: 3361,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'How is the engine power margin verified in cruise flight?',
+    options: {
+        a: 'By recording the engine data manually',
+        b: 'By checking against the EECU display on VMS-MAIN',
+        c: 'By conducting on-ground inspections'
+    },
+    correct: 'b'
+},
+{
+    id: 3362,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'Which part of the engine attachment system ensures misalignments are accommodated?',
+    options: {
+        a: 'Ball bearings',
+        b: 'Engine support bolts',
+        c: 'Exhaust nozzles'
+    },
+    correct: 'a'
+},
+{
+    id: 3363,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What material are the engine firewalls made of?',
+    options: {
+        a: 'Titanium and stainless-steel',
+        b: 'Aluminum alloy',
+        c: 'Carbon fiber'
+    },
+    correct: 'a'
+},
+{
+    id: 3364,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the main function of the Electronic Engine Control Unit (EECU)?',
+    options: {
+        a: 'To monitor and control engine parameters',
+        b: 'To regulate cabin pressure',
+        c: 'To provide power to the aircraft systems'
+    },
+    correct: 'a'
+},
+{
+    id: 3365,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'Which procedure helps detect early engine deterioration by analyzing key engine parameters?',
+    options: {
+        a: 'EPAC',
+        b: 'N1 control',
+        c: 'Manual power check'
+    },
+    correct: 'a'
+},
+{
+    id: 3366,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'How is engine compressor washing typically performed on the EC175?',
+    options: {
+        a: 'With the cowlings closed',
+        b: 'With the engine removed from the aircraft',
+        c: 'With specialized tools'
+    },
+    correct: 'a'
+},
+{
+    id: 3367,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What system helps trend engine performance data for proactive maintenance decisions?',
+    options: {
+        a: 'Diagnostics, Prognostics & Health Management (DPHM) system',
+        b: 'Engine Electronic Control Unit (EECU)',
+        c: 'Flight Line Troubleshooting'
+    },
+    correct: 'a'
+},
+{
+    id: 3368,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is a key function of the engine drain ports?',
+    options: {
+        a: 'To evacuate fluids that may accumulate in the combustion chamber',
+        b: 'To drain fuel during engine startup',
+        c: 'To evacuate air from the engine compartment'
+    },
+    correct: 'a'
+},
+{
+    id: 3369,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'Which component is responsible for controlling engine overspeed during the EPC?',
+    options: {
+        a: 'N2 governor',
+        b: 'Engine control throttle',
+        c: 'EECU overspeed protection'
+    },
+    correct: 'c'
+},
+{
+    id: 3370,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What should be controlled to 30 PSIG during the electrical wire harness cleaning procedure?',
+    options: {
+        a: 'Compressed air pressure',
+        b: 'Fuel pressure',
+        c: 'Hydraulic pressure'
+    },
+    correct: 'a'
+},
+{
+    id: 3371,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'How many phases are involved in the EPC stabilisation process?',
+    options: {
+        a: '2',
+        b: '3',
+        c: '4'
+    },
+    correct: 'b'
+},
+{
+    id: 3372,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What type of system is the P2.8 BOV system in the EC175?',
+    options: {
+        a: 'An engine air bypass system',
+        b: 'An oil pressure control system',
+        c: 'A bleed air valve system'
+    },
+    correct: 'c'
+},
+{
+    id: 3373,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the main purpose of the engine power check (EPC)?',
+    options: {
+        a: 'To assess if OEI 30s power is available',
+        b: 'To reduce fuel consumption during cruise',
+        c: 'To monitor cabin temperature'
+    },
+    correct: 'a'
+},
+{
+    id: 3374,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'Which system allows for the proactive monitoring of key engine performance data in real-time?',
+    options: {
+        a: 'DPHM system',
+        b: 'Engine drain system',
+        c: 'EECU'
+    },
+    correct: 'a'
+},
+{
+    id: 3375,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What system provides real-time troubleshooting capability in the EC175?',
+    options: {
+        a: 'Flight Line Troubleshooting (FLT)',
+        b: 'Diagnostics Management System',
+        c: 'Power Control Unit'
+    },
+    correct: 'a'
+},
+{
+    id: 3376,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'Where is the engine power check procedure stored for onboard reference?',
+    options: {
+        a: 'Flight Manual Section 4.9',
+        b: 'Maintenance Manual',
+        c: 'Airworthiness Log'
+    },
+    correct: 'a'
+},
+{
+    id: 3377,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the purpose of the engine drain system in the EC175?',
+    options: {
+        a: 'To evacuate fluids and prevent fire hazards',
+        b: 'To improve airflow to the engine',
+        c: 'To decrease engine noise'
+    },
+    correct: 'a'
+},
+{
+    id: 3378,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'Which part of the EC175 provides visual access to the MGB oil level?',
+    options: {
+        a: 'The front sliding cowling sight glass',
+        b: 'The rear sliding firewall',
+        c: 'The exhaust nozzle interface'
+    },
+    correct: 'a'
+},
+{
+    id: 3379,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'How does the winter kit protect the engine during cold weather operations?',
+    options: {
+        a: 'By reducing the risk of snow and ice ingestion',
+        b: 'By increasing engine temperature',
+        c: 'By improving fuel efficiency'
+    },
+    correct: 'a'
+},
+{
+    id: 3380,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What happens if the engine power is far from Maximum Continuous Power (MCP) during the EPC?',
+    options: {
+        a: 'The message “POWER TOO LOW” is displayed',
+        b: 'The engine automatically shuts down',
+        c: 'The EPC procedure stops'
+    },
+    correct: 'a'
+},
+{
+    id: 3381,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the main function of the auxiliary gear box (AGB) pipe in the engine system?',
+    options: {
+        a: 'To drive oil vapor from the engine to the exhaust system',
+        b: 'To supply fuel to the engine injectors',
+        c: 'To cool the engine during high-speed flight'
+    },
+    correct: 'a'
+},
+{
+    id: 3382,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What do scuppers in the engine compartment drain system do?',
+    options: {
+        a: 'Evacuate flammable fluids to prevent fire hazards',
+        b: 'Regulate airflow within the engine compartment',
+        c: 'Reduce engine noise during flight'
+    },
+    correct: 'a'
+},
+{
+    id: 3383,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What ensures air tightness along the airflow path of the engine air intakes?',
+    options: {
+        a: 'Fireproof seals',
+        b: 'Titanium brackets',
+        c: 'Aluminum rods'
+    },
+    correct: 'a'
+},
+{
+    id: 3384,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What action is recommended during engine washing to prevent contamination buildup?',
+    options: {
+        a: 'Connect the compressor washing rig directly to the engine wash port',
+        b: 'Decrease the engine RPM to idle',
+        c: 'Use hot water only during the wash process'
+    },
+    correct: 'a'
+},
+{
+    id: 3385,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the role of the engine firewalls on the EC175?',
+    options: {
+        a: 'To isolate engine compartments and prevent fire spread',
+        b: 'To provide aerodynamic benefits',
+        c: 'To improve engine cooling'
+    },
+    correct: 'a'
+},
+{
+    id: 3386,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What feature of the engine compartment drain system prevents flame propagation?',
+    options: {
+        a: 'Flame-arrestor grids',
+        b: 'Fireproof pipes',
+        c: 'Thermal insulation'
+    },
+    correct: 'a'
+},
+{
+    id: 3387,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'How does the EECU handle overspeed protection during the EPC procedure?',
+    options: {
+        a: 'It cuts off fuel flow to the engine',
+        b: 'It shuts down the power distribution system',
+        c: 'It adjusts the N2 governor'
+    },
+    correct: 'a'
+},
+{
+    id: 3388,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What function does the washing installation serve for the engine?',
+    options: {
+        a: 'Thorough cleaning and washing of the engine with closed cowlings',
+        b: 'Provides additional cooling during hot weather',
+        c: 'Prevents fuel contamination'
+    },
+    correct: 'a'
+},
+{
+    id: 3389,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What does the term “wheels light” refer to in the on-ground engine power check?',
+    options: {
+        a: 'The helicopter’s wheels are in contact with the ground but ready to lift',
+        b: 'The wheels are off the ground completely',
+        c: 'The landing gear is fully deployed'
+    },
+    correct: 'a'
+},
+{
+    id: 3390,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What kind of fasteners are used for the winter kit installation to prevent corrosion?',
+    options: {
+        a: 'Titanium or steel fasteners',
+        b: 'Aluminum fasteners',
+        c: 'Plastic clips'
+    },
+    correct: 'a'
+},
+{
+    id: 3391,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What ensures that the engine remains correctly aligned despite vibrations and thermal expansion?',
+    options: {
+        a: 'Ball bearings in the engine support',
+        b: 'The fuel injection system',
+        c: 'The cowlings'
+    },
+    correct: 'a'
+},
+{
+    id: 3392,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What system is used to download engine data from the DCU?',
+    options: {
+        a: 'GBSLite',
+        b: 'EECU Direct Interface',
+        c: 'Diagnostics Management System'
+    },
+    correct: 'a'
+},
+{
+    id: 3393,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'How is the air intake plenum protected from the hot engine exhaust case?',
+    options: {
+        a: 'Thermal protection is installed above the plenum',
+        b: 'A cooling fan is used',
+        c: 'A water-cooled system is installed'
+    },
+    correct: 'a'
+},
+{
+    id: 3394,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What type of engine deterioration does EPAC help identify?',
+    options: {
+        a: 'Compressor and hot section deterioration',
+        b: 'Cabin temperature issues',
+        c: 'Airframe corrosion'
+    },
+    correct: 'a'
+},
+{
+    id: 3395,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What component prevents engine plenum parts from becoming misaligned during flight?',
+    options: {
+        a: 'Centring pins and fasteners',
+        b: 'Fireproof seals',
+        c: 'Fuel lines'
+    },
+    correct: 'a'
+},
+{
+    id: 3396,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What data is recorded in the DCU during an exceedance?',
+    options: {
+        a: 'A snapshot of the exceedance event',
+        b: 'Total engine running time',
+        c: 'Total fuel consumption'
+    },
+    correct: 'a'
+},
+{
+    id: 3397,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What type of engine is used in the EC175?',
+    options: {
+        a: 'Pratt & Whitney PT6C-67E',
+        b: 'Rolls Royce RR300',
+        c: 'General Electric T700'
+    },
+    correct: 'a'
+},
+{
+    id: 3398,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the primary function of the compressor in the EC175 engine?',
+    options: {
+        a: 'To supply compressed air for cooling only',
+        b: 'To supply the correct amount of air at the necessary pressure for the combustion process',
+        c: 'To power the accessory gearbox'
+    },
+    correct: 'b'
+},
+{
+    id: 3399,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'How many axial stages are there in the compressor section of the PT6C-67E engine?',
+    options: {
+        a: '2',
+        b: '3',
+        c: '4'
+    },
+    correct: 'c'
+},
+{
+    id: 3400,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the capacity of the integral oil tank formed by the compressor inlet case and accessory gearbox?',
+    options: {
+        a: '5 liters',
+        b: '8 liters',
+        c: '12 liters'
+    },
+    correct: 'b'
+},
+{
+    id: 3401,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the purpose of the compressor bleed valve in the PT6C-67E engine?',
+    options: {
+        a: 'To prevent compressor stalls at low speeds',
+        b: 'To regulate fuel flow into the combustion chamber',
+        c: 'To control oil flow to the accessory gearbox'
+    },
+    correct: 'a'
+},
+{
+    id: 3402,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the function of the Electronic Engine Control Unit (EECU) in the EC175 engine?',
+    options: {
+        a: 'To manage engine ignition',
+        b: 'To control fuel flow and optimize engine performance',
+        c: 'To monitor oil pressure'
+    },
+    correct: 'b'
+},
+{
+    id: 3403,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'How many spark igniters are used in the PT6C-67E engine?',
+    options: {
+        a: '1',
+        b: '2',
+        c: '3'
+    },
+    correct: 'b'
+},
+{
+    id: 3404,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the function of the Power Turbine in the EC175 engine?',
+    options: {
+        a: 'To drive the compressor',
+        b: 'To extract energy from combustion gases to drive the main rotor',
+        c: 'To cool the engine components'
+    },
+    correct: 'b'
+},
+{
+    id: 3405,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'Which component of the EC175 engine houses the No. 5 bearing?',
+    options: {
+        a: 'Accessory Gearbox',
+        b: 'Compressor Section',
+        c: 'Output Section'
+    },
+    correct: 'c'
+},
+{
+    id: 3406,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the maximum allowable carbon seal leakage for the output shaft oil drain?',
+    options: {
+        a: '1 cc/hour',
+        b: '3 cc/hour',
+        c: '5 cc/hour'
+    },
+    correct: 'a'
+},
+{
+    id: 3407,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the function of the Gas Generator case in the EC175 engine?',
+    options: {
+        a: 'To support the accessory gearbox',
+        b: 'To contain the components necessary for the combustion process',
+        c: 'To house the fuel control unit'
+    },
+    correct: 'b'
+},
+{
+    id: 3408,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'How is the gas flow directed in the combustion chamber of the PT6C-67E engine?',
+    options: {
+        a: 'Straight through the combustion liner',
+        b: 'Reversed to reduce overall engine length',
+        c: 'Through a centrifugal system'
+    },
+    correct: 'b'
+},
+{
+    id: 3409,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the primary function of the pre-swirl system in the compressor inlet case?',
+    options: {
+        a: 'To increase airflow to the fuel nozzles',
+        b: 'To improve stall margin at low compressor speeds',
+        c: 'To regulate airflow temperature'
+    },
+    correct: 'b'
+},
+{
+    id: 3410,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'Which component is responsible for igniting the fuel/air mixture in the combustion chamber?',
+    options: {
+        a: 'Electronic Engine Control Unit',
+        b: 'Fuel Control Unit',
+        c: 'Ignition system with two igniters'
+    },
+    correct: 'c'
+},
+{
+    id: 3411,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What material are the compressor turbine blades of the EC175 engine made from?',
+    options: {
+        a: 'Aluminum',
+        b: 'Nickel alloy',
+        c: 'Titanium'
+    },
+    correct: 'b'
+},
+{
+    id: 3412,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the primary purpose of the compressor wash in the PT6C-67E engine?',
+    options: {
+        a: 'To clean the oil system',
+        b: 'To remove dirt and salt deposits from the compressor gas path',
+        c: 'To lubricate the compressor blades'
+    },
+    correct: 'b'
+},
+{
+    id: 3413,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What type of inspection is recommended every 800 hours for the Gas Generator case?',
+    options: {
+        a: 'Visual inspection for cracks, corrosion, and distortions',
+        b: 'Borescope inspection of internal components',
+        c: 'Pressure testing of the gas generator case'
+    },
+    correct: 'a'
+},
+{
+    id: 3414,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'How is P2.8 pressure used in the engine system?',
+    options: {
+        a: 'For hot section cooling',
+        b: 'To operate the compressor bleed valve and pre-swirl system',
+        c: 'To drive the main rotor gearbox'
+    },
+    correct: 'b'
+},
+{
+    id: 3415,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the primary function of the compressor bleed valve (BOV)?',
+    options: {
+        a: 'To increase fuel flow to the combustion chamber',
+        b: 'To prevent compressor stalls at low speeds',
+        c: 'To regulate oil flow'
+    },
+    correct: 'b'
+},
+{
+    id: 3416,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the purpose of the oil system in the EC175 engine?',
+    options: {
+        a: 'To supply lubrication to all moving components and provide cooling',
+        b: 'To cool the combustion gases',
+        c: 'To power the accessory gearbox'
+    },
+    correct: 'a'
+},
+{
+    id: 3417,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What type of wash is recommended after the last flight of the day in a salt-laden environment?',
+    options: {
+        a: 'Performance recovery wash',
+        b: 'Desalination wash',
+        c: 'Chemical additive wash'
+    },
+    correct: 'b'
+},
+{
+    id: 3418,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the function of the accessory gearbox (AGB) in the EC175 engine?',
+    options: {
+        a: 'To drive all engine-mounted accessories',
+        b: 'To power the compressor',
+        c: 'To reduce the overall engine length'
+    },
+    correct: 'a'
+},
+{
+    id: 3419,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the capacity of the oil tank formed by the compressor inlet case and accessory gearbox?',
+    options: {
+        a: '6.5 Liters',
+        b: '8.0 Liters',
+        c: '10.5 Liters'
+    },
+    correct: 'b'
+},
+{
+    id: 3420,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'Which system in the EC175 engine is responsible for minimizing sulfidation of turbine blades?',
+    options: {
+        a: 'Engine oil system',
+        b: 'Compressor bleed valve system',
+        c: 'Turbine desalination wash system'
+    },
+    correct: 'c'
+},
+{
+    id: 3421,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the recommended inspection interval for the compressor turbine blades after stage 1 or 2 sulfidation?',
+    options: {
+        a: 'Every 100 hours',
+        b: 'Every 200 hours',
+        c: 'Every 500 hours'
+    },
+    correct: 'b'
+},
+{
+    id: 3422,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the primary purpose of the power turbine in the EC175 engine?',
+    options: {
+        a: 'To drive the helicopter transmission and main rotor',
+        b: 'To increase fuel efficiency',
+        c: 'To power the electronic control system'
+    },
+    correct: 'a'
+},
+{
+    id: 3423,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'At what RPM does the power turbine (Nf/N2) rotate at 100% power?',
+    options: {
+        a: '37,468 RPM',
+        b: '21,000 RPM',
+        c: '23,310 RPM'
+    },
+    correct: 'b'
+},
+{
+    id: 3424,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'How many stages are there in the power turbine section of the EC175 engine?',
+    options: {
+        a: '1 stage',
+        b: '2 stages',
+        c: '3 stages'
+    },
+    correct: 'b'
+},
+{
+    id: 3425,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'Which material is used to construct the power turbine blades in the EC175 engine?',
+    options: {
+        a: 'Aluminum alloy',
+        b: 'Nickel alloy with aluminide coating',
+        c: 'Titanium'
+    },
+    correct: 'b'
+},
+{
+    id: 3426,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the purpose of the compressor turbine stator in the EC175 engine?',
+    options: {
+        a: 'To direct and increase the speed of combustion gases to the compressor turbine blades',
+        b: 'To monitor fuel flow into the turbine',
+        c: 'To regulate oil pressure in the turbine system'
+    },
+    correct: 'a'
+},
+{
+    id: 3427,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the function of the compressor turbine disk in the EC175 engine?',
+    options: {
+        a: 'To direct airflow into the compressor section',
+        b: 'To extract energy from the combustion gases to drive the compressor and accessory gearbox',
+        c: 'To regulate the temperature of the engine'
+    },
+    correct: 'b'
+},
+{
+    id: 3428,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the purpose of the P3 air pressure in the secondary air system of the EC175 engine?',
+    options: {
+        a: 'To provide fuel for combustion',
+        b: 'To cool hot section parts and seal bearing compartments',
+        c: 'To drive the compressor at low speeds'
+    },
+    correct: 'b'
+},
+{
+    id: 3429,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the purpose of the power turbine stator in the EC175 engine?',
+    options: {
+        a: 'To direct gases to the power turbines at the optimum angle and speed',
+        b: 'To increase the combustion temperature',
+        c: 'To maintain pressure in the fuel control unit'
+    },
+    correct: 'a'
+},
+{
+    id: 3430,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'How does the exhaust case of the EC175 engine function?',
+    options: {
+        a: 'It directs exhaust gases towards the fuel nozzles',
+        b: 'It straightens the gas flow and expels gases efficiently to the atmosphere',
+        c: 'It cools the engine oil'
+    },
+    correct: 'b'
+},
+{
+    id: 3431,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'Which of the following is true about the compressor turbine blades in the EC175 engine?',
+    options: {
+        a: 'They are air-cooled by the fuel system',
+        b: 'They are constructed using single crystal casting with a corrosion-resistant coating',
+        c: 'They are made from lightweight aluminum'
+    },
+    correct: 'b'
+},
+{
+    id: 3432,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the primary maintenance task for the compressor section in the EC175 engine?',
+    options: {
+        a: 'Visual inspection of the turbine blades',
+        b: 'Compressor wash and troubleshooting',
+        c: 'Replacement of the accessory gearbox'
+    },
+    correct: 'b'
+},
+{
+    id: 3433,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'Which material is commonly used for constructing the combustion chamber liner in the EC175 engine?',
+    options: {
+        a: 'Nickel alloy sheet metal',
+        b: 'Aluminum alloy',
+        c: 'Titanium'
+    },
+    correct: 'a'
+},
+{
+    id: 3434,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'How many fuel nozzles are present in the combustion chamber of the EC175 engine?',
+    options: {
+        a: '12',
+        b: '14',
+        c: '16'
+    },
+    correct: 'b'
+},
+{
+    id: 3435,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the function of the turbine wash system in the EC175 engine?',
+    options: {
+        a: 'To remove oil residue from the compressor',
+        b: 'To minimize sulfidation and remove salt deposits from the turbine blades',
+        c: 'To cool the turbine section during engine shutdown'
+    },
+    correct: 'b'
+},
+{
+    id: 3436,
+    Aircraft: 'H175',
+    Category: '71',
+    question: 'What is the purpose of the borescope inspection in the EC175 engine?',
+    options: {
+        a: 'To clean internal components of the engine',
+        b: 'To perform visual inspections of internal components like blades and hot sections without removing the engine',
+        c: 'To measure engine oil levels'
+    },
+    correct: 'b'
+}
+
+
+
+
+
+
+
   
   
   
