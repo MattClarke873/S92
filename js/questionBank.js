@@ -27171,7 +27171,7 @@ export const questions = [
     },
     correct: 'b'
   },
-  {
+/*   {
     id: 3236,
     Aircraft: 'H175',
     Category: '34',
@@ -27182,7 +27182,7 @@ export const questions = [
       c: 'It increases altitude information.'
     },
     correct: 'a'
-  },
+  }, */
   {
     id: 3237,
     Aircraft: 'H175',
@@ -27315,7 +27315,7 @@ export const questions = [
     },
     correct: 'b'
   },
-  {
+/*   {
     id: 3248,
     Aircraft: 'H175',
     Category: '34',
@@ -27326,7 +27326,7 @@ export const questions = [
       c: 'Ground-speed data from GPS'
     },
     correct: 'b'
-  },
+  }, */
   {
     id: 3249,
     Aircraft: 'H175',
@@ -27339,7 +27339,7 @@ export const questions = [
     },
     correct: 'a'
   },
-  {
+/*   {
     id: 3250,
     Aircraft: 'H175',
     Category: '34',
@@ -27350,7 +27350,7 @@ export const questions = [
       c: 'Switch to emergency static ports.'
     },
     correct: 'b'
-  },
+  }, */
   {
     id: 3251,
     Aircraft: 'H175',
@@ -27453,9 +27453,9 @@ export const questions = [
     Category: '34',
     question: 'What components are part of the RH Air Data System?',
     options: {
-      a: 'Pitot probe, static ports, cockpit static valve',
+      a: 'Pitot probe, static port, cockpit static valve',
       b: 'Integrated Emergency Standby Instrument (IESI), static ports',
-      c: 'Air Data Unit, two static ports, cockpit static valve'
+      c: 'Air Data Unit, two static ports, temperature probe, cockpit static valve'
     },
     correct: 'c'
   },
@@ -27573,11 +27573,11 @@ export const questions = [
     Category: '34',
     question: 'Which air data component is located in the nose landing gear compartment?',
     options: {
-      a: 'ADU1 and ADU2',
-      b: 'IESI and cockpit static port',
+      a: 'IESI and cockpit static port',
+      b: 'ADU1 and ADU2',
       c: 'Pitot probe and static pressure sensor'
     },
-    correct: 'a'
+    correct: 'b'
   },
   {
     id: 3270,
@@ -27627,18 +27627,20 @@ export const questions = [
     },
     correct: 'a'
   },
-  {
+/*   {
     id: 3274,
     Aircraft: 'H175',
     Category: '34',
-    question: 'Which air data source is deselected in case of static pressure valve activation?',
+    question: 'Which air data source is deselected in case of static pressure valve activation by the pilot?',
     options: {
       a: 'AIR1 is automatically deselected.',
       b: 'IESI is switched to backup mode.',
       c: 'AIR2 is deselected, and AIR1 is reset.'
     },
     correct: 'a'
-  },
+  }, */
+  /**TODO CHECK BELOW*/
+
   {
     id: 3275,
     Aircraft: 'H175',
