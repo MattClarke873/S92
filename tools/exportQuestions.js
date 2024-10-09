@@ -41,8 +41,8 @@ async function exportToExcel(questionBank) {
   // Define columns
   worksheet.columns = [
     { header: 'ID', key: 'id', width: 10 },
-    { header: 'Category', key: 'category', width: 20 },
     { header: 'Aircraft', key: 'aircraft', width: 20 },
+    { header: 'Category', key: 'category', width: 20 },
     { header: 'Question', key: 'question', width: 50 },
     { header: 'Option A', key: 'optionA', width: 30 },
     { header: 'Option B', key: 'optionB', width: 30 },
@@ -54,8 +54,8 @@ async function exportToExcel(questionBank) {
   questionBank.forEach(q => {
     worksheet.addRow({
       id: q.id,
-      category: q.Category, // Make sure the key matches the structure in questionBank.js
       aircraft: q.Aircraft,
+      category: q.Category, // Make sure the key matches the structure in questionBank.js
       question: q.question,
       optionA: q.options.a,
       optionB: q.options.b,
@@ -70,7 +70,7 @@ async function exportToExcel(questionBank) {
 }
 
 // Combine the functions: first run changeFormat, then export the questions to Excel
-const questionBankPath = path.join(__dirname, '../js/questionBank.js');
+const questionBankPath = path.join(__dirname, '../js/scrap.js');
 
 changeFormat(questionBankPath, (err) => {
   if (err) {
