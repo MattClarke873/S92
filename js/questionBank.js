@@ -32324,7 +32324,7 @@ export const questions = [
     id: 3659,
     Aircraft: "H175",
     Category: "71",
-    question: "Where is excess P2.5 air evacuated to?",
+    question: "Where is excess P2.8 air evacuated to?",
     options: {
       a: "The atmosphere via the Venturi effect",
       b: "The primary nozzle",
