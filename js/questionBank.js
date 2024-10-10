@@ -34088,7 +34088,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 3803,
     Aircraft: 'H175',
     Category: '22',
@@ -34099,7 +34099,7 @@ export const questions = [
         c: 'IESI'
     },
     correct: 'c'
-},
+}, */
 {
     id: 3804,
     Aircraft: 'H175',
