@@ -121,7 +121,6 @@ button:hover {
   animation: fadeIn 0.5s ease-in-out;
 }
 
-
 /* ===== Individual Question Section ===== */
 .questionContainer {
   background-color: rgba(255, 255, 255, 0.08);
