@@ -1,100 +1,69 @@
-/* 
-TODO fix results screen
-*/
-
-/* Base styles for the body */
+/* ===== General Page Styling ===== */
 body {
-  background-color: #000;
-  color: black;
   font-family: Arial, sans-serif;
+  background: url("helicopter_bg.jpg") no-repeat center center fixed;
+  background-size: cover;
   margin: 0;
   padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  flex-direction: column;
-  background-size: cover;
-  background-position: center center; /* Centers the background image */
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  color: white;
+  text-align: center;
 }
 
-/* Container and layout */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  min-height: 100vh; /* Ensure container takes full screen height */
-  display: flex; 
-  flex-direction: column;
-  justify-content: center; /* Centers vertically */
-  align-items: center; /* Centers horizontally */
-}
-
-/* Heading styles */
+/* ===== Title ===== */
 h1 {
-  text-align: center;
-  font-size: 2.5em;
+  margin-top: 60px;
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
-/* Main buttons */
-.mainButtons {
-  background-color: rgb(68, 68, 68);
-  color: white;
-  padding: 15px 32px;
-  font-size: 16px;
+/* ===== Selection Container ===== */
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 25px 50px;
+  border-radius: 15px;
+  margin-top: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* ===== Dropdown Styling ===== */
+label {
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 5px 10px;
+  border-radius: 5px;
   border: none;
-  cursor: pointer;
-  margin-bottom: 20px;
-  max-width: 300px;
+  font-size: 1rem;
+  margin-bottom: 15px;
 }
 
-.mainButtons:hover {
-  background-color: #666;
-}
-
-/* ==============================
-   SELECTIONS (3-column layout)
-============================== */
-
-.selections {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: rgba(30, 30, 30, 0.75);
-  color: white;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  width: 100%;
-  max-width: 700px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
-  padding: 15px 20px 25px 20px;
-  text-align: center;
-}
-
-/* Three-column ATA selection box */
+/* ===== Selection Box (Three Column Layout) ===== */
 .SelectionBox {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 15px;
+  justify-content: center; /* Center the entire group */
+  align-items: flex-start; /* Top align lists */
+  flex-wrap: nowrap;
+  gap: 40px; /* Space between columns */
   margin-top: 10px;
   width: 100%;
 }
 
-/* Each list column */
+/* ===== Each ATA List Column ===== */
 .SelectionBox .list {
-  flex: 1;
-  min-width: 150px;
+  flex: 0 1 150px; /* Fixed width for uniformity */
   background-color: rgba(60, 60, 60, 0.3);
   border-radius: 8px;
-  padding: 10px;
+  padding: 10px 15px;
   text-align: left;
+  box-sizing: border-box;
 }
 
+/* ===== UL / LI Reset ===== */
 .SelectionBox ul {
   list-style: none;
   padding: 0;
@@ -114,274 +83,61 @@ h1 {
   margin-right: 8px;
 }
 
-/* Select All Box */
-.selectAllBox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* ===== Select All Option ===== */
+#selectAllContainer {
   margin-top: 15px;
-  font-size: 1rem;
 }
 
-/* Responsive behavior */
-@media (max-width: 600px) {
-  .SelectionBox {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .SelectionBox .list {
-    width: 100%;
-  }
-}
-
-/* ==============================
-   QUESTIONS & RESULTS
-============================== */
-
-/* Container for questions */
-#questions-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 10px;
-  min-width: 700px;
-  height: auto;
-  box-sizing: border-box;
-}
-
-/* Question container */
-.question-container {
-  position: relative;
-  background-color: rgba(30, 30, 30, 0.75);
-  color: #e0e6ff;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  width: 100%;
-  max-width: 65vw;
-  box-sizing: border-box;
-  backdrop-filter: blur(5px);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
-  overflow: hidden;
-  height: auto;
-  padding: 5px 20px 20px 20px;
-}
-
-/* Question text */
-.question-container p {
-  font-size: 1.2rem;
-  word-wrap: break-word;
-  white-space: normal;
-  text-align: center;
-  padding: 5px 5px 15px 5px;
-  margin: 10px 0px 2px 0px;
-}
-
-#result-container {
-  display: none;
-  background-color: rgba(30, 30, 30, 0.75);
-  color: #e0e6ff;
-  border-radius: 10px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
-  padding: 15px;
-  margin: 20px auto;
-  width: 100%;
-  max-width: 50vw;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-/* Question ID */
-.question-id {
-  font-size: 0.7rem;
-  color: #999999;
-  position: absolute;
-  right: 10px;
-  bottom: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin-top: 0;
-}
-
-/* List styles for options */
-.options-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* Option spacing */
-.options-list li {
-  margin: 8px 0;
-  padding: 0;
-  width: 100%;
-}
-
-/* Button styles */
+/* ===== Buttons ===== */
 button {
   background-color: #444;
-  color: #ffffff;
-  padding: 12px;
+  color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
+  padding: 12px 25px;
+  margin-top: 20px;
+  font-size: 1.1rem;
   cursor: pointer;
-  transition-duration: 0.4s;
-  width: 100%;
-  box-sizing: border-box;
-  font-size: 1rem;
-  height: auto;
-  line-height: 1.2;
-  white-space: normal;
-  word-wrap: break-word;
-  overflow: hidden;
-  text-align: center;
+  transition: background-color 0.2s ease;
 }
 
 button:hover {
   background-color: #666;
 }
 
-/* Selected button */
-.selected {
-  background-color: #dadada;
-  color: #333;
-  box-shadow: 0 4px 14px 0 #a6ff7d, 0 6px 10px 0 rgba(0, 0, 0, 0.19);
-}
-
-/* Control buttons */
-#filterBtn, #finishBtn, #resetBtn {
-  height: 4vh;
-  width: 18vw;
-  min-width: 180px;
-  max-width: 200px;
-  margin: 10px;
-  padding: 5px 10px;
-  font-size: 1rem;
-  white-space: normal;
-  word-wrap: break-word;
-  text-align: center;
-  box-sizing: border-box;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-#finishBtn {
-  background-color: #4CAF50;
-  color: white;
-}
-
-#resetBtn {
-  background-color: #f44336;
-}
-
-/* Bottom buttons */
-.bottomButtons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-}
-
-/* Navigation styles */
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-#home, #right {
-  background-color: #6c757d;
-  color: white;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#home:hover, #right:hover {
-  background-color: #5a6268;
-}
-
-/* Popup container */
-#popup-container {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  justify-content: center;
-  align-items: center;
-}
-
-#popup-content {
-  background: white;
-  color: #000;
+/* ===== Quiz Output Area ===== */
+#quizContainer {
+  margin-top: 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
   padding: 20px;
-  border-radius: 8px;
-  text-align: center;
+  display: none;
 }
 
-/* Result container styles */
-.result-container {
-  border: 1px solid #ddd;
-  padding: 15px;
-  margin-top: 20px;
-  border-radius: 5px;
-  background-color: rgba(173, 216, 230, 0.7);
+#quizContainer h2 {
+  margin-top: 0;
 }
 
-/* Responsive rules for screens under 430px */
-@media (max-width: 430px) {
-  body, html {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow-x: hidden;
-    box-sizing: border-box;
-  }
-
-  .container {
-    width: 80%;
-    max-width: 100vw;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* ===== Responsive Design ===== */
+@media (max-width: 800px) {
+  .SelectionBox {
     flex-direction: column;
-    box-sizing: border-box;
+    align-items: center;
+    gap: 15px;
   }
 
-  .question-container {
-    width: 90vw;
-    max-width: 100vw;
-    margin: 0px 0px 15px 0px;
-    padding: 10px;
+  .SelectionBox .list {
+    width: 100%;
+    max-width: 250px;
+    text-align: left;
   }
 
-  .question-container p {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  button {
     font-size: 1rem;
-    word-wrap: break-word;
-    white-space: normal;
-    padding: 5px 10px 15px 10px;
-  }
-
-  .options-list button {
-    font-size: 1rem;
-    padding: 10px;
-  }
-
-  #result-container {
-    width: 90vw;
-    max-width: 100vw;
-    margin: 0px 0px 15px 0px;
-    padding: 10px;
+    padding: 10px 20px;
   }
 }
