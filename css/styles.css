@@ -52,7 +52,6 @@ h1 {
 .mainButtons:hover {
     background-color: #666;
 }
-
 /* Selections and layout */
 .selections {
     display: flex;
@@ -66,44 +65,37 @@ h1 {
     max-width: 400px;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
     padding: 5px 20px 20px 20px;
-    text-align: center; /* Ensure text is centered */
+    text-align: center;
 }
 
 .SelectionBox {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row; /* Stack children horizontally */
+    align-items: flex-start;  /* Align lists to top */
+    justify-content: space-between; /* Evenly space lists */
     text-align: center;
+    gap: 20px; /* Optional spacing between columns */
+    width: 100%;
 }
 
-.SelectionBox li {
-    list-style-type: none; /* Removes bullet points */
-}
-
-
-ul.ata_List1,
-ul.ata_List2,
-ul.ata_List3 {
-    list-style: none;
+.SelectionBox ul {
+    list-style: none; /* Removes bullets */
     padding: 0;
+    margin: 0;
+    flex: 1; /* Make all lists take equal width */
 }
 
+/* Optional: text alignment per column */
 ul.ata_List1 {
     text-align: left;
-    padding-right: 50px;
 }
 
 ul.ata_List2 {
     text-align: center;
-    padding: 0 50px;
 }
 
 ul.ata_List3 {
     text-align: right;
-    padding-left: 50px;
 }
-
 
 .selectAllBox {
     display: flex;
