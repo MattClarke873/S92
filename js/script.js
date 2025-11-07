@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Add an element to display the question ID with a class for CSS styling
             const questionId = document.createElement('span');
             questionId.classList.add('question-id');
-            questionId.innerText = `Question ID: ${question.id}`;
+            questionId.innerText = `ATA ${question.Category}                   Question ID: ${question.id}`;
             
             // Append the question text and ID to the question container
             questionElement.appendChild(questionText);
