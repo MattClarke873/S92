@@ -53,64 +53,69 @@ h1 {
     background-color: #666;
 }
 
-/* Selections and layout */
+
+/* Container for selections */
 .selections {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Space between top and bottom */
     background-color: rgba(30, 30, 30, 0.75);
     color: white;
     border-radius: 10px;
-    margin-bottom: 20px;
-    max-width: 400px;
+    padding: 10px 20px;
+    max-width: 800px;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
-    padding: 5px 20px 20px 20px;
-    text-align: center; /* Ensure text is centered */
+    text-align: center;
 }
 
+/* Top select box */
+#questionCount,
+.selections label[for="questionCount"] {
+    margin-bottom: 15px;
+}
+
+/* Middle columns container */
 .SelectionBox {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row; /* Stack children horizontally */
-    text-align: center;
+    width: 100%;
+    justify-content: space-between; /* Spread columns evenly */
+    gap: 20px; /* Space between columns */
+    margin-bottom: 15px; /* Optional spacing before bottom box */
 }
 
-.SelectionBox li {
-    list-style-type: none; /* Removes bullet points */
+/* Each list container flexes equally */
+.SelectionBox .list {
+    flex: 1; /* Equal width for each column */
 }
 
-
-ul.ata_List1,
-ul.ata_List2,
-ul.ata_List3 {
+/* Remove bullet points and padding from lists */
+.SelectionBox ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
+/* Optional text alignment per column */
 ul.ata_List1 {
     text-align: left;
-    padding-right: 50px;
 }
-
 ul.ata_List2 {
     text-align: center;
-    padding: 0 50px;
 }
-
 ul.ata_List3 {
     text-align: right;
-    padding-left: 50px;
 }
 
-
+/* Bottom select all box */
 .selectAllBox {
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: row; /* Stack children horizontally */
+    width: 100%;
+    margin-top: 10px;
 }
+
+
 
 /* Container for questions */
 #questions-container {
