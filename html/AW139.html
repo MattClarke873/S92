@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/home.css">
+  <style>
+    body {
+      /* Photo: "Esino Lario - Helicopter I-REDY AW139" by Xavier Caré, CC BY-SA 4.0, via Wikimedia Commons */
+      background-image: url("../support_Documents/AW139Home.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .weeks {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .mainButtons {
+      padding: 10px 20px;
+      font-size: 16px;
+      min-width: 300px;
+      cursor: pointer;
+    }
+  </style>
+  <title>AW139 Type Course Quiz</title>
+</head>
+<body>
+  <div class="container">
+    <h6 id="lastSave">Last save: --/--/---- --:--</h6>
+    <h1>AW139 Type Course Quiz</h1>
+
+    <div class="weeks">
+      <a href="../html/AW139Week1.html"><button class="mainButtons" id="Week1" title="ATA chapters TBC">Week 1</button></a>
+
+      <a href="../html/AW139Week2.html"><button class="mainButtons" id="Week2" title="ATA chapters TBC">Week 2</button></a>
+
+      <a href="../html/AW139Week3.html"><button class="mainButtons" id="Week3" title="ATA chapters TBC">Week 3</button></a>
+
+      <a href="../html/AW139Week4.html"><button class="mainButtons" id="Week4" title="ATA chapters TBC">Week 4</button></a>
+    </div>
+
+    <div id="popup-container">
+      <div id="popup-content">
+        <p>THIS IS A TRAINING AID, <h4><u>PLEASE CHECK ALL QUESTIONS</u></h4> IF UNSURE.
+          <br><br><br><br>If you find any incorrect questions/answers please let me know.
+        </p>
+        <br><br>
+        <label for="password">Enter password: </label>
+        <input type="password" id="password" placeholder="Password">
+        <br><br>
+
+        <button id="filterBtn" onclick="checkPassword()">Submit</button>
+      </div>
+    </div>
+
+    <div class="navigation">
+      <a href="../index.html"> <button id="home">&#127968;</button></a>
+    </div>
+  </div>
+
+  <script src="js/popPassword.js"></script>
+  <script src="js/updateTime.js"></script>
+</body>
+</html>
