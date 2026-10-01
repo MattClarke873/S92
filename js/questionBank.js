@@ -34231,9 +34231,261 @@ export const questions = [
         c: 'The autopilot disengages'
     },
     correct: 'b'
-}
-
-
+},
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//. AW139
+//
+//
     
+
+{
+    id: 3815,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'Which balancer is used to carry out vibration analysis and rotor track and balance on the AW139?',
+    options: {
+        a: 'Chadwick Vibrex 2000',
+        b: 'HUMS ground station',
+        c: 'Strobex 2000 analyser'
+    },
+    correct: 'a'
+},
+{
+    id: 3816,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'Where are the velocimeters installed for main rotor track and balance?',
+    options: {
+        a: 'On the main gearbox top case',
+        b: 'Behind the pilot seat',
+        c: 'Under the cabin floor next to the vibration absorbers'
+    },
+    correct: 'b'
+},
+{
+    id: 3817,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'During main rotor track and balance, which balancer connection is the axial/vertical velocimeter connected to?',
+    options: {
+        a: 'VELO 1',
+        b: 'MAG PU/PHOTOCELL B',
+        c: 'VELO 2'
+    },
+    correct: 'c'
+},
+{
+    id: 3818,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What provides the rotor position reference signal to the MAG PU/PHOTOCELL A connection during main rotor track and balance?',
+    options: {
+        a: 'A photocell mounted on the right side of the fin',
+        b: 'A magnetic pick-up installed on the fixed swashplate',
+        c: 'The Strobex light via the AUX OUTPUT connection'
+    },
+    correct: 'b'
+},
+{
+    id: 3819,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'For tail rotor balance, where is the photocell installed?',
+    options: {
+        a: 'On the tail gearbox next to the velocimeters',
+        b: 'On the left side of the horizontal stabiliser',
+        c: 'On the right side of the fin'
+    },
+    correct: 'c'
+},
+{
+    id: 3820,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'In addition to Nr 100%, collective at minimum and cyclic at neutral, which conditions apply to a ground run for tail rotor balance?',
+    options: {
+        a: 'Tail rotor pedals centred and aircraft weight at minimum',
+        b: 'Tail rotor pedals at full left and aircraft weight above 5000 kg',
+        c: 'Tail rotor pedals centred and aircraft weight above 5000 kg'
+    },
+    correct: 'a'
+},
+{
+    id: 3821,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What are the conditions for hover flight during main and tail rotor tracking and balance?',
+    options: {
+        a: 'Aircraft weight at minimum, IGE, Nr 100%',
+        b: 'Aircraft weight above 5000 kg, OGE, Nr 100%',
+        c: 'Aircraft weight above 5000 kg, IGE, Nr 102%'
+    },
+    correct: 'b'
+},
+{
+    id: 3822,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What is the maximum balance weight that can be installed inside a main rotor blade bolt?',
+    options: {
+        a: '0.148 kg (0.326 lb)',
+        b: '0.3 kg (0.66 lb)',
+        c: '0.2 kg (0.44 lb)'
+    },
+    correct: 'c'
+},
+{
+    id: 3823,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What is the maximum balance weight that can be installed inside a tail rotor blade bolt?',
+    options: {
+        a: '0.148 kg (0.326 lb)',
+        b: '0.2 kg (0.44 lb)',
+        c: '0.1 kg (0.22 lb)'
+    },
+    correct: 'a'
+},
+{
+    id: 3824,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What is the effect of turning a main rotor pitch link sleeve clockwise?',
+    options: {
+        a: 'Pitch link length decreases, blade pitch decreases and the blade moves down',
+        b: 'Pitch link length increases, blade pitch increases and the blade moves up',
+        c: 'Pitch link length increases, blade pitch decreases and the blade moves down'
+    },
+    correct: 'b'
+},
+{
+    id: 3825,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'During a ground track, one main rotor blade is flying approximately 21 mm lower than the others. What pitch link adjustment is required?',
+    options: {
+        a: 'Turn the pitch link sleeve 3 graduations anticlockwise',
+        b: 'Turn the pitch link sleeve 7 graduations clockwise',
+        c: 'Turn the pitch link sleeve 3 graduations clockwise'
+    },
+    correct: 'c'
+},
+{
+    id: 3826,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'During level flight track at 120 kts, a main rotor blade is found to be flying low. What corrective action is required?',
+    options: {
+        a: 'Bend the outer trim tab upwards, up to a maximum of 8 degrees',
+        b: 'Bend the inner trim tab downwards, up to a maximum of 8 degrees',
+        c: 'Lengthen the pitch link until vibration is below 0.1 IPS'
+    },
+    correct: 'a'
+},
+{
+    id: 3827,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'During the main rotor level flight track, which adjustment is used to correct vibration at 150 kts?',
+    options: {
+        a: 'Pitch link',
+        b: 'Outer trim tab',
+        c: 'Inner trim tab'
+    },
+    correct: 'c'
+},
+{
+    id: 3828,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'During the main rotor ground balance step, radial vibration is measured at 0.25 IPS. What is the next action in the flow chart?',
+    options: {
+        a: 'Add blade bolt weight until vibration is below 0.1 IPS before continuing',
+        b: 'The ground balance limit is met, so proceed to hover track and balance',
+        c: 'Correct the vibration using the pitch links before continuing'
+    },
+    correct: 'b'
+},
+{
+    id: 3829,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'How is main rotor radial/lateral vibration corrected?',
+    options: {
+        a: 'With weights installed inside the blade installation bolts, calculated using a balance chart',
+        b: 'With pitch link adjustments, calculated using a balance chart',
+        c: 'With outer and inner trim tab bending, calculated using the gauge tool'
+    },
+    correct: 'a'
+},
+{
+    id: 3830,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What are the tail rotor balance acceptance limits in the flow chart?',
+    options: {
+        a: 'Ground balance below 0.3 IPS and hover balance below 0.2 IPS',
+        b: 'Ground balance below 0.2 IPS and hover balance below 0.1 IPS',
+        c: 'Ground balance below 0.1 IPS and hover balance below 0.2 IPS'
+    },
+    correct: 'c'
+},
+{
+    id: 3831,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'Looking from the LH side of the helicopter (advancing blade), what is the main rotor blade identification sequence after the Target-Yellow blade?',
+    options: {
+        a: 'Red, White, Blue, Black',
+        b: 'Blue, Red, Black, White',
+        c: 'White, Black, Red, Blue'
+    },
+    correct: 'b'
+},
+{
+    id: 3832,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What frequency are the cabin floor passive vibration absorbers designed to reduce?',
+    options: {
+        a: 'Main rotor 1/rev, up to a maximum of 5 Hz',
+        b: 'Main rotor 5/rev, up to a maximum of 24.5 Hz',
+        c: 'Tail rotor 1/rev, up to a maximum of 24.5 Hz'
+    },
+    correct: 'b'
+},
+{
+    id: 3833,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'The mast vibration absorber mass group requires replacement. What else must be replaced, and why?',
+    options: {
+        a: 'The conical ring, because its solid lubricant layer is damaged on removal',
+        b: 'The cap stop, because it is matched to the mass group serial number',
+        c: 'The rod assembly, because the mass group and rod assembly are tuned together and supplied as a kit'
+    },
+    correct: 'c'
+},
+{
+    id: 3834,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What is the approximate weight of the mast vibration absorber mass group, and what are its calibrated weights made from?',
+    options: {
+        a: 'Approximately 19 kg (41.9 lb), with tungsten calibrated weights',
+        b: 'Approximately 19 kg (41.9 lb), with 4130 steel calibrated weights',
+        c: 'Approximately 9 kg (19.8 lb), with tungsten calibrated weights'
+    },
+    correct: 'a'
+}
     ];
     
