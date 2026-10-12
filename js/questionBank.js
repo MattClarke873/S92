@@ -34619,7 +34619,7 @@ export const questions = [
     },
     correct: 'c'
 }, */
-{
+/* {
     id: 3842,
     Aircraft: 'AW139',
     Category: '04-12,20',
@@ -34630,7 +34630,7 @@ export const questions = [
         c: 'Two minutes'
     },
     correct: 'b'
-},
+}, */
 {
     id: 3843,
     Aircraft: 'AW139',
@@ -34979,7 +34979,7 @@ export const questions = [
     },
     correct: 'b'
 }, */
-{
+/* {
     id: 3872,
     Aircraft: 'AW139',
     Category: '04-12,20',
@@ -34990,7 +34990,7 @@ export const questions = [
         c: '700'
     },
     correct: 'b'
-},
+}, */
 /* {
     id: 3873,
     Aircraft: 'AW139',
@@ -36024,7 +36024,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 4074,
     Aircraft: 'AW139',
     Category: '53',
@@ -36035,7 +36035,7 @@ export const questions = [
         c: 'Dye penetrant inspection of the vertical fin skin'
     },
     correct: 'a'
-},
+}, */
 {
     id: 4075,
     Aircraft: 'AW139',
