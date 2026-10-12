@@ -227,6 +227,58 @@ ul.ata_List3 {
     margin-top: 0;
 }
 
+/* Report-an-issue control */
+.report-toggle {
+    background: none;
+    width: auto;
+    color: #999999;
+    font-size: 0.75rem;
+    text-decoration: underline;
+    padding: 4px 0;
+    margin-top: 6px;
+}
+
+.report-toggle:hover {
+    background: none;
+    color: #cfd6ff;
+}
+
+.report-form {
+    margin-top: 8px;
+    text-align: left;
+}
+
+.report-textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #e0e6ff;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 8px;
+    font-family: inherit;
+    font-size: 0.85rem;
+    resize: vertical;
+}
+
+.report-submit {
+    width: auto;
+    margin-top: 6px;
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    background-color: #6c757d;
+}
+
+.report-submit:hover {
+    background-color: #5a6268;
+}
+
+.report-status {
+    font-size: 0.8rem;
+    color: #cfd6ff;
+    margin: 6px 0 0 0;
+}
+
 /* List styles for options */
 .options-list {
     list-style: none;

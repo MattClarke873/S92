@@ -1,5 +1,6 @@
 import { questions as questionBank } from './questionBank.js';
 import { recordResult, weightedSample, getOverallStats, resetProgress } from './progress.js';
+import { attachReportControl } from './reportQuestion.js';
 
 document.addEventListener('DOMContentLoaded', function () {
     // Cache DOM elements for later use
@@ -70,6 +71,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Append the options list to the question container
             questionElement.appendChild(optionsList);
+
+            // Let users flag a problem with this specific question
+            attachReportControl(questionElement, question, aircraftType);
+
             questionsContainer.appendChild(questionElement);
         });
     }
