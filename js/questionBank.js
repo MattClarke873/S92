@@ -34245,247 +34245,2457 @@ export const questions = [
 //. AW139
 //
 //
-    
+//
+//
+//
+//
+//
+//
+//
+//
+//. AW139
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//. AW139
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//. AW139
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//. AW139
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//. AW139
+//    
+{
+    id: 3815,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What type of helicopter is the AW139?',
+    options: {
+        a: 'A single-engine light helicopter',
+        b: 'A heavy-lift tandem rotor helicopter',
+        c: 'A medium-sized twin-engined helicopter'
+    },
+    correct: 'c'
+},
+{
+    id: 3816,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Which two companies originally formed the joint venture that developed the AB139/AW139?',
+    options: {
+        a: 'Sikorsky and Agusta',
+        b: 'Bell Helicopters and Agusta',
+        c: 'Boeing and Westland'
+    },
+    correct: 'b'
+},
+{
+    id: 3817,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'From which serial number onwards are aircraft designated AW139 rather than AB139?',
+    options: {
+        a: 'Serial number 31400',
+        b: 'Serial number 55',
+        c: 'Serial number 31201'
+    },
+    correct: 'b'
+},
+/* {
+    id: 3818,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What modification characterises the AW139 Long Nose variant?',
+    options: {
+        a: 'A 20cm longer nose with avionics relocated from the baggage compartment',
+        b: 'An uprated main gearbox',
+        c: 'A strengthened tail boom and composite skin'
+    },
+    correct: 'a'
+}, */
+{
+    id: 3819,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What is the maximum all up weight of the AW139 Enhanced Plus?',
+    options: {
+        a: '6400 kg',
+        b: '7000 kg',
+        c: '6800 kg'
+    },
+    correct: 'b'
+},
+{
+    id: 3820,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Under which Certification Specification is the AW139 certificated by EASA?',
+    options: {
+        a: 'CS 27',
+        b: 'CS 23',
+        c: 'CS 29'
+    },
+    correct: 'c'
+},
+{
+    id: 3821,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'In the RFM, where are CAT A operations referred to?',
+    options: {
+        a: 'Section 5, Supplement 12',
+        b: 'Section 2, Normal Procedures',
+        c: 'Section 4, Performance Data'
+    },
+    correct: 'a'
+},
+{
+    id: 3822,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'When approaching a running helicopter, from which position should personnel enter the area below the rotor disc?',
+    options: {
+        a: 'From the forward, right position',
+        b: 'From directly behind the tail rotor',
+        c: 'From the left rear quarter'
+    },
+    correct: 'a'
+},
+{
+    id: 3823,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What does the abbreviation IETP stand for?',
+    options: {
+        a: 'Illustrated Engine Technical Procedure',
+        b: 'Interactive Electronic Technical Publication',
+        c: 'International Equipment Testing Programme'
+    },
+    correct: 'b'
+},
+{
+    id: 3824,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: "Which manual is described as the pilots' operational manual, but also contains much information useful to engineers?",
+    options: {
+        a: 'IPD',
+        b: 'RFM',
+        c: 'AMP'
+    },
+    correct: 'b'
+},
+{
+    id: 3825,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What is the purpose of the ACCP (Aircraft Corrosion Control Publication)?',
+    options: {
+        a: 'To describe wiring diagrams',
+        b: 'To manage corrosion control of the helicopter',
+        c: 'To list all consumable materials'
+    },
+    correct: 'b'
+},
+{
+    id: 3826,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'The IPCP publication is dedicated to troubleshooting which optional system?',
+    options: {
+        a: 'Fuel quantity system',
+        b: 'Autopilot system',
+        c: 'Full Ice Protection System (FIPS)'
+    },
+    correct: 'c'
+},
+{
+    id: 3827,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Which publication is the main troubleshooting publication for the AW139?',
+    options: {
+        a: 'CSRP',
+        b: 'AFIP',
+        c: 'AMDI'
+    },
+    correct: 'b'
+},
+{
+    id: 3828,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What generates a maintenance message when the monitoring system detects a fault?',
+    options: {
+        a: 'The IETP',
+        b: 'The pilot',
+        c: 'The CMS (Central Maintenance System)'
+    },
+    correct: 'c'
+},
+{
+    id: 3829,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Which type of BIT runs continuously in the background with no effect on system operation?',
+    options: {
+        a: 'CBIT',
+        b: 'PBIT',
+        c: 'IBIT'
+    },
+    correct: 'a'
+},
+{
+    id: 3830,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What does AMDI cover?',
+    options: {
+        a: 'Identification, requisition, storage and utilisation of consumable materials',
+        b: 'Structural repair procedures',
+        c: 'Wiring diagrams for electrical systems'
+    },
+    correct: 'a'
+},
+{
+    id: 3831,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'The AMP is generally split into which two types of Data Modules?',
+    options: {
+        a: 'Technical and Operational',
+        b: 'Descriptive and Procedural',
+        c: 'Preliminary and Final'
+    },
+    correct: 'b'
+},
+{
+    id: 3832,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What is the purpose of the AMPI publication?',
+    options: {
+        a: 'To define wiring routing',
+        b: 'To give data to assist in maintenance planning',
+        c: 'To list illustrated parts for ordering'
+    },
+    correct: 'b'
+},
+{
+    id: 3833,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Which publication provides generic repair information common to all Leonardo Helicopters products?',
+    options: {
+        a: 'CSRP',
+        b: 'ASRP',
+        c: 'ITEP'
+    },
+    correct: 'a'
+},
+{
+    id: 3834,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'The AWDP is split into three volumes allocated according to what?',
+    options: {
+        a: 'A range of helicopter serial numbers',
+        b: 'Aircraft role (VIP, EMS, SAR)',
+        c: 'Engine type fitted'
+    },
+    correct: 'a'
+},
+{
+    id: 3835,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'In the AWDP, what does Chapter 91 of each volume contain?',
+    options: {
+        a: 'Helicopter general description and effectivity codes',
+        b: 'Equipment list, wire list, plug and receptacle list, ground list and diagrams',
+        c: 'Service bulletins and information letters'
+    },
+    correct: 'b'
+},
+{
+    id: 3836,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What does the MMEL identify?',
+    options: {
+        a: 'The minimum crew required for flight',
+        b: 'The minimum fuel load for despatch',
+        c: 'Equipment that may be inoperative while maintaining an acceptable level of safety'
+    },
+    correct: 'c'
+},
+{
+    id: 3837,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: "An operator's MEL may differ in format from the MMEL, but must be:",
+    options: {
+        a: 'Less restrictive than the MMEL',
+        b: 'Identical to the MMEL',
+        c: 'No less restrictive than the MMEL'
+    },
+    correct: 'c'
+},
+{
+    id: 3838,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What new publication was added to the IETP at version 45?',
+    options: {
+        a: 'AFIP (Aircraft Fault Isolation Publication)',
+        b: 'AWDP (Aircraft Wiring Diagram Publication)',
+        c: 'CSPP (Common Standard Practices Publication)'
+    },
+    correct: 'c'
+},
+{
+    id: 3839,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'CAT B operational procedures in the RFM are detailed in which section?',
+    options: {
+        a: 'Section 5 - Optional Equipment Supplements',
+        b: 'Section 8 - Handling, Servicing and Maintenance',
+        c: 'Section 2 - Normal Procedures'
+    },
+    correct: 'c'
+},
+{
+    id: 3840,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Malfunction procedures in the RFM Emergency and Malfunction Procedures section relate to which type of message?',
+    options: {
+        a: 'Caution (amber) messages',
+        b: 'Warning (red) messages',
+        c: 'Advisory (white) messages'
+    },
+    correct: 'a'
+},
+/* {
+    id: 3841,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'The QRH is mandatory for which type of operation?',
+    options: {
+        a: 'Two-pilot IFR operations only',
+        b: 'Training flights only',
+        c: 'Single pilot operations'
+    },
+    correct: 'c'
+}, */
+{
+    id: 3842,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'How long should the Ignition system be left untouched after switching off, per the safety note?',
+    options: {
+        a: 'Ten minutes',
+        b: 'Six minutes',
+        c: 'Two minutes'
+    },
+    correct: 'b'
+},
+{
+    id: 3843,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'After switching off electrical power, how long must the auxiliary battery remain plugged in to allow proper CMC shutdown?',
+    options: {
+        a: 'At least thirty minutes',
+        b: 'At least five minutes',
+        c: 'At least one minute'
+    },
+    correct: 'b'
+},
+{
+    id: 3844,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What two ATA chapters does the AMPI publication contain?',
+    options: {
+        a: 'ATA 04 and ATA 05',
+        b: 'ATA 00 and ATA 04',
+        c: 'ATA 05 and ATA 06'
+    },
+    correct: 'a'
+},
+{
+    id: 3845,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Unless otherwise specified, retirement lives are expressed in which unit?',
+    options: {
+        a: 'Flying Hours (FH)',
+        b: 'Engine cycles',
+        c: 'Calendar months'
+    },
+    correct: 'a'
+},
+{
+    id: 3846,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'If the number of landings for a component is not known, how is it calculated?',
+    options: {
+        a: 'By dividing the component flight hours by 2',
+        b: 'By assuming 1 landing per flight hour',
+        c: 'By multiplying the component flight hours by a factor of 6'
+    },
+    correct: 'c'
+},
+/* {
+    id: 3847,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'For parts such as the Fuselage Assembly, the Operator must contact the Manufacturer prior to approaching what flight hour threshold?',
+    options: {
+        a: '40000 FH',
+        b: '60000 FH',
+        c: '20000 FH'
+    },
+    correct: 'a'
+}, */
+{
+    id: 3848,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'A life penalty for CAT. A Training Operations is applied only to which parameter?',
+    options: {
+        a: 'Flying Hours',
+        b: 'Landings',
+        c: 'Calendar time'
+    },
+    correct: 'a'
+},
+{
+    id: 3849,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'A life penalty for Rotor Starting or Stopping above 33 kts wind speed increases which parameter?',
+    options: {
+        a: 'Calendar days',
+        b: 'Overhaul interval',
+        c: 'Landings'
+    },
+    correct: 'c'
+},
+{
+    id: 3850,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'An unreeling/recovery of the hoist cable with no load on the hook is considered:',
+    options: {
+        a: 'Not a lift',
+        b: 'Half a lift',
+        c: 'One full lift'
+    },
+    correct: 'a'
+},
+{
+    id: 3851,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'An External Load Cycle is defined as:',
+    options: {
+        a: 'Every rotor start-stop cycle',
+        b: 'Every flight regardless of cargo',
+        c: 'Every external load lift using the applicable cargo hook configuration'
+    },
+    correct: 'c'
+},
+{
+    id: 3852,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'A life penalty for operation above 6400 kg MTOW is applied to a flight when the total weight exceeds 6400 kg:',
+    options: {
+        a: 'At least once during the flight',
+        b: 'Only during take-off',
+        c: 'For the entire duration of the flight'
+    },
+    correct: 'a'
+},
+{
+    id: 3853,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What tolerance is permitted on mandatory inspections?',
+    options: {
+        a: '10% of the interval',
+        b: 'No tolerance is permitted',
+        c: '30 days maximum'
+    },
+    correct: 'b'
+},
+{
+    id: 3854,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What tolerance is permitted on Certification Maintenance Requirements?',
+    options: {
+        a: '10% or 50 hours, whichever is less',
+        b: 'No tolerance is permitted',
+        c: '100 landings maximum'
+    },
+    correct: 'b'
+},
+{
+    id: 3855,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What is the tolerance rule for an hourly inspection interval?',
+    options: {
+        a: 'Ten percent (10%) or 30 days maximum, whichever is less',
+        b: 'Five percent (5%) or 100 hours maximum, whichever is less',
+        c: 'Ten percent (10%) or 50 hours maximum, whichever is less'
+    },
+    correct: 'c'
+},
+{
+    id: 3856,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What is the tolerance rule for a calendar inspection interval?',
+    options: {
+        a: 'Ten percent (10%) or 50 hours maximum, whichever is less',
+        b: 'Ten percent (10%) or 30 days maximum, whichever is less',
+        c: 'Twenty percent (20%) or 60 days maximum, whichever is less'
+    },
+    correct: 'b'
+},
+{
+    id: 3857,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'If a 100 FH task (10 FH tolerance) is actually performed at 105 FH, when is the next inspection due?',
+    options: {
+        a: 'At 195 FH',
+        b: 'At 200 FH',
+        c: 'At 205 FH'
+    },
+    correct: 'b'
+},
+{
+    id: 3858,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'If a 100 FH task (10 FH tolerance) is performed early at 85 FH, when is the next inspection due?',
+    options: {
+        a: 'At 185 FH',
+        b: 'At 200 FH',
+        c: 'At 100 FH'
+    },
+    correct: 'a'
+},
+{
+    id: 3859,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What tolerance is permitted above the limit on component overhaul intervals?',
+    options: {
+        a: '50 hours maximum',
+        b: '10% of the interval',
+        c: 'No tolerance above the limit is permitted'
+    },
+    correct: 'c'
+},
+{
+    id: 3860,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'From what point is discard time normally calculated, unless differently specified?',
+    options: {
+        a: 'From the date of last overhaul',
+        b: 'From the date of manufacture',
+        c: 'From the date of installation'
+    },
+    correct: 'c'
+},
+{
+    id: 3861,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What is the interval basis for Phased 300-hour/1-year scheduled maintenance checks?',
+    options: {
+        a: '300 hours or 1 year, whichever occurs first',
+        b: '100 hours only',
+        c: '600 hours only'
+    },
+    correct: 'a'
+},
+{
+    id: 3862,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Progressive scheduled maintenance checks cover inspection requirements up to how many hours?',
+    options: {
+        a: '600 hours',
+        b: '1200 hours',
+        c: '300 hours'
+    },
+    correct: 'a'
+},
+{
+    id: 3863,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Airworthiness Checks expire after how many hours if the helicopter has not flown?',
+    options: {
+        a: '24 hours',
+        b: '72 hours',
+        c: '48 hours'
+    },
+    correct: 'b'
+},
+{
+    id: 3864,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'The maintenance requirements in the AMPI are established based on an analysis referred to as:',
+    options: {
+        a: 'RCM analysis',
+        b: 'FMEA analysis',
+        c: 'CMAP analysis'
+    },
+    correct: 'c'
+},
+{
+    id: 3865,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What is the main rotor diameter of the AW139?',
+    options: {
+        a: 'Ø13.8m (45.27ft)',
+        b: 'Ø14.5m (47.57ft)',
+        c: 'Ø12.6m (41.34ft)'
+    },
+    correct: 'a'
+},
+{
+    id: 3866,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What is the overall length of the AW139?',
+    options: {
+        a: '18.50m (60.69ft)',
+        b: '16.62m (54.55ft)',
+        c: '13.77m (45.18ft)'
+    },
+    correct: 'b'
+},
+{
+    id: 3867,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What is the approximate tailplane (horizontal stabiliser) span on the AW139?',
+    options: {
+        a: '4.22m (13.85ft)',
+        b: '3.57m (11.71ft)',
+        c: '8.40m (27.57ft)'
+    },
+    correct: 'a'
+},
+{
+    id: 3868,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: "What does the reference line 'STA' stand for on the AW139?",
+    options: {
+        a: 'Standard transverse axis',
+        b: 'Structural tie-in',
+        c: 'Station line'
+    },
+    correct: 'c'
+},
+{
+    id: 3869,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: "What does 'BL' represent in the AW139 reference lines?",
+    options: {
+        a: 'Baseline level',
+        b: 'Blade length',
+        c: 'Buttock line (left/right of the aircraft centreline)'
+    },
+    correct: 'c'
+},
+{
+    id: 3870,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: "What does 'WL' represent in the AW139 reference lines?",
+    options: {
+        a: 'Wing line',
+        b: 'Water line (vertical height reference)',
+        c: 'Wheel load'
+    },
+    correct: 'b'
+},
+/* {
+    id: 3871,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'The Cross Section diagram in ATA06 covers which station range?',
+    options: {
+        a: 'STA 6700.0 to STA 8700.0',
+        b: 'STA 3120.0 to STA 6700.0',
+        c: 'STA 0.0 to STA 3120.0'
+    },
+    correct: 'b'
+}, */
+{
+    id: 3872,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Which zone number is allocated to the Fuselage in the AW139 zonal breakdown?',
+    options: {
+        a: '300',
+        b: '100',
+        c: '700'
+    },
+    correct: 'b'
+},
+/* {
+    id: 3873,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Which zone number is allocated to the Tail Unit?',
+    options: {
+        a: '300',
+        b: '400',
+        c: '200'
+    },
+    correct: 'a'
+}, */
+{
+    id: 3874,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Which zone number covers the Power Plant, Transmission and Rotors?',
+    options: {
+        a: '400',
+        b: '200',
+        c: '700'
+    },
+    correct: 'a'
+},
+{
+    id: 3875,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Which zone number covers the Landing Gears and Sponsons?',
+    options: {
+        a: '400',
+        b: '700',
+        c: '300'
+    },
+    correct: 'b'
+},
+{
+    id: 3876,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: "In the panel identification example '111AL', what does the '111' represent?",
+    options: {
+        a: 'The number of the smallest zonal area the panel is in',
+        b: 'The access panel weight in kg',
+        c: "The panel's manufacture date code"
+    },
+    correct: 'a'
+},
+{
+    id: 3877,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: "In the panel identification example '111AL', what does the 'A' represent?",
+    options: {
+        a: 'Access category (A = critical)',
+        b: 'Serviceable life in years',
+        c: 'A primary identifier in alphabetic sequence (front to rear, inboard to outboard, top to bottom)'
+    },
+    correct: 'c'
+},
+{
+    id: 3878,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: "In the panel identification example '111AL', what does the final letter (Locator) indicate?",
+    options: {
+        a: "The panel's location relative to its position on the helicopter (e.g. bottom, left, right, top)",
+        b: 'The fastener type used',
+        c: 'The applicable ATA chapter'
+    },
+    correct: 'a'
+},
+{
+    id: 3879,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'At drain point D01 (STA 6752.0), what does the drain relate to?',
+    options: {
+        a: 'Hydraulic reservoir overflow',
+        b: 'Engine oil drain',
+        c: 'Number 2 Fuel Tank Vent'
+    },
+    correct: 'c'
+},
+{
+    id: 3880,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'How many people are required to lift or lower the helicopter on jacks?',
+    options: {
+        a: 'Three',
+        b: 'Seven',
+        c: 'Five (one per jack plus a supervisor)'
+    },
+    correct: 'c'
+},
+{
+    id: 3881,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'How many jacking points are there on the underside of the fuselage?',
+    options: {
+        a: 'Four',
+        b: 'Six',
+        c: 'Three'
+    },
+    correct: 'a'
+},
+{
+    id: 3882,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What happens to the WOW (Weight On Wheel) switches when the helicopter is lifted on jacks?',
+    options: {
+        a: 'They are disengaged',
+        b: 'They remain engaged',
+        c: 'They are bypassed manually by the supervisor'
+    },
+    correct: 'a'
+},
+{
+    id: 3883,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Why must the relevant circuit breakers be opened when the WOW switches disengage during jacking?',
+    options: {
+        a: 'The fuel boost pumps would otherwise activate',
+        b: 'The Radar system could transmit, with a danger of high-power radiation',
+        c: 'The hydraulic system would over-pressurise'
+    },
+    correct: 'b'
+},
+{
+    id: 3884,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Before slinging (lifting) the helicopter, what must be checked regarding the five lifting belts?',
+    options: {
+        a: 'They must be of different lengths for balance',
+        b: 'They must be the same distance from the hub axle',
+        c: 'They must be attached only to the tail'
+    },
+    correct: 'b'
+},
+{
+    id: 3885,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'During the levelling procedure, where is the digital level placed to check the helicopter is level?',
+    options: {
+        a: 'On the main rotor mast only',
+        b: 'On the anti-torque beam, both longitudinally and laterally',
+        c: 'On the tail rotor gearbox'
+    },
+    correct: 'b'
+},
+{
+    id: 3886,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: "If the helicopter's C of G moves too far aft, what effect does this have on pilot control?",
+    options: {
+        a: 'Reduced available forward cyclic as the aircraft becomes tail heavy',
+        b: 'No effect on cyclic control',
+        c: 'Increased available forward cyclic'
+    },
+    correct: 'a'
+},
+{
+    id: 3887,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Which section of the RFM contains the weight and balance computations referred to by the weighing procedure?',
+    options: {
+        a: 'Section 4',
+        b: 'Section 8',
+        c: 'Section 6'
+    },
+    correct: 'c'
+},
+{
+    id: 3888,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Where is the tow bar installed on the AW139?',
+    options: {
+        a: 'On the Nose Landing Gear',
+        b: 'On the tail skid',
+        c: 'On the Main Landing Gear'
+    },
+    correct: 'a'
+},
+{
+    id: 3889,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Before towing, what must be done to the NLG steering mechanism?',
+    options: {
+        a: 'It must be locked',
+        b: 'It must be unlocked',
+        c: 'It must be removed'
+    },
+    correct: 'b'
+},
+{
+    id: 3890,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'According to the warning, what must be physically checked before towing, in addition to the lever position?',
+    options: {
+        a: 'That the rotor brake is applied',
+        b: 'That the tyre pressure is correct',
+        c: 'That the ground locking pin is inserted'
+    },
+    correct: 'c'
+},
+{
+    id: 3891,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Who is required to move the helicopter using engine power during taxiing?',
+    options: {
+        a: 'A qualified pilot',
+        b: 'Any authorised ground crew member',
+        c: 'The towing vehicle operator'
+    },
+    correct: 'a'
+},
+{
+    id: 3892,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: "Up to what wind speed can the 'Parking' procedure be used?",
+    options: {
+        a: '39 m/s (75kts)',
+        b: '10.29 m/s (20kts)',
+        c: '22.9 m/s (44.5kts)'
+    },
+    correct: 'c'
+},
+{
+    id: 3893,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'At what wind speed must blade tie downs be used?',
+    options: {
+        a: 'Above 10.29 m/s (20kts)',
+        b: 'Above 23 m/s (45kts)',
+        c: 'Above 39 m/s (75kts)'
+    },
+    correct: 'a'
+},
+{
+    id: 3894,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What is the maximum duration for short-term storage of the helicopter?',
+    options: {
+        a: '180 days',
+        b: '60 days',
+        c: '30 days'
+    },
+    correct: 'b'
+},
+{
+    id: 3895,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What must be used to remove placards from the helicopter?',
+    options: {
+        a: 'A wire brush',
+        b: 'A plastic scraper',
+        c: 'A heat gun'
+    },
+    correct: 'b'
+},
+{
+    id: 3896,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: "Which placard language is mandatory, with an optional owner's language in addition?",
+    options: {
+        a: 'English',
+        b: 'Italian',
+        c: 'French'
+    },
+    correct: 'a'
+},
+{
+    id: 3897,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What is special about the VNE panel compared to other placards?',
+    options: {
+        a: 'It is made of metal',
+        b: 'It is self-adhesive only',
+        c: 'It is an integrally lighted panel'
+    },
+    correct: 'c'
+},
+{
+    id: 3898,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'The Servicing chapter (ATA12) is split into which four main sections?',
+    options: {
+        a: 'Jacking, Levelling, Weighing, Towing',
+        b: 'Replenishing/depleting, Scheduled servicing, Unscheduled servicing, Support equipment connect/disconnect',
+        c: 'Fuel, Oil, Hydraulics, Electrical only'
+    },
+    correct: 'b'
+},
+{
+    id: 3899,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What is the standard refuel installation on the AW139?',
+    options: {
+        a: 'Gravity refuel from a port on the starboard side',
+        b: 'Pressure refuel on the port side',
+        c: 'Pressure refuel on the starboard side only'
+    },
+    correct: 'a'
+},
+{
+    id: 3900,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'When connecting the bonding cable before refuelling, what is the correct sequence?',
+    options: {
+        a: 'Helicopter first, then ground',
+        b: 'Order does not matter',
+        c: 'Ground first, then helicopter'
+    },
+    correct: 'c'
+},
+{
+    id: 3901,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'When defueling one fuel tank, approximately how much fuel remains in the other (undefueled) tank?',
+    options: {
+        a: '285 litres (228 kg)',
+        b: '15-20 litres',
+        c: '100 litres'
+    },
+    correct: 'a'
+},
+{
+    id: 3902,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Approximately how much fuel remains in each tank once defueling is complete?',
+    options: {
+        a: '15-20 litres',
+        b: '100 litres',
+        c: '0 litres'
+    },
+    correct: 'a'
+},
+{
+    id: 3903,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'What must be operated to drain a fuel tank completely?',
+    options: {
+        a: 'The bleed valve',
+        b: 'The booster pump',
+        c: 'The water drain valve'
+    },
+    correct: 'c'
+},
+{
+    id: 3904,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'How is oil drained from the MGB (Main Gearbox)?',
+    options: {
+        a: 'By removing the chip detector and fitting a drain hose',
+        b: 'Through the oil filler cap using gravity',
+        c: 'Through a coupling at the front of the MGB, using a dedicated pump'
+    },
+    correct: 'c'
+},
+{
+    id: 3905,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'How are the IGB and TGB drained of oil?',
+    options: {
+        a: 'They cannot be drained in the field',
+        b: 'By removing the chip detector and installing a drain hose',
+        c: 'Through a coupling using a dedicated pump, the same as the MGB'
+    },
+    correct: 'b'
+},
+{
+    id: 3906,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'When filling the engine with oil, to what level should it be filled?',
+    options: {
+        a: 'Exactly 5 litres regardless of the sight gauge',
+        b: 'Until in the green band of the oil level sight',
+        c: 'Until oil overflows from the filler neck'
+    },
+    correct: 'b'
+},
+{
+    id: 3907,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Engine oil draining is achieved by removing drain hoses located below which component?',
+    options: {
+        a: 'The Main Gearbox (MGB)',
+        b: 'The Engine Accessory Gearbox (AGB)',
+        c: 'The Intermediate Gearbox (IGB)'
+    },
+    correct: 'b'
+},
+{
+    id: 3908,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'When filling the PCM reservoir with hydraulic fluid, what is connected to monitor air bubbles in the oil?',
+    options: {
+        a: 'A transparent tube, with the bleed valve open',
+        b: 'A pressure gauge',
+        c: 'A sight glass fitted permanently'
+    },
+    correct: 'a'
+},
+/* {
+    id: 3909,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'If a complete change of hydraulic fluid is required, what additional action is carried out?',
+    options: {
+        a: 'The main rotor is removed',
+        b: 'The engines are ground run for one hour',
+        c: 'The helicopter is lifted and the landing gear is fully retracted and extended'
+    },
+    correct: 'c'
+}, */
+{
+    id: 3910,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Where is the wheel brake reservoir located?',
+    options: {
+        a: 'In the tail rotor gearbox',
+        b: 'In the main gearbox compartment',
+        c: 'In the radome'
+    },
+    correct: 'c'
+},
+{
+    id: 3911,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Before gravity refilling the wheel brake reservoir, what must be done?',
+    options: {
+        a: 'The helicopter must be jacked',
+        b: 'The parking brake (wheel brake) must be released',
+        c: 'The rotor brake must be applied'
+    },
+    correct: 'b'
+},
+{
+    id: 3912,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'Regarding hydraulic fluid, what is prohibited?',
+    options: {
+        a: 'Mixing hydraulic fluid by specification or brand name',
+        b: 'Using fluid from a sealed container',
+        c: 'Topping up with the same specification fluid'
+    },
+    correct: 'a'
+},
+{
+    id: 3958,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: "What are 'Standard Practices' in the context of AMP chapter 20?",
+    options: {
+        a: 'General trade practices not specific to a helicopter type (tool use, assembly/disassembly, safety warnings)',
+        b: 'Pilot operating procedures',
+        c: 'Procedures unique only to the AW139'
+    },
+    correct: 'a'
+},
+{
+    id: 3959,
+    Aircraft: 'AW139',
+    Category: '04-12,20',
+    question: 'From IETP edition 45 onwards, standard practices content is also found in which separate publication?',
+    options: {
+        a: 'AFIP',
+        b: 'CSPP (Common Standard Practices Publication)',
+        c: 'AMDI'
+    },
+    correct: 'b'
+},
 
 {
-    id: 3815,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'Which balancer is used to carry out vibration analysis and rotor track and balance on the AW139?',
-    options: {
-        a: 'Chadwick Vibrex 2000',
-        b: 'HUMS ground station',
-        c: 'Strobex 2000 analyser'
-    },
-    correct: 'a'
+    id: 4030,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'Which safety feature ensures that, in the event of a crash, the structure will not jeopardise occupant escape?',
+    options: {
+        a: 'The fuselage is designed to float indefinitely in water',
+        b: 'All doors are explosively jettisoned on impact',
+        c: 'Deformation of the structure is controlled so that it does not jeopardise escape'
+    },
+    correct: 'c'
 },
 {
-    id: 3816,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'Where are the velocimeters installed for main rotor track and balance?',
-    options: {
-        a: 'On the main gearbox top case',
-        b: 'Behind the pilot seat',
-        c: 'Under the cabin floor next to the vibration absorbers'
-    },
-    correct: 'b'
+    id: 4031,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'Which areas of the fuselage are specifically required to be fireproof?',
+    options: {
+        a: 'The tail cone only',
+        b: 'The centre fuselage and engine areas',
+        c: 'The cockpit only'
+    },
+    correct: 'b'
 },
 {
-    id: 3817,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'During main rotor track and balance, which balancer connection is the axial/vertical velocimeter connected to?',
-    options: {
-        a: 'VELO 1',
-        b: 'MAG PU/PHOTOCELL B',
-        c: 'VELO 2'
-    },
-    correct: 'c'
+    id: 4032,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What is ground resonance, in terms of its cause?',
+    options: {
+        a: 'A vibration from an out-of-balance tail rotor only',
+        b: 'An electrical resonance in the avionics bus bar',
+        c: 'An oscillation caused by rotor blade mass imbalance in phase with the helicopter rocking on its landing gear'
+    },
+    correct: 'c'
 },
 {
-    id: 3818,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'What provides the rotor position reference signal to the MAG PU/PHOTOCELL A connection during main rotor track and balance?',
-    options: {
-        a: 'A photocell mounted on the right side of the fin',
-        b: 'A magnetic pick-up installed on the fixed swashplate',
-        c: 'The Strobex light via the AUX OUTPUT connection'
-    },
-    correct: 'b'
+    id: 4033,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'On what maintenance basis is the fuselage structure maintained, and what triggers re-establishment work?',
+    options: {
+        a: 'Hard-time basis; overhaul every 10 years regardless of condition',
+        b: 'ON CONDITION basis; re-establishment is only required in case of damage',
+        c: 'Condition monitoring via HUMS only, with no manual checks'
+    },
+    correct: 'b'
 },
 {
-    id: 3819,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'For tail rotor balance, where is the photocell installed?',
-    options: {
-        a: 'On the tail gearbox next to the velocimeters',
-        b: 'On the left side of the horizontal stabiliser',
-        c: 'On the right side of the fin'
-    },
-    correct: 'c'
+    id: 4034,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'Before what service life is no overhaul of the fuselage structure required?',
+    options: {
+        a: '15 years or 12,500 flight hours',
+        b: '30 years or 25,000 flight hours',
+        c: '50 years or 40,000 flight hours'
+    },
+    correct: 'b'
 },
 {
-    id: 3820,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'In addition to Nr 100%, collective at minimum and cyclic at neutral, which conditions apply to a ground run for tail rotor balance?',
-    options: {
-        a: 'Tail rotor pedals centred and aircraft weight at minimum',
-        b: 'Tail rotor pedals at full left and aircraft weight above 5000 kg',
-        c: 'Tail rotor pedals centred and aircraft weight above 5000 kg'
-    },
-    correct: 'a'
+    id: 4035,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What material is used for the upper deck of the fuselage, in contrast to the aluminium alloy longerons, formers and bulkheads?',
+    options: {
+        a: 'The same aluminium alloy as the longerons',
+        b: 'Kevlar',
+        c: 'Titanium'
+    },
+    correct: 'c'
 },
 {
-    id: 3821,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'What are the conditions for hover flight during main and tail rotor tracking and balance?',
-    options: {
-        a: 'Aircraft weight at minimum, IGE, Nr 100%',
-        b: 'Aircraft weight above 5000 kg, OGE, Nr 100%',
-        c: 'Aircraft weight above 5000 kg, IGE, Nr 102%'
-    },
-    correct: 'b'
+    id: 4036,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'Compared to carbon fibre, how does fibreglass behave structurally?',
+    options: {
+        a: 'Fibreglass is unaffected by moisture, unlike carbon fibre',
+        b: 'The glass inside the fibre can undergo more elongation or stretching than carbon fibre',
+        c: 'Fibreglass has a higher compressive strength than carbon fibre'
+    },
+    correct: 'b'
 },
 {
-    id: 3822,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'What is the maximum balance weight that can be installed inside a main rotor blade bolt?',
-    options: {
-        a: '0.148 kg (0.326 lb)',
-        b: '0.3 kg (0.66 lb)',
-        c: '0.2 kg (0.44 lb)'
-    },
-    correct: 'c'
+    id: 4037,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What is the primary long-term degradation risk for fibreglass components?',
+    options: {
+        a: 'Galvanic corrosion with aluminium fittings',
+        b: 'Moisture absorption, which deteriorates microscopic cracks and increases surface defects',
+        c: 'Oxidation from engine exhaust gases'
+    },
+    correct: 'b'
 },
 {
-    id: 3823,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'What is the maximum balance weight that can be installed inside a tail rotor blade bolt?',
-    options: {
-        a: '0.148 kg (0.326 lb)',
-        b: '0.2 kg (0.44 lb)',
-        c: '0.1 kg (0.22 lb)'
-    },
-    correct: 'a'
+    id: 4038,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'Approximately how much stronger is Kevlar than steel, on an equal weight basis?',
+    options: {
+        a: 'Ten times as strong',
+        b: 'Five times as strong',
+        c: 'Twice as strong'
+    },
+    correct: 'b'
 },
 {
-    id: 3824,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'What is the effect of turning a main rotor pitch link sleeve clockwise?',
-    options: {
-        a: 'Pitch link length decreases, blade pitch decreases and the blade moves down',
-        b: 'Pitch link length increases, blade pitch increases and the blade moves up',
-        c: 'Pitch link length increases, blade pitch decreases and the blade moves down'
-    },
-    correct: 'b'
+    id: 4039,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What environmental factor specifically degrades and decomposes Kevlar?',
+    options: {
+        a: 'High humidity',
+        b: 'Low temperature',
+        c: 'Ultraviolet (UV) light'
+    },
+    correct: 'c'
 },
 {
-    id: 3825,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'During a ground track, one main rotor blade is flying approximately 21 mm lower than the others. What pitch link adjustment is required?',
-    options: {
-        a: 'Turn the pitch link sleeve 3 graduations anticlockwise',
-        b: 'Turn the pitch link sleeve 7 graduations clockwise',
-        c: 'Turn the pitch link sleeve 3 graduations clockwise'
-    },
-    correct: 'c'
+    id: 4040,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'Which reinforcing material used in the fuselage has the highest compressive strength?',
+    options: {
+        a: 'Fibreglass',
+        b: 'Kevlar',
+        c: 'Carbon fibre'
+    },
+    correct: 'c'
 },
 {
-    id: 3826,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'During level flight track at 120 kts, a main rotor blade is found to be flying low. What corrective action is required?',
-    options: {
-        a: 'Bend the outer trim tab upwards, up to a maximum of 8 degrees',
-        b: 'Bend the inner trim tab downwards, up to a maximum of 8 degrees',
-        c: 'Lengthen the pitch link until vibration is below 0.1 IPS'
-    },
-    correct: 'a'
+    id: 4041,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'How does titanium compare to steel in terms of weight and strength?',
+    options: {
+        a: 'Half the weight of steel but twice as strong',
+        b: 'Twice the weight of steel and twice as strong',
+        c: 'The same weight as steel but half as strong'
+    },
+    correct: 'a'
 },
 {
-    id: 3827,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'During the main rotor level flight track, which adjustment is used to correct vibration at 150 kts?',
-    options: {
-        a: 'Pitch link',
-        b: 'Outer trim tab',
-        c: 'Inner trim tab'
-    },
-    correct: 'c'
+    id: 4042,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What property of aluminium alloys means that fatigue failure will eventually occur even under very small cyclic loads?',
+    options: {
+        a: 'They have no well-defined fatigue limit',
+        b: 'They have a very high fatigue limit',
+        c: 'They are immune to fatigue below their yield point'
+    },
+    correct: 'a'
 },
 {
-    id: 3828,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'During the main rotor ground balance step, radial vibration is measured at 0.25 IPS. What is the next action in the flow chart?',
-    options: {
-        a: 'Add blade bolt weight until vibration is below 0.1 IPS before continuing',
-        b: 'The ground balance limit is met, so proceed to hover track and balance',
-        c: 'Correct the vibration using the pitch links before continuing'
-    },
-    correct: 'b'
+    id: 4043,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'How does aluminium behave differently from steel when heated to failure in a fire?',
+    options: {
+        a: 'Aluminium is fireproof and does not melt',
+        b: 'Aluminium glows red well before melting, like steel',
+        c: 'Aluminium will melt without first glowing red'
+    },
+    correct: 'c'
 },
 {
-    id: 3829,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'How is main rotor radial/lateral vibration corrected?',
-    options: {
-        a: 'With weights installed inside the blade installation bolts, calculated using a balance chart',
-        b: 'With pitch link adjustments, calculated using a balance chart',
-        c: 'With outer and inner trim tab bending, calculated using the gauge tool'
-    },
-    correct: 'a'
+    id: 4044,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'Which aluminium alloy is commonly used for aircraft structures, fuselage skins, rivets and heat-treated fittings, being a heat-treatable Al-Cu alloy?',
+    options: {
+        a: 'Alloy 2024',
+        b: 'Alloy 6061',
+        c: 'Alloy 2014'
+    },
+    correct: 'a'
+},
+/* {
+    id: 4045,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'Which aluminium alloy is noted as weldable by all commercial procedures and methods?',
+    options: {
+        a: 'Alloy 6061',
+        b: 'Alloy 7075',
+        c: 'Alloy 2024'
+    },
+    correct: 'a'
+}, */
+{
+    id: 4046,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'Alloy 7075 is a high-strength Al-Zn-Mg-Cu alloy generally used in which type of application?',
+    options: {
+        a: 'Tension applications where fatigue is not critical',
+        b: 'Low-strength trim panels',
+        c: 'High-fatigue rotating components'
+    },
+    correct: 'a'
 },
 {
-    id: 3830,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'What are the tail rotor balance acceptance limits in the flow chart?',
-    options: {
-        a: 'Ground balance below 0.3 IPS and hover balance below 0.2 IPS',
-        b: 'Ground balance below 0.2 IPS and hover balance below 0.1 IPS',
-        c: 'Ground balance below 0.1 IPS and hover balance below 0.2 IPS'
-    },
-    correct: 'c'
+    id: 4047,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What is Alclad, and what property does it give an aluminium alloy sheet?',
+    options: {
+        a: 'A ceramic coating that provides fireproofing',
+        b: 'A pure aluminium surface coating bonded to a high-strength alloy core, giving near-pure-aluminium corrosion resistance with the strength of the alloy beneath',
+        c: 'A chromate conversion coating applied only to titanium parts'
+    },
+    correct: 'b'
 },
 {
-    id: 3831,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'Looking from the LH side of the helicopter (advancing blade), what is the main rotor blade identification sequence after the Target-Yellow blade?',
-    options: {
-        a: 'Red, White, Blue, Black',
-        b: 'Blue, Red, Black, White',
-        c: 'White, Black, Red, Blue'
-    },
-    correct: 'b'
+    id: 4048,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'In a sandwich panel construction, what is the primary structural role of the lightweight core material?',
+    options: {
+        a: 'It supports the face sheets against buckling and resists out-of-plane shear loads',
+        b: 'It acts solely as a thermal insulator with no structural function',
+        c: 'It provides the primary bending strength of the panel'
+    },
+    correct: 'a'
+},
+/* {
+    id: 4049,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'Why can carbon fibre face sheets not be used with an aluminium honeycomb core?',
+    options: {
+        a: 'Because the adhesive used will not bond to aluminium',
+        b: 'Because carbon fibre is too heavy for aluminium honeycomb to support',
+        c: 'Because direct contact between carbon fibre and aluminium causes the aluminium to corrode'
+    },
+    correct: 'c'
+}, */
+{
+    id: 4050,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What is the station (STA) position of the nose aft end, which is common to all AW139 variants?',
+    options: {
+        a: 'STA 725.0',
+        b: 'STA 1500.0',
+        c: 'STA 1070.0'
+    },
+    correct: 'b'
 },
 {
-    id: 3832,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'What frequency are the cabin floor passive vibration absorbers designed to reduce?',
-    options: {
-        a: 'Main rotor 1/rev, up to a maximum of 5 Hz',
-        b: 'Main rotor 5/rev, up to a maximum of 24.5 Hz',
-        c: 'Tail rotor 1/rev, up to a maximum of 24.5 Hz'
-    },
-    correct: 'b'
+    id: 4051,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: "Which frame is unique to the primary structure of the 'long nose' (1L) variant, in addition to the frames common to all variants?",
+    options: {
+        a: 'Frame STA 725.0',
+        b: 'Frame STA 1070.0',
+        c: 'Frame STA 1500.0'
+    },
+    correct: 'a'
 },
 {
-    id: 3833,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'The mast vibration absorber mass group requires replacement. What else must be replaced, and why?',
-    options: {
-        a: 'The conical ring, because its solid lubricant layer is damaged on removal',
-        b: 'The cap stop, because it is matched to the mass group serial number',
-        c: 'The rod assembly, because the mass group and rod assembly are tuned together and supplied as a kit'
-    },
-    correct: 'c'
+    id: 4052,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What is hinged to the frame at STA 1070.0?',
+    options: {
+        a: 'The windshield',
+        b: 'The cockpit door',
+        c: 'The nose door'
+    },
+    correct: 'c'
 },
 {
-    id: 3834,
-    Aircraft: 'AW139',
-    Category: '18',
-    question: 'What is the approximate weight of the mast vibration absorber mass group, and what are its calibrated weights made from?',
-    options: {
-        a: 'Approximately 19 kg (41.9 lb), with tungsten calibrated weights',
-        b: 'Approximately 19 kg (41.9 lb), with 4130 steel calibrated weights',
-        c: 'Approximately 9 kg (19.8 lb), with tungsten calibrated weights'
-    },
-    correct: 'a'
+    id: 4053,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'Between which two stations is the cockpit primary structure located?',
+    options: {
+        a: 'STA 1500.0 and STA 3120.0',
+        b: 'STA 0.0 and STA 1500.0',
+        c: 'STA 3120.0 and STA 6700.0'
+    },
+    correct: 'a'
+},
+{
+    id: 4054,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What type of construction is used for the cockpit, and what key material is bonded and screwed to the metallic structure?',
+    options: {
+        a: 'Composite construction, with a Kevlar structure bonded and screwed to the metallic structure',
+        b: 'Pure titanium monocoque construction',
+        c: 'Wood and fabric construction'
+    },
+    correct: 'a'
+},
+{
+    id: 4055,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What is contained below the cockpit floor?',
+    options: {
+        a: 'The main gearbox',
+        b: 'Four longerons and the aft section of the nose landing-gear bay',
+        c: 'The tail rotor drive shaft'
+    },
+    correct: 'b'
+},
+{
+    id: 4056,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What type of construction is used for the centre fuselage, and what does it contain?',
+    options: {
+        a: 'Composite monocoque construction; contains only the passenger cabin',
+        b: 'Metallic semi-monocoque construction; contains only the avionics bay',
+        c: 'Metallic semi-monocoque construction; contains the passenger cabin, fuel tanks, hydraulics, landing gear, flight controls and powerplant'
+    },
+    correct: 'c'
+},
+{
+    id: 4057,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'Where are the sponsons located?',
+    options: {
+        a: 'On the tail cone',
+        b: 'Under the cockpit floor',
+        c: 'At the end of the centre fuselage'
+    },
+    correct: 'c'
+},
+{
+    id: 4058,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What does the rear (aft) fuselage enclose?',
+    options: {
+        a: 'The baggage compartment, some avionics LRUs, and the powerplant',
+        b: 'The cockpit instrument panel',
+        c: 'The passenger cabin and fuel tanks'
+    },
+    correct: 'a'
+},
+{
+    id: 4059,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'Which frames and bulkheads form the primary structure of the aft fuselage?',
+    options: {
+        a: 'Frame STA 6700.0, frame STA 8700.0, bulkhead STA 7200.0 and bulkhead STA 8150.0',
+        b: 'Frame STA 1500.0 and frame STA 2105.0',
+        c: 'Frame STA 725.0 and frame STA 1070.0'
+    },
+    correct: 'a'
+},
+{
+    id: 4060,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What type of construction is the tail section, and what does it consist of?',
+    options: {
+        a: 'Metallic semi-monocoque construction, consisting of a cone and a fin',
+        b: 'Composite monocoque construction, consisting of a single shell',
+        c: 'A welded steel tube truss structure'
+    },
+    correct: 'a'
+},
+{
+    id: 4061,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'How many short longerons and fittings connect the tail cone to the vertical fin?',
+    options: {
+        a: 'Two short longerons and two fittings',
+        b: 'Four short longerons and four fittings',
+        c: 'Six short longerons and six fittings'
+    },
+    correct: 'c'
+},
+{
+    id: 4062,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'How many bolts secure the tail section to the rear fuselage, and which one is the longest?',
+    options: {
+        a: 'Eight bolts; all bolts are the same length',
+        b: 'Four bolts; the top bolt is the longest',
+        c: 'Six bolts; the middle bolt on either side is the longest'
+    },
+    correct: 'c'
+},
+{
+    id: 4063,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'Before removing the tail unit, which flight control rod must be removed?',
+    options: {
+        a: 'The pitch flight control rod',
+        b: 'The yaw flight control rod Y7',
+        c: 'The roll flight control rod'
+    },
+    correct: 'b'
+},
+{
+    id: 4064,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'In addition to removing the tail rotor drive shaft, tail rotor, and yaw control rod, what fluid-related task must be completed before tail unit removal?',
+    options: {
+        a: 'The engine oil must be drained',
+        b: 'PCM1 and PCM2 must be drained',
+        c: 'The fuel tanks must be fully defueled'
+    },
+    correct: 'b'
+},
+{
+    id: 4065,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What is the approximate weight of the tail unit structure alone?',
+    options: {
+        a: '160 kg (353 lb)',
+        b: '40.3 kg (89 lb)',
+        c: '80.7 kg (178 lb)'
+    },
+    correct: 'c'
+},
+{
+    id: 4066,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What modification (per BT 139-200) was introduced to reinforce the tail-boom structure?',
+    options: {
+        a: 'An additional strake on the RH side',
+        b: 'Four longeron reinforcements/extensions installed on both the LH and RH side',
+        c: 'A doubled vertical fin skin thickness'
+    },
+    correct: 'b'
+},
+{
+    id: 4067,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: "What is the horizontal stabiliser's spar material, in an otherwise aluminium and composite construction?",
+    options: {
+        a: 'Carbon fibre',
+        b: 'Kevlar',
+        c: 'Titanium'
+    },
+    correct: 'a'
+},
+{
+    id: 4068,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: "How is the horizontal stabiliser's tail plane connected to the vertical stabiliser?",
+    options: {
+        a: 'By rivets along the full span of the leading edge',
+        b: 'By a single central pivot bolt',
+        c: 'Via fittings using bolts at the forward holes and adjustable rods at the aft holes'
+    },
+    correct: 'c'
+},
+{
+    id: 4069,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What is the purpose of the strake mounted on the upper left side of the tail section?',
+    options: {
+        a: 'Main rotor downwash against it produces an aerodynamic force that improves hover and lateral flight performance',
+        b: 'It houses the tail rotor gearbox oil cooler',
+        c: 'It is a lightning diverter strip'
+    },
+    correct: 'a'
+},
+{
+    id: 4070,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What is the inspection interval for a DI (detailed inspection) of the NLG retraction actuator bracket for corrosion and condition?',
+    options: {
+        a: '1 year',
+        b: '4 years',
+        c: '8 years'
+    },
+    correct: 'b'
+},
+{
+    id: 4071,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'At what landing intervals must the NLG actuator fitting and back-up structure GVI be performed, for the back-up structure versus the machined parts?',
+    options: {
+        a: 'Every 4450 landings (back-up structure) and every 23450 landings (machined parts)',
+        b: 'Every 100 hours for both',
+        c: 'Every 1000 landings for both'
+    },
+    correct: 'a'
+},
+{
+    id: 4072,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What is the inspection interval for a DI of the right external engine reinforcement?',
+    options: {
+        a: '12 years',
+        b: '8 years',
+        c: '4 years'
+    },
+    correct: 'b'
+},
+{
+    id: 4073,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What specific area must be given particular attention during the DI of Frame STN 3900 (RH)?',
+    options: {
+        a: 'The area adjacent to the upper deck/lower section of the frame',
+        b: 'The area near the nose landing gear',
+        c: 'The tail rotor gearbox mount'
+    },
+    correct: 'a'
+},
+{
+    id: 4074,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What additional inspection method is required alongside the DI of the tail cone fittings at STN 8700?',
+    options: {
+        a: 'Boroscope inspection of the bolt holes',
+        b: 'X-ray inspection of the entire tail cone',
+        c: 'Dye penetrant inspection of the vertical fin skin'
+    },
+    correct: 'a'
+},
+{
+    id: 4075,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What is the inspection interval for the GVI of helicopter external surfaces for corrosion and condition?',
+    options: {
+        a: '1 week',
+        b: '1 month',
+        c: '1 year'
+    },
+    correct: 'b'
+},
+{
+    id: 4076,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What inspection method is used on the tail assembly to detect signs of debonding, and at what interval?',
+    options: {
+        a: 'A DI using a hammer tapping check, every 300 hours',
+        b: 'A GVI using a torch, every 50 hours',
+        c: 'An eddy current inspection, every 1000 hours'
+    },
+    correct: 'a'
+},
+{
+    id: 4077,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'Why is a hammer tapping check specifically used to inspect the tail assembly for debonding, rather than a standard visual check?',
+    options: {
+        a: 'Because hammer tapping is faster than a visual check',
+        b: 'Because the tail assembly is painted and cannot be visually inspected',
+        c: 'Because debonding of a bonded structure may not be visible externally, but changes the acoustic response when tapped'
+    },
+    correct: 'c'
+},
+{
+    id: 4078,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What does PSE stand for, and why are PSEs significant?',
+    options: {
+        a: 'Post-Service Evaluation; a post-flight inspection category',
+        b: 'Principal Structural Elements; their failure could result in catastrophic failure of the rotorcraft',
+        c: 'Primary Service Equipment; items requiring daily servicing'
+    },
+    correct: 'b'
+},
+{
+    id: 4079,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What is the relationship between the ASRP and the CSRP when repairing a specific damaged part?',
+    options: {
+        a: 'The CSRP is specific to the AW139 only; the ASRP is common to all Leonardo platforms',
+        b: 'They are identical publications with different titles',
+        c: 'The ASRP contains special repair procedures specific to one part/area and frequently refers back to the CSRP, which contains standard procedures common to different parts and helicopters'
+    },
+    correct: 'c'
+},
+{
+    id: 4080,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'If information needed for a repair is not available in either the CSRP or the ASRP, what should the operator do?',
+    options: {
+        a: 'Apply the nearest equivalent fixed-wing aircraft repair procedure',
+        b: 'Use their own engineering judgement without further reference',
+        c: 'Request the information from Leonardo Helicopters'
+    },
+    correct: 'c'
+},
+{
+    id: 4081,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'If there is an incompatibility between the ACCP corrosion inspection requirements and the AMPI Section 05-20 inspection requirements, which takes precedence?',
+    options: {
+        a: 'Whichever was most recently revised takes precedence',
+        b: 'The ACCP requirements always take precedence',
+        c: 'The AMPI Section 05-20 requirements take precedence'
+    },
+    correct: 'c'
+},
+{
+    id: 4082,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'What is an MSDS, and why should it be consulted before using a chemical product during maintenance?',
+    options: {
+        a: 'A Modification Status Data Sheet; it tracks embodied service bulletins',
+        b: 'A Material Safety Data Sheet; it gives detailed information on physical/chemical properties, health, safety, fire and environmental hazards',
+        c: 'A Maintenance Schedule Data Summary; it lists task intervals only'
+    },
+    correct: 'b'
+},
+{
+    id: 4083,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: "On what basis is the corrosion control program's zonal inspection scheduling mainly established?",
+    options: {
+        a: 'Severity of exposure and accessibility of each zone, environmental conditions, and geographical location',
+        b: 'Flight hours only, regardless of environment',
+        c: 'Aircraft serial number only'
+    },
+    correct: 'a'
+},
+{
+    id: 4084,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'Why must detergent used in the manual cleaning procedure be fully rinsed off the helicopter?',
+    options: {
+        a: 'Because detergent residue interferes with paint curing only',
+        b: 'Because residual detergent not fully rinsed off can cause corrosion',
+        c: 'Because detergent residue reduces radio transmission range'
+    },
+    correct: 'b'
+},
+{
+    id: 4085,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'Between which stations is the left cockpit door installed?',
+    options: {
+        a: 'STA 3940 and STA 5654',
+        b: 'STA 2105 and STA 3120',
+        c: 'STA 1500 and STA 2105'
+    },
+    correct: 'b'
+},
+{
+    id: 4086,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'What material is the left cockpit door made of?',
+    options: {
+        a: 'Composite material',
+        b: 'Aluminium alloy',
+        c: 'Fibreglass only, with no composite content'
+    },
+    correct: 'a'
+},
+{
+    id: 4087,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'What is the key difference between the top and bottom cockpit door hinge fasteners?',
+    options: {
+        a: 'The top hinge uses a washer, the bottom hinge uses shims',
+        b: 'Both use identical fasteners with no differences',
+        c: 'The bottom hinge uses a washer, the top hinge uses shims'
+    },
+    correct: 'c'
+},
+{
+    id: 4088,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'How does turning the key clockwise on the revolving plug affect the left cockpit door?',
+    options: {
+        a: 'It locks the door permanently',
+        b: 'It unlocks the door via the trigger',
+        c: 'It has no effect on the latch'
+    },
+    correct: 'b'
+},
+{
+    id: 4089,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'What additional feature does the right cockpit door have, compared to the left cockpit door?',
+    options: {
+        a: 'A sliding window of acrylic-plastic with a handle',
+        b: 'An extra external handle',
+        c: 'A second key-operated lock'
+    },
+    correct: 'a'
+},
+/* {
+    id: 4090,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'Between which stations are the cockpit door actuators installed?',
+    options: {
+        a: 'STA 2688.9 and STA 2912.4',
+        b: 'STA 3120 and STA 3940',
+        c: 'STA 1500 and STA 2105'
+    },
+    correct: 'a'
+}, */
+{
+    id: 4091,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'What is the maximum angle to which the cockpit door actuator allows the door to open?',
+    options: {
+        a: '75.5°',
+        b: '45°',
+        c: '90°'
+    },
+    correct: 'a'
+},
+{
+    id: 4092,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'What keeps the cockpit door actuators in the correct position?',
+    options: {
+        a: 'Two spherical pins',
+        b: 'A single locking bolt',
+        c: 'A hydraulic lock'
+    },
+    correct: 'a'
+},
+{
+    id: 4093,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'What is the purpose of the rubber seal around the cockpit door window?',
+    options: {
+        a: 'It is purely decorative trim',
+        b: 'It attaches/seats the window into the door structure',
+        c: 'It provides an electrical bonding path'
+    },
+    correct: 'b'
+},
+{
+    id: 4094,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'Between which stations is the left cabin door installed?',
+    options: {
+        a: 'STA 5700 and STA 6700',
+        b: 'STA 3940 and STA 5654',
+        c: 'STA 2105 and STA 3120'
+    },
+    correct: 'b'
+},
+{
+    id: 4095,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'How do the cabin doors move to open and close?',
+    options: {
+        a: 'It moves aft to open and forward to close, along a top and bottom rail',
+        b: 'It swings outward on one hinge like the cockpit door',
+        c: 'It lifts vertically on a gas strut'
+    },
+    correct: 'a'
+},
+{
+    id: 4096,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'What prevents the cabin door from sliding past the fully closed or fully open positions on its rails?',
+    options: {
+        a: 'A single central detent pin',
+        b: 'The forward stop and aft stop installed in the top rail (closed), and the cabin door stop in the bottom rail (open)',
+        c: 'The door is held in position only by friction'
+    },
+    correct: 'b'
+},
+{
+    id: 4097,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'What does the central mechanism assembly on the cabin door do?',
+    options: {
+        a: 'It raises and lowers the door window',
+        b: 'It controls a cabin pressurisation seal',
+        c: 'It operates a roller assembly, via internal and external handles, that latches the door to the structure'
+    },
+    correct: 'c'
+},
+{
+    id: 4098,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'Where is the left cabin-door stop installed?',
+    options: {
+        a: 'On the tail cone',
+        b: 'Inside the baggage compartment',
+        c: 'Below the left cabin door and above the left sponson'
+    },
+    correct: 'c'
+},
+{
+    id: 4099,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'How many screws attach the left cabin-door stop to the sponson?',
+    options: {
+        a: 'Four',
+        b: 'Two',
+        c: 'Six'
+    },
+    correct: 'a'
+},
+/* {
+    id: 4100,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'How many nuts, washers and screws attach each baggage compartment door hinge to the structure?',
+    options: {
+        a: 'Four of each',
+        b: 'Six of each',
+        c: 'Two of each'
+    },
+    correct: 'a'
+}, */
+{
+    id: 4101,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'How is the baggage compartment door opened once unlocked?',
+    options: {
+        a: 'Push the door inward',
+        b: 'Pull and turn the handle, releasing the two lock pins',
+        c: 'Lift the door vertically off its hinges'
+    },
+    correct: 'b'
+},
+{
+    id: 4102,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'What is the function of the door gas spring on the baggage compartment door?',
+    options: {
+        a: 'It only dampens the closing speed',
+        b: 'It locks the door closed',
+        c: 'It keeps the door in the open position once opened'
+    },
+    correct: 'c'
+},
+/* {
+    id: 4103,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'How many pins, washers and cotter pins attach the gas spring to the top and bottom hinges?',
+    options: {
+        a: 'Two pins, two washers, two cotter pins',
+        b: 'Four pins, four washers, four cotter pins',
+        c: 'One pin, one washer, one cotter pin'
+    },
+    correct: 'a'
+}, */
+{
+    id: 4104,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'Why are cotter pins used in conjunction with the gas spring attachment pins?',
+    options: {
+        a: 'To prevent the pins from working loose and falling out',
+        b: 'To allow quick-release of the gas spring in flight',
+        c: 'To provide an electrical bond'
+    },
+    correct: 'a'
+},
+{
+    id: 4105,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'Which of the following is NOT listed as a primary component of the service door installation?',
+    options: {
+        a: 'The left maintenance step',
+        b: 'The main rotor blade',
+        c: 'The nose door'
+    },
+    correct: 'b'
+},
+{
+    id: 4106,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'What attaches each access panel to the structure?',
+    options: {
+        a: 'Rivets only',
+        b: 'Velcro fasteners',
+        c: 'Camlocks, leaf springs, screws and washers'
+    },
+    correct: 'c'
+},
+{
+    id: 4107,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'In addition to camlocks, screws and washers, what additional fastener type is used to attach baggage-compartment access panels?',
+    options: {
+        a: 'Quick-release pins only',
+        b: 'Magnetic latches',
+        c: 'Tiedown rings and wing nuts'
+    },
+    correct: 'c'
+},
+{
+    id: 4108,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'Where is the nose door located, and what is it made of?',
+    options: {
+        a: 'STA 3120, an aluminium panel',
+        b: 'STA 5700, a titanium panel',
+        c: 'STA 1500, a fibreglass panel with a hinge'
+    },
+    correct: 'c'
+},
+{
+    id: 4109,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: "What is the function of the nose door's restraint cables?",
+    options: {
+        a: 'They lock the door fully closed',
+        b: 'They hold the door partially open so it cannot open fully, until their quick-release pins are removed',
+        c: 'They provide electrical bonding to the airframe'
+    },
+    correct: 'b'
+},
+{
+    id: 4110,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'Why might the nose door be deliberately restrained from opening fully unless the quick-release pins are removed?',
+    options: {
+        a: 'Because the hinge cannot physically support a full opening angle',
+        b: 'Because the door is too heavy to open fully by hand',
+        c: 'To prevent the door swinging uncontrolled in wind or rotor wash and causing damage or injury until deliberately released'
+    },
+    correct: 'c'
+},
+{
+    id: 4111,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: "What is the left maintenance step's ladder used for?",
+    options: {
+        a: 'To access the baggage compartment',
+        b: 'To access the tail rotor gearbox',
+        c: 'To access the fuel compartment for inspection and maintenance'
+    },
+    correct: 'c'
+},
+{
+    id: 4112,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'What additional safety feature, besides the two hinges and latches, secures the left maintenance step to the fuselage?',
+    options: {
+        a: 'A secondary latch pin',
+        b: 'Safety wire only',
+        c: 'A restraint cable'
+    },
+    correct: 'c'
+},
+{
+    id: 4113,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'Before using the maintenance step cable, what check is specified?',
+    options: {
+        a: 'Check the cable for correct paint colour',
+        b: 'Check the cable for fraying',
+        c: 'Check the cable tension with a torque wrench'
+    },
+    correct: 'b'
+},
+{
+    id: 4114,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'What caution applies when closing the top maintenance step?',
+    options: {
+        a: 'Close it quickly to engage the latch properly',
+        b: 'Always close it before removing the restraint cable',
+        c: 'Do not close it with the cable in the slot; pull the cable through first to prevent damage'
+    },
+    correct: 'c'
+},
+{
+    id: 4115,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'Where is the left cockpit footstep located, and what is it made of?',
+    options: {
+        a: 'Below the left cabin door, made of composite material',
+        b: 'On the tail cone, made of titanium',
+        c: 'Below the left cockpit door, between STA 3120.0 and STA 2746.0, made of aluminium alloy'
+    },
+    correct: 'c'
+},
+{
+    id: 4116,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'How many bolts, safetied with safety wire, attach the left cockpit footstep to the structure?',
+    options: {
+        a: 'Twenty',
+        b: 'Eleven',
+        c: 'Six'
+    },
+    correct: 'b'
+},
+{
+    id: 4117,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'What is the purpose of the anti-skating plate bonded to the left cockpit footstep?',
+    options: {
+        a: 'To provide an electrical bonding path',
+        b: 'To reduce the weight of the footstep',
+        c: 'To prevent skating/slipping during access or exit from the helicopter'
+    },
+    correct: 'c'
+},
+{
+    id: 4118,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'What material is the left cabin fixed-footstep made of, and between which stations is it installed?',
+    options: {
+        a: 'Composite material, between STA 3900 and STA 5700',
+        b: 'Aluminium alloy, between STA 2105 and STA 3120',
+        c: 'Titanium, between STA 5700 and STA 6700'
+    },
+    correct: 'a'
+},
+{
+    id: 4119,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'How many screws attach the left cabin fixed-footstep to the helicopter structure?',
+    options: {
+        a: 'Four',
+        b: 'Twelve',
+        c: 'Twenty'
+    },
+    correct: 'b'
+},
+{
+    id: 4120,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'Each optional foldable footstep includes how many step actuators and step lights?',
+    options: {
+        a: '1 step actuator and 2 step lights',
+        b: '2 step actuators and 4 step lights',
+        c: '4 step actuators and 8 step lights'
+    },
+    correct: 'b'
+},
+{
+    id: 4121,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'When does the foldable footstep light illuminate?',
+    options: {
+        a: 'Only at night, regardless of step position',
+        b: 'When the door warning caution is active',
+        c: 'When the step extends'
+    },
+    correct: 'c'
+},
+{
+    id: 4122,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'Which doors are fitted with microswitches to generate a CAS caution when open?',
+    options: {
+        a: 'Only the cockpit doors',
+        b: 'External power receptacle door, baggage doors, cockpit doors and cabin doors',
+        c: 'Only the baggage doors'
+    },
+    correct: 'b'
+},
+{
+    id: 4123,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'The door microswitches are wired electrically in series with each other. What is the effect of this arrangement if even just one door is open?',
+    options: {
+        a: 'The MAUs detect an open signal and generate a caution, regardless of which single door is open',
+        b: 'Each door generates an independent, separately labelled caution',
+        c: 'No caution is generated unless all doors are open simultaneously'
+    },
+    correct: 'a'
+},
+{
+    id: 4124,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'What is the designation and location of the left cockpit-door microswitch?',
+    options: {
+        a: 'S14, installed on the sponson',
+        b: 'S33, installed on the left side of the cockpit ceiling adjacent to the door edge',
+        c: 'S92, installed on the floor of the cockpit'
+    },
+    correct: 'b'
+},
+{
+    id: 4125,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'The left cockpit-door microswitch is connected by three electrical wires to which units?',
+    options: {
+        a: 'MAU1 and ground',
+        b: 'MAU2 and the HCB',
+        c: 'The CMC only'
+    },
+    correct: 'a'
+},
+{
+    id: 4126,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'When the left cockpit door is open or not locked closed, what does the microswitch do?',
+    options: {
+        a: 'It opens its contacts and disables the caution',
+        b: 'It has no effect until the aircraft is airborne',
+        c: 'It closes its contacts and sends a signal to MAU1, generating the COCKPIT DOOR caution'
+    },
+    correct: 'c'
+},
+{
+    id: 4127,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'A detected fault is found automatically by the helicopter monitoring system, while an observed fault is:',
+    options: {
+        a: 'A fault that can never be confirmed',
+        b: 'A malfunction discovered by the pilot or ground crew',
+        c: 'A fault only found during a scheduled C-check'
+    },
+    correct: 'b'
+},
+{
+    id: 4128,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'The AFIP (Aircraft Fault Isolation Publication) for ATA chapter 52 (Doors) consists solely of which type of fault?',
+    options: {
+        a: 'Observed faults',
+        b: 'Detected faults',
+        c: 'BIT-generated faults'
+    },
+    correct: 'a'
+},
+{
+    id: 4129,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: "Why would the door system's AFIP logically consist solely of observed faults, rather than detected (CMC-logged) faults?",
+    options: {
+        a: 'Because door position is monitored by simple microswitches that generate a CAS caution directly, with no automated central fault-code diagnosis of the door mechanism itself',
+        b: 'Because doors are not considered flight-critical and therefore have no fault reporting at all',
+        c: 'Because the CMC cannot communicate with the door microswitches'
+    },
+    correct: 'a'
 }
+
     ];
     
