@@ -36695,6 +36695,2862 @@ export const questions = [
         c: 'Because the CMC cannot communicate with the door microswitches'
     },
     correct: 'a'
+},
+{
+    id: 4360,
+    Aircraft: 'AW139',
+    Category: '56',
+    question: 'How is a cabin window removed in an emergency?',
+    options: {
+        a: 'Unscrew the 21 retaining screws around the frame',
+        b: 'Pull the red strap attached to the clinch stud, which removes the inner filler wedge and seal, allowing the window to be pushed out',
+        c: 'Break the window with the emergency hammer provided'
+    },
+    correct: 'b'
+},
+{
+    id: 4361,
+    Aircraft: 'AW139',
+    Category: '56',
+    question: 'What material is sandwiched between layers of glass to heat the optional heated windscreen (FIPS)?',
+    options: {
+        a: 'A Nesatron heating film',
+        b: 'A carbon fibre mesh',
+        c: 'A copper wire grid'
+    },
+    correct: 'a'
+},
+{
+    id: 4362,
+    Aircraft: 'AW139',
+    Category: '56',
+    question: 'How is a transparency with a single layer of material classified, versus one with several layers (e.g. glass and plastic) or a protective coating?',
+    options: {
+        a: 'Both are always classified as monolithic',
+        b: 'Single layer = multilayered; multiple layers = monolithic',
+        c: 'Single layer = monolithic; multiple layers or coated = multilayered'
+    },
+    correct: 'c'
+},
+{
+    id: 4363,
+    Aircraft: 'AW139',
+    Category: '56',
+    question: 'Why are escape (emergency exit) windows preferred over doors in some ditching scenarios?',
+    options: {
+        a: 'Doors cannot be opened once the engines are shut down',
+        b: 'Flotation devices, if deployed, could block the doors',
+        c: 'Windows are structurally weaker and easier to break'
+    },
+    correct: 'b'
+},
+{
+    id: 4364,
+    Aircraft: 'AW139',
+    Category: '56',
+    question: 'How is an emergency exit window jettisoned from inside the helicopter?',
+    options: {
+        a: 'Applying hand pressure is enough to jettison the window',
+        b: 'A specific tool is required to unbolt the frame',
+        c: 'A pyrotechnic charge must be fired'
+    },
+    correct: 'a'
+},
+{
+    id: 4365,
+    Aircraft: 'AW139',
+    Category: '56',
+    question: 'What must be done to the seal when replacing a cabin, cabin door, or cockpit door window?',
+    options: {
+        a: 'It must be replaced and cut to make a butt joint at the center bottom side of the window opening',
+        b: 'It must be left in place; only the transparency is replaced',
+        c: 'It can be reused if visually serviceable'
+    },
+    correct: 'a'
+},
+{
+    id: 4366,
+    Aircraft: 'AW139',
+    Category: '56',
+    question: 'What is the approximate weight of the left or right windshield?',
+    options: {
+        a: '3.8 kg (8.3 lb)',
+        b: '5.0 kg (11 lb)',
+        c: '15.0 kg (33 lb)'
+    },
+    correct: 'c'
+},
+{
+    id: 4367,
+    Aircraft: 'AW139',
+    Category: '56',
+    question: 'How many screws attach the optional bubble window to the cabin structure, plus the forward section?',
+    options: {
+        a: '8 screws total',
+        b: '21 screws for the window, plus 6 for the forward section',
+        c: '12 screws for the window, plus 4 for the section'
+    },
+    correct: 'b'
+},
+{
+    id: 4280,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'Which of the following is listed as a sub-system of the Equipment & Furnishings chapter?',
+    options: {
+        a: 'Main rotor gearbox',
+        b: 'Insulation and lining',
+        c: 'Fuel system'
+    },
+    correct: 'b'
+},
+{
+    id: 4281,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'What two items are included in the Flight Compartment sub-system?',
+    options: {
+        a: 'The cockpit seats and the roof window shade installation',
+        b: 'The cargo net and tie-down rings',
+        c: 'The cabin seats and headrests'
+    },
+    correct: 'a'
+},
+{
+    id: 4282,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'What are the main structural components of the flight crew seat frame?',
+    options: {
+        a: 'A single tubular frame with no supports',
+        b: 'A vertical frame, a horizontal frame, and two supports',
+        c: 'A composite monocoque shell'
+    },
+    correct: 'b'
+},
+{
+    id: 4283,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'What is the function of the two springs in the flight crew seat?',
+    options: {
+        a: "To balance the pilot's weight on the seat pan and absorb vertical loads",
+        b: 'To provide lumbar heating',
+        c: 'To allow the seat to recline'
+    },
+    correct: 'a'
+},
+{
+    id: 4284,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'What does the flight crew seat restraint system consist of?',
+    options: {
+        a: 'Two shoulder belts and an inertial reel only',
+        b: 'A single lap belt only',
+        c: 'Two shoulder belts, two lap belts, and a 4-point safety-lock device'
+    },
+    correct: 'c'
+},
+{
+    id: 4285,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'What does the lever installed at the centre below the seat pan allow?',
+    options: {
+        a: 'Longitudinal and vertical adjustment of the seat',
+        b: 'Recline angle adjustment only',
+        c: 'Lateral adjustment only'
+    },
+    correct: 'a'
+},
+{
+    id: 4286,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'How many bolts and washers attach the cockpit seat to the floor channels?',
+    options: {
+        a: 'Four bolts and four washers',
+        b: 'Twelve bolts and twelve washers',
+        c: 'Eight bolts and eight washers'
+    },
+    correct: 'c'
+},
+{
+    id: 4287,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'What is the purpose of the roof window roller blind (shade)?',
+    options: {
+        a: 'It reduces cabin noise',
+        b: 'It provides blackout for night vision goggle operations',
+        c: 'It protects the flight crew from sunlight'
+    },
+    correct: 'c'
+},
+{
+    id: 4288,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'How is the roof window shade stowed when no longer required?',
+    options: {
+        a: 'It is manually folded and clipped to the seat frame',
+        b: 'It is released from its hook and an inertia reel moves it back into its container',
+        c: 'It must be removed and stored separately'
+    },
+    correct: 'b'
+},
+{
+    id: 4289,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'In which three areas of the helicopter is lining installed?',
+    options: {
+        a: 'The cockpit, the cabin, and the aft fuselage',
+        b: 'The cockpit, the tail cone, and the baggage compartment',
+        c: 'The cabin, the engine bay, and the nose compartment'
+    },
+    correct: 'a'
+},
+{
+    id: 4290,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'What are the primary components common to both the 12-seat and 15-seat cabin configurations?',
+    options: {
+        a: 'Only the safety belts and headrests',
+        b: 'Forward seats, a cargo net, and fire extinguishers',
+        c: 'Forward cabin seats, aft cabin seats, safety belts, headrests'
+    },
+    correct: 'c'
+},
+{
+    id: 4291,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'In the 12-seat configuration, how many seats are in the forward cabin row, and which way do they face?',
+    options: {
+        a: 'Four seats, facing the nose',
+        b: 'Four seats, facing the tail of the helicopter',
+        c: 'Five seats, facing the nose'
+    },
+    correct: 'b'
+},
+{
+    id: 4292,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'In the 12-seat configuration, how many aft cabin seat rows are there, and how many seats per row?',
+    options: {
+        a: 'One row of eight seats, facing the tail',
+        b: 'Two rows of four seats, facing the nose',
+        c: 'Two rows of four seats, facing the tail'
+    },
+    correct: 'b'
+},
+{
+    id: 4293,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'What material is the structure of the cabin seats made of?',
+    options: {
+        a: 'Aluminium alloy tubing',
+        b: 'Composite material',
+        c: 'Steel box-section'
+    },
+    correct: 'b'
+},
+{
+    id: 4294,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'What are the back and pan cushions of the cabin seats made of?',
+    options: {
+        a: 'Horsehair and leather',
+        b: 'Flexible polyurethane',
+        c: 'Memory foam with a gel layer'
+    },
+    correct: 'b'
+},
+{
+    id: 4295,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'How are the cabin seats attached to the cabin floor rail?',
+    options: {
+        a: 'Eight permanent rivets',
+        b: 'A single central floor bolt',
+        c: 'Four quick-disconnect pins through the seat guides'
+    },
+    correct: 'c'
+},
+{
+    id: 4296,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'Why are quick-disconnect pins used to attach cabin seats, rather than a permanent fixing?',
+    options: {
+        a: 'They are cheaper to manufacture than bolts',
+        b: 'They allow the seats to be quickly removed or reconfigured for different cabin layouts or roles',
+        c: 'They provide better crash load absorption than bolts'
+    },
+    correct: 'b'
+},
+{
+    id: 4297,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: "What does each cabin seat's safety belt and shoulder harness assembly include?",
+    options: {
+        a: 'An inertial reel, shoulder harness, and quick release fitting',
+        b: 'A single lap strap with no shoulder component',
+        c: 'A manual ratchet buckle only, with no reel'
+    },
+    correct: 'a'
+},
+{
+    id: 4298,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: "What does the automatic locking mechanism in the cabin seat's inertial reel prevent?",
+    options: {
+        a: 'Unwanted forward movement of the passenger in the event of rapid deceleration',
+        b: 'The seat from reclining during flight',
+        c: 'The headrest from detaching'
+    },
+    correct: 'a'
+},
+{
+    id: 4299,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'In the 12-seat configuration, which seats are fitted with a headrest?',
+    options: {
+        a: 'All cabin seats, forward and aft',
+        b: 'The aft cabin seats',
+        c: 'The forward cabin seats'
+    },
+    correct: 'c'
+},
+{
+    id: 4300,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'In the 15-seat configuration, how many seats are in the forward cabin row?',
+    options: {
+        a: 'Five',
+        b: 'Four',
+        c: 'Six'
+    },
+    correct: 'a'
+},
+{
+    id: 4301,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'In the 15-seat configuration, how many aft cabin seat rows are there, and how many seats per row?',
+    options: {
+        a: 'One row of ten seats',
+        b: 'Three rows of five seats',
+        c: 'Two rows of five seats'
+    },
+    correct: 'c'
+},
+{
+    id: 4302,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'In the 15-seat configuration, what is the total passenger seat count, combining forward and aft rows?',
+    options: {
+        a: '18 (6 forward + 12 aft)',
+        b: '12 (4 forward + 8 aft)',
+        c: '15 (5 forward + 10 aft)'
+    },
+    correct: 'c'
+},
+{
+    id: 4303,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'What material are the 15-seat configuration cabin seats made of?',
+    options: {
+        a: 'Carbon-reinforced titanium',
+        b: 'Composite material',
+        c: 'Welded steel tube'
+    },
+    correct: 'b'
+},
+{
+    id: 4304,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'In both the 12-seat and 15-seat configurations, which direction do the forward cabin seats face relative to the aft cabin seats?',
+    options: {
+        a: 'Forward cabin seats face the tail, aft cabin seats face the nose - they face each other',
+        b: 'Both sets of seats face the nose in the same direction',
+        c: 'Both sets of seats face the tail in the same direction'
+    },
+    correct: 'a'
+},
+{
+    id: 4305,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'Why might the flight crew seat restraint system (two shoulder belts, two lap belts, 4-point lock) be more complex than the cabin passenger restraint (shoulder harness with inertial reel)?',
+    options: {
+        a: 'Passenger seats are legally exempt from any restraint requirement',
+        b: 'Crew seats need a more robust, quickly-releasable restraint suited to maneuvering flight loads and rapid egress',
+        c: 'There is no meaningful difference between the two systems'
+    },
+    correct: 'b'
+},
+{
+    id: 4306,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: "How are the 15-seat configuration's cabin seats attached to the cabin floor?",
+    options: {
+        a: 'Four quick-disconnect pins to the rail of the cabin floor',
+        b: 'Two central pins only',
+        c: 'Welded brackets, non-removable'
+    },
+    correct: 'a'
+},
+{
+    id: 4307,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: "What does the 15-seat configuration's cabin seat restraint system include?",
+    options: {
+        a: 'No shoulder harness, lap belt only',
+        b: 'A simple lap belt with a metal buckle only',
+        c: 'An inertial reel, shoulder harness, quick release fitting, and safety belt'
+    },
+    correct: 'c'
+},
+{
+    id: 4308,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'In the 15-seat configuration, which row of seats is fitted with a headrest?',
+    options: {
+        a: 'The forward cabin seat row',
+        b: 'The aft cabin seat rows',
+        c: 'No seats have a headrest in this configuration'
+    },
+    correct: 'a'
+},
+{
+    id: 4309,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'Which data module is referenced for the cabin seat removal procedure?',
+    options: {
+        a: '39-A-12-30-01-00A-258A-A',
+        b: '39-A-24-00-00-00A-413A-A',
+        c: '39-A-25-21-01-00A-520A-K'
+    },
+    correct: 'c'
+},
+{
+    id: 4310,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'How many snap fasteners and clinch studs attach the life jacket bag to its support?',
+    options: {
+        a: 'Two of each',
+        b: 'Four of each',
+        c: 'Six of each'
+    },
+    correct: 'b'
+},
+{
+    id: 4311,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'Who is the life jacket designed to provide flotation for?',
+    options: {
+        a: 'Adults only, no children',
+        b: 'An adult or a child over three years old',
+        c: 'Crew members only'
+    },
+    correct: 'b'
+},
+{
+    id: 4312,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What is the primary survival equipment for people involved in a ditching?',
+    options: {
+        a: 'The life jacket',
+        b: 'The life raft',
+        c: 'The ADELT beacon'
+    },
+    correct: 'b'
+},
+{
+    id: 4313,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'How many manual modes of operation do the left and right CEL have?',
+    options: {
+        a: 'Three, including an automatic water-activated mode',
+        b: 'One - cockpit only',
+        c: 'Two - cockpit activation handles and front fairing activation handles'
+    },
+    correct: 'c'
+},
+{
+    id: 4314,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What breaks first when a CEL activation handle is operated, starting the inflation sequence?',
+    options: {
+        a: 'The three closing belts',
+        b: 'The calibrated pin on the cylinder head',
+        c: 'The container cover hinge'
+    },
+    correct: 'b'
+},
+{
+    id: 4315,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What is the standard passenger capacity of the F11R life raft, and what is the maximum if necessary?',
+    options: {
+        a: '17 persons standard, up to 20 if necessary',
+        b: '6 persons standard, up to 11 if necessary',
+        c: '11 persons standard, up to 17 if necessary'
+    },
+    correct: 'c'
+},
+{
+    id: 4316,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'At the coldest rated temperature (-40±1°C), within what maximum time must the F11R raft fully inflate?',
+    options: {
+        a: '5 minutes',
+        b: '10 seconds',
+        c: '65 seconds'
+    },
+    correct: 'c'
+},
+{
+    id: 4317,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: "What materials make up the CEL container's base and cover?",
+    options: {
+        a: 'A laminate of carbon, aramide and glass fibers with honeycomb cores',
+        b: 'Injection-moulded ABS plastic',
+        c: 'Solid aluminium alloy'
+    },
+    correct: 'a'
+},
+{
+    id: 4318,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: "What pressure does the life raft inflation cylinder's nitrogen charge correspond to at +20°C?",
+    options: {
+        a: '3000 psig',
+        b: '500 psig',
+        c: '4000 psig'
+    },
+    correct: 'a'
+},
+{
+    id: 4319,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'Where is the first aid kit normally installed, and how is it secured?',
+    options: {
+        a: 'Under the cabin floor, bolted in place',
+        b: 'On the rear side of the pilot seat, attached with two Velcro strips',
+        c: 'In the tail cone, secured with a quick-release pin'
+    },
+    correct: 'b'
+},
+{
+    id: 4320,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'In the alternative (2M) installation, where is the first aid kit located, and how is it retained?',
+    options: {
+        a: 'Left side of the aft end of the interseat console, retained by a belt',
+        b: 'In the baggage compartment, retained by cargo netting',
+        c: 'Behind the copilot seat, retained by Velcro only'
+    },
+    correct: 'a'
+},
+{
+    id: 4321,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What two emergency frequencies does the ADELT beacon transmit on?',
+    options: {
+        a: '121.5 MHz and 406.025 MHz',
+        b: '121.5 MHz only',
+        c: '243.0 MHz and 406.025 MHz only'
+    },
+    correct: 'a'
+},
+{
+    id: 4322,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What type of crash sensor does the ADELT/SIU incorporate?',
+    options: {
+        a: 'A 3-axis G-switch using digital pulse accelerometers',
+        b: 'A single-axis mercury tilt switch',
+        c: 'A barometric pressure sensor'
+    },
+    correct: 'a'
+},
+{
+    id: 4323,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'How often, and for how long, does the 406.025 MHz transmitter activate to send its encoded digital message?',
+    options: {
+        a: 'Every 10 seconds, for 2 seconds',
+        b: 'Every 50 seconds, for 520 milliseconds',
+        c: 'Continuously, with no interval'
+    },
+    correct: 'b'
+},
+{
+    id: 4324,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'How long does the ADELT 406.025 MHz transmitter operate before automatically shutting down?',
+    options: {
+        a: '72 hours',
+        b: '24 hours',
+        c: '48 hours'
+    },
+    correct: 'b'
+},
+{
+    id: 4325,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'How long does the ADELT 121.5 MHz transmitter typically continue operating, limited by battery power?',
+    options: {
+        a: '48 hours',
+        b: '24 hours',
+        c: '6 hours'
+    },
+    correct: 'a'
+},
+{
+    id: 4326,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What provides an alternative means of automatic ADELT deployment specifically for a controlled ditching, where the G-switch may not trigger?',
+    options: {
+        a: 'The Water Activated Switch (WAS)',
+        b: 'The Configuration Unit',
+        c: "The beacon's reset switch"
+    },
+    correct: 'a'
+},
+{
+    id: 4327,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: "Why might the SIU's G-switches fail to trigger ADELT deployment during a controlled ditching?",
+    options: {
+        a: 'Because the G-switches are disabled over water automatically',
+        b: 'Because the SIU loses power on contact with water',
+        c: 'Because the landing/water impact may be relatively soft, not generating sufficient G-force'
+    },
+    correct: 'c'
+},
+{
+    id: 4328,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What is the function of the Beacon Release Unit (BRU)?',
+    options: {
+        a: 'It provides the mechanical and electrical interface between the beacon and the aircraft, including latching, release and ejection mechanisms',
+        b: "It charges the beacon's internal battery",
+        c: 'It stores the GPS position data for the beacon'
+    },
+    correct: 'a'
+},
+{
+    id: 4329,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What ejects the beacon from the BRU once the sear latch releases?',
+    options: {
+        a: 'The remaining stroke of the actuator, assisted by a compressed coil spring',
+        b: 'Gravity alone, with no mechanical assistance',
+        c: 'A pyrotechnic charge alone, with no spring assistance'
+    },
+    correct: 'a'
+},
+{
+    id: 4330,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'If aircraft power is lost, for how long can the ADELT system continue to operate from standby power before an automatic power-down occurs?',
+    options: {
+        a: '30 minutes',
+        b: '24 hours',
+        c: '2 hours'
+    },
+    correct: 'c'
+},
+{
+    id: 4331,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'On the ADELT control panel, what does operating the TRANSMIT switch (as opposed to DEPLOY) do?',
+    options: {
+        a: 'Sets the beacon to transmit but does NOT eject it from the aircraft',
+        b: 'Performs a self-test only, with no transmission',
+        c: 'Ejects the beacon without transmitting'
+    },
+    correct: 'a'
+},
+{
+    id: 4332,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What military and civil guard frequencies does the non-deployable ELT system transmit the standard swept tone on?',
+    options: {
+        a: '121.5 MHz (Civil) and 243.0 MHz (Military)',
+        b: '406.025 MHz (Civil) and 121.5 MHz (Military)',
+        c: '243.0 MHz (Civil) and 406.025 MHz (Military)'
+    },
+    correct: 'a'
+},
+{
+    id: 4333,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What G-switch activation threshold triggers the non-deployable ELT under normal conditions?',
+    options: {
+        a: 'Any detectable vibration, regardless of magnitude',
+        b: "A change of velocity of 50 fps, or 5 G's",
+        c: "A change of velocity of 4.5 fps ± 0.5 fps, or 30 G's of cross axis force"
+    },
+    correct: 'c'
+},
+{
+    id: 4334,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What battery chemistry and configuration does the non-deployable ELT use?',
+    options: {
+        a: "4 'D' size Lithium Manganese Dioxide cells connected in series",
+        b: '2 NiCad cells in parallel',
+        c: 'A single sealed lead-acid cell'
+    },
+    correct: 'a'
+},
+{
+    id: 4335,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: "How is the non-deployable ELT's battery pack protected from being charged?",
+    options: {
+        a: 'The cells are simply disconnected during flight',
+        b: 'A dedicated charge controller regulates all charging',
+        c: 'Diodes are connected across each cell, and fuses are connected to the output'
+    },
+    correct: 'c'
+},
+{
+    id: 4336,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: "How long after shipping from the manufacturer does the non-deployable ELT's battery pack expire?",
+    options: {
+        a: '5 years',
+        b: '2 years',
+        c: '10 years'
+    },
+    correct: 'a'
+},
+{
+    id: 4337,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What position must the Remote Switch Panel and ELT unit switches be in for normal armed operation?',
+    options: {
+        a: "Remote Switch Panel down to 'ARM', ELT unit switch down to 'OFF'",
+        b: "Both switches set to 'ON'",
+        c: "Remote Switch Panel set to 'ON', ELT unit set to 'ARM'"
+    },
+    correct: 'a'
+},
+{
+    id: 4338,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'During the ELT functional test, what is the maximum allowed test duration, and why?',
+    options: {
+        a: 'There is no time limit specified',
+        b: '5 seconds, because after approx. 47 seconds the satellite system will treat the transmission as a valid distress signal',
+        c: '60 seconds, to allow full self-test completion'
+    },
+    correct: 'b'
+},
+{
+    id: 4339,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What is the typical usable length of the hoist cable?',
+    options: {
+        a: '150m',
+        b: '74m',
+        c: '30m'
+    },
+    correct: 'b'
+},
+{
+    id: 4340,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What device is fitted to the hoist for cutting the cable in an emergency?',
+    options: {
+        a: 'A mechanical guillotine blade',
+        b: 'An Electrically Initiated Explosive Device (EIED)',
+        c: 'A simple manual bolt cutter stowed in the cabin'
+    },
+    correct: 'b'
+},
+{
+    id: 4341,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What personal protective equipment is specified when handling loads on the hoist cable or cargo hook, due to static charge hazards?',
+    options: {
+        a: 'Insulated rubber boots only',
+        b: 'Rubber gloves and a discharge hook connected to ground',
+        c: 'A full-face welding shield'
+    },
+    correct: 'b'
+},
+{
+    id: 4342,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'During the initial hoist cable extension (first 12 feet), what is the speed limit and associated indication?',
+    options: {
+        a: '245 fpm, with no indication',
+        b: '100 fpm, with the SLOW indication lit',
+        c: '35 fpm, with the TEMP indication lit'
+    },
+    correct: 'b'
+},
+{
+    id: 4343,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What is the maximum hoist cable speed with maximum load applied, versus with a lighter load?',
+    options: {
+        a: '150 fpm at maximum load, increasing up to 245 fpm with lighter loads',
+        b: 'A constant 100 fpm regardless of load',
+        c: '245 fpm at maximum load, decreasing with lighter loads'
+    },
+    correct: 'a'
+},
+{
+    id: 4344,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: "What do the 'ALL STOP' limit switches do, and at what point?",
+    options: {
+        a: 'They stop the motor only when the hook reaches full extension',
+        b: 'They disable the hoist entirely if overloaded',
+        c: 'They stop the hoist motor when approximately 2½ cable lengths remain on the drum'
+    },
+    correct: 'c'
+},
+{
+    id: 4345,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'During cable retraction, what is the speed limit when the hook assembly is within approximately 2 feet of the stowed position?',
+    options: {
+        a: '75 fpm',
+        b: '150 fpm',
+        c: '35 fpm'
+    },
+    correct: 'c'
+},
+{
+    id: 4346,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What does the WTR mode on the hoist pendant allow the Hoist Operator to do?',
+    options: {
+        a: 'Automatically land the aircraft',
+        b: "Control the aircraft's hover lateral and longitudinal groundspeed using the pendant's trim switch",
+        c: "Override the pilot's cyclic control entirely"
+    },
+    correct: 'b'
+},
+{
+    id: 4347,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What does the HOIST CBL FOUL caution message indicate?',
+    options: {
+        a: 'The cable cutter has fired',
+        b: 'The hoist is ready for normal operation',
+        c: 'A cable foul condition on the hoist drum'
+    },
+    correct: 'c'
+},
+{
+    id: 4348,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What is the maximum load that can be carried on the cargo hook?',
+    options: {
+        a: '2200 kg',
+        b: '4082 kg',
+        c: '1200 kg'
+    },
+    correct: 'a'
+},
+{
+    id: 4349,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What are the three procedures available to operate (release) the cargo hook?',
+    options: {
+        a: 'Only normal and emergency release',
+        b: 'Normal release, emergency release, and manual release',
+        c: 'A single universal release procedure'
+    },
+    correct: 'b'
+},
+{
+    id: 4350,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'How does the pilot carry out a normal cargo hook release?',
+    options: {
+        a: 'By pulling a mechanical lever on the floor',
+        b: 'Via a verbal command to the hoist operator',
+        c: 'By operating a switch on the cyclic'
+    },
+    correct: 'c'
+},
+{
+    id: 4351,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'How is an emergency cargo hook release carried out if normal release fails?',
+    options: {
+        a: 'It fires a pressure cartridge to open the hook',
+        b: 'The pilot must land before releasing the load',
+        c: 'It automatically releases after a timeout period'
+    },
+    correct: 'a'
+},
+{
+    id: 4352,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What is the maximum reading capacity of the cargo hook load indicator (via its max potentiometer)?',
+    options: {
+        a: '2200 kg (4850 lb)',
+        b: '1000 kg (2200 lb)',
+        c: '4082 kg (9000 lb)'
+    },
+    correct: 'c'
+},
+{
+    id: 4353,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What gas is used to inflate the AW139 (Aerosekur) flotation bags, and at what pressure does it flow from the bottles?',
+    options: {
+        a: 'Nitrogen, at 2000 psi',
+        b: 'Compressed air, at 500 psi',
+        c: 'Helium, at 4000 psi'
+    },
+    correct: 'c'
+},
+{
+    id: 4354,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What shape are the forward floats, and how many independent sealed compartments do they have?',
+    options: {
+        a: 'Truncated cone shaped, with two compartments',
+        b: 'Spherical, with a single sealed compartment',
+        c: 'Cylindrical with hemispherical bulkheads, divided into three independent sealed compartments'
+    },
+    correct: 'c'
+},
+{
+    id: 4355,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'For the flotation system to operate in either manual or automatic mode, what must first be done?',
+    options: {
+        a: 'The helicopter must be below 500ft AGL',
+        b: 'Both engines must be shut down',
+        c: 'The switch on the armed panel must be set to ARMED'
+    },
+    correct: 'c'
+},
+{
+    id: 4356,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'In automatic mode, how many of the four submersion switches must be activated to trigger flotation system deployment?',
+    options: {
+        a: 'All four',
+        b: 'At least two',
+        c: 'Any single one'
+    },
+    correct: 'b'
+},
+{
+    id: 4357,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What does pushing the TEST button on the emergency flotation control panel check?',
+    options: {
+        a: 'The actual inflation of the float bags',
+        b: 'The correct operation of the electrical circuits that operate the cartridges',
+        c: 'The helium bottle pressure directly'
+    },
+    correct: 'b'
+},
+{
+    id: 4358,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'At what interval is the DI of the life preserver (jacket) buoyancy chambers and components for deterioration performed?',
+    options: {
+        a: '10 years',
+        b: '5 years',
+        c: '1 year'
+    },
+    correct: 'b'
+},
+{
+    id: 4359,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'At what interval is the DI of the Collective Emergency Life-rafts (requiring removal and disassembly) performed?',
+    options: {
+        a: '5 years',
+        b: '6 months',
+        c: '1 year'
+    },
+    correct: 'c'
+},
+{
+    id: 4130,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is the output current rating of each DC starter-generator on the AW139?',
+    options: {
+        a: '150A',
+        b: '450A',
+        c: '300A'
+    },
+    correct: 'c'
+},
+{
+    id: 4131,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Which buses, in priority order, receive DC power via the PDPs?',
+    options: {
+        a: 'Battery, Essential, Main, Non-Essential',
+        b: 'Main, Essential, Battery, Non-Essential',
+        c: 'Non-Essential, Main, Essential, Battery'
+    },
+    correct: 'a'
+},
+{
+    id: 4132,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Why is current, rather than voltage, emphasised as the primary killer in electrical safety training?',
+    options: {
+        a: 'Because AC voltage is always safer than DC voltage',
+        b: 'Because a current as low as 0.1A can be fatal, regardless of the voltage that drives it',
+        c: 'Because voltage has no physical effect on the human body'
+    },
+    correct: 'b'
+},
+{
+    id: 4133,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Why are pneumatic tools preferred over electrical power tools when working on helicopters?',
+    options: {
+        a: 'To reduce the risk of electrical hazards during maintenance',
+        b: 'Because pneumatic tools are always faster',
+        c: 'Because pneumatic tools do not require calibration'
+    },
+    correct: 'a'
+},
+{
+    id: 4134,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What voltage levels are identified as potentially lethal for AC and DC respectively?',
+    options: {
+        a: 'More than 110V AC or 12V DC',
+        b: 'More than 10V AC or 5V DC',
+        c: 'More than 30V AC or 50V DC'
+    },
+    correct: 'c'
+},
+{
+    id: 4135,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is a GVI (General Visual Inspection)?',
+    options: {
+        a: 'A visual examination to find signs of faults, which may require removal of panels/cowlings/doors for access',
+        b: 'A full examination requiring disassembly and NDT',
+        c: 'A dimensional check using high-powered magnification'
+    },
+    correct: 'a'
+},
+{
+    id: 4136,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What distinguishes an SDI (Special Detailed Inspection) from a DI (Detailed Inspection)?',
+    options: {
+        a: 'SDI is only used for engine inspections',
+        b: 'SDI is always a purely visual check with no tools',
+        c: 'SDI may require dimensional checks, high-powered magnification, and possibly disassembly, beyond what a DI requires'
+    },
+    correct: 'c'
+},
+{
+    id: 4137,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Before working near live, unprotected conductors, what precaution is specified?',
+    options: {
+        a: 'Make sure a safety person is present',
+        b: 'Wear only cotton gloves',
+        c: 'Switch off all cockpit lighting'
+    },
+    correct: 'a'
+},
+{
+    id: 4138,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'At what voltage does the GCU regulate the starter-generator when operating as a generator?',
+    options: {
+        a: '28VDC',
+        b: '115VAC',
+        c: '24VDC'
+    },
+    correct: 'a'
+},
+{
+    id: 4139,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is the function of the fan incorporated into the starter-generator?',
+    options: {
+        a: 'It cools the GCU only',
+        b: 'It provides forced air flow to cool the bearings and maintain acceptable operating temperature',
+        c: "It drives the generator's voltage regulator"
+    },
+    correct: 'b'
+},
+{
+    id: 4140,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'How does the starter-generator sense an over-temperature condition?',
+    options: {
+        a: 'A thermocouple sends an analogue voltage to the FADEC',
+        b: 'A bi-metallic temperature switch embedded in the stator closes a set of contacts to indicate over-temperature',
+        c: 'An infrared sensor on the housing exterior'
+    },
+    correct: 'b'
+},
+{
+    id: 4141,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "What does the starter-generator's speed sensor (magnetic pickup) signal get used for?",
+    options: {
+        a: 'It drives the rotor speed indicator in the cockpit',
+        b: 'It is routed to the GCU, which interrupts the start cycle at a predetermined rpm in engine manual mode',
+        c: 'It triggers the fire warning system'
+    },
+    correct: 'b'
+},
+{
+    id: 4142,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'How is the starter-generator coupled to the engine accessory gearbox?',
+    options: {
+        a: 'Via a splined shaft that incorporates a shear section',
+        b: 'Via a direct rigid flange bolted connection',
+        c: 'Via a belt and pulley drive'
+    },
+    correct: 'a'
+},
+{
+    id: 4143,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "What is the purpose of the shear section in the starter-generator's drive shaft?",
+    options: {
+        a: 'To protect the engine accessory gearbox by failing in a controlled way if the starter-generator seizes',
+        b: 'To provide electrical bonding',
+        c: 'To allow the shaft to flex during normal operation'
+    },
+    correct: 'a'
+},
+{
+    id: 4144,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'How many studs secure the starter-generator mount flange to the engine drive pad?',
+    options: {
+        a: 'Two',
+        b: 'Six',
+        c: 'Four'
+    },
+    correct: 'c'
+},
+{
+    id: 4145,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is attached to the top of the starter-generator mount flange?',
+    options: {
+        a: 'A hydraulic line',
+        b: 'A fuel drain line',
+        c: 'A bonding wire'
+    },
+    correct: 'c'
+},
+{
+    id: 4146,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'The starter-generator is of the brush type. How many brush block assemblies does it have, and how many brushes per block?',
+    options: {
+        a: 'Four brush blocks, each containing four brushes',
+        b: 'One brush block containing eight brushes',
+        c: 'Two brush blocks, each containing two brushes'
+    },
+    correct: 'a'
+},
+{
+    id: 4147,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What lubrication requirement do the starter-generator bearings have?',
+    options: {
+        a: 'Pre-lubricated with grease at installation, requiring no further service until overhaul',
+        b: 'Continuous pressurised oil feed from the engine',
+        c: 'Daily oil top-up required'
+    },
+    correct: 'a'
+},
+{
+    id: 4148,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What construction material is used for the starter-generator housing, and why?',
+    options: {
+        a: 'Pure aluminium, for lightness only',
+        b: 'A high iron content material, to serve as part of the magnetic circuit',
+        c: 'Titanium, for heat resistance only'
+    },
+    correct: 'b'
+},
+{
+    id: 4149,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What converts mechanical input torque into DC electrical output in the starter-generator, structurally?',
+    options: {
+        a: 'The fixed stator winding alone, with no moving parts',
+        b: 'A separate external alternator',
+        c: 'The rotor winding, interfacing through a brush/commutator assembly'
+    },
+    correct: 'c'
+},
+{
+    id: 4150,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What are the three categories of GCU function?',
+    options: {
+        a: 'Ignition, ventilation, lubrication',
+        b: 'Starting, landing, taxiing',
+        c: 'Control, Monitoring, Protection'
+    },
+    correct: 'c'
+},
+{
+    id: 4151,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'At what Ng speed does the GCU terminate a manual (MANUAL mode) start cycle?',
+    options: {
+        a: '20 to 25% Ng',
+        b: '80 to 85% Ng',
+        c: '49 to 50% Ng'
+    },
+    correct: 'c'
+},
+{
+    id: 4152,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'How is an Engine Manual Start initiated, and which unit is bypassed?',
+    options: {
+        a: 'By pressing the START push-button on the ECL, sending a signal directly to the GCU, bypassing the EEC',
+        b: 'By the FADEC, bypassing the GCU',
+        c: 'By the EEC automatically, with no pilot input'
+    },
+    correct: 'a'
+},
+{
+    id: 4153,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'During starter mode, why does the GCU reduce field current as starter-generator speed increases?',
+    options: {
+        a: 'To limit the back EMF so rated current can continue to flow and positive torque is maintained through the start cycle',
+        b: 'To save electrical power regardless of torque effects',
+        c: 'To prevent the brushes from overheating'
+    },
+    correct: 'a'
+},
+{
+    id: 4154,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What happens to the back EMF of the starter-generator as its speed increases during a start, if field current is not managed?',
+    options: {
+        a: 'It increases, causing the machine to act as a generator and load the engine turbine instead of driving it',
+        b: 'It decreases to zero, with no effect on starting',
+        c: 'It has no relationship to starter-generator speed'
+    },
+    correct: 'a'
+},
+{
+    id: 4155,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'In generator mode, what does the voltage regulator adjust to maintain a constant voltage at the Point of Regulation (POR)?',
+    options: {
+        a: 'The engine fuel flow',
+        b: 'The rotor shaft speed directly',
+        c: 'The duty cycle of the exciter field voltage'
+    },
+    correct: 'c'
+},
+{
+    id: 4156,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'At what voltage difference from bus nominal voltage does the GCU command the line contactor to close, connecting the generator to the bus?',
+    options: {
+        a: 'Within 0.5V of bus nominal voltage',
+        b: 'Exactly equal, with zero tolerance',
+        c: 'Within 5V of bus nominal voltage'
+    },
+    correct: 'a'
+},
+{
+    id: 4157,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'When bus bars are manually tied, what load-sharing tolerance do the GCUs maintain between generators?',
+    options: {
+        a: 'Within 10% of rated load, between 25% and 100% rated load',
+        b: 'Load sharing is not possible when bus tied',
+        c: 'Within 50% of rated load at all times'
+    },
+    correct: 'a'
+},
+{
+    id: 4158,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "Under the GCU's undervoltage protection, at what voltage does it de-energize and disconnect the starter-generator from the load bus?",
+    options: {
+        a: 'Below 5V',
+        b: 'Below 15V',
+        c: 'Below 22V'
+    },
+    correct: 'a'
+},
+{
+    id: 4159,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "Under the GCU's feeder fault protection, at what differential feeder current does it de-energize and disconnect the starter-generator?",
+    options: {
+        a: '550A nominally',
+        b: '50A nominally',
+        c: '125A nominally'
+    },
+    correct: 'c'
+},
+{
+    id: 4160,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What overcurrent value must be exceeded for the GCU to transmit a Bus Fault signal?',
+    options: {
+        a: '125A',
+        b: '550A',
+        c: '300A'
+    },
+    correct: 'b'
+},
+{
+    id: 4161,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'If the bus protection logic of PDP1 does not remove a bus fault condition within 6 seconds, what does the GCU do, and within what total time window?',
+    options: {
+        a: 'It disconnects the generator, 6 to 7 seconds from the start of the overcurrent condition',
+        b: 'It immediately shuts down the engine',
+        c: 'It has no further action available'
+    },
+    correct: 'a'
+},
+{
+    id: 4162,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Under reverse current protection, at what level (relative to rated load) does the GCU act, and under what generator condition?',
+    options: {
+        a: 'Only above 50% of rated load during starter mode',
+        b: 'Higher than 10% of rated load, while the generator is in normal generation mode',
+        c: 'Any reverse current, regardless of mode'
+    },
+    correct: 'b'
+},
+{
+    id: 4163,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "What is the purpose of the GCU's External Power Inhibit function?",
+    options: {
+        a: 'To prevent the paralleling of DC External Power and DC Generator outputs',
+        b: 'To reduce generator output when on battery power',
+        c: 'To prevent the batteries from charging during flight'
+    },
+    correct: 'a'
+},
+{
+    id: 4164,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'If the GCU receives an external power presence signal while its generator is already connected to the bus, what action does it take?',
+    options: {
+        a: 'It increases generator output to match external power',
+        b: 'It ignores the signal until landing',
+        c: 'It de-energizes the line contactor, disconnecting the generator output from the bus'
+    },
+    correct: 'c'
+},
+{
+    id: 4165,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "What does the GCU's Start Terminate Signal output do?",
+    options: {
+        a: 'It arms the fire extinguishing system',
+        b: 'It starts the APU',
+        c: 'It is used by the starting panel to unlatch the starting functions and terminate the starting sequence'
+    },
+    correct: 'c'
+},
+{
+    id: 4166,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "What provides the external signal used to test the GCU's over voltage protection via the OV TEST pin?",
+    options: {
+        a: "The pilot's cyclic trim switch",
+        b: 'The EEC automatically during every start',
+        c: 'Ground Support Equipment'
+    },
+    correct: 'c'
+},
+{
+    id: 4167,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Where are the GCUs installed on short nose vs long nose variants?',
+    options: {
+        a: 'In the baggage compartment on both variants',
+        b: 'Always in the tail cone regardless of variant',
+        c: 'In the avionics bay (short nose) and the lower avionic bay (long nose)'
+    },
+    correct: 'c'
+},
+{
+    id: 4168,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "What signal does the GCU's Power Not-Ready output indicate?",
+    options: {
+        a: 'That, during start, the generator is not available or is in start mode',
+        b: 'That the battery is fully charged',
+        c: 'That external power is connected and ready'
+    },
+    correct: 'a'
+},
+{
+    id: 4169,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Which GCU function is responsible for field weakening?',
+    options: {
+        a: 'The over voltage protection function',
+        b: 'The monitoring function',
+        c: 'The starter mode control function'
+    },
+    correct: 'c'
+},
+{
+    id: 4170,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is the standard installed capacity of the main battery and auxiliary battery respectively (as upgraded/optional)?',
+    options: {
+        a: '40Ah main, 13Ah auxiliary only, no option',
+        b: '44Ah main, 27 or 28Ah auxiliary',
+        c: '300Ah main, 200Ah auxiliary'
+    },
+    correct: 'b'
+},
+{
+    id: 4171,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'How many individual cells are contained within each battery case, and what is the resulting nominal terminal voltage?',
+    options: {
+        a: '20 cells in series, giving 24V nominal',
+        b: '12 cells in series, giving 12V nominal',
+        c: '6 cells in series, giving 28V nominal'
+    },
+    correct: 'a'
+},
+{
+    id: 4172,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "What chemistry is used in the AW139's main and auxiliary batteries?",
+    options: {
+        a: 'Nickel-Cadmium (NiCad) with potassium hydroxide electrolyte',
+        b: 'Lead-acid',
+        c: 'Lithium-ion'
+    },
+    correct: 'a'
+},
+{
+    id: 4173,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What characteristic of NiCad batteries is particularly valuable for supplying aircraft services during discharge?',
+    options: {
+        a: 'A relatively flat voltage curve under discharge, supplying a near-constant potential through most of the discharge cycle',
+        b: 'A voltage that increases as the battery discharges',
+        c: 'A steadily decreasing voltage curve that warns of imminent failure'
+    },
+    correct: 'a'
+},
+{
+    id: 4174,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "Why is the batteries' low-temperature performance and high current capability particularly important on the AW139?",
+    options: {
+        a: 'Because the batteries are the sole power source at all times',
+        b: 'Because the batteries are also used as a self-contained power supply for engine starting',
+        c: 'Because the batteries power the avionics cooling fans only'
+    },
+    correct: 'b'
+},
+{
+    id: 4175,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is the function of the vent ports and tubing incorporated into each battery case?',
+    options: {
+        a: 'To allow cooling air to flow through the cells',
+        b: 'To drain excess electrolyte',
+        c: 'To route outgassing of hydrogen to a containment vessel and overboard'
+    },
+    correct: 'c'
+},
+{
+    id: 4176,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'How long must the auxiliary battery remain connected after helicopter power-off, and why?',
+    options: {
+        a: '1 hour, to cool the battery cells',
+        b: '30 minutes, to allow full recharge',
+        c: '5 minutes, to ensure correct shutdown of the CMS'
+    },
+    correct: 'c'
+},
+{
+    id: 4177,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What causes the batteries to automatically disconnect when external power is applied?',
+    options: {
+        a: 'To allow the GCU to perform its self-test',
+        b: 'To inhibit charging from the external power source',
+        c: 'To prevent overvoltage damage to the cockpit displays'
+    },
+    correct: 'b'
+},
+{
+    id: 4178,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does the auxiliary battery supply power to directly, at all times when connected?',
+    options: {
+        a: 'The BATTERY BUS',
+        b: 'The Number 1 Main Bus only',
+        c: 'The Non-Essential Bus only'
+    },
+    correct: 'a'
+},
+{
+    id: 4179,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "What warning is triggered if the auxiliary battery's internal temperature rises above a dangerous value?",
+    options: {
+        a: 'MAIN BATT HOT warning only',
+        b: 'AUX BATT HOT warning on the MFDs',
+        c: 'No warning is given; the battery simply disconnects silently'
+    },
+    correct: 'b'
+},
+{
+    id: 4180,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Where is the main battery located, versus the auxiliary battery?',
+    options: {
+        a: 'Both batteries are located in the baggage compartment',
+        b: 'Main battery on the left side of the nose compartment, auxiliary battery on the right side',
+        c: 'Main battery in the tail cone, auxiliary battery in the nose'
+    },
+    correct: 'b'
+},
+{
+    id: 4181,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'How are the individual cells within a battery interconnected?',
+    options: {
+        a: 'Using solid copper bus bars bolted to the positive and negative terminals of each cell',
+        b: 'Using a single shared busbar with no bolted connections',
+        c: 'Using flexible braided cables only'
+    },
+    correct: 'a'
+},
+{
+    id: 4182,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does the Main Battery (44Ah) servicing procedure include?',
+    options: {
+        a: 'Replace all cells regardless of condition',
+        b: 'Disassemble and weigh each cell',
+        c: 'Visually inspect, clean, charge, and top up if necessary'
+    },
+    correct: 'c'
+},
+{
+    id: 4183,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What internal protection device, besides the case itself, monitors the battery for overheating?',
+    options: {
+        a: 'A mechanical pressure relief valve only',
+        b: 'A single thermocouple wired to the FADEC',
+        c: 'Two bi-metallic temperature switches'
+    },
+    correct: 'c'
+},
+{
+    id: 4184,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What type of connector is used for the external power receptacle, and what three pins does it use?',
+    options: {
+        a: 'A standard two-pin plug with no control signal',
+        b: 'Tripolar type, with a large positive pin, a large ground pin, and a small positive control signal pin',
+        c: 'A four-pin connector with two positive and two ground pins'
+    },
+    correct: 'b'
+},
+{
+    id: 4185,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'At what voltage does the external power over-voltage protection trip?',
+    options: {
+        a: '24.0 VDC',
+        b: '34.0 VDC',
+        c: '29.7 VDC'
+    },
+    correct: 'c'
+},
+{
+    id: 4186,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'When external power over-voltage is detected, what circuit breaker trips, and where is it located?',
+    options: {
+        a: 'CB1, located in the cockpit overhead panel',
+        b: 'CB45, located in the tail cone',
+        c: 'CB27, located near the AUX battery'
+    },
+    correct: 'c'
+},
+{
+    id: 4187,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'How is external power over-voltage reset after a trip?',
+    options: {
+        a: 'Lower the external power voltage to its proper value and reset CB27',
+        b: 'The system resets automatically after 30 seconds',
+        c: 'Cycle the BATTERY MASTER switch only'
+    },
+    correct: 'a'
+},
+{
+    id: 4188,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "When external power is connected and operating, how does it override the helicopter's own power generation?",
+    options: {
+        a: 'It simply adds in parallel with the generators with no isolation',
+        b: 'PDP1 control circuits isolate the batteries and generators from the external power source',
+        c: 'It only powers the Non-Essential Bus, leaving generators to power the rest'
+    },
+    correct: 'b'
+},
+{
+    id: 4189,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does the EXT PWR DOOR caution indicate?',
+    options: {
+        a: 'The external power voltage is out of tolerance',
+        b: 'The external-power receptacle-access door is open',
+        c: 'External power is connected and energized'
+    },
+    correct: 'b'
+},
+{
+    id: 4190,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'With the EXT PWR control switch set to ON and no over-voltage sensed, what happens to the two main bus bars?',
+    options: {
+        a: 'They are connected together, and all helicopter bus bars are energized',
+        b: 'They remain isolated from each other',
+        c: 'Only MAIN BUS 1 is energized'
+    },
+    correct: 'a'
+},
+{
+    id: 4191,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is indicated in the cockpit if the external power plug remains connected to the helicopter receptacle after the EXT PWR switch is set to OFF?',
+    options: {
+        a: 'The engines are automatically prevented from starting',
+        b: 'An advisory legend is displayed',
+        c: 'Nothing is indicated; this is a normal condition'
+    },
+    correct: 'b'
+},
+{
+    id: 4192,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Where is PDP1 mounted?',
+    options: {
+        a: 'Under the cockpit floor',
+        b: 'On the roof of the cabin, on the left side',
+        c: 'In the tail cone'
+    },
+    correct: 'b'
+},
+{
+    id: 4193,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is the purpose of the two louvres on the PDP1 box (front and rear)?',
+    options: {
+        a: 'To allow cooling fuel vapour to vent',
+        b: 'To provide a sight gauge for internal components',
+        c: 'To allow heat to escape so the internal temperature does not become too high'
+    },
+    correct: 'c'
+},
+{
+    id: 4194,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does PDP1 contain, relating to the No.1 Generator side?',
+    options: {
+        a: 'Heavy power switching components, power contactors, passive protective devices, bus re-configuration logic, external power protection relay, and bus protection control logic',
+        b: 'Only the circuit breakers for cockpit lighting',
+        c: 'The main rotor track and balance equipment'
+    },
+    correct: 'a'
+},
+{
+    id: 4195,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'How is the main circuit breaker panel divided into two groups?',
+    options: {
+        a: 'By aircraft system (fuel, hydraulic, electrical)',
+        b: 'By flight phase (ground, start, flight)',
+        c: 'LH group (Essential/Main/Non-Essential Bus No.1), RH group (Essential/Main/Non-Essential Bus No.2 and Battery Bus)'
+    },
+    correct: 'c'
+},
+{
+    id: 4196,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is the current rating of the ESS BUS TIE circuit breaker that keeps ESS BUS 1 and ESS BUS 2 connected?',
+    options: {
+        a: '300A',
+        b: '50A',
+        c: '125A'
+    },
+    correct: 'b'
+},
+{
+    id: 4197,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is the current rating of the main battery relays K1 and K3?',
+    options: {
+        a: '50A',
+        b: '300A',
+        c: '125A'
+    },
+    correct: 'b'
+},
+{
+    id: 4198,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Where is the master battery relay (K2) installed?',
+    options: {
+        a: 'In the nose compartment, aft of the main battery',
+        b: 'On the roof of the cabin',
+        c: 'In the tail rotor gearbox bay'
+    },
+    correct: 'a'
+},
+{
+    id: 4199,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does relay K4 (auxiliary battery relay) connect the auxiliary battery to, and for what purpose only?',
+    options: {
+        a: 'The Number 1 essential bus, for full load supply',
+        b: 'The Number 2 main bus, for charging only',
+        c: 'The Battery Bus, for starting only'
+    },
+    correct: 'b'
+},
+{
+    id: 4200,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'How many DC current transformers are used to detect differential current changes, and what type are they?',
+    options: {
+        a: 'Two, of the toroidal split-core type',
+        b: 'Eight, of the clamp type',
+        c: 'Four, of the annular type'
+    },
+    correct: 'c'
+},
+{
+    id: 4201,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Where is the Number 1 DC current-transformer (T3) installed?',
+    options: {
+        a: 'On the main rotor mast',
+        b: 'In PDP1',
+        c: 'Near the AUX battery in the nose compartment'
+    },
+    correct: 'b'
+},
+{
+    id: 4202,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'How many shunts measure current from the starter-generators and batteries, and where is this displayed?',
+    options: {
+        a: 'Four shunts, displayed on an ammeter on the MFDs',
+        b: 'Two shunts, displayed on a dedicated analogue gauge only',
+        c: 'One shunt shared across all sources'
+    },
+    correct: 'a'
+},
+{
+    id: 4203,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is the current rating of the Number 1 and Number 2 generator shunts (R3, R2)?',
+    options: {
+        a: '450A',
+        b: '200A',
+        c: '300A'
+    },
+    correct: 'c'
+},
+{
+    id: 4204,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is the current rating of the main and auxiliary battery shunts (R1, R4)?',
+    options: {
+        a: '550A',
+        b: '200A',
+        c: '300A'
+    },
+    correct: 'b'
+},
+{
+    id: 4205,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Where is the main battery shunt (R1) located, and how is it connected?',
+    options: {
+        a: 'Inside the main battery case itself, in parallel with the cells',
+        b: 'On the roof of the cabin, in series with the generator output',
+        c: 'Under the cockpit floor, in series between the battery negative terminal and the airframe grounding point'
+    },
+    correct: 'c'
+},
+{
+    id: 4206,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Which Modular Avionics Unit does the Number 1 shunt (R3) interface with to display the DC ammeter?',
+    options: {
+        a: 'The HCB',
+        b: 'MAU1',
+        c: 'MAU2'
+    },
+    correct: 'b'
+},
+{
+    id: 4207,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Where are the two diode modules installed?',
+    options: {
+        a: 'Inside each battery case',
+        b: 'In the tail rotor gearbox bay',
+        c: 'On the roof of the cabin, between the two Power Distribution Panels'
+    },
+    correct: 'c'
+},
+{
+    id: 4208,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does diode CR3 connect?',
+    options: {
+        a: 'The Main Bus 1 to Essential Bus 1',
+        b: 'The Auxiliary Battery to Essential Bus 2',
+        c: 'The Main Battery to Essential Bus 1'
+    },
+    correct: 'c'
+},
+{
+    id: 4209,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does diode CR23 connect?',
+    options: {
+        a: 'The Auxiliary Battery to Main Bus 2',
+        b: 'The Main Battery to Essential Bus 1',
+        c: 'The Main Bus 1 to Essential Bus 1'
+    },
+    correct: 'c'
+},
+{
+    id: 4210,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is the function of diode CR5 (CR114 on long nose), connecting the Auxiliary Battery to Main Bus 2?',
+    options: {
+        a: 'It prevents the Auxiliary Battery from discharging into Main Bus 2, allowing only recharging',
+        b: 'It allows full bidirectional current flow with no restriction',
+        c: 'It isolates the Auxiliary Battery from the Battery Bus entirely'
+    },
+    correct: 'a'
+},
+{
+    id: 4211,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Why does ESS BUS voltage normally read about 0.8VDC lower than MAIN BUS voltage?',
+    options: {
+        a: 'Because of the voltage drop across the diodes that protect the essential bus bars',
+        b: 'Because the essential bus bars are deliberately supplied at a reduced voltage',
+        c: 'Because of resistive losses in the circuit breaker panel wiring'
+    },
+    correct: 'a'
+},
+{
+    id: 4212,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'How many diodes does each diode module contain, and how are they mounted?',
+    options: {
+        a: '1 diode, soldered directly to the PDP chassis',
+        b: '2 diodes, attached with screws on a heat sink',
+        c: '4 diodes, potted in resin'
+    },
+    correct: 'b'
+},
+{
+    id: 4213,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does setting the GEN 1(2) switch to OFF do?',
+    options: {
+        a: 'Has no effect while the engine is running',
+        b: 'Only disconnects the generator temporarily without resetting GCU logic',
+        c: 'Disables/shuts down the generator and resets latched functions in the relevant GCU'
+    },
+    correct: 'c'
+},
+{
+    id: 4214,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'With the BUS TIE switch set to ON, under what condition is the tie inhibited?',
+    options: {
+        a: 'When an overcurrent malfunction exists',
+        b: 'Whenever external power is connected',
+        c: 'The tie can never be inhibited once selected ON'
+    },
+    correct: 'a'
+},
+{
+    id: 4215,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does the BUS TIE AUTO position enable?',
+    options: {
+        a: 'A permanently closed bus tie regardless of conditions',
+        b: 'Automatic activation of the bus tie during external power and single generator operation (except during an overcurrent malfunction)',
+        c: 'Manual-only bus tie control, disabling automatic logic'
+    },
+    correct: 'b'
+},
+{
+    id: 4216,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does the BUS TIE RESET position do?',
+    options: {
+        a: 'Resets the engine start sequence',
+        b: 'Resets the GCU over-voltage protection only',
+        c: 'Resets the logic involved in cross-tie of the main bus bars and isolation of the batteries from the main bus bars'
+    },
+    correct: 'c'
+},
+{
+    id: 4217,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does the MAIN BATTERY switch (as distinct from BATTERY MASTER) control?',
+    options: {
+        a: 'The MAIN BUS 1 operational condition through the main battery',
+        b: "The auxiliary battery's connection to the Battery Bus",
+        c: 'The Essential Bus Bar condition through both batteries'
+    },
+    correct: 'a'
+},
+{
+    id: 4218,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does the AUX BATTERY switch allow?',
+    options: {
+        a: 'The AUX battery to power the starter directly',
+        b: 'The AUX battery to be physically disconnected for removal',
+        c: 'The AUX battery to recharge from the generator'
+    },
+    correct: 'c'
+},
+{
+    id: 4219,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'If the batteries are connected, under what BUS TIE switch position is bus activation enabled?',
+    options: {
+        a: 'RESET only',
+        b: 'AUTO only',
+        c: 'ON'
+    },
+    correct: 'c'
+},
+{
+    id: 4220,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'At what MAIN/ESS bus voltage do the voltmeter readouts switch to amber reverse video?',
+    options: {
+        a: 'Below 22.0V',
+        b: 'Below 18.0V',
+        c: 'Below 26.0V'
+    },
+    correct: 'a'
+},
+{
+    id: 4221,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does a MAIN BUS voltage below 22.0V during flight, following a dual generator failure, indicate?',
+    options: {
+        a: 'The battery is about to discharge completely and a total black-out may be expected soon',
+        b: 'The external power source has been connected',
+        c: 'A momentary and inconsequential voltage dip'
+    },
+    correct: 'a'
+},
+{
+    id: 4222,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'At what voltage are the bus voltmeter readouts set to display 0.0 (amber reverse video)?',
+    options: {
+        a: 'Below 20.0V',
+        b: 'Below 10.0V',
+        c: 'Below 15.0V'
+    },
+    correct: 'c'
+},
+{
+    id: 4223,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'On the battery ammeters, what does the amber band of the analogue scale represent?',
+    options: {
+        a: 'A battery discharge condition',
+        b: 'A fully charged, fully stable battery',
+        c: 'A battery charge condition'
+    },
+    correct: 'a'
+},
+{
+    id: 4224,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does 100% on a generator load meter correspond to?',
+    options: {
+        a: '550A, the overcurrent trip threshold',
+        b: '125A, the feeder fault threshold',
+        c: '300A, the maximum continuous generator output'
+    },
+    correct: 'c'
+},
+{
+    id: 4225,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Overload in the red warning range of the generator load meter must be avoided, except under what specific condition?',
+    options: {
+        a: 'Whenever the BUS TIE switch is set to AUTO',
+        b: 'When starting the second engine on batteries (assisted start)',
+        c: 'During normal cruise flight'
+    },
+    correct: 'b'
+},
+{
+    id: 4226,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'On the DC Electrical synoptic page, which of the following is NOT one of the displayed items?',
+    options: {
+        a: 'MAIN Battery and AUX Battery connection status',
+        b: 'BUS TIE contactor status',
+        c: 'Engine N1/N2 values'
+    },
+    correct: 'c'
+},
+{
+    id: 4227,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'When digital readout parameters become invalid, how are they typically displayed?',
+    options: {
+        a: 'Replaced by amber dashes',
+        b: 'Left blank with no indication',
+        c: 'Replaced by a flashing red X'
+    },
+    correct: 'a'
+},
+{
+    id: 4228,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What two primary functions does the main battery power generation and distribution system perform?',
+    options: {
+        a: 'Main battery connection to the external power receptacle only',
+        b: 'Main battery connection to all four bus bars equally',
+        c: 'Main battery connection to the Number 1 essential bus, and to the Number 1 main bus'
+    },
+    correct: 'c'
+},
+{
+    id: 4229,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'With the BATTERY MASTER switch set to ON, what happens to the main battery?',
+    options: {
+        a: 'It connects only to the Number 1 main bus',
+        b: 'It disconnects from all buses as a safety measure',
+        c: 'It connects to both the Number 1 and Number 2 essential bus bars'
+    },
+    correct: 'c'
+},
+{
+    id: 4230,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What happens to the main battery when the MAIN BATT switch (S10) is set to OFF?',
+    options: {
+        a: 'The main battery is physically isolated from its relay coil',
+        b: 'The main battery is disconnected from the Number 1 main bus',
+        c: 'The main battery is disconnected from both essential buses'
+    },
+    correct: 'b'
+},
+{
+    id: 4231,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "What two components are in series in the circuit connecting relay K1's coil to the main battery's positive terminal?",
+    options: {
+        a: 'Circuit breaker CB6 and diode CR5',
+        b: 'Circuit breaker CB1 and diode CR3',
+        c: 'Circuit breaker CB45 and diode CR21'
+    },
+    correct: 'c'
+},
+{
+    id: 4232,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What causes the BATT OFF LINE caution to extinguish on the MFD?',
+    options: {
+        a: 'The external power source being connected',
+        b: 'Both generators being online simultaneously',
+        c: 'Both the main and auxiliary batteries being connected to the essential bus bars'
+    },
+    correct: 'c'
+},
+{
+    id: 4233,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'For the main battery to connect to the Number 1 main bus, which four conditions must all be met?',
+    options: {
+        a: 'Only that the BATTERY MASTER switch is ON',
+        b: 'BATTERY MASTER ON (K1,K2 energized), MAIN BATT ON (K3 energized), no GCU1 overcurrent indication (K18 closed), external power not supplying the helicopter (K17 closed)',
+        c: 'Only that the engine is running'
+    },
+    correct: 'b'
+},
+{
+    id: 4234,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What energizes the BATT BUS?',
+    options: {
+        a: 'The BATTERY MASTER switch being set to ON',
+        b: 'The plug being connected to the auxiliary battery connector',
+        c: 'A signal from GCU2 only'
+    },
+    correct: 'b'
+},
+{
+    id: 4235,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What prevents the auxiliary battery from discharging into Main Bus 2 via relay K4, allowing only recharging?',
+    options: {
+        a: 'A dedicated one-way relay interlock',
+        b: 'The reverse-biased diode CR5',
+        c: 'The AUX BATT HOT temperature switch'
+    },
+    correct: 'b'
+},
+{
+    id: 4236,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "What is the external power inhibit function's effect on the Generator Line Contactor (GLC) when external power is connected and a generator is already online?",
+    options: {
+        a: 'The GLC is unaffected by external power presence',
+        b: 'The GLC remains closed and shares load with external power',
+        c: 'The GCU opens the GLC, disconnecting the generator from the bus'
+    },
+    correct: 'c'
+},
+{
+    id: 4237,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Before attempting to start the engine on batteries, what minimum MAIN BUS voltage must the pilot confirm?',
+    options: {
+        a: 'Not less than 23V',
+        b: 'Not less than 18V',
+        c: 'Not less than 26V'
+    },
+    correct: 'a'
+},
+{
+    id: 4238,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'When the BATTERY AUX switch is set to ON, why does MAIN BUS 2 remain unpowered even though the Auxiliary Battery contactor K4 closes?',
+    options: {
+        a: 'MAIN BUS 2 is isolated by a separate switch that must also be set',
+        b: 'K4 does not actually close until the generator is online',
+        c: 'The reverse-biased diode CR5 only permits recharging of the Auxiliary Battery from MAIN BUS 2, not the reverse'
+    },
+    correct: 'c'
+},
+{
+    id: 4239,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'In the example start sequence, why must the BUS TIE switch be set to ON before starting engine No.2 first?',
+    options: {
+        a: 'To prevent the AUX battery from overheating',
+        b: "To power MAIN BUS 2 from MAIN BUS 1, since Engine 2's generator is not yet online",
+        c: 'Because engine No.2 cannot be started without the BUS TIE being closed, for reasons unrelated to bus power'
+    },
+    correct: 'b'
+},
+{
+    id: 4240,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Which of the following is one of the conditions under which the BUS TIE contactor closes?',
+    options: {
+        a: 'BUS TIE switch = ON',
+        b: 'ENG 1 MODE switch = IDLE',
+        c: 'AUX BATT switch = OFF'
+    },
+    correct: 'a'
+},
+{
+    id: 4241,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'In an Engine normal start (AUTO Mode), what unit initiates the start when the pilot moves the ENG MODE switch to IDLE or FLIGHT?',
+    options: {
+        a: 'The GCU, independent of any other unit',
+        b: 'The Engine Electronic Unit (EEC)',
+        c: 'The pilot directly via the START push-button'
+    },
+    correct: 'b'
+},
+{
+    id: 4242,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'During AUTO mode starting, at what Ng value does the EEC terminate the start sequence?',
+    options: {
+        a: 'Ng = 49%',
+        b: 'Ng = 100%',
+        c: 'Ng = 65%'
+    },
+    correct: 'a'
+},
+{
+    id: 4243,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'During AUTO mode starting, why does the AUX battery (rather than the MAIN battery) supply ESS BUS 1 and 2?',
+    options: {
+        a: 'To keep a sufficiently high voltage for the pilot Display Units, since MAIN battery voltage drops heavily while cranking the engine',
+        b: 'Because the MAIN battery cannot supply the essential buses under any circumstance',
+        c: 'Because the AUX battery has a higher voltage rating than the MAIN battery'
+    },
+    correct: 'a'
+},
+{
+    id: 4244,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "What is 'assisted start', as referenced in Step 7 of the battery start sequence?",
+    options: {
+        a: 'Both engines are started simultaneously using only the batteries',
+        b: 'A ground power cart is connected to assist the batteries',
+        c: 'The generator already online helps the MAIN battery feed the starter for the second engine'
+    },
+    correct: 'c'
+},
+{
+    id: 4245,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'After both generators are online (Step 8), what position should the BUS TIE switch be returned to for normal operation?',
+    options: {
+        a: 'ON',
+        b: 'AUTO',
+        c: 'RESET'
+    },
+    correct: 'b'
+},
+{
+    id: 4246,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'With both generators online, is the BUS TIE contactor open or closed, and why?',
+    options: {
+        a: 'It cycles open and closed every few seconds',
+        b: 'Open, because each generator separately powers its own bus bars without needing to be tied',
+        c: 'Closed, to maximise load sharing at all times'
+    },
+    correct: 'b'
+},
+{
+    id: 4247,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Under what condition(s) are NON ESS BUS 1 and NON ESS BUS 2 energized?',
+    options: {
+        a: 'Only when the BATTERY MASTER switch is OFF',
+        b: 'Only during an assisted start',
+        c: 'Both GEN = ON-LINE, or EXT PWR is connected'
+    },
+    correct: 'c'
+},
+{
+    id: 4248,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'During an Engine Manual Start, which unit is not involved, in contrast to an AUTO mode start?',
+    options: {
+        a: 'The EEC',
+        b: 'The GCU',
+        c: 'The starter-generator'
+    },
+    correct: 'a'
+},
+{
+    id: 4249,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'When a single generator fails, what two automatic actions occur?',
+    options: {
+        a: 'Both generators shut down simultaneously',
+        b: 'The BUS TIE contactor automatically closes, and NON ESS BUS 1 and 2 are disconnected',
+        c: 'The affected battery is permanently disconnected'
+    },
+    correct: 'b'
+},
+{
+    id: 4250,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What overcurrent threshold, if exceeded, triggers the DC BUS FAIL message and inhibits automatic BUS TIE operation?',
+    options: {
+        a: 'The second overcurrent threshold (OC2)',
+        b: 'The first overcurrent threshold (OC1)',
+        c: 'The reverse current threshold'
+    },
+    correct: 'b'
+},
+{
+    id: 4251,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'How can the OC latching logic (triggered by a momentary overcurrent condition) be reset?',
+    options: {
+        a: 'By cycling the BATTERY MASTER switch',
+        b: 'It resets automatically after 60 seconds',
+        c: 'By moving the BUS TIE switch to RESET'
+    },
+    correct: 'c'
+},
+{
+    id: 4252,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'If an overcurrent condition is not cleared within 6 seconds and the second threshold (OC2) is exceeded, what is this condition considered?',
+    options: {
+        a: 'A short circuit',
+        b: 'A momentary transient, requiring no action',
+        c: 'A normal starting current surge'
+    },
+    correct: 'a'
+},
+{
+    id: 4253,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'During a short circuit event (OC2 exceeded), what two things does the relevant GCU disconnect?',
+    options: {
+        a: 'Only the relevant Generator',
+        b: 'The relevant Generator and the relevant Battery',
+        c: 'Only the relevant Battery'
+    },
+    correct: 'b'
+},
+{
+    id: 4254,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'During a short circuit event, why does the BUS TIE contactor remain open?',
+    options: {
+        a: 'To prevent the failed bus from being connected to the only remaining available generator',
+        b: 'Because the GCU has no control over the BUS TIE contactor',
+        c: 'Because the BUS TIE switch physically cannot be moved during a fault'
+    },
+    correct: 'a'
+},
+{
+    id: 4255,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Following a dual generator failure, what manual action is required to supply the Essential (Emergency) loads?',
+    options: {
+        a: 'Manually shed MAIN BUS 1 by setting the BATTERY MAIN switch to OFF',
+        b: 'Manually close the BUS TIE contactor',
+        c: 'Manually set both GEN switches back to ON'
+    },
+    correct: 'a'
+},
+{
+    id: 4256,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Following a dual generator failure and complete battery discharge (electrical black out), how do the engines continue to run?',
+    options: {
+        a: 'The engines revert to a purely mechanical governor with no electrical input',
+        b: 'The engines automatically shut down for safety',
+        c: 'In AUTO Mode, controlled by the EEC which is electrically powered by the Permanent Magnet Alternator (PMA)'
+    },
+    correct: 'c'
+},
+{
+    id: 4257,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Why must the landing gear be extended before total electrical power loss is expected during a black-out scenario?',
+    options: {
+        a: 'Because the landing gear locks automatically at low voltage',
+        b: 'Because the landing gear is electrically actuated and cannot be lowered once electrical power is fully lost',
+        c: 'Because gear extension charges the batteries'
+    },
+    correct: 'b'
+},
+{
+    id: 4258,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is an expected consequence of the engines being powered by the PMA alone after an electrical black-out?',
+    options: {
+        a: 'The rotor RPM automatically decreases to idle',
+        b: 'An increase in fuel consumption is expected',
+        c: 'The engines must be shut down within 2 minutes'
+    },
+    correct: 'b'
+},
+{
+    id: 4259,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What CAS message is displayed if a MAIN BUS momentary overcurrent (Level 1) condition is detected?',
+    options: {
+        a: 'DC BUS FAIL',
+        b: '1 DC GEN',
+        c: 'MAIN BATT OFF'
+    },
+    correct: 'a'
+},
+{
+    id: 4260,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What CAS message accompanies the disconnection of the relevant battery during a short circuit event on the Number 1 system?',
+    options: {
+        a: 'AUX BATT OFF',
+        b: 'DC BUS FAIL only, with no battery message',
+        c: 'MAIN BATT OFF'
+    },
+    correct: 'c'
+},
+{
+    id: 4261,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Which AWDP volume covers Short Nose helicopters, serial numbers 31005 thru 31200 and 41001 thru 41200?',
+    options: {
+        a: 'AWDP 3',
+        b: 'AWDP 1',
+        c: 'AWDP 2'
+    },
+    correct: 'b'
+},
+{
+    id: 4262,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Which AWDP volume covers Long Nose helicopters, serial numbers 31201 thru 31399 and 41201 thru 41299?',
+    options: {
+        a: 'AWDP 2',
+        b: 'AWDP 3',
+        c: 'AWDP 1'
+    },
+    correct: 'a'
+},
+{
+    id: 4263,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does a triangle containing a letter (or letters) indicate on a wiring diagram?',
+    options: {
+        a: 'A cross-reference to another diagram',
+        b: 'A ground connection point',
+        c: 'A cross-reference to another sheet of the same diagram'
+    },
+    correct: 'a'
+},
+{
+    id: 4264,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does a triangle containing a number indicate on a wiring diagram?',
+    options: {
+        a: "The wire's current rating",
+        b: 'A cross-reference to another sheet of the same diagram',
+        c: 'A cross-reference to another diagram entirely'
+    },
+    correct: 'b'
+},
+{
+    id: 4265,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'In the wire segment lettering system, which letter identifies the first segment of each circuit, nearest the power source?',
+    options: {
+        a: 'Letter N',
+        b: 'Letter Z',
+        c: 'Letter A'
+    },
+    correct: 'c'
+},
+{
+    id: 4266,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "What do the letters 'I' and 'O' have in common in the wire segment lettering system?",
+    options: {
+        a: 'Neither letter is used, to avoid confusion with the numerals 1 and 0',
+        b: 'They indicate a thermocouple circuit',
+        c: 'They are reserved exclusively for ground wires'
+    },
+    correct: 'a'
+},
+{
+    id: 4267,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "What does the suffix letter 'N' at the end of a wire identification code indicate?",
+    options: {
+        a: 'The wire is a new (unused) spare',
+        b: 'The wire completes the circuit to the ground network',
+        c: 'The wire carries a neutral AC phase'
+    },
+    correct: 'b'
+},
+{
+    id: 4268,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "If a starter-generator's remaining brush life exceeds 700 hours at an inspection, what action is required?",
+    options: {
+        a: 'No action is needed until the next scheduled check',
+        b: 'Brushes must be replaced at 1000 FH, requiring generator removal',
+        c: 'Brushes are automatically rated for the life of the generator'
+    },
+    correct: 'b'
+},
+{
+    id: 4269,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'At what interval is the Diode assembly OC (On-Condition) check for corrosion/mechanical damage performed?',
+    options: {
+        a: '600 hrs / 2 years',
+        b: '450 hrs / 18 months',
+        c: '900 hrs / 1 year'
+    },
+    correct: 'b'
+},
+{
+    id: 4270,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'At what interval is the Main battery (44Ah) deep cycle recharge servicing performed?',
+    options: {
+        a: '600 hrs / 2 years',
+        b: '900 hrs / 1 year',
+        c: '300 hrs'
+    },
+    correct: 'b'
+},
+{
+    id: 4271,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'At what interval is the GVI of the Power Distribution Panels performed?',
+    options: {
+        a: '450 hrs / 18 months',
+        b: '300 hrs',
+        c: '600 hrs / 2 years'
+    },
+    correct: 'c'
+},
+{
+    id: 4272,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'At what interval is the DI of the starter-generator brushes for wear performed?',
+    options: {
+        a: '900 hrs / 1 year',
+        b: '300 hrs',
+        c: '600 hrs / 2 years'
+    },
+    correct: 'b'
+},
+{
+    id: 4273,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'The AFIP for ATA chapter 24 (Electrical Power) consists solely of which type of fault?',
+    options: {
+        a: 'BIT-generated faults',
+        b: 'Detected faults',
+        c: 'Observed faults'
+    },
+    correct: 'c'
+},
+{
+    id: 4274,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "What is required to carry out many of the electrical power system's fault isolation procedures?",
+    options: {
+        a: 'Continuity checks, observing electrical safety precautions',
+        b: 'Full generator removal in every case',
+        c: 'A complete aircraft weigh and balance'
+    },
+    correct: 'a'
+},
+{
+    id: 4275,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "Who or what discovers an 'observed fault', as defined in troubleshooting terminology?",
+    options: {
+        a: 'The Central Maintenance Computer automatically',
+        b: 'The pilot or ground crew',
+        c: 'Only a certified avionics technician during a scheduled inspection'
+    },
+    correct: 'b'
+},
+{
+    id: 4276,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does the Primus 700 series weather radar require for its AC power supply?',
+    options: {
+        a: 'Two dedicated AC generators',
+        b: 'A Static Inverter',
+        c: 'A direct DC-to-RF converter'
+    },
+    correct: 'b'
+},
+{
+    id: 4277,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What does the heated windscreen (part of the ice protection system) require for its AC power supply?',
+    options: {
+        a: 'A single Static Inverter',
+        b: 'Two AC generators',
+        c: 'Connection to the Battery Bus only'
+    },
+    correct: 'b'
+},
+{
+    id: 4278,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'On the AW139, is AC power distributed to all aircraft systems, or only to specific optional equipment?',
+    options: {
+        a: 'Only to specific optional equipment, via a dedicated AC bus',
+        b: "To all systems, as the aircraft's primary power type",
+        c: 'AC power is not used anywhere on the AW139'
+    },
+    correct: 'a'
+},
+{
+    id: 4279,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'A Static Inverter used for AC generation is best described as what type of unit?',
+    options: {
+        a: 'A battery charger exclusively for the auxiliary battery',
+        b: "An avionics 'black box' that converts DC to AC power for specific equipment",
+        c: 'A mechanical gearbox-driven alternator identical to the starter-generators'
+    },
+    correct: 'b'
 }
 
     ];
