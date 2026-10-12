@@ -1,4 +1,5 @@
 import { questions as questionBank } from './questionBank.js';
+import { recordResult, weightedSample, getOverallStats, resetProgress } from './progress.js';
 
 document.addEventListener('DOMContentLoaded', function () {
     // Cache DOM elements for later use
@@ -13,16 +14,17 @@ document.addEventListener('DOMContentLoaded', function () {
     const aircraftInput = document.getElementById('aircraftType'); // Get aircraft type from hidden input
 
     resultContainer.style.display = 'none';
-    
+
     // Get the value of the aircraft type from the hidden input
     const aircraftType = aircraftInput ? aircraftInput.value : undefined;
     let selectedQuestions = [];
     let filteredQuestions = [];
 
-    // Function to generate a specified number of random questions from the given questions array
+    // Function to pick a specified number of questions from the given questions array,
+    // weighted so questions you've gotten wrong more often show up more often, and
+    // questions you've answered correctly several times in a row show up less often.
     function generateRandomQuestions(count, questions) {
-        const shuffledQuestions = questions.sort(() => Math.random() - 0.5);
-        return shuffledQuestions.slice(0, count);
+        return weightedSample(questions, count, aircraftType);
     }
 
     // Function to display the selected questions and their options
@@ -140,7 +142,8 @@ document.addEventListener('DOMContentLoaded', function () {
         finishBtn.style.boxShadow = 'none';
     }
 
-    // Function to calculate the quiz score and display it
+    // Function to calculate the quiz score, display it, and record each
+    // question's outcome so future quizzes can adapt to it.
     function calculateScore() {
         let correctCount = 0;
 
@@ -149,12 +152,13 @@ document.addEventListener('DOMContentLoaded', function () {
             const selectedOptionBtn = document.querySelector(`button[data-question="${questionId}"].selected`);
 
             // Check if the selected option is correct
-            if (selectedOptionBtn) {
-                const selectedOption = selectedOptionBtn.getAttribute('data-option');
-                if (selectedOption === question.correct) {
-                    correctCount++;
-                }
+            const selectedOption = selectedOptionBtn ? selectedOptionBtn.getAttribute('data-option') : null;
+            const wasCorrect = selectedOption === question.correct;
+            if (wasCorrect) {
+                correctCount++;
             }
+
+            recordResult(aircraftType, questionId, wasCorrect);
         });
 
         // Calculate and display the score and percentage
@@ -165,6 +169,8 @@ document.addEventListener('DOMContentLoaded', function () {
         scoreText.innerHTML = `Score: ${score} / ${selectedQuestions.length}, Percentage: ${percentage.toFixed(2)}%`;
         resultContainer.innerHTML = '';
         resultContainer.appendChild(scoreText);
+
+        renderProgressPanel();
     }
 
     // Function to reset the quiz to its initial state
@@ -176,6 +182,46 @@ document.addEventListener('DOMContentLoaded', function () {
         finishBtn.style.boxShadow = ''; // Reset the shadow style on reset
         resultContainer.style.display = 'none'; // Ensure result container is hidden
     }
+
+    // Progress panel showing adaptive-learning stats for this aircraft type.
+    // Created once here and inserted above the questions container so it
+    // doesn't require touching every quiz page's HTML.
+    const progressPanel = document.createElement('div');
+    progressPanel.id = 'progress-panel';
+    progressPanel.className = 'progress-panel';
+    questionsContainer.parentNode.insertBefore(progressPanel, questionsContainer);
+
+    function renderProgressPanel() {
+        if (!aircraftType) return;
+        const stats = getOverallStats(aircraftType);
+
+        progressPanel.innerHTML = '';
+
+        const heading = document.createElement('p');
+        heading.className = 'progress-heading';
+        heading.innerText = 'Your Progress';
+        progressPanel.appendChild(heading);
+
+        const summary = document.createElement('p');
+        summary.className = 'progress-summary';
+        summary.innerText = stats.tracked === 0
+            ? 'No history yet — finish a quiz to start tracking.'
+            : `Tracked: ${stats.tracked} | Accuracy: ${stats.accuracy.toFixed(0)}% | Mastered: ${stats.mastered} | Due for review: ${stats.dueForReview}`;
+        progressPanel.appendChild(summary);
+
+        const resetProgressBtn = document.createElement('button');
+        resetProgressBtn.id = 'resetProgressBtn';
+        resetProgressBtn.innerText = 'Reset Progress';
+        resetProgressBtn.addEventListener('click', function () {
+            if (confirm('Reset all tracked progress for this aircraft? This cannot be undone.')) {
+                resetProgress(aircraftType);
+                renderProgressPanel();
+            }
+        });
+        progressPanel.appendChild(resetProgressBtn);
+    }
+
+    renderProgressPanel();
 
     // Function to get the currently selected categories from the checkboxes
     function getSelectedCategories() {
