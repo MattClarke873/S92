@@ -14,71 +14,40 @@
       height: 100%;
       width: 100%;
       margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-
-    .weeks {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    .mainButtons {
-      padding: 10px 20px;
-      font-size: 16px;
-      min-width: 300px;
-      cursor: pointer;
     }
   </style>
   <title>H175 Type Course Quiz</title>
 </head>
 <body>
   <div class="container">
-    <h6 id="lastSave">Last save: --/--/---- --:--</h6> 
-    <h1>H175 Type Course Quiz</h1>
+    <div class="home-card">
+      <p class="home-meta" id="lastSave">Last save: --/--/---- --:--</p>
+      <h1>H175 Type Course Quiz</h1>
 
-    <div class="weeks">
-      <a href="../html/H175Week1.html"><button class="mainButtons" id="Week1" title="    ATA 00-12, ATA 20, ATA 24, ATA 45, ATA 50-56, ATA 62, ATA 63">Week 1</button></a>
-
-      <a href="../html/H175Week2.html"><button class="mainButtons" id="Week2" title="ATA 23, ATA 25, ATA 29, ATA 31, ATA 32, ATA 44, ATA 64, ATA 65, ATA 67">Week 2</button></a>
-
-      <a href="../html/H175Week3.html"><button class="mainButtons" id="Week3" title="ATA 18 ATA 26, ATA 28, ATA 34, ATA 49, ATA 70, ATA 71, ATA 78, Engine Manuals">Week 3</button></a>
-
-      <a href="../html/H175Week4.html"><button class="mainButtons" id="Week4" title="ATA 22, ATA 25, ATA 33, ATA 72, ATA 73, ATA 74, ATA 75, ATA 79">Week 4</button></a>
-
-      <a href="../html/H175Final.html"><button class="mainButtons" id="Final" title="Contains all ATA Chapters">Final Exam</button></a>
-    </div>
-
-    <div id="popup-container">
-      <div id="popup-content">
-        <p>THIS IS A TRAINING AID, <h4><u>PLEASE CHECK ALL QUESTIONS</u></h4> IF UNSURE.
-          <br><br><br><br>If you find any incorrect questions/answers please let me know.
-        </p>
-        <br><br>
-        <label for="password">Enter password: </label>
-        <input type="password" id="password" placeholder="Password">
-        <br><br>
-
-        <button id="filterBtn" onclick="checkPassword()">Submit</button>
+      <div class="weeks">
+        <a href="../html/H175Week1.html"><button class="mainButtons menu-btn" title="ATA 00-12, ATA 20, ATA 24, ATA 45, ATA 50-56, ATA 62, ATA 63">Week 1</button></a>
+        <a href="../html/H175Week2.html"><button class="mainButtons menu-btn" title="ATA 23, ATA 25, ATA 29, ATA 31, ATA 32, ATA 44, ATA 64, ATA 65, ATA 67">Week 2</button></a>
+        <a href="../html/H175Week3.html"><button class="mainButtons menu-btn" title="ATA 18, ATA 26, ATA 28, ATA 34, ATA 49, ATA 70, ATA 71, ATA 78, Engine Manuals">Week 3</button></a>
+        <a href="../html/H175Week4.html"><button class="mainButtons menu-btn" title="ATA 22, ATA 25, ATA 33, ATA 72, ATA 73, ATA 74, ATA 75, ATA 79">Week 4</button></a>
+        <a href="../html/H175Final.html"><button class="mainButtons menu-btn" title="Contains all ATA Chapters">Final Exam</button></a>
       </div>
-    </div>
 
-    <div class="navigation">
-      <a href="../index.html"> <button id="home">&#127968;</button></a>
+      <div class="navigation">
+        <a href="../index.html"> <button id="home">&#127968;</button></a>
+      </div>
     </div>
   </div>
 
-  <script src="js/popPassword.js"></script>
-  <script src="js/updateTime.js"></script>
+  <div id="popup-container">
+    <div id="popup-content">
+      <h2>Training Aid Notice</h2>
+      <p>This is a training aid — please check all questions if unsure.</p>
+      <p>If you find any incorrect questions or answers, please let me know.</p>
+      <button id="filterBtn" onclick="closePopup()">Acknowledge</button>
+    </div>
+  </div>
+
+  <script src="../js/popAcknowledge.js"></script>
+  <script src="../js/updateTime.js"></script>
 </body>
 </html>
