@@ -39551,6 +39551,174 @@ export const questions = [
         c: 'A mechanical gearbox-driven alternator identical to the starter-generators'
     },
     correct: 'b'
+},
+{
+    id: 4368,
+    Aircraft: 'AW139',
+    Category: '00',
+    question: 'What does DMC stand for, and where would you find an explanation of its meaning?',
+    options: {
+        a: 'Diagnostic Maintenance Code; found in the AFIP (Aircraft Fault Isolation Publication)',
+        b: 'Document Master Catalogue; found in the Illustrated Parts Data (IPD) publication',
+        c: 'Data Module Code; its meaning is explained in the Introduction Data Module found in Chapter 00 of the relevant publication (e.g. the Wiring Data Publication Introduction DM)'
+    },
+    correct: 'c'
+},
+{
+    id: 4369,
+    Aircraft: 'AW139',
+    Category: '00',
+    question: 'What does AECMA stand for?',
+    options: {
+        a: 'Aerospace European Certification and Maintenance Agency',
+        b: 'Association Européenne des Constructeurs de Matériel Aérospatial (European Association of Aerospace Industries)',
+        c: 'Aircraft Electrical Component Maintenance Authority'
+    },
+    correct: 'b'
+},
+{
+    id: 4370,
+    Aircraft: 'AW139',
+    Category: '00',
+    question: 'A data module has the reference 39-B-31-61-11-00A-13AA-A. What does each part of the code represent?',
+    options: {
+        a: '39 = Model Identification Code; B = Serial number applicability block; 31 = Information Code; 61-11 = Disassembly Code; 00A = Item Location Code; 13AA = Configuration code; A = ATA Chapter Code',
+        b: '39 = Model Identification Code (AW139); B = System Difference Code (variant); 31 = ATA Chapter/System Code (Indicating/Recording Systems); 61 = Section Code; 11 = Subject Code; 00A = Disassembly Code + Variant; 13AA = Information Code + Variant; A = Item Location Code',
+        c: '39 = ATA Chapter Code; B = Model Identification Code; 31 = Section Code; 61 = Subject Code; 11 = Disassembly Code; 00A = System Difference Code; 13AA = Item Location Code; A = Information Code'
+    },
+    correct: 'b'
+},
+{
+    id: 4371,
+    Aircraft: 'AW139',
+    Category: '08',
+    question: 'Where can you find the weight and balance limitations for the aircraft?',
+    options: {
+        a: 'The Rotorcraft Flight Manual (RFM), Section 6 - Weight and Balance',
+        b: 'The AMPI (Aircraft Maintenance Planning Information) publication',
+        c: 'The QRH (Quick Reference Handbook), Part 2'
+    },
+    correct: 'a'
+},
+{
+    id: 4372,
+    Aircraft: 'AW139',
+    Category: '00',
+    question: 'Where would you find the complete collection of Service Bulletins (formerly Bollettino Tecnico)?',
+    options: {
+        a: 'Within the IETP, under the AMP chapter for the affected system',
+        b: 'In the Rotorcraft Flight Manual (RFM), Section 9',
+        c: 'On the Leonardo Helicopters customer portal / website'
+    },
+    correct: 'c'
+},
+{
+    id: 4373,
+    Aircraft: 'AW139',
+    Category: '00',
+    question: 'Aircraft limitations are contained within which manual?',
+    options: {
+        a: 'The AMPI (Aircraft Maintenance Planning Information)',
+        b: 'The Rotorcraft Flight Manual (RFM), Part I - Section 1, Limitations',
+        c: 'The AMP (Aircraft Maintenance Publication)'
+    },
+    correct: 'b'
+},
+{
+    id: 4374,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Where would you find the wiring diagrams for aircraft serial no. 31412?',
+    options: {
+        a: 'AWDP Volume 3 (covers S/N 31400 and subsequent - Enhanced and Enhanced Plus)',
+        b: 'AWDP Volume 1 (covers S/N 31005 thru 31200 - Short Nose)',
+        c: 'AWDP Volume 2 (covers S/N 31201 thru 31399 - Long Nose)'
+    },
+    correct: 'a'
+},
+{
+    id: 4375,
+    Aircraft: 'AW139',
+    Category: '00',
+    question: 'Which applicability code applies to aircraft serial no. 31725?',
+    options: {
+        a: '1L (Long Nose family - this serial falls within the Enhanced Plus range, S/N 31701 and subsequent)',
+        b: '1J (Short Nose family)',
+        c: '2E (Enhanced family)'
+    },
+    correct: 'a'
+},
+{
+    id: 4376,
+    Aircraft: 'AW139',
+    Category: '00',
+    question: 'You have been seconded to Part M, and need to create a new maintenance programme for a new AW139. Where would you start?',
+    options: {
+        a: 'With the AFIP (Aircraft Fault Isolation Publication)',
+        b: "With the manufacturer's baseline AMPI (Aircraft Maintenance Planning Information), which gives the recommended maintenance tasks and intervals as a starting point for the operator's own programme",
+        c: 'With the ASRP (Aircraft Structural Repair Publication)'
+    },
+    correct: 'b'
+},
+{
+    id: 4377,
+    Aircraft: 'AW139',
+    Category: '00',
+    question: 'Which type of Service Bulletin (Bollettino Tecnico) must always be carried out?',
+    options: {
+        a: 'Recommended Service Bulletins',
+        b: 'Alert Service Bulletins',
+        c: 'Information Letters'
+    },
+    correct: 'b'
+},
+{
+    id: 4378,
+    Aircraft: 'AW139',
+    Category: '06',
+    question: 'What are the reference lines used on the AW139, and what does each one measure?',
+    options: {
+        a: 'BL (Buttock Line) - left/right distance from the aircraft centreline; WL (Water Line) - vertical height from a datum; STA (Station Line) - fore/aft distance from the nose reference',
+        b: 'BL (Blade Line) - rotor blade tip path; WL (Weight Line) - centre of gravity position; STA (Stabiliser Angle) - tailplane incidence',
+        c: 'BL (Base Line) - ground clearance; WL (Wing Line) - not applicable to helicopters; STA (Standard Taper Angle) - fuselage profile'
+    },
+    correct: 'a'
+},
+{
+    id: 4379,
+    Aircraft: 'AW139',
+    Category: '08',
+    question: 'Describe how you would weigh an AW139.',
+    options: {
+        a: 'Level the helicopter on 4 jacks, then read each load cell (weighing cell) and use the dedicated weighing charts in RFM Section 6 to calculate weight and centre of gravity',
+        b: 'Remove the helicopter from its wheels onto a vehicle weighbridge and read the total mass directly',
+        c: 'Level the helicopter on 3 jacks using a weighing adapters kit, then read each load cell (weighing cell) and use the dedicated weighing charts in RFM Section 6 to calculate weight and centre of gravity'
+    },
+    correct: 'c'
+},
+{
+    id: 4380,
+    Aircraft: 'AW139',
+    Category: '09',
+    question: 'How many personnel are required to tow the aircraft, and what are their roles?',
+    options: {
+        a: 'Only one - the towing vehicle operator, working alone',
+        b: 'Five - one person per jack plus a supervisor, as with jacking',
+        c: 'A minimum of four: the towing vehicle operator, the person operating the helicopter brakes, and two people with chocks (one positioned at each main wheel)'
+    },
+    correct: 'c'
+},
+{
+    id: 4381,
+    Aircraft: 'AW139',
+    Category: '10',
+    question: 'When must the helicopter be moored, rather than simply parked?',
+    options: {
+        a: 'When the wind speed is 39 m/s (75 kts) or more',
+        b: 'When the wind speed is 10.29 m/s (20 kts) or more',
+        c: 'When the wind speed is 23 m/s (45 kts) or more'
+    },
+    correct: 'c'
 }
 
     ];
