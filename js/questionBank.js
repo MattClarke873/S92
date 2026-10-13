@@ -34703,7 +34703,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 3849,
     Aircraft: 'AW139',
     Category: '04-12,20',
@@ -34714,8 +34714,8 @@ export const questions = [
         c: 'Landings'
     },
     correct: 'c'
-},
-{
+}, */
+/* {
     id: 3850,
     Aircraft: 'AW139',
     Category: '04-12,20',
@@ -34726,7 +34726,7 @@ export const questions = [
         c: 'One full lift'
     },
     correct: 'a'
-},
+}, */
 {
     id: 3851,
     Aircraft: 'AW139',
@@ -34739,7 +34739,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 3852,
     Aircraft: 'AW139',
     Category: '04-12,20',
@@ -34750,7 +34750,7 @@ export const questions = [
         c: 'For the entire duration of the flight'
     },
     correct: 'a'
-},
+}, */
 {
     id: 3853,
     Aircraft: 'AW139',
@@ -34763,7 +34763,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 3854,
     Aircraft: 'AW139',
     Category: '04-12,20',
@@ -34774,7 +34774,7 @@ export const questions = [
         c: '100 landings maximum'
     },
     correct: 'b'
-},
+}, */
 {
     id: 3855,
     Aircraft: 'AW139',
@@ -34859,8 +34859,8 @@ export const questions = [
     },
     correct: 'a'
 },
-{
-    id: 3862,
+/*{
+     id: 3862,
     Aircraft: 'AW139',
     Category: '04-12,20',
     question: 'Progressive scheduled maintenance checks cover inspection requirements up to how many hours?',
@@ -34870,7 +34870,7 @@ export const questions = [
         c: '300 hours'
     },
     correct: 'a'
-},
+}, */
 {
     id: 3863,
     Aircraft: 'AW139',
@@ -34883,7 +34883,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 3864,
     Aircraft: 'AW139',
     Category: '04-12,20',
@@ -34894,7 +34894,7 @@ export const questions = [
         c: 'CMAP analysis'
     },
     correct: 'c'
-},
+}, */
 {
     id: 3865,
     Aircraft: 'AW139',
@@ -35063,7 +35063,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 3879,
     Aircraft: 'AW139',
     Category: '04-12,20',
@@ -35074,7 +35074,7 @@ export const questions = [
         c: 'Number 2 Fuel Tank Vent'
     },
     correct: 'c'
-},
+}, */
 {
     id: 3880,
     Aircraft: 'AW139',
@@ -35387,7 +35387,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 3906,
     Aircraft: 'AW139',
     Category: '04-12,20',
@@ -35398,7 +35398,7 @@ export const questions = [
         c: 'Until oil overflows from the filler neck'
     },
     correct: 'b'
-},
+}, */
 {
     id: 3907,
     Aircraft: 'AW139',
