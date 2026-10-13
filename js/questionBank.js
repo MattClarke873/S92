@@ -35640,7 +35640,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 4042,
     Aircraft: 'AW139',
     Category: '53',
@@ -35651,7 +35651,7 @@ export const questions = [
         c: 'They are immune to fatigue below their yield point'
     },
     correct: 'a'
-},
+}, */
 {
     id: 4043,
     Aircraft: 'AW139',
@@ -35688,7 +35688,7 @@ export const questions = [
     },
     correct: 'a'
 }, */
-{
+/* {
     id: 4046,
     Aircraft: 'AW139',
     Category: '53',
@@ -35699,8 +35699,8 @@ export const questions = [
         c: 'High-fatigue rotating components'
     },
     correct: 'a'
-},
-{
+}, */
+/* {
     id: 4047,
     Aircraft: 'AW139',
     Category: '53',
@@ -35711,7 +35711,7 @@ export const questions = [
         c: 'A chromate conversion coating applied only to titanium parts'
     },
     correct: 'b'
-},
+}, */
 {
     id: 4048,
     Aircraft: 'AW139',
@@ -35736,7 +35736,7 @@ export const questions = [
     },
     correct: 'c'
 }, */
-{
+/* {
     id: 4050,
     Aircraft: 'AW139',
     Category: '53',
@@ -35759,8 +35759,8 @@ export const questions = [
         c: 'Frame STA 1500.0'
     },
     correct: 'a'
-},
-{
+}, */
+/* {
     id: 4052,
     Aircraft: 'AW139',
     Category: '53',
@@ -35771,8 +35771,8 @@ export const questions = [
         c: 'The nose door'
     },
     correct: 'c'
-},
-{
+}, */
+/* {
     id: 4053,
     Aircraft: 'AW139',
     Category: '53',
@@ -35783,7 +35783,7 @@ export const questions = [
         c: 'STA 3120.0 and STA 6700.0'
     },
     correct: 'a'
-},
+}, */
 {
     id: 4054,
     Aircraft: 'AW139',
@@ -35844,7 +35844,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 4059,
     Aircraft: 'AW139',
     Category: '53',
@@ -35855,7 +35855,7 @@ export const questions = [
         c: 'Frame STA 725.0 and frame STA 1070.0'
     },
     correct: 'a'
-},
+}, */
 {
     id: 4060,
     Aircraft: 'AW139',
@@ -35868,7 +35868,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 4061,
     Aircraft: 'AW139',
     Category: '53',
@@ -35879,7 +35879,7 @@ export const questions = [
         c: 'Six short longerons and six fittings'
     },
     correct: 'c'
-},
+}, */
 {
     id: 4062,
     Aircraft: 'AW139',
@@ -35916,7 +35916,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 4065,
     Aircraft: 'AW139',
     Category: '53',
@@ -35927,8 +35927,8 @@ export const questions = [
         c: '80.7 kg (178 lb)'
     },
     correct: 'c'
-},
-{
+}, */
+/* {
     id: 4066,
     Aircraft: 'AW139',
     Category: '53',
@@ -35939,7 +35939,7 @@ export const questions = [
         c: 'A doubled vertical fin skin thickness'
     },
     correct: 'b'
-},
+}, */
 {
     id: 4067,
     Aircraft: 'AW139',
@@ -35976,7 +35976,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 4070,
     Aircraft: 'AW139',
     Category: '53',
@@ -35987,8 +35987,8 @@ export const questions = [
         c: '8 years'
     },
     correct: 'b'
-},
-{
+}, */
+/* {
     id: 4071,
     Aircraft: 'AW139',
     Category: '53',
@@ -35999,8 +35999,8 @@ export const questions = [
         c: 'Every 1000 landings for both'
     },
     correct: 'a'
-},
-{
+}, */
+/* {
     id: 4072,
     Aircraft: 'AW139',
     Category: '53',
@@ -36011,7 +36011,7 @@ export const questions = [
         c: '4 years'
     },
     correct: 'b'
-},
+}, */
 /* {
     id: 4073,
     Aircraft: 'AW139',
@@ -36036,7 +36036,7 @@ export const questions = [
     },
     correct: 'a'
 }, */
-{
+/* {
     id: 4075,
     Aircraft: 'AW139',
     Category: '53',
@@ -36047,7 +36047,7 @@ export const questions = [
         c: '1 year'
     },
     correct: 'b'
-},
+}, */
 {
     id: 4076,
     Aircraft: 'AW139',
@@ -36156,7 +36156,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 4085,
     Aircraft: 'AW139',
     Category: '52',
@@ -36167,12 +36167,12 @@ export const questions = [
         c: 'STA 1500 and STA 2105'
     },
     correct: 'b'
-},
+}, */
 {
     id: 4086,
     Aircraft: 'AW139',
     Category: '52',
-    question: 'What material is the left cockpit door made of?',
+    question: 'What material are the cockpit doors made of?',
     options: {
         a: 'Composite material',
         b: 'Aluminium alloy',
@@ -36192,7 +36192,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 4088,
     Aircraft: 'AW139',
     Category: '52',
@@ -36203,7 +36203,7 @@ export const questions = [
         c: 'It has no effect on the latch'
     },
     correct: 'b'
-},
+}, */
 {
     id: 4089,
     Aircraft: 'AW139',
@@ -36264,7 +36264,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 4094,
     Aircraft: 'AW139',
     Category: '52',
@@ -36275,7 +36275,7 @@ export const questions = [
         c: 'STA 2105 and STA 3120'
     },
     correct: 'b'
-},
+}, */
 {
     id: 4095,
     Aircraft: 'AW139',
@@ -36316,7 +36316,7 @@ export const questions = [
     id: 4098,
     Aircraft: 'AW139',
     Category: '52',
-    question: 'Where is the left cabin-door stop installed?',
+    question: 'Where are the cabin-door stop installed?',
     options: {
         a: 'On the tail cone',
         b: 'Inside the baggage compartment',
@@ -36324,7 +36324,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 4099,
     Aircraft: 'AW139',
     Category: '52',
@@ -36335,7 +36335,7 @@ export const questions = [
         c: 'Six'
     },
     correct: 'a'
-},
+}, */
 /* {
     id: 4100,
     Aircraft: 'AW139',
@@ -36384,7 +36384,7 @@ export const questions = [
     },
     correct: 'a'
 }, */
-{
+/* {
     id: 4104,
     Aircraft: 'AW139',
     Category: '52',
@@ -36395,7 +36395,7 @@ export const questions = [
         c: 'To provide an electrical bond'
     },
     correct: 'a'
-},
+}, */
 {
     id: 4105,
     Aircraft: 'AW139',
@@ -36403,7 +36403,7 @@ export const questions = [
     question: 'Which of the following is NOT listed as a primary component of the service door installation?',
     options: {
         a: 'The left maintenance step',
-        b: 'The main rotor blade',
+        b: 'Left hand cabin door',
         c: 'The nose door'
     },
     correct: 'b'
@@ -36432,7 +36432,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 4108,
     Aircraft: 'AW139',
     Category: '52',
@@ -36443,7 +36443,7 @@ export const questions = [
         c: 'STA 1500, a fibreglass panel with a hinge'
     },
     correct: 'c'
-},
+}, */
 {
     id: 4109,
     Aircraft: 'AW139',
@@ -36468,7 +36468,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 4111,
     Aircraft: 'AW139',
     Category: '52',
@@ -36479,7 +36479,7 @@ export const questions = [
         c: 'To access the fuel compartment for inspection and maintenance'
     },
     correct: 'c'
-},
+}, */
 {
     id: 4112,
     Aircraft: 'AW139',
@@ -36516,7 +36516,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 4115,
     Aircraft: 'AW139',
     Category: '52',
@@ -36527,8 +36527,8 @@ export const questions = [
         c: 'Below the left cockpit door, between STA 3120.0 and STA 2746.0, made of aluminium alloy'
     },
     correct: 'c'
-},
-{
+}, */
+/* {
     id: 4116,
     Aircraft: 'AW139',
     Category: '52',
@@ -36539,8 +36539,8 @@ export const questions = [
         c: 'Six'
     },
     correct: 'b'
-},
-{
+}, */
+/* {
     id: 4117,
     Aircraft: 'AW139',
     Category: '52',
@@ -36551,8 +36551,8 @@ export const questions = [
         c: 'To prevent skating/slipping during access or exit from the helicopter'
     },
     correct: 'c'
-},
-{
+}, */
+/* {
     id: 4118,
     Aircraft: 'AW139',
     Category: '52',
@@ -36563,8 +36563,8 @@ export const questions = [
         c: 'Titanium, between STA 5700 and STA 6700'
     },
     correct: 'a'
-},
-{
+}, */
+/* {
     id: 4119,
     Aircraft: 'AW139',
     Category: '52',
@@ -36575,8 +36575,8 @@ export const questions = [
         c: 'Twenty'
     },
     correct: 'b'
-},
-{
+}, */
+/* {
     id: 4120,
     Aircraft: 'AW139',
     Category: '52',
@@ -36587,7 +36587,7 @@ export const questions = [
         c: '4 step actuators and 8 step lights'
     },
     correct: 'b'
-},
+}, */
 {
     id: 4121,
     Aircraft: 'AW139',
@@ -36607,8 +36607,8 @@ export const questions = [
     question: 'Which doors are fitted with microswitches to generate a CAS caution when open?',
     options: {
         a: 'Only the cockpit doors',
-        b: 'External power receptacle door, baggage doors, cockpit doors and cabin doors',
-        c: 'Only the baggage doors'
+        b: 'The baggage doors, cockpit doors, cabin doors and External power receptacle door,',
+        c: 'The baggage doors, cockpit doors and cabin doors'
     },
     correct: 'b'
 },
@@ -36624,7 +36624,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 4124,
     Aircraft: 'AW139',
     Category: '52',
@@ -36635,7 +36635,7 @@ export const questions = [
         c: 'S92, installed on the floor of the cockpit'
     },
     correct: 'b'
-},
+}, */
 {
     id: 4125,
     Aircraft: 'AW139',
@@ -36654,7 +36654,7 @@ export const questions = [
     Category: '52',
     question: 'When the left cockpit door is open or not locked closed, what does the microswitch do?',
     options: {
-        a: 'It opens its contacts and disables the caution',
+        a: 'It closes its contacts and sends a signal to MAU1, generating the LH COCKPIT DOOR caution',
         b: 'It has no effect until the aircraft is airborne',
         c: 'It closes its contacts and sends a signal to MAU1, generating the COCKPIT DOOR caution'
     },
@@ -36702,7 +36702,7 @@ export const questions = [
     Category: '56',
     question: 'How is a cabin window removed in an emergency?',
     options: {
-        a: 'Unscrew the 21 retaining screws around the frame',
+        a: 'The window detaches with the door assembly',
         b: 'Pull the red strap attached to the clinch stud, which removes the inner filler wedge and seal, allowing the window to be pushed out',
         c: 'Break the window with the emergency hammer provided'
     },
@@ -36780,7 +36780,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 4367,
     Aircraft: 'AW139',
     Category: '56',
@@ -36791,7 +36791,7 @@ export const questions = [
         c: '12 screws for the window, plus 4 for the section'
     },
     correct: 'b'
-},
+}, */
 {
     id: 4280,
     Aircraft: 'AW139',
@@ -36864,7 +36864,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 4286,
     Aircraft: 'AW139',
     Category: '25',
@@ -36875,7 +36875,7 @@ export const questions = [
         c: 'Eight bolts and eight washers'
     },
     correct: 'c'
-},
+}, */
 {
     id: 4287,
     Aircraft: 'AW139',
@@ -37224,7 +37224,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 4316,
     Aircraft: 'AW139',
     Category: '25',
@@ -37235,7 +37235,7 @@ export const questions = [
         c: '65 seconds'
     },
     correct: 'c'
-},
+}, */
 {
     id: 4317,
     Aircraft: 'AW139',
@@ -37588,7 +37588,7 @@ export const questions = [
     id: 4346,
     Aircraft: 'AW139',
     Category: '25',
-    question: 'What does the WTR mode on the hoist pendant allow the Hoist Operator to do?',
+    question: 'What does the WTR (Winch Trim/Reposition) mode on the hoist pendant allow the Hoist Operator to do?',
     options: {
         a: 'Automatically land the aircraft',
         b: "Control the aircraft's hover lateral and longitudinal groundspeed using the pendant's trim switch",
@@ -37728,7 +37728,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 4358,
     Aircraft: 'AW139',
     Category: '25',
@@ -37751,7 +37751,7 @@ export const questions = [
         c: '1 year'
     },
     correct: 'c'
-},
+}, */
 {
     id: 4130,
     Aircraft: 'AW139',
@@ -39796,7 +39796,7 @@ export const questions = [
     id: 4388,
     Aircraft: 'AW139',
     Category: '51_53_55',
-    question: 'What is the cockpit structure made of, and how is its Kevlar structure attached to the metallic structure?',
+    question: 'What is the cockpit structure made of, and how is it attached to the metallic structure?',
     options: {
         a: 'Fibreglass only, riveted to an aluminium honeycomb core',
         b: 'Composite construction (longerons, frames, sandwich panels, Kevlar), with the Kevlar structure bonded and screwed to the metallic structure',
