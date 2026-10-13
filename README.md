@@ -1,18 +1,29 @@
-# Type Course Quiz
+# 🚁 Type Course Quiz
 
-A personal, browser-based multiple-choice quiz for helicopter type-course training (S-92, H175, AW139). Static site, no backend — hosted on GitHub Pages at [mattclarke873.github.io/S92](https://mattclarke873.github.io/S92/).
+A personal, browser-based multiple-choice quiz for helicopter type-course training. Three aircraft, zero backend, and a question bank that quietly remembers every answer you've ever gotten wrong.
 
-> This is a personal training aid, not an official reference. Question accuracy hasn't been independently verified — always cross-check anything you're unsure about.
+**Flying now at [mattclarke873.github.io/S92](https://mattclarke873.github.io/S92/)**
 
-## Features
+> ⚠️ **Heads up:** this is a personal training aid, not an official reference. Question accuracy hasn't been independently verified — always cross-check anything you're unsure about.
 
-- **Per-aircraft, per-week quizzes** — S-92 (5 weeks), H175 (4 weeks + a final exam), AW139 (4 weeks), each filterable by ATA chapter and question count.
-- **Adaptive question weighting** — questions you get wrong show up more often; questions you answer correctly several times in a row ease out of rotation (without ever fully disappearing). See `js/progress.js`.
-- **Per-browser progress tracking** — a "Your Progress" panel on every quiz page shows tracked / mastered / due-for-review counts and accuracy. Stored in `localStorage`, so it's per-browser and doesn't sync across devices.
-- **Report an issue** — every question has a "Report an issue" link that submits the question text, all 3 answer options, the marked-correct answer, and a free-text description to a Formspree form.
-- **"Last updated" timestamp** — the aircraft landing pages show the date/time of the most recent commit to this repo (via the GitHub API), rather than the visitor's own clock.
+## 📊 The numbers
 
-## Project structure
+| Aircraft | Questions in the bank |
+|---|---|
+| 🚁 S-92 | 1,018 |
+| 🚁 H175 | 1,730 |
+| 🚁 AW139 | 410 |
+| **Total** | **3,158** |
+
+## ✨ Features
+
+- 📅 **Per-aircraft, per-week quizzes** — S-92 (5 weeks), H175 (4 weeks + a final exam), AW139 (4 weeks), each filterable by ATA chapter and question count.
+- 🎯 **Adaptive question weighting** — get one wrong, it stalks you. Get it right three times in a row and it backs off (but never fully leaves you alone). See `js/progress.js`.
+- 📈 **Per-browser progress tracking** — a "Your Progress" panel shows tracked / mastered / due-for-review counts and accuracy, stored in `localStorage`. Your phone and laptop won't compare notes.
+- 🚩 **Report an issue** — spot a dud question? One click sends the question, all 3 options, and the marked-correct answer straight to a Formspree inbox.
+- 🕒 **"Last updated" timestamp** — pulled live from this repo's latest commit via the GitHub API, so it never lies to you like a browser clock would.
+
+## 🗂️ Project structure
 
 ```
 index.html                           Landing page — pick an aircraft
@@ -45,13 +56,13 @@ support_Documents/     Background photos and question-bank images
 tools/                 Offline authoring scripts (not part of the live site) — Excel ⇄ questionBank.js converters
 ```
 
-## Configuration
+## ⚙️ Configuration
 
 `js/config.js` holds the Formspree endpoint for the "Report an issue" feature (`REPORT_FORM_ENDPOINT`). To redirect reports somewhere else, create a new form at [formspree.io](https://formspree.io) and swap in its endpoint URL.
 
 `js/updateTime.js` hardcodes the GitHub repo (`mattclarke873/S92`) it checks for the "Last updated" timestamp — update this if the repo is ever renamed.
 
-## Content tools
+## 🛠️ Content tools
 
 `tools/` contains local Python/Node scripts used to maintain `questionBank.js` from a spreadsheet — they aren't run by the website itself, just used locally when adding questions:
 
@@ -61,6 +72,6 @@ tools/                 Offline authoring scripts (not part of the live site) —
 
 `html/Admin.html` is a browser-based table view of the full question bank (filterable by ID / Aircraft / Category) with a link to the Formspree submissions inbox for reported questions.
 
-## Deployment
+## 🚀 Deployment
 
 Hosted via GitHub Pages from this repo. Pushing to the default branch updates the live site (propagation + Pages caching can take a few minutes to show up).
