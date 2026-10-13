@@ -70,7 +70,7 @@ async function exportToExcel(questionBank) {
 }
 
 // Combine the functions: first run changeFormat, then export the questions to Excel
-const questionBankPath = path.join(__dirname, '../js/scrap.js');
+const questionBankPath = path.join(__dirname, '../js/questionBank.js');
 
 changeFormat(questionBankPath, (err) => {
   if (err) {
