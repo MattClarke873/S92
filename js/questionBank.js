@@ -37155,7 +37155,7 @@ export const questions = [
 {
     id: 4310,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'How many snap fasteners and clinch studs attach the life jacket bag to its support?',
     options: {
         a: 'Two of each',
@@ -37167,7 +37167,7 @@ export const questions = [
 {
     id: 4311,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'Who is the life jacket designed to provide flotation for?',
     options: {
         a: 'Adults only, no children',
@@ -37179,7 +37179,7 @@ export const questions = [
 {
     id: 4312,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What is the primary survival equipment for people involved in a ditching?',
     options: {
         a: 'The life jacket',
@@ -37191,7 +37191,7 @@ export const questions = [
 {
     id: 4313,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'How many manual modes of operation do the left and right CEL have?',
     options: {
         a: 'Three, including an automatic water-activated mode',
@@ -37203,7 +37203,7 @@ export const questions = [
 {
     id: 4314,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What breaks first when a CEL activation handle is operated, starting the inflation sequence?',
     options: {
         a: 'The three closing belts',
@@ -37215,7 +37215,7 @@ export const questions = [
 {
     id: 4315,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What is the standard passenger capacity of the F11R life raft, and what is the maximum if necessary?',
     options: {
         a: '17 persons standard, up to 20 if necessary',
@@ -37227,7 +37227,7 @@ export const questions = [
 {
     id: 4316,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'At the coldest rated temperature (-40±1°C), within what maximum time must the F11R raft fully inflate?',
     options: {
         a: '5 minutes',
@@ -37239,7 +37239,7 @@ export const questions = [
 {
     id: 4317,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: "What materials make up the CEL container's base and cover?",
     options: {
         a: 'A laminate of carbon, aramide and glass fibers with honeycomb cores',
@@ -37251,7 +37251,7 @@ export const questions = [
 {
     id: 4318,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: "What pressure does the life raft inflation cylinder's nitrogen charge correspond to at +20°C?",
     options: {
         a: '3000 psig',
@@ -37263,7 +37263,7 @@ export const questions = [
 {
     id: 4319,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'Where is the first aid kit normally installed, and how is it secured?',
     options: {
         a: 'Under the cabin floor, bolted in place',
@@ -37275,7 +37275,7 @@ export const questions = [
 {
     id: 4320,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'In the alternative (2M) installation, where is the first aid kit located, and how is it retained?',
     options: {
         a: 'Left side of the aft end of the interseat console, retained by a belt',
@@ -37287,7 +37287,7 @@ export const questions = [
 {
     id: 4321,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What two emergency frequencies does the ADELT beacon transmit on?',
     options: {
         a: '121.5 MHz and 406.025 MHz',
@@ -37299,7 +37299,7 @@ export const questions = [
 {
     id: 4322,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What type of crash sensor does the ADELT/SIU incorporate?',
     options: {
         a: 'A 3-axis G-switch using digital pulse accelerometers',
@@ -37311,7 +37311,7 @@ export const questions = [
 {
     id: 4323,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'How often, and for how long, does the 406.025 MHz transmitter activate to send its encoded digital message?',
     options: {
         a: 'Every 10 seconds, for 2 seconds',
@@ -37323,7 +37323,7 @@ export const questions = [
 {
     id: 4324,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'How long does the ADELT 406.025 MHz transmitter operate before automatically shutting down?',
     options: {
         a: '72 hours',
@@ -37335,7 +37335,7 @@ export const questions = [
 {
     id: 4325,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'How long does the ADELT 121.5 MHz transmitter typically continue operating, limited by battery power?',
     options: {
         a: '48 hours',
@@ -37347,7 +37347,7 @@ export const questions = [
 {
     id: 4326,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What provides an alternative means of automatic ADELT deployment specifically for a controlled ditching, where the G-switch may not trigger?',
     options: {
         a: 'The Water Activated Switch (WAS)',
@@ -37359,7 +37359,7 @@ export const questions = [
 {
     id: 4327,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: "Why might the SIU's G-switches fail to trigger ADELT deployment during a controlled ditching?",
     options: {
         a: 'Because the G-switches are disabled over water automatically',
@@ -37371,7 +37371,7 @@ export const questions = [
 {
     id: 4328,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What is the function of the Beacon Release Unit (BRU)?',
     options: {
         a: 'It provides the mechanical and electrical interface between the beacon and the aircraft, including latching, release and ejection mechanisms',
@@ -37383,7 +37383,7 @@ export const questions = [
 {
     id: 4329,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What ejects the beacon from the BRU once the sear latch releases?',
     options: {
         a: 'The remaining stroke of the actuator, assisted by a compressed coil spring',
@@ -37395,7 +37395,7 @@ export const questions = [
 {
     id: 4330,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'If aircraft power is lost, for how long can the ADELT system continue to operate from standby power before an automatic power-down occurs?',
     options: {
         a: '30 minutes',
@@ -37407,7 +37407,7 @@ export const questions = [
 {
     id: 4331,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'On the ADELT control panel, what does operating the TRANSMIT switch (as opposed to DEPLOY) do?',
     options: {
         a: 'Sets the beacon to transmit but does NOT eject it from the aircraft',
@@ -37419,7 +37419,7 @@ export const questions = [
 {
     id: 4332,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What military and civil guard frequencies does the non-deployable ELT system transmit the standard swept tone on?',
     options: {
         a: '121.5 MHz (Civil) and 243.0 MHz (Military)',
@@ -37431,7 +37431,7 @@ export const questions = [
 {
     id: 4333,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What G-switch activation threshold triggers the non-deployable ELT under normal conditions?',
     options: {
         a: 'Any detectable vibration, regardless of magnitude',
@@ -37443,7 +37443,7 @@ export const questions = [
 {
     id: 4334,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What battery chemistry and configuration does the non-deployable ELT use?',
     options: {
         a: "4 'D' size Lithium Manganese Dioxide cells connected in series",
@@ -37455,7 +37455,7 @@ export const questions = [
 {
     id: 4335,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: "How is the non-deployable ELT's battery pack protected from being charged?",
     options: {
         a: 'The cells are simply disconnected during flight',
@@ -37467,7 +37467,7 @@ export const questions = [
 {
     id: 4336,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: "How long after shipping from the manufacturer does the non-deployable ELT's battery pack expire?",
     options: {
         a: '5 years',
@@ -37479,7 +37479,7 @@ export const questions = [
 {
     id: 4337,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What position must the Remote Switch Panel and ELT unit switches be in for normal armed operation?',
     options: {
         a: "Remote Switch Panel down to 'ARM', ELT unit switch down to 'OFF'",
@@ -37491,7 +37491,7 @@ export const questions = [
 {
     id: 4338,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'During the ELT functional test, what is the maximum allowed test duration, and why?',
     options: {
         a: 'There is no time limit specified',
@@ -37503,7 +37503,7 @@ export const questions = [
 {
     id: 4339,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What is the typical usable length of the hoist cable?',
     options: {
         a: '150m',
@@ -37515,7 +37515,7 @@ export const questions = [
 {
     id: 4340,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What device is fitted to the hoist for cutting the cable in an emergency?',
     options: {
         a: 'A mechanical guillotine blade',
@@ -37527,7 +37527,7 @@ export const questions = [
 {
     id: 4341,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What personal protective equipment is specified when handling loads on the hoist cable or cargo hook, due to static charge hazards?',
     options: {
         a: 'Insulated rubber boots only',
@@ -37539,7 +37539,7 @@ export const questions = [
 {
     id: 4342,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'During the initial hoist cable extension (first 12 feet), what is the speed limit and associated indication?',
     options: {
         a: '245 fpm, with no indication',
@@ -37551,7 +37551,7 @@ export const questions = [
 {
     id: 4343,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What is the maximum hoist cable speed with maximum load applied, versus with a lighter load?',
     options: {
         a: '150 fpm at maximum load, increasing up to 245 fpm with lighter loads',
@@ -37563,7 +37563,7 @@ export const questions = [
 {
     id: 4344,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: "What do the 'ALL STOP' limit switches do, and at what point?",
     options: {
         a: 'They stop the motor only when the hook reaches full extension',
@@ -37575,7 +37575,7 @@ export const questions = [
 {
     id: 4345,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'During cable retraction, what is the speed limit when the hook assembly is within approximately 2 feet of the stowed position?',
     options: {
         a: '75 fpm',
@@ -37587,7 +37587,7 @@ export const questions = [
 {
     id: 4346,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What does the WTR mode on the hoist pendant allow the Hoist Operator to do?',
     options: {
         a: 'Automatically land the aircraft',
@@ -37599,7 +37599,7 @@ export const questions = [
 {
     id: 4347,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What does the HOIST CBL FOUL caution message indicate?',
     options: {
         a: 'The cable cutter has fired',
@@ -37611,7 +37611,7 @@ export const questions = [
 {
     id: 4348,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What is the maximum load that can be carried on the cargo hook?',
     options: {
         a: '2200 kg',
@@ -37623,7 +37623,7 @@ export const questions = [
 {
     id: 4349,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What are the three procedures available to operate (release) the cargo hook?',
     options: {
         a: 'Only normal and emergency release',
@@ -37635,7 +37635,7 @@ export const questions = [
 {
     id: 4350,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'How does the pilot carry out a normal cargo hook release?',
     options: {
         a: 'By pulling a mechanical lever on the floor',
@@ -37647,7 +37647,7 @@ export const questions = [
 {
     id: 4351,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'How is an emergency cargo hook release carried out if normal release fails?',
     options: {
         a: 'It fires a pressure cartridge to open the hook',
@@ -37659,7 +37659,7 @@ export const questions = [
 {
     id: 4352,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What is the maximum reading capacity of the cargo hook load indicator (via its max potentiometer)?',
     options: {
         a: '2200 kg (4850 lb)',
@@ -37671,7 +37671,7 @@ export const questions = [
 {
     id: 4353,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What gas is used to inflate the AW139 (Aerosekur) flotation bags, and at what pressure does it flow from the bottles?',
     options: {
         a: 'Nitrogen, at 2000 psi',
@@ -37683,7 +37683,7 @@ export const questions = [
 {
     id: 4354,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What shape are the forward floats, and how many independent sealed compartments do they have?',
     options: {
         a: 'Truncated cone shaped, with two compartments',
@@ -37695,7 +37695,7 @@ export const questions = [
 {
     id: 4355,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'For the flotation system to operate in either manual or automatic mode, what must first be done?',
     options: {
         a: 'The helicopter must be below 500ft AGL',
@@ -37707,7 +37707,7 @@ export const questions = [
 {
     id: 4356,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'In automatic mode, how many of the four submersion switches must be activated to trigger flotation system deployment?',
     options: {
         a: 'All four',
@@ -37719,7 +37719,7 @@ export const questions = [
 {
     id: 4357,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'What does pushing the TEST button on the emergency flotation control panel check?',
     options: {
         a: 'The actual inflation of the float bags',
@@ -37731,7 +37731,7 @@ export const questions = [
 {
     id: 4358,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'At what interval is the DI of the life preserver (jacket) buoyancy chambers and components for deterioration performed?',
     options: {
         a: '10 years',
@@ -37743,7 +37743,7 @@ export const questions = [
 {
     id: 4359,
     Aircraft: 'AW139',
-    Category: '25A',
+    Category: '25',
     question: 'At what interval is the DI of the Collective Emergency Life-rafts (requiring removal and disassembly) performed?',
     options: {
         a: '5 years',
@@ -39851,6 +39851,66 @@ export const questions = [
         c: 'A welded titanium tube truss structure'
     },
     correct: 'a'
+},
+{
+    id: 4393,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'Where would you find the microswitch for the sliding cabin doors?',
+    options: {
+        a: 'Where the door top pin enters the aircraft structure',
+        b: 'Inside the baggage compartment access panel, shared with the baggage door microswitch',
+        c: "On the cabin door's internal handle assembly itself"
+    },
+    correct: 'a'
+},
+{
+    id: 4394,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'When the ADELT activates, how do the timings of the 121.5 MHz and 406.025 MHz transmissions differ?',
+    options: {
+        a: '121.5 MHz begins transmitting the swept tone immediately and continuously; the 406.025 MHz transmitter only turns on every 50 seconds, for a 520 millisecond burst, to send the encoded digital message',
+        b: 'Both frequencies activate simultaneously and continuously from the moment of activation, with no delay or burst timing',
+        c: '406.025 MHz transmits immediately and continuously; 121.5 MHz only activates every 50 seconds for a brief burst'
+    },
+    correct: 'a'
+},
+{
+    id: 4395,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'What does EIED stand for, as fitted to the hoist for emergency cable cutting?',
+    options: {
+        a: 'Electro-Impact Energy Discharger',
+        b: 'Emergency Inline Ejector Device',
+        c: 'Electrically Initiated Explosive Device'
+    },
+    correct: 'c'
+},
+{
+    id: 4396,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'Why must personnel avoid touching the helicopter while it is in the hover condition, and what precaution is specified before touching the payload, cable or cargo hook?',
+    options: {
+        a: 'The engine exhaust reaches its highest temperature during hover; heat-resistant gloves must be worn before touching any part of the aircraft',
+        b: 'A hovering helicopter accumulates a large static electric charge that can discharge suddenly and dangerously; a static discharge pole connected to the ground must be used before touching the payload, cable or cargo hook, with insulating rubber gloves worn',
+        c: 'Rotor downwash could blow loose debris into the tail rotor; a warning flag must be waved by ground crew before approaching'
+    },
+    correct: 'b'
+},
+{
+    id: 4397,
+    Aircraft: 'AW139',
+    Category: '25',
+    question: 'During hoist cable retraction, what is the maximum cable speed when the hook assembly is within 10 feet of the stowed position, and within approximately 2 feet?',
+    options: {
+        a: '150 fpm within 10 feet, reducing to 75 fpm within 2 feet',
+        b: '75 fpm within 10 feet, reducing further to 35 fpm within approximately 2 feet',
+        c: '35 fpm within 10 feet, reducing to 10 fpm within 2 feet'
+    },
+    correct: 'b'
 }
 
     ];
