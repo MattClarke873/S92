@@ -35664,7 +35664,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 4044,
     Aircraft: 'AW139',
     Category: '53',
@@ -35675,7 +35675,7 @@ export const questions = [
         c: 'Alloy 2014'
     },
     correct: 'a'
-},
+}, */
 /* {
     id: 4045,
     Aircraft: 'AW139',
@@ -36012,7 +36012,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 4073,
     Aircraft: 'AW139',
     Category: '53',
@@ -36023,7 +36023,7 @@ export const questions = [
         c: 'The tail rotor gearbox mount'
     },
     correct: 'a'
-},
+}, */
 /* {
     id: 4074,
     Aircraft: 'AW139',
