@@ -39755,6 +39755,102 @@ export const questions = [
         c: 'Only two parts: the cabin section and the tail boom, with no distinction between forward, centre and aft fuselage'
     },
     correct: 'b'
+},
+{
+    id: 4385,
+    Aircraft: 'AW139',
+    Category: '51_53_55',
+    question: 'What material are the longerons, formers and bulkheads of the AW139 fuselage made of?',
+    options: {
+        a: 'Carbon fibre composite',
+        b: 'Aluminium alloy AL2024',
+        c: 'Titanium'
+    },
+    correct: 'b'
+},
+{
+    id: 4386,
+    Aircraft: 'AW139',
+    Category: '51_53_55',
+    question: 'What material are the lateral (side) skin panels of the fuselage made of?',
+    options: {
+        a: 'Aluminium honeycomb panels',
+        b: 'Solid aluminium sheet',
+        c: 'Kevlar-faced sandwich panels'
+    },
+    correct: 'a'
+},
+{
+    id: 4387,
+    Aircraft: 'AW139',
+    Category: '51_53_55',
+    question: 'What material is the upper deck of the fuselage made of?',
+    options: {
+        a: 'Carbon fibre',
+        b: 'Aluminium alloy AL2024',
+        c: 'Titanium'
+    },
+    correct: 'c'
+},
+{
+    id: 4388,
+    Aircraft: 'AW139',
+    Category: '51_53_55',
+    question: 'What is the cockpit structure made of, and how is its Kevlar structure attached to the metallic structure?',
+    options: {
+        a: 'Fibreglass only, riveted to an aluminium honeycomb core',
+        b: 'Composite construction (longerons, frames, sandwich panels, Kevlar), with the Kevlar structure bonded and screwed to the metallic structure',
+        c: 'Pure titanium monocoque, welded directly to the airframe'
+    },
+    correct: 'b'
+},
+{
+    id: 4389,
+    Aircraft: 'AW139',
+    Category: '51_53_55',
+    question: 'What type of construction is used for the forward fuselage section, and from what materials?',
+    options: {
+        a: 'Composite monocoque construction, made entirely of carbon fibre',
+        b: 'Metallic construction, made with longerons, frames and sandwich panels',
+        c: 'Welded steel tube truss construction'
+    },
+    correct: 'b'
+},
+{
+    id: 4390,
+    Aircraft: 'AW139',
+    Category: '51_53_55',
+    question: 'What type of construction is the centre fuselage, and what material are its upper deck fairings made of?',
+    options: {
+        a: 'Composite semi-monocoque construction; upper deck fairings made of titanium',
+        b: 'Metallic semi-monocoque construction; upper deck fairings made of aluminium honeycomb only',
+        c: 'Metallic semi-monocoque construction (sheet, beams, frames, sandwich panels); upper deck fairings are made of composite materials'
+    },
+    correct: 'c'
+},
+{
+    id: 4391,
+    Aircraft: 'AW139',
+    Category: '51_53_55',
+    question: 'What type of construction is the rear (aft) fuselage, and what materials are used in the engine compartment area?',
+    options: {
+        a: 'Metallic semi-monocoque construction (sheet, beams, frames, sandwich panels); the engine compartment area uses titanium and aluminium alloy',
+        b: 'Composite monocoque construction; the engine compartment uses only Kevlar',
+        c: 'Metallic semi-monocoque construction; the engine compartment uses only magnesium alloy'
+    },
+    correct: 'a'
+},
+{
+    id: 4392,
+    Aircraft: 'AW139',
+    Category: '51_53_55',
+    question: 'What type of construction is the tail section, and what materials is it made from?',
+    options: {
+        a: 'Metallic semi-monocoque construction, made with sheet, beams and frames',
+        b: 'Composite monocoque construction, made entirely of carbon fibre and Kevlar',
+        c: 'A welded titanium tube truss structure'
+    },
+    correct: 'a'
 }
 
     ];
