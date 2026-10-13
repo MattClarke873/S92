@@ -39719,6 +39719,42 @@ export const questions = [
         c: 'When the wind speed is 23 m/s (45 kts) or more'
     },
     correct: 'c'
+},
+{
+    id: 4382,
+    Aircraft: 'AW139',
+    Category: '10',
+    question: 'What is the procedure to be followed when parking the helicopter?',
+    options: {
+        a: 'Set the parking brake ON, set the rotor brake ON, engage the nose centre lock, fit main wheel chocks in front and behind each wheel, centre the cyclic stick, lower the collective stick fully, and install the pitot and engine exhaust nozzle covers once cool',
+        b: 'Set the parking brake ON only, then chock the nose wheel and leave the cyclic and collective in their last flight position',
+        c: 'Disconnect the battery, remove the rotor blades, and cover the engine intakes - no brake or control lock steps are required'
+    },
+    correct: 'a'
+},
+{
+    id: 4383,
+    Aircraft: 'AW139',
+    Category: '52',
+    question: 'Explain the operation of the cockpit doors.',
+    options: {
+        a: 'The doors slide aft on rails to open, latched by a central roller mechanism, with no key lock or actuator fitted',
+        b: 'The doors are purely manually operated with no actuator or lock, hinged only at the top and swinging freely to any angle',
+        c: 'The external handle is lowered to unlock and open the door via the latching mechanism (bolts, bracket assembly, lever and rods); a key-operated revolving plug lock secures it when closed. An actuator between the door and fuselage structure, held in position by two spherical pins, controls and limits the door to a maximum opening angle of 75.5°'
+    },
+    correct: 'c'
+},
+{
+    id: 4384,
+    Aircraft: 'AW139',
+    Category: '51_53_55',
+    question: 'Describe the different parts of the fuselage.',
+    options: {
+        a: 'Forward fuselage (engine and transmission deck); Centre fuselage (cockpit only); Aft fuselage (fuel tanks and landing gear); Tail section (baggage compartment)',
+        b: 'Forward fuselage (cockpit, nose landing gear housing, canopy support); Centre fuselage (passenger cabin, fuel tanks, hydraulics, landing gear, flight controls, powerplant, upper deck, sponsons); Rear/aft fuselage (baggage compartment, avionics LRUs, powerplant); and the Tail section (cone and fin, with attachments for the tail rotor drive, flight controls, tail rotor and stabilisers)',
+        c: 'Only two parts: the cabin section and the tail boom, with no distinction between forward, centre and aft fuselage'
+    },
+    correct: 'b'
 }
 
     ];
