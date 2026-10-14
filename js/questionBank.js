@@ -40187,6 +40187,138 @@ export const questions = [
         c: 'Brushes have an unlimited service life and are only replaced if the generator fails completely'
     },
     correct: 'a'
+},
+{
+    id: 4426,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'In generator mode, does the GCU provide a constant voltage, a constant current, or both?',
+    options: {
+        a: 'Both constant voltage and constant current simultaneously',
+        b: 'A constant voltage, under varying load conditions',
+        c: 'A constant current, regardless of bus voltage'
+    },
+    correct: 'b'
+},
+{
+    id: 4427,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Why are the batteries automatically disconnected when external power is applied?',
+    options: {
+        a: 'To allow the GCU to run its built-in test',
+        b: 'To prevent overvoltage damage to the batteries',
+        c: 'To inhibit charging of the batteries from the external power source'
+    },
+    correct: 'c'
+},
+{
+    id: 4428,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Why is the starter-generator housing constructed of a high iron content material?',
+    options: {
+        a: 'To reduce the overall weight of the unit',
+        b: 'To provide maximum corrosion resistance in humid environments',
+        c: 'To serve as part of the magnetic circuit for the starter assembly'
+    },
+    correct: 'c'
+},
+{
+    id: 4429,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "What is the function of the starter-generator's speed sensor (magnetic pickup) on the drive shaft?",
+    options: {
+        a: 'It measures engine oil pressure for the FADEC',
+        b: 'Its signal is routed to the GCU, which interrupts the start cycle at a predetermined rpm in engine manual mode',
+        c: 'It provides the rotor RPM indication on the cockpit instrument panel'
+    },
+    correct: 'b'
+},
+{
+    id: 4430,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'At what starter speed does each GCU terminate the manual start cycle of the relevant engine?',
+    options: {
+        a: 'When the starter speed has exceeded 65% Ng',
+        b: 'When the starter speed has exceeded 49 to 50% Ng',
+        c: 'When the starter speed has exceeded 20% Ng'
+    },
+    correct: 'b'
+},
+{
+    id: 4431,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'How is an Engine Manual Start (MANUAL Mode) initiated, and which unit is not involved?',
+    options: {
+        a: 'By pressing the START push-button on the relevant Engine Control Lever (ECL), which sends a control signal directly to the relevant GCU; the EEC is not involved, and the GCU terminates the start from the generator speed sensing signal',
+        b: 'By the GCU alone, with no interaction with the ECL or any push-button',
+        c: 'By the EEC automatically selecting MANUAL mode once Ng exceeds 20%, with no pilot input'
+    },
+    correct: 'a'
+},
+{
+    id: 4432,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'At the termination of a manual start, what two actions does the GCU take?',
+    options: {
+        a: 'It closes the line contactor and energizes the field winding to begin generation immediately',
+        b: 'It opens the line contactor and de-energizes the starter-generator field winding',
+        c: "It shuts down the relevant engine's fuel supply"
+    },
+    correct: 'b'
+},
+{
+    id: 4433,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "What does the GCU's overvoltage protection function do?",
+    options: {
+        a: 'It disconnects the starter-generator from the load bus and de-energizes it before the voltage exceeds prescribed limits',
+        b: 'It only logs a maintenance message with no disconnection action',
+        c: 'It reduces generator field current gradually until voltage returns to normal, without disconnecting'
+    },
+    correct: 'a'
+},
+{
+    id: 4434,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "Under the GCU's Bus Fault protection, what overcurrent value must be exceeded, and within what time window does the GCU disconnect the generator if the fault isn't cleared?",
+    options: {
+        a: 'Higher than 550A; the GCU disconnects the generator 6 to 7 seconds from the start of the overcurrent condition',
+        b: 'Higher than 300A; disconnection occurs after 30 seconds',
+        c: 'Higher than 125A; disconnection occurs within 1 second'
+    },
+    correct: 'a'
+},
+{
+    id: 4435,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Under which protection functions will the GCU disconnect the starter-generator from the load bus?',
+    options: {
+        a: 'Only overvoltage conditions',
+        b: 'Only during a scheduled maintenance test',
+        c: 'Overvoltage, undervoltage, feeder fault, and bus fault (overcurrent) conditions'
+    },
+    correct: 'c'
+},
+{
+    id: 4436,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is the priority order of the DC bus bars, from highest to lowest?',
+    options: {
+        a: 'Battery bus, Essential bus bars, Main, Non-essential',
+        b: 'Main, Essential, Battery bus, Non-essential',
+        c: 'Non-essential, Main, Essential, Battery bus'
+    },
+    correct: 'a'
 }
 
     ];
