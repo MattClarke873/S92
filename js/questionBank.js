@@ -40124,7 +40124,7 @@ export const questions = [
     options: {
         a: 'An additional cold-weather battery pre-heat procedure is mandatory for any start logged before 08:00',
         b: 'Battery starts are only permitted during daylight hours, so this start would require external power instead',
-        c: 'The date and time have no bearing on the procedure; a battery start follows the standard sequence - BATTERY MASTER ON, MAIN and AUX battery switches ON, BUS TIE ON, confirm MAIN BUS voltage not less than 23V, then start the first engine on battery power before bringing its generator on-line to assist starting the second'
+        c: 'Depending on local procedurese, the number 2 engine would be started from the battery start follows the standard sequence - BATTERY MASTER ON, MAIN and AUX battery switches ON, BUS TIE ON, confirm MAIN BUS voltage not less than 23V, then start the first engine on battery power before bringing its generator on-line to assist starting the second'
     },
     correct: 'c'
 },
@@ -40319,6 +40319,126 @@ export const questions = [
         c: 'Non-essential, Main, Essential, Battery bus'
     },
     correct: 'a'
+},
+{
+    id: 4437,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What are the plate materials in the AW139 main and auxiliary batteries, and what electrolyte do they use?',
+    options: {
+        a: 'Lithium-cobalt plates with a lithium salt electrolyte',
+        b: 'Lead and lead-dioxide plates with a sulphuric acid electrolyte',
+        c: 'Nickel and cadmium plates with a potassium hydroxide electrolyte'
+    },
+    correct: 'c'
+},
+{
+    id: 4438,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Why must the auxiliary battery remain connected for 5 minutes after helicopter power off?',
+    options: {
+        a: 'To allow the cooling fans to spin down safely',
+        b: 'To complete a scheduled battery self-test',
+        c: 'To ensure the correct shutting down of the CMS (Central Maintenance System)'
+    },
+    correct: 'c'
+},
+{
+    id: 4439,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is the priority order of DC electrical power sources on the AW139?',
+    options: {
+        a: '1st External (ground) power, 2nd Generator, 3rd Battery',
+        b: '1st Battery, 2nd Generator, 3rd External power',
+        c: '1st Generator, 2nd External power, 3rd Battery'
+    },
+    correct: 'a'
+},
+{
+    id: 4441,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is the primary protective function performed using the signals from the four annular-type DC current transformers?',
+    options: {
+        a: 'MFD display of generator load and battery charge current',
+        b: 'Feeder fault detection - detecting differential changes in DC current so the GCU can de-energize the line contactor when a differential feeder or overcurrent condition is present',
+        c: 'Rotor track and balance monitoring'
+    },
+    correct: 'b'
+},
+{
+    id: 4442,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'On the circuit breaker panel, how can you visually distinguish which bus bar a circuit breaker is connected to?',
+    options: {
+        a: 'Essential = red cap, Main = blue cap, Non-Essential = black cap',
+        b: 'Essential bus breakers have one bar marked behind the CB, Main bus breakers have two bars, and Non-Essential bus breakers have no marking',
+        c: 'All circuit breakers are unmarked; the bus must be identified from the wiring diagram only'
+    },
+    correct: 'b'
+},
+{
+    id: 4443,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'On the generator load meter, what does 100% represent?',
+    options: {
+        a: 'Maximum continuous generator output power, equivalent to 300A',
+        b: '125A, the feeder fault threshold',
+        c: '550A, the Bus Fault overcurrent threshold'
+    },
+    correct: 'a'
+},
+{
+    id: 4444,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'On the battery ammeter display, what do the green and amber bands represent?',
+    options: {
+        a: 'Green = discharging; Amber = charging',
+        b: 'Green = battery charging condition; Amber = battery discharging condition',
+        c: 'Green = fully charged standby; Amber = fault condition'
+    },
+    correct: 'b'
+},
+{
+    id: 4445,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'If only the batteries are connected (no generators or external power), under what BUS TIE switch position is bus activation enabled?',
+    options: {
+        a: 'ON',
+        b: 'AUTO only',
+        c: 'RESET only'
+    },
+    correct: 'a'
+},
+{
+    id: 4446,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'If external power is connected, which BUS TIE switch position(s) allow bus tie activation?',
+    options: {
+        a: 'Only when set to ON',
+        b: 'Only when set to RESET',
+        c: 'Bus tie activation is normally enabled regardless of which position the BUS TIE switch is set to'
+    },
+    correct: 'c'
+},
+{
+    id: 4447,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is the key difference between an Engine Normal Start (AUTO Mode) and an Engine Manual Start (MANUAL Mode)?',
+    options: {
+        a: 'There is no difference; both modes use identical initiation and termination logic',
+        b: 'In AUTO mode, the EEC initiates the start (via the ENG MODE switch) and terminates it at Ng=49%; in MANUAL mode, the pilot initiates the start directly via the ECL START push-button sending a signal straight to the GCU, bypassing the EEC, which terminates the start using the generator speed sensing signal',
+        c: 'AUTO mode is pilot-initiated via the START push-button; MANUAL mode is automatically initiated by the EEC with no pilot input'
+    },
+    correct: 'b'
 }
 
     ];
