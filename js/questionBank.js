@@ -39911,6 +39911,282 @@ export const questions = [
         c: '35 fpm within 10 feet, reducing to 10 fpm within 2 feet'
     },
     correct: 'b'
+},
+{
+    id: 4398,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'At what point does the engine start sequence end?',
+    options: {
+        a: 'When the pilot manually selects the GEN switch to ON',
+        b: 'When Nf reaches 100% (FLIGHT idle speed)',
+        c: 'When the starter-generator/engine reaches 49-50% Ng, at which point the GCU (manual start) or EEC (auto start) terminates the start, removing the START signal and opening the generator line contactor'
+    },
+    correct: 'c'
+},
+{
+    id: 4399,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'When does the starter become a generator?',
+    options: {
+        a: 'Once the start sequence terminates at 49-50% Ng and the GCU switches from starter mode to generator mode, building up voltage via the voltage regulator until it is within 0.5V of bus nominal and the line contactor closes',
+        b: 'Only when the pilot manually moves the GEN switch from OFF to ON after shutdown',
+        c: 'Immediately when the START push-button is pressed, before any rpm is reached'
+    },
+    correct: 'a'
+},
+{
+    id: 4400,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'When is the generator balancing (load-sharing) procedure carried out?',
+    options: {
+        a: 'Continuously, even when only one generator is online and the bus tie is open',
+        b: 'When the bus bars are manually tied (BUS TIE closed) with both generators online, the GCUs share the generator output within 10% of rated load, between 25% and 100% rated load',
+        c: 'Only during ground maintenance checks with the engines shut down'
+    },
+    correct: 'b'
+},
+{
+    id: 4401,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Describe the conditions required for the non-essential buses to be powered.',
+    options: {
+        a: 'NON ESS BUS 1 and NON ESS BUS 2 are energized if either both generators are on-line, or external power is connected to the helicopter bus bars',
+        b: 'They are powered only during an assisted start of the second engine',
+        c: 'They are powered at all times whenever the BATTERY MASTER switch is ON'
+    },
+    correct: 'a'
+},
+{
+    id: 4403,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'When performing a battery start, describe the operation of the batteries.',
+    options: {
+        a: 'Both batteries are disconnected automatically the moment the START push-button is pressed',
+        b: 'Only the Auxiliary Battery is used for starting; the Main Battery remains isolated until both generators are online',
+        c: 'With BATTERY MASTER, MAIN and AUX switches ON, both batteries power the essential buses; the Main Battery feeds the starter via MAIN BUS 1/2 for cranking (its voltage drops significantly), while the Auxiliary Battery supplies ESS BUS 1 and 2 to keep the displays powered during starting'
+    },
+    correct: 'c'
+},
+{
+    id: 4404,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Which source of electrical power has priority over all others?',
+    options: {
+        a: 'The Auxiliary Battery, since it supplies the Battery Bus directly at all times',
+        b: "External Power - when connected and operating, it overrides the helicopter's own generation system and isolates the batteries and generators from the main bus bars",
+        c: 'Generator 1, since it is wired directly to the Number 1 Essential Bus with no isolation logic'
+    },
+    correct: 'b'
+},
+{
+    id: 4405,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'When performing a start on external power, describe the operation of the batteries.',
+    options: {
+        a: 'The batteries are automatically disconnected to inhibit charging when external power is applied, but the Main Battery assists the external power source in feeding the starter during the engine start',
+        b: 'The Auxiliary Battery alone assists external power, while the Main Battery is fully isolated throughout',
+        c: 'Both batteries are fully removed from the aircraft electrically and play no part in an external power start'
+    },
+    correct: 'a'
+},
+{
+    id: 4406,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Describe the starter/generator.',
+    options: {
+        a: 'A brushless, permanent-magnet machine bolted directly and rigidly to the main gearbox, with no separate starter function',
+        b: 'A brush-type, electromagnetic rotating machine mounted on the engine accessory gearbox via a splined shaft with a shear section; it acts as a 300A starter motor during start and, once at speed, as a 28VDC generator regulated by its GCU, cooled by an internal shaft-driven fan and protected by a bi-metallic over-temperature switch and a speed sensor',
+        c: 'A purely mechanical device with no electrical output, used only to crank the engine before the battery takes over generation'
+    },
+    correct: 'b'
+},
+{
+    id: 4407,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'The No.1 DC generator is not connected to the Main 1 busbar, what will be the indications to the crew?',
+    options: {
+        a: 'No indication at all, since MAIN BUS 1 continues to be powered normally with no crew alerting required',
+        b: "A '1 DC GEN' CAS message is displayed, and (if conditions are met) the BUS TIE contactor automatically closes to power MAIN BUS 1 from Generator 2",
+        c: "An 'AUX BATT OFF' caution only, with no generator-related message displayed"
+    },
+    correct: 'b'
+},
+{
+    id: 4408,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Describe the operation of the BUS TIE switch.',
+    options: {
+        a: 'It controls the Essential Bus Tie breaker only, and has no effect on the Main bus bars',
+        b: 'ON ties MAIN BUS 1 and 2 (except during an overcurrent malfunction); AUTO enables automatic bus tie activation during external power or single generator operation; RESET clears the cross-tie and battery-isolation logic following a fault',
+        c: 'It only has ON and OFF positions, with no automatic or reset function'
+    },
+    correct: 'b'
+},
+{
+    id: 4410,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'How is an over-voltage test performed?',
+    options: {
+        a: 'By briefly short-circuiting the generator output terminals on the ramp and observing the circuit breaker response',
+        b: "Ground Support Equipment supplies a test signal to the OV TEST pin on the GCU interface connector, which is used to test the functioning of the GCU's over voltage protection",
+        c: 'The pilot selects OV TEST on the ADELT control panel and observes the TX/TEST indicator'
+    },
+    correct: 'b'
+},
+{
+    id: 4411,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Which electrical buses are powered by external power?',
+    options: {
+        a: 'Only the Number 1 Main Bus; all other buses stay isolated from external power at all times',
+        b: 'Only the Battery Bus and the two Essential Buses; the Main and Non-Essential Buses remain unpowered',
+        c: 'All helicopter bus bars - Battery Bus, both Essential Buses, both Main Buses (tied together) and both Non-Essential Buses - once EXT PWR is set to ON with no over-voltage sensed'
+    },
+    correct: 'c'
+},
+{
+    id: 4412,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'When is the auxiliary battery charged?',
+    options: {
+        a: 'Only while the aircraft is connected to external power and the engines are shut down',
+        b: 'When it is connected to the Number 2 Main Bus (BATTERY MASTER and AUX BATT switches ON) and a generator is online supplying that bus',
+        c: 'Continuously from the Battery Bus, regardless of generator or switch state'
+    },
+    correct: 'b'
+},
+{
+    id: 4413,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'When is the main battery charged?',
+    options: {
+        a: 'Only when the Auxiliary Battery is disconnected from the aircraft entirely',
+        b: 'When it is connected to the Number 1 Main Bus (BATTERY MASTER and MAIN BATT switches ON) with no GCU1 overcurrent indication and no external power supplying the helicopter, allowing Generator 1 (or the tied bus) to recharge it',
+        c: 'Continuously, regardless of switch positions or generator status'
+    },
+    correct: 'b'
+},
+{
+    id: 4414,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Which device controls the starter/generator?',
+    options: {
+        a: 'The Central Maintenance Computer (CMC)',
+        b: 'The Engine Electronic Unit (EEC) alone, with no separate GCU',
+        c: 'The Generator Control Unit (GCU)'
+    },
+    correct: 'c'
+},
+{
+    id: 4416,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What will illuminate the MAIN BATT OFF caution on the CAS?',
+    options: {
+        a: 'The GCU automatically disconnecting the Main Battery to prevent it discharging into a short-circuit condition on the Number 1 DC system',
+        b: 'Simply setting the MAIN BATTERY switch to OFF during the normal shutdown sequence',
+        c: 'The Main Battery reaching a fully charged state and being automatically taken off line'
+    },
+    correct: 'a'
+},
+{
+    id: 4417,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Which electrical buses will be powered in single generator operation?',
+    options: {
+        a: 'Both Main Buses, both Essential Buses, and the Battery Bus (via the automatically closed BUS TIE); the Non-Essential Buses 1 and 2 remain unpowered',
+        b: 'All buses including both Non-Essential Buses, identical to dual generator operation',
+        c: 'Only the bus bars on the side of the running generator; the opposite side is completely unpowered'
+    },
+    correct: 'a'
+},
+{
+    id: 4418,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'Describe how to perform a battery start at 06:00 on 10th May 2021.',
+    options: {
+        a: 'An additional cold-weather battery pre-heat procedure is mandatory for any start logged before 08:00',
+        b: 'Battery starts are only permitted during daylight hours, so this start would require external power instead',
+        c: 'The date and time have no bearing on the procedure; a battery start follows the standard sequence - BATTERY MASTER ON, MAIN and AUX battery switches ON, BUS TIE ON, confirm MAIN BUS voltage not less than 23V, then start the first engine on battery power before bringing its generator on-line to assist starting the second'
+    },
+    correct: 'c'
+},
+{
+    id: 4419,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What components are contained within the power distribution panel?',
+    options: {
+        a: 'Heavy power switching components including power contactors, the majority of the passive protective devices, part of the bus re-configuration logic, the external power protection relay, and bus protection control logic',
+        b: 'Only the cockpit circuit breaker panel and its associated placards',
+        c: 'The batteries themselves, along with their temperature switches'
+    },
+    correct: 'a'
+},
+{
+    id: 4421,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What causes the DC BUS FAIL caution to be illuminated and what will the effects be?',
+    options: {
+        a: 'A simple low battery voltage condition, which resets automatically within a few seconds with no further action needed',
+        b: 'Selecting the BUS TIE switch to AUTO, which always triggers this caution during normal operation',
+        c: 'An overcurrent exceeding the first threshold (OC1) detected by a GCU; this drives the DC BUS FAIL CAS message and inhibits automatic BUS TIE operation (remaining open) until reset via the BUS TIE switch'
+    },
+    correct: 'c'
+},
+{
+    id: 4422,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is the purpose of the shunts?',
+    options: {
+        a: 'To protect the generators from over-voltage by instantly disconnecting the line contactor',
+        b: 'To physically filter electrical noise from the DC bus bars before it reaches the avionics',
+        c: 'To measure the DC current from the generators and batteries, providing a voltage signal to the MAUs for the ammeter indications on the MFDs'
+    },
+    correct: 'c'
+},
+{
+    id: 4423,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What device(s) measure the current drawn from the generators?',
+    options: {
+        a: 'The Number 1 and Number 2 generator shunts (R3 and R2), resistor-type with a 300A rating',
+        b: 'The DC current transformers (T1-T4) exclusively, with no shunts involved',
+        c: 'The main and auxiliary battery shunts (R1 and R4) only'
+    },
+    correct: 'a'
+},
+{
+    id: 4425,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: "You're still realising your dream in the Part M department, what is the life of the starter/generator brushes?",
+    options: {
+        a: 'Brush wear is checked by a DI every 300 hours; if remaining brush life exceeds 700 hours at that check, the brushes must be replaced at 1000 FH, which requires generator removal',
+        b: 'Brushes must be replaced every 50 hours regardless of condition, with no inspection required beforehand',
+        c: 'Brushes have an unlimited service life and are only replaced if the generator fails completely'
+    },
+    correct: 'a'
 }
 
     ];
