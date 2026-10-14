@@ -38360,7 +38360,7 @@ export const questions = [
     options: {
         a: 'Both batteries are located in the baggage compartment',
         b: 'Main battery on the left side of the nose compartment, auxiliary battery on the right side',
-        c: 'Main battery in the tail cone, auxiliary battery in the nose'
+        c: 'Main battery on the right side of the nose compartment, auxiliary battery on the left side'
     },
     correct: 'b'
 },
@@ -39627,7 +39627,7 @@ export const questions = [
 {
     id: 4374,
     Aircraft: 'AW139',
-    Category: '24',
+    Category: '00',
     question: 'Where would you find the wiring diagrams for aircraft serial no. 31412?',
     options: {
         a: 'AWDP Volume 3 (covers S/N 31400 and subsequent - Enhanced and Enhanced Plus)',
