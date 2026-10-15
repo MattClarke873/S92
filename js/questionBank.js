@@ -36320,7 +36320,7 @@ export const questions = [
     options: {
         a: 'On the tail cone',
         b: 'Inside the baggage compartment',
-        c: 'Below the left cabin door and above the left sponson'
+        c: 'Below the cabin door and above the sponson'
     },
     correct: 'c'
 },
@@ -40439,6 +40439,1710 @@ export const questions = [
         c: 'AUTO mode is pilot-initiated via the START push-button; MANUAL mode is automatically initiated by the EEC with no pilot input'
     },
     correct: 'b'
+},
+{
+    id: 4448,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'If the generator load meter reads in %, with 100% equal to 300A, how many amps does 1% represent?',
+    options: {
+        a: '3A',
+        b: '1A',
+        c: '30A'
+    },
+    correct: 'a'
+},
+{
+    id: 4449,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What triggers the GCU to act under the External Power Inhibit function?',
+    options: {
+        a: 'A signal from the EEC indicating Ng has reached 100%',
+        b: 'The GCU receiving a signal indicating DC power is being supplied by the external power source, at the same time as the generator is present',
+        c: 'A signal from the battery indicating it is fully charged'
+    },
+    correct: 'b'
+},
+{
+    id: 4450,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'If the GCU receives the external power presence signal while its generator is NOT yet connected to the bus, what does the GCU do, and for how long?',
+    options: {
+        a: 'It closes the GLC immediately to parallel the two sources',
+        b: 'It opens the Generator Line Contactor (GLC), which stays open for the full period that external power is supplied',
+        c: 'It ignores the signal until the generator reaches rated voltage'
+    },
+    correct: 'b'
+},
+{
+    id: 4451,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'If the GCU receives the external power presence signal while its generator IS already connected to the bus, what does the GCU do?',
+    options: {
+        a: 'It reduces generator field current but keeps the GLC closed',
+        b: 'It transfers the generator output to the Battery Bus only',
+        c: 'It opens the GLC, disconnecting the generator from the bus'
+    },
+    correct: 'c'
+},
+{
+    id: 4452,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'What is the direct consequence of the Generator Line Contactor (GLC) opening, under the External Power Inhibit function?',
+    options: {
+        a: 'The generator becomes disconnected from the bus',
+        b: 'The battery is isolated from the bus',
+        c: 'The external power source is disconnected from the bus'
+    },
+    correct: 'a'
+},
+{
+    id: 4453,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'On the DC generator load meter, how does the maximum normal operation scale change with altitude?',
+    options: {
+        a: 'The scale is fixed at 100% regardless of altitude',
+        b: 'Max normal operation is 100% up to 15,000 ft Hp; above 15,000 ft it automatically reduces linearly to 33% at 20,000 ft Hp',
+        c: 'Max normal operation increases to 155% above 15,000 ft to compensate for reduced air density'
+    },
+    correct: 'b'
+},
+{
+    id: 4454,
+    Aircraft: 'AW139',
+    Category: '24',
+    question: 'On the DC generator load meter scale, what do the 100% and 155% markings represent?',
+    options: {
+        a: '100% marks the top of Normal Operation (max normal operation up to 15,000ft Hp); 155% marks the top of the Cautionary Range',
+        b: '100% is the Cautionary Range limit; 155% is the start of Normal Operation',
+        c: '100% and 155% both mark emergency (red) limits, with no cautionary range between them'
+    },
+    correct: 'a'
+},
+{
+    id: 4455,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What is the operating pressure of the main hydraulic system?',
+    options: {
+        a: '207 bar',
+        b: '163 bar',
+        c: '105 bar'
+    },
+    correct: 'a'
+},
+{
+    id: 4456,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What four sub-systems make up the hydraulic system?',
+    options: {
+        a: 'Main systems (1&2), Auxiliary system, Indicating systems, Drain system',
+        b: 'Main, Pneumatic, Electrical, Drain',
+        c: 'Main, Auxiliary, Fuel, Drain'
+    },
+    correct: 'a'
+},
+{
+    id: 4457,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What does the hydraulic system provide power to?',
+    options: {
+        a: 'The engine fuel control system only',
+        b: 'The avionics cooling fans only',
+        c: 'The main rotor and tail rotor servos, and the landing gear (utilities)'
+    },
+    correct: 'c'
+},
+{
+    id: 4458,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: "What should engineers do before undertaking a hydraulic maintenance procedure, given the system's high pressure and hazards?",
+    options: {
+        a: 'Familiarize themselves with the procedure beforehand and be aware of the hazards',
+        b: 'Depressurize the entire aircraft electrical system first',
+        c: 'Proceed directly without preparation since all AW139 engineers are pre-qualified'
+    },
+    correct: 'a'
+},
+{
+    id: 4459,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What is the capacity of the hydraulic test bench at a supply pressure of 207 bar?',
+    options: {
+        a: '35 l/min',
+        b: '60 l/min',
+        c: '22.7 l/min'
+    },
+    correct: 'b'
+},
+{
+    id: 4460,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: "What is the hydraulic test bench's capacity at a supply pressure of 310 bar (4500 psi)?",
+    options: {
+        a: '30 l/min',
+        b: '22.7 l/min',
+        c: '60 l/min'
+    },
+    correct: 'b'
+},
+{
+    id: 4461,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What is the operating temperature range of the hydraulic test bench?',
+    options: {
+        a: '0°C to +70°C',
+        b: '-40°C to +35°C',
+        c: '-20°C to +50°C'
+    },
+    correct: 'c'
+},
+{
+    id: 4462,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What filter dimension (micron rating) is specified for the hydraulic test bench?',
+    options: {
+        a: '3µm',
+        b: '25µm',
+        c: '10µm'
+    },
+    correct: 'a'
+},
+{
+    id: 4463,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What hydraulic oil specification is used in the AW139 hydraulic system?',
+    options: {
+        a: 'MIL-H-83282B',
+        b: 'MIL-H-5606',
+        c: 'MIL-H-6083'
+    },
+    correct: 'a'
+},
+{
+    id: 4464,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What is the purpose of the pressure/return adapter couplings when connecting external hydraulic power?',
+    options: {
+        a: 'They convert AC ground power to DC',
+        b: 'They prevent interference between the pressure/return lines and the forward sliding fairing',
+        c: "They increase the test stand's flow capacity"
+    },
+    correct: 'b'
+},
+{
+    id: 4465,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Some hydraulic maintenance procedures require how many test stands to be connected?',
+    options: {
+        a: 'Two, one for each hydraulic system',
+        b: 'Always only one',
+        c: 'Four, one per pump'
+    },
+    correct: 'a'
+},
+{
+    id: 4466,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'How many self-regulating hydraulic pumps does each main hydraulic system (circuit) use?',
+    options: {
+        a: 'One',
+        b: 'Two',
+        c: 'Four'
+    },
+    correct: 'b'
+},
+{
+    id: 4467,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'For circuit 1, which two types of pump provide pressure flow?',
+    options: {
+        a: 'Two electrical pumps only',
+        b: 'Two mechanical pumps only',
+        c: 'One mechanical pump and one electrical pump (from the Auxiliary Hydraulic Power System)'
+    },
+    correct: 'c'
+},
+{
+    id: 4468,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'For circuit 2, how many pumps provide pressure flow, and of what type?',
+    options: {
+        a: 'Two mechanical pumps',
+        b: 'One mechanical and one electrical pump',
+        c: 'One mechanical pump only'
+    },
+    correct: 'a'
+},
+{
+    id: 4469,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Where is the circuit 1 mechanical pump (Hydraulic Power Supply 1) located?',
+    options: {
+        a: 'On the right front side of the Main Gearbox',
+        b: 'In the tail rotor gearbox',
+        c: 'On top of the left engine input stage of the Main Gearbox'
+    },
+    correct: 'c'
+},
+{
+    id: 4470,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Where is Power Control Module 1 located, relative to PCM2?',
+    options: {
+        a: 'Under the cabin floor; PCM2 is on the upper deck',
+        b: 'On the left side of the upper deck in front of the MGB; PCM2 is on the right side',
+        c: 'In the nose compartment; PCM2 is in the tail cone'
+    },
+    correct: 'b'
+},
+{
+    id: 4471,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'In which circuit is the Tail Rotor Shut-Off Valve installed?',
+    options: {
+        a: 'Circuit 2 only',
+        b: 'Circuit 1 only',
+        c: 'Both circuits 1 and 2'
+    },
+    correct: 'a'
+},
+{
+    id: 4472,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'How many flexible hoses connect each pump to its PCM?',
+    options: {
+        a: 'Three',
+        b: 'Two',
+        c: 'One'
+    },
+    correct: 'a'
+},
+{
+    id: 4473,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'From each PCM, how many flexible hoses are routed to the main rotor servo actuators?',
+    options: {
+        a: 'One shared hose',
+        b: 'Four, two per actuator',
+        c: 'Two (circuit 1 on top, circuit 2 on bottom)'
+    },
+    correct: 'c'
+},
+{
+    id: 4474,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What is the purpose of the Tail Rotor Shut-Off Valve as a safety feature?',
+    options: {
+        a: 'To provide emergency tail rotor pitch control',
+        b: 'To isolate circuit 2 supply to the tail rotor servo actuator in case of excessive leakage, preserving full flow to the main rotor servo actuators',
+        c: 'To shut down the tail rotor gearbox oil supply'
+    },
+    correct: 'b'
+},
+{
+    id: 4475,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What do the Hydraulic Control Panel interlocks prevent?',
+    options: {
+        a: 'Simultaneous engine start on both engines',
+        b: 'The landing gear from retracting in flight',
+        c: 'Depressurization of both circuits at the same time, or a circuit in case of failure of the other'
+    },
+    correct: 'c'
+},
+{
+    id: 4476,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'For how long must upper deck hydraulic equipment continue to function without failure or external leakage following the start of a fire?',
+    options: {
+        a: 'At least 5 minutes',
+        b: 'At least 15 minutes, to allow a safe landing',
+        c: 'At least 60 minutes'
+    },
+    correct: 'b'
+},
+{
+    id: 4477,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What material is used for the Power Control Module reservoir covering, to improve fire resistance?',
+    options: {
+        a: 'Titanium skins',
+        b: 'Ceramic coating',
+        c: 'Kevlar wrap'
+    },
+    correct: 'a'
+},
+{
+    id: 4478,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What type of sleeves are fitted on connection hoses to improve fire resistance?',
+    options: {
+        a: 'Asbestos-lined sleeves',
+        b: 'Fire resistant silicon sleeves',
+        c: 'PTFE heat-shrink sleeves'
+    },
+    correct: 'b'
+},
+{
+    id: 4479,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'How is damage from a hydraulic hazard limited to only one circuit?',
+    options: {
+        a: 'By using identical flexible hoses throughout',
+        b: 'By installing a single shared reservoir with isolation valves',
+        c: 'By specific routing of the tubing and separation of the two hydraulic circuits'
+    },
+    correct: 'c'
+},
+{
+    id: 4480,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Where does oil come from to supply each pump?',
+    options: {
+        a: 'Directly from a header tank in the cabin roof',
+        b: "From the opposite circuit's PCM",
+        c: 'From the PCM pressurized reservoir, through a dedicated suction line'
+    },
+    correct: 'c'
+},
+{
+    id: 4481,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What happens when a demand is made on the system (pressure drop due to flight controls or utilities operation)?',
+    options: {
+        a: 'The pump adjusts itself to provide oil flow to restore the nominal pressure',
+        b: 'The electrical pump engages to assist',
+        c: 'The PCM automatically shuts down'
+    },
+    correct: 'a'
+},
+{
+    id: 4482,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: "When no demand is made on the system, where does the pump's fluid flow go?",
+    options: {
+        a: 'It accumulates in the servo actuators',
+        b: 'The oil returns to the PCM through the case drain line to the return line (zero flow to the system)',
+        c: 'It is dumped overboard through the drain line'
+    },
+    correct: 'b'
+},
+{
+    id: 4483,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'In the event of fast oil leakage in circuit 2, what do the PCM oil level microswitches do?',
+    options: {
+        a: 'Operate the Tail Rotor Shut-Off Valve to isolate oil delivery to the tail rotor servo actuator, prioritising the main rotor servos',
+        b: 'Trigger an automatic engine shutdown',
+        c: 'Shut down both hydraulic circuits immediately'
+    },
+    correct: 'a'
+},
+{
+    id: 4484,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What does the utility shut-off valve in the PCM do in the event of excessive leakage?',
+    options: {
+        a: 'Automatically isolates the utilities system to give priority to the main and tail rotor servo actuators',
+        b: 'Reverses flow to recharge the reservoir',
+        c: 'Opens fully to drain the reservoir'
+    },
+    correct: 'a'
+},
+{
+    id: 4485,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'How long does the ELEC PUMP pushbutton operate for before automatically shutting off?',
+    options: {
+        a: '2 minutes',
+        b: '10 minutes',
+        c: '30 seconds'
+    },
+    correct: 'a'
+},
+{
+    id: 4486,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: "At what pressure does the HYD 1 indicator's amber PRESS legend illuminate?",
+    options: {
+        a: 'When pressure drops below 207 bar',
+        b: 'When pressure drops below 90 bar',
+        c: 'When hydraulic pressure in system no.1 drops below 163 bar'
+    },
+    correct: 'c'
+},
+{
+    id: 4487,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: "At what temperature does the HYD 1 indicator's amber TEMP legend illuminate?",
+    options: {
+        a: 'When fluid temperature is above 163°C',
+        b: 'When fluid temperature is above 100°C',
+        c: 'When fluid temperature in system 1 is above 134°C'
+    },
+    correct: 'c'
+},
+{
+    id: 4488,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'On the ground, what does setting the SOV guarded switch to CLOSE allow?',
+    options: {
+        a: 'Automatic bleeding of both circuits',
+        b: 'A full system flush without a test stand',
+        c: 'Selection of a single system for maintenance'
+    },
+    correct: 'c'
+},
+{
+    id: 4489,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'In flight, what does setting the SOV guarded switch to CLOSE allow?',
+    options: {
+        a: 'An automatic diagnostic test of the GCU',
+        b: 'Activation of the auxiliary electrical pump only',
+        c: 'Isolation of a system following a malfunction'
+    },
+    correct: 'c'
+},
+{
+    id: 4490,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: "In the SOV switch's central position, how are the shut-off valves controlled?",
+    options: {
+        a: 'They are permanently closed until manually reset',
+        b: 'They are open and automatically controlled by the system',
+        c: 'They cycle open and closed every 30 seconds'
+    },
+    correct: 'b'
+},
+{
+    id: 4491,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'On the hydraulic synoptic page, what does the SOV 1 (2) indicator show when vertical versus horizontal?',
+    options: {
+        a: 'Vertical always means a fault condition',
+        b: 'Vertical = valve closed; horizontal = valve open',
+        c: 'Vertical = valve open; horizontal = valve closed'
+    },
+    correct: 'c'
+},
+{
+    id: 4492,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What operates the LDG GEAR NORM indicator on the synoptic page?',
+    options: {
+        a: 'The PCM1 MIN LEVEL microswitch only',
+        b: 'The Tail Rotor Shut-Off Valve microswitch',
+        c: 'The PCM2 oil LOW LEVEL 1, LOW LEVEL 2 and MIN LEVEL microswitches'
+    },
+    correct: 'c'
+},
+{
+    id: 4493,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What operates the LDG GEAR EMER indicator on the synoptic page?',
+    options: {
+        a: 'The PCM2 oil LOW LEVEL 2 microswitch',
+        b: 'The flight controls shut-off valve switch',
+        c: 'The PCM1 oil MIN LEVEL microswitch'
+    },
+    correct: 'c'
+},
+{
+    id: 4494,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What microswitch operates the TAIL SERVO TRSOV indicator on the synoptic page?',
+    options: {
+        a: 'The PCM2 oil LOW LEVEL 2 microswitch',
+        b: 'The PCM2 oil LOW LEVEL 1 microswitch',
+        c: 'The PCM1 oil MIN LEVEL microswitch'
+    },
+    correct: 'a'
+},
+{
+    id: 4495,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Where are the hydraulic synoptic pages accessed from on the MFD?',
+    options: {
+        a: "The 'Nav' drop-down menu",
+        b: "The 'Engine' drop-down menu",
+        c: "The 'System' drop-down menu"
+    },
+    correct: 'c'
+},
+{
+    id: 4496,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At what pressure does the 1 HYD OIL PRESS caution extinguish, once triggered?',
+    options: {
+        a: 'When pressure rises above 163 bar',
+        b: 'When pressure rises above 190 bar',
+        c: 'When pressure rises above 207 bar'
+    },
+    correct: 'b'
+},
+{
+    id: 4497,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'When is the 1 SERVO caution displayed?',
+    options: {
+        a: 'When the electric pump is running',
+        b: 'When at least one servo actuator in system 1 is in by-pass',
+        c: 'When the PCM1 reservoir is below 50%'
+    },
+    correct: 'b'
+},
+{
+    id: 4498,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'When is the EMER LDG PRESS caution displayed?',
+    options: {
+        a: 'When the main wheel brake pressure is low',
+        b: 'When the landing gear fails to retract within 10 seconds',
+        c: 'When the pressure in the Emergency Landing Gear extension line drops below 163 bar'
+    },
+    correct: 'c'
+},
+{
+    id: 4499,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'When is the HYD UTIL PRESS caution displayed?',
+    options: {
+        a: 'When the tail rotor shut-off valve closes',
+        b: 'When the pressure in the utility system (Normal/Emergency Landing Gear extension line) drops below 163 bar',
+        c: 'When the utility hydraulic fluid temperature exceeds 134°C'
+    },
+    correct: 'b'
+},
+{
+    id: 4500,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At what oil temperature does the 1 (2) HYD OIL TEMP caution extinguish, once triggered?',
+    options: {
+        a: 'When it drops below 134°C',
+        b: 'When it drops below 127°C',
+        c: 'When it drops below 100°C'
+    },
+    correct: 'b'
+},
+{
+    id: 4501,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'When is the 1 (2) HYD MIN caution displayed?',
+    options: {
+        a: 'When fluid level is at minimum in the PCM1 (2) reservoir - 0.7 litres, equal to 22%',
+        b: 'When the filter clogged indicator pops out',
+        c: 'When fluid level drops below 50%'
+    },
+    correct: 'a'
+},
+{
+    id: 4502,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'When is the 2-4 HYD PUMP caution displayed?',
+    options: {
+        a: 'When pumps 2 and 4 are both running simultaneously (a normal condition)',
+        b: 'When the no.2 and 4 main pump outlet pressure drops below 163 bar',
+        c: 'When the auxiliary pump fails its self-test'
+    },
+    correct: 'b'
+},
+{
+    id: 4503,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Where can more detailed information on hydraulic CAS cautions and procedures be found?',
+    options: {
+        a: 'RFM Section 6 - Weight and Balance',
+        b: 'AMPI Chapter 04',
+        c: 'RFM Section 3 - Emergency and Malfunction procedures'
+    },
+    correct: 'c'
+},
+{
+    id: 4504,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'How is oil separated from air within the PCM reservoir, and what provides pressurization?',
+    options: {
+        a: 'A rubber membrane, energized by a spring, which provides pressurization to the oil',
+        b: 'A simple baffle plate with no pressurization',
+        c: 'A floating piston with no spring'
+    },
+    correct: 'a'
+},
+{
+    id: 4505,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What is the purpose of the vent port on the air side of the PCM reservoir?',
+    options: {
+        a: 'To allow fuel vapour to escape',
+        b: 'To allow the reservoir casing to breathe and drain any water trapped, or hydraulic oil in case of rubber membrane failure',
+        c: 'To pressurize the reservoir directly from engine bleed air'
+    },
+    correct: 'b'
+},
+{
+    id: 4506,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: "How is the PCM reservoir's bleed valve opened to discharge fluid?",
+    options: {
+        a: 'Manually, by rotating a lever positioned on the top side of the valve',
+        b: 'Automatically, when pressure exceeds 300 bar',
+        c: 'Electrically, via a solenoid activated from the cockpit'
+    },
+    correct: 'a'
+},
+{
+    id: 4507,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At what reservoir fluid level does the LOW 1 LEVEL microswitch in PCM2 operate, and what does it do?',
+    options: {
+        a: '22%; it recloses the utility shut-off valve',
+        b: '28%; it closes the Tail Rotor Shut-off valve',
+        c: '50%; it closes the utility shut-off valve (utility circuit isolation)'
+    },
+    correct: 'c'
+},
+{
+    id: 4508,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At what reservoir fluid level does the LOW 2 LEVEL microswitch in PCM2 operate, and what does it do?',
+    options: {
+        a: '50%; it closes the utility shut-off valve',
+        b: '28%; it closes the Tail Rotor Shut-off valve and re-opens the utility shut-off valve',
+        c: '22%; it closes the utility shut-off valve'
+    },
+    correct: 'b'
+},
+{
+    id: 4509,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At what reservoir fluid level does the MIN LEVEL microswitch operate?',
+    options: {
+        a: '50%',
+        b: '28%',
+        c: '22%'
+    },
+    correct: 'c'
+},
+{
+    id: 4510,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: "What is the purpose of the test lever on the back of the PCM's visual oil level indicator?",
+    options: {
+        a: 'To bleed air from the system',
+        b: 'To manually operate the level microswitches for an electrical continuity check',
+        c: 'To physically top up the reservoir with fluid'
+    },
+    correct: 'b'
+},
+{
+    id: 4511,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Where are the oil temperature sensor and temperature switch installed in the PCM?',
+    options: {
+        a: 'Both on the reservoir suction line',
+        b: 'Both inside the pressure filter housing',
+        c: 'One in the reservoir, one at the pump outlet'
+    },
+    correct: 'a'
+},
+{
+    id: 4512,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Which PCM filter is provided with a by-pass valve to allow oil recirculation if completely clogged?',
+    options: {
+        a: 'Both pressure and return filters',
+        b: 'The return filter only',
+        c: 'The pressure filter only'
+    },
+    correct: 'b'
+},
+{
+    id: 4513,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'How does the mechanical filter clogged indicator (red pop-out) behave once actuated?',
+    options: {
+        a: 'It remains extended until reset manually',
+        b: 'It flashes until acknowledged on the MFD',
+        c: 'It automatically resets once the filter is replaced'
+    },
+    correct: 'a'
+},
+{
+    id: 4514,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'In what condition is the flight controls shut-off valve when de-energized?',
+    options: {
+        a: 'In an undetermined/floating position',
+        b: 'Closed',
+        c: 'Open'
+    },
+    correct: 'c'
+},
+{
+    id: 4515,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'In what condition is the utility circuit shut-off valve when de-energized, and how is it normally operated?',
+    options: {
+        a: 'Open; it is manually operated by the ELEC PUMP button',
+        b: 'Closed; it is manually operated by the SOV switch',
+        c: 'Open; it is automatically energized by the oil level microswitches, with no manual control'
+    },
+    correct: 'c'
+},
+{
+    id: 4516,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What does the pressure system relief valve protect the circuit against?',
+    options: {
+        a: 'Reverse flow from the servo actuators',
+        b: 'Over-pressure in case of failure of the pump compensator',
+        c: 'Over-temperature of the hydraulic fluid'
+    },
+    correct: 'b'
+},
+{
+    id: 4517,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What is the function of the return shuttle valve?',
+    options: {
+        a: 'To regulate reservoir pressurization during flight',
+        b: 'To shut off the tail rotor servo in an emergency',
+        c: 'To connect the helicopter hydraulic circuit to the ground equipment reservoir, by-passing the PCM reservoir, during maintenance'
+    },
+    correct: 'c'
+},
+{
+    id: 4518,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At what pressure does the ELEC PUMP pressurise hydraulic system no.1 during the freedom of movement check?',
+    options: {
+        a: '105 bar',
+        b: '163 bar',
+        c: '207 bar'
+    },
+    correct: 'a'
+},
+{
+    id: 4519,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Why is the pressure indication shown in red during the ELEC PUMP freedom of movement check?',
+    options: {
+        a: 'Because 105 bar is below the normal operating pressure of the system',
+        b: 'Because the system is in an overpressure fault condition',
+        c: 'Because the pilot has not acknowledged the warning dialog'
+    },
+    correct: 'a'
+},
+{
+    id: 4520,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Why should the freedom of movement check be carried out with slow displacement, one control at a time?',
+    options: {
+        a: 'To avoid overloading the electric pump',
+        b: 'To comply with noise abatement procedures',
+        c: 'To prevent the GCU from tripping'
+    },
+    correct: 'a'
+},
+{
+    id: 4521,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'During the ELEC PUMP freedom of movement check, what colour is the ELEC PUMP legend on the Hydraulic Control Panel?',
+    options: {
+        a: 'Red',
+        b: 'Green (ON lighted)',
+        c: 'Amber'
+    },
+    correct: 'b'
+},
+{
+    id: 4522,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'During normal operation, at what pressure is the landing gear (utilities) circuit pressurized?',
+    options: {
+        a: '163 bar',
+        b: '207 bar',
+        c: '105 bar'
+    },
+    correct: 'b'
+},
+{
+    id: 4523,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'In the event of PUMP2 failure, which pump supplies system no.2?',
+    options: {
+        a: 'PUMP4, which is able to supply adequate operating pressure',
+        b: 'PUMP1, borrowed from circuit 1',
+        c: 'The Electrical Pump'
+    },
+    correct: 'a'
+},
+{
+    id: 4524,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What CAS caution is displayed in the event of PUMP2 failure (with PUMP4 still operating)?',
+    options: {
+        a: '2 HYD PUMP',
+        b: '2 HYD MIN',
+        c: '1 HYD PUMP'
+    },
+    correct: 'a'
+},
+{
+    id: 4525,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What is the operational consequence of a PUMP1 failure?',
+    options: {
+        a: 'Automatic landing gear extension is triggered',
+        b: 'No operational effect, since PUMP2 and PUMP4 automatically compensate for circuit 1',
+        c: 'Total loss of system no.1 operations; hydraulic power is then supplied by system no.2 only'
+    },
+    correct: 'c'
+},
+{
+    id: 4526,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Following a PUMP1 failure, what happens to landing gear emergency operation?',
+    options: {
+        a: 'It is not available',
+        b: 'It remains fully available via system no.2',
+        c: 'It switches automatically to the auxiliary electrical pump'
+    },
+    correct: 'a'
+},
+{
+    id: 4527,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Following a PUMP1 failure, which cautions are displayed in the CAS window?',
+    options: {
+        a: '1 HYD PUMP, 1 HYD OIL PRESS, 1 SERVO, EMER LDG PRESS',
+        b: '2 HYD PUMP, 2 HYD OIL PRESS, 2 SERVO',
+        c: 'HYD UTIL PRESS only'
+    },
+    correct: 'a'
+},
+{
+    id: 4528,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At HYD 2 fluid level 50% (LOW LEVEL 1), what happens to UTIL SOV2 and landing gear normal operation?',
+    options: {
+        a: 'UTIL SOV2 automatically closes, and landing gear free-falls due to lack of pressure (normal operation not available)',
+        b: 'No effect; the system continues to operate normally',
+        c: 'UTIL SOV2 opens fully to compensate'
+    },
+    correct: 'a'
+},
+{
+    id: 4529,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At HYD 2 fluid level 28% (LOW LEVEL 2), what happens to UTIL SOV2 and TRSOV?',
+    options: {
+        a: 'Both UTIL SOV2 and TRSOV close permanently',
+        b: 'UTIL SOV2 is automatically re-opened by the 28% microswitch, and TRSOV is automatically closed',
+        c: 'Both UTIL SOV2 and TRSOV open fully'
+    },
+    correct: 'b'
+},
+{
+    id: 4530,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At HYD 2 fluid level 22% (MIN), what happens to UTIL SOV2 and TRSOV, and what is the effect on the landing gear?',
+    options: {
+        a: 'Only TRSOV closes; landing gear normal operation remains available',
+        b: 'Both remain open; no operational effect',
+        c: 'Both are automatically closed by the minimum level microswitch; landing gear normal operation is unavailable and free-falls due to lack of pressure'
+    },
+    correct: 'c'
+},
+{
+    id: 4531,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What is the operational effect when the PCM1 reservoir is down to 50%?',
+    options: {
+        a: 'The flight controls circuit fails for system 1',
+        b: 'There is no effect on system operation, other than an indication on the synoptic page',
+        c: 'UTIL SOV1 closes immediately'
+    },
+    correct: 'b'
+},
+{
+    id: 4532,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What is the operational effect when the PCM1 reservoir is down to 28%?',
+    options: {
+        a: 'UTIL SOV1 automatically closes',
+        b: 'Like the 50% level, there is no operational effect, though it is still shown on the synoptic page',
+        c: '1 HYD MIN caution is triggered'
+    },
+    correct: 'b'
+},
+{
+    id: 4533,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At HYD 1 fluid level 22% (MIN), what happens to UTIL SOV1, and what is the effect on landing gear emergency operation?',
+    options: {
+        a: 'UTIL SOV1 automatically closes, and landing gear emergency operation is not available',
+        b: 'UTIL SOV1 opens fully to compensate',
+        c: 'UTIL SOV1 is unaffected; only TRSOV closes'
+    },
+    correct: 'a'
+},
+{
+    id: 4534,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At HYD 1 fluid level 22% (MIN), which CAS cautions are displayed?',
+    options: {
+        a: '1 HYD PUMP and 1 SERVO',
+        b: '2 SERVO and HYD UTIL PRESS',
+        c: '1 HYD MIN and EMER LDG PRESS'
+    },
+    correct: 'c'
+},
+{
+    id: 4535,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At HYD 1 fluid level 22% (MIN), do SOV1, SOV2 and TRSOV remain open, and what pressure is the flight control circuit maintained at?',
+    options: {
+        a: 'No, SOV1 closes; flight controls drop to 105 bar',
+        b: 'No, all three close; flight controls fail completely',
+        c: 'Yes, they remain open; flight controls remain pressurized at 207 bar'
+    },
+    correct: 'c'
+},
+{
+    id: 4536,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At what temperature is the hydraulic fluid considered to be in an overheating condition, requiring system isolation?',
+    options: {
+        a: 'Greater than 163°C',
+        b: 'Greater than 100°C',
+        c: 'Greater than 134°C'
+    },
+    correct: 'c'
+},
+{
+    id: 4537,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'When system no.2 overheats, what should the pilot do before moving the SOV switch to 2 CLOSE?',
+    options: {
+        a: 'Select the BUS TIE switch to RESET',
+        b: 'Confirm the over-temperature, then lower the landing gear following the normal procedure',
+        c: 'Immediately shut down both engines'
+    },
+    correct: 'b'
+},
+{
+    id: 4538,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: "If one hydraulic system's SOV is shut off, and a subsequent pressure drop occurs in the other system, what happens?",
+    options: {
+        a: 'The SOV switch automatically resets to normal',
+        b: 'The pressure drop overrides the SOV selection and reinstates pressure to the servos, without the SOV switch automatically resetting',
+        c: 'Both systems are automatically shut down for safety'
+    },
+    correct: 'b'
+},
+{
+    id: 4539,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'When 2 SERVO and 1 HYD OIL TEMP cautions are both illuminated together, is the SOV switch inhibited?',
+    options: {
+        a: 'Only the HYD1 CLOSE position is inhibited',
+        b: 'Yes, it is completely locked out',
+        c: 'No, the SOV switch on the HYD control panel is not inhibited'
+    },
+    correct: 'c'
+},
+{
+    id: 4540,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: "If the pressure filter's red button pops out, what CAS caution is displayed, and where is this recorded?",
+    options: {
+        a: '1 (2) HYD FILTER; recorded to the fault log in the CMS',
+        b: '1 (2) HYD MIN; recorded on a paper log only',
+        c: 'HYD UTIL PRESS; not recorded anywhere'
+    },
+    correct: 'a'
+},
+{
+    id: 4541,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What additional CAS indication accompanies a filter clogged message?',
+    options: {
+        a: 'A red WARNING indication',
+        b: 'A white MAINTENANCE indication',
+        c: 'No additional indication is given'
+    },
+    correct: 'b'
+},
+{
+    id: 4542,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Is a clogged filter indication classed as a detected or observed fault in the AFIP?',
+    options: {
+        a: 'An observed fault',
+        b: 'A detected fault',
+        c: 'Neither; it requires no fault isolation procedure'
+    },
+    correct: 'b'
+},
+{
+    id: 4543,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Before filling or servicing the PCM with hydraulic fluid, what publication should be referred to for details of the manual pump and other tools?',
+    options: {
+        a: 'The IETP generally',
+        b: 'The ITEP (Illustrated Tools and Equipment Publication)',
+        c: 'The AWDP'
+    },
+    correct: 'b'
+},
+{
+    id: 4544,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What type of pump unit are the hydraulic pumps (HPS)?',
+    options: {
+        a: 'Variable delivery, constant pressure, self-regulating axial piston type',
+        b: 'Centrifugal, constant flow type',
+        c: 'Fixed delivery, variable pressure gear pump type'
+    },
+    correct: 'a'
+},
+{
+    id: 4545,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'How is variable flow demand achieved in the hydraulic pump?',
+    options: {
+        a: 'By altering the angle of the swashplate, which controls the stroke of the nine pistons',
+        b: 'By opening and closing a bypass valve',
+        c: "By varying the pump's rotational speed directly"
+    },
+    correct: 'a'
+},
+{
+    id: 4546,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What safety feature in the mechanical pump drive prevents gearbox damage in the event of a pump seizure?',
+    options: {
+        a: 'An electromagnetic disconnect relay',
+        b: 'A friction clutch that slips above a torque limit',
+        c: 'A shear shaft, designed to break if driving torque exceeds a preset value'
+    },
+    correct: 'c'
+},
+{
+    id: 4547,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'How many ports does each hydraulic pump have, and what are they for?',
+    options: {
+        a: 'Four: suction, pressure, case drain, and shaft seal leak drain',
+        b: 'Six, including two spare ports',
+        c: 'Two: inlet and outlet only'
+    },
+    correct: 'a'
+},
+{
+    id: 4548,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: "Why is HPS4's flow rate lower than HPS1/HPS2, despite being an identical pump?",
+    options: {
+        a: 'It has a smaller swashplate angle limit',
+        b: 'It uses a restrictor orifice on the outlet',
+        c: 'It is driven at a slower speed'
+    },
+    correct: 'c'
+},
+{
+    id: 4549,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What is the rated pressure of the HPS1/2/4 mechanical pumps?',
+    options: {
+        a: '163 bar',
+        b: '207 ± 1.7 bar',
+        c: '105 bar'
+    },
+    correct: 'b'
+},
+{
+    id: 4550,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What must be done to the associated PCM before HPS removal?',
+    options: {
+        a: 'It must be drained',
+        b: 'It must be disconnected from the main gearbox only',
+        c: 'It must be fully pressurized to 300 bar'
+    },
+    correct: 'a'
+},
+{
+    id: 4551,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What must be carried out after an HPS replacement?',
+    options: {
+        a: 'A 50-hour run-in period before flight',
+        b: 'An HPS operational check',
+        c: 'A full aircraft weight and balance check'
+    },
+    correct: 'b'
+},
+{
+    id: 4552,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What type of valve is the Tail Rotor Shut-Off Valve?',
+    options: {
+        a: 'A simple check valve with no solenoid',
+        b: 'A four way, three position manually operated valve',
+        c: 'A three way, two position solenoid operated valve'
+    },
+    correct: 'c'
+},
+{
+    id: 4553,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'In its normal (de-energized) state, how is the TRSOV spool held open?',
+    options: {
+        a: 'By a spring',
+        b: 'By hydraulic pressure alone',
+        c: 'By a permanently energized solenoid'
+    },
+    correct: 'a'
+},
+{
+    id: 4554,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What signal causes the TRSOV solenoid to energize and close the valve?',
+    options: {
+        a: 'A low oil level signal from the LOW LEVEL 2 microswitch in PCM2 (28%)',
+        b: 'A signal from the Hydraulic Control Panel SOV switch directly',
+        c: 'An overspeed signal from the tail rotor gearbox'
+    },
+    correct: 'a'
+},
+{
+    id: 4555,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What is the rated flow of the Tail Rotor Shut-Off Valve?',
+    options: {
+        a: '60 l/min',
+        b: '35 l/min',
+        c: '3.2 l/min'
+    },
+    correct: 'c'
+},
+{
+    id: 4556,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What is the purpose of the Auxiliary (Electrical) Hydraulic Power System?',
+    options: {
+        a: 'To provide full main rotor and tail rotor hydraulic power during normal flight',
+        b: 'To power the landing gear retraction system exclusively',
+        c: 'To provide limited hydraulic flow to operate the main and tail rotor servo actuators, at limited pressure, for pre-flight checks only'
+    },
+    correct: 'c'
+},
+{
+    id: 4557,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At what pressure range does the Auxiliary (Electrical) Hydraulic Power System operate?',
+    options: {
+        a: '163/190 bar',
+        b: '90/105 bar',
+        c: '207 bar'
+    },
+    correct: 'b'
+},
+{
+    id: 4558,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What kind of motor drives the Electrical Pump, and what safety features does it have?',
+    options: {
+        a: 'An air-driven turbine motor',
+        b: 'A hydraulic motor driven from circuit 2',
+        c: 'A fan-cooled DC electrical motor, explosion proofed, with a radio noise filter and overheating switch'
+    },
+    correct: 'c'
+},
+{
+    id: 4559,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: "Why does a timer relay limit the Electrical Pump's operation to two minutes maximum?",
+    options: {
+        a: 'To avoid battery discharge and prevent motor overheating',
+        b: 'To comply with noise regulations',
+        c: 'To prevent excessive wear on the swashplate bearings'
+    },
+    correct: 'a'
+},
+{
+    id: 4560,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Which electrical bus supplies the Electric Pump?',
+    options: {
+        a: 'The Battery Bus only',
+        b: '28 VDC MAIN BUS 2',
+        c: '28 VDC MAIN BUS 1'
+    },
+    correct: 'c'
+},
+{
+    id: 4561,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What must be carried out after an Electric Pump (EP) replacement?',
+    options: {
+        a: 'A calibration of the generator load meters',
+        b: 'A bleed of the main hydraulic system and an EP operational test',
+        c: 'A full aircraft ground run of both engines'
+    },
+    correct: 'b'
+},
+{
+    id: 4562,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What material are the hydraulic drain lines constructed from?',
+    options: {
+        a: 'Titanium tube with stainless steel fittings',
+        b: '6061-T6 aluminium alloy and flexible PTFE hoses',
+        c: 'Rigid copper pipe'
+    },
+    correct: 'b'
+},
+{
+    id: 4563,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Which pumps/components are connected to the Number 1 upper deck drain line?',
+    options: {
+        a: 'Number 2 power control module and Number 2 pump only',
+        b: 'The Tail Rotor Shut-Off Valve only',
+        c: 'Number 1 power control module, Number 1 pump, and the Electrical pump'
+    },
+    correct: 'c'
+},
+{
+    id: 4564,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Which pumps/components are connected to the Number 2 upper deck drain line?',
+    options: {
+        a: 'The main rotor servo actuators only',
+        b: 'Number 2 power control module, Number 2 pump, and Number 4 pump (auxiliary)',
+        c: 'Number 1 power control module and the Electrical pump'
+    },
+    correct: 'b'
+},
+{
+    id: 4565,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At which fuselage frame station are the drain lines installed above the cabin ceiling?',
+    options: {
+        a: 'STA 1500',
+        b: 'STA 3900',
+        c: 'STA 6700'
+    },
+    correct: 'b'
+},
+{
+    id: 4566,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Where are the two drain holes for the Number 1/2 fuselage drain lines located?',
+    options: {
+        a: 'On the tail cone at STA 8150',
+        b: 'Below the fuselage on the left side at STA 3785',
+        c: 'In the nose compartment at STA 1070'
+    },
+    correct: 'b'
+},
+{
+    id: 4567,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At what interval is the GVI of the Number 1 main hydraulic system components and lines (including HP filter differential pop-out indicators) performed?',
+    options: {
+        a: '300 hrs',
+        b: '600 hrs',
+        c: '1500 hrs/2 years'
+    },
+    correct: 'b'
+},
+{
+    id: 4568,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At what interval is the Number 2 hydraulic system serviced by draining and refilling the hydraulic fluid?',
+    options: {
+        a: '900 hrs/1 year',
+        b: '600 hrs',
+        c: '1500 hrs/2 years'
+    },
+    correct: 'c'
+},
+{
+    id: 4569,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At what interval is an OC performed on the PCM2 flight control shutoff valve, to detect dormant failures?',
+    options: {
+        a: '600 hrs',
+        b: '300 hrs',
+        c: '1500 hrs'
+    },
+    correct: 'a'
+},
+{
+    id: 4570,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Unlike most other ATA chapters, what types of fault does the AFIP for ATA chapter 29 (Hydraulic Power) include?',
+    options: {
+        a: 'Observed faults only',
+        b: 'Detected faults only',
+        c: 'Both detected and observed faults'
+    },
+    correct: 'c'
+},
+{
+    id: 4571,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: "What is a 'detected fault', as defined in the troubleshooting section?",
+    options: {
+        a: 'A malfunction discovered by the pilot or ground crew',
+        b: 'A fault found by the helicopter monitoring system, for which the CMC allocates a fault code',
+        c: 'A fault that can only be found during a scheduled C-check'
+    },
+    correct: 'b'
+},
+{
+    id: 4572,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'At what interval must the Tail Rotor Shut-off Valve operational check be carried out via the PCM No.2 reservoir test switch lever?',
+    options: {
+        a: 'Every 1500 hours',
+        b: 'Every 300 hours',
+        c: 'Every 600 hours'
+    },
+    correct: 'c'
+},
+{
+    id: 4573,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'When the PCM No.2 reservoir test switch lever is manually turned and held for the TRSOV check, which cautions are displayed on the CAS?',
+    options: {
+        a: '2 SERVO, 2 HYD MIN and HYD UTIL PRESS',
+        b: '1 SERVO and 1 HYD OIL PRESS',
+        c: '1 HYD MIN and EMER LDG PRESS'
+    },
+    correct: 'a'
+},
+{
+    id: 4574,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'If PCM No.1 is reinstalled following repair/overhaul and its reservoir test switch lever is turned and held, which cautions are displayed?',
+    options: {
+        a: '1 HYD MIN and EMER LDG PRESS',
+        b: '2 SERVO and HYD UTIL PRESS',
+        c: '1 HYD PUMP and 1 SERVO'
+    },
+    correct: 'a'
+},
+{
+    id: 4575,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Explain the operation of the hydraulic SOV switch.',
+    options: {
+        a: 'The SOV switch directly controls reservoir pressurization, with no connection to the flight controls shut-off valves',
+        b: "Central position: shut-off valves are open and automatically controlled by the system. CLOSE (on the ground): selects a single system for maintenance. CLOSE (in flight): isolates a system following a malfunction. If one system's SOV is shut off and the other system then loses pressure, the pressure drop overrides the SOV selection and reinstates pressure to the servos, without the switch automatically resetting",
+        c: 'The SOV switch only has ON and OFF positions, and once closed it can never be overridden by the opposite system'
+    },
+    correct: 'b'
+},
+{
+    id: 4576,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What would be the indications if the SOV 1 switch is moved to the CLOSE position?',
+    options: {
+        a: '1 HYD OIL PRESS and 1 SERVO cautions are displayed, the SOV1 indicator shows closed (horizontal) on the synoptic page, and the amber PRESS legend illuminates on the HYD1 indicator',
+        b: 'No cockpit indication is given; the closure is silent until the next scheduled inspection',
+        c: 'Only the 1 HYD MIN caution is displayed, with no change to the synoptic page'
+    },
+    correct: 'a'
+},
+{
+    id: 4577,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Explain the operation of the tail rotor shut-off valve.',
+    options: {
+        a: 'It is a purely mechanical valve with no electrical input, closing automatically above 207 bar',
+        b: 'It is normally closed and only opens when the pilot manually selects TRSOV OPEN on the Hydraulic Control Panel',
+        c: 'It is a solenoid-operated valve, normally de-energized and held open by a spring to supply pressure to the tail servo actuator. When the PCM2 LOW LEVEL 2 microswitch detects a low oil level (28%), it energizes the solenoid, closing the pressure supply and connecting the tail rotor servo line to return; this triggers the 2 SERVO caution and the TAIL SERVO TRSOV indicator condition'
+    },
+    correct: 'c'
+},
+{
+    id: 4578,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What will happen as the hydraulic fluid level in PCM1 falls?',
+    options: {
+        a: 'The flight controls circuit fails completely once the level drops below 50%',
+        b: 'At 50% and 28% there is no operational effect, just an indication on the synoptic page; at 22% (MIN) UTIL SOV1 automatically closes, landing gear emergency operation becomes unavailable, and the 1 HYD MIN and EMER LDG PRESS cautions are displayed, while SOV1, SOV2 and TRSOV remain open and the flight controls stay pressurized at 207 bar',
+        c: 'There is no indication of any kind until the reservoir is completely empty'
+    },
+    correct: 'b'
+},
+{
+    id: 4579,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Explain the operation of the PCM drain (bleed) valve.',
+    options: {
+        a: 'It is a one-way check valve with no manual operation, used only to prevent reverse flow into the reservoir',
+        b: "It is a pressure relief/bleeding valve on the top of the reservoir that ensures reservoir pressure does not exceed a safe limit, and can be manually opened by rotating a lever on top of the valve to discharge the reservoir's hydraulic fluid",
+        c: 'It is a solenoid-operated valve that opens automatically whenever the ELEC PUMP is running'
+    },
+    correct: 'b'
+},
+{
+    id: 4580,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'When does the utility shut-off valve close?',
+    options: {
+        a: 'Only when the pilot manually selects SOV CLOSE on the Hydraulic Control Panel',
+        b: 'Only during the ELEC PUMP freedom of movement check',
+        c: 'Automatically, under oil level microswitch control: in PCM2 it closes at the LOW 1 LEVEL (50%) threshold, re-opens at LOW 2 LEVEL (28%), then recloses at MIN LEVEL (22%); in PCM1 it closes at the MIN LEVEL (22%) threshold'
+    },
+    correct: 'c'
+},
+{
+    id: 4581,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What will be the indications of a failure of hydraulic pump 1?',
+    options: {
+        a: 'Only the 1 HYD MIN caution is displayed, with full system 1 operation otherwise unaffected',
+        b: 'Total loss of system no.1 operations (hydraulic power then supplied by system 2 only); SOV1 and UTIL SOV1 show an undetermined status; the 1 HYD PUMP, 1 HYD OIL PRESS, 1 SERVO and EMER LDG PRESS cautions are displayed; and the HYD1 indicator shows PRESS lit amber',
+        c: 'No indication at all, since system 2 silently takes over all functions'
+    },
+    correct: 'b'
+},
+{
+    id: 4582,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Will a failure of hydraulic pump 2 give the same indications as a failure of pump 1?',
+    options: {
+        a: 'Yes - both trigger the EMER LDG PRESS caution and loss of flight controls for that system',
+        b: 'No - because circuit 2 has a second pump (Pump 4), a Pump 2 failure only triggers the 2 HYD PUMP caution while Pump 4 maintains full system 2 pressure; this is unlike Pump 1, whose failure causes total loss of system 1 since circuit 1 has no equivalent second mechanical pump',
+        c: 'Yes - both failures cause total loss of their respective hydraulic system with identical cautions'
+    },
+    correct: 'b'
+},
+{
+    id: 4583,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'A pilot explains that he was unable to shut off hydraulic system no.1, what could the problem be?',
+    options: {
+        a: 'The Hydraulic Control Panel interlocks prevent depressurization of a circuit in case of failure of the other; if system no.2 already has a fault/pressure loss, the interlock would prevent system no.1 from also being shut off',
+        b: "Hydraulic system no.1 can never be shut off in flight under any circumstance, regardless of system 2's condition",
+        c: 'The SOV switch itself is a decorative placard with no functional connection to the valves'
+    },
+    correct: 'a'
+},
+{
+    id: 4584,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Name all of the pipes/ports connected to hydraulic pump 1.',
+    options: {
+        a: 'A single combined pressure/return hose, with no separate suction or drain line',
+        b: 'Two hoses only - pressure and return - with no case drain or seal leak provision',
+        c: 'Three flexible hoses connect Pump 1 to PCM1 (suction, pressure and case drain), plus a shaft seal leak drain connection that routes into the Number 1 upper deck drain line system'
+    },
+    correct: 'c'
+},
+{
+    id: 4585,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What is the difference between hydraulic pump 4 and hydraulic pumps 1 & 2?',
+    options: {
+        a: 'Pump 4 is a smaller physical unit with fewer pistons than Pumps 1 and 2',
+        b: 'Pump 4 is electrically driven, while Pumps 1 and 2 are mechanically driven from the gearbox',
+        c: "All three mechanical pumps are identical in design; Pump 4's lower flow requirement is achieved simply by driving it at a slower speed (HPS1/2 rated at 9111 RPM / 35 l/min, versus HPS4 at 7731 RPM / 30 l/min)"
+    },
+    correct: 'c'
+},
+{
+    id: 4586,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'How are the PCMs protected from over-pressure situations?',
+    options: {
+        a: 'By a pressure system relief valve (protecting the circuit if the pump compensator fails), a reservoir pressure relief/bleeding valve (limiting reservoir pressure), and a return by-pass valve (relieving over-pressure on the return line if the shuttle valve seizes)',
+        b: 'Over-pressure protection is provided solely by the electrical system tripping the relevant circuit breaker',
+        c: 'By a single fuse-type mechanical pin that must be replaced after every overpressure event'
+    },
+    correct: 'a'
+},
+{
+    id: 4587,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Where are the hydraulic pumps located?',
+    options: {
+        a: 'All four pumps are mounted together on a single manifold under the cabin floor',
+        b: 'HPS1 and HPS2 are in the tail rotor gearbox, with HPS4 and the Electrical Pump on the MGB',
+        c: 'HPS1 on top of the left engine input stage of the MGB; HPS2 on top of the right engine input stage of the MGB; HPS4 on the left front side of the MGB; and the Electrical Pump on the upper deck in front of the MGB'
+    },
+    correct: 'c'
+},
+{
+    id: 4588,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Which hydraulic pumps are connected to which hydraulic systems?',
+    options: {
+        a: 'System (circuit) 1 is supplied by HPS1 (mechanical) and the Electrical Pump; System (circuit) 2 is supplied by HPS2 and HPS4 (both mechanical)',
+        b: 'System 1 is supplied by HPS2 and HPS4; System 2 is supplied by HPS1 and the Electrical Pump',
+        c: 'All four pumps supply both systems simultaneously, with no dedicated circuit assignment'
+    },
+    correct: 'a'
+},
+{
+    id: 4589,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Which hydraulic filters are equipped with visual clogging indicators?',
+    options: {
+        a: 'Both the pressure and return filters in each PCM, each fitted with a mechanical red pop-out clogged indicator',
+        b: 'Only the return filters; the pressure filters have no clogging indicator',
+        c: "Only the filters in PCM2; PCM1's filters are uninstrumented"
+    },
+    correct: 'a'
 }
 
     ];
