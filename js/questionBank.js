@@ -42143,6 +42143,18 @@ export const questions = [
         c: "Only the filters in PCM2; PCM1's filters are uninstrumented"
     },
     correct: 'a'
+},
+{
+    id: 4590,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'How long does the electric (auxiliary) hydraulic pump operate for?',
+    options: {
+        a: 'A maximum of 2 minutes, after which a timer relay automatically switches it off to avoid battery discharge and prevent motor overheating',
+        b: 'A maximum of 30 seconds before an automatic shutdown',
+        c: 'It runs continuously until the pilot manually switches it off'
+    },
+    correct: 'a'
 }
 
     ];
