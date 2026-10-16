@@ -82,16 +82,16 @@ export function attachReportControl(questionElement, question, aircraft) {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    reporterName: nameInput.value.trim() || 'anonymous',
-                    reporterIp,
-                    aircraft,
-                    questionId: question.id,
-                    ataCode: question.Category,
-                    question: question.question,
-                    answerOptions: formatOptions(question),
-                    markedCorrect: question.options[question.correct],
-                    details,
-                    page: window.location.href
+                    Date: new Date().toLocaleString(),
+                    Aircraft: aircraft,
+                    ATA_Code: question.Category,
+                    Question_Id: question.id,
+                    Question: question.question,
+                    Answer_Options: formatOptions(question),
+                    Marked_Correct: question.options[question.correct],
+                    Details: details,
+                    Reporter_Name: nameInput.value.trim() || 'anonymous',
+                    Reporter_Ip: reporterIp
                 })
             });
 
