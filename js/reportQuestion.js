@@ -21,6 +21,11 @@ export function attachReportControl(questionElement, question, aircraft) {
     reportForm.className = 'report-form';
     reportForm.style.display = 'none';
 
+    const nameInput = document.createElement('input');
+    nameInput.type = 'text';
+    nameInput.className = 'report-name';
+    nameInput.placeholder = 'Your name (optional)';
+
     const textarea = document.createElement('textarea');
     textarea.className = 'report-textarea';
     textarea.placeholder = "What's wrong with this question? (e.g. wrong answer marked correct, typo, unclear wording)";
@@ -34,6 +39,7 @@ export function attachReportControl(questionElement, question, aircraft) {
     const status = document.createElement('p');
     status.className = 'report-status';
 
+    reportForm.appendChild(nameInput);
     reportForm.appendChild(textarea);
     reportForm.appendChild(submitBtn);
     reportForm.appendChild(status);
@@ -58,6 +64,16 @@ export function attachReportControl(questionElement, question, aircraft) {
         submitBtn.disabled = true;
         status.innerText = 'Sending...';
 
+        // Best-effort — if the IP lookup fails (offline, blocked by an ad
+        // blocker, etc.) the report still goes through, just without it.
+        let reporterIp = 'unavailable';
+        try {
+            const ipResponse = await fetch('https://api.ipify.org?format=json');
+            ({ ip: reporterIp } = await ipResponse.json());
+        } catch {
+            // leave reporterIp as 'unavailable'
+        }
+
         try {
             const response = await fetch(REPORT_FORM_ENDPOINT, {
                 method: 'POST',
@@ -66,6 +82,8 @@ export function attachReportControl(questionElement, question, aircraft) {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
+                    reporterName: nameInput.value.trim() || 'anonymous',
+                    reporterIp,
                     aircraft,
                     questionId: question.id,
                     ataCode: question.Category,
@@ -80,6 +98,7 @@ export function attachReportControl(questionElement, question, aircraft) {
             if (response.ok) {
                 status.innerText = 'Thanks — your report was sent.';
                 textarea.value = '';
+                nameInput.value = '';
             } else {
                 status.innerText = 'Something went wrong. Please try again later.';
                 submitBtn.disabled = false;

@@ -333,6 +333,19 @@ ul.ata_List3 {
     text-align: left;
 }
 
+.report-name {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #e0e6ff;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 8px;
+    font-family: inherit;
+    font-size: 0.85rem;
+    margin-bottom: 6px;
+}
+
 .report-textarea {
     width: 100%;
     box-sizing: border-box;
