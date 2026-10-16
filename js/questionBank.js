@@ -41892,7 +41892,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 4569,
     Aircraft: 'AW139',
     Category: '29',
@@ -41903,7 +41903,7 @@ export const questions = [
         c: '1500 hrs'
     },
     correct: 'a'
-},
+}, */
 {
     id: 4570,
     Aircraft: 'AW139',
@@ -41928,7 +41928,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 4572,
     Aircraft: 'AW139',
     Category: '29',
@@ -41939,7 +41939,7 @@ export const questions = [
         c: 'Every 600 hours'
     },
     correct: 'c'
-},
+}, */
 {
     id: 4573,
     Aircraft: 'AW139',
