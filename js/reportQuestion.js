@@ -8,6 +8,33 @@ function formatOptions(question) {
         .join(' | ');
 }
 
+// Best-effort device location lookup. This triggers the browser's own
+// permission prompt — if the reporter denies it, it's unsupported, or it
+// times out, this resolves to 'unavailable' rather than blocking the report.
+function getLocation(timeoutMs = 5000) {
+    return new Promise((resolve) => {
+        if (!navigator.geolocation) {
+            resolve('unavailable');
+            return;
+        }
+
+        navigator.geolocation.getCurrentPosition(
+            (position) => {
+                const { latitude, longitude } = position.coords;
+                resolve(`${latitude.toFixed(5)}, ${longitude.toFixed(5)}`);
+            },
+            () => resolve('unavailable'),
+            { timeout: timeoutMs }
+        );
+    });
+}
+
+// Request location once, as soon as this module loads (i.e. as soon as the
+// page loads, before any quiz has even been generated) rather than at
+// report time. Every "Submit Report" click on this page reuses this same
+// result instead of prompting/looking it up again.
+const locationPromise = getLocation();
+
 // Adds a collapsible "Report an issue" control to a question element,
 // wired to submit the question's details plus a free-text description
 // to the configured Formspree endpoint.
@@ -74,6 +101,8 @@ export function attachReportControl(questionElement, question, aircraft) {
             // leave reporterIp as 'unavailable'
         }
 
+        const reporterLocation = await locationPromise;
+
         try {
             const response = await fetch(REPORT_FORM_ENDPOINT, {
                 method: 'POST',
@@ -91,7 +120,8 @@ export function attachReportControl(questionElement, question, aircraft) {
                     Marked_Correct: question.options[question.correct],
                     Details: details,
                     Reporter_Name: nameInput.value.trim() || 'anonymous',
-                    Reporter_Ip: reporterIp
+                    Reporter_Ip: reporterIp,
+                    Reporter_Location: reporterLocation
                 })
             });
 
