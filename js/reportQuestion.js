@@ -38,12 +38,11 @@ function getLocation() {
     });
 }
 
-// Location is only requested once someone actually starts reporting an
-// issue (not on page load). A successful lookup is cached and reused for
-// every later report on this page view, so you're not re-prompted. A
-// failed/denied/unavailable lookup is NOT cached — the next report attempt
-// retries it instead of being stuck with that result for the whole page
-// view (e.g. if you grant permission only after an earlier attempt failed).
+// A successful lookup is cached and reused for every report submitted on
+// this page view, so you're not re-prompted. A failed/denied/unavailable
+// lookup is NOT cached — the next call retries it instead of being stuck
+// with that result for the whole page view (e.g. if you grant permission
+// only after an earlier attempt failed).
 let cachedLocation = null;
 let pendingLocationLookup = null;
 function ensureLocationRequested() {
@@ -66,6 +65,11 @@ function ensureLocationRequested() {
 
     return pendingLocationLookup;
 }
+
+// Request location as soon as this module loads — i.e. as soon as any quiz
+// page loads, since this module is only imported on pages with questions
+// to report — rather than waiting for someone to click "Report an issue".
+ensureLocationRequested();
 
 // Adds a collapsible "Report an issue" control to a question element,
 // wired to submit the question's details plus a free-text description
