@@ -9,9 +9,11 @@ function formatOptions(question) {
 }
 
 // Best-effort device location lookup. This triggers the browser's own
-// permission prompt — if the reporter denies it, it's unsupported, or it
-// times out, this resolves to 'unavailable' rather than blocking the report.
-function getLocation(timeoutMs = 5000) {
+// permission prompt — if the reporter denies it or it's unsupported, this
+// resolves to 'unavailable' immediately. Otherwise there's no timeout: it
+// waits for the prompt to be answered and a position fix to complete for as
+// long as the page stays open (a refresh naturally cancels it).
+function getLocation() {
     return new Promise((resolve) => {
         if (!navigator.geolocation) {
             resolve('unavailable');
@@ -23,17 +25,22 @@ function getLocation(timeoutMs = 5000) {
                 const { latitude, longitude } = position.coords;
                 resolve(`${latitude.toFixed(5)}, ${longitude.toFixed(5)}`);
             },
-            () => resolve('unavailable'),
-            { timeout: timeoutMs }
+            () => resolve('unavailable')
         );
     });
 }
 
-// Request location once, as soon as this module loads (i.e. as soon as the
-// page loads, before any quiz has even been generated) rather than at
-// report time. Every "Submit Report" click on this page reuses this same
-// result instead of prompting/looking it up again.
-const locationPromise = getLocation();
+// Location is only requested once someone actually starts reporting an
+// issue (not on page load) — the first "Report an issue" click anywhere on
+// the page kicks off a single lookup, and every report submitted after that
+// reuses the same cached result instead of prompting/looking it up again.
+let locationPromise = null;
+function ensureLocationRequested() {
+    if (!locationPromise) {
+        locationPromise = getLocation();
+    }
+    return locationPromise;
+}
 
 // Adds a collapsible "Report an issue" control to a question element,
 // wired to submit the question's details plus a free-text description
@@ -74,6 +81,7 @@ export function attachReportControl(questionElement, question, aircraft) {
     reportToggle.addEventListener('click', () => {
         const isOpen = reportForm.style.display !== 'none';
         reportForm.style.display = isOpen ? 'none' : 'block';
+        ensureLocationRequested();
     });
 
     submitBtn.addEventListener('click', async () => {
@@ -101,7 +109,7 @@ export function attachReportControl(questionElement, question, aircraft) {
             // leave reporterIp as 'unavailable'
         }
 
-        const reporterLocation = await locationPromise;
+        const reporterLocation = await ensureLocationRequested();
 
         try {
             const response = await fetch(REPORT_FORM_ENDPOINT, {
