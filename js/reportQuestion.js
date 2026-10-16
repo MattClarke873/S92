@@ -31,15 +31,29 @@ function getLocation() {
 }
 
 // Location is only requested once someone actually starts reporting an
-// issue (not on page load) — the first "Report an issue" click anywhere on
-// the page kicks off a single lookup, and every report submitted after that
-// reuses the same cached result instead of prompting/looking it up again.
-let locationPromise = null;
+// issue (not on page load). A successful lookup is cached and reused for
+// every later report on this page view, so you're not re-prompted. A
+// failed/denied/unavailable lookup is NOT cached — the next report attempt
+// retries it instead of being stuck with that result for the whole page
+// view (e.g. if you grant permission only after an earlier attempt failed).
+let cachedLocation = null;
+let pendingLocationLookup = null;
 function ensureLocationRequested() {
-    if (!locationPromise) {
-        locationPromise = getLocation();
+    if (cachedLocation) {
+        return Promise.resolve(cachedLocation);
     }
-    return locationPromise;
+
+    if (!pendingLocationLookup) {
+        pendingLocationLookup = getLocation().then((location) => {
+            pendingLocationLookup = null;
+            if (location !== 'unavailable') {
+                cachedLocation = location;
+            }
+            return location;
+        });
+    }
+
+    return pendingLocationLookup;
 }
 
 // Adds a collapsible "Report an issue" control to a question element,
