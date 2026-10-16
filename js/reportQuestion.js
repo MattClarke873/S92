@@ -14,8 +14,11 @@ function formatOptions(question) {
 // waits for the prompt to be answered and a position fix to complete for as
 // long as the page stays open (a refresh naturally cancels it).
 function getLocation() {
+    console.log('[report] requesting location from navigator.geolocation...');
+
     return new Promise((resolve) => {
         if (!navigator.geolocation) {
+            console.log('[report] navigator.geolocation is not supported in this browser');
             resolve('unavailable');
             return;
         }
@@ -23,9 +26,14 @@ function getLocation() {
         navigator.geolocation.getCurrentPosition(
             (position) => {
                 const { latitude, longitude } = position.coords;
+                console.log('[report] location success:', latitude, longitude);
                 resolve(`${latitude.toFixed(5)}, ${longitude.toFixed(5)}`);
             },
-            () => resolve('unavailable')
+            (error) => {
+                // error.code: 1 = permission denied, 2 = position unavailable, 3 = timeout
+                console.log('[report] location failed — code:', error.code, 'message:', error.message);
+                resolve('unavailable');
+            }
         );
     });
 }
@@ -40,6 +48,7 @@ let cachedLocation = null;
 let pendingLocationLookup = null;
 function ensureLocationRequested() {
     if (cachedLocation) {
+        console.log('[report] reusing cached location:', cachedLocation);
         return Promise.resolve(cachedLocation);
     }
 
@@ -51,6 +60,8 @@ function ensureLocationRequested() {
             }
             return location;
         });
+    } else {
+        console.log('[report] a location lookup is already in progress, waiting on it');
     }
 
     return pendingLocationLookup;
@@ -95,6 +106,7 @@ export function attachReportControl(questionElement, question, aircraft) {
     reportToggle.addEventListener('click', () => {
         const isOpen = reportForm.style.display !== 'none';
         reportForm.style.display = isOpen ? 'none' : 'block';
+        console.log('[report] "Report an issue" opened for question', question.id);
         ensureLocationRequested();
     });
 
@@ -124,6 +136,7 @@ export function attachReportControl(questionElement, question, aircraft) {
         }
 
         const reporterLocation = await ensureLocationRequested();
+        console.log('[report] submitting with Reporter_Location =', reporterLocation);
 
         try {
             const response = await fetch(REPORT_FORM_ENDPOINT, {
@@ -148,14 +161,17 @@ export function attachReportControl(questionElement, question, aircraft) {
             });
 
             if (response.ok) {
+                console.log('[report] Formspree accepted the submission (status', response.status + ')');
                 status.innerText = 'Thanks — your report was sent.';
                 textarea.value = '';
                 nameInput.value = '';
             } else {
+                console.log('[report] Formspree rejected the submission — status:', response.status);
                 status.innerText = 'Something went wrong. Please try again later.';
                 submitBtn.disabled = false;
             }
-        } catch {
+        } catch (err) {
+            console.log('[report] network error sending report:', err);
             status.innerText = 'Network error — please try again later.';
             submitBtn.disabled = false;
         }
