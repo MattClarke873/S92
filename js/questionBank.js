@@ -39943,7 +39943,7 @@ export const questions = [
     question: 'When is the generator balancing (load-sharing) procedure carried out?',
     options: {
         a: 'Continuously, even when only one generator is online and the bus tie is open',
-        b: 'When the bus bars are manually tied (BUS TIE closed) with both generators online, the GCUs share the generator output within 10% of rated load, between 25% and 100% rated load',
+        b: 'There is no requirement to balance the generator',
         c: 'Only during ground maintenance checks with the engines shut down'
     },
     correct: 'b'
