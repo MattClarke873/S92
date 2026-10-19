@@ -42155,6 +42155,1302 @@ export const questions = [
         c: 'It runs continuously until the pilot manually switches it off'
     },
     correct: 'a'
+},
+{
+    id: 4591,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What type of landing gear system does the AW139 use?',
+    options: {
+        a: 'A tricycle, fully retractable undercarriage',
+        b: 'A tricycle, non-retractable undercarriage',
+        c: 'A fixed skid undercarriage'
+    },
+    correct: 'a'
+},
+{
+    id: 4592,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'How is the AW139 landing gear controlled and actuated?',
+    options: {
+        a: 'Electrically controlled and hydraulically retracted/extended',
+        b: 'Pneumatically controlled and electrically actuated',
+        c: 'Fully mechanical, cable operated'
+    },
+    correct: 'a'
+},
+{
+    id: 4593,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "Which landing gear manufacturer's system do these notes primarily describe?",
+    options: {
+        a: 'Liebherr (the more commonly fitted system)',
+        b: 'Messier-Bugatti, fitted to all AW139s',
+        c: 'Goodrich (the more commonly fitted system)'
+    },
+    correct: 'a'
+},
+{
+    id: 4594,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What are the five sub-systems of the landing gear chapter?',
+    options: {
+        a: 'MLG, Tail wheel, Hydraulics, Avionics, Fuel',
+        b: 'NLG only, since MLG is covered under ATA53',
+        c: 'MLG, NLG, Extension and retraction, Wheels and brakes, Steering system (plus position and warning)'
+    },
+    correct: 'c'
+},
+{
+    id: 4595,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What type of suspension and damping does the Main Landing Gear use?',
+    options: {
+        a: 'Fixed leaf-spring suspension, no damping',
+        b: 'Lever suspension, retractable type, with oleo-pneumatic damping, single wheel',
+        c: 'Trailing link suspension with air-oil strut, twin wheel'
+    },
+    correct: 'b'
+},
+{
+    id: 4596,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What are the three main components of the MLG, located in the left/right cabin sponsons?',
+    options: {
+        a: 'Strut, sliding piston, charging valve',
+        b: 'Trunnion, trailing arm, shock absorber assembly',
+        c: 'Trunnion, torque link, bleeder plug'
+    },
+    correct: 'b'
+},
+{
+    id: 4597,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the trunnion made of, and what is its function?',
+    options: {
+        a: 'A titanium forging that only supports the wheel axle',
+        b: 'An aluminium frame with pivot pins, providing the attachment for the trailing arm, shock absorber and actuators',
+        c: 'A composite panel providing aerodynamic fairing only'
+    },
+    correct: 'b'
+},
+{
+    id: 4598,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What material is the trailing arm made of?',
+    options: {
+        a: 'Titanium',
+        b: 'Aluminium alloy',
+        c: 'Steel'
+    },
+    correct: 'c'
+},
+{
+    id: 4599,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is located on the inner side of the trailing arm flange, used to individually lift the landing gear?',
+    options: {
+        a: 'A grease nipple',
+        b: 'A jacking adapter',
+        c: 'A mooring ring'
+    },
+    correct: 'b'
+},
+{
+    id: 4600,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "What materials make up the MLG shock absorber's sliding piston rod and cylinder?",
+    options: {
+        a: 'A steel piston rod inside a titanium cylinder',
+        b: 'A titanium piston rod inside a composite cylinder',
+        c: 'An aluminium piston rod inside a steel cylinder'
+    },
+    correct: 'a'
+},
+{
+    id: 4601,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the function of the separator piston inside the MLG shock absorber?',
+    options: {
+        a: 'It regulates hydraulic pressure to the brake assembly',
+        b: 'It prevents mixing of the nitrogen with the hydraulic oil',
+        c: 'It locks the shock absorber in the extended position'
+    },
+    correct: 'b'
+},
+{
+    id: 4602,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Where are the MLG Weight On Wheels (WOW) microswitches located, and what operates them?',
+    options: {
+        a: 'On each shock absorber, operated by a bracket on the sliding piston when the helicopter lifts off',
+        b: 'In the wheel hub, operated by tyre pressure',
+        c: 'In the trunnion, operated by the retraction actuator'
+    },
+    correct: 'a'
+},
+{
+    id: 4603,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the approximate weight of a complete MLG assembly, including wheel and brake?',
+    options: {
+        a: '12.8 kg (28.2 lb)',
+        b: '61.8 kg (136.2 lb)',
+        c: '34.1 kg (75.2 lb)'
+    },
+    correct: 'b'
+},
+{
+    id: 4604,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'With no load on the MLG unit (helicopter off the ground), what holds the separator piston against the oil?',
+    options: {
+        a: 'A mechanical locking pin',
+        b: 'Spring tension from the trailing arm',
+        c: 'The nitrogen pre-charge pressure'
+    },
+    correct: 'c'
+},
+{
+    id: 4605,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'During the first stage of landing impact damping, how does the MLG shock absorber piston reduce fluid volume in the cylinder?',
+    options: {
+        a: 'By venting fluid overboard through a relief valve',
+        b: 'By pumping fluid into the main hydraulic system reservoir',
+        c: 'By displacing fluid through the port of the variable orifice unit'
+    },
+    correct: 'c'
+},
+{
+    id: 4606,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What happens to the nitrogen gas as fluid is displaced into the separator piston during landing?',
+    options: {
+        a: 'It liquefies and mixes with the hydraulic oil',
+        b: 'It is vented to atmosphere to reduce pressure',
+        c: 'It is compressed, storing the landing impact energy'
+    },
+    correct: 'c'
+},
+{
+    id: 4607,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'After landing impact energy has been absorbed, how does the shock absorber return to its extended position?',
+    options: {
+        a: 'The compressed nitrogen gas expands, forcing fluid back through the variable orifice port to the cylinder',
+        b: 'The main hydraulic system repressurizes the shock absorber',
+        c: 'An electric motor drives the piston back out'
+    },
+    correct: 'a'
+},
+{
+    id: 4608,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "What is the main landing gear shock absorber's oil volume?",
+    options: {
+        a: '0.14 litres',
+        b: '0.75 litres',
+        c: '1.78 litres'
+    },
+    correct: 'b'
+},
+{
+    id: 4609,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What type of suspension and wheel configuration does the Nose Landing Gear use?',
+    options: {
+        a: 'Telescopic, retractable, oleo-pneumatic damping, twin wheels',
+        b: 'Fixed skid, no damping, single wheel',
+        c: 'Lever suspension, oleo-pneumatic damping, single wheel'
+    },
+    correct: 'a'
+},
+{
+    id: 4610,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What are the five main NLG components?',
+    options: {
+        a: 'Trunnion, trailing arm, shock absorber, torque link, charging valve',
+        b: 'Strut, sliding piston, torque link, bleeder plug, charging valve',
+        c: 'Strut, trailing arm, bleeder plug, charging valve, mooring ring'
+    },
+    correct: 'b'
+},
+{
+    id: 4611,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What connects the top of the NLG strut to the nose landing gear actuator?',
+    options: {
+        a: 'A bolted flange',
+        b: 'A single clevis pin',
+        c: 'Two lugs'
+    },
+    correct: 'c'
+},
+{
+    id: 4612,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "What is the function of the two 'A' shaped arms on the NLG strut?",
+    options: {
+        a: 'They connect the strut to the airframe via sliding pins, forming the pivot point for retraction/extension',
+        b: 'They house the centerlock actuator',
+        c: 'They provide the attachment for the nose landing gear doors only'
+    },
+    correct: 'a'
+},
+{
+    id: 4613,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is incorporated into the NLG mooring collar?',
+    options: {
+        a: 'The bleeder plug',
+        b: 'The towing bar attachment pins',
+        c: 'A web on which the nose gear centre lock is installed'
+    },
+    correct: 'c'
+},
+{
+    id: 4614,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "What does the NLG sliding piston's inner separator piston do?",
+    options: {
+        a: 'Locks the piston in the retracted position',
+        b: 'Provides electrical bonding to the airframe',
+        c: 'Separates the hydraulic fluid from the gas'
+    },
+    correct: 'c'
+},
+{
+    id: 4615,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "Where is the torque link's upper link connected, and the lower link?",
+    options: {
+        a: 'Both upper and lower links connect to the sliding piston only',
+        b: 'Upper to the wheel axle; lower to the airframe pivot',
+        c: 'Upper to the mooring collar at the bottom of the barrel; lower to a lug on the wheel axle boss'
+    },
+    correct: 'c'
+},
+{
+    id: 4616,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Where is the bleeder plug installed on the NLG?',
+    options: {
+        a: 'At the top of the Nose Landing Gear strut',
+        b: 'At the lower end of the sliding piston rod',
+        c: 'On the torque link'
+    },
+    correct: 'a'
+},
+{
+    id: 4617,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Where is the charging valve installed on the NLG?',
+    options: {
+        a: 'On the mooring collar',
+        b: 'At the top of the strut',
+        c: 'At the lower end of the sliding piston rod'
+    },
+    correct: 'c'
+},
+{
+    id: 4618,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the approximate weight of the complete NLG assembly, including wheels?',
+    options: {
+        a: '4.9 kg (10.8 lb)',
+        b: '61.8 kg (136.2 lb)',
+        c: '34.1 kg (75.2 lb)'
+    },
+    correct: 'c'
+},
+{
+    id: 4619,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "What is the NLG shock absorber's nitrogen charge at shipping condition?",
+    options: {
+        a: '3.5 bar (51 psi)',
+        b: '8 bar (116 psi)',
+        c: '15.85 bar (230 psi)'
+    },
+    correct: 'a'
+},
+{
+    id: 4620,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the NLG nitrogen charge off ground at 20°C?',
+    options: {
+        a: '207 bar',
+        b: '3.5 bar (51 psi)',
+        c: '8 bar (116 psi)'
+    },
+    correct: 'c'
+},
+{
+    id: 4621,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the normal rate of descent for the NLG shock absorber, versus the hard landing rate?',
+    options: {
+        a: 'Normal 2.3 m/s; hard landing 3.05 m/s',
+        b: 'Normal 1.0 m/s; hard landing 2.0 m/s',
+        c: 'Normal 3.05 m/s; hard landing 5.0 m/s'
+    },
+    correct: 'a'
+},
+{
+    id: 4622,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What hydraulic fluid is used in the landing gear shock absorbers?',
+    options: {
+        a: 'MIL-H-83282B',
+        b: 'MIL-PRF-5606',
+        c: 'MIL-PRF-83282'
+    },
+    correct: 'b'
+},
+{
+    id: 4623,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What should be measured to check NLG strut extension, along with what other factor?',
+    options: {
+        a: 'Oil colour, along with viscosity',
+        b: 'Dimension X, along with the ambient temperature',
+        c: 'Tyre pressure, along with wheel alignment'
+    },
+    correct: 'b'
+},
+{
+    id: 4624,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "Why is the bleeder plug bleed/fill procedure for the NLG noted as 'no longer in use' in the training notes?",
+    options: {
+        a: 'Because the NLG no longer has a bleeder plug fitted',
+        b: 'Because bleeding is now done exclusively through the MLG shock absorber',
+        c: 'It has been superseded, and is left in only as reference'
+    },
+    correct: 'c'
+},
+{
+    id: 4625,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What two hydraulic systems power the landing gear extension/retraction system, and for which functions?',
+    options: {
+        a: 'Both systems power normal and emergency functions equally at all times',
+        b: 'System 2 for normal extension/retraction, System 1 for emergency extension',
+        c: 'System 1 for normal, System 2 for emergency'
+    },
+    correct: 'b'
+},
+{
+    id: 4626,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "Why are the landing gear actuators continuously hydraulically powered when in the 'up' condition?",
+    options: {
+        a: 'So that in case of hydraulic power loss, the landing gear naturally falls out of the sponson by its own weight',
+        b: 'To keep the actuator seals lubricated',
+        c: 'To maintain a constant cabin pressurization differential'
+    },
+    correct: 'a'
+},
+{
+    id: 4627,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Where is the Landing Gear Control Valve (LGCV) located?',
+    options: {
+        a: 'In the nose landing gear bay',
+        b: 'On the structure of the right side of the cabin, under the floor',
+        c: 'On the tail rotor gearbox mount'
+    },
+    correct: 'b'
+},
+{
+    id: 4628,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What solenoid-operated pin prevents inadvertent UP selection of the LGCL when the helicopter is on the ground?',
+    options: {
+        a: 'A pin controlled by the NOSE WHEEL centerlock switch',
+        b: 'A pin controlled by the parking brake handle',
+        c: 'A solenoid operated pin controlled by the WOW microswitches, which locks the lever in the DOWN position'
+    },
+    correct: 'c'
+},
+{
+    id: 4629,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is installed in the LGCL hole for ground maintenance operations?',
+    options: {
+        a: 'A locking pin, which prevents pulling up the lever for retraction/extension selection',
+        b: 'A safety wire, to prevent accidental movement',
+        c: 'A padlock, requiring a key held by engineering'
+    },
+    correct: 'a'
+},
+{
+    id: 4630,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What does the emergency operation manifold connect to, and what hydraulic system powers it?',
+    options: {
+        a: 'It is a stand-alone unit, connected to the Number 2 main hydraulic system',
+        b: 'It connects directly to the wheel brake reservoir',
+        c: 'It is attached to the normal operation manifold and is connected to the Number 1 main hydraulic system'
+    },
+    correct: 'c'
+},
+{
+    id: 4631,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the purpose of the manual reset button fitted to the EMERGENCY valve?',
+    options: {
+        a: 'It must be pressed back in after the pilot has used the Emergency landing gear selection, and is also used during operational checks',
+        b: 'It manually extends the landing gear without hydraulic power',
+        c: 'It arms the emergency system before every flight'
+    },
+    correct: 'a'
+},
+{
+    id: 4632,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What hydraulic system is the normal operation manifold connected to?',
+    options: {
+        a: 'The Number 1 main hydraulic system',
+        b: 'The Number 2 main hydraulic system',
+        c: 'The auxiliary electrical hydraulic system'
+    },
+    correct: 'b'
+},
+{
+    id: 4633,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'In the normal operation manifold, what does the Number 2 spool valve control, versus the Number 1 spool valve?',
+    options: {
+        a: 'Both valves control the same actuators for redundancy',
+        b: 'No.1 controls the retraction actuators; No.2 controls the shortening actuators',
+        c: 'No.2 controls flow to/from the NLG and MLG retraction actuators; No.1 controls flow to/from the MLG shortening actuators'
+    },
+    correct: 'c'
+},
+{
+    id: 4634,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'When the UP/DOWN solenoids on the normal operation manifold are not energised, what holds the spool valves in neutral position?',
+    options: {
+        a: 'Springs',
+        b: 'Residual hydraulic pressure',
+        c: 'A mechanical detent requiring manual release'
+    },
+    correct: 'a'
+},
+{
+    id: 4635,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "What type of valve controls both extension and retraction flow in the NLG actuator's down line?",
+    options: {
+        a: 'An internal shuttle valve, with separate connections for normal and emergency extension',
+        b: 'A single check valve with no shuttle function',
+        c: 'A manually operated ball valve'
+    },
+    correct: 'a'
+},
+{
+    id: 4636,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "Which hydraulic system supplies the NLG actuator's DOWN EMER port during an emergency?",
+    options: {
+        a: 'The Number 1 main hydraulic system',
+        b: 'The Number 2 main hydraulic system',
+        c: 'The auxiliary electrical pump system'
+    },
+    correct: 'a'
+},
+{
+    id: 4637,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What controls the extension and retraction rate of the NLG actuator?',
+    options: {
+        a: "The main hydraulic system's variable pressure compensator",
+        b: 'A needle valve controlled from the cockpit',
+        c: 'A restrictor installed in the UP port of the actuator'
+    },
+    correct: 'c'
+},
+{
+    id: 4638,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What locks the piston of the main landing gear actuator in the extended position?',
+    options: {
+        a: 'A lock group incorporated into the actuator',
+        b: 'A separate external padlock pin',
+        c: "The shock absorber's separator piston"
+    },
+    correct: 'a'
+},
+{
+    id: 4639,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "What does the main landing gear actuator's cylinder end attach to, versus the rod end?",
+    options: {
+        a: 'Both ends attach to the shock absorber',
+        b: 'Cylinder end to a support in the main gear bay; rod end to the clevis fitting of the trunnion',
+        c: 'Cylinder end to the trunnion; rod end to the wheel axle'
+    },
+    correct: 'b'
+},
+{
+    id: 4640,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the function of the MLG shortening (partial retraction) actuator?',
+    options: {
+        a: 'To apply the parking brake automatically on retraction',
+        b: 'To extend the wheel track for improved ground stability',
+        c: 'To rotate the trailing arm, reducing the effective leg length of the landing gear for retraction into the sponson'
+    },
+    correct: 'c'
+},
+{
+    id: 4641,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "How is the shortening actuator's locking device engaged and released?",
+    options: {
+        a: 'Mechanically engaged, hydraulically released',
+        b: 'Both engaged and released electrically via a solenoid',
+        c: 'Hydraulically engaged, mechanically released'
+    },
+    correct: 'a'
+},
+{
+    id: 4642,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'If the normal extension/retraction system fails, which hydraulic system supplies the shortening actuator for emergency operation?',
+    options: {
+        a: 'The Number 2 main hydraulic system, via the standard port',
+        b: 'The auxiliary electrical pump exclusively',
+        c: 'The Number 1 main hydraulic system, via the port EMER'
+    },
+    correct: 'c'
+},
+{
+    id: 4643,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "What signals the shortening actuator's locked condition to the landing gear control panel?",
+    options: {
+        a: 'A visual flag marker only, with no electrical signal',
+        b: 'An internal microswitch that senses the lock position',
+        c: 'The WOW microswitches'
+    },
+    correct: 'b'
+},
+{
+    id: 4644,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "Which actuator is described as 'similar but longer' than the MLG R/A actuators?",
+    options: {
+        a: 'The MLG shortening actuator',
+        b: 'The parking brake actuator',
+        c: 'The NLG R/A actuator'
+    },
+    correct: 'c'
+},
+{
+    id: 4645,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'When the helicopter is on the ground, how is the Landing Gear Control Lever (LGCL) held in position?',
+    options: {
+        a: 'Locked UP by a pin controlled by the parking brake',
+        b: 'Free to move, with no locking mechanism on ground',
+        c: 'Locked DOWN by a pin controlled by the WOW microswitches'
+    },
+    correct: 'c'
+},
+{
+    id: 4646,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'During Normal Retraction Phase 1 (MLG Shortening), what condition must be met before the retraction procedure starts?',
+    options: {
+        a: 'The NLG must be locked in the center position (LOCK illuminated green)',
+        b: 'The parking brake must be fully released',
+        c: 'Both engines must be above 90% Ng'
+    },
+    correct: 'a'
+},
+{
+    id: 4647,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'During Normal Retraction Phase 1, which solenoid is energized, and what does it do?',
+    options: {
+        a: 'The emergency valve solenoid, delivering system no.1 pressure',
+        b: 'The VALVE 1 UP solenoid, delivering system no.2 pressure to unlock and shorten the MLG Shortening Actuator',
+        c: 'The VALVE 2 DOWN solenoid, extending the MLG actuators'
+    },
+    correct: 'b'
+},
+{
+    id: 4648,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'During Normal Retraction Phase 2, what happens once both shortening actuators (SA) are fully retracted?',
+    options: {
+        a: 'The VALVE 2 UP solenoid is also energized, delivering pressure to the NLG and MLG Retraction Actuators',
+        b: 'The emergency valve automatically engages',
+        c: 'The landing gear control lever is automatically returned to DOWN'
+    },
+    correct: 'a'
+},
+{
+    id: 4649,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'When the landing gear is fully retracted, do the VALVE 1 and VALVE 2 UP solenoids de-energize?',
+    options: {
+        a: 'Yes, they de-energize immediately once retraction completes',
+        b: 'No, they remain energized to keep pressure in all actuators as long as the LG is retracted',
+        c: 'Only VALVE 1 remains energized; VALVE 2 de-energizes'
+    },
+    correct: 'b'
+},
+{
+    id: 4650,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'During Normal Extension Phase 1, which solenoid energizes, and what does it do?',
+    options: {
+        a: 'The VALVE 1 UP solenoid, retracting the shortening actuators',
+        b: 'The VALVE 2 DOWN solenoid, delivering system no.2 pressure to extend the NLG and MLG retraction actuators',
+        c: 'The emergency manifold solenoid, delivering system no.1 pressure'
+    },
+    correct: 'b'
+},
+{
+    id: 4651,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'During Normal Extension Phase 2, once the MLG retraction actuators are fully extended (DN), what happens?',
+    options: {
+        a: 'The landing gear control lever automatically locks DOWN',
+        b: 'The parking brake automatically engages',
+        c: 'The position microswitches energize the VALVE 1 DOWN solenoid, delivering pressure to elongate the MLG shortening actuators'
+    },
+    correct: 'c'
+},
+{
+    id: 4652,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'When landing gear is fully down and locked, what happens to the VALVE 1 DOWN and VALVE 2 DOWN solenoids?',
+    options: {
+        a: 'They remain energized to hold the gear down',
+        b: 'Only VALVE 2 DOWN de-energizes; VALVE 1 DOWN remains on',
+        c: 'They de-energize, so the system is no longer pressurized'
+    },
+    correct: 'c'
+},
+{
+    id: 4653,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What controls emergency extension, and which electrical bus powers it?',
+    options: {
+        a: 'The EMER DOWN pushbutton, powered by ESS BUS 2',
+        b: 'The NOSE WHEEL pushbutton, powered by the Battery Bus',
+        c: 'The LGCL lever, powered by MAIN BUS 1'
+    },
+    correct: 'a'
+},
+{
+    id: 4654,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'During emergency extension, does the position of the Landing Gear Control Lever (UP or DOWN) matter?',
+    options: {
+        a: 'Yes, it must be set to UP first',
+        b: 'Yes, it must be set to DOWN first',
+        c: 'No, it is not relevant for emergency extension'
+    },
+    correct: 'c'
+},
+{
+    id: 4655,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What advisory is displayed on the CAS when the emergency valve position microswitch is triggered during Phase 1 of emergency extension?',
+    options: {
+        a: 'LANDING GEAR',
+        b: 'PARK BRK ON',
+        c: 'LDG EMER DOWN'
+    },
+    correct: 'c'
+},
+{
+    id: 4656,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'In the event of a loss of electrical power from ESS BUS 1 or the LDG GEAR CONTR circuit breaker tripping, what happens with the landing gear up?',
+    options: {
+        a: 'The parking brake automatically engages to prevent gear movement',
+        b: 'The LGCV solenoids de-energize, pressure is relieved, and the landing gear falls due to gravity; emergency extension must then be carried out',
+        c: 'The landing gear remains locked up indefinitely until power is restored'
+    },
+    correct: 'b'
+},
+{
+    id: 4657,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What does the LANDING GEAR CAS caution indicate, and what aural warning accompanies it?',
+    options: {
+        a: 'Landing gear still retracted at 150 feet radio altimeter; a pair of tones (554-440 Hz) and a LANDING GEAR aural message, transmitted once',
+        b: 'Landing gear retracted below 500 feet; a continuous siren',
+        c: 'Landing gear in transition; no aural warning is given'
+    },
+    correct: 'a'
+},
+{
+    id: 4658,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'On the Landing Gear Control Panel lights, what does a blank (no light) indication mean?',
+    options: {
+        a: 'Landing gear down and locked',
+        b: 'Landing gear retracted',
+        c: 'Landing gear in transition'
+    },
+    correct: 'b'
+},
+{
+    id: 4659,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'On the Landing Gear Control Panel lights, what does the green triangle mean?',
+    options: {
+        a: 'Landing gear down and locked',
+        b: 'Landing gear unlocked/in transition',
+        c: 'Landing gear retracted'
+    },
+    correct: 'a'
+},
+{
+    id: 4660,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What force is required to lift the LGCL to operate it?',
+    options: {
+        a: '18 N',
+        b: '50 N',
+        c: '27 N'
+    },
+    correct: 'a'
+},
+{
+    id: 4661,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the normal landing gear extension time?',
+    options: {
+        a: '12 thru 18 sec',
+        b: '10 thru 15 sec',
+        c: '8 thru 10 sec'
+    },
+    correct: 'c'
+},
+{
+    id: 4662,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the emergency landing gear extension time, compared to normal?',
+    options: {
+        a: '12 thru 18 sec (longer than the 8-10 sec normal extension)',
+        b: 'Identical to normal extension time',
+        c: '5 thru 8 sec (faster than normal)'
+    },
+    correct: 'a'
+},
+{
+    id: 4663,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What type of tyre does the nose landing gear wheel use?',
+    options: {
+        a: 'A tubeless tyre, on a one-piece magnesium hub',
+        b: 'A tube type tyre, on a bolted two-half aluminium hub',
+        c: 'A solid rubber tyre with no tube'
+    },
+    correct: 'b'
+},
+{
+    id: 4664,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What type of tyre does the main landing gear wheel use?',
+    options: {
+        a: 'A tubeless tyre, on a bolted two-half aluminium hub',
+        b: 'A tube type tyre, on a one-piece steel hub',
+        c: 'A solid tyre, bolted directly to the brake disk'
+    },
+    correct: 'a'
+},
+{
+    id: 4665,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "What safety feature does the MLG wheel's outer hub incorporate to release over-pressure?",
+    options: {
+        a: 'A shear bolt',
+        b: 'A safety relief plug',
+        c: 'A pressure gauge with an automatic bleed valve'
+    },
+    correct: 'b'
+},
+{
+    id: 4666,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "What do the two fusible plugs in the MLG wheel's inner hub do?",
+    options: {
+        a: 'Provide electrical bonding to the brake disk',
+        b: 'Release tyre pressure in case of wheel overheating',
+        c: 'Seal the bearing grease'
+    },
+    correct: 'b'
+},
+{
+    id: 4667,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the nose wheel tyre inflation pressure?',
+    options: {
+        a: '15.85 bar (230 psi)',
+        b: '3.5 bar (51 psi)',
+        c: '9.1 bar (132 psi)'
+    },
+    correct: 'c'
+},
+{
+    id: 4668,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the main wheel tyre inflation pressure?',
+    options: {
+        a: '9.1 bar (132 psi)',
+        b: '15.85 bar (230 psi)',
+        c: '8 bar (116 psi)'
+    },
+    correct: 'b'
+},
+{
+    id: 4669,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'How many pistons does the main landing gear brake assembly housing contain?',
+    options: {
+        a: 'Five',
+        b: 'Two',
+        c: 'Eight'
+    },
+    correct: 'a'
+},
+{
+    id: 4670,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Is the wheel brake assembly provided with automatic wear adjustment?',
+    options: {
+        a: 'No, it is not provided with automatic wear adjustment',
+        b: 'Only on the left MLG, not the right',
+        c: 'Yes, fully automatic'
+    },
+    correct: 'a'
+},
+{
+    id: 4671,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "Where does the pilot's hydraulic master cylinder draw its supply from?",
+    options: {
+        a: 'From the parking brake accumulator only',
+        b: "It is supplied through the copilot's master cylinder, from a reservoir in the nose compartment",
+        c: 'Directly from the Number 1 main hydraulic system'
+    },
+    correct: 'b'
+},
+{
+    id: 4672,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Is there priority between pilot and copilot braking inputs?',
+    options: {
+        a: "Yes - the pilot's input always overrides the copilot's",
+        b: "Yes - the copilot's input always overrides the pilot's",
+        c: 'No - whoever applies greater force on the pedals takes control of the braking function'
+    },
+    correct: 'c'
+},
+{
+    id: 4673,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'How is differential braking achieved for dynamic steering during taxi?',
+    options: {
+        a: 'By operating the left or right brake pedal independently, with the nose wheel centerlock disengaged',
+        b: 'By using the parking brake handle asymmetrically',
+        c: 'Differential braking is not possible on the AW139'
+    },
+    correct: 'a'
+},
+{
+    id: 4674,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What triggers the PARK BRK PRESS caution?',
+    options: {
+        a: 'Trapped brake line pressure below the required value when the parking brake handle is pulled',
+        b: 'The parking brake handle being released while taxiing',
+        c: 'Tyre pressure dropping below the minimum limit'
+    },
+    correct: 'a'
+},
+{
+    id: 4675,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "How is the parking brake handle's locking pin released?",
+    options: {
+        a: 'By pulling the handle a second time',
+        b: 'By pushing the left brake pedal, so hydraulic pressure overcomes the spring load and retracts the locking pin',
+        c: 'By selecting the LGCL to UP'
+    },
+    correct: 'b'
+},
+{
+    id: 4676,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What prevents the nose landing gear from retracting when the wheels are not aligned?',
+    options: {
+        a: 'A mechanical interlock on the trailing arm',
+        b: 'The parking brake handle must be pulled first',
+        c: 'The steering system design, via the centering assembly'
+    },
+    correct: 'c'
+},
+{
+    id: 4677,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'How does the NLG centering assembly achieve fore/aft alignment?',
+    options: {
+        a: 'Two cam-shaped plates inside the shock absorber match together when the gear is centered',
+        b: 'An electric motor drives the wheels to the centered position before every landing',
+        c: 'A spring-loaded detent pin engages a slot in the strut'
+    },
+    correct: 'a'
+},
+{
+    id: 4678,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the maximum misalignment angle for the NLG centering system to work properly?',
+    options: {
+        a: '± 180°',
+        b: '± 115°',
+        c: '± 45°'
+    },
+    correct: 'b'
+},
+{
+    id: 4679,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "What type of actuator drives the center lock assembly's locking pin?",
+    options: {
+        a: 'A pneumatic actuator',
+        b: 'An electrical DC motor with a gear assembly',
+        c: 'A hydraulic piston'
+    },
+    correct: 'b'
+},
+{
+    id: 4680,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'How can the center lock locking pin be operated if electrical power is unavailable?',
+    options: {
+        a: 'By using the emergency hydraulic system',
+        b: 'It cannot be operated without electrical power',
+        c: 'Mechanically, by rotating a lever connected to the assembly'
+    },
+    correct: 'c'
+},
+{
+    id: 4681,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the purpose of the anti-shimmy device in the NLG steering system?',
+    options: {
+        a: 'A spring-loaded damper fitted to the torque link',
+        b: 'An oil film between the collar and bush whose viscosity increases with movement speed, damping shimmy at high speed while allowing free steering at low speed',
+        c: 'A mechanical friction brake applied only during takeoff'
+    },
+    correct: 'b'
+},
+{
+    id: 4682,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Before towing, what must an engineer physically check regarding the NLG centerlock lever?',
+    options: {
+        a: 'That the lever is in the lock position only',
+        b: 'That the lever is in the unlock position and the ground locking pin is inserted',
+        c: 'That the towing bar is disconnected'
+    },
+    correct: 'b'
+},
+{
+    id: 4683,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Why is physically checking the NLG centerlock lever position before towing so critical?',
+    options: {
+        a: 'It only affects the towing bar attachment, not the aircraft structure',
+        b: 'It has no real safety consequence, it is just good practice',
+        c: 'The lever can appear to show unlocked while the NLG is not actually locked; if it then straightens and locks during towing while off-centre, it can cause significant damage'
+    },
+    correct: 'c'
+},
+{
+    id: 4684,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'At what interval is the FC (Functional Check) of the MLG shock absorber pressure and extension performed?',
+    options: {
+        a: '300 hrs/1 year',
+        b: '10000 hrs',
+        c: '600 hrs/1 year'
+    },
+    correct: 'c'
+},
+{
+    id: 4685,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'At what interval is the DI of the NLG center lock attachment, lock pin, torque link attachments and anti-shimmy device performed?',
+    options: {
+        a: '1 year only, no hours limit',
+        b: '300 hrs/1 year',
+        c: '600 hrs/1 year'
+    },
+    correct: 'b'
+},
+{
+    id: 4686,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'At what interval is the SDI of the Landing Gear Control Valve, to detect internal leaks, performed?',
+    options: {
+        a: '10000 hrs',
+        b: '1500 hrs',
+        c: '600 hrs'
+    },
+    correct: 'a'
+},
+{
+    id: 4687,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'At what interval must the wheel brake wear indicator pin be checked (with brake application)?',
+    options: {
+        a: 'Every tyre replacement only',
+        b: '600 hrs/1 year',
+        c: '300 hrs/1 year'
+    },
+    correct: 'b'
+},
+{
+    id: 4688,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'When must the NLG wheel bearings, grease seals and retainer tube be inspected and lubricated?',
+    options: {
+        a: 'Every tyre replacement',
+        b: 'Every 600 hrs only',
+        c: 'Every 10000 hrs'
+    },
+    correct: 'a'
+},
+{
+    id: 4689,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'The AFIP for ATA chapter 32 (Landing Gear) consists solely of which type of fault?',
+    options: {
+        a: 'Both detected and observed faults equally',
+        b: 'Detected faults',
+        c: 'Observed faults'
+    },
+    correct: 'c'
+},
+{
+    id: 4690,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "What is an 'observed fault', as defined in the troubleshooting section?",
+    options: {
+        a: 'A fault automatically logged by the CMC with a fault code',
+        b: 'A fault that can only be confirmed with the helicopter jacked',
+        c: 'A malfunction discovered by the pilot or ground crew'
+    },
+    correct: 'c'
+},
+{
+    id: 4691,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Which main landing gear actuators are pressurised on the ground?',
+    options: {
+        a: 'All MLG actuators remain continuously pressurized at 207 bar while on the ground',
+        b: 'None - once the gear is down and locked (as on the ground), both the VALVE 1 DOWN and VALVE 2 DOWN solenoids de-energize and the system is no longer pressurized',
+        c: 'Only the shortening actuators remain pressurized; the retraction actuators de-energize'
+    },
+    correct: 'b'
+},
+{
+    id: 4692,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Explain the operation of the UNLK and LOCK lights on the landing gear control panel.',
+    options: {
+        a: 'Both lights are permanently illuminated simultaneously whenever the landing gear is extended',
+        b: 'LOCK indicates the parking brake is applied; UNLK indicates it is released',
+        c: 'The green LOCK legend illuminates when the nose wheel centerlock pin is engaged; the amber UNLK legend illuminates when the pin is disengaged (free to swivel), and the amber UNLK legend blinks if the lock has been armed but has not yet reached its final locked position'
+    },
+    correct: 'c'
+},
+{
+    id: 4693,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Explain the operation of the parking brake.',
+    options: {
+        a: 'The parking brake uses a separate electrically-driven caliper, independent of the normal wheel brake pedals',
+        b: 'Pulling and rotating the parking brake handle traps the pressure generated by pressing the brake pedals, via the parking brake valve and a shuttle valve with two check valves, keeping the brakes engaged; a spring-loaded pin locks the handle in the engaged position until the left brake pedal is pushed to release it',
+        c: 'The parking brake is applied automatically whenever the WOW microswitches detect weight on wheels'
+    },
+    correct: 'b'
+},
+{
+    id: 4694,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Explain the operation of the parking brake control valve.',
+    options: {
+        a: 'The valve regulates main rotor hydraulic pressure and has no connection to the wheel brakes',
+        b: 'The valve is solenoid-operated and energizes automatically whenever the engines are shut down',
+        c: 'The parking brake handle operates a push-pull cable connected to the parking brake valve, which traps pedal-generated pressure via a shuttle valve with two check valves to keep the brake calipers engaged; a hydraulic accumulator in the valve compensates for fluid leaks and temperature-related pressure changes, and a position microswitch signals when the handle is pulled'
+    },
+    correct: 'c'
+},
+{
+    id: 4695,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What will cause a retracted landing gear to fall by its own weight?',
+    options: {
+        a: 'Loss of electrical power from ESS BUS 1, or the LDG GEAR CONTR circuit breaker tripping - this de-energizes the LGCV solenoids, relieving pressure from the LG actuators',
+        b: 'Selecting the EMER DOWN pushbutton while the landing gear is already down and locked',
+        c: 'A normal landing gear retraction cycle completing successfully'
+    },
+    correct: 'a'
+},
+{
+    id: 4696,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What in-flight indications are there of an unlocked nose landing gear?',
+    options: {
+        a: 'The amber NOSE light remains illuminated on the LGCP (instead of going green), since the position microswitch signals the unlocked condition and the green triangular NOSE light will not illuminate until the lock is confirmed engaged',
+        b: 'The PARK BRK PRESS caution illuminates to indicate an unlocked nose gear',
+        c: 'No indication is given in flight; it can only be confirmed visually after landing'
+    },
+    correct: 'a'
+},
+{
+    id: 4697,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'The landing gear will not retract in flight, what could the problem be?',
+    options: {
+        a: 'The ELEC PUMP pushbutton has not been pressed for 2 minutes beforehand',
+        b: 'The nose landing gear centerlock may not be locked (green LOCK not illuminated on the NOSE WHEEL CENTERLOCK pushbutton) - the retraction sequence (Phase 1, MLG Shortening) will not start until the NLG is confirmed locked in the center position',
+        c: 'The parking brake handle has not been pulled'
+    },
+    correct: 'b'
+},
+{
+    id: 4698,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Explain the operation of the emergency extension system.',
+    options: {
+        a: 'It is a fully automatic system that engages whenever the LANDING GEAR caution sounds, with no pilot action required',
+        b: 'Lifting the guard and pressing the EMER DOWN pushbutton energizes the emergency valve solenoid, delivering System 1 pressure to elongate the MLG shortening actuators and extend the NLG retraction actuator (Phase 1), independent of the LGCL position; once the actuators are fully down, pressure restores and the sequence valve opens to elongate the MLG shortening actuators (Phase 2 transitioning), and when all legs are down and locked the three green lights illuminate (Phase 2 end)',
+        c: 'It uses the auxiliary electrical pump exclusively, with no involvement from the main hydraulic systems'
+    },
+    correct: 'b'
 }
 
     ];
