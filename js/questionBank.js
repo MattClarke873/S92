@@ -37564,7 +37564,7 @@ export const questions = [
     id: 4344,
     Aircraft: 'AW139',
     Category: '25',
-    question: "What do the 'ALL STOP' limit switches do, and at what point?",
+    question: "What do the hoist 'ALL STOP' limit switches do, and at what point?",
     options: {
         a: 'They stop the motor only when the hook reaches full extension',
         b: 'They disable the hoist entirely if overloaded',
@@ -38700,7 +38700,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 4209,
     Aircraft: 'AW139',
     Category: '24',
@@ -38711,7 +38711,7 @@ export const questions = [
         c: 'The Main Bus 1 to Essential Bus 1'
     },
     correct: 'c'
-},
+}, */
 {
     id: 4210,
     Aircraft: 'AW139',
@@ -39148,7 +39148,7 @@ export const questions = [
     id: 4246,
     Aircraft: 'AW139',
     Category: '24',
-    question: 'With both generators online, is the BUS TIE contactor open or closed, and why?',
+    question: 'With both generators online and the bus time switch in auto, is the BUS TIE contactor open or closed, and why?',
     options: {
         a: 'It cycles open and closed every few seconds',
         b: 'Open, because each generator separately powers its own bus bars without needing to be tied',
@@ -40840,7 +40840,7 @@ export const questions = [
     id: 4481,
     Aircraft: 'AW139',
     Category: '29',
-    question: 'What happens when a demand is made on the system (pressure drop due to flight controls or utilities operation)?',
+    question: 'What happens when a demand is made on the hydraulic system (pressure drop due to flight controls or utilities operation)?',
     options: {
         a: 'The pump adjusts itself to provide oil flow to restore the nominal pressure',
         b: 'The electrical pump engages to assist',
@@ -41724,7 +41724,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 4555,
     Aircraft: 'AW139',
     Category: '29',
@@ -41735,7 +41735,7 @@ export const questions = [
         c: '3.2 l/min'
     },
     correct: 'c'
-},
+}, */
 {
     id: 4556,
     Aircraft: 'AW139',
@@ -41868,7 +41868,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 4567,
     Aircraft: 'AW139',
     Category: '29',
@@ -41879,8 +41879,8 @@ export const questions = [
         c: '1500 hrs/2 years'
     },
     correct: 'b'
-},
-{
+}, */
+/* {
     id: 4568,
     Aircraft: 'AW139',
     Category: '29',
@@ -41891,7 +41891,7 @@ export const questions = [
         c: '1500 hrs/2 years'
     },
     correct: 'c'
-},
+}, */
 /* {
     id: 4569,
     Aircraft: 'AW139',
@@ -42552,7 +42552,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 4624,
     Aircraft: 'AW139',
     Category: '32',
@@ -42563,7 +42563,7 @@ export const questions = [
         c: 'It has been superseded, and is left in only as reference'
     },
     correct: 'c'
-},
+}, */
 {
     id: 4625,
     Aircraft: 'AW139',
@@ -43296,7 +43296,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 4686,
     Aircraft: 'AW139',
     Category: '32',
@@ -43307,7 +43307,7 @@ export const questions = [
         c: '600 hrs'
     },
     correct: 'a'
-},
+}, */
 {
     id: 4687,
     Aircraft: 'AW139',
