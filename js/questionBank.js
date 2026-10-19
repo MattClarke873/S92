@@ -38490,9 +38490,9 @@ export const questions = [
     Category: '24',
     question: 'What is indicated in the cockpit if the external power plug remains connected to the helicopter receptacle after the EXT PWR switch is set to OFF?',
     options: {
-        a: 'The engines are automatically prevented from starting',
-        b: 'An advisory legend is displayed',
-        c: 'Nothing is indicated; this is a normal condition'
+        a: 'Nothing is indicated, as the system ignores the external power source',
+        b: 'A Green advisory legend is displayed',
+        c: 'A White advisory legend is displayed'
     },
     correct: 'b'
 },
