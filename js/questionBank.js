@@ -36751,7 +36751,7 @@ export const questions = [
     question: 'How is an emergency exit window jettisoned from inside the helicopter?',
     options: {
         a: 'Applying hand pressure is enough to jettison the window',
-        b: 'A specific tool is required to unbolt the frame',
+        b: 'Jettison Handle must be pulled, which releases the window and allows it to be pushed out',
         c: 'A pyrotechnic charge must be fired'
     },
     correct: 'a'
@@ -42984,7 +42984,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 4660,
     Aircraft: 'AW139',
     Category: '32',
@@ -42995,7 +42995,7 @@ export const questions = [
         c: '27 N'
     },
     correct: 'a'
-},
+}, */
 {
     id: 4661,
     Aircraft: 'AW139',
@@ -43308,7 +43308,7 @@ export const questions = [
     },
     correct: 'a'
 }, */
-{
+/* {
     id: 4687,
     Aircraft: 'AW139',
     Category: '32',
@@ -43319,7 +43319,7 @@ export const questions = [
         c: '300 hrs/1 year'
     },
     correct: 'b'
-},
+}, */
 {
     id: 4688,
     Aircraft: 'AW139',
