@@ -42180,7 +42180,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 4593,
     Aircraft: 'AW139',
     Category: '32',
@@ -42191,7 +42191,7 @@ export const questions = [
         c: 'Goodrich (the more commonly fitted system)'
     },
     correct: 'a'
-},
+}, */
 {
     id: 4594,
     Aircraft: 'AW139',
@@ -43451,6 +43451,522 @@ export const questions = [
         c: 'It uses the auxiliary electrical pump exclusively, with no involvement from the main hydraulic systems'
     },
     correct: 'b'
+},
+/* {
+    id: 4699,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the maximum backpressure permitted at the RETURN port when connecting hydraulic ground equipment?',
+    options: {
+        a: '7 bar (100 psi)',
+        b: '163 bar',
+        c: '50 bar (725 psi)'
+    },
+    correct: 'a'
+},
+{
+    id: 4700,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "Why must hydraulic supply lines connected to the helicopter's hydraulic ports be kept as short as possible during ground equipment operation?",
+    options: {
+        a: 'To prevent unwanted backpressure exceeding 7 bar at the RETURN port',
+        b: 'To comply with noise abatement rules',
+        c: 'To reduce the weight of the test stand'
+    },
+    correct: 'a'
+}, */
+{
+    id: 4701,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What can excessive backpressure at the RETURN port cause?',
+    options: {
+        a: 'The parking brake to release automatically',
+        b: 'A rotor track and balance fault',
+        c: 'Too much fluid (overfill) in PCM1/PCM2, or EMERGENCY operation mode of the LGCV'
+    },
+    correct: 'c'
+},
+/* {
+    id: 4702,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'During ground hydraulic procedures, what is the maximum time allowed for system pressure to increase from 0 to 50 bar?',
+    options: {
+        a: '30 seconds',
+        b: '5 seconds',
+        c: '1 second'
+    },
+    correct: 'b'
+}, */
+/* {
+    id: 4703,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Why is the rate of hydraulic pressure increase limited to 5 seconds (0 to 50 bar)?',
+    options: {
+        a: 'To prevent the hydraulic pump from overheating',
+        b: 'To allow the pilot time to check instruments',
+        c: 'To prevent too much fluid (overfill) in the Number 1 and Number 2 Power Control Modules'
+    },
+    correct: 'c'
+}, */
+/* {
+    id: 4704,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the maximum permitted hydraulic fluid temperature in the landing gear hydraulic systems?',
+    options: {
+        a: '134°C (273°F)',
+        b: '70°C (158°F)',
+        c: '100°C (212°F)'
+    },
+    correct: 'b'
+}, */
+/*{
+     id: 4705,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What caution applies regarding the flight control servo-actuators during hydraulic ground procedures?',
+    options: {
+        a: 'Damage can occur if the servo-actuators do not move correctly or interfere with adjacent components and structure',
+        b: 'The actuators must never be moved while the aircraft is on jacks',
+        c: 'The actuators automatically lock if hydraulic pressure exceeds 300 bar'
+    },
+    correct: 'a'
+}, */
+{
+    id: 4706,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the correct torque procedure for the NLG/MLG wheel retention nut?',
+    options: {
+        a: 'Torque directly to the full reference value in one step',
+        b: 'Torque to a reference value while turning the wheel by hand, loosen to zero, then torque to half the reference value',
+        c: 'Torque to half the reference value only, with no further adjustment'
+    },
+    correct: 'b'
+},
+{
+    id: 4707,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Why is it permitted to increase the final wheel nut torque above the specified half-reference value?',
+    options: {
+        a: 'To prevent the wheel bearing from overheating',
+        b: 'To compensate for tyre pressure variations',
+        c: 'To align the nut with the axle holes'
+    },
+    correct: 'c'
+},
+/* {
+    id: 4708,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Which components require the wheel brake system to be bled after replacement?',
+    options: {
+        a: 'Reservoir, wheel brake assembly, parking brake valve, pressure switches, brake master cylinders',
+        b: 'Only the brake master cylinders',
+        c: 'Only the wheel brake assembly'
+    },
+    correct: 'a'
+}, */
+/* {
+    id: 4709,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Which components require the wheel brake reservoir to be drained before replacement?',
+    options: {
+        a: 'The reservoir itself and the pressure switches',
+        b: 'The brake master cylinders only',
+        c: 'The parking brake valve only'
+    },
+    correct: 'a'
+}, */
+/* {
+    id: 4710,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Which components require an operational check of the wheel brake system after replacement?',
+    options: {
+        a: 'Parking brake valve, pressure switches, brake assembly, master cylinders',
+        b: 'Only the wheel tyres',
+        c: 'Only the reservoir'
+    },
+    correct: 'a'
+}, */
+/* {
+    id: 4711,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "What is the parking brake pressure switch's decreasing pressure range?",
+    options: {
+        a: '35 thru 45 bar (510 thru 625 psi)',
+        b: '29 thru 35 bar (420 thru 510 psi)',
+        c: '163 thru 190 bar'
+    },
+    correct: 'b'
+}, */
+/* {
+    id: 4712,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "What is the parking brake pressure switch's increasing pressure range?",
+    options: {
+        a: '35 thru 45 bar (510 thru 625 psi)',
+        b: '190 thru 207 bar',
+        c: '29 thru 35 bar (420 thru 510 psi)'
+    },
+    correct: 'a'
+}, */
+{
+    id: 4713,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'For how long, and up to what slope angle, is parking with the parking brake permitted?',
+    options: {
+        a: 'Up to 20°, for a maximum of 30 minutes',
+        b: 'Up to 5°, indefinitely',
+        c: 'Up to 10°, for a maximum of 1 hour'
+    },
+    correct: 'c'
+},
+/* {
+    id: 4714,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "What is the hydraulic brake system reservoir's fluid capacity?",
+    options: {
+        a: '0.75 litres',
+        b: '0.140 litres (0.12 US quart)',
+        c: '1.78 litres'
+    },
+    correct: 'b'
+}, */
+/* {
+    id: 4715,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the approximate weight of the brake assembly?',
+    options: {
+        a: '12.8 kg (28.2 lb)',
+        b: '7.5 kg (16.5 lb)',
+        c: '4.9 kg (10.8 lb)'
+    },
+    correct: 'b'
+},
+{
+    id: 4716,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the approximate weight of the NLG center lock assembly?',
+    options: {
+        a: '4.3 kg (9.5 lb)',
+        b: '13.5 kg (29.8 lb)',
+        c: '1.0 kg (2.2 lb)'
+    },
+    correct: 'c'
+}, */
+/* {
+    id: 4717,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Which electrical supply powers the NLG center lock actuator?',
+    options: {
+        a: '28VDC MAIN BUS 1',
+        b: '28VDC Battery Bus',
+        c: '28VDC ESS BUS1'
+    },
+    correct: 'c'
+},
+{
+    id: 4718,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the approximate weight of the Landing Gear Control Valve?',
+    options: {
+        a: '4.3 kg (9.5 lb)',
+        b: '1.0 kg (2.2 lb)',
+        c: '3.4 kg (7.5 lb)'
+    },
+    correct: 'a'
+}, */
+/* {
+    id: 4719,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the approximate weight of the MLG extension/retraction actuator?',
+    options: {
+        a: '7.5 kg (16.5 lb)',
+        b: '3.4 kg (7.5 lb)',
+        c: '4.9 kg (10.8 lb)'
+    },
+    correct: 'b'
+},
+/* {
+    id: 4720,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Which is heavier - the NLG or the MLG extension/retraction actuator?',
+    options: {
+        a: 'The NLG actuator (4.9 kg), heavier than the MLG actuator (3.4 kg)',
+        b: 'The MLG actuator, heavier than the NLG actuator',
+        c: 'They are identical in weight'
+    },
+    correct: 'a'
+}, */
+/* {
+    id: 4721,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What does the wheel brake wear indicator pin pass through?',
+    options: {
+        a: 'The pressure plate only, with no disk contact',
+        b: 'The friction disk',
+        c: 'The brake housing wall'
+    },
+    correct: 'b'
+}, */
+{
+    id: 4722,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'As wheel brake wear increases, what happens to the visible length of the wear indicator pin?',
+    options: {
+        a: 'A longer length of the pin comes out of the housing',
+        b: 'A shorter length of the pin comes out of the housing',
+        c: 'The pin length remains constant; only its colour changes'
+    },
+    correct: 'b'
+},
+{
+    id: 4723,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'If the helicopter lifts off with the nose wheels not centred and locked, what happens automatically?',
+    options: {
+        a: 'The WOW microswitches provide electrical power to the centre lock actuator to engage the locking pin',
+        b: 'The anti-shimmy device disengages to allow free rotation',
+        c: 'The landing gear automatically re-extends and the flight is aborted'
+    },
+    correct: 'a'
+},
+{
+    id: 4724,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'On the manual centerlock actuator lever, what does the horizontal position indicate?',
+    options: {
+        a: 'The locking pin is disengaged',
+        b: 'The lever is in an intermediate, unsafe position',
+        c: 'The locking pin is engaged'
+    },
+    correct: 'c'
+},
+{
+    id: 4725,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'On the manual centerlock actuator lever, what does the vertical position indicate?',
+    options: {
+        a: 'The locking pin is disengaged',
+        b: 'The lever has failed and must be replaced',
+        c: 'The locking pin is engaged'
+    },
+    correct: 'a'
+},
+{
+    id: 4726,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What is the ground locking pin (inserted between the centerlock lever and assembly body) used for?',
+    options: {
+        a: 'To lock the main landing gear during jacking',
+        b: 'To safely secure the lever in the disengaged position for towing',
+        c: 'To secure the parking brake handle'
+    },
+    correct: 'b'
+},
+/* {
+    id: 4727,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "Where are the nose landing gear's grease nipples located?",
+    options: {
+        a: 'Inside the bleeder plug',
+        b: 'Providing lubrication between the bush and collar at the nose gear collar',
+        c: 'On the torque link upper attachment only'
+    },
+    correct: 'b'
+}, */
+/* {
+    id: 4728,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "Where are the main landing gear's grease nipples located?",
+    options: {
+        a: 'At the trailing arm pivot point (outboard and inboard)',
+        b: 'Inside the wheel hub bearing cap',
+        c: 'On the shock absorber separator piston'
+    },
+    correct: 'a'
+}, */
+{
+    id: 4729,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What must be recalculated if the NLG is replaced?',
+    options: {
+        a: 'Nitrogen charge pressure only',
+        b: 'Shim thickness',
+        c: 'Tyre inflation pressure'
+    },
+    correct: 'b'
+},
+/* {
+    id: 4730,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'How is the nut securing the upper and lower torque links tightened?',
+    options: {
+        a: 'To a specific torque value using a calibrated torque wrench',
+        b: 'It is safety-wired instead of torqued',
+        c: 'By hand'
+    },
+    correct: 'c'
+},
+{
+    id: 4731,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What should be recorded before removing landing gear actuators?',
+    options: {
+        a: 'The location of the electrical cable tie-down straps and the routing of the electrical cables in the landing gear bay',
+        b: 'The last recorded brake wear indicator reading',
+        c: 'The tyre serial numbers'
+    },
+    correct: 'a'
+}, */
+/* {
+    id: 4732,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What alignment requirement applies when installing the shock absorber and shortening actuator?',
+    options: {
+        a: 'They must be installed at a fixed 45° offset',
+        b: 'No alignment is required; they self-align under hydraulic pressure',
+        c: 'They must be aligned with each other'
+    },
+    correct: 'c'
+}, */
+/* {
+    id: 4733,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What must be done to the helicopter before removing the NLG and MLG actuators?',
+    options: {
+        a: 'It must be lifted on jacks',
+        b: 'The main rotor blades must be removed',
+        c: 'It must be fully defueled'
+    },
+    correct: 'a'
+}, */
+{
+    id: 4734,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'After replacing which four components must a bleed and operational check of the landing gear system be carried out?',
+    options: {
+        a: 'Only the brake assembly and reservoir',
+        b: 'Only the wheels and tyres',
+        c: 'Landing gear control valve, Manifold, NLG/MLG extension-retraction actuator, MLG shortening actuator'
+    },
+    correct: 'c'
+},
+{
+    id: 4735,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Where is the MLG P/R actuator EXTENDED microswitch located, and what operates it?',
+    options: {
+        a: 'Located on the trunnion assembly, operated by the shock absorber when the P/R actuator is fully extended',
+        b: 'Located internally in the actuator, operated by an internal device',
+        c: 'Located externally, operated by a travel stop on the trunnion'
+    },
+    correct: 'a'
+},
+{
+    id: 4736,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Where is the MLG P/R actuator RETRACTED microswitch located, and what operates it?',
+    options: {
+        a: 'Located on the trunnion assembly, operated by the shock absorber',
+        b: 'Located internally, operated by an internal device',
+        c: 'Located externally of the actuator, operated by a travel stop on the trunnion'
+    },
+    correct: 'c'
+},
+{
+    id: 4737,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'Where is the MLG P/R actuator LOCKED microswitch located, and what operates it?',
+    options: {
+        a: 'Located externally, operated by a travel stop',
+        b: 'Located internally in the actuator, operated by an internal device when fully retracted',
+        c: 'Located on the trunnion assembly, operated by the shock absorber'
+    },
+    correct: 'b'
+},
+{
+    id: 4738,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "Where are the NLG and MLG 'retracted' microswitches located, and when are they operated?",
+    options: {
+        a: 'On the structure, operated when the landing gear is fully stowed in the aircraft bays following UP selection',
+        b: 'On the R/A actuator cylinder end, operated following DOWN selection',
+        c: 'Inside the shortening actuator, operated at any gear position'
+    },
+    correct: 'a'
+},
+{
+    id: 4739,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: "Where are the NLG and MLG R/A actuator 'extended and locked' microswitches located?",
+    options: {
+        a: 'On the structure of the landing gear bay',
+        b: 'Inside the trunnion only',
+        c: 'On the bottom cylinder end of each R/A actuator'
+    },
+    correct: 'c'
+},
+{
+    id: 4749,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'During landing gear operation, does the shortening (partial retraction) actuator increase or decrease its length during retraction, versus during extension?',
+    options: {
+        a: 'Its length remains constant; only its internal pressure changes',
+        b: 'It decreases its length for retraction, and increases its length for extension',
+        c: 'It increases its length for retraction, and decreases its length for extension'
+    },
+    correct: 'c'
+},
+{
+    id: 4750,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'What would a blinking amber UNLK light on the Landing Gear Control Panel indicate?',
+    options: {
+        a: 'The parking brake has been released while the aircraft is still in motion',
+        b: 'The nose wheel centerlock is fully locked and confirmed engaged',
+        c: 'The nose wheel centerlock has been commanded to LOCK but the locking pin has not yet reached its final locked position (e.g. due to misalignment)'
+    },
+    correct: 'c'
 }
 
     ];
