@@ -239,13 +239,17 @@ document.addEventListener('DOMContentLoaded', function () {
         return selectedCategories;
     }
 
-    // Function to filter questions based on selected categories and aircraft type, and then select a random set
+    // Function to filter questions based on selected categories and aircraft type, and then select a random set.
+    // Pages with no category checkboxes at all (e.g. a "whole database" exam
+    // page) skip category filtering entirely and match every category.
     function applyFilters() {
         const selectedCount = parseInt(questionCountSelect.value, 10);
         const selectedCategories = getSelectedCategories();
+        const hasCategoryFilter = categoryCheckboxes.length > 0;
 
         filteredQuestions = questionBank.filter((question) => {
-            return question.Aircraft === aircraftType && selectedCategories.includes(question.Category);
+            if (question.Aircraft !== aircraftType) return false;
+            return hasCategoryFilter ? selectedCategories.includes(question.Category) : true;
         });
 
         filteredQuestions = filteredQuestions.sort(() => Math.random() - 0.5);
@@ -261,12 +265,15 @@ document.addEventListener('DOMContentLoaded', function () {
         resultContainer.style.display = 'none'; // Hide result container when generating quiz
     });
 
-    selectAllCheckbox.addEventListener('change', function () {
-        // Check or uncheck all category checkboxes based on the select all checkbox
-        categoryCheckboxes.forEach((checkbox) => {
-            checkbox.checked = selectAllCheckbox.checked;
+    // Pages with no category checkboxes (e.g. a "whole database" exam page) don't have this control either.
+    if (selectAllCheckbox) {
+        selectAllCheckbox.addEventListener('change', function () {
+            // Check or uncheck all category checkboxes based on the select all checkbox
+            categoryCheckboxes.forEach((checkbox) => {
+                checkbox.checked = selectAllCheckbox.checked;
+            });
         });
-    });
+    }
 
     questionCountSelect.addEventListener('change', function () {
         // Update the number of displayed questions when the question count is changed

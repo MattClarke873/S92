@@ -39555,7 +39555,7 @@ export const questions = [
 {
     id: 4368,
     Aircraft: 'AW139',
-    Category: '00',
+    Category: '04-12,20',
     question: 'What does DMC stand for, and where would you find an explanation of its meaning?',
     options: {
         a: 'Diagnostic Maintenance Code; found in the AFIP (Aircraft Fault Isolation Publication)',
@@ -39567,7 +39567,7 @@ export const questions = [
 {
     id: 4369,
     Aircraft: 'AW139',
-    Category: '00',
+    Category: '04-12,20',
     question: 'What does AECMA stand for?',
     options: {
         a: 'Aerospace European Certification and Maintenance Agency',
@@ -39579,7 +39579,7 @@ export const questions = [
 {
     id: 4370,
     Aircraft: 'AW139',
-    Category: '00',
+    Category: '04-12,20',
     question: 'A data module has the reference 39-B-31-61-11-00A-13AA-A. What does each part of the code represent?',
     options: {
         a: '39 = Model Identification Code; B = Serial number applicability block; 31 = Information Code; 61-11 = Disassembly Code; 00A = Item Location Code; 13AA = Configuration code; A = ATA Chapter Code',
@@ -39603,7 +39603,7 @@ export const questions = [
 {
     id: 4372,
     Aircraft: 'AW139',
-    Category: '00',
+    Category: '04-12,20',
     question: 'Where would you find the complete collection of Service Bulletins (formerly Bollettino Tecnico)?',
     options: {
         a: 'Within the IETP, under the AMP chapter for the affected system',
@@ -39615,7 +39615,7 @@ export const questions = [
 {
     id: 4373,
     Aircraft: 'AW139',
-    Category: '00',
+    Category: '04-12,20',
     question: 'Aircraft limitations are contained within which manual?',
     options: {
         a: 'The AMPI (Aircraft Maintenance Planning Information)',
@@ -39627,7 +39627,7 @@ export const questions = [
 {
     id: 4374,
     Aircraft: 'AW139',
-    Category: '00',
+    Category: '04-12,20',
     question: 'Where would you find the wiring diagrams for aircraft serial no. 31412?',
     options: {
         a: 'AWDP Volume 3 (covers S/N 31400 and subsequent - Enhanced and Enhanced Plus)',
@@ -39639,7 +39639,7 @@ export const questions = [
 {
     id: 4375,
     Aircraft: 'AW139',
-    Category: '00',
+    Category: '04-12,20',
     question: 'Which applicability code applies to aircraft serial no. 31725?',
     options: {
         a: '1L (Long Nose family - this serial falls within the Enhanced Plus range, S/N 31701 and subsequent)',
@@ -39651,7 +39651,7 @@ export const questions = [
 {
     id: 4376,
     Aircraft: 'AW139',
-    Category: '00',
+    Category: '04-12,20',
     question: 'You have been seconded to Part M, and need to create a new maintenance programme for a new AW139. Where would you start?',
     options: {
         a: 'With the AFIP (Aircraft Fault Isolation Publication)',
@@ -39663,7 +39663,7 @@ export const questions = [
 {
     id: 4377,
     Aircraft: 'AW139',
-    Category: '00',
+    Category: '04-12,20',
     question: 'Which type of Service Bulletin (Bollettino Tecnico) must always be carried out?',
     options: {
         a: 'Recommended Service Bulletins',
@@ -39675,7 +39675,7 @@ export const questions = [
 {
     id: 4378,
     Aircraft: 'AW139',
-    Category: '06',
+    Category: '04-12,20',
     question: 'What are the reference lines used on the AW139, and what does each one measure?',
     options: {
         a: 'BL (Buttock Line) - left/right distance from the aircraft centreline; WL (Water Line) - vertical height from a datum; STA (Station Line) - fore/aft distance from the nose reference',
@@ -39687,7 +39687,7 @@ export const questions = [
 {
     id: 4379,
     Aircraft: 'AW139',
-    Category: '08',
+    Category: '04-12,20',
     question: 'Describe how you would weigh an AW139.',
     options: {
         a: 'Level the helicopter on 4 jacks, then read each load cell (weighing cell) and use the dedicated weighing charts in RFM Section 6 to calculate weight and centre of gravity',
@@ -39699,7 +39699,7 @@ export const questions = [
 {
     id: 4380,
     Aircraft: 'AW139',
-    Category: '09',
+    Category: '04-12,20',
     question: 'How many personnel are required to tow the aircraft, and what are their roles?',
     options: {
         a: 'Only one - the towing vehicle operator, working alone',
@@ -39711,7 +39711,7 @@ export const questions = [
 {
     id: 4381,
     Aircraft: 'AW139',
-    Category: '10',
+    Category: '04-12,20',
     question: 'When must the helicopter be moored, rather than simply parked?',
     options: {
         a: 'When the wind speed is 39 m/s (75 kts) or more',
@@ -39723,7 +39723,7 @@ export const questions = [
 {
     id: 4382,
     Aircraft: 'AW139',
-    Category: '10',
+    Category: '04-12,20',
     question: 'What is the procedure to be followed when parking the helicopter?',
     options: {
         a: 'Set the parking brake ON, set the rotor brake ON, engage the nose centre lock, fit main wheel chocks in front and behind each wheel, centre the cyclic stick, lower the collective stick fully, and install the pitot and engine exhaust nozzle covers once cool',
@@ -39747,7 +39747,7 @@ export const questions = [
 {
     id: 4384,
     Aircraft: 'AW139',
-    Category: '51_53_55',
+    Category: '53',
     question: 'Describe the different parts of the fuselage.',
     options: {
         a: 'Forward fuselage (engine and transmission deck); Centre fuselage (cockpit only); Aft fuselage (fuel tanks and landing gear); Tail section (baggage compartment)',
@@ -39759,7 +39759,7 @@ export const questions = [
 {
     id: 4385,
     Aircraft: 'AW139',
-    Category: '51_53_55',
+    Category: '53',
     question: 'What material are the longerons, formers and bulkheads of the AW139 fuselage made of?',
     options: {
         a: 'Carbon fibre composite',
@@ -39771,7 +39771,7 @@ export const questions = [
 {
     id: 4386,
     Aircraft: 'AW139',
-    Category: '51_53_55',
+    Category: '53',
     question: 'What material are the lateral (side) skin panels of the fuselage made of?',
     options: {
         a: 'Aluminium honeycomb panels',
@@ -39783,7 +39783,7 @@ export const questions = [
 {
     id: 4387,
     Aircraft: 'AW139',
-    Category: '51_53_55',
+    Category: '53',
     question: 'What material is the upper deck of the fuselage made of?',
     options: {
         a: 'Carbon fibre',
@@ -39795,7 +39795,7 @@ export const questions = [
 {
     id: 4388,
     Aircraft: 'AW139',
-    Category: '51_53_55',
+    Category: '53',
     question: 'What is the cockpit structure made of, and how is it attached to the metallic structure?',
     options: {
         a: 'Fibreglass only, riveted to an aluminium honeycomb core',
@@ -39807,7 +39807,7 @@ export const questions = [
 {
     id: 4389,
     Aircraft: 'AW139',
-    Category: '51_53_55',
+    Category: '53',
     question: 'What type of construction is used for the forward fuselage section, and from what materials?',
     options: {
         a: 'Composite monocoque construction, made entirely of carbon fibre',
@@ -39819,7 +39819,7 @@ export const questions = [
 {
     id: 4390,
     Aircraft: 'AW139',
-    Category: '51_53_55',
+    Category: '53',
     question: 'What type of construction is the centre fuselage, and what material are its upper deck fairings made of?',
     options: {
         a: 'Composite semi-monocoque construction; upper deck fairings made of titanium',
@@ -39831,7 +39831,7 @@ export const questions = [
 {
     id: 4391,
     Aircraft: 'AW139',
-    Category: '51_53_55',
+    Category: '53',
     question: 'What type of construction is the rear (aft) fuselage, and what materials are used in the engine compartment area?',
     options: {
         a: 'Metallic semi-monocoque construction (sheet, beams, frames, sandwich panels); the engine compartment area uses titanium and aluminium alloy',
@@ -39843,7 +39843,7 @@ export const questions = [
 {
     id: 4392,
     Aircraft: 'AW139',
-    Category: '51_53_55',
+    Category: '53',
     question: 'What type of construction is the tail section, and what materials is it made from?',
     options: {
         a: 'Metallic semi-monocoque construction, made with sheet, beams and frames',
