@@ -44447,6 +44447,1974 @@ export const questions = [
         c: 'AMP CH51'
     },
     correct: 'c'
+},
+{
+    id: 4791,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How many blades does the AW139 main rotor have, and what type of rotor system is it?',
+    options: {
+        a: 'Five blades, rigid (hingeless)',
+        b: 'Five blades, fully articulated',
+        c: 'Four blades, semi-rigid'
+    },
+    correct: 'b'
+},
+{
+    id: 4792,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What does the flapping hinge allow, and what does it compensate for?',
+    options: {
+        a: 'Allows the blade to move up or down, compensating for dissymmetry of lift',
+        b: 'Allows fore/aft movement, compensating for Coriolis effect',
+        c: 'Allows pitch change, controlling thrust direction'
+    },
+    correct: 'a'
+},
+{
+    id: 4793,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What does the lead/lag (drag) hinge allow, and what is used to prevent excessive movement?',
+    options: {
+        a: 'Allows pitch change; the swashplate prevents excessive movement',
+        b: 'Allows the blade to flap up/down; elastomeric bearings prevent excessive movement',
+        c: 'Allows the blade to move back and forth; dampers prevent excessive movement'
+    },
+    correct: 'c'
+},
+{
+    id: 4794,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What causes the acceleration/deceleration that the lead/lag dampers compensate for?',
+    options: {
+        a: "The Coriolis effect, as the blade's centre of gravity moves closer to or further from the axis of rotation",
+        b: 'Aerodynamic drag from the fuselage',
+        c: 'Gyroscopic precession from the tail rotor'
+    },
+    correct: 'a'
+},
+{
+    id: 4795,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What does the feathering hinge control?',
+    options: {
+        a: 'The vertical flapping range of the blade',
+        b: 'The angle of attack (pitch) of the blade, controlling thrust and direction of the rotor disc',
+        c: 'The lead/lag oscillation of the blade'
+    },
+    correct: 'b'
+},
+{
+    id: 4796,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Strictly speaking, what type of hub does the AW139 have, and what component allows blade bending/flexing without conventional hinges/bearings?',
+    options: {
+        a: 'A flexible hub, using elastomeric bearings (also called flexures)',
+        b: 'A semi-rigid hub, using underslung flapping hinges',
+        c: 'A rigid hub, using teetering hinges'
+    },
+    correct: 'a'
+},
+{
+    id: 4797,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What material are the main rotor blades made of?',
+    options: {
+        a: 'Solid aluminium alloy',
+        b: 'Composite material',
+        c: 'Forged titanium'
+    },
+    correct: 'b'
+},
+{
+    id: 4798,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What protects the leading edge of the blade from erosion?',
+    options: {
+        a: 'A nickel erosion shield',
+        b: 'A Teflon coating',
+        c: 'A stainless-steel erosion shield'
+    },
+    correct: 'c'
+},
+{
+    id: 4799,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is the function of the fairings at the leading and trailing edge of the blade root?',
+    options: {
+        a: 'Lightning protection',
+        b: 'Aerodynamic fairing of the blade root',
+        c: 'Dynamic balance adjustment'
+    },
+    correct: 'b'
+},
+{
+    id: 4800,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How are the main rotor blades balanced at the final manufacturing stage, and why?',
+    options: {
+        a: 'Not balanced at all; balancing is only done in service',
+        b: 'Dynamically balanced, to match a specific helicopter only',
+        c: 'Statically balanced, to achieve individual interchangeability'
+    },
+    correct: 'c'
+},
+{
+    id: 4801,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What cross-sectional shape is the blade spar, and what material is it made from?',
+    options: {
+        a: "A 'D' shaped cross section, made from fibreglass tapes forming an anti-torsional box",
+        b: 'An I-beam section, made from titanium',
+        c: 'A hollow circular tube, made from carbon fibre'
+    },
+    correct: 'a'
+},
+{
+    id: 4802,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What two components does the spar carry?',
+    options: {
+        a: 'The steel erosion shield and the optional heater mat (IPS)',
+        b: 'The nickel tip shield and the lightning conductor strip',
+        c: 'The tension link and the pitch control lever'
+    },
+    correct: 'a'
+},
+{
+    id: 4803,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "What material are the blade's upper and lower skins made from, and what do they cover?",
+    options: {
+        a: 'Aluminium honeycomb, covering a foam core',
+        b: 'Fibreglass tape, covering a solid wood core',
+        c: 'Multilayered graphite tape, covering an internal honeycomb shape'
+    },
+    correct: 'c'
+},
+{
+    id: 4804,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How are the blade skins joined to the spar?',
+    options: {
+        a: 'Bonded, to form the blade body',
+        b: 'Riveted, with an adhesive sealant',
+        c: 'Bolted, using blind fasteners'
+    },
+    correct: 'a'
+},
+{
+    id: 4805,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is the blade tip composed of, and what protects its leading edge?',
+    options: {
+        a: 'Carbon fibre, protected by a stainless-steel shield',
+        b: 'Solid titanium, with no erosion shield',
+        c: 'Skins of glassfibre over internal honeycomb, with a nickel erosion shield on the leading edge'
+    },
+    correct: 'c'
+},
+{
+    id: 4806,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What plastic material plate is installed on each side of the blade root?',
+    options: {
+        a: 'PTFE (Teflon)',
+        b: 'Nylon-6',
+        c: 'Nylatron'
+    },
+    correct: 'c'
+},
+{
+    id: 4807,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What are the two tabs on the blades used for?',
+    options: {
+        a: 'Lightning conductor attachment',
+        b: 'Dynamic balance',
+        c: 'Static balance only'
+    },
+    correct: 'b'
+},
+{
+    id: 4808,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is housed inside the hollow installation bolts of the main rotor blades?',
+    options: {
+        a: 'Hydraulic damper fluid',
+        b: 'Dynamic balancing weights',
+        c: 'The lightning conductor jumper'
+    },
+    correct: 'b'
+},
+{
+    id: 4809,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What external coating is applied to the blade installation bolts?',
+    options: {
+        a: 'Chromate conversion coating only',
+        b: 'Cadmium plating only',
+        c: 'A solid lubricant film'
+    },
+    correct: 'c'
+},
+{
+    id: 4810,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Where are the static (mass-balance) weights installed on the blade?',
+    options: {
+        a: 'Only inside the hollow attachment bolts',
+        b: 'Only at the blade tip, bonded externally',
+        c: 'At two positions at the blade root (leading and trailing edge fairings) and in a pocket near the blade tip'
+    },
+    correct: 'c'
+},
+{
+    id: 4811,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How are the mass-balance weights at the blade root attached?',
+    options: {
+        a: 'By adhesive bonding only, with no bolts',
+        b: 'By four bolts - two for the leading-edge weights and two for the trailing-edge weights',
+        c: 'By a single central bolt'
+    },
+    correct: 'b'
+},
+{
+    id: 4812,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How many hardened fibreglass blade attachment bushes does each blade incorporate?',
+    options: {
+        a: 'One',
+        b: 'Four',
+        c: 'Two'
+    },
+    correct: 'c'
+},
+{
+    id: 4813,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is the maximum balance weight permitted for each hollow blade attachment bolt?',
+    options: {
+        a: '1.0 kg (2.2 lb)',
+        b: '0.1 kg (0.22 lb)',
+        c: '0.4 kg (0.88 lb)'
+    },
+    correct: 'c'
+},
+{
+    id: 4814,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How are the balance weights held in place inside the hollow blade bolts?',
+    options: {
+        a: 'Locking wire',
+        b: 'A threaded retaining cap only',
+        c: 'Epoxy adhesive'
+    },
+    correct: 'a'
+},
+{
+    id: 4815,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What material is the lightning conductor strip bonded to the top surface of each blade root made from?',
+    options: {
+        a: 'Copper',
+        b: 'Stainless steel',
+        c: 'Aluminium alloy'
+    },
+    correct: 'c'
+},
+{
+    id: 4816,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What does the inboard end of the lightning conductor strip contact, with the blade installed?',
+    options: {
+        a: 'The tension link',
+        b: 'The pitch control lever',
+        c: 'The lag damper'
+    },
+    correct: 'b'
+},
+{
+    id: 4817,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is the function of the bonding contactor installed on the pitch control lever?',
+    options: {
+        a: 'It locks the blade in position during installation',
+        b: 'It measures blade track in real time',
+        c: 'It allows the blade to make electrical contact with the pitch control lever'
+    },
+    correct: 'c'
+},
+{
+    id: 4818,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "What commonly causes the bonding contactor's continuity test to fail?",
+    options: {
+        a: 'The prongs of the contactor becoming dirty, reducing conduction',
+        b: 'A damaged lightning conductor jumper',
+        c: 'A cracked erosion shield'
+    },
+    correct: 'a'
+},
+{
+    id: 4819,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What must be set to ON when removing or installing a main rotor blade?',
+    options: {
+        a: 'The parking brake',
+        b: 'The ELEC PUMP switch',
+        c: 'The rotor brake'
+    },
+    correct: 'c'
+},
+{
+    id: 4820,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'When removing a main rotor blade, what must be avoided to prevent damage?',
+    options: {
+        a: 'Lifting the blade above its horizontal plane',
+        b: 'Removing the blade bolts before the sling is attached',
+        c: 'Rotating the blade more than 10° during removal'
+    },
+    correct: 'a'
+},
+{
+    id: 4821,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How must the blade bolt be handled during removal/installation, and why?',
+    options: {
+        a: 'With bare hands only, to check for correct torque feel',
+        b: 'With insulated gloves, to prevent electrical bonding discharge',
+        c: 'With a cheesecloth, to avoid damaging the external solid lubricant film layer'
+    },
+    correct: 'c'
+},
+{
+    id: 4822,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What two checks are required after main rotor blade installation?',
+    options: {
+        a: 'A torque check and a fuel flow check',
+        b: 'A continuity check and a blade track check',
+        c: 'A weight and balance check and an oil pressure check'
+    },
+    correct: 'b'
+},
+{
+    id: 4823,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What two things does the main rotor head transmit?',
+    options: {
+        a: 'Only aerodynamic loads; drive is transmitted directly by the mast',
+        b: 'Only drive torque; loads are absorbed entirely by the fuselage',
+        c: 'Drive from the main gearbox to the blades, and aerodynamic/centrifugal loads from the blades to the drive shaft'
+    },
+    correct: 'c'
+},
+{
+    id: 4824,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Where is an elastomeric bearing installed in the main rotor head assembly?',
+    options: {
+        a: 'Only in the swashplate duplex bearing',
+        b: 'In each of the five tension links',
+        c: 'Only in the hub centre bore'
+    },
+    correct: 'b'
+},
+{
+    id: 4825,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What material is the main rotor hub made from, and how is it manufactured?',
+    options: {
+        a: 'A one-piece forged titanium unit, machined to final form',
+        b: 'A two-piece bolted aluminium alloy casting',
+        c: 'A composite laminate moulding'
+    },
+    correct: 'a'
+},
+{
+    id: 4826,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How does the hub centre couple with the drive mast, and are master splines provided?',
+    options: {
+        a: 'Via splines, with no master splines provided',
+        b: 'Via a single keyway and key',
+        c: 'Via a bolted flange with no splines'
+    },
+    correct: 'a'
+},
+{
+    id: 4827,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What reinforcement is wound on the outer circumference of the hub?',
+    options: {
+        a: 'A titanium banding strip',
+        b: 'A Kevlar wrap',
+        c: 'A graphite reinforcement'
+    },
+    correct: 'c'
+},
+{
+    id: 4828,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is attached to the outer circumference of the hub, besides the elastomeric bearings?',
+    options: {
+        a: 'The swashplate duplex bearing',
+        b: 'One end of each of the five blade hydraulic dampers',
+        c: 'The NR speed probe'
+    },
+    correct: 'b'
+},
+{
+    id: 4829,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What material is the top conical ring made from, and what is its internal/external surface shape?',
+    options: {
+        a: 'Stainless steel alloy; cylindrical internal surface, conical external surface',
+        b: 'Titanium alloy; conical internal, cylindrical external',
+        c: 'Aluminium alloy; both surfaces cylindrical'
+    },
+    correct: 'a'
+},
+{
+    id: 4830,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What does the top conical ring attach the hub to?',
+    options: {
+        a: 'The top end of the mast',
+        b: 'The swashplate assembly',
+        c: 'The bottom of the hub only'
+    },
+    correct: 'a'
+},
+{
+    id: 4831,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "How many lugs does the top conical ring's flange have, and what are they used for?",
+    options: {
+        a: 'Four, each with a threaded hole for an extractor',
+        b: 'Two, for lifting only',
+        c: 'Six, for the scissors attachment'
+    },
+    correct: 'a'
+},
+{
+    id: 4832,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "How is the ring nut's torque applied, and does it directly load the top conical ring?",
+    options: {
+        a: 'By hydraulic tensioning tool, directly loading the ring',
+        b: 'By hand only, and it does not directly load the top conical ring',
+        c: 'By torque wrench to a high value, directly loading the ring'
+    },
+    correct: 'b'
+},
+{
+    id: 4833,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How many bolts screw through the ring nut to load the pressure plate onto the top conical ring?',
+    options: {
+        a: 'Eight',
+        b: 'Four',
+        c: 'Twelve'
+    },
+    correct: 'c'
+},
+{
+    id: 4834,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "In what sequence are the main rotor head's pressure bolts tightened?",
+    options: {
+        a: 'Cross sequential order, to ensure even loading',
+        b: 'Clockwise sequential order only',
+        c: 'All at once, using a hydraulic torque multiplier'
+    },
+    correct: 'a'
+},
+{
+    id: 4835,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What does the retaining element prevent, and how?',
+    options: {
+        a: 'Vertical movement of the pressure plate, via a locking pin',
+        b: 'Rotation of the securing ring nut, via keys that locate in keyways cut into the mast',
+        c: 'Rotation of the hub itself, via a splined collar'
+    },
+    correct: 'b'
+},
+{
+    id: 4836,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Under what condition is the closure flange NOT fitted?',
+    options: {
+        a: 'If the beanie is not fitted',
+        b: 'If the MVA (Mast Vibration Absorber) is fitted',
+        c: 'If the helicopter is in the short nose configuration'
+    },
+    correct: 'b'
+},
+{
+    id: 4837,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What material is the closure flange made from, and how are its four bolts secured?',
+    options: {
+        a: 'Stainless steel; bolts secured with cotter pins',
+        b: 'Titanium; bolts torque-sealed with paint only',
+        c: 'Aluminium alloy; bolts locked in pairs with wire, with corrosion inhibitor on the heads'
+    },
+    correct: 'c'
+},
+{
+    id: 4838,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is installed between the mast and the bottom side of the hub?',
+    options: {
+        a: 'The bottom conical ring',
+        b: 'The sliding ring',
+        c: 'The scissors attachment flange'
+    },
+    correct: 'a'
+},
+{
+    id: 4839,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Why is the bottom conical ring structurally less critical than the top conical ring?',
+    options: {
+        a: 'Because it carries no load at all, being purely a dust seal',
+        b: 'Because it is a redundant, non-load-bearing spare component',
+        c: 'Because no rotor thrust is applied on it; it transmits shear loads only'
+    },
+    correct: 'c'
+},
+{
+    id: 4840,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What do the WARNING dialog boxes for the top conical ring installation procedure specifically flag, besides dangerous materials?',
+    options: {
+        a: 'That the installation includes VPs (Vital Points), which may require an independent or supervisory inspection',
+        b: 'That the procedure must be completed within 30 minutes',
+        c: 'That a second engineer must be present as a witness only, with no sign-off required'
+    },
+    correct: 'a'
+},
+{
+    id: 4841,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is the scissors attachment flange made of, and where is it installed?',
+    options: {
+        a: 'Aluminium alloy, installed at the bottom of the main rotor hub',
+        b: 'Stainless steel, installed on the mast',
+        c: 'Titanium alloy, installed at the top of the swashplate'
+    },
+    correct: 'a'
+},
+{
+    id: 4842,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How many bolts/washers attach the scissors attachment flange to the hub?',
+    options: {
+        a: 'Four',
+        b: 'Two',
+        c: 'Six'
+    },
+    correct: 'a'
+},
+{
+    id: 4843,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is installed between the hub and the scissors attachment flange?',
+    options: {
+        a: 'The top conical ring',
+        b: 'The beanie',
+        c: 'The sliding ring'
+    },
+    correct: 'c'
+},
+{
+    id: 4844,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What components make up the sliding ring, and how are they joined?',
+    options: {
+        a: 'An inner ring, outer ring and two DU washers, bonded together with adhesive',
+        b: 'Two bearings separated by a Teflon spacer, bolted together',
+        c: 'A single forged steel disc with no sub-components'
+    },
+    correct: 'a'
+},
+{
+    id: 4845,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What connects to the inboard end of each tension link, versus the outboard end?',
+    options: {
+        a: 'Elastomeric bearings inboard; the main rotor blade outboard',
+        b: 'The lag damper inboard; the scissors outboard',
+        c: 'The pitch control lever inboard; the hub outboard'
+    },
+    correct: 'a'
+},
+{
+    id: 4846,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What material is the composite tension link made from?',
+    options: {
+        a: 'Unidirectional carbon-fibre strips with external plies of quasi-isotropic glass fibre',
+        b: 'Kevlar-wrapped aluminium honeycomb',
+        c: 'Pure titanium alloy'
+    },
+    correct: 'a'
+},
+{
+    id: 4847,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What are the four primary components of each tension link assembly?',
+    options: {
+        a: 'The composite tension link, droop stop support, four tension link bushes, and four bushes',
+        b: 'The hub, mast, swashplate and scissors',
+        c: 'The pitch link, damper, flapping limiter and beanie'
+    },
+    correct: 'a'
+},
+{
+    id: 4848,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is the function of each flapping limiter?',
+    options: {
+        a: 'To dampen lead/lag oscillation',
+        b: 'To provide electrical bonding continuity',
+        c: 'To limit the flapping range of the main rotor blades so they cannot touch the aircraft structure at low rotor speed'
+    },
+    correct: 'c'
+},
+{
+    id: 4849,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What material and shape is each flapping limiter?',
+    options: {
+        a: 'An aluminium forging shaped like a bracket',
+        b: 'A titanium machined block',
+        c: 'A composite moulded wedge'
+    },
+    correct: 'a'
+},
+{
+    id: 4850,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Where are the flapping limiters installed?',
+    options: {
+        a: 'On the swashplate, between the fixed and rotating rings',
+        b: 'In the tension links, between the hub and the droop stop pin',
+        c: 'Inside the lag damper body'
+    },
+    correct: 'b'
+},
+{
+    id: 4851,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What attaches the flapping limiter to the flapping limiter support, and what does that support also hold?',
+    options: {
+        a: 'A bolted clevis; the support also holds the NR transducer',
+        b: 'A cotter-pinned shaft; the support also holds the beanie',
+        c: 'A pre-loaded spring pin; the support also holds the elastomeric bearing'
+    },
+    correct: 'c'
+},
+{
+    id: 4852,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is installed on the inner side of each pitch control lever, safetied with wire?',
+    options: {
+        a: 'A bonding contactor',
+        b: 'A lag damper mounting bolt',
+        c: 'A flap stop pin'
+    },
+    correct: 'c'
+},
+{
+    id: 4853,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is installed between the flap stop pin and the pitch control lever?',
+    options: {
+        a: 'A peelable shim',
+        b: 'A ball bearing',
+        c: 'A rubber grommet'
+    },
+    correct: 'a'
+},
+{
+    id: 4854,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What three blade movements do the elastomeric bearings permit?',
+    options: {
+        a: 'Flap, yaw and roll only',
+        b: 'Pitch, roll and translational movement',
+        c: 'Lead/lag, flap, and pitch change (feathering)'
+    },
+    correct: 'c'
+},
+{
+    id: 4855,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How many elastomeric bearings are installed, and where?',
+    options: {
+        a: 'Two, within the swashplate duplex bearing',
+        b: 'Five, between the tension links and the hub',
+        c: 'Five, between the pitch control levers and the lag dampers'
+    },
+    correct: 'b'
+},
+{
+    id: 4856,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is used for the correct installation of each elastomeric bearing on the hub?',
+    options: {
+        a: 'A centering pin',
+        b: 'An index pin shared with the beanie',
+        c: 'A match-marked bolt hole'
+    },
+    correct: 'a'
+},
+{
+    id: 4857,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "What materials make up the elastomeric bearing's inner member, outer member, and elastomeric section?",
+    options: {
+        a: 'Steel inner member, aluminium outer member, rubber-only elastomeric section',
+        b: 'Aluminium alloy inner member, titanium alloy outer member, and a lamination of titanium alloy strips/elastomeric material',
+        c: 'Titanium inner member, composite outer member, Teflon elastomeric section'
+    },
+    correct: 'b'
+},
+{
+    id: 4858,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How is the elastomeric bearing attached to the tension link support?',
+    options: {
+        a: 'A single central through-bolt',
+        b: 'Four bolts and four washers',
+        c: 'Two bolts and two nuts'
+    },
+    correct: 'b'
+},
+{
+    id: 4859,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is the function of the droop stop brackets?',
+    options: {
+        a: 'To prevent droop when the blades are stopped',
+        b: 'To limit lead/lag travel during ground running',
+        c: 'To provide the electrical bonding path to the hub'
+    },
+    correct: 'a'
+},
+{
+    id: 4860,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What material are the droop stop brackets made from, and how many are there?',
+    options: {
+        a: 'Steel; one, shared between all blades',
+        b: 'Aluminium alloy; five (one per blade)',
+        c: 'Titanium alloy; two'
+    },
+    correct: 'b'
+},
+{
+    id: 4861,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How is one end of the droop stop bracket attached, versus the other end?',
+    options: {
+        a: 'One end welded; the other bolted',
+        b: 'One end to the droop stop plate/tension link support with three bolts; the other to the pitch control lever/tension link with two bolts, four washers, two nuts and two cotter pins',
+        c: 'Both ends attached identically with four bolts each'
+    },
+    correct: 'b'
+},
+{
+    id: 4862,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What material are the pitch control levers made from?',
+    options: {
+        a: 'Titanium forgings',
+        b: 'Composite laminate',
+        c: 'Aluminium forgings'
+    },
+    correct: 'c'
+},
+{
+    id: 4863,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What does one end of the pitch control lever (the pitch horn) attach to, versus the other end?',
+    options: {
+        a: 'The swashplate at one end; the hub at the other',
+        b: 'The elastomeric bearing at one end; the beanie at the other',
+        c: 'The pitch link at one end; the spherical rod end bearing of the hydraulic lag damper at the other'
+    },
+    correct: 'c'
+},
+{
+    id: 4864,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is incorporated into the box section of the pitch control lever?',
+    options: {
+        a: 'The droop stop bracket',
+        b: 'The anti-rotation block',
+        c: 'The flap stop pin'
+    },
+    correct: 'c'
+},
+{
+    id: 4865,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What three main parts make up each lag damper?',
+    options: {
+        a: 'An aluminium alloy external body, a sleeve with piston and flange, and an eye end',
+        b: 'A titanium cylinder, a composite piston, and a ball joint',
+        c: 'A steel reservoir, a bronze bushing, and a spring'
+    },
+    correct: 'a'
+},
+{
+    id: 4866,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "What does the lag damper's visual level indicator show?",
+    options: {
+        a: "The level of hydraulic fluid in the damper's reservoir",
+        b: 'The track of the blade in flight',
+        c: 'The torque applied to the damper bolt'
+    },
+    correct: 'a'
+},
+{
+    id: 4867,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What two features does the lag damper body incorporate?',
+    options: {
+        a: 'A solenoid valve and an electrical connector',
+        b: 'A fill and bleed plug, and a threaded fitting for the lightning conductor jumper',
+        c: 'A pressure relief valve and a sight glass only'
+    },
+    correct: 'b'
+},
+{
+    id: 4868,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is the function of each lag damper?',
+    options: {
+        a: 'To change the pitch angle of the blade',
+        b: 'To provide static balance of the blade',
+        c: 'To control the movement of the related blade in its plane of rotation, and set a limit to its travel'
+    },
+    correct: 'c'
+},
+{
+    id: 4869,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "What tool is used to check the friction of the lag damper bearing's rod end?",
+    options: {
+        a: 'A torque wrench',
+        b: 'A dial gauge',
+        c: 'A feeler gauge'
+    },
+    correct: 'a'
+},
+{
+    id: 4870,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is the function of the anti-rotation block?',
+    options: {
+        a: 'To provide electrical bonding between the damper and the hub',
+        b: 'To limit the maximum flapping angle of the blade',
+        c: 'To prevent the rotation of the damper on its longitudinal axis'
+    },
+    correct: 'c'
+},
+{
+    id: 4871,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What material are the anti-rotation blocks made from?',
+    options: {
+        a: 'Teflon',
+        b: 'Aluminium alloy',
+        c: 'Titanium'
+    },
+    correct: 'a'
+},
+{
+    id: 4872,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How are the anti-rotation blocks attached to the hub?',
+    options: {
+        a: 'A single central bolt with a cotter pin',
+        b: 'Four rivets with a sealant bead',
+        c: 'Two bolts, washers and nuts, with a peelable shim between the block and the hub'
+    },
+    correct: 'c'
+},
+{
+    id: 4873,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "Inside the lag damper, what can flow between the piston's two chambers?",
+    options: {
+        a: 'Hydraulic fluid, through a bypass orifice in the piston',
+        b: 'Nitrogen gas, through a separator valve',
+        c: 'Air, through a vent port'
+    },
+    correct: 'a'
+},
+{
+    id: 4874,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "What does the lag damper's end-stroke cushioning system do?",
+    options: {
+        a: 'Decreases the speed of the piston in the last millimetres of its travel in both directions',
+        b: 'Increases piston speed near the end of travel for faster response',
+        c: 'Locks the piston completely at the end of its travel'
+    },
+    correct: 'a'
+},
+{
+    id: 4875,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "What does the spring in the lag damper's hydraulic reservoir compensate for?",
+    options: {
+        a: 'Thermal expansion of the hydraulic fluid and external leakage',
+        b: 'Blade pitch angle changes',
+        c: 'Centrifugal force variation with rotor speed'
+    },
+    correct: 'a'
+},
+{
+    id: 4876,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How many inboard and outboard lightning conductor jumpers are there on the head?',
+    options: {
+        a: 'Ten inboard only, with no outboard jumpers',
+        b: 'Two inboard and two outboard',
+        c: 'Five inboard and five outboard'
+    },
+    correct: 'c'
+},
+{
+    id: 4877,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is the function of the lightning conductor jumper?',
+    options: {
+        a: 'It provides the discharge path for electricity if lightning strikes the blade, since the composite blade material is not conductive',
+        b: 'It transmits the NR signal from the swashplate to the MAU',
+        c: "It connects the lag damper's hydraulic reservoir to the fill port"
+    },
+    correct: 'a'
+},
+{
+    id: 4878,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What two components does the lightning conductor jumper electrically connect?',
+    options: {
+        a: 'The swashplate and the scissors',
+        b: 'The pitch control lever of the blade and the lag damper',
+        c: 'The hub and the mast'
+    },
+    correct: 'b'
+},
+{
+    id: 4879,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is the function of the beanie?',
+    options: {
+        a: 'To house the NR speed sensor',
+        b: 'To prevent turbulence and vibration on the main rotor',
+        c: 'To provide static balance for the hub'
+    },
+    correct: 'b'
+},
+{
+    id: 4880,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What materials is the beanie made from?',
+    options: {
+        a: 'Composite materials with a metallic attachment flange',
+        b: 'Pure titanium forging',
+        c: 'Solid aluminium casting'
+    },
+    correct: 'a'
+},
+{
+    id: 4881,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How is the beanie correctly aligned during installation?',
+    options: {
+        a: 'An index pin on the retaining element engages the index hole on the bottom flange of the beanie',
+        b: 'A laser alignment tool is used from the cockpit',
+        c: 'It can only be installed in one physical orientation due to its asymmetric shape'
+    },
+    correct: 'a'
+},
+{
+    id: 4882,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "How many bolts attach the beanie's bottom flange to the retaining element?",
+    options: {
+        a: 'Four',
+        b: 'Six',
+        c: 'Ten'
+    },
+    correct: 'c'
+},
+{
+    id: 4883,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Is the beanie classified as a critical part?',
+    options: {
+        a: 'No',
+        b: 'Yes',
+        c: 'Only on the long nose variant'
+    },
+    correct: 'b'
+},
+{
+    id: 4884,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Besides the blade bolt, which four areas must be handled with cheesecloth due to their solid lubricant film coating?',
+    options: {
+        a: 'The beanie, the scissors, the swashplate and the tension link',
+        b: 'The elastomeric bearing, droop stop bracket, flap stop pin, and lightning jumper',
+        c: 'Top and bottom conical ring, rotor head and mast splines, and the damper bolt'
+    },
+    correct: 'c'
+},
+{
+    id: 4885,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How are the main rotor head installation bolts identified during removal?',
+    options: {
+        a: 'By recording only the total bolt count, with no individual marking',
+        b: 'By colour-coding with paint dots',
+        c: 'By writing their position number (1 thru 12) on the head using a permanent marking pen'
+    },
+    correct: 'c'
+},
+{
+    id: 4886,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How are the main rotor installation bolts tightened?',
+    options: {
+        a: 'By subsequent torque increments in sequence, waiting 5 minutes between each increment before checking the torque value',
+        b: 'In a single final torque pass, with no waiting period',
+        c: 'By an automated hydraulic torque tool applying all bolts simultaneously'
+    },
+    correct: 'a'
+},
+{
+    id: 4887,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How is the top conical ring removed?',
+    options: {
+        a: 'Using a specific tool',
+        b: 'It cannot be removed in the field; the hub must be replaced as an assembly',
+        c: 'By hand, using the integral lifting lugs only'
+    },
+    correct: 'a'
+},
+{
+    id: 4888,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How is the main rotor installation nut tightened?',
+    options: {
+        a: 'To a specified torque using a calibrated torque wrench',
+        b: 'By hand only',
+        c: 'Using an impact wrench to a set number of impacts'
+    },
+    correct: 'b'
+},
+{
+    id: 4889,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What must the index pin of the main rotor installation blocking ring be aligned with?',
+    options: {
+        a: "The beanie's lifting eye",
+        b: 'The slot on the main rotor hub',
+        c: 'A mark on the mast splines'
+    },
+    correct: 'b'
+},
+{
+    id: 4890,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Under what condition must the main rotor head removal/installation and flap stop pin adjustment be carried out?',
+    options: {
+        a: 'With the helicopter levelled on jacks, to ensure the mast is vertical',
+        b: 'With the aircraft fully fuelled, to simulate flight CG',
+        c: 'With the rotor brake released and blades untied'
+    },
+    correct: 'a'
+},
+{
+    id: 4891,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What must be done when identifying peelable shims (damper anti-rotation block and flap stop pin) for re-installation?',
+    options: {
+        a: 'Weigh them and record the mass only',
+        b: 'Mark them with a permanent marking pen, and calculate a new thickness if replaced',
+        c: 'Discard them and always fit a standard thickness shim'
+    },
+    correct: 'b'
+},
+{
+    id: 4892,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How is the main rotor head removed/installed?',
+    options: {
+        a: 'Using a forklift pallet',
+        b: 'By hand, supported by two engineers',
+        c: 'Using a sling'
+    },
+    correct: 'c'
+},
+{
+    id: 4893,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What tool is used to install the pitch control lever inside the tension link?',
+    options: {
+        a: 'A standard socket set',
+        b: 'A hydraulic press only',
+        c: 'A specific installation tool'
+    },
+    correct: 'c'
+},
+{
+    id: 4894,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How are the bushes on the tension link and pitch control lever prepared before installation?',
+    options: {
+        a: 'Heated in an induction oven',
+        b: 'Placed in liquid nitrogen',
+        c: 'Soaked in solvent for 24 hours'
+    },
+    correct: 'b'
+},
+{
+    id: 4895,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What tool function is used during flap stop pin adjustment?',
+    options: {
+        a: 'A tool to lock the sliding ring in a centered position',
+        b: 'A tool to measure blade droop angle directly',
+        c: 'A tool to apply torque to the droop stop bracket'
+    },
+    correct: 'a'
+},
+{
+    id: 4896,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Which three checks are required after replacement of the main rotor head, scissors attachment flange, or sliding ring?',
+    options: {
+        a: 'Weight and balance check and fuel flow check',
+        b: 'Blade continuity check, blade track check, and rotating controls adjustment procedure',
+        c: 'Only a blade track check'
+    },
+    correct: 'b'
+},
+{
+    id: 4897,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Which checks are required after replacement of the elastomeric bearing or tension link?',
+    options: {
+        a: 'Only a continuity check',
+        b: 'Rotating controls adjustment only',
+        c: 'Blade continuity check, blade track check, and flapping limiter clearance check'
+    },
+    correct: 'c'
+},
+{
+    id: 4898,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Which checks are required after replacement of the flap stop mass, flapping limiter support, or pitch control lever?',
+    options: {
+        a: 'Continuity check only',
+        b: 'Blade track check and flapping limiter clearance check',
+        c: 'No check is required'
+    },
+    correct: 'b'
+},
+{
+    id: 4899,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How is a lag damper correctly refilled with hydraulic fluid?',
+    options: {
+        a: 'By pressurising the system to 207 bar and holding for 5 minutes',
+        b: 'Using an adapter and manual pump until fluid flows from the bleed port free of air bubbles, aligning the yellow/white band with the reference line',
+        c: 'By gravity feed only, until the reservoir is visibly full'
+    },
+    correct: 'b'
+},
+{
+    id: 4900,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is the approximate weight of the main rotor head?',
+    options: {
+        a: '71 kg (156.5 lb)',
+        b: '204 kg (450 lb)',
+        c: '65.5 kg (144.4 lb)'
+    },
+    correct: 'b'
+},
+{
+    id: 4901,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What hydraulic oil specification is used in the main rotor lag dampers?',
+    options: {
+        a: 'MIL-PRF-5606',
+        b: 'MIL-H-83282B',
+        c: 'MIL-PRF-83282'
+    },
+    correct: 'c'
+},
+{
+    id: 4902,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'At what interval is the DI of the main rotor retaining element for corrosion and condition performed?',
+    options: {
+        a: '4 years',
+        b: '2400 hrs',
+        c: '1200 hrs'
+    },
+    correct: 'a'
+},
+{
+    id: 4903,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'At what interval is the DI of the upper conical ring (including hub-mast spline inspection, requiring hub removal) performed?',
+    options: {
+        a: '1200 hrs',
+        b: '4 years',
+        c: '2400 hrs'
+    },
+    correct: 'a'
+},
+{
+    id: 4904,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'At what interval is the SDI of the main rotor hub performed?',
+    options: {
+        a: '1200 hrs',
+        b: '2400 hrs',
+        c: '1 year'
+    },
+    correct: 'b'
+},
+{
+    id: 4905,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What three main items make up the rotating controls?',
+    options: {
+        a: 'Pitch links, lag dampers, and the hub',
+        b: 'Pitch links, two rotating scissor assemblies, and fixed/rotating swashplates',
+        c: 'The beanie, tension links, and droop stop brackets'
+    },
+    correct: 'b'
+},
+{
+    id: 4906,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Where does the spherical pivot fit, and what provides it a low-friction sliding contact?',
+    options: {
+        a: 'Onto the top of the main gearbox casing; four steel centering plates with a Teflon coating',
+        b: 'Onto the mast; a graphite-reinforced bushing',
+        c: 'Onto the hub; five elastomeric bearings'
+    },
+    correct: 'a'
+},
+{
+    id: 4907,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How many centering plates locate the spherical pivot, and how are they attached?',
+    options: {
+        a: 'Six, bolted to the mast',
+        b: 'Two, welded to the casing',
+        c: 'Four, attached to the gearbox casing by screws'
+    },
+    correct: 'c'
+},
+{
+    id: 4908,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What does the spherical (contoured) outer circumference of the spherical pivot provide?',
+    options: {
+        a: 'The mounting point for the NR transducer only',
+        b: 'A surface on which the swashplate assembly can tilt',
+        c: 'A hard stop to prevent over-travel of the collective'
+    },
+    correct: 'b'
+},
+{
+    id: 4909,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What two elements make up the swashplate assembly, and what do they together provide?',
+    options: {
+        a: 'A rotating hub and a fixed mast, providing drive torque only',
+        b: 'An upper and lower conical ring, providing hub retention',
+        c: 'A non-rotating element and a rotating element, providing collective and cyclic pitch change outputs via the pitch links'
+    },
+    correct: 'c'
+},
+{
+    id: 4910,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "How many lugs extend from the fixed swashplate's outer circumference, and what are they for?",
+    options: {
+        a: 'Two, forming the scissors attachment',
+        b: 'Three, forming clevis attachments for the main rotor actuators',
+        c: 'Five, forming clevis attachments for the pitch links'
+    },
+    correct: 'b'
+},
+{
+    id: 4911,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How is the fixed swashplate prevented from rotating in the horizontal plane, while still able to tilt?',
+    options: {
+        a: 'A detent pin engages the gearbox casing',
+        b: 'Two blocks bolted to its inner circumference locate in vertical grooves in the spherical pivot',
+        c: 'A splined collar locks it to the mast'
+    },
+    correct: 'b'
+},
+{
+    id: 4912,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is installed on the fixed swashplate to provide a signal for vibration analysis and blade track?',
+    options: {
+        a: 'An NR transducer',
+        b: 'The anti-rotation block',
+        c: 'The NR interruptor'
+    },
+    correct: 'a'
+},
+{
+    id: 4913,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "How many lugs extend from the rotating swashplate's outer circumference, and what are they for?",
+    options: {
+        a: 'Three, forming clevis attachments for the main rotor actuators',
+        b: 'Five, forming clevis attachments for the pitch change links',
+        c: 'Two, forming the scissors attachment'
+    },
+    correct: 'b'
+},
+{
+    id: 4914,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What type of bearing attaches the rotating swashplate to the fixed swashplate?',
+    options: {
+        a: 'An elastomeric flexure bearing',
+        b: 'A single row roller bearing',
+        c: 'A duplex (dual row ball) bearing'
+    },
+    correct: 'c'
+},
+{
+    id: 4915,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is installed on the rotating swashplate to work with the NR transducer?',
+    options: {
+        a: 'An NR interruptor',
+        b: 'A second NR transducer',
+        c: 'The lag damper reservoir'
+    },
+    correct: 'a'
+},
+{
+    id: 4916,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What protects the spherical pivot and swashplate duplex bearing from contamination?',
+    options: {
+        a: 'A sealed metal cover plate',
+        b: 'A continuous grease purge system',
+        c: 'A flexible boot arrangement (upper and lower boots)'
+    },
+    correct: 'c'
+},
+{
+    id: 4917,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How many rotating scissor assemblies are installed, and between which components?',
+    options: {
+        a: 'One, between the hub and the mast',
+        b: 'Five, one per blade, between the swashplate and pitch links',
+        c: 'Two, between the main rotor hub and the rotating swashplate'
+    },
+    correct: 'c'
+},
+{
+    id: 4918,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What does the upper lever arm of the rotating scissors connect to, versus the lower lever arm?',
+    options: {
+        a: 'Upper to the beanie; lower to the anti-rotation block',
+        b: 'Upper to the pitch link; lower to the lag damper',
+        c: 'Upper to an attachment flange on the rotor hub; lower to a spherical bearing bolted to the rotating swashplate'
+    },
+    correct: 'c'
+},
+{
+    id: 4919,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What marking helps ensure correct installation of the rotating scissors?',
+    options: {
+        a: 'A red paint dot on the inboard bolt head',
+        b: "'EXTERNAL SIDE' painted in yellow on the bottom scissor lever, with a 'finger' on the top lever",
+        c: 'A serial number etched on the top lever only'
+    },
+    correct: 'b'
+},
+{
+    id: 4920,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What type of rods are the pitch links, and how many rod ends do they have?',
+    options: {
+        a: 'Solid forged links with no rod ends',
+        b: 'Hydraulic telescopic struts with one rod end',
+        c: 'Conventional push-pull rods (tie-rod) with two rod ends'
+    },
+    correct: 'c'
+},
+{
+    id: 4921,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "What feature on the pitch link's upper rod end is used as a reference for adjustment?",
+    options: {
+        a: 'A torque stripe',
+        b: 'A witness hole',
+        c: 'An index marker'
+    },
+    correct: 'c'
+},
+{
+    id: 4922,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "What is located at the angle between rod ends in the pitch link's tie-rod?",
+    options: {
+        a: 'A grease nipple',
+        b: 'A spring pin',
+        c: 'A shear pin'
+    },
+    correct: 'b'
+},
+{
+    id: 4923,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What does the Emergency Airworthiness Directive (EAD 2023-0071-F) of 31 March 2023 require inspection of?',
+    options: {
+        a: 'The lag damper reservoir',
+        b: 'The pitch link upper rod assembly',
+        c: 'The main rotor hub splines'
+    },
+    correct: 'b'
+},
+{
+    id: 4924,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Where should engineers refer to for the complete list of applicable Airworthiness Directives?',
+    options: {
+        a: 'The EASA Safety Publications Tool (europa.eu)',
+        b: 'The CSPP standard practices manual',
+        c: 'The AFIP fault reporting DM'
+    },
+    correct: 'a'
+},
+{
+    id: 4925,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Under what condition is the swashplate assembly removed/installed?',
+    options: {
+        a: 'With the aircraft on its wheels, engines running at idle',
+        b: 'With the helicopter levelled on jacks, so the mast is kept vertical',
+        c: 'With the rotor brake released and blades folded'
+    },
+    correct: 'b'
+},
+{
+    id: 4926,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What must be checked and adjusted, if necessary, after a swashplate installation?',
+    options: {
+        a: 'The main rotor head installation bolt torque',
+        b: 'The lag damper fluid level',
+        c: 'The gap between the NR transducer and the interruptor'
+    },
+    correct: 'c'
+},
+{
+    id: 4927,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'After a pitch link replacement, how is its new length set?',
+    options: {
+        a: 'Adjusted to the value of the pitch link replaced, using a specific tool',
+        b: 'Set to a fixed standard length regardless of the replaced part',
+        c: 'Measured only after the first flight, then trimmed'
+    },
+    correct: 'a'
+},
+{
+    id: 4928,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How must the bolts securing the pitch link be installed?',
+    options: {
+        a: 'With the head on the side of rotation',
+        b: 'With the head facing outboard, away from rotation',
+        c: 'With the head facing the hub centre, regardless of rotation direction'
+    },
+    correct: 'a'
+},
+{
+    id: 4929,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is the approximate weight of the rotating controls assembly?',
+    options: {
+        a: '204 kg (450 lb)',
+        b: '71 kg (156.5 lb)',
+        c: '65.5 kg (144.4 lb)'
+    },
+    correct: 'b'
+},
+{
+    id: 4930,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'At what interval is the Operational Check (OC) of the swashplate assembly duplex bearing, to detect bearing roughness, typically performed?',
+    options: {
+        a: '600 hrs/2 years',
+        b: '300 hrs/1 year',
+        c: '150 hrs/1 year'
+    },
+    correct: 'b'
+},
+{
+    id: 4931,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What does the main rotor speed sensor (NR probe) produce, and how many independent frequency outputs does it provide?',
+    options: {
+        a: 'A signal (NR), with three independent frequency outputs from three independent coil windings',
+        b: 'A signal (NF), with a single frequency output',
+        c: 'A digital-only signal, with no analogue frequency output'
+    },
+    correct: 'a'
+},
+{
+    id: 4932,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "Where are the NR probe's three independent outputs routed?",
+    options: {
+        a: 'The ADELT SIU, the GCU, and the HCB',
+        b: 'EEC 2, the MAUs, and EEC 1',
+        c: 'EEC 1 only, with redundant wiring'
+    },
+    correct: 'b'
+},
+{
+    id: 4933,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "What is the frequency of the NR probe's sinusoidal output at 100% NR?",
+    options: {
+        a: '1435.7 Hz',
+        b: '296.4 Hz',
+        c: '2190.58 Hz'
+    },
+    correct: 'c'
+},
+{
+    id: 4934,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'On which displays is the NR indication shown, and in what format?',
+    options: {
+        a: 'A triple tachometer on the PFD (default page) and MFD (main page), combined with NF',
+        b: 'Only as a CAS text message, with no analogue display',
+        c: 'Only on a dedicated standby gauge, with no PFD/MFD display'
+    },
+    correct: 'a'
+},
+{
+    id: 4935,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: "What does the RPM switch on the pilot's collective grip allow the pilot to select?",
+    options: {
+        a: 'Either normal or emergency governor mode',
+        b: 'Either 100% or 102% NR/NF',
+        c: 'Either AUTO or MANUAL start mode'
+    },
+    correct: 'b'
+},
+{
+    id: 4936,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How can the pilot select backup (analogue) NR data on the MFD?',
+    options: {
+        a: "By checking the 'Analog' box on the MFD drop-down display",
+        b: 'By selecting EMER on the ELEC PUMP panel',
+        c: 'By pulling the NR circuit breaker'
+    },
+    correct: 'a'
+},
+{
+    id: 4937,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What happens if there is a miscomparison between analogue and digital NR data?',
+    options: {
+        a: 'A caution message is generated in the CAS window',
+        b: 'The helicopter automatically reverts to manual throttle control',
+        c: 'The digital display is automatically blanked, with no caution'
+    },
+    correct: 'a'
+},
+{
+    id: 4938,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Where is the complete list of main rotor-related warnings and cautions given?',
+    options: {
+        a: 'The CSPP standard practices manual only',
+        b: 'RFM Section 3 and the supplements listed in Section 5',
+        c: 'The AMPI Chapter 04 only'
+    },
+    correct: 'b'
+},
+{
+    id: 4939,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What does the passage of gear teeth across the NR probe produce?',
+    options: {
+        a: 'A near-sinusoidal output signal',
+        b: 'A square-wave digital pulse train only',
+        c: 'A constant DC voltage proportional to torque'
+    },
+    correct: 'a'
+},
+{
+    id: 4940,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'On the triple tachometer display, how is the NR vertical scale presented?',
+    options: {
+        a: 'As a digital-only readout with no analogue pointer',
+        b: 'As two entirely separate analogue scales with no digital readout',
+        c: 'Combined with NF, with one analogue pointer and one digital readout'
+    },
+    correct: 'c'
+},
+{
+    id: 4941,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Any bolt coated with solid film lubricant must be handled using what, and why?',
+    options: {
+        a: 'An oil-soaked rag, to prevent corrosion during storage',
+        b: 'Cheesecloth, to avoid damaging the external solid lubricant film layer',
+        c: 'A wire wool pad, to clean the bolt threads before fitting'
+    },
+    correct: 'b'
+},
+{
+    id: 4942,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Where is electrical bonding (and lightning discharge) routed through, from the blade to the lag damper?',
+    options: {
+        a: 'From the blade root directly to the mast, via the top conical ring',
+        b: "From the blade's lightning conductor strip, through the bonding contactor, to the pitch control lever, and then via the lightning conductor jumper to the lag damper",
+        c: 'Directly from the blade tip to the hub via a dedicated bonding braid, bypassing the pitch control lever'
+    },
+    correct: 'b'
+},
+{
+    id: 4943,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How many anti-rotation blocks are fitted to the main rotor head, and what do they prevent?',
+    options: {
+        a: 'Two - one per rotating scissors - preventing rotation of the scissors',
+        b: 'Five - one per blade bolt - preventing rotation of the balance weights',
+        c: 'Five - one per lag damper - preventing rotation of the damper on its longitudinal axis'
+    },
+    correct: 'c'
+},
+{
+    id: 4944,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What type(s) of balancing are performed on the AW139 main rotor blades?',
+    options: {
+        a: 'Static balancing only; dynamic balance is not required on a fully articulated rotor',
+        b: 'Static balancing (by the manufacturer, using mass-balance weights at the root and tip) and dynamic balancing (in service, using weights in the hollow blade attachment bolts, as part of Rotor Track and Balance)',
+        c: 'Dynamic balancing only; the blades are never statically balanced'
+    },
+    correct: 'b'
+},
+{
+    id: 4945,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is the composite tension link made from?',
+    options: {
+        a: 'Pultruded fibreglass rod with a titanium core insert',
+        b: 'A single woven aramid (Kevlar) fabric with no carbon fibre content',
+        c: 'Unidirectional carbon-fibre strips with external plies of quasi-isotropic glass fibre'
+    },
+    correct: 'c'
+},
+{
+    id: 4946,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Which components align the main rotor hub with the main rotor mast?',
+    options: {
+        a: "The top and bottom conical rings (which engage the hub's centre hole and seat on the mast), together with the splined coupling between the hub centre and the mast",
+        b: 'The scissors attachment flange and the sliding ring alone',
+        c: 'The beanie and the retaining element alone'
+    },
+    correct: 'a'
+},
+{
+    id: 4947,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'HUMS reports a high vertical vibration, which adjustments can be used to reduce it?',
+    options: {
+        a: 'Adjusting the pitch link length to change blade tracking',
+        b: 'Vertical (and lateral) vibration indicates a balance issue, corrected by adding or removing weights in the hollow main rotor blade attachment bolts (up to 0.4 kg per bolt, held by locking wire)',
+        c: 'Bending the trailing edge trim tabs to adjust blade track'
+    },
+    correct: 'b'
+},
+{
+    id: 4948,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Describe the construction of the main rotor blades.',
+    options: {
+        a: 'A welded steel tube spar wrapped in fabric, with a wooden tip block',
+        b: "A 'D'-section fibreglass spar forms an anti-torsional box carrying the steel erosion shield and optional heater mat; multilayered graphite-tape skins over an internal honeycomb are bonded to the spar to form the blade body; a glassfibre/honeycomb tip with a nickel erosion shield is bonded on to complete the blade, with Nylatron plates at the root",
+        c: 'A solid extruded aluminium spar with a riveted sheet-metal skin and a bolted-on steel tip'
+    },
+    correct: 'b'
+},
+{
+    id: 4949,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Describe the recharging process of the main rotor dampers.',
+    options: {
+        a: 'The damper reservoir is simply topped up by hand through the fill port with no bleeding required',
+        b: 'Hydraulic fluid is filled using an adapter and a manual pump until it flows out of the bleed port free from air bubbles; the damper is correctly refilled when the yellow/white band aligns with the reference line on the damper body',
+        c: 'The damper is pressurised directly from the Number 1 main hydraulic system via a quick-disconnect fitting'
+    },
+    correct: 'b'
+},
+{
+    id: 4950,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Explain the signal flow from the NR sensor.',
+    options: {
+        a: 'A single output from the probe is split electrically and sent identically to the GCU and the HCB',
+        b: 'The probe sends a single digital word directly to the MFD, with no connection to the EECs',
+        c: 'The NR probe senses gear teeth passing it, producing a near-sinusoidal signal via three independent coil windings; one output goes to EEC 2, one to the MAUs, and one to EEC 1, with a frequency of 2190.58 Hz at 100% NR'
+    },
+    correct: 'c'
+},
+{
+    id: 4951,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'Describe the main rotor head.',
+    options: {
+        a: 'A semi-rigid teetering assembly with a single central trunnion bearing shared by all five blades',
+        b: 'A rigid, hingeless assembly with no bearings, transmitting loads directly from blade to mast via bonded composite fittings',
+        c: 'A fully articulated assembly built around a one-piece forged titanium hub, splined to the mast and secured by top and bottom conical rings with a ring nut/pressure plate; an elastomeric bearing is fitted in each of the five tension links, allowing blade flap, lead/lag and pitch change, while transmitting drive and loads between the mast and the blades'
+    },
+    correct: 'c'
+},
+{
+    id: 4952,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What must be remembered when replacing main rotor pitch rods (pitch links)?',
+    options: {
+        a: 'No follow-up checks are required, provided the new link is the same part number',
+        b: "A blade track check and rotating controls adjustment must be carried out afterward; the new pitch link's length must be adjusted to match the value of the replaced link using a specific tool; and its securing bolts must be installed with the head on the side of rotation",
+        c: 'Only a continuity check is required; track and rigging are unaffected by pitch link length'
+    },
+    correct: 'b'
+},
+{
+    id: 4953,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How are the pitch control lever and the tension link assembled?',
+    options: {
+        a: 'By a single clevis pin with a cotter pin, with no bushes or spacers',
+        b: 'Each pitch control lever is attached to a tension link by four bolts, eight washers and four nuts, with four flanged bushes and two spacers also part of the installation',
+        c: 'By bonding with structural adhesive, with no mechanical fasteners'
+    },
+    correct: 'b'
+},
+{
+    id: 4954,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What is the purpose of the centring plates?',
+    options: {
+        a: 'They centre the swashplate duplex bearing to preload it correctly during assembly',
+        b: 'They centre the main rotor blade bolts within the hollow bolt bore before balance weights are fitted',
+        c: "Four Teflon-coated steel centering plates, screwed to the gearbox casing, locate the spherical pivot's bosses to provide low-friction vertical sliding while resisting rotational forces"
+    },
+    correct: 'c'
 }
 
     ];
