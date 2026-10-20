@@ -38376,7 +38376,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 4182,
     Aircraft: 'AW139',
     Category: '24',
@@ -38387,7 +38387,7 @@ export const questions = [
         c: 'Visually inspect, clean, charge, and top up if necessary'
     },
     correct: 'c'
-},
+}, */
 {
     id: 4183,
     Aircraft: 'AW139',
@@ -41308,7 +41308,7 @@ export const questions = [
     id: 4520,
     Aircraft: 'AW139',
     Category: '29',
-    question: 'Why should the freedom of movement check be carried out with slow displacement, one control at a time?',
+    question: 'When using the electircal hydraulic pump why should the freedom of movement check be carried out with slow displacement, one control at a time?',
     options: {
         a: 'To avoid overloading the electric pump',
         b: 'To comply with noise abatement procedures',
@@ -43272,7 +43272,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 4684,
     Aircraft: 'AW139',
     Category: '32',
@@ -43295,7 +43295,7 @@ export const questions = [
         c: '600 hrs/1 year'
     },
     correct: 'b'
-},
+}, */
 /* {
     id: 4686,
     Aircraft: 'AW139',
@@ -43320,7 +43320,7 @@ export const questions = [
     },
     correct: 'b'
 }, */
-{
+/* {
     id: 4688,
     Aircraft: 'AW139',
     Category: '32',
@@ -43331,7 +43331,7 @@ export const questions = [
         c: 'Every 10000 hrs'
     },
     correct: 'a'
-},
+}, */
 {
     id: 4689,
     Aircraft: 'AW139',
@@ -43965,6 +43965,486 @@ export const questions = [
         a: 'The parking brake has been released while the aircraft is still in motion',
         b: 'The nose wheel centerlock is fully locked and confirmed engaged',
         c: 'The nose wheel centerlock has been commanded to LOCK but the locking pin has not yet reached its final locked position (e.g. due to misalignment)'
+    },
+    correct: 'c'
+},
+{
+    id: 4751,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'Under UK law, which act establishes employer and employee responsibilities toward health, safety and welfare in the workplace?',
+    options: {
+        a: 'The Air Navigation Order 2016',
+        b: 'The Working Time Regulations 1998',
+        c: 'The Health and Safety at Work Act 1974'
+    },
+    correct: 'c'
+},
+/* {
+    id: 4752,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'Why is wearing jewellery such as rings discouraged when working on a helicopter?',
+    options: {
+        a: 'It could catch and accidentally amputate a finger',
+        b: 'It increases the risk of static discharge',
+        c: 'It can interfere with avionics signals'
+    },
+    correct: 'a'
+}, */
+/* {
+    id: 4753,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'What is the purpose of applying a refatting cream to hands after work, following the use of barrier cream?',
+    options: {
+        a: 'To remove residual chromate conversion solution',
+        b: 'To improve grip when handling tools',
+        c: 'To prevent the skin from drying out'
+    },
+    correct: 'c'
+}, */
+{
+    id: 4754,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'Which AMP chapters do the Standard Practices in CH60 and CSPP apply to?',
+    options: {
+        a: 'Chapters 20 thru 30 (systems) only',
+        b: 'All rotor chapters - chapters 62 thru 67',
+        c: 'Only the main rotor chapter (62)'
+    },
+    correct: 'b'
+},
+/* {
+    id: 4755,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'What is a DI (Detailed Inspection), as defined in the IETP?',
+    options: {
+        a: 'A simple visual check requiring no special tools',
+        b: 'A test requiring full component disassembly in every case',
+        c: 'A full visual examination of an item, using sufficient light, mirror, hand lens or other tools, which may require cleaning/access procedures'
+    },
+    correct: 'c'
+}, */
+/* {
+    id: 4756,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'What distinguishes an SDI (Special Detailed Inspection) from a DI?',
+    options: {
+        a: 'An SDI is always a purely visual check with no tools',
+        b: 'An SDI applies only to engine components',
+        c: 'An SDI requires dimensional checks and high-powered magnification, with NDT or disassembly only if specifically required'
+    },
+    correct: 'c'
+}, */
+{
+    id: 4757,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'Where should information on the dangers of the solvents used in vapor degreasing be found?',
+    options: {
+        a: 'The CR&OP',
+        b: 'The ASRP',
+        c: 'The AMDI (Aircraft Material Data Information)'
+    },
+    correct: 'c'
+},
+/* {
+    id: 4758,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'For how long should a component be cleaned ultrasonically in the Clean by Ultrasonic procedure?',
+    options: {
+        a: '10 minutes',
+        b: '30 seconds',
+        c: '2 minutes'
+    },
+    correct: 'c'
+}, */
+{
+    id: 4759,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'On which type of component must ultrasonic cleaning NOT be used?',
+    options: {
+        a: 'Control rods',
+        b: 'Bearings',
+        c: 'Chip detectors'
+    },
+    correct: 'b'
+},
+/* {
+    id: 4760,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'What specification does the polyurethane coating applied to exterior surfaces conform to?',
+    options: {
+        a: 'MIL-H-83282B',
+        b: 'MIL-PRF-5606',
+        c: 'MIL-PRF-85285'
+    },
+    correct: 'c'
+}, */
+/* {
+    id: 4761,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'Over what type of coating must the polyurethane paint be applied?',
+    options: {
+        a: 'Epoxy primer',
+        b: 'Chromate conversion coating directly',
+        c: 'Bare, unprimed metal'
+    },
+    correct: 'a'
+}, */
+{
+    id: 4762,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'What must be done to a component before brush cadmium plating rework can begin?',
+    options: {
+        a: 'It must be cleaned and have all paint removed',
+        b: 'It must be tested with dye penetrant first',
+        c: 'It must be heated in an induction oven'
+    },
+    correct: 'a'
+},
+{
+    id: 4763,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'What is chromate conversion (alodine) coating used for?',
+    options: {
+        a: 'As a corrosion inhibitor, paint/adhesive adherence primer, decorative finish, or to preserve electrical conductivity',
+        b: 'Only as a temporary rust-prevention wash before scrapping a part',
+        c: 'Exclusively as a high-temperature thermal barrier coating'
+    },
+    correct: 'a'
+},
+{
+    id: 4764,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'Who is permitted to carry out the dye penetrant surface crack test?',
+    options: {
+        a: "Only the original equipment manufacturer's staff",
+        b: 'Trained and approved personnel only',
+        c: 'Any licensed engineer, with no additional training required'
+    },
+    correct: 'b'
+},
+/* {
+    id: 4765,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'Which standard governs the liquid penetrant examination practices referenced for the dye penetrant test?',
+    options: {
+        a: 'ASTM-E1417',
+        b: 'MIL-PRF-85285',
+        c: 'QPL-AMS-2644-1'
+    },
+    correct: 'a'
+}, */
+{
+    id: 4766,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'What must NOT be used to remove paint from composite parts and adhesive bonded structures?',
+    options: {
+        a: 'A vibration-type sanding machine',
+        b: 'Certain paint removers (chemical strippers)',
+        c: 'Abrasive paper or cloth, under any circumstance'
+    },
+    correct: 'b'
+},
+/* {
+    id: 4767,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'When removing paint mechanically by sanding, what type of sanding machine is NOT permitted?',
+    options: {
+        a: 'Rotary type',
+        b: 'Orbital type, when fitted with a fine-grit pad',
+        c: 'Vibration type'
+    },
+    correct: 'a'
+}, */
+/* {
+    id: 4768,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'If composite fibres are found to be damaged during paint removal by sanding, what should be done?',
+    options: {
+        a: 'Contact Leonardo S.p.A. - Helicopters for guidance',
+        b: 'Apply chromate conversion coating directly over the damage',
+        c: 'Continue sanding until the fibres are smooth'
+    },
+    correct: 'a'
+}, */
+{
+    id: 4769,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'When removing the solid lubricant layer from a component, what must be avoided?',
+    options: {
+        a: 'Removing the base metal itself',
+        b: 'Removing the top layer of paint',
+        c: 'Allowing the component to cool below room temperature'
+    },
+    correct: 'a'
+},
+{
+    id: 4770,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'How is it checked that solid film lubricant is properly adhered after application?',
+    options: {
+        a: 'By weighing the component before and after',
+        b: 'Using a piece of tape - if the lubricant is easily removed by the tape, the procedure must be repeated',
+        c: 'By submerging the component in solvent for 24 hours'
+    },
+    correct: 'b'
+},
+/* {
+    id: 4771,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: "Which control system's adjustable rods include C2, F2, F5, L3, L6, M3, M6 and M8?",
+    options: {
+        a: 'The yaw control system',
+        b: 'The trim actuator system',
+        c: 'The collective and cyclic control systems'
+    },
+    correct: 'c'
+}, */
+/* {
+    id: 4772,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: "Which control system's adjustable rods include Y2, Y3, Y5, Y8 and Y10?",
+    options: {
+        a: 'The yaw control system',
+        b: 'The collective and cyclic control systems',
+        c: 'The trim actuator system'
+    },
+    correct: 'a'
+}, */
+{
+    id: 4773,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: "When adjusting a control rod's length, what must be done to the lock washer during reassembly?",
+    options: {
+        a: 'The same lock washer may be reused if undamaged',
+        b: 'The old lock washer must be removed, discarded, and a new one fitted',
+        c: 'No lock washer is used on control rods'
+    },
+    correct: 'b'
+},
+{
+    id: 4774,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: "After torquing the control rod's eye end nut to the specified value, what must be measured?",
+    options: {
+        a: "'Dimension X', ensuring it does not exceed the maximum limit",
+        b: "The rod's surface temperature",
+        c: "The nut's rotational free-play"
+    },
+    correct: 'a'
+},
+{
+    id: 4775,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'What is the purpose of the rigging pins referenced in the control rod adjustment procedure?',
+    options: {
+        a: 'To secure the main rotor blades during balancing',
+        b: 'To lock the landing gear in the down position',
+        c: 'To lock the flight controls during removal/installation of the adjustable control rods'
+    },
+    correct: 'c'
+},
+{
+    id: 4776,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'What if any are the difference between the gearbox chip detechtors and the Engine chip detectors?',
+    options: {
+        a: 'Engine chip detectors have a fuzz burn burn feature',
+        b: 'Gearbox chip detectors have a fuzz burn burn feature',
+        c: 'Both Engine and Gearbox chip detectors have a fuzz burn burn feature'
+    },
+    correct: 'b'
+},
+/* {
+    id: 4777,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'What does a chip detector sense, and what happens when it detects a ferrous particle?',
+    options: {
+        a: 'Oil pressure only; the relevant generator is automatically disconnected',
+        b: 'Unwanted particles in the gearbox lubricating oil; an applicable CAS caution message is displayed on the MFD',
+        c: 'Oil temperature only; a maintenance log entry is created automatically'
+    },
+    correct: 'b'
+}, */
+{
+    id: 4778,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'Below what particle diameter can metal particles be burned off using the CHIP BURNER switch?',
+    options: {
+        a: '0.5 mm (0.02 in)',
+        b: '0.05 mm (0.002 in)',
+        c: '5 mm (0.2 in)'
+    },
+    correct: 'b'
+},
+{
+    id: 4779,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'Before removing a chip detector following a CAS chip caution, what should be done?',
+    options: {
+        a: 'Immediately discard the chip detector and fit a new one',
+        b: 'Take digital photographs of the particles in place',
+        c: 'Drain the entire gearbox oil system'
+    },
+    correct: 'b'
+},
+/* {
+    id: 4780,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'How can magnetic particles found on a chip detector be identified?',
+    options: {
+        a: 'They are made of steel and will be attracted to a magnet',
+        b: 'They always appear silver/white in colour, unlike non-magnetic particles',
+        c: 'They dissolve when exposed to hydrochloric acid'
+    },
+    correct: 'a'
+}, */
+/* {
+    id: 4781,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'What classification system is used to establish the significance of magnetic particles found on a chip detector?',
+    options: {
+        a: 'A simple pass/fail colour code (red/green)',
+        b: 'Event codes, with codes 1-4 not significant and codes 5-7 significant',
+        c: 'A weight-based threshold in milligrams only'
+    },
+    correct: 'b'
+}, */
+/* {
+    id: 4782,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'For non-magnetic particles requiring corrective action, what document should be consulted?',
+    options: {
+        a: 'The flowchart in the Gearbox Maintenance procedures after chip detector caution alarm DM',
+        b: 'The AMDI consumables list',
+        c: 'The ASRP structure repair zoning DM'
+    },
+    correct: 'a'
+}, */
+/* {
+    id: 4783,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'How should removed chip detector particles be prepared for identification/shipping?',
+    options: {
+        a: 'Placed loose in a sealed plastic bag with no labelling',
+        b: 'Dissolved in acid before packaging',
+        c: 'Brushed onto adhesive tape, with another strip of tape placed over them, then attached to an information card'
+    },
+    correct: 'c'
+}, */
+{
+    id: 4784,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'Besides preparing the particle sample, what additional data upload is required following a chip detector finding?',
+    options: {
+        a: 'A full aircraft weight and balance recalculation',
+        b: 'The last 100 FH of HUMS data uploaded to the Leonardo Heliwise server',
+        c: 'The complete AFIP fault log for the past 12 months'
+    },
+    correct: 'b'
+},
+/* {
+    id: 4785,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: "What is the maximum relative humidity permitted in a 'controlled atmosphere warehouse' for gearbox storage?",
+    options: {
+        a: 'Not more than 40%',
+        b: 'Not more than 80%',
+        c: 'Not more than 60%'
+    },
+    correct: 'c'
+}, */
+/* {
+    id: 4786,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: "What temperature range must a 'controlled atmosphere warehouse' maintain for gearbox storage?",
+    options: {
+        a: 'Between 30°C and 45°C',
+        b: 'Between 0°C and 10°C',
+        c: 'Between 18°C and 28°C'
+    },
+    correct: 'c'
+}, */
+{
+    id: 4787,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: "What is the maximum duration for 'Field storage' of a gearbox?",
+    options: {
+        a: '15 days',
+        b: '90 days',
+        c: '30 days'
+    },
+    correct: 'a'
+},
+{
+    id: 4788,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'What is Type C storage used for, in terms of duration and environment?',
+    options: {
+        a: 'Storing a gearbox for 15 days in the field only',
+        b: 'Storing a gearbox for 24 months (720 days) in a controlled atmosphere warehouse',
+        c: 'Storing a gearbox for 90 days in outdoor conditions'
+    },
+    correct: 'b'
+},
+{
+    id: 4789,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'Which publication, included from IETP edition 45 onwards, may contain additional standard practices content beyond the listed AMP/ACCP/CSRP chapters?',
+    options: {
+        a: 'The CSPP (Common Standard Practices Manual)',
+        b: 'The AWDP',
+        c: 'The AMPI'
+    },
+    correct: 'a'
+},
+{
+    id: 4790,
+    Aircraft: 'AW139',
+    Category: '60',
+    question: 'Which AMP chapter covers Standard Practices for structures, as distinct from CH60 (rotors)?',
+    options: {
+        a: 'AMP CH67',
+        b: 'AMP CH20',
+        c: 'AMP CH51'
     },
     correct: 'c'
 }
