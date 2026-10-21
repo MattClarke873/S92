@@ -1,29 +1,33 @@
-# 🚁 Type Course Quiz
+# Type Course Quiz
 
-A personal, browser-based multiple-choice quiz for helicopter type-course training. Three aircraft, zero backend, and a question bank that quietly remembers every answer you've ever gotten wrong.
+A browser-based multiple-choice quiz for helicopter type-course training, built for one cockpit: mine. Three aircraft, zero backend, and a question bank that remembers every answer you've ever gotten wrong.
 
-**Flying now at [mattclarke873.github.io/S92](https://mattclarke873.github.io/S92/)**
+**[mattclarke873.github.io/S92](https://mattclarke873.github.io/S92/)**
 
-> ⚠️ **Heads up:** this is a personal training aid, not an official reference. Question accuracy hasn't been independently verified — always cross-check anything you're unsure about.
+> **Heads up:** this is a personal training aid, not an official reference. Question accuracy hasn't been independently verified — always cross-check anything you're unsure about.
 
-## 📊 The numbers
+## 4,114 questions, three type ratings
 
-| Aircraft | Questions in the bank |
+| Aircraft | Questions |
 |---|---|
-| 🚁 S-92 | 1,018 |
-| 🚁 H175 | 1,730 |
-| 🚁 AW139 | 410 |
-| **Total** | **3,158** |
+| S-92 | 1,018 |
+| H175 | 1,823 |
+| AW139 | 1,273 |
+| **Total** | **4,114** |
 
-## ✨ Features
+Each aircraft is split into weekly quizzes that mirror the type course itself, filterable by ATA chapter and question count: S-92 (5 weeks), H175 (4 weeks plus a final exam), AW139 (4 weeks).
 
-- 📅 **Per-aircraft, per-week quizzes** — S-92 (5 weeks), H175 (4 weeks + a final exam), AW139 (4 weeks), each filterable by ATA chapter and question count.
-- 🎯 **Adaptive question weighting** — get one wrong, it stalks you. Get it right three times in a row and it backs off (but never fully leaves you alone). See `js/progress.js`.
-- 📈 **Per-browser progress tracking** — a "Your Progress" panel shows tracked / mastered / due-for-review counts and accuracy, stored in `localStorage`. Your phone and laptop won't compare notes.
-- 🚩 **Report an issue** — spot a dud question? One click sends the question, all 3 options, and the marked-correct answer straight to a Formspree inbox.
-- 🕒 **"Last updated" timestamp** — pulled live from this repo's latest commit via the GitHub API, so it never lies to you like a browser clock would.
+## Features
 
-## 🗂️ Project structure
+**Adaptive weighting.** Get a question wrong and it comes back sooner; answer it correctly three times running and it backs off, but never fully leaves you alone. Logic lives in `js/progress.js`.
+
+**Progress tracking.** A "Your Progress" panel shows tracked, mastered, and due-for-review counts plus accuracy, stored in `localStorage` per browser — your phone and laptop keep separate scores.
+
+**Report an issue.** Spot a wrong answer? One click sends the question, all three options, and the marked-correct answer to a Formspree inbox.
+
+**Live "last updated" stamp.** Pulled from this repo's latest commit via the GitHub API, so it can't drift the way a cached page would.
+
+## Project structure
 
 ```
 index.html                           Landing page — pick an aircraft
@@ -56,13 +60,13 @@ support_Documents/     Background photos and question-bank images
 tools/                 Offline authoring scripts (not part of the live site) — Excel ⇄ questionBank.js converters
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 `js/config.js` holds the Formspree endpoint for the "Report an issue" feature (`REPORT_FORM_ENDPOINT`). To redirect reports somewhere else, create a new form at [formspree.io](https://formspree.io) and swap in its endpoint URL.
 
 `js/updateTime.js` hardcodes the GitHub repo (`mattclarke873/S92`) it checks for the "Last updated" timestamp — update this if the repo is ever renamed.
 
-## 🛠️ Content tools
+## Content tools
 
 `tools/` contains local Python/Node scripts used to maintain `questionBank.js` from a spreadsheet — they aren't run by the website itself, just used locally when adding questions:
 
@@ -72,6 +76,6 @@ tools/                 Offline authoring scripts (not part of the live site) —
 
 `html/Admin.html` is a browser-based table view of the full question bank (filterable by ID / Aircraft / Category) with a link to the Formspree submissions inbox for reported questions.
 
-## 🚀 Deployment
+## Deployment
 
-Hosted via GitHub Pages from this repo. Pushing to the default branch updates the live site (propagation + Pages caching can take a few minutes to show up).
+Hosted via GitHub Pages from this repo. Pushing to the default branch updates the live site (propagation plus Pages caching can take a few minutes to show up).

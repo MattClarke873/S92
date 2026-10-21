@@ -49132,11 +49132,11 @@ export const questions = [
     id: 5181,
     Aircraft: 'AW139',
     Category: '64',
-    question: 'Which of these is NOT permitted on damper elastomer inspection?',
+    question: 'What is the acceptance limit for a radial crack found on the damper elastomer?',
     options: {
-        a: 'Circumferential cracks under 270°',
-        b: 'Minor surface discolouration',
-        c: 'Radial cracks, of any extent'
+        a: 'Circumferential cracks under 270° arc amplitude are the acceptable type, not radial',
+        b: 'Radial cracks are acceptable if they are only minor surface discolouration',
+        c: 'None permitted - any radial crack found is rejectable'
     },
     correct: 'c'
 },
