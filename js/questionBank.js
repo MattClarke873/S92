@@ -44584,7 +44584,7 @@ export const questions = [
     id: 4802,
     Aircraft: 'AW139',
     Category: '62',
-    question: 'What two components does the spar carry?',
+    question: 'What two components does the spar of the main rotor blade carry?',
     options: {
         a: 'The steel erosion shield and the optional heater mat (IPS)',
         b: 'The nickel tip shield and the lightning conductor strip',
@@ -45768,7 +45768,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 4901,
     Aircraft: 'AW139',
     Category: '62',
@@ -45803,7 +45803,7 @@ export const questions = [
         c: '2400 hrs'
     },
     correct: 'a'
-},
+}, */
 /* {
     id: 4904,
     Aircraft: 'AW139',
@@ -49072,7 +49072,7 @@ export const questions = [
     id: 5176,
     Aircraft: 'AW139',
     Category: '64',
-    question: 'What prevents the ring nut from rotating?',
+    question: 'When the hub is fitted on the TGB mast, what prevents the ring nut from rotating?',
     options: {
         a: 'A locking flange with two keys located in keyways cut into the mast',
         b: 'Friction alone',
@@ -49240,7 +49240,7 @@ export const questions = [
     id: 5190,
     Aircraft: 'AW139',
     Category: '64',
-    question: 'What forms the attachment for the pitch link on the pitch change arm?',
+    question: 'What forms the attachment for the pitch link on the pitch change arm of the tail rotor head?',
     options: {
         a: 'A bonded tab',
         b: 'A clevis lug',
