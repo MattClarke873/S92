@@ -49463,6 +49463,115 @@ export const questions = [
         c: 'A blade dynamic balancing check'
     },
     correct: 'c'
-}
+},
+{
+    id: 5213,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'Do the upper and lower flap limiters share the same limit value?',
+    options: {
+        a: 'Yes, both limit to ±10°',
+        b: 'Yes, both limit to ±12°',
+        c: 'No - the upper limiter allows +12°, the lower limiter allows -10°'
+    },
+    correct: 'c'
+},
+{
+    id: 5214,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'Why does the tail rotor actuator pitch control rod not rotate?',
+    options: {
+        a: 'It is fixed (non-rotating); a duplex ball bearing interfaces it with the rotating spider and slider assembly',
+        b: 'It is locked by the rotor brake whenever NR is below 40%',
+        c: 'It free-spins with the spider, driven by the rotating scissors'
+    },
+    correct: 'a'
+},
+{
+    id: 5215,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'When replacing a TR elastomeric bearing, where is the new shim fitted?',
+    options: {
+        a: 'Between the bearing and the pitch change arm bolt head',
+        b: "Inside the bearing's elastomeric core",
+        c: 'At the inboard and outboard flap stops, not inside the bearing itself'
+    },
+    correct: 'c'
+},
+{
+    id: 5216,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'How can the tail rotor be turned on the ground?',
+    options: {
+        a: 'By hand, pushing directly on a TR blade',
+        b: 'By turning the main rotor, since TR blades must never be pushed or pulled directly',
+        c: 'By operating the rotor brake pumping handle'
+    },
+    correct: 'b'
+},
+{
+    id: 5217,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What is the TR hub made from?',
+    options: {
+        a: 'A one-piece, forged titanium unit',
+        b: 'A cast magnesium alloy unit',
+        c: 'A two-piece bolted aluminium alloy casting'
+    },
+    correct: 'a'
+},
+{
+    id: 5218,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'Describe the attachment of the TR pitch control rods (pitch links).',
+    options: {
+        a: 'Hydraulic push-pull rods connected directly to the TGB mast',
+        b: 'Stainless steel tie rods with an adjustable rod end spherical bearing at each end (one LH, one RH thread), connecting the spider/slider assembly to the pitch change arm at the blade trailing edge, with securing bolts installed head facing the direction of rotation',
+        c: 'Fixed-length titanium rods, welded at one end to the spider and bolted at the other to the blade root'
+    },
+    correct: 'b'
+},
+{
+    id: 5219,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What is the purpose of the yellow reference marks on the TR hub and its dampers/scissors?',
+    options: {
+        a: 'To indicate which components are due for replacement at the next inspection',
+        b: 'To ensure correct orientation - matching marks confirm correct installation of the damper eye-end and the rotating scissor forks',
+        c: 'To show the direction of normal main rotor rotation for reference'
+    },
+    correct: 'b'
+},
+{
+    id: 5220,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What is the purpose of the TR slider bushing?',
+    options: {
+        a: 'It provides the electrical bonding path for lightning protection',
+        b: 'It dampens lead/lag movement of the blades',
+        c: 'It maintains the cylindrical body of the slider centred in the tail rotor hub'
+    },
+    correct: 'c'
+},
+{
+    id: 5221,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What must be remembered when replacing a TR spider assembly?',
+    options: {
+        a: 'After installation, dimension X (spider to slider plane) and dimension Y (duplex bearing) must equal dimension Z (spider plane to duplex bearing) once the securing nut is torque loaded, and a blade dynamic balancing check is required',
+        b: 'No post-installation checks are required if the same part number is fitted',
+        c: 'Only a continuity check is required; dimensional checks apply only to pitch link replacement'
+    },
+    correct: 'a'
+},
+
     ];
     
