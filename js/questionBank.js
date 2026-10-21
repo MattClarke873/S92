@@ -45220,7 +45220,7 @@ export const questions = [
     id: 4855,
     Aircraft: 'AW139',
     Category: '62',
-    question: 'How many elastomeric bearings are installed, and where?',
+    question: 'How many elastomeric bearings are installed on the Main Rotor Head, and where?',
     options: {
         a: 'Two, within the swashplate duplex bearing',
         b: 'Five, between the tension links and the hub',
@@ -46264,7 +46264,7 @@ export const questions = [
     id: 4942,
     Aircraft: 'AW139',
     Category: '62',
-    question: 'Where is electrical bonding (and lightning discharge) routed through, from the blade to the lag damper?',
+    question: 'Where is electrical bonding (and lightning discharge) routed through, from the Main Rotor blade to the lag damper?',
     options: {
         a: 'From the blade root directly to the mast, via the top conical ring',
         b: "From the blade's lightning conductor strip, through the bonding contactor, to the pitch control lever, and then via the lightning conductor jumper to the lag damper",
@@ -47336,7 +47336,7 @@ export const questions = [
     options: {
         a: 'Only the rotor brake actuator',
         b: 'Only the NR speed sensor',
-        c: 'PUMP 4, the two lubrication system pumps, and (if fitted) the ECS compressor'
+        c: 'A simple bevel gear that drives the oil cooler fan'
     },
     correct: 'c'
 },
@@ -47472,7 +47472,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 5043,
     Aircraft: 'AW139',
     Category: '63',
@@ -47483,7 +47483,7 @@ export const questions = [
         c: '62 bar'
     },
     correct: 'a'
-},
+}, */
 {
     id: 5044,
     Aircraft: 'AW139',
@@ -47682,7 +47682,7 @@ export const questions = [
     Category: '63',
     question: 'Under what condition must the Main Gearbox be removed/installed?',
     options: {
-        a: 'With the aircraft on its wheels, engines at idle',
+        a: 'With the aircraft on its wheels, and chocked',
         b: 'With the rotor brake released and blades folded',
         c: 'With the helicopter levelled on jacks, so the mast is vertical'
     },
@@ -48180,7 +48180,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 5102,
     Aircraft: 'AW139',
     Category: '63',
@@ -48191,7 +48191,7 @@ export const questions = [
         c: '46.5 bar'
     },
     correct: 'b'
-},
+}, */
 {
     id: 5103,
     Aircraft: 'AW139',
@@ -48384,7 +48384,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 5119,
     Aircraft: 'AW139',
     Category: '63',
@@ -48395,7 +48395,7 @@ export const questions = [
         c: '62 bar'
     },
     correct: 'b'
-},
+}, */
 {
     id: 5120,
     Aircraft: 'AW139',
@@ -48720,7 +48720,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 5147,
     Aircraft: 'AW139',
     Category: '64',
@@ -48731,7 +48731,7 @@ export const questions = [
         c: 'CR&OP'
     },
     correct: 'c'
-},
+}, */
 {
     id: 5148,
     Aircraft: 'AW139',
@@ -48888,7 +48888,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 5161,
     Aircraft: 'AW139',
     Category: '64',
@@ -48899,7 +48899,7 @@ export const questions = [
         c: '+0.5 to -0.5 mm'
     },
     correct: 'b'
-},
+}, */
 {
     id: 5162,
     Aircraft: 'AW139',
@@ -49060,7 +49060,7 @@ export const questions = [
     id: 5175,
     Aircraft: 'AW139',
     Category: '64',
-    question: 'How many bolts load the top conical ring via the pressure washer?',
+    question: 'How many bolts load the top conical ring via the pressure washer on the Tail Rotor Head?',
     options: {
         a: 'Eight',
         b: 'Twelve',
@@ -49408,7 +49408,7 @@ export const questions = [
     id: 5204,
     Aircraft: 'AW139',
     Category: '64',
-    question: 'How many pitch links are installed, and how many per blade?',
+    question: 'How many pitch links are installed, and how many per tail rotor blade?',
     options: {
         a: 'Two, shared between opposite blades',
         b: 'Four, one per blade',
@@ -49488,7 +49488,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 5215,
     Aircraft: 'AW139',
     Category: '64',
@@ -49499,7 +49499,7 @@ export const questions = [
         c: 'At the inboard and outboard flap stops, not inside the bearing itself'
     },
     correct: 'c'
-},
+}, */
 {
     id: 5216,
     Aircraft: 'AW139',
