@@ -44992,7 +44992,7 @@ export const questions = [
     id: 4836,
     Aircraft: 'AW139',
     Category: '62',
-    question: 'Under what condition is the closure flange NOT fitted?',
+    question: 'Under what condition is the Main Rotor Mast closure flange NOT fitted?',
     options: {
         a: 'If the beanie is not fitted',
         b: 'If the MVA (Mast Vibration Absorber) is fitted',
@@ -46415,7 +46415,3054 @@ export const questions = [
         c: "Four Teflon-coated steel centering plates, screwed to the gearbox casing, locate the spherical pivot's bosses to provide low-friction vertical sliding while resisting rotational forces"
     },
     correct: 'c'
+},
+{
+    id: 5010,
+    Aircraft: 'AW139',
+    Category: '00',
+    question: 'How many sections does the QRH contain, and how are they grouped?',
+    options: {
+        a: 'Four sections, grouped into two parts',
+        b: 'Six sections, grouped into three parts',
+        c: 'Two sections, grouped into one part'
+    },
+    correct: 'a'
+},
+{
+    id: 5007,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'What material are the flap stop pins made of?',
+    options: {
+        a: 'Aluminium alloy',
+        b: 'Steel',
+        c: 'Titanium'
+    },
+    correct: 'b'
+},
+{
+    id: 5008,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How many lateral forks does the scissors attachment flange have, for attachment of the rotating scissors?',
+    options: {
+        a: 'Two',
+        b: 'One',
+        c: 'Four'
+    },
+    correct: 'a'
+},
+{
+    id: 5009,
+    Aircraft: 'AW139',
+    Category: '62',
+    question: 'How many flanged bushes are installed in the holes of each lateral fork of the scissors attachment flange?',
+    options: {
+        a: 'One',
+        b: 'Four',
+        c: 'Two'
+    },
+    correct: 'c'
+},
+{
+    id: 5001,
+    Aircraft: 'AW139',
+    Category: '56',
+    question: 'What is acrylic (as used for AW139 windows) chemically made of?',
+    options: {
+        a: 'A blend of polycarbonate and polyester resins',
+        b: 'Polymers of styrene and butadiene',
+        c: 'Polymers of acrylic acid or acrylates'
+    },
+    correct: 'c'
+},
+{
+    id: 5002,
+    Aircraft: 'AW139',
+    Category: '56',
+    question: 'What specification governs the acrylic and polycarbonate used for AW139 windows?',
+    options: {
+        a: 'MIL-PRF-85285',
+        b: 'MIL-P-83310',
+        c: 'MIL-PRF-5606'
+    },
+    correct: 'b'
+},
+{
+    id: 5003,
+    Aircraft: 'AW139',
+    Category: '56',
+    question: 'How many filler wedges hold a cabin window transparency in position, together with a plastic shim and seal?',
+    options: {
+        a: 'Two',
+        b: 'Four',
+        c: 'One'
+    },
+    correct: 'a'
+},
+{
+    id: 5004,
+    Aircraft: 'AW139',
+    Category: '56',
+    question: 'How many windows are in each large sliding (cabin) door, used as emergency exits?',
+    options: {
+        a: 'One',
+        b: 'Two',
+        c: 'Three'
+    },
+    correct: 'b'
+},
+{
+    id: 5005,
+    Aircraft: 'AW139',
+    Category: '56',
+    question: 'What type of seal holds each emergency exit window transparency in place?',
+    options: {
+        a: 'A neoprene rubber seal',
+        b: 'A PTFE gasket seal',
+        c: 'A silicone rubber seal'
+    },
+    correct: 'c'
+},
+{
+    id: 5006,
+    Aircraft: 'AW139',
+    Category: '56',
+    question: 'What material is the optional glass windshield made from, and what advantage does it have over the acrylic windshield?',
+    options: {
+        a: 'Multilayer glass material; it is more resistant, with a good temperature operating range and the best forward visibility',
+        b: 'Laminated polycarbonate; it is lighter but has a narrower temperature range',
+        c: 'Toughened acrylic composite; it is cheaper but optically inferior'
+    },
+    correct: 'a'
+},
+{
+    id: 4999,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'How many longerons are located below the cockpit floor?',
+    options: {
+        a: 'Six',
+        b: 'Four',
+        c: 'Two'
+    },
+    correct: 'b'
+},
+{
+    id: 5000,
+    Aircraft: 'AW139',
+    Category: '53',
+    question: 'How many fittings connect the tail plane to the supports on the vertical stabiliser, and how many holes does each have?',
+    options: {
+        a: 'Two fittings, each with two holes',
+        b: 'One fitting, with four holes',
+        c: 'Four fittings, each with one hole'
+    },
+    correct: 'a'
+},
+{
+    id: 4998,
+    Aircraft: 'AW139',
+    Category: '32',
+    question: 'How many ports does the separate manifold component (adjacent to the LGCV) have?',
+    options: {
+        a: '21',
+        b: 'Four',
+        c: 'Six'
+    },
+    correct: 'a'
+},
+{
+    id: 4995,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'What separates oil from air inside the PCM reservoir, and what material is it?',
+    options: {
+        a: 'A floating aluminium piston',
+        b: 'A Teflon diaphragm with no spring assistance',
+        c: 'A rubber membrane, energized by a spring to provide pressurization'
+    },
+    correct: 'c'
+},
+{
+    id: 4996,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'How many pneumatic wheels does the hydraulic test bench trolley have, and how many are mounted on a rotating plate?',
+    options: {
+        a: 'Four wheels, with two on a rotating plate',
+        b: 'Four wheels, with none on a rotating plate',
+        c: 'Six wheels, with two on a rotating plate'
+    },
+    correct: 'a'
+},
+{
+    id: 4997,
+    Aircraft: 'AW139',
+    Category: '29',
+    question: 'Besides titanium skins on the PCM reservoir, what else is made of titanium to improve fire resistance?',
+    options: {
+        a: 'The PCM filter housings',
+        b: 'The rigid tubes and the drain lines',
+        c: 'The hydraulic pump casings'
+    },
+    correct: 'b'
+},
+{
+    id: 4985,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: "What material are the beacon's two skin surfaces filled with?",
+    options: {
+        a: 'Expanded polystyrene foam',
+        b: 'Closed-cell polyurethane foam',
+        c: 'Rigid foam of fire retardant ABS plastic'
+    },
+    correct: 'c'
+},
+{
+    id: 4986,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What material is the CEL front fairing made of?',
+    options: {
+        a: 'Solid moulded ABS plastic',
+        b: 'A laminate of carbon fibers and aramide fibers',
+        c: 'A laminate of aramide fibers and glass fibers'
+    },
+    correct: 'c'
+},
+{
+    id: 4987,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'During the ELT functional test, how many acoustic signals (beeps) indicate the SIU has lost access to the beacon?',
+    options: {
+        a: 'One',
+        b: 'Two',
+        c: 'Three'
+    },
+    correct: 'b'
+},
+{
+    id: 4988,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'How many acoustic signals indicate the Number 1 accelerometer of the SIU is defective?',
+    options: {
+        a: 'Three',
+        b: 'Four',
+        c: 'Two'
+    },
+    correct: 'a'
+},
+{
+    id: 4989,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'How many acoustic signals indicate the Number 2 accelerometer of the SIU is defective?',
+    options: {
+        a: 'Three',
+        b: 'Four',
+        c: 'Five'
+    },
+    correct: 'b'
+},
+{
+    id: 4990,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'How many acoustic signals indicate the Number 3 accelerometer of the SIU is defective?',
+    options: {
+        a: 'Six',
+        b: 'Five',
+        c: 'Four'
+    },
+    correct: 'b'
+},
+{
+    id: 4991,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'How many acoustic signals indicate the beacon radio frequency signal is defective?',
+    options: {
+        a: 'Eight',
+        b: 'Seven',
+        c: 'Nine'
+    },
+    correct: 'a'
+},
+{
+    id: 4992,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: 'What does a string of six acoustic signals at the end of the ADELT boot procedure indicate?',
+    options: {
+        a: 'The ELT system is defective',
+        b: 'The beacon battery needs replacement within 24 hours',
+        c: 'The self-test passed successfully'
+    },
+    correct: 'a'
+},
+{
+    id: 4993,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: "How many positions does the hoist operator control panel's brightness switch have, and what are they?",
+    options: {
+        a: 'Three: OFF, DIM and BRT',
+        b: 'Two: OFF and ON',
+        c: 'Four: OFF, LOW, MED and HIGH'
+    },
+    correct: 'a'
+},
+{
+    id: 4994,
+    Aircraft: 'AW139',
+    Category: '25A',
+    question: "How many 'D' size Lithium Manganese Dioxide cells make up the non-deployable ELT's battery pack?",
+    options: {
+        a: 'Six',
+        b: 'Two',
+        c: 'Four'
+    },
+    correct: 'c'
+},
+{
+    id: 4962,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What material is the cockpit fan shaft made of?',
+    options: {
+        a: 'Titanium',
+        b: 'Aluminium alloy',
+        c: 'Stainless steel'
+    },
+    correct: 'c'
+},
+{
+    id: 4963,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What material are the cockpit and cabin fan casings made of?',
+    options: {
+        a: 'Composite plastic',
+        b: 'Stainless steel',
+        c: 'Aluminium'
+    },
+    correct: 'c'
+},
+{
+    id: 4964,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What material is the left ventilation (nose bay) fan body made of?',
+    options: {
+        a: 'Cast aluminium',
+        b: 'Glass filled plastic material',
+        c: 'Carbon fibre composite'
+    },
+    correct: 'b'
+},
+{
+    id: 4965,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'After the two high-pressure bleed air pipes connect downstream of the check valves, what material does the single combined pipe become?',
+    options: {
+        a: 'Stainless steel',
+        b: 'Titanium',
+        c: 'Inconel'
+    },
+    correct: 'a'
+},
+{
+    id: 4966,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What material are the two rigid high-pressure ducts below the engine firewall made of?',
+    options: {
+        a: 'Aluminium alloy',
+        b: 'Stainless steel',
+        c: 'Titanium'
+    },
+    correct: 'b'
+},
+{
+    id: 4967,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What material is the high-pressure duct insulation made of, and what casing contains it?',
+    options: {
+        a: 'Mineral wool insulation, contained in a PTFE casing',
+        b: 'Ceramic wool insulation, contained in an aluminium casing',
+        c: 'Fibreglass insulation, contained in a Viton casing'
+    },
+    correct: 'c'
+},
+{
+    id: 4968,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What material are the shut-off valve body, flanges, piston and internal components made of?',
+    options: {
+        a: 'Stainless steel',
+        b: 'Bronze',
+        c: 'Titanium'
+    },
+    correct: 'a'
+},
+{
+    id: 4969,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What material is the shut-off valve actuator housing made of?',
+    options: {
+        a: 'Cast magnesium alloy',
+        b: 'Carbon fibre composite',
+        c: 'Poly-ether ether-ketone and aluminium alloy'
+    },
+    correct: 'c'
+},
+{
+    id: 4970,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What material is the venturi duct (jet pump) mixing unit made of, versus the injectors?',
+    options: {
+        a: 'Mixing unit: composite materials; injectors: stainless steel',
+        b: 'Both the mixing unit and injectors: titanium',
+        c: 'Mixing unit: stainless steel; injectors: composite materials'
+    },
+    correct: 'a'
+},
+{
+    id: 4971,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: "What material is the temperature control valve's actuator casing made of?",
+    options: {
+        a: 'Poly-ether ether-ketone and aluminium alloy',
+        b: 'Stainless steel',
+        c: 'Composite laminate'
+    },
+    correct: 'a'
+},
+{
+    id: 4972,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: "What material is the heating system's temperature switch housing made of?",
+    options: {
+        a: 'Stainless steel',
+        b: 'Aluminium alloy',
+        c: 'Brass'
+    },
+    correct: 'a'
+},
+{
+    id: 4973,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: "What material is the heating control box's electronic card made of, and what protective coating does it have?",
+    options: {
+        a: 'Fibreglass PCB, coated with conformal silicone',
+        b: 'Epoxy resin, painted with a layer of acrylic varnish for water protection',
+        c: 'Ceramic substrate, with no protective coating'
+    },
+    correct: 'b'
+},
+{
+    id: 4974,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What material are the IECS fluid reservoirs and filters made of?',
+    options: {
+        a: 'Steel',
+        b: 'Aluminium alloy',
+        c: 'Titanium'
+    },
+    correct: 'a'
+},
+{
+    id: 4975,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What material are the IECS compressor casings made of?',
+    options: {
+        a: 'Cast iron',
+        b: 'Aluminium alloy',
+        c: 'Stainless steel'
+    },
+    correct: 'b'
+},
+{
+    id: 4976,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What material is the cockpit/cabin evaporator frame made of?',
+    options: {
+        a: 'ABS plastic',
+        b: 'Aluminium alloy',
+        c: 'Epoxy resin'
+    },
+    correct: 'c'
+},
+{
+    id: 4977,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: "What material is the condenser assembly's frame made of, and how is it attached to the upper deck?",
+    options: {
+        a: 'Epoxy resin frame, attached with eight bolts and washers',
+        b: 'Aluminium alloy frame, riveted in place',
+        c: 'Composite frame, bonded with structural adhesive'
+    },
+    correct: 'a'
+},
+{
+    id: 4978,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What material are the condenser fan blades made of?',
+    options: {
+        a: 'Glass-fiber reinforced plastics',
+        b: 'Cast aluminium',
+        c: 'Carbon fibre'
+    },
+    correct: 'a'
+},
+{
+    id: 4979,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How many cabin air diffusers are there in total, combining forward and aft?',
+    options: {
+        a: 'Two',
+        b: 'Six',
+        c: 'Four'
+    },
+    correct: 'c'
+},
+{
+    id: 4980,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How many air outlets are at the bottom of the cockpit, downstream of the cabin air diffusers?',
+    options: {
+        a: 'One',
+        b: 'Two',
+        c: 'Four'
+    },
+    correct: 'b'
+},
+{
+    id: 4981,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How many screws attach the nose avionic bay air intake duct to the fuselage structure?',
+    options: {
+        a: 'Twelve',
+        b: 'Six',
+        c: 'Four'
+    },
+    correct: 'b'
+},
+{
+    id: 4982,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How many clamps attach the noise attenuator to the Y-branch duct and the insulated hose?',
+    options: {
+        a: 'Four',
+        b: 'Two',
+        c: 'One'
+    },
+    correct: 'b'
+},
+{
+    id: 4983,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How many positions does the VENT-CONTR toggle switch have?',
+    options: {
+        a: 'Four',
+        b: 'Two (CREW and PAX)',
+        c: 'Three'
+    },
+    correct: 'b'
+},
+{
+    id: 4984,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How many positions do the four-position VENT-CREW and VENT-PAX selectors have?',
+    options: {
+        a: 'Two (OFF, ON)',
+        b: 'Three (OFF, ON, FAN)',
+        c: 'Four (OFF, ON, FAN LOW, FAN HIGH)'
+    },
+    correct: 'c'
+},
+{
+    id: 4955,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'How many tail rotor blades does the AW139 have?',
+    options: {
+        a: 'Five',
+        b: 'Four',
+        c: 'Two'
+    },
+    correct: 'b'
+},
+{
+    id: 4956,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'How many key buttons are provided to operate the VIBREX 2000 Balancer unit?',
+    options: {
+        a: 'Two',
+        b: 'Six',
+        c: 'Four'
+    },
+    correct: 'c'
+},
+{
+    id: 4957,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'How many bolts attach the disks to the Mast Vibration Absorber (MVA) vibration mass?',
+    options: {
+        a: 'Six',
+        b: 'Eight',
+        c: 'Four'
+    },
+    correct: 'a'
+},
+{
+    id: 4958,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'How many identical units make up the passive vibration absorber system installed under the cabin floor?',
+    options: {
+        a: 'Two',
+        b: 'Four',
+        c: 'One'
+    },
+    correct: 'a'
+},
+{
+    id: 4959,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'How many velocimeters are used for tail rotor dynamic balancing, and where are they installed?',
+    options: {
+        a: 'Two, installed on the tail gear box',
+        b: 'Four, installed on the tail rotor blades',
+        c: 'One, installed on the vertical fin'
+    },
+    correct: 'a'
+},
+{
+    id: 4960,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: "What material are the MVA's calibrated weights made of?",
+    options: {
+        a: 'Depleted uranium',
+        b: 'Lead',
+        c: 'Tungsten'
+    },
+    correct: 'c'
+},
+{
+    id: 4961,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: "What material are the MVA's disks made of?",
+    options: {
+        a: 'Titanium',
+        b: '4130 steel alloy',
+        c: '6061-T6 aluminium alloy'
+    },
+    correct: 'b'
+},
+{
+    id: 5011,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What does the transmission (drive system) supply power to?',
+    options: {
+        a: 'Only the accessories, with rotors driven directly by the engines',
+        b: 'The main rotor, tail rotor, and accessories (pumps, ECS compressor, alternators)',
+        c: 'Only the main rotor and tail rotor, with accessories powered separately'
+    },
+    correct: 'b'
+},
+{
+    id: 5012,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What are the two main components of the transmission?',
+    options: {
+        a: 'MGB and IGB only',
+        b: 'TRDS and the Oil Cooler System',
+        c: 'MRDS (Main Rotor Drive System) and TRDS (Tail Rotor Drive System)'
+    },
+    correct: 'c'
+},
+{
+    id: 5013,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'Which AMP section is of particular importance for chip detector caution maintenance and metal particle classification?',
+    options: {
+        a: 'AMP Section 05-21',
+        b: 'AMP Section 20-40',
+        c: 'AMP Section 60-80'
+    },
+    correct: 'c'
+},
+{
+    id: 5014,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What connects the engines to the MGB, and how is the connection to the engine output shaft sealed?',
+    options: {
+        a: "A steel drive shaft, sealed by dual 'o' rings",
+        b: 'A titanium torque tube, sealed by a labyrinth seal',
+        c: 'A composite drive shaft, sealed by a single lip seal'
+    },
+    correct: 'a'
+},
+{
+    id: 5015,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What is the function of the gimbal assembly?',
+    options: {
+        a: 'It drives the oil cooler fan',
+        b: 'It forms a universal joint that compensates for minor misalignments caused by MGB or engine movement',
+        c: 'It provides the primary speed reduction stage'
+    },
+    correct: 'b'
+},
+{
+    id: 5016,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What must be replaced after crosshead removal?',
+    options: {
+        a: 'The drive shaft bearings',
+        b: 'The torque tube itself',
+        c: 'The barrel nuts on the crosshead'
+    },
+    correct: 'c'
+},
+{
+    id: 5017,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "What is the drive shaft's rated speed?",
+    options: {
+        a: '296 RPM',
+        b: '9111 RPM',
+        c: '21000 RPM (100% Nf/Nr)'
+    },
+    correct: 'c'
+},
+{
+    id: 5018,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What is the approximate weight of the gimbal (including shaft)?',
+    options: {
+        a: '8.5 kg (18.7 lb)',
+        b: '65.5 kg (144.4 lb)',
+        c: '204 kg (450 lb)'
+    },
+    correct: 'a'
+},
+{
+    id: 5019,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How is the mounting of the engine to the MGB achieved?',
+    options: {
+        a: 'By a direct bolted flange with no torque tube',
+        b: 'By a steel torque tube connected to the MGB input module through a steel cross head and gimbal assembly, and to the engine by a flange',
+        c: 'By a flexible composite coupling with no gimbal'
+    },
+    correct: 'b'
+},
+{
+    id: 5020,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many reduction stages does the Main Gearbox (MGB) have?',
+    options: {
+        a: 'Four',
+        b: 'Three',
+        c: 'Two'
+    },
+    correct: 'b'
+},
+{
+    id: 5021,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many identical, interchangeable engine input cases are installed on the MGB?',
+    options: {
+        a: 'Two',
+        b: 'One',
+        c: 'Four'
+    },
+    correct: 'a'
+},
+{
+    id: 5022,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What gear type performs the first speed reduction in the engine input cases, and what additional effect do these gears have?',
+    options: {
+        a: 'A spiral bevel gear set, which also changes the rotational axis toward the MGB body',
+        b: 'A spur gear set, which doubles the input speed',
+        c: 'A planetary gear set, which has no effect on rotational axis'
+    },
+    correct: 'a'
+},
+{
+    id: 5023,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What material are the engine input cases made from, and why?',
+    options: {
+        a: 'Magnesium alloy, for minimum weight',
+        b: 'Forged titanium, for maximum strength',
+        c: 'Aluminium alloy castings with a thin wall and ribs to increase strength'
+    },
+    correct: 'c'
+},
+{
+    id: 5024,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What type of freewheeling unit do the input modules incorporate?',
+    options: {
+        a: 'A one-way roller bearing with no sprag',
+        b: 'A multi-plate clutch type unit',
+        c: 'A centrifugal activated sprag type unit'
+    },
+    correct: 'c'
+},
+{
+    id: 5025,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What is monitored at the engine input case besides pressure, and by what type of sensor?',
+    options: {
+        a: 'Input pinion bearing temperature, via a bearing temperature sensor (thermocouple)',
+        b: 'Vibration, via an accelerometer only',
+        c: 'Oil viscosity, via a viscosity sensor'
+    },
+    correct: 'a'
+},
+{
+    id: 5026,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What provides the second stage of speed reduction in the MGB, and what direction change does it introduce?',
+    options: {
+        a: 'The planetary gear set, which reverses rotation direction',
+        b: 'The freewheel unit, with no direction change',
+        c: 'A collector gear, which changes the direction to a vertical output'
+    },
+    correct: 'c'
+},
+{
+    id: 5027,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many planetary gears mesh with the collector gear output shaft to provide the third stage of reduction?',
+    options: {
+        a: 'Five',
+        b: 'Three',
+        c: 'Seven'
+    },
+    correct: 'a'
+},
+{
+    id: 5028,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What does the azimuth sensor on the tail rotor drive take-off housing work with to provide usage information?',
+    options: {
+        a: 'The accelerometers located on the gearbox, feeding the HUMS',
+        b: 'The chip detectors only',
+        c: 'The NR speed sensor only'
+    },
+    correct: 'a'
+},
+{
+    id: 5029,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What simple gear, driven by the tail rotor drive take-off pinion, drives the oil cooler fan?',
+    options: {
+        a: 'A planetary gear train',
+        b: 'A spiral bevel gear set identical to the input reduction',
+        c: 'A simple bevel gear'
+    },
+    correct: 'c'
+},
+{
+    id: 5030,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "Through the MGB's three reduction stages, the engine shaft input speed of 21000 rpm is reduced to what rotor drive speed at 100% NR?",
+    options: {
+        a: '1435.7 rpm',
+        b: '296 rpm',
+        c: '2190.58 rpm'
+    },
+    correct: 'b'
+},
+{
+    id: 5031,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What additional drives does the collector gear provide, besides the tail rotor take-off?',
+    options: {
+        a: 'Only the rotor brake actuator',
+        b: 'Only the NR speed sensor',
+        c: 'PUMP 4, the two lubrication system pumps, and (if fitted) the ECS compressor'
+    },
+    correct: 'c'
+},
+{
+    id: 5032,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What do the engine input pinions on the engine input cases drive, besides the first reduction stage?',
+    options: {
+        a: 'The lubrication pumps only',
+        b: 'PUMP 1, PUMP 2, and the two alternators (if fitted)',
+        c: 'The ECS compressor only'
+    },
+    correct: 'b'
+},
+{
+    id: 5033,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many brackets, bolted to the main case, provide the lower mounting points for the main rotor actuators?',
+    options: {
+        a: 'Two',
+        b: 'Three',
+        c: 'Four'
+    },
+    correct: 'b'
+},
+{
+    id: 5034,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many drive quills are installed in the MGB in total (pump, ECS, fan, tail rotor)?',
+    options: {
+        a: 'Six',
+        b: 'Eight',
+        c: 'Four'
+    },
+    correct: 'a'
+},
+{
+    id: 5035,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many pump drive quills are installed in the main gearbox, and where?',
+    options: {
+        a: 'Two - one left, one right',
+        b: 'Four - one at each corner',
+        c: 'Three - one left, one right (symmetrical), one at the front'
+    },
+    correct: 'c'
+},
+{
+    id: 5036,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What is a quill drive, functionally?',
+    options: {
+        a: 'A hydraulic torque converter',
+        b: 'A mechanism allowing a drive shaft to shift its position (axially, radially, or both) relative to its driving shaft',
+        c: 'A fixed, non-moving gear coupling'
+    },
+    correct: 'b'
+},
+{
+    id: 5037,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many teeth does the pump drive quill pinion have, versus the ECS compressor drive quill pinion?',
+    options: {
+        a: '41 teeth (pump) versus 27 teeth (ECS compressor)',
+        b: 'Both have 29 teeth',
+        c: '27 teeth (pump) versus 41 teeth (ECS compressor)'
+    },
+    correct: 'a'
+},
+{
+    id: 5038,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many teeth does the collector gear have, that drives the ECS compressor drive quill pinion?',
+    options: {
+        a: '97 teeth',
+        b: '53 teeth',
+        c: '15 teeth'
+    },
+    correct: 'a'
+},
+{
+    id: 5039,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What gear, mounted on the tail rotor drive quill, engages the fan drive quill pinion (15 teeth)?',
+    options: {
+        a: 'A 97-tooth gear',
+        b: 'A 27-tooth gear',
+        c: 'A 53-tooth gear'
+    },
+    correct: 'c'
+},
+{
+    id: 5040,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What type of lubricating system does the main gearbox use?',
+    options: {
+        a: 'A total-loss splash lubrication system',
+        b: 'A self-contained pressure system, with internal oil ducts in the case walls',
+        c: 'An external, remotely pumped lubrication system'
+    },
+    correct: 'b'
+},
+{
+    id: 5041,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'The MGB lubrication circuit commences at what is referred to as the...?',
+    options: {
+        a: "'Header tank'",
+        b: "'Wet sump'",
+        c: "'Dry sump'"
+    },
+    correct: 'b'
+},
+{
+    id: 5042,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many pumps provide pressurised oil from the wet sump, and what type are they?',
+    options: {
+        a: 'Four centrifugal type pumps',
+        b: 'Two gerotor type pumps',
+        c: 'One gerotor type pump'
+    },
+    correct: 'b'
+},
+{
+    id: 5043,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "At what pressure does each pump's pressure relief valve divert excess oil back to the sump?",
+    options: {
+        a: '700 KPa (7 bar)',
+        b: '170 KPa',
+        c: '62 bar'
+    },
+    correct: 'a'
+},
+{
+    id: 5044,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'Where are the two main lubrication pumps and check valves installed?',
+    options: {
+        a: 'In the upper module only',
+        b: 'In the rear of the main case',
+        c: 'In the front of the main case'
+    },
+    correct: 'b'
+},
+{
+    id: 5045,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many chip detectors are in the sump, installed at the first part of the pump suction ducts?',
+    options: {
+        a: 'Two',
+        b: 'Three',
+        c: 'One'
+    },
+    correct: 'a'
+},
+{
+    id: 5046,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'Where is the mast chip detector installed?',
+    options: {
+        a: 'In the sump, beside the sump chip detectors',
+        b: 'In the upper module, in the oil collector of the main rotor',
+        c: 'On the tail rotor drive quill housing'
+    },
+    correct: 'b'
+},
+{
+    id: 5047,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "Following a 'MGB CHIP MAST' or 'MGB CHIP SUMP' CAS caution, how many times can the pilot activate the chip burn function?",
+    options: {
+        a: 'Only once',
+        b: 'Up to three times',
+        c: 'Up to five times'
+    },
+    correct: 'b'
+},
+{
+    id: 5048,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What two marks does the MGB sight glass show for oil level?',
+    options: {
+        a: 'HIGH and LOW',
+        b: 'MAX and MIN',
+        c: 'FULL and ADD'
+    },
+    correct: 'b'
+},
+{
+    id: 5049,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'Approximately how much oil does the MGB sump hold?',
+    options: {
+        a: '18 litres',
+        b: '1.5 litres',
+        c: '40 litres'
+    },
+    correct: 'a'
+},
+{
+    id: 5050,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many oil jets are installed in the main gearbox group in total?',
+    options: {
+        a: '29',
+        b: '44',
+        c: '17'
+    },
+    correct: 'a'
+},
+{
+    id: 5051,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many oil jets are installed in the main case, versus the top case?',
+    options: {
+        a: '17 in the main case, 4 in the top case',
+        b: '10 in each',
+        c: '4 in the main case, 17 in the top case'
+    },
+    correct: 'a'
+},
+{
+    id: 5052,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'Why are the MGB oil jets not interchangeable with one another?',
+    options: {
+        a: 'Each jet has unique characteristics',
+        b: 'They are all identical and fully interchangeable',
+        c: 'They differ only in colour coding, not function'
+    },
+    correct: 'a'
+},
+{
+    id: 5053,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What micron rating is the MGB oil filter, and is it disposable?',
+    options: {
+        a: '10 micron, disposable',
+        b: '3 micron, reusable',
+        c: '25 micron, disposable'
+    },
+    correct: 'a'
+},
+{
+    id: 5054,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'At what differential pressure decrease does the MGB oil filter element bypass (indicating a clogged filter)?',
+    options: {
+        a: 'More than 170 ±28 KPa',
+        b: 'More than 700 KPa',
+        c: 'More than 62 bar'
+    },
+    correct: 'a'
+},
+{
+    id: 5055,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What incorporates a shear section in the event of fan seizure?',
+    options: {
+        a: 'The oil cooler matrix',
+        b: 'The oil filter head',
+        c: 'The fan drive shaft'
+    },
+    correct: 'c'
+},
+{
+    id: 5056,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "Below what oil temperature does the oil cooler's thermostatic bypass valve remain open, bypassing the cooler matrix?",
+    options: {
+        a: '134°C',
+        b: '80°C',
+        c: '50°C'
+    },
+    correct: 'b'
+},
+{
+    id: 5057,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "What material is the oil cooler's cooling matrix constructed from, and how are the layers joined?",
+    options: {
+        a: 'Stainless steel plates, welded together',
+        b: 'Finned and corrugated aluminium layers, brazed together',
+        c: 'Titanium fins, riveted together'
+    },
+    correct: 'b'
+},
+{
+    id: 5058,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What happens if a blockage occurs within the oil cooler matrix?',
+    options: {
+        a: 'The pressure relief valve senses the pressure differential and opens, allowing oil to bypass the matrix',
+        b: 'The oil cooler fan automatically reverses direction',
+        c: 'The MGB automatically shuts down'
+    },
+    correct: 'a'
+},
+{
+    id: 5059,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What does Airworthiness Directive EASA AD 2021-0121 require?',
+    options: {
+        a: 'Replacement of the rotor brake disc',
+        b: 'Replacement of the MGB bearing lock nut',
+        c: 'Inspection of the pitch link upper rod assembly'
+    },
+    correct: 'b'
+},
+{
+    id: 5060,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'Under what condition must the Main Gearbox be removed/installed?',
+    options: {
+        a: 'With the aircraft on its wheels, engines at idle',
+        b: 'With the rotor brake released and blades folded',
+        c: 'With the helicopter levelled on jacks, so the mast is vertical'
+    },
+    correct: 'c'
+},
+{
+    id: 5061,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What must be done to PCM1 and PCM2 before MGB removal?',
+    options: {
+        a: 'They must be disconnected from the SOV only',
+        b: 'They must be fully pressurized to 300 bar',
+        c: 'They must be drained'
+    },
+    correct: 'c'
+},
+{
+    id: 5062,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How is the MGB removed?',
+    options: {
+        a: 'Using a sling installed on the top of the mast',
+        b: 'Using a forklift pallet under the gearbox',
+        c: 'By hand, supported by four engineers'
+    },
+    correct: 'a'
+},
+{
+    id: 5063,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'During lubrication pump removal/installation, why must bare hands not touch metal components?',
+    options: {
+        a: 'It voids the component warranty',
+        b: 'It risks electric shock from residual static',
+        c: 'Contamination from bare hands will cause corrosion of the metals'
+    },
+    correct: 'c'
+},
+{
+    id: 5064,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "How is the lubrication pump's ring nut tightened during assembly?",
+    options: {
+        a: 'Hand-tight only, with no torque wrench',
+        b: 'Tightened to a set value, fully loosened, then tightened to a set value again',
+        c: 'Tightened once to maximum torque and locked with wire'
+    },
+    correct: 'b'
+},
+{
+    id: 5065,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How is the lubrication pump removed from the MGB?',
+    options: {
+        a: 'Using a slide hammer',
+        b: 'By simply unbolting it with no special tooling',
+        c: 'Using a set of jackscrews, with its position recorded beforehand'
+    },
+    correct: 'c'
+},
+{
+    id: 5066,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'At what interval is the Right Input shaft freewheel DI for damage and condition performed?',
+    options: {
+        a: '3600 hrs',
+        b: '1200 hrs',
+        c: '600 hrs'
+    },
+    correct: 'a'
+},
+{
+    id: 5067,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'At what interval is the MGB serviced by draining and refilling oil?',
+    options: {
+        a: '900 hrs',
+        b: '300 hrs',
+        c: '600 hrs/1 year'
+    },
+    correct: 'c'
+},
+{
+    id: 5068,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'At what interval is the MGB oil cooling fan Functional Check (freedom of rotation) performed?',
+    options: {
+        a: '1200 hrs',
+        b: '900 hrs',
+        c: '600 hrs'
+    },
+    correct: 'b'
+},
+{
+    id: 5069,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'At what interval is the MGB indicating system (chip detectors) Operational Check performed?',
+    options: {
+        a: '1200 hrs',
+        b: '600 hrs',
+        c: '300 hrs'
+    },
+    correct: 'a'
+},
+{
+    id: 5070,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many oil pressure switches monitor the MGB?',
+    options: {
+        a: 'Three',
+        b: 'One',
+        c: 'Two'
+    },
+    correct: 'c'
+},
+{
+    id: 5071,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many bearing temperature sensors (thermocouples) are installed on the MGB drive bearings?',
+    options: {
+        a: 'Four',
+        b: 'Two',
+        c: 'One'
+    },
+    correct: 'b'
+},
+{
+    id: 5072,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What type of sensor is the MGB oil level sensor?',
+    options: {
+        a: 'A float-switch type',
+        b: 'An ultrasonic sensor type',
+        c: 'An optical sensor type'
+    },
+    correct: 'c'
+},
+{
+    id: 5073,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What type of sensor is the MGB oil pressure transducer, and which MAU does it feed?',
+    options: {
+        a: 'A strain-gauge type, feeding MAU No.1',
+        b: 'A capacitive type, feeding both MAUs equally',
+        c: 'A thermo-resistance type, feeding MAU No.2'
+    },
+    correct: 'a'
+},
+{
+    id: 5074,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What type of sensor is the MGB oil temperature transducer, and which MAU does it feed?',
+    options: {
+        a: 'A strain-gauge type, feeding MAU No.2',
+        b: 'A thermocouple type, feeding both MAUs',
+        c: 'A thermo-resistance type, feeding MAU No.1'
+    },
+    correct: 'c'
+},
+{
+    id: 5075,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "What type of sensor detects the MGB oil filter's differential pressure (clogged condition)?",
+    options: {
+        a: 'A microswitch type differential pressure sensor',
+        b: 'An optical sensor',
+        c: 'A strain-gauge transducer'
+    },
+    correct: 'a'
+},
+{
+    id: 5076,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What type of sensor is the NR speed sensor, and how many independent frequency outputs does it provide?',
+    options: {
+        a: 'A triple coil magnetic speed sensor, with 3 independent frequency outputs',
+        b: 'A strain-gauge sensor, with 2 outputs',
+        c: 'A single coil optical sensor, with 1 output'
+    },
+    correct: 'a'
+},
+{
+    id: 5077,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many chip detectors are fitted on the MGB in total, and where?',
+    options: {
+        a: 'Three - two in the sump and one close to the mast bearing',
+        b: 'Four - two in the sump and two near the mast bearing',
+        c: 'Two - one in the sump and one near the mast bearing'
+    },
+    correct: 'a'
+},
+{
+    id: 5078,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What is the DWS, as an alternative name for the chip detector system?',
+    options: {
+        a: 'Drive Wear Sensor',
+        b: 'Debris Warning System',
+        c: 'Diagnostic Warning Sensor'
+    },
+    correct: 'b'
+},
+{
+    id: 5079,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "Where is the chip detector system's pre-flight test switch located?",
+    options: {
+        a: 'On the ADELT control panel',
+        b: 'On the Landing Gear Control Panel',
+        c: 'On the Power Unit Chip Detector box'
+    },
+    correct: 'c'
+},
+{
+    id: 5080,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many screws attach the chip-detector power-module to the cabin ceiling structure?',
+    options: {
+        a: 'Four',
+        b: 'Two',
+        c: 'Six'
+    },
+    correct: 'a'
+},
+{
+    id: 5081,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'If a chip burn is successful (signal extinguished), what information is stored in the NVM?',
+    options: {
+        a: 'Date and time, sensor name, and number of burning attempts',
+        b: 'Only the sensor name',
+        c: 'Only the date and time'
+    },
+    correct: 'a'
+},
+{
+    id: 5082,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What does the MGB Improved Lubrication System add to each engine input module?',
+    options: {
+        a: 'A redundant oil pump',
+        b: 'A second chip detector',
+        c: 'An oil reservoir mounted on top of the module'
+    },
+    correct: 'c'
+},
+{
+    id: 5083,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "How much oil does the improved lubrication system's input module reservoir hold?",
+    options: {
+        a: '0.75 litres',
+        b: '18 litres',
+        c: '1.5 litres'
+    },
+    correct: 'c'
+},
+{
+    id: 5084,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "What triggers the improved lubrication system's reservoir to release oil via gravity through the oil jet?",
+    options: {
+        a: 'The MGB reaching 100% NR',
+        b: 'The chip burn function being activated',
+        c: 'Loss of MGB oil or loss of oil pressure'
+    },
+    correct: 'c'
+},
+{
+    id: 5085,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "What 'run dry' capability does the improved input module provide?",
+    options: {
+        a: '10 minutes',
+        b: '8 hours',
+        c: '30 minutes'
+    },
+    correct: 'c'
+},
+{
+    id: 5086,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What does the freewheel unit allow in the event of an engine failure or shutdown?',
+    options: {
+        a: 'The rotor to continue being driven by the remaining engine, overriding the failed engine',
+        b: 'Both engines to automatically restart',
+        c: 'The rotor brake to engage automatically'
+    },
+    correct: 'a'
+},
+{
+    id: 5087,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "In the 'engaged' freewheel condition, what happens to the rollers?",
+    options: {
+        a: 'They lock the output shaft to the airframe',
+        b: 'They are released, allowing free rotation',
+        c: 'They are caught between the input shaft and the MGB output shaft, which remains driven'
+    },
+    correct: 'c'
+},
+{
+    id: 5088,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'In autorotation, what is the state of both freewheels, and what drives the tail rotor/accessories?',
+    options: {
+        a: 'Both disengaged; the tail rotor and accessories are driven by the main rotor',
+        b: 'Both engaged; the tail rotor is driven by residual engine momentum',
+        c: 'One engaged, one disengaged; the tail rotor stops entirely'
+    },
+    correct: 'a'
+},
+{
+    id: 5089,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many ball bearings hold the freewheel, allowing it to turn?',
+    options: {
+        a: 'Four',
+        b: 'One',
+        c: 'Two'
+    },
+    correct: 'c'
+},
+{
+    id: 5090,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How is the freewheel lubricated?',
+    options: {
+        a: 'By grease packed at overhaul only',
+        b: 'Through an oil jet that is part of the cover',
+        c: 'By splash lubrication from the collector gear'
+    },
+    correct: 'b'
+},
+{
+    id: 5091,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What two structures support and restrain the MGB?',
+    options: {
+        a: 'A single central mounting pylon',
+        b: 'Two anti-torque beams and two support rods',
+        c: 'An anti-torque beam and four support rods'
+    },
+    correct: 'c'
+},
+{
+    id: 5092,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What loads does the anti-torque beam absorb, versus the support rods?',
+    options: {
+        a: 'Both absorb only torque loads',
+        b: 'Anti-torque beam absorbs torque load; support rods absorb lift loads',
+        c: 'Anti-torque beam absorbs lift loads; support rods absorb torque load'
+    },
+    correct: 'b'
+},
+{
+    id: 5093,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many bolts attach the anti-torque beam extensions to the central fuselage?',
+    options: {
+        a: 'Two',
+        b: 'Four',
+        c: 'Six'
+    },
+    correct: 'b'
+},
+{
+    id: 5094,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many support rods connect the MGB upper casing to the central fuselage, and how are they arranged?',
+    options: {
+        a: 'Four - two at the front, two at the back',
+        b: 'Six - three at the front, three at the back',
+        c: 'Two - one at the front, one at the back'
+    },
+    correct: 'a'
+},
+{
+    id: 5095,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What are the three purposes of the rotor brake?',
+    options: {
+        a: 'Only to stop the rotors after shutdown',
+        b: 'Rapid rotor deceleration after shutdown, keeping rotors stationary for up to eight hours, and restoring system pressure by pumping the handle',
+        c: 'Only to provide parking brake function on the ground'
+    },
+    correct: 'b'
+},
+{
+    id: 5096,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What does the RBA (Rotor Brake Assembly) convert hydraulic pressure into?',
+    options: {
+        a: 'Rotational torque for the tail rotor',
+        b: 'A braking force',
+        c: 'Electrical power for the chip detector system'
+    },
+    correct: 'b'
+},
+{
+    id: 5097,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What are the three positions of the Rotor Brake Control Lever (RBCL)?',
+    options: {
+        a: 'OFF, PUMPING, BRAKE',
+        b: 'PARK, FLIGHT, TEST',
+        c: 'OFF, ON, EMERGENCY'
+    },
+    correct: 'a'
+},
+{
+    id: 5098,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What device on the RBCL automatically engages and locks the lever in OFF or BRAKE position?',
+    options: {
+        a: 'A simple detent pin',
+        b: 'An electromagnetic solenoid lock',
+        c: "The 'T' lever, a spring-loaded latch device"
+    },
+    correct: 'c'
+},
+{
+    id: 5099,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'During the stroke between PUMPING and BRAKE for normal braking, what pressure is provided to the braking pistons for puck-to-disc contact?',
+    options: {
+        a: '26-28 bar',
+        b: '5 bar',
+        c: '46.5 bar'
+    },
+    correct: 'b'
+},
+{
+    id: 5100,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'During normal dynamic braking, to what pressure is the system pressurized by filling the accumulator?',
+    options: {
+        a: '62 bar',
+        b: '26-28 bar',
+        c: '5 bar'
+    },
+    correct: 'b'
+},
+{
+    id: 5101,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What is the maximum parking pressure achieved by pumping action between PUMPING and BRAKING positions?',
+    options: {
+        a: '46.5 bar',
+        b: '62 bar',
+        c: '26-28 bar'
+    },
+    correct: 'a'
+},
+{
+    id: 5102,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What is the normal pressure generated by a full stroke of the RBCL lever with new pucks and disc?',
+    options: {
+        a: '5 bar',
+        b: '26-28 bar',
+        c: '46.5 bar'
+    },
+    correct: 'b'
+},
+{
+    id: 5103,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What type of hydraulic pump does the RBCM (Rotor Brake Control Module) include?',
+    options: {
+        a: 'A variable displacement axial piston pump',
+        b: 'A dual-stage hydraulic pump',
+        c: 'A single-stage gerotor pump'
+    },
+    correct: 'b'
+},
+{
+    id: 5104,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "What does the RBCM's hydraulic accumulator provide?",
+    options: {
+        a: 'Filtration of the hydraulic fluid',
+        b: 'Cooling for the hydraulic fluid',
+        c: 'Hydraulic fluid displacement during brake application'
+    },
+    correct: 'c'
+},
+{
+    id: 5105,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "What does the RBCM's interlock pressure switch do?",
+    options: {
+        a: 'Detects the pressure in the circuit',
+        b: 'Engages the parking brake automatically',
+        c: 'Shuts off the main hydraulic system'
+    },
+    correct: 'a'
+},
+{
+    id: 5106,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "What does the RBCM's pressure transducer provide?",
+    options: {
+        a: 'A direct mechanical lock on the calliper',
+        b: 'An audible warning tone only',
+        c: 'Monitoring of pressure values and a visual indication on the RBPI'
+    },
+    correct: 'c'
+},
+{
+    id: 5107,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What is the digital display range on the Rotor Brake Pressure Indicator (RBPI)?',
+    options: {
+        a: '0-207 bar',
+        b: '0-100 bar',
+        c: '0-50 bar'
+    },
+    correct: 'b'
+},
+{
+    id: 5108,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "Below what pressure does the RBPI's amber 'LOW PRESS' indication illuminate (with the calliper in UP position)?",
+    options: {
+        a: 'Below 20 bar',
+        b: 'Below 5 bar',
+        c: 'Below 40 bar'
+    },
+    correct: 'a'
+},
+{
+    id: 5109,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "Above what pressure does the RBPI's amber 'HIGH PRESS' indication illuminate (with the calliper in UP position)?",
+    options: {
+        a: 'Above 62 bar',
+        b: 'Above 50 bar',
+        c: 'Above 28 bar'
+    },
+    correct: 'b'
+},
+{
+    id: 5110,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "When is the RBPI's indication and pressure display active?",
+    options: {
+        a: 'Only during engine start',
+        b: 'Continuously, in flight and on ground',
+        c: 'When the helicopter is on the ground (WOW status)'
+    },
+    correct: 'c'
+},
+{
+    id: 5111,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What three main parts make up the RBA (Rotor Brake Assembly)?',
+    options: {
+        a: 'The disc, the accumulator, and the shut-off valve',
+        b: 'The RBCL, RBCM, and RBPI',
+        c: 'The calliper, brake pads, and pistons'
+    },
+    correct: 'c'
+},
+{
+    id: 5112,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many wear ablative brake pads and pistons does the calliper assembly include?',
+    options: {
+        a: 'Four brake pads and two pistons',
+        b: 'Two brake pads and four pistons',
+        c: 'Two brake pads and two pistons'
+    },
+    correct: 'b'
+},
+{
+    id: 5113,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What are the two functions of the calliper support?',
+    options: {
+        a: 'To cool the brake disc and to store hydraulic fluid',
+        b: 'To transfer braking torque to the MGB structure and to allow Up/Down movement of the calliper',
+        c: 'To generate electrical power and to filter contaminants'
+    },
+    correct: 'b'
+},
+{
+    id: 5114,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What type of actuator is the RBAA (Rotor Brake Actuation Assembly), and what does it move?',
+    options: {
+        a: 'A hydraulic actuator, moving the brake disc directly',
+        b: 'A pneumatic actuator, moving the accumulator piston',
+        c: 'An electromechanical actuator, moving the RBA calliper to its operative/inoperative position via a yoke clevis'
+    },
+    correct: 'c'
+},
+{
+    id: 5115,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "What two position indications does the RBAA's position switches provide?",
+    options: {
+        a: 'Actuator extended (calliper UP) and actuator retracted (calliper DOWN)',
+        b: 'Accumulator charged and accumulator discharged',
+        c: 'Pads worn and pads serviceable'
+    },
+    correct: 'a'
+},
+{
+    id: 5116,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'At what pressure does the thermal relief valve OPEN, and at what pressure does it CLOSE?',
+    options: {
+        a: 'Opens at 8.3 bar, closes at 3 bar',
+        b: 'Opens at 62 bar, closes at 52 bar',
+        c: 'Opens at 46.5 bar, closes at 40 bar'
+    },
+    correct: 'b'
+},
+{
+    id: 5117,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'At what pressure does the circuit/interlock pressure switch close during a pressure increase, and open during a decrease?',
+    options: {
+        a: 'Closes at 3.0 bar, opens below 1.0 bar',
+        b: 'Closes at 20 bar, opens below 5 bar',
+        c: 'Closes at 50 bar, opens below 40 bar'
+    },
+    correct: 'a'
+},
+{
+    id: 5118,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "When is the rotor brake's solenoid shut-off valve open, versus closed?",
+    options: {
+        a: 'Always open regardless of flight phase',
+        b: 'Open on the ground; closed in flight',
+        c: 'Open when energized (in flight); closed on the ground'
+    },
+    correct: 'c'
+},
+{
+    id: 5119,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What cracking pressure is required for the first stage relief valve?',
+    options: {
+        a: '46.5 bar',
+        b: '8.3 bar',
+        c: '62 bar'
+    },
+    correct: 'b'
+},
+{
+    id: 5120,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'In flight, with the RBCL in OFF, what position is the shut-off valve (SOV) in?',
+    options: {
+        a: 'Partially open, modulating pressure',
+        b: 'Closed (de-energized)',
+        c: 'Open (energized)'
+    },
+    correct: 'c'
+},
+{
+    id: 5121,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'After both engines shut down (RBCL still OFF), what happens to the calliper and SOV automatically?',
+    options: {
+        a: 'The calliper is raised automatically, and the SOV closes (de-energized)',
+        b: 'The calliper remains down, and the SOV stays open',
+        c: 'The calliper and SOV are both manually operated only'
+    },
+    correct: 'a'
+},
+{
+    id: 5122,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'With both engines OFF, as the RBCL is moved from OFF to BRAKE, what three things happen?',
+    options: {
+        a: 'The SOV opens, the calliper lowers, and the pressure transducer resets to zero',
+        b: 'The mechanical outlet valve closes, pucks are pushed against the rotating disc, and the accumulator is partially filled (incomplete charge)',
+        c: 'The mechanical outlet valve opens, pucks retract, and the accumulator fully discharges'
+    },
+    correct: 'b'
+},
+{
+    id: 5123,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'If the RBCL is moved from OFF with one or both engines still running (in flight condition), what caution is displayed?',
+    options: {
+        a: 'ROTOR BRAKE ON',
+        b: 'ROTOR BRAKE FAIL',
+        c: 'MGB CHIP MAST'
+    },
+    correct: 'b'
+},
+{
+    id: 5124,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "During 'PARKING' braking, what two conditions must be met for the parking condition to be achieved?",
+    options: {
+        a: 'Circuit pressure > 40 bar, and the RBCM accumulator fully charged',
+        b: 'Circuit pressure < 5 bar, and the SOV closed',
+        c: 'Circuit pressure > 20 bar, and the calliper in the down position'
+    },
+    correct: 'a'
+},
+{
+    id: 5125,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'On release of the brake (RBCL moved to OFF), what three things happen?',
+    options: {
+        a: 'The SOV closes and the calliper raises',
+        b: 'The mechanical outlet valve closes, pucks engage, and the accumulator charges',
+        c: 'The mechanical outlet valve opens, pucks are released, and the accumulator is discharged'
+    },
+    correct: 'c'
+},
+{
+    id: 5126,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'During normal braking, at what rotor speed or below may the rotor brake be applied?',
+    options: {
+        a: '20% RPM rotor speed or less',
+        b: '100% NR',
+        c: '40% RPM rotor speed or less'
+    },
+    correct: 'c'
+},
+{
+    id: 5127,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What is the minimum parking duration the rotor brake system is rated for, once pressurized above 40 bar?',
+    options: {
+        a: '30 minutes',
+        b: '24 hours',
+        c: '8 hours'
+    },
+    correct: 'c'
+},
+{
+    id: 5128,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'Which condition(s) trigger a ROTOR BRK FAIL caution: pads activated with no pressure applied, or the lever not in OFF with no pressure present?',
+    options: {
+        a: 'Only the first condition triggers the caution',
+        b: 'Neither condition triggers the caution',
+        c: 'Both conditions trigger the caution'
+    },
+    correct: 'c'
+},
+/* {
+    id: 5129,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'At what thickness must the rotor brake pads be discarded?',
+    options: {
+        a: '2 mm (0.079 in) or lower',
+        b: '5 mm or lower',
+        c: '9 mm (0.354 in) or lower'
+    },
+    correct: 'a'
+}, */
+{
+    id: 5130,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What does the AFIP for ATA chapter 63 (Main Rotor Drive) consist of?',
+    options: {
+        a: 'Both detected and observed faults equally',
+        b: 'Solely observed faults',
+        c: 'Solely detected faults'
+    },
+    correct: 'b'
+},
+{
+    id: 5131,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "What is the purpose of the check valves installed downstream of the MGB's pressure relief valves, before the two pump outputs mix?",
+    options: {
+        a: 'To limit the maximum oil temperature entering the cooler',
+        b: 'To filter particulate contamination from the oil',
+        c: 'To prevent reverse flow between the two parallel pump circuits'
+    },
+    correct: 'c'
+},
+{
+    id: 5132,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How can the MGB transmission oil level be checked?',
+    options: {
+        a: 'Only by draining the sump and measuring the volume collected',
+        b: 'Visually via the sight glass on the front of the bottom case (MAX/MIN marks), or electronically via the optical oil level sensor, which can be tested pre-flight using the test panel',
+        c: 'Only via the chip detector, which also doubles as a level sensor'
+    },
+    correct: 'b'
+},
+{
+    id: 5133,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: "What does the MGB's optical oil level sensor do when the oil level in the reservoir/sump drops below a predetermined minimum?",
+    options: {
+        a: 'It closes the oil cooler bypass valve',
+        b: 'It automatically activates the chip burn function',
+        c: 'It provides an electrical signal that causes the MAUs to generate a caution alarm on the display'
+    },
+    correct: 'c'
+},
+{
+    id: 5134,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'When loss of an analog input signal, or an out-of-range input condition, is detected on the MGB parameter displays, what happens to the display?',
+    options: {
+        a: 'The display freezes on the last valid reading with a red border',
+        b: 'The parameter is replaced with a flashing zero',
+        c: 'The associated pointer is removed from the display, and amber dashes replace the numerical readout'
+    },
+    correct: 'c'
+},
+{
+    id: 5135,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What controls the position (UP/DOWN) of the rotor brake calliper?',
+    options: {
+        a: 'The RBAA (Rotor Brake Actuation Assembly) - an electromechanical actuator that pushes or pulls the yoke clevis to move the calliper',
+        b: 'The RBPI, which directly drives the calliper via a solenoid',
+        c: 'Hydraulic pressure alone, with no separate actuator'
+    },
+    correct: 'a'
+},
+{
+    id: 5136,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'Describe how the lift loads and torque loads are transmitted from the MGB to the airframe.',
+    options: {
+        a: 'The anti-torque beam, connected to the bottom of the MGB and bolted to the central fuselage, absorbs the torque load; the four support rods (two front, two back), connecting the MGB upper casing to the central fuselage, absorb the lift loads',
+        b: 'The anti-torque beam absorbs lift loads, while the support rods absorb the torque load',
+        c: 'A single central mounting pylon absorbs both torque and lift loads together'
+    },
+    correct: 'a'
+},
+{
+    id: 5137,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'Describe the transmission chip detectors.',
+    options: {
+        a: 'Three chip detectors are fitted - two in the sump near the pump suction ducts and one close to the mast bearing - which attract ferrous particles and trigger a CAS caution; the crew can attempt a chip burn up to three times via a pushbutton, with successful burns logging date/time/sensor/attempt count to NVM',
+        b: 'Four chip detectors are fitted, one per oil jet manifold, each independently wired to its own display',
+        c: 'A single chip detector in the sump monitors the entire lubrication circuit, with no burn-off capability'
+    },
+    correct: 'a'
+},
+{
+    id: 5138,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'Explain how the freewheel units work.',
+    options: {
+        a: 'A shear pin in each input shaft breaks to disconnect a failed engine, requiring replacement before further flight',
+        b: 'Sprag type freewheeling units at each MGB input engage to drive the rotor when the engine is running (rollers caught between input and output shafts); if an engine fails or shuts down, the output shaft (driven by the rotor or the other engine) frees the rollers so the unit acts as a bearing, allowing drive only in the engine-to-rotor direction',
+        c: 'A multi-plate wet clutch engages hydraulically to transmit drive, disengaging only when oil pressure is lost'
+    },
+    correct: 'b'
+},
+{
+    id: 5139,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What type of pumps are used for MGB lubrication?',
+    options: {
+        a: 'Two centrifugal impeller pumps',
+        b: 'Two gerotor type, positive displacement pumps',
+        c: 'A single variable-displacement axial piston pump'
+    },
+    correct: 'b'
+},
+{
+    id: 5140,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'Describe the operation of the rotor brake.',
+    options: {
+        a: 'A single ON/OFF switch directly energizes the calliper pistons, with no separate control module or accumulator',
+        b: 'The rotor brake engages automatically whenever NR drops below 40%, with no pilot lever input required',
+        c: 'The pilot uses the RBCL (OFF/PUMPING/BRAKE); the RBCM controls hydraulic power to the RBA, whose calliper, pads and pistons clamp a disc on the tail rotor drive shaft; moving from OFF to BRAKE with both engines off closes the outlet valve, pushes the pucks onto the disc, and partially charges the accumulator, while pumping between PUMPING and BRAKE builds parking pressure up to 46.5 bar; the RBPI shows system pressure and calliper position throughout'
+    },
+    correct: 'c'
+},
+{
+    id: 5141,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'How many oil pressure switches are mounted on the MGB?',
+    options: {
+        a: 'Two',
+        b: 'Four',
+        c: 'One'
+    },
+    correct: 'a'
+},
+{
+    id: 5142,
+    Aircraft: 'AW139',
+    Category: '63',
+    question: 'What device prevents cold oil from flowing through the MGB oil cooler matrix?',
+    options: {
+        a: 'A solenoid-operated shut-off valve, closed below 50°C',
+        b: 'A thermostatic bypass/relief valve, which remains open (bypassing the matrix) while oil temperature is at or below 80°C',
+        c: 'A wax-pellet valve fitted inside the chip detector housing'
+    },
+    correct: 'b'
+},
+{
+    id: 5143,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What does the tail rotor compensate for?',
+    options: {
+        a: 'Torque from the main rotor, enabling yaw control',
+        b: 'Lift dissymmetry across the rotor disc',
+        c: 'Engine torque only'
+    },
+    correct: 'a'
+},
+{
+    id: 5144,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'How many blades does the tail rotor have, and what type of rotor is it?',
+    options: {
+        a: 'Two, teetering',
+        b: 'Five, rigid',
+        c: 'Four, fully articulated'
+    },
+    correct: 'c'
+},
+{
+    id: 5145,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What type of bearing allows TR flapping, lead-lag, and feathering?',
+    options: {
+        a: 'Elastomeric spherical bearings',
+        b: 'Roller bearings only',
+        c: 'Ball bearings only'
+    },
+    correct: 'a'
+},
+{
+    id: 5146,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'Which AMP chapter covers tail rotor standard practices?',
+    options: {
+        a: 'AMP CH60',
+        b: 'AMP CH64',
+        c: 'AMP CH20'
+    },
+    correct: 'a'
+},
+{
+    id: 5147,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'Where can more in-depth standard practices and procedures be found?',
+    options: {
+        a: 'ASRP only',
+        b: 'AMDI only',
+        c: 'CR&OP'
+    },
+    correct: 'c'
+},
+{
+    id: 5148,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What drives the tail rotor head?',
+    options: {
+        a: 'The Tail Gear Box (TGB) shaft',
+        b: 'An auxiliary electric motor',
+        c: 'The main gearbox directly'
+    },
+    correct: 'a'
+},
+{
+    id: 5149,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'How many arms does the TR hub have, and how is it secured?',
+    options: {
+        a: 'Two arms, secured by rivets',
+        b: 'Six arms, secured by pins',
+        c: 'Four arms, secured by a locknut and bolts'
+    },
+    correct: 'c'
+},
+{
+    id: 5150,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'Between what angles do the upper and lower limiters limit flapping movement?',
+    options: {
+        a: '-15° and +20°',
+        b: '-5° and +5°',
+        c: '-10° and +12°'
+    },
+    correct: 'c'
+},
+{
+    id: 5151,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What material is the cover installed on top of the rotating controls?',
+    options: {
+        a: 'Composite',
+        b: 'Titanium',
+        c: 'Aluminium alloy'
+    },
+    correct: 'c'
+},
+{
+    id: 5152,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What material are the tail rotor blades made of?',
+    options: {
+        a: 'Carbon fibre monocoque',
+        b: 'Unidirectional fiberglass tapes wrapped in cross ply fiberglass layers',
+        c: 'Aluminium honeycomb'
+    },
+    correct: 'b'
+},
+{
+    id: 5153,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What is the main element of the TR blade, extending root to tip?',
+    options: {
+        a: 'A box-section torsion tube',
+        b: "A 'D' cross-section spar",
+        c: 'A solid aluminium rib'
+    },
+    correct: 'b'
+},
+{
+    id: 5154,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What forms the blade leading edge on the spar?',
+    options: {
+        a: 'A separate bolted leading-edge strip',
+        b: 'A flat trailing face',
+        c: "The rounded end of the 'D' cross section"
+    },
+    correct: 'c'
+},
+{
+    id: 5155,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What protects the spar leading edge from erosion?',
+    options: {
+        a: 'A paint coating only',
+        b: 'A nickel alloy metal shield, bonded in place',
+        c: 'A rubber boot'
+    },
+    correct: 'b'
+},
+{
+    id: 5156,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What is the pitch change arm?',
+    options: {
+        a: 'A composite tab at the trailing edge',
+        b: 'A metallic bracket bonded at the root of the blade',
+        c: 'A hydraulic actuator at the blade tip'
+    },
+    correct: 'b'
+},
+{
+    id: 5157,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'Where are the static balance weights fitted on the blade?',
+    options: {
+        a: 'Only inside the hollow bolt',
+        b: 'Only at the tip',
+        c: 'In a pocket in the blade tip and root'
+    },
+    correct: 'c'
+},
+{
+    id: 5158,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What is attached to the top of each blade attachment?',
+    options: {
+        a: 'A static wick',
+        b: 'A trim tab',
+        c: 'A lightning conductor jumper'
+    },
+    correct: 'c'
+},
+{
+    id: 5159,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What core is bonded to the spar tip, tapering back to the trailing edge?',
+    options: {
+        a: 'A honeycomb core',
+        b: 'A solid wood core',
+        c: 'A foam core'
+    },
+    correct: 'a'
+},
+{
+    id: 5160,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'Why is a shim used at the blade root flap stops?',
+    options: {
+        a: 'To reduce back-and-forth movement, preventing wear and vibration',
+        b: 'To insulate against lightning',
+        c: 'To add mass balance'
+    },
+    correct: 'a'
+},
+{
+    id: 5161,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What is the tolerance for the peeling shim thickness?',
+    options: {
+        a: '+0.10 to -0.00 mm',
+        b: '+0.00 to -0.05 mm',
+        c: '+0.5 to -0.5 mm'
+    },
+    correct: 'b'
+},
+{
+    id: 5162,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'After which replacements must the flap shims be recalculated?',
+    options: {
+        a: 'Elastomeric bearing, hub flap stop, or hub/blade change',
+        b: 'Only after hub replacement',
+        c: 'Only after blade replacement'
+    },
+    correct: 'a'
+},
+{
+    id: 5163,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What do the flap limiting stops consist of?',
+    options: {
+        a: 'Four stops on the spider only',
+        b: 'Two stops on each arm with a shim, and two matching stops on each blade root',
+        c: 'A single stop on the hub centre'
+    },
+    correct: 'b'
+},
+{
+    id: 5164,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'Why must TR blades not be pushed or pulled by hand?',
+    options: {
+        a: 'They are too heavy to move by hand',
+        b: 'It discharges static electricity',
+        c: "It's easy to cause damage; the main rotor is turned instead to position the TR"
+    },
+    correct: 'c'
+},
+{
+    id: 5165,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What position must the TR blade be in for removal/installation?',
+    options: {
+        a: 'Vertical',
+        b: '45 degrees',
+        c: 'Horizontal'
+    },
+    correct: 'c'
+},
+{
+    id: 5166,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'How must the blade bolt be handled, and why?',
+    options: {
+        a: 'With bare hands, for grip',
+        b: 'With cheesecloth, to protect the solid lubricant film',
+        c: 'With a magnet, to detect cracks'
+    },
+    correct: 'b'
+},
+{
+    id: 5167,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What check is required after replacing a TR blade?',
+    options: {
+        a: 'A fuel flow check',
+        b: 'A hydraulic leak check',
+        c: 'A blade dynamic (balancing) check'
+    },
+    correct: 'c'
+},
+{
+    id: 5168,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What is the TR blade radius?',
+    options: {
+        a: '0.75 m',
+        b: '1.35 m (4.43 ft)',
+        c: '6.9 m (22.6 ft)'
+    },
+    correct: 'b'
+},
+{
+    id: 5169,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What is the TR blade assembly weight (including elastomeric bearing and damper attachment)?',
+    options: {
+        a: '204 kg (450 lb)',
+        b: '65.5 kg (144.4 lb)',
+        c: '5.7 kg (12.6 lb)'
+    },
+    correct: 'c'
+},
+{
+    id: 5170,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What material/construction is the TR hub?',
+    options: {
+        a: 'A two-piece bolted aluminium assembly',
+        b: 'A one-piece, forged titanium unit',
+        c: 'A cast magnesium unit'
+    },
+    correct: 'b'
+},
+{
+    id: 5171,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'Does the TR hub have a master spline?',
+    options: {
+        a: 'No, there is no master spline',
+        b: 'Yes, one master spline',
+        c: 'Yes, two master splines'
+    },
+    correct: 'a'
+},
+{
+    id: 5172,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What supports the TR hub on the mast?',
+    options: {
+        a: 'Conical rings',
+        b: 'A rubber bush',
+        c: 'A single roller bearing'
+    },
+    correct: 'a'
+},
+{
+    id: 5173,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'How many bottom half conical rings locate inside the hub?',
+    options: {
+        a: 'Four',
+        b: 'One',
+        c: 'Two'
+    },
+    correct: 'c'
+},
+{
+    id: 5174,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What is applied to the top/bottom conical rings and the hub splines?',
+    options: {
+        a: 'Grease only',
+        b: 'A solid lubricant film',
+        c: 'Nothing; they run dry'
+    },
+    correct: 'b'
+},
+{
+    id: 5175,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'How many bolts load the top conical ring via the pressure washer?',
+    options: {
+        a: 'Eight',
+        b: 'Twelve',
+        c: 'Four'
+    },
+    correct: 'a'
+},
+{
+    id: 5176,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What prevents the ring nut from rotating?',
+    options: {
+        a: 'A locking flange with two keys located in keyways cut into the mast',
+        b: 'Friction alone',
+        c: 'A cotter pin'
+    },
+    correct: 'a'
+},
+{
+    id: 5177,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'How are the tail rotor head installation bolts identified during removal?',
+    options: {
+        a: "Not marked; order doesn't matter",
+        b: 'Numbered 1 thru 8 using a permanent marking pen',
+        c: 'Colour coded with paint only'
+    },
+    correct: 'b'
+},
+{
+    id: 5178,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What do the elastomeric lag dampers do?',
+    options: {
+        a: 'Limit the flap angle',
+        b: 'Provide an electrical bonding path',
+        c: 'Dampen the lead/lag movement of the blades'
+    },
+    correct: 'c'
+},
+{
+    id: 5179,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What two things does the lag damper comprise internally?',
+    options: {
+        a: 'A central shaft within a tubular body, with elastomeric elements bonded between the shaft and an outer sleeve',
+        b: 'A piston and two chambers of hydraulic fluid',
+        c: 'A coil spring and a friction disc'
+    },
+    correct: 'a'
+},
+{
+    id: 5180,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What degree of circumferential crack is acceptable on the damper elastomer?',
+    options: {
+        a: 'Up to 90° arc amplitude',
+        b: 'Up to 270° arc amplitude',
+        c: 'Any extent, provided no radial crack is present'
+    },
+    correct: 'b'
+},
+{
+    id: 5181,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'Which of these is NOT permitted on damper elastomer inspection?',
+    options: {
+        a: 'Circumferential cracks under 270°',
+        b: 'Minor surface discolouration',
+        c: 'Radial cracks, of any extent'
+    },
+    correct: 'c'
+},
+{
+    id: 5182,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What colour reference mark aligns the damper eye-end to the blade attachment?',
+    options: {
+        a: 'Yellow',
+        b: 'Blue',
+        c: 'Red'
+    },
+    correct: 'a'
+},
+{
+    id: 5183,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What is used to adjust the damper length when replacing it?',
+    options: {
+        a: 'A feeler gauge only',
+        b: 'A template',
+        c: 'A dial gauge only'
+    },
+    correct: 'b'
+},
+{
+    id: 5184,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What check follows tail rotor head installation?',
+    options: {
+        a: 'A dynamic balance procedure',
+        b: 'A hydraulic leak check',
+        c: 'A continuity check only'
+    },
+    correct: 'a'
+},
+{
+    id: 5185,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'How is the TR head removed from the mast?',
+    options: {
+        a: 'Using a tool and a sling',
+        b: 'By hand only',
+        c: 'Using a crane with no special tooling'
+    },
+    correct: 'a'
+},
+{
+    id: 5186,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What moves the rotating controls to adjust blade pitch?',
+    options: {
+        a: 'The tail rotor actuator',
+        b: 'The rotor brake',
+        c: 'The main rotor swashplate'
+    },
+    correct: 'a'
+},
+{
+    id: 5187,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What are the three main TR rotating control items?',
+    options: {
+        a: 'Hub, blades, and dampers',
+        b: 'Conical rings, ring nut, and locking flange',
+        c: 'Spider/sliding tube, rotating scissors, and four pitch links'
+    },
+    correct: 'c'
+},
+{
+    id: 5188,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'Where do the elastomeric bearings locate within the blade?',
+    options: {
+        a: "Within the 'U' root section of the rotor blade",
+        b: 'Inside the pitch link',
+        c: 'At the blade tip only'
+    },
+    correct: 'a'
+},
+{
+    id: 5189,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What is hollow in the elastomeric bearing installation, to house balancing weights?',
+    options: {
+        a: 'The pitch change arm',
+        b: 'The installation bolt',
+        c: 'The hub spline'
+    },
+    correct: 'b'
+},
+{
+    id: 5190,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What forms the attachment for the pitch link on the pitch change arm?',
+    options: {
+        a: 'A bonded tab',
+        b: 'A clevis lug',
+        c: 'A splined bore'
+    },
+    correct: 'b'
+},
+{
+    id: 5191,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What loads do the elastomeric bearings absorb, while permitting blade movement?',
+    options: {
+        a: 'Electrical loads only',
+        b: 'Aerodynamic loads, while permitting lead/lag, flap and pitch change',
+        c: 'Thermal loads only'
+    },
+    correct: 'b'
+},
+{
+    id: 5192,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What material is the top conical ring?',
+    options: {
+        a: 'Aluminium alloy',
+        b: 'Titanium',
+        c: 'Stainless steel'
+    },
+    correct: 'c'
+},
+{
+    id: 5193,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What does the top conical ring prevent?',
+    options: {
+        a: 'Axial movement of the blades',
+        b: 'Radial clearance between the TGB mast and the hub',
+        c: 'Loss of electrical bonding'
+    },
+    correct: 'b'
+},
+{
+    id: 5194,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'How does the ring nut load the top conical ring?',
+    options: {
+        a: 'Hydraulic pressure loads the ring',
+        b: 'The ring nut threads directly onto the conical ring face',
+        c: 'Not directly; eight bolts through the ring nut apply force on a pressure washer'
+    },
+    correct: 'c'
+},
+{
+    id: 5195,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What is the spider, construction-wise?',
+    options: {
+        a: 'A welded steel tube assembly',
+        b: 'A composite moulded disc',
+        c: 'A one-piece forging, machined to final form, with four arms'
+    },
+    correct: 'c'
+},
+{
+    id: 5196,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What does the duplex bearing interface between?',
+    options: {
+        a: 'The non-rotating pitch control rod and the rotating spider/slider assembly',
+        b: 'Two adjacent pitch links',
+        c: 'The hub and the mast directly'
+    },
+    correct: 'a'
+},
+{
+    id: 5197,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: "What clamps the duplex bearing's inner race to the pitch control rod?",
+    options: {
+        a: 'A securing nut and washer, providing inner race preload',
+        b: 'Adhesive bonding',
+        c: 'A circlip only'
+    },
+    correct: 'a'
+},
+{
+    id: 5198,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'At what temperature and for how long is the duplex bearing refrigerated before installation?',
+    options: {
+        a: '0°C for 30 minutes',
+        b: '-20°C for 4 hours',
+        c: '-40°C for 1.5 hours'
+    },
+    correct: 'c'
+},
+{
+    id: 5199,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What provides the outer race preload on the duplex bearing?',
+    options: {
+        a: 'An extension ring on the cover, set with a shim',
+        b: 'The spider hub bore directly',
+        c: 'A wave spring washer'
+    },
+    correct: 'a'
+},
+{
+    id: 5200,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What does the slider bushing do?',
+    options: {
+        a: 'Dampens lead/lag of the blades',
+        b: 'Maintains the slider body centred in the tail rotor hub',
+        c: 'Seals hydraulic fluid in the damper'
+    },
+    correct: 'b'
+},
+{
+    id: 5201,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What protects the sliding slider/bushing from contaminants?',
+    options: {
+        a: 'A metal shield with no venting',
+        b: 'Grease packing only, with no boot',
+        c: 'A flexible boot, with a breather hole for air exchange'
+    },
+    correct: 'c'
+},
+{
+    id: 5202,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What do the rotating scissors provide?',
+    options: {
+        a: 'Flap limiting only',
+        b: 'A rotary drive force from the hub to the spider, while allowing pitch change movement',
+        c: 'A lightning discharge path'
+    },
+    correct: 'b'
+},
+{
+    id: 5203,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What are the TR pitch links constructed from?',
+    options: {
+        a: 'A stainless steel tie rod with adjustable rod end spherical bearings, one LH and one RH thread',
+        b: 'A titanium solid rod with no adjustment',
+        c: 'A composite rod with fixed rod ends'
+    },
+    correct: 'a'
+},
+{
+    id: 5204,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'How many pitch links are installed, and how many per blade?',
+    options: {
+        a: 'Two, shared between opposite blades',
+        b: 'Four, one per blade',
+        c: 'One, central'
+    },
+    correct: 'b'
+},
+{
+    id: 5205,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'How must the pitch link securing bolts be installed?',
+    options: {
+        a: 'Orientation does not matter',
+        b: 'With the head facing the direction of rotation',
+        c: 'With the head facing away from rotation'
+    },
+    correct: 'b'
+},
+{
+    id: 5206,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'What colour reference mark aligns the rotating scissor forks to the slider/hub?',
+    options: {
+        a: 'Yellow',
+        b: 'Red',
+        c: 'Green'
+    },
+    correct: 'a'
+},
+{
+    id: 5207,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'Before installing the slider bushing, what preparation is needed?',
+    options: {
+        a: 'Soak it in solvent for 24 hours',
+        b: 'Heat it in an induction oven',
+        c: 'Place it in liquid nitrogen for about 1 minute'
+    },
+    correct: 'c'
+},
+{
+    id: 5208,
+    Aircraft: 'AW139',
+    Category: '64',
+    question: 'After replacing the pitch link or the spider/slider assembly, what check is required?',
+    options: {
+        a: 'A continuity check only',
+        b: 'A fuel flow check',
+        c: 'A blade dynamic balancing check'
+    },
+    correct: 'c'
 }
-
     ];
     
