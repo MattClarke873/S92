@@ -44536,7 +44536,7 @@ export const questions = [
     id: 4798,
     Aircraft: 'AW139',
     Category: '62',
-    question: 'What protects the leading edge of the blade from erosion?',
+    question: 'What protects the leading edge of the main rotor blade from erosion?',
     options: {
         a: 'A nickel erosion shield',
         b: 'A Teflon coating',
@@ -44680,7 +44680,7 @@ export const questions = [
     id: 4810,
     Aircraft: 'AW139',
     Category: '62',
-    question: 'Where are the static (mass-balance) weights installed on the blade?',
+    question: 'Where are the static (mass-balance) weights installed on the main rotor blade?',
     options: {
         a: 'Only inside the hollow attachment bolts',
         b: 'Only at the blade tip, bonded externally',
@@ -44956,7 +44956,7 @@ export const questions = [
     id: 4833,
     Aircraft: 'AW139',
     Category: '62',
-    question: 'How many bolts screw through the ring nut to load the pressure plate onto the top conical ring?',
+    question: 'How many bolts screw through the ring nut to load the pressure plate onto the top conical ring of the main rotor?',
     options: {
         a: 'Eight',
         b: 'Four',
@@ -45804,7 +45804,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 4904,
     Aircraft: 'AW139',
     Category: '62',
@@ -45815,7 +45815,7 @@ export const questions = [
         c: '1 year'
     },
     correct: 'b'
-},
+}, */
 {
     id: 4905,
     Aircraft: 'AW139',
@@ -46432,7 +46432,7 @@ export const questions = [
     id: 5007,
     Aircraft: 'AW139',
     Category: '62',
-    question: 'What material are the flap stop pins made of?',
+    question: 'What material are the main rotor flap stop pins made of?',
     options: {
         a: 'Aluminium alloy',
         b: 'Steel',
@@ -48868,7 +48868,7 @@ export const questions = [
     id: 5159,
     Aircraft: 'AW139',
     Category: '64',
-    question: 'What core is bonded to the spar tip, tapering back to the trailing edge?',
+    question: 'Within the Tail Rotor Blade what core is bonded to the spar tip, tapering back to the trailing edge?',
     options: {
         a: 'A honeycomb core',
         b: 'A solid wood core',
@@ -49456,7 +49456,7 @@ export const questions = [
     id: 5208,
     Aircraft: 'AW139',
     Category: '64',
-    question: 'After replacing the pitch link or the spider/slider assembly, what check is required?',
+    question: 'After replacing a tail rotor pitch link or the spider/slider assembly, what check is required?',
     options: {
         a: 'A continuity check only',
         b: 'A fuel flow check',
