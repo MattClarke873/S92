@@ -100,12 +100,8 @@ export function getOverallStats(aircraft) {
     return { tracked, seen, correct, mastered, dueForReview, accuracy };
 }
 
-// Clears all tracked progress for one aircraft type.
-export function resetProgress(aircraft) {
-    const store = loadStore();
-    const prefix = `${aircraft}-`;
-    Object.keys(store).forEach((key) => {
-        if (key.startsWith(prefix)) delete store[key];
-    });
-    saveStore(store);
+// Clears ALL tracked progress, across every aircraft. Used by the single
+// "Reset Progress" control in the settings panel.
+export function resetAllProgress() {
+    localStorage.removeItem(STORAGE_KEY);
 }

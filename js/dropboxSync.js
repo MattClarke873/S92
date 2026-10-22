@@ -205,11 +205,8 @@ export async function getAccountLabel() {
     return data.email || (data.name && data.name.display_name) || 'Connected';
 }
 
-// Uploads the current browser's quiz progress to the connected Dropbox
-// account's App Folder, overwriting whatever was there before.
-export async function uploadProgressToDropbox() {
+async function uploadRaw(data) {
     const accessToken = await getValidAccessToken();
-    const progressData = localStorage.getItem(PROGRESS_STORAGE_KEY) || '{}';
 
     const response = await fetch('https://content.dropboxapi.com/2/files/upload', {
         method: 'POST',
@@ -222,13 +219,27 @@ export async function uploadProgressToDropbox() {
                 mute: true
             })
         },
-        body: progressData
+        body: data
     });
 
     if (!response.ok) {
         const text = await response.text();
         throw new Error(`Upload failed (${response.status}): ${text}`);
     }
+}
+
+// Uploads the current browser's quiz progress to the connected Dropbox
+// account's App Folder, overwriting whatever was there before.
+export async function uploadProgressToDropbox() {
+    const progressData = localStorage.getItem(PROGRESS_STORAGE_KEY) || '{}';
+    await uploadRaw(progressData);
+}
+
+// Overwrites the Dropbox progress file with an empty object. Used when
+// resetting progress, so the remote copy doesn't silently resurrect old
+// data the next time someone loads from Dropbox.
+export async function clearProgressOnDropbox() {
+    await uploadRaw('{}');
 }
 
 // Downloads progress.json from the connected Dropbox account and

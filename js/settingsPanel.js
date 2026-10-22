@@ -1,7 +1,8 @@
-// Settings cog + panel, injected into every quiz/landing page. Currently
-// holds the Dropbox sync section; built so more tools can be added as
-// additional .settings-section blocks later.
+// Settings cog + panel, injected into every quiz/landing page. Holds the
+// progress reset control and the Dropbox sync section; built so more tools
+// can be added as additional .settings-section blocks later.
 
+import { resetAllProgress } from './progress.js';
 import {
     isConnected,
     getSavedAppKey,
@@ -10,8 +11,50 @@ import {
     disconnectDropbox,
     getAccountLabel,
     uploadProgressToDropbox,
-    downloadProgressFromDropbox
+    downloadProgressFromDropbox,
+    clearProgressOnDropbox
 } from './dropboxSync.js';
+
+function buildProgressSection() {
+    const section = document.createElement('div');
+    section.className = 'settings-section';
+
+    const heading = document.createElement('h3');
+    heading.innerText = 'Progress';
+
+    const status = document.createElement('p');
+    status.className = 'settings-status';
+
+    const resetBtn = document.createElement('button');
+    resetBtn.type = 'button';
+    resetBtn.className = 'settings-btn settings-btn-secondary';
+    resetBtn.innerText = 'Reset Progress';
+    resetBtn.addEventListener('click', async () => {
+        const confirmed = confirm(
+            'Reset all tracked progress, for every aircraft, on this device? This cannot be undone.'
+        );
+        if (!confirmed) return;
+
+        resetAllProgress();
+
+        if (isConnected()) {
+            status.innerText = 'Clearing Dropbox too...';
+            try {
+                await clearProgressOnDropbox();
+            } catch (err) {
+                status.innerText = `Progress reset locally, but Dropbox clear failed: ${err.message}`;
+                return;
+            }
+        }
+
+        window.location.reload();
+    });
+
+    section.appendChild(heading);
+    section.appendChild(status);
+    section.appendChild(resetBtn);
+    return section;
+}
 
 function buildDropboxSection() {
     const section = document.createElement('div');
@@ -227,6 +270,7 @@ function injectSettingsUI() {
     header.appendChild(closeBtn);
 
     panel.appendChild(header);
+    panel.appendChild(buildProgressSection());
     panel.appendChild(buildDropboxSection());
 
     overlay.appendChild(panel);

@@ -40596,7 +40596,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 4461,
     Aircraft: 'AW139',
     Category: '29',
@@ -40607,7 +40607,7 @@ export const questions = [
         c: '-20°C to +50°C'
     },
     correct: 'c'
-},
+}, */
 {
     id: 4462,
     Aircraft: 'AW139',
@@ -40912,11 +40912,11 @@ export const questions = [
     id: 4487,
     Aircraft: 'AW139',
     Category: '29',
-    question: "At what temperature does the HYD 1 indicator's amber TEMP legend illuminate?",
+    question: "At what temperature does the HYD 1 indicator's red TEMP legend illuminate?",
     options: {
         a: 'When fluid temperature is above 163°C',
         b: 'When fluid temperature is above 100°C',
-        c: 'When fluid temperature in system 1 is above 134°C'
+        c: 'When fluid temperature is above 134°C'
     },
     correct: 'c'
 },

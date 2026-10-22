@@ -1,5 +1,5 @@
 import { questions as questionBank } from './questionBank.js';
-import { recordResult, weightedSample, getOverallStats, resetProgress } from './progress.js';
+import { recordResult, weightedSample, getOverallStats } from './progress.js';
 import { attachReportControl } from './reportQuestion.js';
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -213,17 +213,6 @@ document.addEventListener('DOMContentLoaded', function () {
             ? 'No history yet — finish a quiz to start tracking.'
             : `Tracked: ${stats.tracked} | Accuracy: ${stats.accuracy.toFixed(0)}% | Mastered: ${stats.mastered} | Due for review: ${stats.dueForReview}`;
         progressPanel.appendChild(summary);
-
-        const resetProgressBtn = document.createElement('button');
-        resetProgressBtn.id = 'resetProgressBtn';
-        resetProgressBtn.innerText = 'Reset Progress';
-        resetProgressBtn.addEventListener('click', function () {
-            if (confirm('Reset all tracked progress for this aircraft? This cannot be undone.')) {
-                resetProgress(aircraftType);
-                renderProgressPanel();
-            }
-        });
-        progressPanel.appendChild(resetProgressBtn);
     }
 
     renderProgressPanel();
