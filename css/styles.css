@@ -286,6 +286,12 @@ ul.ata_List3 {
     text-align: center;
 }
 
+.dropbox-sync-note {
+    font-size: 0.8rem;
+    color: #cfd6ff;
+    margin: 8px 0 0 0;
+}
+
 /* Question ID */
 .question-id {
     font-size: 0.7rem;

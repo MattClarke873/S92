@@ -1,6 +1,7 @@
 import { questions as questionBank } from './questionBank.js';
 import { recordResult, weightedSample, getOverallStats } from './progress.js';
 import { attachReportControl } from './reportQuestion.js';
+import { isConnected, uploadProgressToDropbox } from './dropboxSync.js';
 
 document.addEventListener('DOMContentLoaded', function () {
     // Cache DOM elements for later use
@@ -176,6 +177,7 @@ document.addEventListener('DOMContentLoaded', function () {
         resultContainer.appendChild(scoreText);
 
         renderProgressPanel();
+        syncProgressToDropboxIfConnected();
     }
 
     // Function to reset the quiz to its initial state
@@ -213,6 +215,28 @@ document.addEventListener('DOMContentLoaded', function () {
             ? 'No history yet — finish a quiz to start tracking.'
             : `Tracked: ${stats.tracked} | Accuracy: ${stats.accuracy.toFixed(0)}% | Mastered: ${stats.mastered} | Due for review: ${stats.dueForReview}`;
         progressPanel.appendChild(summary);
+    }
+
+    // Best-effort — if Dropbox isn't connected this stays silent. If it is,
+    // this fires automatically every time a quiz is finished, so progress
+    // never needs the manual "Save to Dropbox" button in normal use. A
+    // failed sync (network, expired tokens, etc.) doesn't block the score
+    // from showing; it's just noted so it's clear it didn't happen.
+    function syncProgressToDropboxIfConnected() {
+        if (!isConnected()) return;
+
+        const syncNote = document.createElement('p');
+        syncNote.className = 'dropbox-sync-note';
+        syncNote.innerText = 'Syncing to Dropbox...';
+        resultContainer.appendChild(syncNote);
+
+        uploadProgressToDropbox()
+            .then(() => {
+                syncNote.innerText = 'Synced to Dropbox.';
+            })
+            .catch((err) => {
+                syncNote.innerText = `Dropbox sync failed: ${err.message}`;
+            });
     }
 
     renderProgressPanel();
