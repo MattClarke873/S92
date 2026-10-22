@@ -205,6 +205,19 @@ export async function getAccountLabel() {
     return data.email || (data.name && data.name.display_name) || 'Connected';
 }
 
+// Access tokens are issued with whatever scopes were enabled on the
+// Dropbox app AT THE MOMENT it was connected — ticking a permission
+// checkbox afterward doesn't retroactively upgrade an existing token.
+// This turns that specific, confusing error into an actionable message.
+function describeDropboxError(action, status, text) {
+    if (text.includes('missing_scope')) {
+        return `${action} failed: this Dropbox connection is missing a permission. `
+            + 'If you enabled it in the Dropbox App Console after connecting, disconnect '
+            + `and reconnect here to get a fresh token with it. (${text})`;
+    }
+    return `${action} failed (${status}): ${text}`;
+}
+
 async function uploadRaw(data) {
     const accessToken = await getValidAccessToken();
 
@@ -224,7 +237,7 @@ async function uploadRaw(data) {
 
     if (!response.ok) {
         const text = await response.text();
-        throw new Error(`Upload failed (${response.status}): ${text}`);
+        throw new Error(describeDropboxError('Upload', response.status, text));
     }
 }
 
@@ -260,7 +273,7 @@ export async function downloadProgressFromDropbox() {
     }
     if (!response.ok) {
         const text = await response.text();
-        throw new Error(`Download failed (${response.status}): ${text}`);
+        throw new Error(describeDropboxError('Download', response.status, text));
     }
 
     const text = await response.text();

@@ -1,7 +1,7 @@
 import { questions as questionBank } from './questionBank.js';
 import { recordResult, weightedSample, getOverallStats } from './progress.js';
 import { attachReportControl } from './reportQuestion.js';
-import { isConnected, uploadProgressToDropbox } from './dropboxSync.js';
+import { isConnected, uploadProgressToDropbox, downloadProgressFromDropbox } from './dropboxSync.js';
 
 document.addEventListener('DOMContentLoaded', function () {
     // Cache DOM elements for later use
@@ -240,6 +240,20 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     renderProgressPanel();
+
+    // If connected to Dropbox, pull down the latest progress as soon as the
+    // page loads, before anything else touches it — so progress made on
+    // another device shows up here too. Best effort: silent if it fails,
+    // the page works fine off whatever was already stored locally.
+    if (isConnected()) {
+        downloadProgressFromDropbox()
+            .then(() => {
+                renderProgressPanel();
+            })
+            .catch(() => {
+                // Local progress is still perfectly usable; nothing to show the user here.
+            });
+    }
 
     // Function to get the currently selected categories from the checkboxes
     function getSelectedCategories() {
