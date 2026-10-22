@@ -7,13 +7,15 @@
 // server we run — this site has no backend at all.
 //
 // Auth uses OAuth2 "Authorization Code with PKCE", the flow designed for
-// public clients (browser apps, mobile apps) that can't keep a secret.
-// No client secret is ever needed or stored.
+// public clients (browser apps, mobile apps) that can't keep a secret — no
+// client secret is ever needed or stored. No redirect URI is used either:
+// the login opens in a new tab and Dropbox shows the code on-screen for the
+// person to copy back, so there's nothing to register in the Dropbox app
+// and the flow works the same on any URL (localhost, GitHub Pages, etc).
 
 const APP_KEY_STORAGE = 'dropboxSync.appKey';
 const TOKEN_STORAGE = 'dropboxSync.tokens';
 const VERIFIER_STORAGE = 'dropboxSync.pkceVerifier';
-const RETURN_TO_STORAGE = 'dropboxSync.returnTo';
 const PROGRESS_STORAGE_KEY = 'quizProgress.v1';
 const PROGRESS_FILE_PATH = '/progress.json';
 
@@ -34,19 +36,6 @@ async function sha256(input) {
     const data = new TextEncoder().encode(input);
     const digest = await crypto.subtle.digest('SHA-256', data);
     return base64UrlEncode(new Uint8Array(digest));
-}
-
-// Dropbox requires an exact, pre-registered redirect URI. Rather than ask
-// each person to register every single quiz page, every page redirects
-// through this one fixed callback page — computed from the current URL so
-// it works the same on GitHub Pages or a local test server.
-export function getCallbackUrl() {
-    const href = window.location.href;
-    const inHtmlDir = window.location.pathname.includes('/html/');
-    const base = inHtmlDir
-        ? href.replace(/\/html\/[^/?#]*(?:[?#].*)?$/, '')
-        : href.replace(/\/[^/?#]*(?:[?#].*)?$/, '');
-    return `${base}/html/dropbox-callback.html`;
 }
 
 function getTokens() {
@@ -74,13 +63,22 @@ export function disconnectDropbox() {
 }
 
 // Kicks off the login — saves the app key, builds the PKCE challenge, and
-// sends the browser to Dropbox's own login/consent page.
-export async function connectToDropbox(appKey) {
+// sends Dropbox's login/consent page to a new tab. No redirect URI is sent
+// (and none should be registered on the Dropbox app), so Dropbox shows the
+// authorization code directly on its own page for the person to copy — this
+// tab stays open and untouched the whole time.
+//
+// `authWindow` should be a tab already opened via window.open(''), SYNCHRONOUSLY
+// inside the click handler that called this function, before any `await` —
+// Safari (and strict popup blockers generally) will silently block
+// window.open() if it happens even one microtask after the triggering click,
+// so the tab must exist first and just get navigated once the async PKCE
+// setup below finishes. Falls back to opening a tab here if none was passed.
+export async function connectToDropbox(appKey, authWindow) {
     localStorage.setItem(APP_KEY_STORAGE, appKey);
 
     const verifier = generateRandomString(64);
     sessionStorage.setItem(VERIFIER_STORAGE, verifier);
-    sessionStorage.setItem(RETURN_TO_STORAGE, window.location.href);
 
     const challenge = await sha256(verifier);
 
@@ -89,38 +87,34 @@ export async function connectToDropbox(appKey) {
     authUrl.searchParams.set('response_type', 'code');
     authUrl.searchParams.set('code_challenge', challenge);
     authUrl.searchParams.set('code_challenge_method', 'S256');
-    authUrl.searchParams.set('redirect_uri', getCallbackUrl());
     authUrl.searchParams.set('token_access_type', 'offline');
 
-    window.location.href = authUrl.toString();
+    if (authWindow && !authWindow.closed) {
+        authWindow.location.href = authUrl.toString();
+    } else {
+        window.open(authUrl.toString(), '_blank');
+    }
 }
 
-// Called from dropbox-callback.html once Dropbox redirects back with a code.
+// Call once the person has pasted back the code Dropbox showed them.
 // Exchanges it for an access token + refresh token.
-export async function completeDropboxConnection() {
-    const params = new URLSearchParams(window.location.search);
-    const errorParam = params.get('error');
-    if (errorParam) {
-        return { ok: false, error: params.get('error_description') || errorParam };
-    }
-
-    const code = params.get('code');
-    if (!code) {
-        return { ok: false, error: 'No authorization code in the redirect URL.' };
+export async function finishDropboxConnection(code) {
+    const trimmedCode = code.trim();
+    if (!trimmedCode) {
+        return { ok: false, error: 'Paste the code Dropbox showed you first.' };
     }
 
     const appKey = localStorage.getItem(APP_KEY_STORAGE);
     const verifier = sessionStorage.getItem(VERIFIER_STORAGE);
     if (!appKey || !verifier) {
-        return { ok: false, error: "Missing app key or login session — please try connecting again." };
+        return { ok: false, error: 'Missing app key or login session — please tap Connect to Dropbox again.' };
     }
 
     const body = new URLSearchParams({
-        code,
+        code: trimmedCode,
         grant_type: 'authorization_code',
         client_id: appKey,
-        code_verifier: verifier,
-        redirect_uri: getCallbackUrl()
+        code_verifier: verifier
     });
 
     let response;
@@ -136,7 +130,7 @@ export async function completeDropboxConnection() {
 
     if (!response.ok) {
         const text = await response.text();
-        return { ok: false, error: `Dropbox rejected the request (${response.status}): ${text}` };
+        return { ok: false, error: `Dropbox rejected the code (${response.status}): ${text}` };
     }
 
     const data = await response.json();
@@ -147,10 +141,8 @@ export async function completeDropboxConnection() {
     });
 
     sessionStorage.removeItem(VERIFIER_STORAGE);
-    const returnTo = sessionStorage.getItem(RETURN_TO_STORAGE) || '../index.html';
-    sessionStorage.removeItem(RETURN_TO_STORAGE);
 
-    return { ok: true, returnTo };
+    return { ok: true };
 }
 
 async function refreshAccessToken() {

@@ -5,8 +5,8 @@
 import {
     isConnected,
     getSavedAppKey,
-    getCallbackUrl,
     connectToDropbox,
+    finishDropboxConnection,
     disconnectDropbox,
     getAccountLabel,
     uploadProgressToDropbox,
@@ -41,14 +41,24 @@ function buildDropboxSection() {
         helpText.className = 'settings-help';
         helpText.innerHTML = `Each person connects their own Dropbox account using their own free
             Dropbox app — nothing goes through any server this site runs.<br><br>
-            1. Go to <a href="https://www.dropbox.com/developers/apps" target="_blank" rel="noopener">dropbox.com/developers/apps</a>
-            and create an app.<br>
-            2. Choose <strong>Scoped access</strong> &rarr; <strong>App folder</strong>.<br>
-            3. In the app's <strong>Permissions</strong> tab, enable
-            <code>files.content.write</code> and <code>files.content.read</code>.<br>
-            4. In the <strong>Settings</strong> tab, add this exact Redirect URI:<br>
-            <code class="settings-redirect-uri">${getCallbackUrl()}</code><br><br>
-            5. Copy the <strong>App key</strong> and paste it below.`;
+            <strong>1. Open the Dropbox App Console</strong><br>
+            Go to <a href="https://www.dropbox.com/developers/apps" target="_blank" rel="noopener">dropbox.com/developers/apps</a>
+            and sign in.<br><br>
+            <strong>2. Create an app</strong><br>
+            Choose <strong>Scoped access</strong>, then <strong>App folder</strong>, give it a name
+            nobody else will have used (e.g. "Your Name Quiz Progress"), and create it.<br><br>
+            <strong>3. Turn on file permissions</strong><br>
+            In the <strong>Permissions</strong> tab, tick these two, then Submit — do this before
+            connecting, or sync won't be allowed to save:<br>
+            <code>files.content.write</code> <code>files.content.read</code><br><br>
+            <strong>4. Copy the App key</strong><br>
+            Back on the <strong>Settings</strong> tab, copy the <strong>App key</strong>. Don't use
+            the App secret, and leave the redirect URIs empty.<br><br>
+            <strong>5. Paste the key below and tap Connect Dropbox</strong><br>
+            Dropbox opens in a new tab.<br><br>
+            <strong>6. Allow, then paste the code</strong><br>
+            Tap Allow. Dropbox shows a code — copy it, come back to this tab, paste it below, and
+            tap Finish connecting.`;
 
         const appKeyInput = document.createElement('input');
         appKeyInput.type = 'text';
@@ -60,23 +70,58 @@ function buildDropboxSection() {
         connectBtn.type = 'button';
         connectBtn.className = 'settings-btn';
         connectBtn.innerText = 'Connect to Dropbox';
+
+        const codeInput = document.createElement('input');
+        codeInput.type = 'text';
+        codeInput.className = 'settings-input';
+        codeInput.placeholder = 'Paste the code Dropbox gave you';
+        codeInput.style.display = 'none';
+
+        const finishBtn = document.createElement('button');
+        finishBtn.type = 'button';
+        finishBtn.className = 'settings-btn';
+        finishBtn.innerText = 'Finish connecting';
+        finishBtn.style.display = 'none';
+
         connectBtn.addEventListener('click', async () => {
             const key = appKeyInput.value.trim();
             if (!key) {
                 status.innerText = 'Paste your Dropbox App Key first.';
                 return;
             }
-            status.innerText = 'Redirecting to Dropbox...';
+
+            // Open the tab right here, synchronously, before any awaiting —
+            // Safari blocks window.open() once it happens after an await,
+            // even a fast one. We navigate this already-open tab below.
+            const authWindow = window.open('', '_blank');
+
+            status.innerText = 'Opening Dropbox in a new tab...';
             try {
-                await connectToDropbox(key);
+                await connectToDropbox(key, authWindow);
+                codeInput.style.display = '';
+                finishBtn.style.display = '';
+                status.innerText = 'Allow access in the new tab, then paste the code here.';
             } catch (err) {
                 status.innerText = `Could not start Dropbox login: ${err.message}`;
+                if (authWindow) authWindow.close();
+            }
+        });
+
+        finishBtn.addEventListener('click', async () => {
+            status.innerText = 'Connecting...';
+            const result = await finishDropboxConnection(codeInput.value);
+            if (result.ok) {
+                render();
+            } else {
+                status.innerText = result.error;
             }
         });
 
         section.appendChild(helpText);
         section.appendChild(appKeyInput);
         section.appendChild(connectBtn);
+        section.appendChild(codeInput);
+        section.appendChild(finishBtn);
     }
 
     function renderConnected() {
@@ -90,6 +135,10 @@ function buildDropboxSection() {
             .catch(() => {
                 // Keep the generic label — account lookup failing doesn't affect sync itself.
             });
+
+        const fileNote = document.createElement('p');
+        fileNote.className = 'settings-help';
+        fileNote.innerHTML = 'Your progress is saved as <code>Apps/&lt;app name&gt;/progress.json</code>. To sync another device, connect it the same way with the same App key.';
 
         const saveBtn = document.createElement('button');
         saveBtn.type = 'button';
@@ -135,6 +184,7 @@ function buildDropboxSection() {
         });
 
         section.appendChild(accountLabel);
+        section.appendChild(fileNote);
         section.appendChild(saveBtn);
         section.appendChild(loadBtn);
         section.appendChild(disconnectBtn);
