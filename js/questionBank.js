@@ -46032,7 +46032,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 4923,
     Aircraft: 'AW139',
     Category: '62',
@@ -46043,7 +46043,7 @@ export const questions = [
         c: 'The main rotor hub splines'
     },
     correct: 'b'
-},
+}, */
 {
     id: 4924,
     Aircraft: 'AW139',
@@ -47424,7 +47424,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 5039,
     Aircraft: 'AW139',
     Category: '63',
@@ -47435,7 +47435,7 @@ export const questions = [
         c: 'A 53-tooth gear'
     },
     correct: 'c'
-},
+}, */
 {
     id: 5040,
     Aircraft: 'AW139',
@@ -50769,6 +50769,1446 @@ export const questions = [
         a: 'Between 100% and 110% NR, cancelling out all vibrations at 105% NR',
         b: 'Between 95% and 105% NR, cancelling out all vibrations at 100% NR',
         c: 'Between 80% and 100% NR, cancelling out all vibrations at 90% NR'
+    },
+    correct: 'b'
+},
+{
+    id: 5322,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What three systems make up the rotor flight controls?',
+    options: {
+        a: 'Main rotor controls system, tail rotor controls system, and rotor flight controls indicating system',
+        b: 'Main rotor servo actuator, tail rotor servo actuator, and mixing unit',
+        c: 'Collective controls, cyclic controls, and AFCS controls'
+    },
+    correct: 'a'
+},
+{
+    id: 5323,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How is the attitude and altitude of the rotorcraft controlled by the main rotor controls?',
+    options: {
+        a: 'Collective and cyclic inputs directly vary main rotor RPM without changing blade pitch',
+        b: 'Only the cyclic input changes blade pitch; the collective input only operates the engine governor',
+        c: 'Collective and cyclic inputs are mixed to change the pitch angle of the main rotor blades'
+    },
+    correct: 'c'
+},
+{
+    id: 5324,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How is yaw axis control achieved by the tail rotor controls system?',
+    options: {
+        a: 'By tilting the entire tail gearbox relative to the tail boom',
+        b: "By changing the tail rotor's rotational speed relative to the main rotor",
+        c: 'By changing the pitch angle of the tail rotor blades'
+    },
+    correct: 'c'
+},
+{
+    id: 5325,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "Where is the pilot's collective lever installed, and how is it connected to the co-pilot's lever?",
+    options: {
+        a: 'Forward of the pilot seat, connected to the co-pilot collective lever through the mixing unit only',
+        b: 'On the right side of the pilot seat, connected to the co-pilot collective lever through a steel push-pull rod',
+        c: 'On the left side of the pilot seat, connected to the co-pilot collective lever through a carbon fibre torque tube'
+    },
+    correct: 'c'
+},
+{
+    id: 5326,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What supports the collective torque tube at each end, and what does this support include?',
+    options: {
+        a: 'A fixed clamp at each end with no bearing, relying on lubrication alone to reduce friction',
+        b: 'A mounting bracket at each end, which includes a bearing to reduce friction to a minimum',
+        c: 'A single central bearing block, with no support at either end of the tube'
+    },
+    correct: 'b'
+},
+{
+    id: 5327,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Where is the adjustable friction mechanism on the collective system, and what is it used for?',
+    options: {
+        a: 'At the mixing unit; it limits the maximum collective travel available to the pilot',
+        b: 'At the right end of the torque tube; it can increase collective control friction or hold the stick during manual flying',
+        c: "On the co-pilot's collective lever only; it disables co-pilot collective input when engaged"
+    },
+    correct: 'b'
+},
+{
+    id: 5328,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What is the purpose of the balance spring on the collective control?',
+    options: {
+        a: 'It provides the force feel resistance used by the AFCS trim system',
+        b: 'It centres the collective lever automatically whenever the FTR trigger is released',
+        c: 'It counterbalances the weight acting on the control'
+    },
+    correct: 'c'
+},
+{
+    id: 5329,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Besides the adjustable friction mechanism, what other friction device is present in the collective control system?',
+    options: {
+        a: "A second, independent adjustable friction mechanism on the co-pilot's lever",
+        b: 'A hydraulic friction damper fitted at the mixing unit',
+        c: 'A fixed friction device'
+    },
+    correct: 'c'
+},
+{
+    id: 5330,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "How are the co-pilot's collective and cyclic levers installed, and are they fitted to every AW139?",
+    options: {
+        a: 'Using a permanently riveted bracket; they are fitted to every AW139 without exception',
+        b: 'Using a bolted clevis fitting; they are only fitted when the aircraft is configured for IFR operations',
+        c: 'Using a quick release pin; they are optional, although installed on the majority of AW139 helicopters'
+    },
+    correct: 'c'
+},
+{
+    id: 5331,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What material are the collective control sticks made from?',
+    options: {
+        a: 'A hollow titanium tube with a composite overwrap',
+        b: 'An aluminium tube with a grip at the top',
+        c: 'A carbon fibre tube with a grip at the top, matching the torque tube material'
+    },
+    correct: 'b'
+},
+{
+    id: 5332,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How do pilots normally control the collective pitch angle in flight, versus manually lifting the lever?',
+    options: {
+        a: 'Pilots always move the lever by hand; beep trim is disabled whenever the collective is in use',
+        b: 'Pilots use the FTR trigger exclusively; the collective lever itself is a fixed, non-moving reference',
+        c: 'Pilots usually use the beep trim to control the collective stick, rather than lifting the lever by hand'
+    },
+    correct: 'c'
+},
+{
+    id: 5333,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What does pressing the temporary FTR (Force Trim Release) trigger on the collective do?',
+    options: {
+        a: 'It suspends collective force trim, allowing the pilot free movement of the collective',
+        b: 'It locks the collective lever at its current position for hands-off hover',
+        c: 'It permanently disables the collective trim actuator until reset on the MISC panel'
+    },
+    correct: 'a'
+},
+{
+    id: 5334,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What does the mixing unit do with the collective and cyclic inputs?',
+    options: {
+        a: 'It converts the mechanical collective and cyclic inputs into electrical signals for the AFCS computers',
+        b: 'It receives mechanical inputs from the collective and cyclic controls, mixes them, and sends a mechanical output to the main rotor servo actuators',
+        c: 'It mixes only the cyclic inputs; collective input bypasses the mixing unit and goes directly to the servo actuators'
+    },
+    correct: 'b'
+},
+{
+    id: 5335,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "What does the mixing unit's mechanical stop limit, and under what condition?",
+    options: {
+        a: 'It limits the lateral cyclic control as a function of yaw pedal position; full lateral cyclic requires maximum collective',
+        b: 'It limits collective travel itself once the aircraft is on the ground, regardless of cyclic position',
+        c: 'It limits the longitudinal pitch control as a function of collective displacement; full forward longitudinal cyclic is only available if the collective is not at minimum'
+    },
+    correct: 'c'
+},
+{
+    id: 5336,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How does the mixing unit transmit its output to the main rotor servo actuators?',
+    options: {
+        a: "Through an electrical signal sent to each servo actuator's own local actuator motor",
+        b: 'Through three rods that use a pivot lever and bell cranks to transmit mechanical movement',
+        c: 'Through a single hydraulic line that pressurizes all three servo actuators simultaneously'
+    },
+    correct: 'b'
+},
+{
+    id: 5337,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How are the pilot and co-pilot collective levers linked for input to the mixing unit?',
+    options: {
+        a: 'They are connected together to give a common input to the mixing unit',
+        b: "They are mechanically independent; only the pilot's lever has an input to the mixing unit",
+        c: "They are linked only electrically, through the collective trim actuator's position sensor"
+    },
+    correct: 'a'
+},
+{
+    id: 5338,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "What do the Linear Variable Differential Transformers (LVDTs) in the collective system do, and why are they sometimes called 'anticipators'?",
+    options: {
+        a: 'They detect collective stick position for the cockpit collective position indicator only, with no engine interface',
+        b: 'They provide an input to the Electronic Engine Control (EEC) so the engines respond swiftly to collective stick movement, anticipating the power demand',
+        c: 'They measure collective stick friction and feed a correction signal to the adjustable friction mechanism'
+    },
+    correct: 'b'
+},
+{
+    id: 5339,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Where is the collective trim actuator located, and how is it installed relative to the torque tube?',
+    options: {
+        a: 'Above the ceiling of the passenger cabin, installed in series with the collective torque tube',
+        b: "Under the floor beneath the co-pilot's seat, installed in parallel with the collective torque tube",
+        c: 'Inside the mixing unit housing itself, sharing the same mounting bracket as the LVDTs'
+    },
+    correct: 'b'
+},
+{
+    id: 5340,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "How does the collective trim actuator's authority and rate compare with the pilot's, and how can the pilot override it?",
+    options: {
+        a: 'It has the same control travel authority as the pilot but a low-limited rate of control for safety; it can be overridden by pilot commands via a spring-clutch',
+        b: "It has only 10% of the pilot's authority and cannot be overridden except by a maintenance reset",
+        c: 'It has unlimited authority and rate, matching AFCS demands instantly, with no pilot override provision'
+    },
+    correct: 'a'
+},
+{
+    id: 5341,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'When replacing the collective trim actuator rod or the C2 rod, what must be checked?',
+    options: {
+        a: 'The replacement rod length must be adjusted to the same length as the old one',
+        b: 'No check is required; these rods are supplied pre-set to a single universal length',
+        c: 'The replacement rod must be shortened by a fixed 5 mm to allow for thread stretch'
+    },
+    correct: 'a'
+},
+{
+    id: 5342,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'At what reference point is the collective control rigged when removing the LVDTs or the collective trim actuator?',
+    options: {
+        a: 'At the mixing unit',
+        b: "At the pilot's collective stick handgrip",
+        c: 'At the right end of the collective torque tube only'
+    },
+    correct: 'a'
+},
+{
+    id: 5343,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'In the four-axis flight control system, how many trim actuators and how many linear actuators are there, and which axis has no linear actuators?',
+    options: {
+        a: 'Two trim actuators per axis and one linear actuator per axis, with no trim actuator on the collective axis',
+        b: 'One linear actuator per axis and three pairs of trim actuators, with no linear actuators on the yaw axis',
+        c: 'One dual-channel trim actuator per axis, and three pairs of linear actuators (pitch, roll and yaw); there are no linear actuators in the collective system'
+    },
+    correct: 'c'
+},
+{
+    id: 5344,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How do trim (rotary) actuators move the flying controls, and what is their authority and connection type?',
+    options: {
+        a: 'They are fast moving, 10% authority, and connected in series, so driving them has no direct effect on the flying controls',
+        b: "They are slow moving, full authority, and connected in parallel, so driving the trim actuator also moves the pilot's and co-pilot's flying controls",
+        c: "They are slow moving, 10% authority, and connected in parallel, moving only the AFCS computer's internal reference"
+    },
+    correct: 'b'
+},
+{
+    id: 5345,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How do linear actuators move the flying controls, and what is their authority and connection type?',
+    options: {
+        a: 'They are slow moving, have full authority, and are connected in parallel, so they move the flying controls directly, the same as the trim actuators',
+        b: 'They have the same authority and connection type as the trim actuators, the only difference being their physical size',
+        c: 'They are fast moving, have 10% authority, and are connected in series, so they move the control runs and input the mixing unit but have no direct effect on the flying controls'
+    },
+    correct: 'c'
+},
+{
+    id: 5346,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What is the purpose of the feel spring within a trim actuator?',
+    options: {
+        a: 'This function is not provided anywhere in the flight control system',
+        b: 'It provides the hydraulic damping force that slows the linear actuators during a series input',
+        c: 'It provides resistance to the pilot when moving the controls while the force trim system is still engaged'
+    },
+    correct: 'c'
+},
+{
+    id: 5347,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What does the detent microswitch in a trim actuator do, and what happens to AFCS control when it trips?',
+    options: {
+        a: 'It alerts the AFCS that the pilot has moved the controls while the force trim system is engaged; AFCS control of the actuator is suspended, although its computations continue',
+        b: 'It shuts down the AFCS computing modules completely until the aircraft is back on the ground',
+        c: 'It signals the shear section to break, physically disconnecting the trim actuator from the control run'
+    },
+    correct: 'a'
+},
+{
+    id: 5348,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What does the magnetic clutch in a trim actuator do, and what is its default state?',
+    options: {
+        a: 'It has no connection to the flight controls; it only engages the detent microswitch circuit',
+        b: 'It anchors the motor to the flight controls; by default it is engaged until an FTR switch is pressed, which then allows free movement of the controls',
+        c: 'It anchors the motor to the flight controls; by default it is disengaged, and engages only when an FTR switch is pressed'
+    },
+    correct: 'b'
+},
+{
+    id: 5349,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What is the function of the dual position sensor in a trim actuator?',
+    options: {
+        a: 'It provides a feedback positional signal of the controls to the AFCS',
+        b: 'This function is not provided anywhere in the flight control system',
+        c: 'It senses whether the magnetic clutch is engaged or disengaged and displays this on the MFD'
+    },
+    correct: 'a'
+},
+{
+    id: 5350,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What converts electrical signals into mechanical rotation in a trim actuator, and what does that rotation drive?',
+    options: {
+        a: 'An electric motor, which rotates the trim actuator output shaft and hence the flying control rods',
+        b: 'A linear solenoid, which pushes directly on the flying control rods with no rotating output shaft',
+        c: 'This function is not provided anywhere in the flight control system'
+    },
+    correct: 'a'
+},
+{
+    id: 5351,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What is the purpose of the damper fitted within a trim actuator?',
+    options: {
+        a: 'It reduces vibration on the controls caused by the opening and closing of the clutch',
+        b: 'It reduces the rate of the electric motor to keep trim actuator movement within its authority limit',
+        c: 'This function is not provided anywhere in the flight control system'
+    },
+    correct: 'a'
+},
+{
+    id: 5352,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "What is the shear section on a trim actuator's output shaft for?",
+    options: {
+        a: 'This function is not provided anywhere in the flight control system',
+        b: 'If the actuator locks due to malfunction, the pilot can break the shear section by forceful movement of the flying controls to free them',
+        c: 'It allows the actuator to be disassembled without tools during scheduled maintenance'
+    },
+    correct: 'b'
+},
+{
+    id: 5353,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What power supply drives the trim actuator clutch mechanism?',
+    options: {
+        a: '115 VAC from the non-essential bus',
+        b: '27.5 VDC from the standby battery bus only',
+        c: '28 VDC from the ESS (Essential) bus'
+    },
+    correct: 'c'
+},
+{
+    id: 5354,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What happens when a trim actuator clutch is opened (disengaged)?',
+    options: {
+        a: 'Nothing changes for the pilot; only the AFCS computing modules stop their background computations',
+        b: 'The force feel system, the actuator drive and the auto-trim function are all disengaged/suspended, and the autopilot operates in SAS mode',
+        c: 'The AFCS shuts down entirely and reverts to manual reversion flight control law'
+    },
+    correct: 'b'
+},
+{
+    id: 5355,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What must remain switched on for the minimum AFCS configuration required for IFR flight?',
+    options: {
+        a: "The collective trim actuator's magnetic clutch only, with all other trim actuators de-clutched",
+        b: 'The permanent FTR switches on the MISC panel, so that both autopilots can be held in ATT (Attitude Hold Mode)',
+        c: 'The temporary FTR switches on the cyclic, collective and pedals'
+    },
+    correct: 'b'
+},
+{
+    id: 5356,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What type of control system is the cyclic control system?',
+    options: {
+        a: 'A mechanical, dual linkage system, controlled by the cyclic sticks and pitch/roll trim actuators, using conventional metallic rods and bellcranks',
+        b: 'A fully electronic fly-by-wire system with no mechanical linkage between the stick and the mixing unit',
+        c: 'A hydro-mechanical system using a single linkage shared with the collective control'
+    },
+    correct: 'a'
+},
+{
+    id: 5357,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How does the cyclic linkage provide pitch and roll commands to the main rotor?',
+    options: {
+        a: 'Via the mixing unit, to the main rotor pitch change mechanism',
+        b: 'Via the yaw servo actuator, which splits the signal between pitch and roll',
+        c: 'Directly to the swashplate, bypassing the mixing unit entirely'
+    },
+    correct: 'a'
+},
+{
+    id: 5358,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "Where is the pilot's cyclic stick installed, and how is it connected to the co-pilot's stick?",
+    options: {
+        a: "On the left side of the pilot seat, connected through a steel push-pull rod to the co-pilot's stick",
+        b: 'Behind the pilot seat, connected through the mixing unit only, with no direct torque tube link',
+        c: "Forward from where the pilot sits, connected through a carbon fibre torque tube to the co-pilot's stick"
+    },
+    correct: 'c'
+},
+{
+    id: 5359,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What limits pitch and roll movement of the cyclic stick, and what statically balances the linkage weight?',
+    options: {
+        a: 'A mechanical stop on the mixing unit limits the movements, while a counterweight on the stick balances it',
+        b: "The trim actuator's shear section limits the movements, while the feel spring balances the linkage weight",
+        c: 'A shaped flange limits the movements, while springs statically balance the control linkage weight'
+    },
+    correct: 'c'
+},
+{
+    id: 5360,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Where are the pitch and roll linear actuators located, and how are they connected?',
+    options: {
+        a: 'Installed inside the tail boom alongside the yaw linear actuators',
+        b: 'Installed beneath the cabin floor, connected directly to the mixing unit input shaft',
+        c: 'Installed above the ceiling of the passenger cabin, connected with the upper linkage'
+    },
+    correct: 'c'
+},
+{
+    id: 5361,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How are the pitch and roll linear actuators removed and installed, and what additional function do they provide?',
+    options: {
+        a: 'Each pair is removed and installed as one assembly, and they provide an auto-stabilization function through automatic high frequency control commands',
+        b: 'Each actuator is removed individually, and together they provide the main collective trim function',
+        c: 'They are removed as a pair only for overhaul; in service they provide no stabilization function, only AFCS positioning'
+    },
+    correct: 'a'
+},
+{
+    id: 5362,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How do the two cyclic control rods route from the bellcranks to the upper bellcrank installation?',
+    options: {
+        a: 'Through the collective torque tube before reaching the upper bellcranks',
+        b: 'Directly from the stick to the upper bellcranks, with no intermediate vertical-translating bellcranks',
+        c: 'Outboard to bellcranks that translate movement vertically, then via control rods to the upper bellcranks'
+    },
+    correct: 'c'
+},
+{
+    id: 5363,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What is the purpose of the friction clamp (fixed friction) at each lower bellcrank in the cyclic system?',
+    options: {
+        a: 'To provide the only friction felt by the pilot, since no friction device exists on the cyclic stick itself',
+        b: 'To lock the bellcrank solid whenever the aircraft is on the ground with weight on wheels',
+        c: 'To counteract the output force of the series (linear) actuators when the pitch/roll trim actuators are de-clutched, ensuring movement is translated to the mixing unit'
+    },
+    correct: 'c'
+},
+{
+    id: 5364,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What happens at the upper bellcrank installation in the cyclic system?',
+    options: {
+        a: 'A compound linkage connection transmits longitudinal and lateral control to the mixing unit using two adjustable rods, with the AFCS linear actuators interposed between the compound linkage and the mixing unit',
+        b: 'The two cyclic control rods terminate directly at the mixing unit with no further linkage',
+        c: 'This function is not provided anywhere in the flight control system'
+    },
+    correct: 'a'
+},
+{
+    id: 5365,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What is the purpose of the anchor spring acting on the rod between each linear actuator and the compound linkage?',
+    options: {
+        a: 'It provides a safety function if the actuator disconnects, reacting to manual input as a pivot point so movement still reaches the mixing unit',
+        b: 'This function is not provided anywhere in the flight control system',
+        c: 'It pre-loads the linear actuator so it always starts from the fully retracted position'
+    },
+    correct: 'a'
+},
+{
+    id: 5366,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Where are the limit stops located that limit longitudinal and lateral cyclic pitch?',
+    options: {
+        a: 'At the lower bellcrank friction clamp',
+        b: 'In the mixing unit collective arm',
+        c: 'In the upper bellcrank'
+    },
+    correct: 'c'
+},
+{
+    id: 5367,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How are the cyclic levers connected to the floor, and what does this attachment use?',
+    options: {
+        a: 'Through a fixed bracket with no bearing, bolted directly to the cabin floor beam',
+        b: 'Through an attachment plate containing a spherical bearing, connected to a cross-shaped stainless steel fitting',
+        c: 'Through the same mounting bracket used by the collective torque tube'
+    },
+    correct: 'b'
+},
+{
+    id: 5368,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Describe the cyclic torque tube and its connections at each end.',
+    options: {
+        a: 'A hydraulic torque tube that transmits cyclic input purely by fluid pressure, with no mechanical cross-shaped fitting',
+        b: 'A torsion tube whose cross-shaped fitting is fastened via a clevis below the floor; the right end connects to the longitudinal and lateral control rods, and the left (co-pilot) end connects to the rods for the longitudinal and lateral trim actuators',
+        c: 'A solid aluminium bar bolted rigidly between the pilot and co-pilot cyclic sticks, with no bearing or flexible connection at either end'
+    },
+    correct: 'b'
+},
+{
+    id: 5369,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "What limits a combination of pitch and roll movement on the pilot's cyclic attachment plate, and what balances the stick weight?",
+    options: {
+        a: 'A hydraulic snubber limits the combined movement; a counterweight bolted to the stick balances it',
+        b: "A shaped flange limits the combined movement; springs on the stick's cross-shaped fitting statically balance the control linkage weight",
+        c: 'The upper bellcrank limit stops alone perform both functions, with no flange or spring fitted to the attachment plate'
+    },
+    correct: 'b'
+},
+{
+    id: 5370,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "What do the rods at the co-pilot's (left) end of the cyclic torsion tube connect to, and what do the trim actuators do with their input?",
+    options: {
+        a: 'They connect to the longitudinal and lateral trim actuators, which receive electrical commands from the pilot or AFCS and convert them into a mechanical output to move the control linkage',
+        b: 'They connect to the yaw trim actuator, which shares its rods with the cyclic system at this point',
+        c: 'They connect directly to the main rotor servo actuators, bypassing the trim actuators entirely'
+    },
+    correct: 'a'
+},
+{
+    id: 5371,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'At which reference point is the cyclic control rigged when removing the pitch or roll trim actuator (including its rod and lever)?',
+    options: {
+        a: 'At the compound linkage bellcrank F4/L5-F5/L6 only, without reference to the stick',
+        b: 'At the pilot cyclic stick',
+        c: 'At the mixing unit collective arm'
+    },
+    correct: 'b'
+},
+{
+    id: 5372,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Before series (linear) actuators are installed, what position must they be in, and what hydraulic circuit is pressurized to adjust their fork ends?',
+    options: {
+        a: 'They must be fully extended, and hydraulic circuit 2 is pressurized while rigging at the pilot cyclic stick',
+        b: 'They must be fully retracted, and no hydraulic pressure is required since the fork end is a fixed-length item',
+        c: 'They must be centered (middle stroke position), and hydraulic circuit 1 is pressurized while rigging the cyclic control at bellcrank F4/L5-F5/L6'
+    },
+    correct: 'c'
+},
+{
+    id: 5373,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'During cyclic control adjustment, which rods are disconnected and which points are pinned as reference?',
+    options: {
+        a: 'Rods F2, L3, L6 and F5, plus the pitch and roll trim actuator rods and balance springs are disconnected; the pilot cyclic stick lever, compound linkage, mixing unit collective arm, and pitch/roll levers are pinned',
+        b: 'All six yaw rods are disconnected, and the co-pilot pedal bellcrank is pinned, since cyclic and yaw rigging share the same reference points',
+        c: 'Only rod F2 is disconnected, and only the mixing unit collective arm is pinned'
+    },
+    correct: 'a'
+},
+{
+    id: 5374,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What is distinctive about the specific force used in cyclic fixed friction adjustment?',
+    options: {
+        a: 'The specific force is identical in every direction and matches the collective fixed friction force exactly',
+        b: 'The specific force required on the centre of the handgrip differs between the longitudinal and lateral directions',
+        c: 'No specific force is defined; the screw is tightened until the stick no longer moves under its own weight'
+    },
+    correct: 'b'
+},
+{
+    id: 5375,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "How is the cyclic trim actuator adjustment's correlation between stick position and linear actuator position defined?",
+    options: {
+        a: 'Cyclic fully forward/fully right corresponds to the linear actuators fully retracted; cyclic fully aft/fully left corresponds to the linear actuators fully extended',
+        b: 'Cyclic fully forward/fully right corresponds to the linear actuators fully extended; cyclic fully aft/fully left corresponds to the linear actuators fully retracted',
+        c: 'There is no defined correlation; linear actuator position is set independently of cyclic stick position'
+    },
+    correct: 'a'
+},
+{
+    id: 5376,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'After disconnecting the cyclic trim actuator rod during adjustment, what final check is made?',
+    options: {
+        a: 'That the lever is able to move freely through its full range of movement',
+        b: 'That the detent microswitch no longer makes contact when the stick is centred',
+        c: 'That the feel spring tension matches the value stamped on the actuator housing'
+    },
+    correct: 'a'
+},
+{
+    id: 5377,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Which bellcrank supports require the adhesive tape under their mating surfaces to be renewed after removal, in the cyclic system?',
+    options: {
+        a: 'Every yaw bellcrank from Y2-Y3 through to Y9-Y10, since the cyclic and yaw systems share these supports',
+        b: 'Bellcrank L2-L3, bellcrank F2/L3-F3/L4, bellcrank F3/L4-F4/L5, and bellcrank F4/L5-F5/L6',
+        c: 'Only bellcrank F4/L5-F5/L6, since the others are not bonded joints'
+    },
+    correct: 'b'
+},
+{
+    id: 5378,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Besides the pitch and roll trim actuator rods, which other cyclic rods require their replacement length to be matched to the old rod?',
+    options: {
+        a: 'Only rod F2, since the others are fixed-length items with no adjustment',
+        b: 'Rods Y2, Y3 and Y8, since these are shared between the cyclic and yaw systems',
+        c: 'Rods F2, L2, L3, F5 and L6'
+    },
+    correct: 'c'
+},
+{
+    id: 5379,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Before removing a pitch or roll trim actuator, what must be recorded?',
+    options: {
+        a: 'The position of the trim actuator lever on the trim actuator shaft',
+        b: "The torque value last applied to the trim actuator's mounting bolts",
+        c: 'The serial number of the opposite (pitch or roll) trim actuator for cross-reference'
+    },
+    correct: 'a'
+},
+{
+    id: 5380,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How is yaw axis control achieved mechanically, from the pedals to the tail rotor?',
+    options: {
+        a: 'Mechanical linkages give an input to a dual-channel tail rotor hydraulic servo actuator, which adjusts the tail rotor pitch-change mechanism',
+        b: 'The pedals mechanically adjust tail rotor RPM rather than tail rotor blade pitch',
+        c: 'An electrical signal from the pedals is sent directly to the tail rotor servo actuator with no mechanical linkage'
+    },
+    correct: 'a'
+},
+{
+    id: 5381,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How is the pilot pedal assembly mounted, and what does this allow?',
+    options: {
+        a: 'On an adjustable articulated support, allowing the pilot to adjust the pedals for his convenience',
+        b: 'On a fixed bracket with no adjustment, sized for an average pilot reach',
+        c: 'On a sliding rail shared with the seat adjustment mechanism'
+    },
+    correct: 'a'
+},
+{
+    id: 5382,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How are the pilot and co-pilot pedal assemblies linked for tail rotor control input?',
+    options: {
+        a: "They are linked only when the co-pilot's FTR switch is pressed",
+        b: 'They are mechanically independent, with the AFCS arbitrating between the two if they disagree',
+        c: 'They are connected together to give a common input to the tail rotor servo actuator'
+    },
+    correct: 'c'
+},
+{
+    id: 5383,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What do the microswitches incorporated in the yaw pedals operate, and what effect does this have?',
+    options: {
+        a: "They operate the yaw trim actuator's magnetic clutch directly, bypassing the MISC panel switches",
+        b: 'They operate the wheel brakes independently of the brake pedal function',
+        c: 'They operate the FTR (Force Trim Release), which temporarily suspends AFCS control of the helicopter so the pilot can manoeuvre it'
+    },
+    correct: 'c'
+},
+{
+    id: 5384,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What additional function do the brake pedals incorporate, and what known issue affects the FTR microswitches?',
+    options: {
+        a: 'The brake pedals incorporate the collective FTR trigger, and the FTR microswitches are known to stick in the engaged position',
+        b: 'The brake pedals incorporate the yaw trim actuator override, and the FTR microswitches require daily lubrication',
+        c: 'The brake pedals incorporate the wheel brake control, and the FTR microswitches are fragile and prone to breakage'
+    },
+    correct: 'c'
+},
+{
+    id: 5385,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Where is the yaw trim actuator installed, and how is it connected to the control rods?',
+    options: {
+        a: "Underneath the co-pilot's floor, installed in series with the yaw control rods",
+        b: 'Inside the tail gearbox housing, installed in parallel with the chip detector wiring loom',
+        c: 'In the tail boom, installed in parallel with the yaw control rods'
+    },
+    correct: 'c'
+},
+{
+    id: 5386,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Where are the yaw linear actuators installed, and how are they connected to the control rods?',
+    options: {
+        a: 'Above the cabin ceiling, alongside the pitch and roll linear actuators',
+        b: 'In series with the rods inside the tail boom',
+        c: 'In parallel with the rods inside the tail boom, alongside the yaw trim actuator'
+    },
+    correct: 'b'
+},
+{
+    id: 5387,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What safety function does the anchor spring provide for the yaw linear actuators?',
+    options: {
+        a: 'It prevents the yaw linear actuators from being installed in the wrong orientation',
+        b: 'If an actuator disconnects, the spring reacts to manual input as a pivot point, ensuring movement still reaches the tail rotor servo actuator',
+        c: 'It provides the only return force on the pedals when both trim and linear actuators are de-clutched'
+    },
+    correct: 'b'
+},
+{
+    id: 5388,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Where are the yaw limit stops located, and what do they limit?',
+    options: {
+        a: 'At the support assembly installed at the rear of the Intermediate Gearbox, limiting tail rotor pitch to a predetermined range',
+        b: 'Inside the tail rotor servo actuator body, limiting piston stroke directly',
+        c: 'At the co-pilot pedal bellcrank, limiting pedal travel to a fixed number of degrees'
+    },
+    correct: 'a'
+},
+{
+    id: 5389,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Where exactly is the yaw trim actuator located relative to other cyclic components?',
+    options: {
+        a: 'Inside the mixing unit housing, sharing its mounting bracket with the LVDTs',
+        b: "Underneath the co-pilot's floor, together with the cyclic torque tube and linkage",
+        c: 'Above the cabin ceiling, together with the pitch and roll linear actuators'
+    },
+    correct: 'b'
+},
+{
+    id: 5390,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How are the two yaw linear actuators installed and removed?',
+    options: {
+        a: 'They are removed and installed individually, one at a time, to avoid disturbing the rigging of the other',
+        b: 'This function is not provided anywhere in the flight control system',
+        c: 'They are fixed together and removed and installed as one assembly'
+    },
+    correct: 'c'
+},
+{
+    id: 5391,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What does the compound linkage do with the pilot input and the series actuator input in the yaw system?',
+    options: {
+        a: 'It mixes the pilot input with the series actuator input and transmits the combined output to the tail rotor servo actuator',
+        b: 'It keeps the pilot input and series actuator input fully separate, feeding them to two independent servo actuator valves',
+        c: 'This function is not provided anywhere in the flight control system'
+    },
+    correct: 'a'
+},
+{
+    id: 5392,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Describe the mechanical layout of the yaw pedal assembly from the pedal to the control rod.',
+    options: {
+        a: 'A pedal mounted directly to the control rod, with no intervening tube or lever assembly',
+        b: 'A pedal connected by a cable over a pulley to the control rod, similar to a bicycle brake cable',
+        c: 'A pedal mounted to the top of a vertical tube, which extends down and is clamped into a lever assembly; the lower lever arm connects to the control rod'
+    },
+    correct: 'c'
+},
+{
+    id: 5393,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What does the control rod from each pedal lever connect to, and in which direction does it run?',
+    options: {
+        a: "It extends rearwards and connects to a 'T' shaped bellcrank",
+        b: 'It extends forwards and connects to the mixing unit collective arm',
+        c: 'It extends laterally and connects directly to the tail rotor servo actuator input lever'
+    },
+    correct: 'a'
+},
+{
+    id: 5394,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "What is the purpose of the balance spring attached to the 'T' bellcrank on the pilot's side of the yaw system?",
+    options: {
+        a: 'To provide the only source of pedal centring force when the aircraft is on the ground',
+        b: 'This function is not provided anywhere in the flight control system',
+        c: 'To statically balance the control linkage weight'
+    },
+    correct: 'c'
+},
+{
+    id: 5395,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "What is the purpose of the friction clamp on the 'T' bellcrank in the yaw system?",
+    options: {
+        a: 'To provide the main damping for the yaw centering spring',
+        b: 'To counteract the output force of the yaw linear actuators when the yaw trim actuator is de-clutched, ensuring movement is conveyed to the tail rotor servoactuator',
+        c: 'To lock the pedals in position whenever the parking brake is set'
+    },
+    correct: 'b'
+},
+{
+    id: 5396,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'On which side is the yaw trim actuator installed, and how is it connected?',
+    options: {
+        a: "On the pilot side, connected directly to the 'T' bellcrank with no rod",
+        b: 'Equally split between pilot and co-pilot sides, connected by a common shaft',
+        c: 'On the co-pilot side, connected with a rod'
+    },
+    correct: 'c'
+},
+{
+    id: 5397,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Describe the longitudinal linkage inside the cabin floor that runs up to the tail rotor servoactuator.',
+    options: {
+        a: 'Six control rods, three of which (the second, fourth and sixth) are adjustable, interconnected by levers attached to support mountings',
+        b: 'A single long control rod running the full length of the cabin floor with no intermediate levers',
+        c: 'Four control rods, all adjustable, connected directly without any supporting levers'
+    },
+    correct: 'a'
+},
+{
+    id: 5398,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Which bellcrank supports require adhesive tape renewal after removal, in the yaw system?',
+    options: {
+        a: 'Bellcrank Y2-Y3 only, since it is the sole bonded joint in the yaw linkage',
+        b: 'Only bellcrank Y8-Y9, since the rest of the chain uses non-bonded fittings',
+        c: 'Bellcrank Y2-Y3, Y4-Y5, Y5-Y6, Y6-Y7, Y7-Y8, Y8-Y9 and Y9-Y10'
+    },
+    correct: 'c'
+},
+{
+    id: 5399,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What special requirement applies when removing or installing rod Y8?',
+    options: {
+        a: 'It must be replaced as a matched pair with rod Y10, never individually',
+        b: 'It must be removed only after the tail gearbox has been drained of oil',
+        c: 'It must be removed/installed from the tail unit together with its grommet'
+    },
+    correct: 'c'
+},
+{
+    id: 5400,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Which rods require length-matching to the old rod when replaced in the yaw system?',
+    options: {
+        a: 'Y2 through Y10 inclusive, every rod in the chain',
+        b: 'Y2, Y3, Y8, Y10 and the yaw trim actuator rod',
+        c: 'Only the yaw trim actuator rod; the numbered rods are fixed-length items'
+    },
+    correct: 'b'
+},
+{
+    id: 5401,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'During tail rotor pitch control adjustment, how is the servoactuator input lever centered?',
+    options: {
+        a: 'Using a rigging tool, after positioning a stroke tool to the servoactuator with hydraulic power',
+        b: 'By disconnecting the yaw trim actuator and allowing the input lever to settle under spring tension alone',
+        c: 'By eye, matching a painted reference mark on the servoactuator body'
+    },
+    correct: 'a'
+},
+{
+    id: 5402,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'At which reference point is the yaw trim actuator rigged for removal, and what must be recorded before removal?',
+    options: {
+        a: 'Rigged at the support assembly rear of the IGB, with the yaw limit stop setting recorded first',
+        b: "Rigged at the copilot pedals bellcrank, with the trim actuator lever's position on its shaft recorded first",
+        c: 'Rigged at the tail rotor servoactuator input lever, with the hydraulic system pressure recorded first'
+    },
+    correct: 'b'
+},
+{
+    id: 5403,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How is yaw fixed friction adjusted?',
+    options: {
+        a: 'By declutching the yaw trim actuator, then tightening the fixed friction screw for a specific force on the centre of the pedals moving them forward',
+        b: 'By pressurizing hydraulic circuit 1 and adjusting the series actuator fork end',
+        c: "By centering the series actuators at mid-stroke and then locking the 'T' bellcrank friction clamp fully"
+    },
+    correct: 'a'
+},
+{
+    id: 5404,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How is the main rotor servo actuator constructed?',
+    options: {
+        a: 'A fixed body actuator with two separate cylinder assemblies bolted together at the actuator centre, with tandem pistons',
+        b: 'A single-cylinder actuator with one piston and no central joint',
+        c: 'Two independent actuators mounted side by side, each with its own separate body and no shared centre joint'
+    },
+    correct: 'a'
+},
+{
+    id: 5405,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What do the upper piston end and the lower cylinder end of the MR servo actuator connect to?',
+    options: {
+        a: 'The upper piston end connects to the tail rotor servoactuator; the lower cylinder end connects to the mixing unit',
+        b: 'The upper piston end has a terminal eye for connection to the swashplate; the lower cylinder end has a terminal eye for connection to a support on the Main Gearbox',
+        c: 'The upper piston end connects to the Main Gearbox; the lower cylinder end connects to the swashplate'
+    },
+    correct: 'b'
+},
+{
+    id: 5406,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What materials are used for the MR servo actuator cylinder and piston, and why is the piston treated this way?',
+    options: {
+        a: 'Both are manufactured in 4130 steel alloy, with the cylinder chromed to reduce friction',
+        b: 'Both are manufactured in stainless steel, with the piston chromed to improve wear properties',
+        c: 'The cylinder is aluminium alloy and the piston is titanium, anodized to reduce weight'
+    },
+    correct: 'b'
+},
+{
+    id: 5407,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How are the two hydraulic systems arranged within the MR servo actuator, and what prevents fluid mixing between them?',
+    options: {
+        a: 'They are separated by a single dynamic seal with no venting, relying on seal integrity alone to prevent mixing',
+        b: 'They share a common reservoir within the actuator body, with a one-way valve preventing backflow between systems',
+        c: 'They are completely separated within the actuator; the joint where the two cylinders meet is vented to atmosphere so rod seal leakage cannot cause inter-system mixing'
+    },
+    correct: 'c'
+},
+{
+    id: 5408,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What happens to helicopter handling qualities if one hydraulic system in the MR servo actuator fails?',
+    options: {
+        a: 'The actuator locks solid until the failed system is restored, requiring an emergency landing',
+        b: 'There is no degradation of handling qualities, since the remaining system provides full performance on its own',
+        c: 'Handling qualities degrade significantly, requiring an immediate reduction in airspeed'
+    },
+    correct: 'b'
+},
+{
+    id: 5409,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "What does each cylinder assembly's flow distributor contain, and what two functions does it provide?",
+    options: {
+        a: 'Two independent spool valves, one for pitch and one for roll, with no anti-jam function',
+        b: 'A dual concentric valve, providing normal servo control and an anti-jamming function',
+        c: 'A single spool valve, providing only normal servo control with no anti-jam protection'
+    },
+    correct: 'b'
+},
+{
+    id: 5410,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What is the purpose of the anti-jamming device in the MR servo actuator, and when does it activate?',
+    options: {
+        a: 'It allows the actuator to keep working if the main valve spool jams, by letting an inner and outer sleeve move (against a spring) to control fluid in the cylinder chambers once the input lever force exceeds a preset value',
+        b: 'It prevents the servo actuator from being over-pressurized during ground hydraulic system testing',
+        c: 'It locks the actuator solid the instant any jam is detected, to prevent further uncontrolled movement'
+    },
+    correct: 'a'
+},
+{
+    id: 5411,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'During normal operation, how does the MR servo actuator respond to a pilot input at the input lever?',
+    options: {
+        a: 'The input lever directly pressurizes the cylinder with no valve in between, acting as a simple hydraulic ram',
+        b: 'Displacement of the input lever moves the servo valve from neutral, routing high pressure fluid into the appropriate cylinder chamber; the resulting piston motion drags a feedback link that rotates the input lever back and resets the valve',
+        c: 'The feedback link moves first, which then displaces the input lever and opens the servo valve'
+    },
+    correct: 'b'
+},
+{
+    id: 5412,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'In the emergency hydraulic failure case, how is fluid handled in the failed half of the MR servo actuator, and what cockpit indication results?',
+    options: {
+        a: 'Fluid pressure in the failed half is trapped and rises until a relief valve vents it overboard, triggering a HYD LOW caution',
+        b: 'The failed half is isolated completely with no fluid movement, and no cockpit indication is given since the active half compensates silently',
+        c: 'Fluid is forced out of the dead cylinder by the active half, and a microswitch on the flow distributor provides a caution 1 (2) SERVO on the MFD'
+    },
+    correct: 'c'
+},
+{
+    id: 5413,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "If the MR servo actuator's main spool valve jams in the centre position, what is this condition called, and when is the caution given?",
+    options: {
+        a: "It is called 'ACTUATOR LOCKED'; no caution is given since the valve is still centred",
+        b: "It is called 'ACTUATOR BYPASS'; the caution 1 (2) SERVO is given continuously regardless of control movement",
+        c: "It is called 'ACTUATOR ACTIVE'; the caution 1 (2) SERVO is only given when the flight controls are actually operated"
+    },
+    correct: 'c'
+},
+{
+    id: 5414,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "If the MR servo actuator's main spool valve jams out of the centre position, what happens and when is the caution given?",
+    options: {
+        a: 'The actuator locks solid in both halves, and the caution is given only after a 5 second delay',
+        b: "This is the 'ACTUATOR ACTIVE' condition, and the caution is only given when the flight controls are operated",
+        c: 'This is a bypass condition where the piston is moved by the remaining active half; the caution 1 (2) SERVO is always provided to the MFD'
+    },
+    correct: 'c'
+},
+{
+    id: 5415,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What is the key difference in MFD indication between a spool valve jammed in the centre versus jammed out of the centre?',
+    options: {
+        a: 'Both conditions give the identical, continuous caution, with no way to distinguish them from the cockpit',
+        b: 'Jammed in centre gives the caution only while the controls are being moved; jammed out of centre gives the caution continuously',
+        c: 'Jammed in centre gives the caution continuously; jammed out of centre gives the caution only while the controls are being moved'
+    },
+    correct: 'b'
+},
+{
+    id: 5416,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What does the servo actuator bypass function operational check verify?',
+    options: {
+        a: 'That the bypass/anti-jam function and its associated caution indication work correctly in response to a simulated jam condition',
+        b: 'That the main rotor blades remain in track after a servo actuator has been replaced',
+        c: "That the collective trim actuator's spring-clutch releases at the correct breakout force"
+    },
+    correct: 'a'
+},
+{
+    id: 5417,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "What transmits the pilot's input through a linkage and layshaft to the flow distributor in each half of the MR servo actuator?",
+    options: {
+        a: 'The feedback link',
+        b: 'The input lever',
+        c: 'The anti-jamming sleeve'
+    },
+    correct: 'b'
+},
+{
+    id: 5418,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How is the tail rotor servo actuator constructed, and where is it mounted?',
+    options: {
+        a: 'Two independent single-piston actuators, mounted one on each side of the Tail Gearbox',
+        b: 'A fixed body actuator with two cylinder assemblies bolted together at the centre and tandem pistons, mounted by a flange to the left of the Tail Gearbox',
+        c: 'A single-cylinder actuator with one piston, mounted inside the Intermediate Gearbox housing'
+    },
+    correct: 'b'
+},
+{
+    id: 5419,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What do the two piston ends of the tail rotor servo actuator connect to?',
+    options: {
+        a: 'One piston end extends with a control rod connected to the rotating control spider; the other piston end connects to the input lever',
+        b: 'One piston end connects to the input lever; the other connects directly to the yaw pedal linkage',
+        c: 'Both piston ends connect directly to the tail rotor blades, with no intermediate spider or input lever'
+    },
+    correct: 'a'
+},
+{
+    id: 5420,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "What materials make up the tail rotor servo actuator's cylinder and piston?",
+    options: {
+        a: 'Titanium, with the piston coated in solid lubricant film',
+        b: 'Stainless steel, with the piston chromed to improve wear properties, the same as the main rotor servo actuator',
+        c: 'Aluminium alloy, with the piston anodized to reduce weight'
+    },
+    correct: 'b'
+},
+{
+    id: 5421,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How does the operation of the tail rotor servo actuator compare with the main rotor servo actuators?',
+    options: {
+        a: 'It has no anti-jam device, unlike the main rotor servo actuators',
+        b: 'It operates similarly to the main rotor actuators',
+        c: 'It operates on a completely different principle, using an electric motor rather than hydraulic pressure'
+    },
+    correct: 'b'
+},
+{
+    id: 5422,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What is the yaw centering spring designed to do?',
+    options: {
+        a: 'Keep the bellcrank in a neutral position',
+        b: 'Provide the main return force for the pedals during normal flight',
+        c: 'This function is not provided anywhere in the flight control system'
+    },
+    correct: 'a'
+},
+{
+    id: 5423,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What is the current status of the yaw centering spring on affected aircraft?',
+    options: {
+        a: 'It has been removed as part of mandatory BT 139-081',
+        b: 'It has been made mandatory fleet-wide as part of BT 139-081',
+        c: 'It has been replaced by a stiffer spring as part of BT 139-081'
+    },
+    correct: 'a'
+},
+{
+    id: 5424,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What is the scheduled interval for a detailed inspection of the mixing unit for damage and condition?',
+    options: {
+        a: '600 hours',
+        b: '300 hours',
+        c: '1200 hours'
+    },
+    correct: 'b'
+},
+{
+    id: 5425,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What scheduled check applies to the main rotor actuator control valve bypass function, and at what interval?',
+    options: {
+        a: 'An operational check for freedom of movement of the bypass sleeve, at 600 hours',
+        b: 'A detailed inspection for corrosion, at 300 hours',
+        c: 'A functional check of the anti-jam spring preload, at 1200 hours'
+    },
+    correct: 'a'
+},
+{
+    id: 5426,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What scheduled check applies to tail rotor control bellcranks Y8/Y9 and Y9/Y10, and at what interval?',
+    options: {
+        a: 'An operational check of the friction clamp torque, at 600 hours',
+        b: 'A lubrication service of the bellcrank bearings, at 1200 hours',
+        c: 'A detailed inspection for evidence of play between the lever and its support, at 300 hours'
+    },
+    correct: 'c'
+},
+{
+    id: 5427,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What is the difference between a detected fault and an observed fault in the flight controls system?',
+    options: {
+        a: 'A detected fault is found by the helicopter monitoring system with an allocated fault code stored in NVM; an observed fault is a malfunction discovered by the pilot or ground crew',
+        b: 'A detected fault is found by the pilot during flight; an observed fault is found automatically by the central maintenance computer',
+        c: 'There is no difference; both terms describe the same process of fault discovery'
+    },
+    correct: 'a'
+},
+{
+    id: 5428,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What does the AFIP for ATA chapter 67 (Rotor Flight Controls) consist of?',
+    options: {
+        a: 'An equal mix of detected and observed faults',
+        b: 'Solely observed faults',
+        c: 'Solely detected faults'
+    },
+    correct: 'b'
+},
+{
+    id: 5429,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What precaution is noted for flight control fault isolation procedures that require continuity checks?',
+    options: {
+        a: 'To depressurize both hydraulic systems before starting any continuity check',
+        b: 'To disconnect the AFCS computer before starting any continuity check',
+        c: 'To observe the electrical safety precautions'
+    },
+    correct: 'c'
+},
+{
+    id: 5430,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What type of bearing connects the rotating swashplate to the fixed swashplate?',
+    options: {
+        a: 'An elastomeric spherical bearing, the same type used on the tail rotor blade',
+        b: 'A single-row tapered roller bearing',
+        c: 'A duplex (dual row ball) bearing'
+    },
+    correct: 'c'
+},
+{
+    id: 5431,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Across the whole flight control system, where are the fixed friction devices located, and how many are there?',
+    options: {
+        a: "Four in total: one on the collective torque tube, one on each cyclic lower bellcrank (pitch and roll), and one on the yaw 'T' bellcrank",
+        b: 'Three in total: one each on the collective, cyclic and yaw systems, with no separate device for pitch and roll',
+        c: 'Only one, shared by all axes, located at the mixing unit'
+    },
+    correct: 'a'
+},
+{
+    id: 5432,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'During rigging, how is a rigging pin used at the mixing unit and bellcrank reference points?',
+    options: {
+        a: 'It is driven through the control rod itself to stop it rotating while its end fitting is torqued',
+        b: 'It is inserted through the lever or bellcrank (such as the mixing unit collective arm, or the compound linkage) to lock it in a fixed reference position while the control rods are adjusted to the correct length',
+        c: 'It is fitted only after rigging is complete, to permanently prevent any further adjustment of the system'
+    },
+    correct: 'b'
+},
+{
+    id: 5433,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Summarising the collective control system, what provides friction and weight-counterbalance for the pilot?',
+    options: {
+        a: 'An adjustable friction mechanism at the right end of the torque tube, a separate fixed friction device, and a balance spring to counterbalance the weight acting on the control',
+        b: 'A hydraulic damper at the mixing unit, with friction and balance both provided by the collective trim actuator',
+        c: 'A single adjustable friction mechanism only, with no fixed friction device or balance spring fitted'
+    },
+    correct: 'a'
+},
+{
+    id: 5434,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How are the pitch, roll and yaw linear actuator pairs mounted and connected into the control system?',
+    options: {
+        a: 'Each actuator is mounted individually direct to the airframe with no pairing, and connected straight to the servo actuator with no intermediate linkage',
+        b: 'All three axes share a single linear actuator assembly mounted in the tail boom, distributing motion forward through the cyclic torque tube',
+        c: 'Each pair is installed and removed as one fixed assembly, located above the cabin ceiling (pitch/roll) or inside the tail boom (yaw), and connected to the control linkage through a compound linkage protected by an anchor spring'
+    },
+    correct: 'c'
+},
+{
+    id: 5435,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'How many main rotor servo actuators are there, and what do they act through to alter main rotor blade pitch?',
+    options: {
+        a: 'Three, acting through the pitch change mechanism to alter the pitch of the main rotor blades',
+        b: 'Two, acting directly on the swashplate with no pitch change mechanism',
+        c: 'Four, one per blade, each acting directly on its own pitch change link'
+    },
+    correct: 'a'
+},
+{
+    id: 5436,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Where are the generic procedures for adjusting flight control rods in all axes found?',
+    options: {
+        a: 'AMP Chapter 05 – Maintenance Tasks Overview',
+        b: 'AMP Chapter 67 – Flight Controls, Section 1 only',
+        c: 'AMP Chapter 60 – Standard Practices – Rotors'
+    },
+    correct: 'c'
+},
+{
+    id: 5437,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "How does the co-pilot pedal assembly compare with the pilot's pedal assembly?",
+    options: {
+        a: "It is a simplified unit with no FTR microswitches, since FTR is only required on the pilot's side",
+        b: 'It is of similar construction, also incorporating FTR microswitches and wheel brakes',
+        c: "It incorporates wheel brakes only; FTR control is provided solely by the pilot's collective and cyclic"
+    },
+    correct: 'b'
+},
+{
+    id: 5438,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "What type of support does the mixing unit's linkage sit on?",
+    options: {
+        a: 'A movable support assembly',
+        b: 'The same mounting bracket used by the main gearbox',
+        c: 'A fixed, non-moving support bracket bolted directly to the cabin floor beam'
+    },
+    correct: 'a'
+},
+{
+    id: 5439,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'What other name is used in the technical publications for the collective and cyclic torque tube?',
+    options: {
+        a: 'Mixing tube',
+        b: 'Trim tube',
+        c: 'Torsion tube'
+    },
+    correct: 'c'
+},
+{
+    id: 5440,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: "In the AW139 technical publications, how are the terms 'stick' and 'lever' used when referring to the cyclic control?",
+    options: {
+        a: "'Stick' refers to the cyclic and 'lever' refers exclusively to the collective",
+        b: 'Interchangeably; both refer to the same control',
+        c: "'Stick' refers only to the pilot's control and 'lever' only to the co-pilot's control"
+    },
+    correct: 'b'
+},
+{
+    id: 5441,
+    Aircraft: 'AW139',
+    Category: '67',
+    question: 'Where can descriptive and procedural Data Modules for the trim and linear actuators be found?',
+    options: {
+        a: 'In AMP chapter 76 only, since the actuators interface with the Electronic Engine Control',
+        b: 'In AMP chapter 67 and chapter 22 (AFCS)',
+        c: 'In AMP chapter 60 only, since all actuators follow the standard practices chapter'
     },
     correct: 'b'
 },
