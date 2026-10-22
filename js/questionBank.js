@@ -49572,6 +49572,725 @@ export const questions = [
     },
     correct: 'a'
 },
+{
+    id: 5222,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What two systems make up the helicopter transmission?',
+    options: {
+        a: 'Tail Rotor Drive System (TRDS) and Engine Drive System (EDS)',
+        b: 'Main Gearbox System (MGS) and Accessory Drive System (ADS)',
+        c: 'Main Rotor Drive System (MRDS) and Tail Rotor Drive System (TRDS)'
+    },
+    correct: 'c'
+},
+{
+    id: 5223,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What three main component groups make up the Tail Rotor Drive System (TRDS)?',
+    options: {
+        a: 'The IGB, the TGB, and the tail rotor servoactuator',
+        b: 'Tail rotor drive shafts, the Intermediate Gear Box (IGB), and the Tail Gear Box (TGB)',
+        c: 'Tail rotor drive shafts, the Main Gear Box (MGB), and the tail rotor hub'
+    },
+    correct: 'b'
+},
+{
+    id: 5224,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What two functions do the IGB and TGB both perform on the drive?',
+    options: {
+        a: 'They increase rotational speed and filter torque spikes',
+        b: 'They change the drive angle only; speed is unchanged through both gearboxes',
+        c: 'They change the drive angle and reduce the rotational speed between input and output'
+    },
+    correct: 'c'
+},
+{
+    id: 5225,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'How are the IGB and TGB lubricated?',
+    options: {
+        a: 'Each has a self-contained splash lubrication and condition-monitoring oil system',
+        b: 'Both share a single pressurised oil system fed from the MGB',
+        c: 'Each uses a grease-packed, sealed-for-life bearing arrangement with no oil system'
+    },
+    correct: 'a'
+},
+{
+    id: 5226,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'Describe the drive path from the MGB to the IGB.',
+    options: {
+        a: 'From the MGB output, drive passes directly through a single long shaft with one flexible coupling straight into the IGB input',
+        b: 'From the MGB output, drive passes through the Number 1 flexible coupling, the Number 1 drive shaft, the Number 2 flexible coupling, the bearing support, the Number 2 drive shaft, and the Number 3 flexible coupling to the IGB input',
+        c: 'From the MGB output, drive passes through the TGB first, then back through two drive shafts to the IGB'
+    },
+    correct: 'b'
+},
+{
+    id: 5227,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'Where is the Number 1 drive shaft installed?',
+    options: {
+        a: 'Between the intermediate gearbox and the tail gearbox, on the tail section',
+        b: 'Through the aft firewall, between the sliding adapter at the main gearbox output and the bearing support, approximately between STA X5757 and STA X8300',
+        c: 'Between the bearing support and the intermediate gearbox, approximately between STA X8300 and STA X12172'
+    },
+    correct: 'b'
+},
+{
+    id: 5228,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What is the Number 1 drive shaft made from, and why?',
+    options: {
+        a: 'A thin-wall stainless steel tube, because of the high temperatures that occur between the exhausts during operation',
+        b: 'A solid titanium bar, to resist the torsional loads near the main gearbox output',
+        c: 'A thin-wall aluminium alloy tube, to keep weight down over the long unsupported span'
+    },
+    correct: 'a'
+},
+{
+    id: 5229,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'How is the flange bonded to each end of the Number 1 drive shaft reinforced?',
+    options: {
+        a: 'The flange is welded on and reinforced with an internal sleeve',
+        b: 'Two rows of six rivets increase the strength of the joint',
+        c: 'A single row of twelve bolts clamps the flange to the tube'
+    },
+    correct: 'b'
+},
+{
+    id: 5230,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What do the red alignment lines and the FWD marking on a tail rotor drive shaft indicate?',
+    options: {
+        a: 'They mark the inspection due date stamped on at overhaul',
+        b: 'They let you align the parts correctly and show the correct installation direction',
+        c: "They indicate the shaft's dynamic balance class for spares ordering"
+    },
+    correct: 'b'
+},
+{
+    id: 5231,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What is the purpose of the balance patches fitted to the tail rotor drive shafts?',
+    options: {
+        a: 'They are wear indicators that show when the shaft needs replacement',
+        b: 'They provide the bonding path for lightning protection',
+        c: 'The shafts are dynamically balanced and the patches are part of that balance'
+    },
+    correct: 'c'
+},
+{
+    id: 5232,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What does the Number 1 damper do?',
+    options: {
+        a: 'It locks the Number 1 drive shaft when the rotor brake is applied',
+        b: 'It prevents the Number 1 drive shaft from rotating in the wrong direction during engine start',
+        c: 'Installed on the Number 1 drive shaft and attached to the structure, it decreases the vibrations transmitted to the airframe'
+    },
+    correct: 'c'
+},
+{
+    id: 5233,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'Between which two components is the Number 2 drive shaft installed?',
+    options: {
+        a: 'The bearing support, at STA X8300, and the intermediate gearbox, at STA X12172',
+        b: 'The main gearbox output and the bearing support, at STA X5757 to STA X8300',
+        c: 'The intermediate gearbox and the tail gearbox, on the tail section'
+    },
+    correct: 'a'
+},
+{
+    id: 5234,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What is the Number 2 drive shaft made from?',
+    options: {
+        a: 'A thin-wall aluminium alloy tube',
+        b: 'A thin-wall stainless steel tube, for the same high-temperature reason as the Number 1 shaft',
+        c: 'A carbon-fibre composite tube to reduce whirl mode risk'
+    },
+    correct: 'a'
+},
+{
+    id: 5235,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What are the two collars on the Number 2 drive shaft used for?',
+    options: {
+        a: 'Providing the electrical bonding path between the shaft and the airframe',
+        b: 'Installing the Number 2 damper and the anti-flail bracket on the shaft',
+        c: 'Marking the dynamic balance reference points'
+    },
+    correct: 'b'
+},
+{
+    id: 5236,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'Why is the Number 2 drive shaft considered a critical component?',
+    options: {
+        a: 'Because it is the only shaft without a flexible coupling at either end',
+        b: 'Because it carries the highest static torque load of the three drive shafts',
+        c: 'Because of the risk of resonance, which can occur during startup and shutdown'
+    },
+    correct: 'c'
+},
+{
+    id: 5237,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What does the anti-flail bracket do?',
+    options: {
+        a: 'It tensions the drive shaft to remove backlash from the flexible couplings',
+        b: 'It holds the shaft if the shaft or the intermediate gearbox interface has a failure, and is attached to the structure',
+        c: 'It provides the grounding path for the chip detection system'
+    },
+    correct: 'b'
+},
+{
+    id: 5238,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'Where is the Number 3 drive shaft installed, and what is it made from?',
+    options: {
+        a: 'Between the intermediate gearbox and the tail gearbox, and it is a thin-wall aluminium alloy tube',
+        b: 'Between the main gearbox and the bearing support, and it is a thin-wall stainless steel tube',
+        c: 'Between the bearing support and the intermediate gearbox, and it is a solid aluminium bar'
+    },
+    correct: 'a'
+},
+{
+    id: 5239,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'Why is the Number 3 drive shaft not considered a critical component?',
+    options: {
+        a: 'It is made of a stronger alloy than the Number 1 and Number 2 shafts',
+        b: 'Resonance does not occur during its operation; it is shorter and turns at a lower speed than the other two shafts',
+        c: 'It has two dampers fitted instead of one, cancelling out any resonant vibration'
+    },
+    correct: 'b'
+},
+{
+    id: 5240,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'On the Number 3 drive shaft, which way must the FWD mark point during installation?',
+    options: {
+        a: 'Towards the IGB, unlike shafts 1 and 2 where FWD points forward',
+        b: 'Forward, the same as the Number 1 and Number 2 drive shafts',
+        c: 'Aft, towards the tail gearbox, on all three shafts'
+    },
+    correct: 'a'
+},
+{
+    id: 5241,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What makes up a tail rotor drive flexible coupling?',
+    options: {
+        a: 'Two half-couplings joined by an elastomeric bushing and a retaining ring',
+        b: 'A single rigid disc bolted between two shaft flanges with no flexible element',
+        c: 'Two half-couplings and a flexible plate, attached with two bolts, two washers and two nuts per half-coupling'
+    },
+    correct: 'c'
+},
+{
+    id: 5242,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What does the Number 1 flexible coupling connect, and what is its function?',
+    options: {
+        a: 'The sliding adapter at the main gearbox output and the Number 1 drive shaft; it aligns the shaft with the main gearbox output',
+        b: 'The Number 3 drive shaft and the tail gearbox input; it aligns the shaft with the TGB',
+        c: 'The bearing support splined shaft and the Number 2 drive shaft; it aligns the shaft with the bearing support'
+    },
+    correct: 'a'
+},
+{
+    id: 5243,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'Between which components is the Number 3 flexible coupling installed?',
+    options: {
+        a: 'The Number 2 drive shaft and the bearing support splined shaft',
+        b: 'The Number 2 drive shaft and the input sliding adapter of the intermediate gearbox',
+        c: 'The intermediate gearbox output and the Number 3 drive shaft'
+    },
+    correct: 'b'
+},
+{
+    id: 5244,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'Between which components is the Number 4 flexible coupling installed?',
+    options: {
+        a: 'The Number 2 drive shaft and the input of the intermediate gearbox',
+        b: 'The output sliding adapter of the intermediate gearbox and the Number 3 drive shaft',
+        c: 'The Number 3 drive shaft and the input of the tail gearbox'
+    },
+    correct: 'b'
+},
+{
+    id: 5245,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'Between which components is the Number 5 flexible coupling installed?',
+    options: {
+        a: 'The Number 3 drive shaft and the input sliding adapter of the tail gearbox',
+        b: 'The intermediate gearbox output and the Number 3 drive shaft',
+        c: 'The main gearbox output and the Number 1 drive shaft'
+    },
+    correct: 'a'
+},
+{
+    id: 5246,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What material is a tail rotor drive damper made from, and how are the Number 1 and Number 2 dampers related?',
+    options: {
+        a: 'Cadmium-plated steel; the two dampers are fully interchangeable with each other',
+        b: 'Elastomeric rubber bonded to a titanium core; only the Number 1 damper can be replaced in the field',
+        c: 'Composite material; the two dampers have almost the same shape but are not interchangeable'
+    },
+    correct: 'c'
+},
+{
+    id: 5247,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'How is the friction of a tail rotor drive shaft damper adjusted?',
+    options: {
+        a: 'By adding washers under the sleeve to achieve a specific breakout force',
+        b: 'By tightening the two attachment bolts to a specified higher torque',
+        c: 'By replacing the damper plate with one of a different thickness'
+    },
+    correct: 'a'
+},
+{
+    id: 5248,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What components make up the bearing support assembly?',
+    options: {
+        a: 'The shaft adaptor, the spherical bearing, the splined shaft, the bracket and the base',
+        b: 'The sliding adapter, the flexible plate, the bracket and two dampers',
+        c: 'The shaft adaptor, a duplex ball bearing, a roller bearing and an accelerometer housing only'
+    },
+    correct: 'a'
+},
+{
+    id: 5249,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'Where is the bearing support assembly installed, and what is mounted on its bracket?',
+    options: {
+        a: 'Inside the tail cone at STA X12172, with a chip detector installed on the bracket',
+        b: 'On the top of the tail fin at the IGB attachment, with an oil temperature sensor installed on the bracket',
+        c: 'On the top of the aft fuselage at STA X8293, with an accelerometer installed adjacent to the spherical bearing housing'
+    },
+    correct: 'c'
+},
+{
+    id: 5250,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What orientation must the bearing flange of the bearing support assembly have during installation?',
+    options: {
+        a: 'It must point aft, towards the intermediate gearbox',
+        b: 'It can be installed in either orientation since the bearing is symmetrical',
+        c: 'It must point forward'
+    },
+    correct: 'c'
+},
+{
+    id: 5251,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'How is the shaft adapter fitted to the bearing during installation of the bearing support assembly?',
+    options: {
+        a: 'By heating the bearing and refrigerating the shaft adapter, using a specific tool',
+        b: 'By pressing both parts together cold under a hydraulic press',
+        c: 'By heating the shaft adapter and chilling the bearing in dry ice'
+    },
+    correct: 'a'
+},
+{
+    id: 5252,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What must be removed before you can remove the Number 1 drive shaft?',
+    options: {
+        a: 'The bearing support assembly and the anti-flail bracket',
+        b: 'The intermediate gearbox and the Number 3 flexible coupling',
+        c: 'The rotor brake protection and the engine 1 exhaust collector'
+    },
+    correct: 'c'
+},
+{
+    id: 5253,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What precaution is taken when removing or installing the flexible couplings and drive shafts?',
+    options: {
+        a: 'A wooden support is put below the end of a shaft',
+        b: 'A sling is attached to the shaft at both ends before any bolts are loosened',
+        c: 'The rotor brake is applied and the NR gauge is monitored throughout'
+    },
+    correct: 'a'
+},
+{
+    id: 5254,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'Why must metallic levers not be used to disconnect flexible couplings from shafts?',
+    options: {
+        a: 'To avoid damaging the couplings and shafts during disconnection',
+        b: 'Because metallic tools can short the chip detection system wiring',
+        c: 'Because metallic levers are not strong enough to break the coupling free'
+    },
+    correct: 'a'
+},
+{
+    id: 5255,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What is the scheduled maintenance interval for a detailed inspection of the forward splined shaft for corrosion and condition?',
+    options: {
+        a: '300 hours or 1 year, during intermediate gearbox servicing',
+        b: '4 years, and removal is required',
+        c: '1200 hours, with the Number 1 and Number 2 drive shafts disconnected'
+    },
+    correct: 'b'
+},
+{
+    id: 5256,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What does the 1200-hour functional check on the bearing support assembly cover, and what does it require?',
+    options: {
+        a: 'A check of the accelerometer calibration, requiring no disassembly',
+        b: 'A check of the locknut for correct torque, requiring disconnection of the Number 1 and Number 2 drive shafts',
+        c: 'A check of the spherical bearing for play, requiring removal of the complete bearing support assembly'
+    },
+    correct: 'b'
+},
+{
+    id: 5257,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What does the 300-hour / 1-year intermediate gearbox servicing task include?',
+    options: {
+        a: 'A boroscope inspection of the bevel gears and an oil temperature transducer swap',
+        b: 'Replacement of the duplex ball bearing and roller bearing',
+        c: 'Drain and refill of oil, including a check of the oil level sensor'
+    },
+    correct: 'c'
+},
+{
+    id: 5258,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What does the Intermediate Gearbox (IGB) do to the drive passing through it?',
+    options: {
+        a: 'It reduces the speed and reverses the direction of rotation of the tail rotor',
+        b: 'It reduces the speed and changes the angle of the horizontal drive shafts to an upward sloping direction, towards the TGB',
+        c: 'It increases the speed and changes the drive to a lateral direction for the tail rotor'
+    },
+    correct: 'b'
+},
+{
+    id: 5259,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'How is the IGB attached, and what is its housing made from?',
+    options: {
+        a: 'Attached inside the lower tail fin structure by four bolts; the housing is a set of aluminium housings',
+        b: 'Attached at the upper end of the fin by four studs; the housing is magnesium alloy',
+        c: 'Attached to the aft fuselage by four bolts; the housing is a titanium casting'
+    },
+    correct: 'a'
+},
+{
+    id: 5260,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What gears does the IGB housing support, and how are they supported?',
+    options: {
+        a: 'Two spur gears supported entirely on plain bronze bushings',
+        b: 'Two bevel gears, each mainly supported by a duplex ball bearing at one end of the gear shaft and a roller bearing at the other end',
+        c: 'An input pinion and a bevel gear integral with the tail rotor shaft, each on a single ball bearing'
+    },
+    correct: 'b'
+},
+{
+    id: 5261,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What is the purpose of the accelerometer fitted to the IGB housing?',
+    options: {
+        a: 'Detecting oil temperature exceedances',
+        b: 'Measuring input shaft rotational speed',
+        c: 'Vibration monitoring'
+    },
+    correct: 'c'
+},
+{
+    id: 5262,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'How are the IGB gears and bearings lubricated and cooled?',
+    options: {
+        a: 'Lubricated by splash lubrication; cooling is by natural convection around the gearbox',
+        b: 'Lubricated by grease packed at build; no cooling provision is fitted',
+        c: 'Lubricated by a pressure-fed oil pump; cooling is by a dedicated oil cooler and fan'
+    },
+    correct: 'a'
+},
+{
+    id: 5263,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What do the IGB input/output sliding adaptors do?',
+    options: {
+        a: 'They lock the bevel gears to the housing to prevent any axial movement',
+        b: 'They convert the gearbox from splash lubrication to pressure lubrication',
+        c: 'They connect to each bevel gear through a spline connection, can move axially along the splines, and carry a flange for the flexible coupling'
+    },
+    correct: 'c'
+},
+{
+    id: 5264,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'Where is the IGB oil low level sensor fitted, and what type of sensor is it?',
+    options: {
+        a: 'At the bottom aft side of the housing; it is an optical sensor',
+        b: 'At the bottom right side of the housing; it is a thermoresistance sensor',
+        c: 'At the top of the housing next to the breather; it is a float-type sensor'
+    },
+    correct: 'a'
+},
+{
+    id: 5265,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'Where are the IGB oil temperature sensor and chip detector located?',
+    options: {
+        a: 'At the bottom right side of the housing',
+        b: 'At the bottom aft side of the housing',
+        c: 'At the top of the housing, next to the filling port'
+    },
+    correct: 'a'
+},
+{
+    id: 5266,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What is the purpose of the two removable plugs on the IGB housing?',
+    options: {
+        a: 'They allow the oil filter to be changed without draining the gearbox',
+        b: 'They permit a boroscope inspection of the bevel gears',
+        c: 'They provide access for installing the sliding adaptors'
+    },
+    correct: 'b'
+},
+{
+    id: 5267,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What does the Tail Gearbox (TGB) do to the drive passing through it?',
+    options: {
+        a: 'It reduces the speed only; the drive direction does not change through the TGB',
+        b: 'It reduces the speed and changes the direction of the drive to a lateral direction',
+        c: 'It increases the speed and changes the direction of the drive to an upward sloping direction'
+    },
+    correct: 'b'
+},
+{
+    id: 5268,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'How is the TGB attached, and what gears does its housing support?',
+    options: {
+        a: 'Attached to the aft fuselage by four studs; the housing supports a single spur gear',
+        b: 'Attached inside the lower tail fin by four bolts; the housing supports two bevel gears, as in the IGB',
+        c: 'Attached at the upper end of the fin by four studs; the housing supports an input pinion and a bevel gear integral with the tail rotor shaft'
+    },
+    correct: 'c'
+},
+{
+    id: 5269,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What is mounted on the left side of the TGB housing?',
+    options: {
+        a: 'The oil filling port and sight glass indicator',
+        b: 'The chip detector and oil temperature sensor',
+        c: 'A mounting flange that provides the attachment for the tail rotor servoactuator'
+    },
+    correct: 'c'
+},
+{
+    id: 5270,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'Where is the breather located on the TGB, and what else is near it?',
+    options: {
+        a: 'At the bottom side, along with the oil low level sensor only',
+        b: 'At the bottom aft side, along with the oil temperature sensor and chip detector',
+        c: 'On the top of the housing, along with a screw-threaded boss for an eyebolt used during removal/installation'
+    },
+    correct: 'c'
+},
+{
+    id: 5271,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'Describe the conical rings that support the tail rotor hub on the TGB mast, and their purpose.',
+    options: {
+        a: 'Two bottom half conical rings sit on a shoulder inside the hub and a top conical ring is fitted over them on the mast, matching a conical section on the hub; the rings centre and support the hub on the mast and transmit shear loads from the blades and hub into the mast',
+        b: 'Two conical rings are fitted inside the IGB bevel gear bore to take up axial float in the duplex ball bearing',
+        c: 'A single conical ring is bonded inside the hub bore and acts only as a dust seal, carrying no structural load'
+    },
+    correct: 'a'
+},
+{
+    id: 5272,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What sensors monitor the Intermediate Gearbox (IGB)?',
+    options: {
+        a: '1 oil level sensor and 1 accelerometer only',
+        b: '1 chip detector and 1 vibration sensor only',
+        c: '1 chip detector, 1 oil level sensor and 1 oil temperature transducer'
+    },
+    correct: 'c'
+},
+{
+    id: 5273,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What sensors monitor the Tail Gearbox (TGB)?',
+    options: {
+        a: '1 chip detector and 1 oil temperature transducer only, with no oil level sensor',
+        b: '1 oil level sensor, 1 oil temperature transducer and 1 accelerometer',
+        c: '1 chip detector, 1 oil level sensor and 1 oil temperature transducer, the same set as the IGB'
+    },
+    correct: 'c'
+},
+{
+    id: 5274,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What happens when the IGB or TGB chip detector detects a particle?',
+    options: {
+        a: 'A continuity check is run automatically and the result is shown on the MFD',
+        b: 'The MAU automatically shuts down oil flow to that gearbox until the next inspection',
+        c: 'The relevant caution alarm is generated on the CAS, and for small particles the pilot can attempt a burn using a pushbutton'
+    },
+    correct: 'c'
+},
+{
+    id: 5275,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'If a chip burning attempt is successful, what is recorded in the NVM?',
+    options: {
+        a: 'The small particle event, together with the date and time, sensor name, and number of burning attempts',
+        b: 'Only the total running hours of the gearbox at the time of the event',
+        c: 'Nothing is recorded; a successful burn clears the fault with no log entry'
+    },
+    correct: 'a'
+},
+{
+    id: 5276,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What type of sensor is the IGB/TGB oil level sensor, and how is it tested before flight?',
+    options: {
+        a: 'A capacitive sensor; it is tested automatically every time NR exceeds 2%',
+        b: 'An optical sensor; the flight crew tests it using the test panel during the pre-flight check',
+        c: 'A float-type sensor; it is tested by visually checking the sight glass only'
+    },
+    correct: 'b'
+},
+{
+    id: 5277,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What type of sensor is the IGB/TGB oil temperature transducer, and which MAU does it feed?',
+    options: {
+        a: 'A thermoresistance type, providing an analog input to MAU #2',
+        b: 'An optical type, providing a digital input to MAU #1',
+        c: 'A thermocouple type, providing an analog input to MAU #1'
+    },
+    correct: 'a'
+},
+{
+    id: 5278,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'On the miscellaneous control panel, what does the CHIP BURNER switch do when pressed?',
+    options: {
+        a: 'It performs a burning attempt for the IGB only',
+        b: 'It silences the chip detector caution without clearing the fault',
+        c: 'It performs a burning attempt for both the IGB and the TGB'
+    },
+    correct: 'c'
+},
+{
+    id: 5279,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What do the IGB OIL LEVEL and TGB OIL LEVEL switches on the test control panel do, and under what condition are these tests valid?',
+    options: {
+        a: 'They drain a small amount of oil to verify the sensor response; valid at any NR',
+        b: 'Pressing them displays IGB OIL LOW or TGB OIL LOW in inverse video on the CAS; the tests are only operative on the ground with NR below 2%',
+        c: 'They reset the oil low caution after servicing; valid only with the rotor brake applied'
+    },
+    correct: 'b'
+},
+{
+    id: 5280,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'At what oil temperature does the IGB OIL TEMP or TGB OIL TEMP caution appear, and at what temperature does it reset?',
+    options: {
+        a: 'Appears above 120°C and resets below 110°C',
+        b: 'Appears above 110°C and resets below 97°C',
+        c: 'Appears above 97°C and resets below 80°C'
+    },
+    correct: 'b'
+},
+{
+    id: 5281,
+    Aircraft: 'AW139',
+    Category: '65',
+    question: 'What is the difference between a detected fault and an observed fault, and which applies to ATA chapter 65?',
+    options: {
+        a: 'A detected fault is found by ground crew during a walk-around; an observed fault is logged automatically by the CMC, and ATA 65 uses only detected faults',
+        b: 'A detected fault is found by the helicopter monitoring system with an allocated fault code; an observed fault is found by the pilot or ground crew, and the AFIP for ATA 65 consists solely of observed faults',
+        c: 'There is no distinction for ATA 65, since all tail rotor drive faults are detected automatically by the CMC'
+    },
+    correct: 'b'
+},
 
     ];
-    
