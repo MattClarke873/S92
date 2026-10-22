@@ -50292,5 +50292,484 @@ export const questions = [
     },
     correct: 'b'
 },
-
-    ];
+{
+    id: 5282,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'How are helicopter vibrations generally classified?',
+    options: {
+        a: 'By frequency, into three ranges: low (0 to 500 rpm), medium (500 to 2000 rpm), and high (2000 rpm and above)',
+        b: 'By amplitude only, into three ranges: low, medium and high IPS, independent of rotor speed',
+        c: 'By source only, into two categories: rotor-induced and engine-induced, with no frequency bands defined'
+    },
+    correct: 'a'
+},
+{
+    id: 5283,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'At 100% NR, what type of vibration does the main rotor (296.4 rpm) produce, and the tail rotor (1435.7 rpm)?',
+    options: {
+        a: 'Both the main rotor and the tail rotor produce medium frequency vibrations at 100% NR',
+        b: 'The main rotor produces high frequency vibrations; the tail rotor produces low frequency vibrations',
+        c: 'The main rotor produces low frequency lateral or vertical vibrations; the tail rotor produces medium frequency vibrations'
+    },
+    correct: 'c'
+},
+{
+    id: 5284,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: "What causes the vertical vibration known as 'one per rev' or 'one to one' vibration?",
+    options: {
+        a: 'A fault in the tail rotor gearbox chip detector feeding an erroneous signal to the main rotor controls',
+        b: 'An imbalance in the engine N1 compressor stage, transmitted mechanically through the main gearbox',
+        c: 'An out of track condition, largely due to drag differences between the blades resulting from unequal lift'
+    },
+    correct: 'c'
+},
+{
+    id: 5285,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: "What does 'tracking' of a main rotor mean?",
+    options: {
+        a: "The check of each blade's static balance only, performed with the rotor stationary and the blades removed",
+        b: 'The check and adjustment of each blade so that their lift/drag potentials are equal and their tip paths are coincident under all flight conditions',
+        c: "The recording of each blade's serial number and life history for continued airworthiness purposes"
+    },
+    correct: 'b'
+},
+{
+    id: 5286,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What role does HUMS play in main and tail rotor track and balance, and for which operations is it mandatory?',
+    options: {
+        a: 'HUMS is increasingly used for rotor track and balance, and is mandatory for offshore helicopters',
+        b: 'HUMS has fully replaced the VIBREX 2000 system on all AW139 aircraft and is mandatory for all operations',
+        c: 'HUMS is used only for engine vibration monitoring and plays no part in rotor track and balance'
+    },
+    correct: 'a'
+},
+{
+    id: 5287,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What is the Chadwick VIBREX 2000, as used on the AW139?',
+    options: {
+        a: 'A single-use calibration tool fitted only during main rotor blade manufacture, not used in the field',
+        b: 'A fixed, panel-mounted avionics computer that continuously logs rotor vibration data for download post-flight only',
+        c: 'A portable electronic system for main and tail rotor track and dynamic balance, vibration absorber tuning checks, and component vibration checks'
+    },
+    correct: 'c'
+},
+{
+    id: 5288,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What are the main components of the VIBREX 2000 system?',
+    options: {
+        a: 'Balancer, chip detector, oil temperature transducer, and a dedicated accelerometer suite',
+        b: 'Vibrex 2000 balancer, Strobex light, speed sensor, velocimeters, and photocell and processor',
+        c: 'Strobex light, velocimeters, and an onboard HUMS data concentrator unit only'
+    },
+    correct: 'b'
+},
+{
+    id: 5289,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What is the Balancer unit in the VIBREX 2000 system, and how is it powered?',
+    options: {
+        a: 'A 115 VAC powered unit mounted permanently in the tail cone next to the TGB',
+        b: 'A passive junction box with no display, simply routing sensor signals to a ground-based laptop',
+        c: 'The functional heart of the system, operator-controlled, powered by 28 VDC, with an LCD display showing functions and Velocimeter information'
+    },
+    correct: 'c'
+},
+{
+    id: 5290,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What does the STROBEX light do, and how is it used?',
+    options: {
+        a: 'It is synchronized with the rotor RPM and is pointed at the main rotor blade plane by the operator to illuminate reflective strips bonded to the blade undersides, fixing the horizontal blade track position',
+        b: 'It projects a laser line onto the tail rotor blades to measure blade pitch angle directly',
+        c: 'It fires a single calibrated flash at engine start to confirm N1/N2 synchronisation before flight'
+    },
+    correct: 'a'
+},
+{
+    id: 5291,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: "Where is the speed transducer ('one-per-rev sensor') installed, and what type of device is it?",
+    options: {
+        a: 'A magnetic pickup device, always installed on the main rotor swashplate assembly (RH side)',
+        b: 'An optical pickup device, installed on the tail gearbox input flange',
+        c: 'A strain-gauge device, installed on the Number 1 tail rotor drive shaft'
+    },
+    correct: 'a'
+},
+{
+    id: 5292,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'Where are the velocimeters installed for main rotor dynamic balance, and what do they acquire?',
+    options: {
+        a: 'On the tail gearbox housing, acquiring amplitude values (ips) for vertical and lateral vibration',
+        b: 'On the main rotor swashplate, acquiring frequency values (Hz) for lateral vibration only',
+        c: 'Behind the pilot seat, acquiring amplitude values (ips) for vertical and lateral vibration'
+    },
+    correct: 'c'
+},
+{
+    id: 5293,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'Where are the velocimeters installed for tail rotor track and balance?',
+    options: {
+        a: 'On the Tail Gear Box',
+        b: 'On the main rotor swashplate assembly, RH side',
+        c: 'Behind the pilot and co-pilot seats, the same location used for main rotor balance'
+    },
+    correct: 'a'
+},
+{
+    id: 5294,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'Can the VIBREX 2000 system perform rotor balancing and blade tracking in flight, or only on the ground?',
+    options: {
+        a: 'It can only be used in flight, since ground resonance would otherwise damage the velocimeters',
+        b: 'It permits rotor balancing and blade tracking from inside the helicopter, either on the ground or in flight',
+        c: 'It can only be used on the ground, since the Strobex light cannot be used safely in flight'
+    },
+    correct: 'b'
+},
+{
+    id: 5295,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'During Ground Tracking (MPOG), how are out-of-track conditions corrected?',
+    options: {
+        a: 'By bending the outer and inner trailing trim tabs',
+        b: 'By changing the length of the appropriate Pitch Change Links',
+        c: 'By adding or removing weights on the blade retention bolts'
+    },
+    correct: 'b'
+},
+{
+    id: 5296,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'During Ground Balancing (MPOG), how is the main rotor assembly balance adjusted, and what is the maximum weight per bolt?',
+    options: {
+        a: 'By adjusting the length of the pitch change links, to a maximum of 15 steps on the scale',
+        b: 'By installing or removing weights on the blade retention bolts, to a maximum of 400 g per bolt',
+        c: 'By bending the trailing trim tab, to a maximum of 8 degrees'
+    },
+    correct: 'b'
+},
+{
+    id: 5297,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What vibration levels define an acceptable main rotor operating condition at MPOG?',
+    options: {
+        a: 'Lateral vibration equal to or below 0.15 IPS, and vertical vibration equal to or below 0.3 IPS',
+        b: 'Lateral vibration equal to or below 0.3 IPS, and vertical vibration equal to or below 0.15 IPS',
+        c: 'Lateral and vertical vibration both equal to or below 0.5 IPS'
+    },
+    correct: 'a'
+},
+{
+    id: 5298,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'Under what conditions is the In Hover Tracking Check performed, and how is tracking corrected?',
+    options: {
+        a: 'In a steady hover at a specified gross weight, out of ground effect (OGE); tracking is corrected by adjusting the length of the pitch change links',
+        b: 'On the ground with minimal aerodynamic reaction; tracking is corrected by adding weights to the retention bolts',
+        c: 'In level forward flight at slow cruise; tracking is corrected by bending the trailing trim tab'
+    },
+    correct: 'a'
+},
+{
+    id: 5299,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'How much does one full turn of the pitch link change blade pitch, and how many steps are on the pitch link scale?',
+    options: {
+        a: '0.5 degrees per full turn, with the scale divided into 10 steps',
+        b: '1 degree per full turn, with the scale divided into 15 steps',
+        c: '2 degrees per full turn, with the scale divided into 8 steps'
+    },
+    correct: 'b'
+},
+{
+    id: 5300,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What vibration levels define an acceptable main rotor condition during the In Hover Balancing Check?',
+    options: {
+        a: 'Vertical and lateral vibration both equal to or below 0.15 IPS',
+        b: 'Lateral vibration below 0.3 IPS and vertical vibration below 0.15 IPS',
+        c: 'Vertical and lateral vibration both equal to or below 0.5 IPS'
+    },
+    correct: 'a'
+},
+{
+    id: 5301,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What vibration levels define an acceptable main rotor condition during the Slow Cruise checks, and how is tracking corrected?',
+    options: {
+        a: 'Vertical and lateral vibration both equal to or below 0.5 IPS; tracking is corrected by adjusting the length of the pitch change links',
+        b: 'Vertical and lateral vibration both equal to or below 0.15 IPS; tracking is corrected by bending the trim tab',
+        c: 'Vertical and lateral vibration both equal to or below 0.3 IPS; tracking is corrected by adding retention bolt weights'
+    },
+    correct: 'a'
+},
+{
+    id: 5302,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'How is an out-of-track condition corrected during the Fast Cruise / VH Tracking Check, and why not by pitch link adjustment?',
+    options: {
+        a: 'By adjusting the length of the pitch change links, exactly as for the ground and hover checks',
+        b: 'By adding or removing weights on the blade retention bolts, as aerodynamic effects are negligible at VH',
+        c: 'By adjusting the angle of the bendable trailing trim tab; pitch links are used at lower speeds, trim tabs at fast cruise and VH'
+    },
+    correct: 'c'
+},
+{
+    id: 5303,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What is the rule for bending a main rotor trailing trim tab, and what is the maximum angle?',
+    options: {
+        a: 'If the blade is low, bend the trim tab DOWNWARDS; if high, bend it UPWARDS; maximum 15 degrees in either case',
+        b: 'The trim tab is always bent UPWARDS regardless of blade position, to a maximum of 8 degrees',
+        c: 'If the blade is low, bend the trim tab UPWARDS; if high, bend it DOWNWARDS; maximum 8 degrees in either case'
+    },
+    correct: 'c'
+},
+{
+    id: 5304,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What is the difference between the outer and inner trim tabs, and what rule applies to bending them on the same blade?',
+    options: {
+        a: 'The outer trim tab adjusts tracking at VH and the inner adjusts tracking at fast cruise; they may be bent in opposite directions',
+        b: 'Both trim tabs adjust tracking at fast cruise only; the inner tab is a spare in case the outer tab is damaged',
+        c: 'The outer trim tab adjusts tracking at fast cruise and the inner adjusts tracking at VH; on the same blade, both must be bent in the same direction'
+    },
+    correct: 'c'
+},
+{
+    id: 5305,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What vibration levels define an acceptable (smooth) main rotor condition during the Fast Cruise / VH Balancing Check?',
+    options: {
+        a: 'Vertical and lateral vibration both equal to or below 0.15 IPS',
+        b: 'Vertical vibration below 0.5 IPS and lateral vibration below 0.3 IPS',
+        c: 'Vertical and lateral vibration both equal to or below 0.5 IPS'
+    },
+    correct: 'c'
+},
+{
+    id: 5306,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'Why is tail rotor dynamic balancing necessary?',
+    options: {
+        a: 'To correct for chip detector false alarms that are otherwise reported as tail rotor vibration',
+        b: 'To minimize vibrations from an asymmetrical distribution of mass on the rotor plane and keep the four tail rotor blades in as close to the same plane of rotation as possible',
+        c: 'To compensate for engine N1/N2 speed mismatches that are transmitted through the tail rotor drive shafts'
+    },
+    correct: 'b'
+},
+{
+    id: 5307,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'At which flight conditions is tail rotor dynamic balancing performed, and what equipment is used?',
+    options: {
+        a: 'In flight only, using the same two velocimeters that are used for main rotor balancing, behind the pilot and co-pilot seats',
+        b: 'On ground (MPOG), in hovering, cruise and fast cruise, using two velocimeters on the tail gear box plus the Balancer and a Photocell on the vertical fin',
+        c: 'Only on the ground (MPOG), using a single velocimeter mounted on the tail rotor hub'
+    },
+    correct: 'b'
+},
+{
+    id: 5308,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'How is the tail rotor dynamic balance adjusted, and what marks the target blade?',
+    options: {
+        a: 'By changing weights on the blade bolt and adjusting the length of the pitch link; a yellow reflective strip is installed on the target blade',
+        b: 'By replacing the blade bolt entirely; the target blade is identified by its serial number stamped on the root',
+        c: 'By bending the trailing trim tab on the target blade only; the target blade is marked with a red reflective strip'
+    },
+    correct: 'a'
+},
+{
+    id: 5309,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What are the acceptable tail rotor vibration limits during Cruise, compared with MPOG, Hovering and Fast Cruise?',
+    options: {
+        a: 'Cruise allows the lowest limits of all conditions, at 0.1 IPS lateral and 0.1 IPS vertical',
+        b: 'All four conditions share the same limit of 0.5 IPS for both lateral and vertical vibration',
+        c: 'Cruise allows up to 0.5 IPS lateral and 0.5 IPS vertical, higher than the 0.1 IPS lateral / 0.2 IPS vertical allowed at MPOG, Hovering and Fast Cruise'
+    },
+    correct: 'c'
+},
+{
+    id: 5310,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: "What is the purpose of the AW139's passive vibration absorber system, and what frequency is it tuned to?",
+    options: {
+        a: "To minimize one-per-revolution vibrations caused by out-of-track blades, tuned to the main rotor's 1/rev frequency",
+        b: "To minimize tail rotor 4/rev vibrations, tuned to the tail rotor's rotational frequency",
+        c: 'To minimize five-per-revolution main rotor vibrations, with the absorber weights tuned to vibrate near the 5/rev value of the main rotor (24.5 Hz maximum)'
+    },
+    correct: 'c'
+},
+{
+    id: 5311,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'Where are the passive vibration absorber units located, and what does each unit consist of?',
+    options: {
+        a: 'Two identical units installed face to face under the floor, behind the pilot and co-pilot seats; each consists of a tube, a weight at a pre-set distance, and adjustment washers',
+        b: 'Two units installed on the main rotor swashplate, each consisting of a spring-loaded mass and a damper cartridge',
+        c: 'A single unit installed in the tail cone next to the TGB, consisting of a tube and a fixed weight with no adjustment'
+    },
+    correct: 'a'
+},
+{
+    id: 5312,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'Under which conditions must the vibration absorber be adjusted?',
+    options: {
+        a: 'Only after a hard landing event has been logged by the HUMS system',
+        b: 'Only at the scheduled overhaul interval, regardless of vibration levels',
+        c: 'On new assemblies not previously adjusted, after replacement of a weight, or when high 5X-rev vibrations are present'
+    },
+    correct: 'c'
+},
+{
+    id: 5313,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What equipment is required to adjust the vibration absorber?',
+    options: {
+        a: 'Only a torque wrench and a feeler gauge set',
+        b: 'Balancer Vibrex 2000, a Balancer kit, a Velocimeter, and a non-metallic mallet',
+        c: 'A Strobex light and a set of calibrated trim tab bending tools'
+    },
+    correct: 'b'
+},
+{
+    id: 5314,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'Where is the optional additional vibration absorber mass installed?',
+    options: {
+        a: 'At the end of the passenger cabin, left hand side, at STA 5307.00',
+        b: 'At the top of the main rotor mast, below the beanie assembly',
+        c: 'On the tail gear box housing, adjacent to the chip detector'
+    },
+    correct: 'a'
+},
+{
+    id: 5315,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'Where is the Mast-Vibration Absorber (MVA) installed, and how is it accessed for maintenance?',
+    options: {
+        a: 'Into the top opening of the mast, axially pre-loaded and attached to a retainer cap below the beanie; access is through removal of the beanie assembly',
+        b: 'On the tail rotor hub, accessed by removing the top conical ring and ring nut',
+        c: 'Inside the IGB housing, accessed through the two boroscope inspection plugs'
+    },
+    correct: 'a'
+},
+{
+    id: 5316,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What are the primary components of the MVA installation?',
+    options: {
+        a: 'The Balancer, the Strobex light, and the photocell and processor',
+        b: 'The vibration-absorber mass group, the cap, the cap plug, and the rod assembly and adapter group',
+        c: 'A duplex ball bearing, a roller bearing, and a splined sliding adaptor'
+    },
+    correct: 'b'
+},
+{
+    id: 5317,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What materials make up the MVA vibration-absorber mass group, and roughly what does it weigh?',
+    options: {
+        a: 'Stainless steel weights with titanium disks, assembled to a mass of approximately 30 kg (66 lb)',
+        b: 'Tungsten calibrated weights with disks made of 4130 steel alloy, assembled to a mass of approximately 19 kg (41.9 lb)',
+        c: 'Cadmium-plated steel weights with aluminium alloy disks, assembled to a mass of approximately 5 kg (11 lb)'
+    },
+    correct: 'b'
+},
+{
+    id: 5318,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'If the MVA vibration-absorber mass group needs to be replaced, what else must be replaced, and why?',
+    options: {
+        a: 'The rod assembly must also be replaced, because the mass group and rod assembly are assembled and tuned together by Agusta',
+        b: 'Nothing else; the mass group is a stand-alone, interchangeable part with any rod assembly',
+        c: 'The entire main rotor mast must also be replaced, since the MVA is bonded directly to the mast'
+    },
+    correct: 'a'
+},
+{
+    id: 5319,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'How does the Mast-Vibration Absorber (MVA) reduce vibration?',
+    options: {
+        a: 'It simply adds mass to the mast top to raise the natural frequency clear of the operating range, with no tuned resonance involved',
+        b: 'It uses an active electronic feedback loop to cancel vibration signals measured by accelerometers',
+        c: 'It operates like a Tuned Vibration Absorber: a weight held by an elastic element is tuned in resonance with the vibration frequency to be attenuated, absorbing energy from the vibration source'
+    },
+    correct: 'c'
+},
+{
+    id: 5320,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'What does the Active Vibration Control System (AVCS) do, and how?',
+    options: {
+        a: 'It decreases tail-rotor-induced vibrations in the cabin by adjusting tail rotor pitch link length automatically in flight',
+        b: 'It decreases main-rotor-induced vibrations in the fuselage; accelerometers measure the vibration, the ICU processes the signals, and actuators move to reduce the N/rev vibrations',
+        c: 'It decreases engine-induced vibrations by adjusting N1 and N2 governing set points in real time'
+    },
+    correct: 'b'
+},
+{
+    id: 5321,
+    Aircraft: 'AW139',
+    Category: '18',
+    question: 'Over what NR range does the AVCS operate, and at what NR does it cancel all vibration?',
+    options: {
+        a: 'Between 100% and 110% NR, cancelling out all vibrations at 105% NR',
+        b: 'Between 95% and 105% NR, cancelling out all vibrations at 100% NR',
+        c: 'Between 80% and 100% NR, cancelling out all vibrations at 90% NR'
+    },
+    correct: 'b'
+},
+];
