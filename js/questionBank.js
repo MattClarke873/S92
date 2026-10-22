@@ -41466,11 +41466,11 @@ export const questions = [
     Category: '29',
     question: 'At HYD 1 fluid level 22% (MIN), what happens to UTIL SOV1, and what is the effect on landing gear emergency operation?',
     options: {
-        a: 'UTIL SOV1 automatically closes, and landing gear emergency operation is not available',
-        b: 'UTIL SOV1 opens fully to compensate',
+        a: 'UTIL SOV1 automatically closes, and landing gear automatic extension is triggered due to lack of pressure',
+        b: 'UTIL SOV1 automatically closes, and landing gear emergency operation is not available',
         c: 'UTIL SOV1 is unaffected; only TRSOV closes'
     },
-    correct: 'a'
+    correct: 'b'
 },
 {
     id: 4534,
@@ -41532,7 +41532,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 4539,
     Aircraft: 'AW139',
     Category: '29',
@@ -41543,7 +41543,7 @@ export const questions = [
         c: 'No, the SOV switch on the HYD control panel is not inhibited'
     },
     correct: 'c'
-},
+}, */
 {
     id: 4540,
     Aircraft: 'AW139',
@@ -41800,7 +41800,7 @@ export const questions = [
     id: 4561,
     Aircraft: 'AW139',
     Category: '29',
-    question: 'What must be carried out after an Electric Pump (EP) replacement?',
+    question: 'What must be carried out after an Hydraulic Electric Pump (EP) replacement?',
     options: {
         a: 'A calibration of the generator load meters',
         b: 'A bleed of the main hydraulic system and an EP operational test',
@@ -47412,7 +47412,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 5038,
     Aircraft: 'AW139',
     Category: '63',
@@ -47423,7 +47423,7 @@ export const questions = [
         c: '15 teeth'
     },
     correct: 'a'
-},
+}, */
 /* {
     id: 5039,
     Aircraft: 'AW139',
