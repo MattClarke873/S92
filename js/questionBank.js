@@ -44896,7 +44896,7 @@ export const questions = [
     id: 4828,
     Aircraft: 'AW139',
     Category: '62',
-    question: 'What is attached to the outer circumference of the hub, besides the elastomeric bearings?',
+    question: 'What is attached to the outer circumference of the main rotor hub, besides the elastomeric bearings?',
     options: {
         a: 'The swashplate duplex bearing',
         b: 'One end of each of the five blade hydraulic dampers',
@@ -47164,7 +47164,7 @@ export const questions = [
     id: 5017,
     Aircraft: 'AW139',
     Category: '63',
-    question: "What is the drive shaft's rated speed?",
+    question: "What is the engine drive shaft's rated speed?",
     options: {
         a: '296 RPM',
         b: '9111 RPM',

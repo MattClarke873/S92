@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    body {
+      background-color: #000;
+      height: 100%;
+      width: 100%;
+      margin: 0;
+    }
+  </style>
+  <title>Connecting to Dropbox...</title>
+</head>
+<body>
+  <div class="container">
+    <div class="home-card">
+      <h1>Connecting to Dropbox</h1>
+      <p class="home-subtitle" id="status">Finishing up...</p>
+    </div>
+  </div>
+
+  <script type="module">
+    import { completeDropboxConnection } from '../js/dropboxSync.js';
+
+    const statusEl = document.getElementById('status');
+
+    completeDropboxConnection().then((result) => {
+      if (result.ok) {
+        statusEl.innerText = 'Connected! Taking you back...';
+        window.location.href = result.returnTo;
+      } else {
+        statusEl.innerText = `Could not connect: ${result.error}`;
+      }
+    });
+  </script>
+</body>
+</html>
