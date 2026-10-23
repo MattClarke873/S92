@@ -1,0 +1,669 @@
+/* Site theme ("night ops") — layered on top of styles.css.
+   Idea: night ops over the North Sea. Photo turned to a navy duotone,
+   aircraft names set big in expanded type, and your pick flips to
+   solid white so it's unmistakable in the dark. */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap');
+
+:root {
+    --night: #0d1522;
+    --panel: #131e2f;
+    --line: #26364d;
+    --ink: #eaf0f7;
+    --muted: #8b9bb2;
+    --white: #ffffff;
+    --green: #47d685;
+    --red: #ff6464;
+}
+
+html { background: var(--night); }
+
+/* Photo blends into the navy so every aircraft shot reads as one set */
+body {
+    display: block;
+    position: relative;
+    height: auto !important;
+    min-height: 100vh;
+    font-family: 'Archivo', system-ui, sans-serif;
+    font-stretch: 100%;
+    font-size: 17px;
+    color: var(--ink);
+    background-color: var(--night) !important;
+    background-blend-mode: luminosity;
+    /* Big enough that the photo fills the top ~850px even on a phone */
+    background-size: max(100%, 1300px) auto !important;
+    background-position: center top !important;
+    background-attachment: scroll !important;
+    background-repeat: no-repeat !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(90deg, rgba(13, 21, 34, 0.85) 0%, rgba(13, 21, 34, 0.45) 45%, rgba(13, 21, 34, 0) 100%),
+        linear-gradient(180deg, rgba(13, 21, 34, 0) 0, rgba(13, 21, 34, 0.15) 400px, rgba(13, 21, 34, 0.7) 650px, var(--night) 850px);
+    pointer-events: none;
+}
+
+button { font-family: inherit; }
+
+/* Text that sits straight on the photo gets a soft dark halo so it
+   stays readable over bright sky or white fuselage */
+h1,
+.home-subtitle,
+.home-meta,
+.home-disclaimer,
+.menu-btn,
+.progress-panel {
+    text-shadow: 0 1px 2px rgba(13, 21, 34, 0.6), 0 0 18px rgba(13, 21, 34, 0.7);
+}
+
+:focus-visible {
+    outline: 2px solid var(--white);
+    outline-offset: 3px;
+}
+
+/* ---------- Shell ---------- */
+
+.container {
+    position: relative;
+    display: block;
+    max-width: 820px;
+    min-height: 0;
+    margin: 0;
+    padding: 96px 56px 64px;
+    box-sizing: border-box;
+}
+
+h1,
+.home-card h1 {
+    font-stretch: 125%;
+    font-weight: 800;
+    font-size: clamp(2.6rem, 6vw, 4.5rem);
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: var(--white);
+    text-shadow: none;
+    margin: 0 0 14px;
+}
+
+.home-card {
+    background: none;
+    box-shadow: none;
+    backdrop-filter: none;
+    padding: 0;
+    width: 100%;
+    max-width: none;
+    text-align: left;
+    color: var(--ink);
+}
+
+.home-subtitle {
+    color: #c2cddc;
+    font-size: 1.1rem;
+    margin: 0 0 48px;
+}
+
+.home-meta {
+    color: var(--muted);
+    font-size: 0.85rem;
+    font-variant-numeric: tabular-nums;
+    margin: 0 0 20px;
+}
+
+.home-disclaimer {
+    color: var(--muted);
+    font-size: 0.85rem;
+    line-height: 1.6;
+    max-width: 52ch;
+    margin: 40px 0 0;
+}
+
+/* ---------- Aircraft / week list: the names are the design ---------- */
+
+.typebuttons,
+.weeks {
+    gap: 0;
+    border-top: 1px solid var(--line);
+}
+
+.typebuttons a,
+.weeks a { display: block; }
+
+.menu-btn,
+.mainButtons.menu-btn {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    column-gap: 20px;
+    row-gap: 6px;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 22px 0;
+    background: none;
+    border-bottom: 1px solid var(--line);
+    border-radius: 0;
+    text-align: left;
+    color: var(--ink);
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.menu-name {
+    font-stretch: 125%;
+    font-weight: 800;
+    font-size: clamp(2.2rem, 5.5vw, 3.6rem);
+    line-height: 0.9;
+    letter-spacing: -0.02em;
+    color: #c2cddc;
+    transition: color 0.15s;
+}
+
+.weeks .menu-name { font-size: clamp(1.7rem, 4vw, 2.4rem); }
+
+.menu-count {
+    font-stretch: 75%;
+    font-weight: 600;
+    font-size: 1.05rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+}
+
+.menu-detail {
+    grid-column: 1 / -1;
+    font-size: 0.92rem;
+    color: #b0bdcf;
+}
+
+.menu-btn:hover,
+.mainButtons.menu-btn:hover {
+    transform: none;
+    background: none;
+}
+
+.menu-btn:hover .menu-name,
+.menu-btn:focus-visible .menu-name { color: var(--white); }
+
+/* ---------- Navigation ---------- */
+
+.navigation,
+.home-card .navigation {
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 32px;
+}
+
+.navigation button,
+#home, #left, #right,
+#home:hover, #left:hover, #right:hover {
+    height: 44px;
+    width: auto;
+    min-width: 0;
+    max-width: none;
+    margin: 0;
+    padding: 0 20px;
+    border: 1px solid rgba(234, 240, 247, 0.22);
+    border-radius: 22px;
+    background: rgba(13, 21, 34, 0.55);
+    color: var(--ink);
+    font-size: 0.95rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.navigation a { flex: none; }
+
+#home:hover, #left:hover, #right:hover {
+    background: var(--white);
+    border-color: var(--white);
+    color: var(--night);
+}
+
+/* ---------- Quiz setup ---------- */
+
+.selections {
+    display: block;
+    max-width: none;
+    margin: 28px 0 20px;
+    padding: 24px;
+    background: var(--panel);
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: none;
+    text-align: left;
+}
+
+.setup-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.setup-label {
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+#questionCount {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--ink);
+    background: var(--night);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 8px 14px;
+}
+
+.ATAs { margin-top: 20px; }
+
+.SelectionBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.SelectionBox .list,
+ul.ata_List1, ul.ata_List2, ul.ata_List3 { display: contents; }
+
+/* Chapters as pills; the real checkbox stays for script.js */
+.SelectionBox label,
+.selectAllBox label {
+    display: inline-flex;
+    align-items: center;
+    padding: 9px 16px;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.12s, color 0.12s;
+}
+
+.SelectionBox label input,
+.selectAllBox label input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.SelectionBox label:hover { color: var(--ink); border-color: var(--muted); }
+
+/* Chapters with no questions yet */
+.SelectionBox label:has(input:disabled),
+.selectAllBox label:has(input:disabled) {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+.SelectionBox label:has(input:disabled):hover { color: var(--muted); border-color: var(--line); }
+
+.SelectionBox label:has(input:checked) {
+    background: var(--white);
+    border-color: var(--white);
+    color: var(--night);
+}
+
+.SelectionBox label:has(input:focus-visible),
+.selectAllBox label:has(input:focus-visible) {
+    outline: 2px solid var(--white);
+    outline-offset: 3px;
+}
+
+.selectAllBox {
+    justify-content: flex-start;
+    margin-top: 12px;
+}
+
+.selectAllBox label {
+    border: 0;
+    padding-left: 0;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: var(--line);
+}
+
+.selectAllBox label:has(input:checked) { color: var(--ink); }
+
+/* ---------- Actions ---------- */
+
+.bottomButtons {
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+#filterBtn,
+#finishBtn,
+#resetBtn {
+    height: 48px;
+    width: auto;
+    min-width: 0;
+    max-width: none;
+    margin: 0;
+    padding: 0 26px;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#filterBtn,
+#finishBtn {
+    background: var(--white);
+    color: var(--night);
+}
+
+#filterBtn:hover,
+#finishBtn:hover { background: #d4dde9; }
+
+#resetBtn {
+    background: rgba(13, 21, 34, 0.55);
+    border: 1px solid rgba(234, 240, 247, 0.22);
+    color: var(--muted);
+}
+
+#resetBtn:hover {
+    background: none;
+    border-color: var(--red);
+    color: var(--red);
+}
+
+/* ---------- Progress ---------- */
+
+.progress-panel {
+    max-width: none;
+    margin: 28px 0 8px;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+    backdrop-filter: none;
+    text-align: left;
+    color: var(--ink);
+}
+
+.progress-heading {
+    font-weight: 600;
+    margin: 0 0 2px;
+}
+
+.progress-summary {
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin: 0;
+}
+
+/* ---------- Questions ---------- */
+
+#questions-container {
+    min-width: 0;
+    padding: 0;
+    align-items: stretch;
+    counter-reset: q;
+}
+
+.question-container {
+    max-width: none;
+    margin: 0 0 14px;
+    padding: 24px 24px 36px;
+    background: var(--panel);
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: none;
+    backdrop-filter: none;
+    counter-increment: q;
+}
+
+.question-container p {
+    text-align: left;
+    font-size: 1.15rem;
+    font-weight: 500;
+    line-height: 1.45;
+    margin: 0 0 18px;
+    padding: 0;
+    max-width: 60ch;
+}
+
+.question-container p::before {
+    content: counter(q);
+    display: block;
+    margin-bottom: 8px;
+    font-stretch: 125%;
+    font-weight: 800;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: var(--line);
+}
+
+.question-id {
+    color: var(--muted);
+    font-size: 0.75rem;
+    right: 24px;
+    bottom: 12px;
+    white-space: pre;
+}
+
+.options-list li { margin: 0 0 8px; }
+
+.options-list button {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 14px 18px;
+    background: var(--night);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    color: var(--ink);
+    font-size: 1rem;
+    line-height: 1.4;
+    text-align: left;
+    transition: background-color 0.12s, color 0.12s, border-color 0.12s;
+}
+
+.options-list button:hover {
+    background: var(--night);
+    border-color: var(--muted);
+}
+
+.options-list button.selected {
+    background: var(--white);
+    border-color: var(--white);
+    color: var(--night);
+    box-shadow: none;
+}
+
+/* script.js marks results with inline colours; restyle without touching JS */
+.options-list button[style*="green"] {
+    background: rgba(71, 214, 133, 0.14) !important;
+    border-color: var(--green) !important;
+    color: var(--ink) !important;
+}
+
+.options-list button[style*="green"]::after {
+    content: 'Correct';
+    flex: none;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--green);
+}
+
+.options-list button[style*="red"] {
+    background: rgba(255, 100, 100, 0.12) !important;
+    border-color: var(--red) !important;
+    color: var(--ink) !important;
+}
+
+.options-list button[style*="red"]::after {
+    content: 'Your answer';
+    flex: none;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--red);
+}
+
+/* Unanswered: script.js marks every wrong option red — keep them plain */
+.options-list:not(:has(.selected)) button[style*="red"] {
+    background: var(--night) !important;
+    border-color: var(--line) !important;
+    color: var(--muted) !important;
+}
+
+.options-list:not(:has(.selected)) button[style*="red"]::after { content: none; }
+
+.options-list:not(:has(.selected)) button[style*="green"]::after { content: 'Not answered'; }
+
+/* ---------- Result ---------- */
+
+#result-container {
+    max-width: none;
+    margin: 20px 0;
+    padding: 22px 24px;
+    background: var(--white);
+    color: var(--night);
+    border-radius: 12px;
+    box-shadow: none;
+    text-align: left;
+}
+
+#result-container p:first-child {
+    font-stretch: 125%;
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.dropbox-sync-note { color: #4a5a72; }
+
+/* ---------- Report control ---------- */
+
+.report-toggle,
+.report-toggle:hover {
+    color: var(--muted);
+    background: none;
+    font-size: 0.82rem;
+    margin-top: 6px;
+    text-align: left;
+}
+
+.report-toggle:hover { color: var(--ink); }
+
+.report-name,
+.report-textarea {
+    background: var(--night);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    color: var(--ink);
+}
+
+.report-submit {
+    background: var(--white);
+    color: var(--night);
+    border-radius: 18px;
+}
+
+.report-submit:hover { background: #d4dde9; }
+
+.report-status { color: var(--muted); }
+
+/* ---------- Popup + settings ---------- */
+
+#popup-container,
+.settings-overlay { background: rgba(5, 9, 15, 0.75); }
+
+#popup-content,
+.settings-panel {
+    background: var(--panel);
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    text-align: left;
+}
+
+#popup-content h2,
+.settings-panel-header h2 {
+    font-stretch: 125%;
+    font-weight: 800;
+    color: var(--white);
+}
+
+#popup-content p,
+.settings-help,
+.settings-status { color: var(--muted); line-height: 1.55; }
+
+#popup-content #filterBtn { margin-top: 16px; }
+
+.settings-section { border-top-color: var(--line); }
+
+.settings-cog {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    box-shadow: none;
+}
+
+.settings-cog:hover { background: var(--line); }
+
+.settings-btn {
+    background: var(--white);
+    color: var(--night);
+    border-radius: 20px;
+}
+
+.settings-btn:hover { background: #d4dde9; }
+
+.settings-btn-secondary {
+    background: none;
+    color: var(--ink);
+    border: 1px solid var(--line);
+}
+
+.settings-btn-secondary:hover { background: none; border-color: var(--muted); }
+
+.settings-input {
+    background: var(--night);
+    color: var(--ink);
+    border-color: var(--line);
+    border-radius: 8px;
+}
+
+.settings-account { color: var(--green); }
+
+/* ---------- Small screens ---------- */
+
+@media (max-width: 600px) {
+    .container {
+        width: auto;
+        padding: 80px 16px 40px;
+    }
+
+    .question-container {
+        width: auto;
+        padding: 20px 16px 36px;
+    }
+
+    .question-id { right: 16px; }
+
+    .navigation { gap: 6px; }
+
+    .navigation button,
+    #home, #left, #right,
+    #home:hover, #left:hover, #right:hover { padding: 0 14px; }
+
+    #result-container { width: auto; }
+
+    .bottomButtons { flex-wrap: wrap; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+}

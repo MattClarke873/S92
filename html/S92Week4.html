@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="../css/nav.css">
+  <link rel="stylesheet" href="../css/theme.css">
   <style>
 body {
   background-image: url("../support_Documents/S92B.jpg");
@@ -22,14 +23,15 @@ body {
 <body>
   <div class="container">
 
-    <h1>S-92 Week 4 Quiz</h1>
+    <h1>S-92 Week 4</h1>
 
     <!-- Hidden input to specify aircraft type -->
     <input type="hidden" id="aircraftType" value="S92">
 
     <div class="selections">
-      <label for="questionCount">Select Number of Questions:</label>
-      <select id="questionCount">
+      <div class="setup-row">
+        <label class="setup-label" for="questionCount">Questions</label>
+        <select id="questionCount">
         <option value="0">0</option>
         <option value="5">5</option>
         <option value="10">10</option>
@@ -40,6 +42,7 @@ body {
         <option value="35">35</option>
         <option value="40">40</option>
       </select>
+      </div>
 
       <!-- Checkboxes for categories -->
       <div class="ATAs">
@@ -63,12 +66,12 @@ body {
         </div>
       </div>
       <div class="selectAllBox">
-        <label><input type="checkbox" id="selectAll"> Select All</label>
+        <label><input type="checkbox" id="selectAll"> All chapters</label>
       </div>
     </div>
 
     <div class="bottomButtons">
-      <button id="filterBtn">Generate Quiz</button>
+      <button id="filterBtn">Start quiz</button>
     </div>
 
     <div id="questions-container"></div>
@@ -76,14 +79,14 @@ body {
     <div id="result-container"></div>
 
     <div class="bottomButtons">
-      <button id="finishBtn">Finish</button>
-      <button id="resetBtn">Reset</button>
+      <button id="finishBtn">Mark answers</button>
+      <button id="resetBtn">Clear</button>
     </div>
 
     <div class="navigation">
-      <a href="../html/S92Week3.html"> <button id="left">&#8592;</button> </a>
-      <a href="../index.html"> <button id="home">&#127968;</button></a>
-      <a href="../html/S92Week5.html"> <button id="right">&#8594;</button> </a>
+      <a href="../html/S92Week3.html"> <button id="left">Week 3</button> </a>
+      <a href="../html/S92.html"> <button id="home">S-92 weeks</button></a>
+      <a href="../html/S92Week5.html"> <button id="right">Week 5</button> </a>
     </div>
 
   </div>

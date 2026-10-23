@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/theme.css">
   <style>
     body {
       background-image: url('support_Documents/H175B.jpg');
@@ -21,13 +22,13 @@
   <div class="container">
     <div class="home-card">
       <h1>Type Course Quiz</h1>
-      <p class="home-subtitle">Select an aircraft type to begin</p>
+      <p class="home-subtitle">Pick the aircraft you’re studying.</p>
       <div class="typebuttons">
-        <button onclick="window.location.href='./html/S92.html'" class="mainButtons menu-btn">🚁 S-92</button>
-        <button onclick="window.location.href='./html/H175.html'" class="mainButtons menu-btn">🚁 H175</button>
-        <button onclick="window.location.href='./html/AW139.html'" class="mainButtons menu-btn">🚁 AW139</button>
+        <button onclick="window.location.href='./html/S92.html'" class="mainButtons menu-btn"><span class="menu-name">S-92</span><span class="menu-count">1,018 Qs</span><span class="menu-detail">Sikorsky, 5 weeks</span></button>
+        <button onclick="window.location.href='./html/H175.html'" class="mainButtons menu-btn"><span class="menu-name">H175</span><span class="menu-count">1,823 Qs</span><span class="menu-detail">Airbus, 4 weeks and a final exam</span></button>
+        <button onclick="window.location.href='./html/AW139.html'" class="mainButtons menu-btn"><span class="menu-name">AW139</span><span class="menu-count">1,273 Qs</span><span class="menu-detail">Leonardo, 4 weeks and a final exam</span></button>
       </div>
-      <p class="home-disclaimer">A personal training aid, not an official reference — question accuracy hasn't been independently verified, so please cross-check anything you're unsure about.</p>
+      <p class="home-disclaimer">A personal training aid, not an official reference. Question accuracy hasn't been independently verified, so please cross-check anything you're unsure about.</p>
     </div>
   </div>
   <script type="module" src="js/settingsPanel.js"></script>

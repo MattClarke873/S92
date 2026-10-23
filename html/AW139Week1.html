@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="../css/nav.Start.css">
+  <link rel="stylesheet" href="../css/theme.css">
   <style>
     body {
       /* Photo: "G-XXEE Leonardo AW139 Helicopter" CC BY-SA 2.0, via Wikimedia Commons */
@@ -23,14 +24,15 @@
 
 <body>
   <div class="container">
-    <h1>AW139 Week 1 Quiz</h1>
+    <h1>AW139 Week 1</h1>
 
     <!-- Hidden input to specify aircraft type -->
     <input type="hidden" id="aircraftType" value="AW139">
 
     <div class="selections">
-      <label for="questionCount">Select Number of Questions:</label>
-      <select id="questionCount">
+      <div class="setup-row">
+        <label class="setup-label" for="questionCount">Questions</label>
+        <select id="questionCount">
         <option value="0">0</option>
         <option value="5">5</option>
         <option value="10">10</option>
@@ -41,6 +43,7 @@
         <option value="35">35</option>
         <option value="40">40</option>
       </select>
+      </div>
 
       <!-- Checkboxes for categories -->
       <!-- TODO: Replace placeholder ATA chapters below once Week 1 syllabus is confirmed -->
@@ -48,16 +51,16 @@
         <div class="SelectionBox">
           <div class="list">
             <ul class="ata_List1">
-              <li><label><input type="checkbox" class="category-checkbox"  value="04-12,20" > ATA 04-12,20</label></li>
-              <li><label><input type="checkbox" class="category-checkbox" value="24" > ATA 24</label></li>
-              <li><label><input type="checkbox" class="category-checkbox" value="25" > ATA 25</label></li>
+              <li><label><input type="checkbox" class="category-checkbox"  value="04-12,20" > 04-12,20</label></li>
+              <li><label><input type="checkbox" class="category-checkbox" value="24" > 24</label></li>
+              <li><label><input type="checkbox" class="category-checkbox" value="25" > 25</label></li>
             </ul>
           </div>
           <div class="list">
             <ul class="ata_List2">
-              <li><label><input type="checkbox" class="category-checkbox" value="52" > ATA 52</label></li>
-              <li><label><input type="checkbox" class="category-checkbox" value="53" > ATA 53/55</label></li>
-              <li><label><input type="checkbox" class="category-checkbox" value="56" > ATA 56</label></li>
+              <li><label><input type="checkbox" class="category-checkbox" value="52" > 52</label></li>
+              <li><label><input type="checkbox" class="category-checkbox" value="53" > 53/55</label></li>
+              <li><label><input type="checkbox" class="category-checkbox" value="56" > 56</label></li>
               
             </ul>
           </div>
@@ -67,11 +70,11 @@
     </div>
       </div>
       <div class="selectAllBox">
-        <label><input type="checkbox" id="selectAll"> Select All</label>
+        <label><input type="checkbox" id="selectAll"> All chapters</label>
       </div>
     </div>
     <div class="bottomButtons">
-      <button id="filterBtn">Generate Quiz</button>
+      <button id="filterBtn">Start quiz</button>
     </div>
 
     <div id="questions-container"></div>
@@ -79,13 +82,13 @@
     <div id="result-container"></div>
 
     <div class="bottomButtons">
-      <button id="finishBtn">Finish</button>
-      <button id="resetBtn">Reset</button>
+      <button id="finishBtn">Mark answers</button>
+      <button id="resetBtn">Clear</button>
     </div>
 
     <div class="navigation">
-      <a href="../index.html"> <button id="home">&#127968;</button></a>
-      <a href="../html/AW139Week2.html"> <button id="right">&#8594;</button> </a>
+      <a href="../html/AW139.html"> <button id="home">AW139 weeks</button></a>
+      <a href="../html/AW139Week2.html"> <button id="right">Week 2</button> </a>
     </div>
   </div>
 

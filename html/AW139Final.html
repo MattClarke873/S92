@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="../css/nav.Start.css">
+  <link rel="stylesheet" href="../css/theme.css">
   <style>
     body {
       background-image: url("../support_Documents/AW139A.jpg");
@@ -21,7 +22,7 @@
 
 <body>
   <div class="container">
-    <h1>AW139 Final Quiz</h1>
+    <h1>AW139 Final exam</h1>
     
 
     <!-- Hidden input to specify aircraft type -->
@@ -29,8 +30,9 @@
 
     <div class="selections">
       <p class="home-subtitle">Pulls from the whole AW139 question bank <br> No chapters to pick</p>
-      <label for="questionCount">Select Number of Questions:</label>
-      <select id="questionCount">
+      <div class="setup-row">
+        <label class="setup-label" for="questionCount">Questions</label>
+        <select id="questionCount">
         <option value="0">0</option>
         <option value="5">5</option>
         <option value="10">10</option>
@@ -41,23 +43,24 @@
         <option value="35">35</option>
         <option value="40">40</option>
       </select>
+      </div>
     </div>
 
     <div class="bottomButtons">
-      <button id="filterBtn">Generate Quiz</button>
+      <button id="filterBtn">Start quiz</button>
     </div>
 
     <div id="questions-container"></div>
     <div id="result-container"></div>
 
     <div class="bottomButtons">
-      <button id="finishBtn">Finish</button>
-      <button id="resetBtn">Reset</button>
+      <button id="finishBtn">Mark answers</button>
+      <button id="resetBtn">Clear</button>
     </div>
 
     <div class="navigation">
-      <a href="../html/AW139Week4.html"><button id="left">&#8592;</button></a>
-      <a href="../index.html"><button id="home">&#127968;</button></a>
+      <a href="../html/AW139Week4.html"><button id="left">Week 4</button></a>
+      <a href="../html/AW139.html"><button id="home">AW139 weeks</button></a>
     </div>
   </div>
 
