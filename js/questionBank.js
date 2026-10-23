@@ -45004,7 +45004,7 @@ export const questions = [
     id: 4837,
     Aircraft: 'AW139',
     Category: '62',
-    question: 'What material is the closure flange made from, and how are its four bolts secured?',
+    question: 'What material is the main rotor mast closure flange made from, and how are its four bolts secured?',
     options: {
         a: 'Stainless steel; bolts secured with cotter pins',
         b: 'Titanium; bolts torque-sealed with paint only',
@@ -52209,6 +52209,366 @@ export const questions = [
         a: 'In AMP chapter 76 only, since the actuators interface with the Electronic Engine Control',
         b: 'In AMP chapter 67 and chapter 22 (AFCS)',
         c: 'In AMP chapter 60 only, since all actuators follow the standard practices chapter'
+    },
+    correct: 'b'
+},
+{
+    id: 5442,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'How is ice formation prevented on the Pitot tube, and where is the heating element located?',
+    options: {
+        a: 'By a bleed-air heated jacket wrapped around the tube, fed from the engine compressor',
+        b: 'By a chemical anti-ice fluid sprayed over the tube from a reservoir in the nose compartment',
+        c: 'By an integral electrical heating element (an internal resistor) installed in the rear part of the Pitot tube, protected by a cover'
+    },
+    correct: 'c'
+},
+{
+    id: 5443,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'How many electrical wires and drain ports does each Pitot tube installation have?',
+    options: {
+        a: 'One electrical wire only, with no drain ports since the tube is fully sealed',
+        b: 'Four electrical wires for a redundant dual-resistor design, plus 2 drain ports',
+        c: 'Two electrical wires, connecting the resistor to the current monitor and to ground, plus 4 drain ports'
+    },
+    correct: 'c'
+},
+{
+    id: 5444,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'What is the Pilot Pitot heater circuit breaker, and what does it energize?',
+    options: {
+        a: 'CB138 (PITOT HTR PLT), a toggle type breaker in the overhead console, which energizes the PITOT HEATER switch S72',
+        b: 'CB139 (PITOT HTR PLT), a push-pull type breaker in the circuit breaker panel, which energizes switch S72',
+        c: 'CB138 (PITOT HTR PLT), which energizes the current monitor directly with no switch in between'
+    },
+    correct: 'a'
+},
+{
+    id: 5445,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'What is the Copilot Pitot heater circuit breaker, and what does it energize?',
+    options: {
+        a: 'CB138 (PITOT HTR CPLT), a toggle type breaker in the overhead console, which energizes switch S72',
+        b: 'CB139 (PITOT HTR CPLT), which energizes relay K55 directly with no PITOT HEATER switch fitted',
+        c: 'CB139 (PITOT HTR CPLT), a toggle type breaker in the overhead console, which energizes the PITOT HEATER switch S73'
+    },
+    correct: 'c'
+},
+{
+    id: 5446,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'What two functions do the PITOT FAIL PLT and PITOT FAIL CPLT circuit breakers perform, and can they operate independently?',
+    options: {
+        a: 'They supply hydraulic pressure to a Pitot tube de-ice valve, and they must always be operated together',
+        b: 'They control the Pitot tube heating and protect the Pitot-tube resistors from overvoltage, and the two breakers can operate independently',
+        c: 'They control only the CAS caution display, with heating itself controlled solely by the PITOT HEATER switches, and they cannot operate independently'
+    },
+    correct: 'b'
+},
+{
+    id: 5447,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'Which 28 VDC bus feeds relay K55, and which feeds relay K56?',
+    options: {
+        a: 'K55 is fed from the Number 1 28 VDC bus; K56 is fed from the Number 2 28 VDC bus',
+        b: 'K55 is fed from the ESS bus; K56 is fed from the standby battery bus',
+        c: 'K55 and K56 are both fed from the Number 1 28 VDC bus for redundancy'
+    },
+    correct: 'a'
+},
+{
+    id: 5448,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'According to the system description, when does the PITOT 1 HEAT ON advisory light show on MFD1, and when does PITOT 2 HEAT ON show on MFD2?',
+    options: {
+        a: 'Both advisory lights show on MFD1 only, driven by whichever circuit breaker is set to ON first',
+        b: 'PITOT 1 HEAT ON on MFD1 when circuit breaker CB138 is set to ON; PITOT 2 HEAT ON on MFD2 when circuit breaker CB139 is set to ON',
+        c: 'PITOT 1 HEAT ON on MFD1 when circuit breaker CB139 is set to ON; PITOT 2 HEAT ON on MFD2 when circuit breaker CB138 is set to ON'
+    },
+    correct: 'c'
+},
+{
+    id: 5449,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: "Under what condition does the CAS caution '1(2) PITOT HEAT OFF' appear?",
+    options: {
+        a: 'When PITOT No.1 (2) is activated and the current monitor detects current below 0.6 A',
+        b: 'When PITOT No.1 (2) is not activated with the OAT at 4°C or less',
+        c: 'When PITOT No.1 (2) is activated with the OAT above 10°C'
+    },
+    correct: 'b'
+},
+{
+    id: 5450,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: "Under what condition does the CAS caution '1(2) PITOT FAIL' appear?",
+    options: {
+        a: 'When PITOT No.1 (2) is activated and the current monitor detects the pitot heat current below 0.6 A',
+        b: 'When the related circuit breaker is set to OFF while the OAT is above 10°C',
+        c: 'When PITOT No.1 (2) is not activated and the OAT is 4°C or less'
+    },
+    correct: 'a'
+},
+{
+    id: 5451,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: "When does the green '1(2) PITOT HEAT ON' advisory appear, and what colour are the related CAS cautions?",
+    options: {
+        a: 'It appears when the current monitor trips below 0.6 A; the related messages are white advisories',
+        b: 'It appears only during the pre-flight test of the pitot heat system; the related cautions are red warnings',
+        c: "It appears when PITOT No.1 (2) is set to ON; the related 'PITOT FAIL' and 'PITOT HEAT OFF' messages are yellow cautions"
+    },
+    correct: 'c'
+},
+{
+    id: 5452,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'At what OAT conditions must the pitot heating be switched ON and OFF?',
+    options: {
+        a: 'Switched ON at any OAT below +10°C regardless of moisture; switched OFF only on the ground',
+        b: 'Switched ON only above +10°C to prevent condensation; switched OFF below +4°C to save electrical load',
+        c: 'Switched ON for visible moisture at an indicated OAT of +4°C or less; switched OFF at an indicated OAT of +10°C or above'
+    },
+    correct: 'c'
+},
+{
+    id: 5453,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'What are the nominal supply voltage and trip current point for the pilot Pitot current monitor?',
+    options: {
+        a: '115 VAC single phase, with a trip current point below 1.2 A',
+        b: '28 VDC (ESS BUS 2 + ESS BUS 2), with a trip current point below 0.6 A',
+        c: '28 VDC (MAIN BUS 1 + MAIN BUS 1), with a trip current point below 0.6 A'
+    },
+    correct: 'b'
+},
+{
+    id: 5454,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'What are the nominal supply voltage and trip current point for the copilot Pitot current monitor?',
+    options: {
+        a: '28 VDC (MAIN BUS 1 + MAIN BUS 1), with a trip current point below 0.6 A',
+        b: '28 VDC (ESS BUS 2 + ESS BUS 2), with a trip current point below 0.6 A',
+        c: '28 VDC (ESS BUS 1 + MAIN BUS 2), with a trip current point below 1.2 A'
+    },
+    correct: 'a'
+},
+{
+    id: 5455,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'What type of windshield wiping system does the AW139 have, and how can the blades be operated?',
+    options: {
+        a: 'A single shared wiper system with one blade covering both the pilot and copilot windscreens',
+        b: 'A twin system where the pilot and copilot blades are mechanically linked and can only operate together',
+        c: 'A twin windscreen Wiper/Washer system with parallel action, allowing the pilot and copilot wiper blades to be operated separately or together'
+    },
+    correct: 'c'
+},
+{
+    id: 5456,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'What contaminants is the Wiper/Washer system designed to clear from the windscreen?',
+    options: {
+        a: 'Water, insects, dirt, sand, dust, salt spray and soft snow',
+        b: 'Only water and light rain; it is not rated for dust, sand or snow',
+        c: 'Ice only; it is a de-icing system and does not function as a conventional wiper in clear conditions'
+    },
+    correct: 'a'
+},
+{
+    id: 5457,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'Over what speed range is the windshield wiping system rated to function normally, including sideways?',
+    options: {
+        a: '0 to 100 knots only, with no sideways airspeed rating and no use authorized in icing conditions',
+        b: '-50 knots to 140 knots, and sideways up to 50 knots, including in snow and icing conditions',
+        c: 'Ground operation only; the system must be switched off above 40 knots'
+    },
+    correct: 'b'
+},
+{
+    id: 5458,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'What are the primary components of the windshield wiping system?',
+    options: {
+        a: 'The wiping control panel, the right and left wiper blades, the right and left wiper arms, and the right and left wiper motor converters',
+        b: 'The wiping control panel, two wiper blades, and a single hydraulic pump shared with the windshield washer',
+        c: 'The wiping control panel, a single shared wiper motor, and two wiper blades with no separate arms'
+    },
+    correct: 'a'
+},
+{
+    id: 5459,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'What two switches select the Windscreen Wiper/Washer operating mode?',
+    options: {
+        a: 'A two-position rotary switch (ON/OFF) and a three-position selector switch (PILOT/COPILOT/BOTH)',
+        b: 'A three-position rotary switch (OFF, LOW SPEED, HIGH SPEED) and a two-position selector switch (DUAL/SINGLE)',
+        c: 'A single four-position rotary switch combining speed and DUAL/SINGLE selection in one control'
+    },
+    correct: 'b'
+},
+{
+    id: 5460,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'Where are the WIPER and WASHER sequence controls located?',
+    options: {
+        a: 'The WIPER sequence is controlled from the overhead panel; the WASHER sequence is controlled from the cyclic stick',
+        b: 'The WIPER sequence is controlled via a button switch on the cyclic stick; the WASHER sequence is controlled via a push button switch in the cockpit',
+        c: 'Both the WIPER and WASHER sequences are controlled via the same button on the cyclic stick'
+    },
+    correct: 'b'
+},
+{
+    id: 5461,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: "What does the washer system's low level sensor do, and what message results?",
+    options: {
+        a: "It measures washer fluid pressure and triggers 'W/S PRESS LOW' when the pump output falls below limits",
+        b: "It detects a residual liquid quantity in the reservoir; MAU1 monitors the signal and sends the maintenance message 'W/S WASH LOW' to the CAS windows",
+        c: "It detects when the reservoir is completely empty only, triggering a red 'WASHER FAIL' warning"
+    },
+    correct: 'b'
+},
+{
+    id: 5462,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'What happens when the WINDSHIELD WASHER pushbutton is pressed for less than 1 second, versus more than 1 second?',
+    options: {
+        a: 'Less than 1 second activates the heavy washing cycle; more than 1 second activates the light washing cycle',
+        b: 'Both press durations activate the same single washing cycle; duration only affects wiper speed, not the washer',
+        c: 'Less than 1 second activates a light washing cycle (one low speed washing cycle plus two clean-up cycles); more than 1 second activates a continuous heavy washing cycle until disengaged, followed by two clean-up cycles'
+    },
+    correct: 'c'
+},
+{
+    id: 5463,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'Does the washing mode take precedence over the other windscreen wiper operational modes?',
+    options: {
+        a: 'No, the washing mode is suspended automatically if any WIPER switch is pressed during a wash cycle',
+        b: 'Washing mode only overrides the SINGLE/DUAL switch; the SLOW/FAST setting is still respected during washing',
+        c: 'Yes, the washing mode overrides the SLOW/FAST rotary switch, the WIPER momentary switches, and the SINGLE/DUAL rotary switch'
+    },
+    correct: 'c'
+},
+{
+    id: 5464,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'What is the difference between SINGLE and DUAL mode when a WIPER momentary switch is pressed?',
+    options: {
+        a: 'In SINGLE mode, pressing either switch starts both systems; in DUAL mode, only the corresponding system starts',
+        b: 'SINGLE and DUAL modes behave identically for the WIPER switches; they only affect the WASHER pushbutton',
+        c: 'In SINGLE mode, pressing the pilot or copilot switch starts only the corresponding system; in DUAL mode, pressing either switch starts both systems'
+    },
+    correct: 'c'
+},
+{
+    id: 5465,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'What wiping frequencies correspond to the SLOW and FAST positions of the OFF/SLOW/FAST rotary switch?',
+    options: {
+        a: 'SLOW operates at 90 cycles per minute; FAST operates at 45 cycles per minute',
+        b: 'SLOW operates at 45 cycles per minute; FAST operates at 90 cycles per minute',
+        c: 'SLOW operates at 30 cycles per minute; FAST operates at 60 cycles per minute'
+    },
+    correct: 'b'
+},
+{
+    id: 5466,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'How is a wiping sequence stopped once started by the WIPER momentary switch, and what happens in DUAL mode?',
+    options: {
+        a: "A further action on the momentary switch is necessary to stop it; in DUAL mode, a further action on either the pilot's or copilot's switch stops both systems",
+        b: 'The wiping sequence stops automatically after one cycle; DUAL mode has no effect on stopping behaviour',
+        c: "Only the switch that started the sequence can stop it; in DUAL mode the other pilot's switch has no effect"
+    },
+    correct: 'a'
+},
+{
+    id: 5467,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: "When is the CAS 'MAINTENANCE' status message displayed for the washer system, and under what condition does it display automatically?",
+    options: {
+        a: 'When the washer pump fails; it displays automatically whenever the WASHER pushbutton is pressed',
+        b: 'When the reservoir level is low (1 litre); it displays automatically when the aircraft is on the ground with both engines off',
+        c: 'When the reservoir is completely empty; it displays automatically only in flight above 1000 ft'
+    },
+    correct: 'b'
+},
+{
+    id: 5468,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'What are the nominal supply voltage and high/low speed values for the pilot wiper motor converter?',
+    options: {
+        a: '28 VDC (MAIN BUS 2); high speed 3500 rpm, low speed 2100 rpm',
+        b: '28 VDC (ESS BUS 1); high speed 2100 rpm, low speed 3500 rpm',
+        c: '115 VAC; high speed 3500 rpm, low speed 1200 rpm'
+    },
+    correct: 'a'
+},
+{
+    id: 5469,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'What maintenance precautions apply when removing a wiper motor/converter?',
+    options: {
+        a: 'Record the position of the wiper arm on the motor shaft before removal, move the motor linearly while the shaft is inside the bracket, and note that the MRC does not need to be removed since access is through the footwell',
+        b: 'Disconnect the Pitot heater circuit breakers before removal, since both systems share a common ground point',
+        c: 'Drain the entire washer reservoir before removal and replace the shear pin on the wiper arm every time'
+    },
+    correct: 'a'
+},
+{
+    id: 5470,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'What is the difference between a detected fault and an observed fault in the Ice and Rain Protection system?',
+    options: {
+        a: 'A detected fault is found by the helicopter monitoring system with an allocated fault code stored in NVM; an observed fault is a malfunction discovered by the pilot or ground crew',
+        b: 'There is no distinction for this system; all Ice and Rain Protection faults are detected automatically',
+        c: 'A detected fault is found only by the pilot in flight; an observed fault is found only by ground crew during a walk-around'
+    },
+    correct: 'a'
+},
+{
+    id: 5471,
+    Aircraft: 'AW139',
+    Category: '30',
+    question: 'What does the AFIP for ATA chapter 30 (Ice and Rain Protection) consist of, and how does this compare with chapters such as ATA64, 65 and 67?',
+    options: {
+        a: 'It consists solely of detected faults, the same as ATA 64, 65 and 67',
+        b: 'It consists of both detected and observed faults, unlike ATA 64, 65 and 67, whose AFIPs consist solely of observed faults',
+        c: 'It consists solely of observed faults, the same as ATA 64, 65 and 67'
     },
     correct: 'b'
 },
