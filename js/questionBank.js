@@ -38688,18 +38688,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
-    id: 4208,
-    Aircraft: 'AW139',
-    Category: '24',
-    question: 'What does diode CR3 connect?',
-    options: {
-        a: 'The Main Bus 1 to Essential Bus 1',
-        b: 'The Auxiliary Battery to Essential Bus 2',
-        c: 'The Main Battery to Essential Bus 1'
-    },
-    correct: 'c'
-},
+/*   */
 /* {
     id: 4209,
     Aircraft: 'AW139',
@@ -41620,7 +41609,7 @@ export const questions = [
     id: 4546,
     Aircraft: 'AW139',
     Category: '29',
-    question: 'What safety feature in the mechanical pump drive prevents gearbox damage in the event of a pump seizure?',
+    question: 'What safety feature in the hydraulic mechanical pump drive prevents gearbox damage in the event of a pump seizure?',
     options: {
         a: 'An electromagnetic disconnect relay',
         b: 'A friction clutch that slips above a torque limit',
@@ -42232,7 +42221,7 @@ export const questions = [
     id: 4597,
     Aircraft: 'AW139',
     Category: '32',
-    question: 'What is the trunnion made of, and what is its function?',
+    question: 'What is the landing gear trunnion made of, and what is its function?',
     options: {
         a: 'A titanium forging that only supports the wheel axle',
         b: 'An aluminium frame with pivot pins, providing the attachment for the trailing arm, shock absorber and actuators',
@@ -42448,7 +42437,7 @@ export const questions = [
     id: 4615,
     Aircraft: 'AW139',
     Category: '32',
-    question: "Where is the torque link's upper link connected, and the lower link?",
+    question: "Where is the nose landing gear torque link's upper link connected, and the lower link?",
     options: {
         a: 'Both upper and lower links connect to the sliding piston only',
         b: 'Upper to the wheel axle; lower to the airframe pivot',
@@ -42504,7 +42493,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 4620,
     Aircraft: 'AW139',
     Category: '32',
@@ -42515,7 +42504,7 @@ export const questions = [
         c: '8 bar (116 psi)'
     },
     correct: 'c'
-},
+}, */
 {
     id: 4621,
     Aircraft: 'AW139',
@@ -45028,7 +45017,7 @@ export const questions = [
     id: 4839,
     Aircraft: 'AW139',
     Category: '62',
-    question: 'Why is the bottom conical ring structurally less critical than the top conical ring?',
+    question: 'Why is the bottom conical ring of the main rotor structurally less critical than the top conical ring?',
     options: {
         a: 'Because it carries no load at all, being purely a dust seal',
         b: 'Because it is a redundant, non-load-bearing spare component',
@@ -45412,7 +45401,7 @@ export const questions = [
     id: 4871,
     Aircraft: 'AW139',
     Category: '62',
-    question: 'What material are the anti-rotation blocks made from?',
+    question: 'What material are the main rotor damper anti-rotation blocks made from?',
     options: {
         a: 'Teflon',
         b: 'Aluminium alloy',
@@ -45964,7 +45953,7 @@ export const questions = [
     id: 4917,
     Aircraft: 'AW139',
     Category: '62',
-    question: 'How many rotating scissor assemblies are installed, and between which components?',
+    question: 'How many rotating scissor assemblies are installed on the main rotor assembly, and between which components?',
     options: {
         a: 'One, between the hub and the mast',
         b: 'Five, one per blade, between the swashplate and pitch links',
@@ -48856,7 +48845,7 @@ export const questions = [
     id: 5158,
     Aircraft: 'AW139',
     Category: '64',
-    question: 'What is attached to the top of each blade attachment?',
+    question: 'What is attached to the top of each tail blade attachment?',
     options: {
         a: 'A static wick',
         b: 'A trim tab',
@@ -49192,7 +49181,7 @@ export const questions = [
     id: 5186,
     Aircraft: 'AW139',
     Category: '64',
-    question: 'What moves the rotating controls to adjust blade pitch?',
+    question: 'What moves the spider and sliding assembly to adjust blade pitch?',
     options: {
         a: 'The tail rotor actuator',
         b: 'The rotor brake',
@@ -49968,7 +49957,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 5255,
     Aircraft: 'AW139',
     Category: '65',
@@ -49979,7 +49968,7 @@ export const questions = [
         c: '1200 hours, with the Number 1 and Number 2 drive shafts disconnected'
     },
     correct: 'b'
-},
+}, */
 {
     id: 5256,
     Aircraft: 'AW139',
@@ -50704,7 +50693,7 @@ export const questions = [
     id: 5316,
     Aircraft: 'AW139',
     Category: '18',
-    question: 'What are the primary components of the MVA installation?',
+    question: 'What are the primary components of the Mast-Vibration Absorber installation?',
     options: {
         a: 'The Balancer, the Strobex light, and the photocell and processor',
         b: 'The vibration-absorber mass group, the cap, the cap plug, and the rod assembly and adapter group',
@@ -51696,7 +51685,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 5399,
     Aircraft: 'AW139',
     Category: '67',
@@ -51707,7 +51696,7 @@ export const questions = [
         c: 'It must be removed/installed from the tail unit together with its grommet'
     },
     correct: 'c'
-},
+}, */
 {
     id: 5400,
     Aircraft: 'AW139',
