@@ -51349,7 +51349,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 5371,
     Aircraft: 'AW139',
     Category: '67',
@@ -51360,7 +51360,7 @@ export const questions = [
         c: 'At the mixing unit collective arm'
     },
     correct: 'b'
-},
+}, */
 {
     id: 5372,
     Aircraft: 'AW139',
@@ -51397,7 +51397,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 5375,
     Aircraft: 'AW139',
     Category: '67',
@@ -51408,7 +51408,7 @@ export const questions = [
         c: 'There is no defined correlation; linear actuator position is set independently of cyclic stick position'
     },
     correct: 'a'
-},
+}, */
 {
     id: 5376,
     Aircraft: 'AW139',
@@ -51697,7 +51697,7 @@ export const questions = [
     },
     correct: 'c'
 }, */
-{
+/* {
     id: 5400,
     Aircraft: 'AW139',
     Category: '67',
@@ -51708,7 +51708,7 @@ export const questions = [
         c: 'Only the yaw trim actuator rod; the numbered rods are fixed-length items'
     },
     correct: 'b'
-},
+}, */
 {
     id: 5401,
     Aircraft: 'AW139',
@@ -51967,7 +51967,7 @@ export const questions = [
     Category: '67',
     question: 'What is the yaw centering spring designed to do?',
     options: {
-        a: 'Keep the bellcrank in a neutral position',
+        a: 'Keep the bellcrank in a neutral position during yaw control rod failure',
         b: 'Provide the main return force for the pedals during normal flight',
         c: 'This function is not provided anywhere in the flight control system'
     },
@@ -52009,7 +52009,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 5426,
     Aircraft: 'AW139',
     Category: '67',
@@ -52020,7 +52020,7 @@ export const questions = [
         c: 'A detailed inspection for evidence of play between the lever and its support, at 300 hours'
     },
     correct: 'c'
-},
+}, */
 {
     id: 5427,
     Aircraft: 'AW139',
@@ -52237,7 +52237,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 5445,
     Aircraft: 'AW139',
     Category: '30',
@@ -52248,7 +52248,7 @@ export const questions = [
         c: 'CB139 (PITOT HTR CPLT), a toggle type breaker in the overhead console, which energizes the PITOT HEATER switch S73'
     },
     correct: 'c'
-},
+}, */
 {
     id: 5446,
     Aircraft: 'AW139',
@@ -52693,7 +52693,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 5483,
     Aircraft: 'AW139',
     Category: '28',
@@ -52704,7 +52704,7 @@ export const questions = [
         c: 'Tank weight is 16.4 kg (36.1 lb); maximum unusable fuel when cross-feeding is 228 kg'
     },
     correct: 'c'
-},
+}, */
 {
     id: 5484,
     Aircraft: 'AW139',
@@ -52729,7 +52729,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 5486,
     Aircraft: 'AW139',
     Category: '28',
@@ -52740,7 +52740,7 @@ export const questions = [
         c: 'A corrosion inhibitor additive permitted only in GOST 10227 TS-1 fuel'
     },
     correct: 'a'
-},
+}, */
 /* {
     id: 5487,
     Aircraft: 'AW139',
@@ -53573,7 +53573,7 @@ export const questions = [
     id: 5556,
     Aircraft: 'AW139',
     Category: '28',
-    question: "When does a tank's quantity digital readout turn grey, in relation to the crossfeed valve?",
+    question: "When does a fuel tank's quantity digital readout turn grey, in relation to the crossfeed valve?",
     options: {
         a: 'When the crossfeed valve is closed and the tank quantity exceeds 1270 kg',
         b: 'When the crossfeed valve opens due to a pump failure and the fuel quantity in that tank drops below 228 kg (503 lb)',
