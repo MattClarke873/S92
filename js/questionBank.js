@@ -38953,7 +38953,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 4231,
     Aircraft: 'AW139',
     Category: '24',
@@ -38964,7 +38964,7 @@ export const questions = [
         c: 'Circuit breaker CB45 and diode CR21'
     },
     correct: 'c'
-},
+}, */
 {
     id: 4232,
     Aircraft: 'AW139',
@@ -41833,7 +41833,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 4565,
     Aircraft: 'AW139',
     Category: '29',
@@ -41844,7 +41844,7 @@ export const questions = [
         c: 'STA 6700'
     },
     correct: 'b'
-},
+}, */
 {
     id: 4566,
     Aircraft: 'AW139',
@@ -46465,7 +46465,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 5002,
     Aircraft: 'AW139',
     Category: '56',
@@ -46476,7 +46476,7 @@ export const questions = [
         c: 'MIL-PRF-5606'
     },
     correct: 'b'
-},
+}, */
 {
     id: 5003,
     Aircraft: 'AW139',
@@ -47017,7 +47017,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 4957,
     Aircraft: 'AW139',
     Category: '18',
@@ -47028,7 +47028,7 @@ export const questions = [
         c: 'Four'
     },
     correct: 'a'
-},
+}, */
 {
     id: 4958,
     Aircraft: 'AW139',
@@ -51433,7 +51433,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 5378,
     Aircraft: 'AW139',
     Category: '67',
@@ -51444,7 +51444,7 @@ export const questions = [
         c: 'Rods F2, L2, L3, F5 and L6'
     },
     correct: 'c'
-},
+}, */
 {
     id: 5379,
     Aircraft: 'AW139',
