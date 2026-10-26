@@ -54001,4 +54001,1384 @@ export const questions = [
     },
     correct: 'a'
 },
+{
+    id: 5592,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'What are Pratt & Whitney Standard Practices?',
+    options: {
+        a: 'General procedures which underpin maintenance procedures carried out on engines',
+        b: 'Procedures specific to one system or component, such as Remove/Install',
+        c: 'A record of unscheduled maintenance events only'
+    },
+    correct: 'a'
+},
+{
+    id: 5593,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'How do Maintenance Practices differ from Standard Practices?',
+    options: {
+        a: 'Maintenance Practices are specific to a system or component, e.g. Remove/Install, Adjustment, Cleaning',
+        b: 'Maintenance Practices only apply to the airframe, not the engine',
+        c: 'There is no difference between the two terms'
+    },
+    correct: 'a'
+},
+{
+    id: 5594,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'Standard Practices (CH70.00.00) are split into how many sections?',
+    options: {
+        a: 'Three',
+        b: 'Five',
+        c: 'Seven'
+    },
+    correct: 'b'
+},
+{
+    id: 5595,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'Which of these is NOT one of the five Standard Practices sections?',
+    options: {
+        a: 'Removal/Installation',
+        b: 'Repair',
+        c: 'Lubrication'
+    },
+    correct: 'c'
+},
+{
+    id: 5596,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'What does the safety cable system do in addition to standard lock wiring?',
+    options: {
+        a: 'It tightens as the fastener loosens, preventing it from turning further',
+        b: 'It provides an electrical bonding path across the joint',
+        c: 'It indicates torque value visually via a colour change'
+    },
+    correct: 'a'
+},
+{
+    id: 5597,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'What two components make up the safety cable system?',
+    options: {
+        a: 'Lock wire and pliers',
+        b: 'The safety cable/ferrule kit (PWC05-344) and a crimping tool',
+        c: 'A tensioning gauge and torque wrench'
+    },
+    correct: 'b'
+},
+{
+    id: 5598,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'What is the TBO of the PT6C-67 while the engine performance monitoring schedule remains in effect?',
+    options: {
+        a: '3000 hours, with scheduled hot section inspections',
+        b: '5000 hours, with non-scheduled hot section inspections',
+        c: '7500 hours, with no hot section inspections required'
+    },
+    correct: 'b'
+},
+{
+    id: 5599,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'What is a borescope used for?',
+    options: {
+        a: 'Measuring oil pressure inside the accessory gearbox',
+        b: 'Visual inspection of internal engine components without removing the engine',
+        c: 'Balancing the compressor rotor in situ'
+    },
+    correct: 'b'
+},
+{
+    id: 5600,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'What equipment makes up the borescope inspection kit?',
+    options: {
+        a: 'A pattern-controlled rigid guide tube, a 5 mm flexible fiberscope, a light source and accessories',
+        b: 'A digital camera on a magnetic crawler and a laptop',
+        c: 'A rigid metal rod with a mirror tip only'
+    },
+    correct: 'a'
+},
+{
+    id: 5601,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'Which of these can a borescope inspect WITHOUT removing the engine?',
+    options: {
+        a: 'The main gearbox input quill',
+        b: '1st stage compressor blades and the accessory gearbox access port',
+        c: 'The tail rotor drive shaft'
+    },
+    correct: 'b'
+},
+{
+    id: 5602,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'Where should you look to find the acceptable/unacceptable damage limits for parts inspected by borescope?',
+    options: {
+        a: 'Engine MM, Chapter 72.00.00',
+        b: 'Engine MM, Chapter 05.00.00',
+        c: 'RFM Section 4'
+    },
+    correct: 'a'
+},
+{
+    id: 5603,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'Before inserting a fiberscope into the guide tube, the turbine area of the engine must have cooled to what temperature?',
+    options: {
+        a: '40°C',
+        b: '65°C',
+        c: '100°C'
+    },
+    correct: 'b'
+},
+{
+    id: 5604,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'What is the normal cool-down period from shutdown before a borescope inspection can be carried out?',
+    options: {
+        a: '10 minutes',
+        b: '25 minutes',
+        c: '40 minutes'
+    },
+    correct: 'c'
+},
+{
+    id: 5605,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'Before carrying out a hot section inspection, which checks should be done first?',
+    options: {
+        a: 'Oil filter and chip detector inspection, 1st stage compressor blade FOD check, and a power assurance check',
+        b: 'A full engine ground run only',
+        c: 'A fuel sample analysis only'
+    },
+    correct: 'a'
+},
+{
+    id: 5606,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'If an unscheduled hot section inspection is prompted by a performance-related concern, what should be confirmed first?',
+    options: {
+        a: 'That the ITT indication system and torque meter system are calibrated properly, before splitting the engine',
+        b: 'That the aircraft logbook has no open defects',
+        c: 'That the oil has been changed within the last 25 hours'
+    },
+    correct: 'a'
+},
+{
+    id: 5607,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'Approximately what proportion of the time is a sudden shift in trend data NOT attributable to hot section deterioration?',
+    options: {
+        a: '25%',
+        b: '50%',
+        c: '75%'
+    },
+    correct: 'c'
+},
+{
+    id: 5608,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'What procedure should be followed for damage limits on the 1st stage compressor blades?',
+    options: {
+        a: 'The blend repair procedure',
+        b: 'The hot section inspection procedure',
+        c: 'The borescope replacement procedure'
+    },
+    correct: 'a'
+},
+{
+    id: 5609,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'What is HECTM?',
+    options: {
+        a: 'A maintenance tool that allows the user to monitor engine performance',
+        b: 'A fuel additive used during compressor washing',
+        c: 'A type of borescope guide tube'
+    },
+    correct: 'a'
+},
+{
+    id: 5610,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'Which of these is NOT listed as a benefit of HECTM data?',
+    options: {
+        a: 'Early detection of engine deterioration',
+        b: 'Increased dispatch reliability',
+        c: 'Automatic adjustment of fuel scheduling'
+    },
+    correct: 'c'
+},
+{
+    id: 5611,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'How does the HECTM process work?',
+    options: {
+        a: 'It periodically records engine and aircraft instrument parameters and compares them to a computer reference model',
+        b: 'It continuously streams raw sensor data to Pratt & Whitney in real time',
+        c: 'It only records parameters once per engine life, at first run'
+    },
+    correct: 'a'
+},
+{
+    id: 5612,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'Which two engine parameters are specifically mentioned as predictable under specific ambient conditions for HECTM?',
+    options: {
+        a: 'Oil pressure and oil temperature',
+        b: 'Compressor rotor speed (N1/Ng) and Turbine Gas Temperature (ITT)',
+        c: 'Fuel flow and torque'
+    },
+    correct: 'b'
+},
+{
+    id: 5613,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'What does the accuracy of the HECTM process primarily depend on?',
+    options: {
+        a: 'The quality of the data entered into the computer system',
+        b: 'The ambient temperature at the time of data entry',
+        c: 'The aircraft total airframe hours'
+    },
+    correct: 'a'
+},
+{
+    id: 5614,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'HECTM data can be processed using what kind of system?',
+    options: {
+        a: 'An IBM PC, or compatible computer, running the PWC-supplied HECTM program',
+        b: 'A dedicated cockpit-mounted display only',
+        c: 'A smartphone app only'
+    },
+    correct: 'a'
+},
+{
+    id: 5615,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'According to the HECTM data interpretation guidelines, what does a net Measured Gas Temperature margin change of 5–10°C over a short period indicate?',
+    options: {
+        a: 'An early sign of some deterioration, to be investigated when convenient',
+        b: 'Immediate engine shutdown is required',
+        c: 'No action is ever required for this range'
+    },
+    correct: 'a'
+},
+{
+    id: 5616,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'A net Measured Gas Temperature margin change of 15°C indicates what, according to the HECTM guidelines?',
+    options: {
+        a: 'Deterioration becoming more serious — action should be taken as soon as possible',
+        b: 'A normal, expected variation requiring no action',
+        c: 'A sensor calibration fault only'
+    },
+    correct: 'a'
+},
+{
+    id: 5617,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'What Ng margin change is described as an early sign of deterioration, to be investigated when convenient?',
+    options: {
+        a: '0.25% Ng',
+        b: '0.75% Ng',
+        c: '2.0% Ng'
+    },
+    correct: 'b'
+},
+{
+    id: 5618,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'What is DPHM?',
+    options: {
+        a: 'A computer-based programme comprising several modules to aid engine maintenance',
+        b: 'A physical gauge fitted to the accessory gearbox',
+        c: 'A type of borescope guide tube'
+    },
+    correct: 'a'
+},
+{
+    id: 5619,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'Which of these is one of the hardware and maintenance modules listed under DPHM?',
+    options: {
+        a: 'Ground Based Software (GBS) Lite, for flight line troubleshooting',
+        b: 'Rotor track and balance software',
+        c: 'Main gearbox chip detection monitoring'
+    },
+    correct: 'a'
+},
+{
+    id: 5620,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'What does the DPHM front end essentially consist of?',
+    options: {
+        a: 'The computer operating system',
+        b: 'A dedicated hand-held borescope',
+        c: 'A hard-wired cockpit annunciator panel'
+    },
+    correct: 'a'
+},
+{
+    id: 5621,
+    Aircraft: 'AW139',
+    Category: '70A',
+    question: 'What does the Interactive Engine Technical Manual (IETM), part of the DPHM front end, comprise?',
+    options: {
+        a: 'The Engine MM, Illustrated Parts Catalogue, Service Bulletins and Spare Parts Bulletins',
+        b: 'Only the Engine MM',
+        c: 'Only Service Bulletins and Special Instructions'
+    },
+    correct: 'a'
+},
+{
+    id: 5622,
+    Aircraft: 'AW139',
+    Category: '70B',
+    question: 'Unlike some other helicopters, how is the Power Assurance Check (PAC) carried out on the AW139?',
+    options: {
+        a: 'Automatically, with no pilot or engineer input required',
+        b: 'Manually, as there is no facility for automatic recording',
+        c: 'It is not required on the AW139'
+    },
+    correct: 'b'
+},
+{
+    id: 5623,
+    Aircraft: 'AW139',
+    Category: '70B',
+    question: 'What is the purpose of the Engine Power Assurance Check?',
+    options: {
+        a: 'To provide a means of monitoring engine health on an ongoing basis',
+        b: 'To calibrate the torque sensor only',
+        c: 'To test the fire detection system'
+    },
+    correct: 'a'
+},
+{
+    id: 5624,
+    Aircraft: 'AW139',
+    Category: '70B',
+    question: 'How often should an Engine Power Assurance Check normally be carried out?',
+    options: {
+        a: 'Every 10 flight hours',
+        b: 'Every 25 flight hours',
+        c: 'Every 100 flight hours'
+    },
+    correct: 'b'
+},
+{
+    id: 5625,
+    Aircraft: 'AW139',
+    Category: '70B',
+    question: 'What is the Power Assurance Margin (PAM)?',
+    options: {
+        a: 'The difference between maximum allowable ITT/NG and the recorded ITT/NG',
+        b: 'The difference between torque and pressure altitude',
+        c: 'The fuel flow margin above flight idle'
+    },
+    correct: 'a'
+},
+{
+    id: 5626,
+    Aircraft: 'AW139',
+    Category: '70B',
+    question: 'Where is troubleshooting for Power Assurance Check issues found?',
+    options: {
+        a: 'CH71.00.00',
+        b: 'CH05.00.00',
+        c: 'CH79.00.00'
+    },
+    correct: 'a'
+},
+{
+    id: 5627,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does the term "Powerplant" (CH71) refer to?',
+    options: {
+        a: 'Only the engine fuel system',
+        b: 'The engine and all the associated systems installed on the airframe',
+        c: 'The main and tail rotor gearboxes'
+    },
+    correct: 'b'
+},
+{
+    id: 5628,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does the Illustrated Parts Catalogue (IPC) contain?',
+    options: {
+        a: 'All part numbers and parts history information, as well as applicable drawings',
+        b: 'Only scheduled maintenance intervals',
+        c: 'Only troubleshooting flowcharts'
+    },
+    correct: 'a'
+},
+{
+    id: 5629,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does the Maintenance Manual (MM) dictate?',
+    options: {
+        a: 'All line and heavy maintenance tasks that may be carried out, as well as testing and adjustments',
+        b: 'Only the parts catalogue cross-references',
+        c: 'Only the flight manual limitations'
+    },
+    correct: 'a'
+},
+{
+    id: 5630,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What do Service Bulletins (SB) contain?',
+    options: {
+        a: 'Data or instructions followed to carry out a modification to the engine or parts, aligning them with the latest configuration',
+        b: 'Only spare part interchangeability information',
+        c: 'Only pilot operating notes'
+    },
+    correct: 'a'
+},
+{
+    id: 5631,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What will a Spare Parts Bulletin (SPB) advise the operator of?',
+    options: {
+        a: 'New parts that are fully interchangeable with existing spares',
+        b: 'Mandatory modification deadlines',
+        c: 'Scheduled maintenance check intervals'
+    },
+    correct: 'a'
+},
+{
+    id: 5632,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What is the purpose of a Commercial Support Program Notification (CSPN)?',
+    options: {
+        a: 'A P&W initiated program designed to assist operators in complying with Service Bulletins',
+        b: 'A record of warranty claims only',
+        c: 'A notification of fleet-wide groundings'
+    },
+    correct: 'a'
+},
+{
+    id: 5633,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What are Special Instructions (SI)?',
+    options: {
+        a: 'Customer-specific maintenance information dependent on their individual fit-out',
+        b: 'General information applicable to all operators regardless of configuration',
+        c: 'Instructions issued only during initial aircraft delivery'
+    },
+    correct: 'a'
+},
+{
+    id: 5634,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What is a Service Information Letter (SIL) used for?',
+    options: {
+        a: 'To inform customers of new techniques, methods and products available, as well as general information',
+        b: 'To mandate a modification within a fixed compliance time',
+        c: 'To record parts removed for overhaul'
+    },
+    correct: 'a'
+},
+{
+    id: 5635,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does Service Bulletin compliance Category 1 require?',
+    options: {
+        a: 'Carry out before next flight',
+        b: 'Carry out at the next maintenance opportunity',
+        c: 'Carry out when the engine has been disassembled'
+    },
+    correct: 'a'
+},
+{
+    id: 5636,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does Service Bulletin compliance Category 5 require?',
+    options: {
+        a: 'Carry out when the engine has been disassembled',
+        b: 'Carry out before next flight',
+        c: 'Carry out if the operator believes there is a history of failure'
+    },
+    correct: 'a'
+},
+{
+    id: 5637,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does Service Bulletin compliance Category 9 relate to?',
+    options: {
+        a: 'Spare parts information only (old and new part interchangeability)',
+        b: 'Mandatory compliance before next flight',
+        c: 'Compliance only when the supply of superseded parts is exhausted'
+    },
+    correct: 'a'
+},
+{
+    id: 5638,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does Service Bulletin compliance Category 10 mean?',
+    options: {
+        a: 'Information only',
+        b: 'Carry out before next flight',
+        c: 'Carry out when the sub-assembly has been disassembled'
+    },
+    correct: 'a'
+},
+{
+    id: 5639,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What is Category CSU used for?',
+    options: {
+        a: 'Trialling new parts prior to fleet introduction, operator specific only',
+        b: 'Mandatory compliance before next flight',
+        c: 'Compliance when supply of superseded parts is exhausted'
+    },
+    correct: 'a'
+},
+{
+    id: 5640,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What system does the Engine Maintenance Manual use for its chaptering?',
+    options: {
+        a: 'The international ATA chaptering system',
+        b: 'A manufacturer-specific numbering scheme unrelated to ATA',
+        c: 'Alphabetical ordering by component name'
+    },
+    correct: 'a'
+},
+{
+    id: 5641,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does EMM Chapter 05 cover?',
+    options: {
+        a: 'Time limits and maintenance checks',
+        b: 'Standard practices',
+        c: 'Powerplant fault isolation'
+    },
+    correct: 'a'
+},
+{
+    id: 5642,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does EMM Chapter 70 cover?',
+    options: {
+        a: 'Standard practices',
+        b: 'Engine fuel and control systems',
+        c: 'Ignition systems'
+    },
+    correct: 'a'
+},
+{
+    id: 5643,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does EMM Chapter 71 (71-00-00) cover?',
+    options: {
+        a: 'Powerplant fault isolation, adjustment, test and cleaning',
+        b: 'Engine approved fuels/oils and servicing',
+        c: 'Oil system storage and distribution'
+    },
+    correct: 'a'
+},
+{
+    id: 5644,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Which EMM sub-chapter covers the compressor?',
+    options: {
+        a: '72-30-00',
+        b: '72-20-00',
+        c: '72-50-00'
+    },
+    correct: 'a'
+},
+{
+    id: 5645,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Which EMM chapter covers ignition systems?',
+    options: {
+        a: 'Chapter 74',
+        b: 'Chapter 75',
+        c: 'Chapter 77'
+    },
+    correct: 'a'
+},
+{
+    id: 5646,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Which EMM chapter covers engine indicating systems?',
+    options: {
+        a: 'Chapter 77',
+        b: 'Chapter 79',
+        c: 'Chapter 73'
+    },
+    correct: 'a'
+},
+{
+    id: 5647,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Which EMM chapter covers oil systems?',
+    options: {
+        a: 'Chapter 79',
+        b: 'Chapter 77',
+        c: 'Chapter 75'
+    },
+    correct: 'a'
+},
+{
+    id: 5648,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'How many axial compressor stages does the PT6C-67C incorporate?',
+    options: {
+        a: 'Three',
+        b: 'Four',
+        c: 'Five'
+    },
+    correct: 'b'
+},
+{
+    id: 5649,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'In addition to its axial stages, what type of compressor stage does the PT6C-67C use?',
+    options: {
+        a: 'A single-stage centrifugal compressor',
+        b: 'A second axial stage only',
+        c: 'A radial inflow turbine stage'
+    },
+    correct: 'a'
+},
+{
+    id: 5650,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'How many spark igniters does the PT6C-67C ignition unit use for starting?',
+    options: {
+        a: 'One',
+        b: 'Two',
+        c: 'Four'
+    },
+    correct: 'b'
+},
+{
+    id: 5651,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What type of Electronic Engine Control (EEC) system does the PT6C-67C use?',
+    options: {
+        a: 'A single channel system connected with an Electro-hydro-mechanical backup (FMM), including a manual backup channel',
+        b: 'A dual-channel, fully digital system with no mechanical backup',
+        c: 'A purely mechanical fuel control unit with no electronic input'
+    },
+    correct: 'a'
+},
+{
+    id: 5652,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does the PT6C-67C accessory gearbox do?',
+    options: {
+        a: 'It is driven by the compressor and provides drives for engine and aircraft accessories',
+        b: 'It is driven by the free turbine and drives only the rotor brake',
+        c: 'It is an independent unit not connected to the compressor'
+    },
+    correct: 'a'
+},
+{
+    id: 5653,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'How is the PT6C-67C compressor bleed valve controlled?',
+    options: {
+        a: 'Pneumatically and electronically',
+        b: 'Hydraulically only',
+        c: 'Manually by the flight crew only'
+    },
+    correct: 'a'
+},
+{
+    id: 5654,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What inlet configuration does the PT6C-67C compressor use?',
+    options: {
+        a: 'Jet flap inlet configuration',
+        b: 'Particle separator inlet configuration only',
+        c: 'Bellmouth inlet with no protection'
+    },
+    correct: 'a'
+},
+{
+    id: 5655,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What type of combustion chamber does the PT6C-67C use?',
+    options: {
+        a: 'Annular, reverse flow (for a shorter and lighter engine)',
+        b: 'Can-annular, straight-through flow',
+        c: 'Single can, reverse flow'
+    },
+    correct: 'a'
+},
+{
+    id: 5656,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'How many stages does the PT6C-67C compressor turbine have, and in which direction does it rotate?',
+    options: {
+        a: 'Single stage, CCW rotation',
+        b: 'Two stages, CW rotation',
+        c: 'Single stage, CW rotation'
+    },
+    correct: 'a'
+},
+{
+    id: 5657,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What type of blades does the PT6C-67C compressor turbine use?',
+    options: {
+        a: 'Super single crystal blades',
+        b: 'Ceramic matrix composite blades',
+        c: 'Hollow titanium blades'
+    },
+    correct: 'a'
+},
+{
+    id: 5658,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'How many stages do the PT6C-67C power (free) turbines have, and in which direction do they rotate?',
+    options: {
+        a: '2 stage turbines, CW rotation',
+        b: 'Single stage, CCW rotation',
+        c: '3 stage turbines, CW rotation'
+    },
+    correct: 'a'
+},
+{
+    id: 5659,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Which exhaust specification applies to the Left Hand configuration of the PT6C-67C?',
+    options: {
+        a: 'BS 1019',
+        b: 'BS 963',
+        c: 'BS 2000'
+    },
+    correct: 'a'
+},
+{
+    id: 5660,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Which exhaust specification applies to the Right Hand configuration of the PT6C-67C?',
+    options: {
+        a: 'BS 963',
+        b: 'BS 1019',
+        c: 'BS 1500'
+    },
+    correct: 'a'
+},
+{
+    id: 5661,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Where is the integral oil tank located on the PT6C-67C?',
+    options: {
+        a: 'In the inlet case',
+        b: 'In the accessory gearbox housing only',
+        c: 'External to the engine, mounted on the airframe'
+    },
+    correct: 'a'
+},
+{
+    id: 5662,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Which of these is part of the PT6C-67C fuel and control system?',
+    options: {
+        a: 'Fuel Management Module (FMM) with an integral fuel pump',
+        b: 'A carburettor with manual mixture control',
+        c: 'A purely mechanical flyweight governor with no electronics'
+    },
+    correct: 'a'
+},
+{
+    id: 5663,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'How is engine torque electronically measured on the PT6C-67C?',
+    options: {
+        a: 'By an electronic torque measuring system using a torque shaft',
+        b: 'By measuring exhaust gas velocity',
+        c: 'Torque is not measured electronically on this engine'
+    },
+    correct: 'a'
+},
+{
+    id: 5664,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What is the ITT system on the PT6C-67C also referred to as?',
+    options: {
+        a: 'T5',
+        b: 'T2',
+        c: 'T8'
+    },
+    correct: 'a'
+},
+{
+    id: 5665,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does the DCU stand for in the PT6C-67C fuel and control system description?',
+    options: {
+        a: 'Data Collection Unit',
+        b: 'Dual Control Unit',
+        c: 'Diagnostic Calibration Unit'
+    },
+    correct: 'a'
+},
+{
+    id: 5666,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Where should you look for more information on engine operating limits?',
+    options: {
+        a: 'EMM 05-10-00',
+        b: 'EMM 72-30-00',
+        c: 'EMM 79-00-00'
+    },
+    correct: 'a'
+},
+{
+    id: 5667,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What material is the firewall installation made from?',
+    options: {
+        a: 'Titanium',
+        b: 'Stainless steel',
+        c: 'Carbon fibre composite'
+    },
+    correct: 'a'
+},
+{
+    id: 5668,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'The firewall installation on each side is composed of how many parts, enclosing the related engine?',
+    options: {
+        a: 'Three',
+        b: 'Two',
+        c: 'Five'
+    },
+    correct: 'a'
+},
+{
+    id: 5669,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does the front firewall physically separate?',
+    options: {
+        a: 'The exhaust nozzles of the engines from the rear side of the main gearbox and rotor brake installation',
+        b: 'The fuel tanks from the cabin floor',
+        c: 'The tail rotor gearbox from the tailboom'
+    },
+    correct: 'a'
+},
+{
+    id: 5670,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does the rear firewall physically separate?',
+    options: {
+        a: 'The rear side of the engines (gearboxes, starter generators, fuel lines, engine controls) from the exhaust ducts, fire-extinguishing bottles, tail rotor drive system and rear fuselage',
+        b: 'The main rotor gearbox from the main rotor blades',
+        c: 'The cockpit from the cabin'
+    },
+    correct: 'a'
+},
+{
+    id: 5671,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What do the longitudinal firewalls physically separate?',
+    options: {
+        a: 'One engine from the other and from the related exhaust ducts which pass between them',
+        b: 'The fuel tank from the oil tank',
+        c: 'The cabin from the tail boom'
+    },
+    correct: 'a'
+},
+{
+    id: 5672,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does the tunnel assembly protect and separate?',
+    options: {
+        a: 'The Number 1 tail-rotor drive-shaft from the engine exhaust ducts',
+        b: 'The main gearbox from the rotor mast',
+        c: 'The fuel return line from the oil breather line'
+    },
+    correct: 'a'
+},
+{
+    id: 5673,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'How many seals make up the fire seal installation for each engine?',
+    options: {
+        a: 'Three: forward, middle and aft',
+        b: 'Two: forward and aft only',
+        c: 'Four: forward, middle, aft and lower'
+    },
+    correct: 'a'
+},
+{
+    id: 5674,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Where is the forward fire seal attached?',
+    options: {
+        a: 'To the engine rear casing',
+        b: 'To the front and rear sections of the engine air intake',
+        c: 'To the tunnel assembly'
+    },
+    correct: 'a'
+},
+{
+    id: 5675,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Where are the middle and aft fire seals fitted?',
+    options: {
+        a: 'To the front and rear sections of the engine air intake',
+        b: 'To the engine rear casing',
+        c: 'To the firewall floor only'
+    },
+    correct: 'a'
+},
+{
+    id: 5676,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What material are the fire seals manufactured from?',
+    options: {
+        a: 'Glass silicone with a protective outer cover of terylene silicone reinforced by corrosion resistant steel',
+        b: 'Plain woven fibreglass with no outer cover',
+        c: 'Natural rubber reinforced with Kevlar'
+    },
+    correct: 'a'
+},
+{
+    id: 5677,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What part of the engine mount/gearbox coupling supports the front side of the engine?',
+    options: {
+        a: 'A gimbal',
+        b: 'A spherical bearing link only',
+        c: 'A rigid flange bolted directly to the gearbox'
+    },
+    correct: 'a'
+},
+{
+    id: 5678,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What allows radial expansion of the engine due to normal thermal effects in the engine mount arrangement?',
+    options: {
+        a: 'The gimbal and bracket/link arrangement',
+        b: 'A hydraulic damper',
+        c: 'A sliding rail system'
+    },
+    correct: 'a'
+},
+{
+    id: 5679,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What is the purpose of the shim fitted to the inner and outer engine mount brackets?',
+    options: {
+        a: 'To align the engine to the gearbox during the helicopter assembly phase',
+        b: 'To dampen vibration during flight',
+        c: 'To insulate the mount electrically'
+    },
+    correct: 'a'
+},
+{
+    id: 5680,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What protects the engine mount links against fire?',
+    options: {
+        a: 'A heat shield',
+        b: 'A fireproof paint coating',
+        c: 'Links are not protected against fire'
+    },
+    correct: 'a'
+},
+{
+    id: 5681,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'How many bolts attach the airframe engine mount fitting to the deck?',
+    options: {
+        a: 'Four',
+        b: 'Two',
+        c: 'Six'
+    },
+    correct: 'a'
+},
+{
+    id: 5682,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What is the purpose of the engine drain system?',
+    options: {
+        a: 'To ensure fluids that may leak do not remain in enclosed spaces but are collected and carried outside the aircraft',
+        b: 'To cool the oil before it returns to the tank',
+        c: 'To vent excess fuel overboard in flight'
+    },
+    correct: 'a'
+},
+{
+    id: 5683,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Which of these is described as a drain used only for oil replacement?',
+    options: {
+        a: 'Oil tank and AGB drains',
+        b: 'Fuel return to tank drain',
+        c: 'Oil breather drain'
+    },
+    correct: 'a'
+},
+{
+    id: 5684,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Where do leaks from the FMM seal, oil cap scupper and starter seal get collected to?',
+    options: {
+        a: 'A single drain located under the main cabin rear end, via a flexible hose',
+        b: 'Directly overboard with no collection',
+        c: 'The engine oil tank'
+    },
+    correct: 'a'
+},
+{
+    id: 5685,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Where does fuel from the fuel nozzle at engine shutdown get returned to?',
+    options: {
+        a: 'The top side of the fuel tank, via a flexible hose',
+        b: 'Overboard via a rigid drain pipe',
+        c: 'The oil tank'
+    },
+    correct: 'a'
+},
+{
+    id: 5686,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'In the case of an engine false start, where is fuel from the combustor liner collected to?',
+    options: {
+        a: 'A single drain located under the main cabin rear end, via a flexible hose',
+        b: 'The fuel tank, via a rigid pipe',
+        c: 'It is not collected — it drains directly overboard'
+    },
+    correct: 'a'
+},
+{
+    id: 5687,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Where does air coming from the air/oil separator in the engine AGB go?',
+    options: {
+        a: 'It is collected using a rigid pipeline leading outside the engine fireseal',
+        b: 'It is vented directly into the engine bay',
+        c: 'It is routed back into the oil tank'
+    },
+    correct: 'a'
+},
+{
+    id: 5688,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Where are the oil tank and AGB drains located?',
+    options: {
+        a: 'Under the engine oil tank and AGB',
+        b: 'Under the main cabin rear end',
+        c: 'Behind the firewall only'
+    },
+    correct: 'a'
+},
+{
+    id: 5689,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Where is the output shaft carbon seal drain collected to?',
+    options: {
+        a: 'A rigid pipeline located under the main cabin, in front of the landing gear sponson',
+        b: 'The same drain as the oil tank and AGB',
+        c: 'Directly overboard with no collection'
+    },
+    correct: 'a'
+},
+{
+    id: 5690,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Which of these washes is used specifically to remove salt deposits from the compressor?',
+    options: {
+        a: 'Compressor desalination wash',
+        b: 'Compressor performance recovery wash',
+        c: 'Engine external wash'
+    },
+    correct: 'a'
+},
+{
+    id: 5691,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'How is a compressor wash accomplished?',
+    options: {
+        a: 'By injecting applicable cleaning fluid into the engine intake using an installed compressor wash ring or a handheld wash wand',
+        b: 'By disassembling the compressor for manual scrubbing',
+        c: 'By running the engine at idle with no fluid injection'
+    },
+    correct: 'a'
+},
+{
+    id: 5692,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'How is a compressor turbine wash accomplished?',
+    options: {
+        a: 'By injecting applicable cleaning fluid through a wash tube installed into the gas generator igniter boss',
+        b: 'By spraying fluid directly into the exhaust',
+        c: 'By flushing the oil system'
+    },
+    correct: 'a'
+},
+{
+    id: 5693,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What type of water should be used for a compressor desalination wash when the engine is cooled to below 65°C?',
+    options: {
+        a: 'Drinking quality water',
+        b: 'Demineralized/distilled water',
+        c: 'Any available water source'
+    },
+    correct: 'a'
+},
+{
+    id: 5694,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What type of water should be used for a compressor desalination wash when the engine is above 65°C?',
+    options: {
+        a: 'Demineralized/distilled water',
+        b: 'Drinking quality water',
+        c: 'Sea water'
+    },
+    correct: 'a'
+},
+{
+    id: 5695,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'When both desalination washes are carried out together, which should be done first?',
+    options: {
+        a: 'The compressor wash',
+        b: 'The compressor turbine wash',
+        c: 'It does not matter which order they are done in'
+    },
+    correct: 'a'
+},
+{
+    id: 5696,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'When should a compressor performance recovery wash be carried out?',
+    options: {
+        a: 'Only when engine performance loss is noticeable or trend monitoring dictates',
+        b: 'As part of every routine daily inspection',
+        c: 'Only immediately after engine start'
+    },
+    correct: 'a'
+},
+{
+    id: 5697,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does a compressor performance recovery wash use to remove stubborn deposits?',
+    options: {
+        a: 'Approved chemical additives',
+        b: 'Plain drinking water only',
+        c: 'Compressed air blasting only'
+    },
+    correct: 'a'
+},
+{
+    id: 5698,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Which chapter gives an example of carrying out a Power Assurance Check manually?',
+    options: {
+        a: 'CH70',
+        b: 'CH71',
+        c: 'CH72'
+    },
+    correct: 'a'
+},
+{
+    id: 5699,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Which chapter deals with troubleshooting for problems associated specifically with the Power Assurance Check?',
+    options: {
+        a: 'CH71 (this chapter)',
+        b: 'CH70',
+        c: 'CH72'
+    },
+    correct: 'a'
+},
+{
+    id: 5700,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Which chapter deals with most other engine troubleshooting procedures, outside of PAC issues?',
+    options: {
+        a: 'CH72',
+        b: 'CH70',
+        c: 'CH05'
+    },
+    correct: 'a'
+},
+{
+    id: 5701,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'If torque oscillations are apparent during a ground run, what should you do?',
+    options: {
+        a: 'Follow the troubleshooting procedure, e.g. AFIP 39-A-77-00-00-00A-413A-A',
+        b: 'Shut down and request an engine change immediately with no further checks',
+        c: 'Ignore the oscillation if it occurs only once'
+    },
+    correct: 'a'
+},
+{
+    id: 5702,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does the DPHM cable assembly and Ground-Based Software (GBS) assist operators with?',
+    options: {
+        a: 'Flight line maintenance activities such as automated retrieval of engine data and fault isolation',
+        b: 'Only parts ordering',
+        c: 'Only flight planning and weight and balance'
+    },
+    correct: 'a'
+},
+{
+    id: 5703,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Where is the Ground-Based Software (GBS) made available?',
+    options: {
+        a: 'In the applicable Maintenance Collection on the P&WC portal',
+        b: 'Only on a physical USB drive supplied with the aircraft',
+        c: 'It is not available to operators'
+    },
+    correct: 'a'
+},
+{
+    id: 5704,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What does Engine Condition Trend Monitoring (ECTM), referenced under DPHM, enable operators to do?',
+    options: {
+        a: 'Monitor the health of their engine oil-wetted components using oil analysis technology',
+        b: 'Replace the need for all scheduled inspections',
+        c: 'Automatically adjust fuel scheduling in flight'
+    },
+    correct: 'a'
+},
+{
+    id: 5705,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'Working alongside solutions such as ECTM and the chip detector, what does the P&WC oil analysis technology help minimize?',
+    options: {
+        a: 'The occurrence of unscheduled events, by enhancing early detection of engine problems',
+        b: 'Fuel burn during cruise',
+        c: 'The need for borescope inspections entirely'
+    },
+    correct: 'a'
+},
+{
+    id: 5706,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What type of engine construction does the PT6C-67C use?',
+    options: {
+        a: 'Non-modular free-turbine turboshaft engine',
+        b: 'Fully modular fixed-shaft turboshaft engine',
+        c: 'Modular free-turbine turboprop engine'
+    },
+    correct: 'a'
+},
 ];
