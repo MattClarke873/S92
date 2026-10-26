@@ -255,12 +255,18 @@ document.addEventListener('DOMContentLoaded', function () {
             });
     }
 
-    // Function to get the currently selected categories from the checkboxes
+    // Function to get the currently selected categories from the checkboxes.
+    // A checkbox's value can be a single category ("72") or a comma-separated
+    // group ("70,71,72,73,74,75,76,77,78,79") to cover several ATA chapters
+    // with one checkbox — each is split out so the filter below matches any
+    // of them individually.
     function getSelectedCategories() {
         const selectedCategories = [];
         categoryCheckboxes.forEach((checkbox) => {
             if (checkbox.checked) {
-                selectedCategories.push(checkbox.value);
+                checkbox.value.split(',').forEach((category) => {
+                    selectedCategories.push(category.trim());
+                });
             }
         });
         return selectedCategories;
