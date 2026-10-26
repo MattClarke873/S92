@@ -55381,4 +55381,136 @@ export const questions = [
     },
     correct: 'a'
 },
+{
+    id: 5707,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Where is the low level sensor located within the fuel quantity indicating system?',
+    options: {
+        a: 'On the primary probe, installed on the side wall of the main tank',
+        b: 'On the secondary probe, installed on the sump plate of the main tank, giving a caution when fuel falls below 92 kg',
+        c: 'On a standalone sensor fitted in the fuel selector manifold, independent of either quantity probe'
+    },
+    correct: 'b'
+},
+{
+    id: 5708,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Describe the operation of the crossfeed switch in the fuel system.',
+    options: {
+        a: 'It has OPEN and CLOSED positions that let the crew select the crossfeed valve manually at any time, plus a NORM position in which the valve opens automatically on a signal from the pressure switch if a feeding line loses pressure; valve condition is shown by a panel indicator and the green FUEL XFEED advisory',
+        b: 'It directly varies booster pump speed rather than operating the crossfeed valve, with no OPEN, CLOSED or NORM positions',
+        c: 'It is a simple two-position ON/OFF switch with no automatic logic; OFF stops both booster pumps simultaneously'
+    },
+    correct: 'a'
+},
+{
+    id: 5709,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Describe the fuel tank installation on the AW139.',
+    options: {
+        a: 'A single tank split internally by a fixed baffle, with one shared vent line and no breakaway attachment feature',
+        b: 'Two bladder-type main tanks (left and right), made of rubber impregnated fabric for crash resistance, located on the rear side of the cabin between the engine compartment floor and the aircraft underside; interconnected by a flange and duct on the lower inboard side, gravity refuelled through a common filler at the top of the right tank, each vented at the top with two outlets (one external, one via an internal fairing), and mounted on a sump plate secured by four break-away clips',
+        c: 'Two rigid aluminium tanks bolted externally to the fuselage sides, refuelled independently through two separate filler points with no interconnection'
+    },
+    correct: 'b'
+},
+{
+    id: 5710,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Describe the indications if a fuel quantity probe fails.',
+    options: {
+        a: "Any probe failure immediately displays the tank's full rated capacity as a safe default, with no caution given",
+        b: "A primary probe failure gives the caution 1 (2) FUEL PROBE and the secondary probe takes over the quantity indication; if both primary probes fail, the caution is displayed and quantity reads relative to the probes' maximum height (lower than actual); a secondary probe failure sets that tank's quantity indication to zero, and if both secondary probes fail, the caution 1 (2) FUEL PROBE is displayed together with a zero indication",
+        c: "A probe failure always shuts down that tank's booster pump automatically, regardless of which probe (primary or secondary) has failed"
+    },
+    correct: 'b'
+},
+{
+    id: 5711,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'When is the fuel crossfeed system used?',
+    options: {
+        a: 'Only during ground refuelling, to balance the quantity being loaded into each tank',
+        b: 'Routinely in cruise flight, to keep the left and right tank quantities balanced at all times',
+        c: 'In the event of a specific failure condition, such as a feeding line or booster pump losing pressure, so that the remaining booster pump can supply fuel to both engines without degrading aircraft operation'
+    },
+    correct: 'c'
+},
+{
+    id: 5712,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Describe the fuel manifold.',
+    options: {
+        a: 'The fuel selector manifold, located on the left side of the cabin near the horizontal engine firewall, comprises a 28 VDC ball-type shut-off valve and a pressure transducer for each feeding line plus a single 28 VDC crossfeed valve; each valve is a high speed, permanent-magnet rotary actuator with microswitches for end-of-travel status and a relief device to discharge overpressure to the opposite tank inlet; pipelines from the manifold run to each engine firewall via frangible self-sealing couplings',
+        b: 'A non-return device only, with no shut-off or crossfeed valve function, located inside the auxiliary tank',
+        c: 'A single shared valve body with no separate transducers, operated entirely by manual cables with no electrical components'
+    },
+    correct: 'a'
+},
+{
+    id: 5713,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What are the indications of a low fuel quantity?',
+    options: {
+        a: "The caution 1 (2) FUEL LOW is displayed when quantity falls below the secondary probe's low level sensor threshold (92 kg); failure of that sensor instead gives 1 (2) FUEL LOW FAIL; during crossfeed, the affected tank's digital readout turns grey once quantity drops below 228 kg (503 lb)",
+        b: 'The fuel pressure gauge alone drops below 0.6 bar, with no separate quantity-based caution logic',
+        c: 'A single red FUEL LOW warning with no associated sensor failure caution and no relation to crossfeed state'
+    },
+    correct: 'a'
+},
+{
+    id: 5714,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'At what level is the fuel tank interconnect pipe?',
+    options: {
+        a: 'At the very top of the tank, alongside the venting pipeline',
+        b: 'On the lower inboard side of each tank, at a precise point set so that only about 228 kg can still be drawn from a single tank once the level falls to that point',
+        c: 'Exactly at the lowest point of the tank, level with the tank sump'
+    },
+    correct: 'b'
+},
+{
+    id: 5715,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Describe the fuel test.',
+    options: {
+        a: 'The test can be run at any time in flight and simply recalibrates the fuel quantity reading, with no pass/fail caution',
+        b: 'The test only checks the booster pumps and shut-off valves; it has no connection to the Fuel Control Unit',
+        c: 'Pressing the FUEL pushbutton on the Test Control Panel initiates a built-in test: the white FUEL caption changes to amber TEST and returns to white FUEL after about 6 seconds; the same test runs automatically at power-up, and the FCU also performs a continuous BIT; an unsuccessful result displays 1 (2) FCU TEST FAIL, and the manual test can only be run on the ground'
+    },
+    correct: 'c'
+},
+{
+    id: 5716,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Describe the fuel control unit (FCU).',
+    options: {
+        a: "Located in the right avionic bay at the rear of the central fuselage (STA X7040), it converts fuel height from the probes into fuel mass, compensating for fuel density as a function of temperature using tank geometry held in its software; it has two independent channels linked for comparison so one channel's failure doesn't affect the other, sends digital data to the MAUs via ARINC429, provides excitation to the capacitance and thermistor sensors, applies roll attitude compensation, and runs BIT at power-up, continuously, and on manual initiation",
+        b: 'A single-channel analogue unit with no built-in test capability and no data link to the MAUs',
+        c: 'A purely mechanical float-and-dial device with no electronic interface, located in the cockpit Fuel Control Panel itself'
+    },
+    correct: 'a'
+},
+{
+    id: 5717,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'When does automatic fuel crossfeed occur?',
+    options: {
+        a: 'Automatically whenever the fuel quantity in either tank drops below 400 kg, regardless of switch position',
+        b: 'Automatically whenever main rotor speed (NR) drops below 95%, regardless of switch position',
+        c: 'When the crossfeed switch is set to NORM and the pressure switch detects a loss of pressure in one feeding line, the crossfeed valve opens automatically so the remaining booster pump also supplies the opposite engine'
+    },
+    correct: 'c'
+},
 ];
