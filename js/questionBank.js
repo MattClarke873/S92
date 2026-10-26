@@ -52561,4 +52561,1444 @@ export const questions = [
     },
     correct: 'b'
 },
+{
+    id: 5472,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Where are the two main fuel tanks located, and what type of construction do they use?',
+    options: {
+        a: 'In the tail cone either side of the IGB, of rigid aluminium alloy construction',
+        b: 'Under the cabin floor forward of the main gearbox, of welded stainless steel construction',
+        c: 'On the rear side of the cabin between the engine compartment floor and the aircraft underside, of bladder type construction using rubber impregnated fabric resistant to tear and abrasion'
+    },
+    correct: 'c'
+},
+{
+    id: 5473,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'How are the two main tanks interconnected, and what does this allow?',
+    options: {
+        a: 'Via a flange and duct on the lower inboard side of each tank, allowing about 228 kg of fuel to be drawn from a single source (one tank only)',
+        b: 'Via a single shared filler neck only, with no fuel transfer possible between tanks in flight',
+        c: 'Via an electrically driven transfer pump that moves fuel continuously between tanks regardless of selector position'
+    },
+    correct: 'a'
+},
+{
+    id: 5474,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'How are the main tanks refuelled, and where is the filler point?',
+    options: {
+        a: 'Both tanks are gravity refuelled through a common filler point located at the top of the right tank',
+        b: 'Both tanks are pressure refuelled only, through a single point beneath the left tank',
+        c: 'Each tank has its own independent filler point, with no common filler arrangement'
+    },
+    correct: 'a'
+},
+{
+    id: 5475,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What is the purpose of the tank venting pipeline, and how does its routing prevent spillage?',
+    options: {
+        a: 'To cool the fuel in hot climates; it is routed through the environmental control system ducting',
+        b: 'To equalise pressure between the tanks and with ambient pressure; it is routed to the opposite side to prevent spillage after a post-crash roll-over',
+        c: 'To allow fuel to be jettisoned overboard in an emergency; it is routed straight down through the fuselage belly'
+    },
+    correct: 'b'
+},
+{
+    id: 5476,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'How many outlets does each vent line have, and why does one route internally through a fairing?',
+    options: {
+        a: 'Three outlets, all venting externally at different fuselage stations for redundancy',
+        b: 'Two outlets: one vents externally and one passes internally through a fairing at the rear of the main landing gear bay, to protect against the external vent becoming blocked with ice or foreign matter',
+        c: 'One outlet only; the internal fairing routing was discontinued on later production aircraft'
+    },
+    correct: 'b'
+},
+{
+    id: 5477,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What is the fuel pressure cautionary range, and what is the minimum pressure for normal operation?',
+    options: {
+        a: 'Cautionary range 0.0 to 2.1 bar; minimum normal operation is 0.5 bar',
+        b: 'Cautionary range 0.0 to 0.5 bar; minimum normal operation is 0.6 bar',
+        c: 'Cautionary range 0.6 to 2.1 bar; minimum normal operation is 2.1 bar'
+    },
+    correct: 'b'
+},
+{
+    id: 5478,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What is the normal fuel pressure operating range, and the maximum pressure?',
+    options: {
+        a: '0.0 to 0.5 bar normal range, with a maximum of 0.6 bar',
+        b: '0.5 to 1.5 bar normal range, with a maximum of 1.8 bar',
+        c: '0.6 to 2.1 bar normal range, with a maximum of 2.1 bar'
+    },
+    correct: 'c'
+},
+{
+    id: 5479,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What happens to the fuel pressure indication in suction mode?',
+    options: {
+        a: "It becomes invalid, with the display showing '0' or dashes",
+        b: 'It automatically switches to showing fuel flow rate instead of pressure',
+        c: 'It shows the actual suction pressure as a negative bar value'
+    },
+    correct: 'a'
+},
+{
+    id: 5480,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What is the total usable fuel capacity of the main tanks, and how much is unusable?',
+    options: {
+        a: '2000 litres (1600 kg) usable; 50 litres unusable',
+        b: '1588 litres (1270 kg) usable; 20 litres unusable',
+        c: '1270 litres (1588 kg) usable; 92 litres unusable'
+    },
+    correct: 'b'
+},
+{
+    id: 5481,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What is the capacity of the auxiliary (long range) tank?',
+    options: {
+        a: '1270 kg',
+        b: '228 kg',
+        c: '400 kg'
+    },
+    correct: 'c'
+},
+{
+    id: 5482,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'In coordinated (ball centred) flight, what unusable fuel quantity is indicated, and what is the actual amount per tank?',
+    options: {
+        a: '228 kg is indicated, matching the cross-feed unusable limit',
+        b: '20 kg is indicated, matching the actual unusable amount exactly',
+        c: '0 kg is indicated, although 8 kg (10 litres) per tank is actually unusable'
+    },
+    correct: 'c'
+},
+{
+    id: 5483,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What is the dry weight of an empty main fuel tank, and what is the maximum unusable fuel during cross-feeding?',
+    options: {
+        a: 'Tank weight is 20 kg; maximum unusable fuel when cross-feeding is 400 kg',
+        b: 'Tank weight is 36.1 kg (16.4 lb); maximum unusable fuel when cross-feeding is 92 kg',
+        c: 'Tank weight is 16.4 kg (36.1 lb); maximum unusable fuel when cross-feeding is 228 kg'
+    },
+    correct: 'c'
+},
+{
+    id: 5484,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'During cross-feed, how does the fuel quantity indication change once the tank can no longer supply fuel?',
+    options: {
+        a: 'The quantity indication freezes at its last valid value until cross-feed is cancelled',
+        b: 'The unusable fuel level indication changes to grey',
+        c: 'The digital readout flashes red and is replaced by dashes'
+    },
+    correct: 'b'
+},
+{
+    id: 5485,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What engines are the fuels listed in the AW139 RFM authorised for, and can authorised fuels be mixed?',
+    options: {
+        a: 'General Electric CT7 engines; authorised fuels must never be mixed',
+        b: 'Pratt & Whitney PT6C-67C engines; any mixture of authorised fuels may be used',
+        c: 'Rolls-Royce engines; mixing is permitted only between fuels of the same specification'
+    },
+    correct: 'b'
+},
+{
+    id: 5486,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What is Di-EGME, and under what fuel specification is its use permitted?',
+    options: {
+        a: 'Di-Ethylene Glycol Monomethyl Ether, a fuel system icing inhibitor permitted under the ASTM D 1655, JET A and JET A-1 specification within Engine Maintenance Manual limits',
+        b: 'A biocide additive required in all authorised fuels to prevent microbial growth',
+        c: 'A corrosion inhibitor additive permitted only in GOST 10227 TS-1 fuel'
+    },
+    correct: 'a'
+},
+{
+    id: 5487,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What maintenance consideration applies to GOST 10227 TS-1 fuel?',
+    options: {
+        a: 'Pratt & Whitney consider it satisfactory for a maximum of 1000 hours of use before maintenance action is required',
+        b: 'It requires an immediate fuel system flush after every single flight in which it is used',
+        c: 'It may never be used in the AW139, regardless of maintenance action'
+    },
+    correct: 'a'
+},
+{
+    id: 5488,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'How does the bottom sump plate behave in a crash, and why?',
+    options: {
+        a: 'It is designed to separate completely from the helicopter and fall clear during a crash',
+        b: 'It is bolted rigidly to the structure so the tank cannot shift and rupture fuel lines',
+        c: 'It is attached by four clips that break away from their attachments, allowing the tank and sump to collapse internally in the bay and avoid fuel spillage'
+    },
+    correct: 'c'
+},
+{
+    id: 5489,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What components are installed on the sump plate at the bottom of each main tank?',
+    options: {
+        a: 'The filler cap, the filler neck, and the primary quantity probe',
+        b: 'A fuel booster pump, a secondary quantity probe with low level sensor, a fuel draining valve and a water drain valve',
+        c: 'A pressure transducer, the fuel control unit, and the crossfeed valve'
+    },
+    correct: 'b'
+},
+{
+    id: 5490,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'How can the water drain valve be operated, and where is the electrical switch located?',
+    options: {
+        a: 'Only electrically, via a switch on the Fuel Control Panel in the cockpit',
+        b: 'Only manually, via a plunger; there is no electrical operation of the water drain valve',
+        c: 'Both electrically, via a switch in the main landing sponson, and manually, via a plunger on the valve'
+    },
+    correct: 'c'
+},
+{
+    id: 5491,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What is the purpose of the flame arrestor fitted in each venting pipeline?',
+    options: {
+        a: 'To filter particulate contamination out of the vented air before it reaches atmosphere',
+        b: 'To silence the venting noise during rapid pressure changes in climb and descent',
+        c: 'To prevent a flashback to the tanks in the event of a fire hazard, such as a lightning strike'
+    },
+    correct: 'c'
+},
+{
+    id: 5492,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Which required safety features protect the fuel tanks in a crash scenario?',
+    options: {
+        a: 'Tanks mounted externally on the fuselage sides, away from the cabin, with no vent system required',
+        b: 'Tank deformation/breakaway without losing integrity, a crossover vent system, single-source fuel availability, flame arrestors, controls routed clear of the tanks, and main landing gear that collapses upward away from the tanks',
+        c: 'A rigid, non-deformable tank structure, dual redundant vent lines, and an automatic fuel dump system'
+    },
+    correct: 'b'
+},
+{
+    id: 5493,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What must be connected before a refuelling procedure begins?',
+    options: {
+        a: 'All equipment ground cables to the applicable earth stud of the helicopter',
+        b: 'The fuel control panel test button, to confirm FCU operation before fuelling',
+        c: 'The auxiliary tank vent pipe to the main tank vent line'
+    },
+    correct: 'a'
+},
+{
+    id: 5494,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What is involved in defuelling the Number 1 fuel tank?',
+    options: {
+        a: 'Disconnecting the fuel supply tube from the engine, connecting a hose with a shutoff valve, switching the fuel pump on, and draining into a container; full defuel uses the sump and the fuel switch held on',
+        b: 'Disconnecting the vent line and allowing fuel to siphon out under ambient pressure alone',
+        c: 'Opening the gravity filler cap and inverting the aircraft to drain fuel by gravity into a container'
+    },
+    correct: 'a'
+},
+{
+    id: 5495,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Where is the filler cap installed, what secures it, and what is it made from?',
+    options: {
+        a: 'On the external right side of the Number 2 tank, secured by a plastic lanyard, made of crash-resistant stainless steel and coloured red with white instruction labels',
+        b: 'On top of the auxiliary tank only, secured by a bayonet lock, made of composite material coloured white',
+        c: 'On the external left side of the Number 1 tank, secured by a metal chain, made of anodised aluminium coloured yellow'
+    },
+    correct: 'a'
+},
+{
+    id: 5496,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Where is the filler neck located, and how is it attached to the structure?',
+    options: {
+        a: 'On the left side of the helicopter at STA X6082.9, in the Number 1 tank, bonded in place with no screws',
+        b: 'On the right side of the helicopter at STA X6082.9, in the Number 2 tank, with twelve screws attaching the filler ring and a packing to seal the area',
+        c: 'Centrally above both tanks, attached by a single large retaining nut with an O-ring seal'
+    },
+    correct: 'b'
+},
+{
+    id: 5497,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Where is the water drain valve installed, and what is its electrical supply?',
+    options: {
+        a: 'On the auxiliary tank only, with no electrical supply, manual operation only',
+        b: 'At the top of the tank next to the filler neck, with a 115 VAC electrical supply',
+        c: 'In the lowest point of the sump plate, secured by two screws and two washers, with a 28 VDC NON ESS BUS1 electrical supply'
+    },
+    correct: 'c'
+},
+{
+    id: 5498,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'How is the (fuel) drain valve different from the water drain valve, and what safety feature does it have?',
+    options: {
+        a: 'It is operated automatically whenever the booster pump overheat switch trips, with no manual safety interlock',
+        b: 'It is used only to drain water, exactly like the water drain valve, and has no additional safety system',
+        c: 'It is used to drain the bladder tank fully, is wire-safetied to the water drain valve, and has a safety system that prevents operation except through a controlled procedure'
+    },
+    correct: 'c'
+},
+{
+    id: 5499,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'How is the tank access panel attached, and what is it used for?',
+    options: {
+        a: 'Riveted permanently in place; it is removed only during complete tank replacement',
+        b: 'Attached to a flange with 24 washers and 24 screws, with a packing-sealed groove; it allows inspection of components installed in the tank',
+        c: 'Attached with four quarter-turn fasteners and no seal; it is used only for cosmetic access during painting'
+    },
+    correct: 'b'
+},
+{
+    id: 5500,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'How is the tank sump attached, and what is its fuel capacity?',
+    options: {
+        a: 'Attached with 10 bolts and a rubber gasket, with a capacity of approximately 5 litres',
+        b: 'Welded to the tank bladder directly, with a capacity of approximately 0.5 litres',
+        c: 'Attached to its flange with 25 washers and 25 screws, with a capacity of approximately 1.1 litres'
+    },
+    correct: 'c'
+},
+{
+    id: 5501,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What is the purpose of the foam installation around the main tanks, and what do its openings allow?',
+    options: {
+        a: 'It provides fire suppression by smothering any leaking fuel vapour',
+        b: 'It thermally insulates the tanks to keep fuel temperature constant in all climates',
+        c: 'It keeps the tanks correctly positioned so no tank loads fall on unsupported surfaces, with openings that allow tank bay drainage and sufficient airflow'
+    },
+    correct: 'c'
+},
+{
+    id: 5502,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What retains the main fuel tank cells against the tank walls, and what interlaces the delta rings?',
+    options: {
+        a: 'Delta rings and Velcro patch fasteners, bonded to the bladder and containing panels respectively; tie ropes interlace the delta rings',
+        b: 'Adhesive foam blocks only, with no rings or patches used',
+        c: 'A rigid internal frame bolted through the bladder wall, with no bonding to the panels'
+    },
+    correct: 'a'
+},
+{
+    id: 5503,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What precaution applies when handling the fuel tank due to its surface sensitivity?',
+    options: {
+        a: 'Do not use pointed or sharp-edged tools, and do not place the tank on surfaces with sharp edges',
+        b: 'The tank must be fully pressurised with nitrogen before any handling to prevent collapse',
+        c: 'The tank must be kept below 0°C at all times to prevent softening of the bladder material'
+    },
+    correct: 'a'
+},
+{
+    id: 5504,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What environmental sensitivity does the fuel tank material have, and what precaution follows?',
+    options: {
+        a: 'It is sensitive to light and low temperature; it should not be left in strong light longer than necessary and should not be touched when ambient temperature is low',
+        b: 'It is sensitive to vibration only; it must be transported on a dedicated anti-vibration trolley',
+        c: 'It is sensitive to high humidity only; it must be stored in a desiccated container between uses'
+    },
+    correct: 'a'
+},
+{
+    id: 5505,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What must be removed from a fuel tank before the tank itself is removed?',
+    options: {
+        a: 'The sump, the booster pump hose, and the primary probe',
+        b: 'The filler cap, the filler neck, and the access panel flange',
+        c: 'The vent pipeline, the flame arrestor, and the crossfeed valve'
+    },
+    correct: 'a'
+},
+{
+    id: 5506,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What must be recorded before removing the water drain valve, and what must be replaced after tank removal?',
+    options: {
+        a: 'The position of the electrical wires must be recorded before water drain valve removal; the installation nylon cord must be replaced after tank removal',
+        b: 'The fuel quantity reading must be recorded; the Velcro patches must be replaced after tank removal',
+        c: 'The torque value of the mounting screws must be recorded; the delta rings must be replaced after tank removal'
+    },
+    correct: 'a'
+},
+{
+    id: 5507,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What design features give the fuel distribution system its required safety conditions?',
+    options: {
+        a: 'A single-wall titanium feed line direct from each tank to its engine, with no couplings at the firewall',
+        b: 'Self-sealing frangible couplings at the engine firewalls and tank hose outputs, double-wall flexible engine feed hoses, flexible lines inside the tanks, and routing away from the bottom of the aircraft around the tank area',
+        c: 'Rigid stainless steel pipework throughout, with no flexible sections anywhere in the distribution system'
+    },
+    correct: 'b'
+},
+{
+    id: 5508,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What are the major components of the fuel distribution system?',
+    options: {
+        a: 'Filler cap, filler neck, access panel, tank sump, foam installation, and delta rings',
+        b: 'Primary probe, secondary probe, low level sensor, FCU, pressure switch, and pressure transducer',
+        c: 'Booster pump, feeding line, fuel selector manifold, crossfeed valve, shut-off valve, and non-return valve'
+    },
+    correct: 'c'
+},
+{
+    id: 5509,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Where is the booster pump installed, and why does the tank bottom have a slope?',
+    options: {
+        a: 'On the top plate of each tank; the slope drains condensation away from the pump inlet',
+        b: 'On the sump plate at the bottom of each tank; the slope ensures the sump assembly remains wet whenever fuel is available',
+        c: 'Inside the fuel selector manifold; the slope is unrelated to the booster pump and serves the drain valve only'
+    },
+    correct: 'b'
+},
+{
+    id: 5510,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What protects the booster pump inlet from contamination, and what protects the pump from overheating?',
+    options: {
+        a: 'A screen on the pump housing protects the inlet; an integral overheat protection switch turns off motor power during an overheat condition and restores it once resolved',
+        b: 'A disposable paper filter cartridge protects the inlet; a thermal fuse permanently disables the pump on overheat',
+        c: 'A magnetic chip detector protects the inlet; a pressure relief valve protects against overheat'
+    },
+    correct: 'a'
+},
+{
+    id: 5511,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Can the booster pump cartridge be replaced without draining the fuel tank, and how does fuel reach the top of the tank?',
+    options: {
+        a: 'No, the tank must be fully drained first; fuel reaches the top of the tank only via the vent line',
+        b: 'Yes, the cartridge can be replaced without draining the tank; the booster pump supplies fuel through a hose inside the tank to a plate installed at the top',
+        c: 'Yes, but only after the crossfeed valve is manually opened; fuel reaches the top via the fuel selector manifold'
+    },
+    correct: 'b'
+},
+{
+    id: 5512,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: "What does the feeding line's branch to the pressure switch sense, and where is the engine return line located?",
+    options: {
+        a: 'The branch senses the pump output low pressure; the engine return line is on the plate at the top of the tank',
+        b: 'The branch senses fuel temperature; the engine return line is located at the sump plate',
+        c: 'The branch senses fuel quantity; the engine return line is located inside the fuel selector manifold'
+    },
+    correct: 'a'
+},
+{
+    id: 5513,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What does the check valve at the fuel selector manifold prevent, and what does it do when the valve is closed?',
+    options: {
+        a: 'It prevents fuel from reaching the engine until the booster pump reaches full rated pressure',
+        b: 'It prevents forward flow whenever the crossfeed valve is closed, isolating both engines from their tanks',
+        c: 'It prevents reverse flow to a feeding line if the crossfeed valve is open and the relevant pump has failed; when closed, its drain discharges reverse-direction overpressure'
+    },
+    correct: 'c'
+},
+{
+    id: 5514,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Where are the booster pump switches and shut-off valve switches located, and what provides valve condition feedback?',
+    options: {
+        a: 'On the Fuel Control Panel in the cockpit, with a visual indicator on the panel showing valve condition',
+        b: 'On the overhead circuit breaker panel, with valve condition shown only on the maintenance page',
+        c: 'On the collective grip, with valve condition shown only as an audio tone'
+    },
+    correct: 'a'
+},
+{
+    id: 5515,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Under normal operation, which pump feeds each engine, and what can automatically close a shut-off valve?',
+    options: {
+        a: 'Both tanks always feed both engines simultaneously; a shut-off valve closes automatically on landing gear retraction',
+        b: "The opposite tank's booster pump always feeds the engine via crossfeed; a shut-off valve closes automatically whenever NR exceeds 100%",
+        c: "The onside tank's booster pump normally feeds its engine; a shut-off valve can automatically close as a result of an engine fire extinguishing system arming command"
+    },
+    correct: 'c'
+},
+{
+    id: 5516,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'In normal operation, is the crossfeed valve open or closed, and how does setting the switch to NORM affect it?',
+    options: {
+        a: 'Normally open, allowing both tanks to feed both engines; NORM has no effect on the crossfeed valve state',
+        b: 'Normally closed, with each engine fed from its onside booster pump; in NORM the crossfeed valve is automatically opened by a signal from the pressure switch if needed',
+        c: 'Normally closed, but NORM permanently locks the valve closed until manually overridden by OPEN'
+    },
+    correct: 'b'
+},
+{
+    id: 5517,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'If the pressure switch detects a loss of pressure in one feeding line, what happens to aircraft operation?',
+    options: {
+        a: 'Both engines are automatically throttled back to idle until the crew manually opens the crossfeed valve',
+        b: 'The affected engine flames out immediately, since cross-feed requires manual pilot action to activate',
+        c: 'The remaining booster pump also supplies the opposite engine, without degrading aircraft operation'
+    },
+    correct: 'c'
+},
+{
+    id: 5518,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'During crossfeed conditions, what does the pressure transducer in the manifold of the failed supply line still provide?',
+    options: {
+        a: 'A fixed fault code only, with the pressure reading frozen at the last valid value before the failure',
+        b: "The operating pressure supply indication, even though that line's own pump has failed",
+        c: 'No indication at all, since the transducer is disabled whenever its associated pump fails'
+    },
+    correct: 'b'
+},
+{
+    id: 5519,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What does the fuel selector manifold consist of for each feeding line, plus one shared component?',
+    options: {
+        a: 'An AC electrically operated shut-off valve and a flow meter for each feeding line, plus a shared mechanical crossfeed valve',
+        b: 'A DC electrically operated shut-off valve and a pressure transducer for each feeding line, plus a single DC electrically operated crossfeed valve',
+        c: 'A manually operated shut-off valve and a sight glass for each feeding line, with no crossfeed valve fitted'
+    },
+    correct: 'b'
+},
+{
+    id: 5520,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Where is the fuel selector manifold located, and how many electrical connectors does it have?',
+    options: {
+        a: 'On the left side of the cabin, near the horizontal engine firewall, with two electrical connectors on its back side',
+        b: 'Centrally beneath the cabin floor, with a single electrical connector on its top side',
+        c: 'On the right side of the cabin, inside the avionics bay, with four electrical connectors on its front side'
+    },
+    correct: 'a'
+},
+{
+    id: 5521,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'From the fuel selector manifold, where are pipelines routed, and what type of coupling is used there?',
+    options: {
+        a: 'Directly to the tail rotor drive shaft bay, using quick-disconnect bayonet couplings',
+        b: 'To each engine firewall, where frangible self-sealing couplings are installed',
+        c: 'To the auxiliary tank only, using standard non-frangible threaded couplings'
+    },
+    correct: 'b'
+},
+{
+    id: 5522,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What type of valve is used in the fuel manifold, what voltage operates it, and how many ports/positions does it have?',
+    options: {
+        a: 'A butterfly type valve operated at 28 VDC, with one port and two positions, mounted in a bypass loop',
+        b: 'A ball type valve operated at 28 VDC, with two ports and two positions, mounted on-line',
+        c: 'A poppet type valve operated at 115 VAC, with three ports and three positions, mounted off-line'
+    },
+    correct: 'b'
+},
+{
+    id: 5523,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What type of actuator drives the manifold shut-off valve, and how is valve status signalled?',
+    options: {
+        a: 'A high speed rotary actuator powered by a permanent magnet, with miniature microswitches at the end of travel providing valve status signals, and rotary direction controlled by a micro relay',
+        b: 'A linear solenoid actuator, with a mechanical flag indicator providing valve status, and direction controlled by reversing polarity only',
+        c: 'A hydraulic rotary actuator, with a pressure switch providing valve status, and direction set only by a maintenance technician on the ground'
+    },
+    correct: 'a'
+},
+{
+    id: 5524,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What is the purpose of the relief pressure device fitted to each manifold valve?',
+    options: {
+        a: 'To prevent the valve from opening at all until a minimum line pressure is reached',
+        b: 'To discharge fuel overpressure from the manifold outlet port (ENGINE 1 or 2) to the opposite inlet port (TANK 1 or 2)',
+        c: 'To discharge overpressure directly overboard through the vent line, bypassing both tanks'
+    },
+    correct: 'b'
+},
+{
+    id: 5525,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'How many outlets does each fuel vent line have, and where are they located?',
+    options: {
+        a: 'Four outlets, two on each side of the fuselage at the cabin waterline',
+        b: 'Two outlets on the bottom side of the helicopter: one on the skin, and one in a fairing at the rear of the landing gear bay',
+        c: 'One outlet only, located on top of the fuselage near the rotor mast'
+    },
+    correct: 'b'
+},
+{
+    id: 5526,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What must be recorded before removing the booster pump, regarding both the feeding hose and the wiring?',
+    options: {
+        a: 'The position of the booster pump feeding hose in the tank, and the position of the electrical wires, must both be recorded before removal',
+        b: 'Only the torque value of the pump mounting bolts needs to be recorded; hose and wire positions are not relevant',
+        c: 'Only the fuel quantity at the time of removal needs to be recorded, to calculate spillage afterwards'
+    },
+    correct: 'a'
+},
+{
+    id: 5527,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What tool is used to remove the booster pump cartridge, and what must be done to the fuel shut-off lever first?',
+    options: {
+        a: 'No special tool is required, and the fuel shut-off lever must be left in its normal flight position',
+        b: 'A special tool is used, and the fuel shut-off lever must be removed completely before cartridge removal',
+        c: 'A special tool is used, and the fuel shut-off lever must be rotated 180 degrees before cartridge removal'
+    },
+    correct: 'c'
+},
+{
+    id: 5528,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Roughly how much fuel spills on removal of the booster pump cartridge, and what must be done with it?',
+    options: {
+        a: 'About 0.25 litres spills, both from the cartridge and the cartridge plug boss, and must be collected into a container',
+        b: 'About 2.5 litres spills and must be pumped back into the opposite tank immediately',
+        c: 'No fuel spills if the shut-off lever has been correctly rotated 180 degrees beforehand'
+    },
+    correct: 'a'
+},
+{
+    id: 5529,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What must be recorded before disconnecting tank supply hoses from the manifold, and how are the booster pump and cartridge installed?',
+    options: {
+        a: 'The torque of the manifold mounting bolts must be recorded; the booster pump and cartridge are installed using a go/no-go gauge only',
+        b: 'The fuel pressure at the manifold must be recorded; the booster pump and cartridge are installed with no alignment feature required',
+        c: 'The position of the tank supply hoses must be recorded before disconnection; the booster pump and cartridge are installed by aligning their reference marks'
+    },
+    correct: 'c'
+},
+{
+    id: 5530,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'How many types of auxiliary tank installation does the documentation describe for the AW139, and how do the main tanks connect to one?',
+    options: {
+        a: 'Exactly one type exists on all AW139 aircraft, connected via a dedicated gravity filler shared with the main tanks',
+        b: 'Exactly three types exist, and none of them connect directly to the main tanks; fuel is transferred by ground bowser only',
+        c: 'More than one type exists (effectivity must be checked), and the main tanks connect to an auxiliary tank via caps provided for that purpose'
+    },
+    correct: 'c'
+},
+{
+    id: 5531,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What two types of refuelling point does the AW139 fuel system provide for?',
+    options: {
+        a: 'A gravity refuelling point only; pressure refuelling is not fitted on any AW139',
+        b: 'A pressure refuelling point only, with gravity refuelling reserved for the auxiliary tank',
+        c: 'A gravity refuelling point (port or starboard, check effectivity) and an optional pressure refuelling point'
+    },
+    correct: 'c'
+},
+{
+    id: 5532,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What three items are installed on the plate at the top of each main tank?',
+    options: {
+        a: 'A filler cap, a filler neck, and the fuel control unit',
+        b: 'A pressure switch, a fuel return line from the engine, and an electrical connector',
+        c: 'A booster pump, a water drain valve, and a secondary quantity probe'
+    },
+    correct: 'b'
+},
+{
+    id: 5533,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: "What is 'suction mode' in relation to the AW139 fuel system, and why is the fuel pressure indication invalid in this mode?",
+    options: {
+        a: "It describes an engine drawing fuel without its booster pump supplying pressure; the pressure indication is invalid (shows '0' or dashed) because there is no boosted pressure for the transducer to measure",
+        b: 'It describes a condition where both booster pumps are switched off and both engines are shut down for fuel sampling',
+        c: 'It describes the crossfeed valve being stuck open, which the system cannot distinguish from a normal pressure reading'
+    },
+    correct: 'a'
+},
+{
+    id: 5534,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: "What happens to a fuel shut-off valve when the related engine's fire extinguishing system is armed, such as in an ENG 2 FIRE scenario?",
+    options: {
+        a: 'Nothing changes automatically; the shut-off valve can only be closed by manual pilot action',
+        b: 'It is automatically forced fully open to burn off remaining fuel in the line as quickly as possible',
+        c: 'It can be automatically closed as a result of the fire extinguishing system arming command'
+    },
+    correct: 'c'
+},
+{
+    id: 5535,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What does the documentation note about the fuel manifold assembly across the AW139 fleet?',
+    options: {
+        a: "There is more than one type of manifold assembly (for example an 'AERO' variant), so effectivity must be checked",
+        b: 'The manifold assembly was discontinued and replaced entirely by the fuel selector valve on later aircraft',
+        c: 'All AW139 aircraft use an identical manifold assembly with no variants'
+    },
+    correct: 'a'
+},
+{
+    id: 5536,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: "Where should engineers look for the AW139 fuel system's general standard practices before carrying out fuel system maintenance?",
+    options: {
+        a: 'AMP 39-A-20-30-00-00A-010A-A, Standard practices - Fuel system - General data',
+        b: 'The Illustrated Parts Catalogue (IPC) index for ATA chapter 28',
+        c: 'The Rotorcraft Flight Manual (RFM) section 1, Limitations'
+    },
+    correct: 'a'
+},
+{
+    id: 5537,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: "What practical layout rule, beyond the tanks' own crash-resistant construction, helps keep the fuel tanks safe?",
+    options: {
+        a: 'Controls and linkage are located clear of the fuel tanks',
+        b: 'The tanks are mounted with no clearance to the airframe, so they cannot shift in flight',
+        c: 'All wiring looms are routed directly through the centre of each tank for protection'
+    },
+    correct: 'a'
+},
+{
+    id: 5538,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What must be done with fuel that spills from the manifold and its hoses during their removal?',
+    options: {
+        a: 'It must be vented overboard immediately through the nearest vent line outlet',
+        b: 'It must be collected into a container',
+        c: 'It can be allowed to drain onto a protective sheet and left to evaporate'
+    },
+    correct: 'b'
+},
+{
+    id: 5539,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Which structural safety feature allows a main fuel tank to survive airframe deformation in a crash without losing integrity?',
+    options: {
+        a: 'An automatic fuel dump valve that empties the tank the instant a crash is detected',
+        b: 'A rigid internal frame that prevents the tank from deforming under any crash load',
+        c: 'Tank deformation and elongation to take up the structure shape, with the capability to break away its attachments to the airframe'
+    },
+    correct: 'c'
+},
+{
+    id: 5540,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Which safety feature specifically prevents fuel spillage through the vent pipes if the aircraft rolls onto its side in a crash?',
+    options: {
+        a: 'The breakaway sump plate clips',
+        b: 'The flame arrestor fitted in each venting pipeline',
+        c: 'A crossover vent system'
+    },
+    correct: 'c'
+},
+{
+    id: 5541,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: "What seals the drain valve's threaded end fitting into its housing in the sump plate?",
+    options: {
+        a: 'A packing contained in a groove on the fitting',
+        b: 'A double lip seal bonded directly to the sump plate',
+        c: 'A crush washer that is replaced every time the valve is removed'
+    },
+    correct: 'a'
+},
+{
+    id: 5542,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What is another name used for the check valve fitted at the fuel selector manifold?',
+    options: {
+        a: 'Frangible coupling',
+        b: 'Non-return valve',
+        c: 'Pressure relief device'
+    },
+    correct: 'b'
+},
+{
+    id: 5543,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Besides the automatic logic (NORM), when else can the crossfeed valve be moved between open and closed?',
+    options: {
+        a: 'At any time, by setting the switch to OPEN or CLOSED manually',
+        b: 'Only during the pre-flight BIT, after which the switch is locked for the remainder of the flight',
+        c: 'Only when both engines are shut down and the aircraft is on the ground'
+    },
+    correct: 'a'
+},
+{
+    id: 5544,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Besides the green FUEL XFEED advisory on the MFD, how else is crossfeed valve condition shown to the crew?',
+    options: {
+        a: 'A visual indicator on the Fuel Control Panel shows the valve condition',
+        b: 'A dedicated amber caption on the standby instrument shows the valve condition',
+        c: 'No other indication exists; the MFD advisory is the sole source of crossfeed valve status'
+    },
+    correct: 'a'
+},
+{
+    id: 5545,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'In normal flight, how do the states of the shut-off valves compare with the state of the crossfeed valve?',
+    options: {
+        a: 'The shut-off valves are normally closed and the crossfeed valve is normally open, the opposite of typical operation',
+        b: 'Both the shut-off valves and the crossfeed valve are normally closed, with fuel supplied only via the auxiliary tank',
+        c: 'The shut-off valves are normally open (ON), supplying fuel to the engines, while the crossfeed valve is normally closed'
+    },
+    correct: 'c'
+},
+{
+    id: 5546,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Does the auxiliary tank installation include its own dedicated vent pipe, separate from the main tank vent lines?',
+    options: {
+        a: 'Yes, the documentation shows a dedicated auxiliary tank vent pipe installation',
+        b: "No, the auxiliary tank shares the main tanks' vent lines with no separate pipe",
+        c: 'No, the auxiliary tank is unvented and relies solely on the gravity filler cap being left loose'
+    },
+    correct: 'a'
+},
+{
+    id: 5547,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'How do the pressure switch and the pressure transducer differ in what they monitor within the fuel system?',
+    options: {
+        a: 'Both devices perform an identical function and are fitted purely for redundancy, with no difference in signal type',
+        b: 'The pressure switch, on the engine feeding line, triggers a discrete low-pressure signal (used for crossfeed logic); the pressure transducer, at the manifold, provides continuous pressure monitoring',
+        c: 'The pressure switch monitors tank quantity while the pressure transducer monitors engine oil pressure'
+    },
+    correct: 'b'
+},
+{
+    id: 5548,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What is a frangible coupling designed to do, and where is it fitted in the AW139 fuel system?',
+    options: {
+        a: 'It is a self-sealing coupling that can break cleanly under excess load while sealing both ends to prevent fuel leakage, fitted at the engine firewall inlet pipelines and at the fuel tank hose outputs',
+        b: 'It is a rigid, non-breaking coupling designed to withstand any crash load without separating, fitted only inside the fuel selector manifold',
+        c: "It is a quick-disconnect coupling used only for ground refuelling equipment, with no fitment in the aircraft's own fuel lines"
+    },
+    correct: 'a'
+},
+{
+    id: 5549,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Which document covers the detailed procedure for pressure refuelling the AW139?',
+    options: {
+        a: 'AFIP 39-A-28-00-00-00A-412A-A, Fuel - Fault reporting - Detected fault',
+        b: 'AMP 39-A-12-12-01-00A-221A-A, Number 1 fuel tank - Defuel and drain fuel',
+        c: 'AMP 39-A-12-11-01-00A-211A-A, Fuel tanks – Refuel'
+    },
+    correct: 'c'
+},
+{
+    id: 5550,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Besides the engine firewall inlet pipelines, where else are self-sealing frangible couplings fitted in the fuel distribution system?',
+    options: {
+        a: 'On the hoses at the fuel tank output',
+        b: 'On the vent line outlets at the bottom of the fuselage',
+        c: 'On the filler neck where it meets the filler cap'
+    },
+    correct: 'a'
+},
+{
+    id: 5551,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What construction feature do the engine feed lines use for protection against damage?',
+    options: {
+        a: 'Single wall rigid titanium tube',
+        b: 'A braided stainless steel oversleeve bonded to a single wall hose',
+        c: 'Double wall flexible hoses'
+    },
+    correct: 'c'
+},
+{
+    id: 5552,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Where is the fuel system TEST pushbutton located, and what does the FUEL caption show during the built-in test?',
+    options: {
+        a: 'On the Test Control Panel on the console; the white FUEL caption changes to amber TEST, then returns to white FUEL after about 6 seconds',
+        b: 'On the Fuel Control Panel; the caption flashes red FAIL for 6 seconds before returning to green PASS',
+        c: 'On the overhead circuit breaker panel; the caption shows a numeric countdown timer during the test'
+    },
+    correct: 'a'
+},
+{
+    id: 5553,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Besides manual activation, when else is the fuel system built-in test automatically performed?',
+    options: {
+        a: 'On power up',
+        b: 'Only once per flight, triggered by weight-on-wheels at touchdown',
+        c: 'Every time the crossfeed valve changes position'
+    },
+    correct: 'a'
+},
+{
+    id: 5554,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What caution is displayed if the fuel system built-in test is unsuccessful?',
+    options: {
+        a: '1 (2) FCU FAIL',
+        b: '1 (2) FUEL PROBE',
+        c: '1 (2) FCU TEST FAIL'
+    },
+    correct: 'c'
+},
+{
+    id: 5555,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'When is the green FUEL X FEED advisory displayed on the CAS?',
+    options: {
+        a: 'When the crossfeed valve is opened, either manually or automatically',
+        b: 'Whenever either booster pump switch is set to ON, regardless of crossfeed valve position',
+        c: 'Only when the crossfeed valve is opened manually; automatic openings give no advisory'
+    },
+    correct: 'a'
+},
+{
+    id: 5556,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: "When does a tank's quantity digital readout turn grey, in relation to the crossfeed valve?",
+    options: {
+        a: 'When the crossfeed valve is closed and the tank quantity exceeds 1270 kg',
+        b: 'When the crossfeed valve opens due to a pump failure and the fuel quantity in that tank drops below 228 kg (503 lb)',
+        c: 'Whenever the crossfeed valve is opened for any reason, regardless of fuel quantity'
+    },
+    correct: 'b'
+},
+{
+    id: 5557,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What components make up the fuel indicating system?',
+    options: {
+        a: 'Booster pump, feeding line, fuel selector manifold, crossfeed valve, shut-off valve, and non-return valve',
+        b: 'Primary quantity probe, secondary quantity probe, low level sensor, fuel control unit, pressure switch, and pressure transducer',
+        c: 'Filler cap, filler neck, water drain valve, drain valve, access panel, and tank sump'
+    },
+    correct: 'b'
+},
+{
+    id: 5558,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What type of primary quantity probe is fitted in each main tank, and where is it attached?',
+    options: {
+        a: 'An ultrasonic type probe, attached to the top plate of the tank by four bolts with no bracket',
+        b: 'A capacitance type probe, attached to a bracket on the internal side of the tank vertical wall by a clamp, two washers and two bolts, with its bottom end on a self-locking insert',
+        c: 'A float-type probe, suspended freely inside the tank with no fixed attachment point'
+    },
+    correct: 'b'
+},
+{
+    id: 5559,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Where is the secondary quantity probe installed, and what does it include?',
+    options: {
+        a: "On the side wall of the tank, attached by a single clamp; it includes the fuel control unit's excitation circuit",
+        b: 'On the sump plate of the main fuel tanks, attached by six washers and six screws; it includes a low level sensor',
+        c: 'Inside the fuel selector manifold, attached by two bolts; it includes the crossfeed pressure transducer'
+    },
+    correct: 'b'
+},
+{
+    id: 5560,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: "At what fuel level does the secondary probe's low level sensor provide a caution?",
+    options: {
+        a: 'When the fuel level in the tank falls below 20 kg',
+        b: 'When the fuel level in the tank falls below 92 kg',
+        c: 'When the fuel level in the tank falls below 228 kg'
+    },
+    correct: 'b'
+},
+{
+    id: 5561,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Where is the Fuel Control Unit (FCU) located, and what is its basic function?',
+    options: {
+        a: 'In the fuel selector manifold housing; it converts fuel pressure into a volumetric flow rate',
+        b: 'In the cockpit Fuel Control Panel itself; it converts switch position into a relay command',
+        c: 'In the right avionic bay, rear side of the central fuselage (STA X7040); it converts fuel height into fuel mass'
+    },
+    correct: 'c'
+},
+{
+    id: 5562,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Where does the tank geometry data used for fuel mass calculation reside, and what else does the FCU compensate for?',
+    options: {
+        a: 'The tank geometry is part of the FCU software; the FCU compensates for fuel density as a function of fuel temperature',
+        b: 'The tank geometry is stored on a chip inside each probe; the FCU compensates for aircraft pitch attitude only',
+        c: 'The tank geometry is entered manually by maintenance after each refuel; the FCU compensates for ambient humidity'
+    },
+    correct: 'a'
+},
+{
+    id: 5563,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What is the data flow from the fuel probes to the cockpit displays?',
+    options: {
+        a: 'The probes send data directly to the MFD, with the FCU only used for ground maintenance readout',
+        b: 'The FCU takes data from the fuel quantity probes and low level sensors and sends its output to the MAU, which sends it to the displays',
+        c: 'The MAU polls the probes directly; the FCU only receives a copy of the data for logging purposes'
+    },
+    correct: 'b'
+},
+{
+    id: 5564,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'How does the FCU transmit fuel quantity data to the MAUs, and what does it provide to the capacitance probes?',
+    options: {
+        a: 'It transmits digital data via the ARINC429 serial data bus, and provides an excitation current to the capacitance probes',
+        b: 'It transmits data via a discrete-only interface with no serial bus, and provides no excitation to the probes',
+        c: 'It transmits analog 4-20mA data over twisted pair wiring, and provides a reference voltage to the capacitance probes'
+    },
+    correct: 'a'
+},
+{
+    id: 5565,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'How does the FCU handle low level sensor data, and what does it provide to the thermistor low level sensors?',
+    options: {
+        a: 'It ignores low level sensor impedance entirely, relying solely on the primary and secondary probes for low fuel warning',
+        b: 'It reads low level sensor data only as a simple on/off discrete, with no 429 data and no excitation provided',
+        c: 'It reads and interprets low level sensor impedance, transmitting digital data via 429 plus a discrete signal to the MAUs, and provides excitation events to the thermistor sensors'
+    },
+    correct: 'c'
+},
+{
+    id: 5566,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What built-in test (BIT) capabilities does the FCU have?',
+    options: {
+        a: 'It performs a BIT only when manually initiated by maintenance, with no automatic testing at all',
+        b: 'It performs a BIT only at power up, with no continuous or manual test capability',
+        c: 'It performs a BIT at power up, a continuous BIT, and a BIT when manually initiated'
+    },
+    correct: 'c'
+},
+{
+    id: 5567,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'How many channels does the FCU have, and what happens if one channel fails?',
+    options: {
+        a: 'A single channel with a hot-standby backup FCU unit; failure triggers an automatic unit swap',
+        b: 'Two independent and separate channels with a data link for comparison; failure of one does not affect the operation of the other',
+        c: 'Two channels that share all critical hardware; failure of either channel disables both'
+    },
+    correct: 'b'
+},
+{
+    id: 5568,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Under normal operation, how is fuel height converted into a displayed quantity?',
+    options: {
+        a: 'The FCU estimates quantity purely from elapsed flight time and known fuel burn rate, with no probe input',
+        b: 'The secondary probe is always used first, with the primary probe acting only as a backup during refuelling',
+        c: 'The primary probe, when immersed in fuel, provides the height of fuel to the FCU, which converts it to fuel mass for display'
+    },
+    correct: 'c'
+},
+{
+    id: 5569,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What happens when the primary probe loses contact with the fuel?',
+    options: {
+        a: 'The measurement is provided by the secondary probe instead',
+        b: 'The display freezes at the last valid primary probe reading until refuelling',
+        c: 'The FCU immediately displays FUEL LOW regardless of actual remaining quantity'
+    },
+    correct: 'a'
+},
+{
+    id: 5570,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What happens when a primary probe fails to provide a signal, and which probe takes over?',
+    options: {
+        a: 'The FCU shows a blank display with no caution, since fuel quantity cannot be determined without the primary probe',
+        b: "The FCU automatically selects crossfeed and shows the opposite tank's quantity in place of the failed one",
+        c: 'The FCU signals the loss of the probe, providing the caution 1 (2) FUEL PROBE, and uses the secondary probe to provide the fuel quantity indication'
+    },
+    correct: 'c'
+},
+{
+    id: 5571,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'If both primary probes fail, what indication results?',
+    options: {
+        a: 'No caution is given, since the secondary probes compensate fully with no indication error',
+        b: 'The fuel quantity display shows full tanks regardless of actual contents, until the next ground test',
+        c: "The cautions 1 (2) FUEL PROBE are displayed, and the fuel quantity shown is relative to the probes' maximum height, which reads lower than the actual fuel quantity"
+    },
+    correct: 'c'
+},
+{
+    id: 5572,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What happens to the fuel quantity indication if a secondary probe fails to provide a signal?',
+    options: {
+        a: 'The indication freezes at the last known value from that probe',
+        b: "The indication switches automatically to show the auxiliary tank's quantity instead",
+        c: 'The relative fuel quantity indication is set to zero'
+    },
+    correct: 'c'
+},
+{
+    id: 5573,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What happens if both secondary probes fail?',
+    options: {
+        a: 'No caution is given, since the primary probes are considered the master source',
+        b: 'The cautions 1 (2) FUEL PROBE are displayed and the fuel quantity indication is zero',
+        c: "The fuel quantity indication shows the tank's maximum rated capacity as a fail-safe default"
+    },
+    correct: 'b'
+},
+{
+    id: 5574,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What does the FCU use roll attitude compensation for?',
+    options: {
+        a: "To correct the crossfeed valve's automatic opening threshold during manoeuvring flight",
+        b: 'To determine the fuel quantity calculation in each channel, correcting for aircraft roll attitude',
+        c: 'To decide which of the two independent FCU channels should be the active master channel'
+    },
+    correct: 'b'
+},
+{
+    id: 5575,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What caution is displayed when fuel quantity falls below the low level sensor, and what caution is given if that sensor itself fails?',
+    options: {
+        a: '1 (2) FUEL LOW is displayed for low fuel; 1 (2) FUEL LOW FAIL is displayed if the low level sensor fails',
+        b: '1 (2) FUEL PROBE is displayed for low fuel; 1 (2) FCU FAIL is displayed if the sensor fails',
+        c: '1 (2) FUEL PUMP is displayed for low fuel; 1 (2) FCU TEST FAIL is displayed if the sensor fails'
+    },
+    correct: 'a'
+},
+{
+    id: 5576,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: "What caution is displayed if the FCU's built-in test detects an internal left/right channel failure?",
+    options: {
+        a: '1 (2) FUEL LOW FAIL',
+        b: '1 (2) FCU TEST FAIL',
+        c: '1 (2) FCU FAIL'
+    },
+    correct: 'c'
+},
+{
+    id: 5577,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'How is a manual FCU test carried out, and under what condition can it be performed?',
+    options: {
+        a: 'By cycling the crossfeed valve switch three times, and it can only be performed with both engines running',
+        b: 'By selecting a switch on the Fuel Control Panel, and it can be performed at any time including in flight',
+        c: 'By selecting the FUEL pushbutton on the Test Control Panel in the console, and it can only be performed on the ground'
+    },
+    correct: 'c'
+},
+{
+    id: 5578,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What does the pressure transducer in the manifold provide, and what caution results from a fuel boost pump low pressure condition detected by the pressure switch?',
+    options: {
+        a: 'The pressure transducer provides a one-time reading at engine start only; low pressure gives the caution 1 (2) FCU FAIL',
+        b: 'The pressure transducer provides continuous pressure monitoring to the MFD; low boost pump pressure gives the caution 1 (2) FUEL PUMP',
+        c: 'The pressure transducer only operates during the ground BIT; low boost pump pressure gives the caution 1 (2) FUEL LOW'
+    },
+    correct: 'b'
+},
+{
+    id: 5579,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'How must the main (primary) fuel probe be oriented during installation?',
+    options: {
+        a: 'With the UP mark pointing towards the tank sump',
+        b: 'With the UP mark pointing at the top',
+        c: 'With the electrical connector facing outboard, regardless of the UP mark'
+    },
+    correct: 'b'
+},
+{
+    id: 5580,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Under what condition must the secondary probe be removed and installed, and how must it be aligned?',
+    options: {
+        a: 'With the helicopter on its wheels and both tanks full, with no alignment mark to observe',
+        b: 'With the helicopter lifted on jacks, and installed with its mark aligned with the mark on the sump',
+        c: 'With the helicopter on jacks, and installed with the UP mark pointing away from the sump'
+    },
+    correct: 'b'
+},
+{
+    id: 5581,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What operational tests are required after replacing a quantity probe, a pressure switch, or the Fuel Control Unit?',
+    options: {
+        a: 'A single combined operational test covering both quantity and pressure indicating, required only after FCU replacement',
+        b: 'An operational test of the quantity indicating system after probe or FCU replacement, and an operational test of the pressure indicating system after pressure switch or FCU replacement',
+        c: 'No operational test is required for probe or pressure switch replacement; only FCU replacement requires a test'
+    },
+    correct: 'b'
+},
+{
+    id: 5582,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What scheduled inspection applies to the fuel tank attachment points, and when must it be performed?',
+    options: {
+        a: 'An operational check every time the aircraft is refuelled to more than 90% capacity',
+        b: 'A detailed inspection (fault finding task), to be performed if the helicopter has not been used for 3 months',
+        c: 'A detailed inspection every 300 flight hours regardless of aircraft usage'
+    },
+    correct: 'b'
+},
+{
+    id: 5583,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What scheduled maintenance applies to the flame arrestor, and at what interval?',
+    options: {
+        a: 'A continuity check only, at 1200 hours, with no cleaning task defined',
+        b: 'Replacement only, at 2400 hours, with no cleaning or inspection task defined',
+        c: 'Servicing by cleaning, and a detailed inspection to ensure serviceability, both at 2400 hours'
+    },
+    correct: 'c'
+},
+{
+    id: 5584,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What scheduled operational check applies to the low level sensor, and at what interval?',
+    options: {
+        a: 'An OC at 3000 hours to determine if the FCU is able to indicate that the LLD probe has failed',
+        b: 'A DI at 300 hours to check the probe housing for corrosion',
+        c: 'A full probe replacement at 3000 hours regardless of condition'
+    },
+    correct: 'a'
+},
+{
+    id: 5585,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What is the difference between a detected fault and an observed fault in the fuel system, and what does the ATA 28 AFIP consist of?',
+    options: {
+        a: 'There is no distinction between the two fault types for the fuel system; the ATA 28 AFIP consists solely of observed faults',
+        b: 'A detected fault is found by the helicopter monitoring system with an allocated fault code; an observed fault is found by the pilot or ground crew; the ATA 28 AFIP consists of both detected and observed faults',
+        c: 'A detected fault is found only by ground crew; an observed fault is found only by the CMC automatically; the ATA 28 AFIP consists solely of detected faults'
+    },
+    correct: 'b'
+},
+{
+    id: 5586,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Approximately how long does the fuel system built-in test take to return the FUEL caption from amber TEST back to white FUEL?',
+    options: {
+        a: 'About 6 seconds',
+        b: 'About 1 second',
+        c: 'About 30 seconds'
+    },
+    correct: 'a'
+},
+{
+    id: 5587,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Where are the pressure switch and the pressure transducers of the fuel indicating system physically located?',
+    options: {
+        a: 'Both the pressure switch and the pressure transducers are located inside the Fuel Control Unit housing',
+        b: 'The pressure switch is located on the engine feeding line; the pressure transducers are located on the manifold',
+        c: 'The pressure switch is located on the manifold; the pressure transducers are located on the engine feeding line'
+    },
+    correct: 'b'
+},
+{
+    id: 5588,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Is the green FUEL X FEED indication an advisory or a caution, and how does this compare with FUEL LOW?',
+    options: {
+        a: 'FUEL X FEED is a yellow caution; FUEL LOW is a green advisory, a lower-priority indication than a caution',
+        b: 'Both FUEL X FEED and FUEL LOW are red warnings, the highest priority indication class on the CAS',
+        c: 'FUEL X FEED is a green advisory; FUEL LOW is a yellow caution, a higher-priority indication than an advisory'
+    },
+    correct: 'c'
+},
+{
+    id: 5589,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What is the difference between the caution given for a fuel boost pump low pressure condition and the caution given for a fuel probe failure?',
+    options: {
+        a: 'Low boost pump pressure gives 1 (2) FUEL PROBE; a fuel probe failure gives 1 (2) FUEL PUMP',
+        b: 'Both conditions give the identical caution, 1 (2) FCU FAIL, with no way to distinguish them on the CAS',
+        c: 'Low boost pump pressure gives 1 (2) FUEL PUMP; a fuel probe failure gives 1 (2) FUEL PROBE'
+    },
+    correct: 'c'
+},
+{
+    id: 5590,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'Which serial data bus does the FCU use to transmit fuel quantity data to the MAUs?',
+    options: {
+        a: 'RS-232',
+        b: 'CAN bus',
+        c: 'ARINC429'
+    },
+    correct: 'c'
+},
+{
+    id: 5591,
+    Aircraft: 'AW139',
+    Category: '28',
+    question: 'What variable does the FCU use to calculate its fuel density compensation?',
+    options: {
+        a: 'Fuel temperature',
+        b: 'Aircraft roll attitude',
+        c: 'Ambient barometric pressure'
+    },
+    correct: 'a'
+},
 ];
