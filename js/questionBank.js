@@ -52273,7 +52273,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 5448,
     Aircraft: 'AW139',
     Category: '30',
@@ -52284,7 +52284,7 @@ export const questions = [
         c: 'PITOT 1 HEAT ON on MFD1 when circuit breaker CB139 is set to ON; PITOT 2 HEAT ON on MFD2 when circuit breaker CB138 is set to ON'
     },
     correct: 'c'
-},
+}, */
 {
     id: 5449,
     Aircraft: 'AW139',
@@ -52741,7 +52741,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 5487,
     Aircraft: 'AW139',
     Category: '28',
@@ -52752,7 +52752,7 @@ export const questions = [
         c: 'It may never be used in the AW139, regardless of maintenance action'
     },
     correct: 'a'
-},
+}, */
 {
     id: 5488,
     Aircraft: 'AW139',
@@ -53485,7 +53485,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 5549,
     Aircraft: 'AW139',
     Category: '28',
@@ -53496,7 +53496,7 @@ export const questions = [
         c: 'AMP 39-A-12-11-01-00A-211A-A, Fuel tanks – Refuel'
     },
     correct: 'c'
-},
+}, */
 {
     id: 5550,
     Aircraft: 'AW139',
@@ -54529,7 +54529,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 5636,
     Aircraft: 'AW139',
     Category: '71',
@@ -54540,7 +54540,7 @@ export const questions = [
         c: 'Carry out if the operator believes there is a history of failure'
     },
     correct: 'a'
-},
+}, */
 {
     id: 5637,
     Aircraft: 'AW139',
