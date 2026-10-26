@@ -54821,13 +54821,13 @@ export const questions = [
     id: 5660,
     Aircraft: 'AW139',
     Category: '71',
-    question: 'Which exhaust specification applies to the Right Hand configuration of the PT6C-67C?',
+    question: 'What does the engine specification of the PT6C-67C denote?',
     options: {
-        a: 'BS 963',
-        b: 'BS 1019',
-        c: 'BS 1500'
+        a: 'Shaft Horsepower rating and engine configuration',
+        b: 'Left hand or right hand configuration',
+        c: 'Maximum ITT limit only'
     },
-    correct: 'a'
+    correct: 'b'
 },
 {
     id: 5661,
