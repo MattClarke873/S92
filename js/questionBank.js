@@ -53321,7 +53321,7 @@ export const questions = [
     id: 5535,
     Aircraft: 'AW139',
     Category: '28',
-    question: 'What does the documentation note about the fuel manifold assembly across the AW139 fleet?',
+    question: 'What does the documentation note about the aircraft fuel manifold assembly across the AW139 fleet?',
     options: {
         a: "There is more than one type of manifold assembly (for example an 'AERO' variant), so effectivity must be checked",
         b: 'The manifold assembly was discontinued and replaced entirely by the fuel selector valve on later aircraft',
@@ -56011,7 +56011,7 @@ export const questions = [
     Category: '72',
     question: 'How is the BOV constructed, and what prevents contamination of its operation?',
     options: {
-        a: 'A spring loaded piston sliding inside a housing, sealed by a rolling diaphragm around its circumference, with an integral 10 micron filter to prevent contamination',
+        a: 'A spring loaded piston sliding inside a housing, sealed by a rolling diaphragm around its circumference, with an integral 100 micron filter to prevent contamination',
         b: 'A butterfly valve driven by a stepper motor, with a 50 micron filter fitted externally on the fuel line',
         c: 'A solenoid-operated poppet valve with no filter, relying on a wiper seal for contamination control'
     },
@@ -56713,4 +56713,1445 @@ export const questions = [
     },
     correct: 'b'
 },
+{
+    id: 5818,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What type of engine control does each PT6C-67C engine use?',
+    options: {
+        a: 'A single channel Fuel Management Module (FMM)',
+        b: 'A dual channel Electronic Engine Control (EEC)',
+        c: 'A single channel Electronic Engine Control (EEC)'
+    },
+    correct: 'c'
+},
+{
+    id: 5819,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What is the purpose of the fuel control system?',
+    options: {
+        a: 'To provide clean air at the required pressure and flow to cool the engine',
+        b: 'To provide clean fuel at the required pressure and flow to permit control of the engine',
+        c: 'To provide clean oil at the required pressure and flow to lubricate the engine'
+    },
+    correct: 'b'
+},
+{
+    id: 5820,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Which component is integral with the Fuel Management Module (FMM)?',
+    options: {
+        a: 'The fuel pump and filter',
+        b: 'The fuel heater and FCOC',
+        c: 'The ecology fuel accumulator and manifold'
+    },
+    correct: 'a'
+},
+{
+    id: 5821,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Which of the following is one of the electronic components of the fuel system?',
+    options: {
+        a: 'The Ecology Fuel Accumulator',
+        b: 'The Permanent Magnet Alternator (PMA)',
+        c: 'The Fuel Cooled Oil Cooler (FCOC)'
+    },
+    correct: 'b'
+},
+{
+    id: 5822,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What two ratings, if exceeded, will trigger an engine limit exceedance indication?',
+    options: {
+        a: 'AEO 2.5 minute rating or OEI 10 minute rating',
+        b: 'AEO 5 minute rating or OEI 2.5 minute rating',
+        c: 'AEO 10 minute rating or OEI 5 minute rating'
+    },
+    correct: 'b'
+},
+{
+    id: 5823,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What type of pump is the low pressure pump within the FMM?',
+    options: {
+        a: 'An engine driven regenerative pump',
+        b: 'An engine driven gear type pump',
+        c: 'An electrically driven centrifugal pump'
+    },
+    correct: 'a'
+},
+{
+    id: 5824,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'After the fuel heater, where does the fuel pass through next?',
+    options: {
+        a: 'A 10 micron metallic disposable fuel filter',
+        b: 'A 25 micron non-metallic disposable fuel filter',
+        c: 'A 10 micron non-metallic disposable fuel filter'
+    },
+    correct: 'c'
+},
+{
+    id: 5825,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'At what differential pressure does fuel bypass the filter or heater if blocked?',
+    options: {
+        a: '24 to 30 PSID',
+        b: '16 to 19 PSID',
+        c: '35 to 40 PSID'
+    },
+    correct: 'a'
+},
+{
+    id: 5826,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What type of pump pressurizes fuel exiting the fuel filter?',
+    options: {
+        a: 'A low pressure regenerative pump',
+        b: 'A high pressure gear type pump',
+        c: 'A high pressure centrifugal pump'
+    },
+    correct: 'b'
+},
+{
+    id: 5827,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Where is a portion of high pressure fuel ported back to?',
+    options: {
+        a: 'The jet pump at the inlet side of the low pressure centrifugal pump',
+        b: 'The ecology accumulator at the inlet side of the fuel manifold',
+        c: 'The bypass valve at the inlet side of the fuel heater'
+    },
+    correct: 'a'
+},
+{
+    id: 5828,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What does the FMM work in conjunction with to control metered fuel flow?',
+    options: {
+        a: 'The Fuel Cooled Oil Cooler (FCOC)',
+        b: 'The Permanent Magnet Alternator (PMA)',
+        c: 'The Electronic Engine Control (EEC)'
+    },
+    correct: 'c'
+},
+{
+    id: 5829,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Where is the FMM installed?',
+    options: {
+        a: 'On the engine fuel manifold',
+        b: 'On the avionics cabinet shelf',
+        c: 'On the accessory gearbox'
+    },
+    correct: 'c'
+},
+{
+    id: 5830,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What type of unit is the Fuel Management Module?',
+    options: {
+        a: 'A purely hydro-mechanical unit',
+        b: 'An electro-hydro-mechanical unit',
+        c: 'A fully electronic digital unit'
+    },
+    correct: 'b'
+},
+{
+    id: 5831,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Which parameters does the FMM use as inputs?',
+    options: {
+        a: 'EEC signals, Nr, Q and ITT',
+        b: 'PLA, Nr, P3 pressure and ITT',
+        c: 'EEC signals, PLA, P3 pressure and N1/NG speed'
+    },
+    correct: 'c'
+},
+{
+    id: 5832,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'In automatic mode, what controls the Fuel Metering Valve?',
+    options: {
+        a: 'A 3D-cam actuated by the PLA',
+        b: 'A manual shutoff valve controlled by the pilot',
+        c: 'A torque motor commanded by the EEC'
+    },
+    correct: 'c'
+},
+{
+    id: 5833,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'In manual mode, what controls the Fuel Metering Valve?',
+    options: {
+        a: 'A torque motor commanded by the EEC',
+        b: 'A 3D-cam actuated by the PLA',
+        c: 'A speed bias servo commanded by Ng'
+    },
+    correct: 'b'
+},
+{
+    id: 5834,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What does the FMM do to prevent engine surge in manual control mode?',
+    options: {
+        a: 'It limits the maximum torque output',
+        b: 'It limits the rate of deceleration',
+        c: 'It limits the rate of acceleration'
+    },
+    correct: 'c'
+},
+{
+    id: 5835,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What do the engine-control gearboxes provide input to?',
+    options: {
+        a: 'The torque motor servo valve',
+        b: 'The fuel metering valve',
+        c: 'The overspeed servo valve'
+    },
+    correct: 'b'
+},
+{
+    id: 5836,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What does PLA stand for?',
+    options: {
+        a: 'Pressure Limiting Actuator',
+        b: 'Power Lever Angle',
+        c: 'Power Linkage Actuator'
+    },
+    correct: 'b'
+},
+{
+    id: 5837,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What is the main purpose of the fuel heater?',
+    options: {
+        a: 'To prevent coking of fuel in the fuel filter',
+        b: 'To prevent formations of air bubbles in the fuel filter',
+        c: 'To prevent formations of ice crystals in the fuel filter'
+    },
+    correct: 'c'
+},
+{
+    id: 5838,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Where is the fuel heater installed?',
+    options: {
+        a: 'On the bottom of the accessory gearbox',
+        b: 'On the right hand side of the accessory gearbox',
+        c: 'On the left hand side of the accessory gearbox'
+    },
+    correct: 'b'
+},
+{
+    id: 5839,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: "What type of actuator operates the fuel heater's thermal modulating valve?",
+    options: {
+        a: 'A bellows type pressure actuator',
+        b: 'A solenoid type electric actuator',
+        c: 'A wax type thermal actuator'
+    },
+    correct: 'c'
+},
+{
+    id: 5840,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: "Below what temperature is the fuel heater's thermal valve fully open?",
+    options: {
+        a: '5°C or below',
+        b: '15°C or below',
+        c: '10°C or below'
+    },
+    correct: 'c'
+},
+{
+    id: 5841,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Between which temperatures does the fuel heater valve modulate?',
+    options: {
+        a: 'Between 10°C and 32°C',
+        b: 'Between 15°C and 40°C',
+        c: 'Between 5°C and 25°C'
+    },
+    correct: 'a'
+},
+{
+    id: 5842,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Above what temperature does fuel bypass the heater entirely?',
+    options: {
+        a: 'Above 32°C',
+        b: 'Above 25°C',
+        c: 'Above 45°C'
+    },
+    correct: 'a'
+},
+{
+    id: 5843,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'At what fuel temperature does the cockpit display "FUEL HEATER"?',
+    options: {
+        a: '74°C',
+        b: '80°C',
+        c: '57°C'
+    },
+    correct: 'a'
+},
+{
+    id: 5844,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'At what fuel temperature does the cockpit display "FUEL ICING"?',
+    options: {
+        a: 'Below 5°C',
+        b: 'Below 2°C',
+        c: 'Below 10°C'
+    },
+    correct: 'a'
+},
+{
+    id: 5845,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What is the fuel filter element type?',
+    options: {
+        a: 'A 10 micron metallic disposable type filter',
+        b: 'A 10 micron non-metallic disposable type filter',
+        c: 'A 25 micron metallic reusable type filter'
+    },
+    correct: 'b'
+},
+{
+    id: 5846,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What type of bypass valve does the fuel filter use?',
+    options: {
+        a: 'A spring-loaded piston-type bypass valve',
+        b: 'A spring-loaded diaphragm-type bypass valve',
+        c: 'An electrically actuated bypass valve'
+    },
+    correct: 'a'
+},
+{
+    id: 5847,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What type of seal prevents fuel leaking from the pump?',
+    options: {
+        a: 'One carbon face type seal',
+        b: 'Two carbon face type seals',
+        c: 'One rubber O-ring seal'
+    },
+    correct: 'a'
+},
+{
+    id: 5848,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What is the purpose of the fuel bypass return at the pump?',
+    options: {
+        a: 'To maintain constant temperature in the pump and reduce icing',
+        b: 'To maintain minimum pressure on the bushings and reduce fuel leakage',
+        c: 'To maintain maximum pressure on the pump housing and reduce vibration'
+    },
+    correct: 'b'
+},
+{
+    id: 5849,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What are the indications of an engine overspeed condition?',
+    options: {
+        a: 'MASTER WARNING LIGHT and CAS amber "OVSPD"',
+        b: 'MASTER CAUTION LIGHT and CAS amber "OVSPD"',
+        c: 'MASTER CAUTION LIGHT and CAS amber "ENG OUT"'
+    },
+    correct: 'b'
+},
+{
+    id: 5850,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'At what differential pressure does the impending bypass switch activate?',
+    options: {
+        a: '24 to 30 Psid',
+        b: '10 to 14 Psid',
+        c: '16 to 19 Psid'
+    },
+    correct: 'c'
+},
+{
+    id: 5851,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What caption is displayed for impending fuel filter bypass?',
+    options: {
+        a: '"1(2) FUEL FILTER"',
+        b: '"1(2) FUEL ICING"',
+        c: '"1(2) FUEL HEATER"'
+    },
+    correct: 'a'
+},
+{
+    id: 5852,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Between which two points is the impending bypass pressure measured?',
+    options: {
+        a: 'Between the outlet of the regenerative pump and the outlet of the fuel filter',
+        b: 'Between the inlet of the gear pump and the outlet of the fuel heater',
+        c: 'Between the outlet of the jet pump and the inlet of the FMV'
+    },
+    correct: 'a'
+},
+{
+    id: 5853,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'At what differential pressure does the fuel filter bypass valve open?',
+    options: {
+        a: '30 to 36 Psid',
+        b: '16 to 19 Psid',
+        c: '24 to 30 Psid'
+    },
+    correct: 'c'
+},
+{
+    id: 5854,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What is the purpose of the ecology fuel accumulator?',
+    options: {
+        a: 'To prevent overpressure of the fuel manifold during start',
+        b: 'To prevent icing of the fuel nozzles during flight',
+        c: 'To prevent coking of the fuel nozzles after shutdown'
+    },
+    correct: 'c'
+},
+{
+    id: 5855,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What is the cracking pressure of the ecology fuel accumulator?',
+    options: {
+        a: '75 psi',
+        b: '60 psi',
+        c: '50 psi'
+    },
+    correct: 'b'
+},
+{
+    id: 5856,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Where is the ecology fuel accumulator installed?',
+    options: {
+        a: 'On the fuel manifold itself',
+        b: 'On the AGB towards the top',
+        c: 'On the AGB towards the bottom'
+    },
+    correct: 'c'
+},
+{
+    id: 5857,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What happens to the accumulator valve when the engine is operating?',
+    options: {
+        a: 'It moves off its seat allowing fuel to pass to the manifold',
+        b: 'It opens fully to drain fuel back to the tank',
+        c: 'It remains seated preventing fuel from reaching the manifold'
+    },
+    correct: 'a'
+},
+{
+    id: 5858,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What happens to the accumulator when the engine shuts down?',
+    options: {
+        a: 'The valve stays open and the body moves downwards expelling fuel to the manifold',
+        b: 'The valve re-seats and the body remains stationary holding no fuel',
+        c: 'The valve re-seats and the body moves upwards drawing fuel from the manifold'
+    },
+    correct: 'c'
+},
+{
+    id: 5859,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What is the FCOC essentially?',
+    options: {
+        a: 'A heat exchanger which utilises oil to cool the fuel system',
+        b: 'A heat exchanger which utilises air to cool the fuel system',
+        c: 'A heat exchanger which utilises fuel to cool the oil system'
+    },
+    correct: 'c'
+},
+{
+    id: 5860,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Where is the FCOC mounted?',
+    options: {
+        a: 'At the bottom of the accessory gearbox at the rear of the engine',
+        b: 'On the fuel manifold at the side of the engine',
+        c: 'At the top of the accessory gearbox at the front of the engine'
+    },
+    correct: 'a'
+},
+{
+    id: 5861,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Between what temperatures does the FCOC thermal valve modulate?',
+    options: {
+        a: 'Between 60°C and 70°C',
+        b: 'Between 50°C and 60°C',
+        c: 'Between 70°C and 80°C'
+    },
+    correct: 'a'
+},
+{
+    id: 5862,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'At what temperature is the FCOC core valve completely closed?',
+    options: {
+        a: '71°C',
+        b: '60°C',
+        c: '80°C'
+    },
+    correct: 'a'
+},
+{
+    id: 5863,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What provides the contracting force in the FCOC thermal element during temperature decrease?',
+    options: {
+        a: 'A return spring',
+        b: 'A secondary thermal element',
+        c: 'A vacuum diaphragm'
+    },
+    correct: 'a'
+},
+{
+    id: 5864,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'How many fuel nozzles does the fuel nozzle system comprise?',
+    options: {
+        a: '12 fuel nozzles (6 duplex and 6 simplex)',
+        b: '14 fuel nozzles (7 duplex and 7 simplex)',
+        c: '14 fuel nozzles, all duplex type'
+    },
+    correct: 'b'
+},
+{
+    id: 5865,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Which nozzle orifices receive fuel first on engine start?',
+    options: {
+        a: 'The 7 duplex fuel nozzle orifices',
+        b: 'The 7 simplex fuel nozzle orifices',
+        c: 'All 14 fuel nozzle orifices together'
+    },
+    correct: 'a'
+},
+{
+    id: 5866,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'At what pressure does secondary nozzle flow begin?',
+    options: {
+        a: 'Above 60 psi',
+        b: 'Above 10 psi',
+        c: 'Above 135 psi'
+    },
+    correct: 'c'
+},
+{
+    id: 5867,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What is the initial pressure of the primary nozzle flow?',
+    options: {
+        a: '135 psi',
+        b: '10 psi',
+        c: '60 psi'
+    },
+    correct: 'b'
+},
+{
+    id: 5868,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What happens to fuel in the nozzles on engine shutdown?',
+    options: {
+        a: 'Air pressure blows fuel forward into the combustion chamber',
+        b: 'Fuel drains directly overboard through a dump valve',
+        c: 'Air pressure blows fuel back towards the ecology accumulator'
+    },
+    correct: 'c'
+},
+{
+    id: 5869,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What is the purpose of the fuel nozzles?',
+    options: {
+        a: 'To deliver unatomized raw fuel into the combustion chamber',
+        b: 'To deliver metered air into the combustion chamber',
+        c: 'To deliver atomized metered fuel into the combustion chamber'
+    },
+    correct: 'c'
+},
+{
+    id: 5870,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Where does drained fuel from the nozzles return to?',
+    options: {
+        a: 'The ecology fuel accumulator, via the drain passages',
+        b: 'The fuel heater, via the return passages',
+        c: 'The aircraft fuel tank, via the return hose'
+    },
+    correct: 'a'
+},
+{
+    id: 5871,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What does the Pc Regulator supply regulated pressure to?',
+    options: {
+        a: 'The overspeed servo valve and the pressurizing valve only',
+        b: 'The fuel nozzles and the ecology accumulator only',
+        c: 'The torque motor servo valve, tachometer, speed bias and speed setting servos'
+    },
+    correct: 'c'
+},
+{
+    id: 5872,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'At what pressure does the High Pressure Relief Valve (HPRV) open?',
+    options: {
+        a: '750 psid',
+        b: '900 psid',
+        c: '500 psid'
+    },
+    correct: 'a'
+},
+{
+    id: 5873,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Where does the HPRV discharge fuel to?',
+    options: {
+        a: 'Back to the pump interstage (Pb)',
+        b: 'Forward to the fuel manifold',
+        c: 'Back to the fuel tank directly'
+    },
+    correct: 'a'
+},
+{
+    id: 5874,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What pressure drop does the bypass valve maintain across the metering valve?',
+    options: {
+        a: 'A constant 30 psid',
+        b: 'A constant 50 psid',
+        c: 'A constant 75 psid'
+    },
+    correct: 'b'
+},
+{
+    id: 5875,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What is the minimum fuel flow orifice setting?',
+    options: {
+        a: '65 PPH',
+        b: '85 PPH',
+        c: '45 PPH'
+    },
+    correct: 'a'
+},
+{
+    id: 5876,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What is the purpose of the minimum fuel flow orifice?',
+    options: {
+        a: 'To control fuel for maximum power and prevent overspeed during acceleration',
+        b: 'To control fuel for initial start and prevent flameout during deceleration',
+        c: 'To control fuel for cruise power and prevent icing during descent'
+    },
+    correct: 'b'
+},
+{
+    id: 5877,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What does rotation of the fuel metering valve set?',
+    options: {
+        a: 'The maximum flow stop position',
+        b: 'The window opening width',
+        c: 'The window opening height'
+    },
+    correct: 'b'
+},
+{
+    id: 5878,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: "What sets the fuel metering valve's window opening height?",
+    options: {
+        a: 'Axial movement as a function of P3 air acting on the P3 bellows',
+        b: 'Rotational movement as a function of PLA acting on the 3D cam',
+        c: 'Axial movement as a function of Ng acting on the flyweights'
+    },
+    correct: 'a'
+},
+{
+    id: 5879,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'At what pressure does the pressurizing valve open during engine start?',
+    options: {
+        a: '100 psid',
+        b: '150 psid',
+        c: '125 psid'
+    },
+    correct: 'c'
+},
+{
+    id: 5880,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What happens when the PLA is moved to the shutoff position?',
+    options: {
+        a: 'The shutdown solenoid valve energises, diverting metered fuel to the overspeed valve',
+        b: 'The manual shutoff valve opens, diverting supply pressure to bypass flow to close the pressurizing valve',
+        c: 'The manual shutoff valve closes, diverting bypass flow to supply pressure to open the pressurizing valve'
+    },
+    correct: 'b'
+},
+{
+    id: 5881,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What does the shutdown solenoid valve do when energised?',
+    options: {
+        a: 'It closes a port preventing bypass pressure from reaching the FMV',
+        b: 'It opens a port allowing metered fuel pressure to drain into Pb, closing the pressurizing valve',
+        c: 'It opens a port allowing supply pressure to drain into Pm, opening the pressurizing valve'
+    },
+    correct: 'b'
+},
+{
+    id: 5882,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What type of valve is the Torque Motor Servo Valve?',
+    options: {
+        a: 'A dual nozzle flapper servo valve controlled by the EEC',
+        b: 'A single nozzle poppet servo valve controlled by the EEC',
+        c: 'A dual nozzle flapper servo valve controlled by the PLA'
+    },
+    correct: 'a'
+},
+{
+    id: 5883,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What happens to the fuel valve with a low input current to the torque motor?',
+    options: {
+        a: 'The fuel valve moves to the min fuel flow stop',
+        b: 'The fuel valve remains at the current position',
+        c: 'The fuel valve moves to the max fuel flow stop'
+    },
+    correct: 'c'
+},
+{
+    id: 5884,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What happens to the fuel valve with a high current to the torque servo valve?',
+    options: {
+        a: 'The fuel valve oscillates between flow stops',
+        b: 'The fuel valve moves to the maximum fuel flow stop',
+        c: 'The fuel valve moves to the minimum fuel flow stop'
+    },
+    correct: 'c'
+},
+{
+    id: 5885,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What energises the Overspeed Solenoid?',
+    options: {
+        a: 'An electrical current provided by the EEC',
+        b: 'Hydraulic pressure provided by the FMM',
+        c: 'An electrical current provided by the PMA directly'
+    },
+    correct: 'a'
+},
+{
+    id: 5886,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What does the Overspeed Servo Valve do when energised?',
+    options: {
+        a: 'It drives downward and impinges on the torque motor arm, opening the FMV window',
+        b: 'It drives upward and impinges on the fuel metering valve arm, opening the FMV window',
+        c: 'It drives downward and impinges on the fuel metering valve arm, closing the FMV window'
+    },
+    correct: 'c'
+},
+{
+    id: 5887,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What happens when current is removed from the overspeed valve?',
+    options: {
+        a: 'Fuel pressure increases, forcing the FMV fully closed',
+        b: 'Fuel is trapped, locking the FMV in its current position',
+        c: 'Fuel bypasses, returning FMV control to the EEC or 3D linkage'
+    },
+    correct: 'c'
+},
+{
+    id: 5888,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What components make up the Ng governor system?',
+    options: {
+        a: 'A torque motor, a 3D cam and follower arm',
+        b: 'Governor flyweights, a 3D cam and follower arm',
+        c: 'Governor flyweights, a speed bias servo and brake'
+    },
+    correct: 'b'
+},
+{
+    id: 5889,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What happens as Ng speed increases?',
+    options: {
+        a: 'Flyweights move inward and open the bleed hole to Pb',
+        b: 'Flyweights move outward and close the bleed hole to Pb',
+        c: 'Flyweights move outward and open the bleed drain port fully'
+    },
+    correct: 'b'
+},
+{
+    id: 5890,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What happens as Ng speed decreases?',
+    options: {
+        a: 'Flyweights remain stationary while the 3D cam moves down',
+        b: 'Flyweights move inward, opening further the bleed drain port',
+        c: 'Flyweights move outward, closing further the bleed drain port'
+    },
+    correct: 'b'
+},
+{
+    id: 5891,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What is the purpose of the Mode Select Solenoid Valve (MSSV)?',
+    options: {
+        a: 'To provide a smooth change between manual and auto modes of the engine',
+        b: 'To provide a smooth change between idle and flight start modes',
+        c: 'To provide overspeed protection during manual mode operation'
+    },
+    correct: 'a'
+},
+{
+    id: 5892,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What state is the MSSV in during Automatic mode?',
+    options: {
+        a: 'Energised, allowing Pc pressure to act on the mode select servo valve',
+        b: 'Energised, preventing Pc pressure acting on the mode select servo valve',
+        c: 'De-energised, preventing Pc pressure acting on the mode select servo valve'
+    },
+    correct: 'b'
+},
+{
+    id: 5893,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What happens when the MSSV de-energises?',
+    options: {
+        a: 'Pc fuel pressure is vented overboard through the drain port',
+        b: 'Pb fuel pressure acts upon the front face of the mode select servo valve',
+        c: 'Pc fuel pressure acts upon the rear face of the mode select servo valve'
+    },
+    correct: 'c'
+},
+{
+    id: 5894,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What locks the speed bias servo during transfer to manual mode?',
+    options: {
+        a: 'The speed bias brake, under Pc pressure',
+        b: 'The torque motor, under Ps pressure',
+        c: 'The mode select servo, under Pb pressure'
+    },
+    correct: 'a'
+},
+{
+    id: 5895,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What components make up the Ng Speed Tracking System?',
+    options: {
+        a: 'Speed bias pilot valve, torque motor servo valve, overspeed solenoid and follower arm',
+        b: 'Speed bias pilot valve, speed bias servo and brake, speed setting pilot valve, speed setting servo and face gear',
+        c: 'Speed setting pilot valve, pressurizing valve, shutoff valve and face gear'
+    },
+    correct: 'b'
+},
+{
+    id: 5896,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What is the purpose of the Ng Speed Tracking System?',
+    options: {
+        a: 'To allow a smooth transition between manual and automatic engine control modes',
+        b: 'To allow a smooth transition between ground and flight overspeed limits',
+        c: 'To allow a smooth transition between idle and flight start modes'
+    },
+    correct: 'a'
+},
+{
+    id: 5897,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What positions the FMV axially in Automatic mode?',
+    options: {
+        a: 'Compressor discharge pressure P3 acting upon the bellows assembly',
+        b: 'Ng flyweight movement acting through the follower arm',
+        c: 'Power Lever Angle acting through the 3D cam'
+    },
+    correct: 'a'
+},
+{
+    id: 5898,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What is the maximum torque change allowed during the Transfer Operation Mode?',
+    options: {
+        a: '5%',
+        b: '10%',
+        c: '25%'
+    },
+    correct: 'b'
+},
+{
+    id: 5899,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What does the EEC illuminate when the engine exceeds its allowable limits?',
+    options: {
+        a: 'The MCL and an amber "OVSPD" message on the CAS',
+        b: 'The MCL and an amber "ENG LIM EXPIRE" message on the CAS',
+        c: 'The MWL and an amber "ENG OUT" message on the CAS'
+    },
+    correct: 'b'
+},
+{
+    id: 5900,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'In Manual mode, what controls the rotational position of the Fuel Metering Valve?',
+    options: {
+        a: 'The compressor discharge pressure P3, via the bellows assembly',
+        b: 'The Power Lever Angle, via the 3D cam position',
+        c: 'The EEC torque motor, via the servo valve'
+    },
+    correct: 'b'
+},
+{
+    id: 5901,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'In Manual mode, what controls the axial position of the FMV?',
+    options: {
+        a: 'Ng speed via the flyweight governor',
+        b: 'PLA position via the 3D cam',
+        c: 'P3 air pressure'
+    },
+    correct: 'c'
+},
+{
+    id: 5902,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'At what PLA position is the engine normally started in manual mode?',
+    options: {
+        a: 'The 40° neutral position',
+        b: 'The 65° neutral position',
+        c: 'The 55° neutral position'
+    },
+    correct: 'c'
+},
+{
+    id: 5903,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'How is start enrichment achieved in manual mode under adverse conditions?',
+    options: {
+        a: 'By energising the shutdown solenoid valve',
+        b: 'By increasing the P3 bellows pressure',
+        c: 'By repositioning the PLA'
+    },
+    correct: 'c'
+},
+{
+    id: 5904,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What limits engine acceleration and deceleration in manual mode?',
+    options: {
+        a: 'The PMA, to prevent voltage fluctuations',
+        b: 'The EEC, to prevent overspeed conditions',
+        c: 'The FMM, to prevent flameout or surge conditions'
+    },
+    correct: 'c'
+},
+{
+    id: 5905,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'In which modes is the overspeed protection system available?',
+    options: {
+        a: 'Manual mode only',
+        b: 'Automatic mode only',
+        c: 'Both manual and automatic modes'
+    },
+    correct: 'c'
+},
+{
+    id: 5906,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What type of control unit is the EEC?',
+    options: {
+        a: 'A dual channel control unit',
+        b: 'A triple redundant control unit',
+        c: 'A single channel control unit'
+    },
+    correct: 'c'
+},
+{
+    id: 5907,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: "Why are the two engines' EECs interconnected?",
+    options: {
+        a: 'For load sharing purposes',
+        b: 'For overspeed testing purposes',
+        c: 'For fuel heater control purposes'
+    },
+    correct: 'a'
+},
+{
+    id: 5908,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Where is the EEC mounted?',
+    options: {
+        a: 'On the accessory gearbox beside the FMM',
+        b: 'In the aircraft avionic cabinet in the rear fuselage',
+        c: 'In the cockpit beneath the collective lever'
+    },
+    correct: 'b'
+},
+{
+    id: 5909,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'How is the EEC cooled and isolated from vibration?',
+    options: {
+        a: 'It is mounted on vibration isolators and has a liquid cooled cabinet',
+        b: 'It is mounted on vibration isolators and has an air cooled cabinet',
+        c: 'It is mounted on rubber bushings and has a fuel cooled cabinet'
+    },
+    correct: 'b'
+},
+{
+    id: 5910,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'How is the EEC/FMM combination classified?',
+    options: {
+        a: 'Single channel FADEC with manual backup',
+        b: 'Dual channel FADEC with manual backup',
+        c: 'Single channel FADEC with no backup'
+    },
+    correct: 'a'
+},
+{
+    id: 5911,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What happens when IDLE is selected on the EMS?',
+    options: {
+        a: 'The EEC starts the engine and controls it at 65% N2/Nf',
+        b: 'The EEC starts the engine and controls it at 100% N2/Nf',
+        c: 'The EEC starts the engine and controls it at 49% N2/Nf'
+    },
+    correct: 'a'
+},
+{
+    id: 5912,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'At what Ng value does the engine start/ignition relay switch off?',
+    options: {
+        a: '40%',
+        b: '65%',
+        c: '49%'
+    },
+    correct: 'c'
+},
+{
+    id: 5913,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What happens when FLIGHT is selected on the EMS?',
+    options: {
+        a: 'The EEC provides a start with temperature limiting until N2/Nr of 100 or 102% is reached',
+        b: 'The EEC provides a start with pressure limiting until N2/Nr of 65% is reached',
+        c: 'The EEC provides a start with temperature limiting until Ng of 49% is reached'
+    },
+    correct: 'a'
+},
+{
+    id: 5914,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What happens when OFF is selected on the EMS?',
+    options: {
+        a: 'The overspeed solenoid is activated and fuel flow is reduced',
+        b: 'The MSSV is de-energised and fuel flow reverts to manual',
+        c: 'The shutoff solenoid is activated and fuel flow is shut off'
+    },
+    correct: 'c'
+},
+{
+    id: 5915,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Which rotor speed reference points can the pilot select via the EEC?',
+    options: {
+        a: '100% to 102%',
+        b: '95% to 100%',
+        c: '102% to 110%'
+    },
+    correct: 'a'
+},
+{
+    id: 5916,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Which switch allows the pilot to select One Engine Inoperative training?',
+    options: {
+        a: 'The OEI TNG switch',
+        b: 'The Torque Limit Override switch',
+        c: 'The Auto/Manual switch'
+    },
+    correct: 'a'
+},
+{
+    id: 5917,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What auto-start logic feature does the EEC provide?',
+    options: {
+        a: 'Auto-start with torque limiting logic at 160%',
+        b: 'Auto-start with ITT limiting logic at 870°C',
+        c: 'Auto-start with Ng limiting logic at 106%'
+    },
+    correct: 'b'
+},
+{
+    id: 5918,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Which governing function does the EEC provide in twin engine operation?',
+    options: {
+        a: 'Proportional Ng governing',
+        b: 'Isochronous Nf governing',
+        c: 'Differential Nf governing'
+    },
+    correct: 'b'
+},
+{
+    id: 5919,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: "Which function allows one EEC to detect faults in the other engine's control?",
+    options: {
+        a: 'The torque limiter function',
+        b: 'The training function',
+        c: 'The engine crosstalk function'
+    },
+    correct: 'c'
+},
+{
+    id: 5920,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What are the two main subsystems within the EEC?',
+    options: {
+        a: 'A limiter subsystem and a crosstalk subsystem',
+        b: 'A control subsystem and a limiter subsystem',
+        c: 'A control subsystem and a training subsystem'
+    },
+    correct: 'b'
+},
+{
+    id: 5921,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What does the limiter subsystem protect against?',
+    options: {
+        a: 'Fuel filter blockage',
+        b: 'Compressor stall',
+        c: 'Power turbine overspeed'
+    },
+    correct: 'c'
+},
+{
+    id: 5922,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What is the purpose of the PMA?',
+    options: {
+        a: 'To provide a power source for the EEC',
+        b: 'To provide a power source for the cockpit instruments',
+        c: 'To provide a power source for the FMM torque motor'
+    },
+    correct: 'a'
+},
+{
+    id: 5923,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Above what Ng value is the PMA output considered valid?',
+    options: {
+        a: '40% Ng',
+        b: '34.3% Ng',
+        c: '49% Ng'
+    },
+    correct: 'a'
+},
+{
+    id: 5924,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What type of electrical output does the PMA produce?',
+    options: {
+        a: 'A single-phase supply of 115 volts AC',
+        b: 'A three-phase supply of 64 volts AC',
+        c: 'A three-phase supply of 28 volts DC'
+    },
+    correct: 'b'
+},
+{
+    id: 5925,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'How is the PMA mounted relative to the accessory gearbox?',
+    options: {
+        a: 'The rotor is mounted on the gearbox casing and the stator on the AGB driveshaft',
+        b: 'The rotor is mounted on the AGB driveshaft and the stator on a pad on the gearbox casing',
+        c: 'Both the rotor and stator are mounted externally on brackets away from the AGB'
+    },
+    correct: 'b'
+},
+{
+    id: 5926,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: "What message displays on the CAS during the EEC's power-up BIT until it completes satisfactorily?",
+    options: {
+        a: '"EEC FAIL"',
+        b: '"ENG LIM EXPIRE"',
+        c: '"ENG OUT"'
+    },
+    correct: 'a'
+},
+{
+    id: 5927,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'At what N2 value does the N2 Overspeed Limiter activate?',
+    options: {
+        a: '111%',
+        b: '106%',
+        c: '120%'
+    },
+    correct: 'a'
+},
+{
+    id: 5928,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'At what N2 value is the overspeed solenoid de-energised during recovery?',
+    options: {
+        a: 'Below 100%',
+        b: 'Below 111%',
+        c: 'Below 109%'
+    },
+    correct: 'c'
+},
+{
+    id: 5929,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Under what conditions is the overspeed test carried out?',
+    options: {
+        a: 'At Ground Idle, 49% N2, climb pitch',
+        b: 'At Flight Idle, 100% N2, flat pitch',
+        c: 'At Ground Idle, 65% N2, flat pitch'
+    },
+    correct: 'c'
+},
+{
+    id: 5930,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What N2 value does the FMM reduce fuel flow to during the overspeed test?',
+    options: {
+        a: '60% N2',
+        b: '63% N2',
+        c: '65% N2'
+    },
+    correct: 'b'
+},
+{
+    id: 5931,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'Above what N2 value is the overspeed test function disabled?',
+    options: {
+        a: '90% N2',
+        b: '80% N2',
+        c: '65% N2'
+    },
+    correct: 'b'
+},
+{
+    id: 5932,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What is the normal ITT limit during normal engine operation?',
+    options: {
+        a: '870°C, with a 5°C overshoot allowance',
+        b: '800°C, with a 15°C overshoot allowance',
+        c: '835°C, with a 10°C overshoot allowance'
+    },
+    correct: 'c'
+},
+{
+    id: 5933,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: "What is the maximum total torque limit with the torque limit switch 'OFF'?",
+    options: {
+        a: 'Q1+Q2 = 160%',
+        b: 'Q1+Q2 = 228%',
+        c: 'Q1+Q2 = 320%'
+    },
+    correct: 'c'
+},
+{
+    id: 5934,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: "What is the maximum total torque limit with the torque limit switch 'ON'?",
+    options: {
+        a: 'Q1+Q2 = 228%',
+        b: 'Q1+Q2 = 320%',
+        c: 'Q1+Q2 = 160%'
+    },
+    correct: 'a'
+},
+{
+    id: 5935,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What triggers the "ENG OUT" CAS warning?',
+    options: {
+        a: 'N1/Ng below 49%, or accelerating at 10% per second or greater',
+        b: 'N1/Ng below 34.3%, or decelerating at 10% per second or greater',
+        c: 'N1/Ng below 40%, or decelerating at 5% per second or greater'
+    },
+    correct: 'b'
+},
+{
+    id: 5936,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What are the normal EEC Ng limits?',
+    options: {
+        a: '111% maximum, 65% minimum',
+        b: '106% maximum, 60% minimum',
+        c: '100% maximum, 49% minimum'
+    },
+    correct: 'b'
+},
+{
+    id: 5937,
+    Aircraft: 'AW139',
+    Category: '73',
+    question: 'What happens if the remaining engine stays in the 2.5 minute power range for longer than 2.5 minutes?',
+    options: {
+        a: 'The legend stops flashing and turns green, with no MCL indication given',
+        b: 'The legend stops flashing and turns red, with the MCL and an amber "ENG LIM EXPIRE" message',
+        c: 'The legend continues flashing amber with no further cockpit indication'
+    },
+    correct: 'b'
+}
+
 ];
