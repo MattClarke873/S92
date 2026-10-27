@@ -55513,4 +55513,1204 @@ export const questions = [
     },
     correct: 'c'
 },
+{
+    id: 5718,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What compressor configuration does the PT6C-67C engine use, and what drives it?',
+    options: {
+        a: 'A four stage axial compressor plus one stage centrifugal compressor, driven by a single-stage compressor turbine',
+        b: 'A five stage axial compressor only, with no centrifugal stage, driven by the free turbine shaft',
+        c: 'A single stage axial compressor plus a two stage centrifugal compressor, driven by the power turbines'
+    },
+    correct: 'a'
+},
+{
+    id: 5719,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What is used for engine starting purposes on the PT6C-67C?',
+    options: {
+        a: 'An ignition unit and two spark igniters',
+        b: 'A glow-plug style heater element with no separate ignition unit',
+        c: 'A single spark igniter powered directly by the aircraft battery bus'
+    },
+    correct: 'a'
+},
+{
+    id: 5720,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How is the Electronic Engine Control (EEC) architecture described, and what does it ensure?',
+    options: {
+        a: 'A fully triplex-redundant EEC with no mechanical backup channel of any kind',
+        b: 'A single channel EEC connected with an electro-hydro-mechanical backup (FMM) that includes a manual backup channel, ensuring accurate output speed control and fast response to power demand changes',
+        c: 'Two independent EEC channels with no FMM backup, each controlling one engine accessory only'
+    },
+    correct: 'b'
+},
+{
+    id: 5721,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'In which operating modes does the EEC provide engine and aircraft protection and monitoring?',
+    options: {
+        a: 'Ground operation only; the EEC is disabled automatically once the aircraft becomes airborne',
+        b: 'Normal twin engine operation only; OEI and training mode are monitored by a separate standalone unit',
+        c: 'Normal twin engine operation, one engine inoperative (OEI) operation, and training mode'
+    },
+    correct: 'c'
+},
+{
+    id: 5722,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How is the PT6C-67C engine construction best described?',
+    options: {
+        a: 'A non-modular, fixed-shaft turboprop engine',
+        b: 'A non-modular, free-turbine turboshaft engine',
+        c: 'A modular, fixed-shaft turbojet engine'
+    },
+    correct: 'b'
+},
+{
+    id: 5723,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What drives the Accessory Gearbox (AGB), and what is its basic function?',
+    options: {
+        a: 'It is driven by the power turbines, and provides drives for the main rotor gearbox only',
+        b: 'It is driven by the compressor, and provides drives for engine and aircraft accessories',
+        c: 'It is driven directly by the output shaft, and provides drives solely for the fuel pump'
+    },
+    correct: 'b'
+},
+{
+    id: 5724,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What type of compressor bleed valve does the engine use, and what inlet configuration does the compressor have?',
+    options: {
+        a: 'An electrically heated bleed valve, with a swirl-vane-only inlet configuration and no jet flap',
+        b: 'A pneumatic and electronically controlled bleed valve, with a jet flap inlet configuration',
+        c: 'A purely mechanical, spring-only bleed valve, with a plain annular inlet configuration'
+    },
+    correct: 'b'
+},
+{
+    id: 5725,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What type of combustion chamber does the PT6C-67C use, and why?',
+    options: {
+        a: 'A single can combustion chamber, reverse flow, chosen to simplify fuel nozzle replacement',
+        b: 'A can-annular, straight-through combustion chamber, for easier borescope access',
+        c: 'An annular, reverse flow combustion chamber, for a shorter and lighter engine'
+    },
+    correct: 'c'
+},
+{
+    id: 5726,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How many stages does the compressor turbine have, which direction does it rotate, and what blade material is used?',
+    options: {
+        a: 'A single stage, rotating counter-clockwise (CCW), using super single crystal blades',
+        b: 'Two stages, rotating clockwise (CW), using directionally solidified alloy blades',
+        c: 'A single stage, rotating clockwise (CW), using ceramic matrix composite blades'
+    },
+    correct: 'a'
+},
+{
+    id: 5727,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How many stages do the power (free) turbines have, and which direction do they rotate?',
+    options: {
+        a: 'One stage, rotating counter-clockwise (CCW)',
+        b: 'Three stages, rotating clockwise (CW)',
+        c: 'Two stages, rotating clockwise (CW)'
+    },
+    correct: 'c'
+},
+{
+    id: 5728,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How does air enter the PT6C-67C, and what protects the engine from debris at this point?',
+    options: {
+        a: 'Through an annular plenum chamber into the compressor inlet case, protected by an inlet screen that prevents large particles of dirt or debris from entering',
+        b: 'Through the exhaust duct in reverse during ground idle only, filtered by the oil cooler matrix',
+        c: 'Through a bifurcated NACA-style scoop directly into the combustion chamber, with no screen fitted'
+    },
+    correct: 'a'
+},
+{
+    id: 5729,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What do the diffuser tubes do to the air leaving the centrifugal impeller?',
+    options: {
+        a: 'They cool the air by 200 degrees before it enters the combustion chamber',
+        b: 'They accelerate the air further, doubling its velocity before the combustion chamber',
+        c: 'They turn the air 90 degrees in direction and convert air velocity into static pressure'
+    },
+    correct: 'c'
+},
+{
+    id: 5730,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'Besides supporting combustion, what else is the high-pressure air from the diffuser used for?',
+    options: {
+        a: 'Driving the starter-generator directly through a dedicated air turbine',
+        b: 'Engine cooling and the aircraft heating system',
+        c: 'Powering the hydraulic pumps mounted on the accessory gearbox'
+    },
+    correct: 'b'
+},
+{
+    id: 5731,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How is fuel introduced into the reverse flow annular combustion chamber, and what ignites it?',
+    options: {
+        a: 'Metered fuel is sprayed through fourteen fuel nozzles (each with a built-in flow divider) fed by a fuel manifold, and ignited by two spark igniters powered by a high voltage exciter unit',
+        b: 'Fuel is injected through sixteen nozzles with no flow dividers, ignited by a continuous pilot flame',
+        c: 'Fuel is gravity-fed through a single central nozzle, and ignited by a glow plug embedded in the liner wall'
+    },
+    correct: 'a'
+},
+{
+    id: 5732,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'After combustion, what happens to the ignition system, and where do the expanding gases go?',
+    options: {
+        a: 'Ignition stays on continuously throughout the flight, and the gases bypass the compressor turbine entirely',
+        b: 'Ignition is turned off only on shutdown, and the gases go directly to the exhaust duct, bypassing both turbine stages',
+        c: 'Ignition is automatically turned off once combustion starts, and the gases are directed to the compressor turbine and then to the power turbines'
+    },
+    correct: 'c'
+},
+{
+    id: 5733,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What is measured at Station 1, and how does it compare with ambient conditions?',
+    options: {
+        a: 'P5 and T5 at the air intake; they are always significantly higher than ambient',
+        b: 'P1 and T1 at the air intake; they may differ slightly from ambient due to air intake duct effects, though the difference is usually small',
+        c: 'P1 and T1 at the combustion chamber inlet; they are always identical to ambient conditions'
+    },
+    correct: 'b'
+},
+{
+    id: 5734,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What is Station 2.5, and what is its air used for?',
+    options: {
+        a: 'The gas generator outlet, where temperature is monitored by thermocouples for engine control',
+        b: 'The axial compressor outlet, where pressure and temperature (P2.5, T2.5) rise significantly; this air is used for sealing bearing housings and other aircraft services',
+        c: 'The centrifugal compressor intermediate point, used solely for pre-swirl at low power settings'
+    },
+    correct: 'b'
+},
+{
+    id: 5735,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What and where is Station 2.8, and what is its air used for?',
+    options: {
+        a: 'Located at the engine air intake; its air is used exclusively for de-icing the inlet screen',
+        b: 'Located at the compressor turbine guide vane inlet; its air is used only for cabin heating',
+        c: 'Located approximately one third of the way along the impeller casing; its air (P2.8, significantly higher than P2.5) is used for the compressor airflow control system'
+    },
+    correct: 'c'
+},
+{
+    id: 5736,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What is significant about Station 3 (P3), and where is this air routed?',
+    options: {
+        a: 'P3 is measured only during engine shutdown, with no routing to cabin air or the bleed valve',
+        b: 'P3 is the lowest pressure in the engine, used only to purge the oil tank breather line',
+        c: "P3 is the highest pressure in the engine (potentially over 150 psi) and enters the combustion chamber; it is also piped from a diffuser tube at the 3 and 9 o'clock positions for cabin air, and from another boss for bleed valve operation"
+    },
+    correct: 'c'
+},
+{
+    id: 5737,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'Why is Station 4 (T4) critical, and what does the T3/T4 temperature rise represent?',
+    options: {
+        a: 'T4 always reads lower than T3, since combustion causes a temperature drop between these two stations',
+        b: 'T4 is critical in terms of potential engine operating damage, since the T3/T4 rise represents the combustion process, with T4 the peak temperature in normal operation',
+        c: 'T4 is critical only for oil cooling calculations and has no bearing on engine damage or the combustion process'
+    },
+    correct: 'b'
+},
+{
+    id: 5738,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'Where is Station 5 located, what does it reference, and how is T5 monitored?',
+    options: {
+        a: 'Located between the compressor and power turbines; it references the energy extracted by the compressor turbine, and T5 is monitored by thermocouples',
+        b: 'Located at the exhaust duct exit; it references exhaust gas velocity, monitored by a pitot-static probe',
+        c: 'Located at the air intake; it references ambient temperature only, monitored by a single resistance sensor'
+    },
+    correct: 'a'
+},
+{
+    id: 5739,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What does Flange A join, and when may it be separated?',
+    options: {
+        a: 'The exhaust case, No. 5 bearing support, and power turbine shaft housings; it is an external flange that may be separated at Heavy Maintenance',
+        b: 'The compressor turbine shroud to the combustion section small exit duct; it is external and never separated',
+        c: 'The gas generator case to the air inlet case; it is an internal flange only separated at engine overhaul'
+    },
+    correct: 'a'
+},
+{
+    id: 5740,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What does Flange C join, and is it internal or external?',
+    options: {
+        a: 'The exhaust case to the gas generator case; it is an external flange that may be separated at Heavy Maintenance',
+        b: 'The air inlet case to the accessory gearbox case; it is an internal flange only separated at overhaul',
+        c: 'The power turbine stator housing to the exhaust case; it is an internal flange'
+    },
+    correct: 'a'
+},
+{
+    id: 5741,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What does Flange D join, and is it internal or external?',
+    options: {
+        a: 'The gas generator case to the air inlet case; it is an external flange only separated at overhaul',
+        b: 'The exhaust case, No. 5 bearing support, and power turbine shaft housings; it is an external flange',
+        c: 'The power turbine stator housing to the exhaust case; it is an internal flange that may be separated at Heavy Maintenance'
+    },
+    correct: 'c'
+},
+{
+    id: 5742,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What does Flange E connect, and is it internal or external?',
+    options: {
+        a: 'An external connection between the gas generator case and the air inlet case; only separated at overhaul',
+        b: 'An internal connection between the compressor turbine shroud and the combustion section small exit duct; it may be separated at Heavy Maintenance',
+        c: 'An external connection between the exhaust case and the gas generator case; separated at Heavy Maintenance'
+    },
+    correct: 'b'
+},
+{
+    id: 5743,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What does Flange F join, and when is it separated?',
+    options: {
+        a: 'An external flange joining the exhaust case to the gas generator case; separated at Heavy Maintenance',
+        b: 'An internal flange joining the power turbine stator housing to the exhaust case; separated at Heavy Maintenance',
+        c: 'An external flange joining the gas generator case to the air inlet case; only separated at engine overhaul'
+    },
+    correct: 'c'
+},
+{
+    id: 5744,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What does Flange G join, and when is it separated?',
+    options: {
+        a: 'The air inlet case to the accessory gearbox case; only separated at engine overhaul',
+        b: 'The exhaust case to the gas generator case; separated at Heavy Maintenance',
+        c: 'The compressor turbine shroud to the small exit duct; separated at Heavy Maintenance'
+    },
+    correct: 'a'
+},
+{
+    id: 5745,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How many main bearing assemblies does the engine have, and how are they distributed?',
+    options: {
+        a: 'Five: two on the compressor spool and three on the free turbine shaft',
+        b: 'Six: three on the compressor spool and three on the free turbine shaft',
+        c: 'Four: two on the compressor spool and two on the free turbine shaft'
+    },
+    correct: 'a'
+},
+{
+    id: 5746,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What type is Bearing No. 1, what does it support, and what is its housing designed to do?',
+    options: {
+        a: 'A ball bearing supporting the intake end of the compressor rotor assembly; its flexible housing absorbs heavy axial and radial loads that could transfer to the inlet case in the event of sudden stoppage',
+        b: 'A roller bearing supporting the output end of the power turbine shaft; its housing absorbs radial loads only',
+        c: 'A ball bearing supporting the rear end of the compressor rotor assembly; its housing has no load-absorbing function'
+    },
+    correct: 'a'
+},
+{
+    id: 5747,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What type are Bearings No. 2, 3 and 4, and what do they have in common regarding movement?',
+    options: {
+        a: 'Bearing No. 2 is a ball bearing while No. 3 and No. 4 are roller bearings, none of which move axially',
+        b: 'All three are ball bearings absorbing axial loads only, with no thermal movement',
+        c: 'All three are roller bearings absorbing radial loads, with thermal expansion causing axial movement'
+    },
+    correct: 'c'
+},
+{
+    id: 5748,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What does Bearing No. 2 support, and what load does it absorb?',
+    options: {
+        a: 'The rear end of the compressor rotor assembly, absorbing radial loads',
+        b: 'The front output end of the power turbine shaft, absorbing radial loads only',
+        c: 'The middle of the power turbine shaft, absorbing axial and radial loads'
+    },
+    correct: 'a'
+},
+{
+    id: 5749,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What type is Bearing No. 5, what does it support, and what loads does it absorb?',
+    options: {
+        a: 'A ball bearing supporting the intake end of the compressor rotor, absorbing radial loading only',
+        b: 'A roller bearing supporting the rear end of the power turbine shaft, absorbing radial loading only',
+        c: 'A ball bearing supporting the front output end of the power turbine shaft, absorbing both axial and radial loading'
+    },
+    correct: 'c'
+},
+{
+    id: 5750,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What three components make up the compressor inlet section?',
+    options: {
+        a: 'The compressor inlet case, the gas generator case, and the exhaust case',
+        b: 'The Number 1 bearing, the Number 2 bearing, and the oil pump assembly',
+        c: 'The compressor inlet case, the Number 1 bearing flexible housing, and the air inlet FOD screen'
+    },
+    correct: 'c'
+},
+{
+    id: 5751,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'List the main functions of the compressor inlet case.',
+    options: {
+        a: 'It exists solely to mount the FOD screen, with the Number 1 bearing supported elsewhere in the engine',
+        b: 'It only directs airflow into the compressor, with no other structural or oil-system function',
+        c: 'Directs airflow into the compressor, supports the Number 1 bearing, forms part of the oil tank with the AGB, generates pre-swirl via piccolo holes, houses an oil sight glass, and provides cooling fins for the oil'
+    },
+    correct: 'c'
+},
+{
+    id: 5752,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What material and construction is the compressor inlet case, and what capacity oil tank does it form with the AGB?',
+    options: {
+        a: 'A welded titanium fabrication with no oil tank function; oil is stored externally in a separate 20 litre tank',
+        b: 'A composite moulded casing forming a 2 litre oil reservoir when mated to the AGB',
+        c: 'A circular machined aluminium alloy casting forming an annular plenum chamber; mated to the AGB it forms an integral oil tank of 8 litres capacity'
+    },
+    correct: 'c'
+},
+{
+    id: 5753,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How many sets of piccolo holes are equally spaced in the inlet case plenum chamber, and what does the Number 1 bearing housing reduce?',
+    options: {
+        a: 'Three sets of piccolo holes; the Number 1 bearing housing reduces oil foaming only',
+        b: 'Six sets of piccolo holes; the Number 1 bearing housing reduces vibrations associated with the compressor rotor',
+        c: 'Twelve sets of piccolo holes; the Number 1 bearing housing has no vibration-reducing function'
+    },
+    correct: 'b'
+},
+{
+    id: 5754,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What is the mesh size of the air inlet FOD screen, and what is it designed to prevent?',
+    options: {
+        a: '6.4 mm diameter open mesh, designed only to prevent large objects from entering the compressor',
+        b: '25 mm diameter mesh, designed to prevent bird ingestion only, with no effect on smaller debris',
+        c: '1.0 mm diameter fine mesh, designed to filter all airborne particulate including dust'
+    },
+    correct: 'a'
+},
+{
+    id: 5755,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What is the purpose of the pre-swirl system, and what two things does it comprise?',
+    options: {
+        a: 'To increase compressor outlet temperature for faster engine starts; it comprises the igniters and the exciter box',
+        b: 'To cool the compressor inlet air before it enters the combustion chamber; it comprises the oil cooler and the fuel heater',
+        c: 'To change the relative angle of attack of air entering the compressor and improve the surge margin at low compressor speed; it comprises the hollow inlet case struts with piccolo holes and the bleed air case'
+    },
+    correct: 'c'
+},
+{
+    id: 5756,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How does the pre-swirl system actually swirl the incoming air, and in which direction?',
+    options: {
+        a: 'When the bleed valve is closed, P3 air flows through the FOD screen, swirling the air against the direction of compressor rotation',
+        b: 'The pre-swirl is achieved by curved stator vanes alone, with no bleed air involved at any point',
+        c: 'When the bleed valve is open, P2.8 air flows through the piccolo holes in the inlet case struts, producing jets that swirl the incoming air in the direction of compressor rotation'
+    },
+    correct: 'c'
+},
+{
+    id: 5757,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'At what conditions is the pre-swirl system effective, and roughly how much bleed air passes through the pre-swirl holes?',
+    options: {
+        a: 'At all power settings including full power, with 100% of engine airflow passing through the pre-swirl holes',
+        b: 'Only at low power settings when the bleed valve is open, with approximately 90% of the bleed valve air passing through the pre-swirl holes',
+        c: 'Only during engine shutdown, with no bleed air involved since the bleed valve is always closed at that time'
+    },
+    correct: 'b'
+},
+{
+    id: 5758,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What is the purpose of the compressor bleed valve (BOV)?',
+    options: {
+        a: 'To regulate cabin air temperature independently of the compressor discharge air system',
+        b: 'To prevent compressor surge and stall at low Ng speeds, as with all gas turbine engines',
+        c: 'To control fuel flow to the fourteen fuel nozzles during acceleration'
+    },
+    correct: 'b'
+},
+{
+    id: 5759,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How is the BOV constructed, and what prevents contamination of its operation?',
+    options: {
+        a: 'A spring loaded piston sliding inside a housing, sealed by a rolling diaphragm around its circumference, with an integral 10 micron filter to prevent contamination',
+        b: 'A butterfly valve driven by a stepper motor, with a 50 micron filter fitted externally on the fuel line',
+        c: 'A solenoid-operated poppet valve with no filter, relying on a wiper seal for contamination control'
+    },
+    correct: 'a'
+},
+{
+    id: 5760,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What two opposing pressure/force combinations act on the BOV, and what do they each do?',
+    options: {
+        a: 'P1 and T1 drive the valve closed; P5 alone opens the valve against no spring force',
+        b: 'Px and P3 drive the valve towards the closed position; P2.8 pressure combined with an internal spring act to open the valve',
+        c: 'P3 alone opens the valve; Px combined with a spring closes it, the reverse of the actual arrangement'
+    },
+    correct: 'b'
+},
+{
+    id: 5761,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'At low engine speed, why does the BOV remain open, and where is the air directed?',
+    options: {
+        a: 'Because Px is lower than P2.8, which combined with spring tension keeps the valve open, directing air toward the inlet case struts (the pre-swirl system)',
+        b: 'Because P3 exceeds Px at low speed, forcing the valve open and directing air overboard through the exhaust',
+        c: 'Because the EEC torque motor always forces the valve open below 50% Ng regardless of pressures'
+    },
+    correct: 'a'
+},
+{
+    id: 5762,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What does the EEC-driven torque motor do during rapid Ng speed changes, and why?',
+    options: {
+        a: 'It modulates the pressure acting on the back of the BOV piston, essentially overriding normal operation to prevent compressor stalls in transient speeds and allow faster acceleration',
+        b: 'It disconnects the BOV entirely from the pressure system, locking it in the last known position until Ng stabilises',
+        c: 'It increases fuel flow directly, bypassing the BOV altogether during any transient speed change'
+    },
+    correct: 'a'
+},
+{
+    id: 5763,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What is the purpose of the P2.8 check valve, and what are the two methods used to check the BOV closing point?',
+    options: {
+        a: 'It is used solely to shut down the engine in an emergency; the only check method is a manual pressure gauge on the fuel line',
+        b: 'It regulates oil pressure to the Number 2 bearing; the only check method is a borescope inspection of the valve seat',
+        c: 'It is used to carry out the BOV closing point check and to expel excess 2.8 air through the exhaust; the two check methods are a water container (bubble check) and a digital pressure transducer'
+    },
+    correct: 'c'
+},
+{
+    id: 5764,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'Where is the gas generator case located, and what is it made from?',
+    options: {
+        a: 'Between the output section and the AGB, fabricated from a single titanium casting with no corrosion coating',
+        b: 'Forward of the air inlet case, fabricated from aluminium alloy with an anodised finish',
+        c: 'Between the compressor inlet case (rear) and the exhaust duct (front), fabricated from two steel alloy sections coated with a diffused aluminide process for corrosion resistance'
+    },
+    correct: 'c'
+},
+{
+    id: 5765,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'Where are the two combustion chamber drain valves located, and what is their purpose?',
+    options: {
+        a: "At the twelve o'clock position, to vent excess P3 air during rapid deceleration",
+        b: "At the six o'clock position, to prevent fuel from remaining in the combustion chamber after shutdown",
+        c: "At the nine o'clock position, to drain scavenge oil from the Number 2 bearing area"
+    },
+    correct: 'b'
+},
+{
+    id: 5766,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'Where are the two customer bleed air ports located on the gas generator case?',
+    options: {
+        a: "At the 2 and 10 o'clock positions",
+        b: "At the 3 and 9 o'clock positions",
+        c: "At the 4 and 8 o'clock positions"
+    },
+    correct: 'b'
+},
+{
+    id: 5767,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'Where is the Number 2 bearing located, and what seals are associated with it?',
+    options: {
+        a: 'In the compressor inlet case centre-bore, with no associated air seals of any kind',
+        b: 'In the accessory gearbox rear casting, sealed only by a single lip seal with no labyrinth element',
+        c: 'In the gas generator case centre-bore, with compressor and compressor turbine stator air seals; the compressor stator air seal is a double labyrinth type secured by a double coil retaining ring'
+    },
+    correct: 'c'
+},
+{
+    id: 5768,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How is the Number 2 bearing lubricated, and how is its scavenge oil returned?',
+    options: {
+        a: "Pressure oil reaches it via an inlet port, internal pressure tube and cored passage, applied by a dual nozzle at the 2 o'clock position; scavenge oil returns via an internal tube at 6 o'clock to a boss at 5 o'clock, then an external transfer tube to the AGB",
+        b: 'It is lubricated by grease packed at assembly, with no scavenge system required for its service life',
+        c: 'It is lubricated by splash only, with no pressure feed; scavenge oil drains directly overboard through the exhaust duct'
+    },
+    correct: 'a'
+},
+{
+    id: 5769,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What mounting bosses does the front section of the gas generator case provide, besides those for engine mounting?',
+    options: {
+        a: "Bosses for the 14 fuel manifold adapters, the front and rear drain valves, and the two spark igniters (at 4 and 8 o'clock)",
+        b: 'Bosses only for the starter-generator and the permanent magnet alternator',
+        c: 'Bosses only for the Number 1 and Number 5 bearings'
+    },
+    correct: 'a'
+},
+{
+    id: 5770,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How many engine mounting pads does the gas generator case provide, where are they located, and what is the recommended leak check method?',
+    options: {
+        a: "Four pads, at the 3, 6, 9 and 12 o'clock positions; a leak check requires a full teardown inspection",
+        b: "Three pads, at the 4, 8 and 12 o'clock positions; a leak check is done by operating the engine at ground idle and doing a visual check of the affected area",
+        c: "Two pads, at the 6 and 12 o'clock positions; a leak check is done only at full power in flight"
+    },
+    correct: 'b'
+},
+{
+    id: 5771,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'Where is the combustion section located, and what does it consist of?',
+    options: {
+        a: 'In the front part of the gas generator case, consisting of the combustion chamber liner and the small and large exit ducts',
+        b: 'At the rear of the exhaust case, consisting of the compressor turbine and its shroud housing',
+        c: 'Inside the accessory gearbox, consisting of the oil pump and pressure relief valve'
+    },
+    correct: 'a'
+},
+{
+    id: 5772,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How does compressor discharge air enter the combustion liner, and what happens to the gas flow direction at the exit duct zone?',
+    options: {
+        a: 'Air enters only through the igniter sleeves; gas flow turns 90 degrees outward before reaching the compressor turbine',
+        b: 'Air enters through a single large port at the liner dome; gas flow continues straight through with no direction change',
+        c: 'Air enters through straight and plunged holes, mixes with fuel and is ignited; the expanding gases then turn 180 degrees inward at the exit duct zone to flow forward through the compressor turbine guide vanes'
+    },
+    correct: 'c'
+},
+{
+    id: 5773,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: "What components make up the 'hot section' of the engine?",
+    options: {
+        a: 'The compressor inlet case, Number 1 bearing housing, and the FOD screen only',
+        b: 'Combustion chamber liners, compressor turbine vane ring, compressor turbine, power turbine vane rings, power turbines, and the exhaust case',
+        c: 'The accessory gearbox, oil cooler, and fuel heater only'
+    },
+    correct: 'b'
+},
+{
+    id: 5774,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What is the combustion chamber liner made from, and what is its shape?',
+    options: {
+        a: 'A cylindrical titanium liner, closed at both ends with a single central port',
+        b: 'An annular, heat-resistant nickel alloy liner, open at the rear end and domed at the front end',
+        c: 'A ceramic composite liner, conical in shape, open at both the front and rear ends'
+    },
+    correct: 'b'
+},
+{
+    id: 5775,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What is the role of the primary air entering near the fuel nozzle ports, compared with the secondary air?',
+    options: {
+        a: 'Primary air cools the liner walls only; secondary air supports combustion and has no cooling function',
+        b: 'Primary and secondary air perform an identical function, entering at the same location with no distinct roles',
+        c: 'Primary air supports combustion directly; secondary air cools the liner inner walls, keeps the flame away from the ceramic coated walls, and cools the gases to a temperature the compressor turbine can tolerate'
+    },
+    correct: 'c'
+},
+{
+    id: 5776,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How is the combustion chamber liner supported at its front (domed) end and at its rear end?',
+    options: {
+        a: 'The domed front end is supported by a ring of bolts; the rear end is supported by the large and small exit ducts',
+        b: 'The domed front end is supported by the Number 2 bearing cover; the rear end is bolted directly to the exhaust case',
+        c: 'The liner floats freely with no fixed support at either end, held only by the fuel nozzle sheaths'
+    },
+    correct: 'a'
+},
+{
+    id: 5777,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How many air-cooled vanes make up the compressor turbine guide vane ring, and what is their function?',
+    options: {
+        a: '19 vanes, bolted individually between inner and outer rings, directing gases to the power turbine blades',
+        b: '28 vanes, cast as a single piece with the compressor turbine disk, with no separate inner or outer ring',
+        c: '14 vanes, cast integrally between inner and outer rings, directing expanding gases from the combustion chamber to the compressor turbine blades at the optimum angle for maximum efficiency'
+    },
+    correct: 'c'
+},
+{
+    id: 5778,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How is the compressor turbine vane ring secured to the gas generator case, along with the Number 2 bearing cover and large exit duct?',
+    options: {
+        a: 'By a single large retaining nut and a lock-wire safety',
+        b: 'By an annular lock plate and 16 bolts',
+        c: 'By eight countersunk screws and a spring clip retainer'
+    },
+    correct: 'b'
+},
+{
+    id: 5779,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What does the outer ring of the compressor turbine vane ring locate, and what does the small exit duct do?',
+    options: {
+        a: 'It locates the compressor turbine shroud housing and small exit duct; the small exit duct forms the outer section of an envelope that changes gas flow direction 180 degrees towards the compressor turbine guide vanes',
+        b: 'It locates the Number 5 bearing support; the small exit duct forms the inlet to the output section torque tube',
+        c: 'It locates the accessory gearbox input gear shaft; the small exit duct forms the oil tank diaphragm'
+    },
+    correct: 'a'
+},
+{
+    id: 5780,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What do the compressor turbine shroud segments do, and how are they retained?',
+    options: {
+        a: 'They provide the primary structural support for the combustion liner, retained by the fuel nozzle sheaths',
+        b: 'They act as a seal and provide running clearance for the compressor turbine, retained by a retaining ring seated inside and riveted to the shroud housing',
+        c: 'They form the oil-tight diaphragm for the accessory gearbox, retained by four bolts on the front face'
+    },
+    correct: 'b'
+},
+{
+    id: 5781,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How is the compressor turbine disk assembly balanced, and can it be replaced independently?',
+    options: {
+        a: 'It is balanced only as part of the complete compressor rotor assembly, and can never be replaced on its own',
+        b: 'It is an independently balanced unit (nickel alloy, two-plane balanced, with classified weights) that can be replaced by another balanced unit without affecting the compressor rotor assembly balance',
+        c: 'It requires no balancing at all, since the fir-tree blade serrations self-centre the assembly automatically'
+    },
+    correct: 'b'
+},
+{
+    id: 5782,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How does the compressor turbine drive the compressor rotor assembly, and what ensures correct positioning for balance retention?',
+    options: {
+        a: 'Through a hydraulic coupling that transmits torque without any mechanical spline engagement',
+        b: 'Through a direct bolted flange connection with no splines, relying solely on friction to transmit torque',
+        c: 'Through an externally splined shaft extension fitting into the internally splined compressor stubshaft, with a master spline ensuring positive location to retain original balance'
+    },
+    correct: 'c'
+},
+{
+    id: 5783,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How is the compressor turbine assembly secured to the compressor rotor assembly, and what feature allows disk growth to be checked?',
+    options: {
+        a: 'A shrink-fit taper alone secures the assembly, with disk growth checked by weighing the disk before and after a flight cycle',
+        b: 'A series of eight peripheral bolts secure the assembly; disk growth is checked using an ultrasonic thickness gauge only',
+        c: 'A centre bolt and key-washer secure the assembly; a circumferential groove in the turbine disk enables disk growth to be checked'
+    },
+    correct: 'c'
+},
+{
+    id: 5784,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How are the compressor turbine blades attached to the disk, and what material are they made from?',
+    options: {
+        a: 'Welded directly to the disk rim; made of directionally solidified cobalt alloy',
+        b: 'Bolted individually through the disk web; made of ceramic matrix composite',
+        c: 'Secured to fir-tree serrations in the disk circumference and retained by rivets; made of single crystal cast high temperature nickel alloy, parallel or tapered depending on the engine model'
+    },
+    correct: 'c'
+},
+{
+    id: 5785,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'Roughly how much of the energy available from the products of combustion is needed to drive the compressor and accessories?',
+    options: {
+        a: 'Nearly two thirds',
+        b: 'Less than one tenth',
+        c: 'Almost all of it, leaving very little for the power turbines'
+    },
+    correct: 'a'
+},
+{
+    id: 5786,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What is sulphidation, and where does it tend to form on a turbine blade?',
+    options: {
+        a: 'A reaction of a metal or alloy with a form of sulphur that produces a sulphur compound on or under the metal surface, tending to form in the blade root and shrouds, and to a lesser extent on the blade airfoil',
+        b: 'An electro-chemical process identical to galvanic corrosion, forming only at the disk bore',
+        c: 'A purely mechanical wear process caused by particle erosion, forming only on the blade tip'
+    },
+    correct: 'a'
+},
+{
+    id: 5787,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What are the approximate temperature ranges for Type I and Type II sulphidation?',
+    options: {
+        a: 'Type I and Type II occur in the identical temperature range, differing only in which blade surface is affected',
+        b: 'Type I occurs below 500°F (260°C); Type II occurs above 2,000°F (1,093°C)',
+        c: 'Type I occurs between about 1,500°F to 1,750°F (825°C to 950°C); Type II occurs between about 1,300°F to 1,500°F (700°C to 800°C)'
+    },
+    correct: 'c'
+},
+{
+    id: 5788,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How does sulphur get into the engine, and what sulphur limit applies to Jet A/A-1 (JP-8) fuel?',
+    options: {
+        a: 'Sulphur only enters the engine through airborne industrial pollution, never through the fuel itself',
+        b: 'All hydrocarbon fuels contain trace sulphur after refining; Jet A/A-1 (JP-8) allows a maximum of 0.3 percent by mass of sulphur, with other turbine fuels allowed 0.1 percent more',
+        c: 'Jet A/A-1 fuel is required to be completely sulphur-free, with any detectable sulphur grounds for rejecting the fuel batch'
+    },
+    correct: 'b'
+},
+{
+    id: 5789,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How does sulphuric acid form inside the hot section, and why is the blade root the worst location for corrosion?',
+    options: {
+        a: 'Sulphuric acid never forms in the hot section; the blade root is highlighted only because it is hardest to inspect',
+        b: 'Water, a combustion by-product, combines with sodium sulphur compounds to form sulphuric acid; the blade root is the worst location because weakening there can cause catastrophic turbine failure',
+        c: 'Sulphuric acid forms only from residual engine wash fluid; the blade root is the worst location purely for cosmetic reasons'
+    },
+    correct: 'b'
+},
+{
+    id: 5790,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How does sulphidation differ from galvanic corrosion?',
+    options: {
+        a: 'Galvanic corrosion only occurs in high temperature environments; sulphidation occurs only at normal temperatures',
+        b: 'Sulphidation is a chemical process occurring in high temperature environments; galvanic corrosion is an electro-chemical process that occurs at normal temperatures',
+        c: 'Sulphidation and galvanic corrosion are the same process, just named differently by different manufacturers'
+    },
+    correct: 'b'
+},
+{
+    id: 5791,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How many vanes make up the power turbine stator assembly, and what is their function?',
+    options: {
+        a: 'Forty-four vanes, one per power turbine blade, cast as a single matched pair with the blades',
+        b: 'Nineteen integrally-cast nickel alloy vanes between an inner and outer ring, directing compressor turbine discharge gases onto the power turbine blades at the most efficient angle and velocity',
+        c: 'Fourteen vanes identical to the compressor turbine guide vanes, directing air into the combustion liner'
+    },
+    correct: 'b'
+},
+{
+    id: 5792,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How is the power turbine vane ring classification handled between the first and second stage?',
+    options: {
+        a: 'Neither stage is classed; vane rings are fitted on a first-available basis with no performance selection',
+        b: 'The first stage ring is classed, selected to ensure optimum N1/ITT performance curves, while the second stage turbine vane ring is not classed',
+        c: 'Both the first and second stage rings are classed identically, using the same selection criteria'
+    },
+    correct: 'b'
+},
+{
+    id: 5793,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How many blades does each power turbine disk incorporate, and how do they differ from the compressor turbine blades?',
+    options: {
+        a: "44 directionally solidified alloy (uncooled) blades, cast with notched and shrouded tips, unlike the compressor turbine's single crystal cooled blades",
+        b: '28 single crystal cooled blades, identical in design to the compressor turbine blades',
+        c: '44 ceramic matrix composite blades with no shrouds, cooled internally by bleed air'
+    },
+    correct: 'a'
+},
+{
+    id: 5794,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How are the power turbine disk and blade assembly retained on the shaft, and how do the blades form a seal at their tips?',
+    options: {
+        a: 'Retained by eight peripheral bolts, with no shroud or sealing feature at the blade tips at all',
+        b: 'Retained by a retaining bolt and key washer, with the disk and blade assembly rotating within a double knife-edge shroud to form a continuous seal at the blade tips',
+        c: 'Retained by a shrink-fit taper only, with blade tip sealing provided by a single labyrinth ring'
+    },
+    correct: 'b'
+},
+{
+    id: 5795,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What is the purpose of the power turbine shaft housing, and what protects it from hot exhaust gases?',
+    options: {
+        a: 'It supports only the Number 5 bearing, protected by a water-cooled jacket fed from the oil system',
+        b: 'It provides support for the power turbine shaft assembly and the outer races of the Number 3 and Number 4 bearings; an insulation blanket between the exhaust duct inner wall and the housing protects it from hot exhaust gases',
+        c: 'It exists solely to mount the exhaust case, with no bearing support function and no thermal protection'
+    },
+    correct: 'b'
+},
+{
+    id: 5796,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What prevents oil leakage from the bearing area into the power turbine section?',
+    options: {
+        a: 'A stator air seal, located and secured in the rear centre-bore of the power turbine shaft housing by a retaining ring',
+        b: 'A simple felt wiper seal fitted around the output shaft',
+        c: 'There is no dedicated seal; oil leakage into the turbine section is considered normal and burned off harmlessly'
+    },
+    correct: 'a'
+},
+{
+    id: 5797,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What is the purpose of the exhaust case, and what is it made from?',
+    options: {
+        a: 'To vent gases to atmosphere, constructed from heat resistant nickel sheet metal directing gases overboard in the most efficient route possible',
+        b: 'To cool exhaust gases before release, constructed from ceramic-lined aluminium alloy',
+        c: 'To recirculate exhaust gases back into the compressor for anti-icing, constructed from titanium'
+    },
+    correct: 'a'
+},
+{
+    id: 5798,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How is the exhaust duct for the PT6C-67C typically positioned?',
+    options: {
+        a: '180 degrees, pointing directly forward over the top of the engine',
+        b: '60 degrees up, to the left or right, depending on the installation',
+        c: 'Straight down, regardless of installation'
+    },
+    correct: 'b'
+},
+{
+    id: 5799,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What does the output section consist of, and what is it bolted to at Flange A?',
+    options: {
+        a: 'The Number 5 bearing support housing and a machined aluminium casing enclosing the front of the engine, bolted along with the power turbine shaft housing to the case at Flange A',
+        b: 'The accessory gearbox front casting, bolted to the gas generator case at Flange C',
+        c: 'Only the Number 1 bearing housing, bolted to the compressor inlet case at Flange G'
+    },
+    correct: 'a'
+},
+{
+    id: 5800,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How does the output section provide a torque signal, and what does its forward face attach to?',
+    options: {
+        a: 'Part of the output shaft uses two concentric hollow shafts with toothed wheels on a phased shift principle; the forward face attaches to the torque tube connected to the aircraft transmission',
+        b: 'It uses a single strain-gauged shaft with a slip-ring connector; the forward face attaches directly to the main rotor mast',
+        c: 'It has no torque measuring capability; the forward face attaches to the accessory gearbox input shaft'
+    },
+    correct: 'a'
+},
+{
+    id: 5801,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What does the output section house, besides the Number 5 bearing?',
+    options: {
+        a: 'Two torque/Nf sensors, and the mechanical connection of the engine to the aircraft',
+        b: 'The Fuel Management Module and the permanent magnet alternator',
+        c: 'The Data Collection Unit and the cold start valve'
+    },
+    correct: 'a'
+},
+{
+    id: 5802,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'Where is the AGB located, how is it constructed, and where is it installed on the engine?',
+    options: {
+        a: 'At the rear of the engine, consisting of two alloy castings bolted together at their outer flanges, installed on Flange G of the compressor air inlet case',
+        b: 'Inside the output section, consisting of three alloy castings, installed on Flange D of the power turbine stator housing',
+        c: 'At the front of the engine, consisting of a single titanium casting, installed on Flange A of the exhaust case'
+    },
+    correct: 'a'
+},
+{
+    id: 5803,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What does the AGB front casting form, and what does it support?',
+    options: {
+        a: 'An oil-tight diaphragm between the oil tank compartment and the accessory gearing, supporting the oil pump and pressure relief valve assembly plus the accessory drive gear front bearings and seals',
+        b: 'The exhaust duct inner wall, supporting the insulation blanket and no oil system components',
+        c: 'The gearbox housing itself, supporting only the rear bearings and seals of the accessory drives'
+    },
+    correct: 'a'
+},
+{
+    id: 5804,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: "How is the AGB diaphragm's centre sealed, and how is the diaphragm mounted to the gearbox rear housing?",
+    options: {
+        a: "Sealed by the inlet case centre tube; mounted by four countersunk head screws and self-locking nuts at the 4th, 8th, 14th and 18th positions (clockwise from 12 o'clock)",
+        b: "Sealed by a rubber O-ring only; mounted by a single large retaining nut at the 12 o'clock position",
+        c: 'Sealed by a welded joint with no removable fastening; mounted permanently with no provision for removal'
+    },
+    correct: 'a'
+},
+{
+    id: 5805,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How does the accessory gearbox input gear shaft couple to the compressor, and how is positive engagement obtained?',
+    options: {
+        a: 'It bolts directly to the compressor rear hub with no spline, relying solely on friction to transmit torque',
+        b: 'It couples via a hydraulic clutch with no mechanical spline, disengaging automatically above idle speed',
+        c: "Its external spline mates with the input coupling shaft's internal spline, which is secured at its front end to the compressor rear hub coupling spline; positive engagement is obtained by a ball-lock that also transmits thrust to the compressor Number 1 ball bearing"
+    },
+    correct: 'c'
+},
+{
+    id: 5806,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How many elements does the internal scavenge oil pump have, what drives it, and what does the front element scavenge?',
+    options: {
+        a: 'A single pump element driven by the output shaft, scavenging only the accessory gearbox itself',
+        b: 'Two pump elements driven by the starter-generator, scavenging only the Number 5 bearing area',
+        c: 'Three pump elements (twin gears each), driven by the Number 3 drive; the front element scavenges the Number 2 bearing area and dumps oil via the strainer and chip detector into the gearbox sump'
+    },
+    correct: 'c'
+},
+{
+    id: 5807,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'List the components supported by the AGB.',
+    options: {
+        a: 'Only the Number 1 and Number 5 bearings, with no electrical or fuel system components',
+        b: 'Only the compressor bleed valve and the P2.8 check valve, with no oil system components',
+        c: 'N1/Ng sensor (reading the starter/generator teeth), Data Collection Unit, fuel heater, oil filter, oil filter impending bypass indicator, oil cooler, chip detector, cold start valve, oil pressure regulating valve, oil pressure sensor, and oil temperature/low oil pressure switch'
+    },
+    correct: 'c'
+},
+{
+    id: 5808,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What is the maximum allowable oil seal leakage for the starter generator and FMM drive pads on the AGB?',
+    options: {
+        a: '0.3 cc/hour',
+        b: '30 cc/hour',
+        c: '3 cc/hour'
+    },
+    correct: 'c'
+},
+{
+    id: 5809,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What do EMM Chapter 71 and Chapter 72 each cover for engine troubleshooting?',
+    options: {
+        a: 'CH71 covers fault isolation based on trending of power assurance check results; CH72 covers EEC, starting, operating, lubrication and fuel faults',
+        b: 'CH71 and CH72 both cover the identical scope, duplicated for redundancy in the EMM',
+        c: 'CH71 covers only fuel faults; CH72 covers only EEC faults, with starting and lubrication faults covered elsewhere'
+    },
+    correct: 'a'
+},
+{
+    id: 5810,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How are EEC faults classified by severity, and what happens to engine control mode in each case?',
+    options: {
+        a: 'All EEC faults are critical and always require an immediate engine shutdown',
+        b: "All EEC faults are non-critical and never change the engine's control mode",
+        c: 'Non-critical faults leave the engine in automatic mode; critical faults cause the engine to revert to manual mode of operation'
+    },
+    correct: 'c'
+},
+{
+    id: 5811,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What does the engine-mounted Data Collection Unit (DCU) store, and when is its memory updated?',
+    options: {
+        a: 'Only flight hours and cycles, updated once per flight on shutdown only',
+        b: 'Engine usage data, exceedances, events and faults, used to aid troubleshooting and support the EEC; it is updated by the EEC either in real time or on engine shutdown, depending on the event',
+        c: 'Pilot voice recordings relevant to engine faults, updated continuously regardless of the type of event'
+    },
+    correct: 'b'
+},
+{
+    id: 5812,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'Why should repeated disconnects and reconnects of the main EEC J1/J2 connectors be avoided, and what is the preferred alternative?',
+    options: {
+        a: 'There is no concern with repeated disconnects; it is the recommended method for clearing all EEC faults',
+        b: 'To avoid unnecessary wear and potential connector damage; the preferred method for reviewing usage data is EEC RTD (Real Time Display) recording',
+        c: 'Disconnecting J1/J2 is required before every flight; there is no alternative method available'
+    },
+    correct: 'b'
+},
+{
+    id: 5813,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What additional capability does access to the EEC Real Time Display (RTD) via the P&WC Ground-Based Software (GBS) provide, beyond what the aircraft MFD shows?',
+    options: {
+        a: 'It only displays a simplified subset of what the MFD already shows, with no additional parameters',
+        b: 'It allows monitoring and recording of all EEC parameters, including some not available on the MFD, plus quick review of current faults and automatic cycle counters',
+        c: 'It replaces the MFD entirely in flight, duplicating the cockpit display on a ground laptop'
+    },
+    correct: 'b'
+},
+{
+    id: 5814,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How are intermittent faults caused by moisture, contamination, or connector interface damage typically rectified, and when must the harness be replaced?',
+    options: {
+        a: 'By disconnecting, drying or cleaning and reconnecting the connector for moisture faults, with pin damage sometimes repairable; the harness must be replaced if the socket itself is damaged',
+        b: 'By cycling the auto/manual switch only; connectors and harnesses are never a cause of intermittent faults',
+        c: 'By replacing the entire EEC unit, regardless of whether the fault is in the connector or the EEC itself'
+    },
+    correct: 'a'
+},
+{
+    id: 5815,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How are in-range faults recognized, given that the EEC does not detect them, and how can they be investigated?',
+    options: {
+        a: 'They cannot be recognized by any means and require a full engine teardown to confirm',
+        b: "They are recognized exclusively by the EEC's own fault code system, the same as any other fault type",
+        c: 'By unusual fluctuations in torque, speed or temperature indications; a data recorder can be used with the EEC to help detect in-range faults, as also detailed in the IETP'
+    },
+    correct: 'c'
+},
+{
+    id: 5816,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'Where are the engine preservation and depreservation procedures found, and what determines the required level of preservation?',
+    options: {
+        a: 'There are no formal preservation procedures; engineers use their own judgement based on past experience',
+        b: 'EMM CH71: ENGINE – FAULT ISOLATION; the required level depends only on ambient humidity at the time of shutdown',
+        c: 'EMM CH72: ENGINE – SERVICING; the required level depends on the expected period of inactivity and whether the engine may be ground run during that period'
+    },
+    correct: 'c'
+},
+{
+    id: 5817,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'Why is it important for engineers to be familiar with the engine preservation procedures?',
+    options: {
+        a: "To reduce the engine's fuel burn during the next flight after a period of inactivity",
+        b: 'To reduce the chances of corrosion and a subsequent engine overhaul',
+        c: 'To avoid the need for a post-flight power assurance check after returning to service'
+    },
+    correct: 'b'
+},
 ];
