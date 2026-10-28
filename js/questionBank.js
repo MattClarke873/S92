@@ -58452,6 +58452,1565 @@ export const questions = [
         c: 'Replace both igniters and repeat the operational check'
     },
     correct: 'a'
+},
+{
+    id: 5963,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'Into which three areas are the engine air systems divided?',
+    options: {
+        a: 'The primary air system, the secondary air system and the compressor airflow control',
+        b: 'The inlet air system, the secondary air system and the compressor airflow control',
+        c: 'The primary air system, the secondary air system and the bleed air control'
+    },
+    correct: 'a'
+},
+{
+    id: 5964,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What percentage of air is used in the combustion process (primary air system)?',
+    options: {
+        a: '35%',
+        b: '25%',
+        c: '15%'
+    },
+    correct: 'b'
+},
+{
+    id: 5965,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What percentage of air is used to cool the combustion gasses (primary air system)?',
+    options: {
+        a: '70%',
+        b: '60%',
+        c: '50%'
+    },
+    correct: 'b'
+},
+{
+    id: 5966,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What does the secondary air system consist of?',
+    options: {
+        a: 'All the pressure air that is used directly to produce power',
+        b: 'All the pressure air that is not used directly to produce power',
+        c: 'Only the air bled for the EAPS system'
+    },
+    correct: 'b'
+},
+{
+    id: 5967,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What percentage of secondary air is used for hot section cooling?',
+    options: {
+        a: '8%',
+        b: '5%',
+        c: '2%'
+    },
+    correct: 'a'
+},
+{
+    id: 5968,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What percentage of secondary air is used for labyrinth/carbon seals and the compressor bleed valve operation?',
+    options: {
+        a: '8%',
+        b: '2%',
+        c: '5%'
+    },
+    correct: 'b'
+},
+{
+    id: 5969,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What percentage of secondary air is allowed for aircraft system use?',
+    options: {
+        a: '5%',
+        b: '2%',
+        c: '8%'
+    },
+    correct: 'a'
+},
+{
+    id: 5970,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What is P2.5 interstage air pressure used for?',
+    options: {
+        a: 'Operation of the compressor bleed valve',
+        b: 'Sealing of the No.2 Bearing housing',
+        c: 'Sealing of the No.1 Bearing housing'
+    },
+    correct: 'c'
+},
+{
+    id: 5971,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What is P2.8 centrifugal impeller interstage air used for?',
+    options: {
+        a: 'The compressor turbine cooling system',
+        b: 'The No.1 bearing sealing system',
+        c: 'The compressor airflow control system'
+    },
+    correct: 'c'
+},
+{
+    id: 5972,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'Besides cooling hot section parts and sealing bearing compartments, what else does P3 compressor delivery pressure air operate?',
+    options: {
+        a: 'The torque meter device and the EEC cockpit indication',
+        b: 'The particle separator ejector and the EAPS shut off valve',
+        c: 'The bleed valve and the Fuel Management Module cabin bleed (heating)'
+    },
+    correct: 'c'
+},
+{
+    id: 5973,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'How does inlet air enter the engine?',
+    options: {
+        a: 'Through an annular plenum chamber formed by the compressor inlet case',
+        b: 'Through an annular plenum chamber formed by the exhaust duct',
+        c: 'Through a rectangular plenum chamber formed by the accessory gearbox case'
+    },
+    correct: 'a'
+},
+{
+    id: 5974,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What does the wrap-around inlet screen prevent?',
+    options: {
+        a: 'Entrance of hot exhaust gases back into the compressor',
+        b: 'Entrance of fuel vapour into the inlet duct',
+        c: 'Entrance of large particles of dirt or debris into the engine'
+    },
+    correct: 'c'
+},
+{
+    id: 5975,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'After the axial compressor, where does the inlet air move to next?',
+    options: {
+        a: 'The centrifugal impeller',
+        b: 'The combustion chamber directly',
+        c: 'The compressor turbine vane ring'
+    },
+    correct: 'a'
+},
+{
+    id: 5976,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What do the diffuser tubes do to the air from the impeller?',
+    options: {
+        a: 'Turn the air 180° in direction and convert static pressure to velocity',
+        b: 'Turn the air 90° in direction and convert velocity to static pressure',
+        c: 'Turn the air 90° in direction and convert static pressure to velocity'
+    },
+    correct: 'b'
+},
+{
+    id: 5977,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'How does the airflow direction change as it enters the combustion chamber and mixes with fuel?',
+    options: {
+        a: 'It changes direction by 45°',
+        b: 'It changes direction by 180°',
+        c: 'It changes direction by 90°'
+    },
+    correct: 'b'
+},
+{
+    id: 5978,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What happens to the expanding hot gases after the combustion chamber?',
+    options: {
+        a: 'They reverse direction in the exit duct zone and pass through the compressor turbine vane ring',
+        b: 'They continue forward through the diffuser tubes and into the impeller',
+        c: 'They reverse direction in the exit duct zone and pass directly to the exhaust duct'
+    },
+    correct: 'a'
+},
+{
+    id: 5979,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What is the function of the stator vanes ahead of the compressor turbine?',
+    options: {
+        a: 'They direct the hot gases towards the turbine blades at the correct angle, with minimum energy loss',
+        b: 'They direct the hot gases towards the turbine blades at a fixed angle, maximising energy loss',
+        c: 'They direct the hot gases away from the turbine blades to reduce speed'
+    },
+    correct: 'a'
+},
+{
+    id: 5980,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'After the compressor turbine, where do the expanding gases travel to?',
+    options: {
+        a: 'The first-stage power turbine vane ring and turbine, then the second-stage power turbine vane ring and turbine',
+        b: 'The second-stage power turbine vane ring and turbine, then the first-stage power turbine vane ring and turbine',
+        c: 'Directly to the exhaust duct, bypassing the power turbines'
+    },
+    correct: 'a'
+},
+{
+    id: 5981,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'Where is the output shaft turned by the power turbine located?',
+    options: {
+        a: 'In the centre of the accessory gearbox',
+        b: 'At the front of the engine',
+        c: 'At the rear of the engine'
+    },
+    correct: 'b'
+},
+{
+    id: 5982,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What does the torque meter device on the output shaft provide?',
+    options: {
+        a: 'Input to the FMM for fuel scheduling and an accurate cockpit indication of Ng',
+        b: 'Input to the EEC for control and an accurate cockpit indication of ITT',
+        c: 'Input to the EEC for control and an accurate cockpit indication of engine torque'
+    },
+    correct: 'c'
+},
+{
+    id: 5983,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'How is the compressor turbine vane ring cooled?',
+    options: {
+        a: 'Fuel-cooled air directed through the FCOC into the vane ring',
+        b: 'P3 air directed through holes in the turbine vane shroud ring into the top platform of the vane ring',
+        c: 'P2.5 air directed through holes in the compressor inlet case into the vane ring'
+    },
+    correct: 'b'
+},
+{
+    id: 5984,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What is general air used for in the bearing compartment sealing/cooling system?',
+    options: {
+        a: 'To seal only the No. 1 bearing compartment and to cool the combustion chamber liner',
+        b: 'To seal the No. 1, 2 and 3 bearing compartments and to cool the compressor, power turbine disks, and the compressor turbine stator',
+        c: 'To seal the No. 1, 2 and 3 bearing compartments and to cool the accessory gearbox only'
+    },
+    correct: 'b'
+},
+{
+    id: 5985,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What is used in conjunction with pressure air to establish and control the required pressure gradients?',
+    options: {
+        a: 'O-ring elastomeric seals',
+        b: 'Labyrinth seals',
+        c: 'Carbon face seals only'
+    },
+    correct: 'b'
+},
+{
+    id: 5986,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'How are the labyrinth seals constructed?',
+    options: {
+        a: 'Two separate parts, one rotating within the other, one with a smooth surface and the other with annular knife edges',
+        b: 'A single part with a smooth surface and no knife edges',
+        c: 'Two separate parts, both rotating independently, each with annular knife edges'
+    },
+    correct: 'a'
+},
+{
+    id: 5987,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What is compressor interstage air P2.5 used to provide at the No.1 bearing?',
+    options: {
+        a: 'A constant cooling flow directly over the No.1 bearing races',
+        b: 'A pressure differential across the carbon seal located at the rear of the No.1 bearing',
+        c: 'A pressure differential across the labyrinth seal located in front of the No.1 bearing'
+    },
+    correct: 'c'
+},
+{
+    id: 5988,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'Where is P2.5 sealing air bled from to reach the No.1 bearing labyrinth seal?',
+    options: {
+        a: 'Through holes in the gas generator case, directly into the labyrinth seal',
+        b: 'Through slots in the hub of the first-stage compressor spacer, into the centre of the rotor assembly',
+        c: 'Through slots in the hub of the third-stage compressor spacer, into the centre of the rotor assembly'
+    },
+    correct: 'c'
+},
+{
+    id: 5989,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'Where does air flowing rearward through the No.1 bearing labyrinth seal vent to?',
+    options: {
+        a: 'Into the combustion chamber, together with the fuel supply',
+        b: 'Directly overboard, through a dedicated vent line',
+        c: 'Into the accessory gearbox, together with the scavenged oil'
+    },
+    correct: 'c'
+},
+{
+    id: 5990,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What separates the sealing air from the scavenged oil in the accessory gearbox?',
+    options: {
+        a: 'The ecology fuel accumulator',
+        b: 'The centrifugal breather impeller',
+        c: 'The fuel cooled oil cooler'
+    },
+    correct: 'b'
+},
+{
+    id: 5991,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'How is the No.2 bearing protected?',
+    options: {
+        a: 'By a single carbon seal only, with no labyrinth seal',
+        b: 'By two labyrinth seals combined with a single carbon seal at the front',
+        c: 'By a single labyrinth seal combined with a carbon seal at the front and a carbon seal at the rear'
+    },
+    correct: 'c'
+},
+{
+    id: 5992,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What does the pressure air bled from the labyrinth seal for the No.2 bearing area connect to?',
+    options: {
+        a: 'The turbine cooling air system',
+        b: 'The compressor airflow control system',
+        c: 'The EAPS bleed-air system'
+    },
+    correct: 'a'
+},
+{
+    id: 5993,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'Where is the No.2 bearing cavity seal air dumped?',
+    options: {
+        a: 'Into the accessory gearbox, through the bearing oil scavenge line',
+        b: 'Into the combustion chamber, through the fuel manifold',
+        c: 'Directly overboard, through a dedicated drain line'
+    },
+    correct: 'a'
+},
+{
+    id: 5994,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What type of valve is the EAPS shut off valve (SOV)?',
+    options: {
+        a: 'A normally closed electrically operated valve, with no pneumatic function',
+        b: 'A normally open pneumatic valve, solenoid operated when required to close',
+        c: 'A normally closed pneumatic valve, solenoid operated when required to open'
+    },
+    correct: 'c'
+},
+{
+    id: 5995,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What pressurizes the No.3 bearing double carbon seal?',
+    options: {
+        a: 'Air passed through holes in the hub of the first-stage power turbine disk',
+        b: 'Air passed through holes in the hub of the second-stage power turbine disk',
+        c: 'Air passed directly from the P2.5 interstage source'
+    },
+    correct: 'b'
+},
+{
+    id: 5996,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'Where does air bleeding forward through the No.3 bearing seal return to?',
+    options: {
+        a: 'The accessory gearbox, via the No.3, 4 and 5 bearing scavenge oil line',
+        b: 'The combustion chamber, via the fuel manifold',
+        c: 'The inlet plenum chamber, via the compressor inlet case'
+    },
+    correct: 'a'
+},
+{
+    id: 5997,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What is the purpose of the Engine Air Intake Particle Separator (EAPS)?',
+    options: {
+        a: 'To protect the engine against ingestion of dust, sand, snow, ice and other particles',
+        b: 'To protect the engine against overspeed during rapid power changes',
+        c: 'To protect the engine against fuel icing in low temperature conditions'
+    },
+    correct: 'a'
+},
+{
+    id: 5998,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'How many particle separators does the EAPS system consist of, and where?',
+    options: {
+        a: 'Four, two located in front of each engine air intake',
+        b: 'One, located in front of the combined engine air intakes',
+        c: 'Two, located in front of each engine air intake'
+    },
+    correct: 'c'
+},
+{
+    id: 5999,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'How are foreign particles separated from the clean air in the EAPS?',
+    options: {
+        a: 'By a magnetic separator within the particle separator',
+        b: 'By a fine mesh filter element within the particle separator',
+        c: 'By the swirling action of air passing through vortex generators'
+    },
+    correct: 'c'
+},
+{
+    id: 6000,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'How are foreign particles discharged from the EAPS lower chamber?',
+    options: {
+        a: 'Outboard through an ejector activated by the aircraft fuel boost pump',
+        b: 'Outboard through an ejector activated by engine bleed-air',
+        c: 'Overboard through a dedicated drain valve operated by the pilot'
+    },
+    correct: 'b'
+},
+{
+    id: 6001,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What happens to EAPS efficiency when operated with no bleed-air?',
+    options: {
+        a: 'Efficiency is unaffected',
+        b: 'Efficiency is reduced by 25%',
+        c: 'Efficiency is reduced by 50%'
+    },
+    correct: 'c'
+},
+{
+    id: 6002,
+    Aircraft: 'AW139',
+    Category: '75',
+    question: 'What is a detected fault, in terms of its cause?',
+    options: {
+        a: 'A fault found by the helicopter monitoring system, where the cause is not known',
+        b: 'A fault found by the helicopter monitoring system, where the cause is always known',
+        c: 'A malfunction discovered only by the pilot during flight'
+    },
+    correct: 'a'
+},
+{
+    id: 6003,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What drives the FMM?',
+    options: {
+        a: 'The main rotor gearbox',
+        b: 'The engine Accessory Gearbox',
+        c: 'The engine driven EEC alternator'
+    },
+    correct: 'b'
+},
+{
+    id: 6004,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What type of unit is the FMM?',
+    options: {
+        a: 'A fully electronic digital unit controlling fuel flow only at idle power',
+        b: 'An electro-hydromechanical unit controlling fuel flow over the entire operational envelope',
+        c: 'A purely mechanical unit controlling fuel flow only in manual mode'
+    },
+    correct: 'b'
+},
+{
+    id: 6005,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What components does the FMM consist of?',
+    options: {
+        a: 'High/Low fuel pumps, fuel filter, and an electronic torque sensor',
+        b: 'A single fuel pump, fuel heater, and a fuel/oil heat exchange unit',
+        c: 'High/Low fuel pumps, fuel filter, and fuel/oil heat exchange units'
+    },
+    correct: 'c'
+},
+{
+    id: 6006,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'How is the FMM mode selected?',
+    options: {
+        a: 'Via the ECL position only, with no dedicated switch',
+        b: "Via an AUTO/MANUAL switch on the pilot's collective",
+        c: 'Via an AUTO/MANUAL switch on the overhead console'
+    },
+    correct: 'b'
+},
+{
+    id: 6007,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'When does the FMM automatically revert to MANUAL mode?',
+    options: {
+        a: 'If there is an Electronic Engine Control failure',
+        b: 'If the fuel filter becomes blocked',
+        c: 'If the torque motor overheats'
+    },
+    correct: 'a'
+},
+{
+    id: 6008,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What actuates the fuel metering valve within the FMM?',
+    options: {
+        a: 'Compressor delivery pressure (P3) and the Ng governor flyweights only',
+        b: 'Compressor delivery pressure (P3) and the torque motor',
+        c: 'Engine oil pressure and the torque motor'
+    },
+    correct: 'b'
+},
+{
+    id: 6009,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'In MANUAL mode, what controls the Ng governor?',
+    options: {
+        a: 'A cable, via the collective pitch lever only',
+        b: 'An electrical signal, via the torque motor only',
+        c: 'A cable, via the Engine Control Levers (ECL) or engine beep trim'
+    },
+    correct: 'c'
+},
+{
+    id: 6010,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What kind of control unit is the EEC?',
+    options: {
+        a: 'A dual channel control unit',
+        b: 'A triple redundant control unit',
+        c: 'A single channel control unit'
+    },
+    correct: 'c'
+},
+{
+    id: 6011,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What are the two functionally independent subsystems within the EEC?',
+    options: {
+        a: 'The control subsystem and the training subsystem',
+        b: 'The control subsystem and the Nf limiter subsystem',
+        c: 'The Nf limiter subsystem and the crosstalk subsystem'
+    },
+    correct: 'b'
+},
+{
+    id: 6012,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What does the control subsystem keep constant, within ITT, Ng and Torque limits?',
+    options: {
+        a: 'Ng speed',
+        b: 'Nf speed',
+        c: 'P3 pressure'
+    },
+    correct: 'b'
+},
+{
+    id: 6013,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What does the Nf limiter subsystem provide?',
+    options: {
+        a: 'An independent limitation of inadvertent engine turbine overspeed',
+        b: 'An independent limitation of inadvertent engine turbine underspeed',
+        c: 'A dependent limitation of turbine overspeed, tied to the control subsystem'
+    },
+    correct: 'a'
+},
+{
+    id: 6014,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'At what Nf speed does the limiter subsystem engage the FMM overspeed valve solenoid?',
+    options: {
+        a: '106%',
+        b: '109%',
+        c: '111%'
+    },
+    correct: 'c'
+},
+{
+    id: 6015,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'At what Nf speed does the limiter subsystem reset the overspeed valve solenoid?',
+    options: {
+        a: 'Below 109%',
+        b: 'Below 100%',
+        c: 'Below 111%'
+    },
+    correct: 'a'
+},
+{
+    id: 6016,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'How is the operation of the overspeed control described?',
+    options: {
+        a: 'Manually reset only',
+        b: 'Latching',
+        c: 'Non-latching'
+    },
+    correct: 'c'
+},
+{
+    id: 6017,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'Where is the Engine Control Panel installed?',
+    options: {
+        a: 'On the overhead console',
+        b: "On the pilot's collective grip",
+        c: 'On the centre console'
+    },
+    correct: 'c'
+},
+{
+    id: 6018,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'Where are the Engine Control Levers installed?',
+    options: {
+        a: "On the pilot's collective grip",
+        b: 'On the centre console',
+        c: 'On the overhead console'
+    },
+    correct: 'c'
+},
+{
+    id: 6019,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: "What does the LD SHARE selector switch's TORQUE position do?",
+    options: {
+        a: 'The engine control system performs Ng matching',
+        b: 'The engine control system performs torque matching',
+        c: 'The engine control system performs ITT matching'
+    },
+    correct: 'b'
+},
+{
+    id: 6020,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: "What does the ENG MODE selector switch's IDLE position allow?",
+    options: {
+        a: 'Engine starting at the flight nominal speed, 100% NF',
+        b: 'Engine shutdown only, with no starting function',
+        c: 'Engine starting at the minimum on ground, 65% NF'
+    },
+    correct: 'c'
+},
+{
+    id: 6021,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: "What does the ENG MODE selector switch's FLT position allow?",
+    options: {
+        a: 'Engine quick starting at the flight nominal speed, 100% NF',
+        b: 'Engine quick starting at the minimum on ground, 65% NF',
+        c: 'Engine stabilisation for 60 seconds during shutdown'
+    },
+    correct: 'a'
+},
+{
+    id: 6022,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What happens when the OEI TNG switch is set to the #1 position?',
+    options: {
+        a: 'The No.1 engine goes to STANDBY mode, the No.2 engine goes to TRAINING mode',
+        b: 'Both engines go to TRAINING mode together',
+        c: 'The No.1 engine goes to TRAINING mode, the No.2 engine goes to STANDBY mode'
+    },
+    correct: 'c'
+},
+{
+    id: 6023,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What may happen if the ECLs are moved by hand?',
+    options: {
+        a: 'The shear pins between the ECL and the FMM cable may shear',
+        b: 'The shear pins between the ECL and electric motors may shear',
+        c: 'The electro-magnetic latch on the ECL may permanently disengage'
+    },
+    correct: 'b'
+},
+{
+    id: 6024,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'If the ECL shear pins have sheared, what still works?',
+    options: {
+        a: 'The ECL handle and the cable to the FMM',
+        b: 'Neither the ECL handle nor the beep trim function',
+        c: 'Only the beep trim function'
+    },
+    correct: 'a'
+},
+{
+    id: 6025,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'Under what condition will the shear pin at the Flight position shear?',
+    options: {
+        a: 'If the beep trim is operated continuously for over 10 seconds',
+        b: 'If the ECL is forced past the MIN gate, in Manual',
+        c: 'If the ECL is forced past the Flight gate, in Auto'
+    },
+    correct: 'c'
+},
+{
+    id: 6026,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'When is the ENGINE START pushbutton switch pressed?',
+    options: {
+        a: 'Only during the shutdown stabilisation phase',
+        b: 'When engine starting, dry motoring, or wet motoring is engaged in Manual mode',
+        c: 'When engine starting is engaged in Auto mode only'
+    },
+    correct: 'b'
+},
+{
+    id: 6027,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What happens at the ECL MIN position in AUTO mode?',
+    options: {
+        a: 'The fuel cut-off valve is opened electrically to allow the Auto Start',
+        b: 'The fuel metering valve is mechanically latched closed',
+        c: 'The fuel cut-off valve is closed electrically to prevent the Auto Start'
+    },
+    correct: 'a'
+},
+{
+    id: 6028,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'In MANUAL mode at the FLIGHT position, how is the fuel metering valve controlled?',
+    options: {
+        a: 'Through a cable connected to the ECL',
+        b: 'Through an electrical signal from the EEC',
+        c: 'Through a cable connected to the collective trim selector'
+    },
+    correct: 'a'
+},
+{
+    id: 6029,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What must always be set on the ECL during Auto mode operation?',
+    options: {
+        a: 'The MIN position',
+        b: 'The FLIGHT position',
+        c: 'The MAX position'
+    },
+    correct: 'b'
+},
+{
+    id: 6030,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What does the ECL MAX position allow?',
+    options: {
+        a: 'Engine maximum power, when Manual mode is operative',
+        b: 'Engine maximum power, when Auto mode is operative',
+        c: 'Engine idle power, when Manual mode is operative'
+    },
+    correct: 'a'
+},
+{
+    id: 6031,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What is displayed when the ENG GOV selector is set to MANUAL?',
+    options: {
+        a: 'A red steady "MAN" legend on the Ng scale',
+        b: 'An amber reverse-video "MAN" legend on the TQ and PI scales',
+        c: 'A green reverse-video "MAN" legend on the TQ and PI scales only'
+    },
+    correct: 'b'
+},
+{
+    id: 6032,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What does the ENG TRIM selector\'s "+" (up) position control in Manual mode?',
+    options: {
+        a: 'ECL movement towards the MAX position',
+        b: 'ECL movement towards the FLIGHT position only',
+        c: 'ECL movement towards the MIN position'
+    },
+    correct: 'a'
+},
+{
+    id: 6033,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What happens when the TQ LIM pushbutton is pressed?',
+    options: {
+        a: 'The AEO total torque is limited to a combined value of 228%, OEI torque is unaffected',
+        b: 'Both AEO and OEI torque are limited to a combined value of 228%',
+        c: 'The AEO total torque is limited to a combined value of 320%, OEI torque is unaffected'
+    },
+    correct: 'a'
+},
+{
+    id: 6034,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What message is displayed in the CAS when the torque limiter is activated?',
+    options: {
+        a: '"TQ LIMITER ON"',
+        b: '"TQ LIM FAIL"',
+        c: '"ENG LIM EXPIRE"'
+    },
+    correct: 'a'
+},
+{
+    id: 6035,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What does selecting 102% on the RPM selector switch do?',
+    options: {
+        a: 'Sets NR/NF to 100% ±0.5%, with no time limitation',
+        b: 'Sets NR/NF to 102% ±0.5%, with no time limitation',
+        c: 'Sets NR/NF to 102% ±0.5%, with engine power limited to 2.5 minutes'
+    },
+    correct: 'c'
+},
+{
+    id: 6036,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What four functions does the EEC provide in Automatic mode?',
+    options: {
+        a: 'Automatic start, manual mode tracking, torque/ITT matching, and overspeed test capability',
+        b: 'Automatic start, main rotor governing, fuel heater control, and OEI training capability',
+        c: 'Automatic start, main rotor governing, torque/ITT matching, and OEI training capability'
+    },
+    correct: 'c'
+},
+{
+    id: 6037,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: "What does the FMM's hydromechanical tracking prevent when transferring from AUTO to MANUAL?",
+    options: {
+        a: 'Any change in Ng speed, under all conditions',
+        b: 'Changes in engine power beyond a maximum of 10%, when in the flight gate',
+        c: 'Changes in engine power beyond a maximum of 25%, when in the flight gate'
+    },
+    correct: 'b'
+},
+{
+    id: 6038,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'How does the FMM achieve the limited power change from AUTO to MANUAL?',
+    options: {
+        a: 'Hydromechanical devices continually track the actual Ng if the ECL is in the FLIGHT position',
+        b: 'An electrical signal from the EEC continually resets the Ng governor stops',
+        c: 'Hydromechanical devices continually track the actual Nf, regardless of ECL position'
+    },
+    correct: 'a'
+},
+{
+    id: 6039,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What causes the system to revert to manual backup mode by de-energising the mode select solenoid?',
+    options: {
+        a: 'The pilot pressing the TQ LIM pushbutton, or an EAPS fault',
+        b: 'The pilot selecting MANUAL on the collective stick, or a critical engine failure detected by the EEC',
+        c: 'The pilot selecting IDLE on the ECP, or a fuel filter blockage'
+    },
+    correct: 'b'
+},
+{
+    id: 6040,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: "What are the Ng speed governor's minimum and maximum stops at sea level ISA in Manual mode?",
+    options: {
+        a: '68.6% and 106%',
+        b: '65% and 111%',
+        c: '60% and 100%'
+    },
+    correct: 'a'
+},
+{
+    id: 6041,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'When is selection of OEI Training Mode permitted?',
+    options: {
+        a: 'For actual OEI conditions during any flight',
+        b: 'For Category A Training using the actual OEI rating',
+        c: 'Only for Category A Training in simulated OEI conditions'
+    },
+    correct: 'c'
+},
+{
+    id: 6042,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What legends are displayed during OEI Training Mode?',
+    options: {
+        a: "Amber 'OEI' and 'TNG' legends on the PI and Tq indicators",
+        b: "Red 'OEI' and 'TNG' legends on the Ng indicator only",
+        c: "Amber 'OEI' legend only, with no 'TNG' legend"
+    },
+    correct: 'a'
+},
+{
+    id: 6043,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What is the purpose of the engine indicating system?',
+    options: {
+        a: 'To provide the pilot with direct manual control over fuel scheduling',
+        b: 'To provide the pilot with indications of engine conditions, including data for trend monitoring',
+        c: 'To provide the EEC with an override for torque limiting'
+    },
+    correct: 'b'
+},
+{
+    id: 6044,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What are the four Integrated Engine Instrument Systems?',
+    options: {
+        a: 'ITT, NG, Oil pressure, and Chip detection',
+        b: 'NG, NF, Fuel flow, and Oil temperature',
+        c: 'ITT, NG, Torque (TQ), and Power turbine speed (Nf)'
+    },
+    correct: 'c'
+},
+{
+    id: 6045,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What is the function of the N1/Ng sensor?',
+    options: {
+        a: 'To detect the differential pressure across the fuel filter',
+        b: 'To detect the rotational speed of the power turbine rotor',
+        c: 'To detect the rotational speed of the gas generator rotor'
+    },
+    correct: 'c'
+},
+{
+    id: 6046,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What type of pickup is the Ng sensor, and what is its speed reference?',
+    options: {
+        a: 'A triple coil magnetic pickup using the starter generator gear teeth in the AGB',
+        b: 'A triple coil optical pickup using the compressor inlet case teeth',
+        c: 'A single coil magnetic pickup using the torque shaft teeth in the output section'
+    },
+    correct: 'a'
+},
+{
+    id: 6047,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'How does the Ng pickup detect the passage of the gear teeth?',
+    options: {
+        a: 'By the change in electrical resistance associated with the gear tooth material',
+        b: 'By the change in air pressure associated with the gear tooth passage',
+        c: 'By the change in magnetic flux density associated with the proximity of the gear tooth to the tip'
+    },
+    correct: 'c'
+},
+{
+    id: 6048,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What signal does the Ng pickup transmit?',
+    options: {
+        a: 'A DC electrical signal with a voltage proportional to compressor rotor RPM',
+        b: 'A pneumatic signal with a pressure proportional to compressor rotor RPM',
+        c: 'An AC electrical signal with a frequency proportional to compressor rotor RPM'
+    },
+    correct: 'c'
+},
+{
+    id: 6049,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What is the relationship between the three Ng sensor coils?',
+    options: {
+        a: 'Each is electrically independent and protected against a short circuit in one of the others',
+        b: 'Each is mechanically linked but has no short-circuit protection',
+        c: 'Each is electrically linked, sharing a common short-circuit protection'
+    },
+    correct: 'a'
+},
+{
+    id: 6050,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What does Ng Coil "A" provide?',
+    options: {
+        a: 'Speed signal to the EEC',
+        b: 'Speed signal to the FMM torque motor',
+        c: 'Speed signal to the cockpit only'
+    },
+    correct: 'a'
+},
+{
+    id: 6051,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What happens if the Ng/N1 signal to the EEC is lost?',
+    options: {
+        a: 'The engine automatically shuts down the fuel supply',
+        b: 'The engine automatically reverts to manual mode of operation',
+        c: "The EEC switches over to use the opposite engine's Ng signal"
+    },
+    correct: 'b'
+},
+{
+    id: 6052,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'Where are the Nf speed, torque and temperature sensors located?',
+    options: {
+        a: 'At the bottom of the accessory gearbox housing',
+        b: 'At the bottom of the number 5 bearing support housing',
+        c: 'At the top of the number 1 bearing support housing'
+    },
+    correct: 'b'
+},
+{
+    id: 6053,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What type of sensor are the Nf/torque sensors?',
+    options: {
+        a: 'A single coil optical type sensor',
+        b: 'A triple coil type sensor',
+        c: 'A double coil type sensor'
+    },
+    correct: 'c'
+},
+{
+    id: 6054,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What reference do the Nf/torque sensor coils use?',
+    options: {
+        a: 'The teeth on the torque shaft, located in the output section',
+        b: 'The teeth on the compressor rotor, located in the inlet case',
+        c: 'The teeth on the starter generator gear, located in the accessory gearbox'
+    },
+    correct: 'a'
+},
+{
+    id: 6055,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What provides temperature compensation for the Nf/torque sensors?',
+    options: {
+        a: 'A chromel/alumel thermocouple assembly',
+        b: 'A dual function pressure switch',
+        c: 'A platinum type resistance temperature device (RTD)'
+    },
+    correct: 'c'
+},
+{
+    id: 6056,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What is the right hand Nf/torque sensor used for?',
+    options: {
+        a: 'Backup torque and N2 signals for the EEC, with the primary signal from the left hand sensor',
+        b: 'Primary torque and N2 signals for EEC calculations using one coil, with the second coil for torque/N2 signals to the cockpit display',
+        c: 'Primary torque and N2 signals for the cockpit only, with no connection to the EEC'
+    },
+    correct: 'b'
+},
+{
+    id: 6057,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What does the temperature sensor (RHS only) provide to the EEC?',
+    options: {
+        a: 'A signal proportional to the temperature surrounding the torque shaft',
+        b: 'A signal proportional to the oil temperature at the AGB',
+        c: 'A signal proportional to the temperature of the compressor discharge air'
+    },
+    correct: 'a'
+},
+{
+    id: 6058,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What does the left hand Nf/torque sensor provide?',
+    options: {
+        a: 'A primary N2/torque signal to the cockpit from both coils',
+        b: 'A backup N2/torque signal to the cockpit from one coil, and a backup signal to the opposite EEC from the other coil',
+        c: 'A backup ITT signal to the cockpit from one coil only'
+    },
+    correct: 'b'
+},
+{
+    id: 6059,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What does the torque shaft consist of?',
+    options: {
+        a: 'Three concentric shafts, geared together',
+        b: 'Two concentric shafts, an inner and an outer',
+        c: 'A single shaft with an internal strain gauge'
+    },
+    correct: 'b'
+},
+{
+    id: 6060,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'Which part of the torque shaft is subjected to torsional loads under power?',
+    options: {
+        a: 'The outer shaft, while the inner shaft acts only as a reference',
+        b: 'The inner shaft, while the outer shaft acts only as a reference',
+        c: 'Both shafts equally, acting as a single torsional unit'
+    },
+    correct: 'a'
+},
+{
+    id: 6061,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'How is torque shaft deflection measured?',
+    options: {
+        a: 'By using a phase offset calculation as the outer shaft moves proportional to load',
+        b: 'By measuring the change in magnetic flux density at the torque shaft bearing',
+        c: 'By using a strain gauge bonded directly to the outer shaft'
+    },
+    correct: 'a'
+},
+{
+    id: 6062,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'Can torque system calibration be adjusted in the field?',
+    options: {
+        a: 'Yes, by resetting the torque sensor through the EEC self-test',
+        b: 'Yes, by adjusting a calibration potentiometer in the FMM',
+        c: 'No, but the Datum and slope figures can be acquired using ground support equipment'
+    },
+    correct: 'c'
+},
+{
+    id: 6063,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'How many thermocouple probes make up the ITT system, and how are they connected?',
+    options: {
+        a: 'Six alumel/chromel assemblies connected in series by a bus-bar arrangement',
+        b: 'Eight alumel/chromel assemblies connected in parallel by a bus-bar arrangement',
+        c: 'Eight platinum RTD assemblies connected in parallel by a terminal block'
+    },
+    correct: 'b'
+},
+{
+    id: 6064,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What does the ITT system do with the readings from the eight probes?',
+    options: {
+        a: 'Obtains an average reading for use by the EEC and aircraft systems',
+        b: 'Discards outlier readings and uses the median reading',
+        c: 'Obtains only the highest reading for use by the EEC'
+    },
+    correct: 'a'
+},
+{
+    id: 6065,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'Where do the ITT thermocouple probes protrude into?',
+    options: {
+        a: 'The compressor turbine discharge airstream, through bosses in the power turbine stator housing',
+        b: 'The compressor inlet airstream, through bosses in the compressor case',
+        c: 'The exhaust duct airstream, through bosses in the exhaust housing'
+    },
+    correct: 'a'
+},
+{
+    id: 6066,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'At what station is the interturbine temperature sampled?',
+    options: {
+        a: 'Station 5, between the compressor turbine and the first stage power turbine stator',
+        b: 'Station 3, between the compressor and the combustion chamber',
+        c: 'Station 7, between the first and second stage power turbines'
+    },
+    correct: 'a'
+},
+{
+    id: 6067,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What does incorporating the cold junction in the T1 sensor remove the need for?',
+    options: {
+        a: 'The necessity of routing the harness through the gas generator case',
+        b: 'The necessity of using thermocouple material in the wiring harness',
+        c: 'The necessity of using a platinum RTD in the control logic'
+    },
+    correct: 'b'
+},
+{
+    id: 6068,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'Where is the T1 sensor located, and where does it send its signal?',
+    options: {
+        a: "At the 12 o'clock position on the PT6C-67C, transmitting directly to the EEC",
+        b: "At the 3 o'clock position on the AGB, transmitting directly to the FMM",
+        c: "At the 6 o'clock position on the PT6C-67C, transmitting directly to the cockpit"
+    },
+    correct: 'a'
+},
+{
+    id: 6069,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What does the dual function pressure switch provide signals for?',
+    options: {
+        a: 'ITT (RTD) and warning of an overspeed condition',
+        b: 'Fuel temperature (RTD) and warning of a pre-blockage situation',
+        c: 'Oil temperature (RTD) and warning of a chip detection event'
+    },
+    correct: 'b'
+},
+{
+    id: 6070,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'Where is the dual function pressure switch located?',
+    options: {
+        a: 'At the bottom of the AGB',
+        b: 'Next to the main oil pressure sensor',
+        c: 'At the top of the FMM'
+    },
+    correct: 'c'
+},
+{
+    id: 6071,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'Under what condition is a "FUEL ICING" caution displayed?',
+    options: {
+        a: 'Fuel temperature below 5°C with oil temperature reading less than 82°C',
+        b: 'Fuel temperature below 5°C with oil temperature reading greater than 82°C',
+        c: 'Fuel temperature above 5°C with oil temperature reading greater than 82°C'
+    },
+    correct: 'b'
+},
+{
+    id: 6072,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'Under what condition is a "FUEL HEATER" caption displayed?',
+    options: {
+        a: 'Fuel temperature greater than 82°C',
+        b: 'Fuel temperature greater than 74°C',
+        c: 'Fuel temperature less than 74°C'
+    },
+    correct: 'b'
+},
+{
+    id: 6073,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'At what differential pressure does the impending bypass switch activate the "FUEL FILTER" caption?',
+    options: {
+        a: 'Between 20-24 PSID',
+        b: 'Between 10-14 PSID',
+        c: 'Between 16-19 PSID'
+    },
+    correct: 'c'
+},
+{
+    id: 6074,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What must not be used as a lockwire point on the dual function pressure switch?',
+    options: {
+        a: 'The threaded boss on the fuel metering valve',
+        b: 'The vent hole located on the pump housing filter bowl',
+        c: 'The terminal block at the top of the FMM'
+    },
+    correct: 'b'
+},
+{
+    id: 6075,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'At what PSID does the oil filter impending bypass indicator pop?',
+    options: {
+        a: '18-24 PSID',
+        b: '16-19 PSID',
+        c: '25-30 PSID'
+    },
+    correct: 'a'
+},
+{
+    id: 6076,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What prevents the oil filter bypass indicator from popping at low oil temperatures?',
+    options: {
+        a: 'An electrical solenoid lockout, below 37°C, controlled by the EEC',
+        b: 'A thermal lockout spring, below 37°C, to prevent false indications on cold starts',
+        c: 'A thermal lockout spring, below 60°C, to prevent false indications after shutdown'
+    },
+    correct: 'b'
+},
+{
+    id: 6077,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'At what oil temperature does the "ENGINE OIL TEMP" caution illuminate?',
+    options: {
+        a: '120°C or above',
+        b: '140°C or above',
+        c: '160°C or above'
+    },
+    correct: 'b'
+},
+{
+    id: 6078,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'At what oil pressure does the "ENG OIL PRESS" warning illuminate and extinguish?',
+    options: {
+        a: 'Illuminates at 50 psi decreasing, extinguishes at 60 psi rising',
+        b: 'Illuminates at 69 psi decreasing, extinguishes at 60 psi rising',
+        c: 'Illuminates at 60 psi decreasing, extinguishes at 69 psi rising'
+    },
+    correct: 'c'
+},
+{
+    id: 6079,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What does the chip detector indicate?',
+    options: {
+        a: 'The presence of fuel contamination in the oil system',
+        b: 'The presence of ferrous particles in the oil system',
+        c: 'The presence of air entrainment in the oil system'
+    },
+    correct: 'b'
+},
+{
+    id: 6080,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'At what scheduled interval should engine chip detectors be checked for correct operation?',
+    options: {
+        a: 'Not exceeding 1,200 hours or 24 months',
+        b: 'Not exceeding 600 hours or 6 months',
+        c: 'Not exceeding 900 hours or 12 months'
+    },
+    correct: 'c'
+},
+{
+    id: 6081,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What happens when the MFD is first powered up?',
+    options: {
+        a: 'The MFD shall display the last selected rating before shutdown',
+        b: 'The MFD shall display the OEI mode by default',
+        c: 'The MFD shall display the AEO mode by default'
+    },
+    correct: 'c'
+},
+{
+    id: 6082,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What is displayed when the ENG GOV switch is in the MANUAL control position?',
+    options: {
+        a: 'A green "MAN" legend, in reverse video on the right/left side of the Ng scales',
+        b: 'A red "MAN" legend, flashing on the right/left side of the ITT scale',
+        c: 'An amber "MAN" legend, in reverse video on the right/left side of the TQ/PI scales'
+    },
+    correct: 'c'
+},
+{
+    id: 6083,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What does the amber "FAIL" legend indicate, and where is it displayed?',
+    options: {
+        a: 'A failure of torque information, in reverse video on the right/left side of the TQ scales',
+        b: 'A failure of ITT information, steady on the right/left side of the ITT scale',
+        c: 'A failure of NF information, in reverse video on the right/left side of the triple tachometer (NF) scales'
+    },
+    correct: 'c'
+},
+{
+    id: 6084,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What does the amber "OEI" legend indicate, and where is it displayed?',
+    options: {
+        a: 'The associated engine has exceeded its torque limit, on the NG scale',
+        b: 'The associated engine is in training mode, on the right/left side of the PI scale only',
+        c: 'The associated engine has failed, on the right/left side of the PI, NG, ITT and TQ scales'
+    },
+    correct: 'c'
+},
+{
+    id: 6085,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'How is the "OEI TNG" legend displayed?',
+    options: {
+        a: 'TNG displayed on all four scales, with OEI shown only on the PI scale',
+        b: 'OEI displayed on the right/left of PI, NG, ITT and TQ scales, with TNG in reverse video on the right/left of the PI and TQ scales',
+        c: 'OEI TNG displayed only on the NG scale, in steady amber text'
+    },
+    correct: 'b'
+},
+{
+    id: 6086,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'When is the steady amber "2,5 m" legend displayed?',
+    options: {
+        a: 'On the right/left side of the PI scale and between the NG and ITT scales, when a 2.5 minute excursion time is detected',
+        b: 'On the ITT scale only, when the engine reaches idle',
+        c: 'On the Nf scale only, when the starter motor is engaged'
+    },
+    correct: 'a'
+},
+{
+    id: 6087,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'How does the "2,5 m" legend change when within 10 seconds of expiration?',
+    options: {
+        a: 'It changes from amber to white text',
+        b: 'It is displayed steady, in green inverse video',
+        c: 'It is displayed blinking, in amber inverse video'
+    },
+    correct: 'c'
+},
+{
+    id: 6088,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'How is the "2,5 m" legend displayed once the 2.5 minute time has expired, and what caution is it associated with?',
+    options: {
+        a: 'Displayed steady in red inverse video, associated with the "1 (2) ENG. LIM. EXPIRE" caution',
+        b: 'Displayed steady in white text, associated with the "ENGINE OIL TEMP" caution',
+        c: 'Displayed blinking in amber inverse video, associated with the "FUEL FILTER" caution'
+    },
+    correct: 'a'
+},
+{
+    id: 6089,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'When is the green "START" legend displayed?',
+    options: {
+        a: 'On the right/left side of the triple tachometer scales, when Engine Mode is set to IDLE',
+        b: 'On the right/left side of the NG scales, when the starter is running',
+        c: 'On the right/left side of the ITT scales, when the spark igniters are powered'
+    },
+    correct: 'b'
+},
+{
+    id: 6090,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'When is the green "IGN" legend displayed?',
+    options: {
+        a: 'On the right/left side of the ITT scales, when the spark igniters are powered',
+        b: 'On the right/left side of the NG scales, when the starter is running',
+        c: 'On the right/left side of the PI scale, when ignition is selected to ON'
+    },
+    correct: 'a'
+},
+{
+    id: 6091,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'When is the green "IDLE" legend displayed, and what colour-matching rule applies?',
+    options: {
+        a: 'On the right/left side of the triple tachometer (NF) scales when Engine Mode is set to IDLE; it matches the colour of the corresponding NF pointer',
+        b: 'On the TQ scale when Engine Mode is set to IDLE; it has no colour-matching rule',
+        c: 'On the right/left side of the NG scale when Engine Mode is set to IDLE; it matches the colour of the corresponding Ng pointer'
+    },
+    correct: 'a'
+},
+{
+    id: 6092,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'What do the green triangle (►◄) legends indicate, and where are they displayed?',
+    options: {
+        a: 'The load sharing switch position, displayed aside the TQ or ITT scale legend',
+        b: 'The OEI training selection, displayed aside the NG scale legend',
+        c: 'The torque limiter status, displayed aside the PI scale legend'
+    },
+    correct: 'a'
 }
-
 ];
