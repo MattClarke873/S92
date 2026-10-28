@@ -52897,18 +52897,18 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 5500,
     Aircraft: 'AW139',
     Category: '28',
-    question: 'How is the tank sump attached, and what is its fuel capacity?',
+    question: 'How is the tank fuel sump attached, and what is its fuel capacity?',
     options: {
         a: 'Attached with 10 bolts and a rubber gasket, with a capacity of approximately 5 litres',
         b: 'Welded to the tank bladder directly, with a capacity of approximately 0.5 litres',
         c: 'Attached to its flange with 25 washers and 25 screws, with a capacity of approximately 1.1 litres'
     },
     correct: 'c'
-},
+}, */
 {
     id: 5501,
     Aircraft: 'AW139',
@@ -55709,7 +55709,7 @@ export const questions = [
     id: 5734,
     Aircraft: 'AW139',
     Category: '72',
-    question: 'What is Station 2.5, and what is its air used for?',
+    question: 'Where on the engine is Station 2.5, and what is its air used for?',
     options: {
         a: 'The gas generator outlet, where temperature is monitored by thermocouples for engine control',
         b: 'The axial compressor outlet, where pressure and temperature (P2.5, T2.5) rise significantly; this air is used for sealing bearing housings and other aircraft services',
@@ -56744,7 +56744,7 @@ export const questions = [
     question: 'Which component is integral with the Fuel Management Module (FMM)?',
     options: {
         a: 'The fuel pump and filter',
-        b: 'The fuel heater and FCOC',
+        b: 'The fuel heater and fuel cooled oil cooler',
         c: 'The ecology fuel accumulator and manifold'
     },
     correct: 'a'
@@ -57209,7 +57209,7 @@ export const questions = [
     id: 5859,
     Aircraft: 'AW139',
     Category: '73',
-    question: 'What is the FCOC essentially?',
+    question: 'What is the fuel cooled oil cooler essentially?',
     options: {
         a: 'A heat exchanger which utilises oil to cool the fuel system',
         b: 'A heat exchanger which utilises air to cool the fuel system',
@@ -57221,7 +57221,7 @@ export const questions = [
     id: 5860,
     Aircraft: 'AW139',
     Category: '73',
-    question: 'Where is the FCOC mounted?',
+    question: 'Where is the fuel cooled oil cooler mounted?',
     options: {
         a: 'At the bottom of the accessory gearbox at the rear of the engine',
         b: 'On the fuel manifold at the side of the engine',
@@ -57233,7 +57233,7 @@ export const questions = [
     id: 5861,
     Aircraft: 'AW139',
     Category: '73',
-    question: 'Between what temperatures does the FCOC thermal valve modulate?',
+    question: 'Between what temperatures does the fuel cooled oil cooler thermal valve modulate?',
     options: {
         a: 'Between 60°C and 70°C',
         b: 'Between 50°C and 60°C',
@@ -57245,7 +57245,7 @@ export const questions = [
     id: 5862,
     Aircraft: 'AW139',
     Category: '73',
-    question: 'At what temperature is the FCOC core valve completely closed?',
+    question: 'At what temperature is the fuel cooled oil cooler core valve completely closed?',
     options: {
         a: '71°C',
         b: '60°C',
@@ -57428,7 +57428,7 @@ export const questions = [
     question: 'What does rotation of the fuel metering valve set?',
     options: {
         a: 'The maximum flow stop position',
-        b: 'The window opening width',
+        b: 'The window opening width and height',
         c: 'The window opening height'
     },
     correct: 'b'
@@ -58441,7 +58441,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 5962,
     Aircraft: 'AW139',
     Category: '74',
@@ -58452,7 +58452,7 @@ export const questions = [
         c: 'Replace both igniters and repeat the operational check'
     },
     correct: 'a'
-},
+}, */
 {
     id: 5963,
     Aircraft: 'AW139',
@@ -59693,7 +59693,7 @@ export const questions = [
     id: 6066,
     Aircraft: 'AW139',
     Category: '77',
-    question: 'At what station is the interturbine temperature sampled?',
+    question: 'Within the engine, at what station is the interturbine temperature sampled?',
     options: {
         a: 'Station 5, between the compressor turbine and the first stage power turbine stator',
         b: 'Station 3, between the compressor and the combustion chamber',
@@ -59857,7 +59857,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 6080,
     Aircraft: 'AW139',
     Category: '77',
@@ -59868,7 +59868,7 @@ export const questions = [
         c: 'Not exceeding 900 hours or 12 months'
     },
     correct: 'c'
-},
+}, */
 {
     id: 6081,
     Aircraft: 'AW139',
