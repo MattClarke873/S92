@@ -58152,6 +58152,306 @@ export const questions = [
         c: 'The legend continues flashing amber with no further cockpit indication'
     },
     correct: 'b'
+},
+{
+    id: 5938,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'What is the purpose of the ignition system?',
+    options: {
+        a: 'To provide initial spark to the oil air mixture over a varying range of conditions',
+        b: 'To provide initial spark to the fuel air mixture over a varying range of conditions',
+        c: 'To provide continuous spark to the fuel air mixture throughout all phases of flight'
+    },
+    correct: 'b'
+},
+{
+    id: 5939,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'How many igniters and exciters does each engine have?',
+    options: {
+        a: 'One igniter and two dual output exciters',
+        b: 'Two igniters and two single output exciters',
+        c: 'Two igniters and one dual output exciter'
+    },
+    correct: 'c'
+},
+{
+    id: 5940,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'What power supply energises the ignition system?',
+    options: {
+        a: 'The aircraft 28V DC power supply',
+        b: 'The aircraft 115V AC power supply',
+        c: 'The engine driven PMA 64V AC supply'
+    },
+    correct: 'a'
+},
+{
+    id: 5941,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'Over what voltage range does the ignition system generate spark?',
+    options: {
+        a: 'Between 9 and 30 Volts',
+        b: 'Between 5 and 20 Volts',
+        c: 'Between 15 and 40 Volts'
+    },
+    correct: 'a'
+},
+{
+    id: 5942,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'What are the three main components of the spark ignition system?',
+    options: {
+        a: 'An ignition exciter unit, two unshielded ignition leads, and two igniters',
+        b: 'An ignition exciter unit, two shielded ignition leads, and two igniters',
+        c: 'Two ignition exciter units, two shielded ignition leads, and one igniter'
+    },
+    correct: 'b'
+},
+{
+    id: 5943,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'What type of unit is the ignition exciter?',
+    options: {
+        a: 'A sealed unit with electronic components contained in silicone gel',
+        b: 'A sealed unit with electronic components contained in epoxy resin',
+        c: 'An open unit with electronic components contained in a metal housing'
+    },
+    correct: 'b'
+},
+{
+    id: 5944,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'What does the ignition exciter do to the DC input?',
+    options: {
+        a: 'Changes it to a constant high-voltage output through a relay and resistor network',
+        b: 'Changes it to a pulsed high-voltage output through solid-state circuitry, a transformer and diodes',
+        c: 'Changes it to a pulsed low-voltage output through solid-state circuitry and diodes'
+    },
+    correct: 'b'
+},
+{
+    id: 5945,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'When is the ignition exciter energised?',
+    options: {
+        a: 'Continuously throughout engine operation',
+        b: 'Only during engine shutdown',
+        c: 'Only during engine starting'
+    },
+    correct: 'c'
+},
+{
+    id: 5946,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: "What happens when the exciter's capacitor charge is sufficient to ionise the spark gap?",
+    options: {
+        a: 'The capacitor holds its charge until the igniters are replaced',
+        b: 'The capacitor releases its charge across the two spark igniters',
+        c: 'The capacitor releases its charge back into the aircraft battery'
+    },
+    correct: 'b'
+},
+{
+    id: 5947,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'What allows one ignition exciter to keep operating when the other is open or short-circuited?',
+    options: {
+        a: 'The dividing and step-up transformer network',
+        b: 'The flexible metal braiding on the ignition leads',
+        c: 'The epoxy resin sealing of the exciter unit'
+    },
+    correct: 'a'
+},
+{
+    id: 5948,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'What happens automatically if one or two ignition exciters become defective or power is removed?',
+    options: {
+        a: 'The capacitor releases its charge automatically',
+        b: 'The capacitor retains its charge indefinitely',
+        c: 'The igniters switch to a backup power supply'
+    },
+    correct: 'a'
+},
+{
+    id: 5949,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'What does the exciter box transform the incoming 28 VDC power into?',
+    options: {
+        a: 'A low energy continuous output through solid-state circuitry and a storage capacitor',
+        b: 'A high energy pulsed output through solid-state circuitry, transformers, diodes, and a storage capacitor',
+        c: 'A high energy continuous output through a relay network and transformers'
+    },
+    correct: 'b'
+},
+{
+    id: 5950,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'To approximately what energy level is the storage capacitor progressively charged?',
+    options: {
+        a: 'About eight joules',
+        b: 'About two joules',
+        c: 'About four joules'
+    },
+    correct: 'c'
+},
+{
+    id: 5951,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'What happens once the storage capacitor reaches its charge level?',
+    options: {
+        a: 'An internal spark gap in the exciter arcs, discharging the energy to the FMM',
+        b: 'An external spark gap at the igniter arcs, discharging the energy to the exciter',
+        c: 'An internal spark gap in the exciter arcs, discharging the energy to the igniters'
+    },
+    correct: 'c'
+},
+{
+    id: 5952,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'How are the spark igniters cooled?',
+    options: {
+        a: 'By engine oil circulation',
+        b: 'By fuel flow through the manifold',
+        c: 'By P3 air'
+    },
+    correct: 'c'
+},
+{
+    id: 5953,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'Where are the spark igniters located on the gas generator case?',
+    options: {
+        a: "At the 4 and 8 o'clock positions, with tips outside the combustion chamber",
+        b: "At the 2 and 10 o'clock positions, with tips inside the combustion chamber",
+        c: "At the 4 and 8 o'clock positions, with tips inside the combustion chamber"
+    },
+    correct: 'c'
+},
+{
+    id: 5954,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'What does the igniter consist of?',
+    options: {
+        a: 'A positive central electrode surrounded by a fully conducting metal shell',
+        b: 'A positive central electrode surrounded by a semi-conducting material',
+        c: 'A negative central electrode surrounded by an insulating ceramic'
+    },
+    correct: 'b'
+},
+{
+    id: 5955,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'What is the purpose of the flexible metal braiding on the ignition leads?',
+    options: {
+        a: 'Shielding of the high voltage DC power carried to the igniters',
+        b: 'Insulation of the high voltage DC power carried to the igniters',
+        c: 'Cooling of the high voltage DC power carried to the igniters'
+    },
+    correct: 'a'
+},
+{
+    id: 5956,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'What safety feature operates if both igniters fail to work?',
+    options: {
+        a: 'The capacitor discharges automatically',
+        b: 'The remaining igniter doubles its discharge rate',
+        c: 'The exciter shuts down and locks out ignition'
+    },
+    correct: 'a'
+},
+{
+    id: 5957,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'What is recommended if a spark igniter is dropped?',
+    options: {
+        a: 'Replacement, due to possible undetectable internal damage',
+        b: 'A visual inspection only, since damage would be visible',
+        c: 'Cleaning of the firing end before refitting'
+    },
+    correct: 'a'
+},
+{
+    id: 5958,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'What should never be done to the nose (firing) end of an igniter?',
+    options: {
+        a: 'It should never be torqued to the specified value',
+        b: 'It should never be inspected for erosion',
+        c: 'It should never be cleaned'
+    },
+    correct: 'c'
+},
+{
+    id: 5959,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'Why should carbon deposits in the electrode gap area not be removed?',
+    options: {
+        a: 'Carbon deposits are an aid to igniter operation',
+        b: 'Carbon deposits have no effect on igniter operation',
+        c: 'Carbon deposits protect the igniter from corrosion'
+    },
+    correct: 'a'
+},
+{
+    id: 5960,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'Before switching the ignition system on for a functional check, what must be performed first?',
+    options: {
+        a: 'A full engine start, to confirm normal operation',
+        b: 'A fuel system bleed, to remove any trapped air',
+        c: 'A dry motor of the engine, to remove any residual fuel'
+    },
+    correct: 'c'
+},
+{
+    id: 5961,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'During the ignition functional check, what sound and rate should be heard at the gas generator case?',
+    options: {
+        a: 'A snapping sound at about four snaps per second',
+        b: 'A snapping sound at about one snap per second',
+        c: 'A humming sound at a constant steady tone'
+    },
+    correct: 'b'
+},
+{
+    id: 5962,
+    Aircraft: 'AW139',
+    Category: '74',
+    question: 'If neither igniter snaps during the operational check, what is the correct corrective action?',
+    options: {
+        a: 'Replace the ignition exciter and repeat the operational check',
+        b: 'Replace the ignition leads and repeat the operational check',
+        c: 'Replace both igniters and repeat the operational check'
+    },
+    correct: 'a'
 }
 
 ];
