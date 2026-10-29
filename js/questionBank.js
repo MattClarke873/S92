@@ -60012,5 +60012,1205 @@ export const questions = [
         c: 'The torque limiter status, displayed aside the PI scale legend'
     },
     correct: 'a'
+},
+{
+    id: 6093,
+    Aircraft: 'AW139',
+    Category: '78',
+    question: 'What is the purpose of the exhaust case?',
+    options: {
+        a: 'To vent gases to atmosphere',
+        b: 'To mix exhaust gases with fresh inlet air',
+        c: 'To cool the exhaust gases before they reach the power turbine'
+    },
+    correct: 'a'
+},
+{
+    id: 6094,
+    Aircraft: 'AW139',
+    Category: '78',
+    question: 'What is the exhaust case constructed from?',
+    options: {
+        a: 'Heat resistant nickel sheet metal',
+        b: 'Stainless steel/ceramic fibre laminate',
+        c: 'Heat resistant titanium sheet metal'
+    },
+    correct: 'a'
+},
+{
+    id: 6095,
+    Aircraft: 'AW139',
+    Category: '78',
+    question: 'How is the PT6C-67C exhaust duct positioned?',
+    options: {
+        a: 'Always 90° straight up, regardless of installation',
+        b: 'Either 30° down left or right, dependent upon installation',
+        c: 'Either 60° up left or right, dependent upon installation'
+    },
+    correct: 'c'
+},
+{
+    id: 6096,
+    Aircraft: 'AW139',
+    Category: '78',
+    question: 'Is exhaust rotation permissible at field level?',
+    options: {
+        a: 'No, exhaust rotation requires return to an overhaul facility',
+        b: 'Yes, exhaust rotation is permissible at field level',
+        c: 'No, exhaust rotation is only permissible during manufacture'
+    },
+    correct: 'b'
+},
+{
+    id: 6097,
+    Aircraft: 'AW139',
+    Category: '78',
+    question: 'What does the first part (nozzle) of the exhaust collector do?',
+    options: {
+        a: 'Runs inside the engine fireseal and turns the exhaust gases in a straight flow',
+        b: 'Channels breather air from the engine oil separator overboard',
+        c: 'Runs outside the firewall and directs exhaust gases to the aircraft side'
+    },
+    correct: 'a'
+},
+{
+    id: 6098,
+    Aircraft: 'AW139',
+    Category: '78',
+    question: 'What does the second part of the exhaust collector do?',
+    options: {
+        a: 'Runs inside the power turbine shaft housing, insulating it from heat',
+        b: 'Runs inside the engine fireseal, turning the exhaust gases in a straight flow',
+        c: 'Runs in the area between the engine and the firewall, directing exhaust gases to the aircraft side'
+    },
+    correct: 'c'
+},
+{
+    id: 6099,
+    Aircraft: 'AW139',
+    Category: '78',
+    question: 'How are the exhaust nozzles attached, and how are the two sections held together?',
+    options: {
+        a: 'By a weld seam, with a clamp around the exhaust duct holding the two sections in place',
+        b: 'By a ring of 8 bolts, with a lockwire holding the two sections in place',
+        c: 'By a ring of 13 bolts, with a clamp around the exhaust duct holding the two sections in place'
+    },
+    correct: 'c'
+},
+{
+    id: 6100,
+    Aircraft: 'AW139',
+    Category: '78',
+    question: 'What is the insulation blanket constructed from, and how is it installed?',
+    options: {
+        a: 'A single piece, woven, titanium/aramid laminate, bonded between the duct tubes and the firewall',
+        b: 'A 2 piece, texturized, stainless steel/ceramic fibre laminate, laced together and installed between the duct tubes and the power turbine shaft housing',
+        c: 'A 2 piece, texturized, nickel/glass fibre laminate, bolted between the duct tubes and the exhaust nozzle'
+    },
+    correct: 'b'
+},
+{
+    id: 6101,
+    Aircraft: 'AW139',
+    Category: '78',
+    question: 'What does the insulation blanket minimize?',
+    options: {
+        a: 'The transfer of noise from the exhaust gases to the aircraft cabin',
+        b: 'The transfer of heat from the exhaust gases to the power turbine shaft and bearings',
+        c: 'The transfer of vibration from the exhaust duct to the firewall'
+    },
+    correct: 'b'
+},
+{
+    id: 6102,
+    Aircraft: 'AW139',
+    Category: '78',
+    question: 'What is the aim of the enhanced exhaust installation?',
+    options: {
+        a: 'To reduce the exhaust system temperature and reduce weight',
+        b: 'To increase exhaust gas velocity and improve thrust recovery',
+        c: 'To reduce exhaust system temperature while increasing overall weight'
+    },
+    correct: 'a'
+},
+{
+    id: 6103,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: "Where is the engine's integral oil tank formed?",
+    options: {
+        a: 'In the compressor inlet case',
+        b: 'In the accessory gearbox diaphragm',
+        c: 'In the power turbine shaft housing'
+    },
+    correct: 'a'
+},
+{
+    id: 6104,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'Besides lubricating and cooling the bearings, what else does the oil do?',
+    options: {
+        a: 'Carries cooling air to the compressor turbine vane ring',
+        b: 'Carries any extraneous matter to the oil filter, where it is prevented from further circulation',
+        c: 'Carries fuel vapour away from the combustion chamber for recirculation'
+    },
+    correct: 'b'
+},
+{
+    id: 6105,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'Where is the chip detector located that detects impending component failure?',
+    options: {
+        a: 'In the compressor inlet case',
+        b: 'In the reduction gearbox',
+        c: 'In the accessory gearbox diaphragm'
+    },
+    correct: 'b'
+},
+{
+    id: 6106,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What are the three main systems that make up the oil system?',
+    options: {
+        a: 'Scavenge System, Breather System, and Regulating System',
+        b: 'Pressure System, Scavenge System, and Breather System',
+        c: 'Pressure System, Filtration System, and Cooling System'
+    },
+    correct: 'b'
+},
+{
+    id: 6107,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'How is pressure oil delivered from the pump to the oil filter inlet?',
+    options: {
+        a: 'Through the Fuel Cooled Oil Cooler (FCOC)',
+        b: 'Through the centrifugal breather impeller',
+        c: 'Through the Pressure Regulating Valve directly'
+    },
+    correct: 'a'
+},
+{
+    id: 6108,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'After the oil filter, how many main engine bearings receive distributed oil?',
+    options: {
+        a: 'Three, plus the AGB bearings',
+        b: 'Four, with the AGB bearings on a separate circuit',
+        c: 'Five, plus the AGB bearings'
+    },
+    correct: 'c'
+},
+{
+    id: 6109,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'How is the No. 1 bearing lubricated?',
+    options: {
+        a: 'By pressure oil from the FCOC outlet, through a dedicated external pipe',
+        b: 'By pressure oil from the cold start valve outlet, through the compressor rear hub',
+        c: 'By pressure oil from the fuel heater outlet, through a cored passage to a nozzle at the centerbore'
+    },
+    correct: 'c'
+},
+{
+    id: 6110,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'Where is the Pressure Regulating Valve located?',
+    options: {
+        a: 'At the bottom of the oil tank, accessible only with the AGB removed',
+        b: 'At the top of the accessory gearbox, accessible from outside the engine',
+        c: 'Next to the chip detector on the air inlet case'
+    },
+    correct: 'b'
+},
+{
+    id: 6111,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'How is the Pressure Regulating Valve spring tension adjusted?',
+    options: {
+        a: 'By replacing the spring with a different rated spring',
+        b: 'Clockwise to increase pressure, counter-clockwise to decrease',
+        c: 'Counter-clockwise to increase pressure, clockwise to decrease'
+    },
+    correct: 'b'
+},
+{
+    id: 6112,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'At what Ng speed should the oil pressure check be carried out?',
+    options: {
+        a: '65% Ng',
+        b: '78.5% Ng',
+        c: '100% Ng'
+    },
+    correct: 'b'
+},
+{
+    id: 6113,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'How much pressure change does one full turn of the Pressure Regulating Valve equate to?',
+    options: {
+        a: '10 PSI',
+        b: '20 PSI',
+        c: '5 PSI'
+    },
+    correct: 'a'
+},
+{
+    id: 6114,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What does the Cold Start Valve prevent?',
+    options: {
+        a: 'Under-pressurisation of the oil system during hot temperatures',
+        b: 'Oil foaming during high altitude operation',
+        c: 'Over-pressurisation of the oil system during cold temperatures'
+    },
+    correct: 'c'
+},
+{
+    id: 6115,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'At what pressure is the Cold Start Valve set, and is it adjustable?',
+    options: {
+        a: '250 PSI, and it is adjustable using ground support equipment',
+        b: '200 PSI, and it is not adjustable',
+        c: '150 PSI, and it is adjustable in the field'
+    },
+    correct: 'b'
+},
+{
+    id: 6116,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What type of pumps make up the scavenge system?',
+    options: {
+        a: 'Three double-element gear-type pumps, contained in cast housings',
+        b: 'Two single-element vane-type pumps, contained in cast housings',
+        c: 'Four double-element centrifugal pumps, contained in cast housings'
+    },
+    correct: 'a'
+},
+{
+    id: 6117,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'How does oil from the No. 1 bearing compartment return to the oil tank?',
+    options: {
+        a: 'By the blowdown valve system, via the output section housing',
+        b: 'By a dedicated scavenge pump directly to the FCOC',
+        c: 'By gravity, via an internal cored passage to the bottom of the AGB case, then a transfer tube and port in the diaphragm'
+    },
+    correct: 'c'
+},
+{
+    id: 6118,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'How is the No. 2 bearing oil scavenged at high engine speeds?',
+    options: {
+        a: 'A second scavenge pump engages automatically to handle the increased flow',
+        b: 'The oil is vented directly overboard through the exhaust mounted venturi',
+        c: 'A blowdown valve reduces the restriction caused by the pump, allowing the oil/air mixture to drain directly into the AGB'
+    },
+    correct: 'c'
+},
+{
+    id: 6119,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'How is oil from the No. 3 bearing recovered?',
+    options: {
+        a: 'By a venturi arrangement that draws the oil from the bearing cavity to the output section housing',
+        b: 'By gravity drain directly into the oil tank',
+        c: 'By the blowdown valve system shared with the No. 2 bearing'
+    },
+    correct: 'a'
+},
+{
+    id: 6120,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'How do the No. 4 and 5 bearings drain, and how is the oil scavenged back?',
+    options: {
+        a: 'They drain by a venturi arrangement directly to the AGB sump',
+        b: 'They drain by gravity directly into the FCOC inlet',
+        c: 'They drain by gravity into the output section housing, scavenged by the third scavenge pump via external piping'
+    },
+    correct: 'c'
+},
+{
+    id: 6121,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What does the self-sealing magnetic chip detector at the inlet of the tank provide?',
+    options: {
+        a: 'A backup oil pressure reading for the cockpit display',
+        b: 'Cockpit indication in the event of magnetic particle contamination in the oil system',
+        c: 'A visual pop-out indication only, with no cockpit connection'
+    },
+    correct: 'b'
+},
+{
+    id: 6122,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What is the centrifugal breather impeller housing attached to?',
+    options: {
+        a: 'The front face of the accessory diaphragm, by a bolted flange',
+        b: 'The rear face of the torque shaft, by a splined coupling',
+        c: 'The rear face of the starter generator gearshaft, by a retaining ring'
+    },
+    correct: 'c'
+},
+{
+    id: 6123,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'Why does the AGB pressurise during normal operation?',
+    options: {
+        a: 'Air returned in the scavenged oil, from the air sealing used at the bearing housings, causes a continuous flow of oil and air',
+        b: 'The scavenge pumps force air into the AGB to maintain a positive pressure',
+        c: 'The cold start valve vents directly into the AGB during cold starts'
+    },
+    correct: 'a'
+},
+{
+    id: 6124,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What does centrifugal force in the breather impeller do to the air/oil mixture?',
+    options: {
+        a: 'Ejects the lighter air particles back into the gearbox',
+        b: 'Mixes the oil and air more thoroughly before venting',
+        c: 'Ejects the heavier oil particles back into the gearbox'
+    },
+    correct: 'c'
+},
+{
+    id: 6125,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'At what position is the breather boss located on the accessory gearbox housing?',
+    options: {
+        a: "The 3 o'clock position",
+        b: "The 12 o'clock position",
+        c: "The 6 o'clock position"
+    },
+    correct: 'b'
+},
+{
+    id: 6126,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'Where is the oil tank located, and what is it an integral part of?',
+    options: {
+        a: 'Behind the accessory gearbox, as an integral part of the compressor inlet case',
+        b: 'Above the FCOC, as an integral part of the exhaust collector',
+        c: 'In front of the accessory gearbox, as an integral part of the AGB diaphragm'
+    },
+    correct: 'a'
+},
+{
+    id: 6127,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'Where is the oil tank drain plug located?',
+    options: {
+        a: "At the 6 o'clock position of the compressor inlet case",
+        b: "At the 12 o'clock position of the compressor inlet case",
+        c: "At the 3 o'clock position of the accessory gearbox"
+    },
+    correct: 'a'
+},
+{
+    id: 6128,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What is the total capacity of the oil tank?',
+    options: {
+        a: '8 litres',
+        b: '12 litres',
+        c: '5 litres'
+    },
+    correct: 'a'
+},
+{
+    id: 6129,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'Where is the oil pump mounted, and what type of pump is it?',
+    options: {
+        a: 'At the rear of the FCOC, a self-contained centrifugal pump',
+        b: 'At the top of the accessory gearbox, a self-contained vane-type pump',
+        c: 'At the bottom of the oil tank, a self-contained gear-type pump'
+    },
+    correct: 'c'
+},
+{
+    id: 6130,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What type of filter element does the oil filter use?',
+    options: {
+        a: 'A ceramic element type, 5 micron, non-cleanable and disposable',
+        b: 'A metallic mesh type, 10 micron, non-cleanable and disposable',
+        c: 'A paper element type, 25 micron, cleanable and reusable'
+    },
+    correct: 'b'
+},
+{
+    id: 6131,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What happens to the bypass plunger when the oil filter becomes clogged?',
+    options: {
+        a: 'Pressure on top of the plunger decreases, allowing it to rise under spring pressure',
+        b: 'Pressure on top of the plunger increases, moving it downwards, overcoming spring pressure and filter outlet pressure',
+        c: 'The plunger remains stationary, but a solenoid is energised to trigger the indicator'
+    },
+    correct: 'b'
+},
+{
+    id: 6132,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What happens as the oil filter bypass plunger moves downwards?',
+    options: {
+        a: 'The magnetic attraction with the indicator portion increases, holding the indicator flush',
+        b: 'A solenoid closes the fuel cut-off valve as a precaution',
+        c: 'The magnetic attraction with the indicator portion is broken, and the bypass red indicator pops out'
+    },
+    correct: 'c'
+},
+{
+    id: 6133,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What does the oil system chip detector indicate?',
+    options: {
+        a: 'The presence of ferrous particles in the oil system',
+        b: 'The presence of water contamination in the oil system',
+        c: 'The presence of air entrainment in the oil system'
+    },
+    correct: 'a'
+},
+{
+    id: 6134,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What is the function of the Pressure Regulating Valve (PRV)?',
+    options: {
+        a: 'To maintain fuel pressure to the FMM within its operating range',
+        b: 'To maintain the oil pressure in the range of 90 to 130 psi, for sufficient lubrication and cooling flow',
+        c: 'To maintain the oil temperature in the range of 60 to 70°C, for sufficient cooling flow'
+    },
+    correct: 'b'
+},
+{
+    id: 6135,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'Where is the oil PRV located?',
+    options: {
+        a: 'Next to the chip detector on the air inlet case',
+        b: 'Next to the oil filter on the compressor inlet case',
+        c: 'Next to the cold start valve on the accessory gearbox casing'
+    },
+    correct: 'c'
+},
+{
+    id: 6136,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What do the two ends of the PRV piston do?',
+    options: {
+        a: 'One allows flow out to the AGB breather, the other opens a return to the cold start valve',
+        b: 'One allows flow out to the FCOC, the other opens a return to the pump inlet',
+        c: 'One allows flow out to the oil tank, the other opens a return to the chip detector'
+    },
+    correct: 'b'
+},
+{
+    id: 6137,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'Can the oil PRV be adjusted in the field?',
+    options: {
+        a: 'No, it can only be adjusted at an overhaul facility',
+        b: 'No, it is a sealed, non-adjustable unit',
+        c: 'Yes, it can be adjusted in the field, per the engine MM'
+    },
+    correct: 'c'
+},
+{
+    id: 6138,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What is the function of the Cold Start Valve?',
+    options: {
+        a: 'To prevent excessive oil temperature during hot start conditions, when oil viscosity is low',
+        b: 'To prevent excessive oil pressure during cold start conditions, when oil viscosity may be high',
+        c: 'To regulate normal operating oil pressure across the full speed range'
+    },
+    correct: 'b'
+},
+{
+    id: 6139,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What happens when the Cold Start Valve opens?',
+    options: {
+        a: 'Oil is vented overboard through the exhaust',
+        b: 'Oil is directed straight to the FCOC',
+        c: 'Oil is returned to the pump inlet'
+    },
+    correct: 'c'
+},
+{
+    id: 6140,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What two types of seals are used to seal the bearing compartments?',
+    options: {
+        a: 'Labyrinth seals and O-ring elastomeric seals',
+        b: 'Labyrinth seals and carbon seals',
+        c: 'Carbon seals and metallic gasket seals'
+    },
+    correct: 'b'
+},
+{
+    id: 6141,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'How does the labyrinth seal prevent oil leakage?',
+    options: {
+        a: "A very small clearance exists between the rotating knife-edge and the non-rotating running groove, which when 'balanced' prevents leakage",
+        b: 'A rubber O-ring is compressed between the rotating and non-rotating components',
+        c: 'A spring-loaded plunger closes off the gap whenever pressure drops'
+    },
+    correct: 'a'
+},
+{
+    id: 6142,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'How does the carbon seal maintain its sealing clearance?',
+    options: {
+        a: 'The carbon ring is hydraulically actuated to track shaft movement',
+        b: 'The carbon ring is bonded rigidly to the housing, with no float permitted',
+        c: 'The spring-loaded carbon ring floats, maintaining a close relation with the race on the rotating shaft'
+    },
+    correct: 'c'
+},
+{
+    id: 6143,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What does premature wear of labyrinth or carbon seals typically indicate?',
+    options: {
+        a: 'An incorrectly adjusted Pressure Regulating Valve',
+        b: 'A shaft imbalance or bearing distress',
+        c: 'A fuel contamination issue in the oil'
+    },
+    correct: 'b'
+},
+{
+    id: 6144,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'Where is the FCOC mounted?',
+    options: {
+        a: 'On the compressor inlet case, next to the oil tank',
+        b: 'At the bottom of the accessory gearbox, at the rear of the engine',
+        c: 'At the top of the accessory gearbox, at the front of the engine'
+    },
+    correct: 'b'
+},
+{
+    id: 6145,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'Between what temperatures does the FCOC thermal sensor modulate the control valve?',
+    options: {
+        a: 'Between 60°C and 70°C (140 to 160°F)',
+        b: 'Between 40°C and 50°C (104 to 122°F)',
+        c: 'Between 70°C and 80°C (158 to 176°F)'
+    },
+    correct: 'a'
+},
+{
+    id: 6146,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'At what temperature does the FCOC core valve start to close, diverting oil through the cooler?',
+    options: {
+        a: 'Above 71°C',
+        b: 'Above 60°C',
+        c: 'Above 50°C'
+    },
+    correct: 'b'
+},
+{
+    id: 6147,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'At what temperature is the FCOC core valve completely closed, sending all oil through the cooler?',
+    options: {
+        a: '65°C',
+        b: '71°C',
+        c: '80°C'
+    },
+    correct: 'b'
+},
+{
+    id: 6148,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What should always be referred to before adjusting oil pressure?',
+    options: {
+        a: 'The ambient air temperature at the time of the check',
+        b: "The previous flight's recorded oil pressure trend",
+        c: 'Troubleshooting of the oil system must be completed first, in accordance with the engine MM'
+    },
+    correct: 'c'
+},
+{
+    id: 6149,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What level of oil consumption is indicative of an oil system problem?',
+    options: {
+        a: 'A sudden increase, or consumption approaching one quart per five hours',
+        b: 'A sudden increase, or consumption approaching one quart per fifty hours',
+        c: 'Consumption approaching two quarts per hour'
+    },
+    correct: 'a'
+},
+{
+    id: 6150,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'How often should a visual check of the oil level be carried out?',
+    options: {
+        a: 'Every 25 flight hours',
+        b: 'Every 50 flight hours',
+        c: 'Every 12 flight hours'
+    },
+    correct: 'c'
+},
+{
+    id: 6151,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What should be done if, after a dry motoring run following a 12+ hour stationary period, the oil level shows below the green band?',
+    options: {
+        a: 'Start and run the engine for two minutes, shut down and check the level again',
+        b: 'Immediately top up the oil tank to the maximum mark before starting',
+        c: 'Replace the oil filter before any further checks'
+    },
+    correct: 'a'
+},
+{
+    id: 6152,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What is the symptom associated with a No. 1 bearing labyrinth seal problem?',
+    options: {
+        a: 'Presence of oil at the air inlet, on the compressor and bleed valve, with oil smell and/or smoke in cabin',
+        b: 'Possible smoke through the exhaust on start-up and shutdown only',
+        c: 'Evidence of oil coking around the compressor turbine at Hot Section Inspection'
+    },
+    correct: 'a'
+},
+{
+    id: 6153,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What is the symptom associated with a No. 2 bearing front carbon seal problem?',
+    options: {
+        a: 'Possible smoke through the exhaust on start-up and shutdown',
+        b: 'Presence of oil at the air inlet, on the compressor and bleed valve',
+        c: 'Oil smell and/or smoke in cabin'
+    },
+    correct: 'c'
+},
+{
+    id: 6154,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What is the symptom associated with a No. 2 bearing rear carbon seal problem?',
+    options: {
+        a: 'Oil smell and/or smoke in the cabin during cruise flight',
+        b: 'Presence of oil at the air inlet and on the bleed valve',
+        c: 'At Hot Section Inspection, evidence of oil coking around the compressor turbine'
+    },
+    correct: 'c'
+},
+{
+    id: 6155,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What is the symptom associated with a No. 3 bearing carbon seal problem?',
+    options: {
+        a: 'Possible smoke through the exhaust on start-up and shutdown',
+        b: 'Oil smell and/or smoke in cabin during all flight phases',
+        c: 'Evidence of oil coking around the compressor turbine'
+    },
+    correct: 'a'
+},
+{
+    id: 6156,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What are the possible causes and fixes for high oil pressure?',
+    options: {
+        a: 'Check the oil pressure indicating system, and verify/adjust the PRV',
+        b: 'Check for a blocked AGB breather tube and clean it',
+        c: 'Check the oil filter and replace it, then verify the chip detector'
+    },
+    correct: 'a'
+},
+{
+    id: 6157,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What are the possible causes and fixes for low oil pressure?',
+    options: {
+        a: 'Check oil temperature indicating system only, and verify FCOC function',
+        b: 'Check for a blocked AGB breather tube and clean it',
+        c: 'Check oil level, check/replace oil filter, check oil pressure indicating system, check for oil leaks, verify/adjust PRV'
+    },
+    correct: 'c'
+},
+{
+    id: 6158,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What are the possible causes and fixes for oil pressure fluctuation?',
+    options: {
+        a: 'Check the starter/generator carbon seal for wear inside the AGB',
+        b: 'Check oil level, check/replace oil filter, check oil pressure indicating system, and check for PRV sticking',
+        c: 'Check exhaust and inlet case for traces of oil'
+    },
+    correct: 'b'
+},
+{
+    id: 6159,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What are the possible causes and fixes for high oil temperature?',
+    options: {
+        a: 'Check oil level, oil temperature indicating system, air cooling fins in the compressor inlet case for cleanliness, fuel heater lines not crossed, and FCOC malfunction',
+        b: 'Check the starter/generator carbon seal for wear inside the AGB',
+        c: 'Check for a blocked AGB breather tube, and verify/adjust the PRV'
+    },
+    correct: 'a'
+},
+{
+    id: 6160,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What are the possible causes and fixes for excessive oil discharge from the overboard breather?',
+    options: {
+        a: 'Blocked/restricted AGB breather tube only',
+        b: 'Internal leak in the fuel heater or FCOC',
+        c: 'Oil level kept too high, and starter/generator carbon seal wear inside the AGB'
+    },
+    correct: 'c'
+},
+{
+    id: 6161,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What is the possible cause and fix for oil leaks?',
+    options: {
+        a: 'Blocked/restricted AGB breather tube',
+        b: 'Oil level kept too high',
+        c: 'Internal leak in the fuel heater or FCOC'
+    },
+    correct: 'a'
+},
+{
+    id: 6162,
+    Aircraft: 'AW139',
+    Category: '79',
+    question: 'What is the possible cause and fix for a high oil level?',
+    options: {
+        a: 'Internal leak in the fuel heater or FCOC',
+        b: 'Starter/generator carbon seal wear inside the AGB',
+        c: 'Blocked/restricted AGB breather tube'
+    },
+    correct: 'a'
+},
+{
+    id: 6163,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'How is engine starting achieved, and which mode is used for normal starts?',
+    options: {
+        a: "Automatically or manually by each engine's electrical starter/generator, with normal starts made using the AUTO mode",
+        b: "Automatically or manually by each engine's electrical starter/generator, with normal starts made using the MANUAL mode",
+        c: 'Only automatically, by a shared pneumatic starter, with normal starts made using the MANUAL mode'
+    },
+    correct: 'a'
+},
+{
+    id: 6164,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What controls AUTO start mode, and what controls Manual mode?',
+    options: {
+        a: 'Both AUTO and Manual mode are controlled through the EEC',
+        b: 'AUTO mode is controlled through the EEC, Manual mode through the GCU',
+        c: 'AUTO mode is controlled through the GCU, Manual mode through the EEC'
+    },
+    correct: 'b'
+},
+{
+    id: 6165,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What is the normal speed range for the start cycle?',
+    options: {
+        a: '0 – 6800 rpm',
+        b: '5500 – 11078 rpm',
+        c: '0 – 5500 rpm'
+    },
+    correct: 'c'
+},
+{
+    id: 6166,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What is the normal speed range for the generator mode?',
+    options: {
+        a: '5500 – 6800 rpm',
+        b: '6800 – 11078 rpm',
+        c: '0 – 5500 rpm'
+    },
+    correct: 'b'
+},
+{
+    id: 6167,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What happens if there is a CRITICAL fault with the EEC?',
+    options: {
+        a: 'That engine will shut down immediately and cannot be restarted',
+        b: 'Both engines will revert to manual mode simultaneously',
+        c: 'That engine will revert to manual mode'
+    },
+    correct: 'c'
+},
+{
+    id: 6168,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What is required to start the engines in MANUAL mode?',
+    options: {
+        a: 'Only the Engine Control Panel, with the ECL left in the FLIGHT position',
+        b: 'Both the Engine Control Lever, controlled by the trim switches on the collective hand grip, and the Engine Control Panel',
+        c: 'Only the collective governor switches, with no ECL or ECP involvement'
+    },
+    correct: 'b'
+},
+{
+    id: 6169,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'Besides engine start, what two cranking procedures is the starter also used for?',
+    options: {
+        a: 'The dry motoring run and the hot start abort procedure',
+        b: 'The dry motoring run and the wet motoring run',
+        c: 'The quick engine start and the hung start recovery procedure'
+    },
+    correct: 'b'
+},
+{
+    id: 6170,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'How is the quick engine start procedure carried out?',
+    options: {
+        a: 'Set ENG 1(2) MODE selector to FLIGHT directly, then the second engine to FLT when NG No.1(2) is above 25%',
+        b: 'Set both ENG 1(2) MODE selectors to FLIGHT simultaneously, regardless of NG',
+        c: 'Set ENG 1(2) MODE selector to IDLE directly, then the second engine to FLT when NG No.1(2) is above 49%'
+    },
+    correct: 'a'
+},
+{
+    id: 6171,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What is the dry motoring run required for?',
+    options: {
+        a: 'Engine preservation/depreservation during maintenance',
+        b: 'Checking for fuel leaks',
+        c: 'Engine washing/ventilation'
+    },
+    correct: 'c'
+},
+{
+    id: 6172,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What is the wet motoring run required for?',
+    options: {
+        a: 'Checking for abnormal ITT rise during a hot start',
+        b: 'Checking for fuel leak or engine preservation/depreservation',
+        c: 'Engine washing/ventilation only'
+    },
+    correct: 'b'
+},
+{
+    id: 6173,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'In the wet motoring run procedure, what position is the applicable ENGINE CONTROL LEVER set to?',
+    options: {
+        a: 'IDLE',
+        b: 'OFF',
+        c: 'FLIGHT'
+    },
+    correct: 'c'
+},
+{
+    id: 6174,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What is the quoted duty cycle for the wet motoring run, per the IETP and RFM?',
+    options: {
+        a: '60 seconds',
+        b: '90 seconds',
+        c: '45 seconds'
+    },
+    correct: 'c'
+},
+{
+    id: 6175,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What additional control is involved in starting when MANUAL mode is performed?',
+    options: {
+        a: 'The ECL housed on the overhead panel, in addition to the ECP and the pilot collective levers',
+        b: 'The TQ LIM pushbutton, in addition to the ECP',
+        c: 'The RPM selector switch, in addition to the ECP'
+    },
+    correct: 'a'
+},
+{
+    id: 6176,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What legend does the MFD provide during starting, and in what colour?',
+    options: {
+        a: 'The red legend START',
+        b: 'The green legend START',
+        c: 'The amber legend START'
+    },
+    correct: 'b'
+},
+{
+    id: 6177,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: "What does the ENG 1(2) MODE selector switch's OFF position do?",
+    options: {
+        a: 'Shuts down the fuel flow by energizing the shutdown solenoid, and disengages the starter if in AUTO mode',
+        b: 'Shuts down the fuel flow by de-energizing the shutdown solenoid, with no effect on the starter',
+        c: 'Engages the starter for a dry motoring run only'
+    },
+    correct: 'a'
+},
+{
+    id: 6178,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: "What does the ENG 1(2) MODE selector switch's IDLE position do?",
+    options: {
+        a: 'Stops the engine and disengages the starter contactor',
+        b: 'Starts the engine and governs it at IDLE speed (65% Nf)',
+        c: 'Starts the engine and governs it at FLIGHT speed (100% Nf)'
+    },
+    correct: 'b'
+},
+{
+    id: 6179,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What stabilization period must be respected after selecting IDLE, and whose responsibility is it to ensure compliance?',
+    options: {
+        a: 'Approximately 60 seconds, automatically enforced by the EEC with no pilot action required',
+        b: "Approximately 10 seconds, under the pilot's responsibility",
+        c: "Approximately 60 seconds, under the pilot's responsibility, as it is not an automatic EEC feature"
+    },
+    correct: 'c'
+},
+{
+    id: 6180,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: "What does the ENG 1(2) MODE selector switch's FLT position govern the engine at, in AUTO mode?",
+    options: {
+        a: '100% Nf',
+        b: '65% Nf',
+        c: '49% Nf'
+    },
+    correct: 'a'
+},
+{
+    id: 6181,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What legend is displayed on the triple tachometer NF scale in place of the green IDLE legend, in case of a TQ/Nf sensor failure?',
+    options: {
+        a: 'The amber legend MAN',
+        b: 'The red legend HOT START',
+        c: 'The amber legend FAIL'
+    },
+    correct: 'c'
+},
+{
+    id: 6182,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'At what Ng percentage do the Ng digital readout and pointer change from white, and what else happens at that point?',
+    options: {
+        a: '65% Ng, at which point the green START/IGN legends are also removed',
+        b: '49% Ng, at which point the green START/IGN legends are also removed',
+        c: '40% Ng, at which point the green START/IGN legends are also removed'
+    },
+    correct: 'b'
+},
+{
+    id: 6183,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: "What does the ENG 1(2) GOV AUTO/MANUAL selector switch's AUTO position allow?",
+    options: {
+        a: 'N.1(2) engine automatic starting and automatic control',
+        b: 'N.1(2) engine quick start only, with no automatic control',
+        c: 'N.1(2) engine manual starting, wet motoring, and dry motoring'
+    },
+    correct: 'a'
+},
+{
+    id: 6184,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: "What does the ENG 1(2) GOV AUTO/MANUAL selector switch's MANUAL position allow?",
+    options: {
+        a: 'N.1(2) engine automatic starting and automatic control only',
+        b: 'N.1(2) engine quick start, bypassing the normal start sequence',
+        c: 'N.1(2) engine manual starting / wet motoring / dry motoring, and manual control'
+    },
+    correct: 'c'
+},
+{
+    id: 6185,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What is displayed when in MANUAL mode, and where?',
+    options: {
+        a: 'The red legend MAN, blinking, on the ITT scale (MFD) only',
+        b: 'The amber legend MAN, in reverse video, on the left side of the TQ scale (MFD) and PI scale (PFDs)',
+        c: 'The green legend MAN, steady, on the right side of the Ng scale (MFD) only'
+    },
+    correct: 'b'
+},
+{
+    id: 6186,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What does the ENG 1(2) START push-button switch do in MAN mode?',
+    options: {
+        a: 'Engages both the starter and ignition system',
+        b: 'Engages only the ignition system, with the starter engaged automatically',
+        c: 'Engages only the starter, with ignition controlled separately'
+    },
+    correct: 'a'
+},
+{
+    id: 6187,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What is it remarked to always do for either dry or wet cranking operations?',
+    options: {
+        a: 'Leave the ENGINE CONTROL LEVER in the FLIGHT position',
+        b: 'Set the ENG MODE selector to FLT',
+        c: 'Pull the "IGN" circuit breaker out'
+    },
+    correct: 'c'
+},
+{
+    id: 6188,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'Under what ignition timing condition should the start be aborted?',
+    options: {
+        a: 'If ignition occurs before the ENG MODE is set to IDLE',
+        b: 'If ignition is NOT within 10 seconds of ENG MODE being set to IDLE',
+        c: 'If ignition is NOT within 30 seconds of ENG MODE being set to IDLE'
+    },
+    correct: 'b'
+},
+{
+    id: 6189,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What ITT-related condition should cause the start to be aborted?',
+    options: {
+        a: 'If ITT increases above engine limits, illuminating HOT START',
+        b: 'If ITT fails to rise within 10 seconds of starter engagement',
+        c: 'If ITT exceeds 60°C during the stabilization period'
+    },
+    correct: 'a'
+},
+{
+    id: 6190,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'At what Ng percentage should the main rotor blades have begun turning, or the start should be aborted?',
+    options: {
+        a: '54% Ng',
+        b: '25% Ng',
+        c: '40% Ng'
+    },
+    correct: 'c'
+},
+{
+    id: 6191,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What condition indicates a hung start, requiring the start to be monitored and potentially aborted?',
+    options: {
+        a: 'Stagnation in Ng below 54%',
+        b: 'Stagnation in Ng below 40%',
+        c: 'Stagnation in Nf below 65%'
+    },
+    correct: 'a'
+},
+{
+    id: 6192,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What does the CAS caution "1(2) HOT START" indicate?',
+    options: {
+        a: 'The N.1(2) engine ITT exceeds limits during engine starting',
+        b: 'The N.1(2) engine has failed to disengage the starter contactor',
+        c: 'The N.1(2) engine Ng has stagnated below 54% during starting'
+    },
+    correct: 'a'
 }
 ];
