@@ -61212,5 +61212,1973 @@ export const questions = [
         c: 'The N.1(2) engine Ng has stagnated below 54% during starting'
     },
     correct: 'a'
+},
+{
+    id: 6193,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What is the Central Maintenance System (CMS)?',
+    options: {
+        a: 'A single member system LRU dedicated to fault recording only',
+        b: 'A combination of the flight control computers and the autopilot disconnect function',
+        c: 'A combination of a fault recording and maintenance access system, and the member systems that send data to it'
+    },
+    correct: 'c'
+},
+{
+    id: 6194,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What is a member system?',
+    options: {
+        a: 'Any LRU that is installed in Modular Avionics Unit 1 only',
+        b: 'Any system that receives fault codes directly from the AFIP',
+        c: 'Any Line Replaceable Unit (LRU) or Line Replaceable Module (LRM) that sends results of Built-In Tests (BIT) to the CMC'
+    },
+    correct: 'c'
+},
+{
+    id: 6195,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What two methods are used to gain access to the central maintenance system data?',
+    options: {
+        a: 'The CMC Remote Terminal only, since the MFD cannot access CMS data',
+        b: 'The MFD only, or a dedicated hardwired test panel in the avionics bay',
+        c: 'The MFD with the CCD for control, or the CMC Remote Terminal connected to the LAN port'
+    },
+    correct: 'c'
+},
+{
+    id: 6196,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What database does the central maintenance computer use to store configuration and member system data?',
+    options: {
+        a: 'A flat text file database, called the Central Maintenance Computer Function (CMCF) database',
+        b: 'A Microsoft Access database, called the Loadable Diagnostic Information (LDI) database',
+        c: 'An SQL Server database, called the Fault History Database (FHDB)'
+    },
+    correct: 'b'
+},
+{
+    id: 6197,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What benefit does keeping the LDI database separate from the CMC executable code provide?',
+    options: {
+        a: 'A member system can be updated without recertifying flight software',
+        b: 'Fault history data can be deleted without affecting member system BIT results',
+        c: 'The CMC can run without any operating system installed'
+    },
+    correct: 'a'
+},
+{
+    id: 6198,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'Where does the central maintenance computer keep member system fault data?',
+    options: {
+        a: "Only in the member system's own volatile RAM",
+        b: 'In the Fault History Database (FHDB), and optionally in non-volatile memory (NVM) in the LRU',
+        c: 'Only in the Loadable Diagnostic Information database'
+    },
+    correct: 'b'
+},
+{
+    id: 6199,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What does the generated fault code allow the engineer to do?',
+    options: {
+        a: 'Use the Aircraft Fault Isolation Publication (AFIP) to carry out specific troubleshooting procedures',
+        b: 'Automatically order replacement parts from the manufacturer',
+        c: 'Bypass the need for continuity checks during troubleshooting'
+    },
+    correct: 'a'
+},
+{
+    id: 6200,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What happens if the Modular Avionics Unit does not have power, or the ASCB-D is off?',
+    options: {
+        a: 'The CMC reverts to a default configuration display only',
+        b: 'The maintenance function switches automatically to the CMC-RT',
+        c: 'The maintenance function is not available'
+    },
+    correct: 'c'
+},
+{
+    id: 6201,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What prevents member systems from entering unsafe conditions or uncommanded BIT in flight if the CMC function software fails?',
+    options: {
+        a: 'A manual circuit breaker that must be pulled by the pilot',
+        b: 'The ASCB-D automatically isolating the affected member system',
+        c: 'Interlocks built into the member systems'
+    },
+    correct: 'c'
+},
+{
+    id: 6202,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'Where does the central maintenance computer get flight deck effects from?',
+    options: {
+        a: 'The Monitor Warning Function (MWF)',
+        b: 'The Configuration Monitoring Function (CMF)',
+        c: 'The Graphics Generator Function (GGF)'
+    },
+    correct: 'a'
+},
+{
+    id: 6203,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What is a flight deck effect (FDE)?',
+    options: {
+        a: 'Any unusual condition that the pilot or copilot observes on the flight deck',
+        b: 'Any report downloaded to the CMC remote terminal',
+        c: "Any fault code stored in a member system's non-volatile memory"
+    },
+    correct: 'a'
+},
+{
+    id: 6204,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'How does the central maintenance computer show maintenance messages?',
+    options: {
+        a: 'As "Active Maintenance Messages" and "Stored Maintenance Messages", in sequence by chapter number',
+        b: 'As "Detected" and "Observed" faults, sorted alphabetically',
+        c: 'As a single combined list, sorted by time of occurrence only'
+    },
+    correct: 'a'
+},
+{
+    id: 6205,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'When can the central maintenance computer initiate ground tests?',
+    options: {
+        a: 'At any time, including in flight, provided interlocks are satisfied',
+        b: 'Only during the after-loading procedure, within 4 minutes of power reset',
+        c: 'Whilst the aircraft is on the ground'
+    },
+    correct: 'c'
+},
+{
+    id: 6206,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What does the fault history download function supply?',
+    options: {
+        a: "A live video feed of the member system's BIT in progress",
+        b: 'The interface to download fault data from a member system kept in non-volatile memory',
+        c: 'A direct printout of all active CAS messages'
+    },
+    correct: 'b'
+},
+{
+    id: 6207,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What does the system configuration display show?',
+    options: {
+        a: 'The installed components, without indicating that the equipment configuration is serviceable',
+        b: 'Only the software part numbers, with hardware part numbers excluded',
+        c: 'Whether the installed equipment configuration is serviceable or not'
+    },
+    correct: 'a'
+},
+{
+    id: 6208,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What does the member system operational status function display?',
+    options: {
+        a: 'The historical fault count of each applicable member system',
+        b: 'The activity status of each applicable member system',
+        c: 'The hardware part number of each applicable member system only'
+    },
+    correct: 'b'
+},
+{
+    id: 6209,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What does the flight deck effect to maintenance message correlation function supply?',
+    options: {
+        a: 'A display that connects CAS messages directly to the AFIP document index',
+        b: 'A display that connects fault codes directly to replacement part numbers',
+        c: 'A display that connects flight deck effects to maintenance messages'
+    },
+    correct: 'c'
+},
+{
+    id: 6210,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'At what rate does the fault history database function collect fault reports and EICAS messages?',
+    options: {
+        a: '0.1 Hz',
+        b: '1 Hz',
+        c: '10 Hz'
+    },
+    correct: 'b'
+},
+{
+    id: 6211,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What data do fault reports and EICAS messages in the FHDB show?',
+    options: {
+        a: 'Only the time and date of occurrence, with no status indication',
+        b: 'Current status (ACTIVE/INACTIVE), flight leg, flight phase, time, date, aircraft serial number, and LRU serial number',
+        c: 'Only the fault code and the affected ATA chapter number'
+    },
+    correct: 'b'
+},
+{
+    id: 6212,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What is a maintenance message?',
+    options: {
+        a: 'A printed report generated only at the end of a flight',
+        b: 'A text string used to aid troubleshooting',
+        c: 'A binary fault code with no associated text'
+    },
+    correct: 'b'
+},
+{
+    id: 6213,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What is the central maintenance computer remote terminal?',
+    options: {
+        a: 'A fixed cockpit-mounted terminal with no network connection',
+        b: 'A portable personal computer with an Ethernet local area network connection',
+        c: 'A handheld wireless tablet with no physical connector'
+    },
+    correct: 'b'
+},
+{
+    id: 6214,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What must be operating for the CMC remote terminal to be used, and what does not need to be available?',
+    options: {
+        a: 'The CMC module and the ASCB-D must be operating; the CMC module does not have to be available',
+        b: 'Only the CMC module must be operating; the ASCB-D does not need to be available',
+        c: 'Only the ASCB-D must be operating; the CMC module must always be available'
+    },
+    correct: 'a'
+},
+{
+    id: 6215,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What does the Loadable Diagnostic Information (LDI) database keep?',
+    options: {
+        a: 'The maintenance data for the member systems, including maintenance screens and messages',
+        b: 'The hardware BIOS settings for the CMC module only',
+        c: 'The real-time flight control law parameters for each member system'
+    },
+    correct: 'a'
+},
+{
+    id: 6216,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'Who is responsible for verification of the data in the LDI?',
+    options: {
+        a: "The aircraft operator's maintenance organisation",
+        b: "The central maintenance computer's internal validation software alone",
+        c: 'The member system suppliers'
+    },
+    correct: 'c'
+},
+{
+    id: 6217,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'How can the LDI database be changed?',
+    options: {
+        a: 'Only by returning the CMC module to the manufacturer',
+        b: "Only through the multifunction display's SYSTEM DIAGNOSTICS menu",
+        c: 'Through the central maintenance computer remote terminal'
+    },
+    correct: 'c'
+},
+{
+    id: 6218,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'During normal operation, what does the CMC function monitor?',
+    options: {
+        a: 'The CCD for cursor movement commands from the cockpit',
+        b: 'The Ethernet LAN for file transfer requests from the CMC-RT',
+        c: 'The ASCB-D for fault reports transmitted in real time from member systems'
+    },
+    correct: 'c'
+},
+{
+    id: 6219,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'When do member systems store fault data in non-volatile memory?',
+    options: {
+        a: 'Only when the aircraft is on the ground in maintenance mode',
+        b: 'Only when commanded to do so from the CMC-RT',
+        c: 'When equipment failures occur, via continuous BIT and power-up BIT'
+    },
+    correct: 'c'
+},
+{
+    id: 6220,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'How is most member system data accessed, without needing to download NVM to the CMC-RT?',
+    options: {
+        a: 'Most of the data can be read directly off the multifunction display maintenance screen',
+        b: 'By requesting a printed report from the central maintenance computer reports page',
+        c: 'By physically removing the LRU and reading its memory chip'
+    },
+    correct: 'a'
+},
+{
+    id: 6221,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What three tasks define member system requirements during normal operation?',
+    options: {
+        a: 'Transmission of fault history only, with no part number or BIT data required',
+        b: 'Transmission of member system faults, transmission of equipment ID/part number/serial number data, and performance of power-up and continuous BIT',
+        c: 'Transmission of CAS messages only, with faults handled separately'
+    },
+    correct: 'b'
+},
+{
+    id: 6222,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'When is maintenance mode available?',
+    options: {
+        a: 'At any time, provided the CMC-RT is connected',
+        b: 'When the aircraft is on the ground and the proper safety conditions are met',
+        c: 'Only during the after-loading procedure, within the first 4 minutes'
+    },
+    correct: 'b'
+},
+{
+    id: 6223,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'How does the CMC enable maintenance mode of operation?',
+    options: {
+        a: 'By sending a CMC active command to member systems',
+        b: 'By powering down the Modular Avionics Unit backplane',
+        c: 'By physically disconnecting the ASCB-D bus'
+    },
+    correct: 'a'
+},
+{
+    id: 6224,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What happens to maintenance mode functions if the aircraft is not on the ground?',
+    options: {
+        a: 'They remain available, but only through the CMC-RT',
+        b: 'They remain available, but only for passive status screens',
+        c: 'They are locked out by both the central maintenance computer function and the member systems'
+    },
+    correct: 'c'
+},
+{
+    id: 6225,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'If the CMC fails, what is prevented for member systems not in maintenance mode?',
+    options: {
+        a: 'The member system automatically enters a permanent fault-latched state',
+        b: 'The member system cannot be commanded to any unsafe condition or start tests',
+        c: 'The member system automatically reverts to factory default configuration'
+    },
+    correct: 'b'
+},
+{
+    id: 6226,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'In maintenance mode, what two additional CMC-supplied functions support diagnostics?',
+    options: {
+        a: 'Systems diagnostics with initiated BIT and real-time display of member system status, and downloading of NVM fault data',
+        b: 'Automatic part ordering and automatic report printing',
+        c: 'Automatic software recertification and automatic LDI validation'
+    },
+    correct: 'a'
+},
+{
+    id: 6227,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What carries out the Data Loading System (DLS) function?',
+    options: {
+        a: 'The central maintenance computer remote terminal and the data management unit, or DLMU-W (Phase 8 software)',
+        b: 'The central maintenance computer module acting alone',
+        c: 'The multifunction display and the cursor control device only'
+    },
+    correct: 'a'
+},
+{
+    id: 6228,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What database and loads does the DLS function support, besides member software loads?',
+    options: {
+        a: 'The Flight Management System (FMS) database',
+        b: 'The Fault History Database only',
+        c: 'The Loadable Diagnostic Information database only'
+    },
+    correct: 'a'
+},
+{
+    id: 6229,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'Where is most fault data stored, versus high-level fault data?',
+    options: {
+        a: 'All fault data is stored exclusively in the CMC, with none kept in the LRUs',
+        b: 'All fault data is stored exclusively in the LRUs, with none kept in the CMC',
+        c: 'Most faults are stored in the actual LRUs, with some high-level fault data kept in the CMC'
+    },
+    correct: 'c'
+},
+{
+    id: 6230,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'When are LRU tests and full CMC functionality available?',
+    options: {
+        a: 'Only during the first 4 minutes after an electrical power reset',
+        b: 'At any time, in flight or on the ground',
+        c: 'Only when the aircraft is on the ground'
+    },
+    correct: 'c'
+},
+{
+    id: 6231,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What three fault types do fault bits monitored in flight usually show?',
+    options: {
+        a: 'A warning fault, a caution fault, or an advisory fault',
+        b: 'A detected fault, an observed fault, or a correlated fault',
+        c: 'An internal fault, an interface fault, or a probe/sensor fault'
+    },
+    correct: 'c'
+},
+{
+    id: 6232,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What must be done to further resolve in-flight fault data?',
+    options: {
+        a: 'It can be fully resolved in flight using the CCD alone',
+        b: 'It must be done on the ground, where full CMC functionality can be put into operation',
+        c: 'It must wait until the next scheduled maintenance inspection'
+    },
+    correct: 'b'
+},
+{
+    id: 6233,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What are the components of the central maintenance system?',
+    options: {
+        a: 'Central maintenance computer remote terminal and cursor control device only',
+        b: 'Central maintenance computer module, optional data management unit, central maintenance computer remote terminal, and multifunction display',
+        c: 'Central maintenance computer module and multifunction display only'
+    },
+    correct: 'b'
+},
+{
+    id: 6234,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'Where is the Central Maintenance Computer module installed?',
+    options: {
+        a: 'As a dual redundant module split between Modular Avionics Units 1 and 2',
+        b: 'As a single line replaceable module in Modular Avionics Unit 1',
+        c: 'In a dedicated enclosure in the tail cone, separate from the MAU'
+    },
+    correct: 'b'
+},
+{
+    id: 6235,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'Where does the CMC module derive its normal operating power from?',
+    options: {
+        a: 'A dedicated battery pack mounted within the module',
+        b: "The multifunction display's power supply",
+        c: 'The backplane'
+    },
+    correct: 'c'
+},
+{
+    id: 6236,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What is the minimum CPU speed and type used by the CMC module?',
+    options: {
+        a: '166 MHz Pentium CPU (minimum)',
+        b: '333 MHz Pentium CPU (minimum)',
+        c: '500 MHz Pentium CPU (minimum)'
+    },
+    correct: 'b'
+},
+{
+    id: 6237,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What is the minimum RAM fitted to the CMC module?',
+    options: {
+        a: '256 megabytes',
+        b: '128 megabytes',
+        c: '64 megabytes'
+    },
+    correct: 'b'
+},
+{
+    id: 6238,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What size solid-state hard drive does the CMC module use, and what operating system?',
+    options: {
+        a: '144 megabytes, running Windows NT',
+        b: '256 megabytes, running Windows NT',
+        c: '144 megabytes, running Windows XP'
+    },
+    correct: 'a'
+},
+{
+    id: 6239,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'How much hard drive space is allocated to the Loadable Diagnostic Information?',
+    options: {
+        a: '32 Mbyte',
+        b: '10 Mbyte',
+        c: '20 Mbyte'
+    },
+    correct: 'c'
+},
+{
+    id: 6240,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What interface transfers video output from the CMC module to the multifunction display?',
+    options: {
+        a: 'A Digital Video Interface (DVI)',
+        b: 'A High-Definition Multimedia Interface (HDMI)',
+        c: 'A Remote Image Bus (RIB) interface'
+    },
+    correct: 'c'
+},
+{
+    id: 6241,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What happens to the normal graphics generation function when the maintenance function is selected on the MFD?',
+    options: {
+        a: 'It is removed, and the CMC module video output is routed directly to the display',
+        b: 'It is replaced by the Configuration Monitoring Function output',
+        c: 'It continues to run alongside the CMC module video in a split-screen view'
+    },
+    correct: 'a'
+},
+{
+    id: 6242,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What software selects the desired function to be displayed on the MFD, and what does it ensure?',
+    options: {
+        a: 'The Configuration Monitoring Function (CMF) software, which has no display interlocks',
+        b: 'The Graphics Generator Function (GGF) software, which has interlocks ensuring CMC video is displayed only when safe and appropriate',
+        c: 'The Central Maintenance Computer Function (CMCF) software, which bypasses all display interlocks'
+    },
+    correct: 'b'
+},
+{
+    id: 6243,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What are the four selections on the Central Maintenance Computer Main Menu?',
+    options: {
+        a: 'MAINTENANCE MESSAGES, SYSTEMS DIAGNOSTICS, EXTENDED MAINTENANCE, DATA LOADER',
+        b: 'SYSTEMS DIAGNOSTICS, EXTENDED MAINTENANCE, STORAGE ALLOWED, DATA LOADER',
+        c: 'MAINTENANCE MESSAGES, REPORTS, FILE TRANSFER, CONFIGURATION'
+    },
+    correct: 'a'
+},
+{
+    id: 6244,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What are the selections on the MAINTENANCE MESSAGES menu?',
+    options: {
+        a: 'PRESENT LEG, FILE TRANSFER, SYSTEMS DIAGNOSTICS, RETURN TO MAIN MENU',
+        b: 'ACTIVE, STORED, REPORTS, CONFIGURATION, RETURN TO MAIN MENU',
+        c: 'ACTIVE, PRESENT LEG, HISTORICAL BY DATE, HISTORICAL BY ATA, RETURN TO MAIN MENU'
+    },
+    correct: 'c'
+},
+{
+    id: 6245,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'In what sequence does the ACTIVE CORRELATED FLIGHT DECK EFFECTS list display messages?',
+    options: {
+        a: 'Alphabetically by maintenance message text',
+        b: 'By current CAS message groups: warning, caution, advisory, and status',
+        c: 'By ATA chapter number only, with no grouping by severity'
+    },
+    correct: 'b'
+},
+{
+    id: 6246,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What bezel buttons are available on the Active Correlated Flight Deck Effects List?',
+    options: {
+        a: 'MAIN MENU, PREV, and MAINT MSG',
+        b: 'MAIN MENU, PREV, and TEST MENU',
+        c: 'MAIN MENU, ABORT, and FWD'
+    },
+    correct: 'a'
+},
+{
+    id: 6247,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What are the five sections of the Flight Deck Effect Detail page?',
+    options: {
+        a: 'HEADER, POSSIBLE LINE REPLACEABLE UNIT(S) AT FAULT, SYMPTOMS, DOCUMENTS, and MAINTENANCE MESSAGE CORRELATION',
+        b: 'HEADER, ACTIVE, STORED, HISTORICAL, and REPORTS',
+        c: 'HEADER, SYMPTOMS, REPORTS, CONFIGURATION, and RETURN'
+    },
+    correct: 'a'
+},
+{
+    id: 6248,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What does the POSSIBLE LINE REPLACEABLE UNIT(S) AT FAULT section show, if more than one LRU is listed?',
+    options: {
+        a: 'The LRUs are listed alphabetically, with no indication of probability',
+        b: 'Only the single most recently replaced LRU is shown',
+        c: 'The more probable LRU is at the top of the list'
+    },
+    correct: 'c'
+},
+{
+    id: 6249,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What does the SYMPTOMS section of the Flight Deck Effect Detail page show?',
+    options: {
+        a: 'Text recorded by the member system supplier that gives the symptoms caused by the identified failure or flight deck effect',
+        b: 'A graph of the parameter trend leading up to the fault',
+        c: 'A list of previous fault codes logged against that LRU'
+    },
+    correct: 'a'
+},
+{
+    id: 6250,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What is shown when the SYSTEM DIAGNOSTICS button is pushed from the Main Menu?',
+    options: {
+        a: 'The SELECT A LIST page',
+        b: 'The EXTENDED MAINTENANCE menu directly',
+        c: 'The TEST STATUS and RESULTS page directly'
+    },
+    correct: 'a'
+},
+{
+    id: 6251,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'How does maintenance personnel initiate a selected test on the System Diagnostics menu?',
+    options: {
+        a: 'By pushing the TEST COMPLT bezel button',
+        b: 'By double-clicking the test name on the CMC-RT',
+        c: 'By pushing the ENTER button on the cursor control device'
+    },
+    correct: 'c'
+},
+{
+    id: 6252,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What text is shown near the top of the test page when a test starts?',
+    options: {
+        a: 'TEST INITIALIZING',
+        b: 'TEST COMPLETE',
+        c: 'TEST IN PROGRESS'
+    },
+    correct: 'a'
+},
+{
+    id: 6253,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What does the ABORT bezel button do on the Select a Test page?',
+    options: {
+        a: 'Stops the test during the initialization procedure',
+        b: 'Deletes the test results from the fault history database',
+        c: 'Stops the test at any point, including after results are displayed'
+    },
+    correct: 'a'
+},
+{
+    id: 6254,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What do the TEST STATUS and RESULTS pages show?',
+    options: {
+        a: 'Only the ATA chapter number associated with the test',
+        b: 'The name of the test done at the top, and details relevant to the error sensed in the centre of the page',
+        c: 'Only a pass/fail indication, with no further detail'
+    },
+    correct: 'b'
+},
+{
+    id: 6255,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What does the STORAGE ALLOWED selection on the Extended Maintenance menu control?',
+    options: {
+        a: 'Whether the CMC-RT is permitted to connect to the aircraft LAN',
+        b: 'Whether the multifunction display shows maintenance pages at all',
+        c: 'The storage of faults in the fault history database, toggling between STORAGE ALLOWED and STORAGE DISALLOWED'
+    },
+    correct: 'c'
+},
+{
+    id: 6256,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What does the MEMBER SYSTEM STATUS selection on the Extended Maintenance menu show, and how is it sequenced?',
+    options: {
+        a: "A display of each member system's hardware part number, sequenced alphabetically",
+        b: 'A display of which member systems currently operate, sequenced by ATA chapter',
+        c: "A display of each member system's fault history, sequenced by date"
+    },
+    correct: 'b'
+},
+{
+    id: 6257,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'How many bezel buttons are available on the Extended Maintenance Menu?',
+    options: {
+        a: 'Four bezel buttons: MAIN MENU, PREV, FWD, and TEST MENU',
+        b: 'No bezel buttons are available on this menu',
+        c: 'Two bezel buttons: MAIN MENU and PREV'
+    },
+    correct: 'b'
+},
+{
+    id: 6258,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'On the Member System Status page, how are chapters shown where all specified member systems report OPERATIONAL?',
+    options: {
+        a: 'In cyan',
+        b: 'In white',
+        c: 'In red'
+    },
+    correct: 'b'
+},
+{
+    id: 6259,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'On the Member System Status page, how is an ATA chapter name shown if one or more specified member systems are not OPERATIONAL?',
+    options: {
+        a: 'In cyan',
+        b: 'In amber, flashing',
+        c: 'In white'
+    },
+    correct: 'a'
+},
+{
+    id: 6260,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What are the selections on the File Transfer Menu?',
+    options: {
+        a: 'TRANSFER TO AIRCRAFT, CONFIGURATION, and REPORTS',
+        b: 'ACTIVE, STORED, and RETURN TO MAIN MENU',
+        c: 'TRANSFER TO AIRCRAFT, TRANSFER FROM AIRCRAFT, and RETURN'
+    },
+    correct: 'c'
+},
+{
+    id: 6261,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'On the File Transfer to Aircraft page, where is the selected file copied from and sent to?',
+    options: {
+        a: 'Copied from the central maintenance computer remote terminal and sent to the central maintenance system',
+        b: 'Copied from the fault history database and sent to the CMC-RT',
+        c: 'Copied from the multifunction display and sent to the data management unit'
+    },
+    correct: 'a'
+},
+{
+    id: 6262,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What does the wide green bar on the File Transfer from Aircraft page indicate?',
+    options: {
+        a: 'That the selected file transfer has completed successfully',
+        b: 'That a fault has been detected in the selected data source',
+        c: 'That more data is available than shows in the boxed window'
+    },
+    correct: 'c'
+},
+{
+    id: 6263,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What are the two top-level report selections on the Central Maintenance Computer Reports page?',
+    options: {
+        a: 'ACTIVE REPORTS and HISTORICAL REPORTS',
+        b: 'ACMF REPORTS and CENTRAL MAINTENANCE COMPUTER REPORTS',
+        c: 'FAULT REPORTS and CONFIGURATION REPORTS'
+    },
+    correct: 'b'
+},
+{
+    id: 6264,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What four options are available when the CENTRAL MAINTENANCE COMPUTER REPORTS selection is expanded?',
+    options: {
+        a: 'ACTIVE, STORED, HISTORICAL BY DATE, and HISTORICAL BY ATA',
+        b: 'ACTIVE MAINTENANCE MESSAGE REPORT, CURRENT LEG FAILURE REPORT, CONFIGURATION REPORT, and EXPORTFAULTHISTORY',
+        c: 'MAIN MENU, PREV, TEST MENU, and TEST COMPLT'
+    },
+    correct: 'b'
+},
+{
+    id: 6265,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'Where can each report be sent?',
+    options: {
+        a: 'To local storage or to the printer',
+        b: 'Only to local storage, with no printing capability',
+        c: 'Only to the CMC-RT, with no local storage option'
+    },
+    correct: 'a'
+},
+{
+    id: 6266,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'After loading procedures, how long should be waited before starting again after setting electrical power to reset the modules?',
+    options: {
+        a: '4 minutes',
+        b: '10 minutes',
+        c: '2 minutes'
+    },
+    correct: 'a'
+},
+{
+    id: 6267,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What is a detected fault?',
+    options: {
+        a: 'A fault discovered by the pilot or ground crew during normal operation',
+        b: 'A fault that can only be found by a continuity check at depot level',
+        c: 'A fault that is found by the helicopter monitoring system, where the cause is not known'
+    },
+    correct: 'c'
+},
+{
+    id: 6268,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'Where is the fault code allocated by the CMC for a detected fault stored?',
+    options: {
+        a: 'Only in the fault history database, with no LRU-level storage',
+        b: 'In non-volatile memory, and also in the non-volatile memory of complex LRUs',
+        c: 'Only in the LRU, with no storage in the CMC itself'
+    },
+    correct: 'b'
+},
+{
+    id: 6269,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'How can detected fault maintenance messages be interrogated by ground crew?',
+    options: {
+        a: 'Only through a dedicated hardwired test set connected to the ASCB-D',
+        b: 'Only by physically removing and bench-testing the affected LRU',
+        c: 'Through the central maintenance system on the multi-function displays, or downloaded as reports to a ground station'
+    },
+    correct: 'c'
+},
+{
+    id: 6270,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What is an observed fault?',
+    options: {
+        a: 'A malfunction that can only be confirmed through a continuity check',
+        b: 'A malfunction discovered by the pilot or ground crew',
+        c: 'A malfunction automatically logged by the helicopter monitoring system with an unknown cause'
+    },
+    correct: 'b'
+},
+{
+    id: 6271,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What does the AFIP for ATA chapter 45 consist of?',
+    options: {
+        a: 'An equal mix of detected and observed faults',
+        b: 'Solely detected faults',
+        c: 'Solely observed faults'
+    },
+    correct: 'b'
+},
+{
+    id: 6272,
+    Aircraft: 'AW139',
+    Category: '45',
+    question: 'What do a lot of the fault isolation procedures for ATA 45 require the use of?',
+    options: {
+        a: 'Continuity checks',
+        b: 'Pressure differential checks',
+        c: 'Torque wrench verification checks'
+    },
+    correct: 'a'
+},
+{
+    id: 6273,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'When should an EIED be removed from its safety container?',
+    options: {
+        a: 'As soon as it is received from stores, regardless of installation timing',
+        b: 'Not until you are ready to install it on the helicopter/equipment',
+        c: 'Only after the fire extinguishing bottle has been pressure tested'
+    },
+    correct: 'b'
+},
+{
+    id: 6274,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What does the cartridge of the fire extinguishing bottle contain?',
+    options: {
+        a: 'A mechanical spring-loaded firing pin only',
+        b: 'An Electrically-Initiated Explosive-Device (EIED)',
+        c: 'A pressure relief diaphragm only, with no explosive content'
+    },
+    correct: 'b'
+},
+{
+    id: 6275,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What is the purpose of the fire protection system?',
+    options: {
+        a: 'To detect overheating in the accessory gearbox and smoke in the cockpit only',
+        b: 'To detect overheating or fire in the engine compartments and the presence of smoke in the baggage compartment',
+        c: 'To automatically extinguish any fire detected anywhere on the aircraft without pilot action'
+    },
+    correct: 'b'
+},
+{
+    id: 6276,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What three subsystems does the fire protection system comprise?',
+    options: {
+        a: 'The engine fire detection system, the engine fire extinguishing system, and the baggage compartment smoke detection',
+        b: 'The engine fire extinguishing system, the baggage smoke detection, and the cockpit smoke detection',
+        c: 'The engine fire detection system, the portable extinguisher system, and the APU fire detection system'
+    },
+    correct: 'a'
+},
+{
+    id: 6277,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What is the purpose of the engine fire detection system?',
+    options: {
+        a: 'To detect high temperature, fire or hot gas leakage into the engine compartments',
+        b: 'To automatically shut off fuel to the engine compartments',
+        c: 'To detect low oil pressure in the engine compartments'
+    },
+    correct: 'a'
+},
+{
+    id: 6278,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What is the heat fire detector made of?',
+    options: {
+        a: 'A single thermocouple probe and a relay',
+        b: 'A photoelectric sensor and an amplifier',
+        c: 'A continuous firewire element and a responder'
+    },
+    correct: 'c'
+},
+{
+    id: 6279,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What does the firewire sensing element consist of?',
+    options: {
+        a: 'A copper tube containing nitrogen gas under pressure, and a ceramic core',
+        b: 'A titanium tube containing halon gas under pressure, and a carbon fibre core',
+        c: 'A stainless steel tube containing helium gas under pressure, and a core material located inside the tube'
+    },
+    correct: 'c'
+},
+{
+    id: 6280,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What is the core material inside the firewire tube?',
+    options: {
+        a: 'A gas absorption material impregnated with hydrogen',
+        b: 'A solid thermocouple wire with no gas absorption property',
+        c: 'A gas absorption material impregnated with helium'
+    },
+    correct: 'a'
+},
+{
+    id: 6281,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What does the responder contain?',
+    options: {
+        a: 'A single combined pressure switch and a thermal fuse',
+        b: 'A high pressure switch and a low pressure switch',
+        c: 'A high pressure switch and a smoke detector'
+    },
+    correct: 'b'
+},
+{
+    id: 6282,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What does the high pressure switch in the responder generate, in case of fire or hot gas leak?',
+    options: {
+        a: 'The 1(2) ENG FIRE warning message',
+        b: 'The BAG FIRE warning message',
+        c: 'The 1(2) FIRE DET caution message'
+    },
+    correct: 'a'
+},
+{
+    id: 6283,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What does the low pressure switch in the responder generate, in case of a system failure such as a broken tube?',
+    options: {
+        a: 'The 1(2) FIRE EXTING EMPTY message',
+        b: 'The 1(2) ENG FIRE warning message',
+        c: 'The 1(2) FIRE DET caution message'
+    },
+    correct: 'c'
+},
+{
+    id: 6284,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What is the purpose of the fire extinguishing system?',
+    options: {
+        a: 'To protect the engine compartment from fire',
+        b: 'To protect the cockpit from electrical fires',
+        c: 'To protect the baggage compartment from smoke'
+    },
+    correct: 'a'
+},
+{
+    id: 6285,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'How many sub-systems does the fire extinguisher system comprise, and how are they arranged?',
+    options: {
+        a: 'Three sub-systems, one for each engine compartment and one for the baggage bay',
+        b: 'A single sub-system shared between both engine compartments',
+        c: 'Two identical and interconnected sub-systems, one for each engine compartment'
+    },
+    correct: 'c'
+},
+{
+    id: 6286,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What does each fire extinguisher sub-system comprise?',
+    options: {
+        a: 'Double-check T-valves and a portable hand-held extinguisher',
+        b: 'A fire extinguisher bottle and a smoke detector',
+        c: 'A fire extinguisher bottle and double-check T-valves'
+    },
+    correct: 'c'
+},
+{
+    id: 6287,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What do the double-check T-valves ensure when the pilot operates the system?',
+    options: {
+        a: 'That only one of the two extinguisher bottles is operated',
+        b: 'That the fuel shut-off valve closes before either bottle operates',
+        c: 'That both extinguisher bottles are operated simultaneously'
+    },
+    correct: 'a'
+},
+{
+    id: 6288,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What is the capacity of each extinguishing bottle, and what is it filled with?',
+    options: {
+        a: '72 cubic inches, filled with halon and pressurized with nitrogen gas',
+        b: '90 cubic inches, filled with nitrogen and pressurized with halon gas',
+        c: '50 cubic inches, filled with halon and pressurized with helium gas'
+    },
+    correct: 'a'
+},
+{
+    id: 6289,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'How are the two extinguishing bottles cross-connected?',
+    options: {
+        a: 'So that only the content of bottle No.1 can ever reach the No.2 engine bay',
+        b: 'So that the content of either bottle can be discharged into either engine bay, and/or both bottles into either bay',
+        c: 'So that each bottle can only discharge into its own dedicated engine bay'
+    },
+    correct: 'b'
+},
+{
+    id: 6290,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What acts as the primary safety relief device on each extinguishing bottle?',
+    options: {
+        a: 'The double-check T-valve shared with the other bottle',
+        b: 'A spring-loaded mechanical pressure gauge',
+        c: 'A device that fully discharges the halon agent outside the helicopter in case of overpressure'
+    },
+    correct: 'c'
+},
+{
+    id: 6291,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What visual indication is provided upon discharge of an extinguishing bottle, for ground inspection?',
+    options: {
+        a: 'The outer red disc is fired and a green circular band is displayed',
+        b: 'The outer green disc is fired and a red circular band is displayed',
+        c: 'A mechanical flag pops up on the bottle neck'
+    },
+    correct: 'b'
+},
+{
+    id: 6292,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What does illumination of the red BAG indicator mean?',
+    options: {
+        a: 'Fire is detected in the engine no.1 compartment',
+        b: 'Smoke is detected in the baggage compartment',
+        c: 'The No.1 extinguisher bottle is empty'
+    },
+    correct: 'b'
+},
+{
+    id: 6293,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What does pressing the ENG 1 guarded push-button do?',
+    options: {
+        a: 'Immediately discharges the no.1 extinguisher bottle',
+        b: 'Resets the fire detection responder for engine no.1',
+        c: 'Arms or de-arms the fire extinguisher system outlets towards the no.1 engine bay'
+    },
+    correct: 'c'
+},
+{
+    id: 6294,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'When the ENG 1 ARM amber light is illuminated, which SOVs are closed?',
+    options: {
+        a: 'The no.1 fuel SOV and the no.1 engine bleed air SOV',
+        b: 'The no.1 and no.2 engine bleed air SOVs',
+        c: 'The no.1 fuel SOV only, with the bleed air SOV unaffected'
+    },
+    correct: 'a'
+},
+{
+    id: 6295,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: "What does the FIRE EXTING bottle selection switch's Central position mean?",
+    options: {
+        a: 'Neither extinguisher bottle is selected',
+        b: 'Both extinguisher bottles are selected simultaneously',
+        c: 'The no.1 extinguisher bottle is selected by default'
+    },
+    correct: 'a'
+},
+{
+    id: 6296,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What happens when the FIRE EXTING bottle selection switch is set to BTL 1?',
+    options: {
+        a: 'The no.1 extinguisher bottle is armed but not fired',
+        b: 'The no.1 extinguisher bottle is selected and the shot to extinguish fire takes place',
+        c: 'The no.2 extinguisher bottle is selected and the shot takes place'
+    },
+    correct: 'b'
+},
+{
+    id: 6297,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'If fire persists after the first shot, how is a second shot made available?',
+    options: {
+        a: 'By moving the switch to the other BTL position',
+        b: 'By cycling the ENG GOV switch to MANUAL and back to AUTO',
+        c: 'By pressing the ARM push-button a second time'
+    },
+    correct: 'a'
+},
+{
+    id: 6298,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'When the FIRE DETECTOR ENG 1 push-button is pressed during a test, what illuminates on the ENG control panel?',
+    options: {
+        a: 'FIRE illuminates red on the left indicator',
+        b: 'FIRE illuminates red on the right indicator',
+        c: 'ARM illuminates amber on the left indicator'
+    },
+    correct: 'a'
+},
+{
+    id: 6299,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What CAS messages are displayed when the FIRE DETECTOR ENG 1 push-button is pressed?',
+    options: {
+        a: 'BAG FIRE (warning) and 1 FIRE DET (caution)',
+        b: '1 ENG FIRE (warning) and 1 FIRE DET (caution)',
+        c: '1 ENG FIRE (warning) only, with no caution message'
+    },
+    correct: 'b'
+},
+{
+    id: 6300,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What audio indications occur when the FIRE DETECTOR ENG 1 push-button is pressed?',
+    options: {
+        a: 'An audio tone and the ENGINE 1 FIRE voice warning message',
+        b: 'The ENGINE 1 FIRE voice warning message only, with no tone',
+        c: 'An audio tone only, with no voice warning message'
+    },
+    correct: 'a'
+},
+{
+    id: 6301,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What two types of high temperature condition does the firewire element take into account?',
+    options: {
+        a: 'A fire condition, and a smoke concentration condition',
+        b: 'A general overheat condition, and a low pressure leak condition',
+        c: 'A general overheat condition, and a fire condition at a short section of the sensor element'
+    },
+    correct: 'c'
+},
+{
+    id: 6302,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'In a general overheat condition, what happens as the temperature around the firewire element increases?',
+    options: {
+        a: 'The helium gas pressure in the tube increases, closing the high pressure switch and generating the ENG FIRE message',
+        b: 'The stainless steel tube expands, mechanically triggering the low pressure switch',
+        c: 'The hydrogen in the core material is released gradually, generating the FIRE DET message'
+    },
+    correct: 'a'
+},
+{
+    id: 6303,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'In a fire condition at a short section of the firewire, what does the core material do?',
+    options: {
+        a: 'Melts through the stainless steel tube, venting all gas to atmosphere',
+        b: 'Absorbs the surrounding helium gas, decreasing internal pressure and closing the low pressure switch',
+        c: 'Releases a large volume of hydrogen gas, rapidly increasing internal pressure and closing the high pressure switch'
+    },
+    correct: 'c'
+},
+{
+    id: 6304,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'After a fire condition is corrected, what happens to the firewire element?',
+    options: {
+        a: 'The responder permanently latches the ENG FIRE message until maintenance action',
+        b: 'The firewire element must be replaced before the system can be reset',
+        c: 'The material reabsorbs the hydrogen and the system returns to a stand-by mode'
+    },
+    correct: 'c'
+},
+{
+    id: 6305,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What happens if the helium gas leaks from the firewire element?',
+    options: {
+        a: 'The pressure decreases and operates the low pressure switch, generating the FIRE DET message',
+        b: 'The firewire element automatically reseals itself with no cockpit indication',
+        c: 'The pressure increases and operates the high pressure switch, generating the ENG FIRE message'
+    },
+    correct: 'a'
+},
+{
+    id: 6306,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What illuminates when the FIRE switch on the FIRE EXTG panel is pressed to command fire extinguishing?',
+    options: {
+        a: 'The red segment FIRE',
+        b: 'The green segment ARMED',
+        c: 'The amber segment ARM'
+    },
+    correct: 'c'
+},
+{
+    id: 6307,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'Does extinguishing the fire automatically re-open the fuel shut-off valve?',
+    options: {
+        a: 'Yes, but only after a 60 second stabilization delay',
+        b: 'Yes, the fuel shut-off valve re-opens automatically once the fire is extinguished',
+        c: 'No, extinction does not imply the automatic re-opening of the fuel shut-off valve'
+    },
+    correct: 'c'
+},
+{
+    id: 6308,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What is the purpose of the baggage fire detection system?',
+    options: {
+        a: 'To detect overheating of baggage compartment electrical wiring',
+        b: 'To detect smoke in the baggage compartment',
+        c: 'To detect fire in the baggage compartment directly, without a smoke intermediary'
+    },
+    correct: 'b'
+},
+{
+    id: 6309,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What principle does the smoke sensor operate on?',
+    options: {
+        a: 'The ionization principle, using a radioactive source',
+        b: 'The thermal expansion principle, using a bimetallic strip',
+        c: 'The light-scattering principle, as a photoelectric device'
+    },
+    correct: 'c'
+},
+{
+    id: 6310,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What does the reference channel in the smoke detector sense?',
+    options: {
+        a: 'The ambient temperature inside the baggage bay',
+        b: 'The amount of light scattered by smoke particles',
+        c: 'The amount of light emitted by an internal LED source'
+    },
+    correct: 'c'
+},
+{
+    id: 6311,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What does the smoke channel in the smoke detector sense?',
+    options: {
+        a: 'The differential pressure caused by smoke accumulation',
+        b: 'The amount of light emitted directly by the internal LED source',
+        c: 'The amount of emitted light scattered by smoke particles in the baggage'
+    },
+    correct: 'c'
+},
+{
+    id: 6312,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'When the FIRE DETECTOR BAG push-button is pressed during a test, what is displayed in the CAS window?',
+    options: {
+        a: 'The message 1 FIRE DET',
+        b: 'The message BAG FIRE',
+        c: 'The message BAG FIRE EXTING EMPTY'
+    },
+    correct: 'b'
+},
+{
+    id: 6313,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What extinguishing agent does the portable fire extinguisher use, and what types of fire is it effective against?',
+    options: {
+        a: 'Dry powder, effective against small carbonaceous fires only',
+        b: 'HALON 1211, effective against small carbonaceous, flammable liquid, and electrical fires',
+        c: 'CO2, effective against electrical fires only'
+    },
+    correct: 'b'
+},
+{
+    id: 6314,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What scheduled maintenance interval applies to the Number 1 fire protection "T" check valve operational check?',
+    options: {
+        a: '10 years',
+        b: '5 years',
+        c: '1 year'
+    },
+    correct: 'b'
+},
+{
+    id: 6315,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What scheduled maintenance interval applies to the fire bottle low pressure indication check?',
+    options: {
+        a: '1 year',
+        b: '900 hours',
+        c: '5 years'
+    },
+    correct: 'a'
+},
+{
+    id: 6316,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What does the Number 1 fire system distribution duct and outlet nozzles check (GVI) look for?',
+    options: {
+        a: 'Duct security, damage, and outlet nozzles for obstruction',
+        b: 'Cartridge expiry date only',
+        c: 'Internal pressure only, with no visual inspection required'
+    },
+    correct: 'a'
+},
+{
+    id: 6317,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What does the Number 1 fire bottle firing circuits operational check include?',
+    options: {
+        a: 'A full discharge test of the extinguisher bottle',
+        b: 'Continuity of the bottle arming and selection circuits, and operational check of automatic fuel SOV closing',
+        c: 'Replacement of the EIED cartridge regardless of condition'
+    },
+    correct: 'b'
+},
+{
+    id: 6318,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'According to the 1(2) ENGINE FIRE CAS warning message description, what tones and aural message does the AWG provide?',
+    options: {
+        a: 'A single continuous tone, plus no aural message',
+        b: 'Two pairs of tones, plus the "ENGINE 1(2) FIRE - ENGINE 1(2) FIRE" aural message, continuously repeated until corrected or reset',
+        c: 'No tone, plus a single "ENGINE FIRE" aural message played once'
+    },
+    correct: 'b'
+},
+{
+    id: 6319,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'Per the CAUTION note on the 1(2) ENGINE FIRE message, what must be done before the ARM 2(1) pushbutton can be operated for a subsequent fire in the other engine bay?',
+    options: {
+        a: 'The FIRE EXTING bottle selection switch must be returned to Central',
+        b: 'The initial ARM 1(2) pushbutton must be deselected',
+        c: 'The CMS must be reset via the maintenance page on the MFD'
+    },
+    correct: 'b'
+},
+{
+    id: 6320,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What tones and aural message does the AWG provide for the BAG FIRE CAS warning message?',
+    options: {
+        a: 'Two pairs of tones, plus the "BAG FIRE - BAG FIRE" aural message',
+        b: 'A single tone, plus no aural message',
+        c: 'No tone, plus the "WARNING - WARNING" aural message'
+    },
+    correct: 'c'
+},
+{
+    id: 6321,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'When is the 1(2) FIRE EXTING EMPTY maintenance message provided on the MFD?',
+    options: {
+        a: 'When the fire detection responder fails its continuity check',
+        b: 'When the extinguisher bottle N.1(2) is empty or its internal pressure drops below a predetermined value',
+        c: "When the portable fire extinguisher's pressure gauge drops below green"
+    },
+    correct: 'b'
+},
+{
+    id: 6322,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'How is the 1(2) FIRE EXTING EMPTY message, stored in the fault log, announced to the crew?',
+    options: {
+        a: 'By the MAINTENANCE status message displayed on the MFD',
+        b: 'By a dedicated amber legend on the PI scale',
+        c: 'By an immediate CAS warning message and aural tone'
+    },
+    correct: 'a'
+},
+{
+    id: 6323,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'How can the fire extinguisher bottles be discharged?',
+    options: {
+        a: 'Manually by the pilot via the FIRE EXTING panel; the double-check T-valves ensure only one bottle discharges on the first operation, with the second bottle available on a second operation',
+        b: 'Manually by the ground crew only, via an external test panel on the AGB',
+        c: 'Automatically, as soon as the high pressure switch in the responder closes'
+    },
+    correct: 'a'
+},
+{
+    id: 6324,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What indications are given of an overpressure of a fire extinguisher bottle?',
+    options: {
+        a: 'The outer green disc is fired and a red circular band is displayed on the discharge indicator, for visual ground inspection',
+        b: 'The outer red disc is fired and a green circular band is displayed on the discharge indicator',
+        c: 'A CAS caution message only, with no external visual indication'
+    },
+    correct: 'a'
+},
+{
+    id: 6325,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'If a fire detector fails a test, such as due to a broken tube, what indication results?',
+    options: {
+        a: 'The low pressure switch operates, generating the 1(2) FIRE DET caution message',
+        b: 'The BAG FIRE warning message is generated instead',
+        c: 'The high pressure switch operates, generating the 1(2) ENG FIRE warning message'
+    },
+    correct: 'a'
+},
+{
+    id: 6326,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'How do the fire detectors operate?',
+    options: {
+        a: 'A photoelectric sensor detects light scattering caused by smoke, generating both ENG FIRE and FIRE DET',
+        b: "The firewire's helium pressure closes the low pressure switch in an overheat or fire condition, generating ENG FIRE; a helium leak closes the high pressure switch, generating FIRE DET",
+        c: "The firewire's helium pressure closes the high pressure switch in an overheat or fire condition, generating ENG FIRE; a helium leak closes the low pressure switch, generating FIRE DET"
+    },
+    correct: 'c'
+},
+{
+    id: 6327,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What indications do the crew have of an empty fire extinguishing bottle?',
+    options: {
+        a: 'An immediate CAS warning message and aural tone, identical to the ENGINE FIRE warning',
+        b: 'The 1(2) FIRE EXTING EMPTY maintenance message, announced via the MAINTENANCE status message on the MFD',
+        c: 'A dedicated amber legend on the PI scale, steady until the bottle is replaced'
+    },
+    correct: 'b'
+},
+{
+    id: 6328,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'When an overpressure occurs in a fire extinguisher bottle, where does the extinguishing agent go?',
+    options: {
+        a: 'It is fully discharged outside the helicopter, through the discharge indicator',
+        b: 'It is routed back into the opposite bottle via the double-check T-valve',
+        c: 'It is vented into the engine compartment to help suppress the fire'
+    },
+    correct: 'a'
+},
+{
+    id: 6329,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'How does the fire detector responder work?',
+    options: {
+        a: 'It contains a single combined switch that generates both ENG FIRE and FIRE DET from the same pressure threshold',
+        b: 'It contains a high pressure switch only, with the low pressure function performed by a separate smoke detector',
+        c: 'It contains a high pressure switch, which generates the ENG FIRE warning, and a low pressure switch, which generates the FIRE DET caution'
+    },
+    correct: 'c'
+},
+{
+    id: 6330,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What gas are the fire extinguisher bottles filled with?',
+    options: {
+        a: 'Nitrogen, pressurized with halon gas',
+        b: 'Halon, pressurized with helium gas',
+        c: 'Halon, pressurized with nitrogen gas'
+    },
+    correct: 'c'
+},
+{
+    id: 6331,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'How are baggage compartment fires detected and indicated?',
+    options: {
+        a: 'A heat fire detector firewire in the baggage compartment triggers the BAG FIRE CAS warning and two pairs of tones',
+        b: 'A smoke detector triggers only a maintenance message on the MFD, with no CAS warning or aural message',
+        c: 'A photoelectric smoke detector in the baggage compartment triggers the BAG FIRE CAS warning, the red BAG indicator, and a WARNING-WARNING aural message with no tone'
+    },
+    correct: 'c'
+},
+{
+    id: 6332,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'How is the fire detection system tested?',
+    options: {
+        a: 'By physically heating the firewire element with a hot air gun and observing the responder switches',
+        b: 'By pressing the FIRE DETECTOR ENG 1(2) push-button on the TEST panel, which simulates fire indications including CAS messages, lights, and an audio/voice warning',
+        c: 'By discharging a small test quantity of halon from each bottle and checking the discharge indicator'
+    },
+    correct: 'b'
+},
+{
+    id: 6333,
+    Aircraft: 'AW139',
+    Category: '26',
+    question: 'What happens when the FIRE/ARM ENG 1 pushbutton is pressed?',
+    options: {
+        a: 'It immediately discharges the no.1 extinguisher bottle into the no.1 engine bay',
+        b: 'It arms or de-arms the fire extinguisher system outlets towards the no.1 engine bay, and when armed closes the no.1 fuel and bleed air SOVs',
+        c: 'It resets the no.1 engine fire detection responder after a test'
+    },
+    correct: 'b'
+},
+{
+    id: 6334,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'Describe how the engines are controlled.',
+    options: {
+        a: 'By the Fuel Management Module alone, with the EEC providing cockpit indication only',
+        b: 'By a single channel Electronic Engine Control (EEC) system connected with an electro-hydromechanical backup (FMM), which includes a manual backup channel',
+        c: 'By a dual channel EEC system with no mechanical backup of any kind'
+    },
+    correct: 'b'
+},
+{
+    id: 6335,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'Describe how the engines compress air.',
+    options: {
+        a: 'Air enters through the compressor inlet case and passes through four axial stages and one centrifugal impeller, with diffuser tubes converting velocity to static pressure',
+        b: 'Air enters through the accessory gearbox and is compressed directly by the torque shaft before reaching the diffuser',
+        c: 'Air enters through the exhaust case and passes through two axial stages and one centrifugal impeller before reaching the combustion chamber'
+    },
+    correct: 'a'
+},
+{
+    id: 6336,
+    Aircraft: 'AW139',
+    Category: '70B',
+    question: 'When must an engine performance test (Power Assurance Check) be carried out?',
+    options: {
+        a: 'Every 25 flight hours, or daily if the average margin of the last three checks is below the specified ITT/NG thresholds',
+        b: 'Every 100 flight hours, with no daily requirement regardless of margin',
+        c: 'Only after an unscheduled engine shutdown or flameout event'
+    },
+    correct: 'a'
+},
+{
+    id: 6337,
+    Aircraft: 'AW139',
+    Category: '71',
+    question: 'What material is used to contain engine fires?',
+    options: {
+        a: 'The fire seals are made from ceramic fibre matting within a stainless steel firewall structure',
+        b: 'The fire seals are made from glass silicone with a protective outer cover of terylene silicone reinforced by corrosion resistant steel, within a titanium firewall structure',
+        c: 'The fire seals are made from a halon-impregnated rubber compound within an aluminium firewall structure'
+    },
+    correct: 'b'
+},
+{
+    id: 6338,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'Describe the bearings which support the engine shafts.',
+    options: {
+        a: 'Five main bearings, all roller type, absorbing radial loads only, with no bearing absorbing axial load',
+        b: 'Five main bearings: No.1 and No.5 are ball bearings absorbing axial and radial loads, No.2, 3 and 4 are roller bearings absorbing radial loads',
+        c: 'Three main bearings: No.1, 3 and 5 are ball bearings, with No.2 and 4 omitted on this variant'
+    },
+    correct: 'b'
+},
+{
+    id: 6339,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'Describe the combustion process within the engine.',
+    options: {
+        a: 'Metered fuel is pre-mixed with P2.8 air before injection and ignited by a single igniter that remains powered throughout engine operation',
+        b: 'Metered fuel is sprayed through fourteen nozzles into a reverse-flow annular combustion chamber and ignited by two spark igniters, which switch off automatically once combustion starts',
+        c: 'Metered fuel is sprayed through a single nozzle into a straight-flow annular combustion chamber and ignited continuously by two spark igniters throughout the flight'
+    },
+    correct: 'b'
+},
+{
+    id: 6340,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'How is the engine fuel shut off valve controlled?',
+    options: {
+        a: 'At the ECL MIN position in AUTO mode, the fuel cut-off valve is opened electrically to allow the Auto Start, and closed electrically otherwise',
+        b: 'It is a purely mechanical valve, opened and closed only by the ECL cable regardless of AUTO or MANUAL mode',
+        c: 'It is controlled solely by the EEC torque motor, with no connection to the ECL position'
+    },
+    correct: 'a'
+},
+{
+    id: 6341,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'How is the fuel metering valve controlled?',
+    options: {
+        a: 'It is actuated by compressor delivery pressure (P3) and the torque motor within the Fuel Management Module',
+        b: 'It is actuated by oil pressure from the accessory gearbox and a cable from the collective',
+        c: 'It is actuated solely by Ng governor flyweights, with no pressure or electrical input'
+    },
+    correct: 'a'
+},
+{
+    id: 6342,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'How are the engines switched to manual mode?',
+    options: {
+        a: "Via the ENG 1(2) GOV AUTO/MANUAL selector switch on the pilot's collective hand grip",
+        b: 'Via the ENG MODE selector switch on the Engine Control Panel only',
+        c: 'Via a dedicated circuit breaker on the overhead panel, with no cockpit switch'
+    },
+    correct: 'a'
+},
+{
+    id: 6343,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'How is the compressor bleed off valve controlled?',
+    options: {
+        a: 'It is a simple spring-only valve with no pressure or electrical modulation',
+        b: 'It is controlled entirely by the pilot via a dedicated BLEED VALVE switch on the collective',
+        c: 'Px and P3 pressure drive it closed, while P2.8 pressure and an internal spring drive it open, with the EEC-driven torque motor modulating its closing point'
+    },
+    correct: 'c'
+},
+{
+    id: 6344,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'Your boss tells you to have a wet crank, how do you achieve this?',
+    options: {
+        a: 'Carry out the dry motoring run procedure: ECL to OFF, fuel pump/valve switches OFF, IGN circuit breaker pulled, ENG MODE to IDLE',
+        b: 'Select the quick engine start procedure, setting ENG MODE directly to FLIGHT',
+        c: 'Carry out the wet motoring run procedure: ECL to FLIGHT, fuel pump/valve switches ON, IGN circuit breaker pulled, ENG MODE to IDLE, then press the start push-button'
+    },
+    correct: 'c'
+},
+{
+    id: 6345,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'Describe the load share function.',
+    options: {
+        a: 'With the LD SHARE selector switch in the TORQUE position, the engine control system performs ITT matching between the engines',
+        b: 'With the LD SHARE selector switch in the TORQUE position, the engine control system performs torque matching between the engines',
+        c: 'The load share function automatically limits combined torque to 228% regardless of switch position'
+    },
+    correct: 'b'
+},
+{
+    id: 6346,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'What would happen if the pilot inadvertently turned the engine switch to OFF in flight?',
+    options: {
+        a: 'The OFF position shuts down the fuel flow by energizing the shutdown solenoid, shutting the engine down',
+        b: 'The engine would remain running normally, as OFF only disables the starter circuit',
+        c: 'The engine would automatically revert to manual mode, with fuel flow unaffected'
+    },
+    correct: 'a'
+},
+{
+    id: 6347,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What range of operation does manual mode have on the engines?',
+    options: {
+        a: 'Manual mode has no Ng governing range, as Ng is fully open-loop in this mode',
+        b: 'The Ng speed governor has minimum and maximum stops of 49% and 100% at sea level ISA',
+        c: 'The Ng speed governor has minimum and maximum stops of 68.6% and 106% at sea level ISA'
+    },
+    correct: 'c'
+},
+{
+    id: 6348,
+    Aircraft: 'AW139',
+    Category: '72',
+    question: 'What is the purpose of the Data Collection Unit (DCU)?',
+    options: {
+        a: 'It converts analogue torque and Ng signals into digital form for display on the MFD, with no fault storage function',
+        b: 'It is engine mounted and stores engine usage data, exceedances, events and faults, updated by the EEC in real time or at shutdown, to aid troubleshooting',
+        c: 'It is airframe mounted and stores only cockpit CAS message history for the central maintenance computer'
+    },
+    correct: 'b'
+},
+{
+    id: 6349,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'Describe the operation of manual mode.',
+    options: {
+        a: 'The Ng governor is controlled entirely electrically by the EEC, with the ECL providing no direct input',
+        b: "The Ng governor is controlled via a cable through the ECL and beep trim, and the FMM's hydromechanical tracking limits power change from AUTO to a maximum of 10% at the Flight gate",
+        c: 'The Ng governor is locked at a fixed value in manual mode, with power changed only via the collective'
+    },
+    correct: 'b'
+},
+{
+    id: 6350,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'Describe the function of the TQ LIM button.',
+    options: {
+        a: 'It limits both AEO and OEI total combined torque to 228%, displaying "TQ LIM FAIL" in the CAS',
+        b: 'It limits the AEO total combined torque to 228%, without affecting OEI torque, and displays "TQ LIMITER ON" in the CAS',
+        c: 'It limits NG to a maximum of 100%, with no effect on torque indication'
+    },
+    correct: 'b'
+},
+{
+    id: 6351,
+    Aircraft: 'AW139',
+    Category: '76',
+    question: 'What will be the indications of an automatic transition to manual mode?',
+    options: {
+        a: 'The green "MAN" legend is displayed steady on the Ng scale only',
+        b: 'The red "FAIL" legend is displayed in reverse video on the NF scale',
+        c: 'The amber "MAN" legend is displayed in reverse video on the TQ scale (MFD) and PI scale (PFDs)'
+    },
+    correct: 'c'
+},
+{
+    id: 6352,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'Describe how engine torque is measured.',
+    options: {
+        a: "The output shaft's two concentric shafts use a phase offset calculation, as the outer shaft moves proportional to load relative to the inner reference shaft",
+        b: 'Torque is measured by a strain gauge bonded directly to the compressor rotor hub',
+        c: 'Torque is measured by comparing Ng and Nf speeds, with no dedicated torque shaft sensor'
+    },
+    correct: 'a'
+},
+{
+    id: 6353,
+    Aircraft: 'AW139',
+    Category: '77',
+    question: 'Describe the operation of the Power Index indicator.',
+    options: {
+        a: 'The PI indicator displays only torque, rescaled against the OEI 2.5 minute rating',
+        b: 'The PI indicator simply averages ITT, NG and TQ and displays the mean value at all times',
+        c: 'The PI algorithm continuously calculates power used as a percentage of power available relative to ITT, NG and TQ, displaying the largest rescaled parameter with an annunciation of which one it is'
+    },
+    correct: 'c'
+},
+{
+    id: 6354,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'Describe how the engine is started.',
+    options: {
+        a: "Normally in AUTO mode, controlled through the EEC, with the GCU's automatic starter cut-out opening the starter contactor at approximately 5500 rpm",
+        b: 'Normally in AUTO mode, controlled through the FMM, with no automatic starter cut-out fitted',
+        c: 'Normally in MANUAL mode, controlled through the GCU, with the EEC providing the automatic starter cut-out at approximately 6800 rpm'
+    },
+    correct: 'a'
+},
+{
+    id: 6355,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'Describe the indications during engine start.',
+    options: {
+        a: 'The MFD shows no START legend; only the IDLE legend is displayed throughout the start cycle',
+        b: 'The MFD shows the amber START legend; the Ng readout and pointer are white until 65% Ng, at which point the START/IGN legends are removed',
+        c: 'The MFD shows the green START legend; the Ng readout and pointer are white until 49% Ng, at which point the START/IGN legends are removed'
+    },
+    correct: 'c'
+},
+{
+    id: 6356,
+    Aircraft: 'AW139',
+    Category: '80',
+    question: 'How is a manual start of the engine achieved?',
+    options: {
+        a: 'Select MANUAL on the ENG GOV switch, then press START twice in quick succession to engage a wet crank',
+        b: 'Select AUTO on the ENG GOV switch, then set the ENG MODE selector directly to FLT for a quick start',
+        c: 'Select MANUAL on the ENG GOV switch, use both the ECL (via collective trim switches) and the ECP, then press the START push-button to engage the starter and ignition'
+    },
+    correct: 'c'
 }
 ];
