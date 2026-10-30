@@ -63180,5 +63180,965 @@ export const questions = [
         c: 'Select MANUAL on the ENG GOV switch, use both the ECL (via collective trim switches) and the ECP, then press the START push-button to engage the starter and ignition'
     },
     correct: 'c'
-}
+},
+{
+    id: 6357,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What three sub-systems does the ATA 33 Lights system include?',
+    options: {
+        a: 'Cockpit lights, cabin lights, and NVG lights',
+        b: 'Internal lights, external lights, and emergency lighting',
+        c: 'Internal lights, cargo lights, and landing lights'
+    },
+    correct: 'b'
+},
+{
+    id: 6358,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What optional lighting items may also be fitted in addition to the three main light sub-systems?',
+    options: {
+        a: 'Secondary emergency lights, secondary dome lights, and strobe panels',
+        b: 'Secondary position lights, secondary utility lights, and rotor beacons',
+        c: 'Secondary landing lights, secondary anti-collision lights, and searchlights'
+    },
+    correct: 'c'
+},
+{
+    id: 6359,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What provides the illumination of the pilot/copilot PFD and MFD displays?',
+    options: {
+        a: 'A single shared rheostat on the Light Dimmer Panel',
+        b: 'Individual potentiometers on the Display Dimmer Panel',
+        c: 'Fixed-brightness backlighting with no dimming control'
+    },
+    correct: 'b'
+},
+{
+    id: 6360,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'How many cockpit/utility pilot lights are installed in the flight compartment?',
+    options: {
+        a: 'Four',
+        b: 'Two',
+        c: 'One'
+    },
+    correct: 'b'
+},
+{
+    id: 6361,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What type of lights are the pilot storm lights?',
+    options: {
+        a: 'Narrow beam Halogen lights',
+        b: 'Wide beam LED lights',
+        c: 'Xenon arc discharge lights'
+    },
+    correct: 'a'
+},
+{
+    id: 6362,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the purpose of the storm lights?',
+    options: {
+        a: 'To provide high intensity ground taxi illumination',
+        b: 'To create ambient cockpit light and minimise storm flashes to the pilot',
+        c: 'To illuminate the instrument panel during NVG operations'
+    },
+    correct: 'b'
+},
+{
+    id: 6363,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'Besides the pilot lights, what other items are illuminated in the flight compartment via dedicated lights?',
+    options: {
+        a: 'The magnetic compass and the Outer Air Temperature (OAT) indicator',
+        b: 'The AFCS panel and the landing gear panel',
+        c: 'The fire control panel and the engine control panels only'
+    },
+    correct: 'a'
+},
+{
+    id: 6364,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'How many power supplies are provided to the cockpit lights, and at what rating?',
+    options: {
+        a: 'Four power supplies, 28V/5V variable output, 80W each',
+        b: 'Two power supplies, 28V/5V variable output, 50W each',
+        c: 'Six power supplies, 115V/5V variable output, 80W each'
+    },
+    correct: 'a'
+},
+{
+    id: 6365,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'Where is the dome light installed, and what is its function?',
+    options: {
+        a: 'On the overhead panel, as secondary lighting to illuminate the whole cockpit and console',
+        b: 'On the console, as primary lighting for the instrument panel only',
+        c: 'On the floor, as emergency egress lighting for the cabin'
+    },
+    correct: 'a'
+},
+{
+    id: 6366,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: "How is the dome light's potentiometer signal controlled?",
+    options: {
+        a: 'By a voltage regulator composed of NPN transistors',
+        b: 'By a solid-state oscillator shared with the fluorescent inverters',
+        c: 'By a mechanical rheostat with no electronic regulation'
+    },
+    correct: 'a'
+},
+{
+    id: 6367,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What do the two rotating cover-rings on each cockpit/utility pilot light control?',
+    options: {
+        a: 'The forward ring changes light intensity; the aft ring changes light colour',
+        b: 'Both rings together only adjust the beam width between spot and flood',
+        c: 'The forward ring changes light colour (white/red); the aft ring changes light intensity'
+    },
+    correct: 'c'
+},
+{
+    id: 6368,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What additional function is provided on the aft face of each cockpit/utility pilot light?',
+    options: {
+        a: 'A rotary switch for selecting NVG mode',
+        b: 'An ON/OFF push button for use as a signal lamp',
+        c: 'A secondary dimmer for the display panels'
+    },
+    correct: 'b'
+},
+{
+    id: 6369,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'Where is the standby magnetic compass installed, and what feature does it have?',
+    options: {
+        a: 'On the overhead panel, with a fixed-brightness light that cannot be dimmed',
+        b: 'On the bar at the centre of the windshield, with an internal light that can be dimmed',
+        c: 'On the console, with no internal illumination fitted'
+    },
+    correct: 'b'
+},
+{
+    id: 6370,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the electrical power requirement of each storm light?',
+    options: {
+        a: '45 W',
+        b: '20 W',
+        c: '80 W'
+    },
+    correct: 'b'
+},
+{
+    id: 6371,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'Which switch controls the storm lights?',
+    options: {
+        a: 'The OVERHEAD knob on the Light Dimmer Panel',
+        b: 'A dedicated STORM switch on the Display Dimmer Panel',
+        c: 'A dedicated STORM switch on the Cabin Light Control Panel'
+    },
+    correct: 'c'
+},
+{
+    id: 6372,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What four knobs are provided on the Display Dimmer Panel?',
+    options: {
+        a: 'INSTR, CONSOLE, OVERHEAD, DOME',
+        b: 'CPLT PFD, CPLT MFD, PLT MFD, PLT PFD',
+        c: 'CABIN, STORM, MODE, EMERG'
+    },
+    correct: 'b'
+},
+{
+    id: 6373,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What four knobs are provided on the Light Dimmer Panel?',
+    options: {
+        a: 'CPLT PFD, CPLT MFD, PLT MFD, PLT PFD',
+        b: 'CABIN, STORM, MODE, EMERG',
+        c: 'DOME, OVERHEAD, CONSOLE, INSTR'
+    },
+    correct: 'c'
+},
+{
+    id: 6374,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What does the optional MODE switch on the Cabin Light Control Panel select?',
+    options: {
+        a: 'BRIGHT or DIM for cabin lighting intensity only',
+        b: 'NORM for standard visible light, or NVG for NVG-compatible light',
+        c: 'AUTO or MANUAL for fluorescent lamp control'
+    },
+    correct: 'b'
+},
+{
+    id: 6375,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What happens when the OAT LIGHT pushbutton is pressed, provided the OVERHEAD knob is not set to OFF?',
+    options: {
+        a: 'It momentarily illuminates the Standby OAT light for as long as it is pressed',
+        b: 'It permanently illuminates the OAT light until pressed again',
+        c: 'It dims the OAT light gradually to its minimum setting'
+    },
+    correct: 'a'
+},
+{
+    id: 6376,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'On the Cockpit Utility Light, what does pressing the pushbutton do?',
+    options: {
+        a: 'Switches the utility light permanently to red colour',
+        b: 'Momentarily illuminates the utility light at full brightness while held',
+        c: 'Toggles the utility light between flood and spot beamwidth'
+    },
+    correct: 'b'
+},
+{
+    id: 6377,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'On the Cockpit Utility Light colour selector, what does the red dot setting do?',
+    options: {
+        a: 'Sets a dimmed white beam at reduced intensity',
+        b: 'Switches the light to NVG-compatible infra-red mode',
+        c: 'Sets a red filter mechanically in front of the bulb'
+    },
+    correct: 'c'
+},
+{
+    id: 6378,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What does the FLOOD/SPOT ring on the Cockpit Utility Light adjust?',
+    options: {
+        a: 'The colour, from white to red',
+        b: 'The intensity, from minimum to maximum brightness',
+        c: 'The beamwidth, from minimum (SPOT) to maximum (FLOOD)'
+    },
+    correct: 'c'
+},
+{
+    id: 6379,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'When the LAMP pushbutton is pressed on the TEST panel, which lights are included in those that illuminate?',
+    options: {
+        a: 'MWL and MCL, ENG 1 & 2 FIRE/ARM and BAG lights, and HYD panel lights',
+        b: 'Only the MWL and MCL caution/warning lights',
+        c: 'Only the cabin passenger reading lights and advisory lights'
+    },
+    correct: 'a'
+},
+{
+    id: 6380,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the nominal supply voltage and output power of the instrument power supply unit?',
+    options: {
+        a: '28VDC (MAIN BUS1), output 0-5V, 50W',
+        b: '115VAC (ESS BUS2), output 0-5V, 80W',
+        c: '28VDC (ESS BUS2), output 0-5V, 80W'
+    },
+    correct: 'c'
+},
+{
+    id: 6381,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What bus supplies the console power supply unit?',
+    options: {
+        a: '28VDC ESS BUS2',
+        b: '28VDC MAIN BUS1',
+        c: '28VDC MAIN BUS2'
+    },
+    correct: 'b'
+},
+{
+    id: 6382,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What bus supplies the overhead power supply unit?',
+    options: {
+        a: '28VDC ESS BUS1',
+        b: '28VDC MAIN BUS1',
+        c: '28VDC MAIN BUS2'
+    },
+    correct: 'b'
+},
+{
+    id: 6383,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the current consumption and power output of each pilot/copilot storm light?',
+    options: {
+        a: '0.70 A, 20 W, from 28VDC MAIN BUS2',
+        b: '0.30 A, 5 W, from 28VDC ESS BUS2',
+        c: '1.20 A, 45 W, from 28VDC ESS BUS1'
+    },
+    correct: 'a'
+},
+{
+    id: 6384,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the current consumption and power output of each pilot/copilot cockpit utility light?',
+    options: {
+        a: '0.7 A, 20 W, from 28VDC MAIN BUS2',
+        b: '0.85 A, 25 W, from 28VDC MAIN BUS2',
+        c: '0.3 A, 5 W, from 28VDC ESS BUS2'
+    },
+    correct: 'c'
+},
+{
+    id: 6385,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the current consumption of the dome light, and from which bus?',
+    options: {
+        a: '0.3 A, from 28VDC ESS BUS2',
+        b: '0.7 A, from 28VDC MAIN BUS2',
+        c: '1.5 A, from 28VDC ESS BUS1'
+    },
+    correct: 'b'
+},
+{
+    id: 6386,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'How many Passenger Service Units (PSU) are fitted, and what do they include?',
+    options: {
+        a: 'Four PSUs, each with one reading light and a single air outlet',
+        b: 'Six PSUs, each with a loudspeaker and a fasten-seatbelt light only',
+        c: 'Six PSUs, each with two reading lights, a steward-call membrane button, and two air outlets'
+    },
+    correct: 'c'
+},
+{
+    id: 6387,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What type of reading lights are fitted in each PSU, and how are they switched on?',
+    options: {
+        a: 'Two dimmable reading lights, set ON by a rotary potentiometer',
+        b: 'One not-dimmable reading light, set ON by a toggle switch',
+        c: 'Two not-dimmable reading lights, set ON by two membrane switches'
+    },
+    correct: 'c'
+},
+{
+    id: 6388,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'How many dimmable fluorescent lamps provide cabin lighting, and where are they installed?',
+    options: {
+        a: 'Six, installed on the cabin roof, three on each side',
+        b: 'Four, installed on the cabin floor, two on each side',
+        c: 'Six, installed above each PSU, one per unit'
+    },
+    correct: 'a'
+},
+{
+    id: 6389,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'How is each fluorescent cabin lamp powered?',
+    options: {
+        a: 'Directly from the 28VDC bus with no inverter required',
+        b: 'By a dedicated inverter containing a solid-state oscillator regulating lamp current',
+        c: 'By a shared central inverter feeding all six lamps in parallel'
+    },
+    correct: 'b'
+},
+{
+    id: 6390,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What safety feature does each fluorescent lamp inverter have?',
+    options: {
+        a: 'A safety switch that turns off output voltage on open circuit or lamp failure',
+        b: 'A thermal fuse that permanently disables the inverter on overheat',
+        c: 'A mechanical interlock that disconnects power when the cabin door opens'
+    },
+    correct: 'a'
+},
+{
+    id: 6391,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'How are the six cabin lighting inverters arranged for dimming control?',
+    options: {
+        a: 'One Master and five Slaves, with the adjustment circuit connected to the Master',
+        b: 'Six independent inverters, each with its own adjustment circuit',
+        c: 'Two Masters and four Slaves, paired by cabin side'
+    },
+    correct: 'a'
+},
+{
+    id: 6392,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What happens if the lighting adjustment circuit develops an open failure?',
+    options: {
+        a: 'The lighting automatically sets to minimum dim',
+        b: 'The lighting automatically sets to bright',
+        c: 'The lighting switches off completely'
+    },
+    correct: 'b'
+},
+{
+    id: 6393,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What indicates to passengers that a steward call has been activated?',
+    options: {
+        a: 'A chime sounds continuously at the activating PSU only',
+        b: 'The fasten seat belt icon flashes at the activating PSU',
+        c: 'A red coloured LED lights up between the reading lights and the air outlets'
+    },
+    correct: 'c'
+},
+{
+    id: 6394,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'How are the passenger advisory lights (No Smoking / Fasten Seat Belt) activated, and what accompanies activation?',
+    options: {
+        a: 'Automatically by a cabin pressure switch with no pilot input',
+        b: 'By the cabin crew only, via the Cabin Light Control Panel',
+        c: 'By the pilot or copilot via the Audio panel, which also sounds a chime at the loudspeakers'
+    },
+    correct: 'c'
+},
+{
+    id: 6395,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the nominal supply voltage and current consumption of each cabin lighting inverter?',
+    options: {
+        a: '28VDC (MAIN BUS 2), 0.85 A',
+        b: '28VDC (ESS BUS 1), 0.30 A',
+        c: '28VDC (MAIN BUS 2), 1.50 A'
+    },
+    correct: 'a'
+},
+{
+    id: 6396,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'How many lamps illuminate the cargo/service compartment, and where are they located?',
+    options: {
+        a: 'Two lamps, located on the baggage floor',
+        b: 'Three lamps, located on the baggage roof compartment',
+        c: 'Three lamps, located on the baggage door panels'
+    },
+    correct: 'b'
+},
+{
+    id: 6397,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What activates the baggage compartment lights?',
+    options: {
+        a: 'A manual switch on the Cabin Light Control Panel only',
+        b: 'A timer that illuminates the lamps for 60 seconds after door closure',
+        c: 'Microswitches actuated by either baggage compartment access door opening'
+    },
+    correct: 'c'
+},
+{
+    id: 6398,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the nominal supply voltage and current consumption of each baggage lamp?',
+    options: {
+        a: '28VDC (ESS BUS1), 0.3 A each',
+        b: '28VDC (MAIN BUS2), 0.7 A each',
+        c: '28VDC (MAIN BUS2), 1.2 A each'
+    },
+    correct: 'b'
+},
+{
+    id: 6399,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the flash rate of the anti-collision light?',
+    options: {
+        a: '45 ± 5 flashes per minute',
+        b: '60 ± 5 flashes per minute',
+        c: '30 ± 5 flashes per minute'
+    },
+    correct: 'a'
+},
+{
+    id: 6400,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'Where is the anti-collision light installed?',
+    options: {
+        a: 'On the tail, positioned to be seen at the correct angle',
+        b: 'On the nose, positioned for forward visibility',
+        c: 'On each sponson, positioned for lateral visibility'
+    },
+    correct: 'a'
+},
+{
+    id: 6401,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What are the three position lights, and where are they installed?',
+    options: {
+        a: 'Tail red (top of tail fin), right white (RH sponson), left green (LH sponson)',
+        b: 'Tail white (top of tail fin), right green (RH stabilizer/sponson), left red (LH stabilizer/sponson)',
+        c: 'Nose white (nose cone), right green (RH sponson), left red (LH sponson)'
+    },
+    correct: 'b'
+},
+{
+    id: 6402,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'Where are the two standard landing lights installed?',
+    options: {
+        a: 'Under the cockpit, forward-left side',
+        b: 'On the tail fin, either side of the anti-collision light',
+        c: 'On the right and left side sponsons'
+    },
+    correct: 'c'
+},
+{
+    id: 6403,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the purpose of the secondary landing light, and where is it installed?',
+    options: {
+        a: 'Taxi illumination only, installed on the tail fin',
+        b: 'Night landing illumination, installed on the right sponson only',
+        c: 'Night reconnaissance/search by rescue or surveillance operations, installed under the cockpit forward-left side'
+    },
+    correct: 'c'
+},
+{
+    id: 6404,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What switch controls the anti-collision light, and what positions does it have?',
+    options: {
+        a: 'The POSITION switch on the overhead panel, set to OFF/ON',
+        b: 'The UTILITY switch on the overhead console, set to OFF/ON',
+        c: 'The ANTI-COLL switch on the overhead panel, set to OFF/ON'
+    },
+    correct: 'c'
+},
+{
+    id: 6405,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What type of switch controls the two standard landing lights, and what positions does it have?',
+    options: {
+        a: 'A 3-position momentary toggle switch on the collective grips: central, ON, OFF',
+        b: 'A rotary selector on the LT panel: NORM, RH, LH, NONE',
+        c: 'A 2-position toggle switch on the overhead panel: ON, OFF only'
+    },
+    correct: 'a'
+},
+{
+    id: 6406,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What happens when the landing lights ON position is selected?',
+    options: {
+        a: 'The lamps light but no advisory message is generated',
+        b: 'Only the advisory message is generated, with a 2-second lamp delay',
+        c: 'The lamps light and an advisory message is generated'
+    },
+    correct: 'c'
+},
+{
+    id: 6407,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What switch controls the secondary landing light (searchlight), and how does it move?',
+    options: {
+        a: 'The ANTI-COLL switch on the overhead panel, rotatable either direction',
+        b: 'The LDG LT2 coolie hat with a four-way switch and central momentary contact, rotatable either direction',
+        c: 'The LDG LT 3-position momentary toggle switch, rotatable either direction'
+    },
+    correct: 'b'
+},
+{
+    id: 6408,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What type of light are the strobe lights, and where are they typically incorporated?',
+    options: {
+        a: 'Low-intensity steady red lights, typically incorporated with the dome light',
+        b: 'High-intensity flashing red lights, typically incorporated with the landing lights',
+        c: 'High-intensity flashing white lights, typically incorporated with the navigation light assemblies'
+    },
+    correct: 'c'
+},
+{
+    id: 6409,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What switch controls the step lights, and what is their purpose?',
+    options: {
+        a: 'The UTILITY switch on the overhead console, illuminating the external stepping area',
+        b: 'The STORM switch on the Cabin Light Control Panel, illuminating the main cabin door',
+        c: 'The ANTI-COLL switch on the overhead panel, illuminating the tail rotor area'
+    },
+    correct: 'a'
+},
+{
+    id: 6410,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What are the three positions of the ROTOR LTS switch, and what does each do?',
+    options: {
+        a: 'OFF (lights off), TAIL (tail rotor light on), BOTH (main and tail rotor lights on)',
+        b: 'OFF (lights off), MAIN (main rotor lights on), BOTH (main and tail rotor lights on)',
+        c: 'AUTO (lights follow NVG mode), MAIN (main rotor lights on), OFF (lights off)'
+    },
+    correct: 'b'
+},
+{
+    id: 6411,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What happens to the rotor lights if an NVG installation is present and NVG COVERT mode is selected?',
+    options: {
+        a: 'The rotor lights automatically dim to 10% brightness for NVG compatibility',
+        b: 'The main and tail rotor lights are automatically selected to OFF, as they are not NVG compatible',
+        c: 'The rotor lights remain under manual control, unaffected by NVG COVERT mode'
+    },
+    correct: 'b'
+},
+{
+    id: 6412,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the power consumption limit of the anti-collision light, and which bus supplies it?',
+    options: {
+        a: '26 W max, from 28VDC ESS BUS1',
+        b: '250 W max, from 28VDC ESS BUS1',
+        c: '45 W max, from 28VDC ESS BUS1'
+    },
+    correct: 'c'
+},
+{
+    id: 6413,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the power consumption of each standard landing light, and which bus supplies it?',
+    options: {
+        a: '450 W each, from 28VDC MAIN BUS2',
+        b: '250 W each, from 28VDC ESS BUS1',
+        c: '45 W each, from 28VDC ESS BUS1'
+    },
+    correct: 'b'
+},
+{
+    id: 6414,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the power consumption of the secondary landing light, and which bus supplies it?',
+    options: {
+        a: '450 W, from 28VDC MAIN BUS2',
+        b: '250 W, from 28VDC ESS BUS1',
+        c: '45 W, from 28VDC ESS BUS1'
+    },
+    correct: 'a'
+},
+{
+    id: 6415,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'On the Enhanced Landing Light configuration, where are the two steerable landing lights mounted?',
+    options: {
+        a: 'Under the aircraft nose, on the right and left hand sides',
+        b: 'On the right and left sponsons, replacing the anti-collision light',
+        c: 'On the tail fin, either side of the position lights'
+    },
+    correct: 'a'
+},
+{
+    id: 6416,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'With the LDG LTS SELECT rotary switch set to NORM, how are the enhanced landing lights controlled?',
+    options: {
+        a: 'Independently, by their respective side collective 5-way switch',
+        b: 'Jointly, by either collective 5-way switch controlling both lights together',
+        c: 'Only by the pilot collective, with the copilot switch disabled'
+    },
+    correct: 'a'
+},
+{
+    id: 6417,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What does selecting the RH UNSTOW STOW/OFF switch to UNSTOW do?',
+    options: {
+        a: 'The RH landing light immediately extends and illuminates',
+        b: 'The RH landing light is isolated from power entirely',
+        c: 'The RH landing light remains stowed but is powered'
+    },
+    correct: 'c'
+},
+{
+    id: 6418,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What advisory message illuminates on the CAS when the LH enhanced landing light (searchlight) is ON?',
+    options: {
+        a: 'SEARCH LT ON (green)',
+        b: 'LANDING LT ON (green)',
+        c: 'SEARCH LT FAIL (amber)'
+    },
+    correct: 'a'
+},
+{
+    id: 6419,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the purpose of the LDG LT OVRD pushbutton?',
+    options: {
+        a: 'Allows the pilot to control the LH landing light if the RH light, LT panel selector, or pilot 5-way switch fails',
+        b: 'Allows the copilot to disable both landing lights simultaneously in an emergency',
+        c: 'Allows ground crew to test both landing lights without electrical power applied'
+    },
+    correct: 'a'
+},
+{
+    id: 6420,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'Which buses power the RH and LH enhanced landing lights respectively?',
+    options: {
+        a: 'RH by DC MAIN BUS 2, LH by DC ESS BUS 1',
+        b: 'Both RH and LH by DC ESS BUS 1',
+        c: 'RH by DC ESS BUS 1, LH by DC MAIN BUS 2'
+    },
+    correct: 'c'
+},
+{
+    id: 6421,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What type of batteries supply the emergency lighting system, and what is their output voltage?',
+    options: {
+        a: 'Two rechargeable NiCad battery packs, output 6.1-6.5 VDC',
+        b: 'Two sealed lead-acid battery packs, output 12 VDC',
+        c: 'Two lithium-ion battery packs, output 28 VDC'
+    },
+    correct: 'a'
+},
+{
+    id: 6422,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'Where are the emergency lighting batteries installed?',
+    options: {
+        a: 'In the tail pylon',
+        b: 'In the RH nose bay',
+        c: 'In the cabin underfloor'
+    },
+    correct: 'b'
+},
+{
+    id: 6423,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'How long does it take for the emergency lighting batteries to become fully charged, and how long can they then supply power?',
+    options: {
+        a: 'Fully charged after 1 hour continuous charging; supply power for at least 30 minutes',
+        b: 'Fully charged after 8 hours continuous charging; supply power for at least 5 minutes',
+        c: 'Fully charged after 4 hours continuous charging; supply power for at least 15 minutes'
+    },
+    correct: 'c'
+},
+{
+    id: 6424,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What type of lights are the two internal emergency dome lights, and the two external emergency lights?',
+    options: {
+        a: 'Internal lights are white LEDs; external lights are incandescent halogen lamps',
+        b: 'Internal lights are incandescent halogen; external lights are white LEDs',
+        c: 'Both internal and external emergency lights are xenon arc lamps'
+    },
+    correct: 'a'
+},
+{
+    id: 6425,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What do the OFF and ARM positions of the EMERG switch provide?',
+    options: {
+        a: 'OFF keeps lights off with batteries isolated; ARM illuminates the lights immediately',
+        b: 'OFF illuminates the lights at low intensity; ARM switches them off completely',
+        c: 'OFF keeps lights off with batteries recharging; ARM keeps lights off with batteries recharging but illuminates them automatically on loss of ESS 1 bus power'
+    },
+    correct: 'c'
+},
+{
+    id: 6426,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the SX-16 searchlight, and what two installation types are available?',
+    options: {
+        a: 'A controllable, high intensity (and infra-red capable) light; available Unslaved (free movement) or Slaved (follows the thermal imaging turret)',
+        b: 'A fixed-beam position light; available Internal or External mounting only',
+        c: 'A low-intensity taxi light; available NVG-only or non-NVG variants'
+    },
+    correct: 'a'
+},
+{
+    id: 6427,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What type of lamp does the SX-16 searchlight use, and how is it controlled in position?',
+    options: {
+        a: 'A low intensity, water cooled, halogen lamp, controlled only in azimuth by a fixed mount',
+        b: 'A high intensity LED array, controlled by a fixed, non-motorised bracket',
+        c: 'A high intensity, air cooled, xenon arc lamp, controlled in azimuth and elevation by a motorised gimbal assembly'
+    },
+    correct: 'c'
+},
+{
+    id: 6428,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the function of the HEELS (Helicopter Emergency Exit Lighting System)?',
+    options: {
+        a: 'To illuminate the main cabin aisle during a normal night-time evacuation on dry land',
+        b: 'To provide searchlight-style illumination of the sea surface during a water landing',
+        c: 'To identify all emergency exits when the cabin becomes partially or completely submerged, as a result of ditching with or without capsizing'
+    },
+    correct: 'c'
+},
+{
+    id: 6429,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'How many battery packs, emergency exit lights, power supply units, and water sensors make up the HEELS system?',
+    options: {
+        a: '2 battery packs, 20 emergency exit lights, 2 power supply units, 4 water sensors',
+        b: '5 battery packs, 40 emergency exit lights, 5 power supply units, 8 water sensors',
+        c: '5 battery packs, 10 emergency exit lights, 5 power supply units, 2 water sensors'
+    },
+    correct: 'b'
+},
+{
+    id: 6430,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the difference between a detected fault and an observed fault in the ATA 33 troubleshooting context?',
+    options: {
+        a: 'A detected fault is found by ground crew only; an observed fault is logged automatically by the CMC',
+        b: 'A detected fault is found by the helicopter monitoring system; an observed fault is a malfunction discovered by the pilot or ground crew',
+        c: 'There is no difference; both terms describe the same fault-reporting process'
+    },
+    correct: 'b'
+},
+{
+    id: 6431,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What does the Central Maintenance Computer (CMC) do when a detected fault is found?',
+    options: {
+        a: 'It immediately isolates electrical power to the affected system with no message generated',
+        b: 'It deletes the fault automatically once the aircraft lands, with no record retained',
+        c: 'It allocates a fault code stored in NVM and generates a maintenance message giving further details, such as a possible malfunctioning LRU'
+    },
+    correct: 'c'
+},
+{
+    id: 6432,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What type of faults does the AFIP (Aircraft Fault Isolation Publication) for ATA chapter 33 consist of?',
+    options: {
+        a: 'Solely observed faults',
+        b: 'Solely detected faults',
+        c: 'An equal mix of detected and observed faults'
+    },
+    correct: 'a'
+},
+{
+    id: 6433,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What must be observed when carrying out continuity checks during Lights system fault isolation?',
+    options: {
+        a: 'NVG compatibility placarding requirements',
+        b: 'Electrical safety precautions',
+        c: 'Fuel system decontamination procedures'
+    },
+    correct: 'b'
+},
+{
+    id: 6434,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'How are malfunction indications for the Lights system typically reviewed by ground crew?',
+    options: {
+        a: 'Only by physical inspection, since the Lights system generates no CMS indications',
+        b: 'Through the CMS, via the maintenance page on the MFD, or as a report downloaded to a remote laptop',
+        c: 'Only via a dedicated cockpit Lights CAUTION panel, with no CMS involvement'
+    },
+    correct: 'b'
+},
+{
+    id: 6435,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What is the scheduled servicing interval for the emergency power supply unit, and what does it involve?',
+    options: {
+        a: 'A deep cycle recharge every 1 year, to maintain battery condition',
+        b: 'A deep cycle recharge every 300 hours, to maintain battery condition',
+        c: 'A full unit replacement every 1 year, regardless of battery condition'
+    },
+    correct: 'a'
+},
+{
+    id: 6436,
+    Aircraft: 'AW139',
+    Category: '33',
+    question: 'What scheduled maintenance task applies to the SX-16 searchlight, and at what interval?',
+    options: {
+        a: 'A DI of the blower brushes for condition and operating dimension limits, every 300 hours',
+        b: 'A deep cycle recharge of the lamp battery, every 1 year',
+        c: 'A full gimbal recalibration, every 1 year'
+    },
+    correct: 'a'
+},
 ];
