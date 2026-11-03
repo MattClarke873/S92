@@ -67501,4 +67501,723 @@ export const questions = [
     },
     correct: 'a'
 },
-];
+    {
+        id: 6717,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What avionics system does the AW139 use for integrated control and monitoring of avionics systems?',
+        options: {
+            a: 'Honeywell PRIMUS EPIC',
+            b: 'Honeywell PRIMUS APEX',
+            c: 'Collins Pro Line Fusion'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6718,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'Which operating system governs each MAU module that contains at least one microprocessor?',
+        options: {
+            a: 'Distributed Embedded Operating System (DEOS)',
+            b: 'Digital Engine Operating System (DEOS)',
+            c: 'Dynamic Engine Operating Software (DEOS)'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6719,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'How many Modular Avionics Units (MAUs) does the integrated avionics system have?',
+        options: {
+            a: 'Three',
+            b: 'Four',
+            c: 'Two'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6720,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What concept allows the Line Replaceable Modules to be located anywhere in the helicopter while still interfacing as one system?',
+        options: {
+            a: 'The Distributed Bus Concept',
+            b: 'The Virtual Backplane Concept',
+            c: 'The Federated Module Concept'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6721,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What is the data rate of the ASCB-D bus?',
+        options: {
+            a: '1 Mb/s',
+            b: '100 Mb/s',
+            c: '10 Mb/s'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6722,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'How many busses make up the ASCB-D network to ensure no data is lost?',
+        options: {
+            a: 'Four',
+            b: 'Two',
+            c: 'Three'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6723,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What are the ASCB-D transmission rates?',
+        options: {
+            a: '100, 50, 20, 10 and 5 Hz',
+            b: '64, 32, 16, 8 and 4 Hz',
+            c: '80, 40, 10, 5 and 1 Hz'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6724,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What module controls the data transmitted on the ASCB-D within the MAUs, and what controls it in the MRCs?',
+        options: {
+            a: 'A CMC module in the MAUs and a BIC in the MRCs',
+            b: 'A NIC/PROC module in the MAUs and a NIM in the MRCs',
+            c: 'A DBM module in the MAUs and a CSIO in the MRCs'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6725,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What is the name of the bus that connects the NIC to all the modules in the MAU on the ASCB-D?',
+        options: {
+            a: 'Virtual back Plane Peripheral Component Interconnect (VbPCI)',
+            b: 'Remote Image Bus (RIB)',
+            c: 'Radar Control Bus (RCB)'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6726,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What is the bit width of the VbPCI bus?',
+        options: {
+            a: '16-bit',
+            b: '64-bit',
+            c: '32-bit'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6727,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What hardware interface supplies the connection between a MAU module and the MAU VbPCI?',
+        options: {
+            a: 'The Backplane Interface Controller (BIC)',
+            b: 'The Network Interface Controller (NIC)',
+            c: 'The Periodic Device Driver (PDD)'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6728,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'The BIC frame buffer uses what type of memory?',
+        options: {
+            a: 'Single-port Read Only Memory (ROM)',
+            b: 'Dual-port Random Access Memory (RAM)',
+            c: 'Flash EEPROM'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6729,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What type of data moves on one wire only, typically changing between +28 V dc and open?',
+        options: {
+            a: 'Serial digital data',
+            b: 'Discrete data',
+            c: 'Analog audio data'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6730,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What Ethernet standard is the LAN in the integrated avionics system related to?',
+        options: {
+            a: 'Ethernet 10-Base-2',
+            b: 'Ethernet 100-Base-T',
+            c: 'Ethernet 10-Base-T'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6731,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What is the LAN used for in the integrated avionics system?',
+        options: {
+            a: 'Primary flight control data transmission',
+            b: 'Weather radar picture data transmission',
+            c: 'Data upload/download, and maintenance and test functions'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6732,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What is the LAN described as, in terms of essentiality and redundancy?',
+        options: {
+            a: 'A high-speed, essential bus with full redundancy',
+            b: 'A high-speed, non-essential bus without redundancy',
+            c: 'A low-speed, essential bus with dual redundancy'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6733,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What optional unit contains a read-only CD and slots for read/write PCMCIA modules, connecting to the LAN?',
+        options: {
+            a: 'The Data Management Unit (DMU)',
+            b: 'The Central Maintenance Computer (CMC)',
+            c: 'The Remote Maintenance Terminal (RMT)'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6734,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'How many type-II PCMCIA card sockets does the DMU contain?',
+        options: {
+            a: 'Three, referred to as PCMCIA 1, 2 and 3',
+            b: 'One, referred to as PCMCIA 1',
+            c: 'Two, referred to as PCMCIA 1 and PCMCIA 2'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6735,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'Which CMC module location is used to access the DLS data loader through the maintenance page on MFD2?',
+        options: {
+            a: 'The CMC module in Number-2 Modular-Avionics Unit (MAU2)',
+            b: 'The CMC module in MRC1',
+            c: 'The CMC module in Number-1 Modular-Avionics Unit (MAU1)'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6736,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What system controls data movement for flight plan and database files on the DMU PCMCIA cards?',
+        options: {
+            a: 'The Central Maintenance Computer (CMC)',
+            b: 'The Flight Management System (FMS)',
+            c: 'The Data Loading System (DLS)'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6737,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'The FMS custom database on the PCMCIA cards contains what data?',
+        options: {
+            a: 'Stored flight plans and waypoint lists',
+            b: 'Engine trend monitoring parameters',
+            c: 'Weight and balance calculations'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6738,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'The VbPCI bus structure is the same as that of what standard bus found in personal computers?',
+        options: {
+            a: 'The USB bus',
+            b: 'The standard PCI bus',
+            c: 'The SATA bus'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6739,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What transmits the video data from the video I/O module to the display units in the CDS?',
+        options: {
+            a: 'The Remote Image Bus (RIB)',
+            b: 'The VbPCI bus',
+            c: 'The WXPD bus'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6740,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What operating frequency do the CAN bus controller integrated circuits use?',
+        options: {
+            a: '50 kHz',
+            b: '1 MHz',
+            c: '500 kHz'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6741,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'How many WXPD busses does the WXR system have, and how do they transmit?',
+        options: {
+            a: 'One, transmitting in two directions',
+            b: 'Two, left and right, each transmitting in one direction only',
+            c: 'Four, each transmitting in two directions'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6742,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What does the abbreviation CSIO stand for in the MAU module list?',
+        options: {
+            a: 'Custom I/O module',
+            b: 'Control System Interface Option',
+            c: 'Central Status Information Output'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6743,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'How many Digital Microphone busses are there in the system?',
+        options: {
+            a: 'One',
+            b: 'Four',
+            c: 'Two'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6744,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What connects an optional receiver of the microwave landing system to the NIM?',
+        options: {
+            a: 'The ARINC 429 data bus',
+            b: 'The RS-422 control bus',
+            c: 'The Radar Control Bus (RCB)'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6745,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What is the data rate of the DME module on the Radar Control Bus?',
+        options: {
+            a: '375 kBaud',
+            b: '187.5 kBaud',
+            c: '200 kBaud'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6746,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'How many receivers can an ARINC 429 bus transmit data to, connected in parallel?',
+        options: {
+            a: 'As many as 10',
+            b: 'As many as 20',
+            c: 'As many as 32'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6747,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'How many bits make up an ARINC 429 data word?',
+        options: {
+            a: '32 bits',
+            b: '16 bits',
+            c: '24 bits'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6748,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What is the RS-422 control bus used for?',
+        options: {
+            a: 'Transmission of weather radar picture data',
+            b: 'Transmission of digital audio between MRCs',
+            c: 'Control of the flight director and manipulation of display data on the PFD and MFD'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6749,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What type of display technology is used for the flat display, and at what resolution?',
+        options: {
+            a: 'A colour CRT display with 480 rows x 640 columns',
+            b: 'A colour AMLCD display with 768 rows x 1024 columns',
+            c: 'A monochrome AMLCD display with 768 rows x 1024 columns'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6750,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What is the minimum screen frequency refresh rate required to meet symbol motion requirements?',
+        options: {
+            a: '50 Hz',
+            b: '25 Hz',
+            c: '60 Hz'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6751,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What is the typical contrast ratio of the display in dark environments?',
+        options: {
+            a: '100:1',
+            b: '1000:1',
+            c: '400:1'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6752,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What is the typical maximum display luminance?',
+        options: {
+            a: '400 cd/m2 (125 fL)',
+            b: '850 cd/m2 (250 fL)',
+            c: '1200 cd/m2 (350 fL)'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6753,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'In NVG operations, to what luminance is the display automatically set by default?',
+        options: {
+            a: '10 cd/m2 (3 fL)',
+            b: '1.7 cd/m2 (0.5 fL)',
+            c: '850 cd/m2 (250 fL)'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6754,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'If a failure of the brightness/dimming circuits is detected, what happens to display and panel lighting brightness?',
+        options: {
+            a: 'It automatically reverts to maximum brightness',
+            b: 'It automatically reduces to minimum brightness',
+            c: 'It remains at the last set level and cannot be altered or revert to maximum'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6755,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What is the purpose of the optional Central SkyQuest Display?',
+        options: {
+            a: 'To replace the standard PFD for the pilot flying',
+            b: 'To provide extra screen display for additional mission systems such as digital maps, FLIR and infra-red cameras',
+            c: 'To provide a backup engine instrument display'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6756,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What is the diagonal screen size of the AVDU2111 SkyQuest display?',
+        options: {
+            a: '210mm (8.4 inch)',
+            b: '150mm (6 inch)',
+            c: '280mm (11 inch)'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6757,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What functions does the SkyQuest display feature, accessible by PLT and CPLT?',
+        options: {
+            a: 'Autopilot coupling and flight director mode selection',
+            b: 'Image freeze, zoom and picture in picture',
+            c: 'Weather radar gain and tilt control'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6758,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'According to the maintenance information, what should be used to turn off power before inserting or disconnecting the input connectors?',
+        options: {
+            a: 'The power supply should remain on to avoid cold-start issues',
+            b: 'Only the signal connector needs isolating, power may stay on',
+            c: 'The power supply must be turned off'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6759,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What type of component is used in the display module that requires static electricity precautions?',
+        options: {
+            a: 'A lithium battery',
+            b: 'CMOS LSI',
+            c: 'A mercury relay'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6760,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'On the CAS, what is the primary cause of a (1-2) MAU OVHT message, and under what condition is it enabled?',
+        options: {
+            a: 'A display unit is overheating; the message is enabled only on the ground',
+            b: 'An MRC is overheating; the message is enabled only in the air',
+            c: 'The MAU is overheating; the message is always enabled, and the NIC sets an over temperature bit on ASCB'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6761,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What condition triggers the AVIONIC FAULT / ASCB BUS FAIL CAS message, and when is it enabled?',
+        options: {
+            a: 'One or more NICs indicating the same ASCB failure, enabled on ground',
+            b: 'A single NIC reporting a LAN fault, always enabled',
+            c: 'Loss of the VbPCI bus, enabled only in the air'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6762,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What logic triggers the AVIONIC FAULT / APM MISCOMPARE CAS message?',
+        options: {
+            a: 'Loss of two or more APMs simultaneously, enabled on ground only',
+            b: 'A single APM reporting Not Available, always enabled',
+            c: 'APM Status = Miscompare OR Invalid, and the message is always enabled'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6763,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'Under what condition does the AVIONIC FAULT / CMS FAIL CAS message trigger, and what should happen to lower level messages?',
+        options: {
+            a: '1-2 APMs reporting APM Status = Miscompare; lower level messages are not affected',
+            b: '3-4 APMs reporting APM Status = Not Available; lower level function messages should be inhibited',
+            c: 'All APMs reporting valid status; lower level messages should be displayed'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6764,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What sets the bit on ASCB that triggers the AVIONIC FAULT / (1-2) DISP CNTL FAIL CAS message?',
+        options: {
+            a: 'The Control Function, to indicate no Display Controller activity',
+            b: 'The NIC/PROC, to indicate loss of LAN connectivity',
+            c: 'The CMC, to indicate a maintenance fault has occurred'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6765,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What triggers the AVIONIC FAULT / MAU FAN FAIL CAS message?',
+        options: {
+            a: 'The failure of one or more MAU FANS',
+            b: 'The failure of the MRC cooling fan',
+            c: 'The failure of the Display Unit backlight fan'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6766,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What three conditions can trigger the AVIONIC FAULT / (1-2) MAU Fault CAS message?',
+        options: {
+            a: 'Loss of ASCB-D synchronisation only',
+            b: 'CORE BIT detection of MAU module inactivity, invalidity of PROC Module functions, or Module BIT failures',
+            c: 'Overheat of the MAU chassis only'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6767,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'Which systems, if communications to a single MAU are lost, trigger the AVIONIC FAULT / A429/RS422 BUS CAS message?',
+        options: {
+            a: 'GPS, FMS, and Transponder only',
+            b: 'Audio Panel and Weather Radar only',
+            c: 'AHRS, Chip Detector, EEC1, EEC2, Fuel Computer left and Fuel Computer right'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6768,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What triggers the AVIONIC FAULT / MRC Fault CAS message?',
+        options: {
+            a: 'Loss of the MRC cooling fan',
+            b: 'CORE BIT detection of an MRC NIM module inactivity',
+            c: 'A mismatch between MRC1 and MRC2 configuration'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6769,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'When is the MAINTENANCE / CMC status CAS message enabled, and what triggers it?',
+        options: {
+            a: 'Always enabled; triggered only by loss of LAN connectivity',
+            b: 'Enabled in-air; triggered by loss of ASCB-D synchronisation',
+            c: 'Enabled on-ground; triggered when CMC parameter group output is invalid or not fresh, or when CMC sets a bit indicating a maintenance type fault has occurred'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6770,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What causes the (1-2) MCDU OVHT CAS message, and when is it enabled?',
+        options: {
+            a: 'The MCDU temperature status bit indicates an over-temperature condition; always enabled',
+            b: 'The MCDU backlight circuit fails; enabled on ground only',
+            c: 'The MCDU fan fails; always enabled'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6771,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What triggers the (1 2 3 4) DU DEGRADED CAS message, and what should happen to lower level function messages?',
+        options: {
+            a: 'A "critical wrap failure" reported from the Monitor Warning function to the displays; lower level function messages should be inhibited',
+            b: 'Loss of the RIB video feed; lower level function messages should be displayed normally',
+            c: 'A single pixel failure on any DU; lower level function messages are unaffected'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6772,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What triggers the (1 2 3 4) DU OVHT CAS message, and how is the condition communicated?',
+        options: {
+            a: 'A DU brightness fault; the DU sets a discrete directly to the CAS panel',
+            b: 'A DU Overheat condition; the DU sets a bit on ASCB indicating over-temperature status, and lower level function messages should be inhibited',
+            c: 'A DU cooling fan failure; the Control Function sets the bit on ASCB'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6773,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What causes the (1-2) MRC OVHT CAS message?',
+        options: {
+            a: 'An overheat condition in the MAU chassis',
+            b: 'An overheat condition in the Display Controller',
+            c: 'An overheat condition in the radio NIM, which sets its temperature status to over-temperature'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6774,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What does the AWG FAIL CAS message indicate, and how is it detected?',
+        options: {
+            a: 'The AW function is not valid; the MW monitors validity and freshness of ASCB transmissions from the AW function',
+            b: 'The audio warning generator hardware has lost power; detected by a discrete input',
+            c: 'The aural warning volume is below minimum; detected by the Audio Panel'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6775,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'Under what condition is the SYS CONFIG FAIL CAS message enabled, and what triggers it?',
+        options: {
+            a: 'Always enabled; triggered immediately by any ASCB-D dropout',
+            b: 'Enabled on Ground; triggered after a 5 second debounce by the failure of SCMS to validate system configuration',
+            c: 'Enabled in-air only; triggered by a CMC fault'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6776,
+        Aircraft: 'AW139',
+        Category: '46',
+        question: 'What triggers the VALIDATE CONFIG CAS message?',
+        options: {
+            a: 'A change in cabin configuration weight',
+            b: 'A change in fuel quantity calibration',
+            c: 'A change in EPIC HW and/or SW'
+        },
+        correct: 'c'
+    },];
