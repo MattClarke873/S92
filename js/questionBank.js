@@ -44297,7 +44297,7 @@ export const questions = [
     id: 4779,
     Aircraft: 'AW139',
     Category: '60',
-    question: 'Before removing a chip detector following a CAS chip caution, what should be done?',
+    question: 'Before removing a chip from the chip detector following a CAS chip caution, what should be done?',
     options: {
         a: 'Immediately discard the chip detector and fit a new one',
         b: 'Take digital photographs of the particles in place',
@@ -60253,7 +60253,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 6113,
     Aircraft: 'AW139',
     Category: '79',
@@ -60264,7 +60264,7 @@ export const questions = [
         c: '5 PSI'
     },
     correct: 'a'
-},
+}, */
 {
     id: 6114,
     Aircraft: 'AW139',
@@ -60661,7 +60661,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 6147,
     Aircraft: 'AW139',
     Category: '79',
@@ -60672,7 +60672,7 @@ export const questions = [
         c: '80°C'
     },
     correct: 'b'
-},
+}, */
 {
     id: 6148,
     Aircraft: 'AW139',
@@ -64138,6 +64138,3366 @@ export const questions = [
         a: 'A DI of the blower brushes for condition and operating dimension limits, every 300 hours',
         b: 'A deep cycle recharge of the lamp battery, every 1 year',
         c: 'A full gimbal recalibration, every 1 year'
+    },
+    correct: 'a'
+},
+{
+    id: 6437,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What three functional areas is the Environmental Control System (ECS) split into?',
+    options: {
+        a: 'Cockpit ventilation, cabin ventilation, and air purification (optional)',
+        b: 'Cockpit and cabin ventilation, the heating system, and the IECS (optional)',
+        c: 'Ventilation, pressurisation, and fire suppression'
+    },
+    correct: 'b'
+},
+{
+    id: 6438,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What optional system can be added in addition to the three ECS functional areas?',
+    options: {
+        a: 'A secondary heating control box',
+        b: 'An Air Purification system',
+        c: 'A supplementary bleed air manifold'
+    },
+    correct: 'b'
+},
+{
+    id: 6439,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Beyond maintaining cabin temperature, what additional function does the heating system provide?',
+    options: {
+        a: 'Removes mist from the windshield and the cockpit windows',
+        b: 'Pressurises the cabin for high-altitude operations',
+        c: 'Filters particulates from the cockpit air supply'
+    },
+    correct: 'a'
+},
+{
+    id: 6440,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What is the purpose of the air conditioning system?',
+    options: {
+        a: 'To pressurise the cabin and maintain a constant cabin altitude',
+        b: 'To maintain safe oxygen content, prevent CO/CO2 build-up, and provide fresh air free of contamination, moisture and odours',
+        c: 'To filter static electricity from the cockpit avionics cooling air'
+    },
+    correct: 'b'
+},
+{
+    id: 6441,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What are the four ECS kits available, by part number function?',
+    options: {
+        a: 'Forced Ventilation Kit, Heating Kit, Forced Ventilation and Heating Kit, Air Conditioning Kit',
+        b: 'Cockpit Kit, Cabin Kit, Nose Bay Kit, Tail Rotor Kit',
+        c: 'Basic Ram Air Kit, Bleed Air Kit, Recycle Kit, IECS Kit'
+    },
+    correct: 'a'
+},
+{
+    id: 6442,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What does the Forced Ventilation Kit add to the basic aircraft ram air system?',
+    options: {
+        a: 'A heating control function with no additional fan',
+        b: 'An additional controllable fan in the cabin system',
+        c: 'A full air conditioning compressor pack'
+    },
+    correct: 'b'
+},
+{
+    id: 6443,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What does the Heating Kit add to the basic aircraft ram air system?',
+    options: {
+        a: 'An additional controllable fan in the cabin system only',
+        b: 'Heating control, with no additional cabin fan',
+        c: 'A condenser assembly and evaporator pack'
+    },
+    correct: 'b'
+},
+{
+    id: 6444,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What does the Air Conditioning Kit add to the basic aircraft ram air system?',
+    options: {
+        a: 'Heating control only, with no fan or cooling function',
+        b: 'A cabin fan and heating control, but no cooling function',
+        c: 'An additional controllable cabin fan, plus heating and cooling control'
+    },
+    correct: 'c'
+},
+{
+    id: 6445,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How many separate systems provide cockpit ventilation, and for whom?',
+    options: {
+        a: 'One shared system for both pilot and copilot',
+        b: 'Two separate systems, one each for the pilot and the copilot',
+        c: 'Three systems, one for the pilot, copilot and centre console'
+    },
+    correct: 'b'
+},
+{
+    id: 6446,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Where do the cockpit ventilation ram air intakes enter the aircraft?',
+    options: {
+        a: 'Through two air intakes positioned on the underside of the nose section',
+        b: 'Through a single intake on the cabin roof',
+        c: 'Through two intakes on the tail pylon'
+    },
+    correct: 'a'
+},
+{
+    id: 6447,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How is outside ram air flow controlled for the cockpit ventilation system?',
+    options: {
+        a: 'By a manually operated mechanical lever at each flapper valve',
+        b: 'By a pressure-sensing automatic valve with no crew control',
+        c: 'By an electrically actuated flapper valve, set by a 4-position rotary switch'
+    },
+    correct: 'c'
+},
+{
+    id: 6448,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What provides forced air for cockpit ventilation or defogging?',
+    options: {
+        a: 'Two axial fans, one per system, manually controlled by the crew',
+        b: 'A single centrifugal fan shared between pilot and copilot',
+        c: 'An engine bleed air ejector with no moving parts'
+    },
+    correct: 'a'
+},
+{
+    id: 6449,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What three main components make up each cockpit ventilation system?',
+    options: {
+        a: 'A ram air intake, a compressor, and an evaporator',
+        b: 'A flapper valve, a heat exchanger, and a condenser',
+        c: 'A ram air intake, a flapper valve, and an electrical fan'
+    },
+    correct: 'c'
+},
+{
+    id: 6450,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Where is each cockpit flapper valve installed?',
+    options: {
+        a: 'On the cabin roof, adjacent to the air intake',
+        b: 'At the bottom of the instrument panel, forward of the control pedals',
+        c: 'On the engine firewall, next to the shut-off valve'
+    },
+    correct: 'b'
+},
+{
+    id: 6451,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What outlets does the cockpit ventilation system supply?',
+    options: {
+        a: 'Four adjustable face outlets and no windshield outlets',
+        b: 'One adjustable face outlet and two free lower window outlets',
+        c: 'Two adjustable face outlets, two free windshield outlets, and one free lower window outlet'
+    },
+    correct: 'c'
+},
+{
+    id: 6452,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What is the construction of each cockpit flapper valve?',
+    options: {
+        a: 'A butterfly valve contained in a cylindrical body made of glass-fibre phenolic-resin',
+        b: 'A poppet valve contained in an aluminium alloy housing',
+        c: 'A sliding gate valve contained in a stainless-steel body'
+    },
+    correct: 'a'
+},
+{
+    id: 6453,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How is the butterfly valve inside each flapper valve operated, and how is its position indicated?',
+    options: {
+        a: 'By an electrical actuator with an electronic motor and worm screw, with microswitches indicating fully open/closed',
+        b: 'By a manual cable linked directly to the CREW selector, with no position indication',
+        c: 'By a pneumatic actuator supplied from engine bleed air, with a mechanical flag indicator'
+    },
+    correct: 'a'
+},
+{
+    id: 6454,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What type of flapper valve arrangement is used in the cockpit, and what selector controls it?',
+    options: {
+        a: 'An independent type, with each valve operated by its own dedicated switch',
+        b: 'A spring-loaded type requiring no electrical control',
+        c: 'An interlocked type, operated by the CREW selector'
+    },
+    correct: 'c'
+},
+{
+    id: 6455,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What materials are used in the cockpit fan impeller and shaft?',
+    options: {
+        a: 'Impeller of carbon fibre, shaft of titanium',
+        b: 'Impeller and shaft both of anodized aluminium alloy',
+        c: 'Impeller of ULTM 2300/2310, shaft of stainless steel'
+    },
+    correct: 'c'
+},
+{
+    id: 6456,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What electrical bus and circuit breaker supply the No.1 cockpit ventilation fan?',
+    options: {
+        a: '28 Vdc Main Bus Bar No.2, through the VENT CONTR circuit breaker',
+        b: '28 Vdc Essential Bus Bar No.1, through the NOSE VENT circuit breaker',
+        c: '28 Vdc Non-Essential Bus Bar No.1, through the VENT CKPT FAN 1 circuit breaker'
+    },
+    correct: 'c'
+},
+{
+    id: 6457,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What electrical bus and circuit breakers supply the No.2 cockpit fan and the cockpit control panel?',
+    options: {
+        a: '28 Vdc Non-Essential Bus Bar No.1, through the VENT CKPT FAN 1 circuit breaker',
+        b: '28 Vdc Main Bus Bar No.2, through the VENT CONTR and VENT CKPT FAN 2 circuit breakers',
+        c: '28 Vdc Essential Bus Bar No.2, through the CABIN FAN circuit breaker'
+    },
+    correct: 'b'
+},
+{
+    id: 6458,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What protective features do the cockpit fan motors have?',
+    options: {
+        a: 'Under-speed detection to prevent damage from a locked motor, and resettable thermal protection against overheat',
+        b: 'Overpressure relief valves and a mechanical centrifugal clutch',
+        c: 'A fixed-speed governor with no under-speed or thermal protection'
+    },
+    correct: 'a'
+},
+{
+    id: 6459,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'At what temperature does the cockpit fan thermal protection activate, and what is the under-speed time delay?',
+    options: {
+        a: '85°C, with a 2 to 4 second time delay on the under-speed detection',
+        b: '150°C, with a 15 to 20 second time delay on the under-speed detection',
+        c: '120°C, with a 6 to 10 second time delay on the under-speed detection'
+    },
+    correct: 'c'
+},
+{
+    id: 6460,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How can a cockpit fan be reset after an under-speed fault trip?',
+    options: {
+        a: 'By cycling the related circuit breaker on the overhead panel only',
+        b: 'By waiting for an automatic reset after 60 seconds with no crew action',
+        c: 'By moving the switch to OFF then back to ON'
+    },
+    correct: 'c'
+},
+{
+    id: 6461,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What do the four positions of the VENT CREW rotary switch control?',
+    options: {
+        a: 'OFF (valves closed), ON (ram airflow), FAN LOW (forced airflow, low speed), FAN HIGH (forced airflow, high speed)',
+        b: 'OFF (valves open), ON (valves closed), FAN LOW, FAN HIGH only',
+        c: 'LOW, MED, HIGH and AUTO fan speed settings with no OFF position'
+    },
+    correct: 'a'
+},
+{
+    id: 6462,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What does the VENT CONTR switch do, and what happens if the cabin controller is not installed?',
+    options: {
+        a: 'It isolates electrical power to both ventilation circuits simultaneously',
+        b: 'It selects CREW or PAX authority; with no cabin controller, selecting PAX opens the cabin flapper valves and disables the VENT PAX rotary switch',
+        c: 'It switches between AUTO and MANUAL heating modes only'
+    },
+    correct: 'b'
+},
+{
+    id: 6463,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How are the pilot and copilot ventilation circuits arranged?',
+    options: {
+        a: 'Two isolated circuits, the left circuit for the co-pilot and the right circuit for the pilot',
+        b: 'A single shared circuit split downstream by a Y-duct',
+        c: 'Two circuits cross-feeding both stations via a central manifold'
+    },
+    correct: 'a'
+},
+{
+    id: 6464,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Why are the cockpit ventilation air intakes positioned as far as possible from the engine exhausts?',
+    options: {
+        a: 'To reduce the ram air pressure at high forward airspeed',
+        b: 'To minimise the structural weight of the intake ducting',
+        c: 'To prevent exhaust gases from entering the ventilation system'
+    },
+    correct: 'c'
+},
+{
+    id: 6465,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What does the CREW selector control in the cockpit ventilation system?',
+    options: {
+        a: 'Only the cockpit flapper valves, with the fans controlled separately',
+        b: 'The No.1 and No.2 cockpit flapper valves and the No.1 and No.2 cockpit fans',
+        c: 'The cabin flapper valve and the optional cabin fan'
+    },
+    correct: 'b'
+},
+{
+    id: 6466,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What does the CONTR switch select, and when do the fans not operate?',
+    options: {
+        a: 'It selects the functions of the CREW or PAX selector; the fans do not operate when the flapper valves are closed',
+        b: 'It selects fan speed directly; the fans do not operate below 500 ft AGL',
+        c: 'It isolates electrical power to the ventilation control panel entirely'
+    },
+    correct: 'a'
+},
+{
+    id: 6467,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'In what sequence must the CREW selector be moved to operate the cockpit fans?',
+    options: {
+        a: 'The selector must first be set to ON to open the flapper valves, before FAN LOW or FAN HIGH can operate the fans',
+        b: 'The fans can be selected directly from OFF without opening the flapper valves first',
+        c: 'The selector must be set to FAN HIGH first, then reduced to FAN LOW as needed'
+    },
+    correct: 'a'
+},
+{
+    id: 6468,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What is the purpose of the hose in each cockpit ventilation duct?',
+    options: {
+        a: 'It drains and releases condensation overboard',
+        b: 'It channels bleed air to the jet pump for demisting',
+        c: 'It equalises pressure between the pilot and copilot circuits'
+    },
+    correct: 'a'
+},
+{
+    id: 6469,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What does the FWD VENT advisory message on the CAS indicate?',
+    options: {
+        a: 'That the cockpit ventilation is on (FAN ON)',
+        b: 'That the cabin fan has failed',
+        c: 'That the nose avionic bay fans are both off'
+    },
+    correct: 'a'
+},
+{
+    id: 6470,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What does a VENT FAIL caution message indicate, and where do the CAS signals originate?',
+    options: {
+        a: 'A cabin pressurisation failure, with signals sent from the Heating Control Box',
+        b: 'A cockpit ventilation malfunction, with signals sent from the Number 1 and Number 2 Modular Avionics Units',
+        c: 'A nose landing gear bay overheat, with signals sent from the CMC only'
+    },
+    correct: 'b'
+},
+{
+    id: 6471,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Where does outside ram air enter the cabin ventilation system?',
+    options: {
+        a: 'Through one air intake in the forward sliding fairing of the cabin roof',
+        b: 'Through two intakes on the underside of the cabin floor',
+        c: 'Through an intake shared with the cockpit ventilation system'
+    },
+    correct: 'a'
+},
+{
+    id: 6472,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What does the cabin ventilation system consist of?',
+    options: {
+        a: 'One flapper valve, one electrical fan, and six fixed outlets',
+        b: 'Four flapper valves, one electrical fan, and twelve fixed outlets',
+        c: 'Two flapper valves (LH and RH), two electrical fans, and twelve adjustable outlets in the PSUs'
+    },
+    correct: 'c'
+},
+{
+    id: 6473,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Where is the cabin flapper valve installed?',
+    options: {
+        a: 'On the engine firewall, adjacent to the shut-off valve',
+        b: 'In the cabin ventilation circuit, in the forward sliding cowling',
+        c: 'In the tail pylon, near the tail rotor gearbox'
+    },
+    correct: 'b'
+},
+{
+    id: 6474,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What is the cabin flapper valve constructed from, similar to the cockpit assembly?',
+    options: {
+        a: 'A butterfly valve contained in a cylindrical body made of glass-fibre phenolic-resin',
+        b: 'A poppet valve contained in a titanium housing',
+        c: 'A sliding gate valve contained in a composite sleeve'
+    },
+    correct: 'a'
+},
+{
+    id: 6475,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Which selector controls the cabin flapper valve?',
+    options: {
+        a: 'The PAX selector on the ventilation control panel',
+        b: 'The CREW selector on the ventilation control panel',
+        c: 'The COND-HTR selector on the heating control panel'
+    },
+    correct: 'a'
+},
+{
+    id: 6476,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Where is the optional cabin fan installed, and what type is it?',
+    options: {
+        a: 'Upstream of the cabin flapper valve, a centrifugal type fan',
+        b: 'Inside the jet pump housing, a radial type fan',
+        c: 'Downstream of the cabin flapper valve, an axial type fan'
+    },
+    correct: 'c'
+},
+{
+    id: 6477,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What circuit breaker and bus supply the optional cabin fan?',
+    options: {
+        a: '28 Vdc Main Bus Bar No.2, through the VENT CONTR circuit breaker',
+        b: '28 Vdc Non-Essential Bus Bar No.1, through the CABIN FAN circuit breaker',
+        c: '28 Vdc Essential Bus Bar No.1, through the NOSE VENT circuit breaker'
+    },
+    correct: 'b'
+},
+{
+    id: 6478,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'When installed, what does the PAX selector control for the cabin system?',
+    options: {
+        a: 'Only the cabin flapper valve, with the fan controlled by a separate switch',
+        b: 'Only the cabin fan, with the flapper valve fixed permanently open',
+        c: 'Both the cabin flapper valve and the cabin fan'
+    },
+    correct: 'c'
+},
+{
+    id: 6479,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What is the airflow path downstream of the cabin flapper valve?',
+    options: {
+        a: 'Directly into the cabin through a single open duct with no filtration',
+        b: 'Through a hose and duct to a water separator, then into a manifold, then to the cabin diffusers',
+        c: 'Through the jet pump, then to the heating control box, then to the diffusers'
+    },
+    correct: 'b'
+},
+{
+    id: 6480,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Under what conditions does the cabin ventilation fan operate to increase airflow?',
+    options: {
+        a: 'Only when the Air Conditioning kit is installed',
+        b: 'When the Forced Ventilation kit, or the Heating and Forced Ventilation kit, is installed',
+        c: 'At all times, regardless of which kit is installed'
+    },
+    correct: 'b'
+},
+{
+    id: 6481,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How is normal operation and malfunction of the cabin ventilation monitored?',
+    options: {
+        a: 'Through the Primary Flight Displays (PFDs) only',
+        b: 'Through the Multifunction Displays (MFDs)',
+        c: 'Through a dedicated cabin ventilation annunciator panel'
+    },
+    correct: 'b'
+},
+{
+    id: 6482,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What are the two causes of a VENT FAIL caution related to ventilation fans?',
+    options: {
+        a: 'Failure of the cabin fan only, under any aircraft configuration',
+        b: 'Failure of the heating control box fan interlock',
+        c: 'Failure of the crew ventilation fan, or failure of both nose avionic bay fans (long nose configuration only)'
+    },
+    correct: 'c'
+},
+{
+    id: 6483,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What do the FWD VENT, AFT VENT, and FWD-AFT VENT advisory messages indicate respectively?',
+    options: {
+        a: 'Forward fan failed; aft fan failed; both fans failed',
+        b: 'Forward (crew) ventilation ON; cabin fan switched ON; both forward crew and cabin fans ON',
+        c: 'Forward valve closed; aft valve closed; both valves closed'
+    },
+    correct: 'b'
+},
+{
+    id: 6484,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What is the purpose of the nose bay ventilation fans?',
+    options: {
+        a: 'To cool the engine bleed air before it enters the heating system',
+        b: 'To provide forced ventilation to the cockpit during ground operations',
+        c: 'To decrease the nose avionic bay inner temperature by removing air from the bay and blowing it into the nose landing-gear bay'
+    },
+    correct: 'c'
+},
+{
+    id: 6485,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What bus, circuit breaker and relay supply the left nose ventilation fan?',
+    options: {
+        a: '28 V DC Non-Essential Bus Bar, through the NOSE VENT circuit breaker and the related relay',
+        b: '28 V DC Main Bus Bar No.2, through the VENT CONTR circuit breaker',
+        c: '28 V DC Essential Bus Bar No.1, through the CABIN FAN circuit breaker'
+    },
+    correct: 'a'
+},
+{
+    id: 6486,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Under what condition can the nose avionic bay overheat?',
+    options: {
+        a: 'When the helicopter operates above 10,000 ft for extended periods',
+        b: 'When the helicopter is parked externally for more than 30 minutes in very hot conditions, such as direct sunlight',
+        c: 'When the engines are run at idle for more than 5 minutes on the ground'
+    },
+    correct: 'b'
+},
+{
+    id: 6487,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What does the nose avionic bay ventilation system operation test check?',
+    options: {
+        a: 'Fan operation on the ground and in simulated flight using the MLG switches test box, and correct CAS messages',
+        b: 'Only the fan current draw at the circuit breaker panel',
+        c: 'Only the fan blade balance using a vibration analyser'
+    },
+    correct: 'a'
+},
+{
+    id: 6488,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What air source does the heating system use to maintain cabin and cockpit temperature?',
+    options: {
+        a: 'Ram air ducted directly from the nose intakes',
+        b: 'Bleed air (P3) from the compressor discharge port of each engine',
+        c: 'Exhaust gas recovered through a heat exchanger'
+    },
+    correct: 'b'
+},
+{
+    id: 6489,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Where does the external air that mixes with bleed air in the heating system come from?',
+    options: {
+        a: 'An air inlet on the LH aft fuselage',
+        b: 'An inlet on the tail rotor pylon',
+        c: 'The same nose intakes used for cockpit ventilation'
+    },
+    correct: 'a'
+},
+{
+    id: 6490,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Where does the mixing of hot bleed air and outside air occur, and what controls the hot air quantity?',
+    options: {
+        a: 'In the heating control box, with the quantity controlled by the duct temperature sensor',
+        b: 'In the noise attenuator, with the quantity controlled by a fixed orifice',
+        c: 'In the jet pump, with the quantity controlled by the Temperature Control Valve (TCV)'
+    },
+    correct: 'c'
+},
+{
+    id: 6491,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What does the TEMP CONTR knob do when the COND/HTR selector is set to AUTO?',
+    options: {
+        a: 'It directly drives the TCV motor as a manual trim control',
+        b: 'It automatically controls the airflow temperature via the TCV',
+        c: 'It has no function; temperature is fixed in AUTO mode'
+    },
+    correct: 'b'
+},
+{
+    id: 6492,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How does the pilot manually control the TCV if automatic temperature control fails?',
+    options: {
+        a: 'By pulling the HTR circuit breaker and operating the valve by hand',
+        b: 'By setting the COND/HTR selector to MAN and using the TEMP CONTR knob as a trim switch',
+        c: 'By setting the VENT CONTR switch to PAX, which bypasses the TCV automatically'
+    },
+    correct: 'b'
+},
+{
+    id: 6493,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How many cabin air diffusers distribute heated air, and where are they located?',
+    options: {
+        a: 'Four diffusers (left/right forward and left/right aft), at STA X3560 and STA X5700',
+        b: 'Two diffusers, both located at STA X3560',
+        c: 'Six diffusers, three on each side of the cabin'
+    },
+    correct: 'a'
+},
+{
+    id: 6494,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Where are the cockpit heating air outlets located, downstream of the cabin diffusers?',
+    options: {
+        a: 'Four outlets on the instrument panel coaming',
+        b: 'One outlet centrally located on the cockpit floor',
+        c: 'Two outlets on the left and right side of the pedestal, near the floor adjacent to the pedal sets'
+    },
+    correct: 'c'
+},
+{
+    id: 6495,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What provides the data the Heating Control Box uses to monitor for excessive temperature?',
+    options: {
+        a: 'A pair of thermocouples mounted on the engine firewall',
+        b: 'The Modular Avionics Units, via the CAS message bus',
+        c: 'A duct temperature sensor and an overheat temperature switch'
+    },
+    correct: 'c'
+},
+{
+    id: 6496,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Where is the insulated hose located, and what does it connect?',
+    options: {
+        a: 'In the left side of the forward cabin, connecting the TCV to the cockpit outlets',
+        b: 'In the right side of the rear cabin, connecting the noise attenuator to the venturi duct (jet pump)',
+        c: 'On the engine firewall, connecting the shut-off valve to the check valve'
+    },
+    correct: 'b'
+},
+{
+    id: 6497,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Where is the noise attenuator located, and what is its function?',
+    options: {
+        a: 'On the nose landing-gear bay wall, decreasing nose fan noise',
+        b: 'In the bottom right side of the aft cabin, near STA 5700, decreasing bleed-air engine noise',
+        c: 'Inside the jet pump housing, decreasing venturi flow noise'
+    },
+    correct: 'b'
+},
+{
+    id: 6498,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What percentage of total engine airflow does the bleed air represent?',
+    options: {
+        a: 'Approximately 10 percent',
+        b: 'Approximately 2 percent',
+        c: 'Approximately 25 percent'
+    },
+    correct: 'b'
+},
+{
+    id: 6499,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What limits the bleed airflow drawn from each engine?',
+    options: {
+        a: 'The size of the opening on each of the flanges of the bleed pipes installed on the engines',
+        b: 'A dedicated flow-limiting orifice fitted inside the jet pump',
+        c: 'The capacity of the Number 1 and Number 2 shut-off valve actuators'
+    },
+    correct: 'a'
+},
+{
+    id: 6500,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What is the purpose of the flexible sections in the bleed air pipes?',
+    options: {
+        a: 'To allow the pipes to be disconnected quickly for maintenance',
+        b: 'To absorb the thermal expansion and vibrations of the engines',
+        c: 'To filter particulates from the bleed air before the shut-off valve'
+    },
+    correct: 'b'
+},
+{
+    id: 6501,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What is the function of the check valves downstream of the shut-off valves?',
+    options: {
+        a: 'To regulate bleed air pressure to a constant value',
+        b: 'To vent excess bleed air overboard during an overheat condition',
+        c: 'To prevent the flow of bleed air from one engine to the other'
+    },
+    correct: 'c'
+},
+{
+    id: 6502,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What is the function of the secondary injector at the jet pump?',
+    options: {
+        a: 'It supplies cooling air to the TCV actuator motor only',
+        b: 'It also supplies bleed air to the jet pump, bypassing the TCV when the TCV is in failure',
+        c: 'It vents excess pressure from the jet pump to atmosphere'
+    },
+    correct: 'b'
+},
+{
+    id: 6503,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What temperature does the high-pressure duct insulation keep the duct surface at, and what is it made from?',
+    options: {
+        a: '120°C, made of ceramic fibre contained in a stainless-steel casing',
+        b: '200°C, made of fibreglass contained in a Viton casing',
+        c: '350°C, made of asbestos contained in an aluminium casing'
+    },
+    correct: 'b'
+},
+{
+    id: 6504,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How are the sections of the high-pressure duct connected, to minimise leakage and contamination?',
+    options: {
+        a: 'Through flanges with bolts, nut couplings and v-band couplings',
+        b: 'Through welded joints with no removable connections',
+        c: 'Through push-fit quick-release couplings with O-ring seals'
+    },
+    correct: 'a'
+},
+{
+    id: 6505,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Where is the Number 1 shut-off valve (HR1) installed?',
+    options: {
+        a: 'On the upper deck, adjacent to the check valve',
+        b: 'Inside the jet pump housing, upstream of the TCV',
+        c: 'Attached to the firewall in the No.1 engine compartment'
+    },
+    correct: 'c'
+},
+{
+    id: 6506,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What is the normal (de-energized) state of the shut-off valve, and why?',
+    options: {
+        a: 'Normally open, because a spring holds the piston open when de-energized',
+        b: 'Normally closed, held shut by a mechanical detent independent of pressure',
+        c: 'Normally closed, because the pressure difference across the piston holds it closed when the solenoid is not energized'
+    },
+    correct: 'c'
+},
+{
+    id: 6507,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What materials are used for the shut-off valve body and actuator housing?',
+    options: {
+        a: 'Body of titanium; actuator housing of carbon-fibre composite',
+        b: 'Body of aluminium alloy; actuator housing of stainless steel',
+        c: 'Body, flanges, piston and internals of stainless steel; actuator housing of poly-ether ether-ketone and anodized aluminium alloy'
+    },
+    correct: 'c'
+},
+{
+    id: 6508,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What type of fail-safe behaviour does the shut-off valve have?',
+    options: {
+        a: 'If power supply to the actuator stops, the valve closes automatically',
+        b: 'If power supply to the actuator stops, the valve remains in its last position',
+        c: 'If power supply to the actuator stops, the valve opens fully to prevent overheat'
+    },
+    correct: 'a'
+},
+{
+    id: 6509,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What type of check valve is used downstream of each shut-off valve, and what are its main components?',
+    options: {
+        a: 'A double-flapper type, with a base, two flappers, a hinge pin, a collar, a spring, and two spacers',
+        b: 'A ball type, with a ball, seat, spring and retaining clip',
+        c: 'A single-flapper type, with a base, one flapper and a hinge pin only'
+    },
+    correct: 'a'
+},
+{
+    id: 6510,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What materials make up the venturi duct (jet pump) mixing unit and injectors?',
+    options: {
+        a: 'The mixing unit is stainless steel; the injectors are composite material',
+        b: 'Both the mixing unit and injectors are made of titanium',
+        c: 'The mixing unit is composite material; the injectors are stainless steel'
+    },
+    correct: 'c'
+},
+{
+    id: 6511,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What are the two functions of the jet pump?',
+    options: {
+        a: 'To supply bleed air directly to the engines, and to vent excess pressure overboard',
+        b: 'To supply clean air to the cabin and cockpit, and to supply air at a controlled temperature',
+        c: 'To cool the TCV actuator, and to drive the cockpit fans'
+    },
+    correct: 'b'
+},
+{
+    id: 6512,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What three items is the jet pump connected to?',
+    options: {
+        a: 'The temperature control valve, the external air intake duct, and the low-pressure heating air ducts',
+        b: 'The shut-off valves, the check valves, and the noise attenuator only',
+        c: 'The cockpit fans, the cabin fans, and the nose bay fans'
+    },
+    correct: 'a'
+},
+{
+    id: 6513,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What does the duct temperature sensor at the jet pump outlet do?',
+    options: {
+        a: 'Senses the mixed air temperature and sends a feedback signal to the heating control box',
+        b: 'Opens the shut-off valves directly when a high temperature is sensed',
+        c: 'Controls the cockpit fan speed in proportion to duct temperature'
+    },
+    correct: 'a'
+},
+{
+    id: 6514,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Where is the temperature switch located relative to the duct temperature sensor?',
+    options: {
+        a: 'On the opposite side of the aircraft, in the nose avionic bay',
+        b: 'Adjacent to it, at the jet pump outlet',
+        c: 'Inside the heating control box itself'
+    },
+    correct: 'b'
+},
+{
+    id: 6515,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Where is the Temperature Control Valve (TCV) installed?',
+    options: {
+        a: 'Inside the heating control box, on the LH avionic bay',
+        b: 'On the engine firewall, upstream of the shut-off valve',
+        c: 'On the top of the jet pump, below the engine firewall'
+    },
+    correct: 'c'
+},
+{
+    id: 6516,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What is the construction of the TCV?',
+    options: {
+        a: 'Spherical, with a brass plug and an aluminium body',
+        b: 'Cylindrical, with a ceramic plug and a titanium body',
+        c: 'Cylindrical, with a carbon plug and a stainless-steel body'
+    },
+    correct: 'c'
+},
+{
+    id: 6517,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How is the TCV plug driven, and what is its actuator casing made from?',
+    options: {
+        a: 'By a dc motor with brushes through a tangential motor and shaft, in a casing of poly-ether ether-ketone and aluminium alloy',
+        b: 'By a stepper motor through a direct-drive gearbox, in a casing of stainless steel',
+        c: 'By a pneumatic actuator supplied from bleed air, in a casing of titanium'
+    },
+    correct: 'a'
+},
+{
+    id: 6518,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How are the fully open and fully closed positions of the TCV sensed?',
+    options: {
+        a: 'By micro-switches',
+        b: 'By a rotary potentiometer only',
+        c: 'By a mechanical flag visible through an inspection window'
+    },
+    correct: 'a'
+},
+{
+    id: 6519,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'At what temperatures does the temperature switch open and close?',
+    options: {
+        a: 'Opens at 70° ± 5°C, closes at 85° ± 5°C',
+        b: 'Opens at 120° ± 5°C, closes at 100° ± 5°C',
+        c: 'Opens at 85° ± 5°C, closes at 70° ± 5°C'
+    },
+    correct: 'c'
+},
+{
+    id: 6520,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What does DOTS stand for, and what does it do if an overheat is not detected by the duct temperature sensor?',
+    options: {
+        a: 'Duct Overheat Trim Switch; it will trip, opening the shut-off valves fully',
+        b: 'Duct Overheat Thermal Switch; it will trip, closing the shut-off valves',
+        c: 'Duct Operating Temperature Sensor; it logs the event with no valve action'
+    },
+    correct: 'b'
+},
+{
+    id: 6521,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What CAS message is shown when the temperature switch is ON due to a high duct temperature?',
+    options: {
+        a: 'VENT FAIL caution',
+        b: 'AFT COND FAIL caution',
+        c: 'HEATER FAIL caution'
+    },
+    correct: 'c'
+},
+{
+    id: 6522,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What does the temperature sensor measure, and what does it feed to the heating control box?',
+    options: {
+        a: 'The temperature of the mixed air downstream of the jet pump mixing unit, feeding an automatic feedback signal to control the TCV',
+        b: 'The temperature of the engine bleed air at the firewall, feeding a signal to trip the shut-off valves',
+        c: 'The temperature of the cockpit cabin air, feeding a signal to the CREW selector only'
+    },
+    correct: 'a'
+},
+{
+    id: 6523,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Where is the air intake duct installed, and what prevents object ingestion?',
+    options: {
+        a: 'In the top left side of the cabin at STA 6700, with a mesh at the inlet',
+        b: 'In the nose landing-gear bay, with a one-way flapper at the inlet',
+        c: 'On the tail pylon leading edge, with a screen at the inlet'
+    },
+    correct: 'a'
+},
+{
+    id: 6524,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What are the three positions of the HTR selector on the heating control panel, and what does each mean?',
+    options: {
+        a: 'OFF (system not operative), AUTO (automatic mode), MAN (manual mode)',
+        b: 'OFF, LOW, HIGH, controlling heater output directly',
+        c: 'AUTO, RECYCLE, NORM, controlling both heating and ventilation'
+    },
+    correct: 'a'
+},
+{
+    id: 6525,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What does the TEMP CONTR control do when the HTR selector is set to MAN?',
+    options: {
+        a: 'It opens or closes the temperature control valve directly',
+        b: 'It adjusts only the fan speed, with no effect on the TCV',
+        c: 'It selects between AUTO and MAN modes on the heating panel'
+    },
+    correct: 'a'
+},
+{
+    id: 6526,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What do the 1(2) SOV switch positions CLOSE and NORMAL do?',
+    options: {
+        a: 'CLOSE opens the shut-off valve fully; NORMAL forces it closed',
+        b: 'CLOSE and NORMAL both force the valve to the same open position',
+        c: 'CLOSE forces the shut-off valve closed; NORMAL allows it to be open or closed as required'
+    },
+    correct: 'c'
+},
+{
+    id: 6527,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What does the CONTR switch on the heating control panel do when set to PAX?',
+    options: {
+        a: 'It gives the cabin crew full authority over cockpit temperature',
+        b: 'It disconnects the heating control box from all power sources',
+        c: 'This selection is not operative when the heating system is in either AUTO or MAN mode'
+    },
+    correct: 'c'
+},
+{
+    id: 6528,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Where is the Heating Control Box (HCB) located?',
+    options: {
+        a: 'On the RH avionic bay',
+        b: 'On the LH avionic bay',
+        c: 'In the nose landing-gear bay'
+    },
+    correct: 'b'
+},
+{
+    id: 6529,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What bus and circuit breaker supply 28 Vdc power to the Heating Control Box?',
+    options: {
+        a: 'The Number 2 non-essential bus, through the HTR circuit breaker',
+        b: 'The Number 1 essential bus, through the VENT CONTR circuit breaker',
+        c: 'The Main Bus Bar No.2, through the CABIN FAN circuit breaker'
+    },
+    correct: 'a'
+},
+{
+    id: 6530,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Under what two conditions does the Heating Control Box operate in AUTO heater mode?',
+    options: {
+        a: 'The ENG 1 and ENG 2 switches are in the ARM position, and the HTR selector is at MAN',
+        b: 'The ENG 1 and ENG 2 switches are not in the ARM position, and the HTR selector is at AUTO',
+        c: 'The cabin door is closed, and the VENT CONTR switch is at PAX'
+    },
+    correct: 'b'
+},
+{
+    id: 6531,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How does the Heating Control Box closed loop regulate temperature?',
+    options: {
+        a: 'It compares the reference temperature set on the control panel with the duct temperature measured by the temperature sensor',
+        b: 'It compares engine bleed air pressure with ambient pressure',
+        c: 'It compares cockpit and cabin temperatures directly with no reference setting'
+    },
+    correct: 'a'
+},
+{
+    id: 6532,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'In automatic mode, up to what maximum temperature does the HCB compare the ADTS reading against the TEMP CONTR demand?',
+    options: {
+        a: '75°C',
+        b: '50°C',
+        c: '100°C'
+    },
+    correct: 'a'
+},
+{
+    id: 6533,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'In manual mode, what do the left (-) and right (+) positions of the TEMP CONTR toggle function do?',
+    options: {
+        a: 'Left opens the temperature control valve; right closes it',
+        b: 'Left closes the temperature control valve; right opens it',
+        c: 'Left and right both only adjust fan speed, not the valve'
+    },
+    correct: 'b'
+},
+{
+    id: 6534,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What interlock exists between the heating system and the fire extinguishing system?',
+    options: {
+        a: 'The heating system automatically shuts down the engines if a fire is detected',
+        b: 'The heater control panel sends a HEATER AUTO MODE command to the ENG FIRE EXTING panel, disconnecting heating if the fire bottle arm switch is set to ARM',
+        c: 'The fire extinguishing system has no interaction with the heating system'
+    },
+    correct: 'b'
+},
+{
+    id: 6535,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What happens to the shut-off valves automatically if the extinguishing system is armed during a fire?',
+    options: {
+        a: 'The heater control box closes both shut-off valves automatically',
+        b: 'The heater control box opens both shut-off valves to purge the ducts',
+        c: 'Nothing; the shut-off valves must be closed manually by the crew'
+    },
+    correct: 'a'
+},
+{
+    id: 6536,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How does the heating system make use of the cockpit ventilation distribution system?',
+    options: {
+        a: 'It shuts down the cockpit fans whenever heating is selected',
+        b: 'It uses the cockpit fans only during engine start, never in flight',
+        c: 'It drives heated air to the diffusers and upper gaspers when the cockpit fans are operated'
+    },
+    correct: 'c'
+},
+{
+    id: 6537,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Into what two labelled parts is the IECS cockpit control panel divided?',
+    options: {
+        a: 'CREW and PAX',
+        b: 'AUTO and MANUAL',
+        c: 'VENT and COND/HEATER'
+    },
+    correct: 'c'
+},
+{
+    id: 6538,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What does the VENT-CONTR toggle switch control?',
+    options: {
+        a: 'Whether the heating system is in AUTO or MAN mode',
+        b: 'Whether the cockpit fans run at low or high speed',
+        c: 'Whether the cabin control panel or the cockpit control panel has authority over cabin air conditioning (PAX or CREW)'
+    },
+    correct: 'c'
+},
+{
+    id: 6539,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What happens when the VENT-CREW selector is set to OFF?',
+    options: {
+        a: 'The flapper valves open fully and the cockpit fans run at low speed',
+        b: 'The flapper valves close to the re-circulation position, a small amount of external air still leaks around the internal flap, and the cockpit fans are off',
+        c: 'The flapper valves close completely with zero external air leakage and the fans run at high speed'
+    },
+    correct: 'b'
+},
+{
+    id: 6540,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What happens when the VENT-CREW selector is set to FAN LOW or FAN HIGH?',
+    options: {
+        a: 'The flapper valves close and the system reverts to pure re-circulation',
+        b: 'The TCV opens fully to provide maximum heating at the selected fan speed',
+        c: 'The fans blow external or re-circulated air to the related cockpit evaporator at the selected speed'
+    },
+    correct: 'c'
+},
+{
+    id: 6541,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How does the VENT-PAX selector behave, compared with the VENT-CREW selector?',
+    options: {
+        a: 'It has only two positions, OFF and ON, with no fan speed control',
+        b: 'It follows the same OFF/ON/FAN LOW/FAN HIGH logic, but directs air to the cabin evaporator instead of the cockpit evaporator',
+        c: 'It controls cabin heating only, with no effect on cabin ventilation airflow'
+    },
+    correct: 'b'
+},
+{
+    id: 6542,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What do the SOV 1 and SOV 2 switches control?',
+    options: {
+        a: 'The flapper valves of the cockpit and cabin ventilation systems',
+        b: 'The evaporator fans of the cockpit and cabin IECS systems',
+        c: 'The shut-off valves of the Number 1 and Number 2 engine bleed air respectively'
+    },
+    correct: 'c'
+},
+{
+    id: 6543,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How must the SOV switch be reset from CLOSE back to NORMAL?',
+    options: {
+        a: 'The COND-HTR selector must first be moved to OFF, then back to AUTO or MAN',
+        b: 'The SOV switch resets automatically after 30 seconds in CLOSE',
+        c: 'The related circuit breaker must be pulled and reset on the overhead panel'
+    },
+    correct: 'a'
+},
+{
+    id: 6544,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Under what condition do the SOV 1 and 2 switches move automatically to NORMAL?',
+    options: {
+        a: 'When the ECS cockpit control panel is not energized',
+        b: 'When the aircraft weight-on-wheels switch senses a landing',
+        c: 'When both engines are shut down for more than 10 minutes'
+    },
+    correct: 'a'
+},
+{
+    id: 6545,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What are the five positions of the COND-HTR selector?',
+    options: {
+        a: 'OFF, LOW, HIGH, AUTO, MAN',
+        b: 'OFF, CREW, PAX, AUTO, RECYCLE',
+        c: 'OFF, AUTO, MAN, NORM, RECYCLE'
+    },
+    correct: 'c'
+},
+{
+    id: 6546,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What happens when the COND-HTR selector is at OFF?',
+    options: {
+        a: 'The heating control box operates in automatic mode regardless of selector position',
+        b: 'All cockpit and cabin ventilation is disabled along with the heating system',
+        c: 'The heating control box and ECS control boxes do not operate, though ventilation can still be set via VENT-CREW and VENT-PAX'
+    },
+    correct: 'c'
+},
+{
+    id: 6547,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What happens when the COND-HTR selector is at AUTO?',
+    options: {
+        a: 'The heating control box is bypassed entirely and the TEMP CONTR drives the TCV directly',
+        b: 'Only the cabin ECS control box operates; the cockpit system remains off',
+        c: 'The integrated-ECS heating system operates automatically, with both shut-off valves usually open and the HCB controlling temperature'
+    },
+    correct: 'c'
+},
+{
+    id: 6548,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What happens when the COND-HTR selector is at MAN?',
+    options: {
+        a: 'The heating control box takes full automatic authority with no manual override available',
+        b: 'The flight crew manually controls the integrated ECS heating system, with the TEMP CONTR selector controlling the TCV motor directly',
+        c: 'The shut-off valves close automatically and cannot be reopened until OFF is selected'
+    },
+    correct: 'b'
+},
+{
+    id: 6549,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What happens when the COND-HTR selector is at NORM?',
+    options: {
+        a: 'The HCB takes full control and the ECS control boxes are disabled',
+        b: 'The HCB is off, and the Number 1 and Number 2 ECS control boxes operate the compressors in on/off cycles when the related fans are at FAN LOW or FAN HIGH',
+        c: 'All ventilation and heating functions are suspended until AUTO is reselected'
+    },
+    correct: 'b'
+},
+{
+    id: 6550,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What happens when the COND-HTR selector is at RECYCLE?',
+    options: {
+        a: 'The flapper valves open fully to maximise fresh air intake',
+        b: 'The heating system switches to maximum automatic heat output',
+        c: 'The cockpit and cabin flapper valves close, the VENT-CREW and VENT-PAX selectors become inoperative, and re-circulation air is supplied with a small amount of external air leakage'
+    },
+    correct: 'c'
+},
+{
+    id: 6551,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'Where are the Number 1 and Number 2 ECS Control Boxes located?',
+    options: {
+        a: 'On the LH avionic bay, alongside the Heating Control Box',
+        b: 'In the nose avionic bay, next to the nose ventilation fans',
+        c: 'In the cabin roof'
+    },
+    correct: 'c'
+},
+{
+    id: 6552,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What keeps the cockpit and cabin temperature sensors responding correctly to changing air temperature?',
+    options: {
+        a: 'A fan that passes airflow over a two-element sensor, giving a time constant of less than 15 seconds',
+        b: 'A heated reference junction that compensates for ambient drift',
+        c: 'A mechanical bimetallic strip with no powered airflow assistance'
+    },
+    correct: 'a'
+},
+{
+    id: 6553,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What is the construction of the high and low pressure switches in the IECS refrigerant circuit?',
+    options: {
+        a: 'An open housing with a direct mechanical contact to the refrigerant line',
+        b: 'A sealed housing containing a microswitch that touches a metal bellow, connected to a stainless-steel diaphragm with a pushrod',
+        c: 'A solid-state pressure transducer with no moving mechanical parts'
+    },
+    correct: 'b'
+},
+{
+    id: 6554,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What is the function of the fluid reservoirs and filters in the IECS?',
+    options: {
+        a: 'They store compressed bleed air for use during engine start',
+        b: 'They contain refrigerant fluid supplied as system pressure dictates, with a non-removable chemical filter cartridge that removes moisture and unwanted material',
+        c: 'They act purely as sight-glasses for refrigerant level, with no filtration'
+    },
+    correct: 'b'
+},
+{
+    id: 6555,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'How is the IECS compressor pack arranged, and which side serves which system?',
+    options: {
+        a: 'Installed on the tail rotor gearbox, with a single compressor serving both cockpit and cabin',
+        b: 'Installed on the accessory gearbox of each engine, one compressor per engine',
+        c: 'Installed on the main gearbox with two compressors on one shaft via Poly-V belts; the RH compressor serves the cockpit ECS and the LH serves the cabin ECS'
+    },
+    correct: 'c'
+},
+{
+    id: 6556,
+    Aircraft: 'AW139',
+    Category: '21',
+    question: 'What is the difference between a detected fault and an observed fault in the ATA 21 troubleshooting context?',
+    options: {
+        a: 'A detected fault is found by the helicopter monitoring system; an observed fault is a malfunction discovered by the pilot or ground crew',
+        b: 'A detected fault is logged only by ground crew; an observed fault is logged automatically by the CMC',
+        c: 'There is no difference; both terms describe the same fault-reporting process'
+    },
+    correct: 'a'
+},
+{
+    id: 6557,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What six sub-systems make up the ATA 31 Indicating/Recording systems?',
+    options: {
+        a: 'Instrument panel, independent instruments, recorders, central computers, central warning system, central display system',
+        b: 'Instrument panel, recorders, central computers, AFCS, hydraulics, fuel system',
+        c: 'Independent instruments, recorders, central display system, engines, fire protection, lights'
+    },
+    correct: 'a'
+},
+{
+    id: 6558,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What components are installed on the instrument panel?',
+    options: {
+        a: 'Only the display units and the magnetic compass',
+        b: 'Only the master alarm panels and the fire extinguishing panel',
+        c: 'Magnetic compass, master alarm panels, display units, fire panel, display controllers, remote instrument controllers, area microphone, clocks, ELT switch panel, placards, outlet vents'
+    },
+    correct: 'c'
+},
+{
+    id: 6559,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What are the three primary components of the instrument panel installation?',
+    options: {
+        a: 'Glareshield, mounting tray, vibration damper',
+        b: 'Glareshield, top cover, instrument panel frame',
+        c: 'Top cover, mounting tray, display dimmer panel'
+    },
+    correct: 'b'
+},
+{
+    id: 6560,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Where is the glareshield installed, and what is its purpose?',
+    options: {
+        a: 'Between the instrument panel frame and the top cover at BL621.0, to protect from light reflection and allow cooling airflow',
+        b: 'On top of the instrument panel frame only, purely for cosmetic purposes',
+        c: 'Below the instrument panel, to channel heated air from the diffusers'
+    },
+    correct: 'a'
+},
+{
+    id: 6561,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How many screws and washers attach the glareshield to the instrument panel frame?',
+    options: {
+        a: 'Four screws and four washers',
+        b: 'Seven screws and seven washers',
+        c: 'Sixteen screws and sixteen washers'
+    },
+    correct: 'b'
+},
+{
+    id: 6562,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How is the top cover attached to the instrument panel?',
+    options: {
+        a: '16 screws/washers forward, 12 screws/washers upper, 16 screws/washers aft',
+        b: '12 screws/washers forward, 16 screws/washers upper, 12 screws/washers aft',
+        c: '8 screws/washers at each of the three support locations'
+    },
+    correct: 'a'
+},
+{
+    id: 6563,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What material is the instrument panel frame made from, and between which stations is it installed?',
+    options: {
+        a: 'Aluminium-lithium alloy, between STA 1500.00 and STA 2065.00',
+        b: 'Carbon-fibre composite, between STA 1500.00 and STA 2065.00',
+        c: 'Titanium alloy, between STA 2065.00 and STA 2500.00'
+    },
+    correct: 'a'
+},
+{
+    id: 6564,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is the purpose of the instrument panel vibration dampers?',
+    options: {
+        a: 'To provide electrical isolation between the instrument panel and the airframe',
+        b: 'To allow the instrument panel to be removed quickly for maintenance',
+        c: 'To prevent damage from helicopter vibrations to the equipment installed in the instrument panel'
+    },
+    correct: 'c'
+},
+{
+    id: 6565,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Where is the Number 2 clock (chronometer) installed, and what switches does it have?',
+    options: {
+        a: 'In the overhead panel, with OFF/ON/TEST push-button switches',
+        b: 'In the right side of the instrument panel, with RST/SET, MODE, and ST/SP/ADV push-button switches',
+        c: 'In the left side of the instrument panel, with a single MODE rotary switch'
+    },
+    correct: 'b'
+},
+{
+    id: 6566,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is the normal and backup power source for the Number 2 clock?',
+    options: {
+        a: 'Normal power from the aircraft supply, with an internal AAA alkaline battery for keep-alive power',
+        b: 'Normal power from a dedicated NiCad pack, with no aircraft power backup',
+        c: 'Normal power from the aircraft supply only, with no battery backup fitted'
+    },
+    correct: 'a'
+},
+{
+    id: 6567,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What operating modes does the chronometer provide?',
+    options: {
+        a: 'Local Time (LT), Coordinated Universal Time (UTC), Flight Time (FLT), Stop Watch (SW), Down Counter (DC)',
+        b: 'Local Time, Zulu Time, Engine Time, Rotor Time, Maintenance Time',
+        c: 'UTC, Flight Time, Fuel Time, Oil Time, APU Time'
+    },
+    correct: 'a'
+},
+{
+    id: 6568,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is the maximum count of the Flight Time, Stop Watch, and Down Counter modes?',
+    options: {
+        a: '23 hours, 59 minutes and 59 seconds',
+        b: '999 hours, 59 minutes and 0 seconds',
+        c: '99 hours, 59 minutes and 59 seconds'
+    },
+    correct: 'c'
+},
+{
+    id: 6569,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How often should the Number 2 clock internal battery be replaced?',
+    options: {
+        a: 'Every 6 months',
+        b: 'Every 24 months',
+        c: 'Every 60 months'
+    },
+    correct: 'b'
+},
+{
+    id: 6570,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What voltage operates the clock installation, and what controls its green internal lighting?',
+    options: {
+        a: '5 VDC, controlled by a dedicated clock dimmer knob',
+        b: '28 VDC, controlled by the cockpit dimming system',
+        c: '115 VAC, controlled by the display dimmer panel only'
+    },
+    correct: 'b'
+},
+{
+    id: 6571,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What bus supplies the pilot chronometer?',
+    options: {
+        a: '28VDC MAIN BUS No.1',
+        b: '28VDC ESS BUS No.2',
+        c: '28VDC ESS BUS No.1'
+    },
+    correct: 'b'
+},
+{
+    id: 6572,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is the chronometer timekeeping accuracy, and its normal operating temperature range?',
+    options: {
+        a: 'Better than ten seconds per day, 0°C to 50°C',
+        b: 'Better than one second per day, -15°C to 70°C (low operating temperature -40°C)',
+        c: 'Better than one second per hour, -40°C to 85°C'
+    },
+    correct: 'b'
+},
+{
+    id: 6573,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Where is the standby magnetic compass installed, and how is it attached?',
+    options: {
+        a: 'On the instrument panel frame, attached with two bolts',
+        b: 'On the overhead console, attached with a single quick-release pin',
+        c: 'At the centre of the glareshield, attached with four screws'
+    },
+    correct: 'c'
+},
+{
+    id: 6574,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is the construction of the magnetic compass card assembly?',
+    options: {
+        a: 'A fixed compass card with a single magnet, contained in a dry sealed case',
+        b: 'A rotating compass card with no magnets, electrically synchronised to the AHRS',
+        c: 'A rotating compass card with two magnetic bars, contained in a sealed case filled with damping fluid'
+    },
+    correct: 'c'
+},
+{
+    id: 6575,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What markings appear on the magnetic compass card?',
+    options: {
+        a: 'Lines at 10-degree intervals, letters and numbers at 90-degree intervals',
+        b: 'Lines at 2-degree intervals, letters and numbers at 15-degree intervals',
+        c: 'Lines at 5-degree intervals, letters and numbers at 30-degree intervals'
+    },
+    correct: 'c'
+},
+{
+    id: 6576,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What controls the lighting of the standby magnetic compass?',
+    options: {
+        a: 'The INSTR knob on the display dimmer panel',
+        b: 'The DOME knob on the light dimmer panel',
+        c: 'A dedicated COMPASS knob on the CCD'
+    },
+    correct: 'a'
+},
+{
+    id: 6577,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Where is the Outside Air Thermometer (OAT) installed, and what components does it include?',
+    options: {
+        a: 'In the nose landing-gear bay, with a sunshield and bezel assembly only',
+        b: 'In the top of the right direct-vision window-frame at STA2855, with sunshield, dished washers, bracket, thermometer light, and bezel/dial assembly',
+        c: 'On the tail pylon, with a bracket and thermometer light only'
+    },
+    correct: 'b'
+},
+{
+    id: 6578,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is the OAT temperature range and dial graduation?',
+    options: {
+        a: '-40°C through +120°C, with luminous graduations of 5°C',
+        b: '-20°C through +60°C, with luminous graduations of 1°C',
+        c: '-70°C through +50°C, with luminous graduations of 10°C'
+    },
+    correct: 'c'
+},
+{
+    id: 6579,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How does the OAT bimetallic element sense temperature?',
+    options: {
+        a: 'A thermocouple junction generates a voltage proportional to temperature, driving a digital readout',
+        b: 'Two strips of different metals made into a helix move the free end as temperature changes, turning a spindle with a pointer',
+        c: 'A resistive sensor changes resistance with temperature, driving a servo-motor pointer'
+    },
+    correct: 'b'
+},
+{
+    id: 6580,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What four components make up the MPFR system?',
+    options: {
+        a: 'Multi-Purpose Flight Recorder, QAR, Area Microphone, Accelerometer',
+        b: 'Cockpit Control Unit, Area Microphone, Accelerometer, GPS module',
+        c: 'Multi-Purpose Flight Recorder, Cockpit Control Unit, Area Microphone, Accelerometer'
+    },
+    correct: 'c'
+},
+{
+    id: 6581,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How is crash survivability divided within the MPFR?',
+    options: {
+        a: 'The solid state memory module is crash protected; the electronic interface is not required to survive beyond specified conditions',
+        b: 'Both the memory module and the electronic interface are equally crash protected',
+        c: 'Neither the memory module nor the electronic interface is crash protected'
+    },
+    correct: 'a'
+},
+{
+    id: 6582,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is the purpose of the Underwater Locator Beacon (ULB), and what colour is the MPFR painted?',
+    options: {
+        a: 'To transmit flight data in real time; the MPFR is painted matte black',
+        b: 'To aid location in the event of a water accident; the MPFR is painted International Orange',
+        c: 'To prevent water ingress into the memory module; the MPFR is painted white'
+    },
+    correct: 'b'
+},
+{
+    id: 6583,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Where is the MPFR Cockpit Control Unit installed, and what does it contain?',
+    options: {
+        a: 'In the avionics bay, containing the Area Microphone Pre-amplifier, a headphone jack, and BIT/voice-erase pushbuttons and indicators',
+        b: 'In the baggage compartment, containing only the accelerometer interface',
+        c: 'On the instrument panel, containing only the TEST pushbutton'
+    },
+    correct: 'a'
+},
+{
+    id: 6584,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Where is the Area Microphone mounted, and what is its role?',
+    options: {
+        a: 'In the avionics bay, as a backup source only, never used as the main source',
+        b: 'In the baggage compartment, recording only ambient cabin noise',
+        c: 'On the instrument panel, as the main audio source or to supplement the CCU internal microphone'
+    },
+    correct: 'c'
+},
+{
+    id: 6585,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does MPFR Download mode do, and under what condition is it allowed?',
+    options: {
+        a: 'Allows high-speed recovery of recorded data/audio via a LAN connection; allowed only on the ground with engines OFF',
+        b: 'Allows real-time streaming of flight data in flight; allowed at any time',
+        c: 'Erases all recorded data permanently; allowed only with the Cockpit Control Unit removed'
+    },
+    correct: 'a'
+},
+{
+    id: 6586,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What three functions does the MPFR Cockpit Control Unit provide?',
+    options: {
+        a: 'A TEST function, a GPS sync function, and a download function',
+        b: 'A Voice Erase function, a download function, and a BIT reset function',
+        c: 'A TEST function, a Voice Erase function, and an FDR RCDR function'
+    },
+    correct: 'c'
+},
+{
+    id: 6587,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How much recent data does the MPFR retain?',
+    options: {
+        a: 'The most recent aircraft data and the most recent 30 minutes of a single audio source',
+        b: 'The most recent 24 hours of aircraft data and audio, non-rolling',
+        c: 'The most recent aircraft data and the most recent 120 minutes (rolling) of four audio sources'
+    },
+    correct: 'c'
+},
+{
+    id: 6588,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What are the four audio channel inputs recorded by the MPFR?',
+    options: {
+        a: 'CH1 Pilot Headset, CH2 Copilot Headset, CH3 ATC radio, CH4 GPWS warnings',
+        b: 'CH1 Area Microphone, CH2 Engine noise, CH3 Cabin ICS, CH4 ATC radio',
+        c: 'CH1 Cabin ICS, CH2 Copilot Headset, CH3 Pilot Headset, CH4 Cockpit (Area) Microphone'
+    },
+    correct: 'c'
+},
+{
+    id: 6589,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'When does Cockpit Voice Recording start and stop automatically?',
+    options: {
+        a: 'Starts only when both engines are running and stops immediately at engine shutdown',
+        b: 'Starts when the TEST pushbutton is pressed and stops after exactly 2 minutes',
+        c: 'Starts on application of power to the MPFR and stops within 10 minutes unless at least one engine is started'
+    },
+    correct: 'c'
+},
+{
+    id: 6590,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What happens to FDR and CVR recording when the aircraft is on the ground with both engines OFF?',
+    options: {
+        a: 'FDR data recording stops immediately; CVR data recording stops within 10 minutes',
+        b: 'Both FDR and CVR recording stop immediately with no delay',
+        c: 'Both FDR and CVR recording continue indefinitely until power is removed'
+    },
+    correct: 'a'
+},
+{
+    id: 6591,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Where is the MPFR accelerometer mounted, and what data does it provide?',
+    options: {
+        a: 'On the main gearbox, providing vibration spectrum data to the HUMS',
+        b: 'In the nose avionics bay, providing pitch and roll rate data to the AFCS',
+        c: 'Inside the baggage compartment, providing lateral, longitudinal and vertical acceleration data to MAU No.1'
+    },
+    correct: 'c'
+},
+{
+    id: 6592,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What are the accelerometer measurement ranges?',
+    options: {
+        a: 'Vertical +6G to -3G; Longitudinal ±1G; Lateral ±1G',
+        b: 'Vertical ±3G; Longitudinal ±6G; Lateral ±6G',
+        c: 'Vertical +3G to -6G; Longitudinal ±2G; Lateral ±2G'
+    },
+    correct: 'a'
+},
+{
+    id: 6593,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What happens when the TEST pushbutton on the MPFR Cockpit Control Unit is pressed?',
+    options: {
+        a: 'It initiates the BIT function, the two LEDs illuminate for 8 seconds, and CVR recording restarts for 10 minutes',
+        b: 'It immediately erases the CVR recording and restarts FDR recording',
+        c: 'It downloads all recorded data to a connected laptop over the LAN'
+    },
+    correct: 'a'
+},
+{
+    id: 6594,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How do the CVR FAIL and FDR FAIL LEDs behave?',
+    options: {
+        a: 'Steady when a failure is detected after BIT or in non-recording mode; flashing during data recovery or voice erase; OFF when recording normally',
+        b: 'Steady during normal recording, OFF when a failure is detected',
+        c: 'They flash continuously regardless of system state, with no steady indication'
+    },
+    correct: 'a'
+},
+{
+    id: 6595,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does the FDR RCRD switch on the Cockpit Control Unit do?',
+    options: {
+        a: 'When set to RCRD, permanently disables FDR recording',
+        b: 'When set to RCRD, forces recording on the ground with engines OFF for maintenance purposes',
+        c: 'When set to RCRD, erases the FDR memory for a fresh recording'
+    },
+    correct: 'b'
+},
+{
+    id: 6596,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is the function of the HEADSET jack on the MPFR Cockpit Control Unit, and when can it be used?',
+    options: {
+        a: 'To test audio from the cockpit area microphone and interphones, usable only on the ground with engines OFF',
+        b: 'To provide a backup crew intercom in flight, usable at any time',
+        c: 'To download recorded audio directly, usable only in flight'
+    },
+    correct: 'a'
+},
+{
+    id: 6597,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How does the ERASE pushbutton on the Cockpit Control Unit function?',
+    options: {
+        a: 'Pressed for more than two seconds, it erases both CVR and FDR, enabled at any time',
+        b: 'A single short press erases the FDR only, enabled only in flight',
+        c: 'Pressed for more than two seconds, it erases the CVR only, enabled on the ground with engines OFF, taking about 5 seconds'
+    },
+    correct: 'c'
+},
+{
+    id: 6598,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What are the key leading particulars of the underwater acoustic beacon?',
+    options: {
+        a: 'Operating frequency 121.5 MHz, operating depth surface to 1,000 ft, useful life one year',
+        b: 'Operating frequency 37.5 kHz ±1 kHz, operating depth surface to 20,000 ft, useful life six years',
+        c: 'Operating frequency 10 kHz ±1 kHz, operating depth surface to 50,000 ft, useful life ten years'
+    },
+    correct: 'b'
+},
+{
+    id: 6599,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What are the Central Computers, and on what architecture is the PRIMUS EPIC system based?',
+    options: {
+        a: 'The Number 1 and 2 Modular Avionics Units (MAUs), based on a modular avionics units architecture',
+        b: 'The CMC and GPS modules only, based on a federated avionics architecture',
+        c: 'The CCD and DC panels, based on a distributed control architecture'
+    },
+    correct: 'a'
+},
+{
+    id: 6600,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What three key functions do the Modular Avionics Units perform?',
+    options: {
+        a: 'Store flight plan data; control the autopilot servos; generate CAS tones',
+        b: 'Process/compute/distribute data to the Display Units; interface controllers to displays/avionics; integrate crew alerting, navigation and AFCS functions',
+        c: 'Record flight data; control cabin lighting; interface the fuel system only'
+    },
+    correct: 'b'
+},
+{
+    id: 6601,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is a Line Replaceable Module (LRM)?',
+    options: {
+        a: 'A software package loaded into the CMC for maintenance purposes',
+        b: 'A sealed, non-removable circuit board fixed permanently inside the MAU cabinet',
+        c: 'A hardware unit installed inside the MAU that hosts subsystems and functions needed to operate the aircraft'
+    },
+    correct: 'c'
+},
+{
+    id: 6602,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What buses supply the MAU 1 and MAU 2 circuit breakers?',
+    options: {
+        a: 'MAU1 PRI PWR from ESS 1, MAU1 AUX PWR from ESS 2, MAU2 PRI PWR from MAIN 1, MAU2 AUX PWR from MAIN 2',
+        b: 'MAU1 PRI PWR from MAIN 1, MAU1 AUX PWR from MAIN 2, MAU2 PRI PWR from ESS 1, MAU2 AUX PWR from ESS 2',
+        c: 'Both MAU1 and MAU2 are supplied solely from the ESS 1 bus for simplicity'
+    },
+    correct: 'b'
+},
+{
+    id: 6603,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How many cooling fans are installed in each MAU cabinet, and how are they operated?',
+    options: {
+        a: 'One electrical fan, operated manually by the crew',
+        b: 'Four electrical fans, operated only during ground maintenance',
+        c: 'Two electrical fans, operated and monitored automatically'
+    },
+    correct: 'c'
+},
+{
+    id: 6604,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Where are MAU 1 and MAU 2 installed?',
+    options: {
+        a: 'MAU 1 in the tail cone; MAU 2 in the nose avionics bay',
+        b: 'Both MAU 1 and MAU 2 in the cabin roof, side by side',
+        c: 'MAU 1 in the left avionic bay/nose compartment; MAU 2 in the right avionic bay/nose compartment'
+    },
+    correct: 'c'
+},
+{
+    id: 6605,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Which modules are unique to MAU 1, not duplicated in MAU 2?',
+    options: {
+        a: 'The GPS module and the Database module',
+        b: 'The Air Management module and the Configuration module',
+        c: 'The Central Maintenance Computer (CMC) module and the optional Control Video I/O module'
+    },
+    correct: 'c'
+},
+{
+    id: 6606,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Which modules are unique to MAU 2, not duplicated in MAU 1?',
+    options: {
+        a: 'The CMC module and the Air Management module',
+        b: 'The GPS module and the Data Base module',
+        c: 'The Configuration module and the Fan assembly'
+    },
+    correct: 'b'
+},
+{
+    id: 6607,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How is the MAU cabinet attached to its mounting platform?',
+    options: {
+        a: 'Four quick-release fasteners',
+        b: 'Three swing bolts, clamps and a bracket',
+        c: 'Eight bolts through a flanged base plate'
+    },
+    correct: 'b'
+},
+{
+    id: 6608,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does the MAU cabinet contain, aside from user modules?',
+    options: {
+        a: 'A CMC module and a GPS module only, with no other slots',
+        b: 'A Power Supply module, a NIC/PROC module, and six User Module slots',
+        c: 'A single combined processor module with no separate slots'
+    },
+    correct: 'b'
+},
+{
+    id: 6609,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Where is the NIC/PROC module installed within the MAU cabinet?',
+    options: {
+        a: 'On the right side of the cabinet, attached with four bolts',
+        b: 'In the centre of the cabinet, attached with a single captive screw',
+        c: 'On the left side of the cabinet, attached with two jackscrews'
+    },
+    correct: 'c'
+},
+{
+    id: 6610,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What data does the Configuration Module store, and where is it installed?',
+    options: {
+        a: 'Navigation database and flight plan data, installed in the GPS module backshell',
+        b: 'Equipment data, rigging data and primary identification data, installed in the NIC/PROC backshell connector',
+        c: 'Fault history data, installed in the CMC module backshell'
+    },
+    correct: 'b'
+},
+{
+    id: 6611,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Where is the GPS module installed, and what is it adjacent to?',
+    options: {
+        a: 'In the MAU2 cabinet, adjacent to the AIOP4 module',
+        b: 'In the MAU1 cabinet, adjacent to the CMC module',
+        c: 'In the MAU2 cabinet, adjacent to the Database module only'
+    },
+    correct: 'a'
+},
+{
+    id: 6612,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is the Air Management Module, and what should it not be confused with?',
+    options: {
+        a: 'A live module that measures outside air temperature; not to be confused with the OAT installation',
+        b: 'A blank module that cools the cockpit; not to be confused with the ECS',
+        c: 'A blank module that guides internal air within the MAU; not to be confused with the air data system'
+    },
+    correct: 'c'
+},
+{
+    id: 6613,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Where is the CIO module installed, and what is it adjacent to?',
+    options: {
+        a: 'In the MAU cabinet, adjacent to the GPS module',
+        b: 'In the MAU cabinet, adjacent to the CSIO module',
+        c: 'In the MAU cabinet, adjacent to the Database module'
+    },
+    correct: 'b'
+},
+{
+    id: 6614,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Where is the Data Base module installed, and what is it adjacent to?',
+    options: {
+        a: 'In the MAU1 cabinet, on the left side, adjacent to the CMC module',
+        b: 'In the MAU2 cabinet, on the right side, adjacent to the CIO2 module',
+        c: 'In the MAU2 cabinet, adjacent to the GPS module only'
+    },
+    correct: 'b'
+},
+{
+    id: 6615,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How is the fan assembly attached to the MAU cabinet, and what powers it?',
+    options: {
+        a: 'Six screws, with power supplied directly from the aircraft 28VDC bus',
+        b: 'Eighteen screws, with power supplied by the PS module',
+        c: 'Eighteen screws, with power supplied by the NIC/PROC module'
+    },
+    correct: 'b'
+},
+{
+    id: 6616,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What are the three key functions of the NIC/PROC module?',
+    options: {
+        a: 'Processes and distributes data via the ASCB-D, provides the Monitoring Warning Function, houses the FMS software',
+        b: 'Stores the fault history database, runs the BIT sequence, controls the AFCS actuators',
+        c: 'Generates aural tones, stores the navigation database, controls cabin lighting'
+    },
+    correct: 'a'
+},
+{
+    id: 6617,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is the consequence of an NIC/PROC module failure?',
+    options: {
+        a: 'Total failure of the MAU, annunciated by the 1(2) MAU amber annunciator at the bottom left of both PFDs',
+        b: 'Only the GPS function of that MAU is lost, with no CAS annunciation',
+        c: 'The MAU automatically switches to the other MAU with no visible indication'
+    },
+    correct: 'a'
+},
+{
+    id: 6618,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What two modules provide the interface with aircraft systems, controllers and sensors in each MAU?',
+    options: {
+        a: 'The CIO (Control Input/Output) module and the CSIO (Custom Input/Output) module',
+        b: 'The CMC module and the GPS module',
+        c: 'The NIC/PROC module and the Database module'
+    },
+    correct: 'a'
+},
+{
+    id: 6619,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Which module provides the Aural Warning Generator function, and in which MAU?',
+    options: {
+        a: 'The CIO module in MAU 2',
+        b: 'The CSIO module in MAU 1',
+        c: 'The NIC/PROC module in MAU 2'
+    },
+    correct: 'a'
+},
+{
+    id: 6620,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is the ASCB-D network, and what does it connect?',
+    options: {
+        a: 'The Avionics-Standard Communication Bus version D, which processes and transfers data between the primary-system computers',
+        b: 'A local maintenance-only bus that connects the CMC to a laptop',
+        c: 'A backup analogue wiring harness used only if ASCB-D fails'
+    },
+    correct: 'a'
+},
+{
+    id: 6621,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does the NIC/PROC module LAN connect to?',
+    options: {
+        a: 'The CMC for system maintenance and the RMT for software and database updates',
+        b: 'Only the GPS module for satellite time synchronisation',
+        c: 'Only the Accelerometer for crash data recovery'
+    },
+    correct: 'a'
+},
+{
+    id: 6622,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What interfaces does the CSIO generic I/O card supply?',
+    options: {
+        a: 'ARINC 629, CAN bus, and RS-485 interfaces',
+        b: 'ARINC 429, discrete, and analog I/O interfaces',
+        c: 'Ethernet, USB, and Bluetooth interfaces'
+    },
+    correct: 'b'
+},
+{
+    id: 6623,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What types of circuits does the CSIO custom I/O card contain?',
+    options: {
+        a: 'Thermocouple inputs, RS-422 receivers, low-level DC inputs, tachometer inputs, discrete inputs, AC analog inputs, and LVDT inputs',
+        b: 'Only ARINC 429 receivers and discrete outputs',
+        c: 'Only RS-232 transmitters and analog audio outputs'
+    },
+    correct: 'a'
+},
+{
+    id: 6624,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What additional function does the CIO2 module provide, beyond interfacing display controllers and CCDs?',
+    options: {
+        a: 'GPS satellite signal reception',
+        b: 'Aural warning circuitry providing warnings to be heard in the cockpit',
+        c: 'Central Maintenance Computer fault logging'
+    },
+    correct: 'b'
+},
+{
+    id: 6625,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is the VbPCI bus, and what does it connect?',
+    options: {
+        a: 'A dedicated fibre-optic bus connecting the MAU to the GPS antenna only',
+        b: 'A serial RS-232 bus connecting the CMC to the Remote Maintenance Terminal',
+        c: 'The Virtual Back Plane Peripheral Component Interconnect bus, a 32-bit wide passive parallel backplane that connects the NIC to all modules in the MAU'
+    },
+    correct: 'c'
+},
+{
+    id: 6626,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is the Backplane Interface Controller (BIC), and what does its frame buffer do?',
+    options: {
+        a: 'A software-only function with no associated hardware, used only for BIT',
+        b: 'A single-port ROM device that stores fixed configuration data permanently',
+        c: 'A standard hardware interface on MAU modules that stores, transmits and receives data in sequence using a dual-port RAM frame buffer'
+    },
+    correct: 'c'
+},
+{
+    id: 6627,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is a Periodic Device Driver (PDD)?',
+    options: {
+        a: 'A physical driver circuit that powers the MAU cooling fans',
+        b: 'A high-integrity, table-driven software routine that applies ASCB-D data to module functions synchronized with the ASCB-D network',
+        c: 'A maintenance tool used only to download fault-history data to a laptop'
+    },
+    correct: 'b'
+},
+{
+    id: 6628,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What actuators does the AIOP module interface with?',
+    options: {
+        a: 'Six linear actuators, trim actuators, and position sensors',
+        b: 'Only the collective trim actuator and the yaw servo',
+        c: 'The landing light steering motor and the searchlight gimbal'
+    },
+    correct: 'a'
+},
+{
+    id: 6629,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What protocol is used to control the AIOP rotary actuators?',
+    options: {
+        a: 'ARINC 429 serial data',
+        b: 'Pulse Width Modulation (PWM)',
+        c: 'A simple analogue voltage proportional to position'
+    },
+    correct: 'b'
+},
+{
+    id: 6630,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What circuits does the I/O part of the AIOP module contain?',
+    options: {
+        a: 'Only RS-422 transmitters and ARINC 629 receivers',
+        b: 'ARINC 429 receivers, discrete I/Os, AC sensor excitation for LVDT/resolver sensors, analog processing, CAN bus, and PWM circuits',
+        c: 'Only thermocouple inputs and tachometer inputs'
+    },
+    correct: 'b'
+},
+{
+    id: 6631,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What are the key functions of the CMC module?',
+    options: {
+        a: 'Generate aural warning tones and control the master caution light',
+        b: 'Store the navigation database and supply GPS satellite data',
+        c: 'Transmit data to the CDS/RMT, perform BIT, download fault-data memory, display serial/part numbers, monitor continuous BIT and rigging test parameters'
+    },
+    correct: 'c'
+},
+{
+    id: 6632,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is the GPS module receive power range for GPS satellite signals?',
+    options: {
+        a: '-121.0 dBm (minimum) to -86.0 dBm (maximum)',
+        b: '-50.0 dBm (minimum) to -10.0 dBm (maximum)',
+        c: '-200.0 dBm (minimum) to -150.0 dBm (maximum)'
+    },
+    correct: 'a'
+},
+{
+    id: 6633,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What triggers a 1(2) MAU OVHT caution message?',
+    options: {
+        a: 'A single fan failure in either MAU, regardless of temperature',
+        b: 'A temperature switch senses the MAU temperature exceeding a set value following dual fan failure in that MAU',
+        c: 'Loss of GPS signal for more than 60 seconds'
+    },
+    correct: 'b'
+},
+{
+    id: 6634,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What components make up the Central Warning System (CWS)?',
+    options: {
+        a: 'NIC/PROC modules (MWF processing), CIO2 module (aural warnings), and CSIO modules (discrete warning/caution sensing)',
+        b: 'CMC module, GPS module, and Database module',
+        c: 'AIOP modules, PS modules, and the Configuration module'
+    },
+    correct: 'a'
+},
+{
+    id: 6635,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What are the four CAS message priority levels and their colours?',
+    options: {
+        a: 'Priority 1 Caution (Amber), Priority 2 Warning (Red), Priority 3 Status (White), Priority 4 Advisory (Green)',
+        b: 'Priority 1 Advisory (Green), Priority 2 Status (White), Priority 3 Warning (Red), Priority 4 Caution (Amber)',
+        c: 'Priority 1 Warning (Red), Priority 2 Caution (Amber), Priority 3 Advisory (Green), Priority 4 Maintenance Status (White)'
+    },
+    correct: 'c'
+},
+{
+    id: 6636,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How many lines and characters does the CAS message window display?',
+    options: {
+        a: '12 lines with 18 characters per line',
+        b: '8 lines with 24 characters per line',
+        c: '20 lines with 12 characters per line'
+    },
+    correct: 'a'
+},
+{
+    id: 6637,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How does a new warning message display before and after acknowledgement?',
+    options: {
+        a: 'Red text on black background throughout, with no change on acknowledgement',
+        b: 'White text on red background (inverse video) until acknowledged, then red text on black background',
+        c: 'Amber text on black background until acknowledged, then white on red'
+    },
+    correct: 'b'
+},
+{
+    id: 6638,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How does a new advisory (green) message behave after it first appears?',
+    options: {
+        a: 'It requires manual acknowledgement via the CAS RST pushbutton before changing colour',
+        b: 'Black text on green background for 5 seconds, then automatically acknowledged and shown steady green text on black background',
+        c: 'It remains in reverse video indefinitely until the fault clears'
+    },
+    correct: 'b'
+},
+{
+    id: 6639,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How are status messages displayed, and what indicates the end of the message stack?',
+    options: {
+        a: 'Steady-on white text on black background; a white "END" message indicates the end of the stack',
+        b: 'Flashing white text on red background; a red "STOP" message indicates the end',
+        c: 'Steady-on amber text; no end-of-stack indication is given'
+    },
+    correct: 'a'
+},
+{
+    id: 6640,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Under what condition can lower-criticality CAS messages be scrolled out of view, and which messages can never be scrolled?',
+    options: {
+        a: 'Any message can be scrolled at any time, including unacknowledged warnings',
+        b: 'Only advisory messages can ever be scrolled; captions and warnings are always scrolled off automatically',
+        c: 'Caution, advisory and status messages can scroll if all displayed warning and caution messages are acknowledged; warning messages can never be scrolled'
+    },
+    correct: 'c'
+},
+{
+    id: 6641,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What happens when a new CAS message becomes active while messages are scrolled off display?',
+    options: {
+        a: 'The new message is simply discarded until the operator manually scrolls to it',
+        b: 'All scrolled-off messages of every colour are permanently deleted',
+        c: 'The new message is placed at the top of its colour stack and the list from that point down is brought back into view automatically'
+    },
+    correct: 'c'
+},
+{
+    id: 6642,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How many master warning and master caution lights are installed, and how are they reset?',
+    options: {
+        a: 'Two master warning lights and two master caution lights, reset by pressing the applicable light or the CAS RST pushbutton on the pilot collective',
+        b: 'One master warning light shared by both pilots, reset automatically after 10 seconds',
+        c: 'Four master warning lights with no reset function, requiring a CB cycle'
+    },
+    correct: 'a'
+},
+{
+    id: 6643,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Where does the Aural Warning Generator (AWG) hardware reside?',
+    options: {
+        a: 'Inside the CMC module in MAU1',
+        b: 'Inside the CIO2 module in MAU2',
+        c: 'Inside a standalone AWG box in the avionics bay'
+    },
+    correct: 'b'
+},
+{
+    id: 6644,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does the AWG or LOW HT AWG switch control, regarding the 150 FEET aural message?',
+    options: {
+        a: 'NORM suppresses the message; REGRADE/INHIBIT enables it',
+        b: 'NORM gives the normal 150 FEET aural message below 150 ft AGL; REGRADE/INHIBIT suppresses it',
+        c: 'The switch has no effect on the 150 FEET message, only on CAS tones'
+    },
+    correct: 'b'
+},
+{
+    id: 6645,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What do the Short Test and Full Test functions of the AWG TEST button do?',
+    options: {
+        a: 'Short test runs all aural messages; full test runs only the AURAL SYSTEM TEST message',
+        b: 'Both short and full test are available in flight as well as on the ground',
+        c: 'Short test activates the AURAL SYSTEM TEST message once; holding for 6 seconds activates all aural messages/tones in priority order, ground only'
+    },
+    correct: 'c'
+},
+{
+    id: 6646,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Under what condition is the "CHECK HEIGHT - CHECK HEIGHT" aural message generated?',
+    options: {
+        a: 'When the Radio Altitude exceeds 2500 feet',
+        b: 'When the barometric altitude disagrees between ADS1 and ADS2',
+        c: 'When the Radio Altitude is less than or equal to the DH set on the selected PFD'
+    },
+    correct: 'c'
+},
+{
+    id: 6647,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What happens to the CHECK HEIGHT reference if the FD fails?',
+    options: {
+        a: 'The CHECK HEIGHT function is disabled entirely with no reference available',
+        b: 'The DH defaults automatically to 200 feet regardless of pilot selection',
+        c: "The DH selected on the RH pilot's PFD is taken as the CHECK HEIGHT reference"
+    },
+    correct: 'c'
+},
+{
+    id: 6648,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Under what condition is the "LOW SPEED - LOW SPEED" aural message generated?',
+    options: {
+        a: 'When the IAS exceeds VNE by more than 5 knots',
+        b: 'When the FD mode automatically disengages (with a chime) due to IAS dropping below 55 KIAS',
+        c: 'When the rotor speed (NR) drops below 95%'
+    },
+    correct: 'b'
+},
+{
+    id: 6649,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What are the three Cat A aural messages, and what triggers each?',
+    options: {
+        a: 'TDP, LDP and CHECK PITCH, all triggered only during autorotation',
+        b: 'TDP for takeoff, LDP for landing, and CHECK PITCH for excessive roll angle',
+        c: 'TDP at the Take Off Decision Point, LDP at the Landing Decision Point, CHECK PITCH if pitch does not reach 10° nose down within 3 seconds of TDP'
+    },
+    correct: 'c'
+},
+{
+    id: 6650,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What triggers the "ALTITUDE - ALTITUDE" aural message?',
+    options: {
+        a: 'Loss of GPS altitude data for more than 10 seconds',
+        b: 'Departure from the selected altitude (via the Altitude Alerter) or FD Safety Fly-Up engagement',
+        c: 'Selection of the Plan format on the MFD'
+    },
+    correct: 'b'
+},
+{
+    id: 6651,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does the CAS message multiplexing convention "1-2-4 HYD PUMP" mean, versus "1(2)(4) HYD PUMP"?',
+    options: {
+        a: '"1-2-4 HYD PUMP" means only pump 1 failed; "1(2)(4) HYD PUMP" means all three failed',
+        b: '"1-2-4 HYD PUMP" means all three pumps are failed simultaneously; "1(2)(4) HYD PUMP" means only one of the three (No.1 or No.2 or No.4) is failed',
+        c: 'Both formats mean exactly the same thing with no distinction in meaning'
+    },
+    correct: 'b'
+},
+{
+    id: 6652,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does the CAS Miscompare function verify, and what annunciation results from a mismatch?',
+    options: {
+        a: 'That the PFD and MFD show identical attitude data; an ATT MISCOMPARE flag appears after 1 second',
+        b: 'That the GPS position from MAU1 and MAU2 agree; a GPS MISCOMPARE flag appears after 30 seconds',
+        c: 'That both MAU1 and MAU2 CAS Lists produce the same active messages; a 1(2)CASMSCP annunciation appears if checksums disagree for 7 (or 3 for warnings) seconds'
+    },
+    correct: 'c'
+},
+{
+    id: 6653,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does the Central Display System (CDS) provide to the pilots via the four Display Units?',
+    options: {
+        a: 'Only engine parameters and CAS messages, with no navigation data',
+        b: 'Only navigation and weather data, with no engine indications',
+        c: 'Attitude/heading, airspeed/altitude, navigation data, AFCS guidance, radio frequencies, engine/system parameters, and optionally map/weather/terrain/traffic/video data'
+    },
+    correct: 'c'
+},
+{
+    id: 6654,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How are the four Display Units arranged and designated?',
+    options: {
+        a: 'DU1-DU4 left to right; outboard DUs (1 and 4) operate as PFDs, inboard DUs (2 and 3) operate as MFDs',
+        b: 'DU1-DU4 left to right; all four operate identically as combined PFD/MFD units',
+        c: 'DU1 and DU2 are PFDs on the pilot side; DU3 and DU4 are MFDs on the copilot side'
+    },
+    correct: 'a'
+},
+{
+    id: 6655,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What buses supply the four Display Units?',
+    options: {
+        a: 'DU1 from MAIN 1, DU2 from MAIN 2, DU3 from ESS 1, DU4 from ESS 2',
+        b: 'All four DUs from a single shared ESS 1 bus for simplicity',
+        c: 'DU1 and DU4 from ESS 1; DU2 and DU3 from MAIN 1'
+    },
+    correct: 'a'
+},
+{
+    id: 6656,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What type of display technology does each Display Unit use?',
+    options: {
+        a: 'An 8"x5" colour flat-panel Active Matrix Liquid-Crystal Display (AMLCD) using TFT control',
+        b: 'A monochrome CRT display with a mechanical dimming shutter',
+        c: 'An OLED display with no backlighting system required'
+    },
+    correct: 'a'
+},
+{
+    id: 6657,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How is each PFD/MFD attached to its mounting tray, and how many electrical connectors does it use?',
+    options: {
+        a: 'Attached with four quarter-turn fasteners; a single multi-pin connector',
+        b: 'Attached with a latch operated by a handle with a release button; three electrical connectors in the rear',
+        c: 'Attached permanently with screws; two electrical connectors'
+    },
+    correct: 'b'
+},
+{
+    id: 6658,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What primary indications does the PFD provide?',
+    options: {
+        a: 'Only ADI and HSI, with engine data shown exclusively on the MFD',
+        b: 'ADI, HSI, Airspeed, VSI, Barometric Altimeter, Power Index, Triple Tachometer, navigational data, Radio Altimeter, OAT/Wind, radio frequencies, and optional WX/TERR',
+        c: 'Only engine parameters; attitude data is shown on the MFD instead'
+    },
+    correct: 'b'
+},
+{
+    id: 6659,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What do the blue and brown areas of the PFD artificial horizon represent?',
+    options: {
+        a: 'Blue represents the ground; brown represents the sky',
+        b: 'Blue represents excessive bank; brown represents excessive pitch',
+        c: 'Blue represents the sky above the horizon line; brown represents the ground below it'
+    },
+    correct: 'c'
+},
+{
+    id: 6660,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'At what lateral acceleration does the PFD slip/skid pointer change colour to amber?',
+    options: {
+        a: 'More than 1.0 g',
+        b: 'More than 0.1 g',
+        c: 'More than 0.5 g'
+    },
+    correct: 'b'
+},
+{
+    id: 6661,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Under what three conditions does "excessive attitude" occur on the PFD, causing decluttering?',
+    options: {
+        a: 'Bank angle more than ±30°, pitch more than 10° nose up, or pitch more than 10° nose down',
+        b: 'Bank angle more than ±90°, pitch more than 45° nose up, or pitch more than 45° nose down',
+        c: 'Bank angle more than ±65°, pitch more than 30° nose up, or pitch more than 20° nose down'
+    },
+    correct: 'c'
+},
+{
+    id: 6662,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What items are removed from the PFD display during excessive attitude decluttering?',
+    options: {
+        a: 'FD mode indications/command bars, marker beacons, vertical deviation scale, speed bugs/readout, groundspeed, and various miscompare/fail flags',
+        b: 'The artificial horizon and the pitch tape only',
+        c: 'The CAS message window and the radio altimeter tape only'
+    },
+    correct: 'a'
+},
+{
+    id: 6663,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What annunciation appears when an attitude miscompare between the two AHRS is sensed?',
+    options: {
+        a: 'A single steady red "AHRS FAIL" indication with no colour change',
+        b: 'No cockpit indication; the discrepancy is logged only in the CMC fault history',
+        c: 'A flashing indication for 5 seconds, then amber on black; PITCH, ROLL or ATT depending on which attitude parameters disagree'
+    },
+    correct: 'c'
+},
+{
+    id: 6664,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What radio altitude range does the PFD radio altitude tape display, and what is its digital readout resolution?',
+    options: {
+        a: 'Tape shows altitudes less than 1000 feet; digital readout resolution is 1 foot from -20 to +250 feet, 10 feet from +250 to +2500 feet',
+        b: 'Tape shows altitudes less than 5000 feet; resolution is always 1 foot throughout',
+        c: 'Tape shows altitudes less than 500 feet; resolution is 100 feet throughout'
+    },
+    correct: 'a'
+},
+{
+    id: 6665,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does a red RAD indication on the PFD mean, versus an amber reverse-video RAD indication?',
+    options: {
+        a: 'Red RAD indicates a miscompare; amber indicates a system failure',
+        b: 'Red RAD indicates a radio altitude system failure; amber reverse-video indicates a sensed radio altitude miscompare',
+        c: 'Both red and amber RAD indications mean exactly the same fault condition'
+    },
+    correct: 'b'
+},
+{
+    id: 6666,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What marker beacon letters are shown on the PFD attitude display, and what do they represent?',
+    options: {
+        a: 'A for approach, M for middle, F for final',
+        b: 'N for near, F for far, C for centre',
+        c: 'I for inner marker, M for middle marker, O for outer marker'
+    },
+    correct: 'c'
+},
+{
+    id: 6667,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What altitude range does the PFD digital altitude readout cover, and what does the NEG legend indicate?',
+    options: {
+        a: '-2000 to +60000 feet; NEG appears above the readout when the altitude is negative',
+        b: '0 to +60000 feet; NEG indicates a negative vertical speed',
+        c: '-2000 to +51000 feet; NEG indicates the altitude bug is off-scale'
+    },
+    correct: 'a'
+},
+{
+    id: 6668,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How does the PFD show low altitude awareness on the altitude tape?',
+    options: {
+        a: 'The entire tape flashes red when radio altitude drops below 100 feet',
+        b: 'The lower part of the tape turns brown, linearly between 550 and 0 feet radio altitude, fully brown at 0 feet',
+        c: 'A single amber line appears at exactly 200 feet radio altitude'
+    },
+    correct: 'b'
+},
+{
+    id: 6669,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does the VNE barber pole indicate on the PFD airspeed tape, in AEO versus OEI/autorotation conditions?',
+    options: {
+        a: 'A solid red line in AEO; a solid white line in OEI/autorotation',
+        b: 'A red barber pole in AEO; a red/white barber pole, offset per a stored APM parameter, in OEI or autorotation',
+        c: 'A flashing amber line in AEO; a steady red line in OEI/autorotation'
+    },
+    correct: 'b'
+},
+{
+    id: 6670,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What are the four heading display formats, and how does the Full Compass format move?',
+    options: {
+        a: 'Only two formats, Full Compass and Arc, both moving clockwise for increasing heading',
+        b: 'Only one fixed format with no selectable modes',
+        c: 'Full Compass, Arc, and others set via the control function; the Full Compass shows a 360° display moving counterclockwise for increasing positive heading'
+    },
+    correct: 'c'
+},
+{
+    id: 6671,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What NAV source indications are available on the PFD heading display?',
+    options: {
+        a: 'ADF1, ADF2, DME1, DME2, ILS1, ILS2',
+        b: 'GPS1, GPS2, INS1, INS2, VOR1, VOR2',
+        c: 'VOR1, VOR2, LOC1, LOC2, FMS1, FMS2'
+    },
+    correct: 'c'
+},
+{
+    id: 6672,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What do the circle and diamond bearing pointers on the PFD represent?',
+    options: {
+        a: 'Circle pointer for left side sources; diamond pointer for right side sources',
+        b: 'Circle pointer for FMS data; diamond pointer for VOR data only',
+        c: 'Circle pointer for pilot side only; diamond pointer for copilot side only'
+    },
+    correct: 'a'
+},
+{
+    id: 6673,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How is wind information displayed on the PFD?',
+    options: {
+        a: 'Direction and speed both shown as a numeric vector readout above the altitude tape',
+        b: 'Direction by an arrow in a circle on the HSI compass card; speed adjacent to the arrow with 1 knot resolution, hidden in zero-wind conditions',
+        c: 'Wind data is not displayed on the PFD, only on the MFD map page'
+    },
+    correct: 'b'
+},
+{
+    id: 6674,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does the MFD display, and what four windows does it have?',
+    options: {
+        a: 'Only CAS messages, in a single full-screen window',
+        b: 'Navigation map, synoptic pages, engine instruments and CAS pages, in a menu bar, top window, bottom window, and CAS window',
+        c: 'Only navigation map data, in a top window and bottom window'
+    },
+    correct: 'b'
+},
+{
+    id: 6675,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What happens to the MFD windows when Maintenance or Configuration formats are selected on the ground?',
+    options: {
+        a: 'All MFD windows become one full-screen window',
+        b: 'Only the CAS window expands; the top and bottom windows remain separate',
+        c: 'The MFD switches automatically to Composite format'
+    },
+    correct: 'a'
+},
+{
+    id: 6676,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What four virtual pushbuttons make up the MFD menu bar?',
+    options: {
+        a: 'Pwr Plant, System, Plan, Map',
+        b: 'Engine, Nav, Weather, Maintenance',
+        c: 'Main, Analog, Config, Time/Date'
+    },
+    correct: 'a'
+},
+{
+    id: 6677,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does the MFD Power Plant format provide?',
+    options: {
+        a: 'Engine primary data, triple tachometer, secondary engine/gearbox data, electrical/hydraulic/fuel indications, and CAS messages',
+        b: 'Only navigation map data and weather radar images',
+        c: 'Only the CAS message window, with engine data hidden'
+    },
+    correct: 'a'
+},
+{
+    id: 6678,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What are the standard System sub-formats on the MFD?',
+    options: {
+        a: 'Electrical, Hydraulic, Flt Controls, Maintenance, Sys Config, Time/Date, Config',
+        b: 'Pwr Plant, Plan, Map, CAS',
+        c: 'Engine, Fuel, Oil, Avionics'
+    },
+    correct: 'a'
+},
+{
+    id: 6679,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'When can the Maintenance and Sys Config MFD formats be selected?',
+    options: {
+        a: 'Only in flight above 500 feet AGL',
+        b: 'Only on the ground',
+        c: 'At any time, in flight or on the ground'
+    },
+    correct: 'b'
+},
+{
+    id: 6680,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does the MFD Plan format display, versus the Map format?',
+    options: {
+        a: 'Plan shows a North-Up synthetic map; Map shows a Heading-Up synthetic map, both based on FMS data',
+        b: 'Plan shows a Heading-Up map; Map shows a North-Up map',
+        c: 'Plan and Map show identical information with no orientation difference'
+    },
+    correct: 'a'
+},
+{
+    id: 6681,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What parameters are shown in the MFD bottom window?',
+    options: {
+        a: 'Engine/MGB/IGB/TGB oil pressure and temperature, HYD pressure, fuel pressure, fuel quantity, and fuel flow',
+        b: 'Only CAS messages and the active NAV source',
+        c: 'Only attitude and heading data duplicated from the PFD'
+    },
+    correct: 'a'
+},
+{
+    id: 6682,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What additional information does the MFD Composite format add to a reduced PFD format?',
+    options: {
+        a: 'A full navigation map and weather radar overlay',
+        b: 'CAS messages, pressure readouts (engines, MGB, hydraulics), and a fuel quantity indicator',
+        c: 'Engine vibration spectrum and HUMS trend data'
+    },
+    correct: 'b'
+},
+{
+    id: 6683,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'When does a Display Unit automatically revert to Composite format?',
+    options: {
+        a: 'When the aircraft descends below 500 feet AGL',
+        b: 'When the CMC detects a fault in the CSIO module',
+        c: 'When its paired DU becomes inactive on the ASCB-D, and it latches to prevent flashing from intermittent failures'
+    },
+    correct: 'c'
+},
+{
+    id: 6684,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How many dimming potentiometers does the display dimmer panel have, and what does it control?',
+    options: {
+        a: 'Four potentiometers, individually adjusting the LCD brightness of PFD1, PFD2, MFD1 and MFD2',
+        b: 'Two potentiometers, adjusting PFD and MFD brightness together as pairs',
+        c: 'Eight potentiometers, one for each DU plus each CCD'
+    },
+    correct: 'a'
+},
+{
+    id: 6685,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How does the Display Unit automatically adjust its own brightness and contrast?',
+    options: {
+        a: 'The MAU calculates cabin light levels from the OAT sensor and sets all DUs centrally',
+        b: 'Brightness is fixed and can only be changed by ground maintenance personnel',
+        c: 'Each display monitors ambient light at its front and adjusts automatically to levels compatible with the dimmer panel setting'
+    },
+    correct: 'c'
+},
+{
+    id: 6686,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What controls does the Cursor Control Device (CCD) have?',
+    options: {
+        a: 'A single rotary knob and two momentary pushbuttons',
+        b: 'A trackball, a scroll wheel, and three programmable function keys',
+        c: 'Two DISPLAY SELECT buttons, a SET control with dual concentric knobs, a joystick, and an ENTER button'
+    },
+    correct: 'c'
+},
+{
+    id: 6687,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What happens to the cursors automatically at power-up?',
+    options: {
+        a: 'They default to the PFDs, to allow immediate frequency tuning',
+        b: 'They are automatically selected on the two MFDs, to scroll the CAS',
+        c: 'No cursor is active until the pilot manually selects DISPLAY SELECT'
+    },
+    correct: 'b'
+},
+{
+    id: 6688,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does the CCD ENTER button do when the MFD is selected, versus when the PFD is selected?',
+    options: {
+        a: 'MFD: executes/toggles the highlighted menu selection; PFD: toggles the highlighted active/standby values',
+        b: 'MFD: silences aural warnings; PFD: resets the altimeter to standard',
+        c: 'Both selections perform an identical function, toggling the cursor colour'
+    },
+    correct: 'a'
+},
+{
+    id: 6689,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does the CCD SET inner knob do when the MFD is selected?',
+    options: {
+        a: 'Sets the MAP scale range',
+        b: 'Adjusts the units of the standby frequency',
+        c: 'Scrolls the CAS window messages'
+    },
+    correct: 'c'
+},
+{
+    id: 6690,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Which radios does the PFD provide tuned control of?',
+    options: {
+        a: 'Only the NAV radio and the ADF',
+        b: 'Only the transponder code, with COM/NAV tuned exclusively via the MCDU',
+        c: 'COM1, COM2, the NAV radio, and the transponder code'
+    },
+    correct: 'c'
+},
+{
+    id: 6691,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does the Analog item on the Pwr Plant menu do when selected on the MFD?',
+    options: {
+        a: 'Manually selects display of analog engine data on the MFDs and PFDs, shown by a check mark',
+        b: 'Switches the engine display units from percent to absolute values',
+        c: 'Disables all engine indications until digital data is restored'
+    },
+    correct: 'a'
+},
+{
+    id: 6692,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is the Software Configuration Management System (SCMS), and what triggers a VALIDATE CONFIG caution?',
+    options: {
+        a: 'A ground-only diagnostic tool unrelated to the ASCB, triggered by a low battery',
+        b: 'A function of the CMC that monitors only fuel system configuration',
+        c: 'A function of the MAU (inside AIOP1/2) that monitors hardware/software configuration on the ASCB; installing new software or hardware triggers VALIDATE CONFIG until validated'
+    },
+    correct: 'c'
+},
+{
+    id: 6693,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'How does the system clock synchronise automatically, and how is it set manually if not synchronised?',
+    options: {
+        a: 'It synchronises automatically with GPS time/date when GPS is valid; manually via cursor selection, the SET knob, and ENTER on SET TIME/SET DATE',
+        b: 'It always requires manual setting; there is no automatic GPS synchronisation available',
+        c: 'It synchronises automatically from the CMC fault-history timestamp only'
+    },
+    correct: 'a'
+},
+{
+    id: 6694,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What parameters can be set in the MFD Config submenu, and are the selections memorized?',
+    options: {
+        a: 'Only the display brightness and contrast; selections reset at every power-up',
+        b: 'Only the CAS message language; selections are stored in the CMC fault history',
+        c: 'Metric Altimeter display, Fuel units (KG/LBS), Baro units (IN/HPA), ITT units (°C/%); selections are memorized across power cycles'
+    },
+    correct: 'c'
+},
+{
+    id: 6695,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What data does the Plan menu display to the pilots?',
+    options: {
+        a: 'Heading to magnetic north, NAV source, current to-WPT, to-WPT distance, ETE, holding pattern, and lateral deviation',
+        b: 'Only engine primary parameters and CAS messages',
+        c: 'Only weather radar range and sector scan data'
+    },
+    correct: 'a'
+},
+{
+    id: 6696,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What additional data categories, beyond the Plan menu, does the Map menu provide access to?',
+    options: {
+        a: 'Only fuel flow and quantity data',
+        b: 'Traffic (TCAS), TAWS/EGPWS terrain, and Weather radar display options',
+        c: 'Only electrical and hydraulic synoptic pages'
+    },
+    correct: 'b'
+},
+{
+    id: 6697,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Where is the Number 2 Display Controller installed, and what does it interface?',
+    options: {
+        a: 'In the overhead console, interfacing only the AHRS and ADS',
+        b: 'In the centre-right side of the instrument panel, interfacing the RCP, DC1, CCD1, CCD2, and circuit breaker CB79',
+        c: 'In the avionics bay, interfacing only the CMC and GPS modules'
+    },
+    correct: 'b'
+},
+{
+    id: 6698,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What pilot/co-pilot independent selections does the Display Controller provide?',
+    options: {
+        a: 'Only barometric pressure reference and HSI format',
+        b: 'Only NAV source selection, with altitude and HSI fixed',
+        c: 'Barometric pressure reference, selected altitude, short/long-range NAV sources, bearing sources, and HSI format'
+    },
+    correct: 'c'
+},
+{
+    id: 6699,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does the Circle BRG (LH) pushbutton on the Display Controller cycle through?',
+    options: {
+        a: 'OFF → VOR2 → ADF2 → FMS2 → OFF',
+        b: 'OFF → FMS1 → VOR1 → ADF1 → OFF',
+        c: 'OFF → VOR1 → ADF1 → DF (if installed) → FMS1 → OFF'
+    },
+    correct: 'c'
+},
+{
+    id: 6700,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does the HSI pushbutton toggle between, if FD HOV mode is available?',
+    options: {
+        a: 'FULL Compass → ARC → HOV → FULL Compass',
+        b: 'ARC → MAP → WX → ARC',
+        c: 'FULL Compass → HOV → ARC → FULL Compass'
+    },
+    correct: 'a'
+},
+{
+    id: 6701,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What do the ALT SEL and BARO knobs on the Display Controller set?',
+    options: {
+        a: 'ALT SEL sets the on-side barometric reference; BARO sets the Selected Altitude on both altimeters',
+        b: 'Both knobs perform the identical function of setting the Selected Altitude',
+        c: 'ALT SEL sets the Selected Altitude reference on both altimeters; BARO sets the on-side barometric pressure reference'
+    },
+    correct: 'c'
+},
+{
+    id: 6702,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What three parameters does the Remote Instrument Controller (RIC) set, and which is not independent between pilot and co-pilot?',
+    options: {
+        a: 'Course, Decision Height, and Heading; all RIC selections except Heading Set are independent for pilot and co-pilot',
+        b: 'Course, Altitude, and Speed; all are fully independent for pilot and co-pilot',
+        c: 'Decision Height, Heading, and Barometric Pressure; none are independent'
+    },
+    correct: 'a'
+},
+{
+    id: 6703,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What buses supply the pilot and co-pilot sets of CCD/RIC/DC control panels?',
+    options: {
+        a: 'Both pilot and co-pilot sets from a single shared ESS 2 bus',
+        b: 'Co-pilot from MAIN 1 bus via DISPLAY-PFD CPLT CONTR CB; pilot from ESS 1 bus via DISPLAY-PFD PLT CONTR CB',
+        c: 'Co-pilot from ESS 1; pilot from MAIN 1, the reverse of the actual arrangement'
+    },
+    correct: 'b'
+},
+{
+    id: 6704,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does pressing PUSH SYNC on the RIC HEADING select knob do?',
+    options: {
+        a: 'Erases the heading bug entirely until manually reset',
+        b: 'Synchronizes the Heading Set bug on both HSIs to the current aircraft heading of the coupled AHRS (or on-side AHRS if FD not coupled)',
+        c: 'Switches the compass display from Full Compass to Arc mode'
+    },
+    correct: 'b'
+},
+{
+    id: 6705,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Where is the Reversion Control Panel installed, and what does it permit?',
+    options: {
+        a: 'In the overhead console; it permits manual shutdown of the MAUs',
+        b: 'On the interseat console; it permits manual reversion to single-unit DU operation and single-source ADS/AHRS display',
+        c: 'In the avionics bay; it permits manual erase of the CAS message history'
+    },
+    correct: 'b'
+},
+{
+    id: 6706,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What do the CPLT and PLT knobs on the Reversion Control Panel select?',
+    options: {
+        a: "NORM, AHRS1, or AHRS2 for the respective pilot's attitude source",
+        b: "NORM (automatic reversion), PFD ONLY, or MFD ONLY for the respective pilot's displays",
+        c: "NORM, VOR, or FMS for the respective pilot's navigation source"
+    },
+    correct: 'b'
+},
+{
+    id: 6707,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What do the AHRS and ADS knobs on the Reversion Control Panel select?',
+    options: {
+        a: 'NORM, PFD ONLY, or MFD ONLY, identical to the CPLT/PLT knobs',
+        b: 'OFF, HALF, or FULL, controlling sensor sensitivity',
+        c: 'NORM (on-side source for each station), 1 (both stations show source 1), or 2 (both stations show source 2)'
+    },
+    correct: 'c'
+},
+{
+    id: 6708,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What does the QAR record, and from which MAU?',
+    options: {
+        a: 'Audio data only, from MAU1, duplicating the CVR',
+        b: 'Engine vibration data only, from the accelerometer directly',
+        c: 'Flight data in the same format as sent to the MPFR, plus GPS position data, from MAU2'
+    },
+    correct: 'c'
+},
+{
+    id: 6709,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What storage medium does the QAR use, and what is its capacity?',
+    options: {
+        a: 'A type II PCMCIA card with solid state memory, 512 MBytes capacity',
+        b: 'A removable USB flash drive, 2 GB capacity',
+        c: 'An internal hard disk drive, 1 TB capacity'
+    },
+    correct: 'a'
+},
+{
+    id: 6710,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'When does the QAR start and stop recording?',
+    options: {
+        a: 'Starts when the first engine is started; stops when the helicopter is on the ground and all systems are de-energized',
+        b: 'Starts at aircraft power-up regardless of engine state; stops at engine shutdown only',
+        c: 'Starts only when manually commanded from the Cockpit Control Unit'
+    },
+    correct: 'a'
+},
+{
+    id: 6711,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What four LEDs are on the QAR front panel?',
+    options: {
+        a: 'FAIL, LC, RDY, CFG',
+        b: 'FAIL, PWR, REC, TEST',
+        c: 'ON, OFF, REC, FAIL'
+    },
+    correct: 'a'
+},
+{
+    id: 6712,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is Flight Data Monitoring (FDM), and what programme influenced its development?',
+    options: {
+        a: 'A real-time cockpit alerting function unrelated to any monitoring programme',
+        b: 'Routine analysis of flight data against operational criteria using specialised software, influenced by the HOMP trials',
+        c: 'A manual logbook review process carried out entirely by maintenance personnel'
+    },
+    correct: 'b'
+},
+{
+    id: 6713,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What are the scheduled maintenance intervals for the MPFR CVR check and the MPFR mechanical inspection?',
+    options: {
+        a: 'CVR recording check every 12 months; full mechanical inspection every 2 years',
+        b: 'CVR recording check every 6 months; full mechanical inspection and verification every 6 years',
+        c: 'CVR recording check every 6 years; full mechanical inspection every 6 months'
+    },
+    correct: 'b'
+},
+{
+    id: 6714,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is the scheduled maintenance interval for checking the MPFR underwater beacon battery voltage?',
+    options: {
+        a: '6 years',
+        b: '12 months',
+        c: '6 months'
+    },
+    correct: 'c'
+},
+{
+    id: 6715,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'What is the difference between a detected fault and an observed fault in the ATA 31 troubleshooting context?',
+    options: {
+        a: 'A detected fault is found only by ground crew; an observed fault is logged automatically by the CMC',
+        b: 'There is no difference; both terms describe the same fault-reporting process',
+        c: 'A detected fault is found by the helicopter monitoring system with an unknown cause; an observed fault is a malfunction discovered by the pilot or ground crew'
+    },
+    correct: 'c'
+},
+{
+    id: 6716,
+    Aircraft: 'AW139',
+    Category: '31',
+    question: 'Unlike most other ATA chapters in this manual, what does the AFIP for ATA chapter 31 consist of?',
+    options: {
+        a: 'Both detected and reported (observed) faults',
+        b: 'Solely observed faults, with no detected-fault section',
+        c: 'Solely detected faults, with no observed-fault section'
     },
     correct: 'a'
 },
