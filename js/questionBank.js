@@ -68220,4 +68220,2164 @@ export const questions = [
             c: 'A change in EPIC HW and/or SW'
         },
         correct: 'c'
+    },
+    {
+        id: 6777,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What integrated avionics system is the AW139 AFCS part of?',
+        options: {
+            a: 'The Honeywell Primus Epic Integrated Avionics System',
+            b: 'The Honeywell Primus Apex Integrated Avionics System',
+            c: 'The Collins Pro Line Fusion Integrated Avionics System'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6778,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which AFCS configuration provides dual pitch, roll and yaw stabilisation plus force trim, with no flight director, for VFR only?',
+        options: {
+            a: 'The 4-axis system with basic 3-cue flight director',
+            b: 'The Basic 3-axis autopilot system',
+            c: 'The 4-axis system with enhanced 3-cue flight director'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6779,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What additional capability does the 4-axis enhanced 3-cue flight director add over the basic 3-cue version?',
+        options: {
+            a: 'Collective trim',
+            b: 'Yaw force trim',
+            c: 'Hover and velocity hold mode'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6780,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which RFM supplement covers the 4-axis enhanced flight director for Epic phase 4 software?',
+        options: {
+            a: 'Supplement 34',
+            b: 'Supplement 40',
+            c: 'Supplement 67'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6781,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'The dual AFCS architecture is made up of which components?',
+        options: {
+            a: 'Four sets of series actuators and four autopilot systems',
+            b: 'Two sets of series actuators, two independent sets of sensors, two autopilot systems, and a single trim system',
+            c: 'One set of series actuators shared between two trim systems'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6782,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the fail-operational feature provide if one AFCS channel or component fails?',
+        options: {
+            a: 'The system immediately disconnects both channels for safety',
+            b: 'The system reverts to manual control only, with no autopilot function',
+            c: 'The system automatically transfers full control to the remaining channel, staying coupled and operational'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6783,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the active-active design mean during normal AFCS operation?',
+        options: {
+            a: 'Both autopilots exercise control at the same time, driving their actuators together',
+            b: 'Only one autopilot is ever active, with the other in standby',
+            c: 'Autopilot 1 always leads and autopilot 2 only monitors'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6784,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is the minimum AFCS configuration for IFR flight?',
+        options: {
+            a: 'One autopilot in attitude mode',
+            b: 'Two autopilots in attitude mode',
+            c: 'Two autopilots in SAS mode'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6785,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Is intentional deselection of attitude mode during IFR flight permitted?',
+        options: {
+            a: 'Yes, at any altitude',
+            b: 'Yes, but only above 1000 feet AGL',
+            c: 'No, it is prohibited'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6786,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is the job of the Stability Augmentation System, at the centre of the functional loop hierarchy?',
+        options: {
+            a: 'To provide short-term rate damping',
+            b: 'To provide long-term attitude retention',
+            c: 'To provide point-to-point navigation'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6787,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How does the SAS detect disturbances such as wind gusts?',
+        options: {
+            a: 'As airspeed changes, using pitot-static sensors',
+            b: 'As torque changes, using engine sensors',
+            c: 'As roll, pitch and yaw rates, using gyros'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6788,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does attitude stabilisation equipment use to restore a disturbed attitude?',
+        options: {
+            a: 'Accelerometers only',
+            b: 'Rate or attitude gyros',
+            c: 'Pitot-static pressure sensors'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6789,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is the highest, outermost level of the AFCS functional loop hierarchy called?',
+        options: {
+            a: 'The Stability Augmentation System',
+            b: 'The operational autopilot',
+            c: 'The attitude stabilisation equipment'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6790,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Why is attitude stabilisation equipment especially helpful to a pilot in cloud?',
+        options: {
+            a: 'Because it automatically lands the aircraft',
+            b: 'Because it disables the yaw trim automatically',
+            c: 'Because SAS alone will not keep the pilot correctly oriented'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6791,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How many AIOP modules are located inside the MAUs, and how are they distributed?',
+        options: {
+            a: 'Four, two in each MAU',
+            b: 'Two, one in each MAU',
+            c: 'Six, three in each MAU'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6792,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How many linear actuators does the AFCS include, and how are they arranged?',
+        options: {
+            a: 'Four, as two pairs, for pitch and roll only',
+            b: 'Eight, as four pairs, including collective',
+            c: 'Six, as three pairs, for pitch, roll and yaw'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6793,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How many rotary trim actuators does the AFCS include?',
+        options: {
+            a: 'Two',
+            b: 'Four',
+            c: 'Six'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6794,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How many trim relays does the AFCS include?',
+        options: {
+            a: 'Eight',
+            b: 'Four',
+            c: 'Twelve'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6795,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which module in each MAU provides the interface to the display controller, cursor control device, remote instrument controller, autopilot controller, guidance controller and MCDU?',
+        options: {
+            a: 'The Custom Input/Output (CSIO) module',
+            b: 'The Control Input/Output (CIO) module',
+            c: 'The Actuator Input Output Processor (AIOP) module'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6796,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which modules receive data from external sensors and send it to the AIOP modules for control and monitoring calculations?',
+        options: {
+            a: 'The Control Input/Output (CIO) modules',
+            b: 'The Backplane Interface Controller (BIC)',
+            c: 'The Custom Input/Output (CSIO) modules'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6797,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What type of computer system is the AFCS described as?',
+        options: {
+            a: 'A dual-duplex redundant computer system, with channels A and B in each system',
+            b: 'A single-channel simplex computer system',
+            c: 'A triple-redundant voting computer system'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6798,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the DN/UP beep trim switch on the collective lever allow, if the CLTV/YAW trim switch is on?',
+        options: {
+            a: 'Trimming of the yaw axis',
+            b: 'Engaging hover mode',
+            c: 'Trimming of the collective axis'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6799,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does pressing the collective force trim release trigger do?',
+        options: {
+            a: 'Disengages the collective force trim, suspending trimming and force feel',
+            b: 'Engages the collective force trim immediately',
+            c: 'Engages the go-around mode'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6800,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What happens when the collective go-around pushbutton is pressed?',
+        options: {
+            a: 'It engages hover mode',
+            b: 'It engages the go-around mode',
+            c: 'It disengages both autopilots'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6801,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does pressing the cyclic force trim release pushbutton do?',
+        options: {
+            a: 'Engages the hover mode',
+            b: 'Disengages the cyclic force trims and re-centres the pitch and roll linear actuators',
+            c: 'Engages the collective trim'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6802,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does pressing the Stability Augmentation System release switch on the cyclic do?',
+        options: {
+            a: 'Engages SAS mode only on autopilot 1',
+            b: 'Engages attitude mode on both autopilots',
+            c: 'Disengages both autopilot 1 and autopilot 2'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6803,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Where are the permanent force trim switches located, and what position should they normally be left in?',
+        options: {
+            a: 'On the miscellaneous panel, left ON',
+            b: 'On the collective lever, left OFF',
+            c: 'On the guidance controller, left in STBY'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6804,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Where is the autopilot controller located?',
+        options: {
+            a: 'On the overhead panel',
+            b: 'On the collective lever',
+            c: 'On the control pedestal in the cockpit'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6805,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What voltage powers the autopilot controller indicators for daytime operation?',
+        options: {
+            a: '28 volts DC',
+            b: '14 volts DC',
+            c: '5 volts DC'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6806,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is automatically displayed on the HSI when either autopilot is engaged?',
+        options: {
+            a: 'A green collective reference marker',
+            b: 'A small magenta heading bug at the actual aircraft heading',
+            c: 'A red RAD caption'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6807,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'During the pre-flight test sequence, how are the linear and trim actuators driven for pitch, roll and yaw?',
+        options: {
+            a: 'In the same direction simultaneously, for maximum control movement',
+            b: 'Sequentially, one axis at a time',
+            c: 'In opposite directions at the same time, to limit actual flight control movement'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6808,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does pressing the test button on the autopilot controller start?',
+        options: {
+            a: 'The Built-In Test',
+            b: 'The collective control function',
+            c: 'The autotrim function'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6809,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the lit couple button annunciator on the autopilot controller indicate?',
+        options: {
+            a: 'The flight director is always uncoupled',
+            b: 'The flight director is coupled to the autopilot (the normal operating condition)',
+            c: 'A fault is present in the coupling circuit'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6810,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What mode does the autopilot engage in when the cyclic trim switch is off?',
+        options: {
+            a: 'Attitude mode',
+            b: 'Stability Augmentation System mode',
+            c: 'Collective control mode'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6811,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Where is the guidance controller located?',
+        options: {
+            a: 'On the control pedestal in the cockpit',
+            b: 'On the overhead panel',
+            c: 'On the instrument panel glareshield'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6812,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the PFD pushbutton on the guidance controller select?',
+        options: {
+            a: 'Which autopilot is the trim master',
+            b: 'Which MAU is active',
+            c: 'Which PFD, left or right, is used as the data source for both flight directors'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6813,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How is the PFD source selection shown on the guidance controller?',
+        options: {
+            a: 'By green left and right arrow annunciators',
+            b: 'By amber left and right arrow annunciators',
+            c: 'By a single red arrow annunciator'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6814,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How many sets of dual linear actuators provide limited authority control, and to which axes?',
+        options: {
+            a: 'Four sets, to pitch, roll, yaw and collective',
+            b: 'Two sets, to pitch and roll only',
+            c: 'Three sets, to the pitch, roll and yaw axes'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6815,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How is each linear actuator set connected to its flight control line?',
+        options: {
+            a: 'Directly, with no mechanical summing device',
+            b: 'Through a dual-action bellcrank, which sums actuator inputs with pilot inputs',
+            c: 'Through a shear pin that bypasses pilot input'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6816,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How many independent electric motors does each dual linear actuator set have, and how are they controlled?',
+        options: {
+            a: 'One motor shared between both autopilots',
+            b: 'Three motors, one per axis',
+            c: 'Two identical motors, one controlled by AP1 and one by AP2'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6817,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is the external excitation reference for the linear actuator LVDT position sensor?',
+        options: {
+            a: '3 volts AC at 2048 Hz',
+            b: '28 volts DC',
+            c: '5 volts AC at 400 Hz'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6818,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What percentage of the computed input does each autopilot output to an axis during normal dual operation?',
+        options: {
+            a: '100 percent',
+            b: '50 percent',
+            c: '25 percent'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6819,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What happens to total control authority in single autopilot operation?',
+        options: {
+            a: 'It doubles, improving system performance',
+            b: 'It remains unchanged',
+            c: 'It is halved, degrading system performance'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6820,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What function helps prevent unwanted transients in the controls when the autopilot engages or disengages?',
+        options: {
+            a: 'The autotrim function',
+            b: 'The easy-on, easy-off function',
+            c: 'The collective-to-yaw cross-feed function'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6821,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which bus and circuit breaker power Pitch Actuator #1 (HP2) and Roll Actuator #1 (HP1)?',
+        options: {
+            a: 'MAIN BUS1, via the AFCS ACT CPLT circuit breaker (CB55) and fuse F3',
+            b: 'ESS BUS2, via the AFCS PLT circuit breaker (CB54) and fuse F4',
+            c: 'MAIN BUS2, via the autotrim circuit breaker (CB61)'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6822,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is the yaw axis linear actuator stroke and authority?',
+        options: {
+            a: 'Plus or minus 8.0 mm; plus or minus 5% per actuator, 10% for both',
+            b: 'Plus or minus 5.0 mm; plus or minus 5% per actuator, 10% for both',
+            c: 'Plus or minus 5.5 mm; plus or minus 5% per actuator, 10% for both'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6823,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'There are two linear actuators in each of which three axes, removed and installed as a fixed pair?',
+        options: {
+            a: 'Pitch, roll and collective',
+            b: 'Pitch, roll and yaw',
+            c: 'Roll, yaw and collective'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6824,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the anchor spring for each linear actuator provide after a mechanical failure of the actuator?',
+        options: {
+            a: 'Full authority control input',
+            b: 'Automatic re-engagement of the force trim',
+            c: 'A neutral input to the control chain'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6825,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Why are linear actuators also called series actuators?',
+        options: {
+            a: 'Because they operate in a series circuit electrically',
+            b: 'Because they are connected in series with the control rods',
+            c: 'Because they are installed in a series production batch'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6826,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How are the two yaw linear actuators installed?',
+        options: {
+            a: 'Installed and removed independently of each other',
+            b: 'With one in the MAU and one in the tail rotor gearbox',
+            c: 'Fixed together, removed and installed as one assembly'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6827,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What limits the tail rotor pitch to a predetermined range of movement?',
+        options: {
+            a: 'Yaw limit stops at the rear of the Intermediate Gearbox',
+            b: 'The anchor spring',
+            c: 'The dual position sensor'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6828,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How many rotary trim actuators provide full authority control input, and in what relation to the pilot input?',
+        options: {
+            a: 'Four, in parallel with the pilot input',
+            b: 'Six, in series with the pilot input',
+            c: 'Two, in parallel with the pilot input'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6829,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the feel spring in a trim actuator provide?',
+        options: {
+            a: 'Full authority automatic control of the axis',
+            b: 'Position feedback to the AFCS computers',
+            c: 'Resistance to the pilot moving the controls while force trim is engaged'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6830,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the detent microswitch in a trim actuator alert the AFCS to?',
+        options: {
+            a: 'That the magnetic clutch has failed',
+            b: 'That the pilot has moved the controls while the force trim system is engaged',
+            c: 'That the shear section has broken'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6831,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is the default state of the magnetic clutch in a trim actuator?',
+        options: {
+            a: 'Engaged, anchoring the motor to the flight controls',
+            b: 'Disengaged, allowing free movement at all times',
+            c: 'Engaged only during the pre-flight test'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6832,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What happens if a trim actuator locks due to a malfunction?',
+        options: {
+            a: 'The aircraft must be landed immediately with no further control',
+            b: 'The magnetic clutch automatically disengages',
+            c: 'The pilot can release it by forceful movement, breaking the shear shaft'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6833,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which autopilot controls the four trim motors at any given time?',
+        options: {
+            a: 'Both autopilots simultaneously and independently',
+            b: 'The selected trim master, the first autopilot engaged',
+            c: 'Whichever autopilot has the higher gain setting'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6834,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which bus and circuit breaker power the trim actuators?',
+        options: {
+            a: 'MAIN BUS1, via the AFCS ACT CPLT circuit breaker (CB55)',
+            b: 'ESS BUS1, via the force trim circuit breaker (CB64)',
+            c: 'MAIN BUS2, via the autoflight auto trim circuit breaker (CB61)'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6835,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is the normal, default state of the force trim clutch, with no electrical power?',
+        options: {
+            a: 'Closed (engaged)',
+            b: 'Open (disengaged)',
+            c: 'Half-engaged, providing reduced authority'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6836,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the artificial feel device dual-action spring allow?',
+        options: {
+            a: 'Full autopilot override of the pilot input',
+            b: 'Force-feel, hands-on flying while the force trim is engaged',
+            c: 'Automatic centring of the collective axis'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6837,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What happens to both autopilots attitude mode operation when the artificial feel spring is out of its neutral position?',
+        options: {
+            a: 'Both autopilots disengage completely',
+            b: 'Both autopilots switch to collective control mode',
+            c: 'The detent microswitch forces both autopilots to suspend attitude mode operation; SAS stays active'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6838,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which AIOP modules interface with the pitch, roll and yaw position sensors?',
+        options: {
+            a: 'Modules A1 and A2',
+            b: 'Modules B1 and B2',
+            c: 'Modules A1 and B1 only'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6839,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which AIOP modules interface with the collective trim position sensor?',
+        options: {
+            a: 'Modules A1 and A2',
+            b: 'Modules B1 and B2',
+            c: 'Both the A and B modules together'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6840,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which relays are connected to the pitch trim actuator?',
+        options: {
+            a: 'K65 and K66',
+            b: 'K67 and K68',
+            c: 'K71 and K72'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6841,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Where are the trim relays installed?',
+        options: {
+            a: 'Inside the autopilot controller housing',
+            b: 'Under the baggage compartment floor, or under the copilot seat floor (check effectivity)',
+            c: 'Inside the tail rotor gearbox'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6842,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What happens to attitude mode when the cyclic force trim switch on the misc panel is set to off?',
+        options: {
+            a: 'It remains in attitude mode with reduced gain',
+            b: 'The autopilot disengages completely',
+            c: 'It reverts automatically to SAS mode'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6843,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What happens when the force trim clutch is disengaged?',
+        options: {
+            a: 'The autopilot fully disengages and the aircraft reverts to manual flight only',
+            b: 'The collective control function engages automatically',
+            c: 'The force feel system disengages, the trim actuator drive disengages, and autotrim is disabled'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6844,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which AFCS function keeps the linear actuators centred during hands-off, feet-off flight?',
+        options: {
+            a: 'Collective control',
+            b: 'Autotrim',
+            c: 'Pre-flight test'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6845,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which AFCS function selects which autopilot drives the trim actuators?',
+        options: {
+            a: 'The trim priority function (trim master)',
+            b: 'The autotrim function',
+            c: 'The collective control function'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6846,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which AFCS function includes torque limiting as part of its operation?',
+        options: {
+            a: 'Flight director commands and coupling for automatic flight',
+            b: 'The pre-flight test function',
+            c: 'The yaw control function'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6847,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'When is attitude mode selected?',
+        options: {
+            a: 'Only when the pilot manually selects it after engagement',
+            b: 'Only when a flight director mode is armed',
+            c: 'Automatically, when an autopilot is engaged (it is the default)'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6848,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is the pitch attitude beep rate below 120 KIAS?',
+        options: {
+            a: 'Plus or minus 1 degree per second',
+            b: 'Plus or minus 2 degrees per second',
+            c: 'Plus or minus 3 degrees per second'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6849,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is the roll attitude beep rate, regardless of airspeed?',
+        options: {
+            a: 'Plus or minus 2 degrees per second',
+            b: 'Plus or minus 3 degrees per second',
+            c: 'Plus or minus 5 degrees per second'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6850,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'In attitude mode, what must be engaged for the pitch and roll force trims to be active?',
+        options: {
+            a: 'The force trim switch on the miscellaneous panel must be on',
+            b: 'The collective and yaw trim switch must be on',
+            c: 'The SAS release switch must be pressed'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6851,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Above what airspeed does attitude mode hold the roll attitude only if it is greater than 3 degrees, with no FD roll mode engaged?',
+        options: {
+            a: 'Above 60 KIAS',
+            b: 'Above 25 KIAS',
+            c: 'Above 45 KIAS'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6852,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'When is the Stability Augmentation System function active?',
+        options: {
+            a: 'Whenever the autopilot is engaged, in either attitude or SAS mode',
+            b: 'Only when the autopilot is fully disengaged',
+            c: 'Only during the pre-flight test'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6853,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What happens to autotrim when SAS mode is selected?',
+        options: {
+            a: 'It remains fully active',
+            b: 'It operates at half authority',
+            c: 'It is disabled'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6854,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is displayed when SAS mode is selected?',
+        options: {
+            a: 'The collective limit caption only',
+            b: 'The attitude off caution message in the CAS window, and the SAS annunciator on the ADI',
+            c: 'The VTA caption on the ADI'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6855,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How is SAS mode selected?',
+        options: {
+            a: 'By pressing the test button on the autopilot controller',
+            b: 'By pressing the PFD source select button on the guidance controller',
+            c: 'By pushing the SAS button on the autopilot controller, or setting the force trim switch to off'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6856,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'At what airspeed does the yaw control channel transition into high speed operation?',
+        options: {
+            a: 'Accelerating above 45 KIAS',
+            b: 'Accelerating above 60 KIAS',
+            c: 'Accelerating above 30 KIAS'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6857,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'At what airspeed does the yaw control channel transition into low speed operation?',
+        options: {
+            a: 'Decelerating below 55 KIAS',
+            b: 'Decelerating below 41 KIAS',
+            c: 'Decelerating below 20 KIAS'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6858,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does yaw rate damping, the SAS yaw channel, help prevent?',
+        options: {
+            a: 'The helicopter Dutch roll tendency',
+            b: 'Mast bumping during autorotation',
+            c: 'Retreating blade stall'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6859,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is the average duration of a Dutch roll half-cycle?',
+        options: {
+            a: '10 to 15 seconds',
+            b: '2 to 3 seconds',
+            c: 'Less than 0.5 seconds'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6860,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the collective-to-yaw cross-feed function compensate for?',
+        options: {
+            a: 'Changes in indicated airspeed',
+            b: 'Changes in barometric altitude reference',
+            c: 'Collective position changes, to counteract the effect of torque'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6861,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Below what airspeed does low speed yaw heading hold engage automatically, if roll attitude is less than 3 degrees?',
+        options: {
+            a: 'Below 60 KIAS',
+            b: 'Below 41 KIAS',
+            c: 'Below 25 KIAS'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6862,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Under what condition does the high speed wings-level yaw heading hold function activate?',
+        options: {
+            a: 'Above 45 KIAS, no FD roll mode engaged, selected roll attitude less than 3 degrees',
+            b: 'Below 41 KIAS, with any FD mode armed',
+            c: 'At any airspeed, whenever SAS mode is selected'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6863,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How is the collective control function activated?',
+        options: {
+            a: 'By pressing the PFD source select button',
+            b: 'By pressing the test button on the autopilot controller',
+            c: 'By selecting 3-cue FD operation, or a collective-only mode, with CLTV/YAW trim on'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6864,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How is automatic vertical control of the helicopter provided by the collective control function?',
+        options: {
+            a: 'By a linear actuator connected in series with the collective control',
+            b: 'By a rotary trim collective actuator connected in parallel with the collective mechanical control system',
+            c: 'By direct hydraulic actuation of the collective servo'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6865,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Why is there no autotrim function for collective?',
+        options: {
+            a: 'Because the collective trim actuator lacks a position sensor',
+            b: 'Because autotrim is disabled above 45 KIAS',
+            c: 'Because there is no collective linear actuator'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6866,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What average offset does autotrim keep the two series actuators below, in normal dual operation?',
+        options: {
+            a: '25 percent',
+            b: '50 percent',
+            c: '10 percent'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6867,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Above what level of actuation in the hands-off, feet-off condition does a CAS mistrim message annunciate?',
+        options: {
+            a: 'Above 25 percent',
+            b: 'Above 90 percent',
+            c: 'Above 70 percent'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6868,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'In normal operation with both autopilots engaged, which autopilot keeps the trim master function?',
+        options: {
+            a: 'The one that was engaged first',
+            b: 'Autopilot 1, always',
+            c: 'Whichever has the lower gain'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6869,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What overrides the normal trim master switching logic?',
+        options: {
+            a: 'A radar altimeter failure',
+            b: 'One or more linear actuators failing',
+            c: 'A PFD source selection change'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6870,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What condition regarding the collective must be met to start the AFCS pre-flight test?',
+        options: {
+            a: 'Collective fully up, above 90 percent',
+            b: 'Collective at mid-range, around 50 percent',
+            c: 'Collective down, below 10 percent'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6871,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is started by pressing the test button on the autopilot controller?',
+        options: {
+            a: 'The AFCS Built-In Test',
+            b: 'The collective control function',
+            c: 'The trim priority function'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6872,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'During the self-test, how do the linear and trim actuators move?',
+        options: {
+            a: 'All actuators move together in the same direction',
+            b: 'Each autopilot moves both in opposite directions, limiting actual control movement',
+            c: 'Only the trim actuators move; linear actuators stay centred'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6873,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is the purpose of the pre-flight test, in terms of failure types?',
+        options: {
+            a: 'To simulate an engine failure for training',
+            b: 'To highlight latent failures not apparent in normal operation',
+            c: 'To calibrate the radar altimeter'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6874,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the "1 or 2 autotrim power fail" test message indicate?',
+        options: {
+            a: 'The linear actuators are not powered',
+            b: 'The hydraulic pressure is invalid',
+            c: 'The trim actuators are not powered'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6875,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is displayed when the onside system is running the actuator tests?',
+        options: {
+            a: 'Test in progress',
+            b: 'Test standby',
+            c: 'Test invalid'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6876,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is displayed when the test is halted due to an inhibit condition?',
+        options: {
+            a: 'Test invalid',
+            b: 'Test inhibit',
+            c: 'Test waiting'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6877,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is a detected fault?',
+        options: {
+            a: 'A malfunction discovered by the pilot or ground crew',
+            b: 'A fault only identifiable through continuity checks on the ground',
+            c: 'A fault found by the helicopter monitoring system, with an unknown cause'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6878,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the ATA 22 Aircraft Fault Isolation Publication consist of?',
+        options: {
+            a: 'Solely detected faults',
+            b: 'Solely observed faults',
+            c: 'An equal mix of detected and observed faults'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6879,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What must be observed when carrying out fault isolation procedures that require continuity checks?',
+        options: {
+            a: 'Electrical safety precautions',
+            b: 'Hydraulic bleed procedures',
+            c: 'Weight and balance limits'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6880,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is the inspection interval for the autopilot control panel detailed inspection?',
+        options: {
+            a: '300 hours, or 1 year',
+            b: '600 hours, or 2 years',
+            c: '450 hours, or 18 months'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6881,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is the inspection interval for the trim servo actuators general visual inspection?',
+        options: {
+            a: '300 hours, or 1 year',
+            b: '600 hours, or 2 years',
+            c: '450 hours, or 18 months'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6882,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How can both autopilot 1 and autopilot 2 be disengaged together?',
+        options: {
+            a: 'By pressing the SAS release pushbutton on either cyclic stick',
+            b: 'By pulling the autotrim circuit breaker',
+            c: 'By pressing the PFD source select button'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6883,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Is pilot manual control authority different when the autopilot is engaged versus disengaged?',
+        options: {
+            a: 'Yes, manual authority is halved whenever the autopilot is engaged',
+            b: 'Yes, manual authority is doubled when SAS mode is active',
+            c: 'No, the pilot has the same control authority in all cases'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6884,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What determines which AHRS has failed if an unflagged miscompare occurs between the two AHRS?',
+        options: {
+            a: 'The radar altimeter data',
+            b: 'The electronic standby instrument input, used by the MAU',
+            c: 'The collective power index reading'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6885,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is used by the autopilot gain computations if both Air Data Systems fail or unflag-miscompare?',
+        options: {
+            a: 'The last valid radar altitude',
+            b: 'A fixed airspeed value',
+            c: 'The trim master default setting'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6886,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How is failure of an autopilot annunciated?',
+        options: {
+            a: 'By CAS messages and the "autopilot, autopilot" aural warning',
+            b: 'By a silent caption only, with no aural warning',
+            c: 'By automatic engine shutdown'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6887,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Are full yaw control and autotrim functions available in single autopilot operation?',
+        options: {
+            a: 'No, autotrim is disabled in single AP operation',
+            b: 'No, yaw control is disabled in single AP operation',
+            c: 'Yes, both are fully available'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6888,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What colour dot on the cyclic position indicator shows the cyclic is centred?',
+        options: {
+            a: 'Green',
+            b: 'Amber',
+            c: 'Magenta'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6889,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the "Uncoupled" annunciator on the PFD indicate?',
+        options: {
+            a: 'The autopilot is disengaged completely',
+            b: 'The flight director is uncoupled, on all axes, from the autopilot',
+            c: 'The collective trim actuator has failed'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6890,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is the fly-up collective safety function always active when?',
+        options: {
+            a: 'The autopilot is in SAS mode',
+            b: 'The collective trim is switched off',
+            c: 'At least one radio altimeter is valid'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6891,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What aural message is triggered when the collective fly-up safety function activates due to a height excursion?',
+        options: {
+            a: 'Bip-bip',
+            b: 'Altitude, altitude',
+            c: 'Terrain, terrain'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6892,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What CAS caption and aural message indicate an associated autopilot failure?',
+        options: {
+            a: '1(2) AP FAIL, plus aural message and AFCS DEGRADED',
+            b: '1(2) AP OFF, plus aural message only',
+            c: 'MISTRIM, with no aural message'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6893,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the 1(2) AP P(R)(Y) FAIL CAS caption indicate?',
+        options: {
+            a: 'Associated AP not switched on',
+            b: 'Trim system failure on all axes',
+            c: 'Pitch, roll or yaw axis of AP 1(2) uncommanded disengagement'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6894,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the ATT OFF CAS caption indicate, and what mode does the aircraft fly in as a result?',
+        options: {
+            a: 'Attitude system not engaged or cyclic force trim failure; the aircraft flies in SAS mode only',
+            b: 'A collective trim failure; the aircraft flies in attitude mode only',
+            c: 'A radar altimeter failure; the aircraft reverts to hover mode'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6895,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the 1(2) TRIM FAIL CAS caption indicate?',
+        options: {
+            a: 'Failure of pitch trim only, regardless of trim master',
+            b: 'Trim system failure on all axes while AP 1(2) has priority (Trim Master)',
+            c: 'Loss of collective force trim only'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6896,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the 1(2) COLL FAIL CAS caption indicate, and what does the note about the FD annunciator say?',
+        options: {
+            a: 'Collective axis of both AP1 and AP2 fails; the FD annunciator goes red',
+            b: 'Collective trim switch is off; no FD annunciator change occurs',
+            c: 'Collective axis of AP1(2) fails; the collective FD mode annunciator goes amber if a coupled collective mode is active'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6897,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is cyclic force trim failure, and what must the pilot do?',
+        options: {
+            a: 'A disconnection of the longitudinal or lateral clutches; the pilot must hold the cyclic hands-on',
+            b: 'A collective trim actuator seizure; the pilot must press the SAS release switch',
+            c: 'A yaw trim relay failure; the pilot must press the force trim release on the pedals'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6898,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How can all autopilot functions be disconnected if faults are suspected but no CAS cautions are lit?',
+        options: {
+            a: 'By pulling the autotrim circuit breaker only',
+            b: 'By pressing the SAS release button on the cyclic grip',
+            c: 'By cycling the guidance controller PFD button'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6899,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What do the dual flight directors, 1 and 2, provide, normally coupled to the autopilots?',
+        options: {
+            a: 'Only lateral guidance, with vertical control handled manually',
+            b: 'Only engine torque limiting commands',
+            c: 'Lateral and vertical guidance commands for automatic flight path control'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6900,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'At power-up, which flight director is selected as master, and is this visible to the pilot?',
+        options: {
+            a: 'Flight director 1 is always master, and it is shown on the PFD',
+            b: 'Flight director 2 is always master, and it is shown on the MCDU',
+            c: 'One of the two alternates each power-up, and it is not visible to the pilot'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6901,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is used to select which PFD, left or right, is the Pilot in Command data source for both flight directors?',
+        options: {
+            a: 'The ALT SEL knob on the Display Controller',
+            b: 'The PFD pushbutton on the guidance controller',
+            c: 'The COURSE knob on the Remote Instrument Controller'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6902,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What happens to flight director modes if the selected PFD fails?',
+        options: {
+            a: 'They stay engaged; the paired MFD reverts to composite format as the selected PFD',
+            b: 'They all disengage immediately with a chime',
+            c: 'They transfer control to the other flight director automatically'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6903,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How are flight director modes engaged and disengaged?',
+        options: {
+            a: 'Only on the guidance controller',
+            b: 'On the guidance controller, the FD control panel, the cyclic lever, or the collective, depending on the mode',
+            c: 'Only through the MCDU scratchpad'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6904,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How are armed flight director modes shown on the PFD, compared with captured modes?',
+        options: {
+            a: 'Armed modes in small white text; captured modes in medium green text',
+            b: 'Armed modes in green text; captured modes in white text',
+            c: 'Armed modes in amber text; captured modes in cyan text'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6905,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Below what airspeed must most flight director modes not be engaged, and below what airspeed are they automatically disengaged?',
+        options: {
+            a: 'Not engaged below 80 KIAS; automatically disengaged below 70 KIAS',
+            b: 'Not engaged below 41 KIAS; automatically disengaged below 35 KIAS',
+            c: 'Not engaged below 60 KIAS; automatically disengaged below 55 KIAS'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6906,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'When is the coupled function engaged automatically, after a flight director mode is engaged or captured?',
+        options: {
+            a: 'Only if both autopilots have failed',
+            b: 'Only after the pre-flight test has completed',
+            c: 'If the autopilot is in attitude mode, or the relevant force trim is engaged'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6907,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What happens when the flight director couple pushbutton is pressed while lit?',
+        options: {
+            a: 'The flight director uncouples; the uncoupled annunciator appears on both PFDs',
+            b: 'The flight director couples to a third backup channel',
+            c: 'The autopilot disengages completely'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6908,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What triggers the flight director mode-change chime?',
+        options: {
+            a: 'Any beep trim input on the cyclic or collective',
+            b: 'A change between attitude/SAS, engaged/disengaged, armed/captured, or coupled/uncoupled',
+            c: 'Any change in barometric pressure setting'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6909,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What are the fixed collective reference markers on the PFD, and when are they shown?',
+        options: {
+            a: 'Two hollow magenta triangles pointing towards each other, shown only when a collective FD mode is engaged',
+            b: 'A single green diamond, shown at all times',
+            c: 'A red RAD caption, shown only during RHT'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6910,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What do the flight director command bars show, when a roll or pitch mode is engaged?',
+        options: {
+            a: 'The current radar altitude deviation only',
+            b: 'The collective power index value only',
+            c: 'The amount of roll or pitch guidance command from the flight director'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6911,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the flight director fail flag replace, when both flight directors are invalid?',
+        options: {
+            a: 'The collective reference markers',
+            b: 'The source select arrow annunciator',
+            c: 'The command bars on the ADI'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6912,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which control axis does the HDG mode use?',
+        options: {
+            a: 'Roll and yaw',
+            b: 'Pitch only',
+            c: 'Collective only'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6913,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which control axis does the VS mode use?',
+        options: {
+            a: 'Pitch',
+            b: 'Collective',
+            c: 'Roll'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6914,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which control axes does the HOV mode use?',
+        options: {
+            a: 'Collective and yaw',
+            b: 'Roll and yaw',
+            c: 'Pitch and roll'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6915,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the SBY button on the guidance controller do?',
+        options: {
+            a: 'Engages all flight director modes',
+            b: 'Clears all flight director modes',
+            c: 'Arms the VGP mode only'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6916,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which flight director mode is provided automatically, without pilot selection, when over a VOR station?',
+        options: {
+            a: 'OS (Over Station)',
+            b: 'BC (Back Course)',
+            c: 'DCL (ILS Deceleration)'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6917,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which flight director mode is provided automatically, without pilot selection, for an asymptotic flare below landing minima?',
+        options: {
+            a: 'GA (Go-Around)',
+            b: 'PRV (Preview)',
+            c: 'ALVL (Auto-Level)'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6918,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'During collective coupled operation, what is the maximum Power Index with All Engines Operating, above 10000 feet pressure altitude?',
+        options: {
+            a: '97 percent',
+            b: '106 percent',
+            c: '95 percent'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6919,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is the maximum Power Index with One Engine Inoperative?',
+        options: {
+            a: '106 percent',
+            b: '140 percent',
+            c: '97 percent'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6920,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What happens if indicated airspeed hold is engaged and Power Index limiting prevents the required collective mode reference from being achieved?',
+        options: {
+            a: 'The airspeed is automatically reduced as needed to achieve the collective mode reference',
+            b: 'The collective mode disengages immediately with no warning',
+            c: 'The autopilot disengages and reverts to SAS mode'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6921,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'If the collective mode reference cannot be maintained even at the minimum airspeed, what happens?',
+        options: {
+            a: 'The aircraft automatically climbs to a safe altitude',
+            b: 'The flight director reverts to standby',
+            c: 'The minimum airspeed, 80 KIAS, is maintained, and the collective mode caption is shown in amber'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6922,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the HDG mode provide turn coordination support on?',
+        options: {
+            a: 'The collective axis',
+            b: 'The yaw axis',
+            c: 'The pitch axis'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6923,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the IAS hold mode generate to maintain a selected airspeed?',
+        options: {
+            a: 'Pitch commands',
+            b: 'Collective commands',
+            c: 'Roll commands'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6924,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the VS hold mode generate to maintain a selected vertical speed?',
+        options: {
+            a: 'Pitch commands',
+            b: 'Roll commands',
+            c: 'Collective commands'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6925,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the ALT hold mode generate to maintain a selected barometric altitude?',
+        options: {
+            a: 'Collective commands',
+            b: 'Pitch commands',
+            c: 'Roll commands'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6926,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What alternative mode can ALT be engaged together with, instead of RHT?',
+        options: {
+            a: 'NAV mode',
+            b: 'HOV mode',
+            c: 'DCL mode'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6927,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What vertical speed is automatically set when ALTA mode engages?',
+        options: {
+            a: 'Plus 1000 fpm or minus 750 fpm, in the direction of the target altitude',
+            b: 'Plus 2000 fpm or minus 1500 fpm',
+            c: 'A fixed 500 fpm regardless of direction'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6928,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What happens as the aircraft approaches and captures the pre-selected altitude in ALTA mode?',
+        options: {
+            a: 'ALTA disengages with no further mode engaged',
+            b: 'ALTA automatically transitions to ALT mode, with IAS remaining engaged',
+            c: 'ALTA transitions directly to RHT mode'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6929,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the RHT hold mode generate to maintain a selected radio height?',
+        options: {
+            a: 'Pitch commands',
+            b: 'Roll commands',
+            c: 'Collective commands'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6930,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'At VOR radial capture in APP mode (VOR approach function), what happens?',
+        options: {
+            a: 'HDG mode automatically disengages and VAPP mode automatically engages',
+            b: 'VOR mode remains armed with no capture',
+            c: 'The flight director reverts to standby'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6931,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'In the APP mode ILS approach function, which axis controls LOC and which controls GS?',
+        options: {
+            a: 'Pitch attitude for LOC, roll input for GS',
+            b: 'Yaw attitude for LOC, pitch input for GS',
+            c: 'Roll attitude for LOC, collective input for GS'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6932,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What happens upon completion of an ILS approach in APP mode?',
+        options: {
+            a: 'GA mode is automatically engaged',
+            b: 'ALVL mode is automatically engaged',
+            c: 'The flight director reverts to standby'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6933,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'In the VGP approach function, where is the Vertical Glide Path anchored?',
+        options: {
+            a: 'At the Final Approach Fix only',
+            b: 'At the Bottom of Descent (BOD), the touchdown point',
+            c: 'At the Missed Approach Point only'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6934,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How does the DCL ILS mode differ from the APP mode?',
+        options: {
+            a: 'It adds automatic deceleration to about 80 KIAS as the aircraft reaches 200 feet AGL',
+            b: 'It removes glide slope guidance entirely',
+            c: 'It only operates below 41 KIAS'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6935,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does Back Course mode provide guidance on?',
+        options: {
+            a: 'Vertical guidance in the collective axis',
+            b: 'Yaw guidance for crosswind correction',
+            c: 'Lateral guidance in the roll axis, for the inbound back course of the localiser'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6936,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'At what height above ground level does Auto Level mode automatically activate, if an approach is continued below minima?',
+        options: {
+            a: '200 feet AGL',
+            b: '150 feet AGL',
+            c: '100 feet AGL'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6937,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does Go Around mode command for collective, roll, and pitch when engaged?',
+        options: {
+            a: '500 fpm climb, 10 degrees bank, and 60 KIAS fixed',
+            b: '2000 fpm climb, wings level, and a fixed 100 KIAS',
+            c: '1000 fpm climb, wings level, and 80 KIAS or current airspeed, whichever is higher'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6938,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What happens during Over Station mode when flying over a VOR station?',
+        options: {
+            a: 'The VOR deviation signal is removed from the command until the VOR signal stabilises',
+            b: 'The autopilot disengages automatically',
+            c: 'The flight director reverts to HDG mode permanently'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6939,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What information does Hover mode use to maintain ground velocities?',
+        options: {
+            a: 'Blended AHRS and GPS ground velocity information',
+            b: 'Radar altimeter and barometric altitude data only',
+            c: 'ARINC 429 attitude data only'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6940,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'How can Hover mode be engaged manually?',
+        options: {
+            a: 'By pressing the go-around button on the collective',
+            b: 'By pressing the standby button on the autopilot controller',
+            c: 'By pressing the hover pushbutton on the guidance controller, or the fifth cyclic beep position'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6941,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What are the hover mode velocity reference limits?',
+        options: {
+            a: 'Maximum 40 knots forward, and 60 knots left, right and aft',
+            b: 'Maximum 60 knots forward, and 40 knots left, right and aft',
+            c: 'Maximum 80 knots in any direction'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6942,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What is required for the 4-axis enhanced flight director with search and rescue modes?',
+        options: {
+            a: 'Epic Phase 5, 6, or 7 software releases',
+            b: 'Epic Phase 3 software only',
+            c: 'No additional software beyond the basic flight director'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6943,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What are the conditions for Transition Down mode to be available?',
+        options: {
+            a: 'Height between 0 and 300 feet, and airspeed less than 41 KIAS',
+            b: 'Height between 300 and 2050 feet, and airspeed greater than 60 KIAS',
+            c: 'Height above 5000 feet, and airspeed greater than 100 KIAS'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6944,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does Transition Down to Hover mode bring the aircraft to?',
+        options: {
+            a: 'A 200 foot AGL hover, with 20 knots groundspeed',
+            b: 'A 500 foot AGL level flight condition',
+            c: 'A 50 foot AGL hover, with 0 knots groundspeed'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6945,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'In Mark on Target mode, where is the aircraft positioned relative to the marked waypoint at the end of the approach?',
+        options: {
+            a: 'Directly over the marked waypoint at 500 feet',
+            b: '150 feet to the left and 150 feet downwind of the marked waypoint',
+            c: '300 feet upwind of the marked waypoint'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6946,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does Winchman Trim mode allow the hoist operator to control?',
+        options: {
+            a: 'The radar altimeter reference height directly',
+            b: 'The engine torque limiting function',
+            c: 'The aircraft hover lateral and longitudinal groundspeed, via the hoist pendant switch'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6947,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Who has priority when both the pilot and the hoist operator provide control input in Winchman Trim mode?',
+        options: {
+            a: 'The pilot input always overrides the hoist operator input',
+            b: 'The hoist operator input always overrides the pilot',
+            c: 'Whichever input was applied first takes priority permanently'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6948,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'Which search patterns are available in the FMS for search and rescue operations?',
+        options: {
+            a: 'Expanding square, sector, creeping ladder, and parallel',
+            b: 'Racetrack, holding pattern, and procedure turn only',
+            c: 'Standard rate turn and teardrop entry only'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6949,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does the FD Chime aural message indicate?',
+        options: {
+            a: 'A change in barometric altitude setting only',
+            b: 'A radar altimeter miscompare',
+            c: 'A change of state of any flight director mode, such as engaged/disengaged or armed/captured'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6950,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'At a reference height of 100 feet in RHT mode, what deviation triggers the Altitude-Altitude aural warning?',
+        options: {
+            a: '11 feet',
+            b: '20 feet',
+            c: '30 feet'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6951,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What CAS indication appears when a single flight director fails?',
+        options: {
+            a: 'The caption FD FAIL on both PFDs',
+            b: 'A yellow or amber left or right arrow replaces the green arrow above the attitude indicator',
+            c: 'A red RAD caption on the attitude indicator'
+        },
+        correct: 'b'
+    },
+    {
+        id: 6952,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What happens to the associated MFD when a PFD is lost with the flight director engaged?',
+        options: {
+            a: 'It automatically configures to Composite mode, maintaining the flight director on the same references',
+            b: 'It displays a blank screen until manually reconfigured',
+            c: 'It automatically swaps data with the opposite-side PFD only'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6953,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What does an on-side ADS failure on the selected PFD cause, with the flight director engaged?',
+        options: {
+            a: 'Disengagement of all lateral modes only, with no aural warning',
+            b: 'Complete loss of attitude and heading data on that PFD',
+            c: 'Disengagement of the FD vertical modes (ALT, IAS, VS), an audio chime, and loss of airspeed'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6954,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'When does the VTA caption appear on the attitude indicator during a VGP approach?',
+        options: {
+            a: 'When radar altitude height is between the Missed Approach Point and MAP plus 100 feet',
+            b: 'When radar altitude height is below 20 feet on any approach',
+            c: 'When the aircraft is established on the ILS glide slope'
+        },
+        correct: 'a'
+    },
+    {
+        id: 6955,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What happens when both RAD ALT systems fail with RHT engaged?',
+        options: {
+            a: 'RHT remains engaged using the last valid height value',
+            b: 'The landing gear caution is permanently suppressed',
+            c: 'A red RAD caption replaces the height information on both PFDs, and RHT disengages with a chime'
+        },
+        correct: 'c'
+    },
+    {
+        id: 6956,
+        Aircraft: 'AW139',
+        Category: '22',
+        question: 'What happens to the HOV mode when valid velocity data from both AHRS is lost (VEL FAIL)?',
+        options: {
+            a: 'HOV mode remains engaged using the last valid velocity',
+            b: 'HOV mode disengages automatically',
+            c: 'HOV mode switches to a GPS-only velocity source automatically'
+        },
+        correct: 'b'
     },];
