@@ -70380,4 +70380,805 @@ export const questions = [
             c: 'HOV mode switches to a GPS-only velocity source automatically'
         },
         correct: 'b'
-    },];
+    },
+  {
+    id: 6957,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'How many Modular Radio Cabinets make up the modular radio system?',
+    options: { a: 'Three.', b: 'Four.', c: 'Two.' },
+    correct: 'c'
+  },
+  {
+    id: 6958,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'Where is Modular Radio Cabinet 1 installed?',
+    options: { a: 'Left side of the nose bay.', b: 'Left side of the baggage compartment.', c: 'Right side of the nose bay.' },
+    correct: 'a'
+  },
+  {
+    id: 6959,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'Where is Modular Radio Cabinet 2 installed?',
+    options: { a: 'Right side of the nose bay.', b: 'Left side of the nose bay.', c: 'Right side of the tail boom.' },
+    correct: 'a'
+  },
+  {
+    id: 6960,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What does each Modular Radio Cabinet contain in addition to up to five radio modules?',
+    options: { a: 'A dedicated backup battery.', b: 'A Network Interface Module.', c: 'A second Aircraft Personality Module.' },
+    correct: 'b'
+  },
+  {
+    id: 6961,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'How many fans are attached to the rear cover of each Modular Radio Cabinet?',
+    options: { a: 'Three.', b: 'Two.', c: 'One.' },
+    correct: 'b'
+  },
+  {
+    id: 6962,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What numbers identify the Aircraft Personality Modules on the backplane of cabinets 1 and 2?',
+    options: { a: '5 and 6.', b: '1 and 2.', c: '3 and 4.' },
+    correct: 'c'
+  },
+  {
+    id: 6963,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'Where is the Aircraft Personality Module data stored?',
+    options: { a: 'The Multifunction Control Display Unit.', b: "The radio module's internal RAM.", c: 'Non Volatile Memory.' },
+    correct: 'c'
+  },
+  {
+    id: 6964,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What is the standard configuration of Modular Radio Cabinet 1?',
+    options: { a: 'VHF data radio, ADF, and Network Interface Module.', b: 'VHF data radio, VOR/ILS data link, and Network Interface Module.', c: 'ADF, DME, and transponder.' },
+    correct: 'b'
+  },
+  {
+    id: 6965,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What is the standard configuration of Modular Radio Cabinet 2?',
+    options: { a: 'VHF data radio, VOR/ILS data link, ADF, DME, transponder, and NIM.', b: 'VHF data radio, VOR/ILS data link, and NIM only.', c: 'ADF, DME, HF radio, and NIM.' },
+    correct: 'a'
+  },
+  {
+    id: 6966,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What bus connects each Network Interface Module to the rest of the Primus Epic system?',
+    options: { a: 'RS-422 only.', b: 'ARINC 429 only.', c: 'Avionics Standard Communication Bus version D, and the Local Area Network.' },
+    correct: 'c'
+  },
+  {
+    id: 6967,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What three functions does the Network Interface Module provide?',
+    options: { a: 'Radio data, fuel monitoring, and radio tuning.', b: 'CMS functions, hydraulic monitoring, and radio data.', c: 'Radio data, CMS functions, and radio tuning.' },
+    correct: 'c'
+  },
+  {
+    id: 6968,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What type of bus connects each radio module to the Network Interface Module?',
+    options: { a: 'A single shared ARINC 429 bus.', b: 'Separate serial receive and transmit data buses, and the internal LAN.', c: 'A dedicated fibre-optic bus.' },
+    correct: 'b'
+  },
+  {
+    id: 6969,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What is the primary tuning source for the modular radio system?',
+    options: { a: 'The audio control panel.', b: 'The Multifunction Control Display Unit.', c: 'The Cursor Control Device alone.' },
+    correct: 'b'
+  },
+  {
+    id: 6970,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What bus is used for primary tuning of the modular radio system?',
+    options: { a: 'RS-422 radio control bus.', b: 'ARINC 429 backup bus.', c: 'Avionics Standard Communication Bus version D.' },
+    correct: 'c'
+  },
+  {
+    id: 6971,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What does the backup MCDU tuning mode use to reach the radios?',
+    options: { a: 'The digital audio bus.', b: 'A direct ARINC 429 link from the MCDU to the radios.', c: 'The radio control bus through the NIM.' },
+    correct: 'b'
+  },
+  {
+    id: 6972,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'Which modules does the backup ARINC 429 bus reach?',
+    options: { a: 'The transponder and NIM.', b: 'The VHF data radio and the VOR/ILS data link modules.', c: 'The ADF and DME modules.' },
+    correct: 'b'
+  },
+  {
+    id: 6973,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'Where is radio tuning information displayed on the PFD?',
+    options: { a: 'Bottom centre of the Horizontal Situation Indicator.', b: 'Bottom right of the airspeed tape.', c: 'Top left of the attitude indicator.' },
+    correct: 'a'
+  },
+  {
+    id: 6974,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What moves the green cursor box between communications, navigation, and transponder radios on the PFD?',
+    options: { a: 'Rotating the backup pop-up control knob.', b: 'Moving the Cursor Control Device joystick left or right.', c: 'Pressing the MCDU line select keys.' },
+    correct: 'b'
+  },
+  {
+    id: 6975,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What does pushing the enter button on the Cursor Control Device do?',
+    options: { a: 'Mutes the selected radio.', b: 'Swaps the current and preset frequencies for the radio.', c: 'Activates emergency tuning mode.' },
+    correct: 'b'
+  },
+  {
+    id: 6976,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'On the MCDU radio page, what colour shows the active frequency?',
+    options: { a: 'Green.', b: 'White.', c: 'Amber.' },
+    correct: 'a'
+  },
+  {
+    id: 6977,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What does the swap frequencies symbol on the MCDU do?',
+    options: { a: 'Deletes the preset frequency.', b: 'Exchanges the active and preset frequencies for the radio.', c: 'Locks the active frequency.' },
+    correct: 'b'
+  },
+  {
+    id: 6978,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What tuning spacing options are available on the communications detail page?',
+    options: { a: '12.5 or 25 kilohertz.', b: '8.33 or 25 kilohertz.', c: '8.33 or 50 kilohertz.' },
+    correct: 'b'
+  },
+  {
+    id: 6979,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'When is the onside backup tuning mode on the MCDU activated automatically?',
+    options: { a: 'When the digital audio bus overheats.', b: 'When the onside Modular Avionics Unit fails.', c: 'When the audio panel fails.' },
+    correct: 'b'
+  },
+  {
+    id: 6980,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'How is the backup tuning page activated if a Network Interface Module fails?',
+    options: { a: 'Manually, by pressing function keys, then next, then selecting backup.', b: 'It activates automatically with no pilot action.', c: 'By pulling the backup pop-up control knob.' },
+    correct: 'a'
+  },
+  {
+    id: 6981,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What altitude modes are available when operating in backup tuning mode?',
+    options: { a: 'Standby and altitude off.', b: 'All normal altitude modes.', c: 'Only altitude hold.' },
+    correct: 'a'
+  },
+  {
+    id: 6982,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What does the "25 K" annunciation on the radio page mean?',
+    options: { a: 'The VHF comms radio is set to 25 kilohertz frequency spacing.', b: 'A 25-second timeout is active.', c: 'The radio is tuned to 25 megahertz.' },
+    correct: 'a'
+  },
+  {
+    id: 6983,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What does the "MIC STK" annunciation, shown in red, mean?',
+    options: { a: 'The squelch circuit has failed.', b: 'The microphone has failed completely.', c: 'The push-to-transmit button has been keyed long enough to be identified as stuck.' },
+    correct: 'c'
+  },
+  {
+    id: 6984,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What does the "DME H" annunciation mean?',
+    options: { a: 'The DME antenna has failed.', b: 'The VHF navigation radio is tuning the DME receiver independently of the primary navigation frequency.', c: 'The DME has lost all navigation data.' },
+    correct: 'b'
+  },
+  {
+    id: 6985,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What does "FMS Auto", shown in green, indicate?',
+    options: { a: 'The transponder is in standby.', b: 'The flight management system has failed.', c: 'The autotuning feature is active with the VHF navigation radio.' },
+    correct: 'c'
+  },
+  {
+    id: 6986,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What does the green dot annunciation on the radio page indicate for the transponder?',
+    options: { a: 'The transponder has failed.', b: 'The transponder is in standby mode.', c: 'The transponder is replying to interrogations.' },
+    correct: 'c'
+  },
+  {
+    id: 6987,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What does "ANT", shown in yellow, indicate for the ADF radio?',
+    options: { a: 'The ADF radio is operating in antenna mode.', b: 'The ADF antenna has failed.', c: 'The ADF is in test mode.' },
+    correct: 'a'
+  },
+  {
+    id: 6988,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What does "BFO" stand for in the ADF radio annunciations?',
+    options: { a: 'Beat frequency oscillator.', b: 'Backup frequency override.', c: 'Band frequency offset.' },
+    correct: 'a'
+  },
+  {
+    id: 6989,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'In normal radio operation, how is received analog audio distributed to the audio panels?',
+    options: { a: 'Converted to digital by the Network Interface Module and sent on the digital audio bus.', b: 'Routed through the MCDU first.', c: 'Sent directly as analog signals on a shared bus.' },
+    correct: 'a'
+  },
+  {
+    id: 6990,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What is used to press to transmit on a communications radio?',
+    options: { a: 'The trigger on the cyclic stick, or the foot switch.', b: 'The backup pop-up control knob.', c: 'A dedicated button on the MCDU.' },
+    correct: 'a'
+  },
+  {
+    id: 6991,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What happens to the digital voice signal during transmission before it reaches the radio transmitter?',
+    options: { a: 'It is converted to analog by the audio panel only.', b: 'It is converted back to analog by the Network Interface Module of the cabinet containing the selected radio.', c: 'It stays digital all the way to the antenna.' },
+    correct: 'b'
+  },
+  {
+    id: 6992,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: "What connects the pilot's headset in backup ICS mode?",
+    options: { a: 'Only the cabin intercommunication system.', b: 'Only the onside VHF communications radio.', c: 'The onside VHF communications radio and the cross-side audio panel intercommunication system.' },
+    correct: 'c'
+  },
+  {
+    id: 6993,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What controls switching between intercommunication and radio transmission in backup mode?',
+    options: { a: 'An external relay, controlled by the radio push-to-transmit button.', b: 'The MCDU backup page.', c: 'A software setting in the NIM.' },
+    correct: 'a'
+  },
+  {
+    id: 6994,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'In backup mode, can the intercommunication and communications radio volumes be adjusted separately?',
+    options: { a: 'Yes, using two separate knobs.', b: 'Yes, through the MCDU.', c: 'No, they are adjusted together by the backup pop-up control knob.' },
+    correct: 'c'
+  },
+  {
+    id: 6995,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'How are failed radio components displayed on the MCDU or PFD?',
+    options: { a: 'Removed from the display entirely.', b: 'Shown in red with a flashing border.', c: 'Shown in amber, with their frequencies replaced by amber dashes.' },
+    correct: 'c'
+  },
+  {
+    id: 6996,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'Does a Network Interface Module failure trigger a CAS message?',
+    options: { a: 'Yes, an amber NIM DEGRADED message appears.', b: 'Yes, a dedicated NIM FAIL caution is displayed.', c: 'No, it is recognised by loss of all associated radios shown in amber.' },
+    correct: 'c'
+  },
+  {
+    id: 6997,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'Who can control the radios in a cabinet after its NIM fails?',
+    options: { a: 'Both pilots, using normal tuning.', b: 'Neither pilot; the radios are unusable.', c: 'Only the onside pilot, using the backup radio page.' },
+    correct: 'c'
+  },
+  {
+    id: 6998,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What radio functions remain available when the radio master switch is set to Ground?',
+    options: { a: 'Only the ATC transponder remains available.', b: 'Communications 1, NIM 1, navigation 2, ATC transponder, and NIM 2.', c: 'All radio modules remain fully available.' },
+    correct: 'b'
+  },
+  {
+    id: 6999,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What is the purpose of the Ground position on the radio master switch?',
+    options: { a: 'To test the transponder on the ground.', b: 'To save power during a battery start.', c: 'To isolate the HF radio during refuelling.' },
+    correct: 'b'
+  },
+  {
+    id: 7000,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What are the three main systems controlled by the airborne audio system?',
+    options: { a: 'Navigation, communication, and central warning.', b: 'Communication, fuel, and central warning.', c: 'Navigation, hydraulics, and communication.' },
+    correct: 'a'
+  },
+  {
+    id: 7001,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'How many audio control panels are installed in the AW139 cockpit?',
+    options: { a: 'Two, one on each side of the centre console.', b: 'Four, two per pilot.', c: 'One, shared by both pilots.' },
+    correct: 'a'
+  },
+  {
+    id: 7002,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'How many digital audio buses connect each cabinet to the audio control panels?',
+    options: { a: 'One shared bus for both cabinets.', b: 'Four buses per cabinet.', c: 'One output bus per cabinet, with two inputs at each audio control panel.' },
+    correct: 'c'
+  },
+  {
+    id: 7003,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What is the maximum number of audio control panels the digital audio and microphone bus system can support?',
+    options: { a: 'Twelve.', b: 'Four.', c: 'Eight.' },
+    correct: 'c'
+  },
+  {
+    id: 7004,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: "What is the audio control panel's default volume display setting after 15 seconds of inactivity?",
+    options: { a: "The last adjusted channel's volume.", b: 'Communications 1 volume.', c: 'Headphone volume.' },
+    correct: 'c'
+  },
+  {
+    id: 7005,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'How many microphone transmit selections can be active at a time on the audio control panel?',
+    options: { a: 'Only one.', b: 'As many as are selected.', c: 'Up to two simultaneously.' },
+    correct: 'a'
+  },
+  {
+    id: 7006,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What does pressing the identification button do on the audio control panel?',
+    options: { a: 'Selects or deselects the ADF and navigation audio filter, attenuating voice audio for Morse code identification.', b: 'Activates the selective calling function.', c: 'Mutes all navigation audio.' },
+    correct: 'a'
+  },
+  {
+    id: 7007,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What does a slowly flashing cabin button on the audio control panel indicate?',
+    options: { a: 'The cabin button requires maintenance action.', b: 'A call is taking place, started by the crew or the cabin attendant.', c: 'The cabin intercommunication system has failed.' },
+    correct: 'b'
+  },
+  {
+    id: 7008,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What does pulling out the backup pop-up control knob do?',
+    options: { a: 'Disables the digital circuitry and connects the headset to the onside VHF comms radio through the analog backup line.', b: 'Switches the audio panel into test mode.', c: 'Mutes all incoming audio.' },
+    correct: 'a'
+  },
+  {
+    id: 7009,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What is connected through the backup interphone line when the backup pop-up control knob is pulled out?',
+    options: { a: 'The opposite side audio panel, for emergency intercommunication.', b: 'The HF radio receiver.', c: 'The cabin audio controller only.' },
+    correct: 'a'
+  },
+  {
+    id: 7010,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What does the selective calling function do when a call is received?',
+    options: { a: 'It automatically answers the call.', b: 'It mutes all other audio channels.', c: "The selective calling button and the relevant radio's annunciator light flash." },
+    correct: 'c'
+  },
+  {
+    id: 7011,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What discrete signal allows the generic cabin intercommunication controller to page the cockpit crew?',
+    options: { a: 'A cabin acknowledgement signal.', b: 'A call out signal.', c: 'A call in signal.' },
+    correct: 'c'
+  },
+  {
+    id: 7012,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'Where is the cabin audio controller intended to be used?',
+    options: { a: 'By up to four cabin crew simultaneously.', b: 'By a single cabin operator.', c: 'Only by the pilot in flight.' },
+    correct: 'b'
+  },
+  {
+    id: 7013,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: "What does the cabin audio controller's push-to-talk button do?",
+    options: { a: 'Activates the external loudspeaker siren.', b: 'Lets the speaker talk over the public address system.', c: 'Connects to the backup intercommunication system.' },
+    correct: 'b'
+  },
+  {
+    id: 7014,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What limits the maintenance port headset volume for ground personnel?',
+    options: { a: 'A configuration setting, since there is no dedicated volume control.', b: "The HF radio's power amplifier gain.", c: 'A fixed hardware limiter on the maintenance port.' },
+    correct: 'a'
+  },
+  {
+    id: 7015,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What is maintenance port one dedicated to?',
+    options: { a: 'Use with the SATCOM phone system.', b: 'Use with the backup intercommunication system mode.', c: 'Use with the HF remote control panel.' },
+    correct: 'b'
+  },
+  {
+    id: 7016,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'How many positions does the cyclic control push-to-transmit switch have?',
+    options: { a: 'Three: off, intercom, and transmit.', b: 'Two: off and transmit.', c: 'Four, including an emergency position.' },
+    correct: 'a'
+  },
+  {
+    id: 7017,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What relays control switching in backup ICS mode between the comms radio and the off-side maintenance port?',
+    options: { a: 'Relays K62 and K87.', b: 'Relays K47 and K48.', c: 'Relays K65 and K72.' },
+    correct: 'b'
+  },
+  {
+    id: 7018,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What is the nominal DC voltage for the VHF data radio module?',
+    options: { a: '24.0 volts direct current.', b: '30.0 volts direct current.', c: '27.5 volts direct current.' },
+    correct: 'c'
+  },
+  {
+    id: 7019,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What is the frequency range of the VHF data radio in normal operation?',
+    options: { a: '118.000 to 136.975 megahertz.', b: '108.000 to 126.975 megahertz.', c: '121.500 to 151.975 megahertz.' },
+    correct: 'a'
+  },
+  {
+    id: 7020,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What channel spacing does the VHF data radio support?',
+    options: { a: '8.33 or 25 kilohertz.', b: '12.5 or 50 kilohertz.', c: '8.33 or 50 kilohertz.' },
+    correct: 'a'
+  },
+  {
+    id: 7021,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What is the nominal transmitter power output of the VHF data radio?',
+    options: { a: '20 watts nominal.', b: '30 watts nominal.', c: '10 watts nominal.' },
+    correct: 'a'
+  },
+  {
+    id: 7022,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What is the maximum duty cycle rating of the VHF data radio transmitter?',
+    options: { a: '50 percent maximum, 1 minute transmit and 1 minute receive.', b: '20 percent maximum, 1 minute transmit and 4 minutes receive.', c: '10 percent maximum, 30 seconds transmit and 4.5 minutes receive.' },
+    correct: 'b'
+  },
+  {
+    id: 7023,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What rating is the circuit breaker for the VHF data radio module?',
+    options: { a: '115 volt AC, 10 amps.', b: '28 volt direct current, 10 amps.', c: '28 volt direct current, 5 amps.' },
+    correct: 'b'
+  },
+  {
+    id: 7024,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'How long can the VHF data radio transmit continuously before the timeout function returns it to receive mode?',
+    options: { a: '30 seconds.', b: '2 minutes.', c: '5 minutes.' },
+    correct: 'b'
+  },
+  {
+    id: 7025,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What data rate does the VHF data radio use for ACARS transmission?',
+    options: { a: '9.6 kilobits per second.', b: '31.5 kilobits per second.', c: '2.4 kilobits per second.' },
+    correct: 'c'
+  },
+  {
+    id: 7026,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What data rate does the VHF data radio use for D8PSK data mode?',
+    options: { a: '2.4 kilobits per second.', b: '64 kilobits per second.', c: '31.5 kilobits per second.' },
+    correct: 'c'
+  },
+  {
+    id: 7027,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: "What frequency does the VHF data radio's emergency mode use?",
+    options: { a: '118.0 megahertz.', b: '123.45 megahertz.', c: '121.5 megahertz.' },
+    correct: 'c'
+  },
+  {
+    id: 7028,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'Where is the number 1 VHF communications antenna installed?',
+    options: { a: 'On the bottom of the centre fuselage.', b: 'Along the tail boom.', c: 'On the left side of the top of the fuselage.' },
+    correct: 'c'
+  },
+  {
+    id: 7029,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'Where is the number 2 VHF communications antenna installed?',
+    options: { a: 'On the top of the fuselage, left side.', b: 'On the bottom of the centre fuselage, next to the right sponson.', c: 'On the tail rotor pylon.' },
+    correct: 'b'
+  },
+  {
+    id: 7030,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What CAS caution is shown when the number 1 radio module overheats?',
+    options: { a: 'NIM 1 OVHT caution.', b: 'RADIO 1 FAIL caution.', c: '1 VHF communications overheat caution.' },
+    correct: 'c'
+  },
+  {
+    id: 7031,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What frequency band does the HF-1050 radio system cover?',
+    options: { a: '2.0 to 18 megahertz.', b: '30 to 136 megahertz.', c: '2.0 to 30 megahertz.' },
+    correct: 'c'
+  },
+  {
+    id: 7032,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'How many main units make up the HF-1050 radio system?',
+    options: { a: 'Four: antenna coupler, power amplifier, receiver exciter, and antenna array.', b: 'Three: amplifier, tuner, and display.', c: 'Two: transceiver and antenna.' },
+    correct: 'a'
+  },
+  {
+    id: 7033,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What voltage standing wave ratio does the HF antenna coupler aim to achieve on initial tuning?',
+    options: { a: '2.5 to 1 or less.', b: '5.0 to 1 or less.', c: '1.5 to 1 or less.' },
+    correct: 'a'
+  },
+  {
+    id: 7034,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What power output can the HF power amplifier produce from a 1 milliwatt input?',
+    options: { a: 'A 500 watt output level.', b: 'A 50 watt output level.', c: 'A 200 watt output level.' },
+    correct: 'c'
+  },
+  {
+    id: 7035,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What type of antenna is used for the HF radio system?',
+    options: { a: 'A 12-foot long towel bar antenna installed along the tail, supported by 4 masts.', b: 'A whip antenna mounted on the nose.', c: 'A blade antenna under the fuselage.' },
+    correct: 'a'
+  },
+  {
+    id: 7036,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'How many circuit breakers protect the HF radio system?',
+    options: { a: 'Three, rated at 10, 15, and 20 amps.', b: 'Two: HF power, 30 amps, and HF control, 5 amps.', c: 'One, rated at 35 amps.' },
+    correct: 'b'
+  },
+  {
+    id: 7037,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What is the purpose of relay K76 in the HF radio system?',
+    options: { a: 'To isolate equipment that could be jammed by HF transmission, such as the ADF module.', b: 'To connect the HF radio to the backup power bus.', c: 'To switch the HF radio between voice and data modes.' },
+    correct: 'a'
+  },
+  {
+    id: 7038,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What minimum separation is required between the HF antenna and ground personnel?',
+    options: { a: '3 feet, or 1 metre.', b: '15 feet, or 4.5 metres.', c: '6.9 feet, or 2.1 metres.' },
+    correct: 'c'
+  },
+  {
+    id: 7039,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'Where is the HF remote control panel, if installed, located?',
+    options: { a: 'In the cockpit centre console.', b: 'In the tail boom avionics bay.', c: 'In the cabin equipment rack under the left hand cabin window.' },
+    correct: 'c'
+  },
+  {
+    id: 7040,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'Which emission mode is the most common for HF voice communication?',
+    options: { a: 'Lower sideband voice.', b: 'Upper sideband voice.', c: 'Amplitude modulation.' },
+    correct: 'b'
+  },
+  {
+    id: 7041,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What is required to use upper or lower sideband data modes on the HF radio?',
+    options: { a: 'A software upgrade to the receiver exciter only.', b: 'An optional modem.', c: 'Nothing; the function is standard.' },
+    correct: 'b'
+  },
+  {
+    id: 7042,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What are the three selectable transmit power levels on the HF-1050 system?',
+    options: { a: 'Low 25 watts, medium 75 watts, high 150 watts.', b: 'Low 50 watts, medium 100 watts, high 200 watts.', c: 'Low 100 watts, medium 150 watts, high 250 watts.' },
+    correct: 'b'
+  },
+  {
+    id: 7043,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What does split mode on the HF radio allow?',
+    options: { a: 'Transmission and reception on two different frequencies at the same time.', b: 'Transmission on two frequencies simultaneously.', c: 'Reception of two stations simultaneously with one frequency.' },
+    correct: 'a'
+  },
+  {
+    id: 7044,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'How many emergency channels are available in HF emergency mode?',
+    options: { a: 'Four.', b: 'Six.', c: 'Eight.' },
+    correct: 'b'
+  },
+  {
+    id: 7045,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What frequency is HF emergency channel 1 fixed to?',
+    options: { a: '2182 kilohertz simplex.', b: '121.5 megahertz simplex.', c: '2182 megahertz simplex.' },
+    correct: 'a'
+  },
+  {
+    id: 7046,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What adjustment does the HF clarify function provide?',
+    options: { a: 'A squelch sensitivity adjustment only.', b: 'A frequency adjustment of plus or minus 1000 hertz.', c: 'A frequency adjustment of plus or minus 250 hertz.' },
+    correct: 'c'
+  },
+  {
+    id: 7047,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What is the maximum usable range of the external loudspeaker system from a good vantage point?',
+    options: { a: 'About two miles.', b: 'About half a mile.', c: 'Greater than one mile.' },
+    correct: 'c'
+  },
+  {
+    id: 7048,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What circuit breakers supply the external loudspeaker system?',
+    options: { a: 'CB47 and CB48, on the essential bus.', b: 'CB140 and CB154, on 28 volt direct current bus 2.', c: 'CB55 and CB54, on bus 1.' },
+    correct: 'b'
+  },
+  {
+    id: 7049,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'How many support-mounted speakers are part of the external loudspeaker system?',
+    options: { a: 'Four.', b: 'Six.', c: 'Eight.' },
+    correct: 'b'
+  },
+  {
+    id: 7050,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What satellite network does the Skytrac SATCOM system use?',
+    options: { a: 'The GPS network.', b: 'The Iridium network.', c: 'The Inmarsat network.' },
+    correct: 'b'
+  },
+  {
+    id: 7051,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What additional receiver is contained in the Skytrac I SAT unit besides the Iridium transceiver?',
+    options: { a: 'A 12-channel Global Positioning System receiver.', b: 'A second VHF communications receiver.', c: 'A dedicated weather radar receiver.' },
+    correct: 'a'
+  },
+  {
+    id: 7052,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What happens to short burst data position reports when the I SAT is making a voice call?',
+    options: { a: 'They are sent simultaneously over a second channel.', b: 'They are discarded and not retried.', c: 'They are queued until the short burst data service is available again.' },
+    correct: 'c'
+  },
+  {
+    id: 7053,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What is disabled when the I SAT emergency locking toggle switch is set to the up position?',
+    options: { a: 'Voice calls and text messaging.', b: 'GPS position reporting.', c: 'The cockpit display unit entirely.' },
+    correct: 'a'
+  },
+  {
+    id: 7054,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'How many pre-programmed quick dial numbers does the Skytrac satellite phone system provide?',
+    options: { a: '9.', b: '12.', c: '6.' },
+    correct: 'a'
+  },
+  {
+    id: 7055,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'How does the Central Maintenance Computer handle a detected fault?',
+    options: { a: 'It automatically shuts down the affected radio module.', b: 'It immediately displays a red warning on the PFD.', c: 'It allocates a fault code stored in Non Volatile Memory, with an accompanying maintenance message.' },
+    correct: 'c'
+  },
+  {
+    id: 7056,
+    Aircraft: 'AW139',
+    Category: '23',
+    question: 'What does the ATA chapter 23 Aircraft Fault Isolation Publication consist of?',
+    options: { a: 'Detected faults only.', b: 'Observed faults only.', c: 'A mix of detected and observed faults equally.' },
+    correct: 'a'
+  }
+];
