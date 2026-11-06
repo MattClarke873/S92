@@ -39433,7 +39433,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 4271,
     Aircraft: 'AW139',
     Category: '24',
@@ -39444,7 +39444,7 @@ export const questions = [
         c: '600 hrs / 2 years'
     },
     correct: 'c'
-},
+}, */
 {
     id: 4272,
     Aircraft: 'AW139',
@@ -39727,8 +39727,8 @@ export const questions = [
     Category: '52',
     question: 'Explain the operation of the cockpit doors.',
     options: {
-        a: 'The doors slide aft on rails to open, latched by a central roller mechanism, with no key lock or actuator fitted',
-        b: 'The doors are purely manually operated with no actuator or lock, hinged only at the top and swinging freely to any angle',
+        a: "The doors slide aft on rails to open, latched by a central roller mechanism rather than bolts and a bracket assembly; no key lock is fitted since the roller latch cannot be opened from outside, and there is no actuator limiting the slide travel, only a mechanical end stop",
+        b: "The doors are purely manually operated with no actuator or lock of any kind, hinged only at the top and swinging freely to any angle up to and beyond 90°; there is no spherical-pin-mounted limiting device, so the maximum opening angle depends only on wind loading at the time",
         c: 'The external handle is lowered to unlock and open the door via the latching mechanism (bolts, bracket assembly, lever and rods); a key-operated revolving plug lock secures it when closed. An actuator between the door and fuselage structure, held in position by two spherical pins, controls and limits the door to a maximum opening angle of 75.5°'
     },
     correct: 'c'
@@ -39739,9 +39739,9 @@ export const questions = [
     Category: '53',
     question: 'Describe the different parts of the fuselage.',
     options: {
-        a: 'Forward fuselage (engine and transmission deck); Centre fuselage (cockpit only); Aft fuselage (fuel tanks and landing gear); Tail section (baggage compartment)',
+        a: 'Forward fuselage (engine and transmission deck only); Centre fuselage (cockpit only, with no fuel tanks or hydraulics); Aft fuselage (fuel tanks and landing gear only, with no baggage compartment); Tail section (baggage compartment only, with no tail rotor drive attachments)',
         b: 'Forward fuselage (cockpit, nose landing gear housing, canopy support); Centre fuselage (passenger cabin, fuel tanks, hydraulics, landing gear, flight controls, powerplant, upper deck, sponsons); Rear/aft fuselage (baggage compartment, avionics LRUs, powerplant); and the Tail section (cone and fin, with attachments for the tail rotor drive, flight controls, tail rotor and stabilisers)',
-        c: 'Only two parts: the cabin section and the tail boom, with no distinction between forward, centre and aft fuselage'
+        c: 'Only two parts: the cabin section (containing the cockpit, cabin, fuel tanks and all landing gear) and the tail boom (containing the tail rotor drive, flight controls, tail rotor and stabilisers), with no separate forward or aft fuselage sections and no sponsons'
     },
     correct: 'b'
 },
@@ -39907,8 +39907,8 @@ export const questions = [
     Category: '24',
     question: 'At what point does the engine start sequence end?',
     options: {
-        a: 'When the pilot manually selects the GEN switch to ON',
-        b: 'When Nf reaches 100% (FLIGHT idle speed)',
+        a: "When the pilot manually selects the GEN switch to ON; this happens independently of Ng or Nf speed, and the GCU or EEC plays no part in terminating the start, since the START signal is removed purely by this manual switch selection rather than any speed threshold",
+        b: "When Nf reaches 100% (FLIGHT idle speed); this is a rotor speed threshold rather than a gas generator speed threshold, and the START signal and generator line contactor are controlled by the rotor governor rather than the GCU or EEC",
         c: 'When the starter-generator/engine reaches 49-50% Ng, at which point the GCU (manual start) or EEC (auto start) terminates the start, removing the START signal and opening the generator line contactor'
     },
     correct: 'c'
@@ -39955,8 +39955,8 @@ export const questions = [
     Category: '24',
     question: 'When performing a battery start, describe the operation of the batteries.',
     options: {
-        a: 'Both batteries are disconnected automatically the moment the START push-button is pressed',
-        b: 'Only the Auxiliary Battery is used for starting; the Main Battery remains isolated until both generators are online',
+        a: "Both batteries are disconnected automatically the moment the START push-button is pressed, so that neither battery is damaged by the starter current draw; power for the displays and essential buses during cranking instead comes briefly from the external ground power unit",
+        b: "Only the Auxiliary Battery is used for starting, feeding the starter directly through MAIN BUS 1/2; the Main Battery remains isolated from both the essential buses and the starter until both generators are online and BUS TIE is selected to RESET",
         c: 'With BATTERY MASTER, MAIN and AUX switches ON, both batteries power the essential buses; the Main Battery feeds the starter via MAIN BUS 1/2 for cranking (its voltage drops significantly), while the Auxiliary Battery supplies ESS BUS 1 and 2 to keep the displays powered during starting'
     },
     correct: 'c'
@@ -39991,9 +39991,9 @@ export const questions = [
     Category: '24',
     question: 'Describe the starter/generator.',
     options: {
-        a: 'A brushless, permanent-magnet machine bolted directly and rigidly to the main gearbox, with no separate starter function',
+        a: "A brushless, permanent-magnet machine bolted directly and rigidly to the main gearbox input flange, with no separate starter function since it only generates power once the rotor is already turning; it is cooled by gearbox oil rather than an internal fan, and has no bi-metallic over-temperature switch",
         b: 'A brush-type, electromagnetic rotating machine mounted on the engine accessory gearbox via a splined shaft with a shear section; it acts as a 300A starter motor during start and, once at speed, as a 28VDC generator regulated by its GCU, cooled by an internal shaft-driven fan and protected by a bi-metallic over-temperature switch and a speed sensor',
-        c: 'A purely mechanical device with no electrical output, used only to crank the engine before the battery takes over generation'
+        c: "A purely mechanical device with no electrical output of its own, used only to crank the engine via a splined shaft before the aircraft batteries take over generation through a separate, independently mounted generator bolted to the accessory gearbox"
     },
     correct: 'b'
 },
@@ -40015,9 +40015,9 @@ export const questions = [
     Category: '24',
     question: 'Describe the operation of the BUS TIE switch.',
     options: {
-        a: 'It controls the Essential Bus Tie breaker only, and has no effect on the Main bus bars',
+        a: "It controls the Essential Bus Tie breaker only, and has no effect on the Main bus bars; ON and AUTO both simply arm a backup path for the essential buses alone, while RESET clears only essential-bus fault logic, leaving Main Bus 1 and 2 untouched",
         b: 'ON ties MAIN BUS 1 and 2 (except during an overcurrent malfunction); AUTO enables automatic bus tie activation during external power or single generator operation; RESET clears the cross-tie and battery-isolation logic following a fault',
-        c: 'It only has ON and OFF positions, with no automatic or reset function'
+        c: "It only has ON and OFF positions, with no automatic or reset function; ON permanently ties MAIN BUS 1 and 2 with no overcurrent protection logic, and OFF isolates them completely with no provision for external power or single generator operation"
     },
     correct: 'b'
 },
@@ -40063,9 +40063,9 @@ export const questions = [
     Category: '24',
     question: 'When is the main battery charged?',
     options: {
-        a: 'Only when the Auxiliary Battery is disconnected from the aircraft entirely',
+        a: "Only when the Auxiliary Battery is disconnected from the aircraft entirely; with the AUX battery connected, Generator 1 charges only the AUX battery through the tied bus, and the Main Battery receives no charging current regardless of switch positions",
         b: 'When it is connected to the Number 1 Main Bus (BATTERY MASTER and MAIN BATT switches ON) with no GCU1 overcurrent indication and no external power supplying the helicopter, allowing Generator 1 (or the tied bus) to recharge it',
-        c: 'Continuously, regardless of switch positions or generator status'
+        c: "Continuously, regardless of switch positions or generator status; the Main Battery trickle-charges from the Number 1 Main Bus at all times, even with BATTERY MASTER OFF, external power connected, or a GCU1 overcurrent condition present"
     },
     correct: 'b'
 },
@@ -40111,9 +40111,9 @@ export const questions = [
     Category: '24',
     question: 'Describe how to perform a battery start at 06:00 on 10th May 2021.',
     options: {
-        a: 'An additional cold-weather battery pre-heat procedure is mandatory for any start logged before 08:00',
-        b: 'Battery starts are only permitted during daylight hours, so this start would require external power instead',
-        c: 'Depending on local procedurese, the number 2 engine would be started from the battery start follows the standard sequence - BATTERY MASTER ON, MAIN and AUX battery switches ON, BUS TIE ON, confirm MAIN BUS voltage not less than 23V, then start the first engine on battery power before bringing its generator on-line to assist starting the second'
+        a: "An additional cold-weather battery pre-heat procedure is mandatory for any start logged before 08:00, requiring the AUX battery to be removed and warmed separately before BATTERY MASTER is selected ON, regardless of ambient temperature or local procedures",
+        b: "Battery starts are only permitted during daylight hours, so this 06:00 start would require external ground power instead; BATTERY MASTER, MAIN and AUX switches would remain OFF throughout, with BUS TIE left OFF until an external power unit is connected",
+        c: 'Depending on local procedures, the number 2 engine would be started from the battery; the start follows the standard sequence - BATTERY MASTER ON, MAIN and AUX battery switches ON, BUS TIE ON, confirm MAIN BUS voltage not less than 23V, then start the first engine on battery power before bringing its generator on-line to assist starting the second'
     },
     correct: 'c'
 },
@@ -40124,8 +40124,8 @@ export const questions = [
     question: 'What components are contained within the power distribution panel?',
     options: {
         a: 'Heavy power switching components including power contactors, the majority of the passive protective devices, part of the bus re-configuration logic, the external power protection relay, and bus protection control logic',
-        b: 'Only the cockpit circuit breaker panel and its associated placards',
-        c: 'The batteries themselves, along with their temperature switches'
+        b: "Only the cockpit circuit breaker panel and its associated placards, with no power contactors, protective devices, bus re-configuration logic, or external power protection relay located anywhere within the power distribution panel itself",
+        c: "The batteries themselves, along with their temperature switches, housed directly inside the power distribution panel rather than in separate battery compartments; no contactors, protective devices or bus re-configuration logic are fitted in the panel"
     },
     correct: 'a'
 },
@@ -40244,8 +40244,8 @@ export const questions = [
     question: 'How is an Engine Manual Start (MANUAL Mode) initiated, and which unit is not involved?',
     options: {
         a: 'By pressing the START push-button on the relevant Engine Control Lever (ECL), which sends a control signal directly to the relevant GCU; the EEC is not involved, and the GCU terminates the start from the generator speed sensing signal',
-        b: 'By the GCU alone, with no interaction with the ECL or any push-button',
-        c: 'By the EEC automatically selecting MANUAL mode once Ng exceeds 20%, with no pilot input'
+        b: "By the GCU alone, with no interaction with the ECL or any push-button; the GCU senses low rotor speed directly and initiates the start automatically, with the EEC terminating the start from the generator speed sensing signal once Ng reaches 49%",
+        c: "By the EEC automatically selecting MANUAL mode once Ng exceeds 20%, with no pilot input required; the ECL START push-button is not involved at all, and the GCU plays no part since the EEC terminates the start directly from its own internal timer"
     },
     correct: 'a'
 },
@@ -40423,9 +40423,9 @@ export const questions = [
     Category: '24',
     question: 'What is the key difference between an Engine Normal Start (AUTO Mode) and an Engine Manual Start (MANUAL Mode)?',
     options: {
-        a: 'There is no difference; both modes use identical initiation and termination logic',
+        a: "There is no real difference between the two modes; both use identical initiation logic through the ENG MODE switch and identical termination logic at Ng=49%, with the only distinction being a cockpit label on the selector switch itself",
         b: 'In AUTO mode, the EEC initiates the start (via the ENG MODE switch) and terminates it at Ng=49%; in MANUAL mode, the pilot initiates the start directly via the ECL START push-button sending a signal straight to the GCU, bypassing the EEC, which terminates the start using the generator speed sensing signal',
-        c: 'AUTO mode is pilot-initiated via the START push-button; MANUAL mode is automatically initiated by the EEC with no pilot input'
+        c: "AUTO mode is pilot-initiated via the START push-button on the Engine Control Lever, sending a signal directly to the GCU and bypassing the EEC entirely; MANUAL mode is automatically initiated by the EEC with no pilot input, terminating the start at a fixed Ng value rather than generator speed"
     },
     correct: 'b'
 },
@@ -41959,9 +41959,9 @@ export const questions = [
     Category: '29',
     question: 'Explain the operation of the hydraulic SOV switch.',
     options: {
-        a: 'The SOV switch directly controls reservoir pressurization, with no connection to the flight controls shut-off valves',
+        a: "The SOV switch directly controls reservoir pressurization rather than the flight controls shut-off valves; moving it to CLOSE on the ground isolates the reservoir for servicing, and in flight the switch has no function since reservoir pressurization cannot be isolated while airborne, so the CLOSE position is automatically inhibited whenever weight is off the wheels",
         b: "Central position: shut-off valves are open and automatically controlled by the system. CLOSE (on the ground): selects a single system for maintenance. CLOSE (in flight): isolates a system following a malfunction. If one system's SOV is shut off and the other system then loses pressure, the pressure drop overrides the SOV selection and reinstates pressure to the servos, without the switch automatically resetting",
-        c: 'The SOV switch only has ON and OFF positions, and once closed it can never be overridden by the opposite system'
+        c: "The SOV switch only has ON and OFF positions, with OFF permanently closing the shut-off valve regardless of ground or flight condition; once closed, the opposite system's pressure drop has no effect on the switch, and pressure can only be restored to the servos by cycling the SOV switch back to ON, since there is no automatic pressure-drop override function"
     },
     correct: 'b'
 },
@@ -41983,8 +41983,8 @@ export const questions = [
     Category: '29',
     question: 'Explain the operation of the tail rotor shut-off valve.',
     options: {
-        a: 'It is a purely mechanical valve with no electrical input, closing automatically above 207 bar',
-        b: 'It is normally closed and only opens when the pilot manually selects TRSOV OPEN on the Hydraulic Control Panel',
+        a: "It is a solenoid-operated valve, normally energized and held closed by the solenoid to isolate the tail servo actuator from pressure by default; when the PCM1 LOW LEVEL 1 microswitch detects a low oil level (50%), it de-energizes the solenoid, opening the valve to supply pressure to the tail rotor servo line; this triggers the 1 SERVO caution and the TAIL SERVO TRSOV indicator condition",
+        b: "It is a mechanically operated valve with no solenoid, normally held closed by spring pressure and opened only when the pilot manually selects TRSOV OPEN on the Hydraulic Control Panel; it has no connection to the PCM oil level microswitches, and its position is shown only by a mechanical flag on the valve body rather than a CAS caution",
         c: 'It is a solenoid-operated valve, normally de-energized and held open by a spring to supply pressure to the tail servo actuator. When the PCM2 LOW LEVEL 2 microswitch detects a low oil level (28%), it energizes the solenoid, closing the pressure supply and connecting the tail rotor servo line to return; this triggers the 2 SERVO caution and the TAIL SERVO TRSOV indicator condition'
     },
     correct: 'c'
@@ -41995,9 +41995,9 @@ export const questions = [
     Category: '29',
     question: 'What will happen as the hydraulic fluid level in PCM1 falls?',
     options: {
-        a: 'The flight controls circuit fails completely once the level drops below 50%',
-        b: 'At 50% and 28% there is no operational effect, just an indication on the synoptic page; at 22% (MIN) UTIL SOV1 automatically closes, landing gear emergency operation becomes unavailable, and the 1 HYD MIN and EMER LDG PRESS cautions are displayed, while SOV1, SOV2 and TRSOV remain open and the flight controls stay pressurized at 207 bar',
-        c: 'There is no indication of any kind until the reservoir is completely empty'
+        a: 'At 50% the UTIL SOV1 closes immediately, the 1 HYD MIN caution is displayed, flight controls drop to half pressure, and landing gear emergency operation is lost at that threshold',
+        b: 'At 50% and 28% there is only a synoptic indication with no operational effect; at 22% UTIL SOV1 closes, landing gear emergency operation is lost, and 1 HYD MIN and EMER LDG PRESS cautions appear',
+        c: 'At 28% UTIL SOV1 and SOV2 close together, isolating the flight controls circuit from reservoir pressure, and the 1 HYD MIN caution is displayed, but landing gear operation remains unaffected'
     },
     correct: 'b'
 },
@@ -42019,8 +42019,8 @@ export const questions = [
     Category: '29',
     question: 'When does the utility shut-off valve close?',
     options: {
-        a: 'Only when the pilot manually selects SOV CLOSE on the Hydraulic Control Panel',
-        b: 'Only during the ELEC PUMP freedom of movement check',
+        a: "Only when the pilot manually selects SOV CLOSE on the Hydraulic Control Panel; there is no automatic microswitch-controlled closure in either PCM, so the valve remains open at all oil levels until the pilot takes this manual action on the ground or in flight",
+        b: "Only during the ELEC PUMP freedom of movement check, when the valve closes briefly to isolate the utility circuit for the test; outside of this check the valve remains permanently open regardless of oil level in either PCM1 or PCM2",
         c: 'Automatically, under oil level microswitch control: in PCM2 it closes at the LOW 1 LEVEL (50%) threshold, re-opens at LOW 2 LEVEL (28%), then recloses at MIN LEVEL (22%); in PCM1 it closes at the MIN LEVEL (22%) threshold'
     },
     correct: 'c'
@@ -42031,9 +42031,9 @@ export const questions = [
     Category: '29',
     question: 'What will be the indications of a failure of hydraulic pump 1?',
     options: {
-        a: 'Only the 1 HYD MIN caution is displayed, with full system 1 operation otherwise unaffected',
+        a: "Only the 1 HYD MIN caution is displayed, with full system 1 operation otherwise unaffected since SOV1 and UTIL SOV1 remain fully open and correctly sensed; system 2 is not required to compensate, and no EMER LDG PRESS or SERVO caution is triggered",
         b: 'Total loss of system no.1 operations (hydraulic power then supplied by system 2 only); SOV1 and UTIL SOV1 show an undetermined status; the 1 HYD PUMP, 1 HYD OIL PRESS, 1 SERVO and EMER LDG PRESS cautions are displayed; and the HYD1 indicator shows PRESS lit amber',
-        c: 'No indication at all, since system 2 silently takes over all functions'
+        c: "No indication at all is given, since system 2 silently takes over all system 1 functions without any CAS caution; SOV1 and UTIL SOV1 show a normal open status throughout, and the HYD1 indicator continues to show normal pressure despite the failed pump"
     },
     correct: 'b'
 },
@@ -42043,9 +42043,9 @@ export const questions = [
     Category: '29',
     question: 'Will a failure of hydraulic pump 2 give the same indications as a failure of pump 1?',
     options: {
-        a: 'Yes - both trigger the EMER LDG PRESS caution and loss of flight controls for that system',
+        a: "Yes - both trigger the EMER LDG PRESS caution and loss of flight controls for that system, since neither circuit has a second mechanical pump to maintain pressure; a Pump 2 failure is therefore just as serious as a Pump 1 failure in every respect",
         b: 'No - because circuit 2 has a second pump (Pump 4), a Pump 2 failure only triggers the 2 HYD PUMP caution while Pump 4 maintains full system 2 pressure; this is unlike Pump 1, whose failure causes total loss of system 1 since circuit 1 has no equivalent second mechanical pump',
-        c: 'Yes - both failures cause total loss of their respective hydraulic system with identical cautions'
+        c: "Yes - both failures cause total loss of their respective hydraulic system with identical cautions, since Pump 4 only backs up Pump 1's circuit rather than Pump 2's; this means a Pump 2 failure behaves exactly like a Pump 1 failure operationally"
     },
     correct: 'b'
 },
@@ -42092,8 +42092,8 @@ export const questions = [
     question: 'How are the PCMs protected from over-pressure situations?',
     options: {
         a: 'By a pressure system relief valve (protecting the circuit if the pump compensator fails), a reservoir pressure relief/bleeding valve (limiting reservoir pressure), and a return by-pass valve (relieving over-pressure on the return line if the shuttle valve seizes)',
-        b: 'Over-pressure protection is provided solely by the electrical system tripping the relevant circuit breaker',
-        c: 'By a single fuse-type mechanical pin that must be replaced after every overpressure event'
+        b: "Over-pressure protection is provided solely by the electrical system tripping the relevant circuit breaker, with no mechanical relief valves fitted anywhere in the PCM; a tripped breaker isolates pump power entirely until manually reset on the ground",
+        c: "By a single fuse-type mechanical pin in each PCM that must be replaced after every overpressure event; there is no pressure system relief valve, reservoir relief valve, or return by-pass valve, so the pin is the sole overpressure protection fitted"
     },
     correct: 'a'
 },
@@ -43363,8 +43363,8 @@ export const questions = [
     Category: '32',
     question: 'Explain the operation of the UNLK and LOCK lights on the landing gear control panel.',
     options: {
-        a: 'Both lights are permanently illuminated simultaneously whenever the landing gear is extended',
-        b: 'LOCK indicates the parking brake is applied; UNLK indicates it is released',
+        a: "Both lights are permanently illuminated simultaneously whenever the landing gear is extended, regardless of nose wheel centerlock pin position; neither light responds to the position microswitch, so they give no indication of whether the centerlock pin is actually engaged or disengaged",
+        b: "LOCK indicates the parking brake is applied and UNLK indicates it is released; neither light has any connection to the nose wheel centerlock pin, and the landing gear control panel gives no separate indication of centerlock pin position at all",
         c: 'The green LOCK legend illuminates when the nose wheel centerlock pin is engaged; the amber UNLK legend illuminates when the pin is disengaged (free to swivel), and the amber UNLK legend blinks if the lock has been armed but has not yet reached its final locked position'
     },
     correct: 'c'
@@ -43375,9 +43375,9 @@ export const questions = [
     Category: '32',
     question: 'Explain the operation of the parking brake.',
     options: {
-        a: 'The parking brake uses a separate electrically-driven caliper, independent of the normal wheel brake pedals',
+        a: "The parking brake uses a separate electrically-driven caliper, independent of the normal wheel brake pedals and the parking brake valve; pulling the parking brake handle simply arms an electrical circuit that clamps the caliper directly, with no shuttle valve, check valves or spring-loaded locking pin involved",
         b: 'Pulling and rotating the parking brake handle traps the pressure generated by pressing the brake pedals, via the parking brake valve and a shuttle valve with two check valves, keeping the brakes engaged; a spring-loaded pin locks the handle in the engaged position until the left brake pedal is pushed to release it',
-        c: 'The parking brake is applied automatically whenever the WOW microswitches detect weight on wheels'
+        c: "The parking brake is applied automatically whenever the WOW microswitches detect weight on wheels, trapping whatever pedal pressure is present at touchdown through a single check valve; the handle in the cockpit only indicates brake status and plays no part in applying or releasing the brake"
     },
     correct: 'b'
 },
@@ -43387,8 +43387,8 @@ export const questions = [
     Category: '32',
     question: 'Explain the operation of the parking brake control valve.',
     options: {
-        a: 'The valve regulates main rotor hydraulic pressure and has no connection to the wheel brakes',
-        b: 'The valve is solenoid-operated and energizes automatically whenever the engines are shut down',
+        a: "The valve regulates main rotor hydraulic pressure rather than wheel brake pressure, and is connected only to the rotor brake system; pulling the parking brake handle has no effect on this valve, since wheel brake pressure is trapped separately by a dedicated accumulator in the brake pedal assembly itself",
+        b: "The valve is solenoid-operated and energizes automatically whenever the engines are shut down, trapping whatever pedal pressure happens to be present at that moment through a single check valve; there is no shuttle valve or manual handle, and the parking brake releases automatically as soon as either engine is restarted",
         c: 'The parking brake handle operates a push-pull cable connected to the parking brake valve, which traps pedal-generated pressure via a shuttle valve with two check valves to keep the brake calipers engaged; a hydraulic accumulator in the valve compensates for fluid leaks and temperature-related pressure changes, and a position microswitch signals when the handle is pulled'
     },
     correct: 'c'
@@ -43412,8 +43412,8 @@ export const questions = [
     question: 'What in-flight indications are there of an unlocked nose landing gear?',
     options: {
         a: 'The amber NOSE light remains illuminated on the LGCP (instead of going green), since the position microswitch signals the unlocked condition and the green triangular NOSE light will not illuminate until the lock is confirmed engaged',
-        b: 'The PARK BRK PRESS caution illuminates to indicate an unlocked nose gear',
-        c: 'No indication is given in flight; it can only be confirmed visually after landing'
+        b: "The PARK BRK PRESS caution illuminates to indicate an unlocked nose gear, since the parking brake and nose wheel centerlock share the same pressure sensing circuit; no separate NOSE light logic exists on the LGCP for the centerlock pin position",
+        c: "No indication is given in flight; it can only be confirmed visually after landing, since the position microswitch feeds only a maintenance recorder rather than the LGCP, and neither the green nor amber NOSE light responds to centerlock pin position in flight"
     },
     correct: 'a'
 },
@@ -43423,9 +43423,9 @@ export const questions = [
     Category: '32',
     question: 'The landing gear will not retract in flight, what could the problem be?',
     options: {
-        a: 'The ELEC PUMP pushbutton has not been pressed for 2 minutes beforehand',
+        a: "The ELEC PUMP pushbutton has not been pressed for 2 minutes beforehand, so the auxiliary electrical pump has not built up enough reserve pressure in the accumulator for the main system to begin the retraction sequence, even though the NLG centerlock is confirmed locked",
         b: 'The nose landing gear centerlock may not be locked (green LOCK not illuminated on the NOSE WHEEL CENTERLOCK pushbutton) - the retraction sequence (Phase 1, MLG Shortening) will not start until the NLG is confirmed locked in the center position',
-        c: 'The parking brake handle has not been pulled'
+        c: "The parking brake handle has not been pulled, which the landing gear control logic interprets as the aircraft still being on the ground; until the handle is pulled, the retraction sequence is inhibited regardless of NLG centerlock status or WOW switch state"
     },
     correct: 'b'
 },
@@ -43435,9 +43435,9 @@ export const questions = [
     Category: '32',
     question: 'Explain the operation of the emergency extension system.',
     options: {
-        a: 'It is a fully automatic system that engages whenever the LANDING GEAR caution sounds, with no pilot action required',
+        a: "Lifting the guard and pressing the EMER DOWN pushbutton energizes the normal landing gear selector valve rather than a dedicated emergency valve, routing System 2 pressure through the LGCL to retract the MLG shortening actuators and extend the NLG retraction actuator in a single phase; the sequence valve plays no part since all three legs move together, and the three green lights illuminate after a fixed five-second delay regardless of actual lock status",
         b: 'Lifting the guard and pressing the EMER DOWN pushbutton energizes the emergency valve solenoid, delivering System 1 pressure to elongate the MLG shortening actuators and extend the NLG retraction actuator (Phase 1), independent of the LGCL position; once the actuators are fully down, pressure restores and the sequence valve opens to elongate the MLG shortening actuators (Phase 2 transitioning), and when all legs are down and locked the three green lights illuminate (Phase 2 end)',
-        c: 'It uses the auxiliary electrical pump exclusively, with no involvement from the main hydraulic systems'
+        c: "Lifting the guard and pressing the EMER DOWN pushbutton activates the auxiliary electrical pump exclusively, bypassing both main hydraulic systems; the pump pressurises a dedicated emergency accumulator that drives the NLG retraction actuator first and the MLG shortening actuators only after the NLG is down, with the sequence valve remaining closed throughout and the three green lights illuminating as soon as pump pressure is detected, not when the gear is locked"
     },
     correct: 'b'
 },
@@ -45377,7 +45377,7 @@ export const questions = [
     id: 4869,
     Aircraft: 'AW139',
     Category: '62',
-    question: "What tool is used to check the friction of the lag damper bearing's rod end?",
+    question: "What tool is used to check the friction of the main rotor lag damper bearing's rod end?",
     options: {
         a: 'A torque wrench',
         b: 'A dial gauge',
@@ -46327,9 +46327,9 @@ export const questions = [
     Category: '62',
     question: 'Describe the construction of the main rotor blades.',
     options: {
-        a: 'A welded steel tube spar wrapped in fabric, with a wooden tip block',
+        a: "A welded steel tube spar wrapped in fabric skin, with a wooden tip block bonded on and no erosion shield or heater mat fitted; the blade body is built up from laminated wood ribs rather than honeycomb, and the root fitting is a single forged steel lug rather than Nylatron plates",
         b: "A 'D'-section fibreglass spar forms an anti-torsional box carrying the steel erosion shield and optional heater mat; multilayered graphite-tape skins over an internal honeycomb are bonded to the spar to form the blade body; a glassfibre/honeycomb tip with a nickel erosion shield is bonded on to complete the blade, with Nylatron plates at the root",
-        c: 'A solid extruded aluminium spar with a riveted sheet-metal skin and a bolted-on steel tip'
+        c: "A solid extruded aluminium spar with a riveted sheet-metal skin and a bolted-on steel tip block; no erosion shield or heater mat is fitted since the aluminium skin resists erosion, and the root end uses a machined aluminium fitting rather than Nylatron plates"
     },
     correct: 'b'
 },
@@ -46363,8 +46363,8 @@ export const questions = [
     Category: '62',
     question: 'Describe the main rotor head.',
     options: {
-        a: 'A semi-rigid teetering assembly with a single central trunnion bearing shared by all five blades',
-        b: 'A rigid, hingeless assembly with no bearings, transmitting loads directly from blade to mast via bonded composite fittings',
+        a: "A semi-rigid teetering assembly with a single central trunnion bearing shared by all five blades, splined directly to the mast with no elastomeric bearings; blade flap is accommodated by the teetering action alone, while lead/lag and pitch change are accommodated by a separate gimbal ring fitted below the hub",
+        b: "A rigid, hingeless assembly with no bearings of any kind, transmitting flap, lead/lag and pitch loads directly from each blade to the mast via bonded composite fittings; drive is transmitted through a single splined collar rather than conical rings, and there are no tension links between the hub and the blades",
         c: 'A fully articulated assembly built around a one-piece forged titanium hub, splined to the mast and secured by top and bottom conical rings with a ring nut/pressure plate; an elastomeric bearing is fitted in each of the five tension links, allowing blade flap, lead/lag and pitch change, while transmitting drive and loads between the mast and the blades'
     },
     correct: 'c'
@@ -46375,9 +46375,9 @@ export const questions = [
     Category: '62',
     question: 'What must be remembered when replacing main rotor pitch rods (pitch links)?',
     options: {
-        a: 'No follow-up checks are required, provided the new link is the same part number',
+        a: "No follow-up checks are required, provided the new link is the same part number and length as the one removed; the securing bolts can be installed with the head on either side since orientation relative to rotation has no effect on pitch link function",
         b: "A blade track check and rotating controls adjustment must be carried out afterward; the new pitch link's length must be adjusted to match the value of the replaced link using a specific tool; and its securing bolts must be installed with the head on the side of rotation",
-        c: 'Only a continuity check is required; track and rigging are unaffected by pitch link length'
+        c: "Only a continuity check is required on the new pitch link; track and rigging are unaffected by pitch link length since the pitch change horn automatically compensates for any length difference, and no blade dynamic balancing check is needed afterward"
     },
     correct: 'b'
 },
@@ -47653,7 +47653,7 @@ export const questions = [
     },
     correct: 'a'
 },
-{
+/* {
     id: 5059,
     Aircraft: 'AW139',
     Category: '63',
@@ -47664,7 +47664,7 @@ export const questions = [
         c: 'Inspection of the pitch link upper rod assembly'
     },
     correct: 'b'
-},
+}, */
 {
     id: 5060,
     Aircraft: 'AW139',
@@ -48584,8 +48584,8 @@ export const questions = [
     question: 'Describe how the lift loads and torque loads are transmitted from the MGB to the airframe.',
     options: {
         a: 'The anti-torque beam, connected to the bottom of the MGB and bolted to the central fuselage, absorbs the torque load; the four support rods (two front, two back), connecting the MGB upper casing to the central fuselage, absorb the lift loads',
-        b: 'The anti-torque beam absorbs lift loads, while the support rods absorb the torque load',
-        c: 'A single central mounting pylon absorbs both torque and lift loads together'
+        b: "The anti-torque beam, connected to the bottom of the MGB, absorbs lift loads and transmits them to the central fuselage, while the four support rods connecting the MGB upper casing to the fuselage absorb the torque load generated by the main rotor",
+        c: "A single central mounting pylon bolted directly beneath the MGB absorbs both torque and lift loads together, with no separate anti-torque beam or support rods fitted; all loads pass through this one pylon into the central fuselage structure"
     },
     correct: 'a'
 },
@@ -48596,8 +48596,8 @@ export const questions = [
     question: 'Describe the transmission chip detectors.',
     options: {
         a: 'Three chip detectors are fitted - two in the sump near the pump suction ducts and one close to the mast bearing - which attract ferrous particles and trigger a CAS caution; the crew can attempt a chip burn up to three times via a pushbutton, with successful burns logging date/time/sensor/attempt count to NVM',
-        b: 'Four chip detectors are fitted, one per oil jet manifold, each independently wired to its own display',
-        c: 'A single chip detector in the sump monitors the entire lubrication circuit, with no burn-off capability'
+        b: "Four chip detectors are fitted, one per oil jet manifold, each independently wired to its own display with no shared CAS caution; there is no chip burn capability, so any detector trip requires an immediate ground inspection and oil filter change before further flight",
+        c: "A single chip detector in the sump monitors the entire lubrication circuit, with no burn-off capability and no attempt counter; any particle detection immediately triggers a non-resettable caution that remains displayed until the sump is drained and inspected on the ground"
     },
     correct: 'a'
 },
@@ -48607,9 +48607,9 @@ export const questions = [
     Category: '63',
     question: 'Explain how the freewheel units work.',
     options: {
-        a: 'A shear pin in each input shaft breaks to disconnect a failed engine, requiring replacement before further flight',
+        a: "A shear pin in each MGB input shaft breaks to mechanically disconnect a failed engine, requiring the pin to be replaced before further flight; there is no sprag or roller mechanism, so until the pin is replaced the failed engine's shaft remains connected and is driven as dead weight by the rotor",
         b: 'Sprag type freewheeling units at each MGB input engage to drive the rotor when the engine is running (rollers caught between input and output shafts); if an engine fails or shuts down, the output shaft (driven by the rotor or the other engine) frees the rollers so the unit acts as a bearing, allowing drive only in the engine-to-rotor direction',
-        c: 'A multi-plate wet clutch engages hydraulically to transmit drive, disengaging only when oil pressure is lost'
+        c: "A multi-plate wet clutch at each MGB input engages hydraulically to transmit drive, disengaging automatically whenever oil pressure is lost rather than when an engine's output shaft slows relative to the rotor; drive can be transmitted in either direction through the clutch, so a failed engine can be back-driven by the rotor"
     },
     correct: 'b'
 },
@@ -48631,8 +48631,8 @@ export const questions = [
     Category: '63',
     question: 'Describe the operation of the rotor brake.',
     options: {
-        a: 'A single ON/OFF switch directly energizes the calliper pistons, with no separate control module or accumulator',
-        b: 'The rotor brake engages automatically whenever NR drops below 40%, with no pilot lever input required',
+        a: "The RBCL has only ON and OFF positions, with ON directly energizing the calliper pistons through a dedicated electrical solenoid and bypassing the RBCM entirely; there is no accumulator or parking-pressure function, and the RBPI displays only a binary brake-on or brake-off status rather than system pressure or calliper position",
+        b: "The rotor brake engages automatically whenever NR drops below 40%, with the RBCM sensing rotor speed directly and commanding the RBA calliper closed with no RBCL lever input required; the RBPI shows only a rotor-speed readout rather than hydraulic pressure, and there is no manual PUMPING position since the accumulator charges automatically once NR reaches zero",
         c: 'The pilot uses the RBCL (OFF/PUMPING/BRAKE); the RBCM controls hydraulic power to the RBA, whose calliper, pads and pistons clamp a disc on the tail rotor drive shaft; moving from OFF to BRAKE with both engines off closes the outlet valve, pushes the pucks onto the disc, and partially charges the accumulator, while pumping between PUMPING and BRAKE builds parking pressure up to 46.5 bar; the RBPI shows system pressure and calliper position throughout'
     },
     correct: 'c'
@@ -49519,9 +49519,9 @@ export const questions = [
     Category: '64',
     question: 'Describe the attachment of the TR pitch control rods (pitch links).',
     options: {
-        a: 'Hydraulic push-pull rods connected directly to the TGB mast',
+        a: "Hydraulic push-pull rods connected directly to the TGB mast via a swivel fitting, with no spherical bearings or adjustable rod ends; the rods carry hydraulic pressure rather than mechanical load, and securing bolts are installed head facing against the direction of rotation",
         b: 'Stainless steel tie rods with an adjustable rod end spherical bearing at each end (one LH, one RH thread), connecting the spider/slider assembly to the pitch change arm at the blade trailing edge, with securing bolts installed head facing the direction of rotation',
-        c: 'Fixed-length titanium rods, welded at one end to the spider and bolted at the other to the blade root'
+        c: "Fixed-length titanium rods, welded at one end to the spider and bolted at the other directly to the blade root rather than the pitch change arm; since the rods are fixed length, no adjustable rod end bearing is fitted, and the securing bolts have no specified orientation relative to rotation"
     },
     correct: 'b'
 },
@@ -49556,8 +49556,8 @@ export const questions = [
     question: 'What must be remembered when replacing a TR spider assembly?',
     options: {
         a: 'After installation, dimension X (spider to slider plane) and dimension Y (duplex bearing) must equal dimension Z (spider plane to duplex bearing) once the securing nut is torque loaded, and a blade dynamic balancing check is required',
-        b: 'No post-installation checks are required if the same part number is fitted',
-        c: 'Only a continuity check is required; dimensional checks apply only to pitch link replacement'
+        b: "No post-installation checks are required if the same part number is fitted, since the spider assembly is a sealed unit with no adjustable dimensions; dynamic balancing is only required if the pitch links themselves are also replaced at the same time",
+        c: "Only a continuity check is required; dimensional checks such as the spider-to-slider and duplex bearing relationships apply only to pitch link replacement, not to the spider assembly itself, and no blade dynamic balancing is needed afterward"
     },
     correct: 'a'
 },
@@ -50156,8 +50156,8 @@ export const questions = [
     question: 'Describe the conical rings that support the tail rotor hub on the TGB mast, and their purpose.',
     options: {
         a: 'Two bottom half conical rings sit on a shoulder inside the hub and a top conical ring is fitted over them on the mast, matching a conical section on the hub; the rings centre and support the hub on the mast and transmit shear loads from the blades and hub into the mast',
-        b: 'Two conical rings are fitted inside the IGB bevel gear bore to take up axial float in the duplex ball bearing',
-        c: 'A single conical ring is bonded inside the hub bore and acts only as a dust seal, carrying no structural load'
+        b: "Two conical rings are fitted inside the IGB bevel gear bore to take up axial float in the duplex ball bearing, rather than to centre or support the tail rotor hub; they carry no shear load from the blades and have no contact with the TGB mast or hub at all",
+        c: "A single conical ring is bonded inside the hub bore and acts only as a dust seal, carrying no structural load; the hub is instead centred and supported on the mast by a splined collar, with shear loads from the blades carried through the splines rather than conical rings"
     },
     correct: 'a'
 },
@@ -51499,7 +51499,7 @@ export const questions = [
     Category: '67',
     question: 'What do the microswitches incorporated in the yaw pedals operate, and what effect does this have?',
     options: {
-        a: "They operate the yaw trim actuator's magnetic clutch directly, bypassing the MISC panel switches",
+        a: 'They operate the tail rotor pitch change links, giving a direct mechanical override of the hydraulic servo in case of a dual hydraulic failure',
         b: 'They operate the wheel brakes independently of the brake pedal function',
         c: 'They operate the FTR (Force Trim Release), which temporarily suspends AFCS control of the helicopter so the pilot can manoeuvre it'
     },
@@ -53905,7 +53905,7 @@ export const questions = [
     },
     correct: 'c'
 },
-{
+/* {
     id: 5584,
     Aircraft: 'AW139',
     Category: '28',
@@ -53916,7 +53916,7 @@ export const questions = [
         c: 'A full probe replacement at 3000 hours regardless of condition'
     },
     correct: 'a'
-},
+}, */
 {
     id: 5585,
     Aircraft: 'AW139',
@@ -54944,8 +54944,8 @@ export const questions = [
     question: 'What does the rear firewall physically separate?',
     options: {
         a: 'The rear side of the engines (gearboxes, starter generators, fuel lines, engine controls) from the exhaust ducts, fire-extinguishing bottles, tail rotor drive system and rear fuselage',
-        b: 'The main rotor gearbox from the main rotor blades',
-        c: 'The cockpit from the cabin'
+        b: "The main rotor gearbox from the main rotor blades, forming a fire boundary between the gearbox casing and the blade root fittings; it has no connection to the engine bay, exhaust ducts or fire-extinguishing bottles, which are separated instead by the forward firewall",
+        c: "The cockpit from the cabin, forming a fire boundary between the two occupied compartments; the engines, gearboxes, starter generators, exhaust ducts and fire-extinguishing bottles are all located aft of this firewall rather than being separated by it"
     },
     correct: 'a'
 },
@@ -55400,8 +55400,8 @@ export const questions = [
     question: 'Describe the operation of the crossfeed switch in the fuel system.',
     options: {
         a: 'It has OPEN and CLOSED positions that let the crew select the crossfeed valve manually at any time, plus a NORM position in which the valve opens automatically on a signal from the pressure switch if a feeding line loses pressure; valve condition is shown by a panel indicator and the green FUEL XFEED advisory',
-        b: 'It directly varies booster pump speed rather than operating the crossfeed valve, with no OPEN, CLOSED or NORM positions',
-        c: 'It is a simple two-position ON/OFF switch with no automatic logic; OFF stops both booster pumps simultaneously'
+        b: "It directly varies booster pump speed rather than operating the crossfeed valve, with no OPEN, CLOSED or NORM positions; increasing pump speed on one side raises that tank's feed pressure relative to the other, achieving a crossfeed-like effect without any valve or pressure switch being involved",
+        c: "It is a simple two-position ON/OFF switch with no automatic logic or NORM position; OFF stops both booster pumps simultaneously regardless of feed line pressure, and ON opens the crossfeed valve permanently with no panel indicator or FUEL XFEED advisory to show its condition"
     },
     correct: 'a'
 },
@@ -55411,9 +55411,9 @@ export const questions = [
     Category: '28',
     question: 'Describe the fuel tank installation on the AW139.',
     options: {
-        a: 'A single tank split internally by a fixed baffle, with one shared vent line and no breakaway attachment feature',
+        a: "A single bladder-type tank split internally by a fixed baffle into left and right cells, made of rubber impregnated fabric, located between the engine compartment floor and the cabin floor; the two cells share one common vent line routed to the top of the right cell, are gravity refuelled through a single filler on the left cell, and the tank assembly is bolted directly to the airframe with no sump plate or break-away attachment feature",
         b: 'Two bladder-type main tanks (left and right), made of rubber impregnated fabric for crash resistance, located on the rear side of the cabin between the engine compartment floor and the aircraft underside; interconnected by a flange and duct on the lower inboard side, gravity refuelled through a common filler at the top of the right tank, each vented at the top with two outlets (one external, one via an internal fairing), and mounted on a sump plate secured by four break-away clips',
-        c: 'Two rigid aluminium tanks bolted externally to the fuselage sides, refuelled independently through two separate filler points with no interconnection'
+        c: "Two rigid aluminium tanks (left and right), bolted externally to the lower fuselage sides outside the pressure structure, refuelled independently through two separate filler points with no interconnecting flange or duct between them; each tank is vented through a single external outlet only, and the tanks are secured directly to the airframe frames with no sump plate or break-away attachment"
     },
     correct: 'b'
 },
@@ -55423,9 +55423,9 @@ export const questions = [
     Category: '28',
     question: 'Describe the indications if a fuel quantity probe fails.',
     options: {
-        a: "Any probe failure immediately displays the tank's full rated capacity as a safe default, with no caution given",
+        a: "Any primary or secondary probe failure immediately drives that tank's quantity indication to the full rated tank capacity as a safe default, and the caution 1 (2) FUEL PROBE is displayed only if both the primary and secondary probes on the same tank fail together; a single probe failure alone gives no caution and no change to the indicated reading",
         b: "A primary probe failure gives the caution 1 (2) FUEL PROBE and the secondary probe takes over the quantity indication; if both primary probes fail, the caution is displayed and quantity reads relative to the probes' maximum height (lower than actual); a secondary probe failure sets that tank's quantity indication to zero, and if both secondary probes fail, the caution 1 (2) FUEL PROBE is displayed together with a zero indication",
-        c: "A probe failure always shuts down that tank's booster pump automatically, regardless of which probe (primary or secondary) has failed"
+        c: "A primary probe failure automatically shuts down that tank's booster pump and gives the caution 1 (2) FUEL PROBE, while the secondary probe takes no part in quantity indication at any time; a secondary probe failure alone shuts down the crossfeed valve for that tank and sets the quantity indication to the last valid reading rather than zero"
     },
     correct: 'b'
 },
@@ -55448,8 +55448,8 @@ export const questions = [
     question: 'Describe the fuel manifold.',
     options: {
         a: 'The fuel selector manifold, located on the left side of the cabin near the horizontal engine firewall, comprises a 28 VDC ball-type shut-off valve and a pressure transducer for each feeding line plus a single 28 VDC crossfeed valve; each valve is a high speed, permanent-magnet rotary actuator with microswitches for end-of-travel status and a relief device to discharge overpressure to the opposite tank inlet; pipelines from the manifold run to each engine firewall via frangible self-sealing couplings',
-        b: 'A non-return device only, with no shut-off or crossfeed valve function, located inside the auxiliary tank',
-        c: 'A single shared valve body with no separate transducers, operated entirely by manual cables with no electrical components'
+        b: "The fuel selector manifold, located on the right side of the cabin near the vertical firewall, comprises a single 28 VDC solenoid valve shared between both feeding lines with no individual pressure transducers, plus a manually operated crossfeed cock with no electrical position indication; each valve is a slow speed, linear actuator with no microswitches or overpressure relief device, and pipelines run directly to each engine through rigid, non-frangible couplings",
+        c: "The fuel selector manifold, located in the baggage compartment aft of the cabin, comprises two 115 VAC ball-type shut-off valves and a single shared pressure transducer for both feeding lines, with no separate crossfeed valve since crossfeed is achieved by opening both shut-off valves together; each valve is a low speed, spring-return actuator with no end-of-travel microswitches, and pipelines run to each engine firewall via rigid welded joints"
     },
     correct: 'a'
 },
@@ -55460,8 +55460,8 @@ export const questions = [
     question: 'What are the indications of a low fuel quantity?',
     options: {
         a: "The caution 1 (2) FUEL LOW is displayed when quantity falls below the secondary probe's low level sensor threshold (92 kg); failure of that sensor instead gives 1 (2) FUEL LOW FAIL; during crossfeed, the affected tank's digital readout turns grey once quantity drops below 228 kg (503 lb)",
-        b: 'The fuel pressure gauge alone drops below 0.6 bar, with no separate quantity-based caution logic',
-        c: 'A single red FUEL LOW warning with no associated sensor failure caution and no relation to crossfeed state'
+        b: "The fuel pressure gauge alone drops below 0.6 bar, with no separate quantity-based caution logic and no secondary probe threshold; crossfeed operation has no effect on the digital readout colour, which remains white regardless of indicated quantity",
+        c: "A single red FUEL LOW warning is displayed with no associated sensor failure caution and no relation to crossfeed state; it triggers only when the primary probe, not the secondary low-level sensor, detects quantity below 92 kg, and the digital readout never changes colour"
     },
     correct: 'a'
 },
@@ -55483,8 +55483,8 @@ export const questions = [
     Category: '28',
     question: 'Describe the fuel test.',
     options: {
-        a: 'The test can be run at any time in flight and simply recalibrates the fuel quantity reading, with no pass/fail caution',
-        b: 'The test only checks the booster pumps and shut-off valves; it has no connection to the Fuel Control Unit',
+        a: "The test can be run at any time in flight using the FUEL pushbutton, simply recalibrating the fuel quantity reading with no pass/fail caution; it does not run automatically at power-up, and the FCU has no continuous BIT function, only this manually initiated recalibration",
+        b: "The test only checks the booster pumps and shut-off valves via the Test Control Panel; it has no connection to the Fuel Control Unit, runs for a fixed 20 seconds regardless of result, and gives no amber TEST caption, only a simple pass or fail light",
         c: 'Pressing the FUEL pushbutton on the Test Control Panel initiates a built-in test: the white FUEL caption changes to amber TEST and returns to white FUEL after about 6 seconds; the same test runs automatically at power-up, and the FCU also performs a continuous BIT; an unsuccessful result displays 1 (2) FCU TEST FAIL, and the manual test can only be run on the ground'
     },
     correct: 'c'
@@ -55496,8 +55496,8 @@ export const questions = [
     question: 'Describe the fuel control unit (FCU).',
     options: {
         a: "Located in the right avionic bay at the rear of the central fuselage (STA X7040), it converts fuel height from the probes into fuel mass, compensating for fuel density as a function of temperature using tank geometry held in its software; it has two independent channels linked for comparison so one channel's failure doesn't affect the other, sends digital data to the MAUs via ARINC429, provides excitation to the capacitance and thermistor sensors, applies roll attitude compensation, and runs BIT at power-up, continuously, and on manual initiation",
-        b: 'A single-channel analogue unit with no built-in test capability and no data link to the MAUs',
-        c: 'A purely mechanical float-and-dial device with no electronic interface, located in the cockpit Fuel Control Panel itself'
+        b: "Located in the left avionic bay forward of the transmission deck, it is a single-channel analogue unit that converts fuel height into volume rather than mass, with no temperature or density compensation, no roll attitude correction, and no software-held tank geometry table; it communicates with the MAUs over RS-422 rather than ARINC429, excites only the thermistor sensors, and runs BIT once at power-up only, with no continuous or manual-initiation testing capability",
+        c: "A dual-channel unit mounted inside the Fuel Control Panel in the cockpit, which derives fuel mass directly from flow-meter data rather than probe height so it ignores tank geometry, temperature and density entirely; the two channels are permanently cross-linked so that any single channel fault forces a full FCU shutdown, and status is reported to the MAUs only during the continuous BIT cycle, never at power-up or on manual initiation"
     },
     correct: 'a'
 },
@@ -56120,8 +56120,8 @@ export const questions = [
     question: 'How is the Number 2 bearing lubricated, and how is its scavenge oil returned?',
     options: {
         a: "Pressure oil reaches it via an inlet port, internal pressure tube and cored passage, applied by a dual nozzle at the 2 o'clock position; scavenge oil returns via an internal tube at 6 o'clock to a boss at 5 o'clock, then an external transfer tube to the AGB",
-        b: 'It is lubricated by grease packed at assembly, with no scavenge system required for its service life',
-        c: 'It is lubricated by splash only, with no pressure feed; scavenge oil drains directly overboard through the exhaust duct'
+        b: "It is lubricated by grease packed at assembly, with no scavenge system required for its service life; the dual nozzle at the 2 o'clock position and the internal transfer tube to the AGB described for pressure-fed bearings do not apply to this bearing",
+        c: "It is lubricated by splash only, with no pressure feed from an inlet port or cored passage; scavenge oil drains directly overboard through the exhaust duct rather than returning via an internal tube to a boss and external transfer tube to the AGB"
     },
     correct: 'a'
 },
@@ -56563,8 +56563,8 @@ export const questions = [
     Category: '72',
     question: 'How does the accessory gearbox input gear shaft couple to the compressor, and how is positive engagement obtained?',
     options: {
-        a: 'It bolts directly to the compressor rear hub with no spline, relying solely on friction to transmit torque',
-        b: 'It couples via a hydraulic clutch with no mechanical spline, disengaging automatically above idle speed',
+        a: "It bolts directly to the compressor rear hub with no spline at all, relying solely on friction between the mating faces to transmit torque; there is no ball-lock or thrust-transmitting feature, so axial position is maintained only by the mounting bolts",
+        b: "It couples via a hydraulic clutch with no mechanical spline, disengaging automatically above idle speed to protect the accessory gearbox; thrust to the compressor Number 1 ball bearing is instead carried through a separate dedicated thrust rod",
         c: "Its external spline mates with the input coupling shaft's internal spline, which is secured at its front end to the compressor rear hub coupling spline; positive engagement is obtained by a ball-lock that also transmits thrust to the compressor Number 1 ball bearing"
     },
     correct: 'c'
@@ -56587,8 +56587,8 @@ export const questions = [
     Category: '72',
     question: 'List the components supported by the AGB.',
     options: {
-        a: 'Only the Number 1 and Number 5 bearings, with no electrical or fuel system components',
-        b: 'Only the compressor bleed valve and the P2.8 check valve, with no oil system components',
+        a: "Only the Number 1 and Number 5 bearings, with no electrical sensors, fuel system components, or oil system components mounted on the gearbox; all sensing and filtering for the engine is instead located on the accessory gearbox housing of the other engine for redundancy",
+        b: "Only the compressor bleed valve and the P2.8 check valve, with no oil system components such as filters, coolers or pressure regulating valves mounted on the AGB; all oil servicing items are instead located on the main gearbox rather than the accessory gearbox",
         c: 'N1/Ng sensor (reading the starter/generator teeth), Data Collection Unit, fuel heater, oil filter, oil filter impending bypass indicator, oil cooler, chip detector, cold start valve, oil pressure regulating valve, oil pressure sensor, and oil temperature/low oil pressure switch'
     },
     correct: 'c'
@@ -58589,7 +58589,7 @@ export const questions = [
     id: 5974,
     Aircraft: 'AW139',
     Category: '75',
-    question: 'What does the wrap-around inlet screen prevent?',
+    question: 'What does the wrap-around engine inlet screen prevent?',
     options: {
         a: 'Entrance of hot exhaust gases back into the compressor',
         b: 'Entrance of fuel vapour into the inlet duct',
@@ -65165,7 +65165,7 @@ export const questions = [
     id: 6522,
     Aircraft: 'AW139',
     Category: '21',
-    question: 'What does the temperature sensor measure, and what does it feed to the heating control box?',
+    question: 'What does the heating system temperature sensor measure, and what does it feed to the heating control box?',
     options: {
         a: 'The temperature of the mixed air downstream of the jet pump mixing unit, feeding an automatic feedback signal to control the TCV',
         b: 'The temperature of the engine bleed air at the firewall, feeding a signal to trip the shut-off valves',
@@ -66569,7 +66569,7 @@ export const questions = [
     id: 6639,
     Aircraft: 'AW139',
     Category: '31',
-    question: 'How are status messages displayed, and what indicates the end of the message stack?',
+    question: 'How are status messages displayed, and what indicates the end of the message stack on the CAS?',
     options: {
         a: 'Steady-on white text on black background; a white "END" message indicates the end of the stack',
         b: 'Flashing white text on red background; a red "STOP" message indicates the end',
