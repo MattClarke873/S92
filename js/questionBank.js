@@ -71180,5 +71180,2165 @@ export const questions = [
     question: 'What does the ATA chapter 23 Aircraft Fault Isolation Publication consist of?',
     options: { a: 'Detected faults only.', b: 'Observed faults only.', c: 'A mix of detected and observed faults equally.' },
     correct: 'a'
-  }
+  },
+{
+    id: 7057,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Where are the number 1 and 2 Pitot-static probes installed on the AW139?',
+    options: {
+        a: 'On the left and right side of the helicopter nose at STA 2110',
+        b: 'On the left and right side of the tail boom, forward of the flux valves',
+        c: 'On the leading edge of the main rotor blades near the root fitting'
+    },
+    correct: 'a'
+},
+{
+    id: 7058,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How many output ports does each Pitot-static probe have, and what do they sense?',
+    options: {
+        a: 'Three ports - two static pressure ports (S1, S2) and one total pressure port (P)',
+        b: 'Two ports - one static pressure port and one outside air temperature port',
+        c: 'Four ports - two total pressure ports and two static pressure ports'
+    },
+    correct: 'a'
+},
+{
+    id: 7059,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What happens to the static port output in the Pitot-static system?',
+    options: {
+        a: 'The static port is isolated and feeds only the on-side ADM with no cross-link',
+        b: 'The static port vents directly overboard through a dedicated drain valve',
+        c: 'The static port has a left-to-right cross-link through a Tee-fitting'
+    },
+    correct: 'c'
+},
+{
+    id: 7060,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What position is the alternate static source toggle switch normally set to, and what happens in ALTN?',
+    options: {
+        a: 'Normally set to ALTN; in NORM the source of static pressure is isolated from the ADMs',
+        b: 'Normally set to NORM; in ALTN the source of static pressure becomes the alternate static source',
+        c: 'Normally set to OFF; in ALTN the pitot heat circuit is automatically de-energized'
+    },
+    correct: 'b'
+},
+{
+    id: 7061,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What two actions does selecting the alternate static port to ALTN require to maintain instrument accuracy?',
+    options: {
+        a: 'Closing windows and vents, and turning the heater/ECS off',
+        b: 'Opening the cabin door and disconnecting the standby ADI',
+        c: 'Reducing airspeed below 60 knots and disabling the AHRS'
+    },
+    correct: 'a'
+},
+{
+    id: 7062,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'By how much does the altimeter reading decrease when the alternate static source is selected?',
+    options: {
+        a: '200 ft',
+        b: '550 ft',
+        c: '20 ft'
+    },
+    correct: 'a'
+},
+{
+    id: 7063,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Where are the air data modules (ADMs) installed on the aircraft?',
+    options: {
+        a: 'Inside the tail boom, adjacent to the number 1 and 2 flux valves',
+        b: 'On the left and right side of the nose, attached to the nose bulkhead',
+        c: 'In the lower avionic bay, next to the TCAS processor'
+    },
+    correct: 'b'
+},
+{
+    id: 7064,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is the nominal supply voltage for ADM No.1 and which bus bar supplies it?',
+    options: {
+        a: '28 VDC from ESS bus bar No.1',
+        b: '115 VAC from the essential AC bus',
+        c: '28 VDC from MAIN bus bar No.1'
+    },
+    correct: 'c'
+},
+{
+    id: 7065,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What module in the MAU supplies sensor excitation to the air data system?',
+    options: {
+        a: 'The control input/output (CIO) module',
+        b: 'The custom input/output (CSIO) module',
+        c: 'The actuator input/output with processor (AIOP) module'
+    },
+    correct: 'b'
+},
+{
+    id: 7066,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does the CIO module in the MAU receive from the display controller?',
+    options: {
+        a: 'The outside air temperature signal from the OAT probe',
+        b: 'The barometric correction value from the barometric set control',
+        c: 'The pitot heat status discrete from the probe heater circuit'
+    },
+    correct: 'b'
+},
+{
+    id: 7067,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What happens to the barometric correction output if both display controllers fail?',
+    options: {
+        a: 'It remains unchanged at the last value for ADA1 and ADA2',
+        b: 'It automatically resets to standard pressure (1013 hPa)',
+        c: "It switches to the standby ADI's internally stored barometric setting"
+    },
+    correct: 'a'
+},
+{
+    id: 7068,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is the nominal current draw of each OAT probe, and from where is it supplied?',
+    options: {
+        a: '1.9 mA from the on-side MAU',
+        b: '2.5 A from the on-side MAIN bus bar',
+        c: '28 mA from the on-side AHRU'
+    },
+    correct: 'a'
+},
+{
+    id: 7069,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What type of gyros does the AHRS use to supply its inertial measurement system?',
+    options: {
+        a: 'Rate-based Fiber Optic Gyros (FOGs) with micromechanical accelerometers',
+        b: 'Mechanical rate gyros mounted on a spinning gimballed platform',
+        c: 'Ring laser gyros paired with piezoelectric vibration sensors'
+    },
+    correct: 'a'
+},
+{
+    id: 7070,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What component supplies long-term magnetic heading reference to the AHRU?',
+    options: {
+        a: "The compass control panel's internal magnetometer",
+        b: 'The flux valve (magnetic data unit)',
+        c: "The GPS receiver's magnetic north correction output"
+    },
+    correct: 'b'
+},
+{
+    id: 7071,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Where are the number 1 and 2 flux valves located?',
+    options: {
+        a: 'In the left and right nose compartment, adjacent to the AHRUs',
+        b: 'In the aft and forward position on the left side of the rear fuselage',
+        c: 'On the tail rotor gearbox housing, near the tail rotor drive shaft'
+    },
+    correct: 'b'
+},
+{
+    id: 7072,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is stored on the CAL PROM, and when must it be recalibrated?',
+    options: {
+        a: 'Calibration data for flux valve errors and tray misalignment; recalibration needed if flux valves are replaced',
+        b: 'Software version data for the AHRU; recalibration needed if the AHRU is replaced',
+        c: 'Compass swing data for the standby ADI; recalibration needed every 1200 hours'
+    },
+    correct: 'a'
+},
+{
+    id: 7073,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'In DG mode, what happens to the flux valve output to the AHRS?',
+    options: {
+        a: 'It is doubled in gain to compensate for loss of magnetic slaving',
+        b: 'It is turned off, and the AHRU operates as a free directional gyro',
+        c: "It is averaged with the standby ADI's internal heading to improve accuracy"
+    },
+    correct: 'b'
+},
+{
+    id: 7074,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is the specified free directional gyro drift rate in DG mode?',
+    options: {
+        a: 'Maximum 2 degrees per hour',
+        b: 'Maximum 5 degrees per hour',
+        c: 'Maximum 15 degrees per hour'
+    },
+    correct: 'b'
+},
+{
+    id: 7075,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How long does the nominal AHRS ground alignment take before ATT and HDG flags disappear?',
+    options: {
+        a: '90 seconds',
+        b: '30 seconds',
+        c: '3 minutes'
+    },
+    correct: 'b'
+},
+{
+    id: 7076,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What flight condition parameters define straight and level for an in-air AHRS alignment?',
+    options: {
+        a: 'Max pitch +/-10 deg, max roll +/-5 deg, max yaw rate 1 deg/sec, max accel 0.05g',
+        b: 'Max pitch +/-5 deg, max roll +/-2 deg, max yaw rate 0.5 deg/sec, max accel 0.02g',
+        c: 'Max pitch +/-20 deg, max roll +/-10 deg, max yaw rate 3 deg/sec, max accel 0.1g'
+    },
+    correct: 'a'
+},
+{
+    id: 7077,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How long can the AHRS remain in Normal mode after loss of valid TAS data?',
+    options: {
+        a: 'Up to 5 minutes',
+        b: 'Up to 30 seconds',
+        c: 'Up to 15 minutes'
+    },
+    correct: 'a'
+},
+{
+    id: 7078,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What triggers the AHRS to enter Basic mode?',
+    options: {
+        a: 'No valid True Air Speed (TAS) data available from the ADS',
+        b: 'Loss of valid magnetic heading data from the flux valve',
+        c: 'Loss of GPS ground speed data while in MAG mode'
+    },
+    correct: 'a'
+},
+{
+    id: 7079,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is the attitude accuracy of the AHRS in Basic mode?',
+    options: {
+        a: 'Better than 0.5 degree',
+        b: 'Better than 1 degree',
+        c: 'Better than 5 degrees'
+    },
+    correct: 'b'
+},
+{
+    id: 7080,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does the AHRS TEST button display for pitch, roll and heading during a self-test?',
+    options: {
+        a: 'Pitch +5 deg, Roll +45 deg, Heading +15 deg',
+        b: 'Pitch +10 deg, Roll +30 deg, Heading +5 deg',
+        c: 'Pitch 0 deg, Roll +90 deg, Heading +45 deg'
+    },
+    correct: 'a'
+},
+{
+    id: 7081,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What CAS caution messages are triggered by an AHRS failure, in addition to AHRS FAIL?',
+    options: {
+        a: 'AVIONIC FAULT, plus AP FAIL and AFCS DEGRADED on the affected side',
+        b: 'ADS FAIL, plus ALT FAIL and VNE EXCEEDANCE on the affected side',
+        c: 'FLUX VALVE FAIL, plus COMPASS SYNC FAIL on the affected side'
+    },
+    correct: 'a'
+},
+{
+    id: 7082,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How does the pilot restore attitude and heading indications after an AHRS failure?',
+    options: {
+        a: 'Select the non-failed system using the AHRS selector knob on the RCP',
+        b: 'Pull and reset the AHRS circuit breakers for at least 0.5 seconds',
+        c: 'Switch the compass control panel from MAG to DG mode manually'
+    },
+    correct: 'a'
+},
+{
+    id: 7083,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does a Detachable Configuration Module (DCM) on the STBY ADI store?',
+    options: {
+        a: 'The AHRS calibration data normally held on the CAL PROM',
+        b: "The display's format configuration, including panel angle and heading calibration",
+        c: "The flux valve's magnetic variation table for the installed region"
+    },
+    correct: 'b'
+},
+{
+    id: 7084,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How long does the STBY ADI display screen stay blank during power-up BIT?',
+    options: {
+        a: 'Approximately 15 seconds',
+        b: 'Approximately 30 seconds',
+        c: 'Approximately 60 seconds'
+    },
+    correct: 'a'
+},
+{
+    id: 7085,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Within what time does STBY ADI sensor alignment normally reach normal operation mode?',
+    options: {
+        a: 'Within thirty seconds of applying power',
+        b: 'Within six minutes of applying power under all conditions',
+        c: 'Within three minutes of applying power'
+    },
+    correct: 'c'
+},
+{
+    id: 7086,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'If STBY ADI sensor alignment is disturbed by aircraft motion, how long before the unit shows ALIGNMENT FAIL?',
+    options: {
+        a: 'Three minutes',
+        b: 'Six minutes',
+        c: 'Ninety seconds'
+    },
+    correct: 'b'
+},
+{
+    id: 7087,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What type of system is the VIDL (VOR/ILS Data Link) system?',
+    options: {
+        a: 'A stand-alone GPS-based navigation receiver, independent of the MRC',
+        b: 'A remote-controlled airborne navigation receiver operating in VOR and ILS modes, part of the MRC',
+        c: 'A ground-based transmitter system that uplinks course data to the AHRS'
+    },
+    correct: 'b'
+},
+{
+    id: 7088,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What three functions make up the ILS portion of the VIDL system?',
+    options: {
+        a: 'VOR, DME, and ADF',
+        b: 'RAD ALT, TCAS, and XPDR',
+        c: 'LOC (Localizer), GS (Glideslope), and MKR (Marker) beacon'
+    },
+    correct: 'c'
+},
+{
+    id: 7089,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Where are the VIDL1 and VIDL2 modules installed?',
+    options: {
+        a: 'In the overhead console, left and right of the AHRS control panels',
+        b: 'In the MRC1 and MRC2, in the left and right side of the nose compartment bay',
+        c: 'In the tail boom, adjacent to the number 1 and 2 flux valves'
+    },
+    correct: 'b'
+},
+{
+    id: 7090,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Which circuit breakers supply electrical power to the VIDL1 and VIDL2 modules?',
+    options: {
+        a: 'CB23 for VIDL1 and CB18 for VIDL2',
+        b: 'CB49 for VIDL1 and CB50 for VIDL2',
+        c: 'CB39 for VIDL1 and CB38 for VIDL2'
+    },
+    correct: 'a'
+},
+{
+    id: 7091,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What identification tone do VOR/LOC ground stations transmit?',
+    options: {
+        a: 'A 400 Hz keyed audio frequency tone',
+        b: 'A 1020 Hz Morse code identification tone',
+        c: 'A 75 MHz continuous carrier tone'
+    },
+    correct: 'b'
+},
+{
+    id: 7092,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Where is the MB coupler installed, and how many connectors does it have?',
+    options: {
+        a: 'In the right side of the nose compartment, with three connectors',
+        b: 'In the left side of the nose structure, with two connectors',
+        c: 'In the center nose radome, with four connectors'
+    },
+    correct: 'a'
+},
+{
+    id: 7093,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Where is the VOR/LOC antenna installed?',
+    options: {
+        a: 'On top of the nose radome, centered on the aircraft axis',
+        b: 'On the bottom center of the fuselage, near the ADF antenna',
+        c: 'In the left and right side of the tail section'
+    },
+    correct: 'c'
+},
+{
+    id: 7094,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'In what frequency range does the VOR receiver operate, and with what channel spacing?',
+    options: {
+        a: '108.00 to 111.95 MHz with 50 kHz channel separation',
+        b: '329.00 to 335.00 MHz with 150 kHz channel separation',
+        c: '108.00 to 117.95 MHz with 50 kHz channel separation'
+    },
+    correct: 'c'
+},
+{
+    id: 7095,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What frequency range and channel count does the GS receiver use?',
+    options: {
+        a: '329.00 to 335.00 MHz over 40 channels, paired with LOC channels',
+        b: '108.10 to 111.95 MHz over 40 channels, independent of LOC tuning',
+        c: '75 MHz fixed single channel, independent of LOC tuning'
+    },
+    correct: 'a'
+},
+{
+    id: 7096,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What are the three MKR beacon modulation frequencies, from outer to inner?',
+    options: {
+        a: 'Outer 1300 Hz, middle 400 Hz, inner 3000 Hz',
+        b: 'Outer 3000 Hz, middle 1300 Hz, inner 400 Hz',
+        c: 'Outer 400 Hz, middle 1300 Hz, inner 3000 Hz'
+    },
+    correct: 'c'
+},
+{
+    id: 7097,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'At what approximate distance from the runway threshold is the middle marker normally located?',
+    options: {
+        a: 'Approximately 3500 ft',
+        b: 'Approximately 5 miles',
+        c: 'Approximately 500 ft'
+    },
+    correct: 'a'
+},
+{
+    id: 7098,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is the sequence of the circle (Number 1) BRG pushbutton on the Display Controller?',
+    options: {
+        a: 'OFF, VOR1, VOR2, FMS1, and OFF',
+        b: 'OFF, VOR1, ADF, FMS1, and OFF',
+        c: 'OFF, ADF, LOC1, FMS1, and OFF'
+    },
+    correct: 'b'
+},
+{
+    id: 7099,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What colour is the course pointer when the flight director is coupled, versus when it is not?',
+    options: {
+        a: 'Cyan when coupled, magenta when not coupled',
+        b: 'Magenta when coupled, cyan when not coupled',
+        c: 'White when coupled, green when not coupled'
+    },
+    correct: 'b'
+},
+{
+    id: 7100,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does the TO/FROM indicator show when deviation from the VOR course is 88 degrees or less?',
+    options: {
+        a: 'It is positioned at the nose of the aircraft symbol, indicating TO the station',
+        b: 'It is positioned at the tail of the aircraft symbol, indicating TO the station',
+        c: 'It flashes amber at the center of the compass rose, indicating station passage'
+    },
+    correct: 'a'
+},
+{
+    id: 7101,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How many degrees of vertical deviation does each dot represent on the glideslope scale?',
+    options: {
+        a: '0.75 degree above or below glideslope',
+        b: '2.5 degrees above or below glideslope',
+        c: '1.5 degrees above or below glideslope'
+    },
+    correct: 'c'
+},
+{
+    id: 7102,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What happens on the HSI when a GS miscompare is first detected?',
+    options: {
+        a: 'The GS annunciator flashes for six seconds then lights steadily',
+        b: 'The GS annunciator lights steadily for six seconds then begins flashing',
+        c: 'The GS annunciator appears amber for three seconds then disappears entirely'
+    },
+    correct: 'a'
+},
+{
+    id: 7103,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Do VIDL system failures generate CAS cautions?',
+    options: {
+        a: 'No - frequencies and commands are removed and replaced with dashes and an amber cross',
+        b: 'Yes - a VIDL FAIL caution appears in the CAS window',
+        c: 'Yes - an AVIONIC FAULT caution appears, identical to an AHRS failure'
+    },
+    correct: 'a'
+},
+{
+    id: 7104,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is the VOR bearing accuracy specification for the VIDL receiver module?',
+    options: {
+        a: 'Plus or minus 0.25 degree',
+        b: 'Plus or minus 2.0 degrees',
+        c: 'Plus or minus 0.75 degree'
+    },
+    correct: 'c'
+},
+{
+    id: 7105,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What type of signal does the RAD ALT system use to calculate AGL altitude?',
+    options: {
+        a: 'Pulsed Doppler radar signals',
+        b: 'Amplitude-modulated continuous wave signals',
+        c: 'Frequency-modulated continuous wave (FMCW) signals'
+    },
+    correct: 'c'
+},
+{
+    id: 7106,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is the maximum altitude range of the RAD ALT system?',
+    options: {
+        a: '1500 ft',
+        b: '2500 ft',
+        c: '5000 ft'
+    },
+    correct: 'b'
+},
+{
+    id: 7107,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: "In a dual RAD ALT installation, which receiver-transmitter supplies data to the pilot's PFD?",
+    options: {
+        a: "Receiver-transmitter No.2 supplies the pilot's PFD",
+        b: "Receiver-transmitter No.1 supplies the pilot's PFD",
+        c: "Both receiver-transmitters feed the pilot's PFD simultaneously, averaged"
+    },
+    correct: 'a'
+},
+{
+    id: 7108,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Where are the four radio-altimeter antennae installed?',
+    options: {
+        a: 'On the bottom of the tail section',
+        b: 'On the bottom of the nose, forward of the pitot-static probes',
+        c: 'On the belly of the fuselage, aft of the ADF antenna'
+    },
+    correct: 'a'
+},
+{
+    id: 7109,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'At what frequency does the RAD ALT transmit?',
+    options: {
+        a: '1090 MHz pulsed',
+        b: '4300 MHz FMCW',
+        c: '9375 MHz pulsed'
+    },
+    correct: 'b'
+},
+{
+    id: 7110,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'When only one radio altimeter is installed, how is it wired to the MAUs?',
+    options: {
+        a: 'It is wired only to MAU1',
+        b: 'It is wired to both MAUs',
+        c: 'It is wired only to the on-side MAU, with the other MAU using AHRS data instead'
+    },
+    correct: 'b'
+},
+{
+    id: 7111,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What modulation frequencies distinguish receiver-transmitter 1 from receiver-transmitter 2 in a dual system?',
+    options: {
+        a: 'RT1 at 400 Hz, RT2 at 1300 Hz',
+        b: 'RT1 at 50 Hz, RT2 at 51 Hz',
+        c: 'RT1 at 28 Hz, RT2 at 56 Hz'
+    },
+    correct: 'b'
+},
+{
+    id: 7112,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'At what altitude does the Low Altitude Alert Display (LAAD) begin to appear on the barometric altitude tape?',
+    options: {
+        a: '250 ft AGL',
+        b: '1100 ft AGL',
+        c: '550 ft AGL'
+    },
+    correct: 'c'
+},
+{
+    id: 7113,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is the decision height (DH) range settable on the Remote Instrument Controller?',
+    options: {
+        a: '0 to 1000 ft',
+        b: '50 to 5000 ft',
+        c: '20 to 2500 ft'
+    },
+    correct: 'c'
+},
+{
+    id: 7114,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'During a RAD ALT PUSH TEST, what value does the display pointer indicate?',
+    options: {
+        a: '50 ft plus or minus 5 ft',
+        b: '200 ft plus or minus 20 ft',
+        c: '100 ft plus or minus 10 ft'
+    },
+    correct: 'c'
+},
+{
+    id: 7115,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is the transmitter operating frequency of the PRIMUS 660 weather radar?',
+    options: {
+        a: '9375 MHz, plus or minus 25 MHz',
+        b: '4300 MHz, plus or minus 15 MHz',
+        c: '1030 MHz, plus or minus 10 MHz'
+    },
+    correct: 'a'
+},
+{
+    id: 7116,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: "How much power does the PRIMUS 660 transmitter's magnetron circuit supply to the antenna?",
+    options: {
+        a: '10 kW',
+        b: '2 kW',
+        c: '25 kW'
+    },
+    correct: 'a'
+},
+{
+    id: 7117,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How often does the PRIMUS 660 antenna complete a full scan, and over what angle in normal sweep mode?',
+    options: {
+        a: 'Every 10 seconds, over 60 degrees (30 deg each side)',
+        b: 'Every 5 seconds, over 180 degrees (90 deg each side)',
+        c: 'Every 10 seconds, over 120 degrees (60 deg each side)'
+    },
+    correct: 'c'
+},
+{
+    id: 7118,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Where is the PRIMUS 660 weather radar controller installed?',
+    options: {
+        a: 'In the interseat console',
+        b: 'On the overhead console, next to the AHRS control panel',
+        c: 'In the lower avionic bay, next to the TCAS processor'
+    },
+    correct: 'a'
+},
+{
+    id: 7119,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does forced standby (FSBY) mode do, and what triggers it?',
+    options: {
+        a: 'Shuts the RTA off completely, triggered by a magnetron warm-up failure',
+        b: 'Keeps the RTA on but not transmitting, triggered by a weight-on-wheels condition',
+        c: 'Switches the RTA to beacon-only mode, triggered by loss of AHRS stabilization data'
+    },
+    correct: 'b'
+},
+{
+    id: 7120,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How can the pilot override the FSBY safety mode on the ground?',
+    options: {
+        a: 'Push the GAIN knob in and hold for 5 seconds',
+        b: 'Push the STAB button four times within 3 seconds',
+        c: 'Pull and reset the weather radar circuit breaker'
+    },
+    correct: 'b'
+},
+{
+    id: 7121,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does pulling out the GAIN control knob on the PRIMUS 660 controller do?',
+    options: {
+        a: 'Calibrates the receiver gain automatically to a fixed value',
+        b: 'Switches the system from WX mode to GMAP mode automatically',
+        c: 'Allows manual adjustment of radar receiver gain, shown as VAR on the display'
+    },
+    correct: 'c'
+},
+{
+    id: 7122,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What ranges does the PRIMUS 660 RTA operate at in WX, RCT or GMAP modes?',
+    options: {
+        a: '5, 10, 20, 40, 80, 160, and 320 NM full scale',
+        b: '5, 10, 25, 50, 100, 200, and 300 NM full scale',
+        c: '2.5, 5, 10, 25, 50, 100, and 150 NM full scale'
+    },
+    correct: 'b'
+},
+{
+    id: 7123,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is the primary mission of the RDR-1500B+/1700A search and surveillance radar?',
+    options: {
+        a: 'Precision terrain mapping only',
+        b: 'Maritime search and surveillance',
+        c: 'Weather avoidance only'
+    },
+    correct: 'b'
+},
+{
+    id: 7124,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How many targets can the RDR-1500B+/1700A tracker capability track?',
+    options: {
+        a: '45 targets',
+        b: '10 targets',
+        c: '20 targets'
+    },
+    correct: 'c'
+},
+{
+    id: 7125,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What scan angle and rate does the DA-1203A antenna drive unit provide?',
+    options: {
+        a: '180 degrees at 28 deg/sec',
+        b: '120 degrees at 15 deg/sec',
+        c: '120 degrees at 28 deg/sec'
+    },
+    correct: 'c'
+},
+{
+    id: 7126,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What beamwidth does the AA-1812A antenna array provide?',
+    options: {
+        a: '8.1 deg azimuth and 5.5 deg elevation',
+        b: '3.0 deg azimuth and 4.0 deg elevation',
+        c: '5.5 deg azimuth and 8.1 deg elevation'
+    },
+    correct: 'c'
+},
+{
+    id: 7127,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How many softkeys does the CN-1706A Radar Control Panel provide?',
+    options: {
+        a: '12 softkeys',
+        b: '24 softkeys',
+        c: '18 softkeys'
+    },
+    correct: 'c'
+},
+{
+    id: 7128,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What happens when the WOW ORIDE pushbutton is pressed three times within 2 seconds?',
+    options: {
+        a: 'It overrides the weight-on-wheels interlock, letting the RDR-1500B+ radiate on the ground',
+        b: 'It switches the radar into Standby mode, inhibiting all transmission',
+        c: 'It resets the Test Target Generator and clears all tracked marks'
+    },
+    correct: 'a'
+},
+{
+    id: 7129,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'In Search mode, what is the minimum tracking range for surface targets at sea?',
+    options: {
+        a: '1200 feet',
+        b: '50 feet',
+        c: '500 feet'
+    },
+    correct: 'c'
+},
+{
+    id: 7130,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is the antenna diameter and radar band of the RDR-7000 weather radar system?',
+    options: {
+        a: '18-inch (457 mm) circular antenna, C-band',
+        b: '8-inch (203 mm) circular antenna, Ku-band',
+        c: '12-inch (305 mm) circular antenna, X-band'
+    },
+    correct: 'c'
+},
+{
+    id: 7131,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is the maximum detection range for turbulence with the RDR-7000 system?',
+    options: {
+        a: 'Up to 25 nautical miles',
+        b: 'Up to 60 nautical miles',
+        c: 'Up to 150 nautical miles'
+    },
+    correct: 'b'
+},
+{
+    id: 7132,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does selecting the RCT mode on the weather radar controller do to the GAIN control?',
+    options: {
+        a: 'It disables the GAIN control entirely, blanking the display',
+        b: 'It doubles the variable gain range available to the operator',
+        c: 'It overrides the variable gain, fixing it to a calibrated value'
+    },
+    correct: 'c'
+},
+{
+    id: 7133,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What two functional areas make up the EGPWS?',
+    options: {
+        a: 'Ground Proximity Warning System (GPWS) and Terrain Awareness Display (TAWS)',
+        b: 'Weather avoidance (WX) and Beacon navigation (BCN)',
+        c: 'Radio altimeter monitoring and TCAS resolution advisory'
+    },
+    correct: 'a'
+},
+{
+    id: 7134,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is the purpose of the EGPWS Smart Cable?',
+    options: {
+        a: 'To upload software/databases and download EGPWS flight history via a PCMCIA reader',
+        b: 'To provide a hardwired backup link between the EGPWS computer and the MAUs',
+        c: 'To supply +28V DC emergency power to the EGPWS computer'
+    },
+    correct: 'a'
+},
+{
+    id: 7135,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Which MAU supplies the primary EGPWS ARINC 429 data in normal operation?',
+    options: {
+        a: 'MAU1, connected to the primary ARINC 429 bus',
+        b: 'MAU2, connected to the primary ARINC 429 bus',
+        c: 'Both MAUs equally, with the data averaged by the EGPWS computer'
+    },
+    correct: 'b'
+},
+{
+    id: 7136,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How is landing gear position data supplied to the EGPWS?',
+    options: {
+        a: 'Via the secondary ARINC 429 bus from MAU1, same as the other parameters',
+        b: 'Through a separate dedicated circuit, not via the MAU ARINC buses',
+        c: 'Via a discrete signal routed through the AHRS reversion control panel'
+    },
+    correct: 'b'
+},
+{
+    id: 7137,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What altitude reference does the EGPWS terrain map and alerting algorithm use?',
+    options: {
+        a: 'Corrected barometric altitude, referenced to the local QNH setting',
+        b: 'A calculated geometric altitude (true height above MSL), not corrected barometric altitude',
+        c: 'Radio altitude only, with no reference to Mean Sea Level'
+    },
+    correct: 'b'
+},
+{
+    id: 7138,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What minimum height defines a man-made obstacle in the EGPWS database?',
+    options: {
+        a: 'More than 50 feet AGL',
+        b: 'More than 100 feet AGL',
+        c: 'More than 250 feet AGL'
+    },
+    correct: 'b'
+},
+{
+    id: 7139,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How accurate is the EGPWS Terrain and Obstacle database information expected to be?',
+    options: {
+        a: 'Accurate to within 100 feet',
+        b: 'Accurate to within 5 feet',
+        c: 'Accurate to within 25 feet'
+    },
+    correct: 'c'
+},
+{
+    id: 7140,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: "What does selecting LOW ALT mode do to Mode 3 DON'T SINK alerts?",
+    options: {
+        a: 'Inhibits them above 500 ft',
+        b: 'Inhibits them above 100 ft',
+        c: 'Disables them completely regardless of altitude'
+    },
+    correct: 'b'
+},
+{
+    id: 7141,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Under what conditions does the G/S CANCEL mode re-arm?',
+    options: {
+        a: 'Climb above 500 ft AGL, descend below 200 ft AGL, or select a new flight plan',
+        b: 'Landing gear retraction, or selection of the TERR INHIBIT function',
+        c: 'Climb above 2000 ft AGL, descend below 50 ft AGL, or tune a different NAV frequency'
+    },
+    correct: 'c'
+},
+{
+    id: 7142,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How long does the MUTE function inhibit EGPWS aural alerts for?',
+    options: {
+        a: '5 minutes',
+        b: '30 seconds',
+        c: '15 minutes'
+    },
+    correct: 'a'
+},
+{
+    id: 7143,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: "What colour indicates terrain at least 500 ft above the aircraft's altitude with no safe clearance?",
+    options: {
+        a: 'Amber',
+        b: 'Red',
+        c: 'Magenta'
+    },
+    correct: 'b'
+},
+{
+    id: 7144,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Approximately how far ahead does the EGPWS look-ahead function issue a caution-level terrain alert?',
+    options: {
+        a: 'Approximately 10 seconds, plus or minus 2',
+        b: 'Approximately 45 seconds, plus or minus 10',
+        c: 'Approximately 26 seconds, plus or minus 5'
+    },
+    correct: 'c'
+},
+{
+    id: 7145,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Below what airspeed is the EGPWS look-ahead envelope completely inhibited?',
+    options: {
+        a: '70 kt',
+        b: '40 kt',
+        c: '100 kt'
+    },
+    correct: 'a'
+},
+{
+    id: 7146,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What boundary triggers the Mode 4A TOO LOW TERRAIN aural caution?',
+    options: {
+        a: 'Descending below 300 ft radio altitude with airspeed above 120 KIAS',
+        b: 'Descending below 150 ft radio altitude with airspeed above 100 KIAS',
+        c: 'Descending below 50 ft radio altitude regardless of airspeed'
+    },
+    correct: 'b'
+},
+{
+    id: 7147,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'At what radio altimeter height is an autorotation TOO LOW GEAR warning given in Mode 4A?',
+    options: {
+        a: '400 ft',
+        b: '150 ft',
+        c: '1000 ft'
+    },
+    correct: 'a'
+},
+{
+    id: 7148,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How many levels does the EGPWS self-test function have, and which can be launched directly from the MCDU?',
+    options: {
+        a: '4 levels; all four can be launched directly from the MCDU test page',
+        b: '6 levels; Levels 1 through 3 can be launched from the MCDU test page',
+        c: '6 levels; only Level 1 (Go/No Go) can be launched from the MCDU test page'
+    },
+    correct: 'c'
+},
+{
+    id: 7149,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What radius does TCAS monitor around the aircraft by interrogating nearby transponders?',
+    options: {
+        a: 'Approximately 36 nautical miles',
+        b: 'Approximately 5 nautical miles',
+        c: 'Approximately 18 nautical miles'
+    },
+    correct: 'c'
+},
+{
+    id: 7150,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Where is the TCAS processor installed?',
+    options: {
+        a: 'In the lower avionic bay, between STA 6700 and STA 7200',
+        b: 'In the nose compartment, adjacent to MRC2',
+        c: 'In the tail boom, adjacent to the flux valves'
+    },
+    correct: 'a'
+},
+{
+    id: 7151,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What happens if the TCAS configuration module is not programmed or is incompatible with the processor software?',
+    options: {
+        a: 'The TCAS automatically reverts to a default factory configuration',
+        b: 'The TCAS continues to operate normally using cached configuration data',
+        c: 'A system failure is annunciated'
+    },
+    correct: 'c'
+},
+{
+    id: 7152,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'In the short nose configuration, how does the TCAS top antenna connect to the processor across the nose door hinge?',
+    options: {
+        a: 'Through a fixed hardwired coaxial cable routed through a hinge loop',
+        b: 'Through a wireless RF link activated only when the nose door is closed',
+        c: 'Through a Blind Mate antenna system of blind connectors and coaxial cables'
+    },
+    correct: 'c'
+},
+{
+    id: 7153,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What happens to TCAS traffic annunciators when the landing gear is extended?',
+    options: {
+        a: 'The TCAS computer raises their priority above all other aural warnings',
+        b: 'The TCAS computer automatically switches to TCAS II resolution advisory mode',
+        c: 'The TCAS computer inhibits the TRAFFIC-TRAFFIC and TRAFFIC annunciators'
+    },
+    correct: 'c'
+},
+{
+    id: 7154,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does the TCAS FAIL message on the PFD indicate?',
+    options: {
+        a: 'TCAS bus fail, TCAS computer fail, or TCAS no computed data',
+        b: 'Loss of ATC XPDR Mode S reply only',
+        c: 'Loss of RAD ALT data feeding the TCAS sensitivity level logic'
+    },
+    correct: 'a'
+},
+{
+    id: 7155,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is the default TCAS display volume mode at power-on?',
+    options: {
+        a: 'NRM, showing traffic between -2700 ft and +2700 ft relative to the aircraft',
+        b: 'EXP, showing traffic between -9000 ft and +9000 ft relative to the aircraft',
+        c: 'ABV, showing traffic between -2700 ft and +9000 ft relative to the aircraft'
+    },
+    correct: 'a'
+},
+{
+    id: 7156,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What symbol indicates a Traffic Advisory (TA) intruder considered potentially hazardous?',
+    options: {
+        a: 'A filled cyan diamond',
+        b: 'An open cyan diamond',
+        c: 'A filled amber circle'
+    },
+    correct: 'c'
+},
+{
+    id: 7157,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Under what range and altitude condition does TCAS Sensitivity Level A (SL A) apply?',
+    options: {
+        a: 'Above 2,000 ft AGL, or with RAD ALT failed and landing gear retracted',
+        b: 'Below 500 ft AGL only, regardless of RAD ALT or gear status',
+        c: 'Below 2,000 ft AGL, or with RAD ALT failed and landing gear extended'
+    },
+    correct: 'c'
+},
+{
+    id: 7158,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'At what altitude does TCAS inhibit the aural TRAFFIC annunciation, and when is it re-enabled?',
+    options: {
+        a: 'Inhibited below 400 ft AGL, re-enabled above 600 ft AGL',
+        b: 'Inhibited below 1000 ft AGL, re-enabled above 1200 ft AGL',
+        c: 'Inhibited below 150 ft AGL, re-enabled above 200 ft AGL'
+    },
+    correct: 'a'
+},
+{
+    id: 7159,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How long does the TCAS self-test run for, and what range does it automatically select?',
+    options: {
+        a: 'Approximately 30 seconds, automatically selecting 5 nm range',
+        b: 'Approximately 2 seconds, automatically selecting 10 nm range',
+        c: 'Approximately 8 seconds, automatically selecting 2.5 nm range'
+    },
+    correct: 'c'
+},
+{
+    id: 7160,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What additional capability does TCAS II provide over TCAS I?',
+    options: {
+        a: 'A lateral steering Resolution Advisory displayed on the HSI compass rose',
+        b: 'An automatic autopilot-coupled avoidance manoeuvre with no pilot action',
+        c: 'A Resolution Advisory (RA) with vertical steering information on the VSI'
+    },
+    correct: 'c'
+},
+{
+    id: 7161,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What symbol indicates a hazardous intruder aircraft under TCAS II resolution advisory?',
+    options: {
+        a: 'A filled red square',
+        b: 'A filled amber circle',
+        c: 'An open red triangle'
+    },
+    correct: 'a'
+},
+{
+    id: 7162,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'On the TCAS II vertical speed tape, what colours represent the avoid and fly-to bands?',
+    options: {
+        a: 'Red for avoid, green for fly-to, with the green band twice as wide',
+        b: 'Amber for avoid, cyan for fly-to, with equal band widths',
+        c: 'Red for avoid, white for fly-to, with the red band twice as wide'
+    },
+    correct: 'a'
+},
+{
+    id: 7163,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How many channels does the standard GPS receiver have?',
+    options: {
+        a: '8 channels',
+        b: '24 channels',
+        c: '12 channels'
+    },
+    correct: 'c'
+},
+{
+    id: 7164,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Where is the GPS receiver module physically located?',
+    options: {
+        a: 'Inside MAU 1',
+        b: 'In the MRC2 radio cabinet, alongside the ADF module',
+        c: 'Inside MAU 2'
+    },
+    correct: 'c'
+},
+{
+    id: 7165,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What minimum number of satellite signals does the GPS need to compute RAIM?',
+    options: {
+        a: 'Three satellite signals',
+        b: 'Five satellite signals',
+        c: 'Eight satellite signals'
+    },
+    correct: 'b'
+},
+{
+    id: 7166,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does the FMS require from the GPS before it will accept GPS position data?',
+    options: {
+        a: 'A valid PRAIM figure only, regardless of current RAIM status',
+        b: 'Confirmation of SBAS augmentation being active',
+        c: 'A valid RAIM figure'
+    },
+    correct: 'c'
+},
+{
+    id: 7167,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What two types of RAIM predictions does the GPS provide?',
+    options: {
+        a: 'Departure and enroute waypoint predictions',
+        b: 'Destination and alternate waypoint predictions',
+        c: 'Takeoff and landing predictions'
+    },
+    correct: 'b'
+},
+{
+    id: 7168,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What outputs does each GPS provide for current position integrity?',
+    options: {
+        a: 'Horizontal and vertical integrity limits (HIL and VIL)',
+        b: 'Horizontal dilution of precision and satellite elevation mask only',
+        c: 'Pseudo range error and clock bias correction only'
+    },
+    correct: 'a'
+},
+{
+    id: 7169,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What interface does the FMS use to interrogate the Predictive RAIM (PRAIM) function?',
+    options: {
+        a: 'The ASCB-D databus',
+        b: 'The ARINC 429 interface',
+        c: 'A dedicated RS-232 serial link'
+    },
+    correct: 'b'
+},
+{
+    id: 7170,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What data does the GPS output to the FMS besides three-dimensional position and velocity?',
+    options: {
+        a: 'Barometric altitude and outside air temperature data',
+        b: 'Satellite position, pseudo range and delta range data',
+        c: 'Magnetic heading and flux valve calibration data'
+    },
+    correct: 'b'
+},
+{
+    id: 7171,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Where is the DME module installed?',
+    options: {
+        a: 'In the MRC1 (Modular Radio Cabinet)',
+        b: 'In the lower avionic bay, next to the TCAS processor',
+        c: 'In the MRC2 (Modular Radio Cabinet)'
+    },
+    correct: 'c'
+},
+{
+    id: 7172,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'In what frequency range does the airborne DME system transmit to the ground station?',
+    options: {
+        a: '960 to 1213 MHz',
+        b: '329 to 335 MHz',
+        c: '1025 to 1150 MHz'
+    },
+    correct: 'c'
+},
+{
+    id: 7173,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'In what frequency range does the ground DME beacon transmit back to the aircraft?',
+    options: {
+        a: '960 to 1213 MHz',
+        b: '1025 to 1150 MHz',
+        c: '108.00 to 117.95 MHz'
+    },
+    correct: 'a'
+},
+{
+    id: 7174,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Where is the DME distance indication shown on the cockpit displays?',
+    options: {
+        a: 'On the PFD, inside the airspeed tape',
+        b: 'On the MCDU scratchpad line only',
+        c: 'On the MFD, adjacent to the HSI'
+    },
+    correct: 'c'
+},
+{
+    id: 7175,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What indication shows on the MFD when the NAV data source is DME-hold?',
+    options: {
+        a: 'A flashing amber DME FAIL message replacing the distance readout',
+        b: 'A DME HOLD indication adjacent to the distance readout',
+        c: 'A cyan HOLD annunciator on the HSI compass card'
+    },
+    correct: 'b'
+},
+{
+    id: 7176,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What test set is used to test the DME system?',
+    options: {
+        a: 'The WinVIEWS SW on a laptop PC',
+        b: 'An RF signal generator connected to the DME antenna',
+        c: 'The IFR 6000 test set'
+    },
+    correct: 'c'
+},
+{
+    id: 7177,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Which unit controls the modes, frequencies and codes of the DME module along with the other MRC radios?',
+    options: {
+        a: 'The Remote Instrument Controller (RIC)',
+        b: 'The MCDU',
+        c: 'The Display Controller (DC)'
+    },
+    correct: 'b'
+},
+{
+    id: 7178,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How is the DME antenna connected to the DME module?',
+    options: {
+        a: 'Through a twisted-pair ARINC 429 cable, with the antenna on the tail section',
+        b: 'Through a fibre-optic link, with the antenna on the nose radome',
+        c: 'Through a coaxial connector, with the antenna on the bottom of the fuselage'
+    },
+    correct: 'c'
+},
+{
+    id: 7179,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What two bandwidth modes does the ADF system use?',
+    options: {
+        a: 'A narrow band mode for voice and a wideband mode for navigation',
+        b: 'A narrow band mode for navigation and a wideband mode for voice quality',
+        c: 'A single fixed bandwidth mode shared for both navigation and voice'
+    },
+    correct: 'b'
+},
+{
+    id: 7180,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'In what frequency range does the ADF module supply steering data to low-frequency beacons?',
+    options: {
+        a: '100 to 190 kHz, and 2181 to 2183 kHz only',
+        b: '190 to 400 kHz, and 1600 to 1799 kHz',
+        c: '960 to 1213 kHz, and 329 to 335 kHz'
+    },
+    correct: 'b'
+},
+{
+    id: 7181,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: "What function does the ADF module's mute (cancel) function perform?",
+    options: {
+        a: 'Cancels background static caused by precipitation static on the ADF antenna',
+        b: 'Cancels cross-talk interference from the VOR receiver during VIDL tuning',
+        c: 'Cancels radio interference caused by HF signals transmitted from the aircraft'
+    },
+    correct: 'c'
+},
+{
+    id: 7182,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What two types of antenna elements make up the ADF antenna system?',
+    options: {
+        a: 'A vertically-polarized sense antenna and horizontally-polarized loop antennas',
+        b: 'A horizontally-polarized sense antenna and vertically-polarized loop antennas',
+        c: 'Two identical vertically-polarized loop antennas with no sense element'
+    },
+    correct: 'a'
+},
+{
+    id: 7183,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What happens to the ADF bearing pointer if the onboard HF radio transmits continuously for more than 5 seconds?',
+    options: {
+        a: 'The electronic ADF bearing pointer goes out of view',
+        b: 'The ADF bearing pointer freezes at its last valid position',
+        c: 'The ADF bearing pointer reverts to the ANT mode position automatically'
+    },
+    correct: 'a'
+},
+{
+    id: 7184,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does ANT mode do on the ADF system?',
+    options: {
+        a: 'Calculates relative bearing with reduced audio sensitivity and range',
+        b: 'Increases the IF bandwidth to improve voice audio with no bearing output',
+        c: 'Receives ADF signals without calculating bearing, with sensitivity/range at maximum'
+    },
+    correct: 'c'
+},
+{
+    id: 7185,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does BFO mode on the ADF system do?',
+    options: {
+        a: 'Increases the intermediate frequency bandwidth to improve audio quality',
+        b: 'Uses a beat frequency oscillator to receive continuous wave (CW) signals',
+        c: 'Switches the sense antenna off to improve loop antenna accuracy'
+    },
+    correct: 'b'
+},
+{
+    id: 7186,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How many memory channels does the ADF memory function store?',
+    options: {
+        a: 'Up to 6 channels',
+        b: 'Up to 12 channels',
+        c: 'Up to 24 channels'
+    },
+    correct: 'b'
+},
+{
+    id: 7187,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Are CAS cautions generated for an ADF system failure?',
+    options: {
+        a: 'Yes - an ADF FAIL caution appears in the CAS window',
+        b: 'Yes - an AVIONIC FAULT caution appears, shared with AHRS failures',
+        c: 'No - ADF malfunctions show only as a frozen or out-of-view bearing pointer'
+    },
+    correct: 'c'
+},
+{
+    id: 7188,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What test equipment is used to perform the ADF function test?',
+    options: {
+        a: 'The IFR 6000 test set',
+        b: 'A laptop PC running WinVIEWS SW',
+        c: 'An RF signal generator'
+    },
+    correct: 'c'
+},
+{
+    id: 7189,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What frequencies does the ATC XPDR system use to receive interrogations and transmit replies?',
+    options: {
+        a: 'Receives at 1030 MHz, transmits at 1090 MHz',
+        b: 'Receives at 1090 MHz, transmits at 1030 MHz',
+        c: 'Receives at 960 MHz, transmits at 1213 MHz'
+    },
+    correct: 'a'
+},
+{
+    id: 7190,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Where is the ATC XPDR module installed?',
+    options: {
+        a: 'On the Number 1 Modular Radio Cabinet (MRC1)',
+        b: 'On the Number 2 Modular Radio Cabinet (MRC2)',
+        c: 'In the lower avionic bay, adjacent to the TCAS processor'
+    },
+    correct: 'b'
+},
+{
+    id: 7191,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What tolerance applies to the barometric altitude data transmitted in a Mode C reply?',
+    options: {
+        a: 'Plus or minus 100 ft',
+        b: 'Plus or minus 50 ft',
+        c: 'Plus or minus 20 ft'
+    },
+    correct: 'a'
+},
+{
+    id: 7192,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does a Mode S reply contain that a Mode A reply does not?',
+    options: {
+        a: 'Only the ID code, identical to Mode A',
+        b: 'The ALT data and the Mode S address, in addition to the ID code',
+        c: 'The TCAS resolution advisory data, in addition to the ID code'
+    },
+    correct: 'b'
+},
+{
+    id: 7193,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How does the ATC XPDR module select which antenna to use for a reply?',
+    options: {
+        a: 'The RF receiver automatically selects the antenna with the strongest signal',
+        b: 'The pilot manually selects the antenna via the MCDU TCAS/XPDR page',
+        c: 'It always transmits from the top antenna unless that antenna fails'
+    },
+    correct: 'a'
+},
+{
+    id: 7194,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What happens in ALT OFF mode on the ATC XPDR?',
+    options: {
+        a: 'The system transmits replies in Mode C only, including altitude data',
+        b: 'The system transmits replies in Mode A and S but not altitude data',
+        c: 'The system stops transmitting replies of any mode'
+    },
+    correct: 'b'
+},
+{
+    id: 7195,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does STANDBY mode do on the ATC XPDR?',
+    options: {
+        a: 'The system is on but does not transmit altitude data or replies',
+        b: 'The system is fully off and requires a circuit breaker reset to restart',
+        c: 'The system transmits Mode A replies only, with no altitude suppression'
+    },
+    correct: 'a'
+},
+{
+    id: 7196,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Where are the ATC XPDR top and bottom antennas installed?',
+    options: {
+        a: 'Top on the rear fuselage, bottom on the left side of the center fuselage',
+        b: 'Top on the nose radome, bottom on the tail section',
+        c: 'Both antennas on the bottom fuselage, separated fore and aft'
+    },
+    correct: 'a'
+},
+{
+    id: 7197,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What system does the ATC XPDR interface with, besides TCAS, for collision data handling?',
+    options: {
+        a: 'The Airborne Data Link Processor (ADLP)',
+        b: 'The Flight Management System (FMS) database',
+        c: 'The EGPWS terrain and obstacle database'
+    },
+    correct: 'a'
+},
+{
+    id: 7198,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How many screws attach the ATC XPDR top antenna to the fuselage structure?',
+    options: {
+        a: 'Four screws',
+        b: 'Six screws',
+        c: 'Eight screws'
+    },
+    correct: 'b'
+},
+{
+    id: 7199,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What two parts make up the FMS Database?',
+    options: {
+        a: 'A performance database and a maintenance fault database',
+        b: 'A terrain database and a weather database',
+        c: 'A navigation database (NDB) and a custom, pilot-defined database'
+    },
+    correct: 'c'
+},
+{
+    id: 7200,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Can the pilot change the navigation database (NDB)?',
+    options: {
+        a: 'Yes, waypoints can be added directly into the NDB in flight',
+        b: 'No, the NDB cannot be changed by the pilot',
+        c: 'Yes, but only approach procedures can be edited by the pilot'
+    },
+    correct: 'b'
+},
+{
+    id: 7201,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How many waypoints and flight plans can the custom database store?',
+    options: {
+        a: 'Up to 500 waypoints and 1000 flight plans',
+        b: 'Up to 2000 waypoints and 500 flight plans',
+        c: 'Up to 1000 waypoints and 3000 flight plans'
+    },
+    correct: 'c'
+},
+{
+    id: 7202,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What sensors does the FMS use as long-range and short-range position sensors respectively?',
+    options: {
+        a: 'DME/DME as long-range; GPS as short-range',
+        b: 'AHRS as long-range; GPS as short-range',
+        c: 'GPS as long-range; DME/DME and VOR/DME as short-range'
+    },
+    correct: 'c'
+},
+{
+    id: 7203,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is the primary function of the FMS?',
+    options: {
+        a: 'Fuel management and time estimation only',
+        b: 'Position computation and flight planning',
+        c: 'Terrain database management and obstacle alerting'
+    },
+    correct: 'b'
+},
+{
+    id: 7204,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What roll rate does LNAV use for rate-1 bank angle turns?',
+    options: {
+        a: '3 degrees per second',
+        b: '1.5 degrees per second',
+        c: '6 degrees per second'
+    },
+    correct: 'a'
+},
+{
+    id: 7205,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How long before a waypoint sequence does the lateral track alert flash the waypoint identifier?',
+    options: {
+        a: '30 seconds',
+        b: '10 seconds',
+        c: '60 seconds'
+    },
+    correct: 'a'
+},
+{
+    id: 7206,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Can VNAV be coupled to the Flight Director?',
+    options: {
+        a: 'Yes, VNAV is fully coupled to the FD in climb and descent',
+        b: 'Yes, but only during the descent phase of flight',
+        c: 'No, the VNAV altitude profile must be flown manually'
+    },
+    correct: 'c'
+},
+{
+    id: 7207,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does TOC stand for in VNAV, and what does it represent?',
+    options: {
+        a: 'Top Of Course - the location at which the FMS re-sequences the active leg',
+        b: 'Terminal Operations Ceiling - the maximum altitude cleared by ATC',
+        c: 'Top Of Climb - the location at which the aircraft should complete the climb'
+    },
+    correct: 'c'
+},
+{
+    id: 7208,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is displayed on the MCDU in addition to TOD during a VNAV descent?',
+    options: {
+        a: 'TOC (Top of Climb) information',
+        b: 'BOD (Bottom of Descent) information',
+        c: 'DH (Decision Height) information'
+    },
+    correct: 'b'
+},
+{
+    id: 7209,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Why should VNAV not be used when the altimeter is set to QFE?',
+    options: {
+        a: 'Because QFE disables the barometric correction input to the ADS entirely',
+        b: 'Because VNAV profiles are referenced to height above the ground, not sea level, under QFE',
+        c: 'Because QFE automatically disengages the FMS as the active NAV source'
+    },
+    correct: 'b'
+},
+{
+    id: 7210,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How many lines and characters per line does the MCDU display have?',
+    options: {
+        a: '10 lines, 20 characters each',
+        b: '14 lines, 24 characters each',
+        c: '18 lines, 30 characters each'
+    },
+    correct: 'b'
+},
+{
+    id: 7211,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is the function of the MCDU scratchpad line?',
+    options: {
+        a: 'A permanent log of all previously entered flight plan waypoints',
+        b: 'A dedicated status line showing only the current NAV source and frequency',
+        c: 'A working area to enter and verify data before line-selecting it into position'
+    },
+    correct: 'c'
+},
+{
+    id: 7212,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does pushing the PERF key on the MCDU display?',
+    options: {
+        a: 'Page 1 of the navigation index',
+        b: 'Page 1 of the performance index',
+        c: "The active flight plan's first page"
+    },
+    correct: 'b'
+},
+{
+    id: 7213,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does the PROG key display on the MCDU?',
+    options: {
+        a: 'Distance, ETE and fuel projection to the TO, NEXT and destination waypoints',
+        b: 'The active flight plan page with DIRECT and INTERCEPT prompts',
+        c: 'The radio tuning page for COM1, COM2, NAV1 and NAV2'
+    },
+    correct: 'a'
+},
+{
+    id: 7214,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: "What prompts appear on the DIR key's active flight plan page?",
+    options: {
+        a: 'DIRECT, PATTERN, and INTERCEPT',
+        b: 'DIRECT, HOLD, and ARRIVAL',
+        c: 'PATTERN, APPROACH, and MISSED'
+    },
+    correct: 'a'
+},
+{
+    id: 7215,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How are the MCDU line select keys (LSK) identified?',
+    options: {
+        a: '1 through 12, numbered sequentially down the left side only',
+        b: '1L through 6L on the left, 1R through 6R on the right',
+        c: 'A through F on the left, G through L on the right'
+    },
+    correct: 'b'
+},
+{
+    id: 7216,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What happens when the scratchpad is empty and a line select key is pushed?',
+    options: {
+        a: 'The respective line data transfers to the scratchpad',
+        b: 'The scratchpad is permanently locked until a flight plan is loaded',
+        c: 'The MCDU automatically displays the next page in the current function'
+    },
+    correct: 'a'
+},
+{
+    id: 7217,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does pushing the CLR key do when an alphanumeric entry is in the scratchpad?',
+    options: {
+        a: 'Clears the entire scratchpad entry in a single push',
+        b: 'Clears the active line-selected field instead of the scratchpad',
+        c: 'Clears one character at a time, from right to left'
+    },
+    correct: 'c'
+},
+{
+    id: 7218,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is displayed in the scratchpad when the DEL key is pushed?',
+    options: {
+        a: '*DELETE*',
+        b: '*CLEAR*',
+        c: '*CANCEL*'
+    },
+    correct: 'a'
+},
+{
+    id: 7219,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What maintains MCDU display brightness over changing light conditions once set?',
+    options: {
+        a: 'A fixed manual setting that does not change until reselected',
+        b: 'Photo sensors monitor ambient light and maintain the set brightness level',
+        c: 'The MCDU automatically syncs brightness to the PFD display brightness'
+    },
+    correct: 'b'
+},
+{
+    id: 7220,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does the RADIO 1/2 page display on the MCDU?',
+    options: {
+        a: 'VHF COM1/COM2, VHF NAV1/NAV2, TCAS/XPDR mode, aircraft ID, and XPDR code/status',
+        b: 'Only the active flight plan legs and waypoint sequence',
+        c: 'EGPWS TAWS mode settings and terrain database version'
+    },
+    correct: 'a'
+},
+{
+    id: 7221,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What control panels are used in FMS operation besides the MCDU?',
+    options: {
+        a: 'RCP, CCP, and weather radar controller',
+        b: 'RIC, DC, and GC (Guidance Controller)',
+        c: 'AHRS control panel and beacon controller only'
+    },
+    correct: 'b'
+},
+{
+    id: 7222,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What does the FUNCTION KEY PAGING option allow, when activated via FLIGHT CONFIG?',
+    options: {
+        a: 'Automatically cycling through all pages of every function every 10 seconds',
+        b: 'Advancing function pages with repeated pushes of the same key instead of NEXT',
+        c: 'Assigning a custom function key sequence defined by the pilot in flight'
+    },
+    correct: 'b'
+},
+{
+    id: 7223,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What generation of digital moving map system is the EuroNav V, and who designed it?',
+    options: {
+        a: 'Third-generation, designed by Honeywell',
+        b: 'Fifth-generation, designed by Euroavionics',
+        c: 'Fourth-generation, designed by Leonardo Helicopters'
+    },
+    correct: 'b'
+},
+{
+    id: 7224,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What system does the EuroNav V integrate with to allow steering of an onboard sensor?',
+    options: {
+        a: "The weather radar's antenna tilt and gain controls",
+        b: 'The TCAS traffic display zoom and range controls',
+        c: 'The FLIR (Forward Looking Infra-Red) camera system'
+    },
+    correct: 'c'
+},
+{
+    id: 7225,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How does the EuroNav V manage the SATCOM system?',
+    options: {
+        a: 'Through an RS232 line (input/output computer cable)',
+        b: 'Through a dedicated ARINC 429 interface shared with the FMS',
+        c: 'Through the ASCB-D databus shared with the MAUs'
+    },
+    correct: 'a'
+},
+{
+    id: 7226,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What disadvantage do raster maps have regarding text?',
+    options: {
+        a: 'Text cannot be displayed at all on raster maps, only symbols',
+        b: 'Text automatically resizes to stay readable at every zoom level',
+        c: 'Text is part of the map picture, so it rotates with the map when used upside down'
+    },
+    correct: 'c'
+},
+{
+    id: 7227,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What type of map combines raster and vector information to show terrain coloured by altitude?',
+    options: {
+        a: 'A terrain map',
+        b: 'A vector map',
+        c: 'A raster map'
+    },
+    correct: 'a'
+},
+{
+    id: 7228,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What terrain data format does the EuroNav V terrain profile function use?',
+    options: {
+        a: 'DTED (Digital Terrain Elevation Data)',
+        b: 'DEM, a proprietary format developed by Euroavionics',
+        c: 'SRTM raw point cloud data'
+    },
+    correct: 'a'
+},
+{
+    id: 7229,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What flight parameters does the EuroNav V flight recording function record?',
+    options: {
+        a: 'Engine torque, rotor RPM and fuel flow only',
+        b: 'AHRS attitude data and flux valve calibration values only',
+        c: 'Aircraft position, altitude, speed, heading and camera footprints'
+    },
+    correct: 'c'
+},
+{
+    id: 7230,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What optional equipment provides a single PCMCIA drive in the cockpit for the digital map system?',
+    options: {
+        a: 'The Digital Map Generator (DMG)',
+        b: 'The switch box',
+        c: 'The control unit'
+    },
+    correct: 'b'
+},
+{
+    id: 7231,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'How many keys does the EuroNav V control unit provide to control its software functions?',
+    options: {
+        a: '8 keys',
+        b: '14 keys',
+        c: '20 keys'
+    },
+    correct: 'b'
+},
+{
+    id: 7232,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What can the Euronav V do with a connected camera besides pointing it at the current footprint?',
+    options: {
+        a: 'Record camera video directly to the FMS navigation database',
+        b: 'Automatically slave the camera to the TCAS intruder bearing',
+        c: 'Steer the camera to a fixed coordinate on command'
+    },
+    correct: 'c'
+},
+{
+    id: 7233,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What data does the AIS transponder transmit, and through which antenna?',
+    options: {
+        a: 'Identity and squawk code only, through the ATC XPDR top antenna',
+        b: 'Vessel traffic data received from nearby ships, through the ADF antenna',
+        c: 'Identity, position, speed, heading and altitude, through the VHF1 antenna'
+    },
+    correct: 'c'
+},
+{
+    id: 7234,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What is the key sensor that ADS-B relies on to determine three-dimensional aircraft position?',
+    options: {
+        a: 'GPS',
+        b: 'AHRS',
+        c: 'RAD ALT'
+    },
+    correct: 'a'
+},
+{
+    id: 7235,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'What modified transponder, or alternative system, is used to implement ADS-B?',
+    options: {
+        a: 'A modified ATC XPDR Mode A transponder (1030 MHz only)',
+        b: 'A dedicated L-band satellite transceiver, independent of the XPDR system',
+        c: 'A modified Mode S transponder (1030/1090 MHz) or a UAT transponder (978 MHz)'
+    },
+    correct: 'c'
+},
+{
+    id: 7236,
+    Aircraft: 'AW139',
+    Category: '34',
+    question: 'Below what altitude is the UAT (978 MHz) transponder typically used for ADS-B?',
+    options: {
+        a: 'Below 10,000 ft',
+        b: 'Below 25,000 ft',
+        c: 'Below 18,000 ft'
+    },
+    correct: 'c'
+},
 ];
