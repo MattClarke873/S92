@@ -64105,7 +64105,7 @@ export const questions = [
     },
     correct: 'b'
 },
-{
+/* {
     id: 6434,
     Aircraft: 'AW139',
     Category: '33',
@@ -64116,7 +64116,7 @@ export const questions = [
         c: 'Only via a dedicated cockpit Lights CAUTION panel, with no CMS involvement'
     },
     correct: 'b'
-},
+}, */
 {
     id: 6435,
     Aircraft: 'AW139',
