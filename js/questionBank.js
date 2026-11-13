@@ -65837,7 +65837,7 @@ export const questions = [
     id: 6578,
     Aircraft: 'AW139',
     Category: '31',
-    question: 'What is the OAT temperature range and dial graduation?',
+    question: 'What is the OAT temperature sensor range and dial graduation?',
     options: {
         a: '-40°C through +120°C, with luminous graduations of 5°C',
         b: '-20°C through +60°C, with luminous graduations of 1°C',
@@ -68217,7 +68217,7 @@ export const questions = [
         options: {
             a: 'A change in cabin configuration weight',
             b: 'A change in fuel quantity calibration',
-            c: 'A change in EPIC HW and/or SW'
+            c: 'A change in EPIC Hardware and/or Software'
         },
         correct: 'c'
     },
